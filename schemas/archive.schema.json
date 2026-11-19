@@ -1,0 +1,167 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hunterground.io/ctf-archive/schemas/archive.schema.json",
+    "title": "Archive source",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "source",
+      "maintainer",
+      "content_types",
+      "verification",
+      "licensing",
+      "references"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "source": {
+        "type": "object",
+        "required": [
+          "type",
+          "url",
+          "owner",
+          "repository",
+          "branch",
+          "commit"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "github",
+              "gitlab",
+              "gitea",
+              "website",
+              "other"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "uri"
+          },
+          "owner": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "repository": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "branch": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "commit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "maintainer": {
+        "type": "object",
+        "required": [
+          "type",
+          "name"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "person",
+              "team",
+              "organization",
+              "unknown"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "content_types": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "verification": {
+        "type": "object",
+        "required": [
+          "status",
+          "last_checked"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "discovered",
+              "partially_verified",
+              "verified",
+              "unavailable",
+              "unknown"
+            ]
+          },
+          "last_checked": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "licensing": {
+        "type": "object",
+        "required": [
+          "declared_license",
+          "redistribution"
+        ],
+        "properties": {
+          "declared_license": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "redistribution": {
+            "enum": [
+              "permitted",
+              "prohibited",
+              "unknown"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "references": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+  

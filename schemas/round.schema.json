@@ -1,0 +1,76 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://hunterground.io/ctf-archive/schemas/round.schema.json",
+    "title": "Round",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "type",
+      "dates",
+      "statistics",
+      "references"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "enum": [
+          "qualification",
+          "final",
+          "semifinal",
+          "preliminary",
+          "warmup",
+          "practice",
+          "other"
+        ]
+      },
+      "dates": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "end": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          }
+        },
+        "additionalProperties": false
+      },
+      "statistics": {
+        "type": "object",
+        "properties": {
+          "challenge_count": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          }
+        },
+        "additionalProperties": false
+      },
+      "references": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,27 @@
+id: example-source-repository
+
+name: Example CTF Challenge Repository
+
+source:
+  type: github
+  url: null
+  owner: null
+  repository: null
+  branch: null
+  commit: null
+
+maintainer:
+  type: unknown
+  name: null
+
+content_types: []
+
+verification:
+  status: discovered
+  last_checked: null
+
+licensing:
+  declared_license: null
+  redistribution: unknown
+
+references: []
