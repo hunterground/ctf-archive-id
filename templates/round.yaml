@@ -1,6 +1,25 @@
+schema_version: "1.0"
+
 id: qualification
+competition_id: example-competition
+edition_year: 2024
+division_id: null
+
 name: Qualification
+original_name: null
+
+# Order of this stage within the edition or division.
+sequence: 1
+
+# Stage. Allowed values: qualification, preliminary, semifinal, final,
+# warmup, practice, other.
+# A single-stage event uses id main and type other.
 type: qualification
+
+# Delivery. Allowed values: online, onsite, hybrid, unknown, or null.
+delivery: null
+
+description: null
 
 dates:
   start: null
@@ -8,5 +27,9 @@ dates:
 
 statistics:
   challenge_count: null
+  participant_count: null
 
 references: []
+
+verification: unverified
+notes: null

@@ -1,76 +1,118 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://hunterground.io/ctf-archive/schemas/round.schema.json",
-    "title": "Round",
-    "type": "object",
-    "additionalProperties": false,
-    "required": [
-      "id",
-      "name",
-      "type",
-      "dates",
-      "statistics",
-      "references"
-    ],
-    "properties": {
-      "id": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-      },
-      "name": {
-        "type": "string",
-        "minLength": 1
-      },
-      "type": {
-        "enum": [
-          "qualification",
-          "final",
-          "semifinal",
-          "preliminary",
-          "warmup",
-          "practice",
-          "other"
-        ]
-      },
-      "dates": {
-        "type": "object",
-        "properties": {
-          "start": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "format": "date"
-          },
-          "end": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "format": "date"
-          }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/round.schema.json",
+  "title": "Round",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "type",
+    "dates",
+    "statistics",
+    "references"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "competition_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "edition_year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "division_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
         },
-        "additionalProperties": false
-      },
-      "statistics": {
-        "type": "object",
-        "properties": {
-          "challenge_count": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 0
-          }
+        { "type": "null" }
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_name": {
+      "type": ["string", "null"]
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "type": {
+      "enum": [
+        "qualification",
+        "final",
+        "semifinal",
+        "preliminary",
+        "warmup",
+        "practice",
+        "other"
+      ]
+    },
+    "delivery": {
+      "anyOf": [
+        { "enum": ["online", "onsite", "hybrid", "unknown"] },
+        { "type": "null" }
+      ]
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
         },
-        "additionalProperties": false
-      },
-      "references": {
-        "type": "array",
-        "items": {
-          "type": "string"
+        "end": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
         }
       }
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "challenge_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "participant_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/reference"
+      }
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
     }
   }
-  
+}

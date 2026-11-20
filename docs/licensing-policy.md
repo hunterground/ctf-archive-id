@@ -13,7 +13,9 @@ For each challenge, record:
 - `declared_license`: the license identifier or exact source wording, if known;
 - `redistribution`: `permitted`, `prohibited`, or `unknown`;
 - `attribution_required`: whether attribution is required or explicitly requested, where known;
-- `attribution`: the attribution text or details, where available.
+- `attribution`: the attribution text or details, where available;
+- `copyright_holder`: the named rights holder, when the source states one;
+- `permission_reference`: the license file, notice, or message that supports `redistribution`, when known.
 
 A missing license or unclear notice means `unknown`. Public access to a GitHub repository, website, or downloadable file is not itself permission to redistribute.
 

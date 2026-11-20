@@ -1,0 +1,63 @@
+schema_version: "1.0"
+
+id: example-competition-2024-qualification-web-001
+name: Original Challenge Name
+slug: 001-original-challenge
+original_name: null
+
+competition_id: example-competition
+edition_year: 2024
+division_id: null
+round_id: qualification
+
+category: web
+original_category: Web
+
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+
+authors:
+  - name: null
+    team: null
+organization: null
+
+provenance:
+  archive_id: example-source-repository
+  source_type: unknown
+  repository: null
+  commit: null
+  original_path: null
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+
+licensing:
+  declared_license: null
+  copyright_holder: null
+  redistribution: unknown
+  attribution_required: null
+  attribution: null
+  permission_reference: null
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+  - title: Example announcement
+    url: https://example.com/ctf
+    type: official_website
+    accessed: null
+
+verification: unverified
+notes: null

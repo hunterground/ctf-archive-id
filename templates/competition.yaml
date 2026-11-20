@@ -1,17 +1,45 @@
+schema_version: "1.0"
+
+# Stable identifier, lowercase kebab-case.
 id: example-competition
+
+# Official competition name, preserved.
 name: Example CTF
 
+# ISO 3166-1 alpha-2 country code.
 country: ID
-organizer: null
+
+organizer:
+  name: null
+  website: null
+
+# Official competition website, when it is distinct from the organizer website.
 website: null
 
-description: ""
+description: null
 
 metadata:
+  # First known edition year. Use null if unknown.
   established_year: null
-  recurring: null
-  formats: []
 
+  # Whether the competition is known to recur.
+  # Allowed values: true, false, null.
+  recurring: null
+
+  # Examples: jeopardy, attack-defense, king-of-the-hill, mixed.
+  formats:
+    - jeopardy
+
+# Lifecycle. Allowed values: active, inactive, unknown.
 status: unknown
 
+# Record quality. Allowed values: unverified, needs_scope_review,
+# corroborated, verified.
+verification: unverified
+
+# Reference object: title, url, type, accessed.
+# type: official_website, organizer_announcement, official_repository,
+# third_party_archive, writeup, other.
 references: []
+
+notes: null

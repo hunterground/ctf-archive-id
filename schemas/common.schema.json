@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/common.schema.json",
+  "title": "Shared archive fragments",
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "url", "type", "accessed"],
+      "properties": {
+        "title": {
+          "type": ["string", "null"]
+        },
+        "url": {
+          "anyOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "type": {
+          "enum": [
+            "official_website",
+            "organizer_announcement",
+            "official_repository",
+            "third_party_archive",
+            "writeup",
+            "other"
+          ]
+        },
+        "accessed": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "verification": {
+      "enum": [
+        "unverified",
+        "needs_scope_review",
+        "corroborated",
+        "verified"
+      ]
+    },
+    "notes": {
+      "type": ["string", "null"]
+    },
+    "pathReason": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "reason"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "checksum": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "algorithm", "value"],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "algorithm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

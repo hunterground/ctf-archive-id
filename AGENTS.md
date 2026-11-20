@@ -16,7 +16,7 @@ The repository itself is the source of truth for archived content and metadata.
 2. **Do not silently modify originals.** Do not rename, reformat, patch, sanitize, rebuild, or delete original challenge files. If a safety or legal concern prevents copying a file, record the omission and its reason in migration notes.
 3. **Do not invent facts.** Never guess competition dates, authors, teams, challenge names, categories, difficulty, flags, licenses, or redistribution permissions.
 4. **Unknown means `null` or an explicit unknown enum.** Do not use fabricated placeholders as factual metadata.
-5. **Preserve provenance.** Record the upstream URL, repository, commit or release when available, and original relative path for every imported challenge.
+5. **Preserve provenance.** Record the upstream repository URL, commit SHA, and original relative path on the challenge `provenance` object.
 6. **Public does not mean redistributable.** A public Git repository is not, by itself, evidence of a license or permission to republish its contents.
 7. **No blanket license assumption.** Determine licensing per challenge and preserve original license/notice files.
 8. **Keep category organization.** Every challenge directory belongs under a category directory. Use `uncategorized/` only when the source does not provide a category and there is insufficient evidence to classify it.
@@ -38,7 +38,7 @@ competitions/<competition-id>/
         └── <round-id>/
             ├── round.yaml
             └── <category>/
-                └── <sequence>-<challenge-slug>/
+                └── <slug>/
                     ├── challenge.yaml
                     └── original/
 ```
@@ -52,11 +52,12 @@ competitions/<competition-id>/
     ├── edition.yaml
     └── divisions/
         └── <division-id>/
+            ├── division.yaml
             └── rounds/
                 └── <round-id>/
                     ├── round.yaml
                     └── <category>/
-                        └── <sequence>-<challenge-slug>/
+                        └── <slug>/
                             ├── challenge.yaml
                             └── original/
 ```
@@ -95,7 +96,7 @@ If the source repository contains multiple competitions or editions, separate th
 ### Phase B — Resolve the archive mapping
 
 1. Determine whether the edition has divisions. Use divisions only when the event actually separated participants or challenge tracks into divisions.
-2. Determine the round structure from source documentation. If round information is unavailable, use a documented `other` round only when there is evidence that the challenge belongs to a distinct event stage. Otherwise stop and ask the user how to represent it.
+2. Determine the round structure from source documentation. If the event has a distinct stage, use that stage. If it is a single-stage event with no qualifier or final, use round id `main` and `type: other`. If it is unclear whether a separate stage existed, stop and ask the user. Do not invent a `final` round.
 3. Map each challenge to a category:
    - Prefer the source's category label.
    - Normalize common aliases to the archive directory vocabulary (see Section 5).
@@ -112,18 +113,21 @@ Use the templates in `templates/` and follow `docs/data-model.md`.
 Create or update:
 - `competition.yaml` once per competition;
 - `edition.yaml` once per edition;
+- `division.yaml` once per real division;
 - `round.yaml` once per round;
 - `challenge.yaml` once per challenge.
 
 Metadata requirements:
 
 - Keep `name` as the original display name where known.
-- Use normalized `id` and `slug` for archive identifiers and paths.
+- Use normalized `id` and `slug` for archive identifiers and paths. `slug` is the challenge directory name.
 - Store source category wording in `original_category`.
-- Store author and team only when supported by source evidence.
-- Record provenance: upstream repository URL, commit/release, and original path.
-- Record licensing fields truthfully. Use `unknown` when unclear.
-- Add source references (URLs, documentation paths, commit links) when useful.
+- Store authors and teams in `authors` only when supported by source evidence.
+- Record `provenance`: upstream repository URL, commit, and original path. `source_type` is `git`, `website`, `download`, `manual`, or `unknown`.
+- Record licensing fields truthfully. `redistribution` is `permitted`, `prohibited`, or `unknown`. Use `unknown` when unclear.
+- Set `verification` (`unverified`, `needs_scope_review`, `corroborated`, or `verified`) separately from competition and edition lifecycle `status`.
+- Difficulty is `{value, source}`. Use `archive_curator` when a curator assigns the score. Use `{value: null, source: unknown}` when difficulty is not stated.
+- Add `references` objects (`title`, `url`, `type`, `accessed`) when useful.
 - Do not copy challenge flags, secrets, private keys, or credentials into metadata.
 
 Do not create an edition merely because a competition is believed to be recurring.
@@ -207,9 +211,9 @@ Do not confuse a challenge's technique with its event category. For example, a w
 - Competition IDs: lowercase kebab-case, stable over time.
 - Edition directory: four-digit year, e.g. `2024`.
 - Division IDs: lowercase kebab-case, based on the official division name.
-- Round IDs: lowercase kebab-case; common values include `qualification`, `final`, `semifinal`, `preliminary`, `warmup`, `practice`, and `other`.
+- Round IDs: lowercase kebab-case. See `docs/naming-convention.md` for the common ids, `main`, and the separate `type` field.
 - Category directory: canonical short name or lowercase kebab-case for a new category.
-- Challenge directory: `<sequence>-<slug>`, e.g. `001-baby-shark`.
+- Challenge directory: the `slug`, such as `001-baby-shark`. Do not add a second sequence prefix.
 - Sequence numbers are unique within a category directory in a given round, not globally across the round.
 - Keep the original challenge name in `challenge.yaml`; never replace it with the slug.
 
@@ -263,12 +267,7 @@ The canonical competition metadata lives in:
 - `competitions/<competition-id>/competition.yaml`
 - `competitions/<competition-id>/<year>/edition.yaml`
 
-The generated indexes live in:
-
-- `index/competitions.json`
-- `index/sources.json`
-
-Do not treat generated JSON files as the source of truth.
+Generated indexes live in `index/` and are described in `index/README.md`. Do not treat them as the source of truth. Do not invent index filenames before a generator exists.
 
 #### A. Competition Scope
 
@@ -302,11 +301,10 @@ If two names may refer to the same event, do not merge them without evidence.
 Whenever canonical competition or edition metadata changes:
 
 1. Update the relevant YAML records.
-2. Regenerate `index/competitions.json`.
-3. Regenerate `index/sources.json` if sources changed.
-4. Check that all referenced source IDs exist.
-5. Check that all edition records point to a valid competition ID.
-6. Check that index entries match canonical YAML metadata.
+2. Regenerate the indexes under `index/` when a generator exists, including source indexes when sources changed.
+3. Check that all referenced source IDs exist.
+4. Check that all edition records point to a valid competition ID.
+5. Check that index entries match canonical YAML metadata.
 
 ## 11. Stop and ask the user when
 

@@ -19,10 +19,10 @@ The archive may normalize the outer directory names (competition, edition, divis
 
 ## Provenance and integrity
 
-Record the source repository URL, commit or release, and original relative path whenever possible. A commit SHA is preferred over a branch name.
+Record the source repository URL, commit SHA, and original relative path on the challenge `provenance` object (`repository`, `commit`, `original_path`).
 
-Checksums may be generated for verification and migration reports. They must not require changing original files.
+Checksums may be generated for verification. Store them on `preservation.checksums` as `{path, algorithm, value}` and set `preservation.checksum_verified` when those digests have been checked. Checksums belong in metadata. Do not modify original files to add them.
 
 ## Exclusions
 
-If a file cannot be included because of licensing, privacy, safety, size, or other constraints, document the path and reason. Do not silently omit it.
+If a file cannot be included because of licensing, privacy, safety, size, or other constraints, append `{path, reason}` to `preservation.omissions`. If an archived file was changed, append `{path, reason}` to `preservation.modifications` and set `preservation.modified`. Do not silently omit or alter a file.

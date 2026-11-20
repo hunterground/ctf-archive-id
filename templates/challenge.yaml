@@ -1,39 +1,60 @@
+schema_version: "1.0"
+
 id: example-competition-2024-qualification-web-001
-
 name: Original Challenge Name
-slug: 001-original-challenge-name
+slug: 001-original-challenge
+original_name: null
 
-# Normalized archive category directory name.
+competition_id: example-competition
+edition_year: 2024
+division_id: null
+round_id: qualification
+
 category: web
-# Exact category label used by the competition, if known.
-original_category: Web Exploitation
+original_category: null
 
+description: null
 difficulty:
   value: null
   source: unknown
+tags: []
 
-description: ""
-
-author:
-  name: null
-  team: null
+authors: []
+organization: null
 
 provenance:
   archive_id: null
+  source_type: unknown
   repository: null
   commit: null
   original_path: null
-  source_type: unknown
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
 
 licensing:
   declared_license: null
+  copyright_holder: null
   redistribution: unknown
   attribution_required: null
   attribution: null
+  permission_reference: null
 
-preservation:
-  original_structure: true
-  modified: false
-  checksum_verified: false
+environment:
+  type: null
+  services: []
+  requirements: []
 
+# Reference object: title, url, type, accessed.
+# type: official_website, organizer_announcement, official_repository,
+# third_party_archive, writeup, other.
 references: []
+
+verification: unverified
+notes: null

@@ -1,0 +1,97 @@
+schema_version: "1.0"
+
+candidates:
+  - name: "Cyber Defense Competition"
+    possible_id: cyber-defense-competition
+    status: needs_scope_review
+    reason: >
+      The exact event identity, organizer, edition, and whether it
+      was a CTF or a broader cyber defense exercise need confirmation.
+    next_steps:
+      - Identify the official event and organizer.
+      - Confirm the CTF format.
+      - Find edition-specific official evidence.
+
+  - name: "Cyber SEA Game"
+    possible_id: cyber-sea-game
+    status: needs_scope_review
+    reason: >
+      Confirm whether this was organized by an Indonesian entity
+      or was a regional event merely hosted in Indonesia.
+    next_steps:
+      - Identify organizer.
+      - Confirm the relevant edition and host.
+      - Confirm whether it included a CTF.
+
+  - name: "Cyberhackathon"
+    possible_id: cyberhackathon
+    status: needs_scope_review
+    reason: >
+      The name is ambiguous and may refer to multiple unrelated events.
+    next_steps:
+      - Identify the exact event.
+      - Confirm organizer and year.
+      - Determine whether the event included a CTF.
+
+  - name: "KMIPN Cyber Security"
+    possible_id: kmipn-cyber-security
+    status: needs_scope_review
+    reason: >
+      Confirm the edition, organizer, and whether the competition
+      used a CTF format.
+    next_steps:
+      - Find official KMIPN documentation.
+      - Confirm the cybersecurity competition format.
+      - Record edition-specific evidence.
+
+  - name: "JerseyCTF"
+    possible_id: jerseyctf
+    status: excluded_pending_evidence
+    reason: >
+      The name appears to refer to an international competition.
+      Do not include without evidence of an Indonesian-organized
+      edition.
+
+  - name: "C2C (Country-to-Country) CTF"
+    possible_id: c2c-ctf
+    status: needs_scope_review
+    reason: >
+      An event hosted in Indonesia is not necessarily an
+      Indonesian-organized competition.
+    next_steps:
+      - Identify the organizer.
+      - Establish whether an Indonesian entity organized the event.
+      - Identify any relevant edition.
+
+  - name: "ASCIS"
+    possible_id: ascis
+    status: needs_scope_review
+    reason: >
+      The event appears to be regional. Confirm whether there is
+      a distinct Indonesian-organized edition.
+    next_steps:
+      - Identify the full event name.
+      - Confirm organizer and edition.
+      - Confirm CTF format.
+
+  - name: "ITSEC Summit CTF"
+    possible_id: itsec-summit-ctf
+    status: needs_scope_review
+    reason: >
+      A source archive references the event, but the exact event
+      identity and organizer need confirmation.
+    next_steps:
+      - Locate official ITSEC Summit references.
+      - Confirm the CTF organizer.
+      - Record edition-specific evidence.
+
+  - name: "TECHOMFEST"
+    possible_id: techomfest
+    status: needs_scope_review
+    reason: >
+      Confirm whether this is a distinct event or a spelling/name
+      variation of TechnoFair or Techcomfest.
+    next_steps:
+      - Identify the official event name.
+      - Confirm organizer and year.
+      - Check for duplicate event records.

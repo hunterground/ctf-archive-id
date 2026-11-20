@@ -2,7 +2,7 @@
 
 This directory contains preliminary competition discoveries and unresolved leads.
 
-It is not a list of fully verified competitions.
+It is not a list of fully verified competitions. `candidates.yaml` is validated by `schemas/candidate.schema.json`. Candidate `status` is `needs_scope_review` or `excluded_pending_evidence`, which is separate from competition `verification`. Optional `references` use the shared reference object.
 
 ## Workflow
 

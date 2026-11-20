@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/candidate.schema.json",
+  "title": "Competition candidates",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "candidates"],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "possible_id", "status", "reason"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "possible_id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "status": {
+            "enum": ["needs_scope_review", "excluded_pending_evidence"]
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "next_steps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "references": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/reference"
+            }
+          }
+        }
+      }
+    }
+  }
+}

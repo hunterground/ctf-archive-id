@@ -1,201 +1,213 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://hunterground.io/ctf-archive/schemas/challenge.schema.json",
-    "title": "Challenge",
-    "type": "object",
-    "additionalProperties": false,
-    "required": [
-      "id",
-      "name",
-      "slug",
-      "category",
-      "original_category",
-      "difficulty",
-      "description",
-      "author",
-      "provenance",
-      "licensing",
-      "preservation",
-      "references"
-    ],
-    "properties": {
-      "id": {
-        "type": "string",
-        "minLength": 1
-      },
-      "name": {
-        "type": "string",
-        "minLength": 1
-      },
-      "slug": {
-        "type": "string",
-        "pattern": "^[0-9]{3,}-[a-z0-9]+(?:-[a-z0-9]+)*$"
-      },
-      "category": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-      },
-      "original_category": {
-        "type": [
-          "string",
-          "null"
-        ]
-      },
-      "description": {
-        "type": "string"
-      },
-      "difficulty": {
-        "type": "object",
-        "required": [
-          "value",
-          "source"
-        ],
-        "properties": {
-          "value": {
-            "type": [
-              "string",
-              "integer",
-              "null"
-            ]
-          },
-          "source": {
-            "enum": [
-              "organizer",
-              "archive_curator",
-              "unknown"
-            ]
-          }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/challenge.schema.json",
+  "title": "Challenge",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "slug",
+    "competition_id",
+    "edition_year",
+    "category",
+    "original_category",
+    "difficulty",
+    "description",
+    "authors",
+    "provenance",
+    "licensing",
+    "preservation",
+    "references"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[0-9]{3,}-[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "original_name": {
+      "type": ["string", "null"]
+    },
+    "competition_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "edition_year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "division_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
         },
-        "additionalProperties": false
-      },
-      "author": {
-        "type": "object",
-        "properties": {
-          "name": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "team": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
+        { "type": "null" }
+      ]
+    },
+    "round_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
         },
-        "additionalProperties": false
-      },
-      "provenance": {
-        "type": "object",
-        "required": [
-          "archive_id",
-          "repository",
-          "commit",
-          "original_path",
-          "source_type"
-        ],
-        "properties": {
-          "archive_id": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "repository": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "format": "uri"
-          },
-          "commit": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "original_path": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "source_type": {
-            "enum": [
-              "git",
-              "website",
-              "download",
-              "manual",
-              "unknown"
-            ]
-          }
+        { "type": "null" }
+      ]
+    },
+    "category": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "original_category": {
+      "type": ["string", "null"]
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "difficulty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "source"],
+      "properties": {
+        "value": {
+          "type": ["string", "integer", "null"]
         },
-        "additionalProperties": false
-      },
-      "licensing": {
-        "type": "object",
-        "required": [
-          "declared_license",
-          "redistribution",
-          "attribution_required",
-          "attribution"
-        ],
-        "properties": {
-          "declared_license": {
-            "type": [
-              "string",
-              "null"
-            ]
-          },
-          "redistribution": {
-            "enum": [
-              "permitted",
-              "prohibited",
-              "unknown"
-            ]
-          },
-          "attribution_required": {
-            "type": [
-              "boolean",
-              "null"
-            ]
-          },
-          "attribution": {
-            "type": [
-              "string",
-              "null"
-            ]
-          }
-        },
-        "additionalProperties": false
-      },
-      "preservation": {
-        "type": "object",
-        "required": [
-          "original_structure",
-          "modified",
-          "checksum_verified"
-        ],
-        "properties": {
-          "original_structure": {
-            "type": "boolean"
-          },
-          "modified": {
-            "type": "boolean"
-          },
-          "checksum_verified": {
-            "type": "boolean"
-          }
-        },
-        "additionalProperties": false
-      },
-      "references": {
-        "type": "array",
-        "items": {
-          "type": "string"
+        "source": {
+          "enum": ["organizer", "archive_curator", "unknown"]
         }
       }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": ["string", "null"] },
+          "team": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "organization": {
+      "type": ["string", "null"]
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "archive_id",
+        "repository",
+        "commit",
+        "original_path",
+        "source_type"
+      ],
+      "properties": {
+        "archive_id": { "type": ["string", "null"] },
+        "repository": {
+          "anyOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "commit": { "type": ["string", "null"] },
+        "original_path": { "type": ["string", "null"] },
+        "source_type": {
+          "enum": ["git", "website", "download", "manual", "unknown"]
+        }
+      }
+    },
+    "licensing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "declared_license",
+        "redistribution",
+        "attribution_required",
+        "attribution"
+      ],
+      "properties": {
+        "declared_license": { "type": ["string", "null"] },
+        "copyright_holder": { "type": ["string", "null"] },
+        "redistribution": {
+          "enum": ["permitted", "prohibited", "unknown"]
+        },
+        "attribution_required": { "type": ["boolean", "null"] },
+        "attribution": { "type": ["string", "null"] },
+        "permission_reference": { "type": ["string", "null"] }
+      }
+    },
+    "preservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["original_structure", "modified", "checksum_verified"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "original_structure": { "type": "boolean" },
+        "modified": { "type": "boolean" },
+        "modifications": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/pathReason"
+          }
+        },
+        "omissions": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/pathReason"
+          }
+        },
+        "checksum_verified": { "type": "boolean" },
+        "checksums": {
+          "type": "array",
+          "items": {
+            "$ref": "common.schema.json#/$defs/checksum"
+          }
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": ["string", "null"] },
+        "services": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "requirements": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/reference"
+      }
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
     }
   }
-  
+}

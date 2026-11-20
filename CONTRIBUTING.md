@@ -25,16 +25,17 @@ Thank you for helping preserve Indonesian CTF history.
 3. Put the original files inside `original/`.
 4. Preserve the original internal directory structure and filenames.
 5. Add `challenge.yaml` using `templates/challenge.yaml`.
-6. Record the upstream repository, commit or release, original path, author, license, and redistribution status when known.
-7. Do not remove files merely because they appear unnecessary. Document exclusions when a file cannot or should not be archived.
+6. Record `provenance` (repository, commit, and original path), `authors`, `declared_license`, `redistribution`, and `verification` when known.
+7. Do not remove files merely because they appear unnecessary. Record exclusions in `preservation.omissions` when a file cannot or should not be archived.
 
 ## Metadata quality
 
 - IDs must be stable and unique within their entity type.
 - Use ISO 8601 dates (`YYYY-MM-DD`) when the exact date is known.
 - Use `null` for unknown scalar values.
-- Preserve the source's original category in `original_category`.
-- Do not infer authorship, difficulty, flags, or licensing.
+- Preserve the source's original category in `original_category`. The challenge directory name is `slug`.
+- Do not infer authorship, difficulty, flags, or licensing. Record people in `authors`. If a curator assigns difficulty, set `difficulty.source` to `archive_curator`.
+- Set `verification` for record quality. Use `status` only for the lifecycle values defined on competitions and editions.
 - Keep metadata factual and traceable to references.
 
 ## Pull requests

@@ -5,13 +5,13 @@
 Without divisions:
 
 ```text
-competitions/<competition-id>/<year>/rounds/<round-id>/<category>/<sequence>-<slug>/
+competitions/<competition-id>/<year>/rounds/<round-id>/<category>/<slug>/
 ```
 
 With divisions:
 
 ```text
-competitions/<competition-id>/<year>/divisions/<division-id>/rounds/<round-id>/<category>/<sequence>-<slug>/
+competitions/<competition-id>/<year>/divisions/<division-id>/rounds/<round-id>/<category>/<slug>/
 ```
 
 ## IDs and slugs
@@ -20,13 +20,15 @@ competitions/<competition-id>/<year>/divisions/<division-id>/rounds/<round-id>/<
 - Competition IDs should be short and stable.
 - Edition directories use a four-digit year.
 - Round and division IDs should be based on official names where possible.
-- Challenge directory names use a zero-padded sequence and normalized slug, such as `001-baby-shark`.
+- The challenge directory name is the `slug`, such as `001-baby-shark`. The sequence is the numeric prefix of that slug. Do not write the sequence a second time in the path.
 - Sequence numbers are unique within a category in a round. They may repeat in another category or round.
-- Preserve the original display name in metadata.
+- Preserve the original display name in `name`. A distinct source spelling may also be stored in `original_name`.
 
 ## Round IDs
 
-Common round IDs include `qualification`, `final`, `semifinal`, `preliminary`, `warmup`, `practice`, and `other`. Add a new lowercase kebab-case ID when the event uses a distinct stage not represented here.
+Common round IDs include `qualification`, `final`, `semifinal`, `preliminary`, `warmup`, `practice`, and `other`. Add a new lowercase kebab-case id when the event uses a distinct stage not represented here. `type` stays one of the values in `schemas/round.schema.json`; use `other` when none of those names fit the new id.
+
+A single-stage event with no qualifier or final uses round id `main` and `type: other`. Online or onsite participation is `delivery`, not the round id.
 
 ## Category directories
 

@@ -1,84 +1,92 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://hunterground.io/ctf-archive/schemas/competition.schema.json",
-    "title": "Competition",
-    "type": "object",
-    "additionalProperties": false,
-    "required": [
-      "id",
-      "name",
-      "country",
-      "description",
-      "status",
-      "references"
-    ],
-    "properties": {
-      "id": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
-      },
-      "name": {
-        "type": "string",
-        "minLength": 1
-      },
-      "country": {
-        "const": "ID"
-      },
-      "organizer": {
-        "type": [
-          "string",
-          "null"
-        ]
-      },
-      "website": {
-        "type": [
-          "string",
-          "null"
-        ],
-        "format": "uri"
-      },
-      "description": {
-        "type": "string"
-      },
-      "metadata": {
-        "type": "object",
-        "properties": {
-          "established_year": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 1900,
-            "maximum": 2100
-          },
-          "recurring": {
-            "type": [
-              "boolean",
-              "null"
-            ]
-          },
-          "formats": {
-            "type": "array",
-            "items": {
-              "type": "string"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/competition.schema.json",
+  "title": "Competition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "country",
+    "description",
+    "status",
+    "references"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "country": {
+      "const": "ID"
+    },
+    "organizer": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": { "type": ["string", "null"] },
+            "website": {
+              "anyOf": [
+                { "type": "string", "format": "uri" },
+                { "type": "null" }
+              ]
             }
           }
+        }
+      ]
+    },
+    "website": {
+      "anyOf": [
+        { "type": "string", "format": "uri" },
+        { "type": "null" }
+      ]
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "established_year": {
+          "type": ["integer", "null"],
+          "minimum": 1900,
+          "maximum": 2100
         },
-        "additionalProperties": false
-      },
-      "status": {
-        "enum": [
-          "active",
-          "inactive",
-          "unknown"
-        ]
-      },
-      "references": {
-        "type": "array",
-        "items": {
-          "type": "string"
+        "recurring": {
+          "type": ["boolean", "null"]
+        },
+        "formats": {
+          "type": "array",
+          "items": { "type": "string" }
         }
       }
+    },
+    "status": {
+      "enum": ["active", "inactive", "unknown"]
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/reference"
+      }
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
     }
   }
-  
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/registry.schema.json",
+  "title": "Archive source registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "repositories"],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "$ref": "archive.schema.json"
+      }
+    }
+  }
+}

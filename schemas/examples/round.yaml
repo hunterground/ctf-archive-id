@@ -1,0 +1,30 @@
+schema_version: "1.0"
+
+id: qualification
+competition_id: example-competition
+edition_year: 2024
+division_id: null
+
+name: Qualification
+original_name: null
+sequence: 1
+type: qualification
+delivery: null
+description: null
+
+dates:
+  start: null
+  end: null
+
+statistics:
+  challenge_count: null
+  participant_count: null
+
+references:
+  - title: Example announcement
+    url: https://example.com/ctf
+    type: official_website
+    accessed: null
+
+verification: unverified
+notes: null

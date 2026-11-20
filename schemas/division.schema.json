@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/division.schema.json",
+  "title": "Division",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "name",
+    "competition_id",
+    "edition_year",
+    "verification"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "original_name": {
+      "type": ["string", "null"]
+    },
+    "competition_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "edition_year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "description": {
+      "type": ["string", "null"]
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
+    }
+  }
+}

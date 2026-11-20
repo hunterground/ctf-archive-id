@@ -1,0 +1,14 @@
+schema_version: "1.0"
+
+candidates:
+  - name: Example CTF
+    possible_id: example-ctf
+    status: needs_scope_review
+    reason: The organizer and edition are not yet confirmed.
+    next_steps:
+      - Identify the official organizer.
+    references:
+      - title: Example announcement
+        url: https://example.com/ctf
+        type: official_website
+        accessed: null

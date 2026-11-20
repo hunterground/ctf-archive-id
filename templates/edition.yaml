@@ -1,10 +1,17 @@
+schema_version: "1.0"
+
 id: example-competition-2024
 competition_id: example-competition
 
 year: 2024
 name: Example CTF 2024
 
+# Lifecycle. Allowed values: planned, ongoing, completed, cancelled, unknown.
 status: unknown
+
+# Record quality. Allowed values: unverified, needs_scope_review,
+# corroborated, verified.
+verification: unverified
 
 dates:
   start: null
@@ -15,3 +22,7 @@ statistics:
   challenge_count: null
 
 references: []
+
+challenge_materials_imported: false
+
+notes: null

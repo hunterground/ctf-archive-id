@@ -1,92 +1,90 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://hunterground.io/ctf-archive/schemas/edition.schema.json",
-    "title": "Edition",
-    "type": "object",
-    "additionalProperties": false,
-    "required": [
-      "id",
-      "competition_id",
-      "year",
-      "name",
-      "status",
-      "dates",
-      "statistics",
-      "references"
-    ],
-    "properties": {
-      "id": {
-        "type": "string",
-        "minLength": 1
-      },
-      "competition_id": {
-        "type": "string",
-        "minLength": 1
-      },
-      "year": {
-        "type": "integer",
-        "minimum": 1900,
-        "maximum": 2100
-      },
-      "name": {
-        "type": "string",
-        "minLength": 1
-      },
-      "status": {
-        "enum": [
-          "planned",
-          "ongoing",
-          "completed",
-          "cancelled",
-          "unknown"
-        ]
-      },
-      "dates": {
-        "type": "object",
-        "properties": {
-          "start": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "format": "date"
-          },
-          "end": {
-            "type": [
-              "string",
-              "null"
-            ],
-            "format": "date"
-          }
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hunterground.io/ctf-archive/schemas/edition.schema.json",
+  "title": "Edition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "competition_id",
+    "year",
+    "name",
+    "status",
+    "dates",
+    "statistics",
+    "references"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "competition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2100
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": ["planned", "ongoing", "completed", "cancelled", "unknown"]
+    },
+    "verification": {
+      "$ref": "common.schema.json#/$defs/verification"
+    },
+    "dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
         },
-        "additionalProperties": false
-      },
-      "statistics": {
-        "type": "object",
-        "properties": {
-          "participant_count": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 0
-          },
-          "challenge_count": {
-            "type": [
-              "integer",
-              "null"
-            ],
-            "minimum": 0
-          }
-        },
-        "additionalProperties": false
-      },
-      "references": {
-        "type": "array",
-        "items": {
-          "type": "string"
+        "end": {
+          "anyOf": [
+            { "type": "string", "format": "date" },
+            { "type": "null" }
+          ]
         }
       }
+    },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "participant_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        },
+        "challenge_count": {
+          "type": ["integer", "null"],
+          "minimum": 0
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/reference"
+      }
+    },
+    "challenge_materials_imported": {
+      "type": "boolean"
+    },
+    "notes": {
+      "$ref": "common.schema.json#/$defs/notes"
     }
   }
-  
+}

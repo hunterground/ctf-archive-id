@@ -31,6 +31,7 @@ schemas/       JSON Schema definitions
 templates/     Metadata templates
 index/         Generated machine-readable indexes
 docs/          Project documentation
+research/      Unresolved competition leads
 tools/         Archive management utilities
 AGENTS.md      Instructions for AI coding agents performing archive work
 ```
@@ -41,18 +42,19 @@ Challenges are grouped by competition, edition, round, optional division, and ca
 
 ```text
 competitions/<competition-id>/
+├── competition.yaml
 └── <year>/
     ├── edition.yaml
     └── rounds/                         # Editions without divisions
         └── <round-id>/
             ├── round.yaml
             └── <category>/
-                └── <sequence>-<slug>/
+                └── <slug>/
                     ├── challenge.yaml
                     └── original/
 ```
 
-When an edition has actual divisions, use `divisions/<division-id>/rounds/` instead of `rounds/` directly under the edition. Do not create artificial `general` or `open` divisions.
+`slug` is the challenge directory name, such as `001-baby-shark`. When an edition has actual divisions, store `divisions/<division-id>/division.yaml` and use `divisions/<division-id>/rounds/` instead of `rounds/` directly under the edition. Do not create an artificial `general`, `open`, or `default` division.
 
 See [docs/data-model.md](docs/data-model.md) and [docs/naming-convention.md](docs/naming-convention.md).
 

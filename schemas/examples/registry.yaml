@@ -1,0 +1,35 @@
+schema_version: "1.0"
+repositories:
+  - schema_version: "1.0"
+    id: example-source-repository
+    name: Example CTF Challenge Repository
+    source:
+      type: git
+      url: https://example.com/source.git
+      owner: null
+      repository: null
+      branch: null
+      commit: null
+      path: null
+    competition_id: null
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: unknown
+      name: null
+      url: null
+    access:
+      visibility: unknown
+      access_date: null
+    content_types:
+      - challenge_materials
+    challenge_count: null
+    categories: []
+    verification:
+      status: unknown
+      last_checked: null
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references: []
+    notes: null

@@ -1,0 +1,26 @@
+schema_version: "1.0"
+
+id: example-competition-2024
+competition_id: example-competition
+year: 2024
+name: Example CTF 2024
+
+status: unknown
+verification: unverified
+
+dates:
+  start: null
+  end: null
+
+statistics:
+  participant_count: null
+  challenge_count: null
+
+references:
+  - title: Example announcement
+    url: https://example.com/ctf
+    type: official_website
+    accessed: null
+
+challenge_materials_imported: false
+notes: null

@@ -1,0 +1,29 @@
+schema_version: "1.0"
+
+id: example-competition
+name: Example CTF
+country: ID
+
+organizer:
+  name: null
+  website: null
+
+website: null
+description: null
+
+metadata:
+  established_year: null
+  recurring: null
+  formats:
+    - jeopardy
+
+status: unknown
+verification: unverified
+
+references:
+  - title: Example announcement
+    url: https://example.com/ctf
+    type: official_website
+    accessed: null
+
+notes: null

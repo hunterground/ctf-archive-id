@@ -1,23 +1,44 @@
-id: example-source-repository
+# Copy this object into archives/repositories.yaml under repositories.
+# A registry entry is not permission to redistribute its contents.
+schema_version: "1.0"
 
+id: example-source-repository
 name: Example CTF Challenge Repository
 
 source:
-  type: github
+  # git, github, gitlab, gitea, website, download, or other.
+  type: git
   url: null
   owner: null
   repository: null
   branch: null
   commit: null
+  path: null
+
+competition_id: null
+edition_year: null
+round_id: null
 
 maintainer:
+  # person, team, organization, or unknown.
   type: unknown
   name: null
+  url: null
 
+access:
+  # public, private, restricted, or unknown.
+  # Set unknown until visibility has been checked.
+  visibility: unknown
+  access_date: null
+
+# Preferred tokens: challenge_materials, writeups, solutions, infrastructure.
 content_types: []
+challenge_count: null
+categories: []
 
 verification:
-  status: discovered
+  # discovered, partially_verified, verified, unavailable, or unknown.
+  status: unknown
   last_checked: null
 
 licensing:
@@ -25,3 +46,4 @@ licensing:
   redistribution: unknown
 
 references: []
+notes: null
