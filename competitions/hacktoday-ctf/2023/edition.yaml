@@ -1,0 +1,20 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023
+competition_id: hacktoday-ctf
+year: 2023
+name: HackToday 2023
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: Challenge repository published by cybersecurityipb. Event dates were not stated there.

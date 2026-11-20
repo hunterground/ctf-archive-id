@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: sni-ctf
+name: SNI CTF
+country: ID
+organizer:
+  name: Serikat Newbie Indonesia (SNI Cybersecurity Team)
+  website: null
+website: null
+description: Capture The Flag for Indonesian high-school students, organized by the Serikat Newbie Indonesia
+  CTF team.
+metadata:
+  established_year: 2024
+  recurring: true
+status: unknown
+verification: corroborated
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+- title: SNI Cybersecurity Team wrap-up of SNI CTF 2024
+  url: https://www.linkedin.com/posts/serikatnewbie-id_cybersecurity-capturetheflag-activity-7266629122141896704-fMCa
+  type: organizer_announcement
+  accessed: '2026-11-21'
+notes: The organizer's 2024 wrap-up says the event ran for 36 hours and drew more than 90 high-school
+  students across 36 challenges. No organizer-controlled event website was found. No 2026 edition was
+  found.

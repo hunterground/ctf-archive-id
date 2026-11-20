@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024
+competition_id: tcp1p-ctf
+year: 2024
+name: 'TCP1P CTF 2024: Exploring Nusantara''s Digital Realm'
+status: completed
+verification: corroborated
+dates:
+  start: '2024-10-11'
+  end: '2024-10-13'
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: CTFtime / TCP1P CTF 2024
+  url: https://ctftime.org/event/2256/
+  type: third_party_archive
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: CTFtime gives 11-13 October 2024, jeopardy, and the organizer URL https://ctf.tcp1p.team/. The
+  listed window is 12:00 UTC on 11 October through 12:00 UTC on 13 October.

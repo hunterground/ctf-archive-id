@@ -1,0 +1,42 @@
+schema_version: '1.0'
+id: cyber-jawara
+name: Cyber Jawara
+country: ID
+organizer:
+  name: CSIRT.ID
+  website: https://csirt.id/
+website: https://cyberjawara.id/
+description: Indonesian cybersecurity competition first held in 2012 by ID-SIRTII/CC and continued by
+  CSIRT.ID. The 2025 national elimination round is an online jeopardy Capture the Flag.
+metadata:
+  established_year: 2012
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: Cyber Jawara
+  url: https://cyberjawara.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: CSIRT.ID cyber competition
+  url: https://csirt.id/activities/cyber-competition/
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: CTFtime / Cyber Jawara
+  url: https://ctftime.org/ctf/971/
+  type: third_party_archive
+  accessed: '2026-11-21'
+- title: Cyber Jawara 2024
+  url: https://cyberjawara.id/2024
+  type: official_website
+  accessed: '2026-11-21'
+- title: Cyber Jawara National 2025
+  url: https://cyberjawara.id/2025/national
+  type: official_website
+  accessed: '2026-11-21'
+notes: CSIRT.ID also operates Cyber Defense and Cyber SEA Game. Those are separate activities and are
+  not merged into this record. Cyber Jawara International is a related public event and is not given its
+  own edition here. The 2024 site lists National, High-School, and CSIRT Team tracks. The jeopardy format
+  above is the 2025 national elimination format; the final format was not confirmed.

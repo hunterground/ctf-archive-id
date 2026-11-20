@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: arkavidia-ctf
+name: Arkavidia Capture The Flag
+country: ID
+organizer:
+  name: Himpunan Mahasiswa Informatika, Institut Teknologi Bandung
+  website: null
+website: https://arkavidia.com/
+description: Capture The Flag branch of Arkavidia, the information-technology festival organized by Informatics
+  students of Institut Teknologi Bandung.
+metadata:
+  established_year: null
+  recurring: true
+status: active
+verification: corroborated
+references:
+- title: Arkavidia
+  url: https://arkavidia.com/
+  type: official_website
+  accessed: '2026-11-21'
+- title: Arkavidia competitions
+  url: https://arkavidia.com/competitions
+  type: official_website
+  accessed: '2026-11-21'
+- title: Capture The Flag ARKAVIDIA 9.0 problem-set notes
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+notes: The previous file was empty. Arkavidia 9.0 qualification and final dates are taken from the ctf-itb
+  problem-set repository. Arkavidia 11.0 is the edition presented on arkavidia.com, with registration
+  information through 18 November 2026 on a secondary listing; CTF dates for 11.0 were not found, so that
+  edition's status and dates stay unset beyond the year. A final platform titled Arkavidia 10.0 was seen
+  without a calendar year and was not given an edition.

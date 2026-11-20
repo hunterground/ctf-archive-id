@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: wreck-it
+name: Wreck-IT
+country: ID
+organizer:
+  name: Senat Korps Taruna, Politeknik Siber dan Sandi Negara
+  website: https://poltekssn.ac.id/
+website: https://wreckit.id/
+description: National cybersecurity competition organized by the cadet-corps senate of Politeknik Siber
+  dan Sandi Negara. Documented editions use a jeopardy Capture The Flag qualification and an attack-defense
+  final, with separate Umum and Junior fields in later editions.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+  - attack-defense
+status: active
+verification: corroborated
+references:
+- title: Wreck-IT 7.0 terms of service
+  url: https://wreckit.id/terms
+  type: official_website
+  accessed: '2026-11-21'
+- title: Bank Sinarmas on Wreck-IT 4.0
+  url: https://www.banksinarmas.com/id/informasi/wreck-it-2023
+  type: other
+  accessed: '2026-11-21'
+- title: Poltek SSN on Wreck-IT 5.0
+  url: https://poltekssn.ac.id/berita/korps-taruna-poltek-ssn-selenggarakan-event-wreck-it-5-0/
+  type: organizer_announcement
+  accessed: '2026-11-21'
+notes: Bank Sinarmas says Wreck-IT 3.0 was held in 2022 and that an onsite Wreck-IT was previously held
+  in 2019. The 2019 event is not given an edition number here. Wreck-IT 4.0 is 2023, 5.0 is 2024, 6.0
+  is 2025, and 7.0 is 2026. Sanapati Cyberhunt remains a separate candidate.

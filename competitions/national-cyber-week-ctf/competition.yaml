@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf
+name: National Cyber Week CTF
+country: ID
+organizer:
+  name: Cyber Security Community, BINUS University
+  website: https://student-activity.binus.ac.id/csc/
+website: https://ncw.cscbinus.org/
+description: Capture The Flag competition in National Cyber Week, the cybersecurity event of the BINUS
+  Cyber Security Community.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: National Cyber Week 2025
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: National Cyber Week 2026 registration
+  url: https://ncw.cscbinus.org/login
+  type: official_website
+  accessed: '2026-11-21'
+notes: The 2025 organizer report describes a jeopardy qualification and an IoT-hacking final. Editions
+  2022 and 2024 were already in the archive record and were not corroborated. A 2023 edition is also still
+  unverified. NCW 2026 has an open registration site and a workshop date of 18 December 2026; the CTF
+  date was not stated.

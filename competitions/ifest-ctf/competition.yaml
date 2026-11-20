@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: ifest-ctf
+name: IFEST CTF
+country: ID
+organizer:
+  name: Himpunan Mahasiswa Teknik Informatika (HIMATIF) FMIPA, Universitas Padjadjaran
+  website: null
+website: https://ifestunpad.com/
+description: Capture The Flag branch of Informatics Festival (IFEST), the informatics competition organized
+  by HIMATIF FMIPA Universitas Padjadjaran.
+metadata:
+  established_year: null
+  recurring: true
+status: active
+verification: corroborated
+references:
+- title: IFEST
+  url: https://ifestunpad.com/home
+  type: official_website
+  accessed: '2026-11-21'
+- title: LinuxSec on IFest 2018 CTF
+  url: https://linuxsec.org/2018/09/event-capture-the-flag-ifest-2018.html
+  type: other
+  accessed: '2026-11-21'
+notes: Public announcements document an IFest CTF in 2018 and an IFEST CTF branch in 2019 and 2026. Those
+  earlier years were not turned into edition directories because the previous record started at 2022 and
+  a complete year map was not rebuilt. Numbered names such as IFEST 13 were not matched to calendar years.
+  Editions 2022, 2023, and 2025 remain at the verification level of the previous record.

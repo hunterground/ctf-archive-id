@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: healthkathon-2022
+competition_id: healthkathon
+year: 2022
+name: Healthkathon 2022
+status: completed
+verification: corroborated
+dates:
+  start: '2022-09-17'
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: Healthkathon BPJS 2022 pentest CTF notes
+  url: https://buroq.app/site/tutorial/soal_pentest_healthkathon_bpjs_metode_ctf
+  type: writeup
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: The cited notes say the pentest qualification used Capture the Flag on 17 September 2022. Later
+  stages of the event were not dated from an organizer page.

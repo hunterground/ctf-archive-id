@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: joints-ctf
+name: JOINTS CTF
+country: ID
+organizer:
+  name: Himpunan Mahasiswa Ilmu Komputer (HIMAKOM), Universitas Gadjah Mada
+  website: null
+website: https://jointsxinspire.com/ctf
+description: Capture The Flag branch of Jogja Information Technology Session (JOINTS), the information-technology
+  event of HIMAKOM UGM. The 2026 edition is held with HMEI UGM as JOINTS x INSPIRE.
+metadata:
+  established_year: null
+  recurring: true
+status: active
+verification: corroborated
+references:
+- title: JOINTS UGM
+  url: https://www.linkedin.com/company/jointsugm
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: JOINTS x INSPIRE 2026 Capture The Flag
+  url: https://jointsxinspire.com/ctf
+  type: official_website
+  accessed: '2026-11-21'
+- title: ITB STIKOM Bali on JOINTS CTF 2023
+  url: https://www.stikom-bali.ac.id/id/kelompok-studi-linux-mengikuti-kegiatan-ctf-dan-programming-joints/
+  type: other
+  accessed: '2026-11-21'
+notes: JOINTS as a festival says it was first held in 2001. That year is not recorded as the first CTF.
+  Editions with a documented CTF are 2021, 2023, and 2026. No 2022, 2024, or 2025 CTF edition was found.

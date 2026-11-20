@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: unity-ctf
+name: Unity CTF
+country: ID
+organizer:
+  name: Universitas Negeri Yogyakarta
+  website: null
+website: null
+description: Capture The Flag competition attributed to Universitas Negeri Yogyakarta by participant records
+  of the 2023 edition.
+metadata:
+  established_year: null
+  recurring: null
+status: unknown
+verification: needs_scope_review
+references:
+- title: naufalardhani/ctf-journey
+  url: https://github.com/naufalardhani/ctf-journey
+  type: writeup
+  accessed: '2026-11-21'
+notes: The previous file was empty. No organizer page was found. Universitas Negeri Yogyakarta and the
+  2023 edition come from participant contest logs and LinkedIn award entries. One contest log labels the
+  2023 format attack-defense. That label is not copied into formats because it is a single participant
+  record.

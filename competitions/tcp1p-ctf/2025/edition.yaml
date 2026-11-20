@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2025
+competition_id: tcp1p-ctf
+year: 2025
+name: TCP1P CTF Special Ramadhan 2025
+status: completed
+verification: corroborated
+dates:
+  start: '2025-03-04'
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: TCP1P CTF Special Ramadhan 2025 repository
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: The organizer repository sets the start at 17:00 on 4 March 2025 and the flag prefix RAMADAN. No
+  end date was stated. This is a special edition, not the annual CTFtime series.

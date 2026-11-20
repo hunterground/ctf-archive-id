@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: techcomfest-ctf
+name: Techcomfest CTF
+country: ID
+organizer:
+  name: UKM Polytechnic Computer Club (PCC), Politeknik Negeri Semarang
+  website: null
+website: https://www.techcomfest.com/
+description: Capture The Flag category of Techcomfest (Technology Computer Festival), the annual information-technology
+  competition of UKM Polytechnic Computer Club, Politeknik Negeri Semarang.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: Techcomfest
+  url: https://www.techcomfest.com/
+  type: official_website
+  accessed: '2026-11-21'
+- title: Techcomfest 2025
+  url: https://techcomfest.ukmpcc.org/
+  type: official_website
+  accessed: '2026-11-21'
+- title: CTFtime / TECHCOMFEST
+  url: https://ctftime.org/ctf/1019/
+  type: third_party_archive
+  accessed: '2026-11-21'
+notes: Official spelling on the event sites is Techcomfest. The archive directory was previously techcompfest-ctf
+  and the identifier was already techcomfest-ctf; the directory is now techcomfest-ctf. TECHOMFEST at
+  Universitas Negeri Semarang is a different event and stays a candidate. CTFtime describes the 2024 competition
+  as jeopardy with a qualification and an onsite final. The 2025 and 2026 sites document a CTF category
+  without repeating that format label.

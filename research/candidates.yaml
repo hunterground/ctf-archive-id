@@ -74,16 +74,28 @@ candidates:
       - Confirm organizer and edition.
       - Confirm CTF format.
 
-  - name: "ITSEC Summit CTF"
-    possible_id: itsec-summit-ctf
+  - name: "Liga KOMATIK"
+    possible_id: liga-komatik-ctf
     status: needs_scope_review
     reason: >
-      A source archive references the event, but the exact event
-      identity and organizer need confirmation.
+      Liga KOMATIK is Universitas Gadjah Mada's internal selection
+      for its GEMASTIK contingent. KOMATIK describes the cybersecurity
+      portion as a workshop and simulation of the GEMASTIK Keamanan
+      Siber branch, not a public CTF. It was removed from
+      competitions/ for that reason. A 2025 selection is documented,
+      and KOMATIK says the program began in 2021.
     next_steps:
-      - Locate official ITSEC Summit references.
-      - Confirm the CTF organizer.
-      - Record edition-specific evidence.
+      - Confirm whether any edition was a public CTF rather than an internal selection.
+      - Keep it separate from GEMASTIK Keamanan Siber.
+    references:
+      - title: "Liga KOMATIK"
+        url: "https://komatik.wg.ugm.ac.id/liga-komatik/"
+        type: official_website
+        accessed: "2026-11-21"
+      - title: "Pengumuman Hasil Seleksi Liga KOMATIK UGM 2025"
+        url: "https://kreativitas.ugm.ac.id/?p=12515"
+        type: organizer_announcement
+        accessed: "2026-11-21"
 
   - name: "TECHOMFEST"
     possible_id: techomfest
@@ -95,3 +107,108 @@ candidates:
       - Identify the official event name.
       - Confirm organizer and year.
       - Check for duplicate event records.
+
+  - name: "ITechnoCup Cyber Security"
+    possible_id: itechnocup-cyber-security
+    status: needs_scope_review
+    reason: >
+      itechnocup.id documents jeopardy Cyber Security tracks for
+      high school and university. A competition calendar attributes
+      ITechnoCup to Politeknik Negeri Jakarta. Confirm that
+      attribution on the official site and list the editions that
+      used the CTF before promotion.
+    next_steps:
+      - Quote the organizer from the official site.
+      - Separate the Cyber Security CTF from the IoT and other branches.
+      - Confirm the 2025 and 2026 editions.
+    references:
+      - title: "ITechnoCup 2026"
+        url: "https://itechnocup.id/"
+        type: official_website
+        accessed: "2026-11-21"
+      - title: "HIMA IF Telkom University note on ITechno Cup 2026"
+        url: "https://himaiftelkom.com/lomba-cyber-security-iot-2026/"
+        type: other
+        accessed: "2026-11-21"
+
+  - name: "Sanapati Cyberhunt"
+    possible_id: sanapati-cyberhunt
+    status: needs_scope_review
+    reason: >
+      Sanapati Cyberstorm describes itself as a CTF club under
+      Biro Siber, Senat Korps Taruna, Politeknik Siber dan Sandi
+      Negara, and announced Sanapati Cyber Hunt for 2024 and 2025.
+      Keep it separate from Wreck-IT, which is also organized
+      through the Poltek SSN cadet senate, until their relationship
+      is documented.
+    next_steps:
+      - Find an event page other than the club's social posts.
+      - Confirm the 2024 and 2025 formats and dates.
+      - Record how Sanapati Cyberhunt relates to Wreck-IT.
+    references:
+      - title: "Sanapati Cyberstorm"
+        url: "https://www.linkedin.com/company/sanapati-cyberstorm"
+        type: organizer_announcement
+        accessed: "2026-11-21"
+
+  - name: "Rise the Ranger"
+    possible_id: rise-the-ranger
+    status: needs_scope_review
+    reason: >
+      Satuan Siber TNI published final results for the Attack
+      Defence stage of Rise The Ranger Cyber Competition 2025.
+      A participant account describes a jeopardy qualification
+      and an onsite attack-defense final at Mabes TNI Cilangkap.
+      Confirm public eligibility and any other editions before
+      promotion.
+    next_steps:
+      - Find the official event announcement and eligibility rules.
+      - Confirm editions other than 2025.
+      - Record the qualification format from an organizer source.
+    references:
+      - title: "Satsiber TNI results for Rise The Ranger 2025"
+        url: "https://satsiber-tni.mil.id/hasil-akhir-final-attack-defence-rise-the-ranger-202509281295"
+        type: organizer_announcement
+        accessed: "2026-11-21"
+
+  - name: "TSA Cyber Champion"
+    possible_id: tsa-cyber-champion
+    status: needs_scope_review
+    reason: >
+      Pusat Pengembangan Profesi dan Sertifikasi reported TSA
+      Cyber Champion Award 2024, run with Talent Scouting Academy,
+      as a national Capture the Flag. The report names 759
+      participants in 267 teams. Confirm the organizing body for
+      other years before creating a competition record.
+    next_steps:
+      - Find editions other than 2024.
+      - Record Talent Scouting Academy, STMM, and Cyberkarta roles.
+      - Confirm the competition format from the rules.
+    references:
+      - title: "BPSDM Komdigi on TSA Cyber Champion Award 2024"
+        url: "https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143"
+        type: organizer_announcement
+        accessed: "2026-11-21"
+
+  - name: "IT Del CTF"
+    possible_id: it-del-ctf
+    status: needs_scope_review
+    reason: >
+      Institut Teknologi Del's September 2024 news describes an
+      internal Capture the Flag workshop for the IT Del community
+      with Poltek SSN and Huawei. A challenge repository describes
+      the 2024 event as a national jeopardy competition. Resolve
+      that difference before promotion.
+    next_steps:
+      - Determine whether the internal workshop and the national CTF are the same event.
+      - Confirm who organized the national field, if it was public.
+      - Find editions other than 2024.
+    references:
+      - title: "IT Del news, September 2024"
+        url: "https://www.del.ac.id/?m=202409"
+        type: organizer_announcement
+        accessed: "2026-11-21"
+      - title: "IT Del CTF challenge repository"
+        url: "https://github.com/jonscafe/itdel-ctf"
+        type: other
+        accessed: "2026-11-21"

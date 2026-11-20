@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: ittsec-ctf
+name: ITTSEC CTF
+country: ID
+organizer:
+  name: Institut Teknologi Tangerang Selatan
+  website: null
+website: https://ctf.ittsec.net/
+description: Capture The Flag hosted by Institut Teknologi Tangerang Selatan. The 2025 announcement names
+  LPPM ITTS and Ethic Ninja as collaborators and opens separate fields for school students and undergraduates.
+metadata:
+  established_year: 2025
+  recurring: null
+status: unknown
+verification: corroborated
+references:
+- title: ITTS announcement of ITTSEC CTF 2025
+  url: https://registrasi.itts.ac.id/artikel/%E2%80%BC%EF%B8%8F-panggilan-untuk-para-cyber-talent-indonesia-l4asz
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: ITTSec CTF
+  url: https://ctf.ittsec.net/
+  type: official_website
+  accessed: '2026-11-21'
+notes: Public listings also write this event as ITSEC CTF. It is a different event from ITSEC Summit CTF,
+  which remains a candidate. Only the 2025 edition was found.

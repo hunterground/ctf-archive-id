@@ -1,0 +1,23 @@
+schema_version: '1.0'
+id: interfest-ctf
+name: Interfest CTF
+country: ID
+organizer:
+  name: Telkom University
+  website: null
+website: null
+description: Capture The Flag branch of Interfest, a technology competition reported as organized by Telkom
+  University.
+metadata:
+  established_year: null
+  recurring: null
+status: unknown
+verification: corroborated
+references:
+- title: Ajang Lomba on Interfest 2024
+  url: https://www.ajanglomba.com/2024/10/interfest-2024-kompetisi-workshop_5.html
+  type: other
+  accessed: '2026-11-21'
+notes: The organizing unit inside Telkom University was not identified, and no official event site was
+  found. The 2024 CTF is described by a third-party announcement as open to university students, with
+  elimination on 23 November 2024 and a final on 8 December 2024. Recurring is unset.

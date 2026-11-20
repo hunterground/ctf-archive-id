@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: healthkathon-2023
+competition_id: healthkathon
+year: 2023
+name: Healthkathon 2.0
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: '2023-09-23'
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: Healthkathon 2023 final CTF write-up
+  url: https://medium.com/@dzzzet/write-up-final-ctf-healthkathon-2-0-ee3651fa0a72
+  type: writeup
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: A participant write-up dates the Healthkathon 2.0 final CTF to 23 September 2023 and attributes
+  the event to BPJS Kesehatan.

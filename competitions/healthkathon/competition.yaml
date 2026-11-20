@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: healthkathon
+name: Healthkathon
+country: ID
+organizer:
+  name: BPJS Kesehatan
+  website: null
+website: null
+description: BPJS Kesehatan event whose security track uses Capture the Flag. The 2022 materials also
+  call the event Hackathon in BPJS Kesehatan.
+metadata:
+  established_year: null
+  recurring: true
+status: unknown
+verification: corroborated
+references:
+- title: Healthkathon 2023 final CTF write-up
+  url: https://medium.com/@dzzzet/write-up-final-ctf-healthkathon-2-0-ee3651fa0a72
+  type: writeup
+  accessed: '2026-11-21'
+- title: Politeknik Negeri Banjarmasin on Healthkathon 2024
+  url: https://poliban.ac.id/kalahkan-408-tim-tim-urang-banua-itech-poliban-juara-1-kategori-security-healthkathon-bpjs-kesehatan-2024/
+  type: other
+  accessed: '2026-11-21'
+notes: The directory was healthkaton and the previous identifier was healthkathon-ctf. Both are now healthkathon,
+  matching the event name. Recurring follows a 2023 participant account that calls it an annual BPJS Kesehatan
+  event. No official event website was found. The 2024 security category combined CTF and pentest, so
+  a single format is not recorded.

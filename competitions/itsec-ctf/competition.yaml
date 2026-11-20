@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: itsec-ctf
+name: ITSEC CTF
+country: ID
+organizer:
+  name: PT ITSEC Asia Tbk
+  website: https://itsec.asia/
+website: https://itsec.asia/
+description: Capture The Flag competition organized by PT ITSEC Asia Tbk as part of the ITSEC Cybersecurity
+  Summit. The 2025 organizer pages call it ITSEC CTF Competition.
+metadata:
+  established_year: 2025
+  recurring: null
+status: unknown
+verification: corroborated
+references:
+- title: ITSEC Cybersecurity Summit 2025
+  url: https://itsec.asia/blog/7-things-youll-only-find-at-itsec-cybersecurity-summit-2025
+  type: official_website
+  accessed: '2026-11-21'
+- title: PT ITSEC Asia Tbk announcement of ITSEC CTF Competition 2025
+  url: https://www.linkedin.com/posts/itsec-asia_itsec-ctf-competition-activity-7330812836991979520-hYgC
+  type: organizer_announcement
+  accessed: '2026-11-21'
+notes: This is the PT ITSEC Asia competition. It is separate from ITTSEC CTF, which is organized by Institut
+  Teknologi Tangerang Selatan and recorded as ittsec-ctf. The 2025 summit page describes the CTF as a new
+  addition, and no earlier or later ITSEC Asia CTF edition was found. CTFtime entries under the name ITSEC
+  ASIA are the company competing in other events, not editions of this competition.

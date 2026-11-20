@@ -1,0 +1,36 @@
+schema_version: '1.0'
+id: compfest-ctf
+name: COMPFEST CTF
+country: ID
+organizer:
+  name: Faculty of Computer Science students, Universitas Indonesia
+  website: null
+website: https://compfest.id/
+description: Capture The Flag branch of COMPFEST, the annual IT event run by students of the Faculty of
+  Computer Science, Universitas Indonesia. CTFtime describes a local event aimed at Indonesian participants
+  and a separate public mirror.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: COMPFEST
+  url: https://compfest.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: CTFtime / COMPFEST CTF
+  url: https://ctftime.org/ctf/502/
+  type: third_party_archive
+  accessed: '2026-11-21'
+- title: CTFtime / COMPFEST CTF 2026
+  url: https://ctftime.org/event/3290/
+  type: third_party_archive
+  accessed: '2026-11-21'
+notes: COMPFEST as a festival states that it has been held annually since 2009. That year is the festival's
+  first event, not a confirmed first year of the CTF branch. CTFtime lists COMPFEST CTF events for 2020
+  through 2026. The 2026 CTFtime listing is explicitly a mirror of a local event, so its listed window
+  is not recorded here as the local competition dates. A 2019 edition was present in the previous archive
+  record and remains unverified.

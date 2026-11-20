@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: ara-ctf-2026
+competition_id: ara-ctf
+year: 2026
+name: ARA 7.0 CTF
+status: completed
+verification: corroborated
+dates:
+  start: '2026-02-28'
+  end: '2026-02-28'
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-21'
+- title: BINUS School of Computer Science on ARA 2026
+  url: https://socs.binus.ac.id/2026/03/12/tim-petir-meraih-peringkat-1-dalam-kompetisi-ara-2026/
+  type: other
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: Local competition reported on 28 February 2026. The CTFtime entry is the mirror, 5-6 March 2026,
+  and states the jeopardy format. The mirror dates are not used as the edition window.

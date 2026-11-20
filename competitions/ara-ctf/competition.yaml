@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: ara-ctf
+name: ARA CTF
+country: ID
+organizer:
+  name: Himpunan Mahasiswa Teknologi Informasi (HMIT), Institut Teknologi Sepuluh Nopember
+  website: null
+website: https://ara-its.id/
+description: Capture The Flag branch of A Renewal Agent (ARA), an information-technology event for high-school
+  students and university students organized at Institut Teknologi Sepuluh Nopember.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: ARA 8.0
+  url: https://ara-its.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-21'
+- title: BINUS School of Computer Science on ARA 2026
+  url: https://socs.binus.ac.id/2026/03/12/tim-petir-meraih-peringkat-1-dalam-kompetisi-ara-2026/
+  type: other
+  accessed: '2026-11-21'
+notes: The current site presents ARA 8.0 as the event of HMIT ITS for the 2026-2027 period and does not
+  give a competition date, so it is not a separate edition yet. ARA 7.0's public mirror is on CTFtime
+  as a jeopardy event on 5-6 March 2026, and a BINUS report places the local ARA 2026 competition in Surabaya
+  on 28 February 2026. The 2023 and 2024 editions were already in the archive record. Only 2026 was corroborated
+  here. A LinkedIn summary says ARA was founded in 2019; that year is not recorded as established_year.

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: hology-ctf
+name: HOLOGY CTF
+country: ID
+organizer:
+  name: Fakultas Ilmu Komputer, Universitas Brawijaya
+  website: null
+website: https://hology.ub.ac.id/
+description: Capture The Flag competition in House of Technology (HOLOGY), the national technology festival
+  hosted by the Faculty of Computer Science, Universitas Brawijaya. HOLOGY 9.0 names this branch HoloHack
+  and states a jeopardy format with a qualification and an onsite final.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: HOLOGY 9.0
+  url: https://hology.ub.ac.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: HoloHack, HOLOGY 9.0
+  url: https://hology.ub.ac.id/competitions/holohack
+  type: official_website
+  accessed: '2026-11-21'
+- title: ITS news on Hology CTF 2025
+  url: https://www.its.ac.id/it/mahasiswa-its-raih-juara-2-dalam-ctf-hology-2025-bukti-keunggulan-di-bidang-keamanan-siber/
+  type: other
+  accessed: '2026-11-21'
+- title: nopedawn/CTF
+  url: https://github.com/nopedawn/CTF
+  type: writeup
+  accessed: null
+- title: SandWithCheese/ctf-writeups
+  url: https://github.com/SandWithCheese/ctf-writeups
+  type: writeup
+  accessed: null
+- title: IloveNooodles/CTFs
+  url: https://github.com/IloveNooodles/CTFs
+  type: writeup
+  accessed: null
+- title: Kiinzu/writeups
+  url: https://github.com/Kiinzu/writeups
+  type: writeup
+  accessed: null
+- title: dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges
+  type: writeup
+  accessed: null
+notes: The previous record listed Hology 6.0 and 7.0 without a confirmed year mapping. An ITS news article
+  identifies Hology 7.0 CTF with 2024 and also reports a Hology 2025 CTF. HOLOGY 9.0 is the 2026 edition
+  on the official site. The five repository links were carried from the previous record and were not re-checked
+  for which edition they document. A 2023 edition remains unverified.

@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: ifest-ctf-2026
+competition_id: ifest-ctf
+year: 2026
+name: IFEST 2026 CTF
+status: completed
+verification: corroborated
+dates:
+  start: '2026-09-12'
+  end: '2026-09-26'
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: IFEST
+  url: https://ifestunpad.com/home
+  type: official_website
+  accessed: '2026-11-21'
+- title: IIB Darmajaya news on IFEST 2026 CTF
+  url: https://www.darmajaya.ac.id/mahasiswa-teknik-informatika-kampus-unggul-iib-darmajaya-raih-juara-1-nasional-kompetisi-cyber-security-ifest-2026/
+  type: other
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: IFEST 2026 includes a CTF. A participant university's news report gives qualification on 12 September
+  2026 and the final on 26 September 2026. Those dates were not confirmed on ifestunpad.com in this pass.

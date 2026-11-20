@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: slashroot-ctf
+name: SlashRoot CTF
+country: ID
+organizer:
+  name: UKM Kelompok Studi Linux, ITB STIKOM Bali
+  website: null
+website: https://www.slashrootctf.id/
+description: Annual national cybersecurity competition organized by the Linux Study Group student activity
+  unit of ITB STIKOM Bali. This is a different event from the Yogyakarta SlashRoot conference.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: unknown
+verification: corroborated
+references:
+- title: ITB STIKOM Bali on Slashroot CTF 8.0
+  url: https://www.stikom-bali.ac.id/id/kompetisi-hacking-nasional-slashroot-ctf-8-0-ukm-kelompok-studi-linux-angkat-tema-secure-today-safe-tomorrow/
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: ITB STIKOM Bali on Slashroot CTF 7.0
+  url: https://www.stikom-bali.ac.id/id/kelompok-studi-linux-itb-stikom-bali-gelar-lomba-hacking-nasional-slashroot-ctf-7-0/
+  type: organizer_announcement
+  accessed: '2026-11-21'
+- title: SlashRoot 7 2023 problem set
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-21'
+notes: The 2023 registration announcement names www.slashrootctf.id as the official site. The jeopardy
+  format is stated by the organizer's SlashRoot 7 problem-set repository. The newest organizer article
+  found in this pass is SlashRoot CTF 8.0 in 2024, so the series status is left unknown. The previous
+  record listed only 2023.

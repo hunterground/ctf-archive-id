@@ -1,0 +1,21 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023
+competition_id: tcp1p-ctf
+year: 2023
+name: 'TCP1P CTF 2023: First Step Beyond Nusantara'
+status: completed
+verification: corroborated
+dates:
+  start: '2023-10-13'
+  end: '2023-10-15'
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: CTFtime / TCP1P CTF 2023
+  url: https://ctftime.org/event/2001/
+  type: third_party_archive
+  accessed: '2026-11-21'
+challenge_materials_imported: false
+notes: CTFtime, using the organizer's event entry, gives 13-15 October 2023 and the jeopardy format. The
+  listed window is 13:00 UTC on 13 October through 13:00 UTC on 15 October.

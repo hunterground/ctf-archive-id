@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: gemastik-ctf
+name: GEMASTIK Keamanan Siber (Cyber Security)
+country: ID
+organizer:
+  name: Balai Pengembangan Talenta Indonesia (BPTI), Pusat Prestasi Nasional (PUSPRESNAS), Sekretariat
+    Jenderal, Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi
+  website: http://bpti.kemdikbud.go.id/
+website: https://gemastik.kemdikbud.go.id/
+description: Cybersecurity division of Pagelaran Mahasiswa Nasional Bidang Teknologi Informasi dan Komunikasi
+  (GEMASTIK). The GEMASTIK XVII guidebook defines the qualification as Capture the Flag and the final
+  as attack-defense followed by a presentation.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+  - attack-defense
+status: active
+verification: corroborated
+references:
+- title: GEMASTIK
+  url: https://gemastik.kemdikbud.go.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: Pedoman GEMASTIK 2024
+  url: https://pusatprestasinasional.kemdikbud.go.id/uploads/lampiran/Pedoman%20GEMASTIK%202024%20-%2003-01.pdf
+  type: official_website
+  accessed: '2026-11-21'
+notes: The organizer string is the penyelenggara named in the GEMASTIK XVII (2024) guidebook. The same
+  parent body was not re-checked for every other edition. The guidebook places Gemastik XVI in 2023 and
+  Gemastik XVII in 2024. A Universitas Gadjah Mada decree identifies GEMASTIK XVIII as the 2025 edition.
+  The recorded formats are the 2024 qualification and final formats.

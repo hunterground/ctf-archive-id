@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: recursion-ctf
+name: RECURSION CTF
+country: ID
+organizer:
+  name: Himpunan Mahasiswa Informatika, Fakultas Teknik, Universitas Hasanuddin
+  website: null
+website: https://www.recursion.id/
+description: Capture The Flag branch of RECURSION (Red Campus Futurist Informatics Competition), the IT
+  competition of the Informatics Student Association at Universitas Hasanuddin.
+metadata:
+  established_year: 2025
+  recurring: true
+status: active
+verification: corroborated
+references:
+- title: RECURSION 2.0
+  url: https://www.recursion.id/
+  type: official_website
+  accessed: '2026-11-21'
+- title: RECURSION 1.0
+  url: https://recursionuh.my.id/
+  type: official_website
+  accessed: '2026-11-21'
+notes: RECURSION 1.0 in 2025 is described by the event's publication coordinator as the first national
+  edition and included a CTF. RECURSION 2.0 in 2026 also includes a CTF. No earlier edition was found.

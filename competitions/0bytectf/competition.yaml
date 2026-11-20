@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: 0bytectf
+name: 0byteCTF
+country: ID
+organizer:
+  name: ZeroByte.ID
+  website: https://zerobyte.id/
+website: https://zerobyte.id/
+description: Capture the Flag competition organized by ZeroByte.ID. The 2023 and 2024 editions were held
+  to mark Indonesian Independence Day.
+metadata:
+  established_year: null
+  recurring: true
+status: unknown
+verification: corroborated
+references:
+- title: 0byteCTF 2023
+  url: https://zerobyte.id/events/0byteCTF-2023/
+  type: official_website
+  accessed: '2026-11-21'
+- title: 0byteCTF 2024
+  url: https://zerobyte.id/events/0byteCTF-2024/
+  type: official_website
+  accessed: '2026-11-21'
+notes: No edition after 2024 was found. The 2024 page says participants should expect a next 0byteCTF,
+  which is why recurring is true, while status stays unknown.
