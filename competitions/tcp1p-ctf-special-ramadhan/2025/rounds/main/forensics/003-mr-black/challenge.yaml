@@ -51,12 +51,6 @@ preservation:
   - path: dist/dist.zip
     algorithm: sha256
     value: 7e090ada70705b0878d9d76cd478fd2be7a0084d5da06cff9b8dc7df38107779
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/README.md
-    algorithm: sha256
-    value: 8ec3f5a207482f82ca068c85bd78b1c55203b021aa29e72be1b0ea742ba53b4f
   - path: writeups/README.md
     algorithm: sha256
     value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a

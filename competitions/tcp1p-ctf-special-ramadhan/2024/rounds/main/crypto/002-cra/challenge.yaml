@@ -58,12 +58,6 @@ preservation:
   - path: output.txt
     algorithm: sha256
     value: 00c23e8b5e93b604f68a5a128179122a0be264342db12bbe60965b66798a79e5
-  - path: solver/output.txt
-    algorithm: sha256
-    value: 00c23e8b5e93b604f68a5a128179122a0be264342db12bbe60965b66798a79e5
-  - path: solver/solve.py
-    algorithm: sha256
-    value: d90ac70a015a5f6431898c7f698ccc4e58ae892024ed33568a2ccc8d9c8c2264
 references:
 - title: TCP1P CTF Special Ramadhan 2024
   url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024

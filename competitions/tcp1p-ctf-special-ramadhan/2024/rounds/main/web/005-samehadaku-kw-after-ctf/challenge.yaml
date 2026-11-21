@@ -49,27 +49,6 @@ preservation:
   - path: dist.zip
     algorithm: sha256
     value: 826b67ebe6f68f85b1d1bdebc9d8d461bf3ff4830451f5838a39d227854bfb23
-  - path: solution/README.md
-    algorithm: sha256
-    value: 38a533b2a9802242afa1fe6c5e26b5be2c12ed09a587f23e0ece72ca8af6cfaa
-  - path: solution/image.png
-    algorithm: sha256
-    value: faff238f0356b69390c752a52158cc9a54b653d3f7ad7b26020699c65319e391
-  - path: solution/solver/README.md
-    algorithm: sha256
-    value: b43c2836038f95ccc94a6687e5424650e82af6e932c74157ec3cdf2a0de98f1a
-  - path: solution/solver/author_exploit.conf.yaml
-    algorithm: sha256
-    value: f4a8e248455359deda038047e8e2e56460b60879513d156607c3d17f0c73bce2
-  - path: solution/solver/exploit.tar
-    algorithm: sha256
-    value: 715e2e7221d84f75c130d038fcc21f2733fd0dd3a670d258ccb17f5846d33a46
-  - path: solution/solver/exploit.zip
-    algorithm: sha256
-    value: 597f5a1007473ebde9073293d2ed032a858b63fd2528e6ce9020f383c5a79916
-  - path: solution/solver/solve.py
-    algorithm: sha256
-    value: 2d7dd1c495b50a55f6c61d9e7f2e79ffc130711f4e892d8dd929ca8cf6b340dc
   - path: src/samehadaku.kw/.dockerignore
     algorithm: sha256
     value: b6a10f9164dc95bd2fb0dbb5ee1485389ebe8f4d2a8617ad759872c6a572ed22

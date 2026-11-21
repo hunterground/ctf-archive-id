@@ -48,15 +48,6 @@ preservation:
   - path: dist/ffiishy.apk
     algorithm: sha256
     value: 915dc5b9b0c158e984c0703492095cfb6fdd95f0ed52e449565f8a284172bd7a
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/eqs.java
-    algorithm: sha256
-    value: cead1ef750edfb0902465be3cfcc8d74aafe17d37fb38dfec43d9276270820ec
-  - path: solver/solve.py
-    algorithm: sha256
-    value: 5a40ad2df9609c871e895b8d9f5f094e531ccae2dc099960378aedeb760eb60f
   - path: src/fishy/.gitignore
     algorithm: sha256
     value: 6dbe3e33f272d9d7d930e6b3677d77d8f92419ac6470fc1bd2d7a52ea2029a49

@@ -53,12 +53,6 @@ preservation:
   - path: dist/suisei.skibidi
     algorithm: sha256
     value: 5b3c64e075246e166a80b2b6a5fb881ba3b185bcffe986948f0d01f3c8128406
-  - path: solver/decoder_skibidi/Cargo.toml
-    algorithm: sha256
-    value: 25f1bbd7a929bb85ce7023f5cef56bb3dd8c595fd28f66b593bc505acc9fc50e
-  - path: solver/decoder_skibidi/src/main.rs
-    algorithm: sha256
-    value: 83cdf47a429f1a71d61b11c49e8b141c8c5647e53dbdf707bc5f59b0cb4fc22c
   - path: src/encoder_skibidi/Cargo.toml
     algorithm: sha256
     value: a01f1785116d2664ca6361501d0d5769d255b514d4537ad7ec216abdc75bf264

@@ -52,9 +52,6 @@ preservation:
   - path: docker-compose.yml
     algorithm: sha256
     value: a26c640ea365ecba7a7cdc2719033815f7711993c50e34c7592ba9af9525f87b
-  - path: solver/solver.py
-    algorithm: sha256
-    value: 4a4f8801a4e6116a75de002d0cc1a9122abc92fd12154300fd40f85449ce699a
   - path: src/Dockerfile
     algorithm: sha256
     value: fcbbda8b61ce090ba6c803463efed76567f74dc2ecb2e17ac04f5090d728e72b

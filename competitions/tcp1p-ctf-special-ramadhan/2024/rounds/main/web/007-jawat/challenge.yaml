@@ -48,9 +48,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: 92ddeb77c8c3fd856ef55fcd1c79eec0570d3dbcd7eb2b8f331f1e2af4d91cf7
-  - path: solution/README.md
-    algorithm: sha256
-    value: 764857071e10463721249b6ffaa8f8981503339a94cbfbbfc718a663a0e40847
   - path: src/jawat/.dockerignore
     algorithm: sha256
     value: e359f1373444307d2faaae5745bf07aba59aca5aea984d3eb035f1da0a1b50e1

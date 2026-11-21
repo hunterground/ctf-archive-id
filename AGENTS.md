@@ -12,7 +12,7 @@ The repository itself is the source of truth for archived content and metadata.
 
 ## 2. Non-negotiable rules
 
-1. **Preserve source materials.** Copy original challenge files into the challenge's `original/` directory and preserve their internal directory structure and filenames.
+1. **Preserve source materials.** Copy original challenge files into the challenge's `original/` directory and preserve their internal directory structure and filenames. Move author solver scripts to `solvers/` as described in Phase D, without rewriting the remaining files.
 2. **Do not silently modify originals.** Do not rename, reformat, patch, sanitize, rebuild, or delete original challenge files. If a safety or legal concern prevents copying a file, record the omission and its reason in migration notes.
 3. **Do not invent facts.** Never guess competition dates, authors, teams, challenge names, categories, difficulty, flags, licenses, or redistribution permissions.
 4. **Unknown means `null` or an explicit unknown enum.** Do not use fabricated placeholders as factual metadata.
@@ -63,6 +63,14 @@ competitions/<competition-id>/
 ```
 
 Use `rounds/` directly under the edition when no real division structure exists. Do not create an artificial `general`, `open`, or `default` division.
+
+Solver scripts live outside the challenge distribution. Mirror the challenge directory under `solvers/` and keep the path the file had under `original/`:
+
+```text
+solvers/competitions/<competition-id>/<year>/.../<slug>/<path-under-original>
+```
+
+A division edition uses the same `divisions/<division-id>/rounds/...` path it uses under `competitions/`.
 
 ## 4. Migration workflow
 
@@ -142,11 +150,12 @@ Preserve the official event name when it is established. Do not replace it with 
 
 1. Copy the challenge's source files into `original/`.
 2. Preserve all relative paths and filenames below the challenge root.
-3. Do not include `.git/`, caches, virtual environments, editor settings, or generated build output unless the item is itself part of the challenge distribution.
-4. Do not include repository-wide tooling in every challenge.
-5. Do not omit Dockerfiles, compose files, scripts, attachments, or challenge-provided configuration merely because they are not directly executable; they may be part of the original distribution.
-6. Preserve license and notice files at the most specific applicable level. A repository-level license may not necessarily apply to every challenge; record the scope carefully.
-7. If a challenge is represented only by a link and redistribution is not established, do not copy it. Register the source in `archives/repositories.yaml` and document the reason.
+3. Move solver material out of `original/` into `solvers/`, keeping the path relative to the challenge directory. Solver material is a directory named `solver`, `solvers`, `solve`, `solution`, or `solutions`, including its contents, and a file whose name is a solver script (`solve.*`, `solver.*`, `solv.*`, `sol.*`, `exploit.*`, `solver_*`, `solve_*`, or `exploit_*`) when it is not already inside one of those directories. Do not edit the remaining original files to retarget links. Do not record the move in `challenge.yaml`, including `preservation.omissions`. Remove checksum entries for those paths. Leave `preservation.modified` false.
+4. Do not include `.git/`, caches, virtual environments, editor settings, or generated build output unless the item is itself part of the challenge distribution.
+5. Do not include repository-wide tooling in every challenge.
+6. Do not omit Dockerfiles, compose files, scripts, attachments, or challenge-provided configuration merely because they are not directly executable; they may be part of the original distribution. This does not apply to solver material moved in step 3.
+7. Preserve license and notice files at the most specific applicable level. A repository-level license may not necessarily apply to every challenge; record the scope carefully.
+8. If a challenge is represented only by a link and redistribution is not established, do not copy it. Register the source in `archives/repositories.yaml` and document the reason.
 
 When the upstream source is a Git repository, record the exact commit SHA used whenever possible. A branch name alone is not an immutable provenance reference.
 
@@ -159,7 +168,7 @@ Before declaring migration complete:
 3. Check that metadata IDs and directory names are consistent.
 4. Check that referenced competition, edition, round, and division identifiers match the hierarchy.
 5. Check for duplicate challenge imports using names, source paths, hashes, and Git history where available.
-6. Check that original file paths and file counts match the source inventory.
+6. Check that original file paths and file counts match the source inventory. Solver material is the exception: it must be under `solvers/` at the mirrored challenge path, and `challenge.yaml` must not mention that move.
 7. Generate checksums for copied files in the migration report when practical. Do not modify source files to add checksums.
 8. Validate YAML against the JSON Schemas when a validator is available. If not available, report that schema validation was not run.
 9. Review licensing and attribution status for every challenge.

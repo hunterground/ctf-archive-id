@@ -45,9 +45,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: 616dcb3a4598e29f1b87cc176bdceb32d7e19573f6d969c554198b03303b8f36
-  - path: solver/README.md
-    algorithm: sha256
-    value: 9706b2cf61d4d99566aaa28befd274edb233b63c04bfa6f6092f30acf7240cd8
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

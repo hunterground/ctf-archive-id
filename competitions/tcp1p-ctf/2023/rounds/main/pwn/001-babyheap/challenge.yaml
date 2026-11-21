@@ -78,9 +78,6 @@ preservation:
   - path: start.sh
     algorithm: sha256
     value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
-  - path: writeup/solve.py
-    algorithm: sha256
-    value: 4e6b93be02589ce0d2f3c1f626c8bbb8f1623f60f70bfbc57fa76902a4037602
   - path: xinetd
     algorithm: sha256
     value: ed9c3e750fc311b44ab653d0a2bac294be7c06d108084c37f201a20d57377f79

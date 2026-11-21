@@ -45,9 +45,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: c8c9a40b07bb804fbdce8fa88c57aff65d494f2283acb7b2b9f6f7ebf7370b10
-  - path: solution/README.md
-    algorithm: sha256
-    value: fb5bf5c011afefd4076fd051037881eff6650f8acc98ba7f6694d3e15b5faf00
   - path: src/flag.txt
     algorithm: sha256
     value: 7d77ea87ba95b6c2b4f0eaa8b3012d242bebb7fd19286497966bdbc3606720e8

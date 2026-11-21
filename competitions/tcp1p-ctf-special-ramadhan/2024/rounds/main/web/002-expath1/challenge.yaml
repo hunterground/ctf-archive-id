@@ -48,9 +48,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: f3fdb5551a0364f4d8b105c65dcdd68380691c042534c3a8c787bb6d3868788f
-  - path: solution/README.md
-    algorithm: sha256
-    value: 81f70034613ae87283be0c1821f719732ed3f3524cad64393c3bdfe5457ffa97
   - path: src/ExPath1/Dockerfile
     algorithm: sha256
     value: 0ec9e16c5fcde927dc0c9e0bda0d55ab646f3c1fa108da2be9233441b3b4458f

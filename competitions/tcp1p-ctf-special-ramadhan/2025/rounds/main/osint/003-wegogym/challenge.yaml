@@ -51,12 +51,6 @@ preservation:
   - path: dist/chall.jpg
     algorithm: sha256
     value: 2606d7c47d6c9e80ff8823aa6980b32836cdeff8c204794d98a35e2fe1269b2f
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solve.md
-    algorithm: sha256
-    value: 78349eb1e171d9bf8e8a11b50453db210ef6159e83583e4c4c8426ffe2aa8b52
   - path: writeups/README.md
     algorithm: sha256
     value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a

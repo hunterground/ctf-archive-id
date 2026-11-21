@@ -53,15 +53,6 @@ preservation:
   - path: dist/output.txt
     algorithm: sha256
     value: 1c45ad60eee9fc9e4aee7dabd65f4f8d92052ea3621732175e2439ace810400f
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/PoC-Solver.md
-    algorithm: sha256
-    value: d5f2bf48d73adb63492f015fdc29bacdc8163b9c2d1967b2f84fc2e2bbb327fb
-  - path: solver/solver.py
-    algorithm: sha256
-    value: 003037d479605e22d9417e45f456a18b925bbe3531c1bb98be30761955d0fec4
   - path: src/flag.txt
     algorithm: sha256
     value: f7e31baed92302fb694dc475b2668dcf2033638e7e2352efe9ab67e8925d2b89

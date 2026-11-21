@@ -204,9 +204,6 @@ preservation:
   - path: writeup/serialize.php
     algorithm: sha256
     value: c10c4a537b15b8f1c3f622781d21daa7cc644e4a702aee3bb544cd64af808af1
-  - path: writeup/solver.py
-    algorithm: sha256
-    value: 521547111bbd39956fb589fcd88b9aab0e6b61954c1c8198052ac08019e2334d
   - path: writeup/templates/index.html
     algorithm: sha256
     value: a0b30832a1069e059db132bdc5b7cbffa4e2c53ca095ae157a813edce95afdfd

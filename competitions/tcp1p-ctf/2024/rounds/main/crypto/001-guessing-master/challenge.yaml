@@ -57,9 +57,6 @@ preservation:
   - path: src/output.txt
     algorithm: sha256
     value: b12bc888959918ba0f4465cccfa024325964ff3215e497f4acd82bbccd0b701c
-  - path: src/solve.py
-    algorithm: sha256
-    value: 818595d9e44f17489de4611b154e7c75ffc7f71dfc36d5e4ce3edf5cbf0af45c
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

@@ -186,9 +186,6 @@ preservation:
   - path: writeup/README.md
     algorithm: sha256
     value: 1303c4dc2f93b0f43767c6648c138e758c464bae0cbb13fdfbb1b75c66f6f27f
-  - path: writeup/exploit.php
-    algorithm: sha256
-    value: ac39ab6233fcb7296bb1af9383c04455c4164adc83b5f647d8e3c57cb838a957
   - path: writeup/gatget.php
     algorithm: sha256
     value: 6b255822d35b672d8eeb28b012cd83b46ec1244867ee1ae7a03da2e7c8fe834e

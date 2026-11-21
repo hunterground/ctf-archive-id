@@ -48,12 +48,6 @@ preservation:
   - path: dist/homework.txt
     algorithm: sha256
     value: 85fc4cee6590c54d66060334ec203a5ff7b7c67b9c66f665328ff1415df6a25e
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solver.txt
-    algorithm: sha256
-    value: c79044439e78bfaf11433b447db8224856fae55e2f24bc834dcbe57efcf7a052
   - path: src/homework.png
     algorithm: sha256
     value: c9ac84b4ab8e14f08293cbc716ccda7480fd511f8f48bc9bad7a4be6a265f914

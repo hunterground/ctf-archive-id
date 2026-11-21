@@ -54,18 +54,12 @@ preservation:
   - path: secret.py
     algorithm: sha256
     value: 4146f0093469faa752e873a32d497a4b4e195af0e5a526d9f43a4d05a37e43e8
-  - path: solve.py
-    algorithm: sha256
-    value: 1d5c490bafb9346373a1e3d201d1e1f5ae4acdd37b82397f54d5bfbf8111f58b
   - path: src/chall.py
     algorithm: sha256
     value: 67eb8b05b2a34d64af9b3fd45e32be4aef9df43e6c5523ad17ff23be8567a55e
   - path: src/secret.py
     algorithm: sha256
     value: 4146f0093469faa752e873a32d497a4b4e195af0e5a526d9f43a4d05a37e43e8
-  - path: src/solve.py
-    algorithm: sha256
-    value: 1d5c490bafb9346373a1e3d201d1e1f5ae4acdd37b82397f54d5bfbf8111f58b
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

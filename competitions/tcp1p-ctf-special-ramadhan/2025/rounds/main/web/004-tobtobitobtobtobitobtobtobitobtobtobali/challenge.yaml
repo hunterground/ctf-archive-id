@@ -52,12 +52,6 @@ preservation:
   - path: dist/dist.zip
     algorithm: sha256
     value: aeaa85c6194615f043e5736f594b57131fb0d2c4576c06e07650982df085d34c
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solve.py
-    algorithm: sha256
-    value: cf28d963c583512a68b94c2bf9f2e8dd2e8a1445d6625dd71766be9442f02b8e
   - path: src/Dockerfile
     algorithm: sha256
     value: fc580b8b69de0b315e2f63057f29a6dcc27cf0e5e2b6377f083651d0a597462c

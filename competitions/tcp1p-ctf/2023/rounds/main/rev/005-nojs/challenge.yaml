@@ -48,9 +48,6 @@ preservation:
   - path: dist/main
     algorithm: sha256
     value: ea1c7b76a44c073aefe0c5ca565e3027d293c96f862de2ae1b238716c4acd0e5
-  - path: solution/solve.py
-    algorithm: sha256
-    value: d86712087edaa1c10fd028791a1639a3dd315741cc8ef1ff2d1cf4785caacc36
   - path: src/main.js
     algorithm: sha256
     value: 20dc4d4ef2f75c8293f85de430bbddb99af16c294b16ca7157ec4945d7594df0

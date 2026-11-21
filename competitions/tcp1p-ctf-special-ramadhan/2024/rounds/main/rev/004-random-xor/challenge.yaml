@@ -42,12 +42,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: 416d24be4a5237275540add7d01418b5150993261b6a73aad8bca1c27b9058c5
-  - path: solution/flag_enc.txt
-    algorithm: sha256
-    value: d46336e39b446ff50f188761a143187560a58d764602b3ae498d721b438f8698
-  - path: solution/solve.py
-    algorithm: sha256
-    value: 090650b9f4ac253338070c9c9faf54af0097102b400569ee67be6f8d7b1e4fac
   - path: src/random-xor/encrypt
     algorithm: sha256
     value: f01c03bc2a180bc9fcada273b4f96dff05e5625a366c086e5bcad5dab2287697

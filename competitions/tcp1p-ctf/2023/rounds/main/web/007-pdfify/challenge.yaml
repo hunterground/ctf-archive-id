@@ -20028,30 +20028,6 @@ preservation:
   - path: writeup/WRITEUP.md
     algorithm: sha256
     value: 1e54c7db2896b1190ea2c6fee2db99f333a8a127216bb965319b3b9d3dff9785
-  - path: writeup/solver/exploit.py
-    algorithm: sha256
-    value: aed7c99420c2d8dd4bfa87a70d99a44e1afecbb5f8dcfbc85abf8c0354811678
-  - path: writeup/solver/ftp.py
-    algorithm: sha256
-    value: 451f3708a2ae62d2aca98848105aafcdb1e1b645f55b4eb872321337b553a122
-  - path: writeup/solver/gadget.php
-    algorithm: sha256
-    value: c2b4b8e431c226a3e921f0979007e3969d4232f85b89a7eefe61f7f9f95c33fe
-  - path: writeup/solver/payload.phar
-    algorithm: sha256
-    value: 2c2b6f56c7e3444d589b006a13a44139f1c1f02deb6c060cd9088bc2317b0df4
-  - path: writeup/solver/payload.php
-    algorithm: sha256
-    value: e23b465a4e6ee4c91569c5b3a81568eff1e61cf4f7f1e6eab1a452e6ea72b30a
-  - path: writeup/solver/pwn.php
-    algorithm: sha256
-    value: 7ad78a7910027b0b514abca45188a05d679f0d86d84a9f75d51edd1f885b47ca
-  - path: writeup/solver/solve.sh
-    algorithm: sha256
-    value: 1877e6d5cc56c64362fd80b103a992cba38d2eb7adf4633da355997607081933
-  - path: writeup/solver/test.txt
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 references:
 - title: TCP1P CTF 2023 Challenges
   url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges

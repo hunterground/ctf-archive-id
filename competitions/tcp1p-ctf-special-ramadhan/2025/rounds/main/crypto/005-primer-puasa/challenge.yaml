@@ -51,18 +51,6 @@ preservation:
   - path: dist/output.txt
     algorithm: sha256
     value: 1b3ca4cbc139ca17c1f29a1c56afca5490d6797d4d80ecd1163b3a585784853b
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/PoC_Crypto-Primer_Puasa.md
-    algorithm: sha256
-    value: df9ec7b602bac7a30e251482523a5480eb151e538e252fa60b66abda343d1b2e
-  - path: solver/output.txt
-    algorithm: sha256
-    value: 1b3ca4cbc139ca17c1f29a1c56afca5490d6797d4d80ecd1163b3a585784853b
-  - path: solver/solver.py
-    algorithm: sha256
-    value: 30a1e98470db59103937eb7cbd7942f5e97b400106ad3b7a7696eb518d1e0348
   - path: src/flag.txt
     algorithm: sha256
     value: 8d45b67c565848a4a1aa1eed23a052114677486731485447042db64284a458fa

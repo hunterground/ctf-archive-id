@@ -57,12 +57,6 @@ preservation:
   - path: dist/tolong gw.docx
     algorithm: sha256
     value: b76488d9b3c2579abece7dcf94aa1253fc9e326e22fa0410e955a76cf96b82d0
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solver.txt
-    algorithm: sha256
-    value: d24baac10d9a3ce1e3aa5c22046f6ef0e7f0de9768ecb3fe2ee84f39ccccfb9d
   - path: src/flag.txt
     algorithm: sha256
     value: 75a6832517f87d2876924285eab66f9af3520e6e7c931976fcff30dc994a0ae3

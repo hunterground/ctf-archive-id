@@ -63,9 +63,6 @@ preservation:
   - path: main
     algorithm: sha256
     value: 0c2a54710f8164af2dfb053c151418fbbd2e281ea2ec086357e414b7f1e0549b
-  - path: solve.txt
-    algorithm: sha256
-    value: 615c0dec937c12ef097611edca0d283d8f9354273387e614e17e37ce6abfec9d
   - path: test.c
     algorithm: sha256
     value: 23de61e86f9d40918306ea8ce06eda7d493f9c87c46e42e8e4d843ea366800ac

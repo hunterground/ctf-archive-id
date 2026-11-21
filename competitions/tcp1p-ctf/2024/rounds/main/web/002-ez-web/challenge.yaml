@@ -114,9 +114,6 @@ preservation:
   - path: dist/proxy/default.conf
     algorithm: sha256
     value: 2ba24350fe319cd2b3f006f5fed51428e02b6adcb7b228439609e245e4409bd4
-  - path: solver/README.md
-    algorithm: sha256
-    value: ad73dd41e4a62b16dae3fbf6ae1149aa6ce56c0866f676168213ef558b9bdb56
   - path: src/app/Dockerfile
     algorithm: sha256
     value: 38bb0bbd85f0f9d3c3c7ded37a3c1ad04682b0ed0b71e0ab2826c77a07fc7262

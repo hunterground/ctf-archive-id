@@ -48,12 +48,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: a30b4df32c29935560cf5c31c5b464d2470e6418159cf4cc2fa490d95bc10796
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/writeup.md
-    algorithm: sha256
-    value: c3f56ab7c9e41d21a67d0ac509803087c15559a2fb630ba34bf87d372f6ca80d
   - path: writeups/README.md
     algorithm: sha256
     value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a

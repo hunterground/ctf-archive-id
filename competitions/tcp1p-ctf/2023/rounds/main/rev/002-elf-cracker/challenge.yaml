@@ -62,9 +62,6 @@ preservation:
   - path: include/elf_packer.h
     algorithm: sha256
     value: c79811db342e2e8d18b2018090c47d0745a7609a6c12af6036a03f478601e8ca
-  - path: solution/solve.py
-    algorithm: sha256
-    value: c006b09b2e38b87054829f0c941ec89d0426c6679cb465f6111627744ef68128
   - path: src/flag.c
     algorithm: sha256
     value: 4b3fb15a083a2f26d6a6e52541332e852b5149f1a4bf56dd132b089c8d6c33ee

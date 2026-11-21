@@ -47,9 +47,6 @@ preservation:
   - path: litevernodb.tar.gz
     algorithm: sha256
     value: ccc6810992115516f4f2ac83e82437e5fce9975d10fe6a21ef2b791ad1671825
-  - path: solution/solver.py
-    algorithm: sha256
-    value: 0f0d30274c87c3661be6758211ccf15820cf06c2740d91b5304bc83fdd17e7bb
   - path: src/litever/Dockerfile
     algorithm: sha256
     value: 3c982134e81918758290bef1149c40a117f61b9d9f86f3d5437d3a63e3330f39

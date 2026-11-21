@@ -48,9 +48,6 @@ preservation:
   - path: dist/dist.zip
     algorithm: sha256
     value: 23b3ec8bf5cf03dbe5ed7b336b5dd6bd734bbe7564c9876d39ac8e11b90018ec
-  - path: solver/README.md
-    algorithm: sha256
-    value: 57fcb76b025e8ee96f26d130940f138420458633e34d6302e8e7f6c75ff81fe2
   - path: src/flag.png
     algorithm: sha256
     value: 9f5a7eac3ebc1163e6ee5f9ae7b1ac21b7626412f60526e3f5a8b4a57e0fb256

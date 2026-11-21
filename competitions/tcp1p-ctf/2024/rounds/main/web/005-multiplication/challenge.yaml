@@ -81,9 +81,6 @@ preservation:
   - path: dist/src/index.php
     algorithm: sha256
     value: aa5324d6d42bde45d6bbf50c618275a51a0b78c48990937697490ff8d3fddf29
-  - path: solver/README.md
-    algorithm: sha256
-    value: 064d25d6e221ebed852771411a492008ff4e9a8573b571f5b05f3db4edb1ae50
   - path: src/Dockerfile
     algorithm: sha256
     value: 231a1837885053dee76244fc6995ab067798103b8bcaa1ff69b781d4ec6ab7ca

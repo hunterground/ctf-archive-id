@@ -48,12 +48,6 @@ preservation:
   - path: dist/packet.pcapng
     algorithm: sha256
     value: 9d9cabff933e91791df4cd2e211ffa6c0f1086ea6f5c9d18cd741aacd755ee0d
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solv.py
-    algorithm: sha256
-    value: c6dd854667ed9455541c2e7bdfd2bba3be84c25ea1d13c721b9105afdebd12e9
   - path: src/flag.txt
     algorithm: sha256
     value: 9a83ba88f69412f0c370fe6292f527edc7d930187ef6cfcd3af8c799b26e91a0

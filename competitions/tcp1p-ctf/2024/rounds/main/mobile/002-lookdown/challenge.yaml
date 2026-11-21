@@ -66,15 +66,6 @@ preservation:
   - path: dist/client_dist.py
     algorithm: sha256
     value: 584d1ca4844fcf0309a3ed5cda7173086fcbaf0f62964926654b7e3f939a179c
-  - path: solver/README.md
-    algorithm: sha256
-    value: f9286c44750dbb5942a159a7ed567ef2ac707a53e0f92e4b467c8c2948114161
-  - path: solver/download.html
-    algorithm: sha256
-    value: cac70183d9a855c8da45864fcbfa3769a0b3a160901c2346c88714fb6c0b0f39
-  - path: solver/index.html
-    algorithm: sha256
-    value: a0baf5193ecf4fd5aec802da23e7860c431c4a2535f07515bd1886d11b801012
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

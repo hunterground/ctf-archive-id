@@ -51,9 +51,6 @@ preservation:
   - path: dist/docker-compose.yml
     algorithm: sha256
     value: d04b2f609382c371322e11ee3899e006851d21a5318903386a3490fd45f2bc7f
-  - path: solver/image.png
-    algorithm: sha256
-    value: 39e7e512353cce4fb1ef2975d85e8eb05563476f8384aa9370e0c75e20ec69d0
   - path: src/Dockerfile
     algorithm: sha256
     value: f12a7a77cd8df37d5b0a0597d5f1e4aa6ef1dbe632bce31d5a6a1b14781d8ddb

@@ -310,21 +310,6 @@ preservation:
   - path: imagefmt/watcher.sh
     algorithm: sha256
     value: 022eeb0fffa394121cdfc2ab329f093b42eb8de7ceec556af0ef02bb1e871867
-  - path: solver/html.jpg
-    algorithm: sha256
-    value: 59a9dedf9c327efbe21e2faf25a35697c729ddbd620e271ab90582eaacf5d1ae
-  - path: solver/index.html
-    algorithm: sha256
-    value: eb94c59689e4eab28dbb9111a69290014971a1beffda77cb361f6d79cf61baf4
-  - path: solver/init.sh
-    algorithm: sha256
-    value: ada8119d358d157a5fadc52966d8aacf252eea0b95b82e375d5601f2ca89e321
-  - path: solver/original.jpg
-    algorithm: sha256
-    value: 3b37a3a3eac1da4e633ba899ea9b8c51b1e6708eec44dc754ed2aa1d55b808c9
-  - path: solver/output.jpg
-    algorithm: sha256
-    value: 358ecb076c8a5b333c837ddc744a3a257fbe161c740e0e905af590f6dd698ac2
   - path: tailwind.config.ts
     algorithm: sha256
     value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855

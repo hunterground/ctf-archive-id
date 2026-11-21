@@ -133,9 +133,6 @@ preservation:
   - path: proxy.conf
     algorithm: sha256
     value: 997b65f12fe50b59c3b9e59755aa154f00eb7cb9f05aa693165d06ecda49ba5e
-  - path: solver/solve.py
-    algorithm: sha256
-    value: cc4110b4ac71fc2d9e24590208aaeed8e5655f52476f8f962f469106b9df84e8
   - path: src/index.html
     algorithm: sha256
     value: 84879e9b1b9252d7e263df823896974c69c1efe2dbcde08dbea251f2e5d43d78

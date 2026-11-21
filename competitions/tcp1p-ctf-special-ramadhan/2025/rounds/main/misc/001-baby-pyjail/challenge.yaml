@@ -51,12 +51,6 @@ preservation:
   - path: dist/chall.py
     algorithm: sha256
     value: 5c2963fb5bd422158305c765ca5a9a2c15eb5cca3dcb79601419b22e85433820
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/README.md
-    algorithm: sha256
-    value: 90f9724660c9f9ba70dac2f1d1ada7a8fb2e24895e354b3888f89622bd91b3d6
   - path: src/Dockerfile
     algorithm: sha256
     value: de7c35bdded3a58f7bf42a343a6f2ca3168ca22bb9f9c5bd182fcc0706944ff2

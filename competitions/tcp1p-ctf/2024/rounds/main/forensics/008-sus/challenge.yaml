@@ -52,9 +52,6 @@ preservation:
   - path: dist/encrypted_files.zip
     algorithm: sha256
     value: a8f8b5f3776395475b8bede0268dbde883030b7a8c98672b478bdf50adb3f55b
-  - path: solver/README.md
-    algorithm: sha256
-    value: adc6fbc0ff598cad1729e346cf683bdbdbc7205283e1791d36f2ee2b8d93e751
   - path: src/decrypted_files/flag.zip
     algorithm: sha256
     value: 6dd4e63df8295c66e5f2908bd09fbcb06f8ab77c57cbbccc0269d56ee1b298a1

@@ -93,15 +93,6 @@ preservation:
   - path: dist/readflag.c
     algorithm: sha256
     value: 1b8eb0d53aa33f34dbc8def74cfa927fe834389073591e7a586ea553071a0723
-  - path: solver/1.yaml
-    algorithm: sha256
-    value: b5bdd87e20f72e828226272abc212a50c3c9861fef9918f9aeb8225319092ff8
-  - path: solver/2.yaml
-    algorithm: sha256
-    value: 2b2336101b77798f787f7342e23b62e936e45dcc05226f8949d82582a2c8094e
-  - path: solver/3.yaml
-    algorithm: sha256
-    value: 2cfe1a46d881fc15854da7413eb8b8fdac134a43d32601a9d311ecbd70ef3a65
   - path: src/Dockerfile
     algorithm: sha256
     value: 831fb9f3ecd4682d2e302c94aa7a311cae686e386d6766e1d6cc29b820d21630

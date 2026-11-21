@@ -57,24 +57,6 @@ preservation:
   - path: dist/libc.so.6
     algorithm: sha256
     value: 5955dead1a55f545cf9cf34a40b2eb65deb84ea503ac467a266d061073315fa7
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/README.md
-    algorithm: sha256
-    value: 5d8adaf37c5fdd9d564453106c38edae6a21ede384d834173bc382e8ab0dbe88
-  - path: solver/chall
-    algorithm: sha256
-    value: 9b6489f57d9d2185885092a71d72575f80a8a94a48fad3388fb08167f5b8ee33
-  - path: solver/ld-linux-x86-64.so.2
-    algorithm: sha256
-    value: 595bcdc306999711a5a9c787e5d01618f94eb92c4c09a178e875a324f1072d89
-  - path: solver/libc.so.6
-    algorithm: sha256
-    value: 5955dead1a55f545cf9cf34a40b2eb65deb84ea503ac467a266d061073315fa7
-  - path: solver/solve.py
-    algorithm: sha256
-    value: a8030e6ec98f3fb4be55b73c38fdc39affc94effa400066ee99bee130664362e
   - path: src/Dockerfile
     algorithm: sha256
     value: 562838636543bfa096d0c89d14444de605b1c7099c915ca2ff6a575774f2fdff

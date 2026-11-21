@@ -255,9 +255,6 @@ preservation:
   - path: proxy.conf
     algorithm: sha256
     value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
-  - path: solver/index.html
-    algorithm: sha256
-    value: c19f3bb668bed145906b22ee163edf95884f2955ac5b709555f94acec5c69646
   - path: src/index.html
     algorithm: sha256
     value: 486bb7c7ad57642f3d6349cd1cb9cbdf38371b3a872dce8480df109c36bdde4f

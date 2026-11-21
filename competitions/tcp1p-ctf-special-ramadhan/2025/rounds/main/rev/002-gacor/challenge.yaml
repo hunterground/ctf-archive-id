@@ -57,21 +57,6 @@ preservation:
   - path: dist/output.txt
     algorithm: sha256
     value: 4bb61a2491d8a80c8d15159a31eb69bdd8f91016b5b0b9b9e55799cfcee7dec8
-  - path: solver/.effie
-    algorithm: sha256
-    value: 79e24c6cb3968d609dc5b976c2a585b746b8cbaf8770b03900817ed9e0c6b1f9
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/README.md
-    algorithm: sha256
-    value: 8add5eba4bd28d71a7dfa1a9de88a03f632d3d85d4c9800b514231ce7908e383
-  - path: solver/output.txt
-    algorithm: sha256
-    value: 4bb61a2491d8a80c8d15159a31eb69bdd8f91016b5b0b9b9e55799cfcee7dec8
-  - path: solver/solve.c
-    algorithm: sha256
-    value: 9347c739912dc2e9cc61cb4c25337d00283bf7462e5717819d31cfce13236534
   - path: src/.effie
     algorithm: sha256
     value: 79e24c6cb3968d609dc5b976c2a585b746b8cbaf8770b03900817ed9e0c6b1f9

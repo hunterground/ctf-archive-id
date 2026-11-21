@@ -69,9 +69,6 @@ preservation:
   - path: src/ojou
     algorithm: sha256
     value: 2f67d2f816ba59c0c4eee63944e2fb091cd8da412c7b76d0fdee4757d7b06b98
-  - path: writeup/exploit.py
-    algorithm: sha256
-    value: bff8d8ade7e4613f20b5957afabe3ade80d8b115a53404e9b8ea2ddde64a21f1
   - path: writeup/gadgets.txt
     algorithm: sha256
     value: fe34a3031afde8f89d51148103b4642499ba4cabb526e9e81168fdcce58330f7

@@ -129,21 +129,6 @@ preservation:
   - path: dist/tests/setup.ts
     algorithm: sha256
     value: 68a0f6a2fe1ec5ae4526f780994b7be565f4b86b74d8f30f9a28eaf7608cfd26
-  - path: solver/.gitignore
-    algorithm: sha256
-    value: f4ebf274f1695a535ababb53f1fca212405b4b5b92f86bcdcf4fa07d17a90bc1
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/bun.lock
-    algorithm: sha256
-    value: c6ab4deae89cc35302a6046141a8527ddc32cbc00db1eb9311b9e5ca8d19cc72
-  - path: solver/package.json
-    algorithm: sha256
-    value: 771dc7b7dc24ed46d40abdf3f2ff395c526ad325d5b5968b39a70d3edc45161d
-  - path: solver/solve.js
-    algorithm: sha256
-    value: 00d8b5a748a834c8571dd333768a9ff9ebbba44c86d1f7e581b6dd50b0aedfcd
   - path: src/.env
     algorithm: sha256
     value: 16bd8ca744264d5e7b87c811b8cf96e5e2d40cb105eb64f52160f39ecc2a1a3e

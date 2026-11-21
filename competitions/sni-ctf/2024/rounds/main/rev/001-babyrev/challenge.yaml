@@ -42,9 +42,7 @@ preservation:
   original_structure: true
   modified: false
   modifications: []
-  omissions:
-  - path: solve/solve.py
-    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  omissions: []
   checksum_verified: true
   checksums:
   - path: challenge.yml

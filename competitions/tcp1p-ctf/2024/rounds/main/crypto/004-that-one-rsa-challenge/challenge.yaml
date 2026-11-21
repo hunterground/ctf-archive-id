@@ -57,12 +57,6 @@ preservation:
   - path: src/secret.py
     algorithm: sha256
     value: 52359a47bb51be96be01585273613268f3178bfaeab6dd48d780787ddbd6fffe
-  - path: src/solve.sage
-    algorithm: sha256
-    value: 74e534524860670025c8992003be38396c05de6e09072fb0df58b8e328cb6105
-  - path: src/solve.sage.py
-    algorithm: sha256
-    value: 30cc862aff2544249ca22a1797eab15b0b51e1d45dd72f76b31f51da6879fcfc
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

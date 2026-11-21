@@ -72,9 +72,6 @@ preservation:
   - path: writeup/WRITEUP.md
     algorithm: sha256
     value: d5a5adef83d64c2b8c9afbfacfecc175bc4fa91608002b5d8285a297d0164c50
-  - path: writeup/solve.py
-    algorithm: sha256
-    value: d9c7b2688789d4eaab4a14dadf062b4202c5ee3189e5e4cd8d20caeeec68b059
 references:
 - title: TCP1P CTF 2023 Challenges
   url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges

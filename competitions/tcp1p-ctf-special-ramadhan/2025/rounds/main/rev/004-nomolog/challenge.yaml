@@ -51,15 +51,6 @@ preservation:
   - path: dist/output.txt
     algorithm: sha256
     value: 48a46d40522dc32ce103fbe8db04213805927d98a293ea4e702d35b8770bfea9
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/output.txt
-    algorithm: sha256
-    value: ac0839a9c9ef3d272e8293206f6a763bf5ea00b1b54bbbeddf37fa42269ebc2d
-  - path: solver/solve.rs
-    algorithm: sha256
-    value: f1944a50d9d90d9ccd0abf70146ba25a9671d42cf3809a8bc3aed9de542e51c3
   - path: src/look
     algorithm: sha256
     value: 3cef01c7934ecd5b5ad87613a345ce406729ed7a73e7444a81e4e7c555a05304

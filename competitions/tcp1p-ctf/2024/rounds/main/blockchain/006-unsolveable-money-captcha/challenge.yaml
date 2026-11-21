@@ -69,21 +69,6 @@ preservation:
   - path: docker-compose.yml
     algorithm: sha256
     value: 3eaab39c26d2ea4d5ff6615c4191428d2c43328138e57db3fc3dc86d7a04e0c9
-  - path: solver/Captcha.sol
-    algorithm: sha256
-    value: 9e137641f1e3f2f54afe992571ac5f659241cf2dae1613f88208e9abf0a2ab13
-  - path: solver/Hack.sol
-    algorithm: sha256
-    value: 6631faa11506ab5ce3056e03998f90e0f02a243602bc8c548dab9ad8c542b286
-  - path: solver/Money.sol
-    algorithm: sha256
-    value: a9ee511b180bf21fa583113db6386a81af280092e0b3dc54b2f1c73c3358c6df
-  - path: solver/Setup.sol
-    algorithm: sha256
-    value: 9cdacf3305d266200ae79b479d0a5b7240826d5285a08c49e425b447b274fc96
-  - path: solver/solve.py
-    algorithm: sha256
-    value: 84578aa68da9c23d9894fea84293ba805f895b8c7ee6a209940d1cdc6f098484
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

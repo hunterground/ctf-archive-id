@@ -91,18 +91,6 @@ preservation:
   - path: dist/templates/password.html
     algorithm: sha256
     value: e706435a564be2d7a65fc7cdb0e79ad94926465f654085de463f667213a71278
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/README.MD
-    algorithm: sha256
-    value: 009cac6d6d7539384b7018089a625991e7d597c77eea7bb79fbfe227b1701acf
-  - path: solver/exploit.py
-    algorithm: sha256
-    value: 145987217c30f3e78776d05c685125f8b5393f8cb83bcc77f2b587340b1ce291
-  - path: solver/requirements.txt
-    algorithm: sha256
-    value: f95b9c7bcbb29da4643d6252b26557352055a0d40e91b8795eea3a324ecf281d
   - path: src/Dockerfile
     algorithm: sha256
     value: e4338f32443dc8586cf9afabd03fbc2017bebb1c86dfbfc0f44dfa9c7f924406

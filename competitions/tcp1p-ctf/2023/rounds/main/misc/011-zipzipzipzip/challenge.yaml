@@ -46,9 +46,6 @@ preservation:
   - path: challenge.yml
     algorithm: sha256
     value: deee697991048d2729d486f468576342b864c55ef34104bf665f0d48f4d96eb8
-  - path: solve.sh
-    algorithm: sha256
-    value: ce9e252650fe0672abd31071ccfe33f0b3a6fae51682c01c298c9385fedf889f
   - path: src/password.txt
     algorithm: sha256
     value: 5ceb405a52ed9c9da4241b569d1af816735c29c122acffa2e5e216f80ecbf699

@@ -55,12 +55,6 @@ preservation:
   - path: dist/Setup.sol
     algorithm: sha256
     value: 1923b62d2ab5c2e8ddae00d566d8bcf81df51bf23a5a3b69c5d059919b5d6666
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solver.sol
-    algorithm: sha256
-    value: fb5edf045f52fd0b1dd35708c3237d66b63fa6a17f1efff1c41f3b15b002baf2
   - path: src/challenge-eth/.env
     algorithm: sha256
     value: 340eacd7259509f3663ff82f52bcd14b1becce5b4b42567091c55c8364c0a244
@@ -79,9 +73,6 @@ preservation:
   - path: src/challenge-eth/docker-compose.yml
     algorithm: sha256
     value: ea4a825c312c88a7350e338aa39fb1cfca711939485cb6722699a412dca6ab9c
-  - path: src/challenge-eth/solve.py
-    algorithm: sha256
-    value: 41f8f965eb51874d33c4ff320825810dd7854258a35b2a7b5387218185164e43
   - path: writeups/README.md
     algorithm: sha256
     value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a

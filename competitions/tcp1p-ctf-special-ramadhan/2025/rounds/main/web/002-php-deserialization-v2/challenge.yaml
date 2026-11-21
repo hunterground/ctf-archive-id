@@ -48,15 +48,6 @@ preservation:
   - path: challenge.yml
     algorithm: sha256
     value: 4c29d9218c901e2ff7d3e3111e13de25ee1060958a3ce9b0bf6ea64dd856e6e3
-  - path: solver/.gitkeep
-    algorithm: sha256
-    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  - path: solver/solver.php
-    algorithm: sha256
-    value: 5e9102d34f84cb3d1e9c24e102e604bc077120ecc911a5c6bcfa0ef7a5314602
-  - path: solver/solver.py
-    algorithm: sha256
-    value: ba265c463888f70255b9fd3004f1b19a7f8a06a27cadbb04ddb00afe6efff195
   - path: src/Dockerfile
     algorithm: sha256
     value: 27b3e71f5980bced125b7c8e010c778a2bc7580224a8060aa6c40c273905ce33

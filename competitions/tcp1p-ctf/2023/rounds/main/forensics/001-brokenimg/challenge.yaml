@@ -46,9 +46,6 @@ preservation:
   - path: challenge.yml
     algorithm: sha256
     value: 635820871e7dfb7c44b80e94e4c30b9de7d3712ead63d3bab2e00ebcbdfdade7
-  - path: solver.py
-    algorithm: sha256
-    value: b57a293640218ed4245356482b2384dc7c870344c5606b529ea3228e50d40eb2
   - path: src/chall.pdf
     algorithm: sha256
     value: 9dcbb13f381e9e960e0fd54c328d7a3c1dcd472ffe40112280b31c1f54b36e08

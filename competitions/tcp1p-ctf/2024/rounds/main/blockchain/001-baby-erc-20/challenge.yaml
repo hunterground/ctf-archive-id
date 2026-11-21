@@ -65,9 +65,6 @@ preservation:
   - path: docker-compose.yml
     algorithm: sha256
     value: 654debb0feb5ce2d1b20f6b7d41430905b07c9a52e7faeba118657e87a588edc
-  - path: solver/README.md
-    algorithm: sha256
-    value: bac00766fe2bdd56a93d02a45c7862a013900c284eb0156cf2782b6972764576
 references:
 - title: TCP1P CTF 2024 Challenges Public
   url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public

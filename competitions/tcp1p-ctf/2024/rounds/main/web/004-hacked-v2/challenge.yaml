@@ -69,9 +69,6 @@ preservation:
   - path: dist/requirements.txt
     algorithm: sha256
     value: 0e28ec5194892b4a0d436e64a7fcfdfc72d53003034980238735b5be4f03b82d
-  - path: solver/README.md
-    algorithm: sha256
-    value: 30f5e636127918b0a32f9b2ff4898dd31d372dce766ecedd9f84545ac8c24a45
   - path: src/Dockerfile
     algorithm: sha256
     value: ee698b13d1f670b0143fd071f63195413f1f7af72449bbb9573b8427f5a49296

@@ -54,9 +54,6 @@ preservation:
   - path: challenge.yaml
     algorithm: sha256
     value: 598d411905e9f14b602d7d3ebf28fd1ea146d618b6d6d0683ec2b1a6411d4ec8
-  - path: solver/solve.py
-    algorithm: sha256
-    value: 6595a6af78f5d258e23c6038c46751699dea3c604755c0df52e3037ecb1abb6a
 references:
 - title: TCP1P CTF Special Ramadhan 2024
   url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024

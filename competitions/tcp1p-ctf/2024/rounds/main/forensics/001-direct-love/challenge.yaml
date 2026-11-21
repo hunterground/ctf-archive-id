@@ -50,9 +50,6 @@ preservation:
   - path: dist/Direct-Love.zip
     algorithm: sha256
     value: ddf2710b75368370bb138fe1a6157610e2f50b332da82675452d180fe3dc1971
-  - path: solver/README.md
-    algorithm: sha256
-    value: 4bd35c880a052517e7de389f021152b836380810cc5c3849658b5dfeb3b5b892
   - path: src/server.py
     algorithm: sha256
     value: 647587dba7b861d7ca51c0e57d1f09079300afd3da96aae362c903640d0a675f

@@ -54,9 +54,6 @@ preservation:
   - path: dist/messages.py
     algorithm: sha256
     value: ee8f593a7e4607b5e9cbbe16026fe691649dd83adb34a30bd8234d655b75ee75
-  - path: solver/solve.py
-    algorithm: sha256
-    value: 8d0e135a89db642e014d133c7be545ea1456545df4ad431247b30dd433f6d3e6
   - path: src/Dockerfile
     algorithm: sha256
     value: 9e17f1d3ff70b1f3a96509ebdb89ab7e71b4c8f3079fb0a2a243dc28e7c8599f

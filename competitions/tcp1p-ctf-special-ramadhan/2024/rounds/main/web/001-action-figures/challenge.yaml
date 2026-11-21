@@ -50,21 +50,6 @@ preservation:
   - path: dist.zip
     algorithm: sha256
     value: 9c96bf620c68d90a6a80fbe30c95316542d03be01b55c4e5e54ba6a8393a033f
-  - path: solution/README.md
-    algorithm: sha256
-    value: 3d44e0a3cb0bd8d596688dd68d5e45313044423ea7493a3b70009b00e8cae3b8
-  - path: solution/font-polyglot.phar
-    algorithm: sha256
-    value: 24fcae45f422119faeaf710f78f237428b91e64f5d98ad335fccecde38b5c583
-  - path: solution/font.ttf
-    algorithm: sha256
-    value: 2a2783edbfc683c664090abe263fc69d68b354aaddd8e31ce011d3861a84438b
-  - path: solution/generate_font.sh
-    algorithm: sha256
-    value: e2d737d02392bfcc5182978433f257a8b1854e7fe13ca854e3c610c5fdad2c6b
-  - path: solution/generate_payload_modified.py
-    algorithm: sha256
-    value: 0f6325bafa99abb75bed13abe87fecd6cd98a372481b7194ede94d6619fcfb3f
   - path: src/action-figures/Dockerfile
     algorithm: sha256
     value: a5edf757938374915fc991f5f1593f96a5d25006a39b38b08b2f57eaa7f97433
