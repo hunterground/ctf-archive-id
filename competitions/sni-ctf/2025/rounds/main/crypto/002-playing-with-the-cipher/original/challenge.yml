@@ -1,0 +1,14 @@
+name: "playing with the cipher"
+author: "itoid"
+category: Crypto
+description: "feistel?\n\n**Author: itoid**"
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 6
+  minimum: 100
+flags:
+    - SNI{pl4y1ng_w1th_th3_c1ph3r_1s_v3ry_v3ry_fun_l0v3_1t_s0_much_h4h4h4}
+state: visible
+version: "0.1"

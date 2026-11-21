@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-pwn-001
+name: locksmith
+slug: 001-locksmith
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  So, you're a skilled locksmith? Prove it.
+
+  **Author: msfir**
+
+  Connection: nc 178.128.116.83 9460
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Pwn/locksmith
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: a0d9899162859ebbb0e388b10c42e30fda8c8e3110ca47ed10335b2d5dc3581a
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: a3f5290b1bff10d30ef95ffa6ec6fede2cce1ca15c02eed07dde46c331e62c08
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0ae002db06898176d43c282d7224c0e30f8f4d6a30e3ad9f6e70beeafc85d562
+  - path: src/Makefile
+    algorithm: sha256
+    value: a6a4420bd235bb7d25dbc9e3371ca0ff6aa6aad8d4030a32303cb1ca3b40ec05
+  - path: src/chall
+    algorithm: sha256
+    value: 07b808de5badd0df5081c7f8fe5198a5c72731fa44ae64c5c6c1f06dc48f62ba
+  - path: src/chall.c
+    algorithm: sha256
+    value: 0727c3b0e8225e13a09261250d39607d7698600a3d1367b365c3a5498dee8e6b
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: f0cfdec9f8f95ddca9c4a2fdfaddbfb749e1493e230f9758d345c5288da0ab06
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 6a3597840860982fa8d44bf6f635b78f9007614462f5080fced8825ef64dc9ba
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

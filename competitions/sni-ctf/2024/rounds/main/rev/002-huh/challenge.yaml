@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-rev-002
+name: Huh
+slug: 002-huh
+original_name: huh
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  ![huh](https://c.tenor.com/UPhAUsA9UGkAAAAd/tenor.gif)
+
+  **msfir**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- rev
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Rev/Huh
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ab33430aed1b98f4cd05080a42600cc94b02a719d47b848fe3ef9d64634b8773
+  - path: src/Makefile
+    algorithm: sha256
+    value: 31cc6a9c6025060729a4f89318d2f4f190548e2caafb0a6410d8a9dade449df1
+  - path: src/chall
+    algorithm: sha256
+    value: e910297a6c777649856e49fbfb271358b25e8333927417db95b35bed6abc8b13
+  - path: src/chall.c
+    algorithm: sha256
+    value: e59c522208082de99ea5f48091ad01dc455a3a431924c7fe2bdf1e38979ba155
+  - path: src/chall.c.mako
+    algorithm: sha256
+    value: efe4df3048a75726b714806db783c05361205edfaf6b59db126766fa92fb7478
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. The category README labels the difficulty Hard.

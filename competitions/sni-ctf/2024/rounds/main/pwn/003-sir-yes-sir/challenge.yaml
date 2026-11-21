@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-pwn-003
+name: Sir Yes Sir
+slug: 003-sir-yes-sir
+original_name: Sir Yes Sir!
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Well, I guess I'm an idiot sandwich now.
+
+  Note: to run this binary locally, you can use qemu
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Pwn/Sir Yes Sir!
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b2df810e7c28518358c018b503079a4692b909b171577b1f96739e5c4f0fdb24
+  - path: dist/siryessir.zip
+    algorithm: sha256
+    value: e14d36950c9368c0a79681f6148c7e59b6a55fcfe28a28978a852d3a3733fba2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e092a2c722d4bd0c265ba5becf082bf763e517612cb114de53192a64d4d6e6c1
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 728b753c19e73f48d1278f46f2b89f6debc6c1774a0c7812f85f7b9b4114eab7
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 5decee17a9515238a9a92eb1dc1e7b67321e6b99a3ae745da793cfa579f1eee7
+  - path: src/ld-linux.so.3
+    algorithm: sha256
+    value: e180f3ded1b0e0d1413b536455dfb6294cf1514b85c34017bbcc099c6192a861
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 4f0b7654130b769214adec51074333cd470261f4cd8e66f2fa46098f62e312fd
+  - path: src/siryessir
+    algorithm: sha256
+    value: 58b0430629866b7eb70e5e40a62bd9225b308f55e0f149356068d45a58e3ae99
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

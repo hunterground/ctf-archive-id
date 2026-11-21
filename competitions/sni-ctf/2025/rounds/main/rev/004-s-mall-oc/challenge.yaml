@@ -1,0 +1,107 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-rev-004
+name: S_mall_oC
+slug: 004-s-mall-oc
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  This is my small challenge
+
+  **Author: FlaB**
+
+  Connection: nc {{host}} 6370
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: FlaB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Rev/S_mall_oC
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 41e4317268a29763595b5ff4eaf534fa19a31d8da4327e64401239cada61b872
+  - path: dist/chall
+    algorithm: sha256
+    value: 529498406a69c12577ee2adb8b3c6b11dbb616ac05813112b546e0a981334cb8
+  - path: src/Makefile
+    algorithm: sha256
+    value: d024263267f7bbbcd5df8e84c614f529e576b9c3d8ff0ebba5e91663c75b321c
+  - path: src/answer.txt
+    algorithm: sha256
+    value: 0427cfb0bf297336cffabb9e2016a82f0db527eebf538f81bed7d1ee69404937
+  - path: src/chall
+    algorithm: sha256
+    value: 529498406a69c12577ee2adb8b3c6b11dbb616ac05813112b546e0a981334cb8
+  - path: src/decrypt.py
+    algorithm: sha256
+    value: f0ce87af0ee808a4cc70460ee78657c1f59805f05691ca1d25df6017c35c3fda
+  - path: src/flag.txt
+    algorithm: sha256
+    value: deca62f2023c739521ba867e43d56f9c80e372bc4a1544f8b78baf87e25c05eb
+  - path: src/own_malloc.h
+    algorithm: sha256
+    value: 8fce8f4abb22e2ddfe9394265e3d9a50b3824807b1d3e54185f154ac29b4c899
+  - path: src/s_mall_o.c
+    algorithm: sha256
+    value: 34a2f9c2c847963b439852e461e9af7df759ef8850517f2b7c942a3530c6673b
+  - path: src/tigris.h
+    algorithm: sha256
+    value: 24cfc70f4aed8a29e2605fa0fff6f01cda1fad7d2a73acce54dbebd9e34f53c0
+  - path: srv/Dockerfile
+    algorithm: sha256
+    value: 855d8e735d550deb420577a2b39f9f1af1e81fdaf7160fe43b72a31b6557f3e1
+  - path: srv/Makefile
+    algorithm: sha256
+    value: 4c582e8091b89539e971122dff84a3854aff9affb567835fd5eac3d5a5b8c3fd
+  - path: srv/chall
+    algorithm: sha256
+    value: feb2f737f7dae8ef144fb5e73fba064f836826b123e5dba4d71380b0cb1fb040
+  - path: srv/docker-compose.yml
+    algorithm: sha256
+    value: 9f458d2fa2c669d7f55f245d865710f9904cbb78452db891dcc518126852a65e
+  - path: srv/flag.txt
+    algorithm: sha256
+    value: deca62f2023c739521ba867e43d56f9c80e372bc4a1544f8b78baf87e25c05eb
+  - path: srv/own_malloc.h
+    algorithm: sha256
+    value: 8fce8f4abb22e2ddfe9394265e3d9a50b3824807b1d3e54185f154ac29b4c899
+  - path: srv/s_mall_o.c
+    algorithm: sha256
+    value: 7b24ccff0bea0527b8b5def51c2eabba4c2755247e7cd7c2dec7ebaa860c2f11
+  - path: srv/tigris.h
+    algorithm: sha256
+    value: 24cfc70f4aed8a29e2605fa0fff6f01cda1fad7d2a73acce54dbebd9e34f53c0
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

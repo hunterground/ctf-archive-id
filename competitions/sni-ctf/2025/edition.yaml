@@ -20,6 +20,24 @@ references:
   url: https://himaiftelkom.com/informasi-lomba-november-desember-2025-2/
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The organizer published the 2025 challenge repository. A competition calendar dates the event to
-  22-23 November 2025 and describes it as a national CTF for SMA and SMK students.
+- title: WriteUp SNI CTF 2025 by yunxiao
+  url: https://hackmd.io/7R8bl9oXQ9mpvGOwvC97Ww
+  type: writeup
+  accessed: '2026-11-21'
+- title: SNI CTF 2025 write-up by Taufiqorrohman
+  url: https://medium.com/@taufiqorrohman/sni-ctf-2025-writeup-taufiqorrohman-3072b6c1d225
+  type: writeup
+  accessed: '2026-11-21'
+challenge_materials_imported: true
+notes: >
+  The organizer published the 2025 challenge repository. A competition calendar dates the event to
+  22-23 November 2025 and describes it as a national CTF for SMA and SMK students. Commit
+  ce5f5e9e155b54a89049c17634fc93d2080b6861 contains 15 challenge directories. The Misc category
+  README has no challenges. The repository has no LICENSE file. On 2026-11-21 the archive was
+  instructed to treat this source as MIT, and the tracked files from those directories were copied.
+  Forensic/oh noooo links a Google Drive folder that is not in git and was not downloaded.
+  Web/curl sim/src/app is a gitlink to mkhizeryounas/bun-express at
+  0ff1065bd881c53de967619b109cc49135bdc7ab, copied without its .git directory. Participant
+  write-ups name Cihuy (crypto) and SNI BASECAMP (web), which are absent from this commit.
+  Those write-ups were not downloaded. Web/curl sim and Web/photo_gallery record the same
+  connection string in the repository.

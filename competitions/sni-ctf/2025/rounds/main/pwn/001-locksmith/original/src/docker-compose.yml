@@ -1,0 +1,9 @@
+name: pwn-locksmith
+services:
+  chall:
+    build: .
+    ports:
+      - "9460:5000"
+    restart: always
+    container_name: locksmith
+    privileged: true

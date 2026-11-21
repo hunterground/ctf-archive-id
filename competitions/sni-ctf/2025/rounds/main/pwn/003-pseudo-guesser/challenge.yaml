@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-pwn-003
+name: pseudo guesser
+slug: 003-pseudo-guesser
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Yet another guessing game.
+
+  **Author: msfir**
+
+  Connection: nc 178.128.116.83 9470
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Pwn/pseudo guesser
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8a764b60fc9d731e46696446a1ebde3bae35f546d4ca642e4868e4628e4167a1
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 7a18738bf2ea51a22ce3cba5eb3e5e490d15e26630ef9ac42b62989db145da15
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: c35fe79a035d686602a90e9c8b2a393a190f7f4524c3b9c5d8f94a092ff85679
+  - path: src/Makefile
+    algorithm: sha256
+    value: 7647fb90ecf098af5ab7740aaf9ef9909469258565a29499ff9826af3ea3c011
+  - path: src/chall
+    algorithm: sha256
+    value: 5965570420a7d5f0be7f5e3941f0fff1e343cc9949df7713024b880205628700
+  - path: src/chall.c
+    algorithm: sha256
+    value: 22dedb6bd8705ee28b4af0e7f3075741a9c0c343899d7cb8eca762f58b5b6611
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 578c7d1d5fc03ff9eea6dc12643003ae9dc3b8742c69612d0cb8dbfd8a9ed0cb
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 5ac5bd83085612300f5663744e0649151638e288e96ca1523156606287fe0d30
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: daa5744b852336bc1ede78a80da7ba555ec92f92ee5b22d36c29b1684f885b9b
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: b96ffe382a7352618b429bed45a84f3f2757aef1f78148ccea9c4878213f8de3
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

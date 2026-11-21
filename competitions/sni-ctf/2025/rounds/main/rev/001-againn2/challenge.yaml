@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-rev-001
+name: againN2
+slug: 001-againn2
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  revereverevereverev
+
+  **Author: FlaB**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: FlaB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Rev/againN2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: dc6da831cf104f811432be9df9d5f3df445378dd22867b238bbe5ee412c33a5f
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: b6fac6a439e4c7f4264ffe23b2eec6668bfb6bc342119ab3fef57d5a6a9699b3
+  - path: src/main
+    algorithm: sha256
+    value: 7e8c2186a085f15f9d77b40d39e4b7c453b5a2f51198abd5ed06ac3b4c42a4a9
+  - path: src/main.c
+    algorithm: sha256
+    value: 8af977241f7f9ad771e30da9325ea9d6a563ff15be326b0cddc646a925ac9323
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

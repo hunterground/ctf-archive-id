@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-forensics-003
+name: quotes of the day
+slug: 003-quotes-of-the-day
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  Kata-katanya dong buat hari ini.
+
+  > https://drive.google.com/file/d/1Y-nRtuoGJORsQbN9YscZhmirZN7hDhnv/view?usp=drive_link
+
+  Jangan lupa flagnya nanti diwrapped dengan `SNI{}`
+
+  **fr3nnn**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- foren
+authors:
+- name: frennn
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Forensic/quotes of the day
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1Y-nRtuoGJORsQbN9YscZhmirZN7hDhnv/view?usp=drive_link
+    reason: Linked from the organizer repository and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2f084166f88a173e9584e6e6445d5f8b1d5beea3adc3c9351a4fd87ec5fa2b1f
+  - path: challenge.yml
+    algorithm: sha256
+    value: faab90b80c00cb8809b5ec62dc039c00689b6ad01b271141b4718912440f5f04
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://drive.google.com/file/d/1Y-nRtuoGJORsQbN9YscZhmirZN7hDhnv/view?usp=drive_link
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Easy.

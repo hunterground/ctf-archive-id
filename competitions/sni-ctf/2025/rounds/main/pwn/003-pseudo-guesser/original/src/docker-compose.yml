@@ -1,0 +1,9 @@
+name: pwn-pseudo-guesser
+services:
+  chall:
+    build: .
+    ports:
+      - "9470:5000"
+    restart: always
+    container_name: pseudo-guesser
+    privileged: true

@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-rev-002
+name: Jajajaja
+slug: 002-jajajaja
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  Jajajaja
+
+  **Author: FlaB**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: FlaB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Rev/Jajajaja
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0c9e32903f85606d3ad15fd9396c553807d1bc5e495f451934a99121decf851d
+  - path: dist/Jajajaja.exe
+    algorithm: sha256
+    value: 5e6a139431797e2f1f6f5a55d3003bcb87c2b4a9c374d203e0580ef643e1f466
+  - path: src/Jajajaja-launch4j.xml
+    algorithm: sha256
+    value: eaed806d8c967b0f33e3a321c21bf1cb86ba5487c178c4adccaf62a785f1b3ee
+  - path: src/Jajajaja.exe
+    algorithm: sha256
+    value: e115096fc39ef74c6ad9e7b04f5b65f5e3cb0fb17225f6ac715ae0715f40c3d6
+  - path: src/Jajajaja/nb-configuration.xml
+    algorithm: sha256
+    value: 56eab850568624514776bf3ada39bb3d2b3a2d9aa1461e0dc35a3cc446f97c48
+  - path: src/Jajajaja/nbactions.xml
+    algorithm: sha256
+    value: 0aaffc6209492c4ab1ed912e3af08b24b60f66eb4f282b2dfddbecbe42006810
+  - path: src/Jajajaja/pom.xml
+    algorithm: sha256
+    value: f5722f276e3142d600f1041d4c6c0693704345f4c9e6ec25f547c1de7cefa414
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/ChaCha20.java
+    algorithm: sha256
+    value: f52c986b9fd188722c74d8b50ca672d1b67dd1b8f01dcef024b28a0dc19740ae
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/CodeUI.form
+    algorithm: sha256
+    value: 9d00b7659c764ead811c74ae7233bd35ffbcd798f5cf8357cbe03b80907b49f5
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/CodeUI.java
+    algorithm: sha256
+    value: dae5d84b115e116df88a93bc245ef9bcbbbfa1c728615214735f60fce7d05ed4
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/Flag.form
+    algorithm: sha256
+    value: 2089265c0764cd5c9bd41a12e194ad74cb38068e2b8dfe60434f6a2c62081e35
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/Flag.java
+    algorithm: sha256
+    value: 3d4da9514a2548cab3cf544d64274fae5eb921ce09e4d1af3753570c2fb2beb1
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/Jajajaja.java
+    algorithm: sha256
+    value: a6ff7d8644bbc8c9b9877b970a4c17b31d967409403ca7cf5faeda396da4705d
+  - path: src/Jajajaja/src/main/java/com/flab/jajajaja/KeyValidator.java
+    algorithm: sha256
+    value: d761b10ed39343c3b35ba85038056df8dface831fb66966346499ee5dad00cd1
+  - path: src/solution.py
+    algorithm: sha256
+    value: 5861cba6a7bd2923bc046a4a58307c32cbbf841d834e9701b37ca00f04458c01
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

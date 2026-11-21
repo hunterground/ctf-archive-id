@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-forensics-002
+name: pf-ing
+slug: 002-pf-ing
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: "believe me, its just an intro to DFIR about ransom cases \n\n> https://mega.nz/file/Eu4VHSKJ#6bC9BSbdrHiG4r9j7fh2YefZWtf7nmBOGtvjJ2oZreo\
+  \ \n\n**k.eii**"
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- foren
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Forensic/pf-ing
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f4075199d522e1d646a9e8f32bdb40002e990d2b28928688d24fcabfd72b321e
+  - path: WRITEUP.md
+    algorithm: sha256
+    value: 97ccf99c6cfd9a98656d7ae3a2fbc8920102ea6b5fde0046c05add7494ae6f84
+  - path: challenge.yml
+    algorithm: sha256
+    value: d053eede3616d609adf5cdccf1f5857bb076e980d2dbcddea0e3e7360e218eb6
+  - path: dist.rar
+    algorithm: sha256
+    value: 14764c607c817edf24a79741a41d3d1830f84e85621eab1ae77195a956236bd7
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://mega.nz/file/Eu4VHSKJ#6bC9BSbdrHiG4r9j7fh2YefZWtf7nmBOGtvjJ2oZreo
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Hard. dist.rar was added on 2026-11-22 from the Mega
+  link in the challenge description. That archive is not in commit 3bfdf0ad92784d86408a7263a3166931f54a4177.

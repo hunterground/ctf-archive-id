@@ -1,0 +1,9 @@
+name: rev-smalloc
+services:
+  chall:
+    build: .
+    ports:
+      - "6370:5000"
+    restart: always
+    container_name: smalloc
+    privileged: true

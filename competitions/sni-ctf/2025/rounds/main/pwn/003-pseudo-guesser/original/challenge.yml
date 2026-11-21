@@ -1,0 +1,20 @@
+name: "pseudo guesser"
+author: "msfir"
+category: Pwn
+description: |
+  Yet another guessing game.
+
+  **Author: msfir**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: nc 178.128.116.83 9470
+flags:
+  - SNI{i_guess_even_a_single_bit_of_info_leak_is_still_dangerous_8571029539102957}
+files:
+  - dist/dist.zip
+state: visible
+version: "0.1"

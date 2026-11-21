@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-forensics-001
+name: Konnichiwa
+slug: 001-konnichiwa
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: "I often go out to eat alone with my fiancé Chizuru, at one of those fancy restaurants. While\
+  \ eating, suddenly one of the employees who recognized me told me that his computer was doing something\
+  \ strange. According to him, it was probably one of the other employees who hated him, and he wanted\
+  \ to know more details regarding this matter. Even though I'm on a date right now huft :( \n\n> https://drive.google.com/drive/folders/1q-92vT4j0fYbDC6aDDE-jx77gJ5PcfCv?usp=drive_link\
+  \ \n\n**TunangannyaChizuru**"
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- foren
+authors:
+- name: TunangannyaChizuru
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Forensic/Konnichiwa
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2818230d1e5ce3d0bd694d3f5c8c977fb7170e38c356c83bfc4d4eaf027a9170
+  - path: challenge.yml
+    algorithm: sha256
+    value: 04845945d43d25154b875ba2559fb94b43480e7622ad91d35c4b09cfff077bad
+  - path: konnichiwa.zip
+    algorithm: sha256
+    value: 4eca4220b6cd0b03c984521b46e5c5c8da579e1f871b7bea51b709749ac257d1
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://drive.google.com/drive/folders/1q-92vT4j0fYbDC6aDDE-jx77gJ5PcfCv?usp=drive_link
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README lists author C2uru; challenge.yml lists TunangannyaChizuru. The category README
+  labels the difficulty Medium. konnichiwa.zip was added on 2026-11-22 from the Google Drive link in
+  the challenge description. That archive is not in commit 3bfdf0ad92784d86408a7263a3166931f54a4177.

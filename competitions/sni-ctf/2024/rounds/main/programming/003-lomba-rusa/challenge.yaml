@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-programming-003
+name: Lomba Rusa.pdf
+slug: 003-lomba-rusa
+original_name: Lomba Rusa
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: programming
+original_category: Programming
+description: |-
+  Flag: SNI{hex(output)}
+
+  Contoh: SNI{deadbeef}, SNI{7}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Programming
+authors:
+- name: agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Programming/Lomba Rusa
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solver_lomba_rusa.py.txt
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: Lomba Rusa.pdf
+    algorithm: sha256
+    value: 45c2de510024e6f2573ed6344e6ba2f01a809da5545fc43cf4d96acc14021c58
+  - path: Lomba Rusa.zip
+    algorithm: sha256
+    value: b17145aece95bc49644e779cf8f6797d76805777d6c19aa7e0d293e91072fd4c
+  - path: README.MD
+    algorithm: sha256
+    value: 5aa61cc05b800e3e1ea0e10f1ba29c816b8d991a57a628a814e045c21fc92fa3
+  - path: challenge.yml
+    algorithm: sha256
+    value: 30db46aabb26744aaed5a1bc97b5b69dcae0a261009c8634ad248de05782ebf1
+  - path: testcase.in
+    algorithm: sha256
+    value: 27f66c7561a2b4b8892dfa97534c1c4334a81ec3feb12f25f530738b02c8a663
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. challenge.yml type is static and value is 0. extra.initial
+  is present but belongs to the unused dynamic-score template, so it is not recorded as the score. The
+  challenge README title is Lomba Rusa.

@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-crypto-002
+name: baby-comms
+slug: 002-baby-comms
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: |-
+  Alice is asking Bob for the flag!\n\n**azuketto**
+
+  Connection: nc hostname 12345
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- cry
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Crypto/baby-comms
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 7df69b0a8df4de51aa5750f952790b19a5c95b400a7ed5a2b03553467bebff52
+  - path: Dockerfile
+    algorithm: sha256
+    value: 70d93a8a88e41aa109a31a90259a85a7b7b4f3ecca92fca3bf5c05cb9c32d206
+  - path: README.md
+    algorithm: sha256
+    value: b6032a61ab4c49be63c0da6cfd7524f3bcd6f9ec4df50ab691850aa463e885d5
+  - path: challenge.yml
+    algorithm: sha256
+    value: 37836b4a252fd70e1a7f009210b63560ff4a4e6ac54ba7033eebc56eb234d32d
+  - path: config/run.sh
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0186d8ac3d9071c667c41f305fbc4056e7768328c97bc0d239944a5b24698767
+  - path: requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: src/chall.py
+    algorithm: sha256
+    value: fdc45fea0dcda251de2ef29ef64c4e066b245897e847d4d9ce21bfc6dfe64caf
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 6364e7d7c485350c2f86bba0a72288f878fb7d70210682770da2ad9bb0ad7db1
+  - path: src/param.py
+    algorithm: sha256
+    value: 41d1e5ae59c8f7942517e4f14497098bf5cf8edd6643391e72c512c19dd8e914
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden.

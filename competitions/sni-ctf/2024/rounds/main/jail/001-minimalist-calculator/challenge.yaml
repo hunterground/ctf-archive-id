@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-jail-001
+name: Minimalist Calculator
+slug: 001-minimalist-calculator
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: jail
+original_category: Jail
+description: |-
+  Welcome to the gateway to the world of Python weirdness.
+
+  **msfir**
+
+  Connection: nc {{ .host }} 14000
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- pyjail
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Jail/Minimalist Calculator
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d3dcf10d36d0b025e7a5e7aa047c486ba8296bdcc82a93965f2fb32fe7da81f1
+  - path: challenge.yml
+    algorithm: sha256
+    value: bb12482f7c44b95e13405f00ca7674406cf7f8ea2d1757cd579fde74dbcb3f53
+  - path: dist.zip
+    algorithm: sha256
+    value: 6e0bc98203df8a89f28038d0438a6d18f7a4c00d46a1471647a4745b29d67e98
+  - path: pack.sh
+    algorithm: sha256
+    value: 42405a0b8ce8e3a82b0f0190e54244e29558f4f44217c9091ce67c9c00cf9bd9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5d3d1e3724ae867a46ebdcf072d8727dd0cf8b3eac83a31ccdda07d36f99690d
+  - path: src/chall.py
+    algorithm: sha256
+    value: 8a746232a40db452be127c68a56ba1041ce56e979beec6d12fede1c34c8870b5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 97d310637db39aaa1cb98257408a87b53b31bdd219980da097f2025fd3deeff0
+  - path: src/secret.py
+    algorithm: sha256
+    value: 096ee327552427dfc50a305e8d8f154bb59440f93a2b3394076484e7364b2796
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: 01533eeacc1a87823d221005c98e00a99b8a4ff2e6c3541b400dff616474daf9
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden.

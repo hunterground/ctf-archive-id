@@ -1,0 +1,9 @@
+name: pwn-upload-manager
+services:
+  chall:
+    build: .
+    ports:
+      - "9450:5000"
+    restart: always
+    container_name: upload-manager
+    privileged: true

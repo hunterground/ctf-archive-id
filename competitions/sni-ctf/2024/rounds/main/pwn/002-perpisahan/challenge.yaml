@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-pwn-002
+name: Perpisahan
+slug: 002-perpisahan
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: Apakah ini akhir dari kisah kita?
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: itoid
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Pwn/Perpisahan
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 17e68b7c54222723acbe27edec6a3c41a8ee121e1d9908bd38b7351ec2416d60
+  - path: README.md
+    algorithm: sha256
+    value: e667c23b414f70d7a96cd1d2367644b4f6a7fadc918aec300c7ccd18fc5ae3fd
+  - path: client/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 491c2eb04e0b72ac00beaebadf181ce5c9e9545e223c58924cfc65511d8ffe6a
+  - path: client/libc.so.6
+    algorithm: sha256
+    value: 8de8c9f0535f3bd55ff72b01fe05f79e42a2abf950944cedf4aae3495e03cf3d
+  - path: client/perpisahan
+    algorithm: sha256
+    value: 4458efbc049016b27a548c589ff83b9dd1206e7595b2b9a503d22c6ae44a73ab
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: cf78d09e1b5a9d797382fca53d7ba534342a0503b618b71477b155802d830cb2
+  - path: flag.txt
+    algorithm: sha256
+    value: a3bd5e06a20567ed82a7935f619313faf92d0a7491104d103aa2f4f452dd73c9
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 491c2eb04e0b72ac00beaebadf181ce5c9e9545e223c58924cfc65511d8ffe6a
+  - path: libc.so.6
+    algorithm: sha256
+    value: 8de8c9f0535f3bd55ff72b01fe05f79e42a2abf950944cedf4aae3495e03cf3d
+  - path: perpisahan
+    algorithm: sha256
+    value: 4458efbc049016b27a548c589ff83b9dd1206e7595b2b9a503d22c6ae44a73ab
+  - path: run.sh
+    algorithm: sha256
+    value: d3ee3fab6c3fdbb4ce2f7e3b085814661a67c941af5b21b051eb19fed6e71340
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

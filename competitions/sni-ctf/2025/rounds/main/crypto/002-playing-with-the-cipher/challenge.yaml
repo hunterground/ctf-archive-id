@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-crypto-002
+name: playing with the cipher
+slug: 002-playing-with-the-cipher
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: |-
+  feistel?
+
+  **Author: itoid**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: itoid
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Crypto/playing_with_the_cipher
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e52806a26b3ada8291bc8a37a38767dac7c46fbb53cdc7ef27795eae12e14daa
+  - path: chall.py
+    algorithm: sha256
+    value: 879ffe882d1fada5766df303553c2981eb45716303fd43bbe8efe936ce9f00d3
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2ed51ce9ff582232a349e46747e41a38e972f088ea70759c5b62ed62e84d4dfb
+  - path: cipher.py
+    algorithm: sha256
+    value: 72d96e9b6a1648a0142184f0ed8e57ce416f29c5d830b2541ecb3fafa1afb0aa
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 879ffe882d1fada5766df303553c2981eb45716303fd43bbe8efe936ce9f00d3
+  - path: dist/cipher.py
+    algorithm: sha256
+    value: 72d96e9b6a1648a0142184f0ed8e57ce416f29c5d830b2541ecb3fafa1afb0aa
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5afb76e3fa25ea7e1a6a26984f0b12759aab14200dc9e0e78cc45a851a6b1374
+  - path: flag.txt
+    algorithm: sha256
+    value: 4d746175615afbf828f555a8c09ec073e24549887c198a9253ebad4b5a25bb8a
+  - path: run.sh
+    algorithm: sha256
+    value: 6f55b55b407dc6768ed62ff3884e84b16f6b00cb63cbd3fa3de66a7a89908ba6
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Medium.

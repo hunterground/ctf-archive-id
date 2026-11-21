@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-jail-002
+name: semoga pada solve
+slug: 002-semoga-pada-solve
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: jail
+original_category: Jail
+description: Sebelum menjelajahi keanehan python, kita warmup dulu ya manteman
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Jail/semoga pada solve
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 93dc3516ef4317ec5f4d3bafab65f40050ec838d89e9945274084172a1dc076a
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 4cccf7f1fc8ec4c9075e7b2c4f7cbeeffe341134b84f0df47dce58784a594131
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: eb236ad9d058ab01d115fbcad3adb78f55c17e103bad50f2fe30d091c5b17bf9
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4cccf7f1fc8ec4c9075e7b2c4f7cbeeffe341134b84f0df47dce58784a594131
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 744807d5151c3021ef31ff5568c5fb4c252c9adef6431bb85a928e19c2a821d7
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 66fb55fa4adff63ec3f0a795999d92aa7b37c1a55d1ebd7e48361ed284ad4159
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

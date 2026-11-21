@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-crypto-003
+name: Weird RSA
+slug: 003-weird-rsa
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: something weird in my RSA
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Crypto/Weird RSA
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8dc4dfd58f2b5e8e2ddc9538a562d8e9fcea6c984e57a24da50ce3ac32faba22
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 0e622b71c796ccbc4ba89e3266a246a7a24c1b49ed0858c0419aed2de5843c2f
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 57ed0b24cb0d014101145a0798885caa68d399340c1cde093bdd2a210d5e0697
+  - path: src/chall.py
+    algorithm: sha256
+    value: 0e622b71c796ccbc4ba89e3266a246a7a24c1b49ed0858c0419aed2de5843c2f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 42264e0cec922693a1e7d92dc21bf9c33d219a8ea0ab9b8bce7738ec410042f7
+  - path: src/output.txt
+    algorithm: sha256
+    value: 57ed0b24cb0d014101145a0798885caa68d399340c1cde093bdd2a210d5e0697
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

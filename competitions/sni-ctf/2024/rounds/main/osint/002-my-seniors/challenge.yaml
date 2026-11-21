@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-osint-002
+name: my seniors
+slug: 002-my-seniors
+original_name: my-seniors
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: "cari tahu siapa saja calon ketua senat mahasiswa yang berada 9 angkatan lebih tua dari author\
+  \ (SNI{Nama Lengkap_Nama Lengkap_Nama Lengkap}) \n\n**k.eii**"
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- OSINT
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: OSINT/my-seniors
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2cde1a0e395ec17849ec8c6746921fc2bf2a123b815ae22eee6feed122ba9e73
+  - path: challenge.yml
+    algorithm: sha256
+    value: 118a5a197be44db17ccaf8bf10ccbda4a7dbd9bf52a342ac7ea54c8260a6819d
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: challenge.yml category is 'foren'; the challenge is filed under the repository directory OSINT.
+  The category README labels the difficulty Hard.

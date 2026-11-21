@@ -1,0 +1,20 @@
+name: "locksmith"
+author: "msfir"
+category: Pwn
+description: |
+  So, you're a skilled locksmith? Prove it.
+
+  **Author: msfir**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: nc 178.128.116.83 9460
+flags:
+  - SNI{i_dont_know_what_kind_of_pwn_this_is_but_there_you_go_37801284812}
+files:
+  - dist/dist.zip
+state: visible
+version: "0.1"

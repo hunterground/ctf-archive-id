@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-forensics-001
+name: Explore
+slug: 001-explore
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  just another topic that can be explored.
+
+  **Author: keii**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: keii
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Forensic/explore
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.bin
+    algorithm: sha256
+    value: 9ccb20f20c131ad169f0afbdf2e5a04aec251c8fc47c4f099893499e5cdfc43b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 01945f60945b59fe5a88ad8594294442389ac17ea6b0915370be4dae564d006d
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Easy.

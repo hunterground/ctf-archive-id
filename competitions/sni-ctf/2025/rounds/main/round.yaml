@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: main
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: null
+description: null
+dates:
+  start: '2025-11-22'
+  end: '2025-11-23'
+statistics:
+  challenge_count: 15
+  participant_count: null
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The organizer repository publishes one challenge set and does not describe a qualifier or final,
+  so this round id is main. Sequence numbers are alphabetical by source directory name within each category.
+  Where challenge.yml uses dynamic scoring, difficulty is extra.initial. A qualitative category-README
+  difficulty is used only when no positive score is stated. The repository has no LICENSE file.
+  On 2026-11-21 the archive was instructed to treat this source as MIT, and the tracked files from
+  each challenge directory were copied. Attachments that exist only as external links were not downloaded.

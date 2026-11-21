@@ -1,0 +1,20 @@
+name: "not really ez heap"
+author: "rui"
+category: Pwn
+description: |
+  for me its the easiest chall to be made.
+
+  **Author: rui**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 6
+  minimum: 100
+connection_info: nc {{host}} 12000
+flags:
+  - SNI{another_heap_chall_in_big_2025?}
+files:
+  - dist/dist.zip
+state: visible
+version: "0.1"

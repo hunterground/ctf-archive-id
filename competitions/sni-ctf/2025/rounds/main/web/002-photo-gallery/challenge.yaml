@@ -1,0 +1,153 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-web-002
+name: Photo Gallery
+slug: 002-photo-gallery
+original_name: photo_gallery
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Photo Gallery? Images? Just Read the code la
+
+  **Author: WazeAzure**
+
+  Connection: http://178.128.105.63:4321/
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: WazeAzure
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Web/photo_gallery
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 7e4878a61873a662386db70b18babbce6ca2109caee218eeb50111cbaed43d63
+  - path: challenge.yml
+    algorithm: sha256
+    value: cbaf6353241264af254b5b6b2b54a9c54cad3e70d000f9635b2b3cea7a222a12
+  - path: deploy/apps/Dockerfile
+    algorithm: sha256
+    value: 6577227dccc322548ea4b41bc42d2e8db21caaa6ae1a8381f9512304ef6c2a3d
+  - path: deploy/apps/external/README.md
+    algorithm: sha256
+    value: 63cf5b6ca93abb5b542c57572710555de51f93d1d4e4dc3d06d8a02e6c1417e0
+  - path: deploy/apps/external/astro.config.mjs
+    algorithm: sha256
+    value: 49a21d051c400cfbccd21aaae8923830748cb0c029cc68b401947ae5815704ee
+  - path: deploy/apps/external/package-lock.json
+    algorithm: sha256
+    value: 8bdfb4d9de8c08cb83a974d059c37582055e9f039bdc02ab065af6293a497df6
+  - path: deploy/apps/external/package.json
+    algorithm: sha256
+    value: 63e2c45a2b5b5db909930e1dbc5d6401c98b057ec74e03c650ca0f555a01cb88
+  - path: deploy/apps/external/src/components/Gallery.astro
+    algorithm: sha256
+    value: 57bfd0422ef8ae4595a9d8267cbb1b3f872dafe84c3abfa8975ec6dc7b9db083
+  - path: deploy/apps/external/src/components/Uploader.astro
+    algorithm: sha256
+    value: 03f802db004650fab02e21fd892dca7e8bfe0ea064963982aaa1aecdc929d60b
+  - path: deploy/apps/external/src/layouts/CosmicLayout.astro
+    algorithm: sha256
+    value: e1eea931431a7160c5ba71857d774eb3e2e4f5ffcc28b81719509b3f63f79199
+  - path: deploy/apps/external/src/pages/api/images/[id]/index.ts
+    algorithm: sha256
+    value: 45e6b481a18b4e785862195d338082ab723a1e07eb3a0e55b5ae9f2768bbfa67
+  - path: deploy/apps/external/src/pages/api/images/index.ts
+    algorithm: sha256
+    value: e27a0513d24893d114472f847c31a2622e96f5702841eea401b6064339059c32
+  - path: deploy/apps/external/src/pages/index.astro
+    algorithm: sha256
+    value: 735f9470ece5cfc31aebf6b0c87b23e275c2890a7efaf6dfd6b9e6fb476e2c55
+  - path: deploy/apps/external/tsconfig.json
+    algorithm: sha256
+    value: b5b0a5b04a14cddd7713c5e1c82e86c79c17c2f86b170e26e9b170b3d5e01cd9
+  - path: deploy/apps/internal/app.py
+    algorithm: sha256
+    value: 6a393c67e95336b617488ab75a13f1bc99d99547cb31b9007008660ae776dab5
+  - path: deploy/apps/internal/assets/1.png
+    algorithm: sha256
+    value: 131f2d6a07e4ca235db46dd8226163ddfec8b04a9d77cbd6ef273dfbc977b252
+  - path: deploy/apps/internal/assets/2.jpg
+    algorithm: sha256
+    value: c33d982a12e00e3ffca99eaa72bb668ddab9b9ed67d74af10edd6a6802885d69
+  - path: deploy/apps/internal/assets/3.jpeg
+    algorithm: sha256
+    value: 9b6492a75ecfd21a34149f719dffcdd5ec2596a94481a19288264891c1946a43
+  - path: deploy/apps/internal/assets/4.png
+    algorithm: sha256
+    value: 28e1ff7c94996c17d2c55f9a9aae596bf954abfa952a06183eadb22b259f0cdc
+  - path: deploy/apps/internal/assets/5.jpg
+    algorithm: sha256
+    value: 264e162940615eafcfcaf71749d26da0809387fc7e2bd3925e1d4fc2b29d0962
+  - path: deploy/apps/internal/assets/6.jpg
+    algorithm: sha256
+    value: f6febf78b61068602c52838c2dbb3ddf35000f46864fffee2f96ef9c12af7b12
+  - path: deploy/apps/internal/assets/7.jpeg
+    algorithm: sha256
+    value: 716ca6bee3091ea98374a6abf9c6fcf0fdcd99a9496775bc80d2cd2b01c738a2
+  - path: deploy/apps/internal/blueprints/api.py
+    algorithm: sha256
+    value: f81d9ff076c7e6aa772eafbc8036fe2d64744c11fd537f3c788a396374797557
+  - path: deploy/apps/internal/db.py
+    algorithm: sha256
+    value: e490cac50d3e81d6353cd17416f5f2c372fdf49063fc90b520cf104f0719f579
+  - path: deploy/apps/internal/requirements.txt
+    algorithm: sha256
+    value: e52bf418a456a6509bff4f9693d0791305009956bb0f440a59dc5261c0a0bc0c
+  - path: deploy/apps/start.sh
+    algorithm: sha256
+    value: 41251c39b85213f58e6f8f3ad232cf7b5c8da48f0f75520e865ca2a40f4451d0
+  - path: deploy/db/Dockerfile
+    algorithm: sha256
+    value: 733de5ffb93cea1f8900c34b025f1eabb79bc2a522bc2141e0be43ee3454810a
+  - path: deploy/db/flag
+    algorithm: sha256
+    value: eee0539010804e393237cc769c8276b380f28d1f8cd0efc4557ac669682dae7a
+  - path: deploy/db/init.sql
+    algorithm: sha256
+    value: 831a89afd860c141fb34f7e21c7d69b374433a3549a19986ab2f76e1de09e020
+  - path: deploy/db/readflag.c
+    algorithm: sha256
+    value: 262e73eab740d1551bf75661ee5fc350ba0f910a924dd76dd2728825ec2737f3
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 31b7e51140cdef97544b299254fb34a96ffee795ef7e6cbdf36e669fc91597fd
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 6044d98da1dc06b9cabb3bf00ad8278a97a1baa14106b28ad65929a741703207
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: http://178.128.105.63:4321/
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

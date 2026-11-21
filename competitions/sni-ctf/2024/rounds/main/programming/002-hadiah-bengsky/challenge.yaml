@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-programming-002
+name: Hadiah Bengsky
+slug: 002-hadiah-bengsky
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: programming
+original_category: Programming
+description: 'Flag: SNI{hex(sha256(output))}'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Programming
+authors:
+- name: agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Programming/Hadiah Bengsky
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: Hadiah Bengsky.pdf
+    algorithm: sha256
+    value: 445616df4a003ecf1d79cd5095d966e0d018efc65e72c0197fbf82f0520ebf2b
+  - path: README.md
+    algorithm: sha256
+    value: f275a713ec1515c089f286fcae0c0a51912678b8bf082ede293f40d82ff75c6d
+  - path: challenge.yml
+    algorithm: sha256
+    value: aa677524a1d1227cb73bf00e77a1fa00fc0583bc70bc14b0396a678e7e5e6293
+  - path: testcase.in
+    algorithm: sha256
+    value: 72cc26a033f939e24e169ec263babdafc61beacd56bf73dc007f29dc4e71f47a
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. challenge.yml type is static and value is 0. extra.initial
+  is present but belongs to the unused dynamic-score template, so it is not recorded as the score. The
+  challenge README title is Lomba Rusa.

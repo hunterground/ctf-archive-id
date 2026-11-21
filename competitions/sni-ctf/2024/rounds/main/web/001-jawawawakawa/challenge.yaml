@@ -1,0 +1,413 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-web-001
+name: JawaWawaKawa
+slug: 001-jawawawakawa
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Jenenge Bambang Tapi Dudung Wong Jowo, Hobi saya adalah berselancar\n\n**bengsky**
+
+  Connection: https://jawawawakawa.ctf.itsbengsky.id
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- web
+authors:
+- name: bengsky
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Web/JawaWawaKawa
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .DS_Store
+    algorithm: sha256
+    value: 26cd7c2b0a9333dba75d6ebfd9b457b6fbfb2caae0f90c6abbe4c7cd9158d28b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 301abd267c3fb87eb1011bf022db50b6b5578caf7970dd6f081d2b4b078859b1
+  - path: dist/build.sh
+    algorithm: sha256
+    value: a920344288e3c1609e075294acf638d651614c73e76513b5f1cb7847c6e5750f
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 4ff0ce8a3052e495c770b4a484473e0ad21644d94766db3f1490e4f14fb7121b
+  - path: dist/src/.env
+    algorithm: sha256
+    value: b4baebbb208d113306f778971ba2bcecae6f5e41e3bd3e7ec632bb50e637f355
+  - path: dist/src/app/Http/Controllers/Controller.php
+    algorithm: sha256
+    value: 25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1
+  - path: dist/src/app/Http/Controllers/UserController.php
+    algorithm: sha256
+    value: 9bd8240a81d0939dbb255bbccb16651030b6b448a34aadf3a924767885621ad3
+  - path: dist/src/app/Http/Middleware/ProtectedApi.php
+    algorithm: sha256
+    value: db284d60889692c281ccdb8c74b08fe8cc64aaa418edf2234cf8ea09241d0136
+  - path: dist/src/app/Models/User.php
+    algorithm: sha256
+    value: 30ac187c17e7b502282d5aea29c6ce61aa39c6b34ebb6cd2a371c5a785a4715a
+  - path: dist/src/artisan
+    algorithm: sha256
+    value: e313db8b935d646e728aef4402df1dd5345760268139449f13e98d9a294a9d97
+  - path: dist/src/bootstrap/app.php
+    algorithm: sha256
+    value: bb9b3d2c1616a12641a90059a903f0f787ad82db9090b9ea4d5b691461a63b0d
+  - path: dist/src/bootstrap/cache/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/bootstrap/providers.php
+    algorithm: sha256
+    value: 2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953
+  - path: dist/src/composer.json
+    algorithm: sha256
+    value: 951cb589d78aad902929832c5196657e803b3df915db8860fd463801a0300b9e
+  - path: dist/src/config/app.php
+    algorithm: sha256
+    value: 5a44387ebeedf16d775122372f5709e2fd76e5bf50f3d36708554721001c82f9
+  - path: dist/src/config/auth.php
+    algorithm: sha256
+    value: d5bd78db15ec31df30248bb56dff53d385d7826d9ab0cfb2846dc6ce06d531c0
+  - path: dist/src/config/cache.php
+    algorithm: sha256
+    value: dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664
+  - path: dist/src/config/database.php
+    algorithm: sha256
+    value: d9f563cf6d380ec017ae3166efb3fe5e24c183dc5d1e3143c26a2ad1203af18a
+  - path: dist/src/config/filesystems.php
+    algorithm: sha256
+    value: 1962568fb9ac93ff35d069d44d4edfe96201bacc520baa203e29c0d92047392d
+  - path: dist/src/config/logging.php
+    algorithm: sha256
+    value: 6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8
+  - path: dist/src/config/mail.php
+    algorithm: sha256
+    value: fc1fd1fade3ab4d6e0baddf86114711f35beb0880be836ca1c20134e745d72af
+  - path: dist/src/config/queue.php
+    algorithm: sha256
+    value: a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482
+  - path: dist/src/config/sanctum.php
+    algorithm: sha256
+    value: a3bf731d55289ab9f9c0500ec01b949a12cab6eba3f763adb4eb223ee335aedb
+  - path: dist/src/config/services.php
+    algorithm: sha256
+    value: 2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8
+  - path: dist/src/config/session.php
+    algorithm: sha256
+    value: d96b4c3d215ad3d0e6570c8620d1b4dd603925c2de9036792ca93414c5cc3ab6
+  - path: dist/src/database/.gitignore
+    algorithm: sha256
+    value: e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7
+  - path: dist/src/database/factories/UserFactory.php
+    algorithm: sha256
+    value: 05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d
+  - path: dist/src/database/migrations/0001_01_01_000000_create_users_table.php
+    algorithm: sha256
+    value: 2d6f8ea73a0ac45e2e9bb7093b79ec3da8734d3065cab282d44b1d5cd5af8db1
+  - path: dist/src/database/migrations/0001_01_01_000001_create_cache_table.php
+    algorithm: sha256
+    value: 20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f
+  - path: dist/src/database/migrations/0001_01_01_000002_create_jobs_table.php
+    algorithm: sha256
+    value: 7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5
+  - path: dist/src/database/migrations/2024_10_14_160958_create_personal_access_tokens_table.php
+    algorithm: sha256
+    value: 5a9c64d94d29ec6c435625b8a4d0d3c898b9bad042b5a3ac64f11d39c2b3610f
+  - path: dist/src/database/seeders/DatabaseSeeder.php
+    algorithm: sha256
+    value: 03b392bf45ef0e52d2fa3dba22e33f8c1a66f50e94546b1815b72d07b56ad9b6
+  - path: dist/src/package/Jwk.php
+    algorithm: sha256
+    value: 36d5524098c33c2207475e02367a297934846ad54e3a855b6e7b9c92f286c2d1
+  - path: dist/src/package/JwkServiceProvider.php
+    algorithm: sha256
+    value: 9f0a8300592f06ce7abfa17bf231d40f757ee3652f107d2c1ffe087726a0b3e0
+  - path: dist/src/public/.htaccess
+    algorithm: sha256
+    value: 42493ebc7bad9b95a90363cae9d46ca9934f2d5b4177088d7a08371d5a2623c7
+  - path: dist/src/public/.well-known/jwks.json
+    algorithm: sha256
+    value: 4cf7324f196c0d8e5e09fd03307a340cf2f5ed6e1efe754299b67c14092b0a1e
+  - path: dist/src/public/favicon.ico
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/src/public/index.php
+    algorithm: sha256
+    value: 8e8554cc123b541ff4abb247fb40fc93aa42877376c1296f3cf8106350c52e8b
+  - path: dist/src/public/robots.txt
+    algorithm: sha256
+    value: e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f
+  - path: dist/src/resources/css/app.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/src/resources/js/app.js
+    algorithm: sha256
+    value: cf6dab196c721f6911ff99cc4f910897f978599a2d289971a316a5fc33091f94
+  - path: dist/src/resources/js/bootstrap.js
+    algorithm: sha256
+    value: 6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4
+  - path: dist/src/resources/views/welcome.blade.php
+    algorithm: sha256
+    value: 0205cac388fa21c280e5728742e5cbb8261a4d52c5069156d30154f126d457bd
+  - path: dist/src/routes/api.php
+    algorithm: sha256
+    value: 5d0902917214e6813e44f69ba5eacb98633d63a95e5c497eebb2a3d812d4748c
+  - path: dist/src/routes/console.php
+    algorithm: sha256
+    value: 7bff1ca9501485339d5fddb7777e2a5f4144787b9cb1af9cf61c269f38d1752d
+  - path: dist/src/routes/web.php
+    algorithm: sha256
+    value: 6e0094f77bec04a6386f14f2aff0a86b01795092b87785d733d0688851fdc69b
+  - path: dist/src/start
+    algorithm: sha256
+    value: 6248c459e1d947c2e4eb19dd6c42fd26e4f12fa6253db210b0939f7cc921aec6
+  - path: dist/src/storage/app/.gitignore
+    algorithm: sha256
+    value: 993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976
+  - path: dist/src/storage/app/private/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/app/public/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/framework/.gitignore
+    algorithm: sha256
+    value: 2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6
+  - path: dist/src/storage/framework/cache/.gitignore
+    algorithm: sha256
+    value: 32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6
+  - path: dist/src/storage/framework/cache/data/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/framework/sessions/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/framework/testing/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/framework/views/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/storage/logs/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: dist/src/tests/Feature/ExampleTest.php
+    algorithm: sha256
+    value: aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8
+  - path: dist/src/tests/TestCase.php
+    algorithm: sha256
+    value: c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc
+  - path: dist/src/tests/Unit/ExampleTest.php
+    algorithm: sha256
+    value: ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: d687b78ae2ec30d42e7ba6f55c1a5a114b04c46d98f4e5343879cd2924d7b9ef
+  - path: src/build.sh
+    algorithm: sha256
+    value: a920344288e3c1609e075294acf638d651614c73e76513b5f1cb7847c6e5750f
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 09a4486322156356785b9991cdfc553b2bbb9e0cfe0198d9e65a7d73944dc16c
+  - path: src/src/.env
+    algorithm: sha256
+    value: 813a345969c522af8866cceea97691d4762451cde4455b1413083c5d1b697952
+  - path: src/src/app/Http/Controllers/Controller.php
+    algorithm: sha256
+    value: 25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1
+  - path: src/src/app/Http/Controllers/UserController.php
+    algorithm: sha256
+    value: 9bd8240a81d0939dbb255bbccb16651030b6b448a34aadf3a924767885621ad3
+  - path: src/src/app/Http/Middleware/ProtectedApi.php
+    algorithm: sha256
+    value: db284d60889692c281ccdb8c74b08fe8cc64aaa418edf2234cf8ea09241d0136
+  - path: src/src/app/Models/User.php
+    algorithm: sha256
+    value: 30ac187c17e7b502282d5aea29c6ce61aa39c6b34ebb6cd2a371c5a785a4715a
+  - path: src/src/artisan
+    algorithm: sha256
+    value: e313db8b935d646e728aef4402df1dd5345760268139449f13e98d9a294a9d97
+  - path: src/src/bootstrap/app.php
+    algorithm: sha256
+    value: bb9b3d2c1616a12641a90059a903f0f787ad82db9090b9ea4d5b691461a63b0d
+  - path: src/src/bootstrap/cache/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/bootstrap/providers.php
+    algorithm: sha256
+    value: 2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953
+  - path: src/src/composer.json
+    algorithm: sha256
+    value: 951cb589d78aad902929832c5196657e803b3df915db8860fd463801a0300b9e
+  - path: src/src/config/app.php
+    algorithm: sha256
+    value: 5a44387ebeedf16d775122372f5709e2fd76e5bf50f3d36708554721001c82f9
+  - path: src/src/config/auth.php
+    algorithm: sha256
+    value: d5bd78db15ec31df30248bb56dff53d385d7826d9ab0cfb2846dc6ce06d531c0
+  - path: src/src/config/cache.php
+    algorithm: sha256
+    value: dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664
+  - path: src/src/config/database.php
+    algorithm: sha256
+    value: d9f563cf6d380ec017ae3166efb3fe5e24c183dc5d1e3143c26a2ad1203af18a
+  - path: src/src/config/filesystems.php
+    algorithm: sha256
+    value: 1962568fb9ac93ff35d069d44d4edfe96201bacc520baa203e29c0d92047392d
+  - path: src/src/config/logging.php
+    algorithm: sha256
+    value: 6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8
+  - path: src/src/config/mail.php
+    algorithm: sha256
+    value: fc1fd1fade3ab4d6e0baddf86114711f35beb0880be836ca1c20134e745d72af
+  - path: src/src/config/queue.php
+    algorithm: sha256
+    value: a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482
+  - path: src/src/config/sanctum.php
+    algorithm: sha256
+    value: a3bf731d55289ab9f9c0500ec01b949a12cab6eba3f763adb4eb223ee335aedb
+  - path: src/src/config/services.php
+    algorithm: sha256
+    value: 2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8
+  - path: src/src/config/session.php
+    algorithm: sha256
+    value: d96b4c3d215ad3d0e6570c8620d1b4dd603925c2de9036792ca93414c5cc3ab6
+  - path: src/src/database/.gitignore
+    algorithm: sha256
+    value: e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7
+  - path: src/src/database/factories/UserFactory.php
+    algorithm: sha256
+    value: 05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d
+  - path: src/src/database/migrations/0001_01_01_000000_create_users_table.php
+    algorithm: sha256
+    value: 2d6f8ea73a0ac45e2e9bb7093b79ec3da8734d3065cab282d44b1d5cd5af8db1
+  - path: src/src/database/migrations/0001_01_01_000001_create_cache_table.php
+    algorithm: sha256
+    value: 20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f
+  - path: src/src/database/migrations/0001_01_01_000002_create_jobs_table.php
+    algorithm: sha256
+    value: 7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5
+  - path: src/src/database/migrations/2024_10_14_160958_create_personal_access_tokens_table.php
+    algorithm: sha256
+    value: 5a9c64d94d29ec6c435625b8a4d0d3c898b9bad042b5a3ac64f11d39c2b3610f
+  - path: src/src/database/seeders/DatabaseSeeder.php
+    algorithm: sha256
+    value: 03b392bf45ef0e52d2fa3dba22e33f8c1a66f50e94546b1815b72d07b56ad9b6
+  - path: src/src/package/Jwk.php
+    algorithm: sha256
+    value: 36d5524098c33c2207475e02367a297934846ad54e3a855b6e7b9c92f286c2d1
+  - path: src/src/package/JwkServiceProvider.php
+    algorithm: sha256
+    value: 9f0a8300592f06ce7abfa17bf231d40f757ee3652f107d2c1ffe087726a0b3e0
+  - path: src/src/public/.htaccess
+    algorithm: sha256
+    value: 42493ebc7bad9b95a90363cae9d46ca9934f2d5b4177088d7a08371d5a2623c7
+  - path: src/src/public/.well-known/jwks.json
+    algorithm: sha256
+    value: 4cf7324f196c0d8e5e09fd03307a340cf2f5ed6e1efe754299b67c14092b0a1e
+  - path: src/src/public/favicon.ico
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/src/public/index.php
+    algorithm: sha256
+    value: 8e8554cc123b541ff4abb247fb40fc93aa42877376c1296f3cf8106350c52e8b
+  - path: src/src/public/robots.txt
+    algorithm: sha256
+    value: e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f
+  - path: src/src/resources/css/app.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/src/resources/js/app.js
+    algorithm: sha256
+    value: cf6dab196c721f6911ff99cc4f910897f978599a2d289971a316a5fc33091f94
+  - path: src/src/resources/js/bootstrap.js
+    algorithm: sha256
+    value: 6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4
+  - path: src/src/resources/views/welcome.blade.php
+    algorithm: sha256
+    value: 0205cac388fa21c280e5728742e5cbb8261a4d52c5069156d30154f126d457bd
+  - path: src/src/routes/api.php
+    algorithm: sha256
+    value: 5d0902917214e6813e44f69ba5eacb98633d63a95e5c497eebb2a3d812d4748c
+  - path: src/src/routes/console.php
+    algorithm: sha256
+    value: 7bff1ca9501485339d5fddb7777e2a5f4144787b9cb1af9cf61c269f38d1752d
+  - path: src/src/routes/web.php
+    algorithm: sha256
+    value: 6e0094f77bec04a6386f14f2aff0a86b01795092b87785d733d0688851fdc69b
+  - path: src/src/start
+    algorithm: sha256
+    value: 6248c459e1d947c2e4eb19dd6c42fd26e4f12fa6253db210b0939f7cc921aec6
+  - path: src/src/storage/app/.gitignore
+    algorithm: sha256
+    value: 993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976
+  - path: src/src/storage/app/private/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/app/public/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/framework/.gitignore
+    algorithm: sha256
+    value: 2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6
+  - path: src/src/storage/framework/cache/.gitignore
+    algorithm: sha256
+    value: 32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6
+  - path: src/src/storage/framework/cache/data/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/framework/sessions/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/framework/testing/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/framework/views/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/storage/logs/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/src/tests/Feature/ExampleTest.php
+    algorithm: sha256
+    value: aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8
+  - path: src/src/tests/TestCase.php
+    algorithm: sha256
+    value: c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc
+  - path: src/src/tests/Unit/ExampleTest.php
+    algorithm: sha256
+    value: ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://jawawawakawa.ctf.itsbengsky.id
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. The category README labels the difficulty Easy.

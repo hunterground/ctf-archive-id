@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-jail-003
+name: That's Python?
+slug: 003-thats-python
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: jail
+original_category: Jail
+description: Halo semuanya, python adalah sebuah bahasa pemrograman yang sangat mudah dimengerti
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Jail/That's Python
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9c822e6c5c6fa8801fce0e857d2e1493fd5ebc7700184665a43af0fc1886fcee
+  - path: dist/chall.py
+    algorithm: sha256
+    value: e4054a6284cb920950becda58440f17dc4b8d2b15f05548d8385cf0d26ae5eff
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: eb236ad9d058ab01d115fbcad3adb78f55c17e103bad50f2fe30d091c5b17bf9
+  - path: src/chall.py
+    algorithm: sha256
+    value: e4054a6284cb920950becda58440f17dc4b8d2b15f05548d8385cf0d26ae5eff
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: d062131041313ae1df105eef94053ccac73926ff1a248e950a2d9f53110c0fa1
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8bc30026d3d9fc4b9fe636383c47f60f1edfcca1a6c14a0e429b125d6e9a30bc
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name ends with U+F03F. The README title is That's Python?.

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-pwn-004
+name: upload manager
+slug: 004-upload-manager
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Just upload your files :)
+
+  **Author: msfir**
+
+  Connection: nc 178.128.116.83 9450
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Pwn/upload manager
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ea0a6890358d97d1248a8e0cbd415e2098d5aa2b1356ecd3ea702bb84a750f21
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: b9f4ce739adae2cc01928061b4b7fadc8d958b6709944fc82af8646ad91a3089
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: f8ef88f8dee3c9cb7b39d7cb3d42539a75a18fca6869235a547576b024dfdaca
+  - path: src/chall
+    algorithm: sha256
+    value: 4f5a5dea279065d47cef57a1e8ad6661cc50e85ccf4f057387d2526475230e10
+  - path: src/chall.c
+    algorithm: sha256
+    value: 9adff48bb06090a5fa4f56d8a10e8029ee16cb8f718d634cde22e7498e9e4fb0
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: feb8080afcd63be49635dfe4e751fc7b030b488f70331c7cabb3fb89e3065570
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 097a9abc5d9adb048c6ef70c6f7663a70738e072b1b56aedb02930e867b70c27
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\smth\Programming\CySec\Prob\Set\sni-ctf-2025\Rev\Jajajaja\src\Jajajaja\target\Jajajaja-1.0.jar</jar>
+  <outfile>D:\smth\Programming\CySec\Prob\Set\sni-ctf-2025\Rev\Jajajaja\src\Jajajaja.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <var>MAKEY=IKMitMLmeZ3uVceCf5s4gyqsFrNls54ml9e9IRWpd9k=</var>
+  <classPath>
+    <mainClass>com.flab.jajajaja.Jajajaja</mainClass>
+    <cp>com.flab.jajajaja.Jajajaja</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>

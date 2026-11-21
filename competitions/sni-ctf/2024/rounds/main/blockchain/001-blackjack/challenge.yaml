@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-blockchain-001
+name: Blackjack
+slug: 001-blackjack
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Could you win this unwinnable blackjack game?
+
+  **404Gh0st**
+
+  Connection: http://108.137.70.166:49583/
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- Blockchain
+authors:
+- name: 404Gh0st
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Blockchain/Blackjack
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solver/Solver.sol
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 4eb39c1ec75151d88f2833ebdbb23e9c5222789f0183273467ae969ea14f5a07
+  - path: Dockerfile
+    algorithm: sha256
+    value: a2fd8e54fede91e63c9dbd8426ef0ea6013ca735874783064ea6ade9212c9da8
+  - path: challenge.yml
+    algorithm: sha256
+    value: be7144ab401a3e7ee86cd956209f290d3364d10f77bc44570444ce80a2a0070a
+  - path: contracts/Blackjack.sol
+    algorithm: sha256
+    value: dbbff175fb47d73cc370acb9a83bfefb05817be604441a7add4c348d441c0dd0
+  - path: contracts/NPC.sol
+    algorithm: sha256
+    value: 008f121d3368006e0eb6b96255c97c5744600b9c98962f16d6bfd179c3f1d1bd
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: de301e4bddc149b9bae814ddffd4f48224448058007674eedd543b248876755a
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: db37ae73784a4a06c29dc12e4fc4dc8940df72f9885ea35586495c2dab1c3439
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1146df735f566c8d82efda0685ae6f49e9cb1f6149ba4ed2a89913bc6c27f985
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: http://108.137.70.166:49583/
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Medium.

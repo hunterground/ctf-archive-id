@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-osint-003
+name: vehicle
+slug: 003-vehicle
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: "X sedang melakukan program magang di suatu BUMD di Kota Kembang. Setiap jam istirahat, X\
+  \ selalu makan siang di warteg ijo dekat kantornya. Tepat di seberang warteg, terlihat sekilas sebuah\
+  \ ruko yang namanya mirip dengan kampus yang termasuk top 3 PTN di Indonesia. Di salah satu kota terkecil\
+  \ di Indonesia, terdapat perusahaan yang memiliki nama yang persis sama dengan ruko tersebut. Di media\
+  \ sosial perusahaan itu, X menemukan nomor plat kendaraan yang berasal dari Kota Kembang. Karena rasa\
+  \ penasarannya yang tinggi sejak lahir, bantulah X untuk mencari detail sepeda motor tersebut!\n\nFormat\
+  \ flag: SNI{Merek_Model_Jumlah CC (angka saja)_Tahun Akhir STNK}\n\nPastikan flag ditulis huruf kecil\
+  \ semua dan tanpa spasi \n\n**frennn**"
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- osint
+authors:
+- name: frennn
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: OSINT/vehicle
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 44189b2f4851e6810553cfbb108a22a976f733ea156ad877a16afbb72d2c4724
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Medium.

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-crypto-001
+name: algebra quiz
+slug: 001-algebra-quiz
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: |-
+  Please help me solve this algebra challenge 🥺 I've watched too many instagram reels and now my brain is rotten beyond repair 😭😭😭
+
+  **yellow**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- cry
+authors:
+- name: yellow
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Crypto/algebra quiz
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve.sage
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: 3ef5a49e6cc6048b6034c3e91b1b8056b37f2d10bd902e6e9c73e2754b31836a
+  - path: challenge.yml
+    algorithm: sha256
+    value: 70754319ece11e5abb007cd280749435514855492b7d8473f72121af62b4185b
+  - path: flag.txt
+    algorithm: sha256
+    value: d1de06aae92404d1e5dab6505cd5732afe949746a445c752ff98c4a3c21fc918
+  - path: output.txt
+    algorithm: sha256
+    value: b34ef1f3cb9655aa18acbe5eb700ff9717bbcd8edfa993b9a160804867cfff92
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden.

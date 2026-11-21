@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-programming-001
+name: Deer Strike Zone
+slug: 001-deer-strike-zone
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: programming
+original_category: Programming
+description: |-
+  Flag: SNI{hex(output)}
+
+  Contoh: SNI{deadbeef}, SNI{7}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Programming
+authors:
+- name: agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Programming/Deer Strike Zone
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solver_deer_strike_zone.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: Deer Strike Zone.pdf
+    algorithm: sha256
+    value: 45410c1d84a2d606f5034bf9eea6070a550917f0c39a6f84ed3ec0cd0393132d
+  - path: Deer Strike Zone.zip
+    algorithm: sha256
+    value: ab52cb20822287b40db74285b58e780d759ddfa331144231044eebdc3eaa49da
+  - path: README.md
+    algorithm: sha256
+    value: 7f051ae19f201dc035db7cde97ad7f5055702ec60aef153c7f114bcffb9713ad
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4e255d37449ff43c9bb035c51741c76a9303db5d5c8b8b92c07df39a85ad7503
+  - path: testcase.in
+    algorithm: sha256
+    value: be1af1000093f98a11c532e3e0b2a7f30235dcba8c276d7cdd292822a6451e1c
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. challenge.yml type is static and value is 0. extra.initial
+  is present but belongs to the unused dynamic-score template, so it is not recorded as the score. The
+  challenge README title is Lomba Rusa.

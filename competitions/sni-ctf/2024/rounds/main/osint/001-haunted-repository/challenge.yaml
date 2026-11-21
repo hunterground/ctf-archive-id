@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-osint-001
+name: haunted-repository
+slug: 001-haunted-repository
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: |-
+  Under the light of the full moon, a forgotten file has resurfaced. Those who dare to open it speak of whispers in the code and shadows that stretch across professional realms. From places where people connect and share their creations, a trail begins.
+
+  But beware—this journey is not for the faint-hearted. The path winds through repositories once alive with activity, now cold and eerie. Somewhere, hidden in the depths of this digital graveyard, the treasure rests... waiting.
+
+  - author: dapa
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: dapa
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: OSINT/haunted-repository
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5170b52b6fe61133f2ef979772aad9e26c0aa2a17040bc680aa480009714fad6
+  - path: dist/haunted_repository.docx
+    algorithm: sha256
+    value: 09abfd51e18a94491c2ae38c3966291fb97647e964c746008cb9bb8054701ccb
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

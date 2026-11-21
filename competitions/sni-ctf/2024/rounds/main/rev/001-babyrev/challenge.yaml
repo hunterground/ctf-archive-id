@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-rev-001
+name: BabyRev
+slug: 001-babyrev
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  Cuma chall baby
+
+  ![smirk](https://c.tenor.com/jdBcF2gmsIoAAAAd/tenor.gif)
+
+  **msfir**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- rev
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Rev/BabyRev
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve/solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 18a9f1876c03a917b2b0af8543a33e11b3c50d6a9e812c47c24b3bc8d4eb6e3f
+  - path: src/chall
+    algorithm: sha256
+    value: dba1a79203ba33cbcdaac5cb9433f956e2f6f6371306a3ca315592b6765e6275
+  - path: src/chall.c
+    algorithm: sha256
+    value: 597ebabe855fb3cbc12b041abee9098963a6b18be7b87dfb9f316d15e474638d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 6b4efec6cd0bda466333580283f80ee421c39c4350163c97ab3bdb7b432b5b94
+  - path: src/output.txt
+    algorithm: sha256
+    value: a55880a6a38f146ecbf06e2f0dbdecb02a58a3223ec910fc40c478a277e79299
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden. The category README labels the difficulty Easy.

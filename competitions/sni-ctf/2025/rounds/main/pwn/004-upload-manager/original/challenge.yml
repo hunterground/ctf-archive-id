@@ -1,0 +1,20 @@
+name: "upload manager"
+author: "msfir"
+category: Pwn
+description: |
+  Just upload your files :)
+
+  **Author: msfir**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+connection_info: nc 178.128.116.83 9450
+flags:
+  - SNI{this_is_an_easy_challenge_that_even_llm_can_solve_51892749127123}
+files:
+  - dist/dist.zip
+state: visible
+version: "0.1"

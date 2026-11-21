@@ -1,0 +1,9 @@
+version: '3.8' 
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: playing_with_the_cipher
+    read_only: true
+    ports:
+      - 20042:20042

@@ -202,6 +202,112 @@ repositories:
       Organizer repository for the 2025 Ramadhan special. The repository has no
       LICENSE file. On 2026-11-21 the archive was instructed to treat it as MIT,
       and the challenge files were copied into the 2025 main round of
-      tcp1p-ctf-special-ramadhan. The Mobile
+      tcp1p-ctf-special-ramadhan.       The Mobile
       directory is empty. The recorded commit is the tip of a shallow clone of
       main on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: sni-ctf-2024-challenges
+    name: SNI CTF 2024
+    source:
+      type: github
+      url: https://github.com/serikatnewbie/sni-ctf-2024
+      owner: serikatnewbie
+      repository: sni-ctf-2024
+      branch: main
+      commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+      path: null
+    competition_id: sni-ctf
+    edition_year: 2024
+    round_id: main
+    maintainer:
+      type: organization
+      name: Serikat Newbie Indonesia
+      url: https://github.com/serikatnewbie
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 31
+    categories:
+      - Blockchain
+      - Boot2root
+      - Crypto
+      - Forensic
+      - Jail
+      - OSINT
+      - Programming
+      - Pwn
+      - Rev
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: SNI CTF 2024 challenge repository
+        url: https://github.com/serikatnewbie/sni-ctf-2024
+        type: official_repository
+        accessed: "2026-11-21"
+    notes: >
+      Organizer repository. The GitHub description says "Official Repo of SNI CTF 2024".
+      There is no LICENSE file. On 2026-11-21 the archive was instructed to treat this
+      source as MIT, and the tracked files from the 31 challenge directories were copied.
+      SPDX and package.json license strings inside individual files were not treated as
+      the license for the challenge set. The recorded commit is the tip of main cloned
+      on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: sni-ctf-2025-challenges
+    name: SNI CTF 2025
+    source:
+      type: github
+      url: https://github.com/serikatnewbie/sni-ctf-2025
+      owner: serikatnewbie
+      repository: sni-ctf-2025
+      branch: main
+      commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+      path: null
+    competition_id: sni-ctf
+    edition_year: 2025
+    round_id: main
+    maintainer:
+      type: organization
+      name: Serikat Newbie Indonesia
+      url: https://github.com/serikatnewbie
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 15
+    categories:
+      - Crypto
+      - Forensic
+      - Misc
+      - Pwn
+      - Rev
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: SNI CTF 2025 challenge repository
+        url: https://github.com/serikatnewbie/sni-ctf-2025
+        type: official_repository
+        accessed: "2026-11-21"
+    notes: >
+      Organizer repository. The README says it contains the official challenges for SNI CTF 2025.
+      There is no LICENSE file. On 2026-11-21 the archive was instructed to treat this source
+      as MIT, and the tracked files from the 15 challenge directories were copied. The Misc
+      directory has a README with an empty challenge table. Web/curl sim/src/app is gitlink
+      0ff1065bd881c53de967619b109cc49135bdc7ab of mkhizeryounas/bun-express; that tree was
+      copied without .git. Its LICENSE.md is MIT, copyright 2018 Faiz A. Farooqui.
+      Participant write-ups name Cihuy and SNI BASECAMP, which are not in this commit.
+      The recorded commit is the tip of main cloned on 2026-11-21.

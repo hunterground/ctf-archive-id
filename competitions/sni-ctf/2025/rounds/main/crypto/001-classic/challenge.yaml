@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-crypto-001
+name: classic
+slug: 001-classic
+original_name: null
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: classic RSA challenge + hint
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Crypto/classic
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0ff2d229c9377bcd810b4374b71c330477e65dacf8547384fa05eaa803b39ae5
+  - path: chall.py
+    algorithm: sha256
+    value: 055540c27cfd82a7eefa6331f3297a2a74a624aa6e272b46dd1c45e36d74d8a6
+  - path: chall.zip
+    algorithm: sha256
+    value: 0d090a37fb1872234f83f6545f8cc94603ac1bd1b436e9286a3843dab80ce83c
+  - path: enc.txt
+    algorithm: sha256
+    value: 545651527632c9f1a09ccc4e414e5a5bb3d0326d83b1c27046a3bf919a9cb3a0
+  - path: flag.txt
+    algorithm: sha256
+    value: 5d002aee5af02ceb50cec696ed02ce5695540a08544d128b39b7d12786f81229
+  - path: ril_flag.txt
+    algorithm: sha256
+    value: 8d0eb4eab430b89b5cdc15fb50041452c578def4a9f0a45609d2c7b00e694a7d
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

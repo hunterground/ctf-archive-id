@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-blockchain-002
+name: MizuharaSecret
+slug: 002-mizuharasecret
+original_name: Mizuhara Secret
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  This is the entry chall
+
+  **TunangannyaChizuru**
+
+  Connection: http://108.137.70.166:46716/
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- Blockchain
+authors:
+- name: TunangannyaChizuru
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Blockchain/MizuharaSecret
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: c355cf30985e1c1d4acd6c25ec0eaed21c3abfd08f2b7669bf9a3495787ee694
+  - path: Dockerfile
+    algorithm: sha256
+    value: a2fd8e54fede91e63c9dbd8426ef0ea6013ca735874783064ea6ade9212c9da8
+  - path: challenge.yml
+    algorithm: sha256
+    value: 881c92c1fa5378b76fc2c3a50898ebb3bf0b3731fe08b4d8399ff24f7e4a86fe
+  - path: contracts/MizuharaSecret.sol
+    algorithm: sha256
+    value: a188f9c0db710bfbedd01487bf12c8e7519643b4e713113ceda39fcf4febef4b
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 7b566bd5b93404cd3ffc059f3629637dd568181d418d79c2017ba3c1419860ad
+  - path: contracts/client/MizuharaSecret.sol
+    algorithm: sha256
+    value: c1fe9b0a902e55a8148bf6041bf29a41f7fb2117c28e5d81a866472d1a318421
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 2c17762a46ae5149d8c28c94f162d5e3cc54e0f52e2273601bec89a4a380a96c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1146df735f566c8d82efda0685ae6f49e9cb1f6149ba4ed2a89913bc6c27f985
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: http://108.137.70.166:46716/
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README lists author C2Uru; challenge.yml lists TunangannyaChizuru.

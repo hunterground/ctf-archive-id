@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-pwn-002
+name: not really ez heap
+slug: 002-notreallyezheap
+original_name: notreallyezheap
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  for me its the easiest chall to be made.
+
+  **Author: rui**
+
+  Connection: nc {{host}} 12000
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Pwn/notreallyezheap
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2f03a06cf94382206c8db27e4b49e48c37e9430d428e48c6712ccf9f4c321b76
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 71913f0660f635e26a8e36b463fc084e7841e98844337b1ee5f3674b056689ea
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: eb0a3e0b3295741c24c466e36a2da92216873dd89fa3318e54a967fec9bcd587
+  - path: src/chall
+    algorithm: sha256
+    value: f331bb4c1b99fb5b92d2d88364b36043bc0602f9acb99d255aa55c042ff84bf5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 7adfaaf4d68651c08d426017e21b0f91152034ac015d50ae617152ba9adece03
+  - path: src/flag.txt
+    algorithm: sha256
+    value: c96b1e5f84832b82680042b05cbf5e224fd3e3a39990a0ee01af0e42e66d3482
+  - path: src/main.c
+    algorithm: sha256
+    value: 270a58d2a20e009d7d55ee09d99329b733631dbabc309ff7da5bf01a4afecf97
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

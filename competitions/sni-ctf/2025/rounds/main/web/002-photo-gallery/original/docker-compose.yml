@@ -1,0 +1,21 @@
+services:
+  db:
+    container_name: db
+    build:
+      context: ./deploy/db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: [SECRET]
+      POSTGRES_DB: gallerydb
+  app:
+    container_name: app
+    build:
+      context: ./deploy/apps
+    ports:
+      - "4321:4321"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: [SECRET]
+      DB_NAME: gallerydb

@@ -1,0 +1,145 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-web-001
+name: repl curl sim
+slug: 001-curl-sim
+original_name: curl sim
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  fill in ctfd
+
+  Connection: http://178.128.105.63:4321/
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: repl
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Web/curl sim
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 7e4878a61873a662386db70b18babbce6ca2109caee218eeb50111cbaed43d63
+  - path: challenge.yml
+    algorithm: sha256
+    value: f6edbacac848a846c2823aadc2d2b047242c19a5a887a9e1d5d9cfdbbcca547f
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 1a44c012c8776245f9de95bfe4c54c4f749f4ed7f844c2630cea393813bc48f4
+  - path: src/app/.prettierrc
+    algorithm: sha256
+    value: 0391d671183401c3060bfe1d51b18d36fea98b5b385d8fea63208f9d24f586a1
+  - path: src/app/LICENSE.md
+    algorithm: sha256
+    value: 7b6041a1cb6c4fb631cd17c23706aaf25eea9e5c37db4d924d61537746eee1d5
+  - path: src/app/README.md
+    algorithm: sha256
+    value: c926ff2aceb8c8eec0ca39b7d87c54ef215216d41993fd49755b12de115e15cb
+  - path: src/app/bun.lockb
+    algorithm: sha256
+    value: 4f9a9654afb1d6a10353b06fda8242d9c3a9062269ffd3e8f3305d1872943d98
+  - path: src/app/package.json
+    algorithm: sha256
+    value: 4bfa2d3ed76599fb295bb40b09335a5627efdd8e339478e4982389791996496e
+  - path: src/app/src/constants.ts
+    algorithm: sha256
+    value: 96d67cb6360eea177f857a04669ce4aee5d37a286d56d912261ef12eaeade6a8
+  - path: src/app/src/index.ts
+    algorithm: sha256
+    value: 75469a9639fa36e43e7aef58a9d55056895c0fc25ed6cb4c316abe64672e5878
+  - path: src/app/src/middlewares/ErrorMiddleware.ts
+    algorithm: sha256
+    value: f0bdffe5b5e79dd3a8f00b1c33a68e546eaea67f98903527c474ab5cb429632a
+  - path: src/app/src/routes/index.ts
+    algorithm: sha256
+    value: 9803978a3714ccddc076bc687a725f850bc13ea5a739e504d1d363e70fd19749
+  - path: src/app/src/routes/status.ts
+    algorithm: sha256
+    value: 327102ed34350fc0e4c37a8f9bb4ba3919c60612f5c415a599452fbea97fcf78
+  - path: src/app/src/utils/errors.ts
+    algorithm: sha256
+    value: 3618a0e4a95268a3403632e6f603f3d515f3f7bbca998723b72652345d3c9e9e
+  - path: src/app/src/utils/logger.ts
+    algorithm: sha256
+    value: 1f2322ec21e256ac95a9994806cc3298128a0e04ff66aba3c2ce51333b63c4f1
+  - path: src/app/src/utils/respond.ts
+    algorithm: sha256
+    value: e92e0046e2f3bcffd5fdcf502aa707e96e184516641efded1011ff3b6499ce1e
+  - path: src/app/tsconfig.json
+    algorithm: sha256
+    value: 50456d3bfd6e7841ab7bf26a727debd955fc62ebc885da87020d72e08944e03b
+  - path: src/app/tslint.json
+    algorithm: sha256
+    value: e807c38a3c20351b8399f9c246e6affb260a4664fade42fc2ffbc260e43d2455
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: src/bot/.gitignore
+    algorithm: sha256
+    value: cef88a40937af428bd704f3a2e976103bcd88e1ec0e60e915fa9ec2c916919d7
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 7fccabada94adcfe8161d8ad9dc4d9edbf1fc3ebd6c55b5056536415a4612eaa
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: f25f3bc734043345d0449933a5d2646c5305812c6afd07f1af4d7860c6a5958d
+  - path: src/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: src/bot/package-lock.json
+    algorithm: sha256
+    value: 44668fcbd390bcaacc2ed2df5cdd9e5abe89eda444d1a422f19ea687223166a8
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 8651b11461d95ee407af7fc991f2622514e3de48b23f47401990a29d850ab445
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: d134a3cda7f8a34ac5a5dcd4c631961c959fe9a734f07d9fedb915d6642b0fe0
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 33dbcdfe764349db9edba7c8847e172c015878833943ceac735a5fb4ec1a2798
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: http://178.128.105.63:4321/
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The 2025 repository authors table lists replicant for Web. challenge.yml and the category README
+  list repl. src/app is gitlink 0ff1065bd881c53de967619b109cc49135bdc7ab. The organizer repository has
+  no .gitmodules entry. That commit is https://github.com/mkhizeryounas/bun-express. Its LICENSE.md is
+  MIT, copyright 2018 Faiz A. Farooqui. The files were copied without the nested .git directory.

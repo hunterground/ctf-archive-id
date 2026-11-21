@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-boot2root-006
+name: Eirene Root
+slug: 006-eirene-root
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: boot2root
+original_category: Boot2root
+description: |-
+  Eirene Root flag
+
+  **404Gh0st**
+
+  Connection: https://tryhackme.com/jr/da2c54fe6129ddf18d7dbe08821193a0
+difficulty:
+  value: 250
+  source: organizer
+tags:
+- Linux
+authors:
+- name: 404Gh0st
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Boot2root/Eirene Root
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://tryhackme.com/jr/da2c54fe6129ddf18d7dbe08821193a0
+    reason: Linked from the organizer repository and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 76229410a060db5df0bbbe47391c1800d2cdef363e2b35cdd5e865cf5a4c0bf4
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://tryhackme.com/jr/da2c54fe6129ddf18d7dbe08821193a0
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

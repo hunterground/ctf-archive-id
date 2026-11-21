@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-pwn-001
+name: Coloring
+slug: 001-coloring
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Do you know about ANSI Escape Codes? Here is a simple program that will color your text!
+
+  **msfir**
+
+  Connection: nc {{ .host }} 16000
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- pwn
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Pwn/Coloring
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve/WRITEUP.md
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  - path: solve/x.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 82d5a8ea40cbbaf791c7547b83b4e3821b438e247fc31723a1e436f6536234e2
+  - path: challenge.yml
+    algorithm: sha256
+    value: e9f2c15ef650d5271d745fbcf84d27f973e69f5081b41c665bbbb10760ce1fe3
+  - path: dist.zip
+    algorithm: sha256
+    value: 30baf68a6a4e2796ea9595a75669e4ea8ec2648c1b9346930171d215367fadd3
+  - path: pack.sh
+    algorithm: sha256
+    value: 97769912fb594b616dac51022c537502f1e6ab00ceed51146a470b1bd7040f80
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 56fe5d8d472928ffbbcfa497abcfac243d69394fec11127381c3e0ad691c3ae8
+  - path: src/Makefile
+    algorithm: sha256
+    value: de35b4250fa99954c4043f32b03788746435dadc45ee3243c154395119fe1be2
+  - path: src/chall
+    algorithm: sha256
+    value: 42e5f72bf63681c0f6e0ef21513800d621c43bd6b5104f394ea69c08c12b15d4
+  - path: src/chall.c
+    algorithm: sha256
+    value: f037628dc067942509fb14022a36d5e8f24a7eb396e962a2bc959480d80a017c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b092b3bd4a9ba98b7a5e9ca2f4daf519281f5984ebee8d19577549e109495f33
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3e59b6cf931771729932456bd8ac70946f49528eb182c7905523681ffdc09e3d
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source challenge.yml sets state to hidden.

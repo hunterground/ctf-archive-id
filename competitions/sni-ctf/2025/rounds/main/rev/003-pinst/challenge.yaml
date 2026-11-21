@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-rev-003
+name: oh pinst
+slug: 003-pinst
+original_name: pinst
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  Pin of Chall
+
+  **Author: FlaB**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: FlaB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Rev/pinst
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 16b7332d909ab750c571b655f88fb6c7d209fb9790812f624249b4f881b83e78
+  - path: dist/pinst
+    algorithm: sha256
+    value: 7a395a837fd63e1af2f837ce6f30d34fc423504bec779f6c1e4eac9e76c319d8
+  - path: src/build.sh
+    algorithm: sha256
+    value: 0f1c806e5b459597b6bdba1b06f3a10dbeeb2cb11fd60ef94bad1612a56fd2ce
+  - path: src/dist/pinst
+    algorithm: sha256
+    value: 7a395a837fd63e1af2f837ce6f30d34fc423504bec779f6c1e4eac9e76c319d8
+  - path: src/gen_flag.py
+    algorithm: sha256
+    value: 567ee40ac5c7f2d44e6570edfe877e82ba73457267aee6ee229563e9f2b658ca
+  - path: src/main.py
+    algorithm: sha256
+    value: 4a6302839a3a5d0fa864690a4244e3d65b8ecfefa3d1b632bc40af448a2eba5f
+  - path: src/main.spec
+    algorithm: sha256
+    value: 6b0b4e9aa0662c70a05d039c8e3f406678ebd444a8803df6d68e5046ed7be0f3
+  - path: src/manager.py
+    algorithm: sha256
+    value: 1f7cb907a23ba554b43c210853087c2bd25673308c5831bb3d147feb2a5e9f75
+  - path: src/render.py
+    algorithm: sha256
+    value: 2ccd3cc3484aa8dca349f535294e62eb98d78d3aae9f84511211bec8f0cdf67e
+  - path: src/tile.py
+    algorithm: sha256
+    value: 37eec5c274c7e19d196bc65ee0bf28c2021b0406e0b3e70009f474fb97414d4c
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

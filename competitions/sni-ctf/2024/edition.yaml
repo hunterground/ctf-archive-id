@@ -12,6 +12,10 @@ statistics:
   participant_count: null
   challenge_count: 36
 references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
 - title: SNI Cybersecurity Team wrap-up of SNI CTF 2024
   url: https://www.linkedin.com/posts/serikatnewbie-id_cybersecurity-capturetheflag-activity-7266629122141896704-fMCa
   type: organizer_announcement
@@ -20,6 +24,20 @@ references:
   url: https://www.linkedin.com/posts/msyamilm_capturetheflag-ctf-cybersecurity-activity-7268465203657269248-oRgy
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The organizer reports a 36-hour event and 36 challenges. A participant report places it on 23-24
-  November 2024.
+- title: k.eii write-ups, including SNI CTF 2024 pf-ing and my-seniors
+  url: https://github.com/jonscafe/ctfs-write-ups
+  type: writeup
+  accessed: '2026-11-21'
+challenge_materials_imported: true
+notes: >
+  The organizer reports a 36-hour event and 36 challenges. A participant report places it on
+  23-24 November 2024. The public organizer repository at commit
+  3bfdf0ad92784d86408a7263a3166931f54a4177 contains 31 challenge directories and has no LICENSE
+  file. On 2026-11-21 the archive was instructed to treat this source as MIT, and the tracked
+  files from those directories were copied. On 2026-11-22 konnichiwa.zip and pf-ing/dist.rar were
+  added from the Google Drive and Mega links in those challenges. Forensic/quotes of the day remains
+  a Google Drive link and was not downloaded. The Boot2root challenges point at one TryHackMe
+  room and do not include a virtual-machine image. Boot2root sequence numbers place each machine's
+  user flag before its root flag. jonscafe/ctfs-write-ups is an author write-up
+  repository for pf-ing and my-seniors; it was not downloaded. Five challenges from the
+  organizer's count of 36 are not named in the public repository.

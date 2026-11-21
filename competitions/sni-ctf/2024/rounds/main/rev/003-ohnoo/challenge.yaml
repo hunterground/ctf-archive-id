@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-rev-003
+name: OhNoo
+slug: 003-ohnoo
+original_name: null
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  oh noo, i cant see it even using disassambler
+
+  **FlaBBB**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- Linux
+authors:
+- name: FlaBBB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Rev/OhNoo
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve.py
+    reason: Stored under solvers/ at the same path relative to this challenge directory.
+  checksum_verified: true
+  checksums:
+  - path: chall.c
+    algorithm: sha256
+    value: 94b3d951d249e682e4cfbc0e7735c13eb9c12c10c40c4e5881e3899003b6102e
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6d4a659975dc419808c33c2e73b3348d88d919833a2801f2637bceca1c80a547
+  - path: dist/chall
+    algorithm: sha256
+    value: 93b041a48c9282b1783272b3c558d5e03e87bfa5c4a925628f9971feed5cfbdc
+  - path: dist/out.txt
+    algorithm: sha256
+    value: 522eebae2f86bbf163db478187313438d5f437fd1c5241267faa81219b11df3d
+  - path: enc
+    algorithm: sha256
+    value: 47074d17f300e35cbced89fcd2d7b273ad079b972084e28859b8e165b7fbfbc1
+  - path: enc.c
+    algorithm: sha256
+    value: 1582f4bf9af17f3af372c4bd732553da06be088da48e5eecc3837d8008a26e33
+  - path: gen.py
+    algorithm: sha256
+    value: be6a0359ab29206e223b48314a9e5b055a0ff0b54fa69003586ff93f8fbc2970
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Insane.

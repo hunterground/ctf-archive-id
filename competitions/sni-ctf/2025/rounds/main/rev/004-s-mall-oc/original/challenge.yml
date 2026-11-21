@@ -1,0 +1,20 @@
+name: "S_mall_oC"
+author: "FlaB"
+category: Rev
+description: |
+  This is my small challenge
+
+  **Author: FlaB**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 6
+  minimum: 100
+connection_info: nc {{host}} 6370
+flags:
+  - SNI{N1c3_0ne_Y0u_n0W_Und3Rst4nd_H0w_mY_M4Ll0C_1S_W0rk1ng}
+files:
+  - dist/chall
+state: visible
+version: "0.1"

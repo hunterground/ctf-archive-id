@@ -1,0 +1,19 @@
+name: "againN2"
+author: "FlaB"
+category: Rev
+description: |
+  revereverevereverev
+
+  **Author: FlaB**
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 6
+  minimum: 100
+flags:
+  - SNI{reverse_engineering_custom64_vm_bitswap}
+files:
+  - dist/dist.zip
+state: visible
+version: "0.1"

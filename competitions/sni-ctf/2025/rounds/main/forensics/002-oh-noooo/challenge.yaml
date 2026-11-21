@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: sni-ctf-2025-main-forensics-002
+name: oh noooo
+slug: 002-oh-noooo
+original_name: oh noooo!!
+competition_id: sni-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  internetku mati : ))
+
+  File: https://drive.google.com/drive/folders/1VFmZdx_emVAx4PUFKfWfA30eaO3qHz5E?usp=sharing
+
+  **Author: frennn**
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: frennn
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2025
+  commit: ce5f5e9e155b54a89049c17634fc93d2080b6861
+  original_path: Forensic/oh noooo
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/drive/folders/1VFmZdx_emVAx4PUFKfWfA30eaO3qHz5E?usp=sharing
+    reason: Linked from the organizer repository and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3293fde2c69ad9d4badbf03d6fbcbcbb9933caa9f30e4a253c7ce917e2f9bc43
+references:
+- title: SNI CTF 2025 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2025
+  type: official_repository
+  accessed: '2026-11-21'
+- title: External attachment or connection recorded in the organizer repository
+  url: https://drive.google.com/drive/folders/1VFmZdx_emVAx4PUFKfWfA30eaO3qHz5E?usp=sharing
+  type: other
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Medium.

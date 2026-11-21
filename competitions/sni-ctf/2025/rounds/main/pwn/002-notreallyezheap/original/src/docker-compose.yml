@@ -1,0 +1,7 @@
+services:
+  notreally:
+    build: .
+    ports:
+    - 12000:8000
+    entrypoint: /etc/init.sh
+    restart: always

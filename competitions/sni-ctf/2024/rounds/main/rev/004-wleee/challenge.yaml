@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: sni-ctf-2024-main-rev-004
+name: wleee
+slug: 004-wleee
+original_name: wlee
+competition_id: sni-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Rev
+description: |-
+  demn, look the size of this executable
+
+  **FlaBBB**
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- Windows
+authors:
+- name: FlaBBB
+  team: null
+organization: null
+provenance:
+  archive_id: sni-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/serikatnewbie/sni-ctf-2024
+  commit: 3bfdf0ad92784d86408a7263a3166931f54a4177
+  original_path: Rev/wleee
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record this source as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Program.cs
+    algorithm: sha256
+    value: 594adad3a6f561e6c1f8ac9634ee4d62bb27376c7b517584e8d56949c46b75df
+  - path: challenge.yml
+    algorithm: sha256
+    value: d6d5fbf0c0b3330d78e34c1411b094f2276ad544537c17b16f5cba5ed595bdbc
+  - path: dist/wleee.exe
+    algorithm: sha256
+    value: b7f9349d39bbd9f1a6917a1b66fd4127e59b708da0f0954142b3721cf2b922ec
+  - path: gen.py
+    algorithm: sha256
+    value: 1cda3f0ce4e68a39867b1ffb2047af9c4e91fcaf5e55bdc2511c7a0e93c77a96
+references:
+- title: SNI CTF 2024 challenge repository
+  url: https://github.com/serikatnewbie/sni-ctf-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The category README labels the difficulty Medium.
