@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-005
+name: takjil-atin
+slug: 005-takjil-atin
+original_name: takjilatin
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: aku punya teman, dia jago ctf, terutama forensic, mungkin karna jago, dia memiliki nama panggilan
+  yang aneh di komunitas ctf nya, panggilan nya yaitu "mata diam", karna dia diam diam bisa solve semua
+  chall! 🥶🥶
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: b4r
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/takjilatin
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7ea36632eb308ffbf412efb0b4cffbbfbe3266906c7d5970fbf9328b9ef60738
+  - path: challenge.yaml
+    algorithm: sha256
+    value: e621a630e33607f591d0ac12b7996c48bba1663952cd299966aa79e2c5495a06
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 73372516f99d805fcb084815f8bfb436d1b656e2fc6de9f1c8cb7832d74cd702
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/stepbystep.jpg
+    algorithm: sha256
+    value: c405dc510bd378837a5422969cafe7537759e1449540e7593b1c82e48bd53526
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

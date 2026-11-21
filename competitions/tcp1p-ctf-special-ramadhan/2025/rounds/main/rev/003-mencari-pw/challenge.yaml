@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-rev-003
+name: Mencari PW
+slug: 003-mencari-pw
+original_name: mencaripw
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: Mas bisa bantu aku buat login? Aku lupa passwordnya :(
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: b4r
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Reverse/mencaripw
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8acacefd2f3ea75ffe4a1e8639a5436a33b25efc2334b859e6973f5dccac15f6
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 9922c5a1a9dfe80490ebca742792e1ed85ab590d84824beae7e9addac29904b3
+  - path: dist/chall
+    algorithm: sha256
+    value: c830682d560e13c0338836695fbc0b233cb86ab173aae9a796a47f74d25f96a6
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solver.py
+    algorithm: sha256
+    value: 6e714624c7de8bf18f7d6b86c1b206829d2d673a72fde9cf1515949a053fb6d6
+  - path: src/chall.py
+    algorithm: sha256
+    value: 61fdbad74bb9bb054770281b583c7e25e3c38b8004e8e1e7ad53f144373f0c22
+  - path: src/flag.txt
+    algorithm: sha256
+    value: a1526938efb7d4fe5e60d0a4777b9d2668dd3e2da92b28d10a2a1a708f4dd0cc
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-004
+name: Game Changer
+slug: 004-game-changer
+original_name: GameChanger
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `itoid`
+
+  Are you a Game Changer?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: itoid
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/GameChanger
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 65074017f3e52756842edd8778d155c507c7c532ebcc35531c24f523b2e138b5
+  - path: challenge.yml
+    algorithm: sha256
+    value: c2aeff9ad655325d53032fe41313169f734664a9bc5c1b7cbf43264160bf4ec1
+  - path: dist/gamechanger
+    algorithm: sha256
+    value: d46b095ebc6323a5ab9c0dd376ac035e347f12b1f4887be9234e93bca103ba33
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 4d7e4dbb6bc95defc37c852784c9035ce59664c80124d2e670d2f6548b7e749f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 830177ee1242712d5f56f8746b89b665fbf42684c1d4c8874db64c34158b55f2
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 1408e778e7ed7d7c0dfb6ff2c646d1801fea6b0837486c8d8f8352cc03d64d67
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 42b66a7685967eedd01c423c454f354245dd33a22c8ee7d69cde03832098162e
+  - path: src/gamechanger
+    algorithm: sha256
+    value: d46b095ebc6323a5ab9c0dd376ac035e347f12b1f4887be9234e93bca103ba33
+  - path: src/run.sh
+    algorithm: sha256
+    value: 8ebe1a85f0f8e60f11a2a2cd332a60a0c11f6a1b97135ed913923728a5e8809a
+  - path: src/startchall.sh
+    algorithm: sha256
+    value: 13d5dc129bbb5990456f94040ad3c8e012eb5bf05e70512c54f623a8e457a58c
+  - path: src/xinetd
+    algorithm: sha256
+    value: c4729d4296dfd77d23bc189d313f6470ba1e8e0757f34bf0bb13cca6b05302a3
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 0a24604ab89494b103e254e76a8f03778290a81f9556f90b95fc4c36bb68b70d
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 6443626ad97b87b08095f4002644c447e67ac616689236f69b06fdc6782f035c
+  - path: writeup/exp.py
+    algorithm: sha256
+    value: 98080d396236c78cf7e475fcaedc52c18cd7f23a7c8bc83e3364c6b417ddc315
+  - path: writeup/gamechanger
+    algorithm: sha256
+    value: 21bcf8a8da8f918c392beda12b32c2cca18e2c199b9aecf24dc361694d7d28c0
+  - path: writeup/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: writeup/libc6_2.35-0ubuntu3.1_amd64
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'The source directory name differs from the challenge name. connection_info from challenge.yml:
+  nc ctf.tcp1p.com 9254'

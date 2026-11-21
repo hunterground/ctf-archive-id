@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-blockchain-004
+name: VIP
+slug: 004-vip
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  **Author**: `Kiinzu`
+
+  A very simple system at a party.
+  If you are a VIP, you can get everything.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Kiinzu
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Blockchain/VIP
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deployer/Dockerfile
+    algorithm: sha256
+    value: 8d9fdf3e1f59cb8c8a6a51aa2e56b61da6ceeada6d6c6c727efe4172c6c9bdd3
+  - path: Deployer/challenge.yml
+    algorithm: sha256
+    value: dc11a1b8ffb6a58ee54843577a8451b4be7aa35f6beb4a7732ec8c7c921474cf
+  - path: Deployer/docker-compose.yml
+    algorithm: sha256
+    value: dc47a56890ceebddb5326712fbb24f3f3c3c134d560c8fa404c9888cd733ccb6
+  - path: Deployer/handler.py
+    algorithm: sha256
+    value: 29b4d6939b465cd55642abb39b225ca96ce081d3bed20bacd10126118b5eef57
+  - path: Deployer/log.txt
+    algorithm: sha256
+    value: 7f19e4aca44e8c4bc56b2f5302a272b83f92ddfeab8112d0e843db6a41d93ab1
+  - path: Deployer/run.sh
+    algorithm: sha256
+    value: ad6e1c11e90fd257e3f3782e0c8d88f519d0440203cfa4e642338be71dd3e117
+  - path: Deployer/startchall.sh
+    algorithm: sha256
+    value: 13d5dc129bbb5990456f94040ad3c8e012eb5bf05e70512c54f623a8e457a58c
+  - path: Deployer/xinetd
+    algorithm: sha256
+    value: 5e44b94c13278dea73ff98e8f668d7cebd34589f6fb8246460dc01a0b005f4bd
+  - path: Deployer/xinetd.conf
+    algorithm: sha256
+    value: 0a24604ab89494b103e254e76a8f03778290a81f9556f90b95fc4c36bb68b70d
+  - path: Private/writeup.md
+    algorithm: sha256
+    value: 13f4dbfa077d00a03fb04f74acf0dc41e8d9140dd1e775068d8eceb9df2f2cd0
+  - path: challenge.yml
+    algorithm: sha256
+    value: dc11a1b8ffb6a58ee54843577a8451b4be7aa35f6beb4a7732ec8c7c921474cf
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1f3bd57c90c9836e5d48017a2f74347add4c47bd6fc0d3ace68a5873af9da94a
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 23345'

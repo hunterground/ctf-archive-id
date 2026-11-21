@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-crypto-001
+name: Cherry Leak
+slug: 001-cherry-leak
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  **Author**: `Wrth`
+
+  Why did the RSA challenge go to the fruit stand?
+  To cherry-pick it's leaks.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Cryptography/Cherry Leak
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge.yml
+    algorithm: sha256
+    value: 44c150c7755f2d276c3ca736b91e6b489726d27316013ec0412ab93cbba4b2e0
+  - path: dist/cherry_leak.py
+    algorithm: sha256
+    value: ea6df097247754d8c81634239a5af73ed6a1cc4ae137b96cb33edcb6c929c4f5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7afbce5bca2088e885a262b5ef14de688491ff2db4da2c700f84a5f21c6447ad
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 242cd04015964022c74337df4c8ad97d7de8dc99f59b446921c6eac0e19c2f99
+  - path: src/cherry_leak.py
+    algorithm: sha256
+    value: 31f9fe0e55f0beabbec8986ee54c5d558c43f72d75d9207088dc313212263b32
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: b16ed9854cb38dc82c6c58a04125806855e1a1c136b84982300b994299bf02b0
+  - path: writeup/solve.py
+    algorithm: sha256
+    value: eac9473917804ce692267cb9253b0704f86445f482b84cd1552e7f5ed7c3915a
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 13339'

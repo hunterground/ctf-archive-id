@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-web-006
+name: love card
+slug: 006-love-card
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  **Author**: `kiseki`
+
+  Make your own love card for your gf <3
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: kiseki
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Web/love card
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: e3597ac14582b83729a069b3b2747b16e561200c1c9073f4884de30a8fbf660d
+  - path: dist/src/Dockerfile
+    algorithm: sha256
+    value: fb1605269a4d2bf22a967def52219c434f110b3d060c50998047fa9ff72d324d
+  - path: dist/src/docker-compose.yml
+    algorithm: sha256
+    value: 9b4e8b65fd68d97f786e472691a18d201db059a7a0cc4118559adc945aeb60ee
+  - path: dist/src/flag.txt
+    algorithm: sha256
+    value: f3a6b2c09f75e137aaab928d4085d6e6e1da19044006c01e2268d7c9e478b3f9
+  - path: dist/src/index.php
+    algorithm: sha256
+    value: a45ecb4659a3c1a9556bc10c7691f5fbc1ad916e7ec9c42e4c17cfa61098e64b
+  - path: dist.zip
+    algorithm: sha256
+    value: 2a2b1644660132bf120fa9550a7ddfe8c536066a29e8f45962793308eda6df1c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f2b49ead98cb211d4bfd2674644d2037c1490e275eecd1f7ca513b667f7e1449
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 4e85e7325abd04436096681a5ec15a2de2ea3af46bd1b1e30375095bbe347564
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 9b4e8b65fd68d97f786e472691a18d201db059a7a0cc4118559adc945aeb60ee
+  - path: src/flag.txt
+    algorithm: sha256
+    value: deec86c8a01c194877ce0bf3ee9f5653750048e2883c71df2649fbed5839f72a
+  - path: src/index.php
+    algorithm: sha256
+    value: a45ecb4659a3c1a9556bc10c7691f5fbc1ad916e7ec9c42e4c17cfa61098e64b
+  - path: src/init.sh
+    algorithm: sha256
+    value: 87cb23afbb4459a087550ab9a58a86b1c47c3df018717a2f4a42e5541a3d9a64
+  - path: writeup/solver.py
+    algorithm: sha256
+    value: 1308578f51a608344db869fd2c2b872ac33e76f57127df67db617d1bec04fe4b
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:9137'

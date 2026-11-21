@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-pwn-001
+name: About You
+slug: 001-about-you
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Do you think I have forgotten?
+
+  Connection: nc {{ .host}} 19121
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: ilupii
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Pwn/About You
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 03f51fb79dad01d3ca554ddd6178df1961738c07fd2738eaca7652db2e23c997
+  - path: challenge.yml
+    algorithm: sha256
+    value: dfdb78a9c3b4c42a7b1743fb5064d399db1243358fadfd0d759d34c93c596653
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 0f618cc115d594e358e596b198a21bc1c48b8aa676c013f714e51a018aa77972
+  - path: dist/chall
+    algorithm: sha256
+    value: e853abe68aeb975a5da4ae4dcb620a92662528c99109437d2094d1d0cec6e63b
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 39895a3b9bda484f345741477b9d9aa73b19df0a606b3e010e11012979e3abed
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 32dee34c6b3042546d9b131a840046b9a136d1c675dd5ea1039d2685fb99e065
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 2f1f84e0f4df64e0eb1829fabd8720136456dc4efce9962cb1188f8d436e30b0
+  - path: solver/.gdb_history
+    algorithm: sha256
+    value: 2d818d4becb085aae1eb258ddc542c9a0f6ef3ac924bb756e58d28199abc65a6
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/chall
+    algorithm: sha256
+    value: e853abe68aeb975a5da4ae4dcb620a92662528c99109437d2094d1d0cec6e63b
+  - path: solver/chall.c
+    algorithm: sha256
+    value: f6501313f26c5e613646f3cff31f24ed1b3be9850791e4cc35936f436836747b
+  - path: solver/ex.py
+    algorithm: sha256
+    value: 76aa36a64b1a8a60d01c695802e5c1321ee74e246ed9cb27ec85eafee22cb458
+  - path: solver/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 95e0d2a54c69672fa90ab09c65576e028e509dcb53f5f6f1a04defafbe2d2f92
+  - path: solver/libc.so.6
+    algorithm: sha256
+    value: 2f1f84e0f4df64e0eb1829fabd8720136456dc4efce9962cb1188f8d436e30b0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0f618cc115d594e358e596b198a21bc1c48b8aa676c013f714e51a018aa77972
+  - path: src/chall
+    algorithm: sha256
+    value: e853abe68aeb975a5da4ae4dcb620a92662528c99109437d2094d1d0cec6e63b
+  - path: src/chall.c
+    algorithm: sha256
+    value: f6501313f26c5e613646f3cff31f24ed1b3be9850791e4cc35936f436836747b
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 96c52546e6e211ac0305ce2b255a7ed6b17fc8c958ab920083ac3fb93f88951f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 12c7245aaa67ff491e562ff233f05fce5b45c28fc2909853dc0961a1e1f12013
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

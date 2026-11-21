@@ -1,0 +1,1508 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-web-001
+name: Action Figures
+slug: 001-action-figures
+original_name: action-figures
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  When else will there be action figure wholesalers? Come and check our website for affordable prices.
+  Connect: http://103.185.44.122:30032
+
+  ## Hint
+  Pastikan debug secara lokal terlebih dahulu
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: 404Gh0st
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Web Exploitation/action-figures
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: abd0db9278add4b8c984127446141b32ff2be218cb211ad24c299cf2a6ac5055
+  - path: dist.zip
+    algorithm: sha256
+    value: 9c96bf620c68d90a6a80fbe30c95316542d03be01b55c4e5e54ba6a8393a033f
+  - path: solution/README.md
+    algorithm: sha256
+    value: 3d44e0a3cb0bd8d596688dd68d5e45313044423ea7493a3b70009b00e8cae3b8
+  - path: solution/font-polyglot.phar
+    algorithm: sha256
+    value: 24fcae45f422119faeaf710f78f237428b91e64f5d98ad335fccecde38b5c583
+  - path: solution/font.ttf
+    algorithm: sha256
+    value: 2a2783edbfc683c664090abe263fc69d68b354aaddd8e31ce011d3861a84438b
+  - path: solution/generate_font.sh
+    algorithm: sha256
+    value: e2d737d02392bfcc5182978433f257a8b1854e7fe13ca854e3c610c5fdad2c6b
+  - path: solution/generate_payload_modified.py
+    algorithm: sha256
+    value: 0f6325bafa99abb75bed13abe87fecd6cd98a372481b7194ede94d6619fcfb3f
+  - path: src/action-figures/Dockerfile
+    algorithm: sha256
+    value: a5edf757938374915fc991f5f1593f96a5d25006a39b38b08b2f57eaa7f97433
+  - path: src/action-figures/conf/cleanup-cron
+    algorithm: sha256
+    value: df07ef0824ba0140d50a7c3bc3df17a3d68b0eec2b3d1cd649bb14f661fd7a60
+  - path: src/action-figures/conf/cleanup.sh
+    algorithm: sha256
+    value: 83bce36de09b80fc8ea9619f903043a986788dfd09ffd54dbe98a3ce678ebf9a
+  - path: src/action-figures/conf/supervisord.conf
+    algorithm: sha256
+    value: ac3a26a0a1e328b5724c6c7dfccb29888851fdcc7f333fbb18998df4cbe8d729
+  - path: src/action-figures/dist/composer.json
+    algorithm: sha256
+    value: 26675d9b7a8e49882c36bf6ea3c4fc44889559c1e538cc21482aaba527849ea8
+  - path: src/action-figures/dist/composer.lock
+    algorithm: sha256
+    value: d9695e9bfe561adb92e94b5ff85971f9f7608535c65ffa2efb7d78da86c86c61
+  - path: src/action-figures/dist/index.php
+    algorithm: sha256
+    value: decefc81c9cc30cd71b4c5f19142cfeb251c7b10405d8825005bb4c49a9f74c9
+  - path: src/action-figures/dist/order.php
+    algorithm: sha256
+    value: 84ca42e0ba62b7c9ec3e58f4f3bf7c79b04487a9d1f03f1fcfabeb35bbdd8d43
+  - path: src/action-figures/dist/vendor/autoload.php
+    algorithm: sha256
+    value: 671f991d13c00eb4a84bcb5397eed80ef70759f551a11f6bb0f5f35d384e5ca1
+  - path: src/action-figures/dist/vendor/composer/ClassLoader.php
+    algorithm: sha256
+    value: d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2
+  - path: src/action-figures/dist/vendor/composer/InstalledVersions.php
+    algorithm: sha256
+    value: 21f4ba19e7859cb3f85b8b1680c970ee25d972546c1606dcae0e7e5f43f626f0
+  - path: src/action-figures/dist/vendor/composer/LICENSE
+    algorithm: sha256
+    value: c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+  - path: src/action-figures/dist/vendor/composer/autoload_classmap.php
+    algorithm: sha256
+    value: 537dccd946165b6ac22bb941e66a175246678d31755d2678571293d56764e9c7
+  - path: src/action-figures/dist/vendor/composer/autoload_namespaces.php
+    algorithm: sha256
+    value: e6735f8632ba20b6b0d2794eb925c341ab7afbe46dbf415081625ce3b79c40e7
+  - path: src/action-figures/dist/vendor/composer/autoload_psr4.php
+    algorithm: sha256
+    value: 15573de6a0614ba2b3e9ece084e2d19059d440e3cfa5d015a94fcc029758f722
+  - path: src/action-figures/dist/vendor/composer/autoload_real.php
+    algorithm: sha256
+    value: fd4c6bd0e895098e17699c27973c3c2d5e91c05f171f479ae54733610263cea1
+  - path: src/action-figures/dist/vendor/composer/autoload_static.php
+    algorithm: sha256
+    value: f4441d969d9b9d6e586b883801d16b7bda92573ee28eaddb706f7e6f8ab9e743
+  - path: src/action-figures/dist/vendor/composer/installed.json
+    algorithm: sha256
+    value: d307a2753eec187ff0f533b955997aada9cbb4dc5c78f6ffd56620e6eaddda65
+  - path: src/action-figures/dist/vendor/composer/installed.php
+    algorithm: sha256
+    value: 909e7079b62b2992dd73ce1bff3ce3e9c629fca1bc28e6c4212824e813404320
+  - path: src/action-figures/dist/vendor/composer/platform_check.php
+    algorithm: sha256
+    value: 09bf21fd3d36cece041141c0d9bf37fdb4a5a8344cb4d6859b0e89a4bf585de0
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/LICENSE.LGPL
+    algorithm: sha256
+    value: a90fe41057cac85869176942a0bca3da94a49e277ee5f8c5284be1aeaa59497e
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/README.md
+    algorithm: sha256
+    value: a47402c23b4ad6b574ca52453121057606bb71dfebb10884e45805d91c2e9438
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/VERSION
+    algorithm: sha256
+    value: c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/composer.json
+    algorithm: sha256
+    value: 92b7c1b3e0585bc071109315dd69f8d341f69f8c84716003b23224d47dad5250
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/Cpdf.php
+    algorithm: sha256
+    value: 98497fc2f26e089874b50a1a13ddaa56a78a9f92a1c15e87d2215d04d6d99215
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Courier-Bold.afm
+    algorithm: sha256
+    value: ae9795b10828b84f92ccfcd08afd440dba12ec337e2dc534d76884dc909a52ce
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Courier-BoldOblique.afm
+    algorithm: sha256
+    value: ab20ef0a50b4110ce90b3768f0c1311a0b35a0e1e4dc0671029a1c83d0469957
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Courier-Oblique.afm
+    algorithm: sha256
+    value: 0e69bd2b628274adb8f0654e586d3dc34d38911834356371719e35098c3eaa03
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Courier.afm
+    algorithm: sha256
+    value: 04244eaf4fa3a5923664b7375cbc219e15f791f0a0469ff45fd81982dfa433bf
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-Bold.ttf
+    algorithm: sha256
+    value: e6476c1b80502924294eed40894c5b18e06c181444ca953e5334262df9c27724
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-Bold.ufm
+    algorithm: sha256
+    value: 7db5542a1d3767dbada39b7bdb69be104c27674a9455aeecb43636373d197f6f
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-BoldOblique.ttf
+    algorithm: sha256
+    value: eb436dca0c2594b73d8b603b892e374fdfd8d885d25ffb4f18df4c4c0b49e50f
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-BoldOblique.ufm
+    algorithm: sha256
+    value: 936c7595366d6408fe808ab9b6d28b099e5d8e848cf26a96a338ec1e44a4a8bf
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-Oblique.ttf
+    algorithm: sha256
+    value: 4af75fa16ee6d3ad43e1ecec41862c24954af26a55c6bb1ebb27bd486a50f5f4
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans-Oblique.ufm
+    algorithm: sha256
+    value: 32ae0d1e8bfe5503d2b1d0e9804a05db0caf52c8f72d76930d136668bf62d6c7
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans.ttf
+    algorithm: sha256
+    value: 7da195a74c55bef988d0d48f9508bd5d849425c1770dba5d7bfc6ce9ed848954
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSans.ufm
+    algorithm: sha256
+    value: 2bac7acfea072267e034c64c564d701fbd368bd67eb16c10ddd856fd0b5a7845
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-Bold.ttf
+    algorithm: sha256
+    value: bce60f1b4421acd9ea51ba6623d7024ecbe6817a953e3654df62a5e6bdf8f769
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-Bold.ufm
+    algorithm: sha256
+    value: ee94bee18a8656bf7e0ed1bbf648bb0841c14862a9729f18b0e0301f079b9c02
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ttf
+    algorithm: sha256
+    value: 91713a71d550bba22c2a6b2bb2a9ad8f9a159e12e4e9f0a5b2677998ba21213e
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-BoldOblique.ufm
+    algorithm: sha256
+    value: 76cf3c2cc2050fb087efc8c010b858e2ea71591efa15df38c18eb6c8c53054a4
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-Oblique.ttf
+    algorithm: sha256
+    value: 742097840c541870e8d6dc5c9b37bb1ceeea6c0dedd1d475faf903ef9df734b0
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono-Oblique.ufm
+    algorithm: sha256
+    value: f7516e86350c208441363ba7fa8814128e9fb034b32970c2ca1be2f3e2250d5d
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono.ttf
+    algorithm: sha256
+    value: b4a6c3e4faab8773f4ff761d56451646409f29abedd68f05d38c2df667d3c582
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSansMono.ufm
+    algorithm: sha256
+    value: 5ff9e15e4789ab096ce90cce7163c5a2f1e0fc660a5c71d9e936f7c6f94aaa80
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-Bold.ttf
+    algorithm: sha256
+    value: c47b5527bcdc8dcf9ea8c77054454c5a884beaca2f44851a2a823ee639cbf07f
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-Bold.ufm
+    algorithm: sha256
+    value: 9e2717af074f44d030300af9cc53992cd67379a918edac7f076f0e93ea4822a0
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ttf
+    algorithm: sha256
+    value: 8d3dd3d31350309042ed226af82b34539bd773518e6107cb352712853ba80308
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-BoldItalic.ufm
+    algorithm: sha256
+    value: 03fddc0b5b365c815bb9786b80136eb25db5cc2b337a96bc733562957f4a2ea2
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-Italic.ttf
+    algorithm: sha256
+    value: 2e39b1d50f90b933b00c7bb54a96afd3f86419b3d717c7cf202e36f2d4973e47
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif-Italic.ufm
+    algorithm: sha256
+    value: d68db053ac01f0bfc5702e50bff358749ca551d78107e42c85527fc9f3471569
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif.ttf
+    algorithm: sha256
+    value: 42d1edeb7952f31b1f96d767ed7030b08a39e0c372b0071641518864e2bffb51
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/DejaVuSerif.ufm
+    algorithm: sha256
+    value: 86d2d73799268d79139efd2ed07e4f49271b1ff75ce7e633b6969200a2dc1027
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Helvetica-Bold.afm
+    algorithm: sha256
+    value: 96d0db06197ba1797a7d32da09ec31d959855b473c8e77a417118af6e2ceea62
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Helvetica-BoldOblique.afm
+    algorithm: sha256
+    value: a1cd80608dd088e4086438bc731611f36f7f05dd754b0235386d346d09191831
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Helvetica-Oblique.afm
+    algorithm: sha256
+    value: fbe56985a7fb096def4fbcbf323d3af8bbc89e7d32ad5ef869e63db2b9fb1bd7
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Helvetica.afm
+    algorithm: sha256
+    value: 04d56716b66fbac94e90d73dbe808f6683fabe05c15fd20c16d614e25fe61b14
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Symbol.afm
+    algorithm: sha256
+    value: 3d2128a820375a10de9bc8bf6cfb15ded482c01ca0f95cc0b3277f37ec8bde66
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-Bold.afm
+    algorithm: sha256
+    value: 74e2dc7d48b4efa84605eb541829378b481efe3b75866621a625c62c79cd5af3
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-Bold.afm.json
+    algorithm: sha256
+    value: 4761fbd1b05b02b42bcd0f82398fb7f4173a144d35b685c68604a2d88525fc53
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-BoldItalic.afm
+    algorithm: sha256
+    value: f1df4371ae6b7175636987c4298492563cc6f7ddd438f40e9cf2f89866894221
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-Italic.afm
+    algorithm: sha256
+    value: a795ca83fbc882e0b803825b28152a6c6108a74f22f55bacfeab0476f190c86f
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-Roman.afm
+    algorithm: sha256
+    value: 9906146f4c4775ee45f68786968ae229b3cfcbd8f45f143637184dfbb9f2ee9c
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/Times-Roman.afm.json
+    algorithm: sha256
+    value: fe1b1a76cbe5206768d1913b30cd35e28e612a9881324a2fa69fd59560fa2584
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/ZapfDingbats.afm
+    algorithm: sha256
+    value: a32565c90afd1b57a7008fc567b78d95cf1c22adff5e086094d666d88b039859
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/installed-fonts.dist.json
+    algorithm: sha256
+    value: 2f283514d03165b050cebcf8bcb73e4089fe3eefd528d36659ff2636861d5555
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/installed-fonts.json
+    algorithm: sha256
+    value: 0f1878449de2f06dd86e614c6f2e981b42b1ab7a6a1b57b13782501286c57317
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/fonts/mustRead.html
+    algorithm: sha256
+    value: d95f12680c210b9b058381728edfd745089653ae27e2f6d16e908b54cca69d8e
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/res/broken_image.png
+    algorithm: sha256
+    value: 4f718b373d94cec5d6589ef33ebc2ef5003a3362529a18835203831b2ca7e08d
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/res/broken_image.svg
+    algorithm: sha256
+    value: 0878bc39f6c8ad9397b985ef3728531aa6f70a00c3524650cd0e5b2270cbd1ba
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/lib/res/html.css
+    algorithm: sha256
+    value: d0b38bc953812b10bed27b69d62984858cf122c4ece37efeb6a950dabc361aca
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Adapter/CPDF.php
+    algorithm: sha256
+    value: cac5c744ac56888d99f6facf8eb8a73c6e8ba248d275303d52ed4b14f1fcd88f
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Adapter/GD.php
+    algorithm: sha256
+    value: fa247ce08907ab494120d49ebf902592ca529ea6e3ed999aed8ac5a551a1f11e
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Adapter/PDFLib.php
+    algorithm: sha256
+    value: fa501cea0562c7dd5f5cdf2371ab33c52410839b838143eb6cf8645e8059069d
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Canvas.php
+    algorithm: sha256
+    value: e4cd446488db2bd0d03cfa96819549969b2f6109a443d50643ad65096435e8ab
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/CanvasFactory.php
+    algorithm: sha256
+    value: 71f71899a33619c18582bceef81d1353b6903c601b3038f0992c387d98033ddb
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Cellmap.php
+    algorithm: sha256
+    value: 531c2870b190e887f610b72175815b0b1aa09e1b9840ea3c8bd16ccd870e18ba
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Css/AttributeTranslator.php
+    algorithm: sha256
+    value: eb04de180f543b798fe0b14cade29307d730995de5719f984c310fcb2be7b564
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Css/Color.php
+    algorithm: sha256
+    value: a4105963be67ed393bf1a64c825840f341e51f59318b32a7ba49adceb7221290
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Css/Style.php
+    algorithm: sha256
+    value: 53818b4ba99bfcfa9c705866fc23ed73197b31d64f242099e57b5baa608700fa
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Css/Stylesheet.php
+    algorithm: sha256
+    value: 4fbbc5c1b17e6f541512c7e86319ff762d4ea8f303b74f4288f0247a03a7ff5c
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Dompdf.php
+    algorithm: sha256
+    value: 844efd74cc2c84cf77a9e4c629fdfd3b81ec7d6a8e56a2082c29bea13d719016
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Exception/ImageException.php
+    algorithm: sha256
+    value: 10bfea0a598ec68ac79ff1923df4efefcb641971bd7becda8e613baf61257141
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Exception.php
+    algorithm: sha256
+    value: c9211f5411356c3a28f517d18b31e79de910091e1b2f86c570775f0c240932bf
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FontMetrics.php
+    algorithm: sha256
+    value: 308544708481f63261cc319975182bc8edf6b4c7ee632463295d3d851df2b150
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Frame/Factory.php
+    algorithm: sha256
+    value: e12751784d7a1b6da66080a1c7ee50e2a54e60daabfa101744f623019663cc88
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Frame/FrameListIterator.php
+    algorithm: sha256
+    value: f5e328152075232d366612f9027b53666cf7e273d248b406344f529b1caae969
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Frame/FrameTree.php
+    algorithm: sha256
+    value: 0ce41cbe052a4a9f93c16912e59aa15a1adf53a7bc4552b71e80a160f7966156
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Frame/FrameTreeIterator.php
+    algorithm: sha256
+    value: c1ce925545b81a67f3288df4812b03e6605fa9d3f510ff45937daf386caac7b3
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Frame.php
+    algorithm: sha256
+    value: 32e1217c72d3a5641c218278ccd5dad573b2e31f3d44890c419a81f9c513b1b6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php
+    algorithm: sha256
+    value: fbe396dc91a9b0117a9ea4277a4ad2336f51b2b017fd8a8bcb62eeff6cef80d5
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Block.php
+    algorithm: sha256
+    value: 3bc3bfe8b4a13d9a27647f2a607bb1b56b739fe7f542e6eb73cd16cf984de2aa
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Image.php
+    algorithm: sha256
+    value: fef76e0d426ff07ad4873e461923f832c6717e5f8cc99f80e5ac0a059536ecf6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Inline.php
+    algorithm: sha256
+    value: d52e48d526b4eaec1bb266be004660463dd714cb601eb8117c78796d888e26fe
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/ListBullet.php
+    algorithm: sha256
+    value: df2f6bdb80d66e72e995a2c290973d551f5ca9ad37a26a3bfb1deaccb455a4b5
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/ListBulletImage.php
+    algorithm: sha256
+    value: 1ef4f145585f475131c1f74bf904a6d4b82c5c2ed875675824e09e3c14405474
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/NullFrameDecorator.php
+    algorithm: sha256
+    value: 93159913f6b8aad4cbadc2a734e96bc19b84939116b5ebe88b2579f3ec62b239
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Page.php
+    algorithm: sha256
+    value: 444ac50ca144f5fef95ef8f8984fa5e2ee8fd13a2a90e2d2dfa58c8338a8261c
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Table.php
+    algorithm: sha256
+    value: 489fc3be715a4966c4c2b917a55575db4649faa389ac32f4fb9e8387c7834b15
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/TableCell.php
+    algorithm: sha256
+    value: bc22b6d904c109dda80f7a9497267646566631aff38449eb7320d5218563afe3
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/TableRow.php
+    algorithm: sha256
+    value: bac8c41f08154f76e1a105be92efa50df573883caad7af6cc6b7762b44018174
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/TableRowGroup.php
+    algorithm: sha256
+    value: 11bd521f970b3cf3b3229ae01a1238ab7ba5abee21d9074c2d98df1768a89e30
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameDecorator/Text.php
+    algorithm: sha256
+    value: 30223e61ddd8a11f27f06674ae2cbecb3bd83cb421ba75d528e09433d08ebecc
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php
+    algorithm: sha256
+    value: 2482827007b99c8f9710c1ea771c426956e0305f400d50c2a58fc76cd16b0450
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Block.php
+    algorithm: sha256
+    value: 299e16a5f4688ae5c8731822bad2337a3f759e80fd0935f77f5b38b693fe4b2e
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Image.php
+    algorithm: sha256
+    value: aa5c88e1a917d9c4a2f5035271cd7ae3fde4f597b5e1c564654569adfb96c199
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Inline.php
+    algorithm: sha256
+    value: a9d0689c0af63e80fe8134a11096fbdda9215ceeb045bdb2b258771f2bb03dbd
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/ListBullet.php
+    algorithm: sha256
+    value: 4b2c22f08188dd8b0b74c067afbedce9ee932f51e8a9767e440719f23354ce32
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/NullFrameReflower.php
+    algorithm: sha256
+    value: 7e17c54e93aabf728451f99fd1272b07ad8aab17939d5f11fac072df7fcd042d
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Page.php
+    algorithm: sha256
+    value: a772da840b85c5c19ca0fdebc5388a91710c286f2111fc3eaf12fe295a25d5df
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Table.php
+    algorithm: sha256
+    value: 62245c80269dba62b765a97c5818e7b4f943a6e4d88488b33780dc66dcfc82da
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/TableCell.php
+    algorithm: sha256
+    value: d17b2711cd1be2690e371b676e579c2f1147fcc6c49ae641773c11ca42a8dad5
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/TableRow.php
+    algorithm: sha256
+    value: 3698923b73e3fc6058c50a145147fbbf5af1d455eed314b77f226879204e8e21
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/TableRowGroup.php
+    algorithm: sha256
+    value: c9a63c2152b46ccee845aeccd4abdfc37e70778b8067cefa35b700bfc8157fc6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/FrameReflower/Text.php
+    algorithm: sha256
+    value: 9e170290bc9cc98e9bab00961a58ee5fa543807d11af51e09483f1f0346593fd
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Helpers.php
+    algorithm: sha256
+    value: 5e70654ab8d3502f57a4b2c13670a826aaf48a5a6e578ed2577901b107d1ef0a
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Image/Cache.php
+    algorithm: sha256
+    value: cbff8199b2ad554140e3569f679f2aa789286c3a9d362ad0769cf4a884ded795
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/JavascriptEmbedder.php
+    algorithm: sha256
+    value: 2dca525adbe12b2a3c9be2a0a7c2f588e35d80d7846f838bd83d52b5987f2ff6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/LineBox.php
+    algorithm: sha256
+    value: e139ac7c727d32b96076985bd2033aa94640a5337941e646f5d8e58a8b979d79
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Options.php
+    algorithm: sha256
+    value: 36e72b4688d960f134f12b9bb2e96747daa454b23fd1140bc705a78112851b19
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/PhpEvaluator.php
+    algorithm: sha256
+    value: 3c2cbb9b24bfd1b35e227c030449156b2ceac4f8ef1353c5bcffb809a3c9a0d0
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/Absolute.php
+    algorithm: sha256
+    value: 6afa968fdcf46fc23c36e3b815523dad8c0962d3c1b675a9ee40e98337eb4c9d
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/AbstractPositioner.php
+    algorithm: sha256
+    value: 4fbdb9f0c343bffcb56f8cf3ae4d3e068ddeb55de838a4b29addea94e4cef5e3
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/Block.php
+    algorithm: sha256
+    value: d1af122f0271eaeac65c986f00c752892bba8caa5725942e27165fd6e31041f6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/Fixed.php
+    algorithm: sha256
+    value: f3093454cfc412da2a44081271d524802d963c9cc28c5ac78eee3eda422f0fe1
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/Inline.php
+    algorithm: sha256
+    value: 260bb46aa8f7b7872cb1f68bdf83998be4612b43db53d87b6505e5715ec82611
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/ListBullet.php
+    algorithm: sha256
+    value: 4272bbe85618e6e246f81ebb7e479fef6a835ab2d440d8489b2f1029fc0ca042
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/NullPositioner.php
+    algorithm: sha256
+    value: 3925c0ae5f457771448f7f09314c40376eebff93b2c54c78a0159fe8a7dfd0c3
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/TableCell.php
+    algorithm: sha256
+    value: ffdc198f850bfe5d88f6c95901989e6759fd5290ea735b0acdec48e9066e0919
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Positioner/TableRow.php
+    algorithm: sha256
+    value: ed03fc632bed6ea3c6e4533b314c011df2db3ddb021c1ffb6e7bfed0818547fe
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/AbstractRenderer.php
+    algorithm: sha256
+    value: 1fd1f64c3e7f15f800ac95785b1007b49d93e06435e69cb16bf0a4a1622d0dc7
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/Block.php
+    algorithm: sha256
+    value: b4d79f4fa2ab0b9af03d2f3409e7590e0d110e01f7645e1ab09f1a93d4041935
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/Image.php
+    algorithm: sha256
+    value: 525e26b6dc4787485e2271f0d2110f174d7680e64bb1af2115a11845068bdba1
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/Inline.php
+    algorithm: sha256
+    value: bb781a69d05648d246b8a1c02b1a69028a575a4717b1ddc7012efe631a2d6196
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/ListBullet.php
+    algorithm: sha256
+    value: a689499a95a992b4cb0bd8a48252a7c81212da9e6988f2826e1b9f82edb3c6d5
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/TableCell.php
+    algorithm: sha256
+    value: b10be484f5f7aec34f45b7de86f06253570262e77a3b64b64a2c16434d2e679c
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/TableRowGroup.php
+    algorithm: sha256
+    value: 94df98ea27f50f0a92f673553fc1f2dfc93b2db0c370e09fc89f33d955b466fc
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer/Text.php
+    algorithm: sha256
+    value: f2d9d3823ffdc6f55341d1cc5115597fdaeb33f75241ea2c3720907d4f6d4de6
+  - path: src/action-figures/dist/vendor/dompdf/dompdf/src/Renderer.php
+    algorithm: sha256
+    value: c6b1ba02bfd5e98ccbc5843350269664091e5d38346f4fb478d8ae274fa401f5
+  - path: src/action-figures/dist/vendor/masterminds/html5/CREDITS
+    algorithm: sha256
+    value: c200beec6b198f14e98293647d729317f74e18422c2bc13d792b9bf4985d87e7
+  - path: src/action-figures/dist/vendor/masterminds/html5/LICENSE.txt
+    algorithm: sha256
+    value: fef48d3bbf037920a4f52ade06733b18ce31217a5847447a348dfef2e2e196cb
+  - path: src/action-figures/dist/vendor/masterminds/html5/README.md
+    algorithm: sha256
+    value: ec5c23a764609590fabf281d6d5858815899e083ffc2602636d218a98d9b2bac
+  - path: src/action-figures/dist/vendor/masterminds/html5/RELEASE.md
+    algorithm: sha256
+    value: cb57c732944c979447db0c4e8526667da0d218afa5e29f7972eee894b18cf40a
+  - path: src/action-figures/dist/vendor/masterminds/html5/UPGRADING.md
+    algorithm: sha256
+    value: 53910b638c095dd11dce06e13eb027c6f3cae8d0e1f0338505e6377cb4a4c8d6
+  - path: src/action-figures/dist/vendor/masterminds/html5/bin/entities.php
+    algorithm: sha256
+    value: e01995619d9dbd7d7928c2700d377988003b463a40f7269b0f4fbac6595c2ad1
+  - path: src/action-figures/dist/vendor/masterminds/html5/composer.json
+    algorithm: sha256
+    value: 7a76c2db7c9f777c4cd8a6ee326c97b46db167ca82b0b2cb6adfa2ff13a95779
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Elements.php
+    algorithm: sha256
+    value: b6146c3d70029c848df7ced82b6d3374cf18b0c6e80f4671b13d48dc35385bb0
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Entities.php
+    algorithm: sha256
+    value: 77a7a65408e5a9b606fc207a5a7ccee328fba18404e9cca76f86dad09a9f6ba6
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Exception.php
+    algorithm: sha256
+    value: 98e1aff973669aef2875b7e7c81cf188a699416d03ffff729b2450755db672fb
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/InstructionProcessor.php
+    algorithm: sha256
+    value: 45f57ef9b2ebbf7cbabd2a63157795e320a93309748f0e9c564efda2640f2533
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/CharacterReference.php
+    algorithm: sha256
+    value: 4a11601c8e00bac01ecca3bc1860bd556689b808d49d5c66082c743adee963d6
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/DOMTreeBuilder.php
+    algorithm: sha256
+    value: 4754e25b299c3c572d4fb1543e0e2eac88ef5a0af61e3f0458da7092a5831884
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/EventHandler.php
+    algorithm: sha256
+    value: cca5854a372d1016de77f5797d40e1c7c80b9e225b937f516ad7388dd82fc8bd
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/FileInputStream.php
+    algorithm: sha256
+    value: 0edf5d09d02cc5228849eb0d4bb220cd6f29786d30814f447c851042e4ff9e32
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/InputStream.php
+    algorithm: sha256
+    value: c3e48ea4183ea18e1e1a8fa385f131e1cb19d0d0180bc6248406c4e3dca6e63f
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/ParseError.php
+    algorithm: sha256
+    value: f53c9a4482dce16027a6335ed5f1f82655d148d3ec1b96594bf4e4927461cd12
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/README.md
+    algorithm: sha256
+    value: 77fa7822c19040035f13136de8471da108d24ee11dd84327f8735c22f61e1612
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/Scanner.php
+    algorithm: sha256
+    value: 82a2a92d7cf4f973d941f144ba83991f07ca43425e07cbb053993baa005987e8
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/StringInputStream.php
+    algorithm: sha256
+    value: 5c1375afe51cd94bccc3592dfed11902ddfa28cd935291c51a44ef10f7580379
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/Tokenizer.php
+    algorithm: sha256
+    value: e0570b05a3866a16a0c6bbd8542be089b8a0341b9d1e081b38c247abd4131aa5
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/TreeBuildingRules.php
+    algorithm: sha256
+    value: 96e8e50c27a59a0ec4b9ee6e6294c6771149c7eb90bf0643a5618c1dce7c123d
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Parser/UTF8Utils.php
+    algorithm: sha256
+    value: b9c8e677e6d6296e58e212a3fab19b304e4c4b477ae6c3fbbc803405d92736ab
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Serializer/HTML5Entities.php
+    algorithm: sha256
+    value: 3bb133248b05db95f451c985f267bdeff3732ec7174d93a46d19181b732e20e5
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Serializer/OutputRules.php
+    algorithm: sha256
+    value: 167e4634ca893a484fa0952424e47ad256fb1fb1ba25d2257baf838d88689f9c
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Serializer/README.md
+    algorithm: sha256
+    value: be020e06a6e202d7c3a1c52a84fb235b42810eaffe991d7dbdeac5297b98ab8a
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Serializer/RulesInterface.php
+    algorithm: sha256
+    value: 4e9491f1fed7ae267c9ad0f5e55ce1439f9dc31864c0285db7891b80b3f08885
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5/Serializer/Traverser.php
+    algorithm: sha256
+    value: 5e791a46bab9cddeef168a53a9d441fad9f3c627ab5438300664d590f7dc4be6
+  - path: src/action-figures/dist/vendor/masterminds/html5/src/HTML5.php
+    algorithm: sha256
+    value: da68d65548b18c39e6faae2732b4906494affdf983ce3dbfb35f19caac0ec719
+  - path: src/action-figures/dist/vendor/monolog/monolog/CHANGELOG.md
+    algorithm: sha256
+    value: 1d908e208c977f04a970dc0e5ece8194c865faf2191194a6dc6817ca0e96b901
+  - path: src/action-figures/dist/vendor/monolog/monolog/LICENSE
+    algorithm: sha256
+    value: dd678c7de632ca2119083c763400237fabd45510dec4680b1eb5d6c0e7700379
+  - path: src/action-figures/dist/vendor/monolog/monolog/README.md
+    algorithm: sha256
+    value: 75245e4e3b96ca0c7e5825397ab1a1bfc1588290687e6f842903e0c67b23103b
+  - path: src/action-figures/dist/vendor/monolog/monolog/composer.json
+    algorithm: sha256
+    value: 2155dfa1ab0f00141f1faa40055f18d85d603f790f4a2e0b3d005a2757758b0b
+  - path: src/action-figures/dist/vendor/monolog/monolog/phpstan.neon.dist
+    algorithm: sha256
+    value: a74dc6a0493a9162578b7c5819854212f7b3c00334fa5ccb8bde5fa6a15c0ac6
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/ErrorHandler.php
+    algorithm: sha256
+    value: e9ff9718a4a37aaa6eb96f884030114d160ffb0a90065db2103d8e721b96871c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/ChromePHPFormatter.php
+    algorithm: sha256
+    value: ef8a9b6cb471e8c6a4499f31955f181940a93bc465342b52d1b6980f0e3519ef
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/ElasticaFormatter.php
+    algorithm: sha256
+    value: 8bb2ad8b759598854cbda9a059c58ac877af5a959fcf94d9e482210923364bdb
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/FlowdockFormatter.php
+    algorithm: sha256
+    value: ff986f02a7f70ce2bfe6c8f37e442b80f3bd4fc28697bb0f920bf39c6a974878
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/FluentdFormatter.php
+    algorithm: sha256
+    value: a423749d0f19d352910a39c2bb7b04840ad195c0b679fbb34a22776003222fd3
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/FormatterInterface.php
+    algorithm: sha256
+    value: a08f82dad743e989c65e62e85a694d40fd2d1ac98c1c5165d69ed6d7a89e0826
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/GelfMessageFormatter.php
+    algorithm: sha256
+    value: 4225f19ac300796422f0f09161e6fd8eec3b3704c12392a9f0159cf3d55d0c4a
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/HtmlFormatter.php
+    algorithm: sha256
+    value: 77583c1dcc1f5ea25450a028d17b1126337f494c82ba93e29d464ff6bdab7cf2
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/JsonFormatter.php
+    algorithm: sha256
+    value: db72bafd3a4d2be8afe704140292536c89ba718f7ce4013664ddc4238e2e0c2f
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/LineFormatter.php
+    algorithm: sha256
+    value: 8083fd6dddf26a500bd9a7af34a3093dc3c820cbd0e91cea4828b94556ede512
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/LogglyFormatter.php
+    algorithm: sha256
+    value: 5196e7c617e7b527e3d260b25878f06a9b586cc6058a235014ed17f64d9607d5
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/LogstashFormatter.php
+    algorithm: sha256
+    value: 716dc0f596bd4db63c39fa0f3a41b9db3a96ac395bde787ecd88618942e1490b
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/MongoDBFormatter.php
+    algorithm: sha256
+    value: d4fbe5acdbeb8f41316e6d618f405540bc24d023d0478aba857fde23ba47a069
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php
+    algorithm: sha256
+    value: 01489d550c5f9dfaae71be9b26df2d4199d8882ee32dc059c47e3cc138f4672e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/ScalarFormatter.php
+    algorithm: sha256
+    value: 2d728387705636e6c3619b7cba77ca3599e684098ddde5784b1c654eaa3e577d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Formatter/WildfireFormatter.php
+    algorithm: sha256
+    value: ac66532a1a59e269172c57feee4aed1fedb82df8a77b4001350d9476ff20e908
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/AbstractHandler.php
+    algorithm: sha256
+    value: 91b881673b4f3fcbd44d53ccaaa9eb403568bfb684538e26d3d89221f9a2fe7e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php
+    algorithm: sha256
+    value: 3a2ea2f589de6bd4dc6062885ff124bae0dc02005471ebc4e8a2211ad5f2269c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/AbstractSyslogHandler.php
+    algorithm: sha256
+    value: d9de277fe03385216ab3c4d07c21166154bc0f927520201d7a91ec6f38b0123c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/AmqpHandler.php
+    algorithm: sha256
+    value: 02b45d21651c0485c03e4b6e589e9be6658922aaf2d1e2f7887e65b27e49b758
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/BrowserConsoleHandler.php
+    algorithm: sha256
+    value: ae553034969defebc64bca931e120ba977526b563707ce0a25fad34b27b58612
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/BufferHandler.php
+    algorithm: sha256
+    value: af23be9019f122469101f7b390c9bd482142399a19060c9ccbb2dc700a2a10b0
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ChromePHPHandler.php
+    algorithm: sha256
+    value: cae07d3c344f93e67186a44d05c4630cd35050b53d52674184441cf5e118cbfc
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/CouchDBHandler.php
+    algorithm: sha256
+    value: 6210863fe2dee9064124d49747e67b156cb022914df086a38a74913b70e0ce05
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/CubeHandler.php
+    algorithm: sha256
+    value: f9e60874367584c10d43e820f7f007c7f4b04f9d73670fc7294dad68f54db1de
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/Curl/Util.php
+    algorithm: sha256
+    value: fbfc5b6d0e888e7d4ea4477c22c08ff926947c4b3b7cdbe71258cb6b4185576c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/DeduplicationHandler.php
+    algorithm: sha256
+    value: d0507554ce883a7352ba153606b0fd2c21f0e15124b9735bf607ec0b0f4bf268
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/DoctrineCouchDBHandler.php
+    algorithm: sha256
+    value: b8697c2d2427809ca3c36a9dd666758278996beb0c8ada95e0221b663369b1cc
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/DynamoDbHandler.php
+    algorithm: sha256
+    value: 06d170d9c9ecfe49a8f789fb6af581e466d756d7d266c6d068d240025a28188c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ElasticSearchHandler.php
+    algorithm: sha256
+    value: d83e3882b253ea99b01dd3cc8a2666d13f386d45105eebe1ab584925591ac2d5
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ErrorLogHandler.php
+    algorithm: sha256
+    value: 9335743cb2966b45e4c0d15bc126c7db37719403056295f769a82afb18f4b4d5
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FilterHandler.php
+    algorithm: sha256
+    value: 40ba67d0ffc32dec4483cdbbfd8292d9fe08ba1a3a004f48badce7d179974001
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ActivationStrategyInterface.php
+    algorithm: sha256
+    value: d09350b37c63d5deb80bc562b7844beed06ee99aa25fb8db30fba8684f797118
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ChannelLevelActivationStrategy.php
+    algorithm: sha256
+    value: daade04197744ab0bedef3dff898d984b9f162051bdf2036e6a5bc79fc2bd064
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossed/ErrorLevelActivationStrategy.php
+    algorithm: sha256
+    value: 6feb90b549d7a60eb6e674590f65de3fef637b4d0a4c92e296926e0a502c230e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FingersCrossedHandler.php
+    algorithm: sha256
+    value: b10364210f3d60a3985e527d4bcec808025e7bfc7e1bcad5377d822a060bfa84
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FirePHPHandler.php
+    algorithm: sha256
+    value: 8f1ebc13608a55b2c0206ecb5b09e68095302ac4f419ff35df7e368d9aeb7a79
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FleepHookHandler.php
+    algorithm: sha256
+    value: 9517a135bfe468ab5c444bb15bb823eec83b7e83cb58f05a5c64e0ea72212056
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FlowdockHandler.php
+    algorithm: sha256
+    value: b60f82aa649e05f804ae0e672637cf6e6bff9cdec0df9097b094467cf72ae6c7
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerInterface.php
+    algorithm: sha256
+    value: b21d3fd2fe1f9b18fdb6de23ac6715d65a9b462acf969875b51936d28bb916cd
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/FormattableHandlerTrait.php
+    algorithm: sha256
+    value: 662e46a7570fe3970509be86b54d9ab6eadc6a55b3ee39fb13822c73de87938e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/GelfHandler.php
+    algorithm: sha256
+    value: a160a1b6dc8ad6c85020124a5295cd0d8a7b1ff952b58dd6ed49794b79a36605
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/GroupHandler.php
+    algorithm: sha256
+    value: 854324ad3830c6abeecf67bad4e740bdb2c05ffaf511bd9440c08df6d0cded27
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php
+    algorithm: sha256
+    value: 6107417499bbe78017e25a5590553f96442fc7278dfaa48e69450bbca596e676
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/HandlerWrapper.php
+    algorithm: sha256
+    value: bf6b8543506b25baab36c294397cee458fa3e51f453466d3eb319c594703a7a3
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/HipChatHandler.php
+    algorithm: sha256
+    value: edd91297182b0a4ffaae7c4d7073555350c5d2032016fc927ed0bcfedcc5e15a
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/IFTTTHandler.php
+    algorithm: sha256
+    value: 75deb37df6945697065294cd9d8824cf63fdb6f27d6ce69ec771a0da26c0ede0
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/InsightOpsHandler.php
+    algorithm: sha256
+    value: 9c7b4f209109f7f000ef7810e5f8ec87490d165e6b240d921267af6b356a4667
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/LogEntriesHandler.php
+    algorithm: sha256
+    value: fe482206041f1a8b3671fdd4f86f3e8e4320c024e8e8b7796e1f1d58b0179336
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/LogglyHandler.php
+    algorithm: sha256
+    value: 01ff4bd5d1bb106df5f54a29968e0c3b8e147f207f3b4ded3d35240e9d16f54d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/MailHandler.php
+    algorithm: sha256
+    value: 0c3d3e4ae40e7d1239a4493c738825e5a7dd18530ba304c7f428fbfabdb22796
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/MandrillHandler.php
+    algorithm: sha256
+    value: d7a84a15bb36cbce5110b34568fe1a948639ff25444c5d745b9834514ec4f7bc
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/MissingExtensionException.php
+    algorithm: sha256
+    value: 4cb4dd1ecb944005d7912a58a5118bcee9f1e5b8d7eecf6447f357d543f9e31b
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/MongoDBHandler.php
+    algorithm: sha256
+    value: f7626295e38e10650162f0bacc644e32c61951430e4fe1b9ac89a2e38110dc92
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php
+    algorithm: sha256
+    value: acd588d5d8ce692e95bae05e85ec83f5883f9db2bb601e12fb6b04cc72ff9647
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/NewRelicHandler.php
+    algorithm: sha256
+    value: 92139f8b72262f9bc6715d300ecbb9f0005e04821aad965b33167d9526ba0e8e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/NullHandler.php
+    algorithm: sha256
+    value: f4225bb41ae863bd9d48e995907733b50e7f91f7ab4d5213fccefded68896759
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/PHPConsoleHandler.php
+    algorithm: sha256
+    value: 0793b302866b2391d9be77e7d67101d2163b8f0284124b11b1a37c7a3078ab6d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerInterface.php
+    algorithm: sha256
+    value: 188932b48ad944b7db57d24a9efed8c53afd75c1b77f2e95f86c084aaac7a300
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ProcessableHandlerTrait.php
+    algorithm: sha256
+    value: 99ca5477324bf41f5a850bce66e2789ff248fa39387b8460ec3943475839df19
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/PsrHandler.php
+    algorithm: sha256
+    value: 067068bc1023625f0825288b9d1acafc7876081c6ccef43b08d21efea9577b7c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/PushoverHandler.php
+    algorithm: sha256
+    value: 7262364c39f65e99aacd57791e4db1a4ea1b4e8e9327eac9b718b7ab5c774f81
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/RavenHandler.php
+    algorithm: sha256
+    value: ca5dd79046c7c4ba02f5f4761a95d29e6ca0cc32025ae799bd2e2d7ab154ed36
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/RedisHandler.php
+    algorithm: sha256
+    value: a37e70a488749f8f347af97e9e808025bb4e4551a9de05a42cf98eb5da1b644b
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/RollbarHandler.php
+    algorithm: sha256
+    value: f7740e3bfc90fdf7665d462e2822859e10d15263817e1659b217b6890dca1273
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php
+    algorithm: sha256
+    value: dc0b587dce40590a71c387eaf46e1c86b2a7b20235e9d118e286c0ae05a4f558
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SamplingHandler.php
+    algorithm: sha256
+    value: 5968f1ab9080db42fe98aab414d809640516efdf2a0ef4e2ee84f4410e771abf
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/Slack/SlackRecord.php
+    algorithm: sha256
+    value: 7f2c2768b38fb945fb267a5cc02f31ba91758854b57acd993c5af0e84f5c4f54
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SlackHandler.php
+    algorithm: sha256
+    value: f2950f80b3612bbcea02ddc765015e7e14c04aa4698113344312da2a6606496d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SlackWebhookHandler.php
+    algorithm: sha256
+    value: 0ac8dca9dad263b2b16a6f52a6b7490c341cb4883ca8120f0525f5e5e27b152b
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SlackbotHandler.php
+    algorithm: sha256
+    value: c3481749b8655c75eb2cd3c673b55ae02707e172eae558e4dacfba320b7feee4
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SocketHandler.php
+    algorithm: sha256
+    value: f7f2037732ded98bec2b8577851c70e7e62b5b82fedc248c038da645d08c2c9e
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php
+    algorithm: sha256
+    value: 110c07ec290e8fdbf63ef0289c1a6f1eb6fca953b4942780611ef73ddb705cd1
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SwiftMailerHandler.php
+    algorithm: sha256
+    value: a7ca751b34871ae3c1b0dd2f88178e6af9e1f3424586d32a85e9f02f18d79744
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php
+    algorithm: sha256
+    value: b70cb61f7ea6b7085571375931b86c2f45dab02c36644c4d13e313ad5e013685
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdp/UdpSocket.php
+    algorithm: sha256
+    value: d50186d6fcebfcdbeb2ed7ec35fe6766a067a54166eef4f05f3795c681e11c3d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/SyslogUdpHandler.php
+    algorithm: sha256
+    value: 67dcc9db931b26a628031c9a96c26090153144dbe60abf53f7b427659a8c5ebe
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/TestHandler.php
+    algorithm: sha256
+    value: e384cb922d43579b4527fd13082c92e9fc56ffce0822161e1d2d7f56135431e1
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/WhatFailureGroupHandler.php
+    algorithm: sha256
+    value: cd50d7a7f8577b08f062ceb9dfa7d56cd3c6863e9d72f739a00e7c399082f862
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Handler/ZendMonitorHandler.php
+    algorithm: sha256
+    value: 59f605679f4e0324096b05a73c4fd2048c962d71ee01ffaf43ee204b9b0417b3
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Logger.php
+    algorithm: sha256
+    value: a6772e1259acc849220b50d0c4dec6026bf29a1c091d0929bf3439592f1f1536
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/GitProcessor.php
+    algorithm: sha256
+    value: da91e55579f182d6d8025f071b9ea71092414760bfdf66fa2b0573d1064d75d8
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/IntrospectionProcessor.php
+    algorithm: sha256
+    value: 956faa7837fd11668dd5356ae573d6730c957aa0cb45474986835f3c92a6ea06
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/MemoryPeakUsageProcessor.php
+    algorithm: sha256
+    value: 4e4ffbc79f004470b8a51d0fdb24478196216509c86113f3756eb44b290a5b62
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/MemoryProcessor.php
+    algorithm: sha256
+    value: 0fbe68c0d24759a5823482adbc23b4ef2e7b127d686d474c5d262c16de96be68
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/MemoryUsageProcessor.php
+    algorithm: sha256
+    value: 88b896eb3d3aab16d84e24989a6b4bc63ad29208f0e32c05c2fdf8755a5d8dbb
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/MercurialProcessor.php
+    algorithm: sha256
+    value: 2296649181f59dca2d7e69f9b1c99af475a24b5ceb9b2d0634744ac401a655fb
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/ProcessIdProcessor.php
+    algorithm: sha256
+    value: 754d484e55e0f42f83ab887c49953f99da9985f17d3168e9f658c21bdf6f47db
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/ProcessorInterface.php
+    algorithm: sha256
+    value: 1b5f86bbcc3e5a6ce24dd368aea4c65351e235dff93488f2d0a9b65d0d1f81c4
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/PsrLogMessageProcessor.php
+    algorithm: sha256
+    value: 2563fad4deb1684bfdf1779781ff7b04ba5bac836573042a8b8e8d5e303e637d
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/TagProcessor.php
+    algorithm: sha256
+    value: bf0edefd18d78aba15d04fb2e2d6e3acec5f860eeab1cd1605080aa730434a2a
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/UidProcessor.php
+    algorithm: sha256
+    value: 7f3aa667b6ebd278098c0c5268abefb772df054fa276753bcaeefcc9cc627c3c
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Processor/WebProcessor.php
+    algorithm: sha256
+    value: dbef7e4120f4399cc04a7de67abb81912b9ba135d583ef3b705d53e1d1d2e678
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Registry.php
+    algorithm: sha256
+    value: c7ddf07ec3b8a359e95b49e2ddf8cb7802bdfde434c3874f3dc1971a8d229cd2
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/ResettableInterface.php
+    algorithm: sha256
+    value: b1b1f158788235dc526f68b50f67ba51bb4b7b4038d636947b861c391133f7cf
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/SignalHandler.php
+    algorithm: sha256
+    value: db2f74ba31daf40625e93578c47cba7ad2facdf335758448591265d36f927434
+  - path: src/action-figures/dist/vendor/monolog/monolog/src/Monolog/Utils.php
+    algorithm: sha256
+    value: ef8fc861eb57d95abece788d174cdac61a10cb5a4cc43114a5a7f3f8322e6c2b
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/LICENSE
+    algorithm: sha256
+    value: 273cc5937b062c569acdd8c4cc8a4440ff4dcddbc33a7b2baa8f4ff0611ae403
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/README.md
+    algorithm: sha256
+    value: 1defaae9d01dd1e2affc0049be4daa56e6224e33c49c4be04da654138f6744c6
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/composer.json
+    algorithm: sha256
+    value: 7ad60fb47b7f90ad614f6f09ceaf54224fd35d184a2c903bbd20502836d21073
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/adobe-standard-encoding.map
+    algorithm: sha256
+    value: 045862c7f7ee25f3189bcb4ddad71b4a4a3d83be6014caa6a78c526d83e6c677
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1250.map
+    algorithm: sha256
+    value: 687c7729cd497336a84716ba44a3777744402d1ca3ad6ae74e8e389d8e80a5eb
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1251.map
+    algorithm: sha256
+    value: ea3ff12b341c823ea5e3f3a253257df40836d868af40fdad53d3bfd0206932d6
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1252.map
+    algorithm: sha256
+    value: 8a251d8af9d4b554bb7bba02bfbe15c78225ee0efffa7761828eeafa8272cb83
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1253.map
+    algorithm: sha256
+    value: 6715e2a0beafeba8b08aae3a454440d537356ab9902c1d1ba5e9e0f29a17c1bd
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1254.map
+    algorithm: sha256
+    value: 38a892578841c904b87d54c6a23d8b1b6bf5c2f902353796fc9fd714725ff61a
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1255.map
+    algorithm: sha256
+    value: e9b704afce4e3c362387877cf8cd3c29eded8457f6004d0b58fa3dc2d8d25549
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1257.map
+    algorithm: sha256
+    value: a8a1559a5c8119fd3ca2ce46b10eaf33a63f112c51acf0a85297aff4311196b6
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp1258.map
+    algorithm: sha256
+    value: 3dfb88cd186e495c34094d3a7732f110b9ef4510ebf95c51f9324bf45453f45e
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/cp874.map
+    algorithm: sha256
+    value: 38a400e36bcd90dfb4931d9d01dfe7018dbb9dac55c64df18e785320512973bc
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-1.map
+    algorithm: sha256
+    value: 73e7343c445333d044e047cabac07b288c5b521681e525c104d8273c17a14df0
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-11.map
+    algorithm: sha256
+    value: 372fdce743fe8af01b828296a9e13e46699977e127ed0b3fe7ef3d2208682fa1
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-15.map
+    algorithm: sha256
+    value: f413926bd0bef61cb457dbf6869e85e5863ab455907ef4b735201ef67439220f
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-16.map
+    algorithm: sha256
+    value: d769fefb6a958962a4d74783e801213e63c219444acfe0d1b08a931c80a4aa32
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-2.map
+    algorithm: sha256
+    value: 476bd95d6c7a1350916bcc3f86caffe3c83db8f0c828c4d19671dc7935d3060a
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-4.map
+    algorithm: sha256
+    value: 3baa7992f48e3ea88b6b0f0a543276e2f17216744cf48e192d0e1d2c8911d5ad
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-5.map
+    algorithm: sha256
+    value: 6cac6f551a8d331e37a3fdd830a736f775cade8472e0d61db77083d1172802fb
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-7.map
+    algorithm: sha256
+    value: ea4878aaba2c3e6b71b072f7a0d329a1e4794ea68a15ace0987774c3ed15b90c
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/iso-8859-9.map
+    algorithm: sha256
+    value: 1d0a70b0e972f8f929a24eabc00619ad02a74cea703bcb5f4d3de6d3fc1c2743
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/koi8-r.map
+    algorithm: sha256
+    value: df649eaf8af5727fd56d2b6e4f65fed41a383513b94fb23112597c5dbc6201a8
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/maps/koi8-u.map
+    algorithm: sha256
+    value: 621fd8841ba4c081bfde849e1e3387ef66e9b3bbbef087c4cc1c07d3ea089beb
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/AdobeFontMetrics.php
+    algorithm: sha256
+    value: 893e8ff08289e4f7cadf1830815f50620cda143a6cd86227abf4a95d1ba3e650
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/BinaryStream.php
+    algorithm: sha256
+    value: 17626f64f61a9614542ff032e665bf7a67a57db71fd973ff82e383127aa99578
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/EOT/File.php
+    algorithm: sha256
+    value: 149ee0f12355108c06e9f5b97a272beb1e141f57cd3048963b7e159c83698eb4
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/EOT/Header.php
+    algorithm: sha256
+    value: 381b3a2febc11e7ca5def978343b9f7c838bc370f608b5f96d8a404b5ca3dca1
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/EncodingMap.php
+    algorithm: sha256
+    value: efb9a9d3c5c338ed6fb46476bf286cbad7c95e39a79c2e7b69bf3a18be21ed8d
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Exception/FontNotFoundException.php
+    algorithm: sha256
+    value: 3ac23f1460dd369575e5c4b65015a21d2eba3b28fe08dc84dc71651f8c196108
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Font.php
+    algorithm: sha256
+    value: 1a53cde43535f13a6682214caf9a738b7ef5a9ed3d4923d70b8607899b275797
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Glyph/Outline.php
+    algorithm: sha256
+    value: eecfedea3e03ebcc61b972e69803a2f04180ac343211171df344826635985fb8
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineComponent.php
+    algorithm: sha256
+    value: b0d7cd16a4d8fe612ccc1a443363a955bb9a6395733cf3179ff4af86b6a8bd98
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineComposite.php
+    algorithm: sha256
+    value: 52e2cd4b74c8ff0b95f401bc24f72cd59f24c8e0458b68253c94938959c47c50
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Glyph/OutlineSimple.php
+    algorithm: sha256
+    value: 03c81c410e38b69f61cba5c8e0eadc0fb6636c879645af82c90dfa3aa906c174
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Header.php
+    algorithm: sha256
+    value: f9858215a8900fdb28dc98d2b84ca2122a5cc3f0808fc81578a1d80159ee8172
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/OpenType/File.php
+    algorithm: sha256
+    value: 21f6c3c3f316e959df4685cca44bc683e7f0490256b10d03f0dc967956e12ca7
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/OpenType/TableDirectoryEntry.php
+    algorithm: sha256
+    value: 7ad7110098d81be06090f2b8f0332d691d4870d7b609e0d1a16c090b150062e9
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/DirectoryEntry.php
+    algorithm: sha256
+    value: c0e615892601b4887feb4da239f67b146dadaf1b1bf612da3ec922e8bbbbc5e5
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Table.php
+    algorithm: sha256
+    value: f1ad6255ea886099352b5d9f8f5e1e4548b4825b1afdaf9b62cf82b7268bdc0b
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/cmap.php
+    algorithm: sha256
+    value: 5541cfec6d137cc24ef9193ba327088e840e65f321f4b379fdac6f00a0583657
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/cvt.php
+    algorithm: sha256
+    value: 14e85c153107bfef9294094a87f2f357082a6c6bd3fe52c459596e067150fce0
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/fpgm.php
+    algorithm: sha256
+    value: 2074e8d8641414f755b0bf6d925da4280ae3b1f447232a36b6430a47e60641d9
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/glyf.php
+    algorithm: sha256
+    value: a2dc13843ff1c845e06e71e3c591a14cf0041997645af8bdb9b6d522e5e8771a
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/head.php
+    algorithm: sha256
+    value: 269ce801e18edffafca7580d5a797d70811a4c96676db1384f258ca0fe3e127a
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/hhea.php
+    algorithm: sha256
+    value: 9ccb7214301822e37955d12badcc308b54277855a5f9a38749fe515410edb5f2
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/hmtx.php
+    algorithm: sha256
+    value: 929ccc162e5e9d94be824374a31e890d986115a32f036f3d202306e94403995d
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/kern.php
+    algorithm: sha256
+    value: 3357f48234041b71f3ac89a3511ad5be4d96025f8bfde6519f7b6ea259c43022
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/loca.php
+    algorithm: sha256
+    value: 81b0fe2b242b4239f830b4a5a73e1a2e479994d9785753c6b12b2436805c3dc0
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/maxp.php
+    algorithm: sha256
+    value: 4b24f8e123483b6b65987e74f38bfd32eb5d4aa574a660d429cc279c84fed6bb
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/name.php
+    algorithm: sha256
+    value: 8b4e0a94a92f0953165c0e22bf6b8b00a6da119103f33e3bc619316d35d35877
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/nameRecord.php
+    algorithm: sha256
+    value: 79ddbbd6e66381e1f7565eee1452c9f793d16e76ac395872e700b595e323476a
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/os2.php
+    algorithm: sha256
+    value: 9031e38b5cd5da80513c28402a92a7f96eb0fe7c9f6548bab4824b937b2e85ef
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/post.php
+    algorithm: sha256
+    value: be432de8ad8aca9a13fe9664e92fefcf0ff4828341acedce9649386d929eed60
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/Table/Type/prep.php
+    algorithm: sha256
+    value: 147738da8756ffa4e8b29ca2376702f60338e84b70a11df53cc51c7f27c3511f
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/TrueType/Collection.php
+    algorithm: sha256
+    value: ddf218dfb4a1b92e75869934061753af331fcb9b72866f5a1931d3a0bce355e4
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/TrueType/File.php
+    algorithm: sha256
+    value: 7c499d998071fd2e96e42c960140632b274b8cf03c190ea89bf845fe65bd12da
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/TrueType/Header.php
+    algorithm: sha256
+    value: 506bcae474f5f6a4b5949f8e69894af0448e184ea10ad825ab0e0f17dc1b0570
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/TrueType/TableDirectoryEntry.php
+    algorithm: sha256
+    value: f0b3ca19a900b27cc0453f891e6c367842b0b25eb5c05dcb237fe761e8d9419c
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/WOFF/File.php
+    algorithm: sha256
+    value: 0130a24e98cabab57218d2670c76b50fb974adee5e52e282fbf56924aa32ba38
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/WOFF/Header.php
+    algorithm: sha256
+    value: bd0632e8d933f87f05e5a246754206e937e84dbe66c22e06155fa654c3764f17
+  - path: src/action-figures/dist/vendor/phenx/php-font-lib/src/FontLib/WOFF/TableDirectoryEntry.php
+    algorithm: sha256
+    value: 908a86f1e123f22f9885b6f5e999a281171df921b187444d6c3f6000eda86af2
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/COPYING
+    algorithm: sha256
+    value: e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/COPYING.GPL
+    algorithm: sha256
+    value: 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/README.md
+    algorithm: sha256
+    value: 571c96b681f6e585e9935ae05d40369c7102eceaf2727751623d72b16a24fb57
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/composer.json
+    algorithm: sha256
+    value: b2dcbe38be8d497df8737c01fd5f151b95fe84bb014619d893996e8b7b0ea626
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/DefaultStyle.php
+    algorithm: sha256
+    value: 149cf71ea48f02e609349b0b71777a57cdad54b252871428c2bd69f6ab724e4f
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Document.php
+    algorithm: sha256
+    value: 31191c4525c149685cc7933bcd61edca5247d67c130b881f647abc6f46c9e784
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Gradient/Stop.php
+    algorithm: sha256
+    value: c91433ae5e742cfa0ed4d40f7fe3b088fbeb46b5fc74458108bf911a90957093
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Style.php
+    algorithm: sha256
+    value: 905037fdffe638b0db9c7fe1161e23a5df5ca96da909fe74c8e3f5a2487c937e
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Surface/CPdf.php
+    algorithm: sha256
+    value: 2c0bc09c816f304d4c927ad5ba735f5af25852869afa79be73c23e9052556fd5
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceCpdf.php
+    algorithm: sha256
+    value: ede2a041914ffcb1fbd9ddce48c987195a88ffd755af76f15cc50a8ce47bc033
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceGmagick.php
+    algorithm: sha256
+    value: ab420f7cfb1749b9eb84bf08e56d4e69cdc56f6087515f68fb54bfe3b51396bd
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfaceInterface.php
+    algorithm: sha256
+    value: 4b408025ff59a76dbfbd703e77e43b63cf948c02c0bd80948c3317bdd63f2e86
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Surface/SurfacePDFLib.php
+    algorithm: sha256
+    value: 433648b1aa41cff62b3aaf24d97a6ef8f938111428f78f92d8088751e9c517fc
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/AbstractTag.php
+    algorithm: sha256
+    value: 24e389076641b607ca6151305eb3b7dc3024552725c986d110b5a9dd068fd808
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Anchor.php
+    algorithm: sha256
+    value: 282ceec8f69e359664394e6cbf19e4e783659836626a9f1facfe35905d3da334
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Circle.php
+    algorithm: sha256
+    value: 351273ae65de298e99c0b374d7b5552077da1c5fa5992521e78b802d81aa2849
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/ClipPath.php
+    algorithm: sha256
+    value: 4de04bf5bd7a5f072f0487c1ca39c1e3b2b354197402c201b546ac20739e6b7e
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Ellipse.php
+    algorithm: sha256
+    value: be2ab5af7fd68de2868cdf73fbac0fb45d5acf239caab414a31fc2f7ffc7c8b6
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Group.php
+    algorithm: sha256
+    value: deaf9b53e4838372a8556c1a931bf5e2442f779be67d227e40162bcb25c67a84
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Image.php
+    algorithm: sha256
+    value: b4530076f8e701ca0312f3ca212d5e60a02effc42cd0e4fcaa200df998ce4043
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Line.php
+    algorithm: sha256
+    value: ab2e76f50cab69c4e067efbf3f28c5301d69c8d7c908df5ca14773330659ecbc
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/LinearGradient.php
+    algorithm: sha256
+    value: 11b66d58dd64b3d3b4804d1902c256faf413f61611f64b9cb4ffb4f6ffc89d79
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Path.php
+    algorithm: sha256
+    value: 97b031cdc5d1516188453d203461137c5bcf182e49a0078ef455aa8f724ed8c5
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Polygon.php
+    algorithm: sha256
+    value: 52d70c7ce9719bdd44ba9eb70e09a3acabf3241421d666ad11485f7934ae44b9
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Polyline.php
+    algorithm: sha256
+    value: 533a29f3f2050ffc976b4fe30159d95c0a4c00a0fff4b8b0a39e1584aac3b886
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/RadialGradient.php
+    algorithm: sha256
+    value: f79d10b75bb53a439f630a30e2e8800f132889c0a1370fad1a08d177b4acadf2
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Rect.php
+    algorithm: sha256
+    value: ee44dc05aa7b7e0f4a6e466c8a5e183f628d7f2e4e09613996ad9628ce9d0007
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Shape.php
+    algorithm: sha256
+    value: 31cb6dc8741ea3b008d408c9fcdeee09031e42c2eb27dc0d6e6dace7f46f56a3
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Stop.php
+    algorithm: sha256
+    value: 6856d30b10c42dd7d6c1e50c76d66fd37a45b76379b44edab54c30bdeeb00a78
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/StyleTag.php
+    algorithm: sha256
+    value: 2d17ec043a7b78f9c7e76501068cfa2d2a2af401969aa0f3cc0f2a43aa163e38
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/Text.php
+    algorithm: sha256
+    value: 62975cae2ca839f15cdece3a9340bd718ec4931fc2541c747a7338d1e4b0a5d7
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/Svg/Tag/UseTag.php
+    algorithm: sha256
+    value: 272c2abbbdebee3ea7345520fbbca386b4850ecb3f6a1da7fb87d4a5d320c7ea
+  - path: src/action-figures/dist/vendor/phenx/php-svg-lib/src/autoload.php
+    algorithm: sha256
+    value: 864d7422655c6fa242aa94600d1e12118ea75a9a0fe925fc389b1bd154b469c0
+  - path: src/action-figures/dist/vendor/psr/log/LICENSE
+    algorithm: sha256
+    value: 6e944907067bae93c00a9f2ad51032243820b22df34b77c77690d46cb2e98e24
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/AbstractLogger.php
+    algorithm: sha256
+    value: 944c4d428eba1c613220121ecaa695e9189a42be883218f2fb0074ceca9bbec9
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/InvalidArgumentException.php
+    algorithm: sha256
+    value: 403c6def4d4199a12cb4a54e804c7d29405968871366500f72d6f3ea401bfc64
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/LogLevel.php
+    algorithm: sha256
+    value: 9f2520b22945ce1599c4fedba0a4c75985f172ca86cdf386766ebb8b2363768c
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/LoggerAwareInterface.php
+    algorithm: sha256
+    value: c32ef350fe969788d0de3996e33c4b6a25308c7ceee1f7e87286f491b2bbf25a
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/LoggerAwareTrait.php
+    algorithm: sha256
+    value: 1e001b7d76293cffc829ae97c9bc255ccdaff25c9ebcb6710f2d1a7d3e19a579
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/LoggerInterface.php
+    algorithm: sha256
+    value: 863e63678ee771916f10f0aa8f454d34b25694a61373c0ab67bba038fd1c162d
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/LoggerTrait.php
+    algorithm: sha256
+    value: 358842b431c3bdbab0587fd1a58185b59c41f66e735b4ef1026380a219d8a9b3
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/NullLogger.php
+    algorithm: sha256
+    value: e969c5da49ac031373b4b1e0cb9013f2daa87260e1aaaae8e413edddc4d7dcf5
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/Test/DummyTest.php
+    algorithm: sha256
+    value: bade54d76f112de0e63fca81b9712ba19352702340f7fb9a186190aadc009274
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php
+    algorithm: sha256
+    value: 4721a32c6397a3de0f2ff61ba29a798efdad3e2f00fb3ec401a6722705a25b5f
+  - path: src/action-figures/dist/vendor/psr/log/Psr/Log/Test/TestLogger.php
+    algorithm: sha256
+    value: 07508c479f934ca3d935391f4ebca8ad22c024678b695741cb30e45a6de315ad
+  - path: src/action-figures/dist/vendor/psr/log/README.md
+    algorithm: sha256
+    value: 4f2bc231e87cda248b1fa2aef7a930045f3e95f89ee46ff579188d2489372954
+  - path: src/action-figures/dist/vendor/psr/log/composer.json
+    algorithm: sha256
+    value: 5c102d352bf26aa938b0b7586b46b019e112002b470939a24f038545d5387ba4
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/.gitignore
+    algorithm: sha256
+    value: e15b1b0e0f10012abb6f06891455da689a7a4ff323b70ce46144d8611b7d4d8a
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/.travis.yml
+    algorithm: sha256
+    value: 102cded116f6d918e237c2b3dde68a7552ea9d465e120bdffb78e40c51e581ef
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/CHANGELOG.md
+    algorithm: sha256
+    value: 6c5f31818273f8c596901a3af7848860a9fc704250c8cba18ad62392cb43ec95
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/Doxyfile
+    algorithm: sha256
+    value: aefa50f5387b2c5c394397bbe5558efff396fcf25fee7c9e10811f4e66650b27
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/README.md
+    algorithm: sha256
+    value: 448741f4de00eb646bf3c8f970b351cc1ec8bde3e152b1818babf8fcf3cf7dd8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/composer.json
+    algorithm: sha256
+    value: 28515c735692faf69086cd3ec881103603f4e31c3b79bc00671121670c8cb292
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/composer.lock
+    algorithm: sha256
+    value: f687c20b79423670b525574df9fff2d933f1019d3a40ee39d31af3228c528db2
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/AtRuleBlockList.php
+    algorithm: sha256
+    value: 262de7ddae96859b8de8e9aceee5b21fbb01aa1e065b6eb432edbcdf9c6feec6
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSBlockList.php
+    algorithm: sha256
+    value: ac42ffaaf75149be0938c9750232dde2d69598b68379ccc456923aaed26b967e
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/CSSList.php
+    algorithm: sha256
+    value: 57f58d502de4f5da94f89dc465d3935ac9f8f1aff5f9a1de2070bef7c1f04734
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/Document.php
+    algorithm: sha256
+    value: e8d73a6267c08615a836dd561d3748188fdda13fddae73ecf6c93786a8ecbc52
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/CSSList/KeyFrame.php
+    algorithm: sha256
+    value: 678516cb24c3a844891269e2974becf45bc8f1fd5eed673e01c7f8a8c1177fe9
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Comment.php
+    algorithm: sha256
+    value: ec3b365f769d09d6a5a79d11f484c08549e173bc2805e7dcd976c0dfdea90bec
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Comment/Commentable.php
+    algorithm: sha256
+    value: 64a168da07775f48374cb6ec2ed50758dd54d9fa6f9123a1a6dcc96f777f92e4
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/OutputFormat.php
+    algorithm: sha256
+    value: c1d955b1dad3b139b5dc84d2889399c85d2959f92000590b2bd9e5c1d59e6d92
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parser.php
+    algorithm: sha256
+    value: f6ce3c5225d41e501eb7e5114c0f90bab4bbac7caa17e46241d3a21a8ddc47f3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/OutputException.php
+    algorithm: sha256
+    value: 7c94c920ad32a44b61c55d342949214fd5f43e803b1870fc7de38f55d5089760
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/ParserState.php
+    algorithm: sha256
+    value: 672c69261af76082637d363533843df6804d506bbb46a56d9cbe73c2e8fcd3c3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/SourceException.php
+    algorithm: sha256
+    value: 1e4e4f91c1b2e8def99cd68761b5ee57934f213691e3d51411d9cda0db198c82
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Parsing/UnexpectedTokenException.php
+    algorithm: sha256
+    value: 77de658e68f22c86fdb0754340f98ac37bc2d687c5a378d033cc28097b55230c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/AtRule.php
+    algorithm: sha256
+    value: 7f83c6a6fd4fd713954723a672fc258ddd24761a9397e8c4bcb114e65c22fc82
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/CSSNamespace.php
+    algorithm: sha256
+    value: 76c58f39d9579973e6c88a2c8ebe5430d0c8224aba3fac1a51169563a06a8a5f
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Charset.php
+    algorithm: sha256
+    value: 5ca0eb46832f420e9cec1878151b4159790c163c813ca54ed6ca97e7b5324711
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Import.php
+    algorithm: sha256
+    value: 6a2abbded39753bf47ed9424751933a2924103f4cf962387187742fdb561158f
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Property/Selector.php
+    algorithm: sha256
+    value: 56342edf3d97d945ca4c7834e0014cf3c282d5e2dba81bca752e74d6ef6631e3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Renderable.php
+    algorithm: sha256
+    value: 5f0400ea7cad8991f9a49d31cf8518fb54b19cd4ac125c98f951ab9d30d0192c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Rule/Rule.php
+    algorithm: sha256
+    value: eecc6b09fcd1c31ba5ca9b59a237c12b48a9cb6cf2bc0764ceabdfa6a977d002
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/AtRuleSet.php
+    algorithm: sha256
+    value: 6a61d9b582f79b6e771d979b1b8a9bef174c4e8c8a02bc3bad3d4426bc305edb
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/DeclarationBlock.php
+    algorithm: sha256
+    value: 0b69b985b19197f1f7dbae6b2d3552d01ad3604e68991891b46cc673c73148b8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/RuleSet/RuleSet.php
+    algorithm: sha256
+    value: 6073b92497fa871274662a811e3d6c1f6d8fb8206b9bd51660197aafcb5a7f34
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Settings.php
+    algorithm: sha256
+    value: e6c4f41ce912b2bdbdd78e63fbb249f10599633f3d9acd74ba9b089e02cab0d6
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSFunction.php
+    algorithm: sha256
+    value: 4902c5a1241cd3a9d8ccf4d764e2f93daabaa0daf922b24f9392321abd47baa8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CSSString.php
+    algorithm: sha256
+    value: 63443bc32964b58623faf745423df5f7743dca005590ee09f55ce0479267de1a
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CalcFunction.php
+    algorithm: sha256
+    value: e4075679299b6c0f676a31db9d31269c84865dd48ee2241ec2bebde13ecc7b66
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/CalcRuleValueList.php
+    algorithm: sha256
+    value: 957414de8ad1fdf3af3302bba434cd66eda371aa757914af3bb72f9c712525df
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Color.php
+    algorithm: sha256
+    value: 76055f0938f0dfa3a61e09f7d686531dade3c76aeb5db2a59d6dbbf5980ec5b3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/LineName.php
+    algorithm: sha256
+    value: 71552c62646eb45fdd5f1234fd3df4c5362e9415b6f75d364d39a63aa50206e0
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/PrimitiveValue.php
+    algorithm: sha256
+    value: 92a4e824eff4438bcc909f833cbbef32c1e589f05e6ee2940263fb6d814f8602
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/RuleValueList.php
+    algorithm: sha256
+    value: 0be6ca0154b14f4e803b6a4d1c8d8b9474e328b3b8ce13609a3a949e7399bc36
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Size.php
+    algorithm: sha256
+    value: 9a4ae4b3b62c4f191106dfdc7be8ac63184a1ee7eeac38b4b254e447aea66250
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/URL.php
+    algorithm: sha256
+    value: ba3f08c30d7c15b0024be67f9c0d6599fb35c7253a8b41181397c66ffa25db8d
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/Value.php
+    algorithm: sha256
+    value: 810ccbbdec53dc8afab11b9845c54965947a638e559ec4bb8090d0d9dccb5df0
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/lib/Sabberworm/CSS/Value/ValueList.php
+    algorithm: sha256
+    value: 8b2d8c3851476bde9156fb0ff3e9200d8eae9673fed7f6a7fce32622efdb0328
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/phpunit.xml
+    algorithm: sha256
+    value: 1595af74100b686cd4c86c39a78fadf88f990e5f827f5f835881a19cf587250c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/CSSList/AtRuleBlockListTest.php
+    algorithm: sha256
+    value: 01889c046ee795d2de0ce3932c6ccc14108786106481ab8e720cafa1fd38edd7
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/CSSList/DocumentTest.php
+    algorithm: sha256
+    value: 8ef40d9d8564a4713f331f201d2f9e4dccd57635544a3fffa7f3b61f8f2b334a
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/OutputFormatTest.php
+    algorithm: sha256
+    value: 152b3e1084d84ea5922a0f9332bbb0481615a47182876cdf8f716ba72da74b21
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/ParserTest.php
+    algorithm: sha256
+    value: 037fc1a3c724dc51354161bb993efee64eb3e54d7dd1bb517e98b0bff3d288e8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/DeclarationBlockTest.php
+    algorithm: sha256
+    value: dda57f37554be6a8822b312f792423aaed893cdcbe50c7e49e49d9f428cc19d0
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/Sabberworm/CSS/RuleSet/LenientParsingTest.php
+    algorithm: sha256
+    value: 176d83968a54442fa615ece79c2519a6c6956c234936d1b3cf157f148e786c6e
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/bootstrap.php
+    algorithm: sha256
+    value: 11eb51e3c8a3b629bb5f5d77e88cca49adf94f3860e698670542486ccd220241
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-calc-no-space-around-minus.css
+    algorithm: sha256
+    value: 9670c6b24504495a6c72a10f3f0cd075b78fc67ac04237b569553cb549a48b28
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-charset-after-rule.css
+    algorithm: sha256
+    value: 62d9073b76b2021af4c9daa7767b48b9c47b3175641cddb5dd9ea2b11c35eab3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-charset-in-block.css
+    algorithm: sha256
+    value: 180e8f70dea4c87bcea86ce94b6e5cc329dc081b29be43f644bb62221e7ccc82
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-empty-grid-linename.css
+    algorithm: sha256
+    value: 4278e08b602b2a5434037ff7c8b126fce7694d9571b1c738c970bf6b54ee11a8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-empty.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-end-token-2.css
+    algorithm: sha256
+    value: 145d1648cd36817ad5b15806275181222215530c31565470b547be06e3c3ce85
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-end-token.css
+    algorithm: sha256
+    value: 16b960c325a396abdd9e8cae3cb5a423faad9c35b8323964c036b0fbe8d68eb6
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-fault-tolerance.css
+    algorithm: sha256
+    value: 6c57996e159549411998dd9b2c7d47c7cff1078ef8091c7890d1ceab3091e7f5
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/-tobedone.css
+    algorithm: sha256
+    value: 66a4a30e295983f9906da0c1b4a91c3d758099346722594dfbb34e295e3306ec
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/1readme.css
+    algorithm: sha256
+    value: 187aed61de69a54ce80dfc1a45996750f0815ef80492e051f463fa242b34d659
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/2readme.css
+    algorithm: sha256
+    value: f4a6bb6256a2a8a583a8f17483b0f1b3e885fa59d209011826c09fea4c1abaf1
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/atrules.css
+    algorithm: sha256
+    value: 156b3b07dd22b14a7a7498eb7a020baffbb25046c77b77f3bcd51f8e59e3445e
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/calc-nested.css
+    algorithm: sha256
+    value: dabfa62590f6cd2bd9434d2549dad2c18876e3d4b1dc9a6e563ce30097795fb0
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/calc.css
+    algorithm: sha256
+    value: 81b77d22f6b5d14bbf12b704a64ea167dfee2144537039f994aee63afcdec966
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/case-insensitivity.css
+    algorithm: sha256
+    value: 39fc0521cf4cd9b064a14b891daa35fd064bcfa16cdb725cc709c69f3948b688
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/colortest.css
+    algorithm: sha256
+    value: b1c8eeb918aa29062bdaaeb6de10716aebe746ad8a568530949bcab131ee97a3
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/comments.css
+    algorithm: sha256
+    value: b076daa54ec823f6f6e1884995516937944414eef45b2f2cbc14d81de1601e4f
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/create-shorthands.css
+    algorithm: sha256
+    value: 12efbdef026abfe79c0d137334e3464f9cf2804a877b5d19a98513849394d642
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/docuwiki.css
+    algorithm: sha256
+    value: 72739cd4195cc1cf947d2975041a647a2777bdf8933083bc938e1ac1bcb46333
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/empty-grid-linename.css
+    algorithm: sha256
+    value: 4278e08b602b2a5434037ff7c8b126fce7694d9571b1c738c970bf6b54ee11a8
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/expand-shorthands.css
+    algorithm: sha256
+    value: a130a98823084e57a44d80ac0407d9ab7b4b2c135eba262380f4140247b77ad2
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/functions.css
+    algorithm: sha256
+    value: 0442e09c1fae3a61d5f8be82b185d0e59a22a3caa825a340150d8ebe6d2ce7ba
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/grid-linename.css
+    algorithm: sha256
+    value: b1f6f2cb89612910f89431d11f19535529c51b31e281e04a89bdc4b0f4914a53
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/hex-alpha.css
+    algorithm: sha256
+    value: 227db67e9c06b389174df36611ed5aa3f496d9bbaa09c099a491a85cbd0d941e
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/ie-hacks.css
+    algorithm: sha256
+    value: 300c7a0d43b349a745e2703aecf9cc479409c8ed969e2850ed169c2524f2efe4
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/ie.css
+    algorithm: sha256
+    value: a0af7e2f8e125a1d0565ac8640400f412ccb928c6606f18e1d34119d65bdace4
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/important.css
+    algorithm: sha256
+    value: 2d2082753dc566d07fddedd19161e9cf9d52da0e92d51ef1ef381a0956d45fd9
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/inner-color.css
+    algorithm: sha256
+    value: 50056522810b3300a8300088a14e593df93eeca81da9a570308534210aa0d48f
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/line-numbers.css
+    algorithm: sha256
+    value: 7746fa35264a04e2f0ef395e7f75e1d68f927eae2a5c9f49d5f12faefd7c7415
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/missing-property-value.css
+    algorithm: sha256
+    value: 87839813a776329971ee3c0ad32bfaefa472dca59bc0f8cf70e56d1b7b1f959c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/ms-filter.css
+    algorithm: sha256
+    value: a3c65f5cd7880cd89742c2642e6d5f72bd06c2219fcd20930661eff931146e4f
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/namespaces.css
+    algorithm: sha256
+    value: b82b8ad7e14d9ac754fcf3b6472f094e0ec272612cfbdeeb44327c4cb2e793da
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/nested.css
+    algorithm: sha256
+    value: c727c871f833b76bcdeed20b4c886b61b91a04e66f52fa8d93c2aba18ce55477
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/slashed.css
+    algorithm: sha256
+    value: dfcbb978f99096a66b0ecaf853c678dea763a019e0a23b9e5542e2ce66029b7c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/specificity.css
+    algorithm: sha256
+    value: c44a4b90c8afa07f8f730e9efcf72f2ea1b639bd6bec917b7876fd0f11bd3315
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/trailing-whitespace.css
+    algorithm: sha256
+    value: 22952dd1e30d35e1a11beb01a533cd9296e08736f3c8ca1e37a23cb65604852b
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/unicode-range.css
+    algorithm: sha256
+    value: 97eb781f7e6dbdb30c95207c6c4edc830ff959a9603bf415bab98942d3c7e0f5
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/unicode.css
+    algorithm: sha256
+    value: d5dc6c83094cc4045f4b981e5a5222846fed621766cc147ab0f30d7f31b00589
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/unmatched_braces.css
+    algorithm: sha256
+    value: ba3b2c29e3b1690092ff4bdc9512d3a9f5466f2922d7fc2755c0ab40257e98f9
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/unopened-close-brackets.css
+    algorithm: sha256
+    value: 213459796759fa68f6f97766d6209a49dbe751b76e8ec11539ee2f5f6f5fde06
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/url.css
+    algorithm: sha256
+    value: 926386fcfb1934519b6a8ad20f5a41388cee5781be14f5db711c1f599b030b14
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/values.css
+    algorithm: sha256
+    value: d62dbc876edfb8d928d451a258e5f647b0546ed39607dbd9fdf2d128a8400409
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/webkit.css
+    algorithm: sha256
+    value: 6972c21f3af564dbfe355e4eabbfad6fd9b54c0bed62e34478aa7dae61e9c429
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/files/whitespace.css
+    algorithm: sha256
+    value: 5c04d1a9f30e99fbee3504805981e7aea0994a585a34dfcae3188bfdb4f0972c
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/phpunit.xml
+    algorithm: sha256
+    value: c8d95639840bd5f944bd4a2d5474b50b2e0f9f40714f3cfc483aba7a4025d574
+  - path: src/action-figures/dist/vendor/sabberworm/php-css-parser/tests/quickdump.php
+    algorithm: sha256
+    value: fc976adcf22faf344ebe462edfa8464ebbc48358e0e33a5864619139c41623a7
+  - path: src/action-figures/docker-compose.yaml
+    algorithm: sha256
+    value: cb48dd9424997a255e79a00b9b4801429c6bd361cec0f92bf2c34e44e1035fe8
+  - path: src/action-figures/run.sh
+    algorithm: sha256
+    value: db7497f5fbf4c155a407ebc813a4e9231453e71e8043c75645428b49a01a9214
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

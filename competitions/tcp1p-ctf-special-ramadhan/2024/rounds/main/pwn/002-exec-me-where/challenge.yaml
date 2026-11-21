@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-pwn-002
+name: Exec Me Where
+slug: 002-exec-me-where
+original_name: exec-me-where
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  In this intriguing task, you'll encounter a mysterious program that claims to predict the future based on your name. However, beneath the mystical façade lies a hidden vulnerability. Can you uncover and exploit the bug within the binary?
+
+  ```
+  nc 103.185.44.122 25204
+  ```
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Brandy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Binary Exploitation/exec-me-where
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 51da500e599f17e82b228d7110034e45703ada580b8459a03a6b9f3614f8b00a
+  - path: README.md
+    algorithm: sha256
+    value: 850250ed6323a75dc68a9e528bf0f1618f022025539ae53302aeddfce614754a
+  - path: c6386d57201322f2dabd7117cee0953b.gif
+    algorithm: sha256
+    value: 9f50f9f0c92c65bc3498be4e0326a2fffd6519e50a811698b8b2681a2552df7d
+  - path: challenge.yaml
+    algorithm: sha256
+    value: e164bc7afe997a37a79da9ca3b575443824f8f037897d193353aaa29052c6c2d
+  - path: deploy/README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: deploy/pwn-3
+    algorithm: sha256
+    value: 778dbc4f349fe443852e360324369284e91e1b84e915fcadca28f1b6c6750d46
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 56c02ab862827c116a6c01013794258ff4f23a860ab723994c1e32c31d03d416
+  - path: flag.txt
+    algorithm: sha256
+    value: 4a8eaa18811204dab76aead1f269b7d5f3ac54728acc01bf51a0d8ed4f86c897
+  - path: pwn-3
+    algorithm: sha256
+    value: 778dbc4f349fe443852e360324369284e91e1b84e915fcadca28f1b6c6750d46
+  - path: run.sh
+    algorithm: sha256
+    value: 16d896facaf65d389fb6055ef5ca0c996e292af640fe03b6867903fed48cc2db
+  - path: startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: xinetd
+    algorithm: sha256
+    value: a09abdc01bb412291f9973bf93a6d7c88a213ed296cf5432bba68d1b31eac772
+  - path: xinetd.conf
+    algorithm: sha256
+    value: 7b061a1945a6ed9f31672c93e43a3cf0aa31dfffe5fd88bfc8c26aa0bc571a1d
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

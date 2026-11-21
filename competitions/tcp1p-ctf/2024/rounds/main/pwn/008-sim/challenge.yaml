@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-pwn-008
+name: sim
+slug: 008-sim
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  sim bruv?
+
+  **Connection**: `nc {{ .host }} 55551`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: hygge
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Pwn/sim
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 34f000bb375322c4d5e3697a8c6bd32cf4ab686a2b425ba6fc2f0bcdcfced56f
+  - path: dist.zip
+    algorithm: sha256
+    value: e7b3e642cbfafa6311ce79ae2263ac2b99e130a3805d8d4add44a0c9dbd30cf6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2e61a185286a8c1ba0b0befc6a19b3410e56d609cc80f2192e9a29ba670010a0
+  - path: src/chall
+    algorithm: sha256
+    value: 810b4c28ec2b57cc269c8f01f17f3653237fa52fdde0f1e427732d424499043b
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: ca882c98895e59902eaffe849b8165d7c61127f05fd3ed022ca0d163ce5402e9
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 595bcdc306999711a5a9c787e5d01618f94eb92c4c09a178e875a324f1072d89
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 799afb7e84a4cfe473af8c3cf0c1ff75b6e2d40434f5f00a74c2a3e50625829f
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

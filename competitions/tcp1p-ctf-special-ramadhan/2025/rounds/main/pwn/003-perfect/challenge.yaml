@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-pwn-003
+name: Perfect
+slug: 003-perfect
+original_name: perfect
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: "i have faith what i see, now i know i have met an angel in person and she looks perfect....\
+  \ perfect kayak binarynya \n\nConnect: nc {{ .host }} 4156"
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: ilupii
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Pwn/perfect
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0e73c5c93cc92f3c632c0dd361d540a19e5465b12bb6ce564ad5a73b2d52491d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 94424383f57de0836b25712dd55da78ebb945768628a564a40c1645c02442159
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 0f618cc115d594e358e596b198a21bc1c48b8aa676c013f714e51a018aa77972
+  - path: dist/chall
+    algorithm: sha256
+    value: e413ff6246318e04d745b191127b1a8b1217f215c745c3b5cd4f65a8c0c6523d
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 39895a3b9bda484f345741477b9d9aa73b19df0a606b3e010e11012979e3abed
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 32dee34c6b3042546d9b131a840046b9a136d1c675dd5ea1039d2685fb99e065
+  - path: solver/.gdb_history
+    algorithm: sha256
+    value: 791975a644a05cd63817f39d00c4443114ae8efc9bfe55776274dd61237326ac
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/chall
+    algorithm: sha256
+    value: e413ff6246318e04d745b191127b1a8b1217f215c745c3b5cd4f65a8c0c6523d
+  - path: solver/chall.c
+    algorithm: sha256
+    value: 6ebd130fd2299cc6b35619768e5e3eb5010c5d489bd6b3f634335b4fd4af3585
+  - path: solver/exploit.py
+    algorithm: sha256
+    value: 6b3b1723ce60a52159c0f00363d7eb307de2b8c8058c244dacb2824c9496353f
+  - path: solver/f.py
+    algorithm: sha256
+    value: 2ca5329726790475bdf36d2cfc635e13a5eda69224b6eb04fd3ccf4e4d74660a
+  - path: solver/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 95e0d2a54c69672fa90ab09c65576e028e509dcb53f5f6f1a04defafbe2d2f92
+  - path: solver/libc.so.6
+    algorithm: sha256
+    value: 2f1f84e0f4df64e0eb1829fabd8720136456dc4efce9962cb1188f8d436e30b0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0f618cc115d594e358e596b198a21bc1c48b8aa676c013f714e51a018aa77972
+  - path: src/chall
+    algorithm: sha256
+    value: e413ff6246318e04d745b191127b1a8b1217f215c745c3b5cd4f65a8c0c6523d
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0fb7f38ba3ee8a9f5d0839b164a512093651a3ce59e8c7b373d1203d911ecc8f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 1c90010cfb157d612bd3c3ebd65a9fd5a3a24cda6cc7b8aec6600f2778fb4548
+  - path: src/vuln.c
+    algorithm: sha256
+    value: 6ebd130fd2299cc6b35619768e5e3eb5010c5d489bd6b3f634335b4fd4af3585
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

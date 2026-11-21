@@ -1,0 +1,141 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-crypto-004
+name: Jack's Worst Trials
+slug: 004-jacks-worst-trials
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  **Author**: `Kisanak`
+
+  Jack, a web developer intern, is asked to make a website for his trial probation in his company. Some say a treasure will be given to anyone who is able to log in as an admin, although not a single person is assigned as an admin by Joe, not even himself.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Kisanak
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Cryptography/Jack's Worst Trials
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 7df69b0a8df4de51aa5750f952790b19a5c95b400a7ed5a2b03553467bebff52
+  - path: Dockerfile
+    algorithm: sha256
+    value: cd2c65b2383b3770791301c6ee2ede7d2b07a0f85b3122a1a6ef37cab80daedd
+  - path: README.md
+    algorithm: sha256
+    value: a53a2b371d7bb755e5b9d73ead7bc9b6c961852c22a539a6e41a2ff4b080aa41
+  - path: app.py
+    algorithm: sha256
+    value: 8346e0e6c140e8eae5ad63d51d44725d2d9954524e692d2b86de80faa128cd6b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 73037c401f538a4fe4ab7aec89307de9aea01c776a818599173920f66df9cc49
+  - path: challengefiles/private_key.pem
+    algorithm: sha256
+    value: b93987edefcb1e6c893514d338f631fe173c9120004ef36d55feba66b2767710
+  - path: challengefiles/public_key.pem
+    algorithm: sha256
+    value: 42c2104d03341aee645e6181f6497c99ad3784a970664c18b6144aebe13b3df7
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: cb2b4247c649caf2680373afb2d2a74f9ad2c4e09e3de4a318da3fceb2d9d018
+  - path: peserta/app.py
+    algorithm: sha256
+    value: d8824158ab5707b1daeae46be822e36ad77aa78aaa369aa3e42698e6951ed522
+  - path: requirements.txt
+    algorithm: sha256
+    value: 18ae43cc9c2bfd072d6466cf85074400b0c3c91a8e5f8136507087c08f73ef52
+  - path: run.sh
+    algorithm: sha256
+    value: 1200c573703e2ac2919eb107b8d9e7a6f573c0b2c105c318f801a17b2612ae94
+  - path: static/css/style.css
+    algorithm: sha256
+    value: 7c19ec197d3cf09b7285cfbfa2656689397ecc6fb98e918e4843375341d97a24
+  - path: static/img/cat.gif
+    algorithm: sha256
+    value: f2f16e5f21a3d9baa50ba67ee5124851ba9d6e02ec5c036f8e11f276cd7bd3e8
+  - path: static/img/emoji
+    algorithm: sha256
+    value: 5dc82178382b11bd4b8e06b2c51648e5141fa0f7c5cc97fd4cd6a2c2310a5979
+  - path: static/img/graphicdesign
+    algorithm: sha256
+    value: 8ebb73f46db16d034997646ee2586d65877b395a2b80f45c9b3200fe25d83a81
+  - path: static/img/offer.jpg
+    algorithm: sha256
+    value: bc23566cf56a1656bb0a5d9ac0e8b8c66a878870b162321d08b337744cb22629
+  - path: static/img/panahatas
+    algorithm: sha256
+    value: d433bb7b549df20208a200864ae4b0051f86bf538b5cfe4b428c44d52c7e5c39
+  - path: static/img/squidward.gif
+    algorithm: sha256
+    value: 00bbed875cd6ef9df8f122a26a6864623cfa6e80a878da435589a0a4b50c41a0
+  - path: static/img/wget-log
+    algorithm: sha256
+    value: 7925866a03e94d719dc9dfc1aaac8773f3f274756266c387accd81b01346147d
+  - path: templates/admin.html
+    algorithm: sha256
+    value: ae12696501f6a222463101d111ea294ae41b5d6c5d5dfe85584fe3ae4d3ce9fb
+  - path: templates/base.html
+    algorithm: sha256
+    value: 12ff78afdc07b70ffa21a7ecaa322ed8a20fc9d405c75885bcf622137c22300f
+  - path: templates/error.html
+    algorithm: sha256
+    value: 62ee21d125bc2d900f223d33c1015b5f3da71c183bb46abf2146aa1632e31389
+  - path: templates/index.html
+    algorithm: sha256
+    value: 6445a19b1767a9554030032c349b2b109b9cf153a140ca22f472916fe33ecb93
+  - path: templates/login.html
+    algorithm: sha256
+    value: 3808155781907707a6bc23b2c0a78221d82ec1274f403c8094287d70b94b4539
+  - path: templates/main.html
+    algorithm: sha256
+    value: ac4029b67677ac83c61dcf713710fbac7cd399db582b7c7deb2164447ff23659
+  - path: templates/profile.html
+    algorithm: sha256
+    value: 0a36f481c45c64be12c36db4618ad9033ee9e2ac0987774e1172f7e7c9d4409a
+  - path: templates/signup.html
+    algorithm: sha256
+    value: 9e515ba0db9714e1c7e93da0d7625937fa575172a036b45741cdc4d2ba450be8
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: f81ca5f7cae3d29f8224e475f0f91f52ae684dba328bcf5a12b679557abedbcc
+  - path: writeup/def.asn1
+    algorithm: sha256
+    value: 49c4942d35e92b5922288387d9d6537030f1fb243a8cca84420453a539eb8264
+  - path: writeup/solve.py
+    algorithm: sha256
+    value: fce6dcbb87545bfb5f2bb3e9dd0e7df536b11c204b31e9af2452a71dea56cdf7
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:28001'

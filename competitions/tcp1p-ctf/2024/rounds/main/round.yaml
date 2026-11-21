@@ -1,0 +1,44 @@
+schema_version: "1.0"
+
+id: main
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+
+name: Main
+original_name: null
+
+sequence: 1
+type: other
+delivery: online
+
+description: null
+
+dates:
+  start: "2024-10-11"
+  end: "2024-10-13"
+
+statistics:
+  challenge_count: 65
+  participant_count: null
+
+references:
+  - title: TCP1P CTF 2024 Challenges Public
+    url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+    type: official_repository
+    accessed: "2026-11-21"
+  - title: CTFtime / TCP1P CTF 2024
+    url: https://ctftime.org/event/2256/
+    type: third_party_archive
+    accessed: "2026-11-21"
+
+verification: corroborated
+notes: >
+  The organizer repository publishes one challenge set for the October 2024 event
+  and does not describe a qualifier or final, so this round id is main. Sequence numbers are alphabetical
+  by source directory name within each category. Difficulty values are the point
+  values in each challenge metadata file. The repository has no LICENSE file. On
+  2026-11-21 the archive was instructed to treat this source as MIT. Web/Pain and
+  Web/Shikanoko nokonoko koshitantan! include their own MIT license, copyright 2023
+  Dimas Maulana. Optimum links to a Mega attachment that was not in the git tree and
+  was not downloaded. README.md was not copied into challenge directories.

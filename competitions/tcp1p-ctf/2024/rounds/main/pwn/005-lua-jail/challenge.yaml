@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-pwn-005
+name: Lua Jail
+slug: 005-lua-jail
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Once was 0day...
+
+  **Connection**: `http://{{ .host }}/20013`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Pwn/Lua Jail
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b1ac36bca21dbffaf47218f76adf8084bd509e7191724f98ee650702bc58b8ab
+  - path: chall/index.html
+    algorithm: sha256
+    value: a294e60ff5917e883632f56669851a6dd5bb5dab1f9c7e9cb6b9ffd65edc61b8
+  - path: chall/requirements.txt
+    algorithm: sha256
+    value: 76eaeb38d34580c43b6260da08b675ccd3347cec5c4426e0e0a465c03f4036d4
+  - path: chall/server.py
+    algorithm: sha256
+    value: b1748cfd84735a3bd529fd66f64395a201ac62fb5eaa05dbf7694b30c7b826f0
+  - path: chall/start.sh
+    algorithm: sha256
+    value: f0cc8ed1f4b90bb4414a221f51cb42e2e0a97bcfae8102954837a5edc0693571
+  - path: challenge.yml
+    algorithm: sha256
+    value: 42179df381b8bebb7c2b42242ed311bf163e17ee11363c4068e40c081a79f3d8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d358f1084679d5d5d5da95f00793728544740a816a6d962ce418659a94f5f43b
+  - path: flag.txt
+    algorithm: sha256
+    value: 07dbd3ad3b2ee71d96a683d54fc0c88338c1c668450fe97ffc8e11c40d04a07a
+  - path: lua_jail.tar.gz
+    algorithm: sha256
+    value: d1b5823ac9f81f72141380dc9dbdecfe3b2c7fc2ba62a56621a5e71dd92d4857
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

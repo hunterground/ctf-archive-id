@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-006
+name: tukang-ketik
+slug: 006-tukang-ketik
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: ngetik sambil minum es teh manis selagi ngabuburit
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/tukang-ketik
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 51535630ab55998d2063ac9ce84be57f898315e879ab7c3130ee7309b0b445eb
+  - path: challenge.yml
+    algorithm: sha256
+    value: ef7cbf78977195d0cb5882b50c78c1b5a95a678eff59cb22b5cc5f48d16cf2d0
+  - path: dist/packet.pcapng
+    algorithm: sha256
+    value: 9d9cabff933e91791df4cd2e211ffa6c0f1086ea6f5c9d18cd741aacd755ee0d
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solv.py
+    algorithm: sha256
+    value: c6dd854667ed9455541c2e7bdfd2bba3be84c25ea1d13c721b9105afdebd12e9
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9a83ba88f69412f0c370fe6292f527edc7d930187ef6cfcd3af8c799b26e91a0
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

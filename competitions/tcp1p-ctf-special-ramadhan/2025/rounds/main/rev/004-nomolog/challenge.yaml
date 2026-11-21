@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-rev-004
+name: nomolog
+slug: 004-nomolog
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: D.I.D. i do that??
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: .effie
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Reverse/nomolog
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5929ffa04d59fbba245d148a2269358d95a5e235ea08998693be69f328232cb7
+  - path: challenge.yml
+    algorithm: sha256
+    value: bbfb27f45d6de44c62c1752a50a9889182a54798223b4bad4d8bc0d11a15ecd6
+  - path: dist/look
+    algorithm: sha256
+    value: e116a7535f111c35ea6fb60a8da880e0a8aa359def27613255da6d17e7006edc
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 48a46d40522dc32ce103fbe8db04213805927d98a293ea4e702d35b8770bfea9
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/output.txt
+    algorithm: sha256
+    value: ac0839a9c9ef3d272e8293206f6a763bf5ea00b1b54bbbeddf37fa42269ebc2d
+  - path: solver/solve.rs
+    algorithm: sha256
+    value: f1944a50d9d90d9ccd0abf70146ba25a9671d42cf3809a8bc3aed9de542e51c3
+  - path: src/look
+    algorithm: sha256
+    value: 3cef01c7934ecd5b5ad87613a345ce406729ed7a73e7444a81e4e7c555a05304
+  - path: src/look.dSYM/Contents/Info.plist
+    algorithm: sha256
+    value: 9abd726a3b3f2c37f031907768166752dabbb5fb4c0ea4e5a40f9c19263d01db
+  - path: src/look.dSYM/Contents/Resources/DWARF/look
+    algorithm: sha256
+    value: f94b29696e1f065e5aca0890009877d3c0053b78d5297c430ba79427f7a14093
+  - path: src/look.dSYM/Contents/Resources/Relocations/aarch64/look.yml
+    algorithm: sha256
+    value: 67fad631e839be5be1299543c2c19abe11cee03034fb594304fd239a316ca27f
+  - path: src/look.rs
+    algorithm: sha256
+    value: af4ce3ef0f8fcecd3350da55c107445e59a10ddb4ee59558e8d6c94ff6207389
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

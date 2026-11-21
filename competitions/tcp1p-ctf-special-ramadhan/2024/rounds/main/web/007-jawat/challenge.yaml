@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-web-007
+name: Jawat
+slug: 007-jawat
+original_name: web-jawat
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  How i can be like you admin? <3
+  Hint: my secret is only contains lowercase and no number with 8 length characters
+  Connect: http://103.185.44.122:5000
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: replican
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Web Exploitation/web-jawat
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: app.tar.gz
+    algorithm: sha256
+    value: b571cf25b1fa01dc404509ac3dbbf91f0e57be827692c9dd4b20f496eac9271d
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 92ddeb77c8c3fd856ef55fcd1c79eec0570d3dbcd7eb2b8f331f1e2af4d91cf7
+  - path: solution/README.md
+    algorithm: sha256
+    value: 764857071e10463721249b6ffaa8f8981503339a94cbfbbfc718a663a0e40847
+  - path: src/jawat/.dockerignore
+    algorithm: sha256
+    value: e359f1373444307d2faaae5745bf07aba59aca5aea984d3eb035f1da0a1b50e1
+  - path: src/jawat/Dockerfile
+    algorithm: sha256
+    value: 54592179af43bd154336bf6fe541b9d328506ccecd8133b4e46dd4169df9be27
+  - path: src/jawat/docker-compose.yaml
+    algorithm: sha256
+    value: 556e988114d7d60a81885d220fa54fef266969ea714324d6993931b226c956e3
+  - path: src/jawat/flag.txt
+    algorithm: sha256
+    value: c5e2814b314d908f8f835cc5f9c4a97c3d6bd1356c93b93a54c860472fb04390
+  - path: src/jawat/requirements.txt
+    algorithm: sha256
+    value: 929dd0c5632049bbeedd83c7f4872232b945e75a4aea8f18835c2d6845d95e68
+  - path: src/jawat/src/__pycache__/app.cpython-311.pyc
+    algorithm: sha256
+    value: 3c35858cdb12abd7218051857018017608b14c0ec9a1f723544c93247a4d2495
+  - path: src/jawat/src/app.py
+    algorithm: sha256
+    value: 774cebd3ce88b2db78793c7555ea895e0650aa58379d50657530d353f72dfa09
+  - path: src/jawat/src/templates/index.html
+    algorithm: sha256
+    value: 4513af3f2618a7c0090d0fd80f6c3e5b62944c9232c2f29875bc722077e0983a
+  - path: src/jawat/src/templates/welcome.html
+    algorithm: sha256
+    value: 5ed5b2e7c4eee2494e85f17e98c662b13604d14606c82eb49a9bc43b4af7799a
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

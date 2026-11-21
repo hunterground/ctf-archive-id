@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-009
+name: White Space
+slug: 009-white-space
+original_name: white-space
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  KOSONG ?!?!?!?!
+  Astaghfirullahaladzim !!!
+
+  https://youtu.be/WvEbvShTss4?si=zl075Vh6DpFEX7Rp
+
+  ## Hints
+  - Jangan terpatok sama randomnya
+  - Coba bruteforce buat nemuin prefix flagnya
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BosToken
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/white-space
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 78fe44cd3cc54c775fe07bf0c3f526c40429b91e8b49388c5b640e16f29e50b5
+  - path: chall.py
+    algorithm: sha256
+    value: 7abf35853550d8c08919f8ab65cf95d377097a13c50e15a6a4854bf285fb38d2
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 918fc4fb5ae869fd4eeeb3b5ecb90c67e37f7b83bf5ff5bbbcfac040892e78d0
+  - path: output.txt
+    algorithm: sha256
+    value: 7c900d7795e750acdeaf904b6f6ba3032078e62a64cb42ae61b6879d89d5d6bd
+  - path: solver/output.txt
+    algorithm: sha256
+    value: 7c900d7795e750acdeaf904b6f6ba3032078e62a64cb42ae61b6879d89d5d6bd
+  - path: solver/solve.py
+    algorithm: sha256
+    value: fb6a21cb786326daabdb9826402b532784068eb72489537020e0bf0118a52447
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

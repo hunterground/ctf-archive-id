@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-pwn-004
+name: Radar Bogor
+slug: 004-radar-bogor
+original_name: radar-bogor
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Survei/survey singkat.
+
+  Connect: nc 103.185.44.122 27429
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Brandy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Binary Exploitation/radar-bogor
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3599709801d4cb4ecd2b9d919527ab04400b95808bba6b3877874a143cc91a20
+  - path: README.md
+    algorithm: sha256
+    value: 9710e8d8af6acb81b60110b450bbf97f9e2b7ba84c014803ee6cc1e548fe1cac
+  - path: a37a557021409c41f53a8eae29aa0dc2.gif
+    algorithm: sha256
+    value: 8bc6506a3a1ad1d5d963c8c4efe5631081f2d006eb2555a1ea9a4a82e2f814ef
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 5bd0dc19756718b41d58f63e8544009287bce72bf780d93b15d47c3600f65690
+  - path: deploy/README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: deploy/radar
+    algorithm: sha256
+    value: 87fceb3d7fca7c841dd1c40467c2750480ace204fa6ab194e474509f6461fbc4
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: e0f224846ba993b40c23c8e3b22829c6e1c19cf5c89d93dfe592d0220cd4def7
+  - path: flag.txt
+    algorithm: sha256
+    value: f17400c57b847bbd8a3d63294632ba5efb632837ec5c8bbef811d5c499ba1c82
+  - path: radar
+    algorithm: sha256
+    value: 87fceb3d7fca7c841dd1c40467c2750480ace204fa6ab194e474509f6461fbc4
+  - path: run.sh
+    algorithm: sha256
+    value: 4c54916f6ac6010230456c2768d381c21fc5fdc7a1f075b054fb03e2ddbdcce1
+  - path: startchall.sh
+    algorithm: sha256
+    value: d84c2e07c8c55489c2c54c814532979140fea09cbdb7fd496a330e0eba902b9b
+  - path: xinetd
+    algorithm: sha256
+    value: 332db9adff1cc6093479c3ca35a89d26ff843af8467f29ffa43c09924ea5ce18
+  - path: xinetd.conf
+    algorithm: sha256
+    value: 7b061a1945a6ed9f31672c93e43a3cf0aa31dfffe5fd88bfc8c26aa0bc571a1d
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

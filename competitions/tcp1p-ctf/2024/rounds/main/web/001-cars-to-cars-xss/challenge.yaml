@@ -1,0 +1,424 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-001
+name: Cars to Cars XSS
+slug: 001-cars-to-cars-xss
+original_name: Client Side Programming
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Did you know i just make some interesting xor image application with golang and nextjs.
+  Idk if there's an vulnerability, but i'll hope you find it ASAP, because i need to submit it to NASA.
+
+  **URL**: https://{{ .host }}:5435
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/Client Side Programming
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 41351bdc7695dce33b3202e80b442b231d83424937348df07cd31124f61f26a8
+  - path: bot/bun.lockb
+    algorithm: sha256
+    value: 625f8409512808303fe0c58a19f556077f62ccf3243d0077220793e12da04745
+  - path: bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: bot/original.jpg
+    algorithm: sha256
+    value: 3b37a3a3eac1da4e633ba899ea9b8c51b1e6708eec44dc754ed2aa1d55b808c9
+  - path: bot/package.json
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge.yml
+    algorithm: sha256
+    value: d046b22027c0b506304c303b73c08e928b9bfbc4671e0e6f17cd9af48a5b8445
+  - path: dev/Dockerfile.nginx
+    algorithm: sha256
+    value: 07a419bffa3e7f60a48b1d6943f03f6629c28d09b3da79fff3708d8435a7556c
+  - path: dev/docker-compose.yml
+    algorithm: sha256
+    value: d6482aef400bc855f42ba0fd965305399489cd392c100bf96ee7386fdc704efb
+  - path: dev/ext.conf
+    algorithm: sha256
+    value: 55c17d750f8cff55f36ef4f12324578b056f1662542ad267ee9633001b8f55d1
+  - path: dev/nginx.conf
+    algorithm: sha256
+    value: eca067edce6da2e011df22d675868e76bae19911235630c7c259de60b0208923
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 41351bdc7695dce33b3202e80b442b231d83424937348df07cd31124f61f26a8
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: dist/bot/original.jpg
+    algorithm: sha256
+    value: 3b37a3a3eac1da4e633ba899ea9b8c51b1e6708eec44dc754ed2aa1d55b808c9
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/dev/Dockerfile.nginx
+    algorithm: sha256
+    value: 07a419bffa3e7f60a48b1d6943f03f6629c28d09b3da79fff3708d8435a7556c
+  - path: dist/dev/docker-compose.yml
+    algorithm: sha256
+    value: a7494f78f57fcd2f0e32ab9c21c3fefa18ef4534c86f2e62fd72c3a7f292e5b3
+  - path: dist/dev/ext.conf
+    algorithm: sha256
+    value: 55c17d750f8cff55f36ef4f12324578b056f1662542ad267ee9633001b8f55d1
+  - path: dist/dev/nginx.conf
+    algorithm: sha256
+    value: eca067edce6da2e011df22d675868e76bae19911235630c7c259de60b0208923
+  - path: dist/imagefmt/.dockerignore
+    algorithm: sha256
+    value: 7a7106da9c5ff6e67d34c67d26963433534bb9ef3bd6a18e9c766da99c326a2c
+  - path: dist/imagefmt/Dockerfile.imagefmt
+    algorithm: sha256
+    value: ca17aad35e22ce596cba55394b1f868208bafed1c9c13e5ed8b097b9f1d565c2
+  - path: dist/imagefmt/go.mod
+    algorithm: sha256
+    value: 06aebcb7018fd5339eb9fd29ea7471600ad206ea5bcc463fc0313535cae00cb5
+  - path: dist/imagefmt/go.sum
+    algorithm: sha256
+    value: cb190e244556b1aef0281ba6faedf34b1ad92f754832c8815223e14d6a9dc553
+  - path: dist/imagefmt/handlers/image.go
+    algorithm: sha256
+    value: 02e5489e4e7fa9421ebe7d5f204677734a93e37d8cd9df6fd9d0217b1d9d3230
+  - path: dist/imagefmt/handlers/login.go
+    algorithm: sha256
+    value: be585c3bd8029c0c97d3011368f05c8ad8219d8237320aedc1ce30eb6be5cb07
+  - path: dist/imagefmt/handlers/logout.go
+    algorithm: sha256
+    value: 2b4664c833a5be589039e92a63f75a60c1d7ec6dee676293d6255de6442bc239
+  - path: dist/imagefmt/handlers/note.go
+    algorithm: sha256
+    value: 4fc0fa04e6d952b8767765654c097efe625abc1764e586678aa789d6cb3d4430
+  - path: dist/imagefmt/handlers/register.go
+    algorithm: sha256
+    value: 9f3fc8c7ee3c967dc4934a90b675806e2f1a09e16c57d13c12843843f67dab6f
+  - path: dist/imagefmt/main.go
+    algorithm: sha256
+    value: ab5ac8fdab501084f8661fbec32b2cc2e3ff11095c8163d421eb95b97caa89cf
+  - path: dist/imagefmt/middleware/protected.go
+    algorithm: sha256
+    value: 5d3be51475e888ff42104125f6885397517c74c604a3008a80acb88302806862
+  - path: dist/imagefmt/uploads/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/imagefmt/utils/cookie.go
+    algorithm: sha256
+    value: c055fda83277a68ae92863f7bd1b440065555f1a8044e974d31604a121bab95b
+  - path: dist/imagefmt/utils/env.go
+    algorithm: sha256
+    value: 217bef4b5ead216bae463e8958cd0772bbf3d2469cd94522fa5be33e928d9ef8
+  - path: dist/imagefmt/utils/file.go
+    algorithm: sha256
+    value: 9fd62a889106295a6791a323fa7f6ff11a2cee4e5e724a58b6b03dc8210bb3b5
+  - path: dist/imagefmt/utils/image.go
+    algorithm: sha256
+    value: 6a03c7091a801260258ce6d373e5a28abe336e4d1d833183aac65bef4a6964af
+  - path: dist/imagefmt/utils/jwt.go
+    algorithm: sha256
+    value: a68c813c3f274d9bfc434b90e20b69fc87149021e321e12ea31674364eb76850
+  - path: dist/imagefmt/utils/rand.go
+    algorithm: sha256
+    value: 8fcfaac18a17fbed40fbae04091626e08cd1e080b296127bc24f0a8a8a9fca66
+  - path: dist/imagefmt/watcher.sh
+    algorithm: sha256
+    value: 022eeb0fffa394121cdfc2ab329f093b42eb8de7ceec556af0ef02bb1e871867
+  - path: dist/ui/.dockerignore
+    algorithm: sha256
+    value: 99df00e8acb433db96bccb8df58273f16d4d9ea8cf592c816f87461825ca2574
+  - path: dist/ui/.eslintrc.json
+    algorithm: sha256
+    value: 1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961
+  - path: dist/ui/.gitignore
+    algorithm: sha256
+    value: 636d389767f8d8f1894f890197906de461813bb8c22095684e9a42966075e4a8
+  - path: dist/ui/Dockerfile.ui
+    algorithm: sha256
+    value: 2916a7f41b1d160f54a3c9adb746cb192c6c99e04ba5ed6031ee41aa9efe320a
+  - path: dist/ui/README.md
+    algorithm: sha256
+    value: 11994b30b08107f737b64953aa4b479368ec65db88adb6688708fcaa44bd3fdc
+  - path: dist/ui/bun.lockb
+    algorithm: sha256
+    value: 9430ebdaf5d7f037d917a802eefd1c13552ddb8e0942eb01d6b49cff62b92350
+  - path: dist/ui/next.config.js
+    algorithm: sha256
+    value: cf0dfd15424b1e229a1268e18c2912b54c7269c9a897d547bfd4abc463d02ca7
+  - path: dist/ui/package-lock.json
+    algorithm: sha256
+    value: d399b02e414f529534ce78f44a5fadbcfe8d46c0140ada280e813eb038fead65
+  - path: dist/ui/package.json
+    algorithm: sha256
+    value: 6ad272b35d6febf5ad9278ce617c330bc380e5d64e18c8059b6a899cf6cab3e0
+  - path: dist/ui/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: dist/ui/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: dist/ui/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: dist/ui/src/app/_components/navbar.tsx
+    algorithm: sha256
+    value: f9a6196617c37c6968c1ebe63fab413183b5332b7bd112ae4400bf3f5f6bc825
+  - path: dist/ui/src/app/_utils/AuthContext.tsx
+    algorithm: sha256
+    value: 94388f25d14656ce9829b4722950bef627eecf45995c9f7e236e7677ff1bf260
+  - path: dist/ui/src/app/_utils/getCSRF.ts
+    algorithm: sha256
+    value: d9c0d78c074ba796125bac7b4b64b3f81e4a1f49b57f0ed8bae71d0a3199449e
+  - path: dist/ui/src/app/dashboard/page.tsx
+    algorithm: sha256
+    value: da742012b7557dbab2fa213451374b67e2b8f07a6ef0ffa27cb847a98ccb672d
+  - path: dist/ui/src/app/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: dist/ui/src/app/form/page.tsx
+    algorithm: sha256
+    value: e1c013b4e3771141caa5cde300eaa793d701981b6f19adb244a7804956e9648c
+  - path: dist/ui/src/app/globals.css
+    algorithm: sha256
+    value: 8b8d05e9b84696b373e675a93c8c0e8d5f8531702f87eb45b45d0b3a3e364fc7
+  - path: dist/ui/src/app/image/image.tsx
+    algorithm: sha256
+    value: 4973314145220b5f5e63c23c3fecf26f5de22331bdb307da00d43666031865f0
+  - path: dist/ui/src/app/image/page.tsx
+    algorithm: sha256
+    value: fad310b0d19e719ee6df6fc4a0d8168ac54f6f996d727fd6cf8321190d35ea48
+  - path: dist/ui/src/app/image/setimgblob/route.tsx
+    algorithm: sha256
+    value: 719752b2dd0ba10de06e849c1fe14225ce22b8084427b980758959dc8d3af02e
+  - path: dist/ui/src/app/layout.tsx
+    algorithm: sha256
+    value: 828d16b9a4e6cec566d825e99d96f433aba12bba5613ca4ff405a71dd9a23a5c
+  - path: dist/ui/src/app/login/page.tsx
+    algorithm: sha256
+    value: 412728d86a1fd3f21ed0c2258f58976b22eb902df37f9ee2aca5a19fb38fd51c
+  - path: dist/ui/src/app/note/page.tsx
+    algorithm: sha256
+    value: 349d7385e955bff8008c8d86ef3dfc1da2e4287b155f96b57a343c8bddef4a1c
+  - path: dist/ui/src/app/page.tsx
+    algorithm: sha256
+    value: 657bd65b89cbca6b57cd7c7bacf8408c2d1a269bd9beafcbdbe67cd7c89985e2
+  - path: dist/ui/src/app/register/page.tsx
+    algorithm: sha256
+    value: 98cc81cbb1e67587841821c2119b2b706e2381ad5f97a0adfba76a8d78799215
+  - path: dist/ui/tailwind.config.ts
+    algorithm: sha256
+    value: 50015cf292693c47a9123edf40572ac4c568ee26af36b69e2b360bb4fba32676
+  - path: dist/ui/tsconfig.json
+    algorithm: sha256
+    value: 58361853c2ab8a65a49e92594245f81b16135bcf2ad160b7346ecff7cfe613e2
+  - path: imagefmt/.dockerignore
+    algorithm: sha256
+    value: 7a7106da9c5ff6e67d34c67d26963433534bb9ef3bd6a18e9c766da99c326a2c
+  - path: imagefmt/Dockerfile.imagefmt
+    algorithm: sha256
+    value: ca17aad35e22ce596cba55394b1f868208bafed1c9c13e5ed8b097b9f1d565c2
+  - path: imagefmt/go.mod
+    algorithm: sha256
+    value: 06aebcb7018fd5339eb9fd29ea7471600ad206ea5bcc463fc0313535cae00cb5
+  - path: imagefmt/go.sum
+    algorithm: sha256
+    value: cb190e244556b1aef0281ba6faedf34b1ad92f754832c8815223e14d6a9dc553
+  - path: imagefmt/handlers/image.go
+    algorithm: sha256
+    value: 02e5489e4e7fa9421ebe7d5f204677734a93e37d8cd9df6fd9d0217b1d9d3230
+  - path: imagefmt/handlers/login.go
+    algorithm: sha256
+    value: be585c3bd8029c0c97d3011368f05c8ad8219d8237320aedc1ce30eb6be5cb07
+  - path: imagefmt/handlers/logout.go
+    algorithm: sha256
+    value: 2b4664c833a5be589039e92a63f75a60c1d7ec6dee676293d6255de6442bc239
+  - path: imagefmt/handlers/note.go
+    algorithm: sha256
+    value: 4fc0fa04e6d952b8767765654c097efe625abc1764e586678aa789d6cb3d4430
+  - path: imagefmt/handlers/register.go
+    algorithm: sha256
+    value: 9f3fc8c7ee3c967dc4934a90b675806e2f1a09e16c57d13c12843843f67dab6f
+  - path: imagefmt/main.go
+    algorithm: sha256
+    value: ab5ac8fdab501084f8661fbec32b2cc2e3ff11095c8163d421eb95b97caa89cf
+  - path: imagefmt/middleware/protected.go
+    algorithm: sha256
+    value: 5d3be51475e888ff42104125f6885397517c74c604a3008a80acb88302806862
+  - path: imagefmt/uploads/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: imagefmt/utils/cookie.go
+    algorithm: sha256
+    value: c055fda83277a68ae92863f7bd1b440065555f1a8044e974d31604a121bab95b
+  - path: imagefmt/utils/env.go
+    algorithm: sha256
+    value: 217bef4b5ead216bae463e8958cd0772bbf3d2469cd94522fa5be33e928d9ef8
+  - path: imagefmt/utils/file.go
+    algorithm: sha256
+    value: 9fd62a889106295a6791a323fa7f6ff11a2cee4e5e724a58b6b03dc8210bb3b5
+  - path: imagefmt/utils/image.go
+    algorithm: sha256
+    value: 6a03c7091a801260258ce6d373e5a28abe336e4d1d833183aac65bef4a6964af
+  - path: imagefmt/utils/jwt.go
+    algorithm: sha256
+    value: a68c813c3f274d9bfc434b90e20b69fc87149021e321e12ea31674364eb76850
+  - path: imagefmt/utils/rand.go
+    algorithm: sha256
+    value: 8fcfaac18a17fbed40fbae04091626e08cd1e080b296127bc24f0a8a8a9fca66
+  - path: imagefmt/watcher.sh
+    algorithm: sha256
+    value: 022eeb0fffa394121cdfc2ab329f093b42eb8de7ceec556af0ef02bb1e871867
+  - path: solver/html.jpg
+    algorithm: sha256
+    value: 59a9dedf9c327efbe21e2faf25a35697c729ddbd620e271ab90582eaacf5d1ae
+  - path: solver/index.html
+    algorithm: sha256
+    value: eb94c59689e4eab28dbb9111a69290014971a1beffda77cb361f6d79cf61baf4
+  - path: solver/init.sh
+    algorithm: sha256
+    value: ada8119d358d157a5fadc52966d8aacf252eea0b95b82e375d5601f2ca89e321
+  - path: solver/original.jpg
+    algorithm: sha256
+    value: 3b37a3a3eac1da4e633ba899ea9b8c51b1e6708eec44dc754ed2aa1d55b808c9
+  - path: solver/output.jpg
+    algorithm: sha256
+    value: 358ecb076c8a5b333c837ddc744a3a257fbe161c740e0e905af590f6dd698ac2
+  - path: tailwind.config.ts
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: ui/.dockerignore
+    algorithm: sha256
+    value: 99df00e8acb433db96bccb8df58273f16d4d9ea8cf592c816f87461825ca2574
+  - path: ui/.eslintrc.json
+    algorithm: sha256
+    value: 1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961
+  - path: ui/.gitignore
+    algorithm: sha256
+    value: 636d389767f8d8f1894f890197906de461813bb8c22095684e9a42966075e4a8
+  - path: ui/Dockerfile.ui
+    algorithm: sha256
+    value: 2916a7f41b1d160f54a3c9adb746cb192c6c99e04ba5ed6031ee41aa9efe320a
+  - path: ui/README.md
+    algorithm: sha256
+    value: 11994b30b08107f737b64953aa4b479368ec65db88adb6688708fcaa44bd3fdc
+  - path: ui/bun.lockb
+    algorithm: sha256
+    value: 9430ebdaf5d7f037d917a802eefd1c13552ddb8e0942eb01d6b49cff62b92350
+  - path: ui/next.config.js
+    algorithm: sha256
+    value: cf0dfd15424b1e229a1268e18c2912b54c7269c9a897d547bfd4abc463d02ca7
+  - path: ui/package-lock.json
+    algorithm: sha256
+    value: d399b02e414f529534ce78f44a5fadbcfe8d46c0140ada280e813eb038fead65
+  - path: ui/package.json
+    algorithm: sha256
+    value: 6ad272b35d6febf5ad9278ce617c330bc380e5d64e18c8059b6a899cf6cab3e0
+  - path: ui/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: ui/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: ui/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: ui/src/app/_components/navbar.tsx
+    algorithm: sha256
+    value: f9a6196617c37c6968c1ebe63fab413183b5332b7bd112ae4400bf3f5f6bc825
+  - path: ui/src/app/_utils/AuthContext.tsx
+    algorithm: sha256
+    value: 94388f25d14656ce9829b4722950bef627eecf45995c9f7e236e7677ff1bf260
+  - path: ui/src/app/_utils/getCSRF.ts
+    algorithm: sha256
+    value: d9c0d78c074ba796125bac7b4b64b3f81e4a1f49b57f0ed8bae71d0a3199449e
+  - path: ui/src/app/dashboard/page.tsx
+    algorithm: sha256
+    value: da742012b7557dbab2fa213451374b67e2b8f07a6ef0ffa27cb847a98ccb672d
+  - path: ui/src/app/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: ui/src/app/form/page.tsx
+    algorithm: sha256
+    value: e1c013b4e3771141caa5cde300eaa793d701981b6f19adb244a7804956e9648c
+  - path: ui/src/app/globals.css
+    algorithm: sha256
+    value: 8b8d05e9b84696b373e675a93c8c0e8d5f8531702f87eb45b45d0b3a3e364fc7
+  - path: ui/src/app/image/image.tsx
+    algorithm: sha256
+    value: 4973314145220b5f5e63c23c3fecf26f5de22331bdb307da00d43666031865f0
+  - path: ui/src/app/image/page.tsx
+    algorithm: sha256
+    value: fad310b0d19e719ee6df6fc4a0d8168ac54f6f996d727fd6cf8321190d35ea48
+  - path: ui/src/app/image/setimgblob/route.tsx
+    algorithm: sha256
+    value: 719752b2dd0ba10de06e849c1fe14225ce22b8084427b980758959dc8d3af02e
+  - path: ui/src/app/layout.tsx
+    algorithm: sha256
+    value: 828d16b9a4e6cec566d825e99d96f433aba12bba5613ca4ff405a71dd9a23a5c
+  - path: ui/src/app/login/page.tsx
+    algorithm: sha256
+    value: 412728d86a1fd3f21ed0c2258f58976b22eb902df37f9ee2aca5a19fb38fd51c
+  - path: ui/src/app/note/page.tsx
+    algorithm: sha256
+    value: 349d7385e955bff8008c8d86ef3dfc1da2e4287b155f96b57a343c8bddef4a1c
+  - path: ui/src/app/page.tsx
+    algorithm: sha256
+    value: 657bd65b89cbca6b57cd7c7bacf8408c2d1a269bd9beafcbdbe67cd7c89985e2
+  - path: ui/src/app/register/page.tsx
+    algorithm: sha256
+    value: 98cc81cbb1e67587841821c2119b2b706e2381ad5f97a0adfba76a8d78799215
+  - path: ui/tailwind.config.ts
+    algorithm: sha256
+    value: 50015cf292693c47a9123edf40572ac4c568ee26af36b69e2b360bb4fba32676
+  - path: ui/tsconfig.json
+    algorithm: sha256
+    value: 58361853c2ab8a65a49e92594245f81b16135bcf2ad160b7346ecff7cfe613e2
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

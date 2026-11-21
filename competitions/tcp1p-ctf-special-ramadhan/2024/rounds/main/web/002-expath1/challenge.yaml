@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-web-002
+name: ExPath1
+slug: 002-expath1
+original_name: expath1
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  This challenge require you to exploit simple XPath Injection and retrieve flag inside of an XML Document.
+
+  Connect: http://103.185.44.122:33121
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: beluga
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Web Exploitation/expath1
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.zip
+    algorithm: sha256
+    value: 2ad4ecede32d78dbcda4f9be31e81bbb7d9603af00d6ea12282c65609211c179
+  - path: challenge.yaml
+    algorithm: sha256
+    value: f3fdb5551a0364f4d8b105c65dcdd68380691c042534c3a8c787bb6d3868788f
+  - path: solution/README.md
+    algorithm: sha256
+    value: 81f70034613ae87283be0c1821f719732ed3f3524cad64393c3bdfe5457ffa97
+  - path: src/ExPath1/Dockerfile
+    algorithm: sha256
+    value: 0ec9e16c5fcde927dc0c9e0bda0d55ab646f3c1fa108da2be9233441b3b4458f
+  - path: src/ExPath1/app/__pycache__/app.cpython-38.pyc
+    algorithm: sha256
+    value: 2cae15479b265b4641d5b93d99e3dc7c27865cab6ff4a707b696ff6dfdfb8a26
+  - path: src/ExPath1/app/app.py
+    algorithm: sha256
+    value: 3b6fa64966bccd04f788f97c29b26d51d1af17e1994c5ea932ce296d624b6ff1
+  - path: src/ExPath1/app/templates/index.html
+    algorithm: sha256
+    value: e2df0d6d4c93076bbf5e5e830c011dc44181cb1b794ecdbdd23144400a590dcb
+  - path: src/ExPath1/app/users.xml
+    algorithm: sha256
+    value: cf5e909c44b27f8e4323a021cf53c6d574107bf5261f79b5c3224bae96b03108
+  - path: src/ExPath1/docker-compose.yml
+    algorithm: sha256
+    value: ee7c1ba334b0b8e5d0cb1b99985bcaafb0e29a23ed5659b6f5371062093479b9
+  - path: src/ExPath1/flag.txt
+    algorithm: sha256
+    value: 58129887d285aa8f57af5a2f700dbf559d29e7fa2001530460f2631a79e39f58
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

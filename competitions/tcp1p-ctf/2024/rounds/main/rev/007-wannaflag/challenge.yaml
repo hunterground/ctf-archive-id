@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-rev-007
+name: WannaFlag
+slug: 007-wannaflag
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: WannaFlag gang encrypted my important file, can you help me to decrypt it?
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: ryuk
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Reverse/WannaFlag
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 737ffdb2b78a4a4c6a24b34b507158dfc117130f42b2b0a928e532a909ea9266
+  - path: dist/WannaFlag.exe
+    algorithm: sha256
+    value: 38fb9e7a72c28662ebc0b8ff7afa895b9cbb36ef5b4a9bcdf69b668a09e7404b
+  - path: dist/flag.tcp1p
+    algorithm: sha256
+    value: 534e0503b7586986a0014926be7f220b7954fe0d0a10d33c3d1787115d66512f
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

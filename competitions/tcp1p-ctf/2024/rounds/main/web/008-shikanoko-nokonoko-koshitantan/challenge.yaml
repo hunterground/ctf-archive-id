@@ -1,0 +1,270 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-008
+name: Shikanoko nokonoko koshitantan!
+slug: 008-shikanoko-nokonoko-koshitantan
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Shikanoko nokonoko koshitantan
+
+  Shikanoko nokonoko koshitantan
+
+  Shikanoko nokonoko koshitantan
+
+  Shikanoko nokonoko koshitantan
+
+  (Nun! Nun!)
+
+  Connect: http://{{ .host }}:8547
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/Shikanoko nokonoko koshitantan!
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public/blob/2b2beba308ac57f743ee80593c86ce071245c406/Web/Shikanoko
+    nokonoko koshitantan!/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 3d010a3c0d8c11c9ea5965ddaf3490a5375cbdca5e58f6f663c58f28c34d267c
+  - path: LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: README.md
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 1cf8e61cc8c1026476f361fc3bc774b5522d8a269e44f8993cb89fbc80ae1972
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 6673f54cbd937402303c676f7c8c7335c969e5a2bdfdf11e3b68439fb9ccb13a
+  - path: bot/custom-extension/.gitignore
+    algorithm: sha256
+    value: a1a61350eefa69ffa75abb0c527c5674dcab7a148cccb3e5a3f2a3f662221ba2
+  - path: bot/custom-extension/README.md
+    algorithm: sha256
+    value: c46a087cec1f6fb71fcaa20a6e46529157a23a0676130abbc593b4f10fb7205f
+  - path: bot/custom-extension/config/paths.js
+    algorithm: sha256
+    value: 9df6ae09e34fc40423a04e1b2412ff2d14763f38e17808f283b5825f0ddbbaba
+  - path: bot/custom-extension/config/webpack.common.js
+    algorithm: sha256
+    value: f80e7f20f34200bcf05b183dd9e29e4b31cecc3ff0a0887708f1cf448ec50ddc
+  - path: bot/custom-extension/config/webpack.config.js
+    algorithm: sha256
+    value: 0fbf15b32c221a4624eed8a6f7df7d301df309398a449f657048b7daacb92d24
+  - path: bot/custom-extension/jsconfig.json
+    algorithm: sha256
+    value: 541afc5e68395b4738d4ff67bd46ca0474d3b0c77380870dc16f27458c6af00b
+  - path: bot/custom-extension/package-lock.json
+    algorithm: sha256
+    value: 24511eacb3a8c3ae8923015d6846dec47641cc1fe102ae0c2432d20f08340c89
+  - path: bot/custom-extension/package.json
+    algorithm: sha256
+    value: a99e4108ad8e2762d5b3db5088c34270752d3a8125352932a3c6bd097bd6854a
+  - path: bot/custom-extension/public/icons/icon_128.png
+    algorithm: sha256
+    value: 18921835a7b852aa8161288d087a614497c19f6ac047a8e2a4cd9d983365f966
+  - path: bot/custom-extension/public/icons/icon_16.png
+    algorithm: sha256
+    value: 68c54b530a2f48ce838e35ccbf3ea2bcb4c9975f07b375f84e07de08e606c6f0
+  - path: bot/custom-extension/public/icons/icon_32.png
+    algorithm: sha256
+    value: f817fe684554ec1569e1764f1491c8e42d43387ff272d5950b73ace9b2329fec
+  - path: bot/custom-extension/public/icons/icon_48.png
+    algorithm: sha256
+    value: 7915f5e4eeee7542f45a4aee93b13513eaf4fd365bae2767058bdb3f35a0ce89
+  - path: bot/custom-extension/public/manifest.json
+    algorithm: sha256
+    value: 0f5d1189b93a1db2ced133e0d9f10627ab9b839f43c4f72275facbce832ea5d7
+  - path: bot/custom-extension/public/popup.html
+    algorithm: sha256
+    value: 9b7896a421951739ffb897ccca8c9aeafdfb09094b8a6ec2e2fd8a5f8a57c849
+  - path: bot/custom-extension/quickstart.md
+    algorithm: sha256
+    value: 533f3b60746408c8f7c8cdb58067b49d46adbf5a4edece4d0da3b0728a712ac3
+  - path: bot/custom-extension/src/background.js
+    algorithm: sha256
+    value: 2dda5a27b8a7c38f21d02e8023e427547948c58fd17c010f5a28077ae4241eea
+  - path: bot/custom-extension/src/contentScript.js
+    algorithm: sha256
+    value: 0fb16b531bff200126e982de80b433bf77de53a6f81580ba96626d3d5f41b17f
+  - path: bot/custom-extension/src/popup.css
+    algorithm: sha256
+    value: 7f51880f0bf1c569da843d337859c2c6b41982a972177638c49d20461c4928e8
+  - path: bot/custom-extension/src/popup.js
+    algorithm: sha256
+    value: aa7b6a96d8fc7f79ca5694f50f27ba1db9ed3122b1fbed44487824c5dc88bb13
+  - path: bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: bot/package.json
+    algorithm: sha256
+    value: 01174d4036d20a2bf43952f184f404c39ea79568e001cb8ad2b6d333ba5562a8
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge.yml
+    algorithm: sha256
+    value: e56c05dfb89215c87c0fd9498ca0fa93a600d0cedad0fb72d56cefb23b53847e
+  - path: dist/.gitignore
+    algorithm: sha256
+    value: 3d010a3c0d8c11c9ea5965ddaf3490a5375cbdca5e58f6f663c58f28c34d267c
+  - path: dist/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: dist/README.md
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: dist/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: dist/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: dist/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 1cf8e61cc8c1026476f361fc3bc774b5522d8a269e44f8993cb89fbc80ae1972
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 6673f54cbd937402303c676f7c8c7335c969e5a2bdfdf11e3b68439fb9ccb13a
+  - path: dist/bot/custom-extension/.gitignore
+    algorithm: sha256
+    value: a1a61350eefa69ffa75abb0c527c5674dcab7a148cccb3e5a3f2a3f662221ba2
+  - path: dist/bot/custom-extension/README.md
+    algorithm: sha256
+    value: c46a087cec1f6fb71fcaa20a6e46529157a23a0676130abbc593b4f10fb7205f
+  - path: dist/bot/custom-extension/config/paths.js
+    algorithm: sha256
+    value: 9df6ae09e34fc40423a04e1b2412ff2d14763f38e17808f283b5825f0ddbbaba
+  - path: dist/bot/custom-extension/config/webpack.common.js
+    algorithm: sha256
+    value: f80e7f20f34200bcf05b183dd9e29e4b31cecc3ff0a0887708f1cf448ec50ddc
+  - path: dist/bot/custom-extension/config/webpack.config.js
+    algorithm: sha256
+    value: 0fbf15b32c221a4624eed8a6f7df7d301df309398a449f657048b7daacb92d24
+  - path: dist/bot/custom-extension/jsconfig.json
+    algorithm: sha256
+    value: 541afc5e68395b4738d4ff67bd46ca0474d3b0c77380870dc16f27458c6af00b
+  - path: dist/bot/custom-extension/package-lock.json
+    algorithm: sha256
+    value: 24511eacb3a8c3ae8923015d6846dec47641cc1fe102ae0c2432d20f08340c89
+  - path: dist/bot/custom-extension/package.json
+    algorithm: sha256
+    value: a99e4108ad8e2762d5b3db5088c34270752d3a8125352932a3c6bd097bd6854a
+  - path: dist/bot/custom-extension/public/icons/icon_128.png
+    algorithm: sha256
+    value: 18921835a7b852aa8161288d087a614497c19f6ac047a8e2a4cd9d983365f966
+  - path: dist/bot/custom-extension/public/icons/icon_16.png
+    algorithm: sha256
+    value: 68c54b530a2f48ce838e35ccbf3ea2bcb4c9975f07b375f84e07de08e606c6f0
+  - path: dist/bot/custom-extension/public/icons/icon_32.png
+    algorithm: sha256
+    value: f817fe684554ec1569e1764f1491c8e42d43387ff272d5950b73ace9b2329fec
+  - path: dist/bot/custom-extension/public/icons/icon_48.png
+    algorithm: sha256
+    value: 7915f5e4eeee7542f45a4aee93b13513eaf4fd365bae2767058bdb3f35a0ce89
+  - path: dist/bot/custom-extension/public/manifest.json
+    algorithm: sha256
+    value: 0f5d1189b93a1db2ced133e0d9f10627ab9b839f43c4f72275facbce832ea5d7
+  - path: dist/bot/custom-extension/public/popup.html
+    algorithm: sha256
+    value: 9b7896a421951739ffb897ccca8c9aeafdfb09094b8a6ec2e2fd8a5f8a57c849
+  - path: dist/bot/custom-extension/quickstart.md
+    algorithm: sha256
+    value: 533f3b60746408c8f7c8cdb58067b49d46adbf5a4edece4d0da3b0728a712ac3
+  - path: dist/bot/custom-extension/src/background.js
+    algorithm: sha256
+    value: 2dda5a27b8a7c38f21d02e8023e427547948c58fd17c010f5a28077ae4241eea
+  - path: dist/bot/custom-extension/src/contentScript.js
+    algorithm: sha256
+    value: 0fb16b531bff200126e982de80b433bf77de53a6f81580ba96626d3d5f41b17f
+  - path: dist/bot/custom-extension/src/popup.css
+    algorithm: sha256
+    value: 7f51880f0bf1c569da843d337859c2c6b41982a972177638c49d20461c4928e8
+  - path: dist/bot/custom-extension/src/popup.js
+    algorithm: sha256
+    value: aa7b6a96d8fc7f79ca5694f50f27ba1db9ed3122b1fbed44487824c5dc88bb13
+  - path: dist/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 01174d4036d20a2bf43952f184f404c39ea79568e001cb8ad2b6d333ba5562a8
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 3aeaff20c08da2abe1fec72845e8adc694d429ebf2de760805eea0c9a9ccf2f9
+  - path: dist/proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: dist/src/index.html
+    algorithm: sha256
+    value: 486bb7c7ad57642f3d6349cd1cb9cbdf38371b3a872dce8480df109c36bdde4f
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 11c3613e13fec86ce50af4992a0ecf3052cfb856211cf182d909037c16d1daab
+  - path: proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: solver/index.html
+    algorithm: sha256
+    value: c19f3bb668bed145906b22ee163edf95884f2955ac5b709555f94acec5c69646
+  - path: src/index.html
+    algorithm: sha256
+    value: 486bb7c7ad57642f3d6349cd1cb9cbdf38371b3a872dce8480df109c36bdde4f
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'This challenge directory has its own MIT license: Copyright (c) 2023 Dimas Maulana.'

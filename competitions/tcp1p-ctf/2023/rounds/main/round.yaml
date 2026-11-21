@@ -1,0 +1,43 @@
+schema_version: "1.0"
+
+id: main
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+
+name: Main
+original_name: null
+
+sequence: 1
+type: other
+delivery: online
+
+description: null
+
+dates:
+  start: "2023-10-13"
+  end: "2023-10-15"
+
+statistics:
+  challenge_count: 61
+  participant_count: null
+
+references:
+  - title: TCP1P CTF 2023 Challenges
+    url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+    type: official_repository
+    accessed: "2026-11-21"
+  - title: CTFtime / TCP1P CTF 2023
+    url: https://ctftime.org/event/2001/
+    type: third_party_archive
+    accessed: "2026-11-21"
+
+verification: corroborated
+notes: >
+  The organizer repository publishes one challenge set for this edition and does not
+  describe a qualifier or final, so the round id is main. Challenge sequence numbers
+  are alphabetical by source directory name within each category. The repository does
+  not state an official order. Difficulty values are organizer point values:
+  extra.initial for dynamic challenges, otherwise value. The repository LICENSE is
+  preserved in this directory. Repository-level README.md, SOP.md, Kriteria.md,
+  Makefile, ctftime.json, and .ctf/ were not copied into challenge directories.

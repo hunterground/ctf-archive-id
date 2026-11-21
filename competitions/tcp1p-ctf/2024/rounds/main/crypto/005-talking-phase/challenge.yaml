@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-005
+name: talking phase
+slug: 005-talking-phase
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Oh no, mitm bad
+
+  Connect: nc {{ .host }} 1965
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: kisanak
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/talking phase
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 42dc2406ab6648433adff84f960fc76d91718cf09a6619008f3e1173283f2b58
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 029ebecbbc3ddf304f166b60dde1defea4433807b70105c2579bf5f1037755b6
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 4616e9b6bc8c7b36485f71bf4be4665bb67da6a4a0a2479f80a4d45b3517b478
+  - path: dist/messages.py
+    algorithm: sha256
+    value: ee8f593a7e4607b5e9cbbe16026fe691649dd83adb34a30bd8234d655b75ee75
+  - path: solver/solve.py
+    algorithm: sha256
+    value: 8d0e135a89db642e014d133c7be545ea1456545df4ad431247b30dd433f6d3e6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9e17f1d3ff70b1f3a96509ebdb89ab7e71b4c8f3079fb0a2a243dc28e7c8599f
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4616e9b6bc8c7b36485f71bf4be4665bb67da6a4a0a2479f80a4d45b3517b478
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: a11dc2352bb7a335b7c69a8cb36ebd4d7d220785da2c3da636f436ee33acbe07
+  - path: src/messages.py
+    algorithm: sha256
+    value: ee8f593a7e4607b5e9cbbe16026fe691649dd83adb34a30bd8234d655b75ee75
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: a5fbc6dec654bff703f593789bc2501c742f85f26cd392b86c220011b7c9b93c
+  - path: src/run.sh
+    algorithm: sha256
+    value: fc6e18fbeaabd7e5276dd77743b3ba49f24af0e6cb485f7fe5fcea2b69c1cf61
+  - path: src/secret.py
+    algorithm: sha256
+    value: a4888250c110b1e2c3429178b4a6951e06ff109bfd34ce9d1fd81b8397e6fb83
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

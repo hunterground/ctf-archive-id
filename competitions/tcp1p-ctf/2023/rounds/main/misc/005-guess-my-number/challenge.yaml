@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-005
+name: Guess My Number
+slug: 005-guess-my-number
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `rennfurukawa`
+
+  My friend said if i can *guess* the right number, he will give me something.
+  Can you help me?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: rennfurukawa
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Guess My Number
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8e54b1016a21c9cea13551b24aab12412aaf9ec7ec9c02172c8bb5ad072cd6cd
+  - path: README.md
+    algorithm: sha256
+    value: 850a006042695186a1ced58f50749575e016bb8a096978b85a618b7d97e43a18
+  - path: challenge.yml
+    algorithm: sha256
+    value: 52cd84192483736195070872e39ac112630a9388648a1f17fb329e2bc4f90a15
+  - path: dist/guess
+    algorithm: sha256
+    value: 78b124d39c3fd68580758c5689ada9defcfb8a0f47cca6c7f67b2707e02cbd5d
+  - path: dist.zip
+    algorithm: sha256
+    value: 0863a7a62a94de4759874e9abc5d706ca043514f25068bb330aa4f7c711874ae
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8745bd479038c9425da75906b6b2bd326784869c58158b0fd75de9aab46addcd
+  - path: src/guessmynumber/flag.txt
+    algorithm: sha256
+    value: ce822fe6e6fe5835e58d32513def46454f319426b63fc1b041157e7d3d7ddcc1
+  - path: src/guessmynumber/guess
+    algorithm: sha256
+    value: 78b124d39c3fd68580758c5689ada9defcfb8a0f47cca6c7f67b2707e02cbd5d
+  - path: src/guessmynumber/guess.c
+    algorithm: sha256
+    value: 43b898718ccc8885d343db5a45f58fa77412fecd8f81dbf6289ee28f86daff45
+  - path: src/run.sh
+    algorithm: sha256
+    value: 88041e92428532acc88bf1e32883e1aef2bf15ca2741dab5dd6a0d961dc08d50
+  - path: src/start.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: src/xinetd
+    algorithm: sha256
+    value: 6599230f2ad516ea5f68cd18dbcd6423602df9293756e240e176a02d7d8bbede
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 9021bcc82022d7b10f060a63b62c48a0634444fa633c86bbb0e6f11b228474a3
+  - path: writeup/solve.py
+    algorithm: sha256
+    value: a92fa1b6a56dbc403da212f2000bf3fd2df3f3dfe5a4f23e962f4381963a7e1c
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 7331'

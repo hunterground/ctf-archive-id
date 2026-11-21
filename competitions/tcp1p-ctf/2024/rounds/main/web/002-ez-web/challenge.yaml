@@ -1,0 +1,195 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-002
+name: ez-web
+slug: 002-ez-web
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  hope you enjoy this.
+
+  Connect: http://{{ .host }}:10017
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: kiseki
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/ez-web
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ef727d14b946a47188faeb3e74c207acde4c20f6a399140604a032933215e059
+  - path: dist/app/Dockerfile
+    algorithm: sha256
+    value: 38bb0bbd85f0f9d3c3c7ded37a3c1ad04682b0ed0b71e0ab2826c77a07fc7262
+  - path: dist/app/app.js
+    algorithm: sha256
+    value: f2d07dc386c6d55403392f2c226655a230bd2ec0dbebc9439a9a9e3672c9ad81
+  - path: dist/app/db/sqlite.db
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/app/helpers/JWTHelper.js
+    algorithm: sha256
+    value: 660cb545dc138eed858be440ba1282601d535b2641d7d533370f2cac1a415a2e
+  - path: dist/app/helpers/database.js
+    algorithm: sha256
+    value: e2363796e62f46d5218ed45c9568d31c85d9ee7ef505b16ef28e80b8b7ea366f
+  - path: dist/app/middleware/AuthMiddleware.js
+    algorithm: sha256
+    value: b6de2cacd23b507ba38fd9d5566ae92891ff29845232e17dd8948aa356c44288
+  - path: dist/app/package.json
+    algorithm: sha256
+    value: 614810dfc9ec713c4339d46fd75849a8ded204313c03267a76f8a1fbdc1c5731
+  - path: dist/app/routes/routes.js
+    algorithm: sha256
+    value: e09595b7c946d6cdc6250c12e5234c180a7379fa7910c54f66863bffc584c27c
+  - path: dist/app/static/login.html
+    algorithm: sha256
+    value: a47f12af0736fb298966c98e5d03d6d2cfc01bb35ea5304f87b71e3c3212277e
+  - path: dist/app/static/register.html
+    algorithm: sha256
+    value: 80d4e66f6715e5be108117afb76b55dc2f34f8b2ac45c34f26a192344e022662
+  - path: dist/app/static/script.js
+    algorithm: sha256
+    value: 9be6e97961281bcffbca3e6e9e5dd5ab389f34f12a29ae7811c0b7202cc6e1c4
+  - path: dist/app/static/styles.css
+    algorithm: sha256
+    value: ac40acfc657a2cf779ab9dbc8b4a981328a173ef9ede7cb721076bceaf6f2afd
+  - path: dist/app/views/index.tpl
+    algorithm: sha256
+    value: 1c474572a3c3d1bbf7e61cd6693cc3cca11b1f290784d4fb8cb50046ebe11599
+  - path: dist/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 113788b297959156487e30edfc124d26cf35020f4a4cf680afb56f3652f80cd4
+  - path: dist/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: dist/bot/package-lock.json
+    algorithm: sha256
+    value: 3d5dca30ea89f47fb4c4314f1c86b18804ac0734efcb326b840da866b53e4800
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 62ead7ddfea93b6e5276f8a3e27f98a20cc2430b780387047a3b0366ec3c76d3
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: dc9e8d5dec7e167f217a133428ad13049da46d9f37e643b930d7869da36e6001
+  - path: dist/proxy/default.conf
+    algorithm: sha256
+    value: 2ba24350fe319cd2b3f006f5fed51428e02b6adcb7b228439609e245e4409bd4
+  - path: solver/README.md
+    algorithm: sha256
+    value: ad73dd41e4a62b16dae3fbf6ae1149aa6ce56c0866f676168213ef558b9bdb56
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: 38bb0bbd85f0f9d3c3c7ded37a3c1ad04682b0ed0b71e0ab2826c77a07fc7262
+  - path: src/app/app.js
+    algorithm: sha256
+    value: 9d7efce773814ae333d4e72dc539c8bea05120fd6c60fd9355f03c17e780cd86
+  - path: src/app/db/sqlite.db
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/helpers/JWTHelper.js
+    algorithm: sha256
+    value: 660cb545dc138eed858be440ba1282601d535b2641d7d533370f2cac1a415a2e
+  - path: src/app/helpers/database.js
+    algorithm: sha256
+    value: e2363796e62f46d5218ed45c9568d31c85d9ee7ef505b16ef28e80b8b7ea366f
+  - path: src/app/middleware/AuthMiddleware.js
+    algorithm: sha256
+    value: b6de2cacd23b507ba38fd9d5566ae92891ff29845232e17dd8948aa356c44288
+  - path: src/app/package.json
+    algorithm: sha256
+    value: 614810dfc9ec713c4339d46fd75849a8ded204313c03267a76f8a1fbdc1c5731
+  - path: src/app/routes/routes.js
+    algorithm: sha256
+    value: e09595b7c946d6cdc6250c12e5234c180a7379fa7910c54f66863bffc584c27c
+  - path: src/app/static/login.html
+    algorithm: sha256
+    value: a47f12af0736fb298966c98e5d03d6d2cfc01bb35ea5304f87b71e3c3212277e
+  - path: src/app/static/register.html
+    algorithm: sha256
+    value: 80d4e66f6715e5be108117afb76b55dc2f34f8b2ac45c34f26a192344e022662
+  - path: src/app/static/script.js
+    algorithm: sha256
+    value: 9be6e97961281bcffbca3e6e9e5dd5ab389f34f12a29ae7811c0b7202cc6e1c4
+  - path: src/app/static/styles.css
+    algorithm: sha256
+    value: ac40acfc657a2cf779ab9dbc8b4a981328a173ef9ede7cb721076bceaf6f2afd
+  - path: src/app/views/index.tpl
+    algorithm: sha256
+    value: 1c474572a3c3d1bbf7e61cd6693cc3cca11b1f290784d4fb8cb50046ebe11599
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 113788b297959156487e30edfc124d26cf35020f4a4cf680afb56f3652f80cd4
+  - path: src/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: src/bot/package-lock.json
+    algorithm: sha256
+    value: 3d5dca30ea89f47fb4c4314f1c86b18804ac0734efcb326b840da866b53e4800
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 62ead7ddfea93b6e5276f8a3e27f98a20cc2430b780387047a3b0366ec3c76d3
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: be8fbc6e84784ec154e6d5ea96cb19e11a0608c41cd1eb59b229d38d76232d63
+  - path: src/proxy/default.conf
+    algorithm: sha256
+    value: 2ba24350fe319cd2b3f006f5fed51428e02b6adcb7b228439609e245e4409bd4
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

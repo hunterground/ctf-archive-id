@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-001
+name: Baby Foren
+slug: 001-baby-foren
+original_name: baby_foren
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: My student submitted his homework but I can't open it? Can you help me?
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Karev
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/baby_foren
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7863fef1fa383c4857c91cc29e63d71611ec1aaa557ab52bc494c0a8c72ffd8a
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2c1f19d138ab4c7b547214a17f2ee150a936b9e440707a819946448371cda351
+  - path: dist/homework.txt
+    algorithm: sha256
+    value: 85fc4cee6590c54d66060334ec203a5ff7b7c67b9c66f665328ff1415df6a25e
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solver.txt
+    algorithm: sha256
+    value: c79044439e78bfaf11433b447db8224856fae55e2f24bc834dcbe57efcf7a052
+  - path: src/homework.png
+    algorithm: sha256
+    value: c9ac84b4ab8e14f08293cbc716ccda7480fd511f8f48bc9bad7a4be6a265f914
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

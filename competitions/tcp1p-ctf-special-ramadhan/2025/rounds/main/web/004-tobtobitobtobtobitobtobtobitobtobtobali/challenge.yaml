@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-web-004
+name: TobTobiTobTobTobiTobTobTobiTobTobTobali
+slug: 004-tobtobitobtobtobitobtobtobitobtobtobali
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Cat Tobitob decided to make a gift card page,
+  so you can say "Happy ramadhan", to your relatives :D
+
+  Connect: http://{{ .host }}:8888
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: DJumanto
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Web/TobTobiTobTobTobiTobTobTobiTobTobTobali
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 03009f3ac6c2182abea1b9a8801f18cefe389fafc21b872b700dc02afada704e
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8426a04f4593e424678c4e59a6e2b09f43aea6d6a02fcb6ddc10c69b728606ff
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: aeaa85c6194615f043e5736f594b57131fb0d2c4576c06e07650982df085d34c
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solve.py
+    algorithm: sha256
+    value: cf28d963c583512a68b94c2bf9f2e8dd2e8a1445d6625dd71766be9442f02b8e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: fc580b8b69de0b315e2f63057f29a6dcc27cf0e5e2b6377f083651d0a597462c
+  - path: src/app.py
+    algorithm: sha256
+    value: aa4ec9332a55a0b75c90d5acca9d39b26bf7ecb69880c692a9387ffef66a39ef
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 04284f396075209cf42808ac94abfebffbdb11fae5eb7dc6ffa9c12116423bf4
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 132a28f6ea1a0ff55db8bb97b0dc9e5064cb2d80257b5cc0a9bce86e90a2cbec
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: src/static/cat.jpg
+    algorithm: sha256
+    value: 41d45230c5c8607c897b1594fe42f648a60d55152bf891d94567751a45a2ce94
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 45f1ad415b1f501b6c00b8765ca6d3e24bc81be83a1603bd3782454b19c39a50
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

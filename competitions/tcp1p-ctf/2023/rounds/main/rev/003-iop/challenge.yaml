@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-rev-003
+name: IOP
+slug: 003-iop
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: "**Author**: `aimardcr`\n\nI need to hide a secret, so I modified [this](http://www.artpol-software.com/)\
+  \ project for archiving files. \nI haven't implemented extract feature though. Pretty sure the archive\
+  \ looks like a normal archive, or is it?"
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Reverse Engineering/IOP
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9bf01ec338af828c1b5ff52c2fb4241f17aa30da4dc642ac218f13bafcb3ff1a
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 1db4d240ff76e86c6f48adb124b1f98dca7bf3107698a6532bab7ce1cf4c921d
+  - path: dist/flag.iop
+    algorithm: sha256
+    value: 19fe18961be7cf5cbca952efe84fde278d1daebcfa516544f2aaa455d9a66fee
+  - path: dist/iopManager.exe
+    algorithm: sha256
+    value: cc1c92cd668c2b20b01a19aba0647599a3a12bea681ec572cf76d1635adf80df
+  - path: dist/iopManager.pdb
+    algorithm: sha256
+    value: 18aec2f41b906a6120131922f2173688f6fe18d894025d37bdee33de41750539
+  - path: flag.txt
+    algorithm: sha256
+    value: c51c44161be7efa11452d11d1f692bc2aa4d2587f117a6c841acd27f10095433
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

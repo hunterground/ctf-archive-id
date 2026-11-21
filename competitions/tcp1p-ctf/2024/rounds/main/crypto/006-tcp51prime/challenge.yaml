@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-006
+name: TCP51Prime
+slug: 006-tcp51prime
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: plzz check my prime
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/TCP51Prime
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5ee2f6f0c378f01580ba93199f7a72303c3afc09aa1f3112a7ce563a96fc4ecd
+  - path: chall.py
+    algorithm: sha256
+    value: 67eb8b05b2a34d64af9b3fd45e32be4aef9df43e6c5523ad17ff23be8567a55e
+  - path: challenge.yaml
+    algorithm: sha256
+    value: ae6e2a1adf04f6845cb73dbe3db301822f905f9dc9b7c91cd037cd02971763ed
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 67eb8b05b2a34d64af9b3fd45e32be4aef9df43e6c5523ad17ff23be8567a55e
+  - path: secret.py
+    algorithm: sha256
+    value: 4146f0093469faa752e873a32d497a4b4e195af0e5a526d9f43a4d05a37e43e8
+  - path: solve.py
+    algorithm: sha256
+    value: 1d5c490bafb9346373a1e3d201d1e1f5ae4acdd37b82397f54d5bfbf8111f58b
+  - path: src/chall.py
+    algorithm: sha256
+    value: 67eb8b05b2a34d64af9b3fd45e32be4aef9df43e6c5523ad17ff23be8567a55e
+  - path: src/secret.py
+    algorithm: sha256
+    value: 4146f0093469faa752e873a32d497a4b4e195af0e5a526d9f43a4d05a37e43e8
+  - path: src/solve.py
+    algorithm: sha256
+    value: 1d5c490bafb9346373a1e3d201d1e1f5ae4acdd37b82397f54d5bfbf8111f58b
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

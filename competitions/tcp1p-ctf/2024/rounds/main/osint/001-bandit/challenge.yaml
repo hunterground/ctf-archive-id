@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-osint-001
+name: Bandit
+slug: 001-bandit
+original_name: bandit
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: null
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Jieyab89
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: OSINT/bandit
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f992b71f5948153a0137fc788e7a0aac3afbbca2d87b08c20857a33e4173eff5
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 60fa80c13c17d84461fe8df9b7ec6f94552104e3dad18297ae024649a301e95a
+  - path: src/suspect.zip
+    algorithm: sha256
+    value: 97c8fe57e3daf3a1b1e87a9578caf28cde923b578e239e4510bb72a457a0b336
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source description contains a flag, so description is omitted from metadata. The source directory
+  name differs from the challenge name.

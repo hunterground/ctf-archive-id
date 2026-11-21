@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-003
+name: euclid's apprentice
+slug: 003-euclids-apprentice
+original_name: euclids-apprentice
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Pengetahuan yang baik dalam modular arithmetic akan sangat membantumu dalam crypto, terutama dalam memahami beberapa algoritma seperti RSA dan Diffie-Hellman. Kalau begitu, mari mulai dari basic-nya. Zaman dahulu kala, Euclid menemukan sebuah cara untuk menghitung faktor persekutuan terbesar/greatest common divisor (GCD) dari dua bilangan bulat `a` dan `b` dengan cepat (Euclidean algortihm).
+
+  Memperluas algoritmanya (Extended euclidean algorithm), kita juga bisa menemukan bilangan bulat `x` dan `y` yang memenuhi `ax + by = gcd(a,b)`.
+
+  **Hints:**
+
+  - angka `23` dan getPrime(216) itu konstanta random, tidak perlu dipikirkan
+  - ingat baik-baik apa output yang diberikan gcd() dan egcd()
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/euclids-apprentice
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 089a9f56bcd0055c610a2b1f7599c531205d9922f4e50c16dbd84bc99e74309c
+  - path: chall.py
+    algorithm: sha256
+    value: e95296edd020a046852ebeed6d5ccf420e47ea60a87cb775855592f9eae3b899
+  - path: challenge.yaml
+    algorithm: sha256
+    value: c1a43127d5917e284d1f9c931023a96215d5a2cec6b46485ab2170ee771ba18e
+  - path: output.txt
+    algorithm: sha256
+    value: fcbb57c60eae90397e663534c68efbe0e58eed88a61113e9a5f1d55bcdd93533
+  - path: solve.py
+    algorithm: sha256
+    value: bf1fa8c44df13a07222c94d37cfbeeed85d658106d997897dff3a7ff4d1e9ba0
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

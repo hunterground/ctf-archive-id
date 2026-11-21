@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-blockchain-001
+name: Codeless Contract
+slug: 001-codeless-contract
+original_name: codeless contract
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  عقد ذكي بدون كود؟؟؟ هل هذا ممكن حتى؟
+   Connect: http://{{ .host }}:8192
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: firdausfarul
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Blockchain/codeless contract
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solver/lib/forge-std
+    reason: Listed in .gitmodules and absent from this commit tree. The submodule was not cloned.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c9fd5dec9c5fef70bbd93dde698fd582077cf9517ec151d555fcbc9ebdcae25b
+  - path: challenge.yml
+    algorithm: sha256
+    value: f4efc9b6bbf3da09db04da070511981198cb34b772a2ca55274e2842f5193336
+  - path: dist/CodelessContract.sol
+    algorithm: sha256
+    value: 83053982be97927e3a1993b6cd9649fa087bf13357932f0825dcdc371ac88d6f
+  - path: dist/Setup.sol
+    algorithm: sha256
+    value: 1923b62d2ab5c2e8ddae00d566d8bcf81df51bf23a5a3b69c5d059919b5d6666
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solver.sol
+    algorithm: sha256
+    value: fb5edf045f52fd0b1dd35708c3237d66b63fa6a17f1efff1c41f3b15b002baf2
+  - path: src/challenge-eth/.env
+    algorithm: sha256
+    value: 340eacd7259509f3663ff82f52bcd14b1becce5b4b42567091c55c8364c0a244
+  - path: src/challenge-eth/Dockerfile
+    algorithm: sha256
+    value: 6a7647cd6473388ab45a3d4bb124fa51aaf4e1da9dd29b6fd1a3c262c36a03fb
+  - path: src/challenge-eth/contracts/CodelessContract.sol
+    algorithm: sha256
+    value: 02f346e5ddb0d7dbd2585ba01c150a11656b42a1a667274c2fb142b853c4a581
+  - path: src/challenge-eth/contracts/Setup.sol
+    algorithm: sha256
+    value: 1923b62d2ab5c2e8ddae00d566d8bcf81df51bf23a5a3b69c5d059919b5d6666
+  - path: src/challenge-eth/deploy/chal.py
+    algorithm: sha256
+    value: 399cca86bcf80c5d4a1efa2f8593a898a9ebc77fbe7befcec9ba11522dc9a201
+  - path: src/challenge-eth/docker-compose.yml
+    algorithm: sha256
+    value: ea4a825c312c88a7350e338aa39fb1cfca711939485cb6722699a412dca6ab9c
+  - path: src/challenge-eth/solve.py
+    algorithm: sha256
+    value: 41f8f965eb51874d33c4ff320825810dd7854258a35b2a7b5387218185164e43
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

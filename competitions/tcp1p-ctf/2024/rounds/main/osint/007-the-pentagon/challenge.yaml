@@ -1,0 +1,144 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-osint-007
+name: The Pentagon
+slug: 007-the-pentagon
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: null
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: thelolna15
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: OSINT/The Pentagon
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: e9bed44912b762dad098a35d8a404dec7b753d96208f114ac949e619d86b4e99
+  - path: README.md
+    algorithm: sha256
+    value: f992b71f5948153a0137fc788e7a0aac3afbbca2d87b08c20857a33e4173eff5
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 23c1b77b6561c544947d92b0fb1ab5b0c72ea527cb2959bd694c810a4eded78f
+  - path: bot/index.js
+    algorithm: sha256
+    value: 53c71bbec9c66efd670eed7af3f2d5b14314e6d328822708c7394ec6696d78ad
+  - path: bot/package-lock.json
+    algorithm: sha256
+    value: e85e25fc7723ec64e5c0f66f8fabc1cb9219134b48da11f11abc05ba8c6ce6fa
+  - path: bot/package.json
+    algorithm: sha256
+    value: 0e0821a14af804a877480625593e6c7720d13e6e120600893ce092595db1306b
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 2fe53748310c02f278097248f4428cc3b77e1399475a3094f2f07e0493163c0f
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 06da8f9e02df1d198d3d06ccf7b69593ae6f6aaccbcf0ec35e178eb27ee51c40
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 7549945c2e3ad69727b5370a13034e62a0d2e5090126ab07a8b25de3419f467c
+  - path: writeup/en/README.md
+    algorithm: sha256
+    value: e49d16d0c2f6c11ed6e28d844f6b998dbf670f0f99f1971689096ea5d9710d0a
+  - path: writeup/images/chall.png
+    algorithm: sha256
+    value: 725186f59c1f2bb4eba0b0c16de9cff12d70e403775578d18ee7f5285d44346e
+  - path: writeup/images/osintframework.png
+    algorithm: sha256
+    value: faa27d9a1a5babee42a5f81674b21f570610ecaed1b1cdada017161484d23aec
+  - path: writeup/images/post-9gag-udin.png
+    algorithm: sha256
+    value: 5b2e78d6b59b7ed463e74ee7f74b78f3fad3cc8875407268dacb9ec53b941bb9
+  - path: writeup/images/post-comment-9gag-udin.png
+    algorithm: sha256
+    value: 9fb8c7b2c631f0aa46e7e4b574f8dac9e0b64c91a0e220fe62c5af39c6e3eb50
+  - path: writeup/images/post-comment-x-udin.png
+    algorithm: sha256
+    value: c6b7c057235bcec5edf2e744f6a472f2d0f101bd5eba9f9396ad1ffa3855294d
+  - path: writeup/images/post-ig-xalam.png
+    algorithm: sha256
+    value: a2af5713131ed44085c8b30f6647756b0db1c7f5f1e387942fcde4d6ca52f0bf
+  - path: writeup/images/post-x-paijo.png
+    algorithm: sha256
+    value: e27d05b58e6a3b2f54834543a34f3c403b5004bd7f79a04fab9a618cff425705
+  - path: writeup/images/post-x-udin.png
+    algorithm: sha256
+    value: 75d3adfd3f331273e751f10daae70d4100f8dd6299041fffe70fa27fb2b42d3f
+  - path: writeup/images/profile-ig-xalam.png
+    algorithm: sha256
+    value: b8d5d105a3fb60a60b8da0849a38c91b182169a59270c42b86f6d9ae9af0ad2c
+  - path: writeup/images/search-paijo.png
+    algorithm: sha256
+    value: 25320f5a47ca3ea0753e18b01b1163953bc3212205300fa2e656105ad0d1e655
+  - path: writeup/images/search-udin.png
+    algorithm: sha256
+    value: e3e92746ba747124d4b1bd03a6899beef24fe100f02158ca6375ede70f600c34
+  - path: writeup/images/ss-bing.jpeg
+    algorithm: sha256
+    value: cfd61eb227fe1c909fc11083dc7e44bfd58a2ab913604bf177553d482a213f1f
+  - path: writeup/images/ss-chatgpt.png
+    algorithm: sha256
+    value: f0fa4e4b75f06f6a723a756ed926c6207d2496cb2141742ee59e6ead44c5a3a8
+  - path: writeup/images/ss-dc-chat-solved.png
+    algorithm: sha256
+    value: 7f2cdefa01eba1aa884fef701e7c74e6814c357fdb46f1f1e3c7fcb5249cf2c3
+  - path: writeup/images/ss-dc-chat-xalam.png
+    algorithm: sha256
+    value: 3a50330cfb3d245d0856627ad19375ab15dae97a979d5b99e363ded2b06b6a85
+  - path: writeup/images/ss-dc-pin.png
+    algorithm: sha256
+    value: c2e42f4649b903130e6f457cbe4529cbe25d0b010cc5e45bf961b4df24757e1d
+  - path: writeup/images/ss-dc.png
+    algorithm: sha256
+    value: 304ec22d0b1985bc5962a683032ee88bf63aba5c851acac4e1cc6de36f2f6ac1
+  - path: writeup/images/ss-gemini.png
+    algorithm: sha256
+    value: 073f7108863f740d10794e378334ad4a1d1f9b051a5024e85d2bc5836d76a6a6
+  - path: writeup/images/ss-yt-solved.png
+    algorithm: sha256
+    value: fb177a249b574a823892084071f010c3743ec4e33441537bb1f1f03f3d1a2df5
+  - path: writeup/images/sus-paijo.png
+    algorithm: sha256
+    value: fbde83876cbbc634b1f6f994b6c2d36cbe92450e9c88524736eb4d67b5e304db
+  - path: writeup/images/x-paijo.png
+    algorithm: sha256
+    value: 9aa3941b484ec62438daa9048341e56f5547f033d24a458ffb07f318fc486f25
+  - path: writeup/ind/README.md
+    algorithm: sha256
+    value: 7112f9de21bd42eb00c63a73aeb405bab2fcfdaeb0e35e6ff6bba892409d15a1
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source description contains a flag, so description is omitted from metadata.

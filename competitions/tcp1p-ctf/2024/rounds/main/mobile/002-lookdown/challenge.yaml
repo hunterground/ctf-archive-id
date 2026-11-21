@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-mobile-002
+name: LookDown
+slug: 002-lookdown
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: |-
+  Hi guys, i just make my second Mobile app, can you check it?
+
+  ---
+
+  The infrastructure being used is based on our Mobile POC Tester (https://github.com/TCP1P/Mobile-POC-Tester).
+  You will need to create your exploit application that will be executed in the server.
+  You can check `client_dist.py` for more information on how the automation for this challenge runs.
+
+  **POC Tester**: http://45.32.119.201:5000/
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Mobile/LookDown
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9e725c69dda2bc3e0af1c8167f4984c92e0ba3fe9e78fe7e9d5a8e1c8667d501
+  - path: challenge.apk
+    algorithm: sha256
+    value: b57ba64b986afb9758b67ce9ed904ec26cbb122eb7f53d211f0256c96cad988c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8ebbc24693e5992730b257f82c4903e390d819f523cd2d7dcb2af2f061b04cc8
+  - path: client.py
+    algorithm: sha256
+    value: b48b1d0e567fed2e76093e87d15f6a7d7c0ad950e105f0f203d86468d050f5ad
+  - path: dist/challenge.apk
+    algorithm: sha256
+    value: b57ba64b986afb9758b67ce9ed904ec26cbb122eb7f53d211f0256c96cad988c
+  - path: dist/client_dist.py
+    algorithm: sha256
+    value: 584d1ca4844fcf0309a3ed5cda7173086fcbaf0f62964926654b7e3f939a179c
+  - path: solver/README.md
+    algorithm: sha256
+    value: f9286c44750dbb5942a159a7ed567ef2ac707a53e0f92e4b467c8c2948114161
+  - path: solver/download.html
+    algorithm: sha256
+    value: cac70183d9a855c8da45864fcbfa3769a0b3a160901c2346c88714fb6c0b0f39
+  - path: solver/index.html
+    algorithm: sha256
+    value: a0baf5193ecf4fd5aec802da23e7860c431c4a2535f07515bd1886d11b801012
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

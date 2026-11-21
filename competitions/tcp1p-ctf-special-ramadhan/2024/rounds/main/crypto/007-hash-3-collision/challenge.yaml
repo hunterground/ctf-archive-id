@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-007
+name: 'Hash 3: Collision'
+slug: 007-hash-3-collision
+original_name: hash-3-collision
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Aku baru saja membuat sebuah aplikasi yang akan memberikan flag pada user selama user itu telah terdaftar dalam sistem. Di sini aku berikan saja database username dan password mereka hehe. Selama sudah di-hash, password mereka akan aman... kan?
+
+  Connect ke nc 103.185.44.122 21001
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/hash-3-collision
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c2124e66a23626d58bcf115d25861dee57eb70eee72037e6768e19a897bd03ee
+  - path: README.md
+    algorithm: sha256
+    value: 1b580f8b595470a5624398e3bcfaf9598e600e5c354ceccbbc8be5f584c048c0
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 3b91f45d570a9e83ef4a5b01451585a0ae960883058aeaf4479d52829dbeb564
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 88e2093f061fbd8fa72e8937242e373c8ebb7d5cea321b01570e0b306cda2c6c
+  - path: secret.py
+    algorithm: sha256
+    value: edddbd4fda7e7878746f301848ac0b8d72b2f85ad8b33de467a78ef19ed7aae8
+  - path: server.py
+    algorithm: sha256
+    value: 33995420abe05b5c7de97f5f06cf8d4f3927cb2d4320619a38bef96a3e551c46
+  - path: solve.py
+    algorithm: sha256
+    value: 358f8846da0d3f44b4fb0701c0d5993a4a97eba6a04a98463fc575271ffc433c
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

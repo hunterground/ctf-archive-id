@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-004
+name: Geprek
+slug: 004-geprek
+original_name: geprek
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Implementasi lanjutan tentang gerbang logika xor.
+
+  Coba baca-baca cara xor bekerja dan implementasikan untuk dapat flag di sistem ini.
+
+  Jangan lupa connect dengan netcat.
+
+  connect: nc 103.185.44.122 18921
+
+  ## Hints
+  - Jangan terpatok sama randomnya
+  - Coba bruteforce buat nemuin prefix flagnya
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: n4siKun1ng
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/geprek
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 800ef82b89c255c9dbfaaa6d6c9eada09bf0ea8662a7e97bd113108b415bf9ee
+  - path: ayam_geprek.py
+    algorithm: sha256
+    value: d134c66c84e2ea753c499a10112f8aaf47de65cd00a0209f50c09476aae455f1
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: fab728c2cdadcf22695c9eaaae0262aecac3e6de4299eec52885916e20b47657
+  - path: chall/ayam_geprek.py
+    algorithm: sha256
+    value: fe0a84db09c5923ac6fa5cf4a611315c05664eaa2dad573d83ed4cba73d5d2b0
+  - path: challenge.yaml
+    algorithm: sha256
+    value: ba4628341ce4c7a767d3a76a41211b0ff1cf41765f733e7af8f3407d51fafe4c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 20f4dd405dff7d56b098f37dd8171ede11d1d91da668052bdb8140d1fe8738c7
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

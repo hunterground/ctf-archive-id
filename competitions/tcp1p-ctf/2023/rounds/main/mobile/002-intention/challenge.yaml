@@ -1,0 +1,857 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-mobile-002
+name: Intention
+slug: 002-intention
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: |-
+  **Author**: `aimardcr`
+
+  Passing data could never been easier with Intent!
+
+  **Guide**:\
+  This challenge requires a malicious application. \
+  Make your own malicious/exploit application which you will be installing in the Virtual Android Device.
+
+  Any submissions outside the intented solution will be considered as **INVALID**.\
+  For example, these types of solution is considered as invalid:
+  - Downloading the challenge APK from the remote connection
+  - Reading the file that contains the flag without using any exploits
+  - Breaking the device using any unintended exploits
+
+  **Note**:\
+  It might take some time for the instance to be fully initialized, please wait for approximately 5 minutes for the instance to be initialized.
+  If it's already 10 minutes and you can't use the connection, stop the instance and try again.
+difficulty:
+  value: 1
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Mobile/Intention
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 217f5a713ed508987af0b188b6ce0a9089b043582bcf5337d83b1949a8301870
+  - path: dist/intention.apk
+    algorithm: sha256
+    value: 6c7dc530434449b63cdb147b84cc986020ba20e65e3c26bfadfb269a6b1b2d89
+  - path: docker-compose.yaml.stop
+    algorithm: sha256
+    value: 8d0399880af176821dd08baf1c6b67a796bc04374ec8c712621204472e3918c9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 062347060821f134983e6886e1c483dd5b21a3ac5221cd7d7ea4e9a96152c077
+  - path: src/challenge.apk
+    algorithm: sha256
+    value: 6c7dc530434449b63cdb147b84cc986020ba20e65e3c26bfadfb269a6b1b2d89
+  - path: src/flag.txt
+    algorithm: sha256
+    value: fa1cded9f56b9b2a0c8608235a83f6c1fd36222c630f4c47ff55c7ed59356e86
+  - path: src/main.sh
+    algorithm: sha256
+    value: 45f8057b04ff5d175d1ff28e15161f8f9de94a506500c60d8e683d2138a3bec3
+  - path: src/ws-scrcpy/.eslintignore
+    algorithm: sha256
+    value: 17d58108a6f32cd2c9361dc7c6d030d5b20642d6e49c7f47afa8551c629df7e8
+  - path: src/ws-scrcpy/.eslintrc
+    algorithm: sha256
+    value: 6ce425878da2a7cf994ac8eed2ca6e7fcdfadd87df131a7295ddfb11f3ff0ae3
+  - path: src/ws-scrcpy/LICENSE
+    algorithm: sha256
+    value: 7003ad5db0ebd8f82978ca1fd1bc0b84c4be0fc1db84c7a0d329deb0c5b684e3
+  - path: src/ws-scrcpy/build.config.override.json
+    algorithm: sha256
+    value: ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356
+  - path: src/ws-scrcpy/config.example.yaml
+    algorithm: sha256
+    value: 30c7b46e780b48e2cea15fbe6acb1afb9e014d8c26f37420c807b10a91fc8407
+  - path: src/ws-scrcpy/dist/LICENSE
+    algorithm: sha256
+    value: 8d83a932243df5df0e851ab9f03ca6413afb419fdc629cc0478a26c2802f323a
+  - path: src/ws-scrcpy/dist/index.js
+    algorithm: sha256
+    value: 3d429608531f2afe420fde2f949d5215c5afc092c67341edab08ec662fd2fc81
+  - path: src/ws-scrcpy/dist/package.json
+    algorithm: sha256
+    value: 9268bf4178814f49d26668f57c3ff02236d3717dfa03eb446385789e6d0903b6
+  - path: src/ws-scrcpy/dist/public/0adc36cf9cddfe4b6056c3ca47abaca0.png
+    algorithm: sha256
+    value: 707a95b3283ff12c0e70c4ab953985e92bf752425c9345a8ffea167c5f8239ec
+  - path: src/ws-scrcpy/dist/public/1279f368b5bb729ca7b35990042f9928.png
+    algorithm: sha256
+    value: ddb1aa448fc8119a52f0c181e00ed830ace0f2709a05357949dbabd813b9c61e
+  - path: src/ws-scrcpy/dist/public/avc.wasm
+    algorithm: sha256
+    value: f05e959033da0e40f3b91943b3cf5a5119316728bfdc9dab90e712a2aded6420
+  - path: src/ws-scrcpy/dist/public/bundle.js
+    algorithm: sha256
+    value: 643069b40ce1fe980a2cfbab59fc26eb7e07ed9e8c3ecbea26f6c03f5cfa8b59
+  - path: src/ws-scrcpy/dist/public/bundle.js.LICENSE.txt
+    algorithm: sha256
+    value: b9ab881eb06d079d3d451180fe1b9fb27c46aa76fed6ee86f34b284b8f8b9cd1
+  - path: src/ws-scrcpy/dist/public/bundle.worker.js
+    algorithm: sha256
+    value: b18bfc4d5c27058bbe0ffdddf7c1df87f48fd6c7000b2901262ec762a61ac9b1
+  - path: src/ws-scrcpy/dist/public/index.html
+    algorithm: sha256
+    value: df643a0395e154be892ed0aa555be949a866e5709d8efa31116fd816203040de
+  - path: src/ws-scrcpy/dist/public/main.css
+    algorithm: sha256
+    value: 1570ce273e04aff4a8e4f7b0e084ba0e95f227342a3d2979fb489cb3a463e62c
+  - path: src/ws-scrcpy/dist/vendor/Genymobile/scrcpy/LICENSE
+    algorithm: sha256
+    value: 506da6f2859291c258481a4ba6467dfac0594eb1093cd435f48928100ea6c74a
+  - path: src/ws-scrcpy/dist/vendor/Genymobile/scrcpy/scrcpy-server.jar
+    algorithm: sha256
+    value: a2223a3a4249822187906e0fa8b147eb5a9ed94e47a9e8e8b3f07da651149806
+  - path: src/ws-scrcpy/docs/Devtools.md
+    algorithm: sha256
+    value: e2d79666e25a3a0a448b142d7144c9dc3ccabf7d0bdd1ed2679ddc62d4eda1b6
+  - path: src/ws-scrcpy/docs/debug.md
+    algorithm: sha256
+    value: 2db50b4d1cad135254ff7f81f5c592ec18a7fc50a6cc274bde7a3e25412fd4a7
+  - path: src/ws-scrcpy/docs/scheme.md
+    algorithm: sha256
+    value: ad6f8153b7fd6c9f63f720b9689b7cbad78a3ab2692e836c2068e9eef02cc52a
+  - path: src/ws-scrcpy/package-lock.json
+    algorithm: sha256
+    value: 27e02fe41891bf42848f4770f0b5be338c3d2bb20c8e43f56c582953f0bab1c3
+  - path: src/ws-scrcpy/package.json
+    algorithm: sha256
+    value: 48196a17302d3d18fa791a27a23c54610f76f01050207b00eb2d4464ec7f58af
+  - path: src/ws-scrcpy/src/app/Attribute.ts
+    algorithm: sha256
+    value: 547f419b08fadd931efeaf642d0dc5e33879eae39ff3aa788891b4a796c6c770
+  - path: src/ws-scrcpy/src/app/DisplayInfo.ts
+    algorithm: sha256
+    value: 6e716c9584b31584d5863ad56687f870d0fcfd88f670f94fab7fdd346247d44e
+  - path: src/ws-scrcpy/src/app/ErrorHandler.ts
+    algorithm: sha256
+    value: 8353176a4be854c231bd3ffb58784b9fe302ece0bdc19dc19979b5d600689bb6
+  - path: src/ws-scrcpy/src/app/MotionEvent.ts
+    algorithm: sha256
+    value: 18fb32de70e8d07335db4a7755f2ee250c3fd5eb4a1200884fe5aadc63c24489
+  - path: src/ws-scrcpy/src/app/Point.ts
+    algorithm: sha256
+    value: d864c033516a2ad278583c04f25433b245d512ac934cf36469695d1bec5e0735
+  - path: src/ws-scrcpy/src/app/Position.ts
+    algorithm: sha256
+    value: 23e7ba265d0f8197ae688685a36dd3c6b3dd2f96be2a8584e8691ea1d14fb61f
+  - path: src/ws-scrcpy/src/app/Rect.ts
+    algorithm: sha256
+    value: e98a73022edce9c7fb88b551d0ededb1b872ae26e597572e5f8042afa45e746e
+  - path: src/ws-scrcpy/src/app/ScreenInfo.ts
+    algorithm: sha256
+    value: efb34e0ff1d849499ecf1e816bf6f5643980b9a7d3b76ca8370bb483dd938122
+  - path: src/ws-scrcpy/src/app/Size.ts
+    algorithm: sha256
+    value: 1900d99a3750448b1f0bbaae44f7761107ec30fc375ce94ae6d2472d3db69574
+  - path: src/ws-scrcpy/src/app/UIEventsCode.ts
+    algorithm: sha256
+    value: e644c93a5f6cd2943efe0f8b07cea428eee736c3122a461b16a57f399f54129c
+  - path: src/ws-scrcpy/src/app/Util.ts
+    algorithm: sha256
+    value: 5aeaa0c81826f643b58c194c5e0e3bddae30262ad7747b8ed930236e8cb9a6e5
+  - path: src/ws-scrcpy/src/app/VideoSettings.ts
+    algorithm: sha256
+    value: 5967cf57fc1e09c40e6df8ef3b75b0a406741ac0daaec096a903217af66b9de1
+  - path: src/ws-scrcpy/src/app/applDevice/client/DeviceTracker.ts
+    algorithm: sha256
+    value: 2bada688e072f4e64c22aeb326b80b43ddd8f65930aff544323d26edc34f8e5d
+  - path: src/ws-scrcpy/src/app/applDevice/client/StreamClient.ts
+    algorithm: sha256
+    value: a71a6798492d3e74540db8dd710c6da20d069aeec736be97eb9d249a9e3abe25
+  - path: src/ws-scrcpy/src/app/applDevice/client/StreamClientMJPEG.ts
+    algorithm: sha256
+    value: 94e609b4fbf93b7b55b5ed711a936de2630ed4e5580fcba1034a3d093e329c93
+  - path: src/ws-scrcpy/src/app/applDevice/client/StreamClientQVHack.ts
+    algorithm: sha256
+    value: 4d7dd10638445d7e524cc295be5407b512ed14567f39b11d7766a486e25741e0
+  - path: src/ws-scrcpy/src/app/applDevice/client/StreamReceiverQVHack.ts
+    algorithm: sha256
+    value: 71a8f8394b9d4e528b132a0f98fc6a799b91f07008fcca03154d0208aa53584b
+  - path: src/ws-scrcpy/src/app/applDevice/client/WdaProxyClient.ts
+    algorithm: sha256
+    value: 216d367c4f5a20dc49064a40f431ef59a189e1ee4d4f5d2574700cc07e72754c
+  - path: src/ws-scrcpy/src/app/applDevice/toolbox/ApplMjpegMoreBox.ts
+    algorithm: sha256
+    value: a80c7cc18fd9a69fb298ce2d57c53721ae1025f77a6221aa7cce6b8560b22d06
+  - path: src/ws-scrcpy/src/app/applDevice/toolbox/ApplMoreBox.ts
+    algorithm: sha256
+    value: 9b94c1a8a4cd64ced94dab24372aa254daf0dcc2e77c94b924f4d2afe959e136
+  - path: src/ws-scrcpy/src/app/applDevice/toolbox/ApplToolBox.ts
+    algorithm: sha256
+    value: 06975b50424eeeef1c79ddb24b99f5199fe53438121c808e46fdd864e814e5c3
+  - path: src/ws-scrcpy/src/app/client/BaseClient.ts
+    algorithm: sha256
+    value: 465e4403701011b5132c9be163ee4b690a8caca550705a7889a69edece7645a7
+  - path: src/ws-scrcpy/src/app/client/BaseDeviceTracker.ts
+    algorithm: sha256
+    value: 127e60da0b3ec45a4eb462e0edc7fd4e674c3863fc777f8da3a219d94b1176b0
+  - path: src/ws-scrcpy/src/app/client/HostTracker.ts
+    algorithm: sha256
+    value: 45e5705f62ef6b9e41731c9f404c2e79615baa642980d6c30ea3bcbccd7e286f
+  - path: src/ws-scrcpy/src/app/client/ManagerClient.ts
+    algorithm: sha256
+    value: 9d77ddf6ba96d38248df212bfe2aaf8906829c4a56a1cef55212e03135eba683
+  - path: src/ws-scrcpy/src/app/client/StreamReceiver.ts
+    algorithm: sha256
+    value: af8e09628eb539a201f83b3a03004729f3b0c270c418041ad64d40243d052f54
+  - path: src/ws-scrcpy/src/app/client/Tool.d.ts
+    algorithm: sha256
+    value: 965ea2f60aff66eaee7d39e4eaa8241f38c5f5d5fa75224fa3e8802779932365
+  - path: src/ws-scrcpy/src/app/controlMessage/CommandControlMessage.ts
+    algorithm: sha256
+    value: 73fc9bf13a13367849df0a33331f9be5b274449119066ef6c385366c9575cddd
+  - path: src/ws-scrcpy/src/app/controlMessage/ControlMessage.ts
+    algorithm: sha256
+    value: 05f3907f85d85f688775edee8b28d9fdb97cfba396c165ede9867fe517121316
+  - path: src/ws-scrcpy/src/app/controlMessage/KeyCodeControlMessage.ts
+    algorithm: sha256
+    value: 39eab11bd3878586eee886dd3efd94c4be57bdb701ce1e81b06eafeb8188dcad
+  - path: src/ws-scrcpy/src/app/controlMessage/ScrollControlMessage.ts
+    algorithm: sha256
+    value: ad587bc32eef661c81220592dcc5829c5e9f1f6d9cb763bf1e25b9b89b899fde
+  - path: src/ws-scrcpy/src/app/controlMessage/TextControlMessage.ts
+    algorithm: sha256
+    value: f9f28adce22651b13729509749ba0b9709ec87af920362273172b1acbcf26d8e
+  - path: src/ws-scrcpy/src/app/controlMessage/TouchControlMessage.ts
+    algorithm: sha256
+    value: 8f9287060bc1eae78d77c88c504c8758915cd1da661ade5800a3288fa0ca2052
+  - path: src/ws-scrcpy/src/app/googDevice/DeviceMessage.ts
+    algorithm: sha256
+    value: c08bc94411726489622151ac582eebaa20bbb701c451e67f467a606403d6a5d9
+  - path: src/ws-scrcpy/src/app/googDevice/DragAndDropHandler.ts
+    algorithm: sha256
+    value: 586fe29b4f7fc715edd23b51785f9c20ffdc5eae55abb97424dd18965ca2fd30
+  - path: src/ws-scrcpy/src/app/googDevice/DragAndPushLogger.ts
+    algorithm: sha256
+    value: a0ebcef372fd951b555bb5dc11c3a102e89c520f06351826fd56c0519b296f08
+  - path: src/ws-scrcpy/src/app/googDevice/Entry.ts
+    algorithm: sha256
+    value: a0f077b174a89fb12c04355268206a0559847584135aa5f24fdc597c5809b12c
+  - path: src/ws-scrcpy/src/app/googDevice/KeyInputHandler.ts
+    algorithm: sha256
+    value: 8f3574584e576c44220091d5a9a1aa8774865dd4159e6b923047ef4887bce7f4
+  - path: src/ws-scrcpy/src/app/googDevice/KeyToCodeMap.ts
+    algorithm: sha256
+    value: 7fa53d04b2f4a4698ae0be93feeabfdac049e851b0e083a00f5ba1793e7ae458
+  - path: src/ws-scrcpy/src/app/googDevice/Stats.ts
+    algorithm: sha256
+    value: 67062948a305a25af9d97d010bf4587e80754c980aeb8e692c994c2faa072ccb
+  - path: src/ws-scrcpy/src/app/googDevice/android/KeyEvent.ts
+    algorithm: sha256
+    value: 11462642e81718d1e4fe37fd242e51ee5c4c6ccc013c3f55a22eead0249d3d4c
+  - path: src/ws-scrcpy/src/app/googDevice/android/MediaFormat.ts
+    algorithm: sha256
+    value: 2846a2a76d8971613ab77bb68c8ff338fbff744ae15bbc1806725780c5f723be
+  - path: src/ws-scrcpy/src/app/googDevice/client/ConfigureScrcpy.ts
+    algorithm: sha256
+    value: 3a2bc2f199329dc6c33b6dc13f76dba76ca0cd33a0d9478db4503bcc5e8f45e2
+  - path: src/ws-scrcpy/src/app/googDevice/client/DeviceTracker.ts
+    algorithm: sha256
+    value: f2fc81ab6699c07ede3d95a3ba848adc1b3bcaa39fbca5bcf37e8ac62c0db77c
+  - path: src/ws-scrcpy/src/app/googDevice/client/DevtoolsClient.ts
+    algorithm: sha256
+    value: 52214ffe62194afca9ddf6363e51b8498c32cef72bc716e192d39b9d4dc08b34
+  - path: src/ws-scrcpy/src/app/googDevice/client/FileListingClient.ts
+    algorithm: sha256
+    value: 7bdb07b17f064b5b63f5ba18ec6afe83d9c94a6f732c40735efe240b97701e68
+  - path: src/ws-scrcpy/src/app/googDevice/client/ShellClient.ts
+    algorithm: sha256
+    value: 2ea5a2c9616bac741253a01d22bdacee5fa666aadd1b069dfed63cf3b13df9a4
+  - path: src/ws-scrcpy/src/app/googDevice/client/StreamClientScrcpy.ts
+    algorithm: sha256
+    value: ce7ec2ed75f13d0bb35e24c0d3bea60d55570c437496917ccede2f9668160e15
+  - path: src/ws-scrcpy/src/app/googDevice/client/StreamReceiverScrcpy.ts
+    algorithm: sha256
+    value: 23b5ff7c9534dda5b5cbf1a065ac65b0eafb06624fca4d7793323fe1941aeea1
+  - path: src/ws-scrcpy/src/app/googDevice/filePush/AdbkitFilePushStream.ts
+    algorithm: sha256
+    value: 58d2738e0ffd4e4c84298afd27c2370cea659aca63f798dca0bfa2b0b17a3962
+  - path: src/ws-scrcpy/src/app/googDevice/filePush/FilePushHandler.ts
+    algorithm: sha256
+    value: 160571882a5c02380ee9706593b6f7e09505008fcc549f23f175ddd1e4172447
+  - path: src/ws-scrcpy/src/app/googDevice/filePush/FilePushResponseStatus.ts
+    algorithm: sha256
+    value: 6f331a311a1ba0fbc97cdb50a59745e15b1382387d10242b905336f3619583a3
+  - path: src/ws-scrcpy/src/app/googDevice/filePush/FilePushStream.ts
+    algorithm: sha256
+    value: d53683050e0f8d446f3a863c90d6c763b44753eba87783860aea552ec3756ae5
+  - path: src/ws-scrcpy/src/app/googDevice/filePush/ScrcpyFilePushStream.ts
+    algorithm: sha256
+    value: de0fe304e810d184bdefb62cbbaeedf387fee6992c1b5f21542aba32b5d92c38
+  - path: src/ws-scrcpy/src/app/googDevice/toolbox/GoogMoreBox.ts
+    algorithm: sha256
+    value: 3cc7b65ae93142f19f5fc010cede426126f1a7203acb85074d6fafc52a570240
+  - path: src/ws-scrcpy/src/app/googDevice/toolbox/GoogToolBox.ts
+    algorithm: sha256
+    value: 9b457120592851cb33894b919b847a30fbb0d5196e1985551434a2f93a8d277b
+  - path: src/ws-scrcpy/src/app/index.ts
+    algorithm: sha256
+    value: 7d6c67fcfe5ca204c25cfc528039183311e9fbe19d9e40acc7356b2e0ce4a80c
+  - path: src/ws-scrcpy/src/app/interactionHandler/FeaturedInteractionHandler.ts
+    algorithm: sha256
+    value: 82cc6d903744bfbae6c470fd26602aebd5c9b64ae0da53864f6e83278e3392c0
+  - path: src/ws-scrcpy/src/app/interactionHandler/InteractionHandler.ts
+    algorithm: sha256
+    value: 01cbd635bcc416b6251cebea2a47a20431b10d349cb15c839f2bf37ce74b86c1
+  - path: src/ws-scrcpy/src/app/interactionHandler/SimpleInteractionHandler.ts
+    algorithm: sha256
+    value: 0109013ac2d147c14e8163997aafee2f2c081307e21b1bb42adf42a73b103e91
+  - path: src/ws-scrcpy/src/app/player/BaseCanvasBasedPlayer.ts
+    algorithm: sha256
+    value: 9b5d30cffcf80cc620327e5839feeae824283c62ec75b20e6fcd098fa400bfdd
+  - path: src/ws-scrcpy/src/app/player/BasePlayer.ts
+    algorithm: sha256
+    value: 3f2586ef9c9e0cea9acff597a1ff1cefc7c48af8a58787cbac2e9e43cbca036f
+  - path: src/ws-scrcpy/src/app/player/BroadwayPlayer.ts
+    algorithm: sha256
+    value: f1ae6d161c6733eb93d869e828535adb9dd4b61771940a45c9649894238442b5
+  - path: src/ws-scrcpy/src/app/player/MjpegPlayer.ts
+    algorithm: sha256
+    value: c3c07fcf595f4979ac8b5fac7c4b67feb5bd95d00f8b63a957c35fc4ec47b9f7
+  - path: src/ws-scrcpy/src/app/player/MsePlayer.ts
+    algorithm: sha256
+    value: cc3b944f4ea95c48a85df050e42fe99867c09c9b3afc2378b796a9fba00cacc6
+  - path: src/ws-scrcpy/src/app/player/MsePlayerForQVHack.ts
+    algorithm: sha256
+    value: dae4f4a73e20fbaed029fb215ce89a3364541b9fcf2bfcd392ac985f11cf5ca5
+  - path: src/ws-scrcpy/src/app/player/TinyH264Player.ts
+    algorithm: sha256
+    value: e424ca7bdc17f1afcbd57a619849b11d55324b4a81caa59d1cdab699611884aa
+  - path: src/ws-scrcpy/src/app/player/WebCodecsPlayer.ts
+    algorithm: sha256
+    value: 61472a5c4c2450d05f4876a19152747d42d5b29e7ac19e81c48eb634e79af8d3
+  - path: src/ws-scrcpy/src/app/toolbox/ToolBox.ts
+    algorithm: sha256
+    value: aed571e206fb4fb8d7cc9f548d774063d21d7554472fa81abc5c882635f56588
+  - path: src/ws-scrcpy/src/app/toolbox/ToolBoxButton.ts
+    algorithm: sha256
+    value: 5771254ba345732166f9b3b56db8bd35cdef12984dc4a011def09ccf56bb90d5
+  - path: src/ws-scrcpy/src/app/toolbox/ToolBoxCheckbox.ts
+    algorithm: sha256
+    value: 0484f97d0fb5e1a708116dc249d6eb754f1e24e3e1ba3d7ee1eb94ea9697cc36
+  - path: src/ws-scrcpy/src/app/toolbox/ToolBoxElement.ts
+    algorithm: sha256
+    value: ea02a4bd8d5775c4d17235c54378856fd9c248aa009aa0e316513b3502ec279e
+  - path: src/ws-scrcpy/src/app/ui/HtmlTag.ts
+    algorithm: sha256
+    value: 8864ebd2312af442a46c620fb1228434b19d25139972f8fb05d51b65eeba1916
+  - path: src/ws-scrcpy/src/app/ui/SvgImage.ts
+    algorithm: sha256
+    value: adeedc911e71b35c3cd6f3eb41676c721e1619c9323ece4ba9e2bb0c1aa26a70
+  - path: src/ws-scrcpy/src/common/Action.ts
+    algorithm: sha256
+    value: 4404f4e64d05e706512d910c240c8d390708e74fec88f1f9cf53fbece409143c
+  - path: src/ws-scrcpy/src/common/ChannelCode.ts
+    algorithm: sha256
+    value: 2e0a9c7d5f43f44ecee09e0e861f57faba6b8e363048d6ac0f13bf00f7ca42e7
+  - path: src/ws-scrcpy/src/common/Constants.ts
+    algorithm: sha256
+    value: 1dbfd6563337c355962b87edb80a009b75d67a302bb0569eda923daa1d370b6d
+  - path: src/ws-scrcpy/src/common/ControlCenterCommand.ts
+    algorithm: sha256
+    value: eb3164456bcc641402f5cd32eb18282b0293efe59b8d3d06e89c8b5697b636ac
+  - path: src/ws-scrcpy/src/common/DeviceState.ts
+    algorithm: sha256
+    value: a17fcc4b47b86027e8162dcf5500a83b9b1243073e53b112cdc2b1a3c5bc632b
+  - path: src/ws-scrcpy/src/common/HostTrackerMessage.ts
+    algorithm: sha256
+    value: 1db90dd9be153fe7cf3e0e5d63d4000439cd6511ecaa912b0169603477917046
+  - path: src/ws-scrcpy/src/common/ProductType.ts
+    algorithm: sha256
+    value: b11d7414d9dd87566420500bc4a9ecf982d7afd71b8af0627dd16f0397282bfc
+  - path: src/ws-scrcpy/src/common/TypedEmitter.ts
+    algorithm: sha256
+    value: 0c166112f0d8e6bb85626fb164c64d1f9ba280177a3186a8ac477dd382cb82fd
+  - path: src/ws-scrcpy/src/common/WDAMethod.ts
+    algorithm: sha256
+    value: 0f0e8704781bc22e74e32a7d400e87625062fc20a2be1da6975436b005e1e482
+  - path: src/ws-scrcpy/src/common/WdaStatus.ts
+    algorithm: sha256
+    value: 9c55c02f3611423789562b884fe75508b0f507732fc1b4aceb671daee74aa306
+  - path: src/ws-scrcpy/src/packages/multiplexer/CloseEventClass.ts
+    algorithm: sha256
+    value: a73214509437dbe29edfdb3572a6b0200e4917672c89ce3884e9caca5df39f5e
+  - path: src/ws-scrcpy/src/packages/multiplexer/ErrorEventClass.ts
+    algorithm: sha256
+    value: 546fd5859fc9f4418687453a1e990d605e65eb36a59dce8551cc7f933243616c
+  - path: src/ws-scrcpy/src/packages/multiplexer/Event.ts
+    algorithm: sha256
+    value: a53f082129bf13720cb677e3d527c5b71be74040608cb0684eae44390e60bd16
+  - path: src/ws-scrcpy/src/packages/multiplexer/Message.ts
+    algorithm: sha256
+    value: b08a7d944055b4fcc51ce9e2df8dedfbc70df2f35e73a43e47c1b4143a5e4381
+  - path: src/ws-scrcpy/src/packages/multiplexer/MessageEventClass.ts
+    algorithm: sha256
+    value: dbdd5bef42be2eef56774d4bf52dca72346331597a7bb668adc47ed7b66321f1
+  - path: src/ws-scrcpy/src/packages/multiplexer/MessageType.ts
+    algorithm: sha256
+    value: 74d04e37673d1796f2fbd7096a35c2cb75623f8cfe7a9149107fbb072bfb6d01
+  - path: src/ws-scrcpy/src/packages/multiplexer/Multiplexer.ts
+    algorithm: sha256
+    value: 02d264205ddff33d8d38adcfebc56cdbd212f731dcf9cbcd70ba789734f07d2e
+  - path: src/ws-scrcpy/src/public/images/buttons/arrow_back.svg
+    algorithm: sha256
+    value: 74f681fbfcc365a306740fdf5d032d4d28e66bbc08ad8efeb01ed66727832c67
+  - path: src/ws-scrcpy/src/public/images/buttons/cancel.svg
+    algorithm: sha256
+    value: a885db7238956e5b32d00479ff8eb94ba16d4cc80829f4f4fa2457d568f25fbe
+  - path: src/ws-scrcpy/src/public/images/buttons/menu.svg
+    algorithm: sha256
+    value: 80ba136a180f78d42e907781b4817c68633917b641a231f5b59a37589932523e
+  - path: src/ws-scrcpy/src/public/images/buttons/offline.svg
+    algorithm: sha256
+    value: 2fa1c869dd9a3c52e35a2744295aebca110af590bf19aced23fa8baa9ac29da0
+  - path: src/ws-scrcpy/src/public/images/buttons/refresh.svg
+    algorithm: sha256
+    value: 6d0e87a569ba7c5ce3ec00eca0a1fc37da6afc0509a0be675c6920e27d156589
+  - path: src/ws-scrcpy/src/public/images/buttons/settings.svg
+    algorithm: sha256
+    value: d83074cfd0c059e205e7d55a8ff4c0f125b96395b5bb4a664c6077a7a21516c6
+  - path: src/ws-scrcpy/src/public/images/buttons/toggle_off.svg
+    algorithm: sha256
+    value: 0bb72af07998bd6faa4f92e2ff3090f23b4ad3027a838ed2aaf0d27ecc8e7fb5
+  - path: src/ws-scrcpy/src/public/images/buttons/toggle_on.svg
+    algorithm: sha256
+    value: 08686dbb61655ba49b81b017256185b3a90c7e92a43f66a2eacc75d3e803f177
+  - path: src/ws-scrcpy/src/public/images/multitouch/SOURCE
+    algorithm: sha256
+    value: 0da1715f277a84fca7c026037c5da9571c7d26a6f62f1488fa8d518cd0828151
+  - path: src/ws-scrcpy/src/public/images/multitouch/center_point.png
+    algorithm: sha256
+    value: ddb1aa448fc8119a52f0c181e00ed830ace0f2709a05357949dbabd813b9c61e
+  - path: src/ws-scrcpy/src/public/images/multitouch/center_point_2x.png
+    algorithm: sha256
+    value: e3a2f6bea066ed327d83657894e2788bf798e59f51bb1430fdb160c12abafdeb
+  - path: src/ws-scrcpy/src/public/images/multitouch/touch_point.png
+    algorithm: sha256
+    value: 707a95b3283ff12c0e70c4ab953985e92bf752425c9345a8ffea167c5f8239ec
+  - path: src/ws-scrcpy/src/public/images/multitouch/touch_point_2x.png
+    algorithm: sha256
+    value: 00d5512148fb96263870e33c5cd79c3d8331c0230356ce710db8ea2f47983840
+  - path: src/ws-scrcpy/src/public/images/skin-light/SOURCE
+    algorithm: sha256
+    value: 9235b8d130e4b0fabf2c2a131b15fba85a70be2219648da14dbebfc4416644f0
+  - path: src/ws-scrcpy/src/public/images/skin-light/System_Back_678.svg
+    algorithm: sha256
+    value: ba815aad8a810a20c66bf580332578f2be1e618d63415281b68397586dc13f51
+  - path: src/ws-scrcpy/src/public/images/skin-light/System_Home_678.svg
+    algorithm: sha256
+    value: 3c2b785003a40ed35f783c297de7dae477d96c6484c86acf7243ad5492df33ee
+  - path: src/ws-scrcpy/src/public/images/skin-light/System_Overview_678.svg
+    algorithm: sha256
+    value: cf8b7efa0aa692ae6173318e3e319bc8893b3f58b3aae05c136db3025eb2eafc
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_keyboard_678_48dp.svg
+    algorithm: sha256
+    value: 9d3ecc8a79a00bfd85ccc5c87183d86049903e0d917287c79c0bfcf64bafba94
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_more_horiz_678_48dp.svg
+    algorithm: sha256
+    value: cae9dda0490cd9e3dbfa3812b98829a1c4065e13f50ddabf9dd2539f5dcd45d2
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_photo_camera_678_48dp.svg
+    algorithm: sha256
+    value: 2d84a8ef2c247d370af6e88040a1f97e93fd6b0fe4dbe0aca7e05893fd4ef278
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_power_settings_new_678_48px.svg
+    algorithm: sha256
+    value: d412089242f3ca8c63c3ef0ffcd11651a54a340d041f5b5ccb358df7102b6208
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_volume_down_678_48px.svg
+    algorithm: sha256
+    value: 761fee6078a47e5c31536508b0077e125da616e5f1d4176220f8343052b9a2e6
+  - path: src/ws-scrcpy/src/public/images/skin-light/ic_volume_up_678_48px.svg
+    algorithm: sha256
+    value: a5d27add47b4e0c8ad770457f24314501502ea58dc60b96e94864763489e7a67
+  - path: src/ws-scrcpy/src/public/index.html
+    algorithm: sha256
+    value: 734c68330e0d3f3c077188982812c57149c9afcfa45fa930498e9562dc82cb70
+  - path: src/ws-scrcpy/src/server/Config.ts
+    algorithm: sha256
+    value: 55458f1d93ec0aca38e3e4113874d9679425c152d6d53a4ed337db0b35c8d694
+  - path: src/ws-scrcpy/src/server/EnvName.ts
+    algorithm: sha256
+    value: 0b28a9f8fc3016b6d0fdbbc4a1c0cb99fe6e662c0a057f044c08266966ba61fd
+  - path: src/ws-scrcpy/src/server/Utils.ts
+    algorithm: sha256
+    value: f1f24d090a246f4b638517c0bd35864735ab42077ef8a7a2885515916a88bd3c
+  - path: src/ws-scrcpy/src/server/appl-device/mw/DeviceTracker.ts
+    algorithm: sha256
+    value: ee6dc100817d67c9724e9ba727837dec2663d594a80feca6c1409ec3e53935ba
+  - path: src/ws-scrcpy/src/server/appl-device/mw/QVHStreamProxy.ts
+    algorithm: sha256
+    value: 897ea69d5b51b35abf2685c3cce4251eb8d6372d8573d6e41b3ee39872fe2c2e
+  - path: src/ws-scrcpy/src/server/appl-device/mw/WebDriverAgentProxy.ts
+    algorithm: sha256
+    value: 527bbad665724842cd6da22fc3f5d3c259339996eae7ec12ae9ed9b82dee2d42
+  - path: src/ws-scrcpy/src/server/appl-device/services/ControlCenter.ts
+    algorithm: sha256
+    value: 3e62ec69d8388eb8cfb8bc0646f254a7d3ac5c660a708266dd1a36f07d6ecc95
+  - path: src/ws-scrcpy/src/server/appl-device/services/QvhackRunner.ts
+    algorithm: sha256
+    value: 196cfd5c9a44882b437272498f58c3cb7a60de6a0414c20e78ac157cf800bc67
+  - path: src/ws-scrcpy/src/server/appl-device/services/WDARunner.ts
+    algorithm: sha256
+    value: a6ed0feb5a6ca833af7644848b6ae0fb58e2f10b72ef1f42e21704bc3cd1e170
+  - path: src/ws-scrcpy/src/server/goog-device/AdbUtils.ts
+    algorithm: sha256
+    value: 3b2cd53ea9649e34f65e9f27ff239390f13fc100af8cef9af698e194b9f9bb1a
+  - path: src/ws-scrcpy/src/server/goog-device/Device.ts
+    algorithm: sha256
+    value: 9e6c269e5f2d8e28fee94dc6690d4b832a58b0019677606bc026b63373805b81
+  - path: src/ws-scrcpy/src/server/goog-device/Properties.ts
+    algorithm: sha256
+    value: f89bf53a99c9b12a300c84c0859ccaafae89bc10a24195e7da7023d258780ba6
+  - path: src/ws-scrcpy/src/server/goog-device/ScrcpyServer.ts
+    algorithm: sha256
+    value: c4039c987512bef05230a822fffff68ea46b93279c4666f3537c3e692766adab
+  - path: src/ws-scrcpy/src/server/goog-device/ServerVersion.ts
+    algorithm: sha256
+    value: c8279cddb470203f7fdd3f04d2405b3368b72e6b07da97180074dc4978f26b56
+  - path: src/ws-scrcpy/src/server/goog-device/adb/ExtendedClient.ts
+    algorithm: sha256
+    value: 4a2100ff6327f0e602096f3c268435f5514aa5e4871e43101c173fe3783cea98
+  - path: src/ws-scrcpy/src/server/goog-device/adb/ExtendedSync.ts
+    algorithm: sha256
+    value: 4c8fb54722b1a778afa9d893d0d90a2db0b6341126686212c4f7de2964bcaf0d
+  - path: src/ws-scrcpy/src/server/goog-device/adb/command/host-transport/sync.ts
+    algorithm: sha256
+    value: 4d44300c40c56bbed5d040d8947c1559f4f17e09c7ec5701747e52c8e39b6b57
+  - path: src/ws-scrcpy/src/server/goog-device/adb/index.ts
+    algorithm: sha256
+    value: 46e842b8efb624a89c0ed7106791f30405d65023e496e6c6dc46a4edb8d53f1c
+  - path: src/ws-scrcpy/src/server/goog-device/filePush/FilePushReader.ts
+    algorithm: sha256
+    value: aebada22870bb2bb737902a723524fd63d5ae6e1c818dcd03511221793d80532
+  - path: src/ws-scrcpy/src/server/goog-device/filePush/ReadStream.ts
+    algorithm: sha256
+    value: 5474a264b5a70bdd368f9fe3b688e2f3e0060942e53caabcfb9cc94924b2c551
+  - path: src/ws-scrcpy/src/server/goog-device/mw/DeviceTracker.ts
+    algorithm: sha256
+    value: 29a28b3f92d66a4f44a0237ff1f5a275ca1a86a4cde10faacabffdecd7ea0f2f
+  - path: src/ws-scrcpy/src/server/goog-device/mw/FileListing.ts
+    algorithm: sha256
+    value: 5a31b7c73d3a36ee39d3b15ca05fd0cbdc797f6d86921d77c1533dc313e7be55
+  - path: src/ws-scrcpy/src/server/goog-device/mw/RemoteDevtools.ts
+    algorithm: sha256
+    value: e7c5ac058ab683dc87c293f4837cbf044b8fc550f826521bab11a04a20ed0b22
+  - path: src/ws-scrcpy/src/server/goog-device/mw/RemoteShell.ts
+    algorithm: sha256
+    value: f4364b9c743e706796fe22796750091c8028e696337c27c5cfd1b6d23bb5eaf4
+  - path: src/ws-scrcpy/src/server/goog-device/mw/WebsocketProxyOverAdb.ts
+    algorithm: sha256
+    value: 1388b64f1070192e183fada5391013c77b8d4b813111bd76799820354b83e002
+  - path: src/ws-scrcpy/src/server/goog-device/services/ControlCenter.ts
+    algorithm: sha256
+    value: 6c9e8b7e60b53023e3fc5c3c080ee3ea66b96535764412040eee7b19e5aee203
+  - path: src/ws-scrcpy/src/server/index.ts
+    algorithm: sha256
+    value: 8e227ff5ab4d05fc08c73e6d74e5931a29813100d4f9e70e4a47633088081515
+  - path: src/ws-scrcpy/src/server/mw/HostTracker.ts
+    algorithm: sha256
+    value: 27f2fdc5ad23e5f54c7923321ac8ce3fc18be4e1ce8b6554e66ceae31c6fb04f
+  - path: src/ws-scrcpy/src/server/mw/MjpegProxyFactory.ts
+    algorithm: sha256
+    value: a32f4cb4821967b5e5760caaa784695daa1c505e69a3a9c97234d510597607b0
+  - path: src/ws-scrcpy/src/server/mw/Mw.ts
+    algorithm: sha256
+    value: 59c28d431b40924216a0bc48d12d321051f70a3af25e187f5c130d4c3d75ccd4
+  - path: src/ws-scrcpy/src/server/mw/WebsocketMultiplexer.ts
+    algorithm: sha256
+    value: c3862104ac01c5758932a15759ed7d2c8eebd40f16ce157d1766fad227683473
+  - path: src/ws-scrcpy/src/server/mw/WebsocketProxy.ts
+    algorithm: sha256
+    value: 3f326cedfd8be3a76d39fd36239a05aa2166aff9705b7ab64208f0dc249ae108
+  - path: src/ws-scrcpy/src/server/services/BaseControlCenter.ts
+    algorithm: sha256
+    value: 598007929f9d7cbe523a08de0839fcfd484eb4c32cbb2e7be9b5c16e8dd78975
+  - path: src/ws-scrcpy/src/server/services/HttpServer.ts
+    algorithm: sha256
+    value: 6d70baf9ae1043c948dadc39266c4cd5b7ffce489f0c64b94e09346bfbd64371
+  - path: src/ws-scrcpy/src/server/services/ProcessRunner.ts
+    algorithm: sha256
+    value: bf47de305d3546d0928c157518c143faac4299bf6dd330de88a1b32d894b9097
+  - path: src/ws-scrcpy/src/server/services/Service.ts
+    algorithm: sha256
+    value: ecb26c50b1504d9bf91a210281dbd0a364ed8ef2872d684c4da6675b82767ebe
+  - path: src/ws-scrcpy/src/server/services/WebSocketServer.ts
+    algorithm: sha256
+    value: 9ac1387b169dee6f4fe4de0b0236b1b135c5a44c0a0aa84517aaa34aa4d50a0b
+  - path: src/ws-scrcpy/src/style/app.css
+    algorithm: sha256
+    value: f6ac1d167956af0af340e733c56324651200554a52ab74c5e37eee06e21b9aef
+  - path: src/ws-scrcpy/src/style/devicelist.css
+    algorithm: sha256
+    value: 6c99871190bc6c5c73d97713ac807063d1290408196353e9a9606c24a8430588
+  - path: src/ws-scrcpy/src/style/devtools.css
+    algorithm: sha256
+    value: 9278dd5f8ce167644c5be5b45f7cfb8a6eacefa097d9a10515c2a4c3bdc09c69
+  - path: src/ws-scrcpy/src/style/dialog.css
+    algorithm: sha256
+    value: 41c0cabdcbe16cbdb029fee0c2412fc4bf4efe0cae7741678413fdd041d9d724
+  - path: src/ws-scrcpy/src/style/filelisting.css
+    algorithm: sha256
+    value: 4b75309c75ee76360df0587f0f979e76b20d1b08b3241f61c4c6dc0e4ac2ce2e
+  - path: src/ws-scrcpy/src/style/morebox.css
+    algorithm: sha256
+    value: 5f1221dc0fcedc6172afa1393ef18a612ec17982c037cf59da7d5586842f77b6
+  - path: src/ws-scrcpy/src/types/ApplDeviceDescriptor.d.ts
+    algorithm: sha256
+    value: 82cb6db71b488a73bb84e421f64d128c5808c9a4b38ac7e430393a97ddabd3ca
+  - path: src/ws-scrcpy/src/types/BaseDeviceDescriptor.d.ts
+    algorithm: sha256
+    value: 608bead57b7998e701e13d962de70bd9548f5fc94669e144aa062af7eaabb4f5
+  - path: src/ws-scrcpy/src/types/Configuration.d.ts
+    algorithm: sha256
+    value: 9d73d920caee1e7e12e282ea73a5abeb6a489ecbba7897c920a981e72d9469d4
+  - path: src/ws-scrcpy/src/types/DeviceTrackerEvent.ts
+    algorithm: sha256
+    value: f60c333533e9f2e79b521ebf7053435f519e2683e32f62dfc247aaa1951d24e9
+  - path: src/ws-scrcpy/src/types/DeviceTrackerEventList.ts
+    algorithm: sha256
+    value: e2c347f86824ffe3ccd4cdf3f8fbc97e33329b3eaf617726f02080fe7f7f89b9
+  - path: src/ws-scrcpy/src/types/FileStats.ts
+    algorithm: sha256
+    value: 26f5d73e2ead9ef2d6517876c93aa9675fcdba3cccbec2066ebec68dd0cb5100
+  - path: src/ws-scrcpy/src/types/GoogDeviceDescriptor.d.ts
+    algorithm: sha256
+    value: 1f61cb17a43a24155858953c9e6d9866c1316455cea44ca0fcddba243bba9fde
+  - path: src/ws-scrcpy/src/types/Message.d.ts
+    algorithm: sha256
+    value: 9d79534e0ea895f6f6aaf4d97f18a2d6b0f778d22b9b8e0b31f877e53ccd534b
+  - path: src/ws-scrcpy/src/types/MessageFileListing.d.ts
+    algorithm: sha256
+    value: 53c6bf8b6573e071d3b60768a27d2e0ff3d2e4b8aec8d7ae356cb7855bc42592
+  - path: src/ws-scrcpy/src/types/MessageRunWdaResponse.ts
+    algorithm: sha256
+    value: 6faae40a35315537a6b5501518183937af80c58b6a21fd393e1aedae377787a3
+  - path: src/ws-scrcpy/src/types/MessageXtermClient.ts
+    algorithm: sha256
+    value: 00a6f8eaffc96712858bc48166436ba07c4d692212f2346114da37a293828d1a
+  - path: src/ws-scrcpy/src/types/NetInterface.d.ts
+    algorithm: sha256
+    value: fdab72e404e3a2bc882327be7ce9f8b8523a609bc162452c470848bca3036bb3
+  - path: src/ws-scrcpy/src/types/ParamsBase.ts
+    algorithm: sha256
+    value: 901465dc787bda28dc863fa1410fd66898cbe665f7d4c8882adac5c9f1b25bf7
+  - path: src/ws-scrcpy/src/types/ParamsDeviceTracker.ts
+    algorithm: sha256
+    value: 625eba1306aa7d462d47b1a98d6f45fcb19b3d465cbd98520df1366775637958
+  - path: src/ws-scrcpy/src/types/ParamsDevtools.d.ts
+    algorithm: sha256
+    value: 136f3b024ac7280affac19eac234fc7e34843e5edceed392e609c5a37adf6f01
+  - path: src/ws-scrcpy/src/types/ParamsFileListing.d.ts
+    algorithm: sha256
+    value: 3c156b74edcfdaed6722665b2448dd7a85a80ab88aa9c561764f5dc8e08941ad
+  - path: src/ws-scrcpy/src/types/ParamsShell.d.ts
+    algorithm: sha256
+    value: 742a51fdac61efa10500374698c275539579b8f322bfe6feaff2e5176d611042
+  - path: src/ws-scrcpy/src/types/ParamsStream.ts
+    algorithm: sha256
+    value: 7a263f744fb88841cc61be3966e750c12a7dfed3f41b6bbe9791b1bc4a9f715a
+  - path: src/ws-scrcpy/src/types/ParamsStreamScrcpy.d.ts
+    algorithm: sha256
+    value: d55e63e0cc4b0135f25db4024053d319f84a1b51a9f0910834e80699e7d13d15
+  - path: src/ws-scrcpy/src/types/ParamsWdaProxy.d.ts
+    algorithm: sha256
+    value: f0edb36d800230637cf59934dcf935205f33b59c6dde5d7933fa9dd85c690106
+  - path: src/ws-scrcpy/src/types/RemoteDevtools.d.ts
+    algorithm: sha256
+    value: 6da601f92793fb73001abe4029ea4ca16a2a0941d278261986277680b1caf6cb
+  - path: src/ws-scrcpy/src/types/RemoteDevtoolsCommand.ts
+    algorithm: sha256
+    value: 2943c7398be67c17ce50ea1666a10eea08a8614183a800ac2bfe920f2d67d0b5
+  - path: src/ws-scrcpy/src/types/ReplyFileListing.d.ts
+    algorithm: sha256
+    value: b96ba526cc3b899ab971cf6ddd95141e88881883e989aae62cce0c76761b0712
+  - path: src/ws-scrcpy/src/types/WdaServer.d.ts
+    algorithm: sha256
+    value: 630d0a35a2532bb1bd3fd04ccf97d9e0edacfb5b570235fff80a40d3681adbd7
+  - path: src/ws-scrcpy/src/types/XtermMessage.d.ts
+    algorithm: sha256
+    value: 3723cd71e5ec26345f1f59b5a301ee14ce231aab7eb4b264a6b0b024812ba2ed
+  - path: src/ws-scrcpy/tsconfig.json
+    algorithm: sha256
+    value: 31fba47c2f87e351bf0e9db6b00adbd44a60a45e0229e25c464fd03d4bfa8c27
+  - path: src/ws-scrcpy/typings/appium-base-driver/index.d.ts
+    algorithm: sha256
+    value: 723aba21d4487e00b3d5d385c5ccf6852a6337f04e9c4aaf6fc30ef7bfb21f7b
+  - path: src/ws-scrcpy/typings/appium-base-driver/lib/basedriver/device-settings.d.ts
+    algorithm: sha256
+    value: 41cdedde68aa4e8f4516dfbb3eab3386584411f477f84ff05b9a1df0003d8076
+  - path: src/ws-scrcpy/typings/appium-support/build/lib/timing.d.ts
+    algorithm: sha256
+    value: 59b31503b7a6f6d6a01481384e60ac1d869233d8662466736b6c3ed9c08fc8f2
+  - path: src/ws-scrcpy/typings/appium-support/index.d.ts
+    algorithm: sha256
+    value: b5914339cec9b555602750d1c1aa6b63c4a215aa51a54f1598c99c66bf265a4c
+  - path: src/ws-scrcpy/typings/appium-xcuitest-driver/build/lib/device-connections-factory.d.ts
+    algorithm: sha256
+    value: 1b218abc8c08b437fedf3369f362ce3f43e3b0844c96cfa8e2b0f10dc1793eae
+  - path: src/ws-scrcpy/typings/appium-xcuitest-driver/build/lib/driver.d.ts
+    algorithm: sha256
+    value: 63a601fbca7d0a0be7e3750b577b646dc5c08b9dfb014f0884b91df9dfc99e98
+  - path: src/ws-scrcpy/typings/appium-xcuitest-driver/build/lib/server.d.ts
+    algorithm: sha256
+    value: 49a19de8d6f71802bc55836ba8369c21e75def931d0a3425021fe6d4475fc749
+  - path: src/ws-scrcpy/typings/appium-xcuitest-driver/index.d.ts
+    algorithm: sha256
+    value: 2f2db9ea90baf898517f727e72d13202d80037eac88d9547a1ed56279549e8c3
+  - path: src/ws-scrcpy/typings/custom_png.d.ts
+    algorithm: sha256
+    value: 742284151f9cfb5d806dfd42fed12e29756fcab6d56d157739161214b5d05ad0
+  - path: src/ws-scrcpy/typings/custom_svg.d.ts
+    algorithm: sha256
+    value: fe4cdef5952e1e8b751fed049ffa895f6e0ac08ce7b38b4b35b7b61ef5b8dc7f
+  - path: src/ws-scrcpy/typings/node-mjpeg-proxy/index.d.ts
+    algorithm: sha256
+    value: f7fef36ca7171a56ebe818dea307e6010e9cd2be751ec01ba171b5570d1082ee
+  - path: src/ws-scrcpy/typings/tinyh264.d.ts
+    algorithm: sha256
+    value: d23891e7febc9e7b004d511afc78e6665541dff5ec292ae34be6332dddf3aeda
+  - path: src/ws-scrcpy/typings/worker-loader.d.ts
+    algorithm: sha256
+    value: 91ddc2205477ba6faec34b31e94de89932fdeb518f20497f0b055ce5755c725a
+  - path: src/ws-scrcpy/vendor/Broadway/AUTHORS
+    algorithm: sha256
+    value: 37210199d882c38457bd1851360a42f5bab81ae13e854482f0c3ad7ff75c7120
+  - path: src/ws-scrcpy/vendor/Broadway/Decoder.d.ts
+    algorithm: sha256
+    value: 18ab430c9c99d09393de3d9b63bbdc35b1ba691af086e432184823a9189247cd
+  - path: src/ws-scrcpy/vendor/Broadway/Decoder.js
+    algorithm: sha256
+    value: c18ef5ef3ee9361e240386fce570657c3b831370ab406a87a131861aa184e82e
+  - path: src/ws-scrcpy/vendor/Broadway/LICENSE
+    algorithm: sha256
+    value: a49ce655da9bcb7f76aab3bec588368ac6cb97e3b216ab47accba9d2d977af9e
+  - path: src/ws-scrcpy/vendor/Broadway/avc.wasm.asset
+    algorithm: sha256
+    value: f05e959033da0e40f3b91943b3cf5a5119316728bfdc9dab90e712a2aded6420
+  - path: src/ws-scrcpy/vendor/Genymobile/scrcpy/LICENSE
+    algorithm: sha256
+    value: 506da6f2859291c258481a4ba6467dfac0594eb1093cd435f48928100ea6c74a
+  - path: src/ws-scrcpy/vendor/Genymobile/scrcpy/scrcpy-server.jar
+    algorithm: sha256
+    value: a2223a3a4249822187906e0fa8b147eb5a9ed94e47a9e8e8b3f07da651149806
+  - path: src/ws-scrcpy/vendor/h264-live-player/AUTHORS
+    algorithm: sha256
+    value: 12d20b9242828ad3219bb6a159a1718da1e1e0420092dcda98ff830b2952a9e0
+  - path: src/ws-scrcpy/vendor/h264-live-player/Canvas.ts
+    algorithm: sha256
+    value: 09d0434a093ce69c41d50d5caa0a49075525ad69e0b06ba23f090d808d860803
+  - path: src/ws-scrcpy/vendor/h264-live-player/LICENSE
+    algorithm: sha256
+    value: 2ee3cd0e0f8209bda31f2636e0741ef32201ce2a029b7e740dad76815b6f883b
+  - path: src/ws-scrcpy/vendor/h264-live-player/Program.ts
+    algorithm: sha256
+    value: 28868eea5833d07f00230e38f36a8d74bfe517de974a1d9b6381f42d8f5b5a71
+  - path: src/ws-scrcpy/vendor/h264-live-player/README.md
+    algorithm: sha256
+    value: fb918b452e70edbe9d55368e68d585961103b8b478826da3605b1ad891af823b
+  - path: src/ws-scrcpy/vendor/h264-live-player/Script.ts
+    algorithm: sha256
+    value: 0cd99b951ae4971faf3aa5d023bea2aeb5f5f05b0da1ad00253efb6841cc777c
+  - path: src/ws-scrcpy/vendor/h264-live-player/Shader.ts
+    algorithm: sha256
+    value: 10a342cd0c4a2459cb573800f84a40bd9608d851befe9f6edff7e9d59a96affe
+  - path: src/ws-scrcpy/vendor/h264-live-player/Texture.ts
+    algorithm: sha256
+    value: 41f957868a8e1a30ad8556106e8b3cd9da82e0ed56e0ae55f2f49f7ad79b20a3
+  - path: src/ws-scrcpy/vendor/h264-live-player/WebGLCanvas.ts
+    algorithm: sha256
+    value: 6e6003d90a175433bc3d653bf297e9046b7f973453fd84727d504786e3a21f22
+  - path: src/ws-scrcpy/vendor/h264-live-player/YUVCanvas.ts
+    algorithm: sha256
+    value: 49f22315cf87e17bc698b67745930f689e34ebb35119f57d408eb0c2a356d7f3
+  - path: src/ws-scrcpy/vendor/h264-live-player/YUVWebGLCanvas.ts
+    algorithm: sha256
+    value: e7968439cae84382c53c973d8dcd33ba93d5977a4e0a6aa61977abe1f879a4d2
+  - path: src/ws-scrcpy/vendor/h264-live-player/utils/Size.ts
+    algorithm: sha256
+    value: 06cc983fd0be9b5e57f2ef5f385d52413b8372e772add4f118b6636056353c34
+  - path: src/ws-scrcpy/vendor/h264-live-player/utils/assert.ts
+    algorithm: sha256
+    value: 7ac54bbb5f09722d32d2c0915869f0c1326ddbc484e77b64d824f3d2f6258e8e
+  - path: src/ws-scrcpy/vendor/h264-live-player/utils/error.ts
+    algorithm: sha256
+    value: 587e8cf056b6239c172fd3f59e9a3194f78ee0d2440335974d18a2553060794e
+  - path: src/ws-scrcpy/vendor/h264-live-player/utils/glUtils.ts
+    algorithm: sha256
+    value: b679dc7e96e0bf1e0c6a61197007c51c02ce28e02c6b971ef046f4d7185ce214
+  - path: src/ws-scrcpy/vendor/tinyh264/Canvas.ts
+    algorithm: sha256
+    value: 1d0e3028d0e56e501366f1a9aa56351b3271189b426b73d0796cf5dd7a732acd
+  - path: src/ws-scrcpy/vendor/tinyh264/H264NALDecoder.worker.ts
+    algorithm: sha256
+    value: 39f6124f206ea52f525e7ea70236a1836395f2c72733ff3045841ecf513307f3
+  - path: src/ws-scrcpy/vendor/tinyh264/LICENSE
+    algorithm: sha256
+    value: cb13ce7b0a14852248b014089e54199251c81203de46aba4cc0d1ad9f8e4da4f
+  - path: src/ws-scrcpy/vendor/tinyh264/README.md
+    algorithm: sha256
+    value: 5601fcbb6204234340524fcf308e800b3c13114a2aea801b268207bcb46d750d
+  - path: src/ws-scrcpy/vendor/tinyh264/ShaderCompiler.ts
+    algorithm: sha256
+    value: e71a114b8411032db1b02cdccbf80fda3e011162ddb883364d3de017ce25f055
+  - path: src/ws-scrcpy/vendor/tinyh264/ShaderProgram.ts
+    algorithm: sha256
+    value: 3542f44213a63a4a93043413af9f3c7fc94b1ff46daf7ab5d11a7b40f569fcf4
+  - path: src/ws-scrcpy/vendor/tinyh264/ShaderSources.ts
+    algorithm: sha256
+    value: 09cd261ebdb686df9ab86a88a67fa7e5fe13bf5853a499fe0e519cdf5e2d1367
+  - path: src/ws-scrcpy/vendor/tinyh264/YUVCanvas.ts
+    algorithm: sha256
+    value: 57ac73f5725fa43a0acf1ed5bca37583727cfde7991561105ea94a805be666ad
+  - path: src/ws-scrcpy/vendor/tinyh264/YUVSurfaceShader.ts
+    algorithm: sha256
+    value: 34e0114b531308cca032abcac05d37b3aabf003ff12302d4a932ed18d9a107f9
+  - path: src/ws-scrcpy/vendor/tinyh264/YUVWebGLCanvas.ts
+    algorithm: sha256
+    value: aaeb69e76a92de35d7257b7601967f6a25aa9e48b8c2280f72e62f06e08dafef
+  - path: src/ws-scrcpy/webpack/build.config.utils.ts
+    algorithm: sha256
+    value: 643a70433c4f0efd3adb12267b5e7dca7cb525d568d0e57d132766f725a667c8
+  - path: src/ws-scrcpy/webpack/default.build.config.json
+    algorithm: sha256
+    value: 4bad609cb62b36edec844d3b0a56abf1fe092ef3426219d6db74bd3a3d7eb47e
+  - path: src/ws-scrcpy/webpack/ws-scrcpy.common.ts
+    algorithm: sha256
+    value: 8d29914463b77d436f94d153e41f1741f1a8f527f4df48f7f6db38d22ca5726b
+  - path: src/ws-scrcpy/webpack/ws-scrcpy.dev.ts
+    algorithm: sha256
+    value: 35f7b9fefd33ee127c0ebc0998bcdbb9cebc445bfbc3d02c8bed1fa4cba165c2
+  - path: src/ws-scrcpy/webpack/ws-scrcpy.prod.ts
+    algorithm: sha256
+    value: b5bff93d1a213ae2af23ba280cec82e44ab24670fa157ce0e4298fae4f9ec0d1
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-misc-001
+name: Baby Pyjail
+slug: 001-baby-pyjail
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  baby pyjail
+
+  Connect: nc {{ .host }} 8011
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Misc/Baby Pyjail
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5d933618db8ff619dc5a4c967181e311a0da2bd8e36e67e148b7c5421a589465
+  - path: challenge.yml
+    algorithm: sha256
+    value: 83b82d8a3615ebd37542f91b957fc2e407c506efddff8adc5f24cfeb1fa9a393
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 5c2963fb5bd422158305c765ca5a9a2c15eb5cca3dcb79601419b22e85433820
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: 90f9724660c9f9ba70dac2f1d1ada7a8fb2e24895e354b3888f89622bd91b3d6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: de7c35bdded3a58f7bf42a343a6f2ca3168ca22bb9f9c5bd182fcc0706944ff2
+  - path: src/chall.py
+    algorithm: sha256
+    value: 5c2963fb5bd422158305c765ca5a9a2c15eb5cca3dcb79601419b22e85433820
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: fc4badd9c0b5ef8f2b77c43b20b973465e59de6f32a29f3e515aff27b8119fb0
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 411d7c045fc498350535a545dcdbab9bfd75169575dab8d5eade782a29547d69
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/run.sh
+    algorithm: sha256
+    value: dcd2df956784ebf9b2a813514ce733f2007f521424a40522da429bdeca4b68fd
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

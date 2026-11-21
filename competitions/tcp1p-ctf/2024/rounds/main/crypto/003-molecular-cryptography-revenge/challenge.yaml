@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-003
+name: molecular cryptography revenge
+slug: 003-molecular-cryptography-revenge
+original_name: Molecular Cryptography Revenge
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: null
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: BerlianGabriel
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/Molecular Cryptography Revenge
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: cb25933577417298afaa1bcfb626750f2a87300f08586e3d4159d3e79fff5c75
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 5404b1138d6d344d78a28440a5dade38f36baa567a601dbba6bbfb7fbc120e82
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 60ebcd999d7c5ae28f322590862cd123ef336ef83df648b4678975ce14417629
+  - path: dist/chaotic.py
+    algorithm: sha256
+    value: cde053a85ae290f4d7560380539892594daabac7fac5dfc2026974c7b94d5b20
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 75fc9c0ab308b1e01fff06c4ddf07fe37524a73d575843feb1f45a54d90e7682
+  - path: src/chall.py
+    algorithm: sha256
+    value: 60ebcd999d7c5ae28f322590862cd123ef336ef83df648b4678975ce14417629
+  - path: src/chaotic.py
+    algorithm: sha256
+    value: cde053a85ae290f4d7560380539892594daabac7fac5dfc2026974c7b94d5b20
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: e3d36c961d2691d7c6cf53b162e71d08c3a0ca865a2c71cc2359b527f40349b5
+  - path: src/flag.png
+    algorithm: sha256
+    value: 9b5aa53f6a909a76dbb5b7697df9337cd86a5fd2fbad8a490af30d136b20c197
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 00660b864efd58a9d45333c8850ca6bdd7ca7129c68677403efc2019ad297b8e
+  - path: src/run.sh
+    algorithm: sha256
+    value: d6264dfbe00f5776911d5fd1fc7bbfd78457e1891f49f4fbc9d4cf50b2d15d66
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source description contains a flag, so description is omitted from metadata. The source directory
+  name differs from the challenge name.

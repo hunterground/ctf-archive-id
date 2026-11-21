@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-pwn-005
+name: ret2win
+slug: 005-ret2win
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Buffer overflow di stack bisa kita gunakan untuk overwrite saved RIP. Kita bisa overwrite dengan alamat fungsi win untuk menjalankannya.
+
+  Connect: nc 103.185.44.122 19000
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Binary Exploitation/ret2win
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e59b74a146eabc8dc93c84a9a824618ebe29441a1fd6b58b3d0d9a329e67e53f
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 1000065ff8b11efccff657fef5612bc4d30471fe249a744302e6744d256364f9
+  - path: dist/ret2win
+    algorithm: sha256
+    value: 5eabebb7becaf4245d42aecc3411e93402c6c448201a1ebb5968cfe1e7eb56ff
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 2301fc932c3e38fa0f379c30b2df3a27ee8e9719bcdd8939654272de4979138a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: c809b49c9f89f65e348d23b183bfbb060dc7e1d8e4f65b8a5623c55f85e1ed8c
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 26b74acd7d2db508226c63f37c73e72703c6affcabd0a0d7d0488ffeadf4c473
+  - path: src/ret2win
+    algorithm: sha256
+    value: 5eabebb7becaf4245d42aecc3411e93402c6c448201a1ebb5968cfe1e7eb56ff
+  - path: src/ret2win.c
+    algorithm: sha256
+    value: f7eeca92237d67bcc19c63d75390220fef8b320110447cbffda7da0038c2e68a
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

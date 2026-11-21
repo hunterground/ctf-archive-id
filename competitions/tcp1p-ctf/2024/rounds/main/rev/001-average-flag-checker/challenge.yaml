@@ -1,0 +1,54 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-rev-001
+name: Average Flag Checker
+slug: 001-average-flag-checker
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: Let's do this warm up flag checker
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: ryuk
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Reverse/Average Flag Checker
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 7a4dd493f38a1215c5f39c828a9adb74b34ca87e3edd3b2ce313739c6e771d8e
+  - path: dist/chall
+    algorithm: sha256
+    value: b093c8a52817c59cbeaf8396e5a01f26771d4848f2dd53340c9df8ae50e27d5e
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

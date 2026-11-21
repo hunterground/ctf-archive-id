@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-osint-001
+name: Stalker
+slug: 001-stalker
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: To the point, stalk ujangmokel dan temannya!!
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: b4r
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: OSINT/Stalker
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3407d4cd45698913e46b0fe4cf6d9e1dda8a21655b5ae7e03e0b29411f56dcad
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 2dc8bbc128465822d97c0af4afa1055d5a24fdefe5bb352bd0e6eb147f6e51c0
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/stepbystep.md
+    algorithm: sha256
+    value: e40e7c7e10b2d191642d5fa98f5af9d6457b18f961b6674c107fc9a66279a266
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

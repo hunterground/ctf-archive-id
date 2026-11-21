@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-007
+name: 💀
+slug: 007-skull
+original_name: skull
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `hyffs`
+
+  ![Let him cook](https://i.pinimg.com/originals/22/61/57/226157a62b9da0ab025d71f35e5574e4.jpg)
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: hyffs
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/skull
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6d0e692d371d39b0e687b10742dab486f4dbdfb48bca762064de6f7acef4f431
+  - path: build/bzImage
+    algorithm: sha256
+    value: 401e36155a5ffb46463245208d18eda033ee7fdcf52aa2369cf64779b038080c
+  - path: build/ctf.xinetd
+    algorithm: sha256
+    value: a87dddad12d2d6e8280e30c8a4970ba10ab2aefd84f2332cb61f0ecfcc44d637
+  - path: build/init.sh
+    algorithm: sha256
+    value: 0435a51cba3f242f419fa005103e11ac9d87dd962c528a8714c3414085d09560
+  - path: build/initramfs.cpio.gz
+    algorithm: sha256
+    value: ef6e3fd1915b031119774a760281721202c9c1c025d39b514870c2b35643c519
+  - path: build/run.sh
+    algorithm: sha256
+    value: 0691364981f37463d1838b3606b48ef453090a2e1f7538f4f823be0a4e5fd120
+  - path: challenge.yml
+    algorithm: sha256
+    value: 29ada8e953cabf225ef82d840a5f169af4f1b80692a2a542275826864a59ef1f
+  - path: dist/challenge.zip
+    algorithm: sha256
+    value: df2e6c05c31f761665c05dcfe3287c252a4670c36d4cf5f2f5a5629541107d5c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b77b72c03f40c6ad1c36c89ebd78b0773bf211fbf17eaa860e4f28e3a5752939
+  - path: solution/.gdb_history
+    algorithm: sha256
+    value: 782b82a69df28d5885206a30cdba351e4ca5debc08b5f6d937c8d87bc3121920
+  - path: solution/Makefile
+    algorithm: sha256
+    value: 0939eac9b2f6b11ea423d680e826dec5e2ca8594c46e4a38a68c4ee26e01953f
+  - path: solution/exploit.c
+    algorithm: sha256
+    value: bc74c5e6c7c4a2e48536c9f8fb68c48087c0d3d8ae39d47201a93b489cbf2067
+  - path: solution/gdb.sh
+    algorithm: sha256
+    value: 02189be82776a8e9e8e5da5d41eafea1ed4c27d90d961e3d6afcd3b873400d1e
+  - path: solution/remote_send.py
+    algorithm: sha256
+    value: bb945f1124ee1bf3aa88ce3c7757e92f350ceb89219d904f530aa4babae6795b
+  - path: solution/run.sh
+    algorithm: sha256
+    value: 90fa7f750eb96819b705f881620463768b88e12a2a4b5d97913d290a383da68f
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'The source directory name differs from the challenge name. The display name has no slug-safe characters,
+  so the slug uses the source directory name. connection_info from challenge.yml: nc ctf.tcp1p.com 10000'

@@ -1,0 +1,237 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-blockchain-004
+name: solantol 2
+slug: 004-solantol-2
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Challenge solana kedua di TCP1P :)
+
+  Connect: http://{{ .host }}:8752
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Blockchain/solantol 2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: edda9cb27c257dcb8ffb829f0fe69f0fa10140959307de65cb3566473f03a330
+  - path: challenge.yml
+    algorithm: sha256
+    value: cad8db79d8da3e1333cc2521391544d0fa216cd795f4b5bc0f3e62b5bcc1674a
+  - path: dist/.env
+    algorithm: sha256
+    value: d3d56d8d224ea41949e333bf117291fa95c9c9e0405f3e1f966bbc4f8b50c24a
+  - path: dist/.gitignore
+    algorithm: sha256
+    value: d1b6784101c9b4693800d0ace8dce9363648b0af20ed88ce53ff34641df606d8
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 61e77e8fb7e3693e7a9af6fcf5377267a04d29bb2defb135330062a3076800f3
+  - path: dist/deploy/.gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/deploy/__init__.py
+    algorithm: sha256
+    value: 012bc846f1f997f847eb99ccb40f57d4513b5beb34f7708c76383ccaea129773
+  - path: dist/deploy/chal.py
+    algorithm: sha256
+    value: fc961ad922fc574890df617dca964970dc8a0ef1bf3a05acaaf4fd1f3dc64fb2
+  - path: dist/deploy/interaction/__init__.py
+    algorithm: sha256
+    value: 17df6f8b4c989563f2fafe0c6b113579f239f9d88eef0321cb898c3d064ac142
+  - path: dist/deploy/interaction/setup.py
+    algorithm: sha256
+    value: d87d2a7836d577fa6624ceb0d84e88caf66097647270b7bcba37f06925788f6c
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 75219e365d02093fe50a3b5d27ab14d1002f175d37b747e3194e6e35dcbe81bb
+  - path: dist/setup/.dockerignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: dist/setup/.gitignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: dist/setup/.prettierignore
+    algorithm: sha256
+    value: 5e0368022141f5120d220f47ae5134cd3153b13ca523ed0f61915bc312ec7db9
+  - path: dist/setup/Anchor.toml
+    algorithm: sha256
+    value: 0c83b89976e98d94d900fdcfd51952a30d3b5133d71159bf2715647f492a97b7
+  - path: dist/setup/Cargo.lock
+    algorithm: sha256
+    value: ad08f89a2d2b40ea0d4c6a21bfc9851da927d7f410ff3e7c92803a0fa7010de1
+  - path: dist/setup/Cargo.toml
+    algorithm: sha256
+    value: dbd714c64166d92c8550badcd0964293191a945a0de4a756d1d69486e772c57f
+  - path: dist/setup/bun.lock
+    algorithm: sha256
+    value: 9aff2be3d3114609ab4fcb7dc8850095e414f2192c772ada9782505e81a17b3f
+  - path: dist/setup/migrations/deploy.ts
+    algorithm: sha256
+    value: af321b2b3fcf11652e296f74e5e4e64e66ea9e257d85dff7f59c40917f73398c
+  - path: dist/setup/package.json
+    algorithm: sha256
+    value: f9ddde37d1dcb59883932314606f965510e3db3c50048227ebda071545c0a66b
+  - path: dist/setup/programs/setup/Cargo.toml
+    algorithm: sha256
+    value: 112d09ce0df09c2f2feee38f8d262f2c8d52f6bcb0143d9b8804019a133960a5
+  - path: dist/setup/programs/setup/README.md
+    algorithm: sha256
+    value: 040e69d024cf0fbec6acbfec64cab5ecebf5de8b2120034b5b7e4c20704a6033
+  - path: dist/setup/programs/setup/Xargo.toml
+    algorithm: sha256
+    value: 815f2dfb6197712a703a8e1f75b03c6991721e9eb7c40dfaec8b0b49da4aa629
+  - path: dist/setup/programs/setup/src/lib.rs
+    algorithm: sha256
+    value: b54bff8b0d91eae48b6ad074bf270c5e4e45ac4f87753100f64511f4ef8f2d18
+  - path: dist/setup/tests/setup.ts
+    algorithm: sha256
+    value: 3c212cb146a9982d2ffce6832b807cc8fc1cfc693efae5e6ea9eefd68dab3b0e
+  - path: dist/setup/tsconfig.json
+    algorithm: sha256
+    value: bd0f2c29bd00ea49b24b102057d2dda078f9dea09ef193ac0335af99df5149f4
+  - path: dist/setup/yarn.lock
+    algorithm: sha256
+    value: ec730af6c59879f8fb31105d5de410c2d3269e2e9afe620b968cdb5cc44a3787
+  - path: dist/tests/is_solved.ts
+    algorithm: sha256
+    value: 6472b185c5fe7f0b7ef1344945b3ee71353ae3cbe5bb7282af0a8c1fb441ef06
+  - path: dist/tests/setup.ts
+    algorithm: sha256
+    value: 43eb6ffc14a2b5c8c69645b04ea709d46a81dfc51a910d56bee8967eb29bae68
+  - path: solver/.gitignore
+    algorithm: sha256
+    value: f4ebf274f1695a535ababb53f1fca212405b4b5b92f86bcdcf4fa07d17a90bc1
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/bun.lock
+    algorithm: sha256
+    value: c6ab4deae89cc35302a6046141a8527ddc32cbc00db1eb9311b9e5ca8d19cc72
+  - path: solver/package.json
+    algorithm: sha256
+    value: 771dc7b7dc24ed46d40abdf3f2ff395c526ad325d5b5968b39a70d3edc45161d
+  - path: solver/solve.js
+    algorithm: sha256
+    value: e20bb615d6bb005da563d25114bec82076129bfa1447bb2bbc2c63e4882375dc
+  - path: src/.env
+    algorithm: sha256
+    value: 03721f8293907b29a4672482fc8fd89b1250786adf8087ad8957b377ea505007
+  - path: src/.gitignore
+    algorithm: sha256
+    value: d1b6784101c9b4693800d0ace8dce9363648b0af20ed88ce53ff34641df606d8
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 61e77e8fb7e3693e7a9af6fcf5377267a04d29bb2defb135330062a3076800f3
+  - path: src/deploy/.gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/deploy/__init__.py
+    algorithm: sha256
+    value: 012bc846f1f997f847eb99ccb40f57d4513b5beb34f7708c76383ccaea129773
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: fc961ad922fc574890df617dca964970dc8a0ef1bf3a05acaaf4fd1f3dc64fb2
+  - path: src/deploy/interaction/__init__.py
+    algorithm: sha256
+    value: 17df6f8b4c989563f2fafe0c6b113579f239f9d88eef0321cb898c3d064ac142
+  - path: src/deploy/interaction/setup.py
+    algorithm: sha256
+    value: d87d2a7836d577fa6624ceb0d84e88caf66097647270b7bcba37f06925788f6c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 3c7edc334622eae98d1e4e1bd11aac1ed103a503c8e9e8e747e789bdf3cead00
+  - path: src/setup/.dockerignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: src/setup/.gitignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: src/setup/.prettierignore
+    algorithm: sha256
+    value: 5e0368022141f5120d220f47ae5134cd3153b13ca523ed0f61915bc312ec7db9
+  - path: src/setup/Anchor.toml
+    algorithm: sha256
+    value: 0c83b89976e98d94d900fdcfd51952a30d3b5133d71159bf2715647f492a97b7
+  - path: src/setup/Cargo.lock
+    algorithm: sha256
+    value: ad08f89a2d2b40ea0d4c6a21bfc9851da927d7f410ff3e7c92803a0fa7010de1
+  - path: src/setup/Cargo.toml
+    algorithm: sha256
+    value: dbd714c64166d92c8550badcd0964293191a945a0de4a756d1d69486e772c57f
+  - path: src/setup/bun.lock
+    algorithm: sha256
+    value: 9aff2be3d3114609ab4fcb7dc8850095e414f2192c772ada9782505e81a17b3f
+  - path: src/setup/migrations/deploy.ts
+    algorithm: sha256
+    value: af321b2b3fcf11652e296f74e5e4e64e66ea9e257d85dff7f59c40917f73398c
+  - path: src/setup/package.json
+    algorithm: sha256
+    value: f9ddde37d1dcb59883932314606f965510e3db3c50048227ebda071545c0a66b
+  - path: src/setup/programs/setup/Cargo.toml
+    algorithm: sha256
+    value: 112d09ce0df09c2f2feee38f8d262f2c8d52f6bcb0143d9b8804019a133960a5
+  - path: src/setup/programs/setup/README.md
+    algorithm: sha256
+    value: 040e69d024cf0fbec6acbfec64cab5ecebf5de8b2120034b5b7e4c20704a6033
+  - path: src/setup/programs/setup/Xargo.toml
+    algorithm: sha256
+    value: 815f2dfb6197712a703a8e1f75b03c6991721e9eb7c40dfaec8b0b49da4aa629
+  - path: src/setup/programs/setup/src/lib.rs
+    algorithm: sha256
+    value: b54bff8b0d91eae48b6ad074bf270c5e4e45ac4f87753100f64511f4ef8f2d18
+  - path: src/setup/tests/setup.ts
+    algorithm: sha256
+    value: 3c212cb146a9982d2ffce6832b807cc8fc1cfc693efae5e6ea9eefd68dab3b0e
+  - path: src/setup/tsconfig.json
+    algorithm: sha256
+    value: bd0f2c29bd00ea49b24b102057d2dda078f9dea09ef193ac0335af99df5149f4
+  - path: src/setup/yarn.lock
+    algorithm: sha256
+    value: ec730af6c59879f8fb31105d5de410c2d3269e2e9afe620b968cdb5cc44a3787
+  - path: src/tests/is_solved.ts
+    algorithm: sha256
+    value: 6472b185c5fe7f0b7ef1344945b3ee71353ae3cbe5bb7282af0a8c1fb441ef06
+  - path: src/tests/setup.ts
+    algorithm: sha256
+    value: 43eb6ffc14a2b5c8c69645b04ea709d46a81dfc51a910d56bee8967eb29bae68
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

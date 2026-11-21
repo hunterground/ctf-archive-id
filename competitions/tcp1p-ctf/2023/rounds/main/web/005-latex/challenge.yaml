@@ -1,0 +1,123 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-web-005
+name: Latex
+slug: 005-latex
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  **Author**: `Dimas`
+
+  My first LaTeX website for my math teacher. I hope this will become the best gift for him! :)
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Web/Latex
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: README.md
+    algorithm: sha256
+    value: 36f04b1f6b10bc3cef4c17acb3ea1c24ade81342a1980ba1d1791432b85f9df4
+  - path: challenge.yml
+    algorithm: sha256
+    value: c0dbc7aae76a4988cc6117273fdbab1d6ef04ccf4a4cf1f47ece7249bd0701a8
+  - path: dist/.dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: dist/README.md
+    algorithm: sha256
+    value: 36f04b1f6b10bc3cef4c17acb3ea1c24ade81342a1980ba1d1791432b85f9df4
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 5db10d5517f09a9c94df832410d8de52abc4a9ebf3a82a602a7b09e1701dc176
+  - path: dist/itsnewdist
+    algorithm: sha256
+    value: 12a61f4e173fb3a11c05d6471f74728f76231b4a5fcd9667cef3af87a3ae4dc2
+  - path: dist/src/Dockerfile
+    algorithm: sha256
+    value: 595b7786548e704769d74d556637f165016d22b5116677ee058800fe2ab9df27
+  - path: dist/src/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/src/go.mod
+    algorithm: sha256
+    value: d264894f15bc3439009edae39d9c71233c9fcfc2b8b94035ea2e79fb5dd97f6f
+  - path: dist/src/go.sum
+    algorithm: sha256
+    value: 5e6ae708781c0667dcec217517a50001166e341495a211b8a23444c5fb5a1966
+  - path: dist/src/main.go
+    algorithm: sha256
+    value: ec10c7a19ecb7a8d91aaffea9289520677347c02c522ad22717c09abcc6ec51b
+  - path: dist/src/static/index.html
+    algorithm: sha256
+    value: 13e8bb59d9cd06206ac88d58bdba6b9a21ded7a53e99cb71eb52f8b016eb4cb1
+  - path: dist/src/tailwind.config.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist.zip
+    algorithm: sha256
+    value: d920e7bc2a0d408547e1ed760ee123d1ac7de609b91ab9243705e0b894b538a7
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5db10d5517f09a9c94df832410d8de52abc4a9ebf3a82a602a7b09e1701dc176
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 595b7786548e704769d74d556637f165016d22b5116677ee058800fe2ab9df27
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e8b024fd50643bdc399d5acca33603d21e9db6981e69023b65f66e9c67b7fe06
+  - path: src/go.mod
+    algorithm: sha256
+    value: d264894f15bc3439009edae39d9c71233c9fcfc2b8b94035ea2e79fb5dd97f6f
+  - path: src/go.sum
+    algorithm: sha256
+    value: 5e6ae708781c0667dcec217517a50001166e341495a211b8a23444c5fb5a1966
+  - path: src/main.go
+    algorithm: sha256
+    value: ec10c7a19ecb7a8d91aaffea9289520677347c02c522ad22717c09abcc6ec51b
+  - path: src/static/index.html
+    algorithm: sha256
+    value: 13e8bb59d9cd06206ac88d58bdba6b9a21ded7a53e99cb71eb52f8b016eb4cb1
+  - path: src/tailwind.config.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 62211bf21dfabcac286b413e1f4ab9c66d4c84f3c53c22c9eed967b68240bd1f
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:52132'

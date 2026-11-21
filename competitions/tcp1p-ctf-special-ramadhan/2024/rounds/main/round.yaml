@@ -1,0 +1,40 @@
+schema_version: "1.0"
+
+id: main
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+
+name: Main
+original_name: null
+
+sequence: 1
+type: other
+delivery: null
+
+description: null
+
+dates:
+  start: null
+  end: null
+
+statistics:
+  challenge_count: 36
+  participant_count: null
+
+references:
+  - title: TCP1P CTF Special Ramadhan 2024
+    url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+    type: official_repository
+    accessed: "2026-11-21"
+
+verification: corroborated
+notes: >
+  The organizer repository publishes one challenge set and does not describe a
+  qualifier or final, so the round id is main. The README states no dates.
+  Sequence numbers are alphabetical by source directory name within each category.
+  Challenge metadata does not state point values. The repository LICENSE is MIT,
+  copyright 2024 TCP1P, and is preserved in this directory. Repository-level
+  README.md, SOP.md, Kriteria.md, Makefile, Dockerfile, docker-compose.yml,
+  rcds.yaml, .ctf/, .dependency/, .script/, .rcds/, .vscode/, and .gitmodules were
+  not copied into challenge directories.

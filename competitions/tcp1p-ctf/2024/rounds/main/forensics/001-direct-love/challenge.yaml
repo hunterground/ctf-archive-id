@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-001
+name: Direct-Love
+slug: 001-direct-love
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: My fiancée, Mizuhara Chizuru, lent her laptop to one of her friends. Her friend downloaded
+  files using a peer-to-peer protocol on Windows. However, not long after, one of Chizuru's important
+  documents went missing. There's always something with my fiancée :D
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: C2uru
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/Direct-Love
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6a60626ca257fe8f81d2bacefc8cd5ed52a24590d9b75725648fa79c1f1f3aed
+  - path: challenge.yaml
+    algorithm: sha256
+    value: b3430fdac07368c8293ecb8e9b1de13bd7275f175a33e7d064d85dc4678acd79
+  - path: dist/Direct-Love.zip
+    algorithm: sha256
+    value: ddf2710b75368370bb138fe1a6157610e2f50b332da82675452d180fe3dc1971
+  - path: solver/README.md
+    algorithm: sha256
+    value: 4bd35c880a052517e7de389f021152b836380810cc5c3849658b5dfeb3b5b892
+  - path: src/server.py
+    algorithm: sha256
+    value: 647587dba7b861d7ca51c0e57d1f09079300afd3da96aae362c903640d0a675f
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

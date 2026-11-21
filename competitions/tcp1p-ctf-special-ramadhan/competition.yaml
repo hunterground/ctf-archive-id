@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan
+name: TCP1P CTF Special Ramadhan
+country: ID
+organizer:
+  name: TCP1P
+  website: https://tcp1p.team/
+website: null
+description: Jeopardy Capture The Flag specials organized by TCP1P for Ramadhan. These events are separate
+  from the annual TCP1P CTF series.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: unknown
+verification: corroborated
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+notes: The 2024 and 2025 organizer repositories use this event name and are distinct from the annual
+  TCP1P CTF editions recorded under tcp1p-ctf. No start year earlier than 2024 was established.

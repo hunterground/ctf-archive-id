@@ -1,0 +1,186 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-rev-001
+name: ffiishy
+slug: 001-ffiishy
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: Foreign Function Interface is FFIishy (or ffiilthy?)
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: f4r4w4y
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Reverse/ffiishy
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9c66176646e8456e1da366a4cca9668337ae11df16503c9082eb7b303090f7c2
+  - path: challenge.yml
+    algorithm: sha256
+    value: 56b6320a67e78f31d8486db7421c76dbb5a08b9205006ce606c07db89f7ce5de
+  - path: dist/ffiishy.apk
+    algorithm: sha256
+    value: 915dc5b9b0c158e984c0703492095cfb6fdd95f0ed52e449565f8a284172bd7a
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/eqs.java
+    algorithm: sha256
+    value: cead1ef750edfb0902465be3cfcc8d74aafe17d37fb38dfec43d9276270820ec
+  - path: solver/solve.py
+    algorithm: sha256
+    value: 5a40ad2df9609c871e895b8d9f5f094e531ccae2dc099960378aedeb760eb60f
+  - path: src/fishy/.gitignore
+    algorithm: sha256
+    value: 6dbe3e33f272d9d7d930e6b3677d77d8f92419ac6470fc1bd2d7a52ea2029a49
+  - path: src/fishy/app/.gitignore
+    algorithm: sha256
+    value: 5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4
+  - path: src/fishy/app/build.gradle.kts
+    algorithm: sha256
+    value: 9aa8e6eeb31d589c9bc3b6ed76d728c0dd0550d767c19f9954979357255f8f4c
+  - path: src/fishy/app/proguard-rules.pro
+    algorithm: sha256
+    value: 5f6db2a9c39e70944ff302b6f902bd81a0c8c555fe26aa1f8e7e61f263fed0cd
+  - path: src/fishy/app/src/androidTest/java/com/something/fishy/ExampleInstrumentedTest.java
+    algorithm: sha256
+    value: ee50cc59027ec3afb6d765f0786b16b926da28d2623b951d6cc51961a8687210
+  - path: src/fishy/app/src/main/AndroidManifest.xml
+    algorithm: sha256
+    value: b3089839612fc8bbd253ff28784843e3a2d4b8c5c4a05a3d9f14f8979aac38c9
+  - path: src/fishy/app/src/main/cpp/CMakeLists.txt
+    algorithm: sha256
+    value: eddc76cb6d9d0706c65d2d619c28823cb847af6d590e98d141ee3faf2e58b74a
+  - path: src/fishy/app/src/main/cpp/native-lib.c
+    algorithm: sha256
+    value: 1c62c4b08c6bf6105614c7015ac089fabad18bf3193c254361d99f4572c3ed7b
+  - path: src/fishy/app/src/main/java/com/something/fishy/MainActivity.java
+    algorithm: sha256
+    value: 1421ac25dc22ee820b62a590f90f5f79f85dea537210ada1f67e77d3d110157e
+  - path: src/fishy/app/src/main/res/drawable/ic_launcher_background.xml
+    algorithm: sha256
+    value: ed423c73a6f40a4d2909f0901e60527b3a807cd59e1b5593bcaae1808b1c6321
+  - path: src/fishy/app/src/main/res/drawable/ic_launcher_foreground.xml
+    algorithm: sha256
+    value: 01d1a6a6c1234eb7fe270d097eb283d72b9c95ae5118886f1b6573aad280f1f7
+  - path: src/fishy/app/src/main/res/layout/activity_main.xml
+    algorithm: sha256
+    value: ccc9e71b5959d1a4dcfd0351df8bf596fd51b6629342f4b83dbe285f258c80c8
+  - path: src/fishy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+    algorithm: sha256
+    value: 88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0
+  - path: src/fishy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+    algorithm: sha256
+    value: 88f7653499ef524126ea5018a99baf9cc3269e7e584d6205dfdd76db39f39cc0
+  - path: src/fishy/app/src/main/res/mipmap-hdpi/ic_launcher.webp
+    algorithm: sha256
+    value: dd00996198640ed28fbc09cdcd7a3807cf8707f3eb255b659634da3ca6a6ff01
+  - path: src/fishy/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+    algorithm: sha256
+    value: 1ed73f5341a69d3b41c7e02e126803f50cc8c3284adf4bbb737f0c93577aef07
+  - path: src/fishy/app/src/main/res/mipmap-mdpi/ic_launcher.webp
+    algorithm: sha256
+    value: 846219e6f72fe9a6c104ca8919cbee36a101e7d2ff8da9da67b689a5888f060d
+  - path: src/fishy/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+    algorithm: sha256
+    value: 4e2c58b91de01130e6479e00cbbaaf6e77cd961dd2c8e303cf13cd077fa92632
+  - path: src/fishy/app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+    algorithm: sha256
+    value: 398340dad816fc9a6338cb151a8cf1e45b926f9bfb70628b24c4bd2523cc94d4
+  - path: src/fishy/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+    algorithm: sha256
+    value: 91b490aef86574901137f0a252272e1f1add99c1ad709e0696ed68929b88d261
+  - path: src/fishy/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+    algorithm: sha256
+    value: 58ae87fa0c5b5d1562d27fd648d2c061553fe20e3ed570bde588162d01ea7a27
+  - path: src/fishy/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+    algorithm: sha256
+    value: 3009fad079f5772f30ecd767f98924367fbe0f81c30048d672d4fda2d5ca7d12
+  - path: src/fishy/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+    algorithm: sha256
+    value: f98fef5bc3bfe5b65692c40ad1cbae2bec4faf9f1b249c397626740db71b62d8
+  - path: src/fishy/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+    algorithm: sha256
+    value: 5faf033745c8c882c43bb1b372d4e4a5890caec63d9892a2e756c954108b85dc
+  - path: src/fishy/app/src/main/res/values/colors.xml
+    algorithm: sha256
+    value: b5626527d503417f0d8e5b1e08f338de7b31173bf0e122815f03e64932adbd88
+  - path: src/fishy/app/src/main/res/values/strings.xml
+    algorithm: sha256
+    value: 0cd8adea3150801d6a7867c025b82ff0b03a2d18c65f854849f10d2f18e50bf9
+  - path: src/fishy/app/src/main/res/values/themes.xml
+    algorithm: sha256
+    value: 6a8c3b4f6133d787dd07d92e321b557fe3cefab78d6f82a26ffdb24353eeb716
+  - path: src/fishy/app/src/main/res/values-night/themes.xml
+    algorithm: sha256
+    value: 3c901977245143b4da448d6eadb27e78fa1bb763de2a3be7242cd9b18c50ec00
+  - path: src/fishy/app/src/main/res/xml/backup_rules.xml
+    algorithm: sha256
+    value: 9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7
+  - path: src/fishy/app/src/main/res/xml/data_extraction_rules.xml
+    algorithm: sha256
+    value: cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381
+  - path: src/fishy/app/src/test/java/com/something/fishy/ExampleUnitTest.java
+    algorithm: sha256
+    value: 1d68761e442589dcf764b4a1563b6892ffa719b6d4225744c08202000cebc96f
+  - path: src/fishy/build.gradle.kts
+    algorithm: sha256
+    value: 5dad2d59c54beb7d7801e06e1c795456d1bea58c0ccbeddfce159cd8f58c2fa8
+  - path: src/fishy/gradle/libs.versions.toml
+    algorithm: sha256
+    value: 7e371fa53a55319d4a93d41f57bd1524fdcdd1de311e95a6679b97c6547fc7a9
+  - path: src/fishy/gradle/wrapper/gradle-wrapper.jar
+    algorithm: sha256
+    value: e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637
+  - path: src/fishy/gradle/wrapper/gradle-wrapper.properties
+    algorithm: sha256
+    value: e86332bd4640e7211821fefb6e9c28fdff2c118d6533e21acd6d45e0f4157704
+  - path: src/fishy/gradle.properties
+    algorithm: sha256
+    value: 41a9783e6d8fba6d52cf787adab4b02b9d0593169e30590c51aa9be2eebe8182
+  - path: src/fishy/gradlew
+    algorithm: sha256
+    value: 63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65
+  - path: src/fishy/gradlew.bat
+    algorithm: sha256
+    value: af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b
+  - path: src/fishy/settings.gradle.kts
+    algorithm: sha256
+    value: a483a7f087d2fded5797839cb0f3f44cc83ac08e4d38019704ec3ee9b7fb9a1d
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-001
+name: Another Discord
+slug: 001-another-discord
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `daffainfo`
+
+  TCP1P has another discord server?
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- misc
+- discord
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Another Discord
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: d26ac0b24849748540efbfc93eef7fe99410e1879ede135f95e4fbd279dd3b59
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 2e3aa2079fd97996f8b0386310eb0a32e0016e65ad053ffb29327cbd9d7af5b7
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: https://discord.gg/kzrryCUutP'

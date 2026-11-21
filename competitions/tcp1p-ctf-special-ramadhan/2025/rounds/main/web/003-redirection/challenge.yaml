@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-web-003
+name: Redirection
+slug: 003-redirection
+original_name: redirection
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Can you do open redirection on youtube?
+
+  Connect: http://{{.host}}:16787
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Web/redirection
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bef88ae5cea5683cf4229b3315318009b3236ff3c1e82a33a38767ca4c412bb3
+  - path: challenge.yml
+    algorithm: sha256
+    value: b2c8de186d61fb971973c1d90ef68feedad1520b541e0f93721cdf7227d04408
+  - path: dist/app.py
+    algorithm: sha256
+    value: e65f623fff72d3c9c2e6f4156898780d4dea82a8c2e20159efdc278684b896d9
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solve.txt
+    algorithm: sha256
+    value: 6adf570cf5ba1b9abfb34354ac9fee847c5078e5f04653b0643393749f42923d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 8120c13a402d5d201c1d9458ff15ee6ef9ecc4e4ce45f0cafad3d27110e6bbd1
+  - path: src/app.py
+    algorithm: sha256
+    value: e65f623fff72d3c9c2e6f4156898780d4dea82a8c2e20159efdc278684b896d9
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 3c003ef08a091f15e21c2a3ae8fddc9b191f2a47492dd18e5b70eaf5513178f2
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

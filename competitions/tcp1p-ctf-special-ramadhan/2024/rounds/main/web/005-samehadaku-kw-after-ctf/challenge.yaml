@@ -1,0 +1,157 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-web-005
+name: Samehadaku KW After CTF
+slug: 005-samehadaku-kw-after-ctf
+original_name: samehadaku-kw-after-ctf
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  Ini challenge dari Intechfest 2023 ya temen2, kalian hanya perlu melakukan run pada script poc yang sudah ada pada repo intechfest
+  untuk menyelesaikan challenge ini :)
+
+  Connect: http://103.185.44.122:49047
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Web Exploitation/samehadaku-kw-after-ctf
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 4b1ab4f4fc21b0f17f8d5ae548e7a10cbbac59e93b19162d0bd72ccbd5d92704
+  - path: dist.zip
+    algorithm: sha256
+    value: 826b67ebe6f68f85b1d1bdebc9d8d461bf3ff4830451f5838a39d227854bfb23
+  - path: solution/README.md
+    algorithm: sha256
+    value: 38a533b2a9802242afa1fe6c5e26b5be2c12ed09a587f23e0ece72ca8af6cfaa
+  - path: solution/image.png
+    algorithm: sha256
+    value: faff238f0356b69390c752a52158cc9a54b653d3f7ad7b26020699c65319e391
+  - path: solution/solver/README.md
+    algorithm: sha256
+    value: b43c2836038f95ccc94a6687e5424650e82af6e932c74157ec3cdf2a0de98f1a
+  - path: solution/solver/author_exploit.conf.yaml
+    algorithm: sha256
+    value: f4a8e248455359deda038047e8e2e56460b60879513d156607c3d17f0c73bce2
+  - path: solution/solver/exploit.tar
+    algorithm: sha256
+    value: 715e2e7221d84f75c130d038fcc21f2733fd0dd3a670d258ccb17f5846d33a46
+  - path: solution/solver/exploit.zip
+    algorithm: sha256
+    value: 597f5a1007473ebde9073293d2ed032a858b63fd2528e6ce9020f383c5a79916
+  - path: solution/solver/solve.py
+    algorithm: sha256
+    value: 2d7dd1c495b50a55f6c61d9e7f2e79ffc130711f4e892d8dd929ca8cf6b340dc
+  - path: src/samehadaku.kw/.dockerignore
+    algorithm: sha256
+    value: b6a10f9164dc95bd2fb0dbb5ee1485389ebe8f4d2a8617ad759872c6a572ed22
+  - path: src/samehadaku.kw/docker-compose.yml
+    algorithm: sha256
+    value: 1be62617f5955b898cc04d63f087b3771adb4d8e523bd502f8336908091f1dcf
+  - path: src/samehadaku.kw/dockerfile
+    algorithm: sha256
+    value: 1a78fdbe88999979231e07a42bd42f64c543434d6732bd33c6ec40fed49c318e
+  - path: src/samehadaku.kw/flag.txt
+    algorithm: sha256
+    value: 506d510ef3be9ef00bcad8ed18468a620208815ec76ecc0cd6212af69464d7bf
+  - path: src/samehadaku.kw/server/.dockerignore
+    algorithm: sha256
+    value: aff01424955c1b9b7cc6860d8d7b8309f2b535c92dce722f53434b66493eed5c
+  - path: src/samehadaku.kw/server/config/default.conf.yaml
+    algorithm: sha256
+    value: bc75ff078a3f8ec0b1b16cec4f471ad1fc912c94655823c6e61a499ef2fa9443
+  - path: src/samehadaku.kw/server/config/white.conf.yaml
+    algorithm: sha256
+    value: a86192d884e601af0e925ebdba34c4a1a68f1c2e3c2824d57340dd378ad0535a
+  - path: src/samehadaku.kw/server/debug.sh
+    algorithm: sha256
+    value: c114a6a219bd6ca3295d0ad47460916525953b218d7fd5c947a3239226d65659
+  - path: src/samehadaku.kw/server/main.py
+    algorithm: sha256
+    value: f133c60a5b457fd8a8e8c4e6ad75c397f4c1ee4aab55965f26c6cad82c4c44c9
+  - path: src/samehadaku.kw/server/module/Auth.py
+    algorithm: sha256
+    value: c6a2903f90f8483822c27d07ffd421de39782e53465d4a7bf2a5359dc39d08f4
+  - path: src/samehadaku.kw/server/module/configparse.py
+    algorithm: sha256
+    value: d75384b3c271e820c30bf350ffef9647d2545d734e26195e20a82ce9ea656402
+  - path: src/samehadaku.kw/server/module/errorhandler.py
+    algorithm: sha256
+    value: 32596570136169bba651325d9d5ff2162f2613c6c4dca26fcdbe108e59d60c3d
+  - path: src/samehadaku.kw/server/module/sanitizer.py
+    algorithm: sha256
+    value: 6df16c520b3aded5f5709d32f00a84443871a536fc07c28dacc69e836e6100f6
+  - path: src/samehadaku.kw/server/requirements.txt
+    algorithm: sha256
+    value: ff28726ad7211153bd99711e8ab96e4022705f54d1b52ee538c4b281d7bcac35
+  - path: src/samehadaku.kw/server/routes/upload_tar.py
+    algorithm: sha256
+    value: 100f4ed4e0be5bea6a8b280bd1754064a4f60a550620a281d0639902c97de4ef
+  - path: src/samehadaku.kw/server/routes/upload_zip.py
+    algorithm: sha256
+    value: 04cd023765c5c480cb035bac95091d9be90e7791c3743373e8f503c12e52b24d
+  - path: src/samehadaku.kw/server/routes/vidio.py
+    algorithm: sha256
+    value: 64ea1f2226803c2e018a9f0a277d1a455ddf55ac1d9c65e97e0583dd4193c130
+  - path: src/samehadaku.kw/server/routes/views.py
+    algorithm: sha256
+    value: 8cb1ba62bf2ea8354d66c97d8c22dce907b1c4e6f4b8ba14223d26acf036a022
+  - path: src/samehadaku.kw/server/run.sh
+    algorithm: sha256
+    value: 07fdbbf470bfd6d32e3bdd048239e62c18ebad2ed9290d049a7c97c095a1173b
+  - path: src/samehadaku.kw/server/uploads/Anime Sample.mp4
+    algorithm: sha256
+    value: c6905ce2931e3469976a4195cdfb8d244e4897bb379e251d4b473e69de0471c3
+  - path: src/samehadaku.kw/server/uploads/Anime Sample.mp4.jpg
+    algorithm: sha256
+    value: adf0cf6c73e3c29599e404ac0860df354df60616e49b0cfce9ca23a16ee894f6
+  - path: src/samehadaku.kw/server/views/admin.html
+    algorithm: sha256
+    value: 4ed5c1ab4ad9beda60fb3ae5ebe7ff01029aee2d9257bfd525e708d900c059f1
+  - path: src/samehadaku.kw/server/views/anime_list.html
+    algorithm: sha256
+    value: 737b953952b5ec08aba81c051bf5b1549d84c4a1ed319b8b7740ecb02745f2d8
+  - path: src/samehadaku.kw/server/views/footer.html
+    algorithm: sha256
+    value: 5b4f10136d056d07bc5bccb1b90c5cb22952b9e3e994ba959d58345d49f73715
+  - path: src/samehadaku.kw/server/views/header.html
+    algorithm: sha256
+    value: 734160d4c3af8cb7cb9470bebe99c7161a5e6308784aa775bd4ba320e561cda6
+  - path: src/samehadaku.kw/server/views/home.html
+    algorithm: sha256
+    value: 144f6e75fb7a0d2b35813a357af23d8b477dffae16bf711eddfcf7cb18557f98
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

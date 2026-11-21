@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-forensics-008
+name: scrambled egg
+slug: 008-scrambled-egg
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  **Author**: `zran`
+
+  I accidentally scrambled my egg yesterday while I was looking at a png. Can you help me unscramble my egg?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Forensic/scrambled egg
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c7d40216a8bf5532b2b77b389fbaaf4c1a048b6440390f74dc71a800fcdc2241
+  - path: challenge.yml
+    algorithm: sha256
+    value: 88c1066e7a83bceae291a510134a9a6fdc9d38ba32cc15bd9858b7e8615b1f80
+  - path: dist/scrambled_egg.zip
+    algorithm: sha256
+    value: d17a170f30eb9862c46f18b7426befdbf23a1b183a110e8c0e53bb10c35e4748
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

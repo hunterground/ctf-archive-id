@@ -10,12 +10,18 @@ dates:
   end: '2023-10-15'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 61
 references:
 - title: CTFtime / TCP1P CTF 2023
   url: https://ctftime.org/event/2001/
   type: third_party_archive
   accessed: '2026-11-21'
-challenge_materials_imported: false
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: true
 notes: CTFtime, using the organizer's event entry, gives 13-15 October 2023 and the jeopardy format. The
-  listed window is 13:00 UTC on 13 October through 13:00 UTC on 15 October.
+  listed window is 13:00 UTC on 13 October through 13:00 UTC on 15 October. The 61 challenges were imported
+  from the organizer repository at commit 0b5785e01490a9b82a6134be51c81f779ba35dad. That repository's
+  LICENSE is MIT, copyright 2023 TCP1P.

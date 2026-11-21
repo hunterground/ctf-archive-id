@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-003
+name: digital circuit
+slug: 003-digital-circuit
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `zran`
+
+  Hi, I'm back again. Should be easier this time around.
+  (just an extra pwn chall since there's still a lot of time left)
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/digital circuit
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5d1e4f4339d1408304c35f8ba193d4005f38c8492abf71de8c93f9a3241ecc4c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4949f8d9df602ac398fe4c75e091fb82032cb2c7c69d60f1708dfecc4ff2d8fc
+  - path: dist/teleport
+    algorithm: sha256
+    value: 0700ee4aa359dcac35a386184a4bded55ce9bb56133f94f1abfaff330644262f
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 8c6b652f44799150e6d21bc6956f8a92a0e499113d1d427d146851022176e970
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 27ceeaacf7ce26e1e1038887037d074c776887c83ba024a68497962fc08812be
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 125dbcace33c7c8ae985014617542b0e207674e874cfcb62114e957d45e54569
+  - path: src/teleport
+    algorithm: sha256
+    value: 0700ee4aa359dcac35a386184a4bded55ce9bb56133f94f1abfaff330644262f
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 1470'

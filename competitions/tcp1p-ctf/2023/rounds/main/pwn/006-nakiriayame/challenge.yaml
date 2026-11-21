@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-006
+name: NakiriAyame
+slug: 006-nakiriayame
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `HyggeHalcyon`
+
+  Ayame cute noises (✿╹◡╹)
+  https://www.youtube.com/watch?v=XsdQguLgvFc
+  https://www.youtube.com/watch?v=NPMhb_mIIhU
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- pwn
+authors:
+- name: HyggeHalcyon
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/NakiriAyame
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 1f0c09860a4dbc2935dcbdf7a4951d75a12c6d96740bd287dab9d91f4c1bcb55
+  - path: README.md
+    algorithm: sha256
+    value: 7929fff21e6833204c4399463de8a915d185a4a8753a5730b97c3c8a27d11cff
+  - path: challenge.yml
+    algorithm: sha256
+    value: da3d9a2c3ba1d32b9d3b62673027c15318f9ecfe0541100ae5831703760abcd6
+  - path: dist/ojou
+    algorithm: sha256
+    value: 2f67d2f816ba59c0c4eee63944e2fb091cd8da412c7b76d0fdee4757d7b06b98
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5d37067a24896d7c4c8792ae1cd3647f86b644f76bdbcde31afe846e8cd8df03
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8c9ae2caf13a958391e5e2df841d1884850dc307d413798a9d7ab360fe0fe284
+  - path: src/gadget.asm
+    algorithm: sha256
+    value: e3f0d119f46ade350e7982c18531b8ff2cc2485e48bd018c533c1ddf7378ec9d
+  - path: src/ojou
+    algorithm: sha256
+    value: 2f67d2f816ba59c0c4eee63944e2fb091cd8da412c7b76d0fdee4757d7b06b98
+  - path: writeup/exploit.py
+    algorithm: sha256
+    value: bff8d8ade7e4613f20b5957afabe3ade80d8b115a53404e9b8ea2ddde64a21f1
+  - path: writeup/gadgets.txt
+    algorithm: sha256
+    value: fe34a3031afde8f89d51148103b4642499ba4cabb526e9e81168fdcce58330f7
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 6666'

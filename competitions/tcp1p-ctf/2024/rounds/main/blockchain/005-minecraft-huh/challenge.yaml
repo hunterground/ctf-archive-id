@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-blockchain-005
+name: Minecraft huh?
+slug: 005-minecraft-huh
+original_name: Minecraft huh
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Say, everyone knows minecraft right?
+  The game about mining block after block after block after block.....
+
+  NOTE!
+  You only need to spawn an instance, no need to press the "Flag" button.
+  The isSolved() function will always return false afterall.
+
+  Connect: http://{{ .host }}:44555
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: kiinzu
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Blockchain/Minecraft huh
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 865eab2c38e7c3b0cf146323e629454d5a40fcd6144ea6f4b2feb88915acea51
+  - path: Dockerfile
+    algorithm: sha256
+    value: b161ee2b48d5d6ce948ed420904fab103b1de62f971766ba727fd055008453f7
+  - path: challenge.yaml
+    algorithm: sha256
+    value: b5d48ad17656448ccd0868c526ab4aadbfc033eefcde75f5420e674997a090fe
+  - path: contracts/Changer.sol
+    algorithm: sha256
+    value: 9da5bebd8e7b8af4ee3eaae944acedeff3b43a36c44412cefe2464d2c65aafb1
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 2c56d1194e8de49366457b6f8126d5990dad9746433e7a4e52f469e02dc386ca
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: b8951a7bee013deefc3978570449b812b08879ec4b4e7a9d1d8fec00cb45472e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bc87d864b169a3827665ef941d75a0a76fab11a204499c90d2ea9f367d27787b
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

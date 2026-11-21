@@ -1,0 +1,22 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024
+competition_id: tcp1p-ctf-special-ramadhan
+year: 2024
+name: TCP1P CTF Special Ramadhan 2024
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 36
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: true
+notes: The organizer repository is titled TCP1P CTF Special Ramadhan 2024 and describes the source as
+  the CTF conducted during Ramadhan in 2024. The README states no dates. The 36 challenges were imported
+  from commit 29835841326bbbb138281babd68fa1fb30434296. The repository LICENSE is MIT, copyright 2024 TCP1P.

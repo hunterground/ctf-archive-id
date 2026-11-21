@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-007
+name: Skibidi Format
+slug: 007-skibidi-format
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: So my friend just made a new image format and asked me to give him a test file, so I gave
+  him my favorite png of all time. But the only thing I receive back is just my image with his new format
+  and its "specification" file, don't know what that is. Can you help me read this file?
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Suisayy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/Skibidi Format
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b11ae9f0ab40063406e75c7fc645f28bd0056e7e834997b5b0561bc22e5a5653
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 59fbb007137728cc3ad74574053a783ff2cf30c3bcf46b8324b1772029896419
+  - path: dist/spec.html
+    algorithm: sha256
+    value: 372281a45749803c897a28109bc2fc8f77f3ab55bf931b951b6f53ac40345d63
+  - path: dist/suisei.skibidi
+    algorithm: sha256
+    value: 5b3c64e075246e166a80b2b6a5fb881ba3b185bcffe986948f0d01f3c8128406
+  - path: solver/decoder_skibidi/Cargo.toml
+    algorithm: sha256
+    value: 25f1bbd7a929bb85ce7023f5cef56bb3dd8c595fd28f66b593bc505acc9fc50e
+  - path: solver/decoder_skibidi/src/main.rs
+    algorithm: sha256
+    value: 83cdf47a429f1a71d61b11c49e8b141c8c5647e53dbdf707bc5f59b0cb4fc22c
+  - path: src/encoder_skibidi/Cargo.toml
+    algorithm: sha256
+    value: a01f1785116d2664ca6361501d0d5769d255b514d4537ad7ec216abdc75bf264
+  - path: src/encoder_skibidi/src/main.rs
+    algorithm: sha256
+    value: ec1a30d22d4ad22c2b824977e74d67a92d9b23b7edd7080f18145e10375d3a7d
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

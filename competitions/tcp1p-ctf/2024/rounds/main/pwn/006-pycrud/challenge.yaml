@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-pwn-006
+name: PyCRUD
+slug: 006-pycrud
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Oh man, I'm so bored with ordinary CRUD challenges.
+
+  **Connection**: `nc {{ .host }} 55540`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Pwn/PyCRUD
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2f2782e72a2582a56ed30091cb130c4f1208d596a0efc94274f94c860de4a61f
+  - path: dist.zip
+    algorithm: sha256
+    value: 1efcdfb0a143f21b13cdb72f0e793e56cc58de53bb6770a08edab151ecadcf4b
+  - path: pack.sh
+    algorithm: sha256
+    value: 02fd0369bb50bc2f2dafe221cb66736f8c9b7d0b207b139a907951a0b6ba0e64
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 48d0eb1e73caab1c627029c93051d538e9b5d0711b0c7213b3578fe69245783b
+  - path: src/chall.py
+    algorithm: sha256
+    value: dd22645ede348921162b01c167ae1b95e41f355cc869fd4d140eb184c7370256
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 96dfb44a71485effd0b2ee10b7f0b992fe7614a212d07a67bda07374e22bd397
+  - path: src/flag.txt
+    algorithm: sha256
+    value: ec79f5de63a929eb7afbc6ada6c3228312553422d050c1c8426b54a84b7016bd
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

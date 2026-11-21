@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-crypto-006
+name: Open the Noor
+slug: 006-open-the-noor
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  **Author**: `Kisanak`
+
+  My boss made a "forgot password" feature only to hardcode password validation. I don't know how his mind works.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Kisanak
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Cryptography/Open the Noor
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 304eac4f0428dda8825fa9a3643a63e8f4c4293667bf07a480fd759cf1287015
+  - path: README.md
+    algorithm: sha256
+    value: 5f02312ed49189e43a059129f0a8913127c7281b7551013f076e16f75887b153
+  - path: chall.py
+    algorithm: sha256
+    value: 655a0b79df2e11aba10b303c967a452e26d67338df99a380fe158686ea2cdb2a
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2f445fe1b3f9e2a0b5027f8abfcdaed39a242117ae46e597d2e4ba13518ad229
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bd4a5620062965d3f5b399e3e5bcfa142338b4fd08917365b02b026e07fae971
+  - path: peserta/chall.py
+    algorithm: sha256
+    value: 5f86c950d9c8e68b8d12de05f9a8b38334afee258daed1b835e6819708875ca5
+  - path: requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: run.sh
+    algorithm: sha256
+    value: 65ff5d0cb7cd13be2d38c5f4af9517a9c62d751fc6e72ea343c0ab59fb2b0286
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: fec479adc1156ec51896854ff6cdee0e79c9cfd48d287a8eb5e5727f8716040b
+  - path: writeup/solve.py
+    algorithm: sha256
+    value: e3d5acd7a5a398057894bb01e44f2961520660618fac8d361fb5af52546b793b
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 2223'

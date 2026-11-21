@@ -10,12 +10,18 @@ dates:
   end: '2024-10-13'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 65
 references:
 - title: CTFtime / TCP1P CTF 2024
   url: https://ctftime.org/event/2256/
   type: third_party_archive
   accessed: '2026-11-21'
-challenge_materials_imported: false
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: true
 notes: CTFtime gives 11-13 October 2024, jeopardy, and the organizer URL https://ctf.tcp1p.team/. The
-  listed window is 12:00 UTC on 11 October through 12:00 UTC on 13 October.
+  listed window is 12:00 UTC on 11 October through 12:00 UTC on 13 October. The 65 challenges were
+  imported from commit 2b2beba308ac57f743ee80593c86ce071245c406. That repository has no LICENSE file and
+  is treated as MIT by archive instruction on 2026-11-21.

@@ -1,0 +1,41 @@
+schema_version: "1.0"
+
+id: main
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+
+name: Main
+original_name: null
+
+sequence: 1
+type: other
+delivery: null
+
+description: null
+
+dates:
+  start: "2025-03-04"
+  end: null
+
+statistics:
+  challenge_count: 35
+  participant_count: null
+
+references:
+  - title: TCP1P CTF Special Ramadhan 2025
+    url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+    type: official_repository
+    accessed: "2026-11-21"
+
+verification: corroborated
+notes: >
+  The organizer repository publishes one challenge set and does not describe a
+  qualifier or final, so the round id is main. Sequence numbers are alphabetical
+  by source directory name within each category. Difficulty values are the point
+  values in each challenge metadata file. The Mobile directory is empty. The
+  repository has no LICENSE file. On 2026-11-21 the archive was instructed to
+  treat this source as MIT. Blockchain/codeless contract lists forge-std in
+  .gitmodules, and that submodule is absent from the commit tree, so it was not
+  cloned. Repository-level README.md, Kriteria.md, Makefile, .example/,
+  .structure/, and .gitmodules were not copied into challenge directories.

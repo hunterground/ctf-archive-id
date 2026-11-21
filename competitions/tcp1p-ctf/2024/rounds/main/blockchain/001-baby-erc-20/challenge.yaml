@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-blockchain-001
+name: Baby ERC-20
+slug: 001-baby-erc-20
+original_name: babyerc20
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  New token standards huh? https://eips.ethereum.org/EIPS/eip-20
+  Connect: http://{{ .host }}:13391
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: shiro
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Blockchain/babyerc20
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 6583b73f8538776e71a084e4a95bb4a35635787843f10a7eed52cb3a54757e8c
+  - path: Dockerfile
+    algorithm: sha256
+    value: b161ee2b48d5d6ce948ed420904fab103b1de62f971766ba727fd055008453f7
+  - path: challenge.yaml
+    algorithm: sha256
+    value: c69d15ffc8413c3294c74752e26c504348f083db77bb6755836815f80165ff4c
+  - path: contracts/HCOIN.sol
+    algorithm: sha256
+    value: f46aa9e7a03b2b3f49a4de0a7c5560dd8836fef84d84939ab5012337c4af2575
+  - path: contracts/Ownable.sol
+    algorithm: sha256
+    value: bfbcd3a35d5fdaf9dde69058fcc632516f9782e0ae4705258e8981618d7ce6f9
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 4967b592a9962b8e97d0e2852e30018843c7a8041e6ffd676e37b7cb0b047063
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 00843ecf9276c109d218c2f6d56239ca4c2bdb9a68b8138dc23d91ad6af5278b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 654debb0feb5ce2d1b20f6b7d41430905b07c9a52e7faeba118657e87a588edc
+  - path: solver/README.md
+    algorithm: sha256
+    value: bac00766fe2bdd56a93d02a45c7862a013900c284eb0156cf2782b6972764576
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

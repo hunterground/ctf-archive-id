@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-006
+name: SecreTalk
+slug: 006-secretalk
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: |-
+  Although I managed to find out about my fiancée's missing document, I'm afraid this might be some kind of attack specifically targeting my family. So, I've been investigating several cases that more or less have indications of the same threat actor as the one who stole my fiancée's document yesterday. Using this artifact, I'm hoping to find out the conversation of one of the strong suspects who is behind all of this. Can you help me analyze some of the interesting things here?
+
+  Download Here: https://drive.google.com/drive/u/3/folders/1p1HHkimi6U6gRZzQX_YxzBjMKowIMRwz
+
+  Password: TWl6dWhhcmFjaGl6dXJ1e3doeV95b3VfZGVjb2RlX3RoaXM/fQ==
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: C2uru
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/SecreTalk
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dbe68bf8963609018d141fb86a2c5ee1ac7ae737777df30eda117d5f2d15eaed
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 991ed6056db3afabb582e891d86d5ad9664646d3be1864b21ee706316f8ef64f
+  - path: solver/README.md
+    algorithm: sha256
+    value: c5d3677f0a92cccc16f1eaca3b03274fa0396307b36742b6ec350be510ed72b5
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

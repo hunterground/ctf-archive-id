@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-003
+name: EncryptDecryptFile
+slug: 003-encryptdecryptfile
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: My brother deleted an important file from the encrypt-decrypt-file repository
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/EncryptDecryptFile
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ffb67bbaf1b47aefc36947c30cd673d1d2c05a97fb4995cd1d941412a6ebd02c
+  - path: challenge.yaml
+    algorithm: sha256
+    value: a126098471584b85f2a96411d3485b21e116f90516efcbf5d56b77acc9c95f65
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 23b3ec8bf5cf03dbe5ed7b336b5dd6bd734bbe7564c9876d39ac8e11b90018ec
+  - path: solver/README.md
+    algorithm: sha256
+    value: 57fcb76b025e8ee96f26d130940f138420458633e34d6302e8e7f6c75ff81fe2
+  - path: src/flag.png
+    algorithm: sha256
+    value: 9f5a7eac3ebc1163e6ee5f9ae7b1ac21b7626412f60526e3f5a8b4a57e0fb256
+  - path: src/main.py
+    algorithm: sha256
+    value: c1aeed73d70acf1738a60cde681a725ac3a231d8f845312c67f08998f44a40eb
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

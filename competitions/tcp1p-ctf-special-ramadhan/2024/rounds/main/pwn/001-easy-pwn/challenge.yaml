@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-pwn-001
+name: Easy PWN
+slug: 001-easy-pwn
+original_name: easy-pwn
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Can you identify and exploit the bug lies in this bad login app? I'm sure you can't login as admin!
+
+  Connect: nc 103.185.44.122 15118
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: valcaries
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Binary Exploitation/easy-pwn
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 45d82c10c9b33a4aea79ceed8866a1a3d15f59777172a72f7e6407345dba2502
+  - path: README.md
+    algorithm: sha256
+    value: e63da968ca5bb84746b8e6b30537562015a902d4272ea8fabc9621cf6842b539
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 17e280786620da1f03eedbd009eb0dd1877990be2be45d0129bf693d597838da
+  - path: deploy/README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: deploy/easy-pwn
+    algorithm: sha256
+    value: c466ab8fc5ee19eb2cf86eb69be02a79f71f30ad3b73eaa5e3e0e9b346d5d8c4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 418b0cc7e5f21c13c3f4f9a9b2497af8c0a0833898f21a2805c3816b17a07014
+  - path: easy-pwn
+    algorithm: sha256
+    value: c466ab8fc5ee19eb2cf86eb69be02a79f71f30ad3b73eaa5e3e0e9b346d5d8c4
+  - path: flag.txt
+    algorithm: sha256
+    value: 29f542c08626dfbf0e9b97817c6d9a2783e0c7a18623a27e5f8ca01c882034a8
+  - path: run.sh
+    algorithm: sha256
+    value: 23bb0582e529d5470fdbc52e8ec7eeb4da85ae8773d79ec7d35cd23827a45d64
+  - path: script.py
+    algorithm: sha256
+    value: 343282e5df8ee01c41ab479d990c91360a37287c6f9912ef9878103d00bf37ee
+  - path: startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: xinetd
+    algorithm: sha256
+    value: 24a35880cf668bed65af2b6d88c5e875538fa7d076624d13a86af463b3b23c6b
+  - path: xinetd.conf
+    algorithm: sha256
+    value: 7b061a1945a6ed9f31672c93e43a3cf0aa31dfffe5fd88bfc8c26aa0bc571a1d
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

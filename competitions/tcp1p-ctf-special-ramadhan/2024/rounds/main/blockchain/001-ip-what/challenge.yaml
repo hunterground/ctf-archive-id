@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-blockchain-001
+name: IP What?
+slug: 001-ip-what
+original_name: ip-what
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  IP** is a modular suite of protocols for organizing and transferring data, designed from the ground up with the principles of content addressing and peer-to-peer networking. Because IP** is open-source, there are multiple implementations of IP**. While IP** has more than one use case, its main use case is for publishing data (files, directories, websites, etc.) in a decentralised fashion.
+
+  Network / Address : (Sepolia / 0xC5fa6c384cDb0689D86095241b3D232244bDbF13)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: rennfurukawa
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Blockchain/ip-what
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8e86afd792fc04132d725e4540a058078b08b65f208ccb7998c5acc01024ea95
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 57e0ce18c2ecdc9e19e106184756255c19749090d2b20a536b01dcc101322ab0
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-001
+name: Guessing Master
+slug: 001-guessing-master
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: just guess it
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/Guessing Master
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 631942ff7b3432872f8de99f9c5e025148020c537035274653eec9bc3438b0d5
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 495b1b8cc64ae59ed466c05df8ae111229e3ebde4158789212b9354532f51fbb
+  - path: dist/output.txt
+    algorithm: sha256
+    value: b12bc888959918ba0f4465cccfa024325964ff3215e497f4acd82bbccd0b701c
+  - path: src/chall.py
+    algorithm: sha256
+    value: 495b1b8cc64ae59ed466c05df8ae111229e3ebde4158789212b9354532f51fbb
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3f3c0919ec67c684f11c1a9863f05ed561e4ddd90e9a437b841613864ca47abe
+  - path: src/output.txt
+    algorithm: sha256
+    value: b12bc888959918ba0f4465cccfa024325964ff3215e497f4acd82bbccd0b701c
+  - path: src/solve.py
+    algorithm: sha256
+    value: 818595d9e44f17489de4611b154e7c75ffc7f71dfc36d5e4ce3edf5cbf0af45c
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

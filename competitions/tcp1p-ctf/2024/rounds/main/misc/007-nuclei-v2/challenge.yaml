@@ -1,0 +1,162 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-misc-007
+name: nuclei-v2
+slug: 007-nuclei-v2
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  Last year, I made the challenge too easy. Now I'm making it harder.
+
+  Connect: http://{{ .host }}:20012
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Misc/nuclei-v2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3aeb18dfe7cdcd35333f3dac15e5796fb2dd28b7025731e8cf4e98082ab706a6
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 831fb9f3ecd4682d2e302c94aa7a311cae686e386d6766e1d6cc29b820d21630
+  - path: dist/app/internal/__init__.py
+    algorithm: sha256
+    value: 9d3174d49b7b526ed1b09d9289d194eed9f35e4ff8e7cdcf4d34a05b983c1410
+  - path: dist/app/main.py
+    algorithm: sha256
+    value: 891ab715ae4cf0d63c38b9e721ef3c9c65d1486fb9ffe3c3f6c24dcfb5f09f2b
+  - path: dist/app/requirements.txt
+    algorithm: sha256
+    value: c6ea47ca6ea7111580b584da0718aaf60ef4e43ca22582ac7d01129c19c05805
+  - path: dist/app/static/style.css
+    algorithm: sha256
+    value: 68e00d487655b1a49c425816506e83d3a382e223a9bfa28eac610c4918999495
+  - path: dist/app/templates/auth/auth_layout.html
+    algorithm: sha256
+    value: 651f56f5d9a3eda3614a575c395bd87f49f63839833af6bf3f0fcb13c5d020dc
+  - path: dist/app/templates/auth/login.html
+    algorithm: sha256
+    value: 691032e6c60a96e2a6af22c6265810d2bf76da30e3314d361ede2d3405280a07
+  - path: dist/app/templates/auth/profile.html
+    algorithm: sha256
+    value: 768c05b7f42b9ddc59a368abb6544e19806aaa1194a2e9b9f429bf9ec75ae7c1
+  - path: dist/app/templates/home/home.html
+    algorithm: sha256
+    value: b877cdd089ec4f26aa90e63c3a52c23fdecc3d6fae7cc47ee52a7912d811ee91
+  - path: dist/app/templates/home/layout.html
+    algorithm: sha256
+    value: a92cea7c4d07f35be3bb6e1bb4462c68f5121c8588a404598771b5c3831f9727
+  - path: dist/app/templates/includes/alert.html
+    algorithm: sha256
+    value: 7ce06cd3b823eff96def95dedd31596aa4636bddd34e4061eadc24f529e83cd0
+  - path: dist/app/templates/index.html
+    algorithm: sha256
+    value: de3b5563fa8b613af920cee072dc882aef667ebc0ca94377ff1aa304133656ae
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: ececcd69551f4c7edae945350ce573c70aea1c185cc38290b91f4342fa6c9c0c
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: f3a6b2c09f75e137aaab928d4085d6e6e1da19044006c01e2268d7c9e478b3f9
+  - path: dist/init.sql
+    algorithm: sha256
+    value: 967130d767452d7f0223475e4ba6115655f41b7da03aad5d8df25a827d82bdd8
+  - path: dist/readflag.c
+    algorithm: sha256
+    value: 1b8eb0d53aa33f34dbc8def74cfa927fe834389073591e7a586ea553071a0723
+  - path: solver/1.yaml
+    algorithm: sha256
+    value: b5bdd87e20f72e828226272abc212a50c3c9861fef9918f9aeb8225319092ff8
+  - path: solver/2.yaml
+    algorithm: sha256
+    value: 2b2336101b77798f787f7342e23b62e936e45dcc05226f8949d82582a2c8094e
+  - path: solver/3.yaml
+    algorithm: sha256
+    value: 2cfe1a46d881fc15854da7413eb8b8fdac134a43d32601a9d311ecbd70ef3a65
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 831fb9f3ecd4682d2e302c94aa7a311cae686e386d6766e1d6cc29b820d21630
+  - path: src/app/internal/__init__.py
+    algorithm: sha256
+    value: 9d3174d49b7b526ed1b09d9289d194eed9f35e4ff8e7cdcf4d34a05b983c1410
+  - path: src/app/main.py
+    algorithm: sha256
+    value: 891ab715ae4cf0d63c38b9e721ef3c9c65d1486fb9ffe3c3f6c24dcfb5f09f2b
+  - path: src/app/requirements.txt
+    algorithm: sha256
+    value: c6ea47ca6ea7111580b584da0718aaf60ef4e43ca22582ac7d01129c19c05805
+  - path: src/app/static/style.css
+    algorithm: sha256
+    value: 68e00d487655b1a49c425816506e83d3a382e223a9bfa28eac610c4918999495
+  - path: src/app/templates/auth/auth_layout.html
+    algorithm: sha256
+    value: 651f56f5d9a3eda3614a575c395bd87f49f63839833af6bf3f0fcb13c5d020dc
+  - path: src/app/templates/auth/login.html
+    algorithm: sha256
+    value: 691032e6c60a96e2a6af22c6265810d2bf76da30e3314d361ede2d3405280a07
+  - path: src/app/templates/auth/profile.html
+    algorithm: sha256
+    value: 768c05b7f42b9ddc59a368abb6544e19806aaa1194a2e9b9f429bf9ec75ae7c1
+  - path: src/app/templates/home/home.html
+    algorithm: sha256
+    value: b877cdd089ec4f26aa90e63c3a52c23fdecc3d6fae7cc47ee52a7912d811ee91
+  - path: src/app/templates/home/layout.html
+    algorithm: sha256
+    value: a92cea7c4d07f35be3bb6e1bb4462c68f5121c8588a404598771b5c3831f9727
+  - path: src/app/templates/includes/alert.html
+    algorithm: sha256
+    value: 7ce06cd3b823eff96def95dedd31596aa4636bddd34e4061eadc24f529e83cd0
+  - path: src/app/templates/index.html
+    algorithm: sha256
+    value: de3b5563fa8b613af920cee072dc882aef667ebc0ca94377ff1aa304133656ae
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 58ce7449306c4c47227e7a97820ca5fab05a9cadc7b7e6c68849eda46de3cb83
+  - path: src/flag.txt
+    algorithm: sha256
+    value: a1e363d5eecce9b4205adc6eb05d28d1c5b66a2bac9879c1c2e51a047a9bc844
+  - path: src/init.sql
+    algorithm: sha256
+    value: e40deb180b5149a55a0431a893050170d2aec43333893850ebc9b8b230f4c450
+  - path: src/readflag.c
+    algorithm: sha256
+    value: 1b8eb0d53aa33f34dbc8def74cfa927fe834389073591e7a586ea553071a0723
+  - path: src/run.sh
+    algorithm: sha256
+    value: 428df231db129c5295f96413736e2ce944248e2696188d6e937777a52b35d351
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-002
+name: Cat Kompani
+slug: 002-cat-kompani
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `yqroo`
+
+  Miauw Miauw Jail
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- sandbox
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Cat Kompani
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 4ce54224ec77daa5a38ec34f70cfaff6f90f52bd454a871c44c5d5765436842e
+  - path: README.md
+    algorithm: sha256
+    value: 34f071d9471d3d366a3b49dce1c7db8597125ec9a0404defac98836079731f1c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 38ec1cc24f72dd9598b2a0b6f35fee02b3b3052b886771f53f412cbc848604ca
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 35335eb8a33bcf3914fb299e9d8b29e6a4de5b3d9a53390e1f08983aa0a0f03c
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 7bab2c8150c527ce15c4e596cfa6d4e8be47777854edeb47dd2d1c672c2fa392
+  - path: dist.zip
+    algorithm: sha256
+    value: 02516fb5498b916a91a3b9897841fe4371e514cdc54d1c81353effdce80d3a73
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c1c25a800cf7603719c80e43c0c6213ef6c652be186cf04e1458a55b02654fac
+  - path: src/cat
+    algorithm: sha256
+    value: d428b25d57c1a9b4fe9d00336e0098066a4e26d3eeab54841e11eb2477c58093
+  - path: src/chall.py
+    algorithm: sha256
+    value: 7bab2c8150c527ce15c4e596cfa6d4e8be47777854edeb47dd2d1c672c2fa392
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 2b00fd3206478860c2928dd3a7c696a36717fc0f30990dc118e858820436100d
+  - path: src/main.c
+    algorithm: sha256
+    value: 79c278b015e3c51b55a2f83f754a4404ffea33f7c46b8498d138f126b96c1339
+  - path: writeup/sol.py
+    algorithm: sha256
+    value: 995a03d8d3901e51d7c2c249d891368fcf29c2a43ae949ce0511ca8ed2069c67
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 45123'

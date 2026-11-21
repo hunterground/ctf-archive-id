@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-rev-002
+name: ELF Cracker
+slug: 002-elf-cracker
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  **Author**: `hyffs`
+
+  Just learned about elf structure a while ago, i've created a simple packer elf binary. Could you break it? This is "not your typical crackme's chall".
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: hyffs
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Reverse Engineering/ELF Cracker
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor settings are not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: 8acec1d494a733a8ecf21eeba65cac9692864db97c0030ffd92e7fa2ea60155a
+  - path: Makefile
+    algorithm: sha256
+    value: 24a5f588397529fce0ab38260b5cbe31b9d63ffbd66f82f45fde64fd1012bb30
+  - path: challenge.yml
+    algorithm: sha256
+    value: 230a464c5b54e973edafcc958850ca86a49781d8c6e3694c1e00fbc9c4984a25
+  - path: dist/elf-cracker
+    algorithm: sha256
+    value: 491b61bd58db86bb4308c03f9016ae5d02427575ba1e4c41bd5f9c706f543022
+  - path: dist/flag
+    algorithm: sha256
+    value: 2edce5e39549b3f96e12d47b44b662f3e29e6372412c141eaf7d0043b31251d5
+  - path: include/elf_packer.h
+    algorithm: sha256
+    value: c79811db342e2e8d18b2018090c47d0745a7609a6c12af6036a03f478601e8ca
+  - path: solution/solve.py
+    algorithm: sha256
+    value: c006b09b2e38b87054829f0c941ec89d0426c6679cb465f6111627744ef68128
+  - path: src/flag.c
+    algorithm: sha256
+    value: 4b3fb15a083a2f26d6a6e52541332e852b5149f1a4bf56dd132b089c8d6c33ee
+  - path: src/main.c
+    algorithm: sha256
+    value: b7c40770bfeb82765335497efd9e5243231ab0bf9bc597d4ab0e897b0e2ed924
+  - path: src/map_elf.c
+    algorithm: sha256
+    value: ed45b04f2439e1c60c5002c2f3687d89571e6577fec2f9a3325f22a0c473a7ff
+  - path: src/pack_elf.c
+    algorithm: sha256
+    value: c791b9c8a95689b3353c5afb6e191e7dedda03def78bbe62856cac40333136c1
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

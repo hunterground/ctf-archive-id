@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-004
+name: That one RSA challenge
+slug: 004-that-one-rsa-challenge
+original_name: rsa
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: This is that one mandatory easy RSA challenge in every CTF, hope it's not that boring
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/rsa
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: e81afed8a22860a8ed851546652e93f6bb6152e5299c62152cd6561d00d136e3
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 133c4bff11b2574822a8ed77bf81f544da27c847aeb8d6eb5dc96c911f86c4b7
+  - path: dist/out.txt
+    algorithm: sha256
+    value: 10fd687e90d830664bf36dfc8eb3a248ebda15406a4230afec0561b5bc076697
+  - path: src/chall.py
+    algorithm: sha256
+    value: 133c4bff11b2574822a8ed77bf81f544da27c847aeb8d6eb5dc96c911f86c4b7
+  - path: src/out.txt
+    algorithm: sha256
+    value: d33c09973822a0556a9dc364e88bed7e354e961320f18f949f2b99f233026f89
+  - path: src/secret.py
+    algorithm: sha256
+    value: 52359a47bb51be96be01585273613268f3178bfaeab6dd48d780787ddbd6fffe
+  - path: src/solve.sage
+    algorithm: sha256
+    value: 74e534524860670025c8992003be38396c05de6e09072fb0df58b8e328cb6105
+  - path: src/solve.sage.py
+    algorithm: sha256
+    value: 30cc862aff2544249ca22a1797eab15b0b51e1d45dd72f76b31f51da6879fcfc
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

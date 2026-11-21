@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-rev-004
+name: Random XOR
+slug: 004-random-xor
+original_name: random-xor
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: Hanya program simpel untuk enkripsi sebuah file.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: 404Gh0st
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Reverse Engineering/random-xor
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 416d24be4a5237275540add7d01418b5150993261b6a73aad8bca1c27b9058c5
+  - path: solution/flag_enc.txt
+    algorithm: sha256
+    value: d46336e39b446ff50f188761a143187560a58d764602b3ae498d721b438f8698
+  - path: solution/solve.py
+    algorithm: sha256
+    value: 090650b9f4ac253338070c9c9faf54af0097102b400569ee67be6f8d7b1e4fac
+  - path: src/random-xor/encrypt
+    algorithm: sha256
+    value: f01c03bc2a180bc9fcada273b4f96dff05e5625a366c086e5bcad5dab2287697
+  - path: src/random-xor/flag.txt
+    algorithm: sha256
+    value: f49c11a04e91cbdade9c68e861205515eb8e2c205413566d016596638d0c258d
+  - path: src/random-xor/flag_enc.txt
+    algorithm: sha256
+    value: d46336e39b446ff50f188761a143187560a58d764602b3ae498d721b438f8698
+  - path: src/random-xor/source.c
+    algorithm: sha256
+    value: 08b9685855a5aece9a76aa4c4451ff94fd21ea41075fb560d04a5fae4800abcc
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

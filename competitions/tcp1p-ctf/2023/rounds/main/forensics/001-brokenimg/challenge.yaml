@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-forensics-001
+name: brokenimg
+slug: 001-brokenimg
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  **Author**: `botanbell`
+
+  why the picture like this
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- forensic
+authors:
+- name: botanbell
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Forensic/brokenimg
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 635820871e7dfb7c44b80e94e4c30b9de7d3712ead63d3bab2e00ebcbdfdade7
+  - path: solver.py
+    algorithm: sha256
+    value: b57a293640218ed4245356482b2384dc7c870344c5606b529ea3228e50d40eb2
+  - path: src/chall.pdf
+    algorithm: sha256
+    value: 9dcbb13f381e9e960e0fd54c328d7a3c1dcd472ffe40112280b31c1f54b36e08
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-blockchain-003
+name: Executive Problem
+slug: 003-executive-problem
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  If only we managed to climb high enough, maybe we can dethrone someone?
+  Connect: http://{{ .host }}:44455
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: kiinzu
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Blockchain/Executive Problem
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 50370df28b89aac5259cac790da519e22bcd767170391eb442adca534f40d93e
+  - path: Dockerfile
+    algorithm: sha256
+    value: b161ee2b48d5d6ce948ed420904fab103b1de62f971766ba727fd055008453f7
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 91352bc5051844da3a582f38193a3ce8ffc3ff7b4c97753e020f5c7a6e4e75b8
+  - path: contracts/Crain.sol
+    algorithm: sha256
+    value: fdcf3309b1f1cc772d09dad9588df6057942b6525ce2659432b0fddec6e942ab
+  - path: contracts/CrainExecutive.sol
+    algorithm: sha256
+    value: 6aac79096a32bdf2133d8bd753c11f96ffeab40d9df03ef08618696d7766c4bc
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 57bc45a39805cf46d93fbacb5c9f4744a9984535517c7b838bfc50d4ca4947a0
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 50d581e489fcf159c97dd06baf055e28022071e653a6cfbbdb6d077af1298ddf
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 654debb0feb5ce2d1b20f6b7d41430905b07c9a52e7faeba118657e87a588edc
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

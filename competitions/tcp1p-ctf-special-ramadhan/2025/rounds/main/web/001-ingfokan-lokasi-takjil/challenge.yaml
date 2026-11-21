@@ -1,0 +1,157 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-web-001
+name: Ingfokan Lokasi Takjil
+slug: 001-ingfokan-lokasi-takjil
+original_name: ingfokanlokasitakjil
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: "Max dan teman teman nya sedang berencana untuk mencari takjil sebanyak mungkin\nuntuk entar\
+  \ dimakan bersama saat buka nanti, tetapi mereka harus cepat sebelum\ntakjil takjil yang di jual habis.\
+  \ Merekapun membuat platform untuk membagikan\nlokasi lokasi takjil yang dapat mereka kunjungi secara\
+  \ privat, apakah anda dapat \nmenemukan vulnerabilitas di platform mereka untuk mencari lokasi takjil\
+  \ favorit Max?\n\nConnect: http://{{.host}}:11451"
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Max The Computer Fox
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Web/ingfokanlokasitakjil
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c473b818bb5c0706abf38d523c1e8eab1efba261df21a029e9c3bd83bbc79148
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0f675b425d85dfc2708f49a60fcc52e0639803c1d59b4685456f2f06f492693a
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: e4338f32443dc8586cf9afabd03fbc2017bebb1c86dfbfc0f44dfa9c7f924406
+  - path: dist/app.py
+    algorithm: sha256
+    value: c6b09ccc3b334ace3731863ac0902e19492176275f7de27b8002f2e178b72590
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 756b07935a3072672809f60181895aebd08e7c7d315dbe3a48bf20fd79da02eb
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: a523547a19d5fcc9799ee4d4e4452694d18c651998ae8e61752a499c4a841b69
+  - path: dist/requirements.txt
+    algorithm: sha256
+    value: dbbf25356c086ea59bd809f703bd661f89cba1b24f855140c5c2fdeaad072a6c
+  - path: dist/setup.py
+    algorithm: sha256
+    value: c9832659525012768728a23f17c924a3f06d85bb7d89272c16a99f910452e097
+  - path: dist/static/favicon.ico
+    algorithm: sha256
+    value: b8b4bfb401e992cd3bfbfc062d7170333032a1cdc2df6b3a7a3a5f3ddcc2e56d
+  - path: dist/static/max.gif
+    algorithm: sha256
+    value: 5264b32f84e1bde5510a03826bab8a6211b90f474b4a23af8b5dc24959c30af2
+  - path: dist/static/max_letsgocaritakjil.png
+    algorithm: sha256
+    value: 654a0f76120a3b096494534a09a80606e86db0add2e6f09dfb1a37820bc83835
+  - path: dist/static/static.css
+    algorithm: sha256
+    value: 29e00abb343153c446b14e200c885b0979538ccc2eaf2e450c83e2a786884283
+  - path: dist/templates/error.html
+    algorithm: sha256
+    value: 2d5dec3af5dd04aa510e846e2af4289c6d70b7d79a841974f9a9f9a4e01d5b99
+  - path: dist/templates/index.html
+    algorithm: sha256
+    value: c19fcc5686aa6828681d2f791ba72a2d3f7f609bb0bd76f2d45433e69eb04411
+  - path: dist/templates/lokasi.html
+    algorithm: sha256
+    value: 55c33088e3e44b49c4b638d664326fe12b72cf6992a1f5651f8c2ad369279ea3
+  - path: dist/templates/password.html
+    algorithm: sha256
+    value: e706435a564be2d7a65fc7cdb0e79ad94926465f654085de463f667213a71278
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.MD
+    algorithm: sha256
+    value: 009cac6d6d7539384b7018089a625991e7d597c77eea7bb79fbfe227b1701acf
+  - path: solver/exploit.py
+    algorithm: sha256
+    value: 145987217c30f3e78776d05c685125f8b5393f8cb83bcc77f2b587340b1ce291
+  - path: solver/requirements.txt
+    algorithm: sha256
+    value: f95b9c7bcbb29da4643d6252b26557352055a0d40e91b8795eea3a324ecf281d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e4338f32443dc8586cf9afabd03fbc2017bebb1c86dfbfc0f44dfa9c7f924406
+  - path: src/app.py
+    algorithm: sha256
+    value: e19a931dbd0cfabe042436828fba209ed24534f3f7a4ecf5ad7aee3292c9169a
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 29ea76cf4a92deb3c7a85a7daacaaf26ff174d532e15175fcec8cc69040d31ac
+  - path: src/flag.txt
+    algorithm: sha256
+    value: ac60cbccf1874a454354ebfa1374e0ca76f958aa0162a34640ab18cc8148a3d1
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: dbbf25356c086ea59bd809f703bd661f89cba1b24f855140c5c2fdeaad072a6c
+  - path: src/setup.py
+    algorithm: sha256
+    value: b1e373acf54de02239971a8c3d0de878d7766f640778ab0250edf49116b809e1
+  - path: src/static/favicon.ico
+    algorithm: sha256
+    value: b8b4bfb401e992cd3bfbfc062d7170333032a1cdc2df6b3a7a3a5f3ddcc2e56d
+  - path: src/static/max.gif
+    algorithm: sha256
+    value: 5264b32f84e1bde5510a03826bab8a6211b90f474b4a23af8b5dc24959c30af2
+  - path: src/static/max_letsgocaritakjil.png
+    algorithm: sha256
+    value: 654a0f76120a3b096494534a09a80606e86db0add2e6f09dfb1a37820bc83835
+  - path: src/static/static.css
+    algorithm: sha256
+    value: 29e00abb343153c446b14e200c885b0979538ccc2eaf2e450c83e2a786884283
+  - path: src/templates/error.html
+    algorithm: sha256
+    value: 2d5dec3af5dd04aa510e846e2af4289c6d70b7d79a841974f9a9f9a4e01d5b99
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: c19fcc5686aa6828681d2f791ba72a2d3f7f609bb0bd76f2d45433e69eb04411
+  - path: src/templates/lokasi.html
+    algorithm: sha256
+    value: 55c33088e3e44b49c4b638d664326fe12b72cf6992a1f5651f8c2ad369279ea3
+  - path: src/templates/password.html
+    algorithm: sha256
+    value: e706435a564be2d7a65fc7cdb0e79ad94926465f654085de463f667213a71278
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

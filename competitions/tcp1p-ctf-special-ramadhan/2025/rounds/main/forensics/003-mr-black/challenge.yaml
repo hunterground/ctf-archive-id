@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-003
+name: Mr Black
+slug: 003-mr-black
+original_name: MR Black
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: "Hei lihat saya mendapat permintaan tolong dari Mr Black. Dia adalah teman ayahku. \nIa memintaku\
+  \ untuk memperbaiki fotonya yang telah rusak. Fotonya tiba-tiba berubah ukuran(ukuran awal 1000x614)\
+  \ dan jadi tidak dapat dibuka. \nEntah kenapa ia mengirimkan file zip dengan keamanan berlapis. Kata\
+  \ Mr Black password keamanannya juga tersembunyi pada file zip tersebut."
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/MR Black
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 05329e52492988c8be412a5395653c35e0cec4c3e0a67b9ab8d510574b46fe24
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 0b4460db686fc32e641d263f6ad64f557c338697da2c611cb81acf93eec0326c
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 7e090ada70705b0878d9d76cd478fd2be7a0084d5da06cff9b8dc7df38107779
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: 8ec3f5a207482f82ca068c85bd78b1c55203b021aa29e72be1b0ea742ba53b4f
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

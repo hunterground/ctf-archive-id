@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-008
+name: PyMagic
+slug: 008-pymagic
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `lunaroa`
+
+  Do you believe in PEP's magic?
+
+  Credits to `Wrth` & `yqroo` for evaluating the script
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- misc
+authors:
+- name: lunaroa
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/PyMagic
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8cb71ac4ca2957af3298046862df7ed42fd12fd23f009b94f0049e20737412cb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3a77ee45f688137f9d61139e5dd0795033f8df2a220c72e7b0e2242817360dc6
+  - path: dist/pymagic.py
+    algorithm: sha256
+    value: 7cdbc1508cef1f4be404fea7bf4bfa671a44eff16e5f5f4dd20b9f506edebd66
+  - path: dist.zip
+    algorithm: sha256
+    value: 8262f173565db5a0aa2df0c75c46cc293ba32d7b88322bfc2b102fd68899e7f2
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 1f6e95b457e095059247447075905fec61c1fc5693ec9a96153d9906b39d98be
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 28dfd9586311c03134f3f0efe83144e9ab174ddc8718e2338b2637372ddc17d1
+  - path: src/flag
+    algorithm: sha256
+    value: 0d283f1b79f4d7a9adcb72c08bd64a07f59d0a40c0019e85be15b6f036a6a690
+  - path: src/pymagic.py
+    algorithm: sha256
+    value: 7cdbc1508cef1f4be404fea7bf4bfa671a44eff16e5f5f4dd20b9f506edebd66
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 9a4400798541813f3862dd251be76dee6cbdc5c82b6dd880361ac898043371ce
+  - path: writeup/sv.py
+    algorithm: sha256
+    value: 911232b7d5ddd5b7ea6acd68be87e81b4d38108f5797b1575992b35a401a8e84
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 45214'

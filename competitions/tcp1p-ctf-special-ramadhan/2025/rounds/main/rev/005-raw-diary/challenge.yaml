@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-rev-005
+name: Raw Diary
+slug: 005-raw-diary
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: I put a digital sign on this diary ^-^
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: .effie
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Reverse/Raw Diary
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 673f9782520e655020c91ac9dbcd364a6214ae78100f7f95e555d88e992521a2
+  - path: challenge.yml
+    algorithm: sha256
+    value: a5076438a9e83ea0f0f3d7b656582345812c7909c1de0670e981f3fa27cb4819
+  - path: dist/chall
+    algorithm: sha256
+    value: 7e5e69560c8c53e626386f9771e251c273a5f090f5761238469626dd6d476cfc
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 66fc2c0df33955159f5eafb843636b7f91b125f1e4e1fda44bc4d52c9c04d212
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: f143f873cc4f8019b2623765a94af664a3517f3f16609bf402804c1be1c021c2
+  - path: solver/enc.txt
+    algorithm: sha256
+    value: e5227caa31f15e28c0a2f4a0aa1f3befce8e7ea145fa80c8d7255639b8322d88
+  - path: solver/output
+    algorithm: sha256
+    value: 206e684d4fe0916c6e35cfac31ac81403b77628f5b418d5d33c843ffc621aff5
+  - path: solver/solve.c
+    algorithm: sha256
+    value: 075a79836ca1962c39caf6826d684f20cc03559107fcdda2ae50da48d334cbfa
+  - path: src/Makefile
+    algorithm: sha256
+    value: bc33a8935fa86bbedb4dd22c925e45e2d5481d5c0b08114b323cde6187e4889b
+  - path: src/chall.c
+    algorithm: sha256
+    value: d8e4f5f43eac56075e63a30dd69fc149b2992efb0e0e5bd4d92d6cb9e7fae99d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 29e45f7e6b898131b218b027904ec13905104fff26a7954a2662cc4c41d4e9c2
+  - path: src/output.txt
+    algorithm: sha256
+    value: 1c00558f41c31729b029f8741c57ca2a58c283c01c612aa84e39bcb2700ce4c5
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

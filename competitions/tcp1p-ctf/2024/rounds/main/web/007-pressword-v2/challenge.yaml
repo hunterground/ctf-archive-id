@@ -1,0 +1,219 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-007
+name: pressword-v2
+slug: 007-pressword-v2
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  In this challenge we will exploit some vulnerability from php and wordpress, i hope you learn many thing from this challenge :3
+
+  Challenge: http://{{ .host }}:10337
+
+  Bot: http://{{ .host }}:10338
+  Bot Mirror: http://{{ .host }}:20338/
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/pressword-v2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 6a69c90fe933b92bc25da6b82f411840c6b164970c4b5d2b5eb48f337c0003de
+  - path: .htaccess
+    algorithm: sha256
+    value: d3dd9651986d7210af34cf329306c88120306efbb56d8916d392d3486532ea3c
+  - path: Dockerfile
+    algorithm: sha256
+    value: b08bf28447fdfbe5013a1bc762d9e4c8a5a8e25a7099a670e7bc3de815ce96d6
+  - path: README.md
+    algorithm: sha256
+    value: 9b6124eae88cdd6572db2a19d0298ede3c9864d52f7d827445bb31fa07cd31bd
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 2c47d0bc20464ebacbc09b0e84bbaa395033305248c84360a229cb934743a2b2
+  - path: bot/index.js
+    algorithm: sha256
+    value: 35fac02d5564dd6f19271d26e1bcf18b0c4df7d1590ef3eed6064caf6156a92d
+  - path: bot/package.json
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge.yml
+    algorithm: sha256
+    value: aad5419efccb917494cd8a5e66ab22f969fe7b4203430142617feda3fa89710c
+  - path: conf.d/error_reporting.ini
+    algorithm: sha256
+    value: 5346ec78eb9634989db9786811764479c175a681dbbc8da9d106fa481d16619b
+  - path: conf.d/xdebug.ini
+    algorithm: sha256
+    value: 070b37d07e3b033243c0d169a3fd8af623abd61c89ab1247aa552c52bb0662f1
+  - path: dist/.env
+    algorithm: sha256
+    value: 6a69c90fe933b92bc25da6b82f411840c6b164970c4b5d2b5eb48f337c0003de
+  - path: dist/.htaccess
+    algorithm: sha256
+    value: d3dd9651986d7210af34cf329306c88120306efbb56d8916d392d3486532ea3c
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: b08bf28447fdfbe5013a1bc762d9e4c8a5a8e25a7099a670e7bc3de815ce96d6
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 2c47d0bc20464ebacbc09b0e84bbaa395033305248c84360a229cb934743a2b2
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: 35fac02d5564dd6f19271d26e1bcf18b0c4df7d1590ef3eed6064caf6156a92d
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/conf.d/error_reporting.ini
+    algorithm: sha256
+    value: 5346ec78eb9634989db9786811764479c175a681dbbc8da9d106fa481d16619b
+  - path: dist/conf.d/xdebug.ini
+    algorithm: sha256
+    value: 070b37d07e3b033243c0d169a3fd8af623abd61c89ab1247aa552c52bb0662f1
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 29e397475bcd91eeb28baa85a672ebef79db283004c27fc038ba5abbf41f9ad3
+  - path: dist/entrypoint.sh
+    algorithm: sha256
+    value: 8048eaf7872676a844ea617637a24766adb7740d748a0210ef756bc5ff2b3649
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/makefile
+    algorithm: sha256
+    value: fc1c608feb289b0c9b0099d45c1672311ff6b52563314922c34210bccdf85954
+  - path: dist/run.sh
+    algorithm: sha256
+    value: 16c1f4c2c2f88e3d07379f7621d87cda381047d0b258a01779a1589524af6965
+  - path: dist/src/wp-content/plugins/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/src/wp-content/plugins/gadget/cli/php.cli
+    algorithm: sha256
+    value: cdbd67a411c47f04515d93794c3c91213910809cd604a7145e7a08c2c30f6d52
+  - path: dist/src/wp-content/plugins/gadget/gadget.php
+    algorithm: sha256
+    value: 8dd336e52fec0354110e05194f6d182f6ed81dac2d75beca77435732243d768e
+  - path: dist/src/wp-content/plugins/login/login-template.php
+    algorithm: sha256
+    value: 5705e7f6649559411cd83545d64233ab2561bfea04f60b82e3fc28223c9fa561
+  - path: dist/src/wp-content/plugins/login/login.php
+    algorithm: sha256
+    value: 218b4c73316a72be8494f8db8bf01f20a78185de98051b1b27761b1b56b52891
+  - path: dist/src/wp-content/plugins/notes-manager/ajax.php
+    algorithm: sha256
+    value: 1bed9d64250b6b659370cd7e9fcab7acc21929dc7bd318fff4aafe1c793e192d
+  - path: dist/src/wp-content/plugins/notes-manager/bootstrap.min.css
+    algorithm: sha256
+    value: 3017df4a76db5f01c2b99b603d88b03106df13bcfe18e67b7c13c2341d3a67df
+  - path: dist/src/wp-content/plugins/notes-manager/notes-manager.php
+    algorithm: sha256
+    value: 20728195a0d840992a2903ab576acb70cfaf6935b34da7cee63cd2660bdff8cc
+  - path: dist/wp-config.php
+    algorithm: sha256
+    value: 3a24ef29d53f05bffdd14122060fc9cae7365d9576176168902de477ac6080bc
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 29e397475bcd91eeb28baa85a672ebef79db283004c27fc038ba5abbf41f9ad3
+  - path: entrypoint.sh
+    algorithm: sha256
+    value: 8048eaf7872676a844ea617637a24766adb7740d748a0210ef756bc5ff2b3649
+  - path: flag.txt
+    algorithm: sha256
+    value: 5a229999fb4109bb13cfaef664c23fdf2b2839f2b6354d58ab1a2a6eacb02ddc
+  - path: makefile
+    algorithm: sha256
+    value: fc1c608feb289b0c9b0099d45c1672311ff6b52563314922c34210bccdf85954
+  - path: run.sh
+    algorithm: sha256
+    value: e63544ae00d8e2893dc440a7e4b622780adcece0c6b88a6a1ce5cbb6872d7823
+  - path: src/wp-content/plugins/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/wp-content/plugins/gadget/cli/php.cli
+    algorithm: sha256
+    value: cdbd67a411c47f04515d93794c3c91213910809cd604a7145e7a08c2c30f6d52
+  - path: src/wp-content/plugins/gadget/gadget.php
+    algorithm: sha256
+    value: 8dd336e52fec0354110e05194f6d182f6ed81dac2d75beca77435732243d768e
+  - path: src/wp-content/plugins/login/login-template.php
+    algorithm: sha256
+    value: 5705e7f6649559411cd83545d64233ab2561bfea04f60b82e3fc28223c9fa561
+  - path: src/wp-content/plugins/login/login.php
+    algorithm: sha256
+    value: 218b4c73316a72be8494f8db8bf01f20a78185de98051b1b27761b1b56b52891
+  - path: src/wp-content/plugins/notes-manager/ajax.php
+    algorithm: sha256
+    value: 1bed9d64250b6b659370cd7e9fcab7acc21929dc7bd318fff4aafe1c793e192d
+  - path: src/wp-content/plugins/notes-manager/bootstrap.min.css
+    algorithm: sha256
+    value: 3017df4a76db5f01c2b99b603d88b03106df13bcfe18e67b7c13c2341d3a67df
+  - path: src/wp-content/plugins/notes-manager/notes-manager.php
+    algorithm: sha256
+    value: 20728195a0d840992a2903ab576acb70cfaf6935b34da7cee63cd2660bdff8cc
+  - path: wp-config.php
+    algorithm: sha256
+    value: 3a24ef29d53f05bffdd14122060fc9cae7365d9576176168902de477ac6080bc
+  - path: writeup/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: writeup/gen.php
+    algorithm: sha256
+    value: e975a313101ff8ae1e466109711e29b64816df914fa0798a3f6886f41197af0d
+  - path: writeup/serialize.php
+    algorithm: sha256
+    value: c10c4a537b15b8f1c3f622781d21daa7cc644e4a702aee3bb544cd64af808af1
+  - path: writeup/solver.py
+    algorithm: sha256
+    value: 521547111bbd39956fb589fcd88b9aab0e6b61954c1c8198052ac08019e2334d
+  - path: writeup/templates/index.html
+    algorithm: sha256
+    value: a0b30832a1069e059db132bdc5b7cbffa4e2c53ca095ae157a813edce95afdfd
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-blockchain-004
+name: Inju's Gambit
+slug: 004-injus-gambit
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Inju owns all the things in the area, waiting for one worthy challenger to emerge.
+  Rumor said, that there many ways from many different angle to tackle Inju.
+  Are you the Challenger worthy to oppose him?
+
+  Connect: http://{{ .host }}:44445
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Kiinzu
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Blockchain/Inju's Gambit
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 7fd66c82918415691ff81a5a7aabfc14c16dc43469f6922007e56c7bc82be1cf
+  - path: Dockerfile
+    algorithm: sha256
+    value: a2fd8e54fede91e63c9dbd8426ef0ea6013ca735874783064ea6ade9212c9da8
+  - path: challenge.yaml
+    algorithm: sha256
+    value: df8b771e1805a5526bcd035622609fb4067cc6fdaf8c81daf2fa88278d2a7bde
+  - path: contracts/ChallengeManager.sol
+    algorithm: sha256
+    value: 269723f51cca56ea7c8b531c3b5bde6c6c09fbb2c3bd70821ebf0bd15ae29a46
+  - path: contracts/Privileged.sol
+    algorithm: sha256
+    value: e6e23592189ef8c9813ce501eb2670c6c87f4fda57cefea93387617380667365
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: eca55620f901640837b7c410a727ebbde0e28b601502dd7510d4015403d6118a
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 52e4c9b600b3d734f4831bce954997bd9fbc5ee7a1593f9418f532924db7dad5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3eaab39c26d2ea4d5ff6615c4191428d2c43328138e57db3fc3dc86d7a04e0c9
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

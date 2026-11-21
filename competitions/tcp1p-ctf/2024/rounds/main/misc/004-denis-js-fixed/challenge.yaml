@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-misc-004
+name: Denis JS (Fixed)
+slug: 004-denis-js-fixed
+original_name: denis-js (fixed)
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: Web
+description: |-
+  There was a trivial bug on our previous calculator's code. Hopefully, this time there won't be a any issues
+
+  **Connection**: `nc {{ .host }} <port>`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas & ayapi
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Misc/denis-js (fixed)
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: e95811eea3a87556ebeee8de55066d580b95be131516e78934db4b58ae246f6b
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 4b3905d6d291fd0796fc296e50dcba51e1dae9c528e1942f8e671665eaa2c2f9
+  - path: dist/app.ts
+    algorithm: sha256
+    value: bac4d9e51a4ab5ec9b0634d8c10b7a9aba9c513416da219c091dfe696d889759
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: d04b2f609382c371322e11ee3899e006851d21a5318903386a3490fd45f2bc7f
+  - path: solver/solver.py
+    algorithm: sha256
+    value: 0a0b9e4fb178754412b6a992a804fa9f4d5938d8d1c8aa4626aab5cd82268844
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 244025789b6f8d197ff47d8787259be4d00d6da5c270958abba47bd2d0aee9d7
+  - path: src/app.ts
+    algorithm: sha256
+    value: bac4d9e51a4ab5ec9b0634d8c10b7a9aba9c513416da219c091dfe696d889759
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 110b24bebe434414db116e5ab09ec4deaa8dbf8dc480f3092a02263cf2cb2f0e
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

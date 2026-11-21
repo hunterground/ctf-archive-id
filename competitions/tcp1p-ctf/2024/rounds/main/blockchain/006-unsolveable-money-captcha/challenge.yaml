@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-blockchain-006
+name: Unsolveable Money Captcha
+slug: 006-unsolveable-money-captcha
+original_name: unsolveable-money-captcha
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Oh no! Hackerika just made a super-duper mysterious block chain thingy!
+  I'm not sure what she's up to, maybe creating a super cool bank app?
+  But guess what? It seems a bit wobbly because it's asking us to solve a super tricky captcha!
+  What a silly kid! Let's help her learn how to make a super-duper awesome contract with no head-scratching captcha! XD
+
+  Connect: http://{{ .host }}:50450
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Blockchain/unsolveable-money-captcha
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 2e72cb5d7273acb073dcde9f926a8baefb0eea35aba2c603e5d407a56bb2496d
+  - path: Dockerfile
+    algorithm: sha256
+    value: a2fd8e54fede91e63c9dbd8426ef0ea6013ca735874783064ea6ade9212c9da8
+  - path: challenge.yaml
+    algorithm: sha256
+    value: d737470f75a375ec757b293221a6d74dbfec28148c7a671da5d60001f17ac9d4
+  - path: contracts/Captcha.sol
+    algorithm: sha256
+    value: 9e137641f1e3f2f54afe992571ac5f659241cf2dae1613f88208e9abf0a2ab13
+  - path: contracts/Money.sol
+    algorithm: sha256
+    value: a9ee511b180bf21fa583113db6386a81af280092e0b3dc54b2f1c73c3358c6df
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 9cdacf3305d266200ae79b479d0a5b7240826d5285a08c49e425b447b274fc96
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 305f2c250541cd8a155c01681551a51aed2cb1f4e97bd52f7f6aaf8d50025511
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3eaab39c26d2ea4d5ff6615c4191428d2c43328138e57db3fc3dc86d7a04e0c9
+  - path: solver/Captcha.sol
+    algorithm: sha256
+    value: 9e137641f1e3f2f54afe992571ac5f659241cf2dae1613f88208e9abf0a2ab13
+  - path: solver/Hack.sol
+    algorithm: sha256
+    value: 6631faa11506ab5ce3056e03998f90e0f02a243602bc8c548dab9ad8c542b286
+  - path: solver/Money.sol
+    algorithm: sha256
+    value: a9ee511b180bf21fa583113db6386a81af280092e0b3dc54b2f1c73c3358c6df
+  - path: solver/Setup.sol
+    algorithm: sha256
+    value: 9cdacf3305d266200ae79b479d0a5b7240826d5285a08c49e425b447b274fc96
+  - path: solver/solve.py
+    algorithm: sha256
+    value: 84578aa68da9c23d9894fea84293ba805f895b8c7ee6a209940d1cdc6f098484
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

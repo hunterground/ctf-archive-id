@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-009
+name: unsafe safe
+slug: 009-unsafe-safe
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `zran`
+
+  So I just turned 17 and decided to make a bank account to deposit my money. This bank stores the money is safes, so it should be safe right?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/unsafe safe
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c7f1c8e3beeada18b575e21fb80e1ab2fe5058742943009312291135c717cbe3
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6343146487ebe214768084dabfd98c0570ed28da54936053e4341a11fc08f907
+  - path: dist/unsafe.zip
+    algorithm: sha256
+    value: a174c0717fdb24a803b18b525dccd6ca57a157d07e2b3098c45570e3fed72b64
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: c4107a5fbb51764a2e6e7e25bc418b6474e3392b49b8a6d7cb7d0c9bcf4cc8b9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1db4aba93f8c20f2e1f2d08f6c50f36573271ec3133880dbca9f3cfb34dd1d4f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 0cddf80c63d2508a3180819873a8abd06532dc37fdeb216f4bf0a0bcec683273
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: e5fa32fe505cc67a53ba78b7c96655c16517b6c38f023c47d5861d3170036ef1
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: d252fe6f25be9a134f982d37e9d41e2e1775ec8756078f6dd28ca15c6c15b55d
+  - path: src/unsafe
+    algorithm: sha256
+    value: e3d5e073b143fa6106f2df3ec59d0a9bcef052da4e9bd474af0036d4ae16b64c
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 1477'

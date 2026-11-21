@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-002
+name: Doxxed
+slug: 002-doxxed
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: I recently forked a public repository on GitHub. After a few days I deleted my repo. However,
+  my friend informed me that he are still able to access one of my commits from that fork which commit
+  4bxxxxx. Can you figure out how this happened? See the public repo below.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: 53buahapel
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/Doxxed
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 860a00bcd48323304d8bdd5067fecd3b0d8ee21b3bde2122e35367409190a403
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 500e7e163e68db9d1e353ba1aac4e31cadcacfc41cd6b158a22a1167d885b07c
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 706c2fef9ac425937efd6d5e881946f1179c4c602732f397b1c609cee44edf08
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: aa3c5d8e82f5716a482a7f2840a5c7687dd5ced53137c9c674b9c51ef1a71a47
+  - path: src/exec.c
+    algorithm: sha256
+    value: a862b9c8d9708597937443bf58c14865fb6e5ef98b88e33ad98d01949ffa956f
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

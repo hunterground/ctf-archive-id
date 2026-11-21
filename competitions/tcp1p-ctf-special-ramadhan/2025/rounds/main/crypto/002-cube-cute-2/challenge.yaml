@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-002
+name: Cube Cute 2
+slug: 002-cube-cute-2
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: same as the first, let's find out cube?
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Cube Cute 2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8f4fde1b8d59ceb50b4d9450c4facabdcda13e81df8e48d9737bd8f6e6627b8d
+  - path: challenge.yml
+    algorithm: sha256
+    value: f1024adf6b967ad247db1c05f2fef09328c40cba0dd0135fbfb2d7b81c19b3c0
+  - path: dist/chall.py
+    algorithm: sha256
+    value: a244759beacf166bda6b339127d636d608762f8217ea865b49e013694434e44a
+  - path: dist/output.txt
+    algorithm: sha256
+    value: c5466ecab97e5bf2373204a84a73e75ba10b9985e715501d451cac9c65ee18bd
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC-Solver.md
+    algorithm: sha256
+    value: 9e28a6d48550d114765578464b666271e8f5904e9d009589716a48aa0527d02a
+  - path: solver/solver.py
+    algorithm: sha256
+    value: 932a339cabe8e323466dda903a1b447343a34c0e25ca1b5cc924ae3375065f14
+  - path: src/flag.txt
+    algorithm: sha256
+    value: fa0514b2e390d450e23194fa7044cee24a1e674a0dd84a71d1a688f4ebfb1f1f
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

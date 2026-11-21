@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-003
+name: Certificate
+slug: 003-certificate
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `.secre`
+
+  Don't forget to claim your certificate right here
+  and proudly share your achievement on your social media platforms
+  using the hashtags #TCP1P and #TCP1PCTF2023.
+  We appreciate your participation in this CTF,
+  and we thank each and every one of you for joining this event!
+difficulty:
+  value: 1
+  source: organizer
+tags:
+- certificate
+authors:
+- name: .secre
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Certificate
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 88302363eb5ffb00a4a1d658def31d50f625b4e76a1fd6e1b68cda9e1e8a21c5
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:1337'

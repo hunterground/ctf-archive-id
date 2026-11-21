@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-forensics-008
+name: Sus
+slug: 008-sus
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: I received this file from my boss's email, but when I opened it, suddenly all my files got
+  encrypted and I got blackmailed :(((. At least please help me recover my files
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Forensics/Sus
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2c7492bce3056020b7d307833f10c9d0398d27737fdd54de5dfc28cf6197da41
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 7b16d193e9b31c6d4d265fc71f591885f7d3dc4035ff3c7bb3faabe7df8a194d
+  - path: dist/Suspicious.zip
+    algorithm: sha256
+    value: 5f2e1da1cb46241b9bf495423fa97c838411fbbf4a5f198b73063d506785b719
+  - path: dist/encrypted_files.zip
+    algorithm: sha256
+    value: a8f8b5f3776395475b8bede0268dbde883030b7a8c98672b478bdf50adb3f55b
+  - path: solver/README.md
+    algorithm: sha256
+    value: adc6fbc0ff598cad1729e346cf683bdbdbc7205283e1791d36f2ee2b8d93e751
+  - path: src/decrypted_files/flag.zip
+    algorithm: sha256
+    value: 6dd4e63df8295c66e5f2908bd09fbcb06f8ab77c57cbbccc0269d56ee1b298a1
+  - path: src/decrypted_files/password.txt
+    algorithm: sha256
+    value: 0c6da3a31b514361eb969f69d04fdc1c3a8eb74a582e4bf6528bd2d53b29c3c8
+  - path: src/docx.vb
+    algorithm: sha256
+    value: 71834c061b1e91aaf694fa80156217d14359e66d0c17cb476faccb167bfdbd4a
+  - path: src/powershell.ps1
+    algorithm: sha256
+    value: 56565cddbcb8862b057764cc12d102d1b409f62b3964603e630ee9d63bc6b52a
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

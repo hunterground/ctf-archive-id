@@ -1,0 +1,207 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-blockchain-003
+name: solantol
+slug: 003-solantol
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: blockchain
+original_category: Blockchain
+description: |-
+  Challenge solana pertama di TCP1P :)
+
+  Connect: http://{{ .host }}:7752
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Blockchain/solantol
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6ea1d05941cb0c7935e290ca8c881be9e8dc646e1bba3e39507166aa3cebafa0
+  - path: challenge.yml
+    algorithm: sha256
+    value: 23cef29ae4807c1f9aaf6979617f756e47099f1e0bd14ed96ac09d775fb2f901
+  - path: dist/.env
+    algorithm: sha256
+    value: 88188d5447e4051af929c7ddf3fc79fc3e050d0d3917c0344124c5558b2b35af
+  - path: dist/.gitignore
+    algorithm: sha256
+    value: d1b6784101c9b4693800d0ace8dce9363648b0af20ed88ce53ff34641df606d8
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 61e77e8fb7e3693e7a9af6fcf5377267a04d29bb2defb135330062a3076800f3
+  - path: dist/deploy/.gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/deploy/__init__.py
+    algorithm: sha256
+    value: 012bc846f1f997f847eb99ccb40f57d4513b5beb34f7708c76383ccaea129773
+  - path: dist/deploy/chal.py
+    algorithm: sha256
+    value: fc961ad922fc574890df617dca964970dc8a0ef1bf3a05acaaf4fd1f3dc64fb2
+  - path: dist/deploy/interaction/__init__.py
+    algorithm: sha256
+    value: 17df6f8b4c989563f2fafe0c6b113579f239f9d88eef0321cb898c3d064ac142
+  - path: dist/deploy/interaction/setup.py
+    algorithm: sha256
+    value: d87d2a7836d577fa6624ceb0d84e88caf66097647270b7bcba37f06925788f6c
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: a823d01a081216eb980665d241009d77a306e9922a8fc58459444d1e2656ee9d
+  - path: dist/setup/.gitignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: dist/setup/.prettierignore
+    algorithm: sha256
+    value: 5e0368022141f5120d220f47ae5134cd3153b13ca523ed0f61915bc312ec7db9
+  - path: dist/setup/Anchor.toml
+    algorithm: sha256
+    value: 0c83b89976e98d94d900fdcfd51952a30d3b5133d71159bf2715647f492a97b7
+  - path: dist/setup/Cargo.toml
+    algorithm: sha256
+    value: dbd714c64166d92c8550badcd0964293191a945a0de4a756d1d69486e772c57f
+  - path: dist/setup/migrations/deploy.ts
+    algorithm: sha256
+    value: af321b2b3fcf11652e296f74e5e4e64e66ea9e257d85dff7f59c40917f73398c
+  - path: dist/setup/package.json
+    algorithm: sha256
+    value: f9ddde37d1dcb59883932314606f965510e3db3c50048227ebda071545c0a66b
+  - path: dist/setup/programs/setup/Cargo.toml
+    algorithm: sha256
+    value: 112d09ce0df09c2f2feee38f8d262f2c8d52f6bcb0143d9b8804019a133960a5
+  - path: dist/setup/programs/setup/Xargo.toml
+    algorithm: sha256
+    value: 815f2dfb6197712a703a8e1f75b03c6991721e9eb7c40dfaec8b0b49da4aa629
+  - path: dist/setup/programs/setup/src/lib.rs
+    algorithm: sha256
+    value: 9c1caaee26ff5b5d2ab67341e9de33b859f6ab86187bc70ce62718837c4d76ba
+  - path: dist/setup/tests/setup.ts
+    algorithm: sha256
+    value: af97fa588060fc2d02eab1c043281869c50e5e2d1e6b6ed3f555dfa31cd4e0cd
+  - path: dist/setup/tsconfig.json
+    algorithm: sha256
+    value: bd0f2c29bd00ea49b24b102057d2dda078f9dea09ef193ac0335af99df5149f4
+  - path: dist/setup/yarn.lock
+    algorithm: sha256
+    value: ec730af6c59879f8fb31105d5de410c2d3269e2e9afe620b968cdb5cc44a3787
+  - path: dist/tests/is_solved.ts
+    algorithm: sha256
+    value: f27846505ae185096cef8d7d0e8197894d104038680380534bf96e0c3fa3235e
+  - path: dist/tests/setup.ts
+    algorithm: sha256
+    value: 0a5e8c400854da17e7fed814a205ec4f474283dd3f7baf891893a86ac6deb0c7
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/package.json
+    algorithm: sha256
+    value: 771dc7b7dc24ed46d40abdf3f2ff395c526ad325d5b5968b39a70d3edc45161d
+  - path: solver/solve.js
+    algorithm: sha256
+    value: 1d48a3b777f91e088bc837a15870564d4c0270e057bfb2bcb866b7eb0f257a3d
+  - path: src/.env
+    algorithm: sha256
+    value: 0d6a7e274f91c2e91ee263bedd55e96619d92742ccf83af14f8fc5d63152573c
+  - path: src/.gitignore
+    algorithm: sha256
+    value: d1b6784101c9b4693800d0ace8dce9363648b0af20ed88ce53ff34641df606d8
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 61e77e8fb7e3693e7a9af6fcf5377267a04d29bb2defb135330062a3076800f3
+  - path: src/deploy/.gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/deploy/__init__.py
+    algorithm: sha256
+    value: 012bc846f1f997f847eb99ccb40f57d4513b5beb34f7708c76383ccaea129773
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: fc961ad922fc574890df617dca964970dc8a0ef1bf3a05acaaf4fd1f3dc64fb2
+  - path: src/deploy/interaction/__init__.py
+    algorithm: sha256
+    value: 17df6f8b4c989563f2fafe0c6b113579f239f9d88eef0321cb898c3d064ac142
+  - path: src/deploy/interaction/setup.py
+    algorithm: sha256
+    value: d87d2a7836d577fa6624ceb0d84e88caf66097647270b7bcba37f06925788f6c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 3c7edc334622eae98d1e4e1bd11aac1ed103a503c8e9e8e747e789bdf3cead00
+  - path: src/setup/.gitignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: src/setup/.prettierignore
+    algorithm: sha256
+    value: 5e0368022141f5120d220f47ae5134cd3153b13ca523ed0f61915bc312ec7db9
+  - path: src/setup/Anchor.toml
+    algorithm: sha256
+    value: 0c83b89976e98d94d900fdcfd51952a30d3b5133d71159bf2715647f492a97b7
+  - path: src/setup/Cargo.toml
+    algorithm: sha256
+    value: dbd714c64166d92c8550badcd0964293191a945a0de4a756d1d69486e772c57f
+  - path: src/setup/migrations/deploy.ts
+    algorithm: sha256
+    value: af321b2b3fcf11652e296f74e5e4e64e66ea9e257d85dff7f59c40917f73398c
+  - path: src/setup/package.json
+    algorithm: sha256
+    value: f9ddde37d1dcb59883932314606f965510e3db3c50048227ebda071545c0a66b
+  - path: src/setup/programs/setup/Cargo.toml
+    algorithm: sha256
+    value: 112d09ce0df09c2f2feee38f8d262f2c8d52f6bcb0143d9b8804019a133960a5
+  - path: src/setup/programs/setup/Xargo.toml
+    algorithm: sha256
+    value: 815f2dfb6197712a703a8e1f75b03c6991721e9eb7c40dfaec8b0b49da4aa629
+  - path: src/setup/programs/setup/src/lib.rs
+    algorithm: sha256
+    value: 9c1caaee26ff5b5d2ab67341e9de33b859f6ab86187bc70ce62718837c4d76ba
+  - path: src/setup/tests/setup.ts
+    algorithm: sha256
+    value: af97fa588060fc2d02eab1c043281869c50e5e2d1e6b6ed3f555dfa31cd4e0cd
+  - path: src/setup/tsconfig.json
+    algorithm: sha256
+    value: bd0f2c29bd00ea49b24b102057d2dda078f9dea09ef193ac0335af99df5149f4
+  - path: src/setup/yarn.lock
+    algorithm: sha256
+    value: ec730af6c59879f8fb31105d5de410c2d3269e2e9afe620b968cdb5cc44a3787
+  - path: src/tests/is_solved.ts
+    algorithm: sha256
+    value: f27846505ae185096cef8d7d0e8197894d104038680380534bf96e0c3fa3235e
+  - path: src/tests/setup.ts
+    algorithm: sha256
+    value: 0a5e8c400854da17e7fed814a205ec4f474283dd3f7baf891893a86ac6deb0c7
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

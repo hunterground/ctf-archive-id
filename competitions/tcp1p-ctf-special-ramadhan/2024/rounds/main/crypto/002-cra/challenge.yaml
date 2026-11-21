@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-002
+name: CRA
+slug: 002-cra
+original_name: cra
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Sayuri telah terpesona oleh geometri sejak usia muda, dan obsesinya yang terbesar adalah dengan kubus. Sementara anak-anak lain bermain dengan mainan atau berlarian di ladang, Sayuri sering ditemukan menggambar desain kubus yang rumit di buku catatannya atau membuat struktur berbentuk kubus dari berbagai bahan yang ia temukan.
+
+  Suatu hari Sayuri ingin mengirimkan pesan kepada temannya dengan penggunakan metode RSA, tetapi Sayuri yang masih belajar RSA tidak mengetahui bahwa algoritma yang dia gunakan dapat mudah diserang.
+
+  ## Hints
+  - Perhatikan algoritma yang digunakan
+  - Apakah kalian pernah mendengar Cube Root Attack?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BosToken
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/cra
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 10353c56aa5adeb063d0ee6070462bfde284df14f71a8742d62705745e675c83
+  - path: chall.py
+    algorithm: sha256
+    value: 8ae3c26abb7c713ab9d65fdc4ec421394a9a20016a3e1dc7bf22df7b3cac956a
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 7a15eb35bc0c2af79ff14b0b117896cd6643beb87a5a34568718ca1eaa17e8a9
+  - path: output.txt
+    algorithm: sha256
+    value: 00c23e8b5e93b604f68a5a128179122a0be264342db12bbe60965b66798a79e5
+  - path: solver/output.txt
+    algorithm: sha256
+    value: 00c23e8b5e93b604f68a5a128179122a0be264342db12bbe60965b66798a79e5
+  - path: solver/solve.py
+    algorithm: sha256
+    value: d90ac70a015a5f6431898c7f698ccc4e58ae892024ed33568a2ccc8d9c8c2264
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

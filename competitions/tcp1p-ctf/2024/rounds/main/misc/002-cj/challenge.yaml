@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-misc-002
+name: CJ
+slug: 002-cj
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: no it's not Cyber Jawara.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Marc
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Misc/CJ
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 6a8dd59e0fdf177308db37f2c3fb50094da7776b28eaf56016f6dce2395a07fd
+  - path: chall/app.py
+    algorithm: sha256
+    value: 0752a8cb461705f3d1707dca9a8a2923171dcb4e8cda8a3c9912f9de7476a668
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: df1e3fb8f76ab6e8b34fb5264106c6fedcd1b9a85908fd276941ddb071fbd039
+  - path: challenge.yml
+    algorithm: sha256
+    value: a093c2503cb5107c78f96109d3da8597f9a135ba3e06e8c77b635ba1a3bdf2ae
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 6a8dd59e0fdf177308db37f2c3fb50094da7776b28eaf56016f6dce2395a07fd
+  - path: dist/app.py
+    algorithm: sha256
+    value: 0752a8cb461705f3d1707dca9a8a2923171dcb4e8cda8a3c9912f9de7476a668
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: c23498828c2a661525a235a931f92eb7fbae7d35625b25fdbe405c453ae44f07
+  - path: main
+    algorithm: sha256
+    value: 0c2a54710f8164af2dfb053c151418fbbd2e281ea2ec086357e414b7f1e0549b
+  - path: solve.txt
+    algorithm: sha256
+    value: 615c0dec937c12ef097611edca0d283d8f9354273387e614e17e37ce6abfec9d
+  - path: test.c
+    algorithm: sha256
+    value: 23de61e86f9d40918306ea8ce06eda7d493f9c87c46e42e8e4d843ea366800ac
+  - path: test_parse.py
+    algorithm: sha256
+    value: a2cd4a6f374d906b0ce6dd2ae71a8f8558437c28439c9cd11ddb672570bb7805
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

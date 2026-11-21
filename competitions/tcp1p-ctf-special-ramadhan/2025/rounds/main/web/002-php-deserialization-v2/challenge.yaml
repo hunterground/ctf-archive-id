@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-web-002
+name: PHP Deserialization V2
+slug: 002-php-deserialization-v2
+original_name: php-deserialization-v2
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Can you exploit this PHP code?
+
+  Connect: http://{{.host}}:9432
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Web/php-deserialization-v2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 592a2f77c0e52255531bd1d3038c0759135a73db005c42e9226e0425cec2e690
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4c29d9218c901e2ff7d3e3111e13de25ee1060958a3ce9b0bf6ea64dd856e6e3
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solver.php
+    algorithm: sha256
+    value: 5e9102d34f84cb3d1e9c24e102e604bc077120ecc911a5c6bcfa0ef7a5314602
+  - path: solver/solver.py
+    algorithm: sha256
+    value: ba265c463888f70255b9fd3004f1b19a7f8a06a27cadbb04ddb00afe6efff195
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 27b3e71f5980bced125b7c8e010c778a2bc7580224a8060aa6c40c273905ce33
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 3f9983f18b8576a50b641195ce22a5a8a76142ae1823853e816098bf4df1dabd
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8a94bd0e96592e67e2c167b3564a0e72ec54b1282b24b2c2f5e7f36a86e47556
+  - path: src/index.php
+    algorithm: sha256
+    value: 0559e0691809ca8281c6ca8ebdb04927ef9a6aa2341a629f240026d99cb3d898
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

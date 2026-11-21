@@ -1,0 +1,201 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-web-008
+name: Un Secure
+slug: 008-un-secure
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  **Author**: `Dimas`
+
+  Do you know what "unserialize" means? In PHP, unserialize is something that can be very dangerous, you know? It can cause Remote Code Execution. And if it's combined with an autoloader like in Composer, it can use gadgets in the autoloaded folder to achieve Remote Code Execution.
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- web
+- php
+- unserialize
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Web/Un Secure
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: README.md
+    algorithm: sha256
+    value: 832df03f516e1e021981045a3fc2f31f97c1818385bbc4184660cdd144f46ace
+  - path: challenge.yml
+    algorithm: sha256
+    value: b3de33ee0a99b133a8b55169348887f2d8778aa4f63088d6679f4930d5b121cc
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 699458e6d5fc435ad5540eaf895f6d1f4a63cdcf79cd3a843717a00f0dc67a45
+  - path: dist/src/.dockerignore
+    algorithm: sha256
+    value: ff80f7ded44e7bb8108e35d03caec008bc79ed8c9ba3a37282d89a3efb8a8f70
+  - path: dist/src/Dockerfile
+    algorithm: sha256
+    value: 6b10c1eb530cfeac8a3386a818924e00ded459043c81f3c658c4d03f26913706
+  - path: dist/src/composer.json
+    algorithm: sha256
+    value: 92fb457815373419910ebae5de32f0ee0505c34b296d26ef6907bdd9a190b6c8
+  - path: dist/src/composer.lock
+    algorithm: sha256
+    value: 478950fdbdfa739581d75f58f5ea9d311eedc2c2ccb685d4d4ef4ed6b2009bcd
+  - path: dist/src/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/src/index.php
+    algorithm: sha256
+    value: 57824420784ba5ad790494beea5839111bc7e20060e5bc3458a7a04e1233c496
+  - path: dist/src/src/GadgetOne/Adders.php
+    algorithm: sha256
+    value: ea94f0442400220c2b8bbfb2e2e249a2e9b7b12db253865ac1ff34819c518c1e
+  - path: dist/src/src/GadgetThree/Vuln.php
+    algorithm: sha256
+    value: 5f74cb459f3da48915103b8d7e9e0c7c385829b48afdcab6065a5b459a5b7f1c
+  - path: dist/src/src/GadgetTwo/Echoers.php
+    algorithm: sha256
+    value: 42c1ac9fe9dbcd228e8fb16d5e66d2c1fe63ce97e9bda97f50750396bc3c6111
+  - path: dist/src/vendor/autoload.php
+    algorithm: sha256
+    value: a495e51018933f9c13ab1d0c35cd85e15dd01fa75d77dca020dd7614f839c49c
+  - path: dist/src/vendor/composer/ClassLoader.php
+    algorithm: sha256
+    value: d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2
+  - path: dist/src/vendor/composer/InstalledVersions.php
+    algorithm: sha256
+    value: 21f4ba19e7859cb3f85b8b1680c970ee25d972546c1606dcae0e7e5f43f626f0
+  - path: dist/src/vendor/composer/LICENSE
+    algorithm: sha256
+    value: c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+  - path: dist/src/vendor/composer/autoload_classmap.php
+    algorithm: sha256
+    value: 375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a
+  - path: dist/src/vendor/composer/autoload_namespaces.php
+    algorithm: sha256
+    value: 17e74a3a4d2c90f1b39223861fc75e439337ea5c802a38674a6ea6d58e9997b7
+  - path: dist/src/vendor/composer/autoload_psr4.php
+    algorithm: sha256
+    value: 354efe989c2fb1f58d0806b57ab1381b6fb3d6197354dde58c0b4dfcceedaab8
+  - path: dist/src/vendor/composer/autoload_real.php
+    algorithm: sha256
+    value: 1b98fd4922480b1ffc91e5e00e872e92c542a4f943d13153d5c9fb0ef726e058
+  - path: dist/src/vendor/composer/autoload_static.php
+    algorithm: sha256
+    value: 95fc60d4bd4c6c4549be9cd6e775a5e579ffd719e7375c5491006ee3dec79bf1
+  - path: dist/src/vendor/composer/installed.json
+    algorithm: sha256
+    value: 3c75d0ea6f7dcfd7ac6324985f1c87f9227ccc5b36bc2fa7b7eb66a32d2f9c71
+  - path: dist/src/vendor/composer/installed.php
+    algorithm: sha256
+    value: 317ba43a91082885219bd1ff00f963ef0715ee280a0ff6941b564ca4c484f2ac
+  - path: dist.zip
+    algorithm: sha256
+    value: 0cfe8d76dff4cb2ef6c5539b99e43d477f24538580535ecc67855762bf3fd84a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ed06dbe960c3f87cc7b550de103d34d508b215c9b7020d3d70180eef94adf54f
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: ff80f7ded44e7bb8108e35d03caec008bc79ed8c9ba3a37282d89a3efb8a8f70
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 3f229fae7970afea64c0ed191dc7c05946b0fbc7ae03cdba3b0492edbf5c668e
+  - path: src/composer.json
+    algorithm: sha256
+    value: 92fb457815373419910ebae5de32f0ee0505c34b296d26ef6907bdd9a190b6c8
+  - path: src/composer.lock
+    algorithm: sha256
+    value: 478950fdbdfa739581d75f58f5ea9d311eedc2c2ccb685d4d4ef4ed6b2009bcd
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3b87dab4deb3317256e7da457fcf53e4ad1fccbc51d035f0c962c104aad21f42
+  - path: src/index.php
+    algorithm: sha256
+    value: 57824420784ba5ad790494beea5839111bc7e20060e5bc3458a7a04e1233c496
+  - path: src/src/GadgetOne/Adders.php
+    algorithm: sha256
+    value: ea94f0442400220c2b8bbfb2e2e249a2e9b7b12db253865ac1ff34819c518c1e
+  - path: src/src/GadgetThree/Vuln.php
+    algorithm: sha256
+    value: 5f74cb459f3da48915103b8d7e9e0c7c385829b48afdcab6065a5b459a5b7f1c
+  - path: src/src/GadgetTwo/Echoers.php
+    algorithm: sha256
+    value: 42c1ac9fe9dbcd228e8fb16d5e66d2c1fe63ce97e9bda97f50750396bc3c6111
+  - path: src/vendor/autoload.php
+    algorithm: sha256
+    value: a495e51018933f9c13ab1d0c35cd85e15dd01fa75d77dca020dd7614f839c49c
+  - path: src/vendor/composer/ClassLoader.php
+    algorithm: sha256
+    value: d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2
+  - path: src/vendor/composer/InstalledVersions.php
+    algorithm: sha256
+    value: 21f4ba19e7859cb3f85b8b1680c970ee25d972546c1606dcae0e7e5f43f626f0
+  - path: src/vendor/composer/LICENSE
+    algorithm: sha256
+    value: c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+  - path: src/vendor/composer/autoload_classmap.php
+    algorithm: sha256
+    value: 375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a
+  - path: src/vendor/composer/autoload_namespaces.php
+    algorithm: sha256
+    value: 17e74a3a4d2c90f1b39223861fc75e439337ea5c802a38674a6ea6d58e9997b7
+  - path: src/vendor/composer/autoload_psr4.php
+    algorithm: sha256
+    value: 354efe989c2fb1f58d0806b57ab1381b6fb3d6197354dde58c0b4dfcceedaab8
+  - path: src/vendor/composer/autoload_real.php
+    algorithm: sha256
+    value: 1b98fd4922480b1ffc91e5e00e872e92c542a4f943d13153d5c9fb0ef726e058
+  - path: src/vendor/composer/autoload_static.php
+    algorithm: sha256
+    value: 95fc60d4bd4c6c4549be9cd6e775a5e579ffd719e7375c5491006ee3dec79bf1
+  - path: src/vendor/composer/installed.json
+    algorithm: sha256
+    value: 3c75d0ea6f7dcfd7ac6324985f1c87f9227ccc5b36bc2fa7b7eb66a32d2f9c71
+  - path: src/vendor/composer/installed.php
+    algorithm: sha256
+    value: 317ba43a91082885219bd1ff00f963ef0715ee280a0ff6941b564ca4c484f2ac
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 1303c4dc2f93b0f43767c6648c138e758c464bae0cbb13fdfbb1b75c66f6f27f
+  - path: writeup/exploit.php
+    algorithm: sha256
+    value: ac39ab6233fcb7296bb1af9383c04455c4164adc83b5f647d8e3c57cb838a957
+  - path: writeup/gatget.php
+    algorithm: sha256
+    value: 6b255822d35b672d8eeb28b012cd83b46ec1244867ee1ae7a03da2e7c8fe834e
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:45678'

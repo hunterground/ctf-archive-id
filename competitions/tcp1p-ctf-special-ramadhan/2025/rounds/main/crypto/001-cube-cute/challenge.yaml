@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-001
+name: Cube Cute
+slug: 001-cube-cute
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: Easy chall to count?, yap, just focus on counting!. maybe yes, number three will help you!,
+  don't forget the bit!!!.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Cube Cute
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 71d456cd4a3073e7b13557fd0821e7262bdaa765ed4e19484283dab41faa90bc
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6dd7fce16aa7abb016c15b4ed11d29b8e28cc509a4b43d6a2aebe396a719327a
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 7584be0e6e6dd0aedf32122e359dd1a89fe7b60edb039e4aec4709f5f7b0460c
+  - path: dist/output.txt
+    algorithm: sha256
+    value: e10e86d88fdafebb763297513ca2d0b4f26da9909836a097b107c6ec5d4ced67
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC-Solver.md
+    algorithm: sha256
+    value: e143f2126b4e042e8ff607b11910ee4f50fd2de48455f10f5f4f953c4d768f56
+  - path: solver/solver.py
+    algorithm: sha256
+    value: abdb10fd50b080fa017dee9825f8b07dda50281107fe700e685027ad16c6a217
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d46c3c1cefa965eea79cd0ac9dbab521c52c68e8897fc9bb802d0de5b4d3e345
+  - path: src/hint.txt
+    algorithm: sha256
+    value: 12ccd32969829e7377b253a2aebe1b043a85b4a1d8eb0cc111591a03548823bf
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-osint-002
+name: Tebak Nama
+slug: 002-tebak-nama
+original_name: TebakNama
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: |-
+  Sebagai sosok nolep yang keluar cuma pas acara keluarga, chall osint jadi neraka kalo berhubungan sama tempat. Mending ngabuburit tebak nama hehe. Aku punya teman yang ambisnya bikin nangis. Bahkan saking ambisnya dia sampai memiliki total 90+ Sertifikat jir. Dia satu sekolah denganku dan sekarang sedang PKL duluan di perusahaan yang namanya sama kayak pemimpin Autobots. Btw di salah satu medsos ada postingan dia pernah foto pake almet ITS. Siapakah nama teman yang aku maksud?
+
+  Kirim nama yang kamu temukan dan nama lengkap perusahaan tempat dia PKL sekarang ke Discord author supaya dapat flagnya.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Rasshaaa
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: OSINT/TebakNama
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dc5f2ab3da39ccc6133a9ac59d779c96490fedd8d47d257a762f9626daeaa640
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9f192b955f612fbaa7406dd4aa1fb46f956d3184c18738adaa0fe664aa680fef
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solve.md
+    algorithm: sha256
+    value: 623b85018ca63231d338a5b4d36af01129c177ec49e2f05c6a909e0a0e959efd
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

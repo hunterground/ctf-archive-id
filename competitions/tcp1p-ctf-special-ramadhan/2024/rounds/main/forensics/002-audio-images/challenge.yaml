@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-forensics-002
+name: Audio Images ?
+slug: 002-audio-images
+original_name: audio-images
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: |-
+  Welcome to the future of explorer, where an image can output audio and audio can also output images. However, the future also has problems, so we hope you can help
+
+  The future has a special image about the developer of the future world which has special audio in it, but someone managed to hack the image and change the audio into a hidden message. Help us to track and get special messages from these hackers.
+
+  attachment: https://download1527.mediafire.com/jqxwns9a2pkg6jb1FlBbHIHmmV1sgMz4pHj2-uVYQsFQK5cdy8h8AkOa2WSyhgoRWgCeGZBtkTZhFTRqBmNjkhxoQbdytnxqehEBHrFRnCuz6ZfwdwwFqXERibUgi1bnodE0zlKxYnNRFSeuA7IV2PfhmuQMBmcYFAirX_pdYdIGew/ky9joaw8aji33qw/meme.png
+
+  ## Hint
+
+  To help track hackers who commit crimes in the future, I will give you my best friend, namely Firemost Alvin, to help you
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Orch4th
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Forensics/audio-images
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f38ed9d912b870db54413400f4a45b6f589f7632efe9f1e9a47544cb45127481
+  - path: challenge.yaml
+    algorithm: sha256
+    value: bcbb6947c66698a2f7487b4999b28819e0d6813477bbf53e0e023002f14af544
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-007
+name: Nuclei
+slug: 007-nuclei
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `daffainfo`
+
+  Nuclei is a fast, template based vulnerability scanner focusing on extensive configurability, massive extensibility and ease of use.
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- misc
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Nuclei
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7b360c51f9baf8ac6543b4e74abda60aa2b6dbff488a09cc2f4c950894f6fef1
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 94ffe68ffecfea735e56c565447f64326b23b51911eb98233c284e4bcfc7d369
+  - path: dist/src/Dockerfile
+    algorithm: sha256
+    value: 1f7728b27c6ea8ae00371300b0eeabe292ead74c774f7a1d53e97b3b236f0212
+  - path: dist/src/app.py
+    algorithm: sha256
+    value: f3a4d71d65b38b1039d1e72599e9f8c3766b448c994c1dc390677bb55ec5ed64
+  - path: dist/src/custom-templates.yaml
+    algorithm: sha256
+    value: af4cc21cbc1dde3469637bbe6c1571d49566a7ef7c192791fe79219d923562c7
+  - path: dist/src/templates/index.html
+    algorithm: sha256
+    value: 7bd4dd2f525fb08beafcac1d4225f18aeb93ea89415317ead1ec77ad0eabf8d4
+  - path: dist.zip
+    algorithm: sha256
+    value: 503500622972d1f772526c740518d5d78f55829318148b8a067423cdfa9da86b
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: bebce806a9feb469a7e531126f8a8cdcd1fd09e53915e60fc63f7ab3963e9954
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5440dff4988a12fd8d2c730b37ff9fb40e2581d89fc301db92722ea4bd05697b
+  - path: src/app.py
+    algorithm: sha256
+    value: 8dd1930a9521c7c4046945e02f56e56c74a1b1a4be7a0f3513ba17dacf5346e9
+  - path: src/custom-templates.yaml
+    algorithm: sha256
+    value: af4cc21cbc1dde3469637bbe6c1571d49566a7ef7c192791fe79219d923562c7
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 7bd4dd2f525fb08beafcac1d4225f18aeb93ea89415317ead1ec77ad0eabf8d4
+  - path: writeup/README.md
+    algorithm: sha256
+    value: a7c3ff3d662754e83c56a404a831c03e09770d64e043a3a1a8b9ecc1546031ca
+  - path: writeup/src/api/v1/version/index.html
+    algorithm: sha256
+    value: 261da215972d4afcbc00bc7ae65b7850606d66bebce0fd6ddc87e2c802b37971
+  - path: writeup/src/api/v2/echo/index.html
+    algorithm: sha256
+    value: 587ec43b4a99fadce14e510eea006c7e19ded13b3ee8fb5c467d46b0c2ab46a5
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: http://ctf.tcp1p.com:45689'

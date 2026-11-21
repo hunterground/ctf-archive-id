@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/redpwn/rcds/master/rcds/challenge/challenge.schema.yaml
+
+name: Micro Rev
+author: Dimas Maulana
+description: |-
+  First C reverse engineering challenge :P
+
+flag: TCP1P{micro_challenge_for_c_reverser_XP}
+
+provide:
+  - enc.txt
+  - main

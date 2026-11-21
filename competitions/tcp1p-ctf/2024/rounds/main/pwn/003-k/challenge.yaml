@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-pwn-003
+name: K
+slug: 003-k
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  For yall who like K pwn
+
+  **Connection**: `nc {{ .host }} 20024`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Pwn/K
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 904082c5a34b900f2486840e30d36713f5ce3c0f964494e4ed0837c656a5c9cf
+  - path: K.tar.gz
+    algorithm: sha256
+    value: c3cd839760711b9808a177de2a86bf3185b26a306b16e75e390a71cd90bbba1f
+  - path: chall/bzImage
+    algorithm: sha256
+    value: 33a5971426d96ef9ebe669ecffd38a5e2423f70bdd26e041cef054299b8f9b36
+  - path: chall/rootfs.cpio.gz
+    algorithm: sha256
+    value: fed85197ebe6001adb26e08bce2d858c5990089436cc3de3d6bad8b79e20193c
+  - path: chall/run.sh
+    algorithm: sha256
+    value: 6e215dd6467549020cf0290840f16ac78fc08c795ef5f757e3415a1fbc945f08
+  - path: challenge.yml
+    algorithm: sha256
+    value: f0f2025e96ed91d857a0110cc9391d3aa3b28ff904ede551d700b1d3d0a9e334
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1df77772e911c404160c00f33c4b878972cdc67bc8087e03cba6960181da1e0a
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

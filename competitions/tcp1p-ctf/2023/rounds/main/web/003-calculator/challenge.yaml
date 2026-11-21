@@ -1,0 +1,130 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-web-003
+name: Calculator
+slug: 003-calculator
+original_name: calculator
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  **Author**: `Dimas`
+
+  For my college assignment, I was tasked with creating a unique calculator app, not your typical calculator application. Could you give it a try and test it for me? 😎
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Web/calculator
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: README.md
+    algorithm: sha256
+    value: 34c4285f7d265c92bcd20f54b80e9df627d8d138869f849c25aaf623cc0efa45
+  - path: challenge.yml
+    algorithm: sha256
+    value: 13f12edd493c69f8a9598a8e2fb24d09e0c0d0848d69602cf5991b8e7e52df69
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: ae3ae0c5a0991109c3269e407802d1c8937ac8468292dd951417d47cc691244e
+  - path: dist/deno.jsonc
+    algorithm: sha256
+    value: e2de06e40bdd4ec19cd5bbbee989c19de46829a109338a82546751f34b18735b
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/index.html
+    algorithm: sha256
+    value: 63afaf2abc93ea95d2c83978d5cc89ac9d79807feb22ad2bec9e4f2daba0d921
+  - path: dist/main.js
+    algorithm: sha256
+    value: a38c92169c5a67d89ee636dd5a7436c3b5b39917bcd91be96b40c072869ef8aa
+  - path: dist/module/calculator.js
+    algorithm: sha256
+    value: 186df90b6cf052419af9780eaee247ac26a29663acab661bf15edf33b9e4372d
+  - path: dist/module/extendedMath.js
+    algorithm: sha256
+    value: 9300dfa74dc371dae82007a4aaedc5ce4f8a71ad6a9551b1d6cd4b4d0c8df3f1
+  - path: dist/module/isolation.js
+    algorithm: sha256
+    value: a29c769cb58289422376d021fdfd42aa30bb62d040b0334e9c4775b193d827f4
+  - path: dist/module/worker.js
+    algorithm: sha256
+    value: 6e8cbe1fe7de34f27d8627b271d54cb32fa4d8df9da2ed23c7f1d8076b9e7f82
+  - path: dist.zip
+    algorithm: sha256
+    value: 5c2c8444aa2ed260e38cd81ee06d3a6577883226109140260b0a0ddfe6e65b6e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: efd9f58b7def8eb58b8e306f69a43682d16007da69695dadbec33ebc34bd99dc
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ae3ae0c5a0991109c3269e407802d1c8937ac8468292dd951417d47cc691244e
+  - path: src/deno.jsonc
+    algorithm: sha256
+    value: e2de06e40bdd4ec19cd5bbbee989c19de46829a109338a82546751f34b18735b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d5f3c2731a392718d97e3860b94453fc9dea77e7bf39015e48694f06fcfffd19
+  - path: src/index.html
+    algorithm: sha256
+    value: 63afaf2abc93ea95d2c83978d5cc89ac9d79807feb22ad2bec9e4f2daba0d921
+  - path: src/main.js
+    algorithm: sha256
+    value: a38c92169c5a67d89ee636dd5a7436c3b5b39917bcd91be96b40c072869ef8aa
+  - path: src/module/calculator.js
+    algorithm: sha256
+    value: 186df90b6cf052419af9780eaee247ac26a29663acab661bf15edf33b9e4372d
+  - path: src/module/extendedMath.js
+    algorithm: sha256
+    value: 9300dfa74dc371dae82007a4aaedc5ce4f8a71ad6a9551b1d6cd4b4d0c8df3f1
+  - path: src/module/isolation.js
+    algorithm: sha256
+    value: a29c769cb58289422376d021fdfd42aa30bb62d040b0334e9c4775b193d827f4
+  - path: src/module/worker.js
+    algorithm: sha256
+    value: 6e8cbe1fe7de34f27d8627b271d54cb32fa4d8df9da2ed23c7f1d8076b9e7f82
+  - path: writeup/WRITEUP.md
+    algorithm: sha256
+    value: 6b32c586d4638edee829a631a5eab292195c90c0045f522deed5c349f3a8db86
+  - path: writeup/solver/generator.js
+    algorithm: sha256
+    value: a7781ffdbefa884269ad8e7b33a918bee6944228e88bf392ce0f0f51405a48b4
+  - path: writeup/solver/solve.py
+    algorithm: sha256
+    value: f6a03dc7c2d17ba0a3011ebb9d06ba03bac8046d9f470dcee83c7b83740e7e01
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'The source directory name differs from the challenge name. connection_info from challenge.yml:
+  http://ctf.tcp1p.com:29997'

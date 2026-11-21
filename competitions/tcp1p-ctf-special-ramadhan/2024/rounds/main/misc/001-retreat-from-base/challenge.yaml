@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-misc-001
+name: Retreat From Base
+slug: 001-retreat-from-base
+original_name: retreat-from-base
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  Dalam belajar CTF, kita bisa diibaratkan seperti tentara yang harus mengetahui kapan waktu untuk menyerang maju dan kapan waktu untuk **retreat** dan istirahat sejenak dari medan pertempuran.
+
+  hint: https://github.com/mufeedvh/basecrack
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Orch4th
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Misc/retreat-from-base
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fc636c05ebf073f0f19010c1fff594329567f7e9ef14a28e6fa8e93118fecf7b
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 27d6c745fb93fb410298523b6f6d2b0b06fcda0dfe98e502a014db1645c2f427
+  - path: retreat.txt
+    algorithm: sha256
+    value: c5e4e0716bfcec205a42f446113864700e68729abb1ad612135f575b803d3194
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

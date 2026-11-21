@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-osint-004
+name: Night Live at Indonesian
+slug: 004-night-live-at-indonesian
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: null
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Jieyab89
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: OSINT/Night Live at Indonesian
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f992b71f5948153a0137fc788e7a0aac3afbbca2d87b08c20857a33e4173eff5
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 158b74a6c9631d1b3a84c37ef77bd46b1f52c5ce2f224864b6e3b826be742e05
+  - path: src/Attachment.zip
+    algorithm: sha256
+    value: 9ed4ba97fe6bdc528ab2d83a465b2e8d39b23a42a1a72561b8f31174a31df905
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source description contains a flag, so description is omitted from metadata.

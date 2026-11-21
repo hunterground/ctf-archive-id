@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-forensics-003
+name: Compromised
+slug: 003-compromised
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  **Author**: `lunaroa`
+
+  An unknown individual gained unauthorized access to our old FTPS server. Moreover, the perpetrator somehow managed to acquire our private key beforehand. Could you determine the extent of information compromised by the perpetrator this time?
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- forensic
+- network
+authors:
+- name: lunaroa
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Forensic/Compromised
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ad67890e58a7d32f2017afd5031a7a5d1b98fc2414340b891ea71bce369d8e02
+  - path: challenge.yml
+    algorithm: sha256
+    value: eb146d1004ee2ca01e5d9cc2f3a1f487d4b349de7068556b0c27f4fa5b095972
+  - path: dist/compromised.pcap
+    algorithm: sha256
+    value: 6b69c60c31b7369312e237e98b70080b5ac034390ebdf931a73f9d3ab80df285
+  - path: dist.zip
+    algorithm: sha256
+    value: b9faa05524de97c2c7f206cb2205bbeeacc6a92902e38d3b0e43ebfca2521440
+  - path: writeup/README.md
+    algorithm: sha256
+    value: ba068a2177f52dadf404c6fb7168d93af0825f9f2467159b2265ed92eee12151
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

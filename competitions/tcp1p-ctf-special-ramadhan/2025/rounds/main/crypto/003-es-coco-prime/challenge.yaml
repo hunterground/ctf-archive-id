@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-003
+name: Es Coco Prime
+slug: 003-es-coco-prime
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: Please verify first whether it is "coco" or not? If yes, maybe the "coco" seller, "Mr. Euclidean"
+  will help you pour it, and yes, always remember the simple mathematics of "x" and "y" because they are
+  the minimum formula for this "coco" which is very delicious.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Es Coco Prime
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c63a03738ccfae18471e26029f644ab52a1a97106f2f3f35aa63f56b5ed7f398
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5f2a2eba281a3082986aa9a62ab31779030f6a069c61b016807c67d95e981f92
+  - path: dist/chall.py
+    algorithm: sha256
+    value: dd45bb253ca78df3e7852312a2a4396aa30e8895a51172c3fe5f196eba5a37da
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 1c45ad60eee9fc9e4aee7dabd65f4f8d92052ea3621732175e2439ace810400f
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC-Solver.md
+    algorithm: sha256
+    value: d5f2bf48d73adb63492f015fdc29bacdc8163b9c2d1967b2f84fc2e2bbb327fb
+  - path: solver/solver.py
+    algorithm: sha256
+    value: 003037d479605e22d9417e45f456a18b925bbe3531c1bb98be30761955d0fec4
+  - path: src/flag.txt
+    algorithm: sha256
+    value: f7e31baed92302fb694dc475b2668dcf2033638e7e2352efe9ab67e8925d2b89
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

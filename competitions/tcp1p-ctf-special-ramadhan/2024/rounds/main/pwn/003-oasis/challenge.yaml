@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-pwn-003
+name: Oasis
+slug: 003-oasis
+original_name: oasis
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Help Oscar to gain the mystic power!
+
+  Connect: nc 103.185.44.122 27428
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Brandy
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Binary Exploitation/oasis
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: feb96a53f9a5c0d7fa3acd15bbe577e6f30d91243363c502385b9e0c88d0bc20
+  - path: README.md
+    algorithm: sha256
+    value: d72ef45372d40ba6781b1b3f753a3aafb42b1a2deb137f7722f041e281caac27
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 88356c4642daf9ef11198f4ca6bcaa5aef8704b1421858468fb892363d5b878d
+  - path: deploy/README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: deploy/pwn-level-0.8
+    algorithm: sha256
+    value: 2c63ec724cc0f3570635b2f8684c7fd22caf6404d5145a4100465b413bdb3a89
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 9735c4b889f345a329e7df40f86344b7740db84a15de6e35c4243050738a9e0a
+  - path: flag.txt
+    algorithm: sha256
+    value: fa6164d418e91e35f8f2703c6bd9096ee533dd145bd4c890f3a1fc9cfe380a3a
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: fa00e11432d68470e2b429605cff856659892611eec3a0908af7e077d2295c27
+  - path: libc.so.6
+    algorithm: sha256
+    value: 436bf9e45334ab7e44fa78ab06d2578af34eac8dece2b4cb373ba4be73dac86c
+  - path: oasis_dribbble.gif
+    algorithm: sha256
+    value: abcc698380aae833f92b910e64ae1045161e5b23b695ce0de629a1c1646da4ee
+  - path: pwn-level-0.8
+    algorithm: sha256
+    value: 403d0b68550c98bae416dcffb19168578c3ccab9e4d748a5cbc6e0dd2b0949b8
+  - path: run.sh
+    algorithm: sha256
+    value: 1b03269126ba24dc78ab00ed84d6cf8e1c4b5459fec0b39aef7e95f8f3ab5f41
+  - path: startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: xinetd
+    algorithm: sha256
+    value: 494edba23dc1ff9ca0e66d1e4f852878450a29cedec8bcafb48c680479e000aa
+  - path: xinetd.conf
+    algorithm: sha256
+    value: 7b061a1945a6ed9f31672c93e43a3cf0aa31dfffe5fd88bfc8c26aa0bc571a1d
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

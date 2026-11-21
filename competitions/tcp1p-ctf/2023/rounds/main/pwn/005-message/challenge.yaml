@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-pwn-005
+name: message
+slug: 005-message
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: |-
+  **Author**: `gawrgare`
+
+  What do you want to say to me?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: gawrgare
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: PWN/message
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d4dbdcc2353adc83127d9ed80122d3297ae313174d7d347fae49bc6beea5bbf9
+  - path: Dockerfile
+    algorithm: sha256
+    value: dbfedf151dce4a5a5f234fc152432a26960c43bb15cfce681f1cad343d67b85d
+  - path: Makefile
+    algorithm: sha256
+    value: 2591b4308a6b48d498951c5299d411c17d90aca2b7a4d554a859d28acac42666
+  - path: challenge.yml
+    algorithm: sha256
+    value: b4db33e9ec6ab0eb005ec1d4c8cacb763d9e9c4d7e9072dd0954c5637589b7d3
+  - path: config/ctf.xinetd
+    algorithm: sha256
+    value: 097d7f8dcc8719e33e903ced8464801b5dac2efeede969a8c6395ce9b3e86f9d
+  - path: config/run_challenge.sh
+    algorithm: sha256
+    value: aa4eacee50ba8da5a53cb22d5b76de552c39632b31139923a9d3f7aedd0ea437
+  - path: config/run_xinetd.sh
+    algorithm: sha256
+    value: 83c33a0f3fce734b4f73595158379b3f2c9cc87b42e992a9ccf987ca6efa8e38
+  - path: dist/chall
+    algorithm: sha256
+    value: 2028fb7eadb2f4350580beece995ab54f1943c07d3e8f03fcd2f80be2bfc7c2b
+  - path: dist/flag-3462d01f8e1bcc0d8318c4ec420dd482a82bd8b650d1e43bfc4671cf9856ee90.txt
+    algorithm: sha256
+    value: 3462d01f8e1bcc0d8318c4ec420dd482a82bd8b650d1e43bfc4671cf9856ee90
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: df9a767c0d83299eb4d3f1ca3fa11f454261ef0bb506cdfca3e09baa1b9246f5
+  - path: src/chall.c
+    algorithm: sha256
+    value: 8d303c63e3ee0179b7cc3df759b01603a2be25e2078acecf441bcb6898a3e288
+  - path: writeup/solve.py
+    algorithm: sha256
+    value: b2885340c659be33ce750e8383dab928b34f30da3461211e9abc08f0e089cd6e
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: 'connection_info from challenge.yml: nc ctf.tcp1p.com 8008'

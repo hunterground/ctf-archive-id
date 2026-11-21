@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-web-006
+name: unlimited
+slug: 006-unlimited
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  You can do unlimited request to this server. But can u get admin password?
+
+  Connect: http://103.185.44.122:7313
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: 53buahapel
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Web Exploitation/unlimited
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: c8c9a40b07bb804fbdce8fa88c57aff65d494f2283acb7b2b9f6f7ebf7370b10
+  - path: solution/README.md
+    algorithm: sha256
+    value: fb5bf5c011afefd4076fd051037881eff6650f8acc98ba7f6694d3e15b5faf00
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 7d77ea87ba95b6c2b4f0eaa8b3012d242bebb7fd19286497966bdbc3606720e8
+  - path: src/unlimited/app/Dockerfile
+    algorithm: sha256
+    value: 5ecb4e18ccbba553bfff55623444c07a6feb060f652578e023acdae7b304de28
+  - path: src/unlimited/app/account.txt
+    algorithm: sha256
+    value: 3c514ad4833505e354b2b9033be9ef3a70c82446bb698ad8699e0fa45df1ed23
+  - path: src/unlimited/app/app.py
+    algorithm: sha256
+    value: 31e2370ade6e495f876220a6a70f1dedba902d0c6a7418747551d397b5d6248c
+  - path: src/unlimited/app/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: src/unlimited/docker-compose.yml
+    algorithm: sha256
+    value: 7a1b28b78931205f175c3c548ba4d64fad6a61b7c18ec39f90792fcb62305062
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

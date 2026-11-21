@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-002
+name: mie AYAM BAKSO
+slug: 002-mie-ayam-bakso
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: 1 porsi mie ayam bakso saat buka puasa
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: b4r
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/mie AYAM BAKSO
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a72eaf31b135814d93530e138fc41537b0dd64c1c19ffe21a99d38beae535c82
+  - path: challenge.yaml
+    algorithm: sha256
+    value: d64a729bd804a88e424fbb1b9735fd7775025315921832c089931b638877c776
+  - path: dist/mieAYAMBAKSO.jpg
+    algorithm: sha256
+    value: 48b87f10caf4b04e768d18c3f9509bb6f99c523127658237c808af695684ad81
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: 3e720f16b003929e6c6012360fe3ab61d66a165393fd81e7b0492600749cf22f
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

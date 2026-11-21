@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-003
+name: Hacked
+slug: 003-hacked
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  My website is always being hacked by hackers >:(. That's why I created a very very very very secure website so they can't hack it again HAHAHAHA!!
+
+  Connect: http://{{ .host }}:10012
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/Hacked
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a616de2197b9d48274a932eb6e31884935a560bab7d477e8a221428d70181e9a
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 936622a6bc9eee559ed981eb3dd06fcf53a89cf9c1f8c3dbd8c9f3a581453436
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: ee698b13d1f670b0143fd071f63195413f1f7af72449bbb9573b8427f5a49296
+  - path: dist/application/app.py
+    algorithm: sha256
+    value: 28a9a7174d37420bd20dded10978bd89df6ebef88b8223daf5ba2e419977fdc3
+  - path: dist/application/static/css/main.css
+    algorithm: sha256
+    value: 9ef841448437752d5851efe511181dbfed402472a0bb84b8b3664d5365d929a0
+  - path: dist/application/util.py
+    algorithm: sha256
+    value: b61a9ab2e1e797f020b783b336e534857096dd32cd6f9e76104805fcebe63243
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: e279261d0571920cf3bb351a3a65ba334984508553810de99c088f62e341a081
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: fde90cfcf34ca3c452f36dc387fa75ef311ff1fd82932c572b081a1fd8444572
+  - path: dist/requirements.txt
+    algorithm: sha256
+    value: 0e28ec5194892b4a0d436e64a7fcfdfc72d53003034980238735b5be4f03b82d
+  - path: solver/README.md
+    algorithm: sha256
+    value: 30f5e636127918b0a32f9b2ff4898dd31d372dce766ecedd9f84545ac8c24a45
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ee698b13d1f670b0143fd071f63195413f1f7af72449bbb9573b8427f5a49296
+  - path: src/application/app.py
+    algorithm: sha256
+    value: 28a9a7174d37420bd20dded10978bd89df6ebef88b8223daf5ba2e419977fdc3
+  - path: src/application/static/css/main.css
+    algorithm: sha256
+    value: 9ef841448437752d5851efe511181dbfed402472a0bb84b8b3664d5365d929a0
+  - path: src/application/util.py
+    algorithm: sha256
+    value: b61a9ab2e1e797f020b783b336e534857096dd32cd6f9e76104805fcebe63243
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 898fe5bdd84f0a375c095387fa55ed96308dcb3971eb298df98fa2922753b963
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8f23b40ade6c58aaff162371f16f6f12c6606a1211b5077c848135ae6a84818e
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 0e28ec5194892b4a0d436e64a7fcfdfc72d53003034980238735b5be4f03b82d
+  - path: src/run.sh
+    algorithm: sha256
+    value: b6f0518fdf8b8ef2b7ea56b181332596838ce0daf51af691d4f03bdf8c96a053
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

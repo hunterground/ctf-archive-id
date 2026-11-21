@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-crypto-008
+name: OTP
+slug: 008-otp
+original_name: otp
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: n4siKun1ng
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Cryptography/otp
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b47b4d4d46e3a5131b35055bc59ed92c72b6b637abd95bd07a103add5a57ecdb
+  - path: challenge.yaml
+    algorithm: sha256
+    value: ecffc7a6af10f5222c9ef43278ef8b379b483f88f4cb1da0c91c1b68a24f7618
+  - path: pesan.txt
+    algorithm: sha256
+    value: 8ef183c959ab70d3c2abee45aa6fa484eb07b8224cc3d99bf8388ca309000355
+  - path: solver/solve.py
+    algorithm: sha256
+    value: 791d246c4d051797cbd4f0b77dccf5263f557fa20cd868ff650f971b961d1d31
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source description contains a flag, so description is omitted from metadata. The source directory
+  name differs from the challenge name.

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-rev-005
+name: NoJS
+slug: 005-nojs
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  **Author**: `aimardcr`
+
+  i never really liked js, so i made it an executable.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Reverse Engineering/NoJS
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: b12a8d4e5f0a0b0d526f190c6f3ac5f58959e74b59701bf5f290bb11e173e76f
+  - path: dist/main
+    algorithm: sha256
+    value: ea1c7b76a44c073aefe0c5ca565e3027d293c96f862de2ae1b238716c4acd0e5
+  - path: solution/solve.py
+    algorithm: sha256
+    value: d86712087edaa1c10fd028791a1639a3dd315741cc8ef1ff2d1cf4785caacc36
+  - path: src/main.js
+    algorithm: sha256
+    value: 20dc4d4ef2f75c8293f85de430bbddb99af16c294b16ca7157ec4945d7594df0
+  - path: src/obfuscated.js
+    algorithm: sha256
+    value: cac132ec1d886a2a2310384bad04c66320aaa43a0a352b7a4fc6f7337ef9b8bb
+  - path: src/src.js
+    algorithm: sha256
+    value: 54162ea6a270509c107a2b76fcab1fb00ef7765810e712b8ee3482540b47db43
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-pwn-002
+name: Baby CFHP
+slug: 002-baby-cfhp
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: |-
+  Yet another simple and minimalistic source given pwnable challenge
+
+  **Connection**: `nc {{ .host }} 20011`
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Pwn/Baby CFHP
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 87c9d63dbd03fca6c90e617eb0d7c0b66a74bd5f35b0dfbac75b3c013a71b9bb
+  - path: baby_cfhp.tar.gz
+    algorithm: sha256
+    value: 4dcd946ec34e4e18852f8cff70d558b8af2aca576b6df9c58ebeb579d1364126
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: eb0a3e0b3295741c24c466e36a2da92216873dd89fa3318e54a967fec9bcd587
+  - path: chall/chall
+    algorithm: sha256
+    value: 0aff84dbfba2131f7078085fe24c79a5238f20098297d542d87c3336331e3c41
+  - path: chall/chall.c
+    algorithm: sha256
+    value: 992e6019878aa687da9266ec78bddcb73d100be83764d931395622f5f2d34610
+  - path: chall/docker-compose.yml
+    algorithm: sha256
+    value: 2dad8faac94d5aa78cc5c0ff2b798d8f3b25e8bab007761ef717ef3433c0a267
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: fbfad5e703f713b7eeccfe3302207f93d50efefd4820e7373cd1740c146328e9
+  - path: challenge.yml
+    algorithm: sha256
+    value: 183ca9e9f622621ebe8c96bdb696e0c7570278ff024281c29836c901d6ae1b62
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

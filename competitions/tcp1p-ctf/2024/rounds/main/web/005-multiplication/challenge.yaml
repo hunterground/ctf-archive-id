@@ -1,0 +1,126 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-web-005
+name: Multiplication
+slug: 005-multiplication
+original_name: multiplication
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: |-
+  Multiplication is very easy, right? right??
+
+  Connect: http://{{ .host }}:10011
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Web/multiplication
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e413686c1c48b78a16f1afe5641bf79780b00a2a5437848f3603de42110b9fa1
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 03c9e51e9b3f0de23b40b6821820c539dfb7048b3cf26c75130004d1a9153774
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 231a1837885053dee76244fc6995ab067798103b8bcaa1ff69b781d4ec6ab7ca
+  - path: dist/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: dist/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: b0fc4d5b6ea2361077e949348e9e1a79fab365f4962c2811cc85163fa8a7f8b4
+  - path: dist/proxy.conf
+    algorithm: sha256
+    value: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: dist/src/index.php
+    algorithm: sha256
+    value: aa5324d6d42bde45d6bbf50c618275a51a0b78c48990937697490ff8d3fddf29
+  - path: solver/README.md
+    algorithm: sha256
+    value: 064d25d6e221ebed852771411a492008ff4e9a8573b571f5b05f3db4edb1ae50
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 231a1837885053dee76244fc6995ab067798103b8bcaa1ff69b781d4ec6ab7ca
+  - path: src/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: src/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 35335ed60215c1148e875de4f37e10408c96d46e7ad9e5997c5c63d860c264b0
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: src/src/index.php
+    algorithm: sha256
+    value: aa5324d6d42bde45d6bbf50c618275a51a0b78c48990937697490ff8d3fddf29
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

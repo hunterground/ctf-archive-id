@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-rev-002
+name: Gacor
+slug: 002-gacor
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: i did not have gaming relation with that balatro
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: .effie
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Reverse/Gacor
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .effie
+    algorithm: sha256
+    value: 0d82cf92d16281c7cea1cd3fcbe9ae90da78ed12203d46725fe246e7bf3fdeb3
+  - path: README.md
+    algorithm: sha256
+    value: fd2956d35f44ff0926477a36970cb2a9a16f1d082d92fab2ae94f85649ea359f
+  - path: challenge.yml
+    algorithm: sha256
+    value: f4c1c9e0362a2c2fa6bd7d9233cfdeaac01ab9a81f961345154ca0c620f770dc
+  - path: dist/.effie
+    algorithm: sha256
+    value: 79e24c6cb3968d609dc5b976c2a585b746b8cbaf8770b03900817ed9e0c6b1f9
+  - path: dist/chall
+    algorithm: sha256
+    value: 8ec7858166e75903a76294157af714d12ae2e4375c9a1202cde8f3d68ef75968
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 4bb61a2491d8a80c8d15159a31eb69bdd8f91016b5b0b9b9e55799cfcee7dec8
+  - path: solver/.effie
+    algorithm: sha256
+    value: 79e24c6cb3968d609dc5b976c2a585b746b8cbaf8770b03900817ed9e0c6b1f9
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/README.md
+    algorithm: sha256
+    value: 8add5eba4bd28d71a7dfa1a9de88a03f632d3d85d4c9800b514231ce7908e383
+  - path: solver/output.txt
+    algorithm: sha256
+    value: 4bb61a2491d8a80c8d15159a31eb69bdd8f91016b5b0b9b9e55799cfcee7dec8
+  - path: solver/solve.c
+    algorithm: sha256
+    value: 9347c739912dc2e9cc61cb4c25337d00283bf7462e5717819d31cfce13236534
+  - path: src/.effie
+    algorithm: sha256
+    value: 79e24c6cb3968d609dc5b976c2a585b746b8cbaf8770b03900817ed9e0c6b1f9
+  - path: src/chall.c
+    algorithm: sha256
+    value: 5a1edbb60d3c71e15e1dff181d74933758fbe754cc91625ab37594b30c487632
+  - path: src/chall.md
+    algorithm: sha256
+    value: d887c4ea61015628116db7c23f6d701ce44df24e789e2444295ea36ce7067ad8
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 71ce78ec0d240bf72fd1fa64c2c85c981f9adf2cc1e223fe8304a3928dbab105
+  - path: src/output.txt
+    algorithm: sha256
+    value: 6e21ced73dd7cde34b4352e2e30f1908f5666692b35a671354c019e885134557
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

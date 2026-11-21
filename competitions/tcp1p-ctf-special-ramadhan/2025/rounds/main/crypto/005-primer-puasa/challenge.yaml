@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-005
+name: Primer Puasa
+slug: 005-primer-puasa
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: Gatau mau ngisi deskripsinya apa, intinya next!, 128!.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Primer Puasa
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dd08c6243bb9faa7d79a8a72a612e6f23710d5e111cd654bfd282ac5ae857d4d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 740c8b5c32ad91407093676084f47f3a12c258f697a1f935b4e00f0c060ce288
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 27a815e131bcb44850eb32a7582b359fe0a72997314a4965cb38f6b63af80eba
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 1b3ca4cbc139ca17c1f29a1c56afca5490d6797d4d80ecd1163b3a585784853b
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC_Crypto-Primer_Puasa.md
+    algorithm: sha256
+    value: df9ec7b602bac7a30e251482523a5480eb151e538e252fa60b66abda343d1b2e
+  - path: solver/output.txt
+    algorithm: sha256
+    value: 1b3ca4cbc139ca17c1f29a1c56afca5490d6797d4d80ecd1163b3a585784853b
+  - path: solver/solver.py
+    algorithm: sha256
+    value: 30a1e98470db59103937eb7cbd7942f5e97b400106ad3b7a7696eb518d1e0348
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8d45b67c565848a4a1aa1eed23a052114677486731485447042db64284a458fa
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

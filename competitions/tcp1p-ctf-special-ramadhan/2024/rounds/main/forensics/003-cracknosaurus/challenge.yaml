@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2024-main-forensics-003
+name: Cracknosaurus
+slug: 003-cracknosaurus
+original_name: cracknosaurus
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: |-
+  Budi is a vocational school student and a famous hacker in his class and has the mindset that things that exist in the real world can actually also be created in the digital world.
+  Therefore, Budi tried to make a digital dinosaur called **Cracknosaurus** in the hope that the digital dinosaur he made could rule the world like the ancient dinosaurs of ancient times.
+
+  **Cracknosaurus** may look like an ordinary file, but you wouldn't know what Budi is hiding in this really extraordinary cracknosaurus image.
+
+  ## Hints
+  Cracknosaurus actually have a digital friend, namely **rockyousaurus**, which when combined can solve everything.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Orch4th
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2024
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  commit: 29835841326bbbb138281babd68fa1fb30434296
+  original_path: Forensics/cracknosaurus
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024/blob/29835841326bbbb138281babd68fa1fb30434296/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ace4e375cc7b4e2cdd16787d16f695410f2bce64f12034a0db04c79c9ed9381a
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 2b9eb6585c9ef1b2041a62fdfec665ac9ad78f9062a021da530693d05b9bba4c
+  - path: flag.zip
+    algorithm: sha256
+    value: 1dc5a972fe7693e22f62ac0e9acc71e5a92e1542c7878d0ef5e8a8a21fe7d0f9
+references:
+- title: TCP1P CTF Special Ramadhan 2024
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2024
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

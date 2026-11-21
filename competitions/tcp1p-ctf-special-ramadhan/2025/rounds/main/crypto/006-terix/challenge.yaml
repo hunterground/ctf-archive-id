@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-006
+name: Terix
+slug: 006-terix
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: Bulan Puasa ini cuacanya terix banget ya ges, pen minum rasanya:)
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Terix
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e24d60e9eba802cab9fe6cf96a560807e70a11683543107d78c464ef370c2b95
+  - path: challenge.yml
+    algorithm: sha256
+    value: 283842a6d0734aaf6278715b4a511b810c4e1c31bce78de0e2b486d208f2c820
+  - path: dist/output.txt
+    algorithm: sha256
+    value: d4b1788d74455df770fcc136f18d041b06ae6b6a56c835a1c81eff315ca524c2
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC_Solver-Trix.md
+    algorithm: sha256
+    value: d1a281129c46fb7bc1f6a9ca055253d3c447943f1a9d0ee10a7e9fa7373aaee8
+  - path: solver/solver.py
+    algorithm: sha256
+    value: e71999175d930551da0be6b403e78b2b30e45ac0e984740ec7f7be96d83d3e74
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 5dfc1dd719da53006563b1b3bfba5622057d94ae231ca13dd0977dee8b98a4d9
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

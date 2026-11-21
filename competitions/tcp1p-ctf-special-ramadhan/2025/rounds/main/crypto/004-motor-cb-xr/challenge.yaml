@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-crypto-004
+name: Motor CB-XR
+slug: 004-motor-cb-xr
+original_name: null
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: |-
+  Base64 and Base32 codes are very familiar, right? I don't know, but both of their numbers will help you get this "Motor CB-XR".
+  Calculation is key, but a little analysis will help.
+  Well whatever it is, congratulations if you get this "CB-XR Motorcycle"!.
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: WanZKey
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Crypto/Motor CB-XR
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 760b2e4ce6f77b636992318aa064e71f82af6546b3ad9050e96218e1ce0ade48
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6840c6fc89663f3319204c037cf1e97c4ee41ae7135f2b3b51dd97883d39f437
+  - path: dist/chall.py
+    algorithm: sha256
+    value: f196c5673ec5f56d21b3543e4d2e8388bbe6958af59daec40d2c48e5a1b8b805
+  - path: dist/output.txt
+    algorithm: sha256
+    value: b6288c6c85a7f431ffcf919feaa647a55573476b9a0b91db28d169c59cd1e774
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/PoC-Solver.md
+    algorithm: sha256
+    value: c3e7dbbd734f382c74ce207998142dc7c7c1413fe35ef2e50dd6e37e118e50f0
+  - path: solver/solver.py
+    algorithm: sha256
+    value: feb20807e193f70d39034991de19b435f74b655435c9fd7052d5369341b2511f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 562e46eb88d7a4784b279ac25b598b1a76c05ce1eaa24a25f53aeae194eb936c
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

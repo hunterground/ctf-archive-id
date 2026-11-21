@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: tcp1p-ctf-special-ramadhan-2025-main-forensics-004
+name: sawt safiri
+slug: 004-sawt-safiri
+original_name: sawtsafiri
+competition_id: tcp1p-ctf-special-ramadhan
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: "Temenku tadi ngechat, katanya akhir-akhir ini dia kebanyakan scroll TikTok. Terus, tiba-tiba\
+  \ dia ngirimin aku lagu yang katanya lagi sering muncul di sana. Nggak tau kenapa, tapi rasanya kayak\
+  \ dia mau nyampein sesuatu, cuma nggak secara langsung.  \n\nSelain itu, dia juga ngirimin foto kucing..\
+  \ kucingnya sih lucu banget, tapi aku ngerasa ada yang aneh. Kayak ada sesuatu yang diselipin di tempat\
+  \ yang nggak terlalu mencolok. Aku coba otak-atik, siapa tau ada sesuatu yang kecil tapi sebenarnya\
+  \ penting. Soalnya, kadang hal-hal yang kelihatan biasa aja justru nyimpan sesuatu di dalamnya.  \n\n\
+  Mungkin perlu lebih jeli buat nemuin apa yang dia sembunyikan. Bantuin gue cari tahu, yuk?\""
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: amek
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-special-ramadhan-2025
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  commit: 3f9c899e896c517ff981599e894aee0ce3a11d75
+  original_path: Forensics/sawtsafiri
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7409c03f7b8acec42f5b4bd6976f4edacb4790b1ef7f9e22edddf37f10426f98
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3a478c09b2909206f951c677aa263d654ab40f12086fb85ede6eb786428eebd7
+  - path: dist/sawt safiri.mp3
+    algorithm: sha256
+    value: 06882937cbb6e3c299b6dbf09ac5c1f881fc1dedc9ac72a4559c250f476eee28
+  - path: dist/tolong gw.docx
+    algorithm: sha256
+    value: b76488d9b3c2579abece7dcf94aa1253fc9e326e22fa0410e955a76cf96b82d0
+  - path: solver/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solver/solver.txt
+    algorithm: sha256
+    value: d24baac10d9a3ce1e3aa5c22046f6ef0e7f0de9768ecb3fe2ee84f39ccccfb9d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 75a6832517f87d2876924285eab66f9af3520e6e7c931976fcff30dc994a0ae3
+  - path: writeups/README.md
+    algorithm: sha256
+    value: 791425494206b541a3e34a8c7135bdc8834e188ce914dace6eaeb39794c1734a
+references:
+- title: TCP1P CTF Special Ramadhan 2025
+  url: https://github.com/TCP1P/TCP1P-CTF-Special-Ramadhan-2025
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

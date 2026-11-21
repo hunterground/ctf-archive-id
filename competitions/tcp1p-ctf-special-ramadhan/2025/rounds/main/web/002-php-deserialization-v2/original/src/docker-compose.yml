@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "9432:80"
+    environment:
+      - PHP_MEMORY_LIMIT=256M
+    restart: unless-stopped 
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 500M

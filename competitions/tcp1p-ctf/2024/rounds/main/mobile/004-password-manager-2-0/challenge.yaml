@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-mobile-004
+name: Password Manager 2.0
+slug: 004-password-manager-2-0
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: |-
+  It's a Password Manager, what could go wrong (again)?
+
+  ---
+
+  The infrastructure being used is based on our Mobile POC Tester (https://github.com/TCP1P/Mobile-POC-Tester).
+  You will need to create your exploit application that will be executed in the server.
+  You can check `client_dist.py` for more information on how the automation for this challenge runs.
+
+  **POC Tester**: http://45.32.119.201:5000/
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Marc
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Mobile/Password Manager 2.0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.apk
+    algorithm: sha256
+    value: cdbc18fd85dff8b505ed18d6dfb0cdccc8ee31066d4eb62be3ee78a57b81a377
+  - path: challenge.yml
+    algorithm: sha256
+    value: 14fa63488a0f233234011683b365a058887eeed81e8961c2303f0b028451ed00
+  - path: client.py
+    algorithm: sha256
+    value: 9891cea21ba705d6f2fd95f9fb34df6f38faa34b8940bfe9c0717ca31f1a18ed
+  - path: dist/challenge.apk
+    algorithm: sha256
+    value: 110a7b837b97532d22a085afca5ccbe8f97f4e0a37618899b71d76c07cfd804f
+  - path: dist/client_dist.py
+    algorithm: sha256
+    value: 68dde2784f14ba08c0e6f19fb6be932f6bc80d82472a5c58192ce07bed26b2a6
+  - path: pwds.yml
+    algorithm: sha256
+    value: f66841dc4ad7330d14a4bb4959a1221c3f4c3d3d20abba248a55af3cb857511d
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

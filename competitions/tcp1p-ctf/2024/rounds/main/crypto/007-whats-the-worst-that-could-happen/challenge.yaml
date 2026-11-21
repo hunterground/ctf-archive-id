@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2024-main-crypto-007
+name: What's the Worst That Could Happen
+slug: 007-whats-the-worst-that-could-happen
+original_name: whats the worst that could happen
+competition_id: tcp1p-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Why do AES have too much components?
+
+  Connect: nc {{ .host }} 19328
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2024-challenges-public
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  commit: 2b2beba308ac57f743ee80593c86ce071245c406
+  original_path: Crypto/whats the worst that could happen
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: null
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 656b62cd9c0f3a599251d82f29e8ce2031a286c5ea04570e5f968bb069d08a7d
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 73b5936ad454901a62249b95d7b85c2b77927a1fecbfb2756df8c039632deac4
+  - path: dist/aes.py
+    algorithm: sha256
+    value: 2b1b30477ee91a1114e6b10c0eda9e031f9bd03e4564b640cec3c8df14c440e9
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 215515d7cbc0d2db3750d29fdbe3cea677378856854a7331310c437db397120c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 75fc9c0ab308b1e01fff06c4ddf07fe37524a73d575843feb1f45a54d90e7682
+  - path: src/aes.py
+    algorithm: sha256
+    value: 2b1b30477ee91a1114e6b10c0eda9e031f9bd03e4564b640cec3c8df14c440e9
+  - path: src/chall.py
+    algorithm: sha256
+    value: 215515d7cbc0d2db3750d29fdbe3cea677378856854a7331310c437db397120c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 1f3a08684c0d7638c294cb1f3c4fd491daf428f091d5830e8289e31f2a48ca80
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 8726412e6b507a83e1d93fe53c30ee9fb5dc3e04f82299cc0e8e7bd5d836edd8
+  - path: src/run.sh
+    algorithm: sha256
+    value: e89e7c87cf9f9153ce73ed99f3598dd8d490baf5c0b6403a1d5c1affadd68d56
+  - path: src/secret.py
+    algorithm: sha256
+    value: 5b27ffc225346322c5ad5b6deec1e150823ba66dd5ce45e22e67f0e08b77bdb0
+references:
+- title: TCP1P CTF 2024 Challenges Public
+  url: https://github.com/TCP1P/TCP1P-CTF-2024-Challenges-Public
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory name differs from the challenge name.

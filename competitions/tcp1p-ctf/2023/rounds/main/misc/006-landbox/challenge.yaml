@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: tcp1p-ctf-2023-main-misc-006
+name: Landbox
+slug: 006-landbox
+original_name: null
+competition_id: tcp1p-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: |-
+  **Author**: `aimardcr`
+
+  who knew lua could be so troublesome.
+difficulty:
+  value: 1
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  commit: 0b5785e01490a9b82a6134be51c81f779ba35dad
+  original_path: Misc/Landbox
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges/blob/0b5785e01490a9b82a6134be51c81f779ba35dad/LICENSE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3f63d0594ec5bf30e875a10e1ffde26f3d96831c9a78f0cb6afdcaa4744c72c2
+  - path: challenge.yml
+    algorithm: sha256
+    value: ba4b42d112e06fc26a1805ff21e145d2ed15383206ea5143126b04f17d9c00ef
+  - path: flag.txt
+    algorithm: sha256
+    value: 4a6460add9debef8a5506830cf548f61688fb8717f3ee0d3a948424e1289abf0
+  - path: main.lua
+    algorithm: sha256
+    value: 2adc996d51a5982294d642f714cd0f6c6c434c3f75c9e87ef6b117b13924e0b8
+  - path: payload.lua
+    algorithm: sha256
+    value: b87b62e6dfacd471446910bfbf2e29ec23407280eee8952ccba0794cbb01f51c
+references:
+- title: TCP1P CTF 2023 Challenges
+  url: https://github.com/TCP1P/TCP1P-CTF-2023-Challenges
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null
