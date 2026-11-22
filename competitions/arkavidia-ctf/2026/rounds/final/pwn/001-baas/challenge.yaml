@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-pwn-001
+name: BaaS
+slug: 001-baas
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: "I shamelessly stole this challenge from the SAS CTF finals. It \nshould be fine, though,\
+  \ because the original intended solution \nwasn't RCE. In fact, RCE seems impossible in the original\
+  \ version \ndue to a specific condition not met in its Docker environment. \nWell, I've made a small\
+  \ modification to make it possible!"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Pwn/BaaS
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ef65d3ccf757c7480d738b1f339cf774115c7449e6abb0e5f2a54af12e4cf579
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 616278731f423dfc7465fc1396a39b1e556c3d34eecf162a38dd6223116ec7ab
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 50c1032db0f32a359c60d3423be0c3a6d536950157eb1faea8ed23f678cd5895
+  - path: src/app.py
+    algorithm: sha256
+    value: 06c11a2bd8e5bd69020f3419080d6b69ea429deeace3b10af0496f015d07cf83
+  - path: src/compose.yml
+    algorithm: sha256
+    value: d08618c4f1c3f0c788f838293e3050b368a2387033e95c3ab3aeea4fbc426efb
+  - path: src/example_program/Makefile
+    algorithm: sha256
+    value: 7371c19be9adfa4227481fefb97b121a954aabf8a587a27b69a4622399e9748d
+  - path: src/example_program/ld_script.ld
+    algorithm: sha256
+    value: 479ab5af1e5ff5ec6e444e857a357fc0495a96cbdd6aeca6aed7b36af1fce09a
+  - path: src/example_program/main.c
+    algorithm: sha256
+    value: 204f27f27ec675cd813c48ef52cb3b0aa2ae18611fea0fb3315d22d34f56a864
+  - path: src/example_program/ministd.c
+    algorithm: sha256
+    value: 24f705125767071b4904d3de090031bbbcc703121e19a751c0e888fe292b02d0
+  - path: src/example_program/ministd.h
+    algorithm: sha256
+    value: cac79b8ed17dd10de5ad5cd641e9b8bc187c84cfcad8f1509c8ce7add040ec13
+  - path: src/example_program/trusted_lib_api.c
+    algorithm: sha256
+    value: db102d2f9ca7e202f51e44282212b6a0f237bb096ff37b052bbc4845352110ca
+  - path: src/example_program/trusted_lib_api.h
+    algorithm: sha256
+    value: 08eb566c0ced67ca52500a34f296c09de74a1bd34a981ca9b548b6b7947aec96
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 545033b0c1258da797d194ee9797433066bfef837d2aaf978b56aced83ea8bf7
+  - path: src/qemu-system-riscv64
+    algorithm: sha256
+    value: db7bb37c7ee5e4df1a4848d1c5703b33cc2fae57b9c389e4bb55be15a35c8b4f
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 76f8bae45e807865955344c1a58882d38c8ceb4f855f58091642b7d48290af97
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: technically stolen lol

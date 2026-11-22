@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-rev-003
+name: My Little Computer
+slug: 003-my-little-computer
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: |-
+  Sometimes you just need the right tools and it will crack open.
+
+  https://github.com/haplesshero13/lc3tools
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SleepyBanana
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Reverse/My Little Computer
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7402442c0edd064d7d6db69053bb539c20bee0dcfd9a3c61eb4d729389b0c0b9
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9e61d6f635b79f6220faf30866158b10a1065a0674b8e6c1580a51b5881acc16
+  - path: dist/chall.lc3
+    algorithm: sha256
+    value: 2c744f8404d76aeb1e0acc510338d997539889faf8aa0a3456ab02dd74e084a1
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

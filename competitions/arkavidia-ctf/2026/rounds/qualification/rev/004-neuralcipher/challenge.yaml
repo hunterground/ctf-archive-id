@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-rev-004
+name: NeuralCipher
+slug: 004-neuralcipher
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: |-
+  We intercepted a leaked experimental AI kernel from a shadowy research lab. They claim it's a "neural network cipher" - but something feels... reversible.
+
+  Can you recover the original input from the encrypted output?
+difficulty:
+  value: Medium to Hard
+  source: organizer
+tags: []
+authors:
+- name: sandwicheese
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Reverse/NeuralCipher
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 674e7122acd50791609816e42ad43fd24e786032992f87fff09d3e3f000ea490
+  - path: challenge.yml
+    algorithm: sha256
+    value: 24dbbfdb676f1d2233a8bf2a0ad7bb2f129f583bfdc478aa6864343c59fa1b12
+  - path: dist/.gitkeep
+    algorithm: sha256
+    value: f383126490805e5f695892d56c99e355a6a116a4ec97dcd5cb259d1eeb2eade7
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 27d3193832d803dcd7a30a3ebed8873bdc3a239f43867ab57c46f7c30ce929a8
+  - path: src/__pycache__/obfuscated.cpython-311.pyc
+    algorithm: sha256
+    value: 22a6a63cda5add48fd59609f7d9ccec7d452ef20e2013702036493b7848e29cf
+  - path: src/build.sh
+    algorithm: sha256
+    value: 2092ce98547090ef1702ad6bf2e715162d9936c900dec076794ec575cc11f4c8
+  - path: src/challenge_gen.py
+    algorithm: sha256
+    value: 58aa457cf77de73f8d4b502dd9373b3a87196e27b611f7e597f224a3d41c5df2
+  - path: src/corrupt_pyc.py
+    algorithm: sha256
+    value: f950ba830aadd8703c78ab88b59169e1fe354ca02718d521cef95305f5e94349
+  - path: src/deobfuscator.py
+    algorithm: sha256
+    value: 31f1bef10c16c5fef376a7c143fc948c793e6ae51238506b3049a62b58df9fd5
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 04afa3ed5b9f670f6593fea3f323b4c3fbba73baa0206f3962ae8355da801c40
+  - path: src/obfuscated.py
+    algorithm: sha256
+    value: e1dbb97392889e445ad4b552d54f7bbc091979c388beead28057167b093d0a90
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: Difficulty is taken from the challenge README. The manifest has no difficulty tag.

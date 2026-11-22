@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-qualification-rev-002
+name: Flag Seeker
+slug: 002-flag-seeker
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse engineering
+description: '"The only thing that you absolutely have to know is the location of the flag." – Albert
+  Einstein (probably)'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: quals/reverse engineering/Flag Seeker
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Makefile
+    algorithm: sha256
+    value: 4fe737cc9c27b6039e63bd8958e053f9a056fd6b17c02c9e0bb17e5b71ca9411
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2552ea9e798da6ce306bbf989398dbf30c9fbc8c8c525425b3479c9a14561334
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 7fe3f02e38107aa04b10e42fbf864dd559e98a9f6846423b1d571c116f1ed56a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 65120771de3810fd0fc16b521b0088870b4486e3ad3b7f90464e0fce42446c24
+  - path: src/chall
+    algorithm: sha256
+    value: 90d7e5b963a74eeeabf89c2e023fbd47298ef8e82b1a4d15aff89e9a76144059
+  - path: src/chall.py.mako
+    algorithm: sha256
+    value: eba2e85a7418a5d6904be934de046798bfa547aa3e4c9d76a9a2ed21d8a0a99c
+  - path: src/client.py
+    algorithm: sha256
+    value: 12717d5236f13019b6f1568b0e9823d49f4325a8c285696d27f5558e31816aba
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 014073ee64e557ef9b801a6ab0b72530a9a4e3f59869511e902ebcc843e6610e
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 2d8a4779aea59cb5b8fccb354713fad0fe46ebbbc1ba3623fc57e0adf54c92b5
+  - path: src/obfuscator.py
+    algorithm: sha256
+    value: 3a4647d7cf1acd500a13ffa65aff5a480fd3ca9ca1b2b043a6b4eeabf5b07e14
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

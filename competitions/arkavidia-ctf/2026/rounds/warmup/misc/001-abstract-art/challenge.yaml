@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-misc-001
+name: Abstract Art
+slug: 001-abstract-art
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: misc
+original_category: miscellaneous
+description: |-
+  The qualification round is here, and I'll be fasting throughout the competition. My mind drifts to thoughts of breaking my fast with a glass of **es kolang**-kaling cap Badut. While waiting, I've created a cryptic program hidden within the colored canvas. Can you figure it out?
+
+  For clarity, I made a 10x scaled copy of the art. Both are identical.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+authors:
+- name: dovodedomo
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/miscellaneous/Abstract Art
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6607e3d2e4ae237e8193610c805558c444d6cb0af76fd1b05afdb65d2a27c645
+  - path: dist/art.zip
+    algorithm: sha256
+    value: 5b7c228982847a44c741649b5331ed1a68ee7c0cc53ce6e80863c9067ed600aa
+  - path: src/image_scale1.png
+    algorithm: sha256
+    value: 738dfb06e8f44de7baa1fd00e48f33ab0450e71f740213fd95a29ad7fea38563
+  - path: src/image_scale10.png
+    algorithm: sha256
+    value: 08f0bd69bef093ccc846001dc0ceb86a1b929bb4b3e23942c41e49443e738667
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

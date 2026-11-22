@@ -1,0 +1,23 @@
+name: "tolong mo"
+category: forensics
+description: |- 
+    momo ditipu sama dapin, tolongin momo cari informasi penting yang dicuri dapruy
+
+    ![mo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXczczJjbHVtdW5iemJ0ZGhqNGpjeGxiNWxkZzF1eWJjcmVrY3EyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oSyCVnZcqR0sUeonGq/giphy.gif)
+
+    Author: **kiwz**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+provide: "https://drive.google.com/file/d/1VCvkOrhQ5mt3wl22RvPwfg21OZ1kD9uN/view?usp=sharing"
+
+flags:
+    - "ARKAV{3h_u_w4tch_m0mO_j9?}"
+
+state: hidden
+version: "0.1"

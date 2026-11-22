@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-rev-001
+name: 1001 Malam
+slug: 001-1001-malam
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: re
+description: |-
+  Can you run this library?
+
+  - Note: Jangan ubah nama library
+  - Hint: Delphi 7, Common Hash Algorithm
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Func Hooking
+- ResHack
+authors:
+- name: djavaa
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/re/1001 Malam
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 49bfb4f0650d4f7468b13c8764520dae9bf5082030edfdba0c976d393bacc50f
+  - path: chall.dll
+    algorithm: sha256
+    value: eb3778df281cee9917a0c9a88d62c58e790b66de833d938f243c6e8df6d565f9
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

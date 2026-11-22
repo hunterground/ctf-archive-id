@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-pwn-001
+name: baby-pwn
+slug: 001-baby-pwn
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: djavaa
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/pwn/baby-pwn
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: da8dc8bc2b0e0d870a2fbee0b5d57c73a52a8f286aa66a4be25a6ef1353130b8
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 1871ec64a636d9051b909cedcacc476e24b26c023a4597ffd9d822ab2938dd40
+  - path: chall/baby
+    algorithm: sha256
+    value: fdd36e34a0ecb05f587db9f6ba7bd304eac20862b69684fb430c0685ab473ea8
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 956f8f23c1ddc13d02ac3ae8636481ca52720a0a60e68d9e8e95ad8beee8dc7d
+  - path: chall/run.sh
+    algorithm: sha256
+    value: 8e59cae769fd0e70bccdba78c2aeb90531d6dd64804f2ef8803244e80001e04c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c783c27cb95b437767d4b595494ea14401c27327cc68ba9321d25f63c3455504
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

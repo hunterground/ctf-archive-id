@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-rev-001
+name: ChizuruRansomware
+slug: 001-chizururansomware
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: rev
+original_category: reverse engineering
+description: While I was desperately searching for my fiancé's whereabouts, someone sent me an email containing
+  ransomware named Chizuru. How dare they make fun of me when I was already feeling lost? The ransomware
+  also encrypted one of my most memorable files with my fiancé. It felt like the whole world was turning
+  against me.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Mizuhara Chizuru
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/reverse engineering/ChizuruRansomware
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: f1a1e7c05f66e6489fe6c880e50f8546380898cf930a914538feaf41970e440d
+  - path: dist/ChizuruRansomware.zip
+    algorithm: sha256
+    value: 8cc193b0cbbf98f1e152c0d1187a4aed60b579f5b0bdbe84c5f985a02e210c52
+  - path: src/Chizuru.c
+    algorithm: sha256
+    value: 472304998e68e06da8e4a60ad26e6c2e7e02f5f63fd9bde4c2cf5121774c0bcf
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Instancer</title>
+    <style>
+        body { font-family: monospace; background-color: #121212; color: #00ff00; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { background-color: #1e1e1e; padding: 30px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,255,0,0.2); text-align: center; width: 100%; max-width: 450px; }
+        input { width: 90%; padding: 10px; margin: 15px 0; background: #000; border: 1px solid #00ff00; color: #00ff00; font-family: monospace; outline: none; }
+        input:focus { box-shadow: 0 0 5px #00ff00; }
+        button { background: #00ff00; color: #000; border: none; padding: 10px 20px; cursor: pointer; font-weight: bold; margin: 5px; font-family: monospace; transition: 0.2s; }
+        button:hover { background: #00cc00; }
+        button:disabled { background: #555; cursor: not-allowed; color: #222; }
+        #status { margin-top: 20px; min-height: 20px; font-size: 0.9em; word-wrap: break-word; line-height: 1.5; }
+        #timer { margin-top: 15px; font-weight: bold; color: #ff5555; font-size: 1.2em; }
+        a { color: #00ff00; text-decoration: underline; font-weight: bold; font-size: 1.1em; }
+        .instructions { font-size: 0.8em; color: #aaa; margin-bottom: 20px; text-align: left;}
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>[ DeadEnd Instancer ]</h2>
+        <div class="instructions">
+            1. Go to your CTFd Profile/Settings.<br>
+            2. Generate an Access Token.<br>
+            3. Paste it below to spawn your isolated challenge environment.
+        </div>
+        <input type="password" id="token" placeholder="ctfd_..." />
+        
+        <div>
+            <button id="startBtn" onclick="manageInstance('start')">Deploy</button>
+            <button id="stopBtn" onclick="manageInstance('stop')">Destroy</button>
+        </div>
+
+        <div id="status">Waiting for token...</div>
+        <div id="timer"></div>
+    </div>
+
+    <script>
+        let countdownInterval;
+
+        function startTimer(expiresAt) {
+            clearInterval(countdownInterval);
+            const timerDiv = document.getElementById('timer');
+            
+            countdownInterval = setInterval(() => {
+                const now = Math.floor(Date.now() / 1000);
+                const remaining = expiresAt - now;
+                
+                if (remaining <= 0) {
+                    clearInterval(countdownInterval);
+                    timerDiv.innerText = "[ INSTANCE EXPIRED ]";
+                    document.getElementById('status').innerText = "Your container was automatically destroyed to save resources.";
+                    document.getElementById('startBtn').disabled = false;
+                    document.getElementById('stopBtn').disabled = false;
+                } else {
+                    const m = Math.floor(remaining / 60).toString().padStart(2, '0');
+                    const s = (remaining % 60).toString().padStart(2, '0');
+                    timerDiv.innerText = `Auto-Destroy In: ${m}:${s}`;
+                }
+            }, 1000);
+        }
+
+        async function manageInstance(action) {
+            const token = document.getElementById('token').value.trim();
+            const statusDiv = document.getElementById('status');
+            const timerDiv = document.getElementById('timer');
+            const startBtn = document.getElementById('startBtn');
+            const stopBtn = document.getElementById('stopBtn');
+
+            if (!token) {
+                statusDiv.innerText = "Error: Please enter a token.";
+                return;
+            }
+
+            statusDiv.innerText = action === 'start' ? "Deploying container... this may take 10-20 seconds." : "Destroying container...";
+            timerDiv.innerText = "";
+            clearInterval(countdownInterval);
+            startBtn.disabled = true;
+            stopBtn.disabled = true;
+
+            try {
+                const response = await fetch(`/${action}`, {
+                    method: 'POST',
+                    headers: {
+                        'X-CTFd-Token': token,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    if (action === 'start') {
+                        statusDiv.innerHTML = `Success! Access your challenge here:<br><br><a href="${data.url}" target="_blank">${data.url}</a>`;
+                        if (data.expires_at) {
+                            startTimer(data.expires_at);
+                        }
+                        stopBtn.disabled = false; 
+                    } else {
+                        statusDiv.innerText = "Container destroyed successfully.";
+                        startBtn.disabled = false;
+                        stopBtn.disabled = false;
+                    }
+                } else {
+                    statusDiv.innerText = `Error: ${data.detail || data.message || 'Something went wrong'}`;
+                    startBtn.disabled = false;
+                    stopBtn.disabled = false;
+                }
+            } catch (error) {
+                statusDiv.innerText = "Network error. Is the instancer running?";
+                startBtn.disabled = false;
+                stopBtn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

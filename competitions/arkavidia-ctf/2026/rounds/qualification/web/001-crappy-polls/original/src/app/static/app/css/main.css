@@ -1,0 +1,250 @@
+:root {
+  --bg: #0b1020;
+  --panel: #151a33;
+  --primary: #5b6cff;
+  --secondary: #7a5cff;
+  --text: #e6e8ff;
+  --muted: #9aa0ff;
+}
+
+body {
+  background: linear-gradient(135deg, #0b1020, #1a103a);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+.card {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 0 30px rgba(91,108,255,0.15);
+}
+
+
+button {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+button.hovered {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(122, 92, 255, 0.6);
+}
+
+
+button.clicked {
+  transform: scale(0.96);
+  box-shadow: 0 0 10px rgba(91, 108, 255, 0.9);
+}
+
+
+.navbar {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.narrow {
+  max-width: 400px;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  background: #0b1020;
+  border: 1px solid #5b6cff;
+  color: white;
+  border-radius: 6px;
+}
+
+label {
+  margin-top: 0.5rem;
+  display: block;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.nav-button.hovered {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(122, 92, 255, 0.6);
+}
+
+.nav-button.clicked {
+  transform: scale(0.96);
+  box-shadow: 0 0 10px rgba(91, 108, 255, 0.9);
+}
+
+/* Container & Title */
+.page-title {
+  color: #ffffff;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Survey Card */
+.survey-card {
+  background: #1a1d2e; /* Deep dark blue */
+  border: 1px solid #2d3250;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.survey-card:hover {
+  border-color: #6366f1; /* Indigo border on hover */
+}
+
+.survey-title {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.survey-meta {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 20px;
+}
+
+.survey-question {
+  font-size: 1.1rem;
+  color: #e2e8f0;
+  margin-bottom: 24px;
+}
+
+/* Choice Box Grid */
+.choice-container {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* The Choice Card (The Box) */
+.choice-card {
+  position: relative;
+  display: block;
+  cursor: pointer;
+  background: #242842;
+  border: 2px solid #2d3250;
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.choice-card:hover {
+  background: #2d3250;
+  transform: translateY(-2px);
+  border-color: #4f46e5;
+}
+
+/* Hide original radio */
+.choice-card input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Selected State for the Box */
+.choice-card:has(input[type="radio"]:checked) {
+  background: rgba(79, 70, 229, 0.1);
+  border-color: #6366f1;
+  box-shadow: 0 0 0 1px #6366f1;
+}
+
+/* Custom Radio Indicator */
+.choice-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.custom-radio {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #475569;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.choice-card input[type="radio"]:checked + .choice-content .custom-radio {
+  border-color: #6366f1;
+  background: #6366f1;
+}
+
+.choice-card input[type="radio"]:checked + .choice-content .custom-radio::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.choice-text {
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+.choice-card input[type="radio"]:checked + .choice-content .choice-text {
+  color: #fff;
+}
+
+/* Submit Button */
+.vote-btn {
+  background: #6366f1;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.2s;
+}
+
+.vote-btn:hover {
+  background: #4f46e5;
+}
+

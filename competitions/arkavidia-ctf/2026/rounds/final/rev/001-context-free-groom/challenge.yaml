@@ -1,0 +1,138 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-rev-001
+name: Context-Free Groom
+slug: 001-context-free-groom
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse
+description: |-
+  You know... I think Noam Chomsky dreams for this.
+  <div style="text-align:center; margin:1em 0;">
+  <img
+    src="https://www.rnz.co.nz/news/world/582261/new-jeffrey-epstein-photos-include-noam-chomsky-and-bill-gates"
+    style="max-width:80%; height:auto; border-radius:6px;"
+    alt="idk"
+  />
+  </div>
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Kurond
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Reverse/Context-Free Groom
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ff7243caeff0ebbe1384274d622c9a9ce7c3e6edbd6f07f062fcf179523ff68f
+  - path: dist/CFG
+    algorithm: sha256
+    value: 9b31abad33c32fcf147c816c202c6ad46ebc08e5280a0405a50cb39aaf6493f4
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: e5e469f6c3634b0367fdd74520674071598b2dc23d33e2f4c15a7262a04d5802
+  - path: dist/vm
+    algorithm: sha256
+    value: 54c7d391901f25f52a462fe96862dec95595221807856d7433570637f6993aee
+  - path: src/compiler.py
+    algorithm: sha256
+    value: 70c344ce1668bc1bf8bca80475d4ce40091d687e5297ef7a6d9d8e0395efc82b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: bffaadef7605ad975d8e454ce7400b51ef31723547427a204b31cdb7dfc67130
+  - path: src/vm/Cargo.lock
+    algorithm: sha256
+    value: 4ab937a44d8c4c2d6516b0468ee14c8b3017f37ab45f26a6342d063d74c4050a
+  - path: src/vm/Cargo.toml
+    algorithm: sha256
+    value: ff31e71c93160bcd1878cb1a00ab031bf02679b370cc1646bcf0ce682385bcdf
+  - path: src/vm/src/main.rs
+    algorithm: sha256
+    value: e0b5a3002e7c3b6090fdc10ec29bd1ed2cfc5a9d80d047dee92c2848042a0a00
+  - path: src/vm/target/.rustc_info.json
+    algorithm: sha256
+    value: ee3f04e01b85e6b7e8587504c4d35ee6da332df648a948c8dbc6dd8b5cf58743
+  - path: src/vm/target/CACHEDIR.TAG
+    algorithm: sha256
+    value: 6d9d1d216e0f83abc5e5662ca62c92b4f23009466b54fa27321a69acdb778bb2
+  - path: src/vm/target/release/.cargo-lock
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/vm/target/release/.fingerprint/vm-64392c75719f497c/bin-vm
+    algorithm: sha256
+    value: 2af72ddca16742ca4436953575d31ca9dc2fe4221b62974df4e9fe0e257277a5
+  - path: src/vm/target/release/.fingerprint/vm-64392c75719f497c/bin-vm.json
+    algorithm: sha256
+    value: 10e099c7b3fe702408eaeec65b6a8933a5c0258e9c2fdaaf6f938fc60b547cb0
+  - path: src/vm/target/release/.fingerprint/vm-64392c75719f497c/dep-bin-vm
+    algorithm: sha256
+    value: dd32b16937730a9a92a8070aa73e4dbbc632703f88e1395eb2196a4f6b11a95a
+  - path: src/vm/target/release/.fingerprint/vm-64392c75719f497c/invoked.timestamp
+    algorithm: sha256
+    value: 5a109e6643e8d3e88642e3f35e85d2a83e639d07523aa6e99166c48178e965c3
+  - path: src/vm/target/release/.fingerprint/vm-96bb5e6c8d35f958/bin-vm
+    algorithm: sha256
+    value: 58780db128967cbf5b9a00afadfc6b7178e4be1f7fdda4595b0f32971bcc2117
+  - path: src/vm/target/release/.fingerprint/vm-96bb5e6c8d35f958/bin-vm.json
+    algorithm: sha256
+    value: b3bb4b8a64e7ea69dbd68b91a70bfe73bbbdbde120cafe66ad803aedc1e3cf9c
+  - path: src/vm/target/release/.fingerprint/vm-96bb5e6c8d35f958/dep-bin-vm
+    algorithm: sha256
+    value: dd32b16937730a9a92a8070aa73e4dbbc632703f88e1395eb2196a4f6b11a95a
+  - path: src/vm/target/release/.fingerprint/vm-96bb5e6c8d35f958/invoked.timestamp
+    algorithm: sha256
+    value: 5a109e6643e8d3e88642e3f35e85d2a83e639d07523aa6e99166c48178e965c3
+  - path: src/vm/target/release/deps/vm-64392c75719f497c
+    algorithm: sha256
+    value: 54c7d391901f25f52a462fe96862dec95595221807856d7433570637f6993aee
+  - path: src/vm/target/release/deps/vm-64392c75719f497c.d
+    algorithm: sha256
+    value: cdc8b4b18dd640bd6771de5ff2c9180e058aa04f249eefe7fd3cc8a09ba7a090
+  - path: src/vm/target/release/deps/vm-96bb5e6c8d35f958
+    algorithm: sha256
+    value: 1c80e8347dbdb66c14a0b9c16be0e488bca09d201d69832fd4c33047423b1c37
+  - path: src/vm/target/release/deps/vm-96bb5e6c8d35f958.d
+    algorithm: sha256
+    value: d0fe1f108c1f0ae3f90c5bd37769f7bd01753a0068bc478d3feb371ad7b7f594
+  - path: src/vm/target/release/vm
+    algorithm: sha256
+    value: 54c7d391901f25f52a462fe96862dec95595221807856d7433570637f6993aee
+  - path: src/vm/target/release/vm.d
+    algorithm: sha256
+    value: b63c9c5972abd91ed9cca74c294bda3c013f5b2da0824a60c05fd5874b445a6e
+  - path: src/vm.rs
+    algorithm: sha256
+    value: e0b5a3002e7c3b6090fdc10ec29bd1ed2cfc5a9d80d047dee92c2848042a0a00
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

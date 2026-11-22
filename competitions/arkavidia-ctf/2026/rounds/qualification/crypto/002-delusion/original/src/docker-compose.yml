@@ -1,0 +1,9 @@
+name: crypto-delusion
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: 'delusion'
+    read_only: true
+    ports:
+      - 8777:8777

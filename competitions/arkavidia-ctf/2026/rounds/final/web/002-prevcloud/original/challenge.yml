@@ -1,0 +1,22 @@
+name: "PrevCloud"
+category: Web Exploitation
+description: |- 
+    I'm creating a home server and i want to put a file hosting app there. 
+    PrevCloud is that app. It still in development tho. Pls tell me if you find any bugs.
+
+    Author: **BoredAngel**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://70.153.8.15:8898
+
+flags:
+    - ARKAV{4sLi_Au7hOrNy4_La91_Gk_aD4_Id3_SS0aL_s0R1_B4t_nl12j3no1y238olwasel}
+
+state: hidden
+version: "0.1"

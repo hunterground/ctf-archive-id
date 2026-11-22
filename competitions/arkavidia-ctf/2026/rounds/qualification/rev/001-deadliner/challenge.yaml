@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-rev-001
+name: Deadliner
+slug: 001-deadliner
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: Just vibecoded 2 months worth of mobile app project assigment in 3 days (i sure hope nothing
+  is broken though)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nopal
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Reverse/Deadliner
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: eabe35e1fd5a4e73b2aeed50f859c4ceb72de5d50166a335e5058b4c084a67f7
+  - path: dist/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/dist.apk
+    algorithm: sha256
+    value: 05446bdd585b4f9e70ae6ac0e5f83fca9960da550005ff2ea6dd43cc9ae8f780
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 7519363c61339e6edd92ecff099aaec80a807ea2dea38a456bf01eef4e01abc8
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

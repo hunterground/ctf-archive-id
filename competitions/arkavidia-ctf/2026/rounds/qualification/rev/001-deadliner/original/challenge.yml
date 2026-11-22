@@ -1,0 +1,22 @@
+name: "Deadliner"
+category: reverse engineering
+description: |- 
+    Just vibecoded 2 months worth of mobile app project assigment in 3 days (i sure hope nothing is broken though)
+
+    Author: **nopal**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - ARKAV{r3ly_t00_much_0n_41_bu1ld1ng_4pp_5ur3ly_1t_w0uldn't_b1t3_m3_1n_th3_futur3_r1ght}
+
+files:
+    - dist/dist.apk
+
+state: hidden
+version: "0.1"

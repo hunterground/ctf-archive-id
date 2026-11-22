@@ -1,0 +1,29 @@
+name: "confession"
+category: forensics
+description: |-   
+    It is April 2019. The **Chayul Law Firm** has deployed a classified Judicial AI system to manage the outcome of **CASE-2019-8041**. The defendant, a former public official, was acquitted, but intelligence sources suspect the acquittal was manufactured. You just have to make it talk.
+
+    ![Confession](https://i0.wp.com/thefangirlverdict.com/wp-content/uploads/2022/01/Confession.jpeg?resize=764%2C508&ssl=1)
+
+    Artifacts:
+    https://drive.google.com/drive/folders/1FX4KefhBswAvzvjwImYdzhAO2v8rPmrx?usp=sharing
+    - c9962c093d81b5275e1df5ced9d412a51f1a0f22a8cf297d9eead1b7ea037126  gh_audit.json
+    - 8fce196b091129d70c1986fb50093d165aa47b23cc58474d0f379112fdef86df  attorney_client_ai_consultation.log
+    - 4614ce6fcbfa912640cf1c80fc545e576407c8efd08d554306033399fa5671bc  cloudtrail_logs.json
+    - 79a51e33b35fe3604aeeec466c52cd62ffd40ea380326fc36cb6b198c246a436  lambda_env_dump.txt
+    - 0afefbece4c78f27192bfba699ee65d8d1c13237a7634b6f5f5ad88f7be67f5b  verdict_SEALED.bin
+
+    Author: **frennn**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - "ARKAV{so_do_you_think_he_is_guilty_or_not??}"
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "umapyoi"
+category: reverse engineering
+description: |- 
+    Thank you so much for today. Actually, no—thank you for being there for me *every* day.
+    Look at how far we've come.
+    All these people supporting me—supporting *us*.
+    
+    Are you... glad to have been my trainer?
+    
+    Author: **shwibzka**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - ARKAV{09ur1_d_b3_7r4v3r51n9_1n_m3}
+
+files:
+    - dist/umapyoi.zip
+
+
+state: hidden
+version: "0.1"

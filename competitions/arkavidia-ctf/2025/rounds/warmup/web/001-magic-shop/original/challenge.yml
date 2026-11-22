@@ -1,0 +1,40 @@
+name: "Magic Shop"
+# This is used to group challenges in the CTFd UI.
+# choose one: binary exploitation, reverse engineering, web exploitation, cryptography, forensics, miscellaneous.
+category: web exploitation
+description: |- 
+    👮: "Mas, mau beli apa?"
+    
+    🕵️: "Saya mau beli sesuatu yang nggak ada."
+    
+    👮: terdiam sejenak, lalu menyipitkan mata "Hmm, kalau nggak ada, gimana saya jualnya?"
+
+    Author: **dovodedomo**
+
+# Don't change this
+value: 1000
+type: dynamic
+extra:
+    initial: 1000
+    decay: 31
+    minimum: 100
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: http://20.195.43.216:8097
+
+flags:
+    # A static case sensitive flag
+    - ARKAV{H1dden_product_found_0p3ns_Secr3t_P4th}
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - super baby
+
+# Provide paths to files from the same directory that this file is in
+# files:
+
+# If provided, the field can take one of two values: hidden, visible.
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

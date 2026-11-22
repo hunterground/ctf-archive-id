@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: final
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+name: Final
+original_name: final
+sequence: 2
+type: final
+delivery: onsite
+description: null
+dates:
+  start: '2020-02-09'
+  end: '2020-02-09'
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: Imported from mabdullahmunir/CTF-Arkavidia-6, a personal repository. The root LICENSE is MIT, copyright
+  2020 mabdullahmunir. Empty init.md files were not copied. No solver files were present. The final date
+  is 9 February 2020 at ITB. The guidebook says that round is attack-defense.

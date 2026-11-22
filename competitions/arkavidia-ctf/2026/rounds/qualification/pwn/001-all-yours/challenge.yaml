@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-pwn-001
+name: all yours
+slug: 001-all-yours
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Reality can be whatever you want! (just the heap tho)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Pwn/all-yours
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 511b68dec3486a8b970ba0ecc99c55752581f2eb3e52a9e9fc1bb8c9c35fc898
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 8c79fa81df0ab087e7e85cd13414b21bd0bf210f049feb1611f6caa9ac638e4a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 680c3f0334379dea948c9da9d09ff46917beeaa9ec3f8d948cfea6090dafd0ad
+  - path: src/chall
+    algorithm: sha256
+    value: 9620aa2e3283d427bb59c8e3ba88615242166f23c9d5af0e268e5371ca736d39
+  - path: src/chall.c
+    algorithm: sha256
+    value: 3368a99a23e045f9e6aabe40c8c5dff91a0b4733568477e8c67f79c775a39d1e
+  - path: src/compose.yml
+    algorithm: sha256
+    value: 8f610d2b2da3e71d2772e9e41cafa6cb1fdb4383e285e477e81178d8028207b4
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 593fb44d874883cc19e1ef658ef2c21c76326d58f5dfdd1eb94256e6c158ec90
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,28 @@
+name: "Crappy Polls"
+
+category: "web exploitation"
+description: |- 
+    A crappy polls app for a crappy challenge in my crappy day. Nothing fancy here, i hope you enjoy spaghetti code.
+
+    Author: **SleepyBanana**
+
+attribution: SleepyBanana
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://<hostname>:8137
+
+flags:
+    - ARKAV{ju57_4_73d10u5_4nd_dull_0rm_1nj3c710n_}
+
+files:
+    - dist/dist.zip
+
+state: hidden
+
+version: "0.2"

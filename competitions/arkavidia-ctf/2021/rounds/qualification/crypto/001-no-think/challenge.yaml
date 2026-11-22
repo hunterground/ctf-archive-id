@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-crypto-001
+name: No Think
+slug: 001-no-think
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: |-
+  Do not think to hard.
+
+  - Note: Format flag `Arkav7{}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: crypto/nothink
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: bf002bfab85de7863b0be843e429017c6c77709e4af9b7e81adfd5e059a4f6b5
+  - path: README.MD
+    algorithm: sha256
+    value: 558c6e8d99048baf806fc24509d35b8484c72a024558e2befa837f8dae042716
+  - path: chall/.dockerignore
+    algorithm: sha256
+    value: be0843ca24e5501eef7d2a276e40e1f5277bb60a43e4233c3f3156259991163f
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 2c511325dd4524a20be33907c3727260a698ff70a41280af4e66f3bf271f24ae
+  - path: chall/chall.py
+    algorithm: sha256
+    value: 801b580b0cfc594b6de3f4ad180ef54efa3533da8fffc0edb1beecd7518d3a36
+  - path: chall/run.sh
+    algorithm: sha256
+    value: 56fc82d7c51bce1e806ba9a1c19ca1c91175b87d1370a02c4f628c73553e03b7
+  - path: chall/secret.py
+    algorithm: sha256
+    value: daa965fecc817715ef823d54784f51ff72107d60f947d906730b897a2b329fca
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7d127a3eb033b7020b28463232a34b63068944fffbfe87a658c81bfd9cf3b861
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'nothink'.

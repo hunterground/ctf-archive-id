@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-forensics-003
+name: Missing
+slug: 003-missing
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: forensics
+original_category: forensics
+description: |-
+  My fiancé, Darmodar, and I escaped from the pursuit of criminals—people who despised him for investigating evidence in their cybercrime case. I was devastated when I realized today that Darmodar was missing and had likely been kidnapped, with no clear understanding of the events leading up to his disappearance. This is a backup of the data from his computer before he vanished. As far as I can tell, he spent a lot of time using Google Chrome yesterday, but that's all I know. I'm sorry—I'm not very familiar with this kind of analysis, so you may need to make assumptions and connect the available evidence yourself. Please help me. I'm desperate and deeply worried about him. I love him so much, and this pain is unbearable.
+
+  Attachment:
+  https://drive.google.com/file/d/12FzTwcLPhXjnXHL7g1Q50WRUUZvPu8X2/view?usp=sharing
+
+  Password: d7f6fa4553c6ed28e064dcade91cc657c028a76862725672f91ababede03d2db
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+authors:
+- name: Mizuhara Chizuru
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/forensics/Missing
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8d5951c35ddae3ed2e49cc978bbbe2d5cb298530aee47e884996748ac4d78eec
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

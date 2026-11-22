@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway Console | DeadEnd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f4f6f9; height: 100vh; overflow: hidden; }
+        .sidebar { background-color: #343a40; min-height: 100vh; color: white; padding-top: 20px; }
+        .sidebar a { color: #adb5bd; text-decoration: none; padding: 10px 20px; display: block; border-radius: 4px; margin: 0 10px 5px; }
+        .sidebar a:hover, .sidebar a.active { background-color: #495057; color: white; }
+        .main-content { padding: 30px; height: 100vh; overflow-y: auto; }
+        .console-box { background-color: #212529; color: #20c997; padding: 15px; border-radius: 5px; font-family: 'Courier New', monospace; min-height: 150px; white-space: pre-wrap; word-wrap: break-word; }
+        .section-panel { display: none; }
+        .section-panel.active { display: block; }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-2 sidebar">
+            <h5 class="text-center mb-4 border-bottom border-secondary pb-3">Gateway Console</h5>
+            <a href="#" class="menu-link active" onclick="switchTab('dashboard')">Dashboard</a>
+            <a href="#" class="menu-link" onclick="switchTab('login')">Authentication</a>
+            <a href="#" class="menu-link" onclick="switchTab('debug')">Telemetry Sync</a>
+            <a href="#" class="menu-link" onclick="switchTab('digest')">Digest Engine</a>
+            <hr class="border-secondary">
+            <a href="#" class="text-warning" onclick="internalOnly('/internal/register')">Registration</a>
+        </div>
+
+        <div class="col-md-10 main-content">
+            <div id="dashboard" class="section-panel active">
+                <h2>System Overview</h2>
+                <p class="text-muted">Welcome to the DeadEnd Gateway Console.</p>
+                <div class="card mt-4 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Gateway Status</h5>
+                        <p class="card-text"><span class="badge bg-success">Operational</span> All telemetry and digest queues are functioning normally.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="login" class="section-panel">
+                <h2>Authentication Module</h2>
+                <ul class="nav nav-tabs mt-3" style="max-width: 500px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="tab-login-btn" href="#" onclick="switchAuthTab('form-login', this)">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="tab-activate-btn" href="#" onclick="switchAuthTab('form-activate', this)">Activate Account</a>
+                    </li>
+                </ul>
+                <div class="card shadow-sm border-top-0 rounded-0 rounded-bottom" style="max-width: 500px;">
+                    <div class="card-body">
+                        <form id="form-login" onsubmit="submitApiForm(event, '/login')">
+                            <div class="mb-3">
+                                <label class="form-label">Username</label>
+                                <input type="text" class="form-control" id="login-user" required value="admin">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Password</label>
+                                <input type="password" class="form-control" id="login-pass" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Authenticate</button>
+                        </form>
+
+                        <form id="form-activate" onsubmit="submitApiForm(event, '/activate')" style="display: none;">
+                            <div class="mb-3">
+                                <label class="form-label">Username</label>
+                                <input type="text" class="form-control" id="activate-user" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Activation Token</label>
+                                <input type="text" class="form-control" id="activate-token" required>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100">Verify & Activate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="debug" class="section-panel">
+                <h2>Telemetry Sync</h2>
+                <div class="card shadow-sm mt-3">
+                    <div class="card-body">
+                        <form onsubmit="submitApiForm(event, '/debug')">
+                            <div class="mb-3">
+                                <label class="form-label">Payload Data (String)</label>
+                                <input type="text" class="form-control" id="debug-payload" placeholder="e.g. system_ping">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Trace Options (JSON)</label>
+                                <textarea class="form-control" id="debug-trace" rows="3">{"client_id": "web-console", "debug_mode": true}</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info text-white">Push Telemetry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="digest" class="section-panel">
+                <h2>Digest Engine</h2>
+                <div class="card shadow-sm mt-3">
+                    <div class="card-body">
+                        <form onsubmit="submitApiForm(event, '/digest')">
+                            <div class="mb-3">
+                                <label class="form-label">Target Username</label>
+                                <input type="text" class="form-control" id="digest-user" placeholder="Enter your active username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Task Script</label>
+                                <textarea class="form-control" id="digest-script" rows="4" required>print("THE END.")</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning text-dark">Submit to Queue</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-5">
+                <h5>Response Console</h5>
+                <div id="console-output" class="console-box">Waiting for system input...</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function switchTab(tabId) {
+        if (tabId === 'debug' || tabId === 'digest') {
+            let currentToken = localStorage.getItem('deadend_token');
+            if (!currentToken) {
+                const userToken = prompt("[Security Check] No active session found.\n\nPlease enter an Access Token to utilize this module:");
+                if (userToken && userToken.trim() !== '') {
+                    localStorage.setItem('deadend_token', userToken.trim());
+                } else {
+                    alert("Authentication required. Redirecting to Login module.");
+                    tabId = 'login'; 
+                }
+            }
+        }
+        document.querySelectorAll('.section-panel').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.menu-link').forEach(el => el.classList.remove('active'));
+        document.getElementById(tabId).classList.add('active');
+        const targetMenuLink = document.querySelector(`[onclick="switchTab('${tabId}')"]`);
+        if (targetMenuLink) targetMenuLink.classList.add('active');
+    }
+
+    function switchAuthTab(formId, element) {
+        document.getElementById('form-login').style.display = 'none';
+        document.getElementById('form-activate').style.display = 'none';
+        document.getElementById('tab-login-btn').classList.remove('active');
+        document.getElementById('tab-activate-btn').classList.remove('active');
+        
+        document.getElementById(formId).style.display = 'block';
+        element.classList.add('active');
+    }
+
+    function internalOnly(endpoint) {
+        alert(`[403 FORBIDDEN]\nDirect access to ${endpoint} via the web console is restricted to the internal network.`);
+        logToConsole({ status: "error", message: "Access Denied", target: endpoint, reason: "Not on internal network interface" });
+    }
+
+    async function submitApiForm(event, route) {
+        event.preventDefault();
+        const consoleBox = document.getElementById('console-output');
+        consoleBox.innerText = `Sending POST request to ${route}...\n`;
+
+        let requestBody = {};
+        if (route === '/login') {
+            requestBody.username = document.getElementById('login-user').value;
+            requestBody.password = document.getElementById('login-pass').value;
+        } 
+        else if (route === '/activate') {
+            requestBody.username = document.getElementById('activate-user').value;
+            requestBody.token = document.getElementById('activate-token').value;
+        }
+        else if (route === '/debug') {
+            requestBody.access_token = localStorage.getItem('deadend_token');
+            requestBody.payload = document.getElementById('debug-payload').value;
+            try {
+                requestBody.trace_options = JSON.parse(document.getElementById('debug-trace').value);
+            } catch (e) {
+                logToConsole({ status: "error", message: "Invalid JSON in Trace Options" }); return;
+            }
+        } 
+        else if (route === '/digest') {
+            requestBody.username = document.getElementById('digest-user').value; 
+            requestBody.access_token = localStorage.getItem('deadend_token');
+            requestBody.script = document.getElementById('digest-script').value;
+        }
+
+        try {
+            const response = await fetch(route, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(requestBody)
+            });
+            const data = await response.json();
+            
+            // Auto-save JWT token on successful login
+            if (route === '/login' && data.access_token) {
+                localStorage.setItem('deadend_token', data.access_token);
+            }
+            logToConsole(data);
+        } catch (err) {
+            logToConsole({ status: "error", message: "Network or Gateway Error", details: err.message });
+        }
+    }
+
+    function logToConsole(data) {
+        document.getElementById('console-output').innerText = JSON.stringify(data, null, 4);
+    }
+</script>
+</body>
+</html>

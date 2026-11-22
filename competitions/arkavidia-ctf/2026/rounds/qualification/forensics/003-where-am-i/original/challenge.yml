@@ -1,0 +1,25 @@
+name: "where am i?"
+category: forensics
+description: |- 
+    ples help Endministrator to recover critical information from his infected workstation.
+
+    ![Endministrator](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHg0MGNnc2Z6dGF6cnp6dW80YTJweGM2b3k5OWhhemVycmJpMDk1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5LoErM3FdRw8qrPpKt/giphy.gif)
+
+    Password: `747b25e9043030f4df7d799e3d624236`
+
+    Author: **ordinarycat**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+provide: "https://drive.google.com/file/d/1084Y944lppjOHbMSdiGjgmDMaPFAxceY/view?usp=sharing"
+
+flags:
+    - "ARKAV{Ara~_soo_you_finally_figured_out_how_to_open_this_file_huh?_hehe_good_job_darling}"
+
+state: hidden
+version: "0.1"

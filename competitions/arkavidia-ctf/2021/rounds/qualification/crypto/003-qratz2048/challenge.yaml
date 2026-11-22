@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-crypto-003
+name: qratz2048
+slug: 003-qratz2048
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: |-
+  Last year, pqrsen wasn't solved using the intended solution because I forgot to patch & put constraints to my challenge when doing some changes. So I create a cryptosystem based on it.
+
+  Hopefully, it's working this time! And don't even try to bruteforce 15 alphanumeric & case-sensitive chars!
+
+  Unrelated:
+
+  ![Meme](meme.png)
+
+  - Note: Format flag `Arkav7{}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: crypto/qratz2048
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: bf002bfab85de7863b0be843e429017c6c77709e4af9b7e81adfd5e059a4f6b5
+  - path: README.md
+    algorithm: sha256
+    value: 969fb23566bd2973c61e38d62a7b22221100480e3fa3c3fcf05f352b2647de5e
+  - path: chall/chall.py
+    algorithm: sha256
+    value: f77e9a6c554e438a2ad36419d8d3e6d5d4b2ee144e0c309d34dd1b4b3376a1a0
+  - path: chall/flag.enc
+    algorithm: sha256
+    value: 466ac3784a71f3c5cd56a2a8324852f7715930e890ffe9f7d381964b7531fa90
+  - path: meme.png
+    algorithm: sha256
+    value: e08444b65728d621d26d03dadba911ab445de63b41302fbc7867787609d3df20
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

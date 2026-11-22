@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-forensics-001
+name: Can This Love Be Translated?
+slug: 001-can-this-love-be-translated
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  I thought that love can be translated, but I was tragically wrong. It turns out my lover (ofc now ex-lover lol) was just a sophisticated scammer. Before she left, she did something on my lappy and now all my important memories are.. broken. She's gone now :(
+
+  Artifacts:
+  - a9240d791227d6c494a04c58be3fdb590225cd58df57a767eb1e1e712e53a337  chall.raw
+  - 9f112a7fff040b8e92b8ffdb9e1c31795b5062b3d31e29a0ef4762c087837e4d  chall.pcap
+
+  Password: `mV30A1EwysBKzn4y0R1o`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: frennn
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Forensics/can this love be translated
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4ebe7bfddbc1ff5a049a6bab5a5bc6ee3da91030e2a007031f4247bc3b02c424
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

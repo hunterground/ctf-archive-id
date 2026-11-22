@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: qualification
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: null
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 20
+  participant_count: null
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The repository is the Arkavidia 7.0 qualification problem set. It does not state a round date.
+  EditorialPenyisihan.pdf at the repository root was not copied into a challenge. The repository has no
+  LICENSE file. On 2026-11-21 the archive was instructed to record this source as MIT. Sequence numbers
+  are alphabetical by challenge name within each category.

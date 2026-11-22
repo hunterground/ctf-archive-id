@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-crypto-001
+name: Hades's Vault
+slug: 001-hadess-vault
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: crypto
+original_category: Crypto
+description: 🤷‍♂️
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Crypto/hades
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 644a1dd8aa8b6b71d55065dbbccafc083e08fb69542db47fa5eb077ec99f65b4
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 90f44f15eed9678c208be26f122709719b6cdb6dade207e191547ce9f3d11213
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6d1feaa21666e527b93d505191ea9e1f36095a9da597ab18054027b9827f304b
+  - path: src/banner.py
+    algorithm: sha256
+    value: a87d13feb543a41def527c4e60b8e41aa770a0cf406e57aca2be498fd2e75252
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 87ce5132ed63ec638a82b9b826cfb25262f95b3de32dc4e1baf94dda6b419b2e
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 77f68c735553439db652514fde3b4fa4df0864ce5e17b156de23fc516d762fc5
+  - path: src/hades.py
+    algorithm: sha256
+    value: 6b496e8d23fce1c895a2b4c0f0862323aba05fa7259df7b4cad4762680a52c05
+  - path: src/main.py
+    algorithm: sha256
+    value: bc2acd6bb2e7c17770bc22d2f449325ebee8ba32be9193257545c6bb17eba78d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: src/run.sh
+    algorithm: sha256
+    value: af9e994d13639761caacfa5c1345e24ec9500084122a965c467673aa82cde6e9
+  - path: src/utils.py
+    algorithm: sha256
+    value: 77b4c1854e8d3a75ebac0beceec4c1c5ac3d2284f7289f0af445b7cd28267646
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'hades'.

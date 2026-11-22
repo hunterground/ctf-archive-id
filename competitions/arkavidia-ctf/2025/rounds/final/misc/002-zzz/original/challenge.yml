@@ -1,0 +1,35 @@
+name: "zzz"
+category: miscellaneous
+description: |- 
+    Diliat-liat kayaknya Zig lagi naik daun nih.
+    Momen yang pas buat bikin jail-nya :D
+
+    Author: **msfir**
+
+value: 1000
+type: dynamic
+extra:
+    initial: 1000
+    decay: 9
+    minimum: 100
+
+connection_info: nc ctf.arkavidia.com 8481
+
+flags:
+    - ARKAV{bruh_is_this_even_a_jail_chall?_more_like_pwn_chall_ngl}
+
+files:
+    - dist/dist.zip
+
+hints:
+    - {
+        content: "Several builtin functions are, indeed, involved in the intended solution. And guess what? It pops a shell! How wonderful!",
+        cost: 0
+    }
+    - {
+        content: "Why should you create a new memory when you already have one tho?",
+        cost: 0
+    }
+
+state: visible
+version: "0.1"

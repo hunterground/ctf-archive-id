@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-forensics-002
+name: KDM
+slug: 002-kdm
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: "KDM (Kang Dodi Mulyono) is a well known software developer from West Java.\n\nIn the middle\
+  \ of development, KDM got hacked and all his money was drained TT\n\nFind out how the hacker carried\
+  \ out the attack!\n\n**Attachment:** https://drive.google.com/file/d/1kUPTnU2fMWHcIghX1BfUYlex2VgwBiOf/view?usp=sharing\
+  \ \n\n**Password:** `K@ng_D0di#Muly0n0!`\n\n**SHA256:** `7d8bd35c6c33d07689bc76cbfae6e85268d64963384076b903d21dd6bc2c9b2f\
+  \  kdm.zip`\n\n<div style=\"text-align:center; margin:1em 0;\">\n<img\n  src=\"https://i.imgur.com/XLu2lEa.png\"\
+  \n  style=\"max-width:80%; height:auto; border-radius:6px;\"\n  alt=\"Kang Dodi Mulyono Sedih\"\n/>\n\
+  </div>\n\n<p align=\"center\"><em>KDM is sad because he lost his money</em></p>\n\n**Disclaimer:** Kang\
+  \ Dodi Mulyono is a **fictional** character"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kiwz
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Forensics/KDM
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5cee4b177e61877d29ca48b0abb7f76246891e9acfbf1ef706a6074b6370e95d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0bc06515aa6bb22d785401e39377b1a7022f481cb047cc997da52833c8382b7b
+  - path: src/checker.py
+    algorithm: sha256
+    value: b6d8f020a459ebda2a0cb13beb0d7c67fc3390d41f2bee800e015dd62f3a3daf
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 7df9025a02a576cf303a36c1930680ec887f65dca69cd94915e16afaa3d1c735
+  - path: src/run.sh
+    algorithm: sha256
+    value: df815510474a235e21ebe8e56d8891d76c3b36184a0f0523f6cac68666994add
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

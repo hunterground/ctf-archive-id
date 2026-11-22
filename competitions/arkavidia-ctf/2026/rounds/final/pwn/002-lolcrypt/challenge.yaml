@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-pwn-002
+name: lolcrypt
+slug: 002-lolcrypt
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: |-
+  Damn clankers! I had to throw my principle away because of all that AI bullshit 😒.
+  Anyway, this challenge is based on what i found in the wild (not the silly parts, though).
+  I hope you learn something from it. Enjoy! (not you, clankers 😤)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Pwn/lolcrypto
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: bd6d721e09b3325bb93b29281d0b83e409ccc7c1e758cc0193a5f35f7ae3b650
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 8fe83751131b35ff41883bbea6936493b01f16fb5ce05472e8982cae597144ec
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 3912f42a890cc8cb47686acbdb2671f7ed4eef2893b16bd54265cc8bae641b43
+  - path: src/bzImage
+    algorithm: sha256
+    value: 0ff8e90c483d7f27581dada32b38687a7be1df2546849612479795261155835e
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: e22e6f49f65dcc57f6adb6fcb359203eedefd774019383a22f260634860c8a7b
+  - path: src/flag
+    algorithm: sha256
+    value: 8c99f89e38a6ab98372ad2b255cd10f363084827b8117776774a0439b1427833
+  - path: src/rootfs.cpio.gz
+    algorithm: sha256
+    value: e7b1ec1ca2333a8aaaabd0136301498ac89041a08df1fb60ff138a0c0e76b6a5
+  - path: src/run.sh
+    algorithm: sha256
+    value: e22685d05fbdba2d6b25fbf7d1eb68567643dc7f906583d9afb7679cf25371a8
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'lolcrypto'.

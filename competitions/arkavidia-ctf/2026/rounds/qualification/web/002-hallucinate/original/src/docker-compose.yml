@@ -1,0 +1,39 @@
+version: "3.8"
+services:
+  web:
+    build: ./web
+    ports:
+      - "8686:5000"
+    depends_on:
+      db:
+        condition: service_healthy
+      llm:
+        condition: service_started
+    environment:
+      - DB_HOST=db
+      - DB_USER=predictor_user
+      - DB_PASS=prediksi_jayajayajaya
+      - LLM_URL=http://llm:8000/predict
+      - SECRET_KEY=yang_waras_yeahhhh!!_7f8e9a2b3c4d5e6f...
+    mem_limit: 600m
+
+  llm:
+    build: ./llm
+    mem_limit: 2000m
+    cpus: 1.5
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0.1
+    environment:
+      - MYSQL_DATABASE=konoha_oracle
+      - MYSQL_USER=predictor_user
+      - MYSQL_PASSWORD=prediksi_jayajayajaya
+      - MYSQL_ROOT_PASSWORD=prediksi_jayajayajaya
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -u root -pprediksi_jayajayajaya -e 'SELECT 1'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5

@@ -1,0 +1,8 @@
+name: pwn-maumaudx
+services:
+  chall:
+    build: .
+    ports:
+      - "8920:1337"
+    restart: on-failure
+    container_name: maumaudx

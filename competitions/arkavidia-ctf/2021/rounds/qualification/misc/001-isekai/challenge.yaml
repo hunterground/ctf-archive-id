@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-misc-001
+name: isekai
+slug: 001-isekai
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: |-
+  Melepas penat CTF dengan main game isekai dulu.
+
+  Flag dimasukkan ke dalam format Arkav7{flag}
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: girvinjunod
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: misc/isekai
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 76c4417f25be6b4682bb2fc3837e2cdf47fd411c0ec17887485be76115a563e9
+  - path: main
+    algorithm: sha256
+    value: 8e76a7e192fd291963bfec3e9daecc2e1ed080949e4e6111af4efbf9b869f251
+  - path: manual.txt
+    algorithm: sha256
+    value: 73e783971a93b6b08f544df5f082ff0da24f276f0d327896205996e3a908aabe
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

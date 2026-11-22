@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}{{ 'Edit Note' if note else 'New Note' }} - PrevCloud{% endblock %}
+{% block head %}
+<style>
+    .editor-wrapper { max-width: 800px; }
+    .editor-toolbar {
+        display: flex;
+        gap: 4px;
+        padding: 8px 12px;
+        border-bottom: 1px solid var(--nc-border);
+        background: var(--nc-bg);
+        border-radius: var(--radius) var(--radius) 0 0;
+        flex-wrap: wrap;
+    }
+    .editor-btn {
+        padding: 4px 8px;
+        border: 1px solid var(--nc-border);
+        border-radius: 4px;
+        background: white;
+        cursor: pointer;
+        font-size: 0.8rem;
+        color: var(--nc-text);
+        font-weight: 500;
+    }
+    .editor-btn:hover { background: var(--nc-blue-light); border-color: var(--nc-blue); }
+    #content {
+        border-radius: 0 0 var(--radius) var(--radius);
+        border-top: none;
+        font-family: 'Courier New', monospace;
+        font-size: 0.9rem;
+        min-height: 400px;
+        line-height: 1.7;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">{{ 'Edit Note' if note else 'New Note' }}</h1>
+    <a href="{{ url_for('notes') }}" class="btn btn-secondary">← Back to Notes</a>
+</div>
+
+<div class="editor-wrapper">
+    <form method="POST">
+        <div class="form-group">
+            <input type="text" name="title" class="form-control" placeholder="Note title..." value="{{ note.title if note else '' }}" required style="font-size:1.2rem;font-weight:600;padding:12px 16px;">
+        </div>
+
+        <div class="card">
+            <div class="editor-toolbar">
+                <button type="button" class="editor-btn" onclick="wrap('**','**')"><b>B</b></button>
+                <button type="button" class="editor-btn" onclick="wrap('*','*')"><i>I</i></button>
+                <button type="button" class="editor-btn" onclick="wrap('`','`')">Code</button>
+                <button type="button" class="editor-btn" onclick="insertLine('# ')">H1</button>
+                <button type="button" class="editor-btn" onclick="insertLine('## ')">H2</button>
+                <button type="button" class="editor-btn" onclick="insertLine('- ')">List</button>
+                <button type="button" class="editor-btn" onclick="insertLine('> ')">Quote</button>
+                <button type="button" class="editor-btn" onclick="insertLine('---\n')">HR</button>
+            </div>
+            <textarea name="content" id="content" class="form-control" placeholder="Start writing...">{{ note.content if note else '' }}</textarea>
+        </div>
+
+        <div style="display:flex;gap:12px;margin-top:16px;">
+            <button type="submit" class="btn btn-primary">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+                Save Note
+            </button>
+            <a href="{{ url_for('notes') }}" class="btn btn-secondary">Cancel</a>
+            {% if note %}
+            <form method="POST" action="{{ url_for('delete_note', note_id=note.id) }}" style="margin-left:auto;" onsubmit="return confirm('Delete this note?')">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+            {% endif %}
+        </div>
+    </form>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+function wrap(before, after) {
+    const ta = document.getElementById('content');
+    const start = ta.selectionStart, end = ta.selectionEnd;
+    const sel = ta.value.substring(start, end);
+    ta.value = ta.value.substring(0, start) + before + sel + after + ta.value.substring(end);
+    ta.selectionStart = start + before.length;
+    ta.selectionEnd = end + before.length;
+    ta.focus();
+}
+function insertLine(prefix) {
+    const ta = document.getElementById('content');
+    const start = ta.selectionStart;
+    const lineStart = ta.value.lastIndexOf('\n', start - 1) + 1;
+    ta.value = ta.value.substring(0, lineStart) + prefix + ta.value.substring(lineStart);
+    ta.selectionStart = ta.selectionEnd = lineStart + prefix.length;
+    ta.focus();
+}
+</script>
+{% endblock %}

@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-pwn-003
+name: KV
+slug: 003-kv
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: pwn
+original_category: binary exploitation
+description: Just a simple key-value store with some fancy features because it's 2025
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/binary exploitation/KV
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Makefile
+    algorithm: sha256
+    value: b80d651382a1bab67f76befc3d02c1a02ed55a13bc361ed73b322f423204d767
+  - path: challenge.yml
+    algorithm: sha256
+    value: d955046546cb493942bb3fd01211d1d1dc58a694f32e371f0e8f287cd7b95e9e
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 730447e829ba41aea0d2b08b4f7c47f0a2b7836e45d39f969e390e795a14c5bc
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: daa40eba2c81c3a680382cccc9b30cb4e6d09e204c01272cf6eab43b7c5cb22e
+  - path: src/chall
+    algorithm: sha256
+    value: 08ab145510e473190457d27f9cc547988961eb40eb4b475915dd11def7537897
+  - path: src/chall.cc
+    algorithm: sha256
+    value: d94e490dcb136b8c86600b20d2f2c29fbb435728f9dc737a9c5fff967d9c24f5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 07087d0d1812fecf3687b0fd5e3c5ab4874dd5f5bc8ff5078f2a936bb6aeafcc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e3abb658049486325c66c4430c4f15adc4aeb04cac852e0724b21495ee064981
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

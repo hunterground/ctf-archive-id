@@ -1,0 +1,9 @@
+name: 'crypto-one-by-one'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: one-by-one
+    read_only: true
+    ports:
+      - 8773:1337

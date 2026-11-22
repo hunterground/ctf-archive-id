@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-forensics-003
+name: where am i?
+slug: 003-where-am-i
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  ples help Endministrator to recover critical information from his infected workstation.
+
+  ![Endministrator](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHg0MGNnc2Z6dGF6cnp6dW80YTJweGM2b3k5OWhhemVycmJpMDk1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5LoErM3FdRw8qrPpKt/giphy.gif)
+
+  Password: `747b25e9043030f4df7d799e3d624236`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ordinarycat
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Forensics/where am i
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 24034b3d571432363d0219b8dd8e51648e72a50282a6bb613a4b6ce7059d3acc
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

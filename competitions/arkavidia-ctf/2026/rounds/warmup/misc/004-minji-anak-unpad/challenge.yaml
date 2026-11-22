@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-misc-004
+name: Minji Anak UNPAD
+slug: 004-minji-anak-unpad
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: misc
+original_category: miscellaneous
+description: |-
+  Last night, i had a call with my gf, Minji.
+  She told me that she was going to perform at Padjajaran University tonight. She said that she'll send me an
+  important message, But suddenly, her phone was disconnected, ugh.
+
+  ![minji](https://i.ibb.co.com/6J4hkcdk/minji.jpg)
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+authors:
+- name: w1ntr
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/miscellaneous/Minji Anak UNPAD
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ecc6e5bbe9f9a8bc33c9432f572dc4d0df5445ca160a0432d670fbe1236b9329
+  - path: dist/chall.py
+    algorithm: sha256
+    value: e1bcb249d079d3df496e071ca491aafb6f2f34e3517cbd813c2db1c90cf10fe8
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: ec8a9781d568cd47fa0c658b63da1b48d571e7041c90dee5331a163ed31dbbe5
+  - path: src/dockerfile
+    algorithm: sha256
+    value: 1c055558777067c0902b752e2550a68419a0f92fb3a330e123b836c6087313d9
+  - path: src/vrl.py
+    algorithm: sha256
+    value: 5937f13600dd468a0ee592ec935fdaa7c8a053ae4a706e2491548668cb274ba9
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

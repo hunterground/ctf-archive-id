@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-crypto-002
+name: Delusion
+slug: 002-delusion
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: |-
+  Did you know that being delusional is a superpower? (I guess bro).
+
+  ![abcd](https://media.tenor.com/Fnz9lrCNfaUAAAAM/karina-aespa.gif)
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Crypto/Delusion
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2b085528c32af035e9d3c18ae15f8785f8b9591bd06f9152ed2c6d3e258db586
+  - path: challege.yml
+    algorithm: sha256
+    value: 1c18efa3869282a248f4f55ffe3fc0fc8648165f8efe51e4ac9b09a9c872022e
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 05ee25ce48ad75b8bd21e1564565bca42b10f9928204d20fc2b86923c73d2b47
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 092af359c78f202f225a9761f5ae7c1039a39b2e09e481b67b0a70e7ea0460fd
+  - path: src/chall.py
+    algorithm: sha256
+    value: 05ee25ce48ad75b8bd21e1564565bca42b10f9928204d20fc2b86923c73d2b47
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 7e254ae32a5eeb6c01b38e625a8429304a9059154a6938beff519c26db336508
+  - path: src/flag.txt
+    algorithm: sha256
+    value: bc940e6eec6e7e6bf350331eb147c730ede16ae218e141937f6a8d1e7ce6a60d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 66632d2c99b3df73dd814f9b5c973aa233787a8d7fb90b0aebfb607d32cd52c7
+  - path: src/run.sh
+    algorithm: sha256
+    value: 63f525556126e2f29fea378b17df1ae3eae66fd8d7d2251cb665bda676008c0a
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source manifest is named challege.yml. Difficulty is taken from the challenge README. The manifest
+  has no difficulty tag.

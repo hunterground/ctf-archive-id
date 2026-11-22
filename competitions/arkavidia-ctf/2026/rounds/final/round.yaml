@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: final
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+name: Final
+original_name: final
+sequence: 3
+type: final
+delivery: null
+description: null
+dates:
+  start: '2026-03-01'
+  end: '2026-03-01'
+statistics:
+  challenge_count: 12
+  participant_count: null
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: Imported from ctf-itb/ProbsetCTFArkav10. The repository README leaves the event dates as placeholders
+  and has no LICENSE file. On 2026-11-21 the archive was instructed to record that source as MIT. quals/Web/savior
+  has its own MIT license. Sequence numbers are alphabetical by challenge name within each category. .examples,
+  install.sh, sync.sh, TEMPLATE.md, README.md, and .ctf were not copied into the challenges. The final
+  date is 1 March 2026 from the BINUS report of the Arkavidia 10.0 final at ITB Ganesha and from a participant
+  final write-up of the same date. The problem set does not state it.

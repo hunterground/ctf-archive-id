@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-final-pwn-001
+name: fsociety
+slug: 001-fsociety
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: '*Bonsoir*, Elliot.'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Format string
+- off-by-one
+authors:
+- name: alphaville
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: final/fsociety
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: df9fbec2ca431b4e32d66316c00ab83078faf0cb9659110ba51971dd0e0d140d
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3855b3d1a19a78419ae60c76bfa443f011564ce8a465553eb9214fc3275537f5
+  - path: README.md
+    algorithm: sha256
+    value: 29d3814ce860d7abdf47089acfba11d74feebe53b4ef0ad475a05c4c01487fe5
+  - path: chall/docker-entrypoint.sh
+    algorithm: sha256
+    value: ff4b17583ba093f50bad610ca7f72c0d7698090fcdce5a30771d272a422df700
+  - path: chall/fsociety
+    algorithm: sha256
+    value: 61f5bf6b058c0b57617ba45dc9397e1eb77c432a612b342c3943fa32c600259c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 6785bc7a004d7fcd8aee3209999c5a690392c32638dd631e70c432f69effeb98
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

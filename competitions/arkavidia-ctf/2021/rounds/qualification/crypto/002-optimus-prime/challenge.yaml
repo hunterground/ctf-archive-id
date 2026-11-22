@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-crypto-002
+name: optimus prime?
+slug: 002-optimus-prime
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: Algoritma enkripsi mirip rsa dengan 5 bilangan prima
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Aphos
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: crypto/optimusprime
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 94937df78a0e278a6437b7b18a9786b5db9c4f726c7d2e21b7619e981156b5a8
+  - path: chall/funky.py
+    algorithm: sha256
+    value: 746d987270c1157e906a5c5ba227e2c6fcf58f6a55f345c791e481d444eb56b4
+  - path: chall/output.txt
+    algorithm: sha256
+    value: b90d42b79ab9931ee6071a3655238ebd292875085a44142ffcd3116824f91869
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'optimusprime'.

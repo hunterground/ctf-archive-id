@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-final-misc-001
+name: chovid-locker
+slug: 001-chovid-locker
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: misc
+original_category: miscellaneous
+description: Pingin punya lamborghini? Titipin NFT kalian di ChovidLocker :)
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: finals/miscellaneous/chovid-locker
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8f4571c15c5a20549ffacc287777dc8b1abf92427a225219254a01c407ae17fe
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: cc2e54b0a146b32f39639e640ed243c66ed9dd719748af4254eec0b242670bca
+  - path: src/.env
+    algorithm: sha256
+    value: b18d9fa3e0b9cb936b0806e66c1ee752e7e9db7d1a26b888a05b4b28a2bcd918
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b0b7f108a9a85524cd1e9154a589f9edb34dd6c504bf3adb1845fb20df493b2e
+  - path: src/contracts/.gitignore
+    algorithm: sha256
+    value: 052542c2e2f7b404a607007058b3695f72d71fea1932596239fd8e65f8d28828
+  - path: src/contracts/.gitmodules
+    algorithm: sha256
+    value: 8cd1544a1e87555e02e1205f2397849aad735bfbf4a448bc8bbf02fd07c8fc2c
+  - path: src/contracts/foundry.toml
+    algorithm: sha256
+    value: 866897ef79e71fe5432bb86c40d4880b60661ef7d59a9918af893eee11a5454e
+  - path: src/contracts/remappings.txt
+    algorithm: sha256
+    value: 3e357d7ca0a1743bc70b1393940b25589b3747724477bd6aebe85b760909010e
+  - path: src/contracts/src/ChovidLocker.sol
+    algorithm: sha256
+    value: 549f7da7e0ec7ea931f8c8954c03582b41802c5a3ce84164819fa4cf7405a7b7
+  - path: src/contracts/src/ChovidNFT.sol
+    algorithm: sha256
+    value: af28432eced732774d5f54a5b2e2792566a96b298e1f3ce60a3ca4f976ed7347
+  - path: src/contracts/src/Setup.sol
+    algorithm: sha256
+    value: f2e51ff553f0c782e5859f6d85280120d408afdbe2f5474d7ac675bb6313bd59
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: 27e7aae27a83c9072f7e385fe4f5464fd80fffa520c340e5a784702a1582b9b5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 46535b569f56a0652a46ed9936ef60da77fcb8446ea6730b0c4b0c2319d5d608
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The repository README states that final challenges are Hard. This challenge.yml has no difficulty
+  tag.

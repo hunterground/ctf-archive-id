@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-rev-003
+name: Pyrev
+slug: 003-pyrev
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: rev
+original_category: reverse engineering
+description: |-
+  Your average baby python reversing chall, and it's not even .pyc!
+
+  note: tested on linux, running on windows might give different results
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/reverse engineering/Pyrev
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 63ff0e5f0f1479d8a1493eaedac8af5b19cdbced674b4159561562fc2a9c98a9
+  - path: dist/chall.py
+    algorithm: sha256
+    value: bcb94a8af61d47da1057202ab386ea9ec1927524e1eda6faa3f4d14d603d975f
+  - path: src/assemble.py
+    algorithm: sha256
+    value: 1dcc58337975d8f39bfed7ec8052d3166f91f838312bd89c07aee3b28054feb4
+  - path: src/chall.py
+    algorithm: sha256
+    value: bcb94a8af61d47da1057202ab386ea9ec1927524e1eda6faa3f4d14d603d975f
+  - path: src/unobfuscated.py
+    algorithm: sha256
+    value: 957e9e825d339770eb686715733eb4dfda3f624a16c9ac54b02e06ee6093b95a
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

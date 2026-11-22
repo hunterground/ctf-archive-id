@@ -1,0 +1,9 @@
+name: jjjhhhhyyyyooooooooo
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: 'jhyo'
+    read_only: true
+    ports:
+      - 8777:8777

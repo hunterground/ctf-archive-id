@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-crypto-004
+name: re;union
+slug: 004-re-union
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: |-
+  Ahh, we haven't seen you in a while, agent 007. We have some missions for you.
+  We don't know whether each of them is related or not. Here, you can use this
+  tool to communicate with us.
+
+  - Note: Format flag `Arkav7{}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nightmare
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: crypto/re;union
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: ef8a1af1847c80dc4ac41ea50ada2a9a0b41db1a599d6339dfd42c978c08fe58
+  - path: README.md
+    algorithm: sha256
+    value: 99a8c5db85984192f04f34ca00baecb93b1bc4925a1cd2f069d92bfcb5835b82
+  - path: chall/chall.py
+    algorithm: sha256
+    value: ebfe512240ad80e11b86c428ed14ba8dcbd5e54264222d2507a926cfa99f1edc
+  - path: chall/keys/1024.pem
+    algorithm: sha256
+    value: 00473e09048256f2cc2324da6b97369cef45c5ec6b9be47c9bfc6230dafa7440
+  - path: chall/keys/1025.pem
+    algorithm: sha256
+    value: fd122bea49d1fac945c6b7660ab75ad77384fbcd1925a5685a023c92ab367016
+  - path: chall/keys/1026.pem
+    algorithm: sha256
+    value: adf48d948a8a04d055055eadf602fb209595dc4bb377e2aaeb4f4c7c11e07585
+  - path: chall/keys/1027.pem
+    algorithm: sha256
+    value: d8d43a67511f1cac37263ffbef06e022ecf83d5555aca9cb9a2a5a3662556caf
+  - path: chall/keys/1028.pem
+    algorithm: sha256
+    value: 18caf2944e443e02437ca1a954e69a6b6084aa1d6c5e3be9eff652e448bd52fc
+  - path: chall/keys/1029.pem
+    algorithm: sha256
+    value: 70db6eeaaa8654578c2495eca30de9fcb5d80e1618738ded257600e00deb1bf8
+  - path: chall/keys/1030.pem
+    algorithm: sha256
+    value: 0f7c9eee3108896cfd39d19611574b5ec5c31b295fee57d0be21f7fc95f7ef4d
+  - path: chall/keys/1031.pem
+    algorithm: sha256
+    value: fa48c197de7cf504384ed85358d8bfdf85701a05e37f038101c16d83ff909326
+  - path: chall/secret.py
+    algorithm: sha256
+    value: bfb581cd71913a68f22a33adf7057fafbba80a422df0680609e4587c00b15eb7
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-final-pwn-002
+name: stringeditor
+slug: 002-stringeditor
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Blind Format String
+authors:
+- name: fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: final/stringeditor
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 77089620cff622ad9388bd214d09c7f38a5974a78629e602b675a34b6b98943f
+  - path: Dockerfile
+    algorithm: sha256
+    value: de3b426b17072ef2fa1efd5dd48d8184e9ed86a5672bb9afdcd40f146f85093e
+  - path: README.md
+    algorithm: sha256
+    value: 81fda3be664aa895a65d82f4568b31f458ab3e9fd06bcf538fe2948d9a52aff6
+  - path: chall/run.sh
+    algorithm: sha256
+    value: b5fb68773240929f3737c6d55fd4d6cea82c14c12210068c94b0974717820967
+  - path: chall/stringeditor
+    algorithm: sha256
+    value: 7029de0e16f295886e2b6c8030077ed006173605144910d1005f3b5c43d721dd
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f9bdf9a41ba80271906b4c8cf42a880bc14821f40e76de81b1d8cd6344efae73
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,29 @@
+name: "does it curve?"
+
+category: cryptography
+description: |- 
+    I’ve always said that math is the highest form of art. I’ve hand crafted this Elliptic Service to be aesthetically pleasing. Does it curve? Oh, it curves beautifully. But art should not be rigid, and no masterpiece should be confined to the limits imposed upon it.
+
+    Author: **grwna**
+
+attribution: grwna
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc <> 8455
+
+flags:
+    - ARKAV{17_d035_curv3_bu7_1nc0rr3c71y_1_7h1nk_m4yb3_1_d0n7_kn0w}
+
+files:
+    - dist/chall.py
+    - dist/ecc.py
+
+state: hidden
+
+version: "0.1"

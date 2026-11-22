@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-forensics-002
+name: tolong mo
+slug: 002-tolong-mo
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  momo ditipu sama dapin, tolongin momo cari informasi penting yang dicuri dapruy
+
+  ![mo](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXczczJjbHVtdW5iemJ0ZGhqNGpjeGxiNWxkZzF1eWJjcmVrY3EyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oSyCVnZcqR0sUeonGq/giphy.gif)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kiwz
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Forensics/tolong mo
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: c9c0d8edaff1b0732577143e1f888c2bed71546b152c02b32333f177f208185d
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

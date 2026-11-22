@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "BotIsolation",
+  "description": "izin inspirasi dari soal ctf lain",
+  "version": "1.0",
+  "permissions": ["tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "BotIsolation.js"
+  }
+}

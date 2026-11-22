@@ -1,0 +1,10 @@
+version: '1'
+name: 'walk-in-a-park'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: 'walk-in-a-park'
+    read_only: false
+    ports:
+      - 6767:8010

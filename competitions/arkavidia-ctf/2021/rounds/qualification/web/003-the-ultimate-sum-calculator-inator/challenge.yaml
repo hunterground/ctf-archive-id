@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-web-003
+name: The Ultimate Sum Calculator-inator
+slug: 003-the-ultimate-sum-calculator-inator
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: '![](inator.jpg)'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: didithilmy
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: web/calculator-inator
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: db62f2a039a480d6cdefadd48d5ec803add0041ae83f025b73ae229c94a9dbe3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bb65cc75e46aabf81f1c6e744b73f3586d99d134ea0461d9c2fb790690a0e355
+  - path: flag/flag.txt
+    algorithm: sha256
+    value: e08ad7fde210c84c1a4760ece202c04061ee5e35acdd2f5c61672989c68393b5
+  - path: inator.jpg
+    algorithm: sha256
+    value: 3e379bfc98ba7f0a73fa178c18d71b2c15933bdf21d3be13064019235192aeac
+  - path: web/index.php
+    algorithm: sha256
+    value: b9458cf894bc0fa3dedb152106558e2bbe498a3ac422712fb1653b4fad829c14
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'calculator-inator'.

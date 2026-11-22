@@ -1,0 +1,30 @@
+name: "savior"
+
+category: web exploitation
+description: |- 
+    when yh bisa kayak gitu juga, kan aku juga mau 😔😔😔
+    ![reze](https://i.redd.it/h8cnhm4y6waf1.gif)
+
+    https://youtu.be/1X8Jqn_TMzs?si=uR5m_QhrnaQOPu4W
+
+    Author: **wze, k4tou**
+
+attribution: wze, k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://52.237.82.49:8867/
+
+flags:
+    - ARKAV{l1k3_4_w3l1_m4d3_f1lm_060ee130e3e0f0577da4c5e6ea2ccc693bf866dc63b2d961d03c765124b0927a}
+
+files:
+    - dist/dist.zip
+
+state: hidden
+version: "0.1"

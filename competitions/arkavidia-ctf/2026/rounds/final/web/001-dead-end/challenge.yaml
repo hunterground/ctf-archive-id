@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-web-001
+name: Dead End
+slug: 001-dead-end
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: THE END.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dovodedomo
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Web/dead-end
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 161d33d9748049fe4f528da694495f6e73f692a55a9662c548dfbe684993a9b4
+  - path: dist/dead-end.zip
+    algorithm: sha256
+    value: d1e47236359d6aab7683a08b0f4700b5fd2d7f2b8699b64cf03ba1ca677b0c59
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: bbc52f93f8b3388dfa304422e840913cf75f7a49b7ae366b756e7c0c500aedcd
+  - path: src/challenge/backend/Dockerfile
+    algorithm: sha256
+    value: eaee326d1f00b57a5dc79f08f8a5bd94661e959a41c0ebab60c7fdf27fd33ead
+  - path: src/challenge/backend/backend.py
+    algorithm: sha256
+    value: 37d7b8b4371bdd4c5d28af051f71f685fc9fb3985f1aa95bd6ad28e1d24f7c77
+  - path: src/challenge/backend/entrypoint.sh
+    algorithm: sha256
+    value: 16b3e8b7021f6c40acce1c76f4702321a928e5e86bb77450508882fae5acee97
+  - path: src/challenge/backend/requirements.txt
+    algorithm: sha256
+    value: 9a46733a1dbb4d447537f24b979640583ab541f4f38b2782f8faa8ea5e032fb3
+  - path: src/challenge/docker-compose.yml
+    algorithm: sha256
+    value: 88aa7728e42d86be06be1f6fbb4aa365e939c3b837b53f921d1afebc9eb36cfb
+  - path: src/challenge/frontend/Dockerfile
+    algorithm: sha256
+    value: 448f76277599b29774e8bc64bc03ca816368cfb2c3c7e8d32362f346e28e5615
+  - path: src/challenge/frontend/app.js
+    algorithm: sha256
+    value: f3be6084fe82f64e4ec611377fa40631f31e974fff77df1669182348a80d7c62
+  - path: src/challenge/frontend/package.json
+    algorithm: sha256
+    value: a32ff27140d2bc8f1ed12e352ca9c264403c6ef3d872cb4047b557aea0ce6025
+  - path: src/challenge/frontend/public/index.html
+    algorithm: sha256
+    value: 855aa0fac7ab3fced3c5dfb216e5afd56d62916f5376c86314c6ff4a05104bed
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c1aa2837d4493cc96423bedf5164e59e0563ee5c8347b76d4321245978ed9a21
+  - path: src/main.py
+    algorithm: sha256
+    value: 9e041f9689841b052f18f0a7cea0d1dea586442d09b79ec6cf83b27c63a99ce3
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: c66aabfb1c9542334667f35ec7f5ba3740ad57e8a4a538a3da46aa67c3ad53d7
+  - path: src/static/index.html
+    algorithm: sha256
+    value: 763ab5af82388bc1d341f75c61c154430d9e80780329eb326f53228d4af184bc
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

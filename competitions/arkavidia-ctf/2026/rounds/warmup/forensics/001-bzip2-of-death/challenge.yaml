@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-forensics-001
+name: Bzip2 of Death
+slug: 001-bzip2-of-death
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: forensics
+original_category: forensics
+description: |-
+  🚨❗ **WARNING: This file isn't your average archive—it's a zip bomb! If you extract it carelessly, you risk overwhelming your storage, freezing your system, or even triggering a DoS attack.** 🚨❗
+
+  Someone wanted to keep their message secret at all costs, locking it inside this zip bomb. If you attempt to decompress it, you might end up waiting for hours, days, or even forever. Trying to open it the usual way could cause you to run out of space before you even get close. We're talking about terabytes (1000 GB), petabytes (1.000.000 GB), or even zettabytes (1.000.000.000 GB) of data that could overwhelm your system. But every bomb has a weak spot, right? Can you extract the file without triggering disaster?
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+authors:
+- name: dovodedomo
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/forensics/Bzip2 of Death
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: b723edebae583835de2e1ced8d7de2bb1b80a9a7ce657628f7cffef9b65a34ad
+  - path: dist/biggest_flag_ever_made.bz2
+    algorithm: sha256
+    value: 7dd3b817346816d0e80266c6845ef34e76a5651f08cab981e0ccaef674a8ef86
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

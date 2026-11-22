@@ -311,3 +311,301 @@ repositories:
       copied without .git. Its LICENSE.md is MIT, copyright 2018 Faiz A. Farooqui.
       Participant write-ups name Cihuy and SNI BASECAMP, which are not in this commit.
       The recorded commit is the tip of main cloned on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: arkavidia-ctf-2021-qualification
+    name: Penyisihan Arkavidia 7
+    source:
+      type: github
+      url: https://github.com/ctf-itb/PenyisihanArkav7
+      owner: ctf-itb
+      repository: PenyisihanArkav7
+      branch: master
+      commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: 2021
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: CTF ITB Community
+      url: https://github.com/ctf-itb
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 20
+    categories:
+      - crypto
+      - foren
+      - misc
+      - pwn
+      - rev
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Penyisihan Arkavidia 7
+        url: https://github.com/ctf-itb/PenyisihanArkav7
+        type: official_repository
+        accessed: "2026-11-21"
+    notes: >
+      Organizer problem set for Arkavidia 7.0 qualification. The README calls it
+      the problem set for the Arkavidia 7.0 CTF. There is no LICENSE file. On
+      2026-11-21 the archive was instructed to record this source as MIT, and the
+      20 challenge directories were copied. EditorialPenyisihan.pdf at the
+      repository root was not copied. The recorded commit is the tip of master
+      cloned on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: arkavidia-ctf-2025-problem-set
+    name: Capture The Flag ARKAVIDIA 9.0
+    source:
+      type: github
+      url: https://github.com/ctf-itb/ProbsetCTFArkav9
+      owner: ctf-itb
+      repository: ProbsetCTFArkav9
+      branch: main
+      commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: 2025
+    round_id: null
+    maintainer:
+      type: organization
+      name: CTF ITB Community
+      url: https://github.com/ctf-itb
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 42
+    categories:
+      - binary exploitation
+      - cryptography
+      - forensics
+      - miscellaneous
+      - reverse engineering
+      - web exploitation
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Capture The Flag ARKAVIDIA 9.0
+        url: https://github.com/ctf-itb/ProbsetCTFArkav9
+        type: official_repository
+        accessed: "2026-11-21"
+    notes: >
+      Organizer problem set for Arkavidia 9.0. The README gives qualification on
+      23 February 2025 and the final on 23 March 2025. There is no LICENSE file.
+      On 2026-11-21 the archive was instructed to record this source as MIT.
+      Four warmup, 26 qualification, and 12 final challenges were copied.
+      README.md, sync.sh, .github, and .ctf were not copied. The recorded commit
+      is the tip of main cloned on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: arkavidia-ctf-10-problem-set
+    name: Problemset CTF Arkavidia 10
+    source:
+      type: github
+      url: https://github.com/ctf-itb/ProbsetCTFArkav10
+      owner: ctf-itb
+      repository: ProbsetCTFArkav10
+      branch: main
+      commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: 2026
+    round_id: null
+    maintainer:
+      type: organization
+      name: CTF ITB Community
+      url: https://github.com/ctf-itb
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 59
+    categories:
+      - binary exploitation
+      - cryptography
+      - forensics
+      - miscellaneous
+      - reverse engineering
+      - web exploitation
+      - Crypto
+      - Forensics
+      - Misc
+      - Pwn
+      - Reverse
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Problemset CTF Arkavidia 10
+        url: https://github.com/ctf-itb/ProbsetCTFArkav10
+        type: official_repository
+        accessed: "2026-11-21"
+    notes: >
+      Organizer problem set for Arkavidia 10.0. The README leaves the event dates
+      as placeholders. The 2026 edition uses 1 March 2026 as the final date from
+      the BINUS festival report and a participant final write-up. There is no
+      root LICENSE file. On 2026-11-21 the archive was instructed to record this
+      source as MIT. 24 warmup, 23 qualification, and 12 final challenges were
+      copied. quals/Crypto/Delusion uses the filename challege.yml.
+      quals/Web/savior/LICENSE is MIT, copyright 2023 Dimas Maulana.
+      .examples, install.sh, sync.sh, TEMPLATE.md, README.md, and .ctf were not
+      copied. Warmup challenge names overlap Arkavidia 9.0 qualification names,
+      and the file trees are not identical. The recorded commit is the tip of
+      main cloned on 2026-11-21.
+
+  - schema_version: "1.0"
+    id: arkavidia-ctf-itb-writeups
+    name: CTF ITB write-up collection
+    source:
+      type: github
+      url: https://github.com/ctf-itb/writeup
+      owner: ctf-itb
+      repository: writeup
+      branch: null
+      commit: null
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: organization
+      name: CTF ITB Community
+      url: https://github.com/ctf-itb
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - writeups
+    challenge_count: null
+    categories: []
+    verification:
+      status: discovered
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: CTF ITB write-up collection
+        url: https://github.com/ctf-itb/writeup
+        type: third_party_archive
+        accessed: "2026-11-21"
+    notes: >
+      The repository description says it is a collection of write-ups from CTF
+      contests and their challenges when present. It was not cloned. The branch,
+      commit, license, and which Arkavidia editions it contains were not recorded.
+
+  - schema_version: "1.0"
+    id: arkavidia-6-challenges-mabdullahmunir
+    name: CTF Arkavidia 6 challenges
+    source:
+      type: github
+      url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+      owner: mabdullahmunir
+      repository: CTF-Arkavidia-6
+      branch: master
+      commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: 2020
+    round_id: null
+    maintainer:
+      type: person
+      name: mabdullahmunir
+      url: https://github.com/mabdullahmunir
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - challenge_materials
+    challenge_count: 17
+    categories:
+      - crypto
+      - forensic
+      - pwn
+      - re
+      - Pwn
+      - Web
+      - Web, Binary Exploitation
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: CTF Arkavidia 6 challenges
+        url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+        type: third_party_archive
+        accessed: "2026-11-22"
+    notes: >
+      Personal repository of Arkavidia 6 challenges. It is not the ctf-itb
+      organizer problem set. The root LICENSE is MIT, copyright 2020
+      mabdullahmunir. Thirteen qualification and four final challenges were
+      copied from commit 97cc9f5d5fff158db83d9f7a411e7022c94b4b71. No solver
+      files were in the tree. Empty init.md files were not copied. probook
+      lists both Web and Binary Exploitation and is filed under pwn because
+      the core of the challenge is binary exploitation.
+
+  - schema_version: "1.0"
+    id: arkavidia-5-pwn-rev-writeup-fwp
+    name: Arkavidia 5.0 pwn and reverse write-up
+    source:
+      type: github
+      url: https://github.com/FwP-IDN/Arkavidia-5-Pwn-and-Reverse-Binary-Writeup
+      owner: FwP-IDN
+      repository: Arkavidia-5-Pwn-and-Reverse-Binary-Writeup
+      branch: null
+      commit: null
+      path: null
+    competition_id: arkavidia-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: organization
+      name: FwP-IDN
+      url: https://github.com/FwP-IDN
+    access:
+      visibility: public
+      access_date: "2026-11-21"
+    content_types:
+      - writeups
+    challenge_count: null
+    categories:
+      - Pwn
+      - Reverse
+    verification:
+      status: discovered
+      last_checked: "2026-11-21"
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: Writeup Arkavidia 5.0 CTF, only Pwn and Reverse
+        url: https://github.com/FwP-IDN/Arkavidia-5-Pwn-and-Reverse-Binary-Writeup
+        type: writeup
+        accessed: "2026-11-21"
+    notes: >
+      Participant write-up repository for Arkavidia 5.0 pwn and reverse, with
+      qualification and final directories named in the README. It was not cloned.
+      No organizer problem set for Arkavidia 5.0 was found, and no edition year
+      was assigned.

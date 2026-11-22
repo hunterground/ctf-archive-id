@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-pwn-003
+name: How to Eat Life
+slug: 003-how-to-eat-life
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: |-
+  Crying in the gap between reality,​ my stomach being torn apart with this thought​.
+
+  The thorns of the words I've gulped down stab me​
+
+  - Note: Format flag `Arkav7{}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: pwn/How to Eat Life
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 0d6e4079e36703ebd37c00722f5891d28b0e2811dc114b129215123adcce3605
+  - path: README.md
+    algorithm: sha256
+    value: d6b18e13a5d46f398c074f0445fe5ba339958c116f6d128a3248aae9d4699353
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 657c09ae2fb9acfa40aeeecc97cbdf8a88059ca0da4942cbad9170332725a8dc
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: dfd7de8d0b2f1fe11abed49c6f7bb3f2415e800a3f0646654309e3ae83938816
+  - path: chall/main.go
+    algorithm: sha256
+    value: b5d0e9ea0fd8830bc4dfc718ed4072914ef66e6d1a3513b3d59bf455329f4138
+  - path: chall/run.sh
+    algorithm: sha256
+    value: 21608e417dafd7575ac25440d6482fdb885c3917af800d3cae8f2030ec8c6c3c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b5f18139e858d5dd496ca661081b9de700fb008c0504581dfbe19d461643e9f4
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

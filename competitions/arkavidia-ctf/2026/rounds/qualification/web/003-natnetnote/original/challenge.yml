@@ -1,0 +1,26 @@
+name: "Natnetnote"
+category: Web Exploitation
+description: |- 
+    natnetnotenatnetnotenatnetnotenatnetnotenatnetnotenatnetnote
+
+    p.s. tolong kerjakan di local dulu
+
+    Author: **BoredAngel**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://52.237.82.49:8995
+
+flags:
+    - ARKAV{L4iN_kAl1_XsS_J4n9an_N0Te_Mu1ulah_B0s3n_Gw_asdqe123wadno132hiubaf1u3ppad}
+
+files:
+    - dist/dist.tar.gz
+
+state: hidden
+version: "0.1"

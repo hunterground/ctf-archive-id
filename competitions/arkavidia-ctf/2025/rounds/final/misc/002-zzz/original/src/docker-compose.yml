@@ -1,0 +1,8 @@
+name: misc-zzz
+services:
+  chall:
+    build: .
+    ports:
+      - 8481:8481
+    restart: on-failure
+    container_name: zzz

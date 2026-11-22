@@ -1,0 +1,168 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-web-001
+name: LinkedOut
+slug: 001-linkedout
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Agar Arkavidia 7.0 bisa jadi 'impekful', kami mencoba membuat website LinkedOut untuk membantu kamu menjalin koneksi dengan orang lain.
+  Riset internal LinkedOut menyatakan bahwa user paling aktif LinkedOut login setiap 5 menit sekali!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: didithilmy
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: web/linkedout
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: e63b3cfa3ebd2c3ed9df99226dc31b180f2219c1c2ab32f9976cdb7e61e29186
+  - path: README.md
+    algorithm: sha256
+    value: 06fb99a13519cae7e1faa238d2e3a5d316ec5e185faa5ed7d7cad02c5baf83ed
+  - path: docker-compose-dev.yml
+    algorithm: sha256
+    value: 2d14d0d2ce400cbc860145b8b47709398268cd199517251a7595edbfa75c43b0
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a986d7dc75ad8703398ddeb55fa622aac0619eb24ae23eef5eb38084944f5ccb
+  - path: oauth2-provider/Dockerfile
+    algorithm: sha256
+    value: c994bf94f9844497644067061d6fe47948eff456da32830fb73ae8a4de8b7156
+  - path: oauth2-provider/ctf_linkedout_oauth.sql
+    algorithm: sha256
+    value: 77296b45ac1bce63c02730868d8165d3a53326543e1d454282fa8d08e76597eb
+  - path: oauth2-provider/html/composer.json
+    algorithm: sha256
+    value: 0d886e077878ab40ee5e1c64729b51d6ad24a2476a239c9d6bc448e4f32fafa1
+  - path: oauth2-provider/html/composer.lock
+    algorithm: sha256
+    value: bff7f12932a23d677f2618eb8d234ca636d7c1dc8a18c0c711f941ccd31f0e2b
+  - path: oauth2-provider/html/include/config.php
+    algorithm: sha256
+    value: 8c1d15074cdcd8504af50dacf278686c66c9d7110bc965567cea45a201bdea6d
+  - path: oauth2-provider/html/include/database.php
+    algorithm: sha256
+    value: 369fc314a7b82fccd83bb63993a28d6e0a186c15afbb246e6ddba2f6d48bcd0c
+  - path: oauth2-provider/html/include/jwt.php
+    algorithm: sha256
+    value: fdfeaaf9e28a38e18b166a987b5f59baae2b7138912300dadd93cedf9c860843
+  - path: oauth2-provider/html/include/session.php
+    algorithm: sha256
+    value: c8917f5e61ed943746947de3d38a021cfec2533972fff24c75a4a0eda127e5ec
+  - path: oauth2-provider/html/oauth/authorize.php
+    algorithm: sha256
+    value: 5de0309cba1f7ad7f3212db81b93955679b766aef5eba9fa56066982535fb80a
+  - path: oauth2-provider/html/oauth/login.php
+    algorithm: sha256
+    value: 5dff32199e9d34b84bc8ba76ffb9421ef5328d2732207942ddc601fadc0bc7af
+  - path: oauth2-provider/html/oauth/redir.php
+    algorithm: sha256
+    value: 16e39587c8bb3cab1e3379eccb00f4ddeca3afbbdcd1e81f5f885af3489e5721
+  - path: oauth2-provider/html/oauth/register.php
+    algorithm: sha256
+    value: 1243bed84b2f265b01e10834f86c464e770971afd5eea98d5e09ef3790eae136
+  - path: oauth2-provider/html/oauth/signin.css
+    algorithm: sha256
+    value: 2e24b74419592d0c9ca7581822666430a5b97a32e8b7b146032a800249650683
+  - path: puppeteer/Dockerfile
+    algorithm: sha256
+    value: 18b416bf9c3e40ba71aceeb9174c7d0873a250813b819415c2251df76525e61b
+  - path: puppeteer/src/.gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: puppeteer/src/example.png
+    algorithm: sha256
+    value: 48c3bb0d2dbf97fc89d5afff10faf9e7c7727860fdbbe4817e9463665e7d7f2c
+  - path: puppeteer/src/package.json
+    algorithm: sha256
+    value: 38e713bf195dfefd90d1990ca72fda479ae4c788c169cde7deb83383689cacba
+  - path: puppeteer/src/run.js
+    algorithm: sha256
+    value: 0a7323fcd866f1c3820b6bc0adc5fc663730ab428ca51613a1f8f15bb3b6ac14
+  - path: website/Dockerfile
+    algorithm: sha256
+    value: c994bf94f9844497644067061d6fe47948eff456da32830fb73ae8a4de8b7156
+  - path: website/ctf_linkedout_web.sql
+    algorithm: sha256
+    value: a1b45a2aa918f2071fc6e231c6762787975930f70954af2475fd4cdf5c960d04
+  - path: website/html/_internal_a7/cleanup.php
+    algorithm: sha256
+    value: 77a9393f7134726f5f8341c6f60d0e15bd5b39b28a774558a168f2b0a7b41e9a
+  - path: website/html/_internal_a7/redir.php
+    algorithm: sha256
+    value: 9b7fc6560f26f4902bb30408b11f62602d71eddab01e6a7c14e69168dbebb7db
+  - path: website/html/acceptcr.php
+    algorithm: sha256
+    value: fe5a4ebe0b65aa0a0133354b0647837b7bd4dc3fe667242a32533d7322333887
+  - path: website/html/auth.php
+    algorithm: sha256
+    value: ee1abf6b0e4a5ab432320e02d0c3955e444af37cf27b02761e034d04ef380857
+  - path: website/html/composer.json
+    algorithm: sha256
+    value: 0d886e077878ab40ee5e1c64729b51d6ad24a2476a239c9d6bc448e4f32fafa1
+  - path: website/html/composer.lock
+    algorithm: sha256
+    value: bff7f12932a23d677f2618eb8d234ca636d7c1dc8a18c0c711f941ccd31f0e2b
+  - path: website/html/connrequest.php
+    algorithm: sha256
+    value: 6e743e13034b14289a09c13e7cbff4ddea31c179980ee9a14cdf2c66f9d5d476
+  - path: website/html/deletepost.php
+    algorithm: sha256
+    value: c1c73a9e49e3b477606b97ec41e90513255001b46581ca2cdf661292c6487529
+  - path: website/html/ignorecr.php
+    algorithm: sha256
+    value: fe5a4ebe0b65aa0a0133354b0647837b7bd4dc3fe667242a32533d7322333887
+  - path: website/html/include/config.php
+    algorithm: sha256
+    value: 6b426c33b44ecc195a26003ebf1115273afdc9be4c06280892622abdb232d566
+  - path: website/html/include/database.php
+    algorithm: sha256
+    value: 47d85be8a4e8c8b0a569c64e828c13485b56dc6145b3aee86445c0212ca031a4
+  - path: website/html/include/session.php
+    algorithm: sha256
+    value: 1829785e4cd182ef5489fdde3b0f47d243d8bed8c9cb922e00449d8c91c86517
+  - path: website/html/index.php
+    algorithm: sha256
+    value: d51ce17134fc1f69a51b37ed43416e8a2a834569c97c2073eb7e8d88fbab7d3f
+  - path: website/html/logout.php
+    algorithm: sha256
+    value: a2b5a4e1255f7fdf4e252e3180f8f7c737143977faea2cac4e60bc6a916e46e2
+  - path: website/html/post.php
+    algorithm: sha256
+    value: 579583e9b25b3a4846946cbaab293fdf4be97c60706087d95565f8825ffc88bb
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

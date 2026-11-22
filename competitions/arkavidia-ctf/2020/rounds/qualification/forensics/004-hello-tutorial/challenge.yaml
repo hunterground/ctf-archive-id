@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-forensics-004
+name: 멋지게 인사하는 법
+slug: 004-hello-tutorial
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  Dikarenakan sudah banyak soal sulit, akhirnya dibuat soal 'e-a-s-y' untuk Anda!
+
+  Buktikan kehebatan kemampuan forensics tim Anda!
+
+  - Note: Format flag Arkav6{}
+  - Hint: Soal ini bukan steganography (tidak perlu stego tools) dan tidak perlu bruteforce password zip sama sekali!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- PNG
+- File Chunks
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/forensic/Hello Tutorial
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 55ce591e1a586314cffec0069004ed8e2873a208753c85d15b6b7488f9e5d120
+  - path: pass.png
+    algorithm: sha256
+    value: 5d00e3c6b0314d596a4b1c1af0ac7545923965cfd9b9dfb39bfd14cb6c382e81
+  - path: zzzzzzzzz.zip
+    algorithm: sha256
+    value: 6abe64f570904ede299ca180e4b19f42916351062e258e36f73fa9919cb91b5a
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The display name has no ASCII characters, so the slug uses the source directory name.

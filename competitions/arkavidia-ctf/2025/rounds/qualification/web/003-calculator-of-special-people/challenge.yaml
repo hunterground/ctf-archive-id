@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-qualification-web-003
+name: Calculator of Special People
+slug: 003-calculator-of-special-people
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: web exploitation
+description: |-
+  Steal the cookie, like how Minji steals hearts.
+
+  ![Hacker Minji](https://i.ibb.co.com/Rprv96h8/minji.gif)
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+authors:
+- name: dovodedomo
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: quals/web exploitation/Calculator of Special People
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 71c587809a3adaa7ccdbfb533f98ef81f6c1a52f7dee0ae1526838e3e603797f
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 51a888ccedc87c04f2b0774de0ea176c7b840ef44051902ce2f17d9e69b24955
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: 08f02aaec0c43eb79525565871c90c9d06c3232cdf2a29acb025f3dc16a03546
+  - path: src/app/html/index.html
+    algorithm: sha256
+    value: 8381def7fa7d527008b2f2450270a696f29c2320dd2fa5fa438dcebca90b8bd9
+  - path: src/app/index.js
+    algorithm: sha256
+    value: 6b36a86c0ba2b73b27f424f1c8a0594000715100c40354307e27de560f951c95
+  - path: src/app/package.json
+    algorithm: sha256
+    value: 8d06ad91f05f32a8671f808cbc2ce22f813a6a43b561f5e3bccef5ec0e2a2edc
+  - path: src/app/static/bootstrap.min.css
+    algorithm: sha256
+    value: 3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 62b9746fc7da007a36a4a11017516533d69fa30d7877ec6532ea9c4c675dec5f
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 1e2b432ea1272210a5ee29a6be9a57e972ca7fed5d1673ccfe02c1a8f8a18900
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: a85e3a415a48300c9daef7bfdc851fab2983e40fb6fff72d2c86569b8b2c0e25
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: c4b07ef155e978b5002d8faa948deacb1251967847728c61a35eb7c268f03cd5
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: 7e0e336da8b6182b703bbf739f0ecec443fee46f5434beee77435aae4fff0ced
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 8633d2219f1fa36619fd7e584ba222d9f6a020322ce2e8093679f87a3518d60b
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 00fb0fd450b80142cf0bc7bf554665d705cd74f50616fdee8967bf784dd05bf4
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

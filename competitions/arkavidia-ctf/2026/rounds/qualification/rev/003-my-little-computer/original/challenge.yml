@@ -1,0 +1,27 @@
+name: "My Little Computer"
+category: reverse engineering
+description: |- 
+    Sometimes you just need the right tools and it will crack open.
+    
+    https://github.com/haplesshero13/lc3tools
+    
+    Author: **SleepyBanana**
+
+attribution: SleepyBanana
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - ARKAV{b175_4nd_64735_bl4bl4__wh0_l1k35_RISC_4rch173c7ur3_4nyw4y}
+
+files:
+    - dist/chall.lc3
+
+
+state: hidden
+version: "0.1"

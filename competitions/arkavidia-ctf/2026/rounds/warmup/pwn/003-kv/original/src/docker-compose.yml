@@ -1,0 +1,8 @@
+name: pwn-kv
+services:
+  chall:
+    build: .
+    ports:
+      - "8003:1337"
+    restart: on-failure
+    container_name: kv

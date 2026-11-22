@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-crypto-003
+name: Sage 101
+slug: 003-sage-101
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: crypto
+original_category: cryptography
+description: |-
+  SAGEEEE!!!!!! WHERE ARE MY HEALSSS!!!!!!!!!!!!!!!!!!!
+
+  https://www.youtube.com/shorts/HHYs8GJqmew
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/cryptography/Sage 101
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: fc10ac788920b66857c1ad5d86fe4fa1bac9e6bd3076c0cdfadbfc798bbcf8a1
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 93fbfdd10abaa69a0cfb7da0334f96b4eb48053dea8410e7b5d719e7bd60c552
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: f85a689f573bcde7e67f836f1e6de7a4bd60c9231d5157ae0db4c84c3df71879
+  - path: src/chall.py
+    algorithm: sha256
+    value: 93fbfdd10abaa69a0cfb7da0334f96b4eb48053dea8410e7b5d719e7bd60c552
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 207ec567bea23ba3ea8e4c945f46b764cb76d625930b3a03bcbc4f4744a03e6a
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 7885ce83c9b40a25a99382b5eb7d9b999ac76a0158bb240e5c42a328389dc052
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 11d7917b0cca210a5b520e93c9f33ed062ab5322ce383ed3534eb01502fcad1e
+  - path: src/run.sh
+    algorithm: sha256
+    value: 3d63286eaa997471aa7e0e9c91e68b03785823fc15108782efdf01d6656fed6b
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

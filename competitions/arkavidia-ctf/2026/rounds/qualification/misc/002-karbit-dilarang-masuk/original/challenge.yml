@@ -1,0 +1,26 @@
+name: "karbit dilarang masuk"
+category: miscellaneous
+description: |- 
+    "jarvis masukkan ini ke data my bini", "bukankan ini my", "my kisah". Oke bit, sekarang mana surat nikahnya?
+
+    Author: **k4tou**
+
+attribution: k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://{hotsname}:8780
+
+flags:
+    - ARKAV{bi4s41ah_keb1a5a4n_k4rb1ttt_k4l4u_9ak_"my_1str1"_4t4u_"buk4nk4h_1ni_my"_t1n9g4l_j4wab_:"BUK4N___M4N4_5UR4T_N1K4HNY4!?#$#$"}
+
+files:
+    - dist/chall.py
+
+state: hidden
+version: "0.1"

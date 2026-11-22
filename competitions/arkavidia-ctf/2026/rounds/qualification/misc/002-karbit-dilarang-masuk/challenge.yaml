@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-misc-002
+name: karbit dilarang masuk
+slug: 002-karbit-dilarang-masuk
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: '"jarvis masukkan ini ke data my bini", "bukankan ini my", "my kisah". Oke bit, sekarang
+  mana surat nikahnya?'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Misc/karbit-dilarang-masuk
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0d8c53e739c3385282d9cead39db1427086eabdd8f87203a1577e6359e9c4e7c
+  - path: dist/chall.py
+    algorithm: sha256
+    value: a7c5c71f27ffa6b48a3228cd0f562872165001de7470437d89e8198ddfe8e2a3
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 092af359c78f202f225a9761f5ae7c1039a39b2e09e481b67b0a70e7ea0460fd
+  - path: src/chall.py
+    algorithm: sha256
+    value: a7c5c71f27ffa6b48a3228cd0f562872165001de7470437d89e8198ddfe8e2a3
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 3fdcca6e6ac2bc566f7719597e04149a3b4021c068b8a846c680c8c587793002
+  - path: src/flag.txt
+    algorithm: sha256
+    value: a91e9d4210abeeb795a37b1e7dd66faa6f4045b047b3068c7d3a05322f5d26ec
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 317f17fc33280bbc2e665c9cd342a69f27a060602ee862c2496e712e0e7411b4
+  - path: src/run.sh
+    algorithm: sha256
+    value: 496ac75161124bfa0f93a2b1ed31e59e9b7ce69718f4f6332bff16841924ca41
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}PrevCloud{% endblock %}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --nc-blue: #0082c9;
+            --nc-blue-dark: #006aa3;
+            --nc-blue-light: #e8f4fd;
+            --nc-dark: #1a1a2e;
+            --nc-sidebar: #1e1e3a;
+            --nc-sidebar-hover: #2a2a4a;
+            --nc-text: #222;
+            --nc-text-light: #6b7280;
+            --nc-border: #e5e7eb;
+            --nc-bg: #f4f5f7;
+            --nc-white: #ffffff;
+            --nc-success: #46ba61;
+            --nc-error: #e9322d;
+            --nc-warning: #eca918;
+            --radius: 8px;
+            --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--nc-bg);
+            color: var(--nc-text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* TOP NAV */
+        .topnav {
+            background: var(--nc-blue);
+            color: white;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding: 0 16px;
+            gap: 16px;
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            z-index: 100;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .topnav-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: white;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        .topnav-logo svg {
+            width: 28px;
+            height: 28px;
+        }
+
+        .topnav-search {
+            flex: 1;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .topnav-search input {
+            width: 100%;
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: none;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            font-size: 0.9rem;
+            outline: none;
+        }
+
+        .topnav-search input::placeholder { color: rgba(255,255,255,0.7); }
+        .topnav-search input:focus { background: rgba(255,255,255,0.3); }
+
+        .topnav-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-left: auto;
+            position: relative;
+        }
+
+        .topnav-avatar {
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: var(--nc-blue-dark);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            border: 2px solid rgba(255,255,255,0.4);
+        }
+
+        .dropdown {
+            position: absolute;
+            right: 0;
+            top: calc(100% + 8px);
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+            min-width: 180px;
+            display: none;
+            overflow: hidden;
+            border: 1px solid var(--nc-border);
+        }
+
+        .dropdown.show { display: block; }
+
+        .dropdown-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 16px;
+            color: var(--nc-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.15s;
+        }
+
+        .dropdown-item:hover { background: var(--nc-bg); }
+        .dropdown-divider { border-top: 1px solid var(--nc-border); }
+
+        /* LAYOUT */
+        .layout {
+            display: flex;
+            margin-top: 50px;
+            min-height: calc(100vh - 50px);
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: 220px;
+            background: var(--nc-sidebar);
+            color: white;
+            flex-shrink: 0;
+            padding: 16px 0;
+            position: fixed;
+            top: 50px;
+            left: 0;
+            bottom: 0;
+            overflow-y: auto;
+            z-index: 50;
+        }
+
+        .sidebar-section {
+            margin-bottom: 8px;
+        }
+
+        .sidebar-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: rgba(255,255,255,0.4);
+            padding: 8px 20px 4px;
+        }
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 20px;
+            color: rgba(255,255,255,0.75);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: background 0.15s, color 0.15s;
+            border-radius: 0;
+            cursor: pointer;
+        }
+
+        .sidebar-item:hover, .sidebar-item.active {
+            background: var(--nc-sidebar-hover);
+            color: white;
+        }
+
+        .sidebar-item.active {
+            border-left: 3px solid var(--nc-blue);
+        }
+
+        .sidebar-item svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            opacity: 0.8;
+        }
+
+        .sidebar-item.active svg { opacity: 1; }
+
+        /* MAIN CONTENT */
+        .main {
+            margin-left: 220px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1;
+            padding: 24px;
+        }
+
+        /* PAGE HEADER */
+        .page-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .page-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--nc-dark);
+        }
+
+        /* BUTTONS */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: var(--radius);
+            font-weight: 500;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            transition: all 0.15s;
+        }
+
+        .btn-primary {
+            background: var(--nc-blue);
+            color: white;
+        }
+
+        .btn-primary:hover { background: var(--nc-blue-dark); }
+
+        .btn-secondary {
+            background: white;
+            color: var(--nc-text);
+            border: 1px solid var(--nc-border);
+        }
+
+        .btn-secondary:hover { background: var(--nc-bg); }
+
+        .btn-danger {
+            background: var(--nc-error);
+            color: white;
+        }
+
+        .btn-danger:hover { background: #c62a25; }
+
+        .btn-sm {
+            padding: 5px 10px;
+            font-size: 0.8rem;
+        }
+
+        /* ALERTS */
+        .alerts {
+            padding: 0 24px;
+            margin-top: 8px;
+        }
+
+        .alert {
+            padding: 10px 16px;
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .alert-success { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
+        .alert-error { background: #fef2f2; color: #991b1b; border: 1px solid #fecaca; }
+        .alert-info { background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe; }
+
+        /* CARDS */
+        .card {
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--nc-border);
+        }
+
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--nc-border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card-title {
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        /* GRID */
+        .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+        .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+        .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+        /* FORMS */
+        .form-group { margin-bottom: 16px; }
+        .form-label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--nc-text-light);
+            margin-bottom: 6px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 9px 12px;
+            border: 1px solid var(--nc-border);
+            border-radius: var(--radius);
+            font-size: 0.9rem;
+            font-family: inherit;
+            outline: none;
+            transition: border 0.15s;
+            background: white;
+        }
+        .form-control:focus { border-color: var(--nc-blue); box-shadow: 0 0 0 3px rgba(0,130,201,0.1); }
+        textarea.form-control { resize: vertical; min-height: 200px; }
+
+        /* TABLE */
+        .table { width: 100%; border-collapse: collapse; }
+        .table th {
+            text-align: left;
+            padding: 10px 16px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--nc-text-light);
+            border-bottom: 1px solid var(--nc-border);
+            background: var(--nc-bg);
+        }
+        .table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--nc-border);
+            font-size: 0.9rem;
+        }
+        .table tr:last-child td { border-bottom: none; }
+        .table tr:hover td { background: #f9fafb; }
+
+        /* BADGES */
+        .badge {
+            display: inline-flex;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--nc-blue-light);
+            color: var(--nc-blue);
+        }
+
+        /* FILE ICON */
+        .file-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            flex-shrink: 0;
+        }
+
+        .fi-img { background: #fef3c7; color: #d97706; }
+        .fi-doc { background: #dbeafe; color: #2563eb; }
+        .fi-pdf { background: #fee2e2; color: #dc2626; }
+        .fi-zip { background: #f3e8ff; color: #7c3aed; }
+        .fi-vid { background: #fce7f3; color: #db2777; }
+        .fi-aud { background: #ecfdf5; color: #059669; }
+        .fi-default { background: #f3f4f6; color: #6b7280; }
+
+        /* STAT CARDS */
+        .stat-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 20px;
+            border: 1px solid var(--nc-border);
+            box-shadow: var(--shadow);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--nc-blue);
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--nc-text-light);
+            margin-top: 4px;
+        }
+
+        /* EMPTY STATE */
+        .empty-state {
+            text-align: center;
+            padding: 60px 24px;
+            color: var(--nc-text-light);
+        }
+
+        .empty-state svg {
+            width: 64px;
+            height: 64px;
+            opacity: 0.3;
+            margin-bottom: 16px;
+        }
+
+        .empty-state h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--nc-text);
+        }
+
+        /* NOTE CARD */
+        .note-card {
+            background: white;
+            border-radius: var(--radius);
+            border: 1px solid var(--nc-border);
+            padding: 16px;
+            cursor: pointer;
+            transition: box-shadow 0.15s, transform 0.15s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .note-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-1px);
+        }
+
+        .note-card-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            color: var(--nc-dark);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .note-card-preview {
+            font-size: 0.8rem;
+            color: var(--nc-text-light);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .note-card-meta {
+            font-size: 0.75rem;
+            color: var(--nc-text-light);
+            margin-top: 12px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .sidebar { width: 0; overflow: hidden; }
+            .main { margin-left: 0; }
+            .grid-4, .grid-3 { grid-template-columns: repeat(2, 1fr); }
+            .grid-2 { grid-template-columns: 1fr; }
+        }
+    </style>
+    {% block head %}{% endblock %}
+</head>
+<body>
+{% if session.username %}
+<!-- TOP NAV -->
+<nav class="topnav">
+    <a href="{{ url_for('dashboard') }}" class="topnav-logo">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="16" cy="16" r="16" fill="rgba(255,255,255,0.2)"/>
+            <path d="M8 20C8 15.58 11.58 12 16 12s8 3.58 8 8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M12 20C12 17.79 13.79 16 16 16s4 1.79 4 4" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="16" cy="22" r="2" fill="white"/>
+        </svg>
+        PrevCloud
+    </a>
+    <div class="topnav-search">
+        <input type="text" placeholder="Search files and notes..." id="globalSearch">
+        <!-- not working yet -->
+    </div>
+    <div class="topnav-user">
+        <div class="topnav-avatar" onclick="toggleDropdown()">
+            {{ session.display_name[0].upper() }}
+        </div>
+        <div class="dropdown" id="userDropdown">
+            <div style="padding: 12px 16px; border-bottom: 1px solid var(--nc-border);">
+                <div style="font-weight:600; font-size:0.9rem;">{{ session.display_name }}</div>
+                <div style="font-size:0.8rem; color:var(--nc-text-light);">@{{ session.username }}</div>
+            </div>
+            <a href="{{ url_for('logout') }}" class="dropdown-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+                Logout
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+    <div class="sidebar-section">
+        <div class="sidebar-label">Navigation</div>
+        <a href="{{ url_for('dashboard') }}" class="sidebar-item {% if active == 'dashboard' %}active{% endif %}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            Dashboard
+        </a>
+        <a href="{{ url_for('notes') }}" class="sidebar-item {% if active == 'notes' %}active{% endif %}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            Notes
+        </a>
+        <a href="{{ url_for('files') }}" class="sidebar-item {% if active == 'files' %}active{% endif %}">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+            Files
+        </a>
+        <!-- <a href="/console" class="sidebar-item">
+            debug
+        </a> -->
+    </div>
+</aside>
+
+<!-- MAIN -->
+<div class="layout">
+    <div class="main">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+            <div class="alerts">
+                {% for category, message in messages %}
+                <div class="alert alert-{{ 'success' if category == 'success' else 'error' if category == 'error' else 'info' }}">
+                    {{ message }}
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+        {% endwith %}
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </div>
+</div>
+
+{% else %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <div style="position:fixed;top:16px;right:16px;z-index:9999;">
+        {% for category, message in messages %}
+        <div class="alert alert-{{ 'success' if category == 'success' else 'error' if category == 'error' else 'info' }}" style="margin-bottom:8px;box-shadow:var(--shadow-lg);">
+            {{ message }}
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+{% endwith %}
+{% block auth_content %}{% endblock %}
+{% endif %}
+
+<script>
+function toggleDropdown() {
+    document.getElementById('userDropdown').classList.toggle('show');
+}
+document.addEventListener('click', function(e) {
+    const user = document.querySelector('.topnav-user');
+    if (user && !user.contains(e.target)) {
+        document.getElementById('userDropdown')?.classList.remove('show');
+    }
+});
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

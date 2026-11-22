@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-rev-004
+name: Wibu
+slug: 004-wibu
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: rev
+original_category: reverse engineering
+description: Katanya di ITB banyak wibunya.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/reverse engineering/Wibu
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Makefile
+    algorithm: sha256
+    value: a6473db06b67afa32a42cffd3538284df98bec66a422fe5cf06a88140121634c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6da2333c19f9220f3a7c33e725fc93ae3dbfdd46fdd37caf1fd645c23602380a
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 7b1c65795ba4f8eb8ea7a587da33c96720ceb203ba06cda0c56452a987f4f952
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 65f1ed8aac3645c32211ffee90767970ac13c541973b4ae16bd591bf5531ec57
+  - path: src/wibufication.exs
+    algorithm: sha256
+    value: 39bc60a1f177c5df9cf649c413b8f078390738abc6f8af934e4762241df0067f
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

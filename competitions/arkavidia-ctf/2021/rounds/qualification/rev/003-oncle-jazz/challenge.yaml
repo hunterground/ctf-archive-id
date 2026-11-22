@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-rev-003
+name: Oncle Jazz
+slug: 003-oncle-jazz
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: You're listening to ... _Oncle Jazz_
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: alphaville
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: rev/Oncle Jazz
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 74922a78cf3b195da7e8cb8b99b698d1365a83346fcf6e7014fff57f78483718
+  - path: chall/Makefile
+    algorithm: sha256
+    value: 25c18236f72018acf39940d106a8d509a00bb1efa2da429854c7c79d85229f3c
+  - path: chall/chall.go
+    algorithm: sha256
+    value: 834ac0d4c23517cca436c9c90e4ee9a4e42232349ffc69c36ab353f5c1a9cb6d
+  - path: chall/generate_subs.py
+    algorithm: sha256
+    value: 1b5b4e9b89bf5e8093cdd1877ded0a503f309b7a6fa7d745a60ec2a276e31760
+  - path: chall/onclejazz
+    algorithm: sha256
+    value: 642441bd3c548edb54de7fbb4abc3fc68d02a1ba00ac4d5f75ed2dc053b58974
+  - path: img/enc.PNG
+    algorithm: sha256
+    value: d8273550870cb93ea1a07964be0c6231efb350bc8df3f0b708097de91729c3cb
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

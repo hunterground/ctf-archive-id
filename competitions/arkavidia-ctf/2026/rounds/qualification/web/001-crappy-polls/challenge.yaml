@@ -1,0 +1,147 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-web-001
+name: Crappy Polls
+slug: 001-crappy-polls
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: A crappy polls app for a crappy challenge in my crappy day. Nothing fancy here, i hope you
+  enjoy spaghetti code.
+difficulty:
+  value: Medium (?)
+  source: organizer
+tags: []
+authors:
+- name: SleepyBanana
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Web/CrappyPolls
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6604bb9f4d64ce393e3048a69651ee46cedfee2c514e1aa5429ed44eec6ad40f
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1a58a68fe34df8545f81fac1f512e64e5d80668a168389058cb563d13d1632ef
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: ddf22ecbcdd48847cdd1bf17ef56bc1bad70d5429dca112b71dcb00f66480d15
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: b64a673c5e304a8bd96825aee425b002d51e7bf4f3a4db3022ec5da0bb4df282
+  - path: src/CrappyPolls/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/CrappyPolls/asgi.py
+    algorithm: sha256
+    value: d24a7cbc2d8f65235f2e0df61126461c94148c5fc2571a631cbfd291b5e3a726
+  - path: src/CrappyPolls/settings.py
+    algorithm: sha256
+    value: 495bcd5e93cf44d99793f3dfb507b019f46a72acea22da14fa363f671cb5e204
+  - path: src/CrappyPolls/urls.py
+    algorithm: sha256
+    value: 670cd39074cd5bdb9b93eeeb051cfd3d25686be414cb0c04f7471c68cee76178
+  - path: src/CrappyPolls/wsgi.py
+    algorithm: sha256
+    value: 6d70f54df29507aee9139b4ff341c063c3797be0b53c4f90574dd39b6282f8f1
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: d56f71b925278d459454666f92fdb7749416e16c43f212e55f64828b29d467c3
+  - path: src/app/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/apps.py
+    algorithm: sha256
+    value: ff5853e7742e5de4636d929540e99fb4adb4f04946acda5ec5f02e52c908b09a
+  - path: src/app/management/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/management/commands/seed.py
+    algorithm: sha256
+    value: 3bb3e2fcea3aa6f6484e2301a66089e67d8ca7708f982b310dbe2c03d2e487d3
+  - path: src/app/middleware.py
+    algorithm: sha256
+    value: 06b13f5927b78cc65448569a8b04abc16399d0de131777cf71ee3903a165a046
+  - path: src/app/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/models.py
+    algorithm: sha256
+    value: 2004d728c3f5e110a48b09c6af993e8fc18dc8a3997c712bf33dc88ad4c483c2
+  - path: src/app/static/app/css/account.css
+    algorithm: sha256
+    value: 0e2550d31080caebddec37b4fd0374706999048f25065b7a1db084837746c99c
+  - path: src/app/static/app/css/main.css
+    algorithm: sha256
+    value: 5cc3460b8f53386fd8da3d1831f95c016fcc176b22861b967a77a70aeb86ed30
+  - path: src/app/static/app/js/account.js
+    algorithm: sha256
+    value: 31ad01f2e1203cb7170ffbf8d85c1d4caf61b28f73791b08961174a9d07029ef
+  - path: src/app/static/app/js/main.js
+    algorithm: sha256
+    value: 1233efae35358c90c127df6592a6b7e487b3278a14f926defe86d8ce56048555
+  - path: src/app/templates/app/account.html
+    algorithm: sha256
+    value: c4db80e5da4ef6c59bfb7c500bbbde6e96a6d67e6a40be42327fb69662340643
+  - path: src/app/templates/app/base.html
+    algorithm: sha256
+    value: 073e40b928d42045189c43808e64d801b7bd307df7a39c3bb93a0c6e5ebafe78
+  - path: src/app/templates/app/dashboard.html
+    algorithm: sha256
+    value: 8886be2faed54d1d17d5c3f1ba3f984203f17abd58f406511dda217680fb4ffa
+  - path: src/app/templates/app/login.html
+    algorithm: sha256
+    value: 5f4263484ecd2be1d5547be3f423cbe7c22a53a8d41230a9b36301c1b4a9c406
+  - path: src/app/templates/app/register.html
+    algorithm: sha256
+    value: b0c7dd8ac67185dd72307bb146c81e58bee46923438ff9d9015ebcdaca4b1027
+  - path: src/app/urls.py
+    algorithm: sha256
+    value: f806e7a6ec8c46a5e8ba18e6a04f75636f6175ba2a9def8ca338746b9085f57d
+  - path: src/app/views.py
+    algorithm: sha256
+    value: b55f7e4030c8ee80c0d35479f1be20a0ea8d115b35586167c6f1c0bfebc754cd
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 47f97f4df083576dc3ce873417771a69672d9906eb8ed2cb814a4e52a30e1299
+  - path: src/entrypoint.sh
+    algorithm: sha256
+    value: 53b5494539edc40427a6b2157b7e0f69942f53601e5adc82230e0b25d62f33cd
+  - path: src/manage.py
+    algorithm: sha256
+    value: 629a57328e00fc450f378f201ada830888111030ad22ece6626921aba72659e7
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e4bf2ec13acd1b7da6f58570a3cabb7fbb688e7f064a656c824d0bb2e7e1b49a
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: Difficulty is taken from the challenge README. The manifest has no difficulty tag. The source directory
+  is 'CrappyPolls'.

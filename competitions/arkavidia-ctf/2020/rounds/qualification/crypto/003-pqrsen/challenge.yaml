@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-crypto-003
+name: pqrsen
+slug: 003-pqrsen
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: |-
+  This challenge will blow your mind!
+  Oh yeah, 1 more thing, I bet wolfram alpha can't do it, so don't even try.
+
+  Note: Format flag Arkav6{}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Chinese Remainder
+- Fermat Theorem
+- Modulo
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/crypto/pqrsen
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 77cb331dfa2d517dc841e2b582234c2d8894e2f3db5392bcc18b786bad1b453d
+  - path: flag.enc
+    algorithm: sha256
+    value: ad379be3b0e926c1f2f2739bca6cd705c74cabfa5cfb5a69b0f75443f116cc00
+  - path: prob.py
+    algorithm: sha256
+    value: 6342f9fe6fe0b4009c5a05fe16980f771e4657e181b8672d47d8a0102f9414fe
+  - path: pub.key
+    algorithm: sha256
+    value: ebf38e679b9f42d40df2f5491427853568f3911d5cd6e0d08cbf6fa273c3841b
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

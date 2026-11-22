@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-web-002
+name: Hallucinate
+slug: 002-hallucinate
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: pppp adu prompt.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dovodedomo
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Web/hallucinate
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ff6c7c52c07e32cbffe0c558e43918e39ed68be4fee72a4f3e6dc0dec0d420dc
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: a87daa6110f50b49a176ffaa24c46b277671221c8c7f55f1706abfbb8634db00
+  - path: src/db/init.sql
+    algorithm: sha256
+    value: 01b6287eefc75bc7ad4055d6c9388dcdce08db52016d3d7f9217b37e1194135e
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 9ee3757040f72411d92d4c2e819d4767182111c6e79ea46c1622a3c3f5cca311
+  - path: src/llm/Dockerfile
+    algorithm: sha256
+    value: 232ae1e38af7aede8997e6e20bc340f4cb9f89cc8c9b6f9d6a1613425799127f
+  - path: src/llm/app.py
+    algorithm: sha256
+    value: 205d9adffe6bf59d53373bdba979ad125bcd3afa85ce76f96ac70ba0cc952853
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: 18e11327ba530be4e13cabda7d0e35ab4ac948a1228c8349328f420c81f92743
+  - path: src/web/app.py
+    algorithm: sha256
+    value: c8e938b6c4eee8804c226780357080212cb51b2457b637f57f36638189445147
+  - path: src/web/requirements.txt
+    algorithm: sha256
+    value: f2a857e91ff262a4221c2c95a423776709c0559a7bcc36a9e4024d442a5903f0
+  - path: src/web/sql_keywords.txt
+    algorithm: sha256
+    value: 5577c22bc32436d1047aa13f601dfebe6a70832a574fde7e598c046c32406dac
+  - path: src/web/static/audio/theme.mp3
+    algorithm: sha256
+    value: cc21c65d986185524029904e870747ff6b427cc219ea666d1f12367f0b798172
+  - path: src/web/static/css/style.css
+    algorithm: sha256
+    value: f3b5bbff40172edddcfee48f39bab1bbb7642beff4249b27ed33dbd2bbbe54e0
+  - path: src/web/templates/index.html
+    algorithm: sha256
+    value: 685c0a6d95ac287d7ae67b39ee445afde7ce3a655984eb10fc3689f5a11fb4db
+  - path: src/web/templates/results.html
+    algorithm: sha256
+    value: 9738c97add00a3bae7e1c161c737871113e814e171edd8928878fc8459828785
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

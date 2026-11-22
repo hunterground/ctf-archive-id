@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: 
+      context: ./frontend
+    ports:
+      - "${CHALLENGE_PORT:-3000}:3000"
+    networks:
+      - deadend_network
+    depends_on:
+      - backend
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+  backend:
+    build: 
+      context: ./backend
+    environment:
+      - FLAG=${FLAG:-ARKAV{THE_smuggling_sandwich_attack_python_jail_laughing_END}}
+    expose:
+      - "5555"
+    networks:
+      - deadend_network
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+
+networks:
+  deadend_network:
+    driver: bridge

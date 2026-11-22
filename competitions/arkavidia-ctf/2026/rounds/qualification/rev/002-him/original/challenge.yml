@@ -1,0 +1,25 @@
+name: "him"
+category: reverse engineering
+description: |- 
+    "Huh? Even though I'm a guy? Have you finally lost your mind, you cosmetic fanatic?"
+
+    "Treat me to Tenya Ramen, three times. *Any less than that and it's not happening.*"
+    
+    Author: **shwibzka**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - ARKAV{C4nn07_5p311_h1ur4_m1h473_w17h0u7_H1M}
+
+files:
+    - dist/him.zip
+
+
+state: hidden
+version: "0.1"

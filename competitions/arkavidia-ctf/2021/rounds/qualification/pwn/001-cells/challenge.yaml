@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-pwn-001
+name: cells
+slug: 001-cells
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: Recite your baseline...
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: alphaville
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: pwn/cells
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 35117f642efbb0282db820cae8ca67e468bd5852fce94d53180cd1f5952e6e2c
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 4a89cd35af7263672c51e6f82c209fa7b4879f27779e86b63db7a3525cef7f23
+  - path: chall/cells
+    algorithm: sha256
+    value: 1de3a2a86016b2c4cf2afc11034e3d616728a5df0641d36e94ab58af42f1d6b8
+  - path: chall/chall.c
+    algorithm: sha256
+    value: d73727534a47f3df2437e5404643b035f8e0c874711f905c53947c378974a19c
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 27d51d69d0457454b1b966953015abb6639fb5b4abcc275e915d5830c6235621
+  - path: chall/run.sh
+    algorithm: sha256
+    value: 29da6f2cb048ba8fc0638165ba09081b65b7c20d7ec89de7c5caa44b86679b3e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 087f57c0b802783aeb75b304f9312641c1bd1cb55bea18f0ec0acd681e8048eb
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

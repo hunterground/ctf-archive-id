@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-web-002
+name: PrevCloud
+slug: 002-prevcloud
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: "I'm creating a home server and i want to put a file hosting app there. \nPrevCloud is that\
+  \ app. It still in development tho. Pls tell me if you find any bugs."
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BoredAngel
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Web/PrevCloud
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 451380422bbab0161aef268144152b9a8f5f740bccc6e6824712e712534d0348
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: 21e2ae0fb85fde7bb246ed90194f601e041b3c8ac6e937b1878bd8e0e796a098
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2146c64b9a9c94e7fe08d6f45742b4a228ae0e9fcd2b020d998ff9c8fdd30541
+  - path: src/app.py
+    algorithm: sha256
+    value: d5df8c84095271b9d25141d0ad0948aa01a50e5055c2080d3c8facd2f5f9248d
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 6ba14b80454513dd14bdedb0c3f08b790b00a606eb55f6d8d852a1cd587aa41a
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 29e14dfc8a9420580403fa972df5d38ea5058d3452c2cc731ff2b2d1f41d5c61
+  - path: src/redis.conf
+    algorithm: sha256
+    value: 02d25305d6a94900ae08ee75a5dc0c776989d7c0d26fb2d2942496fb93cdf868
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 724837ec4c427d13f771509813ee3ecc5aeb9667c0b3c6a25e91555f3d81ea05
+  - path: src/templates/base.html
+    algorithm: sha256
+    value: b260a8d8d65073e1b1312b009ca5fb6b8cea3fb9cd94f78332e36db0d613d2ff
+  - path: src/templates/dashboard.html
+    algorithm: sha256
+    value: c560079a8e7fb8fda40276d4bbb05b176eb484d30e0374f3539b154154264978
+  - path: src/templates/files.html
+    algorithm: sha256
+    value: 634541421e90ca0fa0f14b7693aafe611e4da57f71648e99427c398b1ae05b57
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: 4476ba8f2f8e74967a359e5db17009c547e2c380dcb471dcb5e063ac1fdb0b92
+  - path: src/templates/note_edit.html
+    algorithm: sha256
+    value: ad5816da253b46186985a24002a6764dc1d7d99f265be953ce08e3753d085a98
+  - path: src/templates/notes.html
+    algorithm: sha256
+    value: 22b939e2e6a19deab7cc135c7531ac86a08c3ae171994eea8efb77fc318c0c7d
+  - path: src/templates/register.html
+    algorithm: sha256
+    value: 6738d10c8690413cd3caf3399e3b91ac9187c183dae0ff183422e60bacdcb0f8
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

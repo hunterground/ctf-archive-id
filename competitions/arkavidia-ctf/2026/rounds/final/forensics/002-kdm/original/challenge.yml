@@ -1,0 +1,44 @@
+name: "KDM"
+category: forensics
+description: |-   
+    KDM (Kang Dodi Mulyono) is a well known software developer from West Java.
+
+    In the middle of development, KDM got hacked and all his money was drained TT
+
+    Find out how the hacker carried out the attack!
+
+    **Attachment:** https://drive.google.com/file/d/1kUPTnU2fMWHcIghX1BfUYlex2VgwBiOf/view?usp=sharing 
+
+    **Password:** `K@ng_D0di#Muly0n0!`
+
+    **SHA256:** `7d8bd35c6c33d07689bc76cbfae6e85268d64963384076b903d21dd6bc2c9b2f  kdm.zip`
+
+    <div style="text-align:center; margin:1em 0;">
+    <img
+      src="https://i.imgur.com/XLu2lEa.png"
+      style="max-width:80%; height:auto; border-radius:6px;"
+      alt="Kang Dodi Mulyono Sedih"
+    />
+    </div>
+
+    <p align="center"><em>KDM is sad because he lost his money</em></p>
+
+    **Disclaimer:** Kang Dodi Mulyono is a **fictional** character
+
+    Author: **kiwz**
+
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc 70.153.8.15 8342
+
+flags:
+    - "ARKAV{s3l4MaT_k4Mu_gAk_jAd1_m4suk_BaR4K_KDMKDMKDMKDMKDMKDMKDMKDMKDM}"
+
+state: hidden
+version: "0.1"

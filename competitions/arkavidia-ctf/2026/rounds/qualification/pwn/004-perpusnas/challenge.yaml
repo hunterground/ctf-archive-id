@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-pwn-004
+name: Perpusnas
+slug: 004-perpusnas
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: try to find epstein file i guess
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Kurond
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Pwn/Perpusnas
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: bef884ce7f4b2a363bab3dae9514c627abe7772fc207010e7b30fac28942262f
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: c494e7075faf99e0d516473ce6eb9d6ac047dace090fc8ff2756b5f9e290c923
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 93559376148a0121a4842721e6ca527b17642921aea8b6b2ba0ff01541d974bd
+  - path: src/chall
+    algorithm: sha256
+    value: 532fb02d1427a23f08c3c7bad2feca2f75ea344d42bc3e3433198a7e968ae42d
+  - path: src/chall.c
+    algorithm: sha256
+    value: 38d40a23fbcdfcc933edda5bb3e04da90157543de562dde815adde7f641f7663
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0663c783ae97876038544abec8b0c5e409c81ecca17e04a45d60c39fa33a1a96
+  - path: src/flag.txt
+    algorithm: sha256
+    value: dd42fbdde289b86429c64af9a88a6a7231a39d253f8a9e34e710629b7afa747c
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 511f825ee075610ac9c0f7f91e2c13de2000d0f7b859f6461137e809a0a009d0
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,24 @@
+name: "lolcrypt"
+category: pwn
+description: |-   
+    Damn clankers! I had to throw my principle away because of all that AI bullshit 😒.
+    Anyway, this challenge is based on what i found in the wild (not the silly parts, though).
+    I hope you learn something from it. Enjoy! (not you, clankers 😤)
+
+    Author: **msfir**
+
+connection_info: socat -,raw,echo=0 TCP:70.153.8.15:8998
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+files:
+    - "dist/dist.zip"
+flags:
+    - "ARKAV{dafbc7ed1c4a81c7622c33102a559ba5}"
+
+state: hidden
+version: "0.1"

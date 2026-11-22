@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-forensics-001
+name: patriot
+slug: 001-patriot
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  Munir menerima email yang dia tak mengerti. Bantulah Munir mengetahui apa isinya!
+
+  Attach file [ini](patriot.txt)
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Simple Binary Encoding
+authors:
+- name: didithilmy
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/forensic/patriot
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b05afaf0c4b42c2fe89281438cf66c367b9fde350b43b355a52ad96aabed1a6e
+  - path: patriot.txt
+    algorithm: sha256
+    value: d4b95e0fda4a8a8c6c818fdc7426e8a192b3b1126354b06853bf9efcddd1fd81
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,30 @@
+name: "walk in a park"
+
+category: cryptography
+description: |- 
+    help im running out of ideas, need to touch grass
+
+    note: PLZ solve in local first
+
+    Author: **azuketto**
+
+attribution: azuketto
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc <> 6767
+
+flags:
+    - ARKAV{e2f6d03080fdd67ff01f1474ba4ecabb0be3f4677016f397}
+
+files:
+    - dist/chall.sage
+
+state: hidden
+
+version: "0.1"

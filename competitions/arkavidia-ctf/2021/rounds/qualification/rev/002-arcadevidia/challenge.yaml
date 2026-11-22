@@ -1,0 +1,262 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-rev-002
+name: Arcadevidia
+slug: 002-arcadevidia
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: Take it easy, let's play a game!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: rev/Arcadevidia
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 00f9ef6d0d50881bcae14364c92c1ae8fe16be6a33d79fa4a809db89e0a6a6a5
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 0836cdcdb9899a6e6521ef9f61c7a5b8b11969819bced9bc0d4a4a0dd1877e1d
+  - path: chall/src/assets/bomb.png
+    algorithm: sha256
+    value: 9b05290c7f9f4d9f6ba13e2072f458e341660aa7104fd2b92e5c9e9bbc8efa63
+  - path: chall/src/assets/character/weapon_red_magic_staff.png
+    algorithm: sha256
+    value: 35c2445a34f988ec7be66894e2e10a4a0d005214b662daf5599a6c3efbb6cbf4
+  - path: chall/src/assets/character/wizzard_f_hit_anim_f0.png
+    algorithm: sha256
+    value: 770950c09c3be8dbb2f150aadaf15952e2d62053d4c994d3bd1b3947a1904d10
+  - path: chall/src/assets/character/wizzard_f_idle_anim_f0.png
+    algorithm: sha256
+    value: 0f62c2851534b35d20df44d22b604ba2210adf0fa88677d2b72a285a0391240f
+  - path: chall/src/assets/character/wizzard_f_idle_anim_f1.png
+    algorithm: sha256
+    value: 7a1154bba9ab35d81ee9b3db227c66f34d370e72d4dc73875adc6558da1fdc9e
+  - path: chall/src/assets/character/wizzard_f_idle_anim_f2.png
+    algorithm: sha256
+    value: 14b1592a375828ab7651ec872abca552ebc24534006261cafa2dfa0344ed9dc8
+  - path: chall/src/assets/character/wizzard_f_idle_anim_f3.png
+    algorithm: sha256
+    value: 4842f1260c1132bd0a79b56291344ba24431b1441b61c17a1c16407e73a7cb08
+  - path: chall/src/assets/character/wizzard_f_run_anim_f0.png
+    algorithm: sha256
+    value: 6092c9e083e25ad03c9131b310bff58f337fd88c5a16d604df97224d706c48d5
+  - path: chall/src/assets/character/wizzard_f_run_anim_f1.png
+    algorithm: sha256
+    value: a2f7b21f4c6f270b25ab2b63e762b3505ba2b02c8b185baddea897262390c701
+  - path: chall/src/assets/character/wizzard_f_run_anim_f2.png
+    algorithm: sha256
+    value: 1d43fcccd8f50ce2ca39d6bcfe2233587306fc0f6cbd183c482a67b33c74a3dd
+  - path: chall/src/assets/character/wizzard_f_run_anim_f3.png
+    algorithm: sha256
+    value: 8a90506f1e54ca73818209003e5ada9a60d0fc0ad9607ddf834698a22fd158c1
+  - path: chall/src/assets/dude.png
+    algorithm: sha256
+    value: 2b245ac6b613a28305113bdd827ef2b2cff1ef56c76b99a0297212a818fc0ce7
+  - path: chall/src/assets/explosion/explosion-4.png
+    algorithm: sha256
+    value: b09f0140d1fe69759cd39b0fc42e576d88029d547011027a0b8018ea98beed35
+  - path: chall/src/assets/monsters/demon/big_demon_idle_anim_f0.png
+    algorithm: sha256
+    value: 016dae21f6738ed870d603cf8d8e55635553d861337892a174a0dde8c26bd358
+  - path: chall/src/assets/monsters/demon/big_demon_idle_anim_f1.png
+    algorithm: sha256
+    value: bca97d3c4a6f43fb3599e2b16920e36843e873a7ddd590ae5121c77c863b2499
+  - path: chall/src/assets/monsters/demon/big_demon_idle_anim_f2.png
+    algorithm: sha256
+    value: 4f5758d1dde7d8f20fc784f25a9c21f9583b15b51366853199a6525a68cd06cc
+  - path: chall/src/assets/monsters/demon/big_demon_idle_anim_f3.png
+    algorithm: sha256
+    value: 1a0ccf97b3e14f785bbce9da60de8353266ee0645ef509271fde053504b7057c
+  - path: chall/src/assets/monsters/demon/big_demon_run_anim_f0.png
+    algorithm: sha256
+    value: d666dd8560231ff5f7a1c8ee06040ddfa04cf71d8d74a09b2966384a959a7f4c
+  - path: chall/src/assets/monsters/demon/big_demon_run_anim_f1.png
+    algorithm: sha256
+    value: a4e0d156cb97facd3a261ac2588d5303b2c2271126fad2cc2b31eedba70e241f
+  - path: chall/src/assets/monsters/demon/big_demon_run_anim_f2.png
+    algorithm: sha256
+    value: 9b553ee7177046fc13d6acee735cb5a8296d9f8a5250318929d922e5d35c4de6
+  - path: chall/src/assets/monsters/demon/big_demon_run_anim_f3.png
+    algorithm: sha256
+    value: beab27a6a861cdc9826f3129c1d50c1a00dca1b11a290ed75ccdc8a28de6ce7d
+  - path: chall/src/assets/monsters/imp/imp_idle_anim_f0.png
+    algorithm: sha256
+    value: c54a2b504cafb357b199fdf4120eda7cff7ba36eb74981b3a6d490939a06c7cd
+  - path: chall/src/assets/monsters/imp/imp_idle_anim_f1.png
+    algorithm: sha256
+    value: f9799f05ab1e77e9ea0f0f2b7c6d1ba4ff118ebf37cc8970347106c028b848bc
+  - path: chall/src/assets/monsters/imp/imp_idle_anim_f2.png
+    algorithm: sha256
+    value: dee688a8f753108b8422a1fa3efa6098e6f4477f6188509553beb04aee466fe9
+  - path: chall/src/assets/monsters/imp/imp_idle_anim_f3.png
+    algorithm: sha256
+    value: f9799f05ab1e77e9ea0f0f2b7c6d1ba4ff118ebf37cc8970347106c028b848bc
+  - path: chall/src/assets/monsters/imp/imp_run_anim_f0.png
+    algorithm: sha256
+    value: 4ace49c59e61a09afbe4c483f7b026619ebe8b80da7be68047455b3df8934765
+  - path: chall/src/assets/monsters/imp/imp_run_anim_f1.png
+    algorithm: sha256
+    value: d368b9011bb138c7e45b3ebe401aea789941f01154215905e794ce1e151cf50d
+  - path: chall/src/assets/monsters/imp/imp_run_anim_f2.png
+    algorithm: sha256
+    value: 777d5987593c9b8a84ae24bed713d20fcc42818c8169f8622d1aedef7ebaba0c
+  - path: chall/src/assets/monsters/imp/imp_run_anim_f3.png
+    algorithm: sha256
+    value: 633c5b5b8ff52b3f058fe880d3b42c274acb7b2d4c684a27cbb4fa4330b3f038
+  - path: chall/src/assets/monsters/ogre/ogre_idle_anim_f0.png
+    algorithm: sha256
+    value: c3a4491913c2e05d7576dccab3b33ee92dd259461776dd0dc61a99b299e6326b
+  - path: chall/src/assets/monsters/ogre/ogre_idle_anim_f1.png
+    algorithm: sha256
+    value: 0ec8a2ff173abb4fdf9310e374e76c1238b8df49f59ed059c9c7e921649d15a7
+  - path: chall/src/assets/monsters/ogre/ogre_idle_anim_f2.png
+    algorithm: sha256
+    value: c0a152b95534c59ba3f2a969c3ecde3139c1eef28800692ad8f8a88d7253c800
+  - path: chall/src/assets/monsters/ogre/ogre_idle_anim_f3.png
+    algorithm: sha256
+    value: dc5570378890a1dbe815d48ea5fc5386b8558e624e44eaf1ecf272876bcebc9f
+  - path: chall/src/assets/monsters/ogre/ogre_run_anim_f0.png
+    algorithm: sha256
+    value: 780e969fd7ed07d09b81bc893768b19413e4b2d9859b1bdf156b66255311eca9
+  - path: chall/src/assets/monsters/ogre/ogre_run_anim_f1.png
+    algorithm: sha256
+    value: c4eb186748d63f68efeaba0e544bc52c506d1d187b8495ad310f71557d199100
+  - path: chall/src/assets/monsters/ogre/ogre_run_anim_f2.png
+    algorithm: sha256
+    value: 2607177046789f518067dcd7e4ea17c1c7438698e4f7ffaa860aa212bea0ee3f
+  - path: chall/src/assets/monsters/ogre/ogre_run_anim_f3.png
+    algorithm: sha256
+    value: f9b9e5c4622acce990bfb02007b2ad8a774406078d176521865d3db537501591
+  - path: chall/src/assets/monsters/skeleton/skelet_idle_anim_f0.png
+    algorithm: sha256
+    value: b0813f368e542407616331d49a47a19ed8561f6e9e3500e4351857e9bc68df01
+  - path: chall/src/assets/monsters/skeleton/skelet_idle_anim_f1.png
+    algorithm: sha256
+    value: 82d3783d6a7e278811a95f8623b309188eee99e45e6d086a61f764d87ff0f7ad
+  - path: chall/src/assets/monsters/skeleton/skelet_idle_anim_f2.png
+    algorithm: sha256
+    value: 9fc606bd73a96d42654992fa34865a9ff090dbc3e323583b17e305a4fad88769
+  - path: chall/src/assets/monsters/skeleton/skelet_idle_anim_f3.png
+    algorithm: sha256
+    value: eee41e52b2a9cabbd82a114e063e7de3667b0e7633c2e091560a4f96bc960169
+  - path: chall/src/assets/monsters/skeleton/skelet_run_anim_f0.png
+    algorithm: sha256
+    value: fa8031186954f21fddea4d8a4f5addda0e55b509e195dca2467ac2e308244c1b
+  - path: chall/src/assets/monsters/skeleton/skelet_run_anim_f1.png
+    algorithm: sha256
+    value: e4afdd25c6088ff38ef008e1c72f07ac4c5230afadc65b326c4cfea41745ec3a
+  - path: chall/src/assets/monsters/skeleton/skelet_run_anim_f2.png
+    algorithm: sha256
+    value: a2bb8a385dc2f0d5d0252d3ca66b6747b739d9e7a6a0012e58d9d5dafa3972a4
+  - path: chall/src/assets/monsters/skeleton/skelet_run_anim_f3.png
+    algorithm: sha256
+    value: 7e429649c92a574e3737eec443f9a4c74f9d71edd7a14bc3ad2175cd5c918bf1
+  - path: chall/src/assets/monsters/swampy/swampy_idle_anim_f0.png
+    algorithm: sha256
+    value: 7bd05195f1038f51a7b3c2dc31f68372136b812dc14212df836e2eb028a43655
+  - path: chall/src/assets/monsters/swampy/swampy_idle_anim_f1.png
+    algorithm: sha256
+    value: 805080ba48835c9168ee1198fe8fc8368ba3156028189d9512938732e7ad1e38
+  - path: chall/src/assets/monsters/swampy/swampy_idle_anim_f2.png
+    algorithm: sha256
+    value: 7203f826ccd39905f0f3a1b298b2d93256a21af7e39983484b28ec1c89148c92
+  - path: chall/src/assets/monsters/swampy/swampy_idle_anim_f3.png
+    algorithm: sha256
+    value: a7928dd15751bf16426d125c9d3cd026e6352cde5d7df896cb106d885fb8e145
+  - path: chall/src/assets/monsters/swampy/swampy_run_anim_f0.png
+    algorithm: sha256
+    value: 7bd05195f1038f51a7b3c2dc31f68372136b812dc14212df836e2eb028a43655
+  - path: chall/src/assets/monsters/swampy/swampy_run_anim_f1.png
+    algorithm: sha256
+    value: 805080ba48835c9168ee1198fe8fc8368ba3156028189d9512938732e7ad1e38
+  - path: chall/src/assets/monsters/swampy/swampy_run_anim_f2.png
+    algorithm: sha256
+    value: 7203f826ccd39905f0f3a1b298b2d93256a21af7e39983484b28ec1c89148c92
+  - path: chall/src/assets/monsters/swampy/swampy_run_anim_f3.png
+    algorithm: sha256
+    value: a7928dd15751bf16426d125c9d3cd026e6352cde5d7df896cb106d885fb8e145
+  - path: chall/src/assets/monsters/zombie/big_zombie_idle_anim_f0.png
+    algorithm: sha256
+    value: 0b0d44bbb3a89d83e9b3b8f3a31e65c5288e9e7e65c5d9a5343357fd1cbc39ff
+  - path: chall/src/assets/monsters/zombie/big_zombie_idle_anim_f1.png
+    algorithm: sha256
+    value: 8894ede7e49d2efe22eac5e6c37ccfdf33a34a77f507c039de469ddd217ad5fa
+  - path: chall/src/assets/monsters/zombie/big_zombie_idle_anim_f2.png
+    algorithm: sha256
+    value: 681ef9e6bff8950ce4e1690c2ee4bc241985d230c0aead55dd0ef63dc9f22b47
+  - path: chall/src/assets/monsters/zombie/big_zombie_idle_anim_f3.png
+    algorithm: sha256
+    value: 44991b98de3998fc4dd2e24df3efda3e23f9f0f6094465d0f94f1e15ed1baadd
+  - path: chall/src/assets/monsters/zombie/big_zombie_run_anim_f0.png
+    algorithm: sha256
+    value: c8582f589ce7d8016a9bbe2a8d1e1bd6dcb18231bfec7c4f80fd6cb5d721ea16
+  - path: chall/src/assets/monsters/zombie/big_zombie_run_anim_f1.png
+    algorithm: sha256
+    value: 086a503cc9312b1b3187fd0c806775ce5d0f60c55da03b29b61ac06a5af60951
+  - path: chall/src/assets/monsters/zombie/big_zombie_run_anim_f2.png
+    algorithm: sha256
+    value: cc4f40976e7915ebdeae80b408722c27e02bb0487e1da4038e1409d79daf1ab3
+  - path: chall/src/assets/monsters/zombie/big_zombie_run_anim_f3.png
+    algorithm: sha256
+    value: 64719363bfe6428295a18121eddc8a9f35c6e8800c890c7b28962a32f8f93105
+  - path: chall/src/assets/platform.png
+    algorithm: sha256
+    value: 217f58784eec49b7d310436641c9c8528f29b3ea2f11b57d5afe2e47e5b520c0
+  - path: chall/src/assets/sky.png
+    algorithm: sha256
+    value: 3e1050c29f750dbc126dfb4f5df0bf688ba5e0d551eba5218e0f3e3f895aaa9f
+  - path: chall/src/assets/star.png
+    algorithm: sha256
+    value: df34f207257b1a77ac068dfe27f19c56bd68cfebef8223bcf4aac95ceea4989f
+  - path: chall/src/assets/tile/floor_1.png
+    algorithm: sha256
+    value: bb83a8998713c6f852efdc8cfe5f2c2544b1846f2ef72354de8cf52d781a1ade
+  - path: chall/src/favicon.ico
+    algorithm: sha256
+    value: f348a9e9e2738ddb49ee6d7ad9d61bc12e873868878b3fe09f81ebd2a4856151
+  - path: chall/src/game.js
+    algorithm: sha256
+    value: e021d118e6d5111418e0e7d6a0bfb750f837a8374ca4713b0e10f37e321144dc
+  - path: chall/src/index.html
+    algorithm: sha256
+    value: c609f878de436b790bd675018200dfdf117604fb4a24b3d7b4b73a7fc63bb819
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 6d12a4a3be7af295fcd660d160e9e77824bff96eef9e9efd6ec6b5e50ec999dd
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf
+competition_id: arkavidia-ctf
+year: 2021
+name: Arkavidia 7.0 Capture The Flag
+status: completed
+verification: corroborated
+dates:
+  start: '2021-02-26'
+  end: '2021-02-28'
+statistics:
+  participant_count: null
+  challenge_count: 20
+references:
+- title: Arkavidia 7.0
+  url: https://stei.itb.ac.id/event/arkavidia-7-0/
+  type: other
+  accessed: '2026-11-21'
+- title: Penyisihan Arkavidia 7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+challenge_materials_imported: true
+notes: STEI ITB dates the Arkavidia 7.0 festival, which included Capture The Flag, from 26 February 2021
+  through 28 February 2021. Those are the edition dates. The qualification problem set does not state
+  its own date, so the qualification round dates are unset. A participant write-up dated 1 February 2021
+  says the team played on Sunday 31 January and writes the year as 2020; 31 January 2021 was a Sunday.
+  That write-up was not used as the round date. EditorialPenyisihan.pdf stays in the source repository
+  and was not copied. No final problem set was found.

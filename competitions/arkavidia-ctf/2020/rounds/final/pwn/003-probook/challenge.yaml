@@ -1,0 +1,135 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-final-pwn-003
+name: probook
+slug: 003-probook
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: Web, Binary Exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- SQLi
+- Buffer overflow
+- Format String
+authors:
+- name: djavaa
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: final/probook
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: cfd932c9d6f12ade263455c6cdee073a96d3e4612da1322aa54e072df923b90a
+  - path: Dockerfile
+    algorithm: sha256
+    value: c1d0a83116e6a16dbc7b9574b9e3d80a8264652befa24e83f061369e4b31606d
+  - path: README.md
+    algorithm: sha256
+    value: d62250b204fd609a6a64aee16cac690728c642ea8ffd3a88ea6433d0ffc364e3
+  - path: chall/db.sql
+    algorithm: sha256
+    value: 1c95110383dc21d8ff49369ea6c75c9fc8c1e4c23ba5f4ef3cc4ee6e10713a5f
+  - path: chall/html/book-template.html
+    algorithm: sha256
+    value: f62929da022bb9834608fc180815e94a32ed249fd8067fcbbcd8840336014548
+  - path: chall/html/browse-result.html
+    algorithm: sha256
+    value: 49ac152e8f926c6c1795114f4ebd2c648f52281186442df00777c7a7de89ddf2
+  - path: chall/html/browse.html
+    algorithm: sha256
+    value: 37e855a9cf25a2766d47e61936a42c2fba69fefbd2c6c0b1e00c6f910ade45d2
+  - path: chall/html/flag.html
+    algorithm: sha256
+    value: cc06a012cd5535d031f9b898740f8e81a5022e72bfda2d194ab927c3ae3a1562
+  - path: chall/html/header.html
+    algorithm: sha256
+    value: c3a07fa5a31d57ea10ebc1810c659cc860791f98c51ed6ea65c6f80b09695b4a
+  - path: chall/html/login.html
+    algorithm: sha256
+    value: 7bdf0e0d7241a19888b4e3a0a52f3cfbbd55b8496d137297f5bd8d29e6a215e9
+  - path: chall/html/register.html
+    algorithm: sha256
+    value: b8a55ac3c374e5aaa6656b0f33bb8bbeedce2d5713e76a429f240c171451bb12
+  - path: chall/password.conf
+    algorithm: sha256
+    value: 406e8fc68b187155efc5f19bd91c0e188ce20c74eaa6fbf98017b4835c1acc69
+  - path: chall/probook
+    algorithm: sha256
+    value: 9c45475b2c015a19bfe08aea4fd6b9e72ed2b9b4c852aee90fc3eeeda716c813
+  - path: chall/run.sh
+    algorithm: sha256
+    value: d5cb1a1cc14386a5724fc0c42ea679ad9ce6b6eb3d0b03b5d723186dcff8d51e
+  - path: chall/secret.conf
+    algorithm: sha256
+    value: 0a3ddf9bd75de17acfccf0b9fc63460dd421b0881398c21e44a1935debfbc8e5
+  - path: chall/static/assets/bg.jpg
+    algorithm: sha256
+    value: 84a92923ce58ef7afbf82166eba382e0cabd64b3022ad2ee3290d8ee4360882b
+  - path: chall/static/assets/book/ac.jpg
+    algorithm: sha256
+    value: 163635f59a99203b8b5ab46b3fe145da531ed8537d63abc129bb637232a007f9
+  - path: chall/static/assets/book/cn.jpg
+    algorithm: sha256
+    value: 8399fb58c0bf6bebe0e35d3f1b0b6256fa42c4c387f3c4d950ff054434ee0402
+  - path: chall/static/assets/book/hp1.jpg
+    algorithm: sha256
+    value: 639e7b82ea17f1a3e1c586aa7831cdac346825a32571a81d42e54da87da08989
+  - path: chall/static/assets/book/hp2.jpg
+    algorithm: sha256
+    value: ab0f47798befb719ebe1895480f4d40b604360bd824c3ce365ed3f1d3585cb44
+  - path: chall/static/assets/times-solid.svg
+    algorithm: sha256
+    value: fe13f3f564570aa883bcbcc47a8396f7835ce6c9262cbf0d1765eedc2f9d6496
+  - path: chall/static/css/base.css
+    algorithm: sha256
+    value: 86273ded4b1b269ed39c83a86bb97abc2d48a3873e12ed41093c840145bd6996
+  - path: chall/static/css/browse.css
+    algorithm: sha256
+    value: 9f7c7cd93b49bd00b63ba7c20ed527c5213ad73b24376831af7a34f04795f4d7
+  - path: chall/static/css/detail.css
+    algorithm: sha256
+    value: bef55e4b69e0a84f83b56cf3d15a3f62afd28aac5de0cfc82abbc69047f18e0e
+  - path: chall/static/css/fonts.css
+    algorithm: sha256
+    value: e6fc5565e4cec4a192c5a9be7d405e87839adc558c6d61dc5a399b1a3fb12852
+  - path: chall/static/css/grid.css
+    algorithm: sha256
+    value: 6a7e68ae2ea5bab2e168eaa6f4512e93a5e44ae2f69767f0222278b27bbd4cad
+  - path: chall/static/css/register_login.css
+    algorithm: sha256
+    value: 22e6110fb4166cbe45ee0acc3f3729e5a1734bdde19c52d4f695241d10afc97d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d0eacd282fb1e52bb89b6bb84f65624c900b69d2383134ef4d0086e43ebe2134
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The README lists Web and Binary Exploitation. It is filed under pwn because the core of the challenge is binary exploitation.

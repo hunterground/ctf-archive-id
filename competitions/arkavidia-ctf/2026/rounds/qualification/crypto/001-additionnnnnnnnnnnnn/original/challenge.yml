@@ -1,0 +1,28 @@
+name: "additionnnnnnnnnnnnn"
+
+category: cryptography
+description: |- 
+    Me need to make chall, me no idea, me steal from [here](https://github.com/les-amateurs/AmateursCTF-Public/tree/main/2025/crypto) 🛌🛌🛌🛌🛌
+
+    Author: **Etynso**
+
+attribution: Etynso
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc {hostname} 8337
+
+flags:
+    - ARKAV{ngl_this_is_a_much_better_sequel_to_addition2_then_addition3_what_is_that_chall_90556f9f518c}
+
+files:
+    - dist/chall.py
+
+state: hidden
+
+version: "0.1"

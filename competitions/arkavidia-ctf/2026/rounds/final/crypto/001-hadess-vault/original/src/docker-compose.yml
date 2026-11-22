@@ -1,0 +1,9 @@
+name: 'crypto-hades'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: hades
+    read_only: true
+    ports:
+      - 8337:1337

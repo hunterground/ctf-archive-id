@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-crypto-004
+name: Weird Format
+slug: 004-weird-format
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: crypto
+original_category: cryptography
+description: Have you studied discrete mathematics ⊂(◉‿◉)つ
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/cryptography/Weird Format
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: aef2c181e8c950fb39a5f4c792a009b999a8a996c375da575810caf202098700
+  - path: dist/chall.py
+    algorithm: sha256
+    value: aed7b133c21b3277629afdb4ee202790cb1e354068dabed853c2b625bb6122eb
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e37fa24ac4f8bdd01544463f763c66b8e757245af4b26e70d68164981c707df1
+  - path: src/chall.py
+    algorithm: sha256
+    value: aed7b133c21b3277629afdb4ee202790cb1e354068dabed853c2b625bb6122eb
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 68a0247f4fd0fab6da44ac117b06e31a0d7deddba8a0303af27333089304c9ad
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3ec1eab892b05edb4e4ae380f27cadf4fe8865ebf9056d4b6a5a750f83c05c1d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: src/run.sh
+    algorithm: sha256
+    value: 4d794abd7e246564691015e2cfcfa4e3af8f2d8f533c3684487c9ad4865a64b4
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

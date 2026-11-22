@@ -1,0 +1,121 @@
+{% extends "app/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'app/css/account.css' %}">
+<script src="{% static 'app/js/account.js' %}"></script>
+
+<!-- Header -->
+<div class="account-header">
+    <div class="header-left">
+    <div class="group-select">
+        <label>User group:</label>
+        <select name="profilegroup" id="group-selector">
+        <option value="" {% if not current_profile_group %}selected{% endif %}></option>
+        {% for group in groups %}
+            <option value="{{ group.id }}"
+            {% if current_profile_group and current_profile_group.id == group.id %}
+                selected
+            {% endif %}>
+            {{ group.name }}
+            </option>
+        {% endfor %}
+        </select>
+    </div>
+    </div>
+
+    <div class="header-right">
+    <button type="button" class="add-btn" onclick="openModal()">
+        + New Survey
+    </button>
+    </div>
+</div>
+
+<!-- Survey List -->
+<div class="grid">
+    {% if surveys %}
+        {% for survey in surveys %}
+            <div class="survey-card">
+                <div class="survey-title">
+                    {{ survey.question }}
+                </div>
+
+                <div class="survey-meta">
+                    {{ survey.created_at|date:"Y-m-d H:i" }}
+                    {% if survey.category %}
+                    - {{ survey.category.name }}
+                    {% endif %}
+                    {% if survey.public %}
+                    - Public
+                    {% else %}
+                    - Private
+                    {% endif %}
+                </div>
+
+                <div class="survey-choices">
+                    <p>Choices:</p>
+                    <ul>
+                    {% for choice in survey.choices.all %}
+                        <li>{{choice.text}}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>You haven't created any surveys yet.</p>
+    {% endif %}
+</div>
+
+<!-- Modal -->
+<div class="modal" id="surveyModal">
+    <div class="modal-content">
+    <h2>Create Survey</h2>
+
+    <form method="post">
+        {% csrf_token %}
+
+        <textarea name="question" placeholder="Enter survey question" required></textarea>
+
+        <!-- Visibility -->
+        <div class="radio-group">
+        <label>
+            <input type="radio" name="public" value="true" checked>
+            Public
+        </label>
+        <label>
+            <input type="radio" name="public" value="false">
+            Private
+        </label>
+        </div>
+
+        <!-- Category -->
+        <div class="selector-row">
+        <label>Categories:</label>
+        <select name="category">
+            {% for category in categories %}
+            <option value="{{ category.id }}">
+                {{ category.name }}
+            </option>
+            {% endfor %}
+        </select>
+        </div>
+
+        <!-- Choices -->
+        <div class="choices-section">
+            <label>Choices:</label>
+            <div id="choices">
+                <div class="choice-row">
+                    <input type="text" name="choices[]" placeholder="Choice 1" required>
+                </div>
+            </div>
+            <button type="button" onclick="addChoice()">+ Add Choice</button>
+        </div>
+
+        <!-- Submit -->
+        <button type="submit">Create Survey</button>
+    </form>
+    </div>
+</div>
+
+{% endblock %}

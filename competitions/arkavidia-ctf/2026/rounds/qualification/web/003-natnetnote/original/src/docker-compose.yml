@@ -1,0 +1,75 @@
+
+x-deploy-priority: &deploy_priority
+  restart_policy:
+    condition: on-failure
+  resources:
+    limits:
+      cpus: "2.0"
+      memory: 4G
+    reservations:
+      cpus: "2.0"
+      memory: 3G
+  update_config:
+    parallelism: 1
+    order: start-first
+
+x-deploy-common: &deploy_common
+  restart_policy:
+    condition: on-failure
+  resources:
+    limits:
+      cpus: "1.0" 
+      memory: 256M
+    reservations:
+      cpus: "0.50"
+      memory: 128M
+  update_config:
+    parallelism: 1
+    order: start-first
+
+services:
+  backend:
+    build: ./backend
+    container_name: go-backend
+    deploy: *deploy_common
+    environment:
+      - FLAG=ARKAV{L4iN_kAl1_XsS_J4n9an_N0Te_Mu1ulah_B0s3n_Gw_asdqe123wadno132hiubaf1u3ppad}
+      - JWT_SECRET=V9fDF9zGd6wlKdql17faEu1329I97m4ee/qK8jkk8Xc=
+    restart: unless-stopped
+    networks: 
+        - natnetnote
+
+  frontend:
+    build: ./frontend
+    container_name: next-frontend
+    deploy: *deploy_common
+    ports:
+      - "8995:3000"
+    environment:
+      - BACKEND_URL=http://backend:8080
+      - JWT_SECRET=V9fDF9zGd6wlKdql17faEu1329I97m4ee/qK8jkk8Xc=
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks: 
+        - natnetnote
+
+  bot:
+    build:
+      context: bot
+      args:
+        - BROWSER=chromium
+    restart: always
+    deploy: *deploy_priority
+    environment:
+      APPNAME: Admin
+      APPURL: http://frontend:3000/
+      APPURLREGEX: ^http(|s)://.*$
+      APPLIMIT: 5
+      APPLIMITTIME: 60
+      USE_PROXY: 1
+    networks: 
+      - natnetnote
+
+networks:
+  natnetnote:

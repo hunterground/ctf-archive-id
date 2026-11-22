@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-forensics-003
+name: KawaiiMetal
+slug: 003-kawaiimetal
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: foren
+description: |-
+  Tadi pas ngubek-ngubek file lama, ada foto Babymetal.  Sampe sekarang masih
+  suka banget dengerin lagu ini. Aku rekomen lagu
+  [ini](https://www.youtube.com/watch?v=WIKqgE4BwAY).
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Jspmarc
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: foren/KawaiiMetal
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 4f84391d93c5e896362132d55b1b98dddb0483407bb0a5bce5d87ce56174049e
+  - path: README.md
+    algorithm: sha256
+    value: 846a53e22b53cf1bada4817d710d40a0ee3c14e0245ae093715244d3006ec659
+  - path: chall/Babymetal.jpg
+    algorithm: sha256
+    value: a8d565438144fb5545de06d932ffd311428360def22e24800a17bf75900c3052
+  - path: chall/Moa-metal.png
+    algorithm: sha256
+    value: ddc76c05afffed514bc7efb8f8b5b32d4410dbdae351b27ca0eb572ab78a1ac1
+  - path: chall/Su-metal.jpg
+    algorithm: sha256
+    value: 15f500275c59b01b880f92aba2fdcc30facf67167385026215d65fa3db37b6d9
+  - path: chall/Yui-metal.jpg
+    algorithm: sha256
+    value: c8f9c1bb3433a2029c06debe1c6712955202744fb0451ec3e5b934560e77f9ba
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

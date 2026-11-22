@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-web-004
+name: savior
+slug: 004-savior
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: |-
+  when yh bisa kayak gitu juga, kan aku juga mau 😔😔😔
+  ![reze](https://i.redd.it/h8cnhm4y6waf1.gif)
+
+  https://youtu.be/1X8Jqn_TMzs?si=uR5m_QhrnaQOPu4W
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: wze
+  team: null
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Web/savior
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: LICENSE in the challenge directory.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: c0149fed411d8c6bbec9602bba1b55942fd371c40ec086b627d7e65f37fff87d
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 84ab5d6dc4f7a09b7dea17155041e2283a6fbdd5d3e182a2fd331bf7a53ddb48
+  - path: bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: bot/index.js
+    algorithm: sha256
+    value: 0f6a908cebc5e05fb72a23c18764450382c2124f7f5f93300a9fca7ec08ea241
+  - path: bot/package.json
+    algorithm: sha256
+    value: b66ce955df9b0ffdb7e504d0d358961811cbe8ca9a64d5f71c102c3f28effb4b
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: 5ec584c4e2d01a4d688611bba084fcef7b9050e7e5b17cf491b65c01e51e1ec7
+  - path: bot/views/search.ejs
+    algorithm: sha256
+    value: 0efaee57a32567dd28dc7a1f27e1a4f87a9cac47b667bde9c813f61f1a26af2d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 059cb0f9eda2d5d6210d2cf4a9256779222c2c4e996dadf4506b9e002ee50000
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: ecb9a1fabc6dc5ad7f95519d16d8b607c355519f54a685fda5a31f83ae50571e
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 66ab999005823a46745228b7f914844d0e85a21220dd2747c8b2d69792e079ff
+  - path: proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: src/index.html
+    algorithm: sha256
+    value: cdb811554882cd12cfdd5c3a233721232d4452110da8c23977680a87023e08e2
+  - path: src/savior.mp4
+    algorithm: sha256
+    value: 3c10bad27058914468bfdc172d30322e413f47f5b6c61f95b70c54270d5727b2
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The challenge directory contains LICENSE, MIT, Copyright (c) 2023 Dimas Maulana. The repository
+  has no root license file.

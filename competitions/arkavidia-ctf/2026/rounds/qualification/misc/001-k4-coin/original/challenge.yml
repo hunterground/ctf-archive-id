@@ -1,0 +1,27 @@
+name: "k4 coin"
+category: miscellaneous
+description: |- 
+    Very beginner friendly chall (hardnya di final aja mungkin?). Anyway, will we still do crypto investments in 2026?🫩🫩🫩
+
+    Author: **k4tou**
+
+attribution: k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: http://{hotsname}:8779
+
+flags:
+    - ARKAV{h3ll_y3ahhhh_1t_i55_4lt_s3as0n_b4byyy___but_bruh_1'v3_r3al1z3d_th4t_k4_>_m0n3r0___inf0_s1ny4l_k4_v1r4l_t3rb4ru_2026_ful1_p3rc4kap4n!}
+
+files:
+    - dist/k4.sol
+    - dist/Setup.sol
+
+state: hidden
+version: "0.1"

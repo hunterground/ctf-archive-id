@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-forensics-002
+name: Tipe Muka
+slug: 002-tipe-muka
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: "Fahmi merupakan penggiat UI/UX yang sudah cukup berpengalaman. \nPada suatu hari, dia sedang\
+  \ bosan dan memutuskan untuk mencoba hal baru, yaitu membuat font.\nSetelah 4 jam mencoba, dia menyerah\
+  \ karena ternyata membuat font susah. Dia kemudian mengambil font yang open source dengan nama Source\
+  \ Sans Pro, memodifikasinya sedikit, kemudian mengganti namanya menjadi Arkav Sans."
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: didithilmy
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/forensic/Tipe Muka
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: ArkavSans-Bold.ttf
+    algorithm: sha256
+    value: c01e07352938e33947e69242939255193f681c367d2988cdcdd16abfaab49903
+  - path: README.MD
+    algorithm: sha256
+    value: beace5486c0c6028c4e50d6ddbb15cdf3280031892c4d0e044e3ca1bb53eb49b
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-pwn-003
+name: no idea book
+slug: 003-no-idea-book
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: easy [chall](https://alpacahack.com/ctfs/round-6/challenges/ideabook) :D
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Pwn/no-idea-book
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ed8bb201fe507889f531ea1b885bb3db9880cadabf42a0a7e5cdbeae89793013
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 6f68f3379f0750f287da069aa1f7ef5f3f5e574ba1a5ee5c4c6509e696132424
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e5351c08dc82d038859ed6e9ebe88571a92de46a3763dfcb3e8086e4fdba6557
+  - path: src/compose.yml
+    algorithm: sha256
+    value: 0c438beb070f55741f445aecc7525354ce1e85b04500ea364c97e539ff3aaffa
+  - path: src/flag.txt
+    algorithm: sha256
+    value: a501d7d3f0ec6855fa811b3b566d77b49870da11ebea8d02d6acf6ffa466b00b
+  - path: src/ideabook
+    algorithm: sha256
+    value: 1c0bd8d4f7feac3a6ef78f9876034004f4a12262766839ad61d94466ba6f4c05
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 5955dead1a55f545cf9cf34a40b2eb65deb84ea503ac467a266d061073315fa7
+  - path: src/main.c
+    algorithm: sha256
+    value: 0b1dc15841f632760fae7e8bc0f0b08aef41bfdd365e5a86acfd0f2b6fd01040
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

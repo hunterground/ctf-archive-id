@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-rev-003
+name: uwu
+slug: 003-uwu
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: re
+description: Can you crack me, plz?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Simple bytearray manipulation
+authors:
+- name: alphaville
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/re/uwu
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c765d2f761f8f70cdba11344af20742cf88e58fc466be43fd21f943181e9d02d
+  - path: uwu
+    algorithm: sha256
+    value: 9c84f7108d52ae3f44916a5da4b8fcd93e7aa0ce618c7cb5b4d423efe39be847
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

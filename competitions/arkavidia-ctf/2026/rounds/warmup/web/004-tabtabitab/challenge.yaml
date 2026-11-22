@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-web-004
+name: TabTabiTab
+slug: 004-tabtabitab
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: web
+original_category: web exploitation
+description: _Tab tabi tab tab tabi tab tab tabi tab tab tabali_
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: um
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/web exploitation/TabTabiTab
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: a03d90b3c03115b6274f702d42e8804988b9517fd4f61d8eed19585242ee22f6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: f1d75d080bfb83dce6f98303e0794156869e7031c5987fbe2cb083d60756f523
+  - path: src/app.py
+    algorithm: sha256
+    value: 01af249cc3603b5cac9e8e5debb62f568ecb48ed20994a7687781bfb458cdd7a
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: a20a47b83aed30c4dcadfb5c76504693fc57938a1dd2ca5d081b58ba110abec0
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 881f72413759cf963253200960dc2521cb730c716dc13285a25835e0e3ae6b00
+  - path: src/static/Belanosima.ttf
+    algorithm: sha256
+    value: d55cad2340448e327ddd4b6415a0f3c3c9d7dd1fa227507f4e20fd3e45d73a0a
+  - path: src/static/bootstrap.min.css
+    algorithm: sha256
+    value: 3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8
+  - path: src/static/bootstrap.min.css.map
+    algorithm: sha256
+    value: f12338536350a422c64d02d6e43ff1dea493c3156ad823fe19761cdd5d56c05b
+  - path: src/static/um.mp4
+    algorithm: sha256
+    value: 2052f05a204a7636233f853d98b93eec4c49da925098e77f347f3efe5f2c95ec
+  - path: src/templates/account.html
+    algorithm: sha256
+    value: 7ff0fd34b9efc50955f632876d1efbd336a98acb53af6e6cce4c6871134cece9
+  - path: src/templates/layout.html
+    algorithm: sha256
+    value: 5bd2f65baa01fb19119ff487cb596f6174eef0a285035b5c955fca9a82696f00
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: dce5ed441b6fab8be9970df6c31a86ec17bc6fe25a61e72a14183ba1061e5c74
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

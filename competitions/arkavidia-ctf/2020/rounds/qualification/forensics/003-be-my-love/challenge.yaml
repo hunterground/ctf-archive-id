@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-forensics-003
+name: 누가 봐도 우린
+slug: 003-be-my-love
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  Baek-hyun memiliki sebuah backup files dari Server <b>Arkavidia 6</b> yang berisi IPv6 address server yang terenkripsi dan diubah dalam bentuk hex. Lucunya, Baek-hyun memperoleh backup tersebut pada dimensi lain sehingga header waktunya berbeda dengan aslinya dan tapenya corrupted!
+
+  Dengan bantuan gambar yang merepresentasikan dimensi waktu (luas objek tidak presisi) Baek-hyun dan kita, perbaiki disk tersebut dan perolehlah IPv6 address tersebut untuk kita DDoS!
+
+  - Note: Format flag Arkav6{}
+  - Hint: Server dijalankan pada OS Linux dengan filesystem ext4.
+  - Hint: Enkripsi yang dilakukan sebenarnya bukan enkripsi, tetapi suatu proses decoding pada IPv6.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- BACKUP_FILES
+- IPv6
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/forensic/Be My Love
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: D1.png
+    algorithm: sha256
+    value: 846ac32ace68e813c21f1a7e5289db433b2791a3ee2b094ea673bdc75ff29136
+  - path: D2.png
+    algorithm: sha256
+    value: 60d90f4e789edf16423015bdf32d858ba0ff63e9cf39e6ef55f405ab051a9b6e
+  - path: README.MD
+    algorithm: sha256
+    value: fb82f15d0fbc934443dd7ab3e94c67417591b2922f174f633cc83d897826b46e
+  - path: backup
+    algorithm: sha256
+    value: 23b7a93a22d03a2b50e325d4cd9b85064a95aaaa814682ff43583619ab48229b
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The display name has no ASCII characters, so the slug uses the source directory name.

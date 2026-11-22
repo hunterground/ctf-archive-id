@@ -1,0 +1,25 @@
+name: "NeuralCipher"
+category: reverse engineering
+description: |- 
+    We intercepted a leaked experimental AI kernel from a shadowy research lab. They claim it's a "neural network cipher" - but something feels... reversible.
+    
+    Can you recover the original input from the encrypted output?
+    
+    Author: **sandwicheese**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+flags:
+    - ARKAV{m4tr1x_m0dul0_m4yhem_1nv3rt1bl3_n3ur4l_c1ph3r}
+
+files:
+    - dist/dist.zip
+
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,14 @@
+services:
+  web:
+    build: .
+    container_name: CrappyPolls
+    restart: on-failure
+    environment:
+        DJANGO_SECRET_KEY: "django-insecure-o_g_o57c@u7(%#2*jp*nu+r__70bc+)e=c-4@^j0kd!r259bf8"
+        FLAG: "ARKAV{ju57_4_73d10u5_4nd_dull_0rm_1nj3c710n_}"
+        SECRET_1: "Almost there, jago banget bang. When yah bisa dapet flag."
+        SECRET_2: "Decoy secret message here, move along please :v just kidding 'ARKAV{ju57_4_73d10u5' <-- flag."
+        SECRET_3: "Sorry this one is not the flag. :)"
+        SECRET_4: "Splendid, kapan ya bisa sejaog ini. '_4nd_dull_0rm_1nj3c710n_}' congrats semoga masuk final. :)"
+    ports:
+      - "8137:8137"

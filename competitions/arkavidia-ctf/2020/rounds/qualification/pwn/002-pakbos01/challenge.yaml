@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-pwn-002
+name: pakbos01
+slug: 002-pakbos01
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/pwn/pakbos01
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d8e0c474ab507048ff808e86a1ed6a374366adafb7049d84ec03d6b947b967c0
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 7f58e3f9e8ba415f06a583c50a9fb5c72451131e63610e4e081555de181f403f
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 04065d4bec2b302d38d107255e315e0d20e98ee851a3e58bca83f963ef0dc2fe
+  - path: chall/pakbos01
+    algorithm: sha256
+    value: f88a8299274b9a81aa4800820873b06b657c856caf98b72a3c78ce93aef0b27c
+  - path: chall/run.sh
+    algorithm: sha256
+    value: bed90135d51904f9c9be8cca09d2c511ec1e7105d993155113572509269e4e15
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f57891e3986026d7e21e9a18f84da3705b53d06321b32bd6ce1e45b51e42d410
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

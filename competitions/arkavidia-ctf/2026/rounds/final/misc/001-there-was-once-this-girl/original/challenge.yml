@@ -1,0 +1,33 @@
+name: "There was once this girl."
+
+category: miscellaneous
+description: |- 
+    "You've been working too hard it ain't good for the heart!"
+
+    Ok, so basically i want to make crypto chall, but its not really intuitive to be a crypto chall, so i just put it in here.
+    good luck!
+
+    ![jhyo](https://media.tenor.com/8KRRSWPd5Q4AAAAM/twice-jihyo.gif)
+
+    Author: **k4tou**
+
+attribution: k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc 70.153.8.15 8777
+
+flags:
+    - ARKAV{wh4t_1s_l0v3???_862c5ea96e52b7060e8b95a923578c75}
+
+files:
+    - dist/dist.zip
+
+state: hidden
+
+version: "0.1"

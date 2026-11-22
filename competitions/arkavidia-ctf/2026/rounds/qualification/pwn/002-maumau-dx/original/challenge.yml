@@ -1,0 +1,28 @@
+name: "Maumau DX"
+
+category: "binary exploitation"
+description: |- 
+    Ajarin Maumau DX dong T_T aku juga mau jadi sepuh
+
+    Author: **Achideon**
+
+attribution: Achideon
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc {hostname} 8920
+
+flags:
+    - ARKAV{4rt1st_wh0_c4n_pl4y_m4um4u_DX_V5_art1st_wh0_c4nn0t_pl4y_m4um4u_DX}
+
+files:
+    - dist/chall
+
+state: hidden
+
+version: "0.1"

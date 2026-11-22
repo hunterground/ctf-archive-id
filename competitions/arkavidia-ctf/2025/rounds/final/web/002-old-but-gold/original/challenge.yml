@@ -1,0 +1,39 @@
+name: "Old but Gold"
+# This is used to group challenges in the CTFd UI.
+# choose one: binary exploitation, reverse engineering, web exploitation, cryptography, forensics, miscellaneous.
+category: web exploitation
+description: |- 
+    It passed review. It passed QA. But it didn't pass the admin untouched.
+
+    Author: **dovodedomo**
+
+# Don't change this
+value: 1000
+type: dynamic
+extra:
+    initial: 1000
+    decay: 9
+    minimum: 100
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: http://ctf.arkavidia.com:8021/report/
+
+flags:
+    # A static case sensitive flag
+    - ARKAV{who_needs_js_when_html_can_bleed}
+
+# Provide paths to files from the same directory that this file is in
+files:
+    - dist/dist.zip
+
+# If provided, the field can take one of two values: hidden, visible.
+state: visible
+
+hints:
+    - {
+        content: "Emang ada yang main game pake settingan default?",
+        cost: 0
+    }
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

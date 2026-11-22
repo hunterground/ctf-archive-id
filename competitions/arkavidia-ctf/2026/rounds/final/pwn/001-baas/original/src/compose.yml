@@ -1,0 +1,8 @@
+name: pwn-baas
+services:
+  chall:
+    build: .
+    ports:
+      - "8875:8875"
+    restart: always
+    container_name: baas

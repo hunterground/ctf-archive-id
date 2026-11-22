@@ -1,0 +1,9 @@
+name: 'crypto-addition'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: addition
+    read_only: true
+    ports:
+      - 8337:1337

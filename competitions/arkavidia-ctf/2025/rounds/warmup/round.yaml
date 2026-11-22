@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: warmup
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+name: Warmup
+original_name: warmups
+sequence: 1
+type: warmup
+delivery: null
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: Imported from ctf-itb/ProbsetCTFArkav9. The repository has no LICENSE file. On 2026-11-21 the archive
+  was instructed to record this source as MIT. Sequence numbers are alphabetical by challenge name within
+  each category. Repository tooling (README.md, sync.sh, .github, and .ctf) was not copied into the challenges.

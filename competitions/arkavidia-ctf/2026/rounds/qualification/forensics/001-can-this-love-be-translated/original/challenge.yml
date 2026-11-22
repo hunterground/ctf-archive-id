@@ -1,0 +1,27 @@
+name: "Can This Love Be Translated?"
+category: forensics
+description: |- 
+    I thought that love can be translated, but I was tragically wrong. It turns out my lover (ofc now ex-lover lol) was just a sophisticated scammer. Before she left, she did something on my lappy and now all my important memories are.. broken. She's gone now :(
+
+    Artifacts:
+    - a9240d791227d6c494a04c58be3fdb590225cd58df57a767eb1e1e712e53a337  chall.raw
+    - 9f112a7fff040b8e92b8ffdb9e1c31795b5062b3d31e29a0ef4762c087837e4d  chall.pcap
+
+    Password: `mV30A1EwysBKzn4y0R1o`
+
+    Author: **frennn**
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+provide: "https://drive.google.com/drive/folders/185eiR1CqFahs0L-6WZyplBJ3JcViTRZf?usp=sharing"
+
+flags:
+    - "ARKAV{1_HOp3_You_5T!LL_PaY_me_RaN$OM}"
+
+state: hidden
+version: "0.1"

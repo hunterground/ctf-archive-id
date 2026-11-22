@@ -26,8 +26,27 @@ references:
   url: https://github.com/ctf-itb/ProbsetCTFArkav9
   type: official_repository
   accessed: '2026-11-21'
-notes: The previous file was empty. Arkavidia 9.0 qualification and final dates are taken from the ctf-itb
-  problem-set repository. Arkavidia 11.0 is the edition presented on arkavidia.com, with registration
-  information through 18 November 2026 on a secondary listing; CTF dates for 11.0 were not found, so that
-  edition's status and dates stay unset beyond the year. A final platform titled Arkavidia 10.0 was seen
-  without a calendar year and was not given an edition.
+- title: Penyisihan Arkavidia 7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+- title: Problemset CTF Arkavidia 10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+- title: CTF ITB write-up collection
+  url: https://github.com/ctf-itb/writeup
+  type: third_party_archive
+  accessed: '2026-11-21'
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-21'
+notes: Challenge files were copied from the ctf-itb problem sets for Arkavidia 7.0 qualification,
+  Arkavidia 9.0 warmup, qualification, and final, and Arkavidia 10.0 warmup, qualification, and final.
+  Those repositories have no root license file; on 2026-11-21 the archive was instructed to record them
+  as MIT. Arkavidia 6.0 (2020) was copied from mabdullahmunir/CTF-Arkavidia-6, whose root LICENSE is MIT.
+  Arkavidia 10.0 is the 2026 edition. Arkavidia 11.0 is stored under 2027 because its published
+  final stage ends on 31 January 2027, and it starts in November 2026. No challenge repository for 11.0
+  was found. The CTF ITB write-up collection and the Arkavidia 5.0 pwn and reverse write-up repository
+  remain registered and were not downloaded. CTFd-Arkavidia is the event platform, not a challenge set.

@@ -1,0 +1,29 @@
+name: "zzz"
+
+category: cryptography
+description: |- 
+    zzzzzzzzz
+
+    Author: **Etynso**
+
+attribution: Etynso
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc <> 8773
+
+flags:
+    - ARKAV{92f907a1c476abdb1cca3da49d79488681d32deee97c6687aed1526854fa6ca6}
+
+files:
+    - dist/chall.py
+    - dist/monster.py
+
+state: hidden
+
+version: "0.1"

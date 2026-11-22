@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-misc-003
+name: Sad and Lonely Bot
+slug: 003-sad-and-lonely-bot
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BeforeLast
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: misc/Sad and Lonely Bot
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97
+  - path: README.md
+    algorithm: sha256
+    value: 57974952db0d73e2021d92b077db5b1e2af2ac01853b6024cbe24986a797942b
+  - path: image/sadboi.jpg
+    algorithm: sha256
+    value: e82e93a28faa69e06befd539f0fcf9407c2e925c75bce6e1d492a1129f1ed21d
+  - path: log.txt
+    algorithm: sha256
+    value: 0ff54db6a5876b8980e6b5c448de0d8531e70663ebd766eb0e6a4de82441a193
+  - path: main.js
+    algorithm: sha256
+    value: 793341eb70348cb64bd984a10711611df2fb26e305956b5bbb91ff5f57c9237c
+  - path: package-lock.json
+    algorithm: sha256
+    value: 8eecb5fee516ecb127ae39b0bde67e0e492486748941f7f8b78887e39d96ff36
+  - path: package.json
+    algorithm: sha256
+    value: 31dd8c63ff40057fc02b0b5a969e8a226b7d6629117d650bf48c3c679d9cae65
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

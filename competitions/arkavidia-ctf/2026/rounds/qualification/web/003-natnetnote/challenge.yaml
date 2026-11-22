@@ -1,0 +1,307 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-web-003
+name: Natnetnote
+slug: 003-natnetnote
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: |-
+  natnetnotenatnetnotenatnetnotenatnetnotenatnetnotenatnetnote
+
+  p.s. tolong kerjakan di local dulu
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BoredAngel
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Web/natnetnote
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: e70f779f2617d89f496e1c47f3d6dddcca8a97c17fc2cc6bbe5ea89003d7f1a4
+  - path: dist/dist.tar.gz
+    algorithm: sha256
+    value: 7efd1d747441d2e2e98e6c62bddb648ced7b238cfba47fac2ff4d1293a118c08
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 3843dae0e03a907dd377d7268b9ea762a12cb5ff87f44314e71094f4a1b63a0e
+  - path: src/backend/go.mod
+    algorithm: sha256
+    value: 57dfc1d2ef18991123adcdf50f21303cc11c086072f5f91a93583db2c67c3dda
+  - path: src/backend/go.sum
+    algorithm: sha256
+    value: dfce0a2977a7a7141335a3606968b6cf6d8a15291ffd70427111fb8142331466
+  - path: src/backend/internal/auth/jwt.go
+    algorithm: sha256
+    value: 86842d330d63b3af8063257f3cc8f7f602b732a7ec6189c0bcaa1a19c02462e6
+  - path: src/backend/internal/auth/middleware.go
+    algorithm: sha256
+    value: da10e06f713fda26dda0d8f227b526eb283c33f6d05dbe9d7f78a805614ad707
+  - path: src/backend/internal/db/db.go
+    algorithm: sha256
+    value: eaa435c4fa865b7ec06cf19f0db85b8ea1cdea2e80e14eae598d71b526de1f14
+  - path: src/backend/internal/handlers/announcements.go
+    algorithm: sha256
+    value: 505a1852a6ba78f848dac48b1ad1b1a2193480aef43bd47a45c347ba880c3adc
+  - path: src/backend/internal/handlers/auth.go
+    algorithm: sha256
+    value: 6a5e0f0f6882a842937e7a08d6b47d6b04b7e8d386ddf0b5a26651c0a72dcb9d
+  - path: src/backend/internal/handlers/notes.go
+    algorithm: sha256
+    value: c6bc9c2c3f97a7d2a8b7f8130b6742ae181b32db8072f52dde370cc4fd842e45
+  - path: src/backend/internal/router/router.go
+    algorithm: sha256
+    value: 37e94a1f9e2b5172a7613aec75534a12629e9abe6f82c3e4dff45bd53c30228a
+  - path: src/backend/main.go
+    algorithm: sha256
+    value: 88d4df4857bb7180785fe6a11ff3424b7d47c83b11e761f80f0306182e84dc1d
+  - path: src/backend/migrations/schema.sql
+    algorithm: sha256
+    value: ee49627c624eb7cd295ef8f4e50999ee34532679a479209e6fa10f564f9f42c0
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 5f3783aa8fc812c3c19cb589a4a561509bbbf3628be54f97e138b02e178640fb
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 1980a548f058065edb95ed6b7c5373d09e8b5867c77f28274db8eec53badfef5
+  - path: src/bot/extensions/BotIsolation/BotIsolation.js
+    algorithm: sha256
+    value: 4bed2ea57b9a721d5e4f9271fdb40a8d352d99a4ba79636ee895906736a8eb02
+  - path: src/bot/extensions/BotIsolation/manifest.json
+    algorithm: sha256
+    value: afed1c83f595948c1df0ccb1527f8c44e98b5aaf6df987fa77dea1c9878d31b0
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: db3f4fb0806881babda074ca98e31ecd4499699003e51934a50dff5361bf89fe
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: f29114d685de61ab5380c53aa134be21c61aed3eab6a797c15463c6357acd0a0
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: fdf5b5824ca87d940c593ec272db90ac9c86f8ae32e51780cafb710525f8e118
+  - path: src/frontend/.dockerignore
+    algorithm: sha256
+    value: 7fb6396338306160d499d49e41086b2c8af778c6049ebbe8c9a66eb67f4d0534
+  - path: src/frontend/.gitignore
+    algorithm: sha256
+    value: 207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd
+  - path: src/frontend/Dockerfile
+    algorithm: sha256
+    value: e789624551253ecdd0fa20c23b4a55fe494dc7bef7bf4480efca91b675c0e3f1
+  - path: src/frontend/app/about/page.tsx
+    algorithm: sha256
+    value: ce8aff9e602654aa94580866c1cbbad61287e5840f9173e9d245e7625fd7a53e
+  - path: src/frontend/app/announcement/[id]/AnnouncementClient.tsx
+    algorithm: sha256
+    value: 21a8649cb5e83c6492ac887d2d09ee1390c41c56a44fa59a7ae4029592bece6d
+  - path: src/frontend/app/announcement/[id]/page.tsx
+    algorithm: sha256
+    value: 208f8c1272cc701bf6322e6212306aa79dba95f77dbf5659c3493a849a4129e7
+  - path: src/frontend/app/announcement/create/AnnouncementForm.tsx
+    algorithm: sha256
+    value: a774908932557f5881bf38f6e142a168eb24f741747c8eb0e370f2e153431f9f
+  - path: src/frontend/app/announcement/create/page.tsx
+    algorithm: sha256
+    value: 66ab619f3071b96933b146dddf14043c131971fbc1e0a8ed1be530df88b85b48
+  - path: src/frontend/app/announcements/AnnouncementsClient.tsx
+    algorithm: sha256
+    value: e8b8a7599ef82cc47cfb9c4c6897005acbbc79a5a3aa711a752ffd09db24a2f3
+  - path: src/frontend/app/announcements/page.tsx
+    algorithm: sha256
+    value: 7e1cfa5d01f350478c1d9ab8d775ed62d101c06208625329a2036b6b0ee98ea4
+  - path: src/frontend/app/api/announcements/[id]/route.ts
+    algorithm: sha256
+    value: 9fdf37a3cf90886db66fb86cde7c5c067c3a3ee2153fdf55d678b56dc0235b39
+  - path: src/frontend/app/api/announcements/create/route.ts
+    algorithm: sha256
+    value: cd146b8877f09e4a2db3eb481be493ac97ad95850627af7e4ea09f7ca20ebe48
+  - path: src/frontend/app/api/announcements/delete/[id]/route.ts
+    algorithm: sha256
+    value: 58e56a48137b0d6ab2823b027bc8d051f6d6f51e3a85044ae015122349dfc944
+  - path: src/frontend/app/api/announcements/route.ts
+    algorithm: sha256
+    value: cbeee8567ffbd7a056daf22b99ac260c38b47cb52c3ab69384df24e49bbe5abc
+  - path: src/frontend/app/api/auth/login/route.ts
+    algorithm: sha256
+    value: 17ae331508014aa5bdc8bd9d5b34fdc32e51728ffb81ee6b489b21b21761dc6a
+  - path: src/frontend/app/api/auth/logout/route.ts
+    algorithm: sha256
+    value: 4b94db36d30aaba9d2578309e3f0afe9de5651f87b3235fe2a55cc75be7651f6
+  - path: src/frontend/app/api/auth/register/route.ts
+    algorithm: sha256
+    value: 87c91d2410243f51ba626fd806d960f346407b78d25202071b0d3d5d51392554
+  - path: src/frontend/app/api/drafts/[id]/route.ts
+    algorithm: sha256
+    value: 990d845ddc7bc8425be3c3a59f04bdbba91489d804d5060228bf7909c69b69bd
+  - path: src/frontend/app/api/drafts/edit/[id]/route.ts
+    algorithm: sha256
+    value: f9ff6ed4607769e05b692f92ca73d1f5eb936e9af55514ab3b4429bef14398e9
+  - path: src/frontend/app/api/drafts/route.ts
+    algorithm: sha256
+    value: 729cb94f1994fee36392a630f7bab916c79f9d008b352b5353011afde34895ae
+  - path: src/frontend/app/api/notes/[id]/route.ts
+    algorithm: sha256
+    value: 86ba9594b3b38e625aa6f8fc01de75d74c9bdf7c9a1e6ebbc176c35b2aa206e9
+  - path: src/frontend/app/api/notes/create/route.ts
+    algorithm: sha256
+    value: b9c4dbfb935f56eaccae4ce849691a0e4f65110afd435e1309549c49f4884af3
+  - path: src/frontend/app/api/notes/delete/[id]/route.ts
+    algorithm: sha256
+    value: b3cfcd720b5947409fb6f1416f5f4ff0c1ab3309d91dd8dae66e8cca9aad5682
+  - path: src/frontend/app/api/notes/edit/[id]/route.ts
+    algorithm: sha256
+    value: fdbb8f37e1a58f27d448c9afdbb2b211f0c905561f4a1c2876b0eab1c6fbeed6
+  - path: src/frontend/app/api/notes/route.ts
+    algorithm: sha256
+    value: 6f6db0b6f34c80104995489baa5cf22b8d06048e0e70397cf8743469feca48e2
+  - path: src/frontend/app/api/report/route.ts
+    algorithm: sha256
+    value: 8f15a5ff7bfdeb08274cdaa95c8ec9562e0e7de6847b17546fb429ec34646380
+  - path: src/frontend/app/draft/[id]/DraftEditor.tsx
+    algorithm: sha256
+    value: 8f443053b8ffe8ef185e1664e2f18c1814244fbd1278f3a2780364e8b7e523c0
+  - path: src/frontend/app/draft/[id]/page.tsx
+    algorithm: sha256
+    value: 254cc30feea7c9c4426830c45d4a80e91a006b66b7747b2d6ae54c279c459a00
+  - path: src/frontend/app/drafts/DraftsClient.tsx
+    algorithm: sha256
+    value: 72dc75e0378a915e567e10c9f2910ad876d53b39680f69278b871b0e36dda006
+  - path: src/frontend/app/drafts/page.tsx
+    algorithm: sha256
+    value: 820fb4bd1ae8b27e23b75e6a178cbd915ebc30f54714fc80e734e7c20ef33589
+  - path: src/frontend/app/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: src/frontend/app/globals.css
+    algorithm: sha256
+    value: 2a8a8398ea6947282272a3ac530deae3799b1505980b79d31f8b3a99c427c560
+  - path: src/frontend/app/layout.tsx
+    algorithm: sha256
+    value: 20e729c1f25fda63775c73963f1007ac9f39aaa1ad4f6f468d40c202843966c2
+  - path: src/frontend/app/login/LoginForm.tsx
+    algorithm: sha256
+    value: f887e4c73bfb1eaf40e0d0fa7656e7a237ab284b19b3c56be9aa5f5df468372c
+  - path: src/frontend/app/login/page.tsx
+    algorithm: sha256
+    value: c5c1179f44e25f245a82c8549fc3cec431af2fba364a0ae0b8885efb667518bd
+  - path: src/frontend/app/note/[id]/NoteEditor.tsx
+    algorithm: sha256
+    value: 1d146b5a8f4234bbf4304e0b6bd75fbcd02b42f773cf7805f69cbb3fb2e2f10d
+  - path: src/frontend/app/note/[id]/page.tsx
+    algorithm: sha256
+    value: 470541612743070ea03f26e8c3e28678727dc0478d940523816b47a6ad849659
+  - path: src/frontend/app/note/create/NoteForm.tsx
+    algorithm: sha256
+    value: 070ab193b680c23828e03cc3e69e7bdc9715545939b06c9e32cee91e00607450
+  - path: src/frontend/app/note/create/page.tsx
+    algorithm: sha256
+    value: 98ada1e8a89ded6653567c6cf299bae58178a7bead9dc6c9f9a21dbb285d01ab
+  - path: src/frontend/app/notes/NotesClient.tsx
+    algorithm: sha256
+    value: 9b3ba3115144b10d1eba5de1736e86ca5a6e4e0583dab31765039155fe614e96
+  - path: src/frontend/app/notes/page.tsx
+    algorithm: sha256
+    value: fb5340c4a78523fa478093e816c48b7db824fce869f336191ad66dd63d24ba44
+  - path: src/frontend/app/page.tsx
+    algorithm: sha256
+    value: d692b43b4e50c0abba8173c4070e4148384369d0baaaaf23ef1c358b8ea3f315
+  - path: src/frontend/app/register/RegisterForm.tsx
+    algorithm: sha256
+    value: 783f0093e7f7658a15a4fc3e73591dd12ec2294738b32b0ae5bc9ab8d513a64f
+  - path: src/frontend/app/register/page.tsx
+    algorithm: sha256
+    value: ac61be38fa07561fa18471d56bb6750d563dd612ab0c0bbe219572307866250e
+  - path: src/frontend/components/Navbar.tsx
+    algorithm: sha256
+    value: 94c8f19dade3987af03b572d0caf6a6d36819ba790b1a72abdd1a823580d6676
+  - path: src/frontend/components/Pagination.tsx
+    algorithm: sha256
+    value: 36c8657ac841e892bb7e99bcb5c5cb18d721b979d416f0c31293d9c2428dfc2d
+  - path: src/frontend/eslint.config.mjs
+    algorithm: sha256
+    value: 870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493
+  - path: src/frontend/lib/api-client.ts
+    algorithm: sha256
+    value: 2e77bce067984b12d3f48759b3c468f8308cd23853a643e4eb48694f520925ed
+  - path: src/frontend/lib/jwt.ts
+    algorithm: sha256
+    value: b418634959cdfe78bb6cafe39c3ddc43429d67d4f22726a462f5b38f5d5edb6d
+  - path: src/frontend/lib/types.ts
+    algorithm: sha256
+    value: a4ec2d5ea752fd7ff0b6b200e164abd4258b6c000a23d5dc9820619d2c7ca5ec
+  - path: src/frontend/middleware.ts
+    algorithm: sha256
+    value: 9269360f715ad82a24707328c03ef0c4e773dbde6a88d7f5b1418aa46b387919
+  - path: src/frontend/next.config.ts
+    algorithm: sha256
+    value: 53eb7997f9e3f53a7254f76a8ebce3f53185db5891f38f49e0c65772189aa544
+  - path: src/frontend/package-lock.json
+    algorithm: sha256
+    value: 144a887d0cd15423a856f59cf7a876fafd4194c580b5ca01480b564e920e2206
+  - path: src/frontend/package.json
+    algorithm: sha256
+    value: b048395ee2a480d1ef8ebb3be6a961940462c823881c9431d8cbd66bc08408a5
+  - path: src/frontend/postcss.config.mjs
+    algorithm: sha256
+    value: 47f2dff3208826bf663a9ca490b376a130a8153e0e8e713aed09b9f42289a3bd
+  - path: src/frontend/public/file.svg
+    algorithm: sha256
+    value: 2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4
+  - path: src/frontend/public/globe.svg
+    algorithm: sha256
+    value: b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf
+  - path: src/frontend/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: src/frontend/public/vercel.svg
+    algorithm: sha256
+    value: f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4
+  - path: src/frontend/public/window.svg
+    algorithm: sha256
+    value: 644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1
+  - path: src/frontend/tailwind.config.ts
+    algorithm: sha256
+    value: 459e0ff0852e19959600f5b7443ed0e397c52e6daa66b24294740bdd15221418
+  - path: src/frontend/tsconfig.json
+    algorithm: sha256
+    value: be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

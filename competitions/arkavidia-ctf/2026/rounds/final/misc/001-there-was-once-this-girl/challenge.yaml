@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-misc-001
+name: There was once this girl.
+slug: 001-there-was-once-this-girl
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: misc
+original_category: Misc
+description: |-
+  "You've been working too hard it ain't good for the heart!"
+
+  Ok, so basically i want to make crypto chall, but its not really intuitive to be a crypto chall, so i just put it in here.
+  good luck!
+
+  ![jhyo](https://media.tenor.com/8KRRSWPd5Q4AAAAM/twice-jihyo.gif)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Misc/jhyo
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 164b7e49c24cd190da7aaf387ee930953f3aa98b842f876b2867c46afcdce014
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 82ad06932845ba353a28b7d1a2689c18b00a891c4912e0c7b95873fb80912579
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 8be5445261f2f0d0fe5dee93c73866017760f92c0228ddd6f1c7e061d3b8928d
+  - path: src/comms.py
+    algorithm: sha256
+    value: ffd70c5f4c682274f04807a7682db448c253c67ba487d76da303b89a4df8c921
+  - path: src/compose.yml
+    algorithm: sha256
+    value: befe5edf0b37f7a61183eeae1427a19ca9dec2f4638d45447519524433fc4810
+  - path: src/confession.txt
+    algorithm: sha256
+    value: 9cedc5389e7d914c139d0b7d7d48a67476c8d571db2eb492cd422c1c46c717a9
+  - path: src/jihyo.py
+    algorithm: sha256
+    value: 4734e0d329f60c08676825fe8d8b31d7f3cb6c405dd1265c7b560cac4ed19a56
+  - path: src/k4tou.py
+    algorithm: sha256
+    value: cf040e4607e2eb16643e51e6429a6dabcb9bf7cebe5a4343116cfaeae3cd266c
+  - path: src/main.py
+    algorithm: sha256
+    value: c48a1b0c3db4b8377d403b855089aa75271dc9f64d235c0e420960a3d1015312
+  - path: src/middleware.py
+    algorithm: sha256
+    value: 990311c88a6b04684b1c4125441f1421f66a9022aa5a506504233fbaa4349be7
+  - path: src/oracle.py
+    algorithm: sha256
+    value: 34ef0d9b8bdf3bb27e4009606d58eb3a289a86ea40a8fe6e6ebafde037013316
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 05cb5a2796e81a33f15374c05e1dff97160c9cb27f01d225b60610aea970b9b0
+  - path: src/run.sh
+    algorithm: sha256
+    value: 574b04336ef0663ff80a87fa3ad480a1c17ce1339e34a9f0d6dd777c825e11eb
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'jhyo'.

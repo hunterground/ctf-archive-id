@@ -1,0 +1,30 @@
+name: "Delusion"
+
+category: cryptography
+description: |- 
+    Did you know that being delusional is a superpower? (I guess bro).
+
+    ![abcd](https://media.tenor.com/Fnz9lrCNfaUAAAAM/karina-aespa.gif)
+
+    Author: **k4tou**
+
+attribution: k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc <> 8777
+
+flags:
+    - ARKAV{y0u'v3_k1ll3d_th1s_ch4l1_w1th_s0m3_9o0d_s7uff_1nd33d_https://youtu.be/hfO7veqkHns?si=NcU4nQoUi43zaoiC}
+
+files:
+    - dist/chall.py
+
+state: hidden
+
+version: "0.1"

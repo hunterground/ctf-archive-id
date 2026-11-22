@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-pwn-002
+name: Maumau DX
+slug: 002-maumau-dx
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Ajarin Maumau DX dong T_T aku juga mau jadi sepuh
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Achideon
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Pwn/Maumau DX
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: f14599d3f34f9d7ba39aed610429d07598bdbca64efbed561aecf15025cc3042
+  - path: dist/chall
+    algorithm: sha256
+    value: cd03770fc695c249fd6b660e841f870951853705cf1aca43f6b29492c34b85fa
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9c6510365435ddd7cceafa526db08e6177dca4a761ef3455a723a75252db5e8a
+  - path: src/chall
+    algorithm: sha256
+    value: cd03770fc695c249fd6b660e841f870951853705cf1aca43f6b29492c34b85fa
+  - path: src/chall.c
+    algorithm: sha256
+    value: 38880994332097ed48b5d7ef76990d48343753eb2d2ced242b4a7bedd02a53fb
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0b79fa6dad847f6c8ad998a90d9ad9ea20d6b6b6846fcc2133d27b034d6746fe
+  - path: src/flag.txt
+    algorithm: sha256
+    value: bcaa23b181934f6a3ff1d301dbb6a20201b16f3e65114f2b1b53fc1b8db593f7
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

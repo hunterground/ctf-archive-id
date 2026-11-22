@@ -1,0 +1,7 @@
+services:
+  challenge:
+    build: .
+    ports:
+      - "8099:8099"
+    user: chall
+    command: socat TCP-LISTEN:8099,reuseaddr,fork EXEC:"python /home/chall/app.py"

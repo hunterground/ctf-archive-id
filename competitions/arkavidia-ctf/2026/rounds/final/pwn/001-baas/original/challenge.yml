@@ -1,0 +1,26 @@
+name: "BaaS"
+category: pwn
+description: |-   
+    I shamelessly stole this challenge from the SAS CTF finals. It 
+    should be fine, though, because the original intended solution 
+    wasn't RCE. In fact, RCE seems impossible in the original version 
+    due to a specific condition not met in its Docker environment. 
+    Well, I've made a small modification to make it possible!
+
+    Author: **msfir** (technically stolen lol)
+
+connection_info: nc 70.153.8.15 8875
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+files:
+    - "dist/dist.zip"
+flags:
+    - "ARKAV{d5fed7a7585709e21799d8145a8d4788}"
+
+state: hidden
+version: "0.1"

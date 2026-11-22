@@ -1,0 +1,8 @@
+name: pwn-impossible-roulette
+services:
+  chall:
+    build: .
+    ports:
+      - "8010:8010"
+    restart: on-failure
+    container_name: impossible-roulette

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-qualification-crypto-005
+name: Weird Format
+slug: 005-weird-format
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: Have you studied discrete mathematics ⊂(◉‿◉)つ
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+authors:
+- name: Etynso
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: quals/cryptography/Weird Format
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6f8f14d610a455cef22982a76bfc7ec0545f8bf6ab13d9de7619309ebcb5ba8a
+  - path: dist/chall.py
+    algorithm: sha256
+    value: bce621f8871059493e26d53fe88547d4b868d7c96bd3f7fce9acff5c0a32a449
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e37fa24ac4f8bdd01544463f763c66b8e757245af4b26e70d68164981c707df1
+  - path: src/chall.py
+    algorithm: sha256
+    value: bce621f8871059493e26d53fe88547d4b868d7c96bd3f7fce9acff5c0a32a449
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 68a0247f4fd0fab6da44ac117b06e31a0d7deddba8a0303af27333089304c9ad
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3ec1eab892b05edb4e4ae380f27cadf4fe8865ebf9056d4b6a5a750f83c05c1d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: src/run.sh
+    algorithm: sha256
+    value: 4d794abd7e246564691015e2cfcfa4e3af8f2d8f533c3684487c9ad4865a64b4
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

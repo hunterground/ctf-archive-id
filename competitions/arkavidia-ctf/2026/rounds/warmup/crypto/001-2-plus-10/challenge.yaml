@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-crypto-001
+name: 2+10
+slug: 001-2-plus-10
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: crypto
+original_category: cryptography
+description: |-
+  mendaki gunung (semeru) dan menggelinding ke bawah (seperti seekor landak)
+
+  NB: this chall has been tested on the remote server with 20 simultaneous connections with 100% winrate. please try to solve this challenge in your local machine before trying it on the remote server.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yellow
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/cryptography/2+10
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 80e666e4dca830d06f555bc8305787fabef2c1362a8b978e8ab0a00f83cacee3
+  - path: challenge.yml
+    algorithm: sha256
+    value: 34bdef009ec84639c059d4992d980039e722e52b658c20e71c0ef78a3e69033d
+  - path: dist/chall.py
+    algorithm: sha256
+    value: ed702ddadd1ebbc90f187e762d0972c1e48082d7befd7ab86e3d007e4a9f94a6
+  - path: setup-local.sh
+    algorithm: sha256
+    value: c1257ea6829d9702c9949c63eb83753e39d98a5454265e9874fc8e48f53cf26f
+  - path: setup-server.sh
+    algorithm: sha256
+    value: 83053dd266638cd0a28f1d88523cefc43cc8c2c9b6c032ab465e6c3f4b97041a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: c953ca85c3444d01d1e6cc2ac03d54901c40eb649cfd543c43feb79232f5b2ca
+  - path: src/chall.py
+    algorithm: sha256
+    value: 7aa0aded56fc7ebf8a0d01e576e949eadf1531fbe5e78e579f6d85e847d0e655
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 30153d6968d39109aeb0450ea83b2309fa18eadcb8b27d2da903968f9f929a99
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 186d27f9e2861bb299ea32714d46f186e30dc038843e6765edc2b7d942698ee9
+  - path: src/run.sh
+    algorithm: sha256
+    value: 86ccbb354eda27a198802c76d253e2cebaa2da9c9d6a61d1a09442d9d9eb6bc2
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

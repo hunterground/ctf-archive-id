@@ -1,0 +1,30 @@
+name: "karma"
+
+category: miscellaneous
+description: |- 
+    Have you heard of the new restaurant?
+
+    https://youtube.com/shorts/t0UJ_29qNOk?si=wAmhG4fs7MFBs1Lp
+
+    Author: **k4tou**
+
+attribution: k4tou
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc {hostname} 8781
+
+flags:
+    - ARKAV{ngeeng_ngeeng_ngeeng_awas_awas_awas_rem_rem_nabrak_nabrak_ciiiit_DIAAAAAR___https://www.instagram.com/p/DTiGZBgEUQD}
+
+files:
+    - dist/chall.py
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-misc-003
+name: karma
+slug: 003-karma
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  Have you heard of the new restaurant?
+
+  https://youtube.com/shorts/t0UJ_29qNOk?si=wAmhG4fs7MFBs1Lp
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Misc/karma
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: feaad46fbc02c680403060099704d4f7e67eeac6b05b7eed3509a6926560cbfe
+  - path: challenge.yml
+    algorithm: sha256
+    value: fd766a0d00e90fc178d176887c5402734862b559e12f161806c08331176ded8e
+  - path: foundry.toml
+    algorithm: sha256
+    value: 748f170d231a0222192c1523bd93bf3bfbaf818ff8844c6a1f67fa0c9a69c60e
+  - path: src/.env
+    algorithm: sha256
+    value: d7af860e5e8ab390093fedf9170b9b247d81eb60b51995a9a0f19ae90f3a1345
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ca296b49ba7dad6ac806071995a81b8f3d81f67b6cf4c47ef20c8cdced37ba18
+  - path: src/contracts/Karma.sol
+    algorithm: sha256
+    value: c7a29da40c27ebb91f8f9b26d891cc9ee5632bca08a1bc480aaa7348145cc67d
+  - path: src/contracts/Setup.sol
+    algorithm: sha256
+    value: e7d67b270dc938c5d46f03420eacf8e75dd6b9532cbebcd1854043d649333765
+  - path: src/contracts/Treasury.sol
+    algorithm: sha256
+    value: c5f3c20cc18634f82f5a35952ffd38da3b9e5ac0c209e3420b11285ccc574886
+  - path: src/contracts/lib/EnumerableSet.sol
+    algorithm: sha256
+    value: 04f4ce98b3606da39a43997ee16d665abb7f2adf5abfdf1bc66932045bfc1b10
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: 09bd453d5081de89284d5d86c782135cfa6684a71b79344417953ab0c369a570
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 91caef6e726577da9757ca73e52b29e6f266be728c6a666c32e8061bbb984bd9
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-forensics-001
+name: I Did A Thing [Hard]
+slug: 001-i-did-a-thing-hard
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: foren
+description: This PNG is weird.
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: Fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: foren/I Did A Thing
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 25ed5f690bf7f8663d017e2681c6353219dde2de46dcf620ca5ea1ddbedf7104
+  - path: build/flag-original.png
+    algorithm: sha256
+    value: 768b0b7808e18d8b49209010ab90326299de73f6f8eb30906e146a6878a48ead
+  - path: build/generate.py
+    algorithm: sha256
+    value: 7fee306a999df9e21054e9e5708d2902d20df79aa5ebbe0d8dddd9f8e3c7e89e
+  - path: upload/encryptor.py
+    algorithm: sha256
+    value: 9dd7365ae5305d761a8467143f33cfadb4a3984a50670e3e5d12e7e461715e23
+  - path: upload/flag-enc.png
+    algorithm: sha256
+    value: 4d7a21ff6d81839d34429b0761a99a632df683436c735c22f68836cd85e31508
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'I Did A Thing'.

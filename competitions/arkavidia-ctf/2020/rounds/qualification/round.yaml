@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: qualification
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+name: Qualification
+original_name: quals
+sequence: 1
+type: qualification
+delivery: online
+description: null
+dates:
+  start: '2020-01-05'
+  end: '2020-01-05'
+statistics:
+  challenge_count: 13
+  participant_count: null
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: Imported from mabdullahmunir/CTF-Arkavidia-6, a personal repository. The root LICENSE is MIT, copyright
+  2020 mabdullahmunir. Empty init.md files were not copied. No solver files were present. The qualification
+  date is 5 January 2020 from the Arkavidia 6.0 Capture The Flag guidebook.

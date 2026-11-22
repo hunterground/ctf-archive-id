@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-crypto-003
+name: does it curve?
+slug: 003-does-it-curve
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: I’ve always said that math is the highest form of art. I’ve hand crafted this Elliptic Service
+  to be aesthetically pleasing. Does it curve? Oh, it curves beautifully. But art should not be rigid,
+  and no masterpiece should be confined to the limits imposed upon it.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: grwna
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Crypto/does_it_curve
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: fe7cb4e1b4fceca266ba5226a8ddceb8f8bc6bff851a52757cc0a316f2b77b1c
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 6a6c7e0c65915bb88ea20babaa513b2a00147e807b09004c93289978f8ef611d
+  - path: dist/ecc.py
+    algorithm: sha256
+    value: aa99cdd0c947566a590d6a121befa78c694e00734c3b0dcb8dee625938166c6c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: f2b38839781f31fca5d7707e6762b58ec156b01ad5b6c1fe6e8caef007588ada
+  - path: src/chall.py
+    algorithm: sha256
+    value: 6a6c7e0c65915bb88ea20babaa513b2a00147e807b09004c93289978f8ef611d
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c3a68af7a21bff9f872bd5dac53d6b8800c412077fe9d016e2ccfede9931fde3
+  - path: src/ecc.py
+    algorithm: sha256
+    value: aa99cdd0c947566a590d6a121befa78c694e00734c3b0dcb8dee625938166c6c
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9b8207d3ca06c78f311ba46dc7a1803c7b046d2f2ee99a0bdcf1d9b9bb1074f1
+  - path: src/run.sh
+    algorithm: sha256
+    value: 29f97e4617e1b9c88f50423a2536f2ed2d2f11c413c0dcc58489eaac69fa2cb5
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

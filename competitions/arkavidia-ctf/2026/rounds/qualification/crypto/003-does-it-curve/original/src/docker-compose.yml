@@ -1,0 +1,14 @@
+version: '3'
+services:
+  invalid_curve:
+    build: .
+    restart: on-failure
+    container_name: 'invalid_curve'
+    read_only: true
+    environment:
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+    tmpfs:
+      - /tmp
+    ports:
+      - 8455:8455

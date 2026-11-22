@@ -1,0 +1,168 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+#include <time.h>
+
+unsigned char bytecode[] = { 0x1C, 0x55, 0x14, 0xB3, 0x1C, 0x54, 0x14, 0x67, 0x1C, 0x57, 0x14, 0x07, 0x1C, 0x56, 0x14, 0x08, 0x1C, 0x51, 0x14, 0x2B, 0x1C, 0x50, 0x14, 0x57, 0x21, 0x57, 0xFF, 0xB6, 0xF9, 0x14, 0xF0, 0x21, 0x57, 0xFF, 0xB6, 0xF8, 0x14, 0x2D, 0x21, 0x57, 0xFF, 0xB6, 0xF7, 0x14, 0x24, 0x21, 0x57, 0xFF, 0xB6, 0xF6, 0x14, 0x16, 0x21, 0x57, 0xFF, 0xB6, 0xF5, 0x14, 0xC0, 0x21, 0x57, 0xFF, 0xB6, 0xF4, 0x14, 0xB3, 0x21, 0x57, 0xFF, 0xB6, 0xF3, 0x14, 0xE0, 0x1C, 0x58, 0x38, 0x60, 0x1C, 0x5B, 0x38, 0x37, 0x1C, 0x5A, 0x38, 0x3F, 0x1C, 0x45, 0x38, 0xA0, 0x1C, 0x44, 0x38, 0xF2, 0x1C, 0x47, 0x38, 0x3C, 0x1C, 0x46, 0x38, 0xEF, 0x1C, 0x41, 0x3C, 0x8C, 0x34, 0x34, 0x1C, 0x40, 0x3C, 0x59, 0x34, 0x34, 0x1C, 0x43, 0x3C, 0x98, 0x34, 0x34, 0x1C, 0x42, 0x3C, 0x89, 0x34, 0x34, 0x1C, 0x4D, 0x3C, 0x6E, 0x34, 0x34, 0x1C, 0x4C, 0x3C, 0x47, 0x34, 0x34, 0x1C, 0x4F, 0x3C, 0xCF, 0x34, 0x34, 0x3D, 0xD0, 0x82, 0xD8, 0xB3, 0x3D, 0xD0, 0x85, 0xD8, 0x4E, 0x3D, 0xD0, 0x84, 0xD8, 0x6B, 0x3D, 0xD0, 0x87, 0xD8, 0xF0, 0x3D, 0xD0, 0x86, 0xD8, 0x80, 0x3D, 0xD0, 0xB9, 0xD8, 0xB8, 0x3D, 0xD0, 0xB8, 0xD8, 0xCE, 0x3D, 0xD0, 0xBB, 0xD8, 0x8E, 0x3D, 0xD0, 0xBA, 0xD8, 0xF9, 0x3D, 0xD0, 0xBD, 0xD8, 0x02, 0x3D, 0xD0, 0xBC, 0xD8, 0x89, 0x3D, 0xD0, 0xBF, 0xD8, 0xA6, 0x3D, 0xD0, 0xBE, 0xD8, 0x3C, 0x3D, 0xD0, 0xB1, 0xD8, 0xFF, 0x3D, 0xD0, 0xB0, 0xD8, 0x7B, 0x3D, 0xD0, 0xB3, 0xD8, 0xF4, 0x3D, 0xD0, 0xB2, 0xD8, 0xF0, 0x30 };
+
+unsigned char reward[] = { 0xEC, 0x74, 0x1E, 0x1C, 0x39, 0x38, 0x85, 0x39, 0x23, 0x08, 0xD4, 0xB0, 0xCE, 0x50, 0x84, 0x66, 0xBD, 0xA9, 0x30, 0xC7, 0xEF, 0x7F, 0xFD, 0xEE, 0x09, 0x4E, 0xF1, 0x1B, 0xA2, 0x80, 0x5D, 0x46, 0x4C, 0x66, 0x7F, 0x54, 0xAC, 0x23, 0x60, 0xD2, 0x57, 0xD5, 0x05, 0x59, 0x93, 0x05, 0x0D, 0x15, 0x4F, 0x4F, 0xD8, 0x72 };
+
+int reward_len = 52;
+
+#define GLOBAL_KEY 0x55
+
+int sp_cookie = 0x5F3759DF; 
+int encrypted_sp = 0x5F3759DF; 
+int stack[1024];
+unsigned char encoded_input[256];
+
+#define PUSH(val) { \
+    int real_idx = encrypted_sp ^ sp_cookie; \
+    real_idx++; \
+    if(real_idx >= 1024) exit(99); \
+    stack[real_idx] = val; \
+    encrypted_sp = real_idx ^ sp_cookie; \
+}
+
+#define POP() ({ \
+    int real_idx = encrypted_sp ^ sp_cookie; \
+    int val = stack[real_idx]; \
+    real_idx--; \
+    encrypted_sp = real_idx ^ sp_cookie; \
+    val; \
+})
+
+unsigned long long rdtsc() {
+    unsigned int lo, hi;
+    __asm__ __volatile__ ("rdtsc" : "=a" (lo), "=d" (hi));
+    return ((unsigned long long)hi << 32) | lo;
+}
+
+void encode_input(char *input) {
+    int len = strlen(input);
+    if (len > 255) len = 255;
+    unsigned char key = 0xA7;
+    for(int i=0; i<len; i++) {
+        unsigned char val = (unsigned char)input[i];
+        encoded_input[i] = ((val ^ key) + (i * 13)) & 0xFF;
+        key = ((key * 7) ^ encoded_input[i]) & 0xFF; 
+    }
+}
+
+void vm_cpu(int input_len) {
+    int ip = 0;
+
+    static void *dispatch_table[256] = {
+        [0 ... 255] = &&OP_CRASH,
+        
+        [0x48] = &&OP_PUSH_VAL,   // H
+        [0x49] = &&OP_PUSH_INPUT, // I
+        [0x55] = &&OP_ADD,        // U
+        [0x52] = &&OP_XOR,        // R
+        [0x41] = &&OP_CHECK,      // A
+        [0x6D] = &&OP_MANGLE,     // m
+        [0x69] = &&OP_TRAVERSE,   // i
+        [0x68] = &&OP_TIME_BOMB,  // h
+        [0x61] = &&OP_NOP,        // a
+        [0x74] = &&OP_MORPH,      // t
+        [0x65] = &&OP_EXIT        // e
+    };
+
+    goto *dispatch_table[bytecode[ip]];
+
+    OP_PUSH_VAL: {
+        ip++; PUSH(bytecode[ip]); ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_PUSH_INPUT: {
+        ip++; 
+        int idx = bytecode[ip];
+        if(idx >= input_len) exit(1);
+        PUSH(encoded_input[idx]); 
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_ADD: {
+        int a = POP(); int b = POP();
+        PUSH(a + b);
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_XOR: {
+        int a = POP(); int b = POP();
+        PUSH(a ^ b);
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_CHECK: { 
+        ip++;
+        int val = POP();
+        if (val != bytecode[ip]) sp_cookie ^= 0xDEADBEEF; 
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_MANGLE: { 
+        ip++;
+        int val = POP();
+        int target = bytecode[ip];
+        int res = ((val + 13) * 3) & 0xFF; // Fixed Math
+        res ^= 0x55;
+        if (res != target) sp_cookie ^= 0xCAFEBABE;
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_TRAVERSE: { 
+        ip++;
+        int key = bytecode[ip];
+        int val = POP();
+        int offset = val ^ key;
+        ip += offset; 
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_TIME_BOMB: { 
+        ip++;
+        unsigned long long start = rdtsc();
+        for(volatile int k=0; k<50; k++); 
+        unsigned long long end = rdtsc();
+        unsigned long long delta = end - start;
+        unsigned char key = (delta > 1000000) ? 0xAD : 0xCC; 
+        for(int i=0; i<4; i++) bytecode[ip+i] ^= key;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_MORPH: { 
+        ip++;
+        int count = bytecode[ip]; ip++;
+        int xor_key = bytecode[ip]; ip++;
+        for(int i=0; i<count; i++) bytecode[ip+i] ^= xor_key;
+        goto *dispatch_table[bytecode[ip]];
+    }
+    OP_NOP: {
+        ip++;
+        goto *dispatch_table[bytecode[ip]];
+    }
+
+    OP_EXIT: {
+        for(int i=0; i<reward_len; i++) {
+            unsigned char key = encoded_input[i % input_len];
+            printf("%c", reward[i] ^ key);
+        }
+        printf("\n");
+        exit(0);
+    }
+    OP_CRASH: { exit(139); }
+}
+
+int main(int argc, char **argv) {
+    if(argc != 2) {
+        printf("Usage: %s <flag>\n", argv[0]);
+        return 1;
+    }
+
+    encode_input(argv[1]);
+
+    for(int i=0; i<sizeof(bytecode); i++) bytecode[i] ^= GLOBAL_KEY;
+    
+    vm_cpu(strlen(argv[1]));
+    return 0;
+}

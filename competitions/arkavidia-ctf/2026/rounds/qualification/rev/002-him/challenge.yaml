@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-rev-002
+name: him
+slug: 002-him
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: |-
+  "Huh? Even though I'm a guy? Have you finally lost your mind, you cosmetic fanatic?"
+
+  "Treat me to Tenya Ramen, three times. *Any less than that and it's not happening.*"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: shwibzka
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Reverse/him
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: f3aac4774bdcc7e20d47897c8a8db2b6305760efd18ee9c6a756ec7d532beb2a
+  - path: dist/him.zip
+    algorithm: sha256
+    value: 71388f52d277b8ee797bd099da05c8562faa1b684cdd7cf5e9fe1778d8d44dec
+  - path: src/him.c
+    algorithm: sha256
+    value: baab0b2ea6296716a6068be89a1843611e718fc74a409e52e2d5a7ce8e5550ef
+  - path: src/him.py
+    algorithm: sha256
+    value: bfa75c747018b09329ac7fbbc2bb8b97c84bf6ef4437bc869365044af6a79b70
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

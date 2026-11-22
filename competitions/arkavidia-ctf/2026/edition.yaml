@@ -1,20 +1,30 @@
 schema_version: '1.0'
-id: arkavidia-ctf-2026
+id: arkavidia-10-ctf
 competition_id: arkavidia-ctf
 year: 2026
-name: Arkavidia 11.0 Capture The Flag
-status: unknown
+name: Arkavidia 10.0 Capture The Flag
+status: completed
 verification: corroborated
 dates:
   start: null
-  end: null
+  end: '2026-03-01'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 59
 references:
-- title: Arkavidia competitions
-  url: https://arkavidia.com/competitions
-  type: official_website
+- title: Problemset CTF Arkavidia 10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Arkavidia 11.0 includes Capture The Flag. Competition dates were not stated on the pages reviewed.
+- title: Tim Jollybee BINUS at Arkavidia 10.0
+  url: https://socs.binus.ac.id/2026/03/15/tim-jollybee-binus-raih-prestasi-di-arkavidia-10-0-pada-cabang-competitive-programming/
+  type: other
+  accessed: '2026-11-21'
+challenge_materials_imported: true
+notes: The problem-set README leaves the event dates as placeholders. The edition end is 1 March 2026, the
+  Arkavidia 10.0 final date reported by BINUS University for the festival final at ITB Ganesha and the date
+  on a participant Capture The Flag final write-up. Warmup and qualification dates are not stated. 24 warmup,
+  23 qualification, and 12 final challenges were copied from commit eb2eb0ddd14e604df9d0e6b61546ad2f0463a719.
+  The repository has no root LICENSE file and was recorded as MIT on maintainer instruction on 2026-11-21.
+  quals/Web/savior/LICENSE is MIT, copyright 2023 Dimas Maulana. Warmup names overlap Arkavidia 9.0
+  qualification names; the trees are not identical.

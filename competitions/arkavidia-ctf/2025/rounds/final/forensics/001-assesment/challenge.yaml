@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-final-forensics-001
+name: Assesment
+slug: 001-assesment
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: forensics
+description: |-
+  After I woke up, the leader of the Shadow Killers asked me to join them. He threatened to hurt Chizuru if I refused. But after hearing their vision—a group of outcasts seeking justice in their own way—I saw that their ideals matched mine. I accepted, on the condition that I'd still live freely like a normal person. I know joining them means I can't be with Chizuru, but I trust God has a plan for us. To prove myself, I've been tasked with investigating the theft of crucial data needed to defeat the Stan organization. It's time they see who I really am.
+
+  <div style="text-align:center; margin:1em 0;">
+  <img
+    src="https://media1.tenor.com/m/f1eM-76-XkIAAAAd/scissor-seven-cike-wu-liuqi.gif"
+    style="max-width:80%; height:auto; border-radius:6px;"
+    alt="shadow killers"
+  />
+  </div>
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: darmodar
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: finals/forensics/Assesment
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1f9b7cc8116858306938a74ac84a2a89f4a79f5b004b731268e839f2e98629e8
+  - path: dist/Assesment.pcapng
+    algorithm: sha256
+    value: 8ab0903553fcfcdea86bdae328f7a0352e5bc5029cbafbb8feb4109d28e00491
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The repository README states that final challenges are Hard. This challenge.yml has no difficulty
+  tag.

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-rev-005
+name: umapyoi
+slug: 005-umapyoi
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: |-
+  Thank you so much for today. Actually, no—thank you for being there for me *every* day.
+  Look at how far we've come.
+  All these people supporting me—supporting *us*.
+
+  Are you... glad to have been my trainer?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: shwibzka
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Reverse/umapyoi
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 22443b60fed84e1de1af02f446dc295019db7d29c17d77ffc5a929a6972791ab
+  - path: dist/umapyoi.zip
+    algorithm: sha256
+    value: 769089e64ae75dd530c1f2e20f46fb1bfbb09ad03652a6d117a3783f8f9439e5
+  - path: src/dots
+    algorithm: sha256
+    value: 0ccb5262a3458942f04b52f749671f3fc3cc11fd2e4eb57355065f9eb5319361
+  - path: src/umapyoi.py
+    algorithm: sha256
+    value: 0002c884682de4b0af1c032d7f9cc4b9661f84f06da0a5b876250da47de138b6
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

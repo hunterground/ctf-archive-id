@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Konoha Fate Weaver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>Konoha Fate Weaver</h1>
+        <p class="sub">Input two names to weave their destiny. 8x8 = 6x4.</p>
+        <form action="/search" method="get">
+            <div>
+                <label for="name1">First Name</label>
+                <input id="name1" name="name1" type="text" placeholder="e.g., Naruto">
+            </div>
+            <div>
+                <label for="name2">Second Name</label>
+                <input id="name2" name="name2" type="text" placeholder="e.g., Sasuke">
+            </div>
+            <div style="margin-top: 15px;">
+                <button class="btn btn-accent" type="submit">Weave Fate</button>
+            </div>
+        </form>
+    </div>
+    <audio id="bgm" src="{{ url_for('static', filename='audio/theme.mp3') }}" autoplay loop></audio>
+</body>
+</html>

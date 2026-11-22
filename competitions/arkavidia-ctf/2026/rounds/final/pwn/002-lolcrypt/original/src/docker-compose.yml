@@ -1,0 +1,8 @@
+name: pwn-lolcrypt
+services:
+  chall:
+    build: .
+    ports:
+      - "8998:8998"
+    restart: always
+    container_name: lolcrypt

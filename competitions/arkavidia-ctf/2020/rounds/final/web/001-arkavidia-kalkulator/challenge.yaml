@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-final-web-001
+name: Arkavidia Kalkulator
+slug: 001-arkavidia-kalkulator
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: rozium
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: final/arkavidia-kalkulator
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 77089620cff622ad9388bd214d09c7f38a5974a78629e602b675a34b6b98943f
+  - path: Dockerfile
+    algorithm: sha256
+    value: 1113539fa9765ca0f78b73d069e3f97ddd93b538e2547caa1c78fdf4f77d6924
+  - path: README.md
+    algorithm: sha256
+    value: 7d1c8cc61c959c858b0b7992b2abab8392a87a3ca0d8e854ecaf3af573eca5c4
+  - path: chall/app.py
+    algorithm: sha256
+    value: 433de5a3e09cbe2f2a6b99e1562e4d407632c84978f7f34ad2565a68354f6362
+  - path: chall/blacklist
+    algorithm: sha256
+    value: f3eba27ca0b587f55cfe6e7f08dea4e977f3cc6fc628d9c201929b6a91659507
+  - path: chall/requirements.txt
+    algorithm: sha256
+    value: 480347060a95816d6c9791a2f5a9712f5969fc8be161fb1d21d48e1bde439310
+  - path: chall/static/images/hackerman.jpg
+    algorithm: sha256
+    value: fc931136111f022644c6aad3813aeae431fd32f1363eb2dfb94c324e2fbf5623
+  - path: chall/templates/about.html
+    algorithm: sha256
+    value: 492b302f6951d3af11f6219db44a50b09dd3fd74d3020c1740e12f58d2a3da67
+  - path: chall/templates/base.html
+    algorithm: sha256
+    value: f6744562734bc4c17f843eb87a53b15eada5d4c63be69f8c480f9db6bb1df423
+  - path: chall/templates/calc.html
+    algorithm: sha256
+    value: 40abe4fc43a6151ce91ca73077d713dc5be54d7026095544e8ce34bf8ad05d24
+  - path: chall/templates/index.html
+    algorithm: sha256
+    value: 00d5765fc7af93032f60f1e1dc281506e56789d30d5d233c150693c4c2db3634
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ece0005a1c37a3a8aaa9da7846382e2881d3a1cc6e8567d975911f1eb6c92d2c
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  dfir-qna:
+    build: .
+    restart: on-failure
+    container_name: dfir-qna
+    read_only: true
+    ports:
+      - "8342:8342"

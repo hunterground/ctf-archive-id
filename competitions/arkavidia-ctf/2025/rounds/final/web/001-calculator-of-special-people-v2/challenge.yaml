@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: arkavidia-9-ctf-final-web-001
+name: Calculator of Special People v2
+slug: 001-calculator-of-special-people-v2
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: web exploitation
+description: A new and improved Love Calculator with enhanced precision ❤️😉
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: um
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2025-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav9
+  commit: d3a71c6c24544b0237c078c7ec93d4235de61067
+  original_path: finals/web exploitation/Calculator of Special People v2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: cfd99c5c170f1e661e268d334127f655349ae006fe72d59b515b6a67a18a29a5
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 8069487cbddea1df3d586d6bd200efd7536e4a76b488465b6908ff2706a64563
+  - path: src/.env
+    algorithm: sha256
+    value: 4e0625eb46b923fe837f356fcbe9173a4173420b223e7ac8b191887b579b978c
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: 830f0d012026f02b314adffb39025bfe98978183344829555fda3288d7892f14
+  - path: src/app/src/app.py
+    algorithm: sha256
+    value: 12f743ff614570a5999aed67a447709ac4404d0b8e260209d68b6e8b5d42d6a5
+  - path: src/app/src/requirements.txt
+    algorithm: sha256
+    value: 09721ecb6d0151460f7f4fa6356620d4f69b186aeb4daedad2bf6d41023eb722
+  - path: src/app/src/templates/hacker.html
+    algorithm: sha256
+    value: 9067de20067d80325199c04a084f2153ca22379decdf3f18546fcbd840f5774c
+  - path: src/app/src/templates/index.html
+    algorithm: sha256
+    value: 6ed9d4589f21061ccb4d14a1c3549fde471cbdea1817ee5d26f281fd9b61f0ef
+  - path: src/app/src/templates/layout.html
+    algorithm: sha256
+    value: f93b559f495c1e17dc260a91fdbb824c436958041f2254210bbe584a68f42ba2
+  - path: src/app/src/templates/love.html
+    algorithm: sha256
+    value: 86937985912059cdf94eb003a24dacd82aa750221715b28964f0333667ec2145
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 14a307386c6e6da0c276e5600cad56f790a5427efb55e77cfcf94520f47414f7
+  - path: src/internal_app/Dockerfile
+    algorithm: sha256
+    value: e5fe12ffcc388d9fb435f15b8bd3e392fb10e8dd810e0a68c371e94b3b759023
+  - path: src/internal_app/src/GeoLite2-Country.mmdb
+    algorithm: sha256
+    value: a4a1c9afe269f93478c8b89eaddf1675ba4aab2a227f50ccacde09b34eeaed0b
+  - path: src/internal_app/src/app.py
+    algorithm: sha256
+    value: 1b960a6915ee41a3f5b070384d3d0465c94d4581f5168742a8916024dd4a44b8
+  - path: src/internal_app/src/flag.txt
+    algorithm: sha256
+    value: 657a739b705a482c21e7d8e9774c21509fd58428a86a25c2fbbf49e0484caadb
+  - path: src/internal_app/src/requirements.txt
+    algorithm: sha256
+    value: 7597e300ae70aa62f995bc2eda68c9e51a1ce3a8255358902113cdb0f027b084
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The repository README states that final challenges are Hard. This challenge.yml has no difficulty
+  tag.

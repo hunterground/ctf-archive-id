@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: qualification
+competition_id: arkavidia-ctf
+edition_year: 2025
+division_id: null
+name: Qualification
+original_name: quals
+sequence: 2
+type: qualification
+delivery: online
+description: null
+dates:
+  start: '2025-02-23'
+  end: '2025-02-23'
+statistics:
+  challenge_count: 26
+  participant_count: null
+references:
+- title: ProbsetCTFArkav9
+  url: https://github.com/ctf-itb/ProbsetCTFArkav9
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: Imported from ctf-itb/ProbsetCTFArkav9. The repository has no LICENSE file. On 2026-11-21 the archive
+  was instructed to record this source as MIT. Sequence numbers are alphabetical by challenge name within
+  each category. Repository tooling (README.md, sync.sh, .github, and .ctf) was not copied into the challenges.

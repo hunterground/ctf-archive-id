@@ -1,0 +1,114 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-web-002
+name: Tarot Cards
+slug: 002-tarot-cards
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Blame `fraglantia` for this...
+
+  Unrelated - https://youtu.be/Ef4c9JQumU4
+
+  - Note: Format flag `Arkav7{}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: haverzard
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: web/TarotCards
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3cce13bcb87519cd449d37e7732197922c2b1fed3fa727f9f715ba223e30b3ad
+  - path: chall/.dockerignore
+    algorithm: sha256
+    value: a6f57d5902b503843cdbfe18a0a5c9cee7d0d755da119b7dd3483096c57421c7
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 3f026d8c1ab06a1b1d04616fab9e521a196b50ecda04b3180c06300cb9074b6c
+  - path: chall/chall.py
+    algorithm: sha256
+    value: 02dbcedfaa374857e0204c0aaf3266dced113000c12c2b7e70c5041cca33d4fb
+  - path: chall/requirements.txt
+    algorithm: sha256
+    value: c0862201e27e10f591cc0e3fb8d1dd4f6a4af2559d04a71fb0cb142d59b2f6b7
+  - path: chall/static/Hanged Man.png
+    algorithm: sha256
+    value: cafe0807de5d9aab7978c5c91ab95c1482bc82271a19c3ba5a1c84bd078ae50b
+  - path: chall/static/The Fool.png
+    algorithm: sha256
+    value: 9d454988c4d8ae34260d1ebf3c39937d26f1b20695a3a1f0a887e1e17a3453fa
+  - path: chall/static/The Tower.png
+    algorithm: sha256
+    value: 90603c8c0569bceab72dc68bff3a78207733b931edf286e782b3db8c2b2713e0
+  - path: chall/static/Wheel of Fortune.png
+    algorithm: sha256
+    value: 5c5e1a8ef067d78aa88bb0ee95b8e8e64ceb9d3058396158c0e5e81b157028b2
+  - path: chall/static/logo.png
+    algorithm: sha256
+    value: d614a5d8be14be8fc7e0325271b9e287ae4ff5e958b7129565096cc88f64fa01
+  - path: chall/static/style.css
+    algorithm: sha256
+    value: 65317651a3c6516e1a386376aec2b51d30c8d943e6fe5a5055700e89504e26a6
+  - path: chall/tarots/Hanged Man
+    algorithm: sha256
+    value: 7d32fd4482b1baa055d9da239568141f397ab137603da281098494a6eb9b787d
+  - path: chall/tarots/The Fool
+    algorithm: sha256
+    value: 120305029d15ee24abbe18d15b02e954fadfd8a74cbd26bdedf73a5ec699c811
+  - path: chall/tarots/The Tower
+    algorithm: sha256
+    value: 8b95b688b17b34005ddae0bd54306a0d2027f60f3a184640822bd5ecb5758460
+  - path: chall/tarots/Wheel of Fortune
+    algorithm: sha256
+    value: de4e1876da75895d2fcc384f0c7a5ae1a4b0f97eb95dad9d3a2f44022ce77be5
+  - path: chall/templates/home.html
+    algorithm: sha256
+    value: 1a8fc33a4d3213d0c8d6d76e82a0cd60b8d5e4b2e175ffa89e85dc5eb6aab55a
+  - path: chall/templates/info_layout.html
+    algorithm: sha256
+    value: e35087d129af832ccce8695d4a97846234ed26d7a7e70028291895f76b001162
+  - path: chall/templates/main.html
+    algorithm: sha256
+    value: d74095f242436179847d5a91851c814013d263c89c74b8bfe9f90269f7184881
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 29b62089eaa7f329e56852bdab50d688f6a951d71421740d8878cbad42eb6485
+  - path: flag/obviously_this_is_not_the_flag.txt
+    algorithm: sha256
+    value: 9d70c7a9b32807eeb2453ac51a9bcc626a51ba6c6921180dfb3b2423678910df
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'TarotCards'.

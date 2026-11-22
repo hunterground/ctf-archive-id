@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: prevcloud-web
+    ports:
+      - "8898:8898"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=8379
+    volumes:
+      - prevcloud-uploads:/data/uploads
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - prevcloud-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: prevcloud-redis
+    volumes:
+      - prevcloud-uploads:/uploads
+      - ./redis.conf:/etc/redis/redis.conf:ro 
+      - ./flag.txt:/flag.txt
+    command: redis-server /etc/redis/redis.conf
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "8379", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - prevcloud-net
+
+volumes:
+  prevcloud-uploads:
+    name: prevcloud-uploads
+
+networks:
+  prevcloud-net:
+    driver: bridge

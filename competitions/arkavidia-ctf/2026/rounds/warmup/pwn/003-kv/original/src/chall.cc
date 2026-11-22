@@ -1,0 +1,86 @@
+#include <array>
+#include <atomic>
+#include <climits>
+#include <cstdio>
+#include <iostream>
+#include <limits>
+#include <string>
+#include <thread>
+#include <vector>
+
+#define ARRAY_SIZE 100
+#define MAX_WORKERS 4
+
+std::array<long, ARRAY_SIZE> array{};
+
+auto main() -> int
+{
+    std::string command{};
+    std::vector<std::thread> threads{};
+
+    std::atomic_long index{}, value{};
+
+    auto store = [&] {
+        if (index >= ARRAY_SIZE || index < 0)
+        {
+            std::cout << "invalid index" << '\n';
+            return;
+        }
+        std::cout << "array[" << index << "] = " << (array[index] = value) << std::endl;
+    };
+
+    auto retrieve = [&] {
+        if (index >= ARRAY_SIZE || index < 0)
+        {
+            std::cout << "invalid index" << '\n';
+            return;
+        }
+        std::cout << "array[" << index << "] = " << array[index] << std::endl;
+    };
+
+    while (true)
+    {
+        std::cin >> command;
+        if (command == "store")
+        {
+            long tmp_index, tmp_value;
+            std::cin >> tmp_index >> tmp_value;
+            index.store(tmp_index);
+            value.store(tmp_value);
+            threads.emplace_back(store);
+        }
+        else if (command == "retrieve")
+        {
+            long tmp_index;
+            std::cin >> tmp_index;
+            index.store(tmp_index);
+            threads.emplace_back(retrieve);
+        }
+        else if (command == "exit")
+        {
+            break;
+        }
+        else
+        {
+            std::cout << "unknown command" << std::endl;
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        }
+
+        if (threads.size() >= MAX_WORKERS)
+        {
+            for (auto &t : threads)
+            {
+                if (t.joinable())
+                    t.join();
+            }
+            threads.clear();
+        }
+    }
+
+    for (auto &t : threads)
+    {
+        if (t.joinable())
+            t.join();
+    }
+    return 0;
+}

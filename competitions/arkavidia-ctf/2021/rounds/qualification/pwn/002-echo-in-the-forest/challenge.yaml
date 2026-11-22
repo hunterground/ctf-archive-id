@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-pwn-002
+name: Echo in the Forest
+slug: 002-echo-in-the-forest
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: |-
+  Life goes on ...
+
+  Connect to the server with: `./client <IP> <PORT>`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: pwn/Echo in the Forest
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e619b55665a683fd2bf01b1146819221ddc5f0aa1781605fb72774c120661a3e
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 0428cdcddebf04140b2526c2368b2a0a8647dd82b7e5db6c407c2f4c24ec465a
+  - path: chall/client
+    algorithm: sha256
+    value: c99e2cd588d17d644ac29bbfaee4f045c354e76cd9e1ac64a251cd3b794ec4f9
+  - path: chall/client.c
+    algorithm: sha256
+    value: 2b0071c09d51fd591c6b0812510970bcc1cd47a6b34d90d5dad07e2f97c9d6e2
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 4b38d50204cdc543c1d5030509472f4d96c3b5e6c749fddd00b7a30ad6623d96
+  - path: chall/run.sh
+    algorithm: sha256
+    value: cfcae0882b8f792f31bc3b479f9f2d7fe9567b6261645e3e6478d7c54e9e9049
+  - path: chall/server
+    algorithm: sha256
+    value: a286d4541141feffbfccbef19ad6e86526f8ec15bb21c061f0de190d91c8e338
+  - path: chall/server.c
+    algorithm: sha256
+    value: 285a2af17b34c3ee555089aa32a98e36d08c241453563e6ec82a9585e640733e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4260ddcfbd33bb14c0613051f3fc703f6b4a6d976f3b60e03b2d835c06f5cacc
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

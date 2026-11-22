@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-forensics-002
+name: It's me
+slug: 002-its-me
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: foren
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: girvinjunod
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: foren/It's me
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 93cb767b784247ad46edbcac03672c4201075a106e6f40a7d4b20879a4edf309
+  - path: itsme.jpg
+    algorithm: sha256
+    value: ceb78b3b7572b81b90b9ae2dfdc93be156bda9387927ff23710f70382935bba4
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

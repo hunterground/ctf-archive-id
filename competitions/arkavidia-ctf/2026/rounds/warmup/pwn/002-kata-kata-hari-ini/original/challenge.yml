@@ -1,0 +1,24 @@
+name: "Kata-kata hari ini"
+category: binary exploitation
+description: |- 
+    Pilih ku kasih 50rb secara cuma-cuma atau 100rb kasih kata-kata?
+
+    Author: **Chovid99**
+
+value: 1000
+type: dynamic
+extra:
+    initial: 1000
+    decay: 30
+    minimum: 100
+
+connection_info: nc 20.198.220.171 8044
+
+flags:
+    - ARKAV{p3m1liHaN_k4ta_kaTa_y4ng_s3dAp_d4n_m4hAL!!KeLaZz!!}
+
+files:
+    - dist/dist.zip
+
+state: hidden
+version: "0.1"

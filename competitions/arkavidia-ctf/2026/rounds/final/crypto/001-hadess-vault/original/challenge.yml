@@ -1,0 +1,28 @@
+name: "Hades's Vault"
+
+category: cryptography
+description: |- 
+    🤷‍♂️
+
+    Author: **Etynso**
+
+attribution: Etynso
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+
+connection_info: nc <> 8337
+
+flags:
+    - ARKAV{bb24ba1623273f667a7ecfb17a471a5341f4b6d45d26e7cf471de6b040e27e62}
+
+files:
+    - dist/chall.py
+
+state: hidden
+
+version: "0.1"

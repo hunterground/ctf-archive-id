@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-rev-001
+name: aksarajawa
+slug: 001-aksarajawa
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: Bahkan orang Bandung pun belajar aksara jawa.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: suggoitanoshi
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: rev/Welcome Despair
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 418924e02eb4e10fe68719912d6c3486b46397238cf2a2916614f49508f7d026
+  - path: chall/trial.js
+    algorithm: sha256
+    value: 94c265ed789e5594a2991909c0964c55ee794452c00795493a161626c993b505
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'Welcome Despair'.

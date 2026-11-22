@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-crypto-001
+name: 007-1
+slug: 001-007-1
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: 007 in charge, what could possibly go wrong?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Hash length extension attack
+authors:
+- name: nightmare
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/crypto/007-1
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 3430e84e33bb927fed15f1d9e1a571ab6c345264637ef7e066ac67d4b2adb22d
+  - path: chall/chall.py
+    algorithm: sha256
+    value: ee11b40b5f9079e225368628f01610484c0a775ce74dd911beb9e530814876a4
+  - path: chall/content.txt
+    algorithm: sha256
+    value: 8979be1dca9c3d429179121d6d3231d33e299e4634fd2f7de5fe6b5317053d3f
+  - path: chall/run.sh
+    algorithm: sha256
+    value: dd35a00d16d792db0a5213e783930a488355f62f6267d185627cce20c6ae121a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b9f59357f6f91cf3d71c74f0672b9952a488bb7b83c0f6a46eb5a7dd6870578e
+  - path: readme.md
+    algorithm: sha256
+    value: 62d3fe167cd65212a2cfa9498af8ccd7f3d4b7c5fe18ae654fb56fad5395a251
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

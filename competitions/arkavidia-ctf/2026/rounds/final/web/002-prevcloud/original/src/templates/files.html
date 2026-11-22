@@ -1,0 +1,250 @@
+{% extends "base.html" %}
+{% block title %}Files - PrevCloud{% endblock %}
+{% block head %}
+<style>
+    .upload-zone {
+        border: 2px dashed var(--nc-border);
+        border-radius: var(--radius);
+        padding: 40px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.2s;
+        background: white;
+        margin-bottom: 24px;
+    }
+    .upload-zone:hover, .upload-zone.dragover {
+        border-color: var(--nc-blue);
+        background: var(--nc-blue-light);
+    }
+    .upload-zone svg { width: 48px; height: 48px; opacity: 0.4; margin-bottom: 12px; }
+    .upload-zone h3 { font-size: 1rem; margin-bottom: 4px; }
+    .upload-zone p { font-size: 0.85rem; color: var(--nc-text-light); }
+    .view-toggle { display:flex; gap:4px; }
+    .view-btn {
+        padding: 6px 10px;
+        border: 1px solid var(--nc-border);
+        border-radius: 6px;
+        background: white;
+        cursor: pointer;
+        color: var(--nc-text-light);
+    }
+    .view-btn.active { background: var(--nc-blue); color: white; border-color: var(--nc-blue); }
+    .file-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 16px; }
+    .file-card {
+        background: white;
+        border: 1px solid var(--nc-border);
+        border-radius: var(--radius);
+        padding: 16px;
+        text-align: center;
+        transition: box-shadow 0.15s;
+        position: relative;
+    }
+    .file-card:hover { box-shadow: var(--shadow-lg); }
+    .file-card-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 0 auto 10px;
+    }
+    .file-card-img {
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+    .file-card-name {
+        font-size: 0.8rem;
+        font-weight: 500;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .file-card-meta { font-size: 0.72rem; color: var(--nc-text-light); margin-top: 4px; }
+    .file-card-actions {
+        display: none;
+        position: absolute;
+        top: 8px; right: 8px;
+        gap: 4px;
+    }
+    .file-card:hover .file-card-actions { display: flex; }
+    .icon-btn {
+        width: 28px;
+        height: 28px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border: 1px solid var(--nc-border);
+        cursor: pointer;
+        text-decoration: none;
+        color: var(--nc-text);
+        font-size: 0.75rem;
+    }
+    .icon-btn:hover { background: var(--nc-bg); }
+    .icon-btn.danger:hover { background: #fee2e2; color: #dc2626; border-color: #fca5a5; }
+    #fileInput { display: none; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Files</h1>
+    <div style="display:flex;align-items:center;gap:12px;">
+        <div class="view-toggle">
+            <button class="view-btn active" id="gridBtn" onclick="setView('grid')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </button>
+            <button class="view-btn" id="listBtn" onclick="setView('list')">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            </button>
+        </div>
+        <button class="btn btn-primary" onclick="document.getElementById('fileInput').click()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+            Upload
+        </button>
+    </div>
+</div>
+
+<!-- Upload zone -->
+<div class="upload-zone" id="uploadZone" onclick="document.getElementById('fileInput').click()">
+    <form method="POST" action="{{ url_for('upload_file') }}" enctype="multipart/form-data" id="uploadForm">
+        <input type="file" id="fileInput" name="file" onchange="this.form.submit()">
+    </form>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/>
+        <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/>
+    </svg>
+    <h3>Drop files here or click to upload</h3>
+    <p>Supports images, PDFs, documents, videos, audio, and archives</p>
+</div>
+
+<!-- URL image upload -->
+<div style="margin-bottom:24px;">
+    <form method="POST" action="{{ url_for('upload_from_url') }}" id="urlUploadForm" onclick="event.stopPropagation()">
+        <div style="display:flex;gap:8px;align-items:center;background:white;border:1px solid var(--nc-border);border-radius:var(--radius);padding:10px 14px;box-shadow:var(--shadow);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" stroke-width="2" flex-shrink="0" style="flex-shrink:0"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            <input type="url" name="image_url" placeholder="Paste image URL to import (https://example.com/photo.jpg)" required
+                style="flex:1;border:none;outline:none;font-size:0.9rem;font-family:inherit;color:var(--nc-text);background:transparent;"
+                onclick="event.stopPropagation()">
+            <button type="submit" class="btn btn-primary btn-sm" onclick="event.stopPropagation()" style="flex-shrink:0;">
+                Import Image
+            </button>
+        </div>
+    </form>
+</div>
+
+{% if files %}
+<!-- GRID VIEW -->
+<div id="gridView" class="file-grid">
+    {% for file in files %}
+    {% set ext = file.ext %}
+    {% set is_img = ext in ['png','jpg','jpeg','gif','webp','svg'] %}
+    {% set fi_class = 'fi-img' if is_img else 'fi-pdf' if ext == 'pdf' else 'fi-vid' if ext in ['mp4','avi','mov'] else 'fi-aud' if ext in ['mp3','wav'] else 'fi-zip' if ext in ['zip','rar'] else 'fi-doc' if ext in ['doc','docx','txt','md'] else 'fi-default' %}
+    <div class="file-card">
+        <div class="file-card-actions">
+            <a href="{{ url_for('download_file', filename=file.name) }}" class="icon-btn" title="Download">↓</a>
+            <form method="POST" action="{{ url_for('delete_file', filename=file.name) }}" onsubmit="return confirm('Delete {{ file.name }}?')" style="display:inline;">
+                <button type="submit" class="icon-btn danger" title="Delete">✕</button>
+            </form>
+        </div>
+        {% if is_img %}
+            <a href="{{ url_for('view_file', filename=file.name) }}" target="_blank">
+                <img src="{{ url_for('view_file', filename=file.name) }}" alt="{{ file.name }}" class="file-card-img">
+            </a>
+        {% else %}
+            <a href="{{ url_for('download_file', filename=file.name) }}">
+                <div class="file-card-icon {{ fi_class }}">{{ ext[:4] if ext else '???' }}</div>
+            </a>
+        {% endif %}
+        <div class="file-card-name" title="{{ file.name }}">{{ file.name }}</div>
+        <div class="file-card-meta">{{ file.size_human }}</div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- LIST VIEW -->
+<div id="listView" style="display:none;">
+    <div class="card">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Size</th>
+                    <th>Modified</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for file in files %}
+                {% set ext = file.ext %}
+                {% set is_img = ext in ['png','jpg','jpeg','gif','webp','svg'] %}
+                {% set fi_class = 'fi-img' if is_img else 'fi-pdf' if ext == 'pdf' else 'fi-vid' if ext in ['mp4','avi','mov'] else 'fi-aud' if ext in ['mp3','wav'] else 'fi-zip' if ext in ['zip','rar'] else 'fi-doc' if ext in ['doc','docx','txt','md'] else 'fi-default' %}
+                <tr>
+                    <td style="display:flex;align-items:center;gap:12px;">
+                        <div class="file-icon {{ fi_class }}" style="width:32px;height:32px;font-size:0.6rem;">{{ ext[:3] if ext else '???' }}</div>
+                        {{ file.name }}
+                    </td>
+                    <td>{{ file.size_human }}</td>
+                    <td>{{ file.modified }}</td>
+                    <td>
+                        <div style="display:flex;gap:8px;">
+                            {% if is_img %}
+                            <a href="{{ url_for('view_file', filename=file.name) }}" target="_blank" class="btn btn-secondary btn-sm">View</a>
+                            {% endif %}
+                            <a href="{{ url_for('download_file', filename=file.name) }}" class="btn btn-secondary btn-sm">Download</a>
+                            <form method="POST" action="{{ url_for('delete_file', filename=file.name) }}" onsubmit="return confirm('Delete {{ file.name }}?')" style="display:inline;">
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% else %}
+<div class="card">
+    <div class="empty-state">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        <h3>No files yet</h3>
+        <p>Upload your first file to get started.</p>
+    </div>
+</div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+function setView(v) {
+    document.getElementById('gridView').style.display = v === 'grid' ? 'grid' : 'none';
+    document.getElementById('listView').style.display = v === 'list' ? 'block' : 'none';
+    document.getElementById('gridBtn').classList.toggle('active', v === 'grid');
+    document.getElementById('listBtn').classList.toggle('active', v === 'list');
+}
+
+// Drag and drop
+const zone = document.getElementById('uploadZone');
+zone.addEventListener('dragover', e => { e.preventDefault(); zone.classList.add('dragover'); });
+zone.addEventListener('dragleave', () => zone.classList.remove('dragover'));
+zone.addEventListener('drop', e => {
+    e.preventDefault();
+    zone.classList.remove('dragover');
+    const file = e.dataTransfer.files[0];
+    if (file) {
+        const input = document.getElementById('fileInput');
+        const dt = new DataTransfer();
+        dt.items.add(file);
+        input.files = dt.files;
+        document.getElementById('uploadForm').submit();
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-rev-002
+name: Old School
+slug: 002-old-school
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: re
+description: Hmm, found old program. Can you crack it?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- 16-bit architecture
+authors:
+- name: djavaa
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/re/Old School
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c43699f158826fb8bca484d4ff7a582dde188b6cd15613b9cc8a73473eb7f236
+  - path: old_school.com
+    algorithm: sha256
+    value: 8333468a8110ee4bf18e04db21946b4b868ff90ff0f21e2eb5ddf3424ef82345
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

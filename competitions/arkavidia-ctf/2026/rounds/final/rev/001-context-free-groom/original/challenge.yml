@@ -1,0 +1,24 @@
+name: "Context-Free Groom"
+category: reverse engineering
+description: |-
+    You know... I think Noam Chomsky dreams for this.
+    <div style="text-align:center; margin:1em 0;">
+    <img
+      src="https://www.rnz.co.nz/news/world/582261/new-jeffrey-epstein-photos-include-noam-chomsky-and-bill-gates"
+      style="max-width:80%; height:auto; border-radius:6px;"
+      alt="idk"
+    />
+    </div>
+    Author: **Kurond**
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+flags:
+    - ARKAV{Ch0smky_Gr3at3st_Dr34m55}
+files:
+    - dist/dist.zip
+state: hidden
+version: "0.1"

@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-pwn-004
+name: WWW 0
+slug: 004-www-0
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: pwn
+original_category: binary exploitation
+description: Namanya bukan "WWW 3" karena takutnya koch zafir udah bikin :D
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/binary exploitation/WWW 0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Makefile
+    algorithm: sha256
+    value: 67b08997aeda2fbf6830baed618813d24e0cdf793ac1c08261d686d3f7f304d3
+  - path: challenge.yml
+    algorithm: sha256
+    value: f835362caecdffcbfd3f4ea8ac90bc5cce630197b818478e58abbd9add0ee5db
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 2c29a3d731cb4cee8302640d441a38f847be382e4540836b338e0abcb2a0763f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a032ec4a1ac9117109e3f25b32a1b73560add5ebb3bd5ae795d7bd26079632e8
+  - path: src/chall
+    algorithm: sha256
+    value: 722d1a59435a89bf881d600f20d15ba35e0a250720fd8fda1bf5a673b68fc111
+  - path: src/chall.c
+    algorithm: sha256
+    value: e3ba5e449d4c37b281e829038bf2eca34ca4998b189c265bb231f36de0ce6ecb
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0abf75fc62304552bbfc33235fe1cf63481abb4376c2258d1248fa99736917e0
+  - path: src/flag.txt
+    algorithm: sha256
+    value: adcd7a0cd104aec5786be2112cecc6d1f3480b2af059fcc5190a1efd198a09bc
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

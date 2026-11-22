@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-final-rev-002
+name: Hebat Kamu Bud
+slug: 002-hebat-kamu-bud
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse
+description: "Dia turun, dia naik di pesta, \nitu tekanan Gadis cantik dan berbahaya, \nmencuri hatiku\
+  \ Dia melompat, dia melemparnya, \ntidak meminta alasan Mengikuti irama, \nmengikuti irama, hanya godaan\
+  \ Dia turun, dia naik di pesta, \nitu tekanan Gadis cantik dan berbahaya, mencuri hatiku Dia turun,\
+  \ \ndia naik di pesta, itu tekanan Gadis cantik dan berbahaya, mencuri hatiku\n<div style=\"text-align:center;\
+  \ margin:1em 0;\">\n<img\n  src=\"https://imgur.com/a/j01gGf2\"\n  style=\"max-width:80%; height:auto;\
+  \ border-radius:6px;\"\n  alt=\"idk\"\n/>\n</div>"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ucokgallagher
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: final/Reverse/hebatkamubud
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 84b2f654d414735160a4aa9f42dda953286644476c094c647064de5473be70cc
+  - path: dist/chall
+    algorithm: sha256
+    value: 39758121d25b5ef3483e30c8caae46e77fb4a21b8016894e9bf95288efff08f4
+  - path: src/chall
+    algorithm: sha256
+    value: 39758121d25b5ef3483e30c8caae46e77fb4a21b8016894e9bf95288efff08f4
+  - path: src/hebatkamubud.c
+    algorithm: sha256
+    value: 036dfa9dae7de3508f390e71f66aef3f92eae4ba7688b0a8c2eb71f543226dde
+  - path: src/makefile
+    algorithm: sha256
+    value: d6772c5beb5b6665a7a5c1d5486741969931080eed72fea8ad82579eeb490cdb
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'hebatkamubud'.

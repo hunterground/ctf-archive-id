@@ -1,0 +1,30 @@
+name: "Hebat Kamu Bud"
+category: reverse engineering
+description: |-
+    Dia turun, dia naik di pesta, 
+    itu tekanan Gadis cantik dan berbahaya, 
+    mencuri hatiku Dia melompat, dia melemparnya, 
+    tidak meminta alasan Mengikuti irama, 
+    mengikuti irama, hanya godaan Dia turun, dia naik di pesta, 
+    itu tekanan Gadis cantik dan berbahaya, mencuri hatiku Dia turun, 
+    dia naik di pesta, itu tekanan Gadis cantik dan berbahaya, mencuri hatiku
+    <div style="text-align:center; margin:1em 0;">
+    <img
+      src="https://imgur.com/a/j01gGf2"
+      style="max-width:80%; height:auto; border-radius:6px;"
+      alt="idk"
+    />
+    </div>
+    Author: **ucokgallagher**
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+flags:
+    - ARKAV{mAtUSHK4_Odn090_d1a_n4ik_d14_turun_t3k4n4n_tinggi_h3b4t_k4mu_BUD1}
+files:
+    - dist/chall
+state: hidden
+version: "0.1"

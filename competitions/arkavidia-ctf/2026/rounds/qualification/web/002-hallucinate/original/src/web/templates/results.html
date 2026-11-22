@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Oracle Results • Konoha Fate Weaver</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Weaving Results</h1>
+      <p class="sub">The Oracle has spoken. Executed logic shown for transparency.</p>
+
+      {% if error %}
+        <div class="section-title" style="color: #ff5f5f;">Chakra Interruption (SQL Error)</div>
+        <code>{{ error }}</code>
+      {% endif %}
+
+      <div class="section-title">Executed Query</div>
+      <code>{{ exec_query }}</code>
+
+      <div class="section-title">Prophecies for your Session</div>
+      {% if rows %}
+        <ul class="results">
+          {% for r in rows %}
+            <li class="item">
+              <div class="muted" style="font-size: 0.8rem; margin-bottom: 4px;">Prophecy #{{ loop.revindex }}</div>
+              <div>{{ r['prophecy'] }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p class="muted" style="margin-top:18px;">No prophecies found in the scrolls.</p>
+      {% endif %}
+
+      <div class="actions" style="display: flex; gap: 12px; margin-top: 22px;">
+        <a class="btn" href="/">← Back</a>
+        <a class="btn btn-accent" href="/">New Weaving</a>
+      </div>
+    </div>
+
+    <audio id="bgm" src="{{ url_for('static', filename='audio/theme.mp3') }}" autoplay loop></audio>
+    <button id="sound" class="sound" type="button">
+      <span id="sound-label">Sound: On</span>
+    </button>
+
+    <script>
+      (function () {
+        const audio = document.getElementById('bgm');
+        const btn   = document.getElementById('sound');
+        const label = document.getElementById('sound-label');
+
+        audio.volume = 0.30;
+
+        audio.play().catch(() => {
+          audio.muted = true;
+          label.textContent = 'Sound: Off';
+        });
+
+        btn.addEventListener('click', () => {
+          audio.muted = !audio.muted;
+          label.textContent = audio.muted ? 'Sound: Off' : 'Sound: On';
+        });
+      })();
+    </script>
+  </body>
+</html>

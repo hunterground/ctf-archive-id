@@ -1,0 +1,39 @@
+name: "Calculator of Special People"
+# This is used to group challenges in the CTFd UI.
+# choose one: binary exploitation, reverse engineering, web exploitation, cryptography, forensics, miscellaneous.
+category: web exploitation
+description: |- 
+    Steal the cookie, like how Minji steals hearts.
+
+    ![Hacker Minji](https://i.ibb.co.com/Rprv96h8/minji.gif)
+
+    Author: **dovodedomo**
+
+# Don't change this
+value: 1000
+type: dynamic
+extra:
+    initial: 1000
+    decay: 30
+    minimum: 100
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: http://20.198.220.171:8021/report/
+
+flags:
+    # A static case sensitive flag
+    - ARKAV{NONcE_0F_US_IS_AS_SMART_AS_ALL_OF_US}
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - easy
+
+# Provide paths to files from the same directory that this file is in
+files:
+    - dist/dist.zip
+
+# If provided, the field can take one of two values: hidden, visible.
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+version: "0.1"

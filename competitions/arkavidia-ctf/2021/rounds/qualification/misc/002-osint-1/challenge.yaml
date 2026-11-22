@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-misc-002
+name: OSINT-1
+slug: 002-osint-1
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: "Pada tanggal 9 Agustus 2019, sebuah artikel ilmiah dipublikasikan pada jurnal Computing\
+  \ and Software for Big Science. \nSalah satu penulis dari artikel ilmiah tersebut pernah menjadi narasumber\
+  \ pada suatu podcast. \nSekitar tiga bulan setelah artikel tersebut dipublikasikan (1 Nov 2019), penulis\
+  \ ini mengunjungi suatu tempat di belahan bumi selatan. \nCari tahu nama tempat tersebut.\n\nFormat\
+  \ flag: `Arkav7{nama_tempat_menggunakan_snake_case}`"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: didithilmy
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: misc/osint1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d56202f0c70a91a8c4da04a9360d05de65e1f6fc62b9a48bb1abfe7653975f29
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'osint1'.

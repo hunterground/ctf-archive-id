@@ -1,0 +1,9 @@
+services:
+  sawit:
+    container_name: perpusnas
+    image: perpus:latest
+    build: .
+    restart: on-failure
+    ports:
+      - "6796:1330"
+

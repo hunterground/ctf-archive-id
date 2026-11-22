@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: arkavidia-6-ctf-qualification-crypto-002
+name: 007-2
+slug: 002-007-2
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: |-
+  007: "Who even made this junk? RIP security..."
+
+  Format flag: Arkav6{}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- Broadcast RSA
+- Coppersmith Theorem
+authors:
+- name: nightmare
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-6-challenges-mabdullahmunir
+  source_type: git
+  repository: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  commit: 97cc9f5d5fff158db83d9f7a411e7022c94b4b71
+  original_path: quals/crypto/007-2
+licensing:
+  declared_license: MIT
+  copyright_holder: mabdullahmunir
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 mabdullahmunir
+  permission_reference: LICENSE at the repository root.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 3b5e47ed2a7a2f8d9e7a1ed9a68afcb4b33ded64f8c11639f649c5f432af4148
+  - path: chall/chall.py
+    algorithm: sha256
+    value: d29ba2cc020fe6e1a1973770605c2f23d353cf9ab93b9409480659ff463929d9
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 647defeee908a3270ba90fae3257d8ba3e556df4911c6948a0282a9534290935
+  - path: chall/modulus.txt
+    algorithm: sha256
+    value: 7da67c7148b6112351bfb2142ebaf3b96b34dd629c7ca7716cd3c318090c86a7
+  - path: chall/requirements.txt
+    algorithm: sha256
+    value: d0f1a89c779f624a8d80e0c25a79222288230e286b86118b2abbfa672a1e906c
+  - path: chall/run.sh
+    algorithm: sha256
+    value: dd35a00d16d792db0a5213e783930a488355f62f6267d185627cce20c6ae121a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 6d44e4c9e26e938a979389c0fa79d49557647b635e935605739039dcc326ef7d
+  - path: readme.md
+    algorithm: sha256
+    value: 9929d173aedf3baed164831bf60f3f4b48b23402371504b868ffde3b33835b23
+references:
+- title: CTF Arkavidia 6 challenges
+  url: https://github.com/mabdullahmunir/CTF-Arkavidia-6
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

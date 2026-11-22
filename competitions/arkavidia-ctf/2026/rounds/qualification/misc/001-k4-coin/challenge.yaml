@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-qualification-misc-001
+name: k4 coin
+slug: 001-k4-coin
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: Very beginner friendly chall (hardnya di final aja mungkin?). Anyway, will we still do crypto
+  investments in 2026?🫩🫩🫩
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k4tou
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: quals/Misc/k4-coin
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9c3fdb97702876adbabb9d140cf6c2bc2b74963bc48a6a26cc40cd7ab5366e25
+  - path: dist/Setup.sol
+    algorithm: sha256
+    value: e93adb7ca0b48ef579db8977b7352fd38760aef971461c31a681a2971ff2fda2
+  - path: dist/k4.sol
+    algorithm: sha256
+    value: 33e5cb2713b190c43ea070dfb42a7e809749f2ef298cb9aa971c8d0234b7f059
+  - path: src/.env
+    algorithm: sha256
+    value: e54fe1b2bca4fba57068d88dff7d8bd824169bcbcdccb0121f575ad704959f22
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ca296b49ba7dad6ac806071995a81b8f3d81f67b6cf4c47ef20c8cdced37ba18
+  - path: src/contracts/Setup.sol
+    algorithm: sha256
+    value: e93adb7ca0b48ef579db8977b7352fd38760aef971461c31a681a2971ff2fda2
+  - path: src/contracts/k4.sol
+    algorithm: sha256
+    value: 33e5cb2713b190c43ea070dfb42a7e809749f2ef298cb9aa971c8d0234b7f059
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: 1d36afeae6802792effabb981c2badbedb7fca694aaae0cfcf0609293d13c16b
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 91caef6e726577da9757ca73e52b29e6f266be728c6a666c32e8061bbb984bd9
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

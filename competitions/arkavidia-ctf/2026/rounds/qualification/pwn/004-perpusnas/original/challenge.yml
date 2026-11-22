@@ -1,0 +1,19 @@
+name: "Perpusnas"
+category: "binary exploitation"
+description: |-
+    try to find epstein file i guess
+
+    Author: **Kurond**
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 15
+    minimum: 100
+connection_info: nc 20.198.220.171 6796
+flags:
+    - ARKAV{1s_th1s_t00_3asy_f0r_y0u?}
+files:
+    - dist/dist.zip
+state: hidden
+version: "0.1"

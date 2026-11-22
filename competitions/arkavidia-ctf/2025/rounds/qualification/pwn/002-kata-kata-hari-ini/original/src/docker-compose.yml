@@ -1,0 +1,8 @@
+name: pwn-kata-kata-hari-ini
+services:
+  chall:
+    build: .
+    ports:
+      - "8044:1337"
+    restart: on-failure
+    container_name: kata-kata-hari-ini

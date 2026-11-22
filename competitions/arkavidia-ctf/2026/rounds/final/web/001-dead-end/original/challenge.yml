@@ -1,0 +1,28 @@
+name: "Dead End"
+
+category: "web exploitation"
+description: |- 
+    THE END.
+
+    Author: **dovodedomo**
+
+attribution: dovodedomo
+
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 10
+    minimum: 100
+
+connection_info: http://70.153.8.15:8200
+
+flags:
+    - ARKAV{THE_smuggling_sandwich_attack_python_jail_laughing_END}
+
+files:
+    - dist/dead-end.zip
+
+state: hidden
+
+version: "0.1"

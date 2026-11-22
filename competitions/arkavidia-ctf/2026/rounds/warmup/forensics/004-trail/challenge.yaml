@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: arkavidia-10-ctf-warmup-forensics-004
+name: Trail
+slug: 004-trail
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: forensics
+original_category: forensics
+description: It's been a month since I lost my fiancé, and I am deeply grateful to you for investigating
+  and providing me with the chronology of events. It seems that God has answered my prayers. According
+  to the police report, the criminal organization was actually in conflict with another group called Stan.
+  Stan successfully carried out a phishing campaign against them. This morning, I received news that the
+  police managed to arrest the broker responsible for launching the phishing campaign and successfully
+  obtained network traffic data from his computer. While it's unlikely that this case will lead me to
+  my fiancé, I can't help but hold on to a sliver of hope.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+authors:
+- name: Mizuhara Chizuru
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-10-problem-set
+  source_type: git
+  repository: https://github.com/ctf-itb/ProbsetCTFArkav10
+  commit: eb2eb0ddd14e604df9d0e6b61546ad2f0463a719
+  original_path: warmups/forensics/Trail
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 46ecdc7c1d8dff01c30375403b5e61664a809e5d00c8fae7aa2c929a30a5f20d
+  - path: dist/Trail.zip
+    algorithm: sha256
+    value: cad3bb558e4a1114de6b79aa95bb8d3b410b9654c593f5a60a3036cf7909db15
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: ProbsetCTFArkav10
+  url: https://github.com/ctf-itb/ProbsetCTFArkav10
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: null

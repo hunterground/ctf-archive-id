@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: arkavidia-7-ctf-qualification-pwn-004
+name: Love Whisper
+slug: 004-love-whisper
+original_name: null
+competition_id: arkavidia-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: |-
+  Can you hear it?
+
+  `nc <IP> <PORT>`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fraglantia
+  team: null
+organization: null
+provenance:
+  archive_id: arkavidia-ctf-2021-qualification
+  source_type: git
+  repository: https://github.com/ctf-itb/PenyisihanArkav7
+  commit: 6e6dd15df75eb223b1b2f7f71d3cda7eca4b41fb
+  original_path: pwn/lovewhisper
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-21 to record a source with no license
+    file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4d7de840a155ca7368b600603a39b16c12d75375bd20921fb483197c486fe993
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 91b5bbc2d14aee383bb3955a916f8d402de10ef0c3bd3b32f4e732f64a231f15
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 8a5a95cd60acfcdf21767b84bdd326f438b82e414a148c772f33c0f63af29da9
+  - path: chall/lovewhisper
+    algorithm: sha256
+    value: cfcac6bd4bd2920a0e016c921d917aa0f4626eff11478e3d0f92c637ae3e3084
+  - path: chall/lovewhisper.c
+    algorithm: sha256
+    value: 2f4e2e1f001d979026508c9408724f693cfc0e0284d40c96fb32975970deee89
+  - path: chall/run.sh
+    algorithm: sha256
+    value: ae98420991c0fccc1d526c4dae757745338a50a9ac9dcffc60045b287d8b5233
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1aa1bfc4f68d425feebb22e50d460c70615e29db69d827578776f9a9b0166b4a
+references:
+- title: PenyisihanArkav7
+  url: https://github.com/ctf-itb/PenyisihanArkav7
+  type: official_repository
+  accessed: '2026-11-21'
+verification: corroborated
+notes: The source directory is 'lovewhisper'.
