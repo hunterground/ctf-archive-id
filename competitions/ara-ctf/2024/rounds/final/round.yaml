@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: final
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: onsite
+description: null
+dates:
+  start: '2024-02-24'
+  end: '2024-02-25'
+statistics:
+  challenge_count: 10
+  participant_count: null
+references:
+- title: CTF ARA 5.0
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Final stage of CTF ARA 5.0. The ITS Department of Information Technology news post states that the final
+  round was held on 24-25 February 2024.

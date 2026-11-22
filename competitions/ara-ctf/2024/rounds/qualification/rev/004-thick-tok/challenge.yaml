@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-rev-004
+name: Thick Tok
+slug: 004-thick-tok
+original_name: thick-tok
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: |-
+  This `Thick Tok` application will prompt you a **token** if you access it ONLY from their **homemade device**. 💻
+
+  If you're able to retrieve it, wrap the token with a flag format `ARA5{.*}`.
+
+  Zip password = maomaocantikmaomaokucingmaomaouwu:3
+difficulty:
+  value: easy/medium
+  source: organizer
+tags:
+- wails
+- golang
+- anti-dump
+- stripped
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: reverse-engineering/thick-tok
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 38799ff60f78231d899d460a80dd2ef7e20ad1fc6d48067e5e3472211fa9f34c
+  - path: dst/ARA_tokenization.zip
+    algorithm: sha256
+    value: 4a3cbddcaccfc40fa3cb5fa03ca641e08ccce72ee64a38fa94e68e729437dc6d
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

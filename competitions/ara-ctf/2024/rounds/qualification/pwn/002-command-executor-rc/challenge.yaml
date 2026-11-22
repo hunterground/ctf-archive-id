@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-pwn-002
+name: Command Executor [RC]
+slug: 002-command-executor-rc
+original_name: command-rc
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: _kos0ng
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: binary-exploitation/command-rc
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f1f03e6847143421aa4c4ba1c2d958ada499460be30dc6f28275738cb82f715a
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: fd88790d64832fc3ea33cafe9418bc8378975e9e570fb925a4a7bd44ef507412
+  - path: dist/chall
+    algorithm: sha256
+    value: 9c55277ab7080336eebc9479bcf3396b46549f9ffedcc5fd4a246ab1c60c078e
+  - path: dist/ctf.xinetd
+    algorithm: sha256
+    value: bf68d6944d0701ca8aec7a657879d074908276d1ef2d99c484b043462a21fa5c
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 9f06fa647f358bd4d1347c801cfa82c3c740d650554ec738302e9119e1d841b8
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 412348c3d5cd8880ebd4128abc174ae37a46fe16d2e9d1147d8573346324e1bd
+  - path: dist/setup.sh
+    algorithm: sha256
+    value: f10fbc47e6acb91d1c93903dbc3c07165414ecdb7789788c4969e0568631db53
+  - path: dist/start.sh
+    algorithm: sha256
+    value: 2ec6a6277d7b816428111ab2318a5b874e3bc240832e6bb3d9c00138720ed44f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: d142a4c7514379e9e59e62de83eaad6184b73c58ca66bac182b10fe3d01123ce
+  - path: src/chall
+    algorithm: sha256
+    value: 9c55277ab7080336eebc9479bcf3396b46549f9ffedcc5fd4a246ab1c60c078e
+  - path: src/ctf.xinetd
+    algorithm: sha256
+    value: bf68d6944d0701ca8aec7a657879d074908276d1ef2d99c484b043462a21fa5c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 9f06fa647f358bd4d1347c801cfa82c3c740d650554ec738302e9119e1d841b8
+  - path: src/flag.txt
+    algorithm: sha256
+    value: f7980b378e84e6286e0e75c3142102be660a2f97b871ba46e0e59de8d9386132
+  - path: src/setup.sh
+    algorithm: sha256
+    value: f10fbc47e6acb91d1c93903dbc3c07165414ecdb7789788c4969e0568631db53
+  - path: src/start.sh
+    algorithm: sha256
+    value: 2ec6a6277d7b816428111ab2318a5b874e3bc240832e6bb3d9c00138720ed44f
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

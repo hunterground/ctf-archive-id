@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-crypto-001
+name: Kalangkabut
+slug: 001-kalangkabut
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: |-
+  Maaf kalo acak-acakan :'(
+
+  *flag.png berisi qr code
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Cryptography/Kalangkabut
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 7302d95f74d36218cedffeded43261c7ed92c79686d609b1fd8107c17bb51073
+  - path: chall/chall.py
+    algorithm: sha256
+    value: 187a7e4a203f061df9fa4e1c36902f2a9536a02b96a12db88db7924777faea84
+  - path: chall/enc.png
+    algorithm: sha256
+    value: 03daf33a40563d5feda4e7075c40eef3416f55ed412498077c9a7c8acadb041a
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

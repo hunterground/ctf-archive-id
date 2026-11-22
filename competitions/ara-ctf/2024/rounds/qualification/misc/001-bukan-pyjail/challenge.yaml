@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-misc-001
+name: Bukan PyJail
+slug: 001-bukan-pyjail
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: misc/Bukan PyJail
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d7a03de247ad454d20b2fa2660367a2e26a6964a81672244f3395bc457ec2e91
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 2ac069d563c978efd1eea6b890353f22ac3b8a71dd6b75f0a5d45d2b77daa126
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: e279261d0571920cf3bb351a3a65ba334984508553810de99c088f62e341a081
+  - path: dist/main.py
+    algorithm: sha256
+    value: 3a12e7d1ad47417b2175f5e7989fad92ee618b778c8688805df8572d389e21fb
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2ac069d563c978efd1eea6b890353f22ac3b8a71dd6b75f0a5d45d2b77daa126
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 382f3d398c863ebca77f96be62af98248b79e3d77f79d938a83ec3a811ee87b4
+  - path: src/main.py
+    algorithm: sha256
+    value: 194f6be8bc463baab0d96fc452604ebbcc82fd892266f4b026ba6926b6cd703d
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-crypto-004
+name: Kode Rahasia
+slug: 004-kode-rahasia
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Kamu adalah seseorang yang bekerja di PT Pama Persada.  Ditengah-tengah pekerjaan mu, seseorang teman datang dan berkata bahwa dia menemukan harta karun di salah satu lokasi penambangan. Tetapi dia tidak bisa memberitahukan lokasinya secara langsung, lalu berkata
+
+  "There is geometry in the humming of the strings, there is music in the spacing of the spheres. and at the end, you will find hamming is very useful"
+
+  dan memberikan sebuah lokasi titik koordinat
+
+  1001111001000111100100011000001110111101101100000011000111100101011000001110101
+
+  carilah lokasi dari harta karun tersebut
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Cryptography/Kode Rahasia
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 93c8e088a342c7a860e9ded1cfc7820cd4a4811d9f1c426d3c80c5d2649c74c8
+  - path: chall/enc.txt
+    algorithm: sha256
+    value: 24fb63d5f42769bf68996b646e5627cf0a937fdb54a459eed1a7ebdcb322a016
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

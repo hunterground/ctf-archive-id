@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-forensics-001
+name: azfarcantik
+slug: 001-azfarcantik
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  azfar sangat terobsesi dengan kecantikanya, sehingga ia belajar ngoding web ala ala. Kini azfar sudah jago dan melakukan research mengenai web3 nya kalo pengen tau azfar itu gimana silahkan klik link berikut https://www.linkedin.com/in/azfarwisnu/. Pada suatu ketika dia mendeploy website pada local servernya dan ternyata ada orang aseng eh iseng yang melakukan serangan pada websitenya. Karena azfar adahal digital forensic hardcore enthusiast dia perlu membongkar servernya dan menemukan siapa pelakunya :angry:
+
+  can you find all of these informations? to get the flag
+
+  aractf2022{ip1_ip2_timestamp penyerangan_password azfar_second flag}
+
+  timestamp format : DD/MM/YYYY:HH
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Forensics/azfarcantik
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 242b15e8912896c41dabda509226689fd2ae2f66e3e29f8544534dee06b3eead
+  - path: Flag.txt
+    algorithm: sha256
+    value: 10cd8093b8a0db82b9cffa896f7e662ec42b40bf146891fbf0d2aecea4dd222a
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 25c3d0bfb11aac4031e58e1680cbfed8533d2fd5ae46c1610556e2629f77f0ee
+  - path: readme.md
+    algorithm: sha256
+    value: 0d7979fd740fb4704645ee7a41c361255ed956e6a2674b92177b6893db913387
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

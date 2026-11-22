@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-misc-002
+name: Rizumu_Melody_Ha_armony
+slug: 002-rizumu-melody-ha-armony
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: Lets race to the last place shall we?? This is the easy one
+difficulty:
+  value: null
+  source: unknown
+tags:
+- minecraft
+authors:
+- name: Lylera
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/misc/Rizumu_Melody_Ha_armony
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1ca2cae5960dfc05c3b556c929f7c9b121c67e22e1439f0219e4c2667c68e5f5
+  - path: Rizumu_melody_Ha-armony.zip
+    algorithm: sha256
+    value: c91350176f10363e050e3fbb7d310a31ce1a3f2059456998e3d139ab4ee48f7d
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/misc/Rizumu_Melody_Ha_armony
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

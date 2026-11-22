@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-rev-001
+name: Flag Storage
+slug: 001-flag-storage
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse-Engineering
+description: Haxxx it and get the flag!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Reverse-Engineering/Flag Storage
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.JPG
+    algorithm: sha256
+    value: 77b2dae73e1c65d7c3d8f849377f1d9be0bde680bfdc3e1a9f441bd69243fcc2
+  - path: 2.JPG
+    algorithm: sha256
+    value: 882dc769be527820a408e0c164eec16ef5fee0773492ab7227869414af3ac6b6
+  - path: 3.JPG
+    algorithm: sha256
+    value: ec8179846a752309d8f63dd52851bd3a82c9a56aa765829cf91ffa652adb9e8b
+  - path: Readme.md
+    algorithm: sha256
+    value: 71c50eacc904fc94e6bfd3c8e252282648095a01f76a56b73418d943933c66a6
+  - path: chall/flag_storage
+    algorithm: sha256
+    value: ae7eacafb0f0f51eaafce8b527e2b3cac3d972a70673d3975b83bdd17bcc0c7a
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

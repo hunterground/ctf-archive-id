@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-pwn-001
+name: IaC
+slug: 001-iac
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: binary-exploitation/IaC
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5b573723b1ca303afab16de167f951d99e92d330feab7b3c1a62a836a765af65
+  - path: compiler.2.27
+    algorithm: sha256
+    value: b773cba64787f31b75fd677594d6ebc7a994f33cf7d7d5ad5a34d9f2256181ed
+  - path: dist/IaC
+    algorithm: sha256
+    value: 58f6f2736ec7ce759416120f90325857f41301f21b2605fc1196749eec07c13f
+  - path: dist/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: dist/libpthread.so.0
+    algorithm: sha256
+    value: 15dd9fa3f1b67cd8b908a1d958587d3d0acf1c535619c131c00f5607400b981e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2fcd5780e573719fb51e247ebd827034bb1469ffd13a065028869f20ff6c753a
+  - path: makefile
+    algorithm: sha256
+    value: eb589a40776871f69ad064786ddee91650f7ead4809862ad138aaded1fbff97d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: efa73a7a70bdbd36990ba133f10229b6b3938098bc514624aeac52c52198d999
+  - path: src/iac.c
+    algorithm: sha256
+    value: 560ce034a2a4cd242912235596147da84eeadeb68766cc7e19cdde0e08c597e1
+  - path: src/state.h
+    algorithm: sha256
+    value: 969ded89f99333f5c24d6dc306fd1b923fd85b9544d2bd8439a8421485228a9d
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

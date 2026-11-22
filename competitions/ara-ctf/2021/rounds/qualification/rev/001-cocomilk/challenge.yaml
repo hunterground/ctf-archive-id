@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-rev-001
+name: cocomilk
+slug: 001-cocomilk
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse-Engineering
+description: >-
+  Qiqi adalah seorang zombie yang sering pelupa. Suatu hari ia membuat kodingan dalam bahasa C++ untuk
+  membuat kode rahasia lokasi cocomilk. Namun beberapa saat kemudian dia lupa menulis kodingan tersebut
+  dalam bahasa C++ dan menuliskannya dalam bahasa Python. Qiqi yang kebingungan mencoba menginputkan lokasi
+  cocomilk tersebut dengan menjalankan kodingannya dalam bahasa C++ dan Python. Anehnya, kodingannya dapat
+  berjalan dan menghasilkan Output 1 pada bahasa C++ dan Output 2 pada bahasa Python. Beberapa saat kemudian,
+  Qiqi melupakan lokasi rahasia cocomilk yang barusan diinputkan. Bantu Qiqi untuk mendapatkan lokasi
+  rahasia cocomilk miliknya!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Reverse-Engineering/cocomilk
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 0ef225b5efce9f3b0c9948bd3b04f328bbcc2a2f124abe7fbf9d32b07385c53e
+  - path: chall/cocomilk.zip
+    algorithm: sha256
+    value: f2c91861362341debe9cecafb6ffa5c46e02bb103848bb354587c4d24c85a34d
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

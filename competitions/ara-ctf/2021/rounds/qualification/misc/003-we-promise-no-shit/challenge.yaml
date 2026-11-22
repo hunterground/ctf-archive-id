@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-misc-003
+name: We Promise No shit!
+slug: 003-we-promise-no-shit
+original_name: we promise no shit
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  PT Pama Persada sedang membuat sayembara untuk memecahkan teka-teki yang mereka buat, cari tau siapa aku dan dia maka kamu akan menemukan harta karunya!
+
+  Aku merupakan website yang mulai viral pada tahun 2015, diciptakan oleh salah satu alumni dari kampus penyelenggara ARA CTF ini. Beritaku di upload di kanal its pada tanggal 11 januari 2016 aku senang sekali waktu itu.
+
+  Dia adalah judul lagu yang dinyanyikan oleh salah satu diva di Indonesia, dan mungkin keluargamu sering mendengarkannya di tv, kadang bercerita tentang karma.
+
+  Coba ketik ini di halamannya mbahmu yang terkenal itu :
+  aku/dia
+
+  Mungkin lebih sopan untuk nulisnya huruf kecil semua
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Misc/we promise no shit
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 09b75b9a4d8d865cfe6781b868c43c9b6e31ae4daf48dd996c9a536be3abd46b
+  - path: pict.png
+    algorithm: sha256
+    value: 92bce8ea82af077b5aec31c543453b4821477731dd3a28d41cf47828ffc56242
+  - path: pict2.png
+    algorithm: sha256
+    value: fea5678467f3a4c1b83bd71c33ad3aabd530627c01497e31ed399c840bb6330c
+  - path: pict3.png
+    algorithm: sha256
+    value: b29b05c88d76a1e2d7bf1abc76854ab018b04a53f1f76fd9913e573fb577a67c
+  - path: pict4.png
+    algorithm: sha256
+    value: 57f97a133e54a62d94690d19a5fb24f74d97bbf7b154b16195ea88431903a3ce
+  - path: pict5.png
+    algorithm: sha256
+    value: cf1a6aa7fd782ae2ac5da4e6fc3812830b4758b3e3c19e53c5f37f9d596081d7
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

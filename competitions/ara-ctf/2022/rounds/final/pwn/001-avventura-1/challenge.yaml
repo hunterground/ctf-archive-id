@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-pwn-001
+name: avventura 1
+slug: 001-avventura-1
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: |-
+  petualangan merupakan sebuah aktivitas menyenangkan seperti menyelesaikan suatu puzzle. Petualangan juga penuh misteri dan suatu rahasia bukan?
+
+  nc 206.189.159.28:31336
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: 0xdc9#2020
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/PWN/avventura 1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 8b9f3f395221b4c2a7ff136b15b03261fdf47bc44d6902f7f9b028a075f09652
+  - path: Resources/avventura_1_patched.zip
+    algorithm: sha256
+    value: ede2911d7cfdc807e9a77d1b0fd15fa30919fca3e3308814e1872b82d5eb1ea6
+  - path: Resources/ld-2.27.so
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/libc-2.27.so
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: flag
+    algorithm: sha256
+    value: e772269fb8b3db83b721e84e2bf10a5305b79886ea186c8d38cf87ef56da2ba4
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-rev-001
+name: a_blast_from_the_past
+slug: 001-a-blast-from-the-past
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: lets go back in time, shall we?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: requiiem
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/rev/a_blast_from_the_past
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5b94fa50ab4d5fe3658042cde15282b6c48f762098fe75588b79605cc39d9115
+  - path: chimera.exe.xz
+    algorithm: sha256
+    value: 66f71bc88928a31e8846639e135e2f0d6684bf7bd0f1178f92e4de3964581fac
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/rev/a_blast_from_the_past
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

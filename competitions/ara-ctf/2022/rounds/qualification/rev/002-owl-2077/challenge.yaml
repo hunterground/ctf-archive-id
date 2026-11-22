@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-rev-002
+name: OWL 2077
+slug: 002-owl-2077
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Ini hanyalah sebuah permainan untuk bernostalgia, hanya gamer sejati yang dapat menyelesaikannya.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kosong#5956
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Reverse Engineering/OWL 2077
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 3f9f03c56fdf1fa9887426133b4eff575f955008f5af8805637460bdd4cc1e3a
+  - path: Flag.txt
+    algorithm: sha256
+    value: fdf0a8c74f02447dbb2bae2538e2563dd282bdbe3a5daa4d5a53759305ec3eb5
+  - path: Resources/OWL_2077.exe
+    algorithm: sha256
+    value: a343d801b7974c9cef2d9969709a7625e772e0b750a862c7ab125a3ecdb0b28b
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

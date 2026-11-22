@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-crypto-002
+name: Can You Control This
+slug: 002-can-you-control-this
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Seseorang berkata kepada saya mengenai kontrol dan cek , namun saya tidak paham apa yang dimaksud orang itu hmmm.
+
+  NB : Flag terbagi menjadi 2 bagian
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Cryptography/Can You Control This
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.JPG
+    algorithm: sha256
+    value: a2e89c4960139bee883c1f4669bceae566e22b97d1007a76e6d8227ef3c40d43
+  - path: Readme.md
+    algorithm: sha256
+    value: 514e190a15668340991e1312ca75086d6e65a6b5e2fc581cf77cdd23e4549dd2
+  - path: chall/client.zip
+    algorithm: sha256
+    value: fa6358f62eab54482bf9f81a581bb4762a6e7663ac356fc2c16b2314b40d2ce2
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

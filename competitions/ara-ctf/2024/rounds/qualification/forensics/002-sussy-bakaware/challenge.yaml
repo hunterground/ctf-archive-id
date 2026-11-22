@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-forensics-002
+name: Sussy Bakaware
+slug: 002-sussy-bakaware
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: >-
+  You are been hired as a blue team engineer on company, for your first joob you need investigate a new
+  malware that has been infected some user, your lead team said 10 questions should be enough for you.
+  Good luck for your first job
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: abdieryy
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: forensic/Sussy Bakaware
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: tempCodeRunnerFile.py
+    reason: Editor or runtime artifact, not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7dd82400c2c171d6c13271a298e5d92ed5d1bf88b82a9522997a15cb33dc67a6
+  - path: answer.py
+    algorithm: sha256
+    value: 31c6ca494de738cfe7fb43d9e439cc92e0fac18446322e227b6a8f177c6eba19
+  - path: images/flag.jpg
+    algorithm: sha256
+    value: c2f775e79a931870aed5639aa99003efd6d601ca3ece21b524597e29579f6a3b
+  - path: images/solve10_1.jpg
+    algorithm: sha256
+    value: 207a0c8bb07e86c8348581610a6e749b07caeaf6ee8a62fc9adb86433f23ad00
+  - path: images/solve1_1.jpg
+    algorithm: sha256
+    value: bb02a05f1c5bf09a6bccbf655944dcb91969b693498c8e2936ba7d0a0b453489
+  - path: images/solve1_2.jpg
+    algorithm: sha256
+    value: 687003a71c5a23966e25959b488d01a415f661fec2e9b635a94fabb9de03f285
+  - path: images/solve2_1.jpg
+    algorithm: sha256
+    value: fcf6e2b9aeeb2e0b941c0e763c13ba40e38d6ab42e67c83f1ef9d0d12b2fde04
+  - path: images/solve3_1.jpg
+    algorithm: sha256
+    value: f961ee583a83acda3e13d518d72c50cf12479cd11fbdcb1382135bd2fc1d4df4
+  - path: images/solve4_1.jpg
+    algorithm: sha256
+    value: ae6b684a8d65db88abd0014e850872956ada002b2e5e57b7efa553c7a85fc968
+  - path: images/solve5_1.jpg
+    algorithm: sha256
+    value: dd6c8b29fc8f71253957b1c8e2d809c34a5351df725b6d1ffe5c6caa1a93ef22
+  - path: images/solve6_1.jpg
+    algorithm: sha256
+    value: c03bd2290d42000528ac17f4b26be9667cfae13a0086d7450040600f823f6678
+  - path: images/solve7_1.jpg
+    algorithm: sha256
+    value: 8f4b8fdca206a17c66d69c8c8e839f073cc86c1a623d3cc584edb01ee3ac864f
+  - path: images/solve8_1.jpg
+    algorithm: sha256
+    value: 492264d82479e8191bcad09010b8930b7d894c4bb17f386493121b9bd0a7805b
+  - path: images/solve9_1.jpg
+    algorithm: sha256
+    value: 23b6e969ae82320141a3e3b235611a186ae644b46c2d4c9c4526ed5a604823c2
+  - path: images/solve9_2.jpg
+    algorithm: sha256
+    value: 88f14a5089ef18d7eb84665d0ecaa77200adc7573f364c49f759bad97197834f
+  - path: images/solve9_3.jpg
+    algorithm: sha256
+    value: c3fa5143bf48b1a8aac348f13da4c8bb85a5067c6f36bf46083332f2e245badf
+  - path: sus.zip
+    algorithm: sha256
+    value: 79e88f2c98548f0af50c2a6317d55995ea5e7e0da36e34ba231e304ce261b1f5
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

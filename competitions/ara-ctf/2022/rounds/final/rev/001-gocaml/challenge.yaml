@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-rev-001
+name: GoCaml
+slug: 001-gocaml
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: |-
+  The title says it all
+
+  Flag start with ara2022{
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kosong#5956
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/Reverse Engineering/GoCaml
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 6b0817be69b558b8b6ee01f29111e5a8827a74e71f56343324c53036aaf5e0c3
+  - path: Resources/loader
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/server/libd.so
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/server/log.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/server/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: Resources/server/server.sh
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: flag
+    algorithm: sha256
+    value: f4253ab74759f8a20eb41ba83d68087d11378741ae78b78238dbfb6e2266642a
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

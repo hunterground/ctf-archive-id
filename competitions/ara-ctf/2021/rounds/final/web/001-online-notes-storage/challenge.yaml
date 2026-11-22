@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-web-001
+name: Online Notes Storage
+slug: 001-online-notes-storage
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web-Exploitation
+description: |-
+  Waduh rekan kerjaku ngoding langsung di production server, hmm aku takut ada yang salah di kodingannya :3 . Dan ya tentu aku cuman punya file kodinganku saja tidak dengan tambahan dari rekanku
+
+  NB : Flag terbagi menjadi 2 bagian
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Web-Exploitation/Online Notes Storage
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 40bf77cf8406e59fa66fe8550c52374458ce12dc7e1e5e003cfa3d4b35f0c8e2
+  - path: chall/server.py
+    algorithm: sha256
+    value: 599d49d22068d9e7334f358613884e011967a1d7998f287e01739e7e23dcaaaa
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

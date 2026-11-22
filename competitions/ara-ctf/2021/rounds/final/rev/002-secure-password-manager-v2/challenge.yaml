@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-rev-002
+name: Secure Password Manager v2
+slug: 002-secure-password-manager-v2
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse-Engineering
+description: >-
+  Untuk lebih mengamankan akun freefire ku aku menggunakan aplikasi secure password manager yang terbaru
+  dengan algoritma enkripsi yang katanya lebih aman dibanding yang v1. Namun pada v2 key tersimpan secara
+  jelas pada file stored.passwd dan aku takut seseorang dapat mengetahui passwordku berdasarkan key yang
+  ada di sana , jadi aku menyembunyikan key1 untuk password akun freefireku di flashdisk. Sialnya aku
+  flashdisk itu hilang dan tentunya aku tidak mengingat angka panjang itu hmm dan sekarang aku lupa passwordku
+  juga. Apakah ada yang bisa membantuku mendapatkan passwordku kembali? tentunya agar aku bisa bermain
+  freefire lagi!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Reverse-Engineering/Secure Password Manager v2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.JPG
+    algorithm: sha256
+    value: 13d82b46ae13c94cd79b402ecf65471dd519ddca4378407452abf219c7d2099e
+  - path: Readme.md
+    algorithm: sha256
+    value: 759b75a0b5c0de9abb35db2c2b0732d308540d897d1e14e3aa1c80d0124e37e7
+  - path: chall/manager
+    algorithm: sha256
+    value: 4cdf7548f86110315f9f70c98fe6c8032bec92c25e900f36a5510e97de191ab0
+  - path: chall/stored.passwd
+    algorithm: sha256
+    value: 7f2ba9dbc8c8a2525e3b73c3b01f34ce004d299c734a8beafeb9d6f9c02751ec
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

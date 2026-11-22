@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-pwn-004
+name: lemfao
+slug: 004-lemfao
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: binary-exploitation/lemfao
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 52cb68db3830e8f49b625541706db9a2eb2a7db4c8d731d148c63bc1ad10a151
+  - path: dist/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: dist/lemfao
+    algorithm: sha256
+    value: 64755252621855c3b80e12b5c44368eee088e074e0101e0896db84258c733298
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: dist/main.c
+    algorithm: sha256
+    value: 9c411e2f18047e56a1799f1bdb26bd6f34d9fd9aa850f704332c411adf75e08f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 60c7f176f6cbe6670eb3086197f28a904ff2d8ab646af03bd7ff65f91e69ec7c
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 516fe5e7145dee3a58a1ee60313b60036509e76e56c175d72a75c01fb82ba486
+  - path: src/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: src/lemfao
+    algorithm: sha256
+    value: 64755252621855c3b80e12b5c44368eee088e074e0101e0896db84258c733298
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: src/main.c
+    algorithm: sha256
+    value: b483b66eeecb3dcd4470ae1b9b1d9d5a56c0aeb4494a1b89ac9fa1b8ab38e49f
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

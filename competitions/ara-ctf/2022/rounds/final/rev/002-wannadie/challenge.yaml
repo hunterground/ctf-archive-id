@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-rev-002
+name: WannaDie
+slug: 002-wannadie
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: "Bantu joy mengembalikan filenya yang terkena ransomware wannadie \U0001F626. Berikut adalah\
+  \ video joy ketika melakukan pencarian markas takumi dan rekan-rekannya https://fb.watch/dpmez-gcSc/\
+  \ dan akhirnya dia berhasil masuk ke markas tersebut lalu membuat rekaman video amatir ketika takumi\
+  \ dan rekan-rekannya berpesta setelah berhasil menanam malware pada laptop joy \nhttps://www.facebook.com/agil.rezpecktor.7/videos/356878829675855/\n\
+  \n`Flag start with ara2022{`"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kosong#5956
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/Reverse Engineering/WannaDie
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 131de590a2e3f8f30789e7cc78626bfb170c38b77df275cfac1633ae3010d8dd
+  - path: Resources/malware
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/message_from_aseng.txt.takumi
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/message_from_lambang.txt.takumi
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/message_from_vaints.txt.takumi
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: Resources/server/fix
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/server/log.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/server/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: Resources/server/server.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: flag
+    algorithm: sha256
+    value: d3cc9c53bd4bb2ac7cf715558bd7bbd0b40994f25d16412b265a281915e915cf
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

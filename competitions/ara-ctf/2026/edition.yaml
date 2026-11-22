@@ -10,16 +10,19 @@ dates:
   end: '2026-02-28'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 16
 references:
 - title: CTFtime / ARA 7.0 CTF
   url: https://ctftime.org/event/3152/
   type: third_party_archive
   accessed: '2026-11-21'
-- title: BINUS School of Computer Science on ARA 2026
-  url: https://socs.binus.ac.id/2026/03/12/tim-petir-meraih-peringkat-1-dalam-kompetisi-ara-2026/
-  type: other
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Local competition reported on 28 February 2026. The CTFtime entry is the mirror, 5-6 March 2026,
-  and states the jeopardy format. The mirror dates are not used as the edition window.
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026
+  type: third_party_archive
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: >-
+  Local competition reported on 28 February 2026. The CTFtime entry is the mirror, 5-6 March 2026, and
+  states the jeopardy format. The mirror dates are not used as the edition window. The archived materials
+  are the 16 challenges published in the ctf-archives mirror, so the recorded challenge count describes
+  that mirror set rather than a count of the local event.

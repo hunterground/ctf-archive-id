@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: final
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: unknown
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 11
+  participant_count: null
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Final stage of CTF ARA 2022. The organizer repository publishes the Final problem set under that stage
+  name; no source gives the stage date.

@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-rev-003
+name: Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru 2nd Season
+slug: 003-sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-2nd-season
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: "thank you for helping me unlocking the game <3 \nbut the game closes and does nothing ....\
+  \ or is it?\n\nFlag Format: `ARA5{.*}`  \nNote: you might need to run things in Administrator mode to\
+  \ get things working as expected"
+difficulty:
+  value: medium/hard
+  source: organizer
+tags:
+- C++
+- Windows 32 API
+- DLL Injection
+- Shared Memory Region
+authors:
+- name: HyggeHalcyon
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: reverse-engineering/Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru 2nd Season
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9a5fd98f1d3fb21b1d892f81b022444ff51c091eb43f18541c7a7cf6ad5433a0
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

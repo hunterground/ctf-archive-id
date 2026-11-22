@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-misc-003
+name: git2root
+slug: 003-git2root
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: >-
+  idk how to exactly describe this challenge but this supposed to be boot2root in nutshell lmao
+difficulty:
+  value: null
+  source: unknown
+tags:
+- boot2root
+authors:
+- name: takanami
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/misc/git2root
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 27c3d22e5b3199b199560299cecb4ab1d418c922adbc6fd5e5a8081c7560a40d
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 2cb506776a9986ab7a37ee05d5c4879aa47bba2c66977cf04ef468667937e122
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/misc/git2root
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  The README publishes login credentials used to start the challenge; they are not copied into metadata.
+  docker-compose.yaml is part of the distribution.

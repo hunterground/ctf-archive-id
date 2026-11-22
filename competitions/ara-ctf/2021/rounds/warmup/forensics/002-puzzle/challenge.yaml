@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: ara-ctf-2021-warmup-forensics-002
+name: Puzzle
+slug: 002-puzzle
+original_name: PUZZLE
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: warmup
+category: forensics
+original_category: Forensic
+description: >-
+  Kamu disuruh untuk mencari tahu file file yang berhasil diambil oleh Hacker dimana file-file tersebut
+  jika disusun akan membentuk sebuah gambar yang berisikan flag rahasia. Temukan dan kamu berkesempatan
+  untuk terpilih menjadi Blue Team di Telkom Indonesia
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Pemanasan/Forensic/PUZZLE
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f21f218e881d52eb0814a9114cef06281ed74336970e398550274ba68f54c570
+  - path: chall/puzzle.pcap
+    algorithm: sha256
+    value: 8a881e1df7604ec7c12251b533150d7411bdbd22e3c2e697b82bc4576082dc66
+  - path: pict.png
+    algorithm: sha256
+    value: b50fc13a69c6ed7cc79bde2749decefd586c21e1944fba39ca4cf8e2d8be93f3
+  - path: pict2.png
+    algorithm: sha256
+    value: bbc8d4931e206c11cb24eaec33caca1b5ead53b6e33e5ee2321fd157b6e77431
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

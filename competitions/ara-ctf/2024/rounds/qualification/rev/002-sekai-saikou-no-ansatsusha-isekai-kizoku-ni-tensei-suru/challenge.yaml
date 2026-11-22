@@ -1,0 +1,117 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-rev-002
+name: Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru
+slug: 002-sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: |-
+  my friend gave me this cool isekai assasin game, but it's currently locked behind some **passcode**...
+
+  Flag Format: `ARA5{.*}`
+difficulty:
+  value: baby/easy
+  source: organizer
+tags:
+- C++
+- XOR
+authors:
+- name: HyggeHalcyon
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: reverse-engineering/Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/Entry/Entry.vcxproj.user
+    reason: Editor or runtime artifact, not part of the challenge distribution.
+  - path: src/Solve/Solve.vcxproj.user
+    reason: Editor or runtime artifact, not part of the challenge distribution.
+  - path: src/TotallyNotMalicious/TotallyNotMalicious.vcxproj.user
+    reason: Editor or runtime artifact, not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b71f4a064521e6e23ba7d645f8093f0e9d0885d899f277429a53857487a9ab4e
+  - path: dst/LughTuathaDe.exe
+    algorithm: sha256
+    value: f51ca141eac120b4fb8afb9d706a9dd0624e73c6f41bc5ad90ad7c5bf99c7f52
+  - path: dst/TotallyNotMalicious.dll
+    algorithm: sha256
+    value: 41278a44f5ee8d94a4a29c68bf33b10d0f631fbcf6f77c10234428533699801b
+  - path: src/ARACTF-5.0-Rev.sln
+    algorithm: sha256
+    value: f5aa6df83dda9679d2583b3e739720e24c817f944fa0d31020a03557a032343f
+  - path: src/Entry/Entry.vcxproj
+    algorithm: sha256
+    value: c874a9ff701cf2d9cab176c504770ce235f5124469d9d8e1a4a7603e19452e23
+  - path: src/Entry/Entry.vcxproj.filters
+    algorithm: sha256
+    value: cf316b0257255b88b71c18be37522f470c509c609751ec80c510c163cf93b11b
+  - path: src/Entry/LughTuathaDe.cpp
+    algorithm: sha256
+    value: 6594bc41a4811d3045ab348d577df6aa5d8137f6cf0a03740b2da87f7aa48fd5
+  - path: src/Entry/flag-1.txt
+    algorithm: sha256
+    value: 0587234c5cdea45aa09a7a7da9bcb46ea71a5d1ee6babf5f9e5b1105123154f0
+  - path: src/TotallyNotMalicious/TotallyNotMalicious.vcxproj
+    algorithm: sha256
+    value: 2f6b25b7e98e2d0edc869fcdddf600da040115f0aa6da6cebdf52465bb5c2056
+  - path: src/TotallyNotMalicious/TotallyNotMalicious.vcxproj.filters
+    algorithm: sha256
+    value: 9df4693c9958bd9d2bcf10b523201e2c27980fc300a3b182ef30d771ff0d7c74
+  - path: src/TotallyNotMalicious/dllmain.cpp
+    algorithm: sha256
+    value: da2027a9805f06a029fadc96bc2de153d353b3e510f5afb1e198f03a48dc4dd8
+  - path: src/TotallyNotMalicious/flag-2.txt
+    algorithm: sha256
+    value: f8395abf9ffa83e8ef4d048d0280b5eaa08b5a0dbc66a515b81f8b0da5c5654c
+  - path: src/TotallyNotMalicious/framework.h
+    algorithm: sha256
+    value: 188c9e04096a0a539b82a8c61784d69fd7334dea8066c181f31b429024974384
+  - path: src/TotallyNotMalicious/pch.cpp
+    algorithm: sha256
+    value: b1dfc417ce748ffeec95311109dae13142c638e58cfa86eb6e5a0865082428aa
+  - path: src/TotallyNotMalicious/pch.h
+    algorithm: sha256
+    value: c2d8c468b0dd828eaa49a609c5e54ebca95ea4d2de3cd390e968e01c5d7f79ed
+  - path: src/x64/Release/LughTuathaDe.exe
+    algorithm: sha256
+    value: f51ca141eac120b4fb8afb9d706a9dd0624e73c6f41bc5ad90ad7c5bf99c7f52
+  - path: src/x64/Release/LughTuathaDe.pdb
+    algorithm: sha256
+    value: ad7a6bf085c9d3bbf4d81b4fcc30afcfdf604ca2560a6407cb7deb01f3a7a039
+  - path: src/x64/Release/TotallyNotMalicious.dll
+    algorithm: sha256
+    value: 41278a44f5ee8d94a4a29c68bf33b10d0f631fbcf6f77c10234428533699801b
+  - path: src/x64/Release/TotallyNotMalicious.pdb
+    algorithm: sha256
+    value: 81bb844a3c6757ae6f8e375384fb9741dd35edef5fb340ee10eb46f771d520f9
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

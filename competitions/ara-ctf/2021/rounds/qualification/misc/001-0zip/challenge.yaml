@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-misc-001
+name: 0zip
+slug: 001-0zip
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: >-
+  PT Pama Persada sedang melakukan pengeboran untuk mendapatkan mineral di lokasi penemuan mineral terbaru
+  mereka. seorang engginer nya lalu berkata : We need to go deeper...
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Misc/0zip
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 60f9dde0f9ee90381431374e30ac1c809eb1a3b4ed5dbe95a24388aaa081d057
+  - path: chall/0.zip
+    algorithm: sha256
+    value: c426c1e4af45178e48a077a61985c9992ae719acef06ec560df23321bd824899
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

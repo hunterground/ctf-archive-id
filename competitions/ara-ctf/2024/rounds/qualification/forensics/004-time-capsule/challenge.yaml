@@ -1,0 +1,53 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-forensics-004
+name: Time Capsule
+slug: 004-time-capsule
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: forensic/Time Capsule
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Challenge/TimeCapsule.zip
+    algorithm: sha256
+    value: bf52d6c7ef15619127585064d0ef0e103a11052f17e2d2bf354be569eb3ded8f
+  - path: Challenge/notes.png
+    algorithm: sha256
+    value: bcf7da86268718c3da24fe7a0740e759773483d60dc85b3c240a648cf020528e
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

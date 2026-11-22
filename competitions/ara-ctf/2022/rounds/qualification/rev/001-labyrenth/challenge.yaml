@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-rev-001
+name: LabyRENth
+slug: 001-labyrenth
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: "Bantu Takumi menemukan flag pada sebuah labirin berbentuk web service \n\nIP address & port:\
+  \ http://159.223.83.0:9999/"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kosong#5956
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Reverse Engineering/LabyRENth
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 6647609e57d974f28cec13d74375da5bffd1a4382236659a622b4ebe7ab63aeb
+  - path: Flag.txt
+    algorithm: sha256
+    value: 87501407b209901736175b8468f71b89fc6b683afab879223a9495c1f638d3aa
+  - path: Resources/HttpServer
+    algorithm: sha256
+    value: 449cce8d77145367debfb4a4128a70b3b403d0274a308c80ef55e42a723202c4
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

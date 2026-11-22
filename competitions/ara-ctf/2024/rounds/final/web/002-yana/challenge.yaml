@@ -1,0 +1,156 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-web-002
+name: YANA
+slug: 002-yana
+original_name: yana
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- css-injection
+- rpo
+authors:
+- name: kiseki
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: web/yana
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7d622b6c43595b0c35dedb21ab8a6953deae4627381f1d3c5976b66cb688bfdf
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: ac71447ca028e2e2b408f09d92425cef13c6baea78971a4366cab719d54d4061
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 9682bb7257f12a79cfdd906523a90153ce07dbf78293f1620ce53b01f8855084
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: b2aa2d3bc7222e4d8118a327408f908c77210de9f5523ed26bb9d3c463627254
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: e7efb8e7589657ecd1d364ce824e53eb676d7d8901880cd9ad52a430057e72a6
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 159d39aad5df896b48482fc419361c7817caf2472048c67cb83491036209e19c
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: 49626c6b065463b4bfb5af82cd0b7e2040ae85df6ff572a5123858e017986716
+  - path: dist/default.conf
+    algorithm: sha256
+    value: f74fae38b88e9701a8ee500df0f1639c53ca3daac3733742efeb5f92beee3972
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 4cab702d4ffa4e2009fa60277ff6572ae672fe0a62f35f1c6f4683f24b164287
+  - path: dist/src/.env
+    algorithm: sha256
+    value: a64ead8811081fb50c6bac09c4e108197175baa71daea63295ee1443eb1694d1
+  - path: dist/src/app.js
+    algorithm: sha256
+    value: 0b4f085ccc9c2388f8af1e160081c76f06f379fcaaf58a79f66ae384fabb22fc
+  - path: dist/src/package-lock.json
+    algorithm: sha256
+    value: 9130bbac74f9e6b196e0229f953f9162605271e524ef92013eec7b3435fd7c85
+  - path: dist/src/package.json
+    algorithm: sha256
+    value: f1634b73291af3f65a81e71d64805c31a309b612d588583d99f1f434cc3f74a7
+  - path: dist/src/routes/index.js
+    algorithm: sha256
+    value: 52b491aa513ea27cf9e5370602ebb8e88390db2241fbfb778923f7672da6510a
+  - path: dist/src/static/index.html
+    algorithm: sha256
+    value: 4ad3965fa7ff95277be8cc2b21491b5f074decc3937bdebd5a7781aa3a312105
+  - path: dist/src/static/script.js
+    algorithm: sha256
+    value: a119344f21bcd9bf6aa3386846874f47c07d222f3f09d71fdc8f8dfc90b4d9d7
+  - path: dist/src/static/style.css
+    algorithm: sha256
+    value: 6af87f9847d0c64c19db24a86537c18595280a75c371a0e538392822612dea95
+  - path: dist/src/tailwind.config.js
+    algorithm: sha256
+    value: 8b82ca1c9af805837ebda47919ab4666697a29ce3780aabe9402786b39dd691b
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ac71447ca028e2e2b408f09d92425cef13c6baea78971a4366cab719d54d4061
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 9682bb7257f12a79cfdd906523a90153ce07dbf78293f1620ce53b01f8855084
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: b2aa2d3bc7222e4d8118a327408f908c77210de9f5523ed26bb9d3c463627254
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: e7efb8e7589657ecd1d364ce824e53eb676d7d8901880cd9ad52a430057e72a6
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 159d39aad5df896b48482fc419361c7817caf2472048c67cb83491036209e19c
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: 49626c6b065463b4bfb5af82cd0b7e2040ae85df6ff572a5123858e017986716
+  - path: src/default.conf
+    algorithm: sha256
+    value: f74fae38b88e9701a8ee500df0f1639c53ca3daac3733742efeb5f92beee3972
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 1a7c953dce1aff46ffc93f1e3f5bb059f84641844c234fefa6198444edc747f0
+  - path: src/src/.env
+    algorithm: sha256
+    value: a64ead8811081fb50c6bac09c4e108197175baa71daea63295ee1443eb1694d1
+  - path: src/src/app.js
+    algorithm: sha256
+    value: 0b4f085ccc9c2388f8af1e160081c76f06f379fcaaf58a79f66ae384fabb22fc
+  - path: src/src/package-lock.json
+    algorithm: sha256
+    value: 9130bbac74f9e6b196e0229f953f9162605271e524ef92013eec7b3435fd7c85
+  - path: src/src/package.json
+    algorithm: sha256
+    value: f1634b73291af3f65a81e71d64805c31a309b612d588583d99f1f434cc3f74a7
+  - path: src/src/routes/index.js
+    algorithm: sha256
+    value: 52b491aa513ea27cf9e5370602ebb8e88390db2241fbfb778923f7672da6510a
+  - path: src/src/static/index.html
+    algorithm: sha256
+    value: 4ad3965fa7ff95277be8cc2b21491b5f074decc3937bdebd5a7781aa3a312105
+  - path: src/src/static/script.js
+    algorithm: sha256
+    value: a119344f21bcd9bf6aa3386846874f47c07d222f3f09d71fdc8f8dfc90b4d9d7
+  - path: src/src/static/style.css
+    algorithm: sha256
+    value: 6af87f9847d0c64c19db24a86537c18595280a75c371a0e538392822612dea95
+  - path: src/src/tailwind.config.js
+    algorithm: sha256
+    value: 8b82ca1c9af805837ebda47919ab4666697a29ce3780aabe9402786b39dd691b
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-rev-002
+name: PolyChrome
+slug: 002-polychrome
+original_name: polychrome
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: |-
+  We've just released a next-generation alternative of browser, `PolyChrome`. It is expected to be much faster and optimized than your usual browser with fully upgraded search engine.
+
+  You're currently given a **PolyChrome Beta Application** to test whether your current computer supports the Pro Polychrome Application or no. This application doesn't resemble the next actual PolyChrome but it'll determine if your device is compatible.
+
+  Maomao, as a founder, implements a custom algorithm to verify and check your device. But as we know, every human design might be vulnerable, especially for a Desktop Application that could potentially to be reverse-engineered by ARA Finalists.
+
+  Are you able to bypass the check? If there's an error popup (not by system but by the check from PolyChrome Beta App), it means that the device is incompatible, yet if there's an informational `dialog.MessageBox` popup, it means the device is compatible. Maomao left this check in a form of `FLAG` evidence for you to submit, with a format `ARA5{.*}`.
+
+  Information regarding the PolyChrome Beta App:
+  * Framework: [Electron](https://www.electronjs.org/)
+  * Compilation Engine Src: NodeJS & [Chromium V8 11.4.183.29 Engine](https://chromium.googlesource.com/v8/v8.git/+/refs/tags/11.4.183.29)
+difficulty:
+  value: hard-insane
+  source: organizer
+tags:
+- browser-re
+- v8
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: reverse-engineering/polychrome
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4efc8331c7e92b0f470f5d570a0faf1e6269d222bbb24677b5c052d36449678e
+  - path: dist/polychrome.zip
+    algorithm: sha256
+    value: 8d49d820c20961010cefc786dbbed38baaf392b34516e361dd97e4ffb519af56
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

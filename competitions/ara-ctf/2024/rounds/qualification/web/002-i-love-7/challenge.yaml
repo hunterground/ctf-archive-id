@@ -1,0 +1,130 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-web-002
+name: I Love 7
+slug: 002-i-love-7
+original_name: I love 7
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  "7 * 1 = 7
+  7 * 2 = 14
+  7 * 3 = 21
+  7 * ? = ??
+
+  Link: xxx
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: web/I love 7
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 46c4c9798ef81c957ba9516ed2e7169f3d8b9d55622aa7ad64528c3851f78014
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 231a1837885053dee76244fc6995ab067798103b8bcaa1ff69b781d4ec6ab7ca
+  - path: dist/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: dist/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: f1b57d85310b753ef8f38a4a51c7424f7833c34f253b01583245ad3929f43e06
+  - path: dist/proxy.conf
+    algorithm: sha256
+    value: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: dist/src/images/dewaweb.png
+    algorithm: sha256
+    value: 8df697c9d976263bf2b204abea2f1d0a8977f03004dba625871218f4f2159dfa
+  - path: dist/src/index.php
+    algorithm: sha256
+    value: 9c97cb2b067282e37aa733c1260db269ae273bba3f6f7f42bae8feb2a096af8e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 231a1837885053dee76244fc6995ab067798103b8bcaa1ff69b781d4ec6ab7ca
+  - path: src/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: src/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: ed3d2731a7b73f7b0885ac77b9cfe0c1a723a9b75da534da9c3e37b08c5a0509
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: src/src/images/dewaweb.png
+    algorithm: sha256
+    value: 8df697c9d976263bf2b204abea2f1d0a8977f03004dba625871218f4f2159dfa
+  - path: src/src/index.php
+    algorithm: sha256
+    value: 9c97cb2b067282e37aa733c1260db269ae273bba3f6f7f42bae8feb2a096af8e
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

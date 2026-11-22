@@ -1,0 +1,53 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-forensics-002
+name: Jack Sparrow
+slug: 002-jack-sparrow
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: Not all treasure is silver and gold mate! let the ship flow from left to right
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Forensic/Jack Sparrow
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: d13c6129fa4f429b3e3f1fa11e4cbe2a34bf656c06d9183a9a8139c7b5ffed00
+  - path: chall/jack.png
+    algorithm: sha256
+    value: a7e732151ec643017730413ac2f5de16cbfa3b60774b0e62ff85bf078733491b
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

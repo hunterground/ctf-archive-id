@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-forensics-001
+name: FORENG0D
+slug: 001-foreng0d
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: |-
+  Kobleco adalah seorang manusia dewasa, suatu hari kobleco membongkar gudang rumahnya dan menemukan komputer lamanya, dia sangat ingin melihat file xxx eh file lamanya.
+  Sayangnya file lamanya ini terpassword. Dia masih ingat pernah menyimpan passwordnya di internet, dapatkah kamu mengembalikan file lama kobleco yang dicari cari?
+
+  maap cringe nop bikin lembur semalem author: ngabxnop
+
+  https://drive.google.com/file/d/1XORXn1A6zlR-upOW1hwXhP6aDWsN9FXK/view?usp=sharing
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Cincinnati#1876
+  team: null
+- name: nop#3808
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/Forensics/FORENG0D
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 22f8568398f2bb08f8ca13652ccae9ce6c63a3da674ac3faaa594b1684596923
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: flag
+    algorithm: sha256
+    value: 881eef3d35ba233131cc52d5f0273a261a3787ac8f26b8a998bd46d19614904a
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-rev-002
+name: i_like_to_move_it_move_it
+slug: 002-i-like-to-move-it-move-it
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: >-
+  My friend made a keycheck for a software but he gatekeeps the algo. Me n my other friends want to do
+  a little bit of piracy. Ur good at reversing stuff yea?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: requiiem
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/rev/i_like_to_move_it_move_it
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c93e7db9cf61f37491546f3381d5d332dbee8719152f43b544fb66266aa508e6
+  - path: mov
+    algorithm: sha256
+    value: cb9cc85113c807c35ebe1b0117cec97650e6c96ed36d15233fc937ab34d8bf0b
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/rev/i_like_to_move_it_move_it
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-forensics-001
+name: Heked By
+slug: 001-heked-by
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: forensic/Heked By
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b2b30023715e35287637f0b599196d229c5915f2c39f18a61116143986e58ffb
+  - path: images/image-1.png
+    algorithm: sha256
+    value: b161493e3afbfcdfcb100dc8096da2c4b40855553baa06b6603ed01b06c677cc
+  - path: images/image-2.png
+    algorithm: sha256
+    value: e6c9601fc64944bbb7e8ce34c7f50bd32745c734d552315687a8481b683071f7
+  - path: images/image-3.png
+    algorithm: sha256
+    value: 30ee6d9b218a9517da60a38bb23f04c83c9d45ffb85f11b9d2282974d76fc56c
+  - path: images/image-4.png
+    algorithm: sha256
+    value: 5e02c36e63d918520069ea1403c29f057feaf2182b8d31e44a2f437438089f53
+  - path: images/image-5.png
+    algorithm: sha256
+    value: 90844e22c7b91a68f15dcd56fcce47a9bb7e4a83ebf29f06b7cea994c6328a83
+  - path: images/image-6.png
+    algorithm: sha256
+    value: 8f34ee8644a0fbd858b24be02298573f03ee62630c3384761231171136b00a91
+  - path: images/image.png
+    algorithm: sha256
+    value: e8c04f6120822de6f9f46c3913e37240241fbc942e002d567ead5aa1acd433a4
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2269dd109458789b27517bff14eb2b8e68dde2a2d8ea3a14c6faece08106cad0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: a21926a5b8c2839fe1ebd65006aa2d2d058ff134457ae8433728182a919a37a1
+  - path: src/questions.py
+    algorithm: sha256
+    value: 484ebe355488453286a69036f196f8fadf229f89a550debb0d31e9a1836b1cf1
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

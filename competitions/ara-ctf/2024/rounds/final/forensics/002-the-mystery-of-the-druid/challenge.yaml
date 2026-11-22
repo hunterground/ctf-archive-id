@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-forensics-002
+name: The Mystery of the Druid
+slug: 002-the-mystery-of-the-druid
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: forensics
+description: “Women like blogs, Halligan.”
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- android forensics
+- OSINT
+authors:
+- name: spitfire
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: forensics/The Mystery of the Druid
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d34adca3dc864989086aabaaedcae56f42ad6407852151716d2bb89d27cb5da1
+  - path: image-1.png
+    algorithm: sha256
+    value: e61d80f131f103c41e5a282e40adcc04eba3a1406ed5e993ec4bdb761d3044cc
+  - path: image-2.png
+    algorithm: sha256
+    value: b719b791c391f73663270438e989ea1c233330aea38961fc83081b2525caa9ce
+  - path: image-3.png
+    algorithm: sha256
+    value: c97b6f8b832da183885d8e5980a28e5f034355dea2cca12664abeacf32a2ae3b
+  - path: image-4.png
+    algorithm: sha256
+    value: 449d07c60e06214742468c7a2b489bf3bfb34abe3e543ba083cb4aec366a7216
+  - path: image-5.png
+    algorithm: sha256
+    value: 792cf235253656000e47933431b2df4a32f8bf274c2956f911bb4f62d6753b17
+  - path: image.png
+    algorithm: sha256
+    value: df955f9d995d619d78fa1716b0c4e196c93b817ba2eb6641a042a5ec7845eb7b
+  - path: passarchive.txt
+    algorithm: sha256
+    value: 70bd81acdc8cfe630e477bd75c33784ab87825b1fffd45921032a68101eee194
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

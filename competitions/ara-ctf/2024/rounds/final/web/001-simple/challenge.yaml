@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-web-001
+name: Simple
+slug: 001-simple
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: web/Simple
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4a903ebbd70b110c28f630e73fc8d3a67da52220339c254644541337d415491c
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: ef6f67d2c38768dfa7f33bcf6e00d1869f57cdbff57ccd6fe63426a417d90e48
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: b7d9a93bf2ca2a47cec382bc7089c6f19e4a25b0e8945be148c396b19e7b9817
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 9fe3a1852d3116b932bcbab8426ac2d35febf0633cf97b91151c08627712295e
+  - path: dist/index.php
+    algorithm: sha256
+    value: b6b3ffce1eca78dec041ecb45e68e8465cf5f9946be798ddee744c8653e97bdd
+  - path: dist/php.ini
+    algorithm: sha256
+    value: 2533da00f66b1cf18430b08871262afa12f58cf2ee43b2077740c9c3972bb980
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ef6f67d2c38768dfa7f33bcf6e00d1869f57cdbff57ccd6fe63426a417d90e48
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: a853e133ce4ad6d17a40c4a7fdb561f4e13e4a0e1b91dc9fe386f281561893ba
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 10b8415ebcf538a21e62cf15fad6566a115c7a685ca106505bd6e908d36ff47b
+  - path: src/index.php
+    algorithm: sha256
+    value: b6b3ffce1eca78dec041ecb45e68e8465cf5f9946be798ddee744c8653e97bdd
+  - path: src/php.ini
+    algorithm: sha256
+    value: 2533da00f66b1cf18430b08871262afa12f58cf2ee43b2077740c9c3972bb980
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

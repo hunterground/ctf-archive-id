@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-forensics-002
+name: when red team ops need blue team skills
+slug: 002-when-red-team-ops-need-blue-team-skills
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: "Jeant Tirstan adalah defacer berkelas dari xxxh3ngkerzzz, dia diberikan tugas untuk melakukan\
+  \ read team operation ke ARA TECH, sebuah perusahaan baru penyedia service cyber ranges di Sukolilo.\n\
+  Setelah melakukan spionage terhadap ARA TECH berbulan bulan, akhirnya Jeant Tirstan menemukan bahwa\
+  \ ARA TECH sedang merekrut banyak pegawai baru, salah satunya adalah Joy Gilbert. \nJoy Gilbert aka\
+  \ \"joytech\" sekarang menjadi target nomer 1 Jeant Tirstan, Jeant sudah melakukan penyerangan mulai\
+  \ phising, MITM dan segala cara sudah dilakukan tetapi Joy tidak pernah terkena jebakan batman tersebut.\n\
+  Kini Jeant kelabakan dan berpikir untuk mencuri data sensitif langsung dari komputer Joy. Pada suatu\
+  \ hari ia masuk ke rumah Joy dan mengambil image dari komputer Joy, sialnya OS komputer Joy adalah linux,\
+  \ sedangkan Jeant hanya berpengelaman melakukan memdump forensic pada windows.\nKini kamu sebagai teman\
+  \ satu kantor Jeant tapi beda divisi diminta untuk menemukan sensitive information dari hasil curian\
+  \ Jeant.\n\nara2022{ip server ARA TECH_password komputer joy_default password ara tech_nomor hp pak\
+  \ as3ng_second flag_third flag}"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Cincinnati#1876
+  team: null
+- name: aseng#2055
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/Forensics/when red team ops need blue team skills
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 1e4678a66a1c36b7d77f4c269f16a7a65d61eccecaa72c373d2bea7ccd0b2025
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: flag
+    algorithm: sha256
+    value: 5172073e461f50ec8f66c4762b18f2e7095af2789159415b63b8812bf4b9c2a8
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

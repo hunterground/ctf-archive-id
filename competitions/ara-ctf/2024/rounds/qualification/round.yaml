@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: qualification
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+name: Qualification
+original_name: Qualification
+sequence: 1
+type: qualification
+delivery: online
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 20
+  participant_count: null
+references:
+- title: CTF ARA 5.0
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Qualification stage of CTF ARA 5.0. The repository states the stage name only; it gives no dates, and
+  the public ITS news post covers the final round instead.

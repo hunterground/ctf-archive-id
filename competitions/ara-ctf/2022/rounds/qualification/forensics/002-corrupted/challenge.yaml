@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-forensics-002
+name: Corrupted
+slug: 002-corrupted
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: >-
+  Aku memiliki sahabat yang sejak di bangku kuliah kita selalu bersama hingga saat ini bekerja pun di
+  tempat yang sama. Kebetulan hari ini aku berulangtahun dan temanku memberikan suatu hadiah berupa file
+  misterius. Aku cukup kesulitan dalam membukanya, bisakah kamu membantuku membuka file tersebut?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Win#0991
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Forensics/Corrupted
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 642db83dda0e21273179233dbc96aa82251f3d8d1a3b3f838d400a3bc312cc04
+  - path: Flag.txt
+    algorithm: sha256
+    value: 1a60c84c3230188321b54a0230f5106ea99b5f94f613cc5baacb0eedfb207e8c
+  - path: Resources/rahasia
+    algorithm: sha256
+    value: c6c0791e3eb2f2689846f3c976f6cb32a96b287697a919cff41190b300801727
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+- title: ctfs writeup of ARA 2022
+  url: https://k1nomi.gitbook.io/ctfs/competitions/2022/ara
+  type: writeup
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

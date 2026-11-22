@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-forensics-004
+name: The Lady Sound
+slug: 004-the-lady-sound
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: >-
+  Pada suatu hari PT. Pama mendapatkan sebuah voice note yang sudah dirusak. Bantulah PT. Pama untuk memperbaiki
+  file audio yang telah dirusak ini
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Forensic/The Lady Sound
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f627dea7b4a73b4e57083f26df0decf31a142bae8682ee6cc954c107294661da
+  - path: chall/flag.m4a
+    algorithm: sha256
+    value: ddf7876f11619ed33cb3154c443869113c1cbbd6e4e1db7d1e556fc5d4cb2f5e
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

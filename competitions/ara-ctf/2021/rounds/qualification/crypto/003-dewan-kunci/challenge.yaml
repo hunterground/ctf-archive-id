@@ -1,0 +1,53 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-crypto-003
+name: Dewan Kunci
+slug: 003-dewan-kunci
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'Cipher: zeq3p1z}nr5[xL;\sq2/7wjr7\irf,hrg.jr7w;[dedr;r8p60x6e{'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Cryptography/Dewan Kunci
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: ab3acd6e33fd8b7168a20aff596ccd67e575bf2658dca2ed79c56d4e5f7e36f3
+  - path: chall/enc.txt
+    algorithm: sha256
+    value: cd28b1af77ad0cc08cc28e99f3ab3bffb6e4fa6f84a331a7f2118d5a54a8db9b
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

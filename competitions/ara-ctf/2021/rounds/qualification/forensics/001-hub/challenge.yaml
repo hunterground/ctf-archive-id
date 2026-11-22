@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-forensics-001
+name: Hub
+slug: 001-hub
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: >-
+  Seorang tersangka kejahatan digital suka memindahkan file sensitif dengan cara tradisional. Dengan cara
+  yang tentu saja legal, kami berhasil mendapatkan rekam aktivitas pada komputernya pada sebuah transaksi
+  data. Namun karena banyaknya hal yang dipasang pada komputernya, kami sedikit kesulitan mendapatkan
+  informasi tentang file tersebut. Bisakah kalian menemukan apa yang dia sembunyikan?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Forensic/Hub
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Hub-Solution.pdf
+    algorithm: sha256
+    value: 9ad7fb13f4ea6e21df33d2b2f86ffd2c4b63f05aa3e8ff5f15cc9f337267086a
+  - path: Readme.md
+    algorithm: sha256
+    value: c2adf50f68b274612420b4bc49b2aa5f2afa94faea715596a9fcf17647afb797
+  - path: chall/Hub.pcapng
+    algorithm: sha256
+    value: 8ee3a1269e09748257c209101a78decaf81a25765a15b82f5ad757e18976f02f
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

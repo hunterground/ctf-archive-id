@@ -1091,3 +1091,263 @@ repositories:
       The ctfcompfest organization also publishes the Ailurus attack-defense
       platform, its CTFd machine-challenge plugin, and Fulgens. Those are
       event infrastructure and were not imported.
+
+  - schema_version: '1.0'
+    id: ara-ctf-2021-challenges
+    name: ARACTF 2021 Problem Set
+    source:
+      type: github
+      url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+      owner: ARenewalAgent-ITS
+      repository: ARACTF2021
+      branch: master
+      commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+      path: null
+    competition_id: ara-ctf
+    edition_year: 2021
+    round_id: null
+    maintainer:
+      type: organization
+      name: ARenewalAgent-ITS
+      url: https://github.com/ARenewalAgent-ITS
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+    - challenge_materials
+    challenge_count: 35
+    categories:
+    - crypto
+    - forensics
+    - misc
+    - pwn
+    - rev
+    - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: null
+      redistribution: permitted
+    references:
+    - title: ARACTF2021
+      url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+      type: official_repository
+      accessed: '2026-11-22'
+    notes: >-
+      Problem set for ARACTF 2021, the 2021 ARA CTF, published by the A Renewal Agent ITS GitHub
+      organization. The repository has no license file. Challenge descriptions and organizer
+      difficulty labels were read from the per-challenge Readme.md files. Staging directories
+      Pemanasan, Penyisihan, and Final map to the archive warmup, qualification, and final rounds. The
+      Readme.md files include organizer write-ups with flag strings; they are original distribution
+      files and are preserved as-is, not copied into challenge metadata.
+
+  - schema_version: '1.0'
+    id: ara-ctf-2024-quals
+    name: CTF ARA 5.0 Qualification Problem Set
+    source:
+      type: github
+      url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+      owner: ARenewalAgent-ITS
+      repository: CTF5.0-Quals
+      branch: main
+      commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+      path: null
+    competition_id: ara-ctf
+    edition_year: 2024
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: ARenewalAgent-ITS
+      url: https://github.com/ARenewalAgent-ITS
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+    - challenge_materials
+    challenge_count: 20
+    categories:
+    - crypto
+    - forensics
+    - misc
+    - pwn
+    - rev
+    - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: null
+      redistribution: permitted
+    references:
+    - title: CTF5.0-Quals
+      url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+      type: official_repository
+      accessed: '2026-11-22'
+    notes: >-
+      Qualification problem set for CTF ARA 5.0, published by the A Renewal Agent ITS GitHub
+      organization. The repository has no license file. Several challenge directories carry a
+      README.md with a write-up and a flag, which was treated as organizer solver material and moved
+      under solvers/. Binary-exploitation challenges ship both src/ and dist/ trees; both were
+      preserved.
+
+  - schema_version: '1.0'
+    id: ara-ctf-2024-final
+    name: CTF ARA 5.0 Final Problem Set
+    source:
+      type: github
+      url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+      owner: ARenewalAgent-ITS
+      repository: CTF5.0-Final
+      branch: main
+      commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+      path: null
+    competition_id: ara-ctf
+    edition_year: 2024
+    round_id: final
+    maintainer:
+      type: organization
+      name: ARenewalAgent-ITS
+      url: https://github.com/ARenewalAgent-ITS
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+    - challenge_materials
+    challenge_count: 10
+    categories:
+    - crypto
+    - forensics
+    - pwn
+    - rev
+    - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: null
+      redistribution: permitted
+    references:
+    - title: CTF5.0-Final
+      url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+      type: official_repository
+      accessed: '2026-11-22'
+    notes: >-
+      Final-round problem set for CTF ARA 5.0, published by the A Renewal Agent ITS GitHub
+      organization. The repository has no license file. Some README.md files are the organizer
+      write-up and include a flag; those were moved under solvers/. Awam and The Mystery of the Druid
+      reference password-protected evidence archives hosted outside the repository; those archives
+      were not downloaded and the omission is recorded in each challenge.
+
+  - schema_version: '1.0'
+    id: ara-ctf-2022-challenges
+    name: SOAL CTF ARA 2022
+    source:
+      type: github
+      url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+      owner: CTFARA2022
+      repository: SOAL-CTF-ARA-2022
+      branch: main
+      commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+      path: null
+    competition_id: ara-ctf
+    edition_year: 2022
+    round_id: null
+    maintainer:
+      type: unknown
+      name: null
+      url: null
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+    - challenge_materials
+    challenge_count: 32
+    categories:
+    - crypto
+    - forensics
+    - misc
+    - pwn
+    - rev
+    - web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: null
+      redistribution: permitted
+    references:
+    - title: SOAL-CTF-ARA-2022
+      url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+      type: official_repository
+      accessed: '2026-11-22'
+    - title: ctfs writeup of ARA 2022
+      url: https://k1nomi.gitbook.io/ctfs/competitions/2022/ara
+      type: writeup
+      accessed: '2026-11-22'
+    notes: >-
+      Imported as the CTF ARA 2022 problem set for the Penyisihan and Final rounds. The A Renewal
+      Agent 5.0 site lists ARA 2022 among the events HMIT ITS has run, and a third-party writeup
+      reproduces the same challenge names, categories, and flags, so the edition is established even
+      though CTFARA2022 is a personal GitHub account and the source has no license file. Redistribution
+      is recorded as permitted under the archive maintainer instruction of 2026-11-22 for sources with
+      no license file. The repository also ships a per-challenge Flag.txt or flag file; those are
+      original distribution files and are preserved, not copied into metadata.
+
+  - schema_version: '1.0'
+    id: ctf-archives-ara-2026-sajjadium
+    name: CTF Archives (sajjadium) - ARA 2026
+    source:
+      type: github
+      url: https://github.com/sajjadium/ctf-archives
+      owner: sajjadium
+      repository: ctf-archives
+      branch: main
+      commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+      path: ctfs/ARA/2026
+    competition_id: ara-ctf
+    edition_year: 2026
+    round_id: main
+    maintainer:
+      type: person
+      name: Sajjad Arshad
+      url: https://github.com/sajjadium
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+    - challenge_materials
+    challenge_count: 16
+    categories:
+    - crypto
+    - forensics
+    - misc
+    - pwn
+    - rev
+    - web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+    - title: ctf-archives / ARA / 2026
+      url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026
+      type: third_party_archive
+      accessed: '2026-11-22'
+    - title: CTFtime / ARA 7.0 CTF
+      url: https://ctftime.org/event/3152/
+      type: third_party_archive
+      accessed: '2026-11-22'
+    notes: >-
+      Secondary collection, not an organizer or author repository. The ctfs/ARA/2026 subtree was
+      fetched with a blobless partial clone and sparse-checkout rather than cloning the whole
+      repository; the recorded commit is the main-branch tip at fetch time and the ARA subtree is
+      unchanged between that commit and the commit that last touched ctfs/ARA (60baee09). The
+      repository root declares MIT (Copyright (c) 2020 Sajjad Arshad); that license covers the
+      collection and may not cover the mirrored third-party challenge content. Redistribution is
+      recorded as permitted under the archive maintainer instruction of 2026-11-22 for sources with
+      no per-challenge license file. Two forensic challenges link their large artifacts externally
+      (Google Drive and iCloud) instead of carrying them in the tree; those artifacts are not
+      archived and the links are recorded as omissions.

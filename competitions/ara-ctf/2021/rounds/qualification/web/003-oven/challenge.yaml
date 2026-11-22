@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-web-003
+name: Oven
+slug: 003-oven
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web-Exploitation
+description: Gunakan oven saat memanggang kue!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Web-Exploitation/Oven
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 2bd239206b9485f2c70b6977aea9d54380650704b9357e431597d40419dd2fb2
+  - path: chall/backup
+    algorithm: sha256
+    value: deeee5f546247c989778abd91514be3bcfefccae8087ba77c91d9ac481192dd0
+  - path: chall/index.php
+    algorithm: sha256
+    value: 312f4fa312bb84cbac9dc008cde13b205c8987347f7ec28b198002a9efda7d84
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

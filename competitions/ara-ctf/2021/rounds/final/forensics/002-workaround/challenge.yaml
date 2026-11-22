@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-forensics-002
+name: Workaround
+slug: 002-workaround
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: |-
+  Chris masih berkutat dengan komputernya. Dia menyayangkan kemampuan komputernya untuk membuat desain yang mantap. Tapi dia menyebutkan bahwa ada jalur lain yang untuk sementara akan bekerja. Setelah kamu membantuku untuk diundang ke rumahnya, aku ingin kamu mencari tahu apa yang dia maksud dengan jalur lain.
+
+  Hint:
+  Kemampuan aplikasi bawaan masih kurang cukup kuat untuknya, barangkali ada cara lain yang lebih praktis yang dia lakukan.
+  [attachment](https://drive.google.com/file/d/1NRkySjE2hB4mYVbNPEwtewM7Ny084RN4/view?usp=sharing)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Forensic/Workaround
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 3f32d73352daa677d00165f49c77d3dfde3390b577bb7f68ea4bfa7f9b27d78b
+  - path: Workaround_Solution.pdf
+    algorithm: sha256
+    value: fc52820a841efc764cbe24dbf0980b660069cf7ea297a305fed9dadfa1ab5258
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

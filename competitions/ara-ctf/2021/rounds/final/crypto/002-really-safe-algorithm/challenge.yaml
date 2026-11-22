@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-crypto-002
+name: Really Safe Algorithm
+slug: 002-really-safe-algorithm
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: I hope getStrongPrime function make this algorithm safe
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Cryptography/Really Safe Algorithm
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f610ffb1bebe426c904e07304fa34f910099945cab7c2a6162a802a640aa9e73
+  - path: chall/chall.py
+    algorithm: sha256
+    value: bd3bd52d8b3a0f10735c52467a12765b5bb21865364edc3968fe4ea1dc23b2ed
+  - path: chall/output.txt
+    algorithm: sha256
+    value: 6609163b4fe821b48813dff33c5c392e1cb6aa0d787a748a2c76f6ca27022bfa
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

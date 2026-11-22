@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: warmup
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+name: Pemanasan
+original_name: Pemanasan
+sequence: 1
+type: warmup
+delivery: online
+description: null
+dates:
+  start: '2021-03-06'
+  end: '2021-03-06'
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Warm-up stage of ARACTF 2021. The organizer README schedules Pemanasan on Saturday, 6 March 2021.

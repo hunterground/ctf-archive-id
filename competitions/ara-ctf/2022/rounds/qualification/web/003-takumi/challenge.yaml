@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-web-003
+name: Takumi
+slug: 003-takumi
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Nop adalah seorang programmer pemula, Dia baru saja belajar mengenai web server,dan git. Nop menerapkan ilmu yang baru didapatkannya dengan membuat sebuah website sederhana. Seorang teman bernama Takumi yang merupakan Senior Security Consultant mencoba website nop yang masih dalam tahap development. Takumi menemukan banyak sekali miskonfigurasi dan celah keamanan pada website tersebut. Takumi memiliki ide supaya website tersebut digunakan sebagai Challenge di CTF pastinya dengan sedikit revisi dari Takumi. Catatan dari Takumi, flag terletak di /home/ubuntu/takumi.txt
+
+  web address: http://165.232.160.205
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nop#3808
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Web Exploitation/Takumi
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: c59ccf9a4639fba25ad54acb832f3f40e65f4d83f1bd59bf8abe0c383dc500a2
+  - path: Flag.txt
+    algorithm: sha256
+    value: e28e712101a01371efc528f4d1a133ef8d2ea9a8d2de761eda5759de55ce6d5e
+  - path: Resources/app.zip
+    algorithm: sha256
+    value: 4b76e5fd8f141e748a37e7e5c96b7be1045bad59bd0f2c7e0bf93526101fe07f
+  - path: Resources/app2.zip
+    algorithm: sha256
+    value: b87a14829ba0d99e38a2b4bfce4f2c0493e7db3d7b0bf0ace16edefd426ae595
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-forensics-003
+name: Perpustakaan ITS
+slug: 003-perpustakaan-its
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: >-
+  Mas Al merupakan alumni dari Teknologi Informasi ITS yang saat ini bekerja sebagai seorang penetration
+  tester di Perusahaan PAMA. Pada suatu saat, Mas Al rindu akan gedung perpustakaan ITS dimana ia dulu
+  menghabiskan waktu semasa kuliahnya. Namun, ternyata ada yang janggal dari perpustakaan ITS. Bisakan
+  kamu membantu Mas Al untuk memecahkan sesuatu yang janggal tersebut?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Win#0991
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Forensics/Perpustakaan ITS
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 0ac1b3a8ee6414f023d84383de1f902ed8862952e2e2c1359ad358cbb43d792d
+  - path: Flag.txt
+    algorithm: sha256
+    value: 2945d2935e79a1e6578d6f65b4349bf5ba5ddc389eca88aa6797a707a7c85554
+  - path: Resources/perpus.jpeg
+    algorithm: sha256
+    value: 4e693c1f26d2f437603bc92ca502720b166cffba199150a506c5fa459b45a22b
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+- title: ctfs writeup of ARA 2022
+  url: https://k1nomi.gitbook.io/ctfs/competitions/2022/ara
+  type: writeup
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

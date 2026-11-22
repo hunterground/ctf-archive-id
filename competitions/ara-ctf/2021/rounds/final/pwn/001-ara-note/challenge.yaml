@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-pwn-001
+name: ara_note
+slug: 001-ara-note
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary-Exploitation
+description: flag terletak di /home/ctf/flag.txt
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Binary-Exploitation/ara_note
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 8869a001f66bddd07ddfe0cd59b900cc31eb67cb13721f1e6a1db3b2ac2c3c3a
+  - path: chall/ara_note
+    algorithm: sha256
+    value: 7ee351f39d0230b499b30c07c5fbe2f8011d99b4643fa4ba329d90981d97e261
+  - path: chall/ld-2.32.so
+    algorithm: sha256
+    value: d00f07e02aee5552a666a4e8c619e6f22ee62378ad263a4a82096a788b8b62d9
+  - path: chall/libc-2.32.so
+    algorithm: sha256
+    value: d48f0edffda549cfb524378027d0b997a77a2dd9ea4f69fe3fd553eb1772050b
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-web-002
+name: Not Secure
+slug: 002-not-secure
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web-Exploitation
+description: >-
+  untuk menguji kemampuan pentesting kamu, Telkom Indonesia memberikanmu sebuah website yang 'Not Secure'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Web-Exploitation/Not Secure
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 406582029902bff27ee2d215ee80fada16a600eaa355c59fc92857a8b0bb0321
+  - path: chall/index.php
+    algorithm: sha256
+    value: 79c77290106ace5ca039ba9fc60ba5256b59b3e6494df78940454697d4e19c6c
+  - path: pict.png
+    algorithm: sha256
+    value: 4b3a6c960e26b549b186191d353e027efafb328f19c029f7373d45942b161946
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

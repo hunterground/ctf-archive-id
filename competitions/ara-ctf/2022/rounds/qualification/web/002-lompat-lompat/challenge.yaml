@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-web-002
+name: Lompat-lompat
+slug: 002-lompat-lompat
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Diketahui sebuah perusahaan PAMA memiliki topologi jaringan sebagai berikut :
+
+  ![ilustrasi](https://live.staticflickr.com/65535/52080456687_cd2e30e139_c.jpg)
+
+  Tugas anda adalah mengambil flag.txt yang berada pada webserver karyawan, masalahnya webserver karyawan tidak memiliki IP Public, sehingga anda harus masuk ke dalam local network perusahaan PAMA untuk dapat mengakses webserver karyawan tersebut. Intel mengatakan pada webserver utama terdapat informasi mengenai IP Private webserver karyawan.
+
+  Peserta hanya diperbolehkan untuk mengakses port seperti yang tertera pada gambar, dan tidak boleh mengubah, merusak, menambahkan ataupun mengganti file/setting yang terdapat pada masing-masing server (masuk ke ssh diperbolehkan, namun tidak boleh mengganti apapun, termasuk merestart/mematikan server). Peserta juga tidak diperbolehkan untuk melakukan port scanning (semua port yang diperlukan sudah diberitahu melalui gambar). Untuk bruteforce juga hanya boleh menggunakan wordlist yang sudah diberikan, jika anda belum menemukan wordlist di server, jangan bruteforce apapun. Segala bentuk pelanggaran akan ditindak oleh panitia.
+
+  IP WebServer: http://128.199.223.190:8880
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Daniel Evan#0861
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Web Exploitation/Lompat-lompat
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 1ee0e7189dc5de57f2aaa646c7a9516bf7776b38a99f9ac0cd659815635b71f0
+  - path: Flag.txt
+    algorithm: sha256
+    value: 8d759190bfbf7750e06a832101396575e65e13a28a94828713fdc459c914dd9b
+  - path: Resources/lompatnew.zip
+    algorithm: sha256
+    value: 6e34d21c0f9b37d5d50bcafb4ef7211d3c164c5015f4fe059cbcc64b36bf3e92
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

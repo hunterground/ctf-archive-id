@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-pwn-002
+name: Superbabytakumi
+slug: 002-superbabytakumi
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: |-
+  you know what to do tak!
+
+  nc 157.230.36.214 9696
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Cincinnati#1876
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/PWN/Superbabytakumi
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 7a77fcdfd595832cf5e8cd552b635051f668cffc46dac2c442953596caa4bc7f
+  - path: Flag.txt
+    algorithm: sha256
+    value: 68dd08a91ff638c9cc08d17fbebe9a02f020f007723d2ecfedacd33789ff952c
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860
+  - path: Resources/shell.out
+    algorithm: sha256
+    value: 32a6d4587ac4b36320f585c14c8824d81d83e30e29b697745ce3aae9f61cfe66
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

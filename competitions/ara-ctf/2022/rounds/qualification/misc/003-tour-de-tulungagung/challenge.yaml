@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-misc-003
+name: tour de tulungagung
+slug: 003-tour-de-tulungagung
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: "\"masih lanjutan dari azfarcantik. Kini azfar ingin mengetahui sebenarnya siapa yang melakukan\
+  \ penyerangan terhadap servernya. Dia melihat attackers meninggalkan username mereka ketika melakukan\
+  \ penyerangan. Anehnya attacker salah melakukan paste dimana seharusnya ia kirimkan ke grup line temen\
+  \ kampus malah masuk ke payload. Temukan jejak attacker pada youtube berita yang bersinggungan dengan\
+  \ miss-payloadnya. \n​\nTapi sepertinya ada attacker lain yang harus kamu temukan, mungkin nama mereka\
+  \ adalah joy_jeant?\n​\nfirstflag_secondflag\""
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Misc/tour de tulungagung
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 247a47ebd37caff4df336b00cb60e8776f81b2f2d2cd48386fa4dfe152d00ea1
+  - path: Flag.txt
+    algorithm: sha256
+    value: 9583ee762eed31934a0a9aa84adb6e496b4a0ff587e7448839c46aebcf676c42
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

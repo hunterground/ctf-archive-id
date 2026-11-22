@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-pwn-003
+name: Katakan_Peta
+slug: 003-katakan-peta
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: pwn
+original_category: pwn
+description: >-
+  Dora said "Where's the map?", the monkey said "katakan peta!", and you say "PETAAAA!!!". Your task is
+  to trick IOCTL_VALIDATE_POOL to say that you're sigma!!! There will be no flag for this challenge so
+  it will be manually validated by the problemsetter. If you do want to submit your exploit, please send
+  the problemsetter your exploit code and your exploit binary through the ticketing channel in Discord,
+  it will be tested on a VM and ran as "NT AUTHORITY/SYSTEM", though please do understand that the problemsetter
+  is still human and cant be online 24/7 so please understand for late responses.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- windows kernel
+- ioctl
+authors:
+- name: grb/getrektboy
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/pwn/Katakan_Peta
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b329386575be626934faee7653b26c3c3189fe22e7d60c0a0a2360ae97b0d298
+  - path: dist.rar
+    algorithm: sha256
+    value: 97345be65aa5530e978cec7406a70802eb7bc19f497b3edaa6ea7c34eb557894
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/pwn/Katakan_Peta
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  The problemsetter validates this challenge manually; the README states that no flag is issued.

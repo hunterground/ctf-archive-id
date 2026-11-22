@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-rev-001
+name: Blocks
+slug: 001-blocks
+original_name: blocks
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: |-
+  [Scratch](https://scratch.mit.edu/) is modernized of the prior product which MIT has made, so I'll go for the older **inventions**. Here's an app that holds a free & calculated `(long *)FLAG` for you ⛳!
+
+  Flag Format: `ARA5{.*}`
+difficulty:
+  value: baby/easy
+  source: organizer
+tags:
+- aia
+- blockly-lang
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: reverse-engineering/blocks
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 404f57680923ae19f52c7c93fd2ab0fdbf0b94f84d25e0d5deeb6d991f5eae54
+  - path: dst/ARA.aia
+    algorithm: sha256
+    value: 8440bd4aed3db50013f33965cc1c631a8b08ef25bfda286633eea26c3fb27a4f
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

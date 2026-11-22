@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-forensics-002
+name: wilson_disaster
+slug: 002-wilson-disaster
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: forensics
+original_category: forensic
+description: Oh yes! My salary got updated!!!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- disk forensics
+authors:
+- name: pujow
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/forensic/wilson_disaster
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://www.icloud.com/iclouddrive/0b8WyexycpdkNt3OOu5Js0Bsw#192_20260226_060806
+    reason: Linked from the challenge README and not part of the upstream git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7efb30d3b5bbb92dbdd877a82437d98a293fff68f7cc5d93bd3105dee48bc2ec
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/forensic/wilson_disaster
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Distributed as an iCloud Drive file rather than in the source tree. The link resolved on 2026-11-22
+  but the artifact was not downloaded, so it is not part of this archive and only the archived README
+  records it. The README also carries the archive password for the download; it is not copied into metadata.

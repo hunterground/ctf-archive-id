@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: final
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+name: Final
+original_name: Final
+sequence: 3
+type: final
+delivery: online
+description: null
+dates:
+  start: '2021-03-21'
+  end: '2021-03-21'
+statistics:
+  challenge_count: 11
+  participant_count: null
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Final stage of ARACTF 2021. The organizer README schedules the final on Sunday, 21 March 2021.

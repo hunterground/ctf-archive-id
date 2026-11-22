@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-forensics-001
+name: Forget it
+slug: 001-forget-it
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: |-
+  Chris terasa... aneh. Di depan dia hanya seorang staff IT pelupa yang sering senyum-senyum sama atasan. Walaupun polos, tapi dia sangat menarik di mataku. Richard, teman baiknya, diundang ke rumah Chris beberapa hari lagi. Aku ingin diundang juga, tapi aku tak punya banyak topik, bisakah kamu mencari apa yang dilakukan di komputernya?
+
+  Hint:
+  Sudahkah aku menyebutkan dia pelupa?
+  [attachment](https://drive.google.com/file/d/14Vy_hB4J_OGntWKkIsmPSay2alDP1b7M/view?usp=sharing)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Forensic/Forget it
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Forget_it_Solution.pdf
+    algorithm: sha256
+    value: 83b315cabfb2e3b498a98071a995660765e7e9f39da54a32cde3e31e5dd93dc5
+  - path: Readme.md
+    algorithm: sha256
+    value: 04f7466a96c72fa9d088251a450d5c32b6380ca22535c8c73296d31147460114
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

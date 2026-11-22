@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: ara-ctf-2021-warmup-crypto-001
+name: Toko Online
+slug: 001-toko-online
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: warmup
+category: crypto
+original_category: Cryptography
+description: >-
+  RSA store merupakan toko yang sangat terkenal yang dikelola oleh seorang trader crypto yang menyukai
+  mata uang ripple bersama kedua anaknya yang kembar sebut saja namanya adalah Ana dan Ina. Trader crypto
+  tersebut bernama caesar rohman. Jangan lupa untuk membuka pintu dibutuhkan suatu kunci.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Pemanasan/Cryptography/Toko Online
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.png
+    algorithm: sha256
+    value: 4717f348992ddd2d7e5f2c541fe5535d93707ed527862f91c64baca17673ef78
+  - path: 2.png
+    algorithm: sha256
+    value: 63a45a61d2aac4487c995cb9b510dd47e6cb1ba7d5559511bad270e54fec96e5
+  - path: 3.png
+    algorithm: sha256
+    value: f93d73f634590cc90c002dd5008228b0e01aa1aabfef4ab55d39e992b6c53d06
+  - path: Readme.md
+    algorithm: sha256
+    value: ca4cee22eaaac431cca04bb3a34cbde35d1fca5d5429a41703d6454be697496e
+  - path: chall/encrypt.py
+    algorithm: sha256
+    value: 02790551c736f92ab18070d23a88e6cd02cbd4e37332a9d1732d3f1f3737d2bf
+  - path: chall/kunci
+    algorithm: sha256
+    value: fdbbe0913f6241d21f4d4867ddf9b46933f34ecb7d4705d075745e271f5da85f
+  - path: chall/pintu.tar
+    algorithm: sha256
+    value: 4bc5a25b9c768518cfe11e8895dc263b5bc3ed5cfbee8f79b261f8136673c854
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

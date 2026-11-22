@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: ara-ctf-2026-mirror-forensics-001
+name: BYOD
+slug: 001-byod
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: mirror
+category: forensics
+original_category: forensic
+description: >-
+  Ohhh noooo!!! Our employee is too dumb and fall to a phish trick. Can you help me to investigate that
+  full incident with this whole disk please??
+difficulty:
+  value: null
+  source: unknown
+tags:
+- disk forensics
+- incident response
+authors:
+- name: Haalloobim
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/forensic/BYOD
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/127ZBuEEIVZtvlGSjlMbzMO51VfAo35lv/view?usp=sharing
+    reason: Linked from the challenge README and not part of the upstream git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 88cb17bb124bb81599df68a86d97363e522dd0dd3c766fd8aa01fffeb30b115e
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/forensic/BYOD
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Distributed as a whole-disk image hosted on Google Drive. The README records SHA256 e3e0fee4146c7a54565fb2ccecc0284af58a063a62ee90650838cd2905bab3fb
+  for that image. The link returned HTTP 404 on 2026-11-22 and the image is not part of this archive.
+  The README also carries the archive password for the download; it is not copied into metadata.

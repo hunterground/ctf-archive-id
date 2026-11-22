@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  misc:
+    build: .
+    restart: always
+    ports:
+      - "10061:1337"

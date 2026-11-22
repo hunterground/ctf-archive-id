@@ -1,0 +1,100 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-web-004
+name: WongPsugih breach
+slug: 004-wongpsugih-breach
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  "WongPsugih sajane mung xawang xinawang"
+
+  anyway please leak the WongPsugih website because he's not xawang xinawang
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: abdieryy
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: web/WongPsugih breach
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1790908deb5fc628cc46eb0c085fe40700508ef1184521d170bf19bfdc53f751
+  - path: images/solve1.jpg
+    algorithm: sha256
+    value: 0f094d869fe6d47ddbe44bc7ea07fcc2a28860e21a2894a8b3bb4df2510855be
+  - path: images/solve10.jpg
+    algorithm: sha256
+    value: bc410ca849925807694738a33dc749dbe61510b6e2c64dfca68d5a1be32ecf7d
+  - path: images/solve11.jpg
+    algorithm: sha256
+    value: 36cecb87f7e9c20aa242baff9feaec4de544d41f2646e7db7f90aca27cc1c778
+  - path: images/solve12.jpg
+    algorithm: sha256
+    value: dda5d26899925c57ab310647b7dc3806db5152a8e242adb5dbc5dae5e61792eb
+  - path: images/solve13.jpg
+    algorithm: sha256
+    value: 4f9a5ca62bac3c61eb3092e79e963b8632f6132492f061e41aa1d68cc73fb2cb
+  - path: images/solve14.jpg
+    algorithm: sha256
+    value: 7366f19f0eeaff36c15fe1e3caf9f762fcd959f2edeaa3eb77bf4f5eeb569a0e
+  - path: images/solve2.jpg
+    algorithm: sha256
+    value: ff8f323b407fa6fd0a56392912bbae7cad4697a7326eab0d09721119b5976edb
+  - path: images/solve3.jpg
+    algorithm: sha256
+    value: 568acdc7a3de115a1dbaebdd952f83f1ae21b85f37df933127494bc32fd70df4
+  - path: images/solve4.jpg
+    algorithm: sha256
+    value: 4c39f48f12d491d31ba8ed7337fe1c26145290eb861c807c5781e4e0be1e632e
+  - path: images/solve5.jpg
+    algorithm: sha256
+    value: 87e55fd1e908a39b342f542bfe076eb7026e7da4a375ebb4e0abfac7f6716474
+  - path: images/solve6.jpg
+    algorithm: sha256
+    value: 9446aea64e37e526d7b88fda01e5141565232d7a710f8955b2f3575737dcf2bc
+  - path: images/solve7.jpg
+    algorithm: sha256
+    value: 360114aa7a740e9a058daf5da738bd0dd8e54d569d0edd48bea32a59d9017190
+  - path: images/solve8.jpg
+    algorithm: sha256
+    value: 94358211841b96f764adb882a3fb8b3c5f2e0c07f1eeb921b261a233b0dcc399
+  - path: images/solve9.jpg
+    algorithm: sha256
+    value: 7835908c2d34e968458354e6a5df2fe505b544653b7ca1e6cc171f41344564fb
+  - path: plugins.zip
+    algorithm: sha256
+    value: 1cedf606cfb18985deca545109571976b6b6c6e65fe2ac248fe589f5fb65019f
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

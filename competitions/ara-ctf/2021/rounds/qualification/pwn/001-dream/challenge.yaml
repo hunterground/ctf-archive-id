@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-pwn-001
+name: Dream
+slug: 001-dream
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary-Exploitation
+description: Do you know my dream? tell your dream first :P
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Binary-Exploitation/Dream
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 214dc5fb1c3fff334d8ab5387df7129dfded4f6a70b18af7ac90323f07c73b16
+  - path: chall/aradream
+    algorithm: sha256
+    value: ef1cd7d3c9220854085ea2abc2185e8786165515518beea8913e7cc02b96826c
+  - path: chall/libc.so.6
+    algorithm: sha256
+    value: 4db473e38da06f7b1ad54ef117a184e08ffda27bbbb5329d03831186e3e533c8
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-pwn-003
+name: Welcome
+slug: 003-welcome
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary-Exploitation
+description: >-
+  Salah satu pertimbangan Anda layak untuk masuk ke Telkom Indonesia sebagai security engineer adalah
+  dengan menyelesaikan soal ini. Temukan flagnya maka kesempatan Anda untuk bekerja sebagai security engineer
+  di Telkom Indonesia semakin besar
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Binary-Exploitation/Welcome
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f44859f2d2366b163a9ab652733ad9cb548520e1d30f9842c8c6efb747f815bc
+  - path: chall/welcome
+    algorithm: sha256
+    value: 85213e20032902c97a36e9228543937efb58fdc63a3b34ba10dd7f9ee859d56e
+  - path: chall/welcome.c
+    algorithm: sha256
+    value: 13a59b4e7dcad55b1d654bf84129a01322443d9d36019b3eb71eaf83cef6be23
+  - path: pict.png
+    algorithm: sha256
+    value: 717278712878ec4527094214ab4eadd38f400856fb92b39a033e2695160123e2
+  - path: pict2.png
+    algorithm: sha256
+    value: 27d5c766dc22e195c0e13f9d362945871efea36fec6bcc10ee1f36675e753cff
+  - path: pict3.png
+    algorithm: sha256
+    value: ebaea49355b0dd5e46cc9f21d5770723937b1b43dfd5fe1879becfb4f3616308
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-misc-002
+name: Gordon
+slug: 002-gordon
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  "Omong-omong soal mentah, gue lagi ngotak-atik SD Card yang tadi jatuh di jalan, gue liat tadi RATA dong di jalan, terus nemu file ini. Gue ga bisa baca sih, tapi ya kayanya isinya menarik."
+  "Mas, ini warteg"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Misc/Gordon
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: e500aa0fe95ffdbadc0090abae09bd71030c103588ef55557eccd82217048e2a
+  - path: chall/data.dat
+    algorithm: sha256
+    value: f711ce9a4f7cf68d7f70d0966b923a91a7d7c6f76e4e8ae93167d6898165dd02
+  - path: chall/warteg.jpg
+    algorithm: sha256
+    value: d3c4a163f9b1c1c521fcf373c6232a8ed79df75a7c05d45b19637af0537b54b4
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

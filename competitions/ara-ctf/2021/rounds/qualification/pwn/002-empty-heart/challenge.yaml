@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-pwn-002
+name: Empty_heart
+slug: 002-empty-heart
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary-Exploitation
+description: empty heart :(
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Binary-Exploitation/Empty_heart
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 5a14b3b9d48534a00da398ccaec9aa3541e79bcaa4f5c4a7fbb3e1e2361b8390
+  - path: chall/empty_heart
+    algorithm: sha256
+    value: 0135e09317f49b920cdc980d206c36d939106039a0d7c3d57f93bfaecad0ee06
+  - path: chall/libc.so.6
+    algorithm: sha256
+    value: 799a86fec8450776b0b15e40f4e184df609c1ee4bb7f9d0d861cb292a38efd43
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

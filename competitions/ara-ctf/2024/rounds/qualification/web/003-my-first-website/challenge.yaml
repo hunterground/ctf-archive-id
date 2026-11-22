@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-web-003
+name: My First Website
+slug: 003-my-first-website
+original_name: My first website
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Good Luck
+
+  Link: xxx
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: web/My first website
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 84f978261b227be14c9bef062f92074541bdb663147ed0bf2f9573ede42102b7
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: ee698b13d1f670b0143fd071f63195413f1f7af72449bbb9573b8427f5a49296
+  - path: dist/application/app.py
+    algorithm: sha256
+    value: 8a99b24d5f2f00fca4fca5333531a353792f7825b134871165c0b8cba7d8542a
+  - path: dist/application/static/css/main.css
+    algorithm: sha256
+    value: 9ef841448437752d5851efe511181dbfed402472a0bb84b8b3664d5365d929a0
+  - path: dist/application/static/images/dewaweb.png
+    algorithm: sha256
+    value: 8df697c9d976263bf2b204abea2f1d0a8977f03004dba625871218f4f2159dfa
+  - path: dist/application/util.py
+    algorithm: sha256
+    value: d6fbbc86d834b793421b7ea4cc8caf515c4cff49ce98fb2e0df1c6795f1cdab2
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: e279261d0571920cf3bb351a3a65ba334984508553810de99c088f62e341a081
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: a73cb3dc80c2b7af989be08c0c562c4792132fe0a28699eb5f265152a5c5cc5d
+  - path: dist/requirements.txt
+    algorithm: sha256
+    value: 0e28ec5194892b4a0d436e64a7fcfdfc72d53003034980238735b5be4f03b82d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ee698b13d1f670b0143fd071f63195413f1f7af72449bbb9573b8427f5a49296
+  - path: src/application/app.py
+    algorithm: sha256
+    value: 8a99b24d5f2f00fca4fca5333531a353792f7825b134871165c0b8cba7d8542a
+  - path: src/application/static/css/main.css
+    algorithm: sha256
+    value: 9ef841448437752d5851efe511181dbfed402472a0bb84b8b3664d5365d929a0
+  - path: src/application/static/images/dewaweb.png
+    algorithm: sha256
+    value: 8df697c9d976263bf2b204abea2f1d0a8977f03004dba625871218f4f2159dfa
+  - path: src/application/util.py
+    algorithm: sha256
+    value: d6fbbc86d834b793421b7ea4cc8caf515c4cff49ce98fb2e0df1c6795f1cdab2
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 898fe5bdd84f0a375c095387fa55ed96308dcb3971eb298df98fa2922753b963
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 16d32df713062793903659c674a09eb2425827e2488f8dd566b65956c488df1d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 0e28ec5194892b4a0d436e64a7fcfdfc72d53003034980238735b5be4f03b82d
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-rev-001
+name: Get The Flag
+slug: 001-get-the-flag
+original_name: get_the_flag
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: _kos0ng
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: reverse-engineering/get_the_flag
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bd94741b6b22182d504d6c958688530f0b1d34faa9baad6fd0bbcc4a1de8a34c
+  - path: dist/get_the_flag.exe
+    algorithm: sha256
+    value: 75a2aa7d7aa50ad148d97d4992e1af916bc8be4894ff784cae3b90c9038ebd18
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

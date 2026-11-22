@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-pwn-001
+name: Directive Communication
+slug: 001-directive-communication
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: |-
+  "the title says it all, maybe???
+
+  <file>
+
+  nc 188.166.221.128 33481
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: 0xdc9#2020
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/PWN/Directive Communication
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 44a99aafae8f414d9ccc32c84d92492ab71a8458c0930213d9e229b15243d6ed
+  - path: Flag.txt
+    algorithm: sha256
+    value: 474f37cfaa8a93060d6ea5f574ea44df7eefb6c19cb5baf52e99e1ca0bdaa570
+  - path: Resources/directive_communication_parti.zip
+    algorithm: sha256
+    value: c8e3b1646531411bb031a70cc22bcf49043193790079b437de73c6a1ead0474d
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

@@ -1,0 +1,148 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-web-003
+name: Under Development
+slug: 003-under-development
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web-Exploitation
+description: |-
+  Judul : Under Development
+  Deskripsi : Website ini sesuai judulnya jadi belum layak untuk dionlinekan ( ͡◉ ͜ʖ ͡◉)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Web-Exploitation/Under Development
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 18a7901c6b726819afc027173b049fffe0c42b61053306cf73635c6b2c30be61
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 1e6e743e69fabb973d6d2665b1eb45c56e9724216dc402aaca97d4f92fbeb73f
+  - path: chall/assets/cred.txt
+    algorithm: sha256
+    value: 41c5a2168ba4c1b95acee128d8b6ff7a53a91b5e4dfbf552228186c0e189a85b
+  - path: chall/assets/css/bootstrap-grid.css
+    algorithm: sha256
+    value: 9172c5b50d24722b565865b3005f20fd6d2b962487d67975979448b9c86957cd
+  - path: chall/assets/css/bootstrap-grid.css.map
+    algorithm: sha256
+    value: 45e6fbc640c6652b6dff65b9d74b3d463047e3e21c0cb892cf72af0da66c9721
+  - path: chall/assets/css/bootstrap-grid.min.css
+    algorithm: sha256
+    value: 9dc830c055d681120a87b83f0aab7d3eaa61f1db28088024e06072312fd8e792
+  - path: chall/assets/css/bootstrap-grid.min.css.map
+    algorithm: sha256
+    value: 5467e305bed9dd28e712fd70270039bcccb53e2e1b4065793d84c4d688002f30
+  - path: chall/assets/css/bootstrap-reboot.css
+    algorithm: sha256
+    value: aadd07066e8d8df798b1cb2a0b8ec72243196d3a789fac34c4afddfea6cd2bf3
+  - path: chall/assets/css/bootstrap-reboot.css.map
+    algorithm: sha256
+    value: 2c0474cbcec7ecb99df104b421183b5205a365325bd5c4698602c5c250924982
+  - path: chall/assets/css/bootstrap-reboot.min.css
+    algorithm: sha256
+    value: a73eb8489f6f9d693286d3a8ee6b6239e916b85a3b608197af35e31256337160
+  - path: chall/assets/css/bootstrap-reboot.min.css.map
+    algorithm: sha256
+    value: 498c3aeca18ce2e55fae71191b04c1983e9b4304895dca37ec93195db9e45afc
+  - path: chall/assets/css/bootstrap.css
+    algorithm: sha256
+    value: 8c1a4c25634d5841924aab1848acc9dcbc3d5672183053c8b71ff2139b65d7c3
+  - path: chall/assets/css/bootstrap.css.map
+    algorithm: sha256
+    value: bc080fed21141f1fe754dba7da400ca26ca7c8a79679d4aab00ad959793ce298
+  - path: chall/assets/css/bootstrap.min.css
+    algorithm: sha256
+    value: 2c0f3dcfe93d7e380c290fe4ab838ed8cadff1596d62697f5444be460d1f876d
+  - path: chall/assets/css/bootstrap.min.css.map
+    algorithm: sha256
+    value: 101b3f61eb20487b2a8e0b76d0ee7c8fe4de9cac2a34a7e246cdb9cff3c5e0b8
+  - path: chall/assets/images/autoindex.png
+    algorithm: sha256
+    value: d062d2017251d2dd37f535321c0d3cffb0ba1d909c0216c138ce68c5c7c309d7
+  - path: chall/assets/jquery-3.6.0.min.js
+    algorithm: sha256
+    value: 71d08925874001efe6dfe2e8a383229a1393a476ce15a5a805bdd88d1d34f580
+  - path: chall/assets/js/bootstrap.bundle.js
+    algorithm: sha256
+    value: 32bb7cb99bb2ffb5b46efeed845a241336eb27cc959be9865c6e17629dc36e33
+  - path: chall/assets/js/bootstrap.bundle.js.map
+    algorithm: sha256
+    value: 6ec12cc198602e61a54ecad0e3efbcdbc51e532537e2047dd1621365e9de5fe9
+  - path: chall/assets/js/bootstrap.bundle.min.js
+    algorithm: sha256
+    value: bb3d017273ed487674d9766d8401cf458228596adcc0c3a6024f44ae715090db
+  - path: chall/assets/js/bootstrap.bundle.min.js.map
+    algorithm: sha256
+    value: 89d6da1259540727da03b2d67b7fb0cd7c1ed79701afb9277426ce8aa5331774
+  - path: chall/assets/js/bootstrap.js
+    algorithm: sha256
+    value: 71577fb46a22fa031506bab9c5ddb4640e38ef10a1b4959a11288b41ce4b0757
+  - path: chall/assets/js/bootstrap.js.map
+    algorithm: sha256
+    value: 06c98b36e3c72a1f57d3ad8429b49acc05f4a35411f04e2a44cdc157c42ef784
+  - path: chall/assets/js/bootstrap.min.js
+    algorithm: sha256
+    value: e7ed36ceee5450b4243bbc35188afabdfb4280c7c57597001de0ed167299b01b
+  - path: chall/assets/js/bootstrap.min.js.map
+    algorithm: sha256
+    value: 45b65676814bee78f75053beb0ed34fda56a054247b5805ee5e95aca4cfce709
+  - path: chall/assets/main.css
+    algorithm: sha256
+    value: 479a3892c09f7ebab120c615994f8fee48f123bb1ccb1560f1a20eb24ffe0731
+  - path: chall/flag.txt
+    algorithm: sha256
+    value: 55d1e1d1d8ef7f7fc85bae1557aae282c40cacd2ff772c9c8e2a95b2fa096daa
+  - path: chall/index.php
+    algorithm: sha256
+    value: 231db9f2f238ea1bfc1e3b6ed8c6be9eea6239fab649bcff85ec408b758f50f7
+  - path: chall/login.php
+    algorithm: sha256
+    value: b00a0ac3954f0596c65c82e2830dec10e41cb9920fb4d467a587781ecfd38db5
+  - path: chall/logout.php
+    algorithm: sha256
+    value: 9f19fe761195dce3ac671b914de49645f8bf6260fa8a93c3c03ec62eb0eb246d
+  - path: chall/mybest.php
+    algorithm: sha256
+    value: 99ce6cad726ccecb83a91ac13a6f47a8269a3538255fd09e5936c0820371f73a
+  - path: chall/send.php
+    algorithm: sha256
+    value: c798096b72aef622dc4fb0fc2a46ab08b701637477cfac746136624e1aee00b7
+  - path: pict.png
+    algorithm: sha256
+    value: 90ee095f6473e2b4dece4c089bd6f9640d3cbdd1370cacc12002f4f4fb9042c8
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

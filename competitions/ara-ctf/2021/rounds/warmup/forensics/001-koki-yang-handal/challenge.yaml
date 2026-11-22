@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: ara-ctf-2021-warmup-forensics-001
+name: Koki Yang Handal
+slug: 001-koki-yang-handal
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: warmup
+category: forensics
+original_category: Forensic
+description: >-
+  Spongebob adalah seorang koki yang setiap hari membalikkan daging diatas panggangan.  Kemudian dari
+  daging tersebut ia susun sebanyak 3 tumpukan didalam roti yaitu tumpukan ke-1 selada, selanjutnya daging,
+  dan keju. Suatu ketika restoran tempat ia bekerja kekurangan ke tiga bahan tersebut. Bantu spongebob
+  untuk mencari ketiga bahan kemudian susun sesuai tumpukan dan lakukan pemanggangan.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Pemanasan/Forensic/Koki Yang Handal
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.png
+    algorithm: sha256
+    value: 2f818cb374160357dc89669b6ac3b10ce39b310b64259e56b21f73385f871e22
+  - path: 2.png
+    algorithm: sha256
+    value: f2a166912e1e334164eb6eb4a01eddeb8f73027adabab5a71b30fed2093eba01
+  - path: 3.png
+    algorithm: sha256
+    value: 48eb856effd26aa3223313c1db3199172ff297eac2be7011df5f76eb178c7040
+  - path: 4.png
+    algorithm: sha256
+    value: fe09f035c515a1159e1ad40c40b368322b8156a75f478b75c40afcc330995949
+  - path: Readme.md
+    algorithm: sha256
+    value: 817a1b2701b22181decf9e62f52b77d4edd82f9a445f0f21ec66711e10585a30
+  - path: chall/Spongebob.png
+    algorithm: sha256
+    value: bf017145ad9cd1f06b6cb8c554eb6d72f1726a834555171e01dea2c1630c9e45
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

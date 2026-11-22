@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-crypto-001
+name: Numbers
+slug: 001-numbers
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: ADS is offline
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ruy-Lopez#9738
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Cryptography/Numbers
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 83b4073382ef3d7ed14ad2561c6096bae87759759a5e93fc81abc90e69b36adb
+  - path: Flag.txt
+    algorithm: sha256
+    value: 29d73dac2ec9d9030aabf28907eb11a232cea1c3f0fa1375691af863154f4d20
+  - path: Resources/chall.py
+    algorithm: sha256
+    value: a8df955ed9554fbb806a49597cefa5735df677aff7077a34a2a78bbdda278eb7
+  - path: Resources/output.txt
+    algorithm: sha256
+    value: 0e8d6e926d660e4ae530b36b8af1205127092f9c1e3ccce166b4d837f795d0c0
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

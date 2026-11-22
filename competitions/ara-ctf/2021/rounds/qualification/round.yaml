@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: qualification
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+name: Penyisihan
+original_name: Penyisihan
+sequence: 2
+type: qualification
+delivery: online
+description: null
+dates:
+  start: '2021-03-07'
+  end: '2021-03-07'
+statistics:
+  challenge_count: 20
+  participant_count: null
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  Qualification stage of ARACTF 2021. The organizer README schedules Penyisihan on Sunday, 7 March 2021.

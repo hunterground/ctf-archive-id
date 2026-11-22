@@ -1,0 +1,40 @@
+schema_version: '1.0'
+id: ara-ctf-2022
+competition_id: ara-ctf
+year: 2022
+name: CTF ARA 2022
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 32
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+- title: ARA HMIT ITS 2022 webinar page
+  url: https://arek.its.ac.id/ara/home/webinar
+  type: official_website
+  accessed: '2026-11-22'
+- title: A Renewal Agent 5.0 site on earlier ARA editions
+  url: https://frontend-ara5.vercel.app/
+  type: organizer_announcement
+  accessed: '2026-11-22'
+- title: ctfs writeup of ARA 2022
+  url: https://k1nomi.gitbook.io/ctfs/competitions/2022/ara
+  type: writeup
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: >-
+  CTF ARA 2022, held by HMIT ITS. The A Renewal Agent 5.0 site lists ARA 2021, ARA 2022, and ARA 4.0 among
+  the events HMIT ITS has run, and the ITS-hosted ARA 2022 webinar page confirms the 2022 cycle. The problem
+  set comes from the SOAL-CTF-ARA-2022 repository, which describes itself as the supporting material for
+  the CTF ARA 2022 Penyisihan and Final. No source states the competition dates, so both are null. The
+  repository is published by a personal GitHub account rather than the ARenewalAgent-ITS organization;
+  challenge names and flags are corroborated by a third-party writeup, and the edition is recorded as
+  corroborated rather than verified. The repository publishes Flag.txt and flag files with the problems,
+  matching the distribution of other archived events.

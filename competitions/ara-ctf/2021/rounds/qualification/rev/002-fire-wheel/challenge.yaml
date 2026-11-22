@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-rev-002
+name: Fire Wheel
+slug: 002-fire-wheel
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse-Engineering
+description: |-
+  "Pendekar pedang itu melompat ke belakang lawan dan berputar di udara sambil melepaskan serangan api dalam gerakan melingkar."
+
+  Kalian akan mendapatkan flag jika kalian mampu menemukan key yang tepat untuk melewati validasi!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Reverse-Engineering/Fire Wheel
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 18b47245be7407f65df449dac3830c3abebeebb8033cdd202cf8b4190931978f
+  - path: chall/key_validator
+    algorithm: sha256
+    value: 0be89a913d655ee77c71bbb175d1d0e7a462ebc877dbe129793452c171f6f923
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

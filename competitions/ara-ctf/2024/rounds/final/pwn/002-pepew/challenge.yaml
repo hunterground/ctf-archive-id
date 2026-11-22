@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-pwn-002
+name: pepeW
+slug: 002-pepew
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: binary-exploitation/pepeW
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 9838e36e1b2c008e6955aabe3f79006811fefdb402a870628ab51b1586bfd7f8
+  - path: src/.gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 022e967983fef157cccd1a2f9f44bf0a4398da9cb9540bf4f4f30c9e6c02aeb5
+  - path: src/app/index.html
+    algorithm: sha256
+    value: 6b9f3f3a04e3f9ef2c094e983a5eedb665e8473e7e679c6c6ccaa7bf278690dd
+  - path: src/app/main.go
+    algorithm: sha256
+    value: 259bb3f5c77de83c273a95794c9057ff31113450842a9ad208b63982b8b1c637
+  - path: src/app/package-lock.json
+    algorithm: sha256
+    value: c94bbc3ce4167a14b129673e7da663682a872d5cee74255e2029a71490a336ba
+  - path: src/app/package.json
+    algorithm: sha256
+    value: 760e1de5efc79afd737bb6e16d2047de808ac884e965a6865691424aa5d2f56b
+  - path: src/app/script.js
+    algorithm: sha256
+    value: 8857b49605b0e7dfbe9ed89818b77745a297f39a61b2f87d8b830924d18c45e2
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 82372c4e2c44f43e8e42d99c11eb8f45b2eb7362697fb8991ffed457f31f7eae
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

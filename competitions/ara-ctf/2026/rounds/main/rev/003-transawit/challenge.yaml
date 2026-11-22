@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: ara-ctf-2026-main-rev-003
+name: transawit
+slug: 003-transawit
+original_name: null
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: >-
+  MNAR Inc. recently released their tool to translate stuff for free! Hmm, do you think that it's hiding
+  something?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kek.c
+  team: null
+organization: null
+provenance:
+  archive_id: ctf-archives-ara-2026-sajjadium
+  source_type: git
+  repository: https://github.com/sajjadium/ctf-archives
+  commit: 39d1e8aae2d41a7424265874ec97f6c64f8f20f1
+  original_path: ctfs/ARA/2026/rev/transawit
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no per-challenge license file
+    as MIT. The mirror repository ctf-archives declares an MIT license (Copyright (c) 2020 Sajjad Arshad)
+    at its root; that license covers the repository and may not cover the third-party challenge content
+    it mirrors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e9187fc5219dbae32676bded325f22952e1bd28b3354370c3953ff20c5693f4a
+  - path: transawit
+    algorithm: sha256
+    value: 2ca63f45e110dc9c150ebbe1c9e82d95daf2a6d887b4b7e77b60ad37e5b3a6b4
+references:
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026/rev/transawit
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: archive the binary to prevent github rejecting the file.

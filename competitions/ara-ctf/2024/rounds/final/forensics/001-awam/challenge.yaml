@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: ara-ctf-2024-final-forensics-001
+name: Awam
+slug: 001-awam
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: forensics
+description: >-
+  Sebuah device membunyikan alert malware ke sistem! Nama penggunanya adalah Aditya Perkasa, seorang karyawan
+  baru. Dia mengaku tidak melakukan apa-apa di dalam device kantor yang dimilikinya. Apakah benar? (Extracted
+  file size: 8GB)
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- memory forensics
+- windows forensics
+authors:
+- name: spitfire
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-final
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  commit: ac4214b38a0f4b12ea2ea82cc23081b5ab65b107
+  original_path: forensics/Awam
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ff4f4bc64cc5fe07d3dc325530def8b5e571741466369603202d15750f5ddf3c
+  - path: docker/Dockerfile
+    algorithm: sha256
+    value: a1281353abe5557156135c35aa0bb553fb85ec1fd332fc74ec4a35d4238b2c86
+  - path: docker/chall.py
+    algorithm: sha256
+    value: 41239c243dca2041808c59c66d53f00bc91c6bc2a7ad05494adf57caf027325c
+  - path: docker/docker-compose.yml
+    algorithm: sha256
+    value: e757e43b76cd36ef40673f0f4db8a5215cfd1abd956664599ac97610d1c0489d
+  - path: docker/flag.txt
+    algorithm: sha256
+    value: ff517a7dd0f28f76302e235e2a326d96ccf5d2454d59936186e5089f20aa8438
+  - path: docker/run.py
+    algorithm: sha256
+    value: 45ae1652efe62b6cc88be80464823120abd2e6f2f798c4b87ec885682bbbaab8
+  - path: docker/run.sh
+    algorithm: sha256
+    value: e7eddc130ea2568e13a7812c68e768d14a272be1bda51619f64912c1a77e810c
+  - path: image-1.png
+    algorithm: sha256
+    value: 779d72eb573a51ef6f40708c142eec20cde77f27df17c60e23ef2efc3c448c57
+  - path: image-2.png
+    algorithm: sha256
+    value: 57563d94bd8c7e7f2e58ab96d3125ba4f738d64017b3f86050ec1a8e5b9837e6
+  - path: image-3.png
+    algorithm: sha256
+    value: e78f9ce9ca852fa383af16968d455753ce86e2fb50a609f35d827f546ef3b54d
+  - path: image-4.png
+    algorithm: sha256
+    value: 233761bb403c046d573de0c9d43bc90df75eb576c6045bf82abb1799410b6303
+  - path: image-5.png
+    algorithm: sha256
+    value: a17fabf88204aa3a4a681c6367ce39dd922e519bffece8b9967e46802007d805
+  - path: image-6.png
+    algorithm: sha256
+    value: 3141390230ddadf96b47a3d04141af6f9a8d1ce49875c6486e96ef78abd1b94e
+  - path: image-7.png
+    algorithm: sha256
+    value: 3d558f14b0a29f830bae9cad40dfaed68467a6b6517362e452522dceb95497a6
+  - path: image-8.png
+    algorithm: sha256
+    value: d8eabe9aa1a68ed7a18aecf2cc8d34d523f1b0a10b1c7a9c55d44b7d6df91d1d
+  - path: image.png
+    algorithm: sha256
+    value: c5e199529b63312f16b35a6c74c5c54b232462fdb9694ef9fa5fc63a2d73474f
+  - path: passarchive.txt
+    algorithm: sha256
+    value: 70bd81acdc8cfe630e477bd75c33784ab87825b1fffd45921032a68101eee194
+references:
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

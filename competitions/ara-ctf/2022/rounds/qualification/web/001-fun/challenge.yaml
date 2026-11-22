@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-web-001
+name: Fun
+slug: 001-fun
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Kamu merupakan seorang Junior Security Consultant yang baru memulai kerja di Perusahaan Semen Indonesia. Di hari pertama kamu bekerja, kamu diberikan suatu website sederhana dan diminta untuk menemukan celah dari website tersebut.
+
+  Web Address: http://139.59.98.143:8880
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: normal_ppl#3975
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Web Exploitation/Fun
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 8220fe48dd3db63e27737c7d1faac4307a66ca7fa187c0b3d813cbc5012914ea
+  - path: Flag.txt
+    algorithm: sha256
+    value: c3e1289385707a5c998f577c327fd7ae0ccbdb9544412adad4bef23c88101492
+  - path: Resources/folder/asdqwdd.html
+    algorithm: sha256
+    value: 73a41571b8957a3eea892906fd2c34cf739b96999cd818630ae78b574380e4f4
+  - path: Resources/folder/secret.txt
+    algorithm: sha256
+    value: 60c4850198a744720108a8d82548d9d6766a40410b739a7aabc8e6a8e5747b58
+  - path: Resources/folder/whoami.txt
+    algorithm: sha256
+    value: 648fc87aee013a9c75f04603acd3c636677159d80ed4152add24a08f6e0a6a91
+  - path: Resources/fun.jpg
+    algorithm: sha256
+    value: ea39f6e1bc73f4d9e7b0d5dcb4419ff0ebb43f1e8054378bfa19205fefe1e4e7
+  - path: Resources/goback.html
+    algorithm: sha256
+    value: 7613849befb8f5436cbfc672d51f6e530129b4812ae9c3be4fe9088195bfe6af
+  - path: Resources/index.html
+    algorithm: sha256
+    value: 69356a518ff360bfcb9337265a5057d0b11dac032a76273de403b2f1266c71ff
+  - path: Resources/nothingness.html
+    algorithm: sha256
+    value: 9c1fb46306d0e93c6f13033046fdf0e1da32189994183e8edbc0fdafd5394037
+  - path: Resources/process.php
+    algorithm: sha256
+    value: 575fe55448febcb36e683e24d98f8d74b6b9d81039a5a44977e4a89c2c0e3d5a
+  - path: Resources/process2.php
+    algorithm: sha256
+    value: c9dd54482c79e4a00bdb1bca77039cea140f81613adab0c2271745cf1e334308
+  - path: Resources/something.html
+    algorithm: sha256
+    value: bc2cd8025ba0ca275a652c1c918566b58f8a03a4f1094ccf02e8f4f452c98057
+  - path: Resources/this_is_not_flag.png
+    algorithm: sha256
+    value: 02c87e11f7b9a53c1daf76c5592800cc48f76c45207adaa27e46261e2d037519
+  - path: Resources/welcome.jpg
+    algorithm: sha256
+    value: ccd11411002130e8f7cc9e2a44b8ddbbeff6fcb7c595811d4778caca7f601e68
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

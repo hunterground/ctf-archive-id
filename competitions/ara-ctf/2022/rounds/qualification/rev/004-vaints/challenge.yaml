@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-rev-004
+name: Vaints
+slug: 004-vaints
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Takumi  "Vaints" Kozaki, one of the famous PWN wanderer
+  just created a funny binary that could make someone
+  get stressed. Welp, he bet that you won't get confused
+  because he knows you are a great reverser!
+
+  Let the binary greets you!
+  What could be worse than a stripped binary?
+  (*evil laugh*)
+
+  Flag format: `ara2022{.*}`
+
+  Integrity Check:
+  MD5SUM(binary) = 9f13a9e4fdfc2fb9683715259268771d"
+
+  https://drive.google.com/file/d/1bC-mCvCUC6jscw4N5JhUj04FqUvrPKqv/view?usp=sharing
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: aseng#2055
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Reverse Engineering/Vaints
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: a7784d5abcd8d7ab9f7a9c33f550cc526a5b70befcd39b7d95d3a86add8a60bb
+  - path: Flag.txt
+    algorithm: sha256
+    value: 5c21f7e09c80c8d2240396d80d46a5b9c8b2f85decafb02ba4db2869cfb2867f
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 101ead936a2281d53dcc064b7e2a2ab0d53b92ef3ef7b34b668673007895c860
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

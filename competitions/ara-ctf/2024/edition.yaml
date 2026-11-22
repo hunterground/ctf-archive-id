@@ -2,15 +2,27 @@ schema_version: '1.0'
 id: ara-ctf-2024
 competition_id: ara-ctf
 year: 2024
-name: ARA CTF 2024
-status: unknown
-verification: unverified
+name: CTF ARA 5.0
+status: completed
+verification: corroborated
 dates:
   start: null
-  end: null
+  end: '2024-02-25'
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record.
+  challenge_count: 30
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+- title: CTF5.0-Final
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Final
+  type: official_repository
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: >-
+  ARA 5.0, held by HMIT ITS for the 2023-2024 period. The organizer publishes a separate qualification
+  and final problem set. The ITS news post dates the final round to 24-25 February 2024; it does not give
+  a qualification date, so the edition start is null. The news post also reports 3 teams and 10 participants
+  in the final round.

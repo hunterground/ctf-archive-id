@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-forensics-003
+name: Lihat Sebelah Barat
+slug: 003-lihat-sebelah-barat
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: >-
+  ~Sekilas Info!! Tahukah kamu? Sebagai salah satu kontraktor penambangan batubara terbesar di dunia,
+  PT Pama Persada memiliki kompetensi yang luas & pemahaman mendalam dalam hal pengembangan & operasi
+  tambang batubara yang meliputi : Eksplorasi, perencanaan, persiapan infrastruktur, operasi penambangan,
+  reklamasi dan re-vegetasi di area bekas tambang ~
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Forensic/Lihat Sebelah Barat
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: c584f0b52576a63a4135b58d2dbaf3b8ea6f5ba60ced6ba57071df1ba8012e19
+  - path: chall/picture.jpg
+    algorithm: sha256
+    value: 50da7f927465e130de429d2cb14a40a8a0a2d8541e4db416c76e03d09b845a4e
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

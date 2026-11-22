@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: ara-ctf-2022-qualification-forensics-004
+name: senja
+slug: 004-senja
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: >-
+  Davin sedang bersedih karena baru saja putus cinta dengan salah satu rekan timnya di tempat ia bekerja
+  yaitu Perusahaan SEMEN INDONESIA. Lalu ia ingin mendalami suasana dengan mendengarkan lagu galau favoritnya.
+  Pada saat ia membuka aplikasi streaming musik favoritnya tidak disangka yang tampil hanyalah satu gambar
+  unik. Bantulah Davin mencari lagu galau favoritnya!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: afrida#2378
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Penyisihan/Forensics/senja
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: a5e30837dc8d30d96422f71b2818d9b1d6e981ed4094e036672d6d0195f56a83
+  - path: Flag.txt
+    algorithm: sha256
+    value: 8db5aa96fe1bcabdbcd7a66facda795eeede688d5ed90e2d8bb01a838b38cd7c
+  - path: Resources/ini_foto_davin.jpg
+    algorithm: sha256
+    value: 08e140d334b5687343ce45614e64a7777201ef7f00573a9b6f7916035e57947c
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+- title: ctfs writeup of ARA 2022
+  url: https://k1nomi.gitbook.io/ctfs/competitions/2022/ara
+  type: writeup
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

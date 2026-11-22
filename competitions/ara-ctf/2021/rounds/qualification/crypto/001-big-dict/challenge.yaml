@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-crypto-001
+name: Big Dict
+slug: 001-big-dict
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Ndak bisa bahasa enggres?.
+
+  XWZYYXWXYZXWZYYXYXYZXYXYWXYXYZXYXYYXWXXXXWXYXXYXYXXWXYXXWXWYXWZYYXWZXYXWYZXXWZWWXYXYXXWZZZXWZWXXWZYYXWZZZXWYZXXWZXXXWZYZXWZYZXWZXYXWXZY
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Cryptography/Big Dict
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 0f8a6fdbd8ee6afc5a511d491cf4556c415db8355653f1e5cbac79d2d804c111
+  - path: chall/enc.txt
+    algorithm: sha256
+    value: 921e879b4dee2931784cddec66eec56fa47351be9f702a65412ca372f9a40724
+  - path: chall/soal.py
+    algorithm: sha256
+    value: f24551f544c159631cc1356533f83830cea8e937ac4b3cdac1cdc38acae7c0b3
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

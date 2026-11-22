@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: ara-ctf-2021-warmup-forensics-003
+name: Recover it!
+slug: 003-recover-it
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: warmup
+category: forensics
+original_category: Forensic
+description: >-
+  Pada suatu hari PT. Telkom mendapat kiriman sebuah gambar dengan pesan "Gambar ini sudah dirusak dengan
+  kunci kosong". Bantulah PT. Telkom untuk memecahkan misteri ini.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Pemanasan/Forensic/Recover it!
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 1.JPG
+    algorithm: sha256
+    value: 26d12aae79a18edaf78a712b5e387db831e5bf6332c994a36b9f3f96c341f895
+  - path: 2.JPG
+    algorithm: sha256
+    value: b2e81a92cac86769408565ae8ce01cfa4d48488335112ca390e4785c48b54373
+  - path: 3.JPG
+    algorithm: sha256
+    value: efe0438da16913e1f6e52fecb2c3a9b5362b4517af842e4b826a6f70c2983eb3
+  - path: 4.JPG
+    algorithm: sha256
+    value: 167da7e01d9b117180517a2cd848d9460183fe9e6fbff91b3a4c8c49328e83b3
+  - path: 5.JPG
+    algorithm: sha256
+    value: d61213b68155742dc175ea864b36d582adaa29c424376616482046a4976e2f92
+  - path: 6.JPG
+    algorithm: sha256
+    value: 098f3f37009fa67b8eaaac31bcb1e4ebcb95ee40fd37e66de67084e33ab522d5
+  - path: 7.JPG
+    algorithm: sha256
+    value: a7aa2ceb7753da0f05bde77142ddccca4e4f03577d1e3b745cad38929ce2fc14
+  - path: 8.JPG
+    algorithm: sha256
+    value: 8ec04c61d878d7b06f1522eb5a3229674cf8a95c30ae07b153ea907a1797acf0
+  - path: 9.JPG
+    algorithm: sha256
+    value: 4d30a1d24e6216938b54295229717442a8babc41cbc4761c9155cab4c67afe61
+  - path: Readme.md
+    algorithm: sha256
+    value: 0c3f4acd81a13a6c3bdbbe1bff48a51a24de0f0f181ae11bc15c01090f4e4a8f
+  - path: chall/sunset.jpeg
+    algorithm: sha256
+    value: a95eda314865621e76ae45c9031bc356fc0a24f19620a96707025f593941afd0
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

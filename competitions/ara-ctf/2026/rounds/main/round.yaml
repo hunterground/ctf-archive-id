@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: main
+competition_id: ara-ctf
+edition_year: 2026
+division_id: null
+name: Main
+original_name: ARA 7.0 CTF (Mirror)
+sequence: 1
+type: other
+delivery: online
+description: >-
+  Public mirror contest that re-ran selected challenges from the local ARA 7.0 CTF. Finalists of the local
+  event were not allowed to participate.
+dates:
+  start: '2026-03-05'
+  end: '2026-03-06'
+statistics:
+  challenge_count: 16
+  participant_count: null
+references:
+- title: CTFtime / ARA 7.0 CTF
+  url: https://ctftime.org/event/3152/
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: ctf-archives / ARA / 2026
+  url: https://github.com/sajjadium/ctf-archives/tree/main/ctfs/ARA/2026
+  type: third_party_archive
+  accessed: '2026-11-22'
+verification: corroborated
+notes: >-
+  The event is a single-stage online jeopardy mirror of selected challenges from the local ARA 7.0 CTF;
+  finalists of the local event were not allowed to enter. It has no qualifier or final of its own, so
+  the round uses id `main` with `type: other` per the naming convention. The CTFtime scoreboard lists
+  74 teams. Challenge materials come from the ctf-archives collection at commit 39d1e8aae2d41a7424265874ec97f6c64f8f20f1,
+  which holds 16 challenges across six categories. The source tree also has a year-level README.md that
+  only links the CTFtime page; it is not part of any challenge directory and is represented by the references
+  instead of being copied into `original/`.

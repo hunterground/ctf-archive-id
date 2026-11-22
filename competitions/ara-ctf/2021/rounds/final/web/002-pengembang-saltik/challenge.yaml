@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: ara-ctf-2021-final-web-002
+name: Pengembang Saltik
+slug: 002-pengembang-saltik
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web-Exploitation
+description: |-
+  Judul : Pengembang Saltik
+  Deskripsi : Situs jejaring daring kok banyak salah ketik (saltik). http://40.65.134.119
+  *notes : database akan direstart setiap 10 menit.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Final/Web-Exploitation/Pengembang Saltik
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f9e9b26080256c403b382ce0ed12fd21bc7c530e079b38576ab002b7ca6b59f1
+  - path: chall/Procfile
+    algorithm: sha256
+    value: 471c0aeeaa5bac7906e362f3c789757d1928bf02d97e1b9d0c8e6628e26d75f8
+  - path: chall/_config.yml
+    algorithm: sha256
+    value: 89500f4d9d2bb727f973ace596b9ea2e58553acd80c41d95c3c2658f45095560
+  - path: chall/models/message.js
+    algorithm: sha256
+    value: 679a4f1a061634fe36a26c2b52bc3cbb62fbc2ecc47b08d7661b263dd9f2e4b1
+  - path: chall/models/user.js
+    algorithm: sha256
+    value: e5d2d11ff47da396a5844478c732c77157ad268c562afbfe25f07c1bbd4f36a1
+  - path: chall/package-lock.json
+    algorithm: sha256
+    value: 37b92017a4c82e52e7905f57516cb21ba8e6036d72230a9c5346b1ccb88902f5
+  - path: chall/package.json
+    algorithm: sha256
+    value: 4f57a3012ece1ec28e982fafe5da515a0b5aaf28466226ceefd701d8b8d70248
+  - path: chall/routes/index.js
+    algorithm: sha256
+    value: 3ff07e04e3c8db6851d633701d3c0403606a1e3f64f4ba285e24c44dfa01fc85
+  - path: chall/server.js
+    algorithm: sha256
+    value: 99ca4da411198c97a4e92315fea633fe050b6971837065ac22dfb10b10bdfb49
+  - path: chall/views/admin.ejs
+    algorithm: sha256
+    value: 178bbdd600818106684f8a473fbd8c13b5c76e036ba056d03af46e04537d5599
+  - path: chall/views/css/main.css
+    algorithm: sha256
+    value: b4a4fcb3921e0e6bea6bdf7da7a777eb2b72b554fd765f1ab5ddbcb648d80c74
+  - path: chall/views/data.ejs
+    algorithm: sha256
+    value: c2a673d2da61d69f993a598f20dc965e730d3c8d1233e18924c5d1ef0b15df85
+  - path: chall/views/index.ejs
+    algorithm: sha256
+    value: 7151528c72bf26dc79d914227ae96967b2fc700db669b5c6ce5d16c45d339920
+  - path: chall/views/login.ejs
+    algorithm: sha256
+    value: b781f27f1e699f87a1cbd765c556a1999a04a40a69a20f14095b6fd71ebcda3b
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

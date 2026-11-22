@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: ara-ctf-2024-qualification-web-001
+name: Crystal dealer
+slug: 001-crystal-dealer
+original_name: null
+competition_id: ara-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  A: "who the h3ll are you?"
+
+  B: "you all know exactly who i am"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Abdieryy
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2024-quals
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  commit: 3c877d13b0c2b23300cbfcbfe30017a4127f1b97
+  original_path: web/Crystal dealer
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bf281afaebe88bda82d1d8b2fbbec03b76f0b0eb56b1b6afb64d9dd3a4fe79d9
+  - path: app.py
+    algorithm: sha256
+    value: cee8f8a846359ec065c923e89994f5d7a679abd73f56bd114c45fe72c4b8c6e6
+  - path: flag_h31s3NB3rG.txt
+    algorithm: sha256
+    value: 3ee7c97de8b3c215b4bc727e71123c9e7fdb03f2f7dcc254b998913733c39d06
+  - path: images/solve1.jpg
+    algorithm: sha256
+    value: 0262713c932618a06d244995c1b73d0595c9b125017a8596b199a863896fb698
+  - path: images/solve2.jpg
+    algorithm: sha256
+    value: f4fc2222965a494e92bb2f5d595a93f96920edff4f60ccf2c45a0541108ab8c4
+  - path: images/solve3.jpg
+    algorithm: sha256
+    value: d715d0d5cb33a81242cf7d7b5fbfc83e10c22cd7141f6d531e04697699dbf074
+references:
+- title: CTF5.0-Quals
+  url: https://github.com/ARenewalAgent-ITS/CTF5.0-Quals
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

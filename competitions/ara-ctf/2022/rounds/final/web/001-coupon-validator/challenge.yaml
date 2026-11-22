@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: ara-ctf-2022-final-web-001
+name: Coupon Validator
+slug: 001-coupon-validator
+original_name: null
+competition_id: ara-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: |-
+  Anya Forger dari perusahaan PAMA menerawang isi kepala takumi. "xixixi, dapat coupon gratis nih JKASIUIHDAISUJ67126128812" ~ kata takumi dalam kepalanya. Anya ingin menggunakan coupon tersebut sebelum takumi. Anya memvalidasi dulu apakah coupon codenya benar atau tidak pada sebuah website. Anya belum tahu apakah coupon code tersebut tedapat spasi(space) atau tidak. Anya mencoba berbagai kemungkinan dan menemukan hal aneh.
+
+  Web Address: http://139.59.101.79:1024/
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nop#3808
+  team: null
+organization: null
+provenance:
+  archive_id: ara-ctf-2022-challenges
+  source_type: git
+  repository: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  commit: 41ef0d5f5ed9d57cb7284a0d90f7f9993684164b
+  original_path: Final/Web Exploitation/Coupon Validator
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deskripsi Soal
+    algorithm: sha256
+    value: 87ff27927b30f8cd38be03a2017f414bd1e2ffb367c8cb10352b91bb7c0a3571
+  - path: Resources/Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/app.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/database.db
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/flag.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/logging.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/run.sh
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/templates/couponcode.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/templates/index.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/templates/layout.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/templates/login.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Resources/distribute/templates/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: Resources/readme.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: flag
+    algorithm: sha256
+    value: 8054c2e20d2cd33d591195c00a7c5103437afd4a28adaa6e071900ce4bda9faf
+references:
+- title: SOAL-CTF-ARA-2022
+  url: https://github.com/CTFARA2022/SOAL-CTF-ARA-2022
+  type: official_repository
+  accessed: '2026-11-22'
+verification: needs_scope_review
+notes: null

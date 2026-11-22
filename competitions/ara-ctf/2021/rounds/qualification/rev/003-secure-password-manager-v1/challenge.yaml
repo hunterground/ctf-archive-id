@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: ara-ctf-2021-qualification-rev-003
+name: Secure Password Manager v1
+slug: 003-secure-password-manager-v1
+original_name: null
+competition_id: ara-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse-Engineering
+description: "Waduh program untuk mengembalikan passwordku corrupt dan sekarang hanya hanya tersisa program\
+  \ untuk merahasiakan passwordku saja :( . Dapatkah kalian membantuku mengembalikan password akun moontoon\
+  \ ku supaya aku bisa bermain mobile legend lagi ? \n\nSecured password : e4 ff 9b c8 25 92 55  0 d4\
+  \ 85 6c ca  6 9b 4e  b"
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: ara-ctf-2021-challenges
+  source_type: git
+  repository: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  commit: 081a8e1de3966aec4fa6b246053bb97ea1b0b48a
+  original_path: Penyisihan/Reverse-Engineering/Secure Password Manager v1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: >-
+    Archive maintainer instruction on 2026-11-22 to record a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 93d8ab09714147d4e7b196ee1a7644e944692c4effb67b8114f2f17dc5626f03
+  - path: chall/manager
+    algorithm: sha256
+    value: ee82996d7cf03cb17cbc959decc6f8b74ccac57cfee2df104fc2e7e11eef52f6
+references:
+- title: ARACTF2021
+  url: https://github.com/ARenewalAgent-ITS/ARACTF2021
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
