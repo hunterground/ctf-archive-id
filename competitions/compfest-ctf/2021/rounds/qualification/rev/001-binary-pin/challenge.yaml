@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-rev-001
+name: Binary Pin
+slug: 001-binary-pin
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: Ten digits pin is so troublesome. So I made a safe with only two digits pin.
+difficulty:
+  value: Easy
+  source: organizer
+tags:
+- Java
+- JAR
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: reverse-engineering/binary-pin
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e81810061e151e00b88cf160d810c63bd62eb63c4cde4543c5dc9d1ccaf0a7f5
+  - path: public/Binary-Pin.jar
+    algorithm: sha256
+    value: d7d0839d79c83869248631d6b5d203417bf02af03b9c43ba7f9c34fa7b179fb0
+  - path: src/Binarypin.java
+    algorithm: sha256
+    value: e0b518699d186467e1421a2539e7dfb496b43205642f32565bb9730a48890f37
+  - path: src/Binarypin.mf
+    algorithm: sha256
+    value: 75d1bc5678f186783792cd443e7be56fc0d297e38db5539ea0d20664de94ff62
+  - path: src/compile.sh
+    algorithm: sha256
+    value: d858e2b6c217246d5cdeb11317af8c991181fa3192896d5e78cf3e40f101ce3c
+  - path: src/flagtosecret.py
+    algorithm: sha256
+    value: d7524a70a58ad2169c53bc2192ac67e5225d7954f0a6cbc7cfc2280c6566eb16
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

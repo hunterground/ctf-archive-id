@@ -29,8 +29,13 @@ references:
   url: https://ctftime.org/event/3290/
   type: third_party_archive
   accessed: '2026-11-21'
+- title: CTF COMPFEST
+  url: https://github.com/ctfcompfest
+  type: official_repository
+  accessed: '2026-11-22'
 notes: COMPFEST as a festival states that it has been held annually since 2009. That year is the festival's
   first event, not a confirmed first year of the CTF branch. CTFtime lists COMPFEST CTF events for 2020
-  through 2026. The 2026 CTFtime listing is explicitly a mirror of a local event, so its listed window
-  is not recorded here as the local competition dates. A 2019 edition was present in the previous archive
-  record and remains unverified.
+  through 2026. Those CTFtime listings are public mirrors, so their windows are not recorded as the local
+  competition dates. The organizer GitHub organization ctfcompfest published problem sets for COMPFEST 12
+  through 15, archived as the 2020 through 2023 editions. No organizer problem set was found there for
+  2024, 2025, or 2026. A 2019 edition was present in the previous archive record and remains unverified.

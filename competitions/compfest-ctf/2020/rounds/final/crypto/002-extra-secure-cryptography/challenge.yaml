@@ -1,0 +1,108 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-crypto-002
+name: Extra seCure Cryptography
+slug: 002-extra-secure-cryptography
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: Bob sent a message, to Alice, decrypt it for me
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: cryptography/extra-secure-cryptography
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 2e82920b611766511665435f4040eb4b9f2ea072092df9832bb11940c154c116
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0588db4354bac92cdf3d0bdfab6ecc486c526e896223b19f75f55c1e9217f1be
+  - path: README.md
+    algorithm: sha256
+    value: a4a92c793aab8172ca7f854740c270c1781d8efd9d0f7c3bb75ee6984fe55c51
+  - path: build/G.pem
+    algorithm: sha256
+    value: 52005e5891670425dcdd77883a976a497c69a043165e971432f6f97c1d36585b
+  - path: build/P.pem
+    algorithm: sha256
+    value: 9bd21e31aeec1df304516bb9e1e3f67cb7dc4724ec0dfff6a63a4ba3f76997a8
+  - path: build/Q.pem
+    algorithm: sha256
+    value: 55df053c87eea94955fdcfdb2fe0ea435301d63679170f75d9dffc105b4ea4d5
+  - path: build/flag.txt
+    algorithm: sha256
+    value: de0715916aee5e4c71affeb9f9da25a7c01ca4bee690b5ec744d5a448c5ff3d6
+  - path: build/soal.py
+    algorithm: sha256
+    value: f9053c15e3287cb82be6b7cc432ca5a036e5fe3667435a0f2054d001dcf26a38
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7443d91d1f4811d23b9953df917b283f1a509a3e17a1388be3258cc52600dd07
+  - path: files/G.pem
+    algorithm: sha256
+    value: 52005e5891670425dcdd77883a976a497c69a043165e971432f6f97c1d36585b
+  - path: files/P.pem
+    algorithm: sha256
+    value: 9bd21e31aeec1df304516bb9e1e3f67cb7dc4724ec0dfff6a63a4ba3f76997a8
+  - path: files/Q.pem
+    algorithm: sha256
+    value: 55df053c87eea94955fdcfdb2fe0ea435301d63679170f75d9dffc105b4ea4d5
+  - path: files/flag.txt
+    algorithm: sha256
+    value: de0715916aee5e4c71affeb9f9da25a7c01ca4bee690b5ec744d5a448c5ff3d6
+  - path: files/sage_code
+    algorithm: sha256
+    value: 631de70847e1a0edbc87810d8974ba36c9c5772ee97820f52ce9278915a39712
+  - path: files/soal.py
+    algorithm: sha256
+    value: f9053c15e3287cb82be6b7cc432ca5a036e5fe3667435a0f2054d001dcf26a38
+  - path: requirements.txt
+    algorithm: sha256
+    value: c0dd4c962f52b9fceb39b8d67bdd61d21a8253bf1ff569befb672f7b2737e5c6
+  - path: share/G.pem
+    algorithm: sha256
+    value: 52005e5891670425dcdd77883a976a497c69a043165e971432f6f97c1d36585b
+  - path: share/P.pem
+    algorithm: sha256
+    value: 9bd21e31aeec1df304516bb9e1e3f67cb7dc4724ec0dfff6a63a4ba3f76997a8
+  - path: share/Q.pem
+    algorithm: sha256
+    value: 55df053c87eea94955fdcfdb2fe0ea435301d63679170f75d9dffc105b4ea4d5
+  - path: share/soal.py
+    algorithm: sha256
+    value: f9053c15e3287cb82be6b7cc432ca5a036e5fe3667435a0f2054d001dcf26a38
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

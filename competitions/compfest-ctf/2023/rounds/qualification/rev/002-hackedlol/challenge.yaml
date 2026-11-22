@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-rev-002
+name: hackedlol
+slug: 002-hackedlol
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Someone hacked my computer! I really need my important file but it's encrypted. The IT guy managed to recover one file. But I don’t think that is my file though.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Python Bytecode
+- Obfuscation
+authors:
+- name: k3ng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Reverse Engineering/hackedlol
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 4a1e5e98472d556ca9bdc273e178941da09a8bd850afd8f73eb7ea9d63de0487
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/hackedlol.pyc
+    algorithm: sha256
+    value: 6efcab359ede4c4360620e44b9d73e0566369ad5b19dd1d4a3ad46ea1f77f4a1
+  - path: public/important_file.hackedlol
+    algorithm: sha256
+    value: 6658a0d403abf79cf080b0f57c430d1c7a49440e8c515a75bc7709d48479c9dd
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/create_pyc.py
+    algorithm: sha256
+    value: 820b7224e7232518b2d059f049e84a641a262a379489ed1feb8b80d6b27aa35c
+  - path: src/source.py
+    algorithm: sha256
+    value: 0ff32e790122d10fd3665b516e3a392155248317e31aecf869b8f3adcab16c71
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

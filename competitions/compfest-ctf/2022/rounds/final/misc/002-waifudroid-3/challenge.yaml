@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-misc-002
+name: WaifuDroid 3
+slug: 002-waifudroid-3
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: misc
+original_category: misc
+description: |-
+  After being bamboozled by the string comparisons (and regex) the last time, now there shall be no more difficult keywords to the flag! Wait what? What do you mean I've made it even more vulnerable?
+
+  P.S. I swear this is the last time I'm making this type of chall.. (or is it?)
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- JavaScript WTF moments
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: misc/waifudroid-4
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 8ecfeda9a74bbf394dd6585c98ecdfaf8a613b8b6355294c434d0692e12c887b
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6bd2c37d28bdb42955b9a0ad756f7648c90602f854f960f5042af007b0058dba
+  - path: README.md
+    algorithm: sha256
+    value: 0a3e833b1e397456ebcaaf04d91a460f646000765da0279d56a532222760df36
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8683ffbe14e8efea017725d544f86bde779e9e98a937624b6533db31a281939b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c00cacbe243798fee5e861d4076487a2743268d3c91a31e0b7bda17e7670f2fe
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/app.js
+    algorithm: sha256
+    value: 3bddfe01af73498f4eb1d649701d2c0d14d18a5eda85487b9e26513c980b3618
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app.js
+    algorithm: sha256
+    value: 47a731765519635844a9c0524b24a8f33e86e69ba6f85fba9ea578d963ccbb32
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: fc8ea2b7815477a5acaecd45a72188f948e34dec1e0c3db17be51785fc11683b
+  - path: src/package.json
+    algorithm: sha256
+    value: d34cd6d7b3794f0f8f00cab508b6eb020ac35508018684762c9aff0a9a2f15cd
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

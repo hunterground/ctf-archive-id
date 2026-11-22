@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-pwn-002
+name: ChinPoPomon
+slug: 002-chinpopomon
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: |-
+  Since last year's problem (Fruity Goodness) got so much flak, here's a better version, now with C++!
+
+  Hint (not really) Pog? https://www.youtube.com/watch?v=2714T_k2B1U
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: binary-exploitation/chinpopomon
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f415db2b0cebe1d14ec900b2ea3abdf58a527736799fd9b5da3ecefc5b8d80db
+  - path: README.md
+    algorithm: sha256
+    value: a70a8136b07cff1146585e21d2ac5e5f8e5c83a0bc0fe5b074ce86cbd9f16478
+  - path: build/chinpopomon
+    algorithm: sha256
+    value: 113969c7dfc9ca3697f405a4276a9940f6a7e04452ecbe391ce61b3334f1449a
+  - path: build/chinpopomon.cpp
+    algorithm: sha256
+    value: 93725dc741f67afc39130740abae8b126a4307694ba4fb05e489e23598724c8f
+  - path: build/flag.txt
+    algorithm: sha256
+    value: 6ba0bd3398fa4b748b885c3705f9b18fff577c96a1b70942b49a8baec81dff68
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b3f8c2c2bdc66a01f2ad6707109df2b37dab41f44ba45917aea89cdff141f18d
+  - path: files/chinpopomon
+    algorithm: sha256
+    value: 113969c7dfc9ca3697f405a4276a9940f6a7e04452ecbe391ce61b3334f1449a
+  - path: files/chinpopomon.cpp
+    algorithm: sha256
+    value: 93725dc741f67afc39130740abae8b126a4307694ba4fb05e489e23598724c8f
+  - path: files/flag.txt
+    algorithm: sha256
+    value: 6ba0bd3398fa4b748b885c3705f9b18fff577c96a1b70942b49a8baec81dff68
+  - path: files/libc6_2.31-0ubuntu9.1_amd64.so
+    algorithm: sha256
+    value: 4db473e38da06f7b1ad54ef117a184e08ffda27bbbb5329d03831186e3e533c8
+  - path: share/chinpopomon
+    algorithm: sha256
+    value: 113969c7dfc9ca3697f405a4276a9940f6a7e04452ecbe391ce61b3334f1449a
+  - path: share/chinpopomon.cpp
+    algorithm: sha256
+    value: 93725dc741f67afc39130740abae8b126a4307694ba4fb05e489e23598724c8f
+  - path: share/libc6_2.31-0ubuntu9.1_amd64.so
+    algorithm: sha256
+    value: 4db473e38da06f7b1ad54ef117a184e08ffda27bbbb5329d03831186e3e533c8
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

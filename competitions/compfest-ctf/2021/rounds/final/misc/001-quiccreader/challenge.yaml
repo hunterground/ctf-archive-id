@@ -1,0 +1,156 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-misc-001
+name: QuiccReader
+slug: 001-quiccreader
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: misc
+original_category: miscellaneous
+description: My colleague Mr. Frink Zippy surfs the web a lot.. he never leaves his web browser! He even made a web app to read local files so he never has to leave his browser. He claims that his app is secure enough so that people still won't be able to read things they're not supposed to. I hope he's right.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- bash injection
+- race condition
+- TOCTOU
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: miscellaneous/quiccreader
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/django/quiccreader/__pycache__
+    reason: Generated Python bytecode is not part of the challenge distribution.
+  - path: src/django/api/__pycache__
+    reason: Generated Python bytecode is not part of the challenge distribution.
+  - path: src/django/api/migrations/__pycache__
+    reason: Generated Python bytecode is not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 08daa531134bc1402f981f5332c89556395222146e3d3b249a5b567dadc6ad80
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 056c3de3323a46f8bfa110d451d088e592e9ded9c206522d21aac451a3ac0c8a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b11cdca33c4e604b5030710050a7e8f04814c44e4883bdaac19e9d5207565284
+  - path: src/django/Pipfile
+    algorithm: sha256
+    value: b6d2b638b0c221ef7eff3114b906e09c44fd77aa647cd8c9c694717b5549116c
+  - path: src/django/Pipfile.lock
+    algorithm: sha256
+    value: 3db8511bf572f7b2299f492ca777867ce29ce839e544d30ee2f0709ac3f01c05
+  - path: src/django/api/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/django/api/admin.py
+    algorithm: sha256
+    value: b2e328e31f08dc907100505521d13ee6a9ea67a240655d051120011ce49cfaf8
+  - path: src/django/api/apps.py
+    algorithm: sha256
+    value: b4db90de55cd6dbcaa174df55724a73e2ff33f64760b0f3f12e3f5903944e314
+  - path: src/django/api/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/django/api/models.py
+    algorithm: sha256
+    value: 563734a765db00f804e87c9317abe597df00e1e0e103902f690aac738910f404
+  - path: src/django/api/static/css/theme.css
+    algorithm: sha256
+    value: 235d60a35646144cd4a87f1a1b0cc163743bad1e0a6d3746115f3aefea9ebc39
+  - path: src/django/api/static/fonts/04B_30__.TTF
+    algorithm: sha256
+    value: 8d8a5f91871bfde6be16584178aa387eecb9926ddc4ce44b51c8f67a5c72feff
+  - path: src/django/api/static/images/magnifier.png
+    algorithm: sha256
+    value: e2f13d44f46b2db5d7507a4ff9fd494d67a2af3289ae23b98eb7d418b0bac05a
+  - path: src/django/api/templates/index.html
+    algorithm: sha256
+    value: 9993c8745d38064da87fe91a9c7ca7e859fbe4906ece4164b7e108bf5f003b99
+  - path: src/django/api/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/django/api/urls.py
+    algorithm: sha256
+    value: b7807809f7a24e19fdc54cbcc7a153a8d0137567071a29dce99b0e8c71b1a172
+  - path: src/django/api/views.py
+    algorithm: sha256
+    value: a47a10ec5a060e8ed16b96563563068dd4a8bb109bf23af1664b17e4e2dec76d
+  - path: src/django/db.sqlite3
+    algorithm: sha256
+    value: 1af4ccbd4fe9a5d67028d67f19e2cb2db41184e432f3650ad1f82eeeb979ab06
+  - path: src/django/manage.py
+    algorithm: sha256
+    value: ae6de6dc59e330cf871c24c1987d8b5b8267ef3a32c7362843db2d88024a068e
+  - path: src/django/quiccreader/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/django/quiccreader/asgi.py
+    algorithm: sha256
+    value: 7c16e444ea4a2db4530de51c070d55e2df325700c789f2fde0def8451c423f30
+  - path: src/django/quiccreader/settings.py
+    algorithm: sha256
+    value: a26cf1ca2e9b3303e8b9cf16d531ede9a580268f0a508adf8a284ab3713262fc
+  - path: src/django/quiccreader/urls.py
+    algorithm: sha256
+    value: c5b5be265029308081b47814a591b7b218e94299c73019c3489be952ea64b352
+  - path: src/django/quiccreader/wsgi.py
+    algorithm: sha256
+    value: 3a2220837f4aa55105d88ab262dd30f0a7138e6add82b1e71183c37040ba90c9
+  - path: src/django/requirements.txt
+    algorithm: sha256
+    value: e6d13184e5310003af510bdcd2941a54459bdc99472a1eae8c304114f6cde7ff
+  - path: src/docker/entrypoint.sh
+    algorithm: sha256
+    value: 25049f0c2975be0c0337ba5f5119aa327b64f4cc5e6b10f27aa26ec7914faf55
+  - path: src/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: 4153b92ea30fa70a5792dcc99b6c87cafe1fddc6d21e260313a65f4d9ab8ddc3
+  - path: src/docker/nginx.conf
+    algorithm: sha256
+    value: 18c2d5dfc662c53050c6f4a2224fba767daa22617ed868132a094794f7474d6a
+  - path: src/docker/server-req.txt
+    algorithm: sha256
+    value: b069e6334bb2f1bb7c3270484bf36826ab831f2ac05137fe5cddabef9e8a7da0
+  - path: src/files/admin_reader
+    algorithm: sha256
+    value: fba9e989904d9eddf75569d3ec467dbe036d3420cfe9a962bb3111c834de0bb7
+  - path: src/files/flag.txt
+    algorithm: sha256
+    value: 01af02b45c4c448d3ab6b460eb2117b002daf0b31b4e7d561ce213889bbd6ebc
+  - path: src/files/note.txt
+    algorithm: sha256
+    value: d6715e64b27938fd2e4fdc44bba04d4cd808083891726cdf06345c9322e0a849
+  - path: src/files/test.txt
+    algorithm: sha256
+    value: b3bb7fb188a7a248c6dd1aa512fd072716cf1f39530b9fc8ac125f0f2de90d76
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

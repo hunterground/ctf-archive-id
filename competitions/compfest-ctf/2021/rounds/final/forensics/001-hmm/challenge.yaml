@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-forensics-001
+name: hmm
+slug: 001-hmm
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: forensic
+description: '"*hmm*", said the villagers, wondering why they''re gathered in the middle of nowhere. What''s their purpose? Are they carrying something? And why there''s an item frame in the middle? Are you not curious?'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Forensics
+authors:
+- name: xMaximusKl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: forensic/hmm
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8698256006648c17a159bf48218582153bd88dcc9df5964895ffd19322c7ff7f
+  - path: public/hmm.zip
+    algorithm: sha256
+    value: 973a3e94723e5617cb32caaabb736c07f50bb4c02cd80a2e2a7ad9196bd86fba
+  - path: src/hmm/DIM-1/data/raids.dat
+    algorithm: sha256
+    value: 57c1569b9f7a2517779ef6854674ad58e3ee05e9c25242cb2b22e2b72d21183f
+  - path: src/hmm/DIM1/data/raids_end.dat
+    algorithm: sha256
+    value: 57c1569b9f7a2517779ef6854674ad58e3ee05e9c25242cb2b22e2b72d21183f
+  - path: src/hmm/data/fabricDynamicRegistry.dat
+    algorithm: sha256
+    value: 69785b8da16ab822106e576bedd66c69eb55e540a89a9f826483142ce2b3c249
+  - path: src/hmm/data/raids.dat
+    algorithm: sha256
+    value: 57c1569b9f7a2517779ef6854674ad58e3ee05e9c25242cb2b22e2b72d21183f
+  - path: src/hmm/icon.png
+    algorithm: sha256
+    value: 733d6a6f94665a3f5122c4df9357f45061a6eecdba4938ddc5649236e43f9d3b
+  - path: src/hmm/level.dat
+    algorithm: sha256
+    value: 9471b1c3480c40d06ef9c550d8a9426e09952d3e5174bfd79be671db2a5dc8df
+  - path: src/hmm/poi/r.-1.-1.mca
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/hmm/poi/r.-1.0.mca
+    algorithm: sha256
+    value: 6afba6f7e0b6a7e51ac11697477aab2fee9948ef937cadb9568048528dbf9317
+  - path: src/hmm/region/r.-1.-1.mca
+    algorithm: sha256
+    value: 4c4b9ea45ba653aeabbf3de973379a90eca2d5a4541154e301d9553701465cc2
+  - path: src/hmm/region/r.-1.0.mca
+    algorithm: sha256
+    value: ca8a18bd672c207fe2fa08ff0846e9a54ffd96161c86027b1f1b73daf198552b
+  - path: src/hmm/region/r.-2.-1.mca
+    algorithm: sha256
+    value: 7e08bd06bf441e45dcb0925ab2557abe63ce71b0fde34fc0167335066ca06b51
+  - path: src/hmm/region/r.-2.0.mca
+    algorithm: sha256
+    value: eea43f2d87288a6d349948ae45fc829d04d2f6fd26c03754efa0d1d132c68d20
+  - path: src/hmm/region/r.0.-1.mca
+    algorithm: sha256
+    value: 299cf4e087f7e6c4aabd8440c01b8ab48025858fcbd2df20b1f5dad76071c924
+  - path: src/hmm/region/r.0.0.mca
+    algorithm: sha256
+    value: f7497b16449e9cb80dcfd06e1f71ab878ad8263b91c4fc2771053af81b02ebe7
+  - path: src/hmm/session.lock
+    algorithm: sha256
+    value: 51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc
+  - path: src/hmm/stats/42b1fb88-878c-46eb-8ff9-1afed13e3cf9.json
+    algorithm: sha256
+    value: 392c3c837d0f06fb0fd9c0e62f59655dcac0a87ff36555d9df1bb65ceb966fed
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

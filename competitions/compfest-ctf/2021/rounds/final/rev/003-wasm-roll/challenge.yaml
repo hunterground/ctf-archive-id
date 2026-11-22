@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-rev-003
+name: WASM ROLL
+slug: 003-wasm-roll
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: Rollin till jacpot, can you get the flag ?
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: xMaximusKl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: reverse-engineering/wasm-roll
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 79f5cbbb1f9d9911c93bb5a422b92cfcdce33145e3cef0ff9871df11fcbac94a
+  - path: README.md
+    algorithm: sha256
+    value: 881c31f18e7b7cffb6633b3ffe7ba242bec1fce3c800ee076a1d238a65fbca56
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 9c38a211a73a91c7dc68410edbb9d9a99566af6219642902a04e10f76ca70b2d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 12431499cf85a21d79641898d40befb0813d1043a5deb0fc42bd75ffa9a2178e
+  - path: src/Makefile
+    algorithm: sha256
+    value: 88639db471e0adff2ec59e98ec5370dbc969fa32516de8982c319ca61d9ded12
+  - path: src/build/index.html
+    algorithm: sha256
+    value: 65e9476a4007eb60dfcda51d976268691f995cd6cbcdb0beccb616a4130c80db
+  - path: src/build/index.js
+    algorithm: sha256
+    value: e6f0d7f00f616dd067273e2f3dafa3a8284a519155a59fdeea51464dac5ad4fa
+  - path: src/build/index.wasm
+    algorithm: sha256
+    value: 597a918945f188041da8897ede1896688e9de740277e6b47e03ccc7e112bee4d
+  - path: src/docker/nginx.conf
+    algorithm: sha256
+    value: 23b241000354f23c29ac81e12d9eb2cc494e2ad2f2e90f9b524793b7384a5b93
+  - path: src/index.html
+    algorithm: sha256
+    value: 396912e42923ff234b4068821600fe09036226cc02638afa1987238d2b14ab1c
+  - path: src/main.c
+    algorithm: sha256
+    value: c208fe165402dc0acf7ebb0651f524a47ca81453b47f5a81f73fa29d3e4f9d71
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

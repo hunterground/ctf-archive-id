@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-forensics-003
+name: Kyu Are
+slug: 003-kyu-are
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Kyu Are?
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: forensic/kyu-are
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3b9a5e1f89fef88273e4cd8839bf70a09e90367e41b4566054e82c43102027ca
+  - path: attachments_to_share/go.avi
+    algorithm: sha256
+    value: 55c0635dc02ebd6da5a417ccf98affa016b03d6b38b0d3e07686fe8a738519c8
+  - path: attachments_to_share/hachi.avi
+    algorithm: sha256
+    value: 137b53b4c196ae73a1ed7f0ce7052d88aa91ae6231c8c33bb5af5a397558a33e
+  - path: attachments_to_share/ichi.avi
+    algorithm: sha256
+    value: d1d0a4822f48d22e7191aad8ee8f4bed0bbb8da30c01995b8c7d88666b42ad74
+  - path: attachments_to_share/kyu.avi
+    algorithm: sha256
+    value: ed5bc68b8955c1103656a63dcbce75c15988074bfd159c85a0ad0ed827abde7c
+  - path: attachments_to_share/ni.avi
+    algorithm: sha256
+    value: 69331ac84b9fc17c77292eac422752bbc257f55532d9f5a11a740449b09148ed
+  - path: attachments_to_share/roku.avi
+    algorithm: sha256
+    value: 3c378f1a365140b6ce7c4f4cf5caa56ce6f205106d07147f43ecb5646e11d76f
+  - path: attachments_to_share/san.avi
+    algorithm: sha256
+    value: 60fba4d869ae4ecb8631b56f8978f917c45e81f32ad8c4f0e53973863cb05983
+  - path: attachments_to_share/shi.avi
+    algorithm: sha256
+    value: c6b2a46f7e7f1d1dcb4494898816f53a6ed6af506d16599c5f38e37bd7748660
+  - path: attachments_to_share/sichi.avi
+    algorithm: sha256
+    value: aaf468710bdaca3e8dc66dac90bf234982befba64e482db7b599d7324118c16f
+  - path: problem.py
+    algorithm: sha256
+    value: 47ee1d8e806e2fc1badd07861774c095e931a449208b8b38d75907beeaa4b799
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

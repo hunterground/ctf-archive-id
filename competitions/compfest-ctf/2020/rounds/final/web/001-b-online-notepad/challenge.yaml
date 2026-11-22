@@ -1,0 +1,157 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-web-001
+name: (B)online Notepad
+slug: 001-b-online-notepad
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: 'Just ur average online notepad, but with a lil bit of protection :wink:'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: web/bonline-notepad
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: ef579cdda047dd00d5fb9a51a8e61f6f814f49445e8c2498a3a17dec655ff107
+  - path: README.md
+    algorithm: sha256
+    value: 3057a5bdc685bbdd8ab689802eaf5d7da8e4e947f73f9249272391820b0e6fc0
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 3a049b5b7082981306d34b98b658158e4621adb106dfa3961fdad8d9662fec7b
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 9d9ced83d4021e6319ae41e7f7b67179610e52c1546d1fb14a995053bfa1fd0c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 925dbbcab1072e67f5be61cf74e4fe28e2f8d24d9a291bd53341a07f2075ee45
+  - path: web/Dockerfile
+    algorithm: sha256
+    value: f005f04d533edf9dc07475a2f8ce83bff5d6d71e0343de80caf2e17340ef3ab6
+  - path: web/manage.py
+    algorithm: sha256
+    value: 65b5864110b1e15e3442775a4726f4e67303c35ad531f401b647f16c6549c985
+  - path: web/notepad/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/notepad/admin.py
+    algorithm: sha256
+    value: 12293781546dbe50372f51a62b3549c75a9f750ee993e5047f8cb296674df166
+  - path: web/notepad/apps.py
+    algorithm: sha256
+    value: c209cab552d3699f02fce7093cd103405b3fb202d13e76fb2ba9442ecd57e86d
+  - path: web/notepad/forms.py
+    algorithm: sha256
+    value: 22d027a27fc88c3d311cac70c7d4fb23b8cb4a7ae2e59841d4199bf13f518cf0
+  - path: web/notepad/migrations/0001_initial.py
+    algorithm: sha256
+    value: c50bd4db46aeef7f8163eadf904b74b21705c5fcb9f8c1213b6e97ad9c715b2a
+  - path: web/notepad/migrations/0002_auto_20200925_1252.py
+    algorithm: sha256
+    value: f96723cc2a1ca86a6e8dcd60c851b3212ac7e2ffa476768e98e9e34fc3c897e9
+  - path: web/notepad/migrations/0003_botqueue.py
+    algorithm: sha256
+    value: 207756bba56fc2184eaa5a14b68c905b226b2109ad3f0311d92e9620200865cf
+  - path: web/notepad/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/notepad/models.py
+    algorithm: sha256
+    value: 017fdc42b8677ed1dc41ab1d8c44be3396066484c7819e75c0507c03c6d63aff
+  - path: web/notepad/static/purify.min.js
+    algorithm: sha256
+    value: 0ac3c18e066168c9bbd935067548cd1e08a8423af0c38ba7c201df9883794b78
+  - path: web/notepad/static/purify.min.js.map
+    algorithm: sha256
+    value: 5c701e1e78486e95934b16476140a1cb231fdf4ae679ecfd3139b7d480f1fb7c
+  - path: web/notepad/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: web/notepad/urls.py
+    algorithm: sha256
+    value: 6b854c0cce8f4542f3024c40d97da54f31873ef3c39a6c54c7554584d3c42c56
+  - path: web/notepad/views.py
+    algorithm: sha256
+    value: ead9375e661a7589f7d3c94c202c0d586472f5046eafec2d4015d8e19332964d
+  - path: web/project/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/project/asgi.py
+    algorithm: sha256
+    value: 53128e0b745421165d1fb348753ef5f5d6e94b662b732f61b5ee5c018429344e
+  - path: web/project/manage.py
+    algorithm: sha256
+    value: 65b5864110b1e15e3442775a4726f4e67303c35ad531f401b647f16c6549c985
+  - path: web/project/project/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/project/project/asgi.py
+    algorithm: sha256
+    value: 53128e0b745421165d1fb348753ef5f5d6e94b662b732f61b5ee5c018429344e
+  - path: web/project/project/settings.py
+    algorithm: sha256
+    value: e0b035fc3727657f618b7706de7690e829d689cb332f1e570a34eb5cb66e56e4
+  - path: web/project/project/urls.py
+    algorithm: sha256
+    value: 2a8d1710beb582cbf9bb3b60872794ee2db89584e536825f154bef60e7af300e
+  - path: web/project/project/wsgi.py
+    algorithm: sha256
+    value: 28df15cd6fa7750f7c691be025bd5ef3bb6221cba2a123a55ec3d12c4d2295a6
+  - path: web/project/settings.py
+    algorithm: sha256
+    value: 71e8db70750d6db3fca2e652e5ede344ff1bf26646492730ac8d1978a3de33fd
+  - path: web/project/urls.py
+    algorithm: sha256
+    value: f4cfa6de3bca8fcaf51d6b23aa4e2f83296c5a3ab4cfd6ab3d803ad26d72fe8b
+  - path: web/project/wsgi.py
+    algorithm: sha256
+    value: 28df15cd6fa7750f7c691be025bd5ef3bb6221cba2a123a55ec3d12c4d2295a6
+  - path: web/requirements.txt
+    algorithm: sha256
+    value: 1b11a6fa77f342156c35ae1b2aee18d350941cad1eba790d3d0d584558d641d9
+  - path: web/run.sh
+    algorithm: sha256
+    value: fd22208b7c49674c87178efd39c19d71625ac80ce32cd242c72172b0088a1a0d
+  - path: web/templates/home.html
+    algorithm: sha256
+    value: cc8058930629b8ceac35916c0da44901a2b91b8d89896f44c9a42db79bcb7e30
+  - path: web/templates/submission.html
+    algorithm: sha256
+    value: 83ee0c57f5fa48402db97dba0d4afd2c3e235d69036bfae9a1bbe650b7e663ce
+  - path: xss_payload
+    algorithm: sha256
+    value: 63268a570bc89c5a9d3fb7959e03678db27615279979356a8016bad6b35b87c7
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

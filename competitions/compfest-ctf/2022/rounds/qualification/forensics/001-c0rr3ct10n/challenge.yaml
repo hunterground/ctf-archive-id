@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-forensics-001
+name: c0rR3ct10n
+slug: 001-c0rr3ct10n
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensics
+description: |-
+  Ngab is an adolescent boy well-known for his ability to solve thousands of hard riddles out there. When he just got back from his pilgrimage, Ngab found a note on his desk
+
+  > O' dear my apprentice, if thou are back from thee pilgrim, can thou correct this wallpaper maker for me? It is a widescreen-ratio up to full hd one, this should be easy right?
+  > Thanks as always.
+
+  "Damn, you old man" Ngab says.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- PNG
+- CRC
+- Binary Image Processing
+authors:
+- name: twoface
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: forensics/correction
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 29c7c5ae86cd938d86645a87568d25f269c02627e5730d2fe5295b2575dd93e6
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/lemaoo.png
+    algorithm: sha256
+    value: ad8b649dd31c14df6cd35459820225d989546d6d2694ac1d6f9d9d5e17034ea3
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/bin.txt
+    algorithm: sha256
+    value: eea3c8d16120553e6edca9b3e1c6a9b387d5542e0ac0a3b2c8895f838c516ac9
+  - path: src/bintostr.py
+    algorithm: sha256
+    value: e7fba7f4a9f123bdb47bf5f9a4b7e082fd5ad6711660148997254d3f439845b4
+  - path: src/breverse.py
+    algorithm: sha256
+    value: 3b402effdebbd21a4e47835614ed291d4f7d27e140cf27bd52b722a5ecc5ea99
+  - path: src/crc.py
+    algorithm: sha256
+    value: 454b2070ff1119149d6faa5fce0ac0f05a2e1f965b63eed04777d83aa219b503
+  - path: src/lemao.png
+    algorithm: sha256
+    value: 5369b0e58c7bc547def605a41ef4382a8c0cb57ce5ff38edd6d308ca296b9e37
+  - path: src/m00n
+    algorithm: sha256
+    value: 28bc34d46a82f1b51d086af1f18b9144b84a73df3df446cfb2e181dcf7272953
+  - path: src/m00n.png.bak
+    algorithm: sha256
+    value: ef3bc51e7a0f8af1a692a0019577f8bae376f8084d341dffbaf2c6fd138c5efa
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

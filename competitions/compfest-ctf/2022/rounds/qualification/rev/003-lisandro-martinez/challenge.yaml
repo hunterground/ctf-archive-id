@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-rev-003
+name: Lisandro martineZ
+slug: 003-lisandro-martinez
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: johan cryuff shield Winner (2019), knvb cup Winner (2020-21), eridivisie Winner (2020-21, 2021-22), rinus michels aWard (2019), copa américa Winner (2021), conmebol-uefa cup of champions (2022), and more to come. Lisandro martineZ is undoubtedly born to be a Winner.  But, can he beat this compression algorithm?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Data Compression
+- Python Bytecode
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: reverse-engineering/lisandro-martinez
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/__pycache__
+    reason: Generated Python bytecode is not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e2a08cd96c63336ce1a7098c908b2ba5ace21de4db9b64959a50b450f5d22a84
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall
+    algorithm: sha256
+    value: c0a14da8624ee7cd114d64100e13f5984bc040b3e73bdab6abefd128733f6546
+  - path: public/lorem
+    algorithm: sha256
+    value: b19edd9007c3b6d94df9a0c0ab07e0f16ba0d450b3b0ee58ea4a1b3d98c92fc6
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall
+    algorithm: sha256
+    value: c0a14da8624ee7cd114d64100e13f5984bc040b3e73bdab6abefd128733f6546
+  - path: src/chall.py
+    algorithm: sha256
+    value: 3aa9d708ada755501761803a1f3591c9d83dd7c53730daca66abd58d13f93da0
+  - path: src/chall_b
+    algorithm: sha256
+    value: 6e4a54fd77e5d76318a6f6f61ec84f2b44ab0f18340dd5d54667292d2f5cdbbb
+  - path: src/chall_c.pyc
+    algorithm: sha256
+    value: 6e856861a0eb369b6b88232c03ec143143a073d5c2957ff7f4beef15aa2a4661
+  - path: src/gen_chall.py
+    algorithm: sha256
+    value: 30c03c11acf99106aa1abab7966c0c1636e8728f40e485821337ba1c56d15b8a
+  - path: src/lorem
+    algorithm: sha256
+    value: b19edd9007c3b6d94df9a0c0ab07e0f16ba0d450b3b0ee58ea4a1b3d98c92fc6
+  - path: src/lzw.py
+    algorithm: sha256
+    value: f421c6fd63e4792c6a6b2869890327b6104631fc26afc2750906cd3531d57d48
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

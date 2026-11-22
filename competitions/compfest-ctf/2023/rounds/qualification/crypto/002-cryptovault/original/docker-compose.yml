@@ -1,0 +1,6 @@
+services:
+  my_service:
+    build: .
+    restart: on-failure
+    ports:
+      - "10006:5000"

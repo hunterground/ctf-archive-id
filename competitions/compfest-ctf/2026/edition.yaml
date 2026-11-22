@@ -1,6 +1,6 @@
 schema_version: '1.0'
 id: compfest-2026
-competition_id: compfest
+competition_id: compfest-ctf
 year: 2026
 name: COMPFEST CTF 2026
 status: completed
@@ -11,6 +11,11 @@ dates:
 statistics:
   participant_count: null
   challenge_count: null
-references: []
+references:
+- title: CTFtime / COMPFEST CTF 2026
+  url: https://ctftime.org/event/3290
+  type: third_party_archive
+  accessed: '2026-11-22'
 challenge_materials_imported: false
-notes: Listed by CTFtime on the COMPFEST CTF series page.
+notes: >
+  No organizer problem set was found in the ctfcompfest GitHub organization on 2026-11-22. A participant write-up repository, hax1ng/compfest-ctf-2026, describes COMPFEST 18 and is registered without being copied. The CTFtime listing is the public mirror. compfest.id/competition/ctf identifies this edition as COMPFEST 18.

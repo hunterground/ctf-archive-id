@@ -1,0 +1,124 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-002
+name: Converter
+slug: 002-converter
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  Now you can easily convert html to pdf.
+
+  Notes:
+    - Provided attachment is not a full system
+    - Please restart the challenge service after patching
+    - DO NOT restart the challenge service unless you're patching
+
+  [Attachment](https://d.rorre.me/T20PpIA8/converter.zip)
+
+  Author: ivanox
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: converter
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 2b6e05c282d7d32d0e5cd3cd563e7291030254f56453d87d1e4f01fe331899c0
+  - path: attachment/converter.zip
+    algorithm: sha256
+    value: b2a67096fbc4ebd94fa4c8f77feaef03ba093d95eae51e43d4a6fb7ed016c324
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7fa5f74b6c744ccef980c1cd85c5a5ec6384a0a216006bbb8db34c86275ec6e5
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: a25f60b2eb410e8f88e0203083abb3880ff8fbce4b2307d3d0773875e0b8d9cc
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5311b9f2d8cfcb50af725ba5073b54ee55ca552301fa83e8ec4fda19d8941082
+  - path: patchrule.yml
+    algorithm: sha256
+    value: 19a5b371cd8f70550600d81c10a692ed2a50e992220b91f3e57d4235748a63a1
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 8929b05b6b9e44e326690dea7822c5c5a67ca0ba9397d70082053a61b4baad51
+  - path: src/chall/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall/asgi.py
+    algorithm: sha256
+    value: db339d14cef59bb74fb8830390ed8630027cd3bc6ab928e0c2d1b412d0af2263
+  - path: src/chall/settings.py
+    algorithm: sha256
+    value: 6b76c484d54eb74f8a82431c028299533c2151d1ac80eaaa79d7b956c785aa54
+  - path: src/chall/urls.py
+    algorithm: sha256
+    value: d93847c0bff75cd0041c6b120bc41d8b678b8b74b6ceec691fc35d7766ebf014
+  - path: src/chall/wsgi.py
+    algorithm: sha256
+    value: c1dc2f03dad273fcad6b074b1893b3502162b614386bbb8e41a3e00a66bb1599
+  - path: src/main/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/main/apps.py
+    algorithm: sha256
+    value: d1771786efdf8955f9d3621b1e838107d7f31d6b222ef163ef2fc2c84697b7d8
+  - path: src/main/models.py
+    algorithm: sha256
+    value: 563734a765db00f804e87c9317abe597df00e1e0e103902f690aac738910f404
+  - path: src/main/templates/base.html
+    algorithm: sha256
+    value: 2ed9e392b3fe23723a9f03434d415aca7bba21f46f7d2fd4ef99bcec8322fe02
+  - path: src/main/templates/index.html
+    algorithm: sha256
+    value: c447f3cece6fa188d32f6a0665ee0752dc0420ed3316aadae7c9d14d4c6b21f9
+  - path: src/main/views.py
+    algorithm: sha256
+    value: f1ebfb0c9f1e5fa2c2dc7af4632a42475c20bcbcc5d7d25a99d60239fd074a1b
+  - path: src/manage.py
+    algorithm: sha256
+    value: e75df326ac3af3d22d32072497b41cb1f1aa7c8a0e7d031d1a3f65d3a6de82b0
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: d1d4ef917cef11bf7c7a449e2f71b58757c06819439e0dd0efee22487a93c156
+  - path: test/requirements.txt
+    algorithm: sha256
+    value: d5f1f247fcd6ffe2b788c60f0d5d28d0f151b26fba41e683852e5d22afd07a44
+  - path: test/test.py
+    algorithm: sha256
+    value: d805be9016721aa349a2d6bb0c0c6b680384cb961a8cbf08c7c0c2c040e479e1
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,173 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-forensics-002
+name: E2EBleed
+slug: 002-e2ebleed
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: |-
+  Someone in my house seems to be doing something fishy again… Maybe this time I will investigate. I’ve tapped into the connection of said person’s internet, perhaps you could help me find what they’re doing?
+
+  The (compiled) code and docker files required to run the set up locally are provided.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- wireshark
+- websocket
+- cryptography
+- rsa
+- reverse engineering
+authors:
+- name: rorre
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Forensic/e2echat
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/e2ec.code-workspace
+    reason: Editor workspace metadata is not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 80cd833994080e2db87d9a5f160f9c02b2ff589b5beafbf876e41afd6bcf1c31
+  - path: README.md
+    algorithm: sha256
+    value: b1b31e970e6ccb6cc83de2d58371a0ead38bb7b903c473eab36a0368b9a20858
+  - path: build-dist.sh
+    algorithm: sha256
+    value: fc7599b43bb3f90c71882b42859ed9fc6c45101b06eeeae823e644d465d64a90
+  - path: public/catdog.pcapng
+    algorithm: sha256
+    value: c69d5cc64b7e0340454c04be698f957b49efde36892965e60af217bffd9d5246
+  - path: public/chall.zip
+    algorithm: sha256
+    value: d375d3a70cc4c1c3509f6fbab18e44e8534ca1c66e8af05cf14bd3738671040a
+  - path: src/backend/.gitignore
+    algorithm: sha256
+    value: fd3d3ceef6632aac15173b6540fdd5102232b2ddaee635046670391c24b0f5bd
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 45a82a1bc9bc072624197b6dfc42520b95d5e33baf202e46eb184431fe58e945
+  - path: src/backend/index.ts
+    algorithm: sha256
+    value: 1ba6e267671d6657b3633d9a34d64e7f2012d209f571e8fbb5dc97c22f445af0
+  - path: src/backend/package.json
+    algorithm: sha256
+    value: 096c4bd1acf59e0573bf336865ee1eb5c076568d56b980b2aa0dc53a536edacd
+  - path: src/backend/tsconfig.json
+    algorithm: sha256
+    value: 9e388bacafaecaf58d00d87ca612aa1f2e4897b7ec8e6b699d10a4fee420d50c
+  - path: src/backend/yarn.lock
+    algorithm: sha256
+    value: e173db4b591d9a8f5dfe9ddecf39c1ca49ba5c493a1ba631d6c74b47168a5566
+  - path: src/build.sh
+    algorithm: sha256
+    value: 2ba6d44b53c018ef68f485384c90dee88ebf9518df6a60f49260d2224c373d5d
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 88cfc43db27fcb6edae9cedd4aa931bdc3d745d36ca6c5f3fb3aa5fdb75df862
+  - path: src/frontend/.gitignore
+    algorithm: sha256
+    value: fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8
+  - path: src/frontend/index.html
+    algorithm: sha256
+    value: b24a05f5ac33487dcd51e4f315373b479dd0204ded9a45613d683597ecc9ba97
+  - path: src/frontend/package.json
+    algorithm: sha256
+    value: 89e1da583020a2fb01c58c8c7e09da0aac1ec454cce1aa5f0a146d46d2e5d3f3
+  - path: src/frontend/postcss.config.js
+    algorithm: sha256
+    value: 190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27
+  - path: src/frontend/public/vite.svg
+    algorithm: sha256
+    value: 4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb
+  - path: src/frontend/src/App.tsx
+    algorithm: sha256
+    value: 3209bcd870bec96ab15e36c97e308ef4fbc151f2c5052c0f5c8f3c87ed93b83d
+  - path: src/frontend/src/assets/react.svg
+    algorithm: sha256
+    value: 35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5
+  - path: src/frontend/src/components/context/AuthContext.tsx
+    algorithm: sha256
+    value: f5d382711786ec5584ef482bd5eb01283053c8d2078892c7ead070051076b37e
+  - path: src/frontend/src/components/context/ChatContext.tsx
+    algorithm: sha256
+    value: 0f8e6dc0f25c0ec0a09798c32ed72ecf597771879cbbce1eda529ab0502c9c52
+  - path: src/frontend/src/components/context/ProviderProps.ts
+    algorithm: sha256
+    value: 674ca0223a0dcbbee2bfa3f67097854efac9e5cc0f64b2530ff7f211e91ddd2f
+  - path: src/frontend/src/components/context/WebsocketContext.tsx
+    algorithm: sha256
+    value: 94f31b745e7eab5177765dbc1dace54c636d0f519f4f3d8c55a3f0a0a526446d
+  - path: src/frontend/src/components/elements/ChatApp.tsx
+    algorithm: sha256
+    value: cd04ba6bf855f3398961d20edaa045a91b84a3a0f055f7016be7acbd6f2b134b
+  - path: src/frontend/src/components/elements/LoginModal.tsx
+    algorithm: sha256
+    value: b1819167371c53331434d8d8482daf1021969100fd1567f602c6702f41b5ad77
+  - path: src/frontend/src/components/elements/chat/ChatArea.tsx
+    algorithm: sha256
+    value: 348b2c750648eb34c136e6afc4f6924efbe906566b431a94199c491f636eee61
+  - path: src/frontend/src/components/elements/chat/Sidebar.tsx
+    algorithm: sha256
+    value: d718b59505f3c01d08ff2dfd97308eb9cc625fb2964823095466e2804fda4cae
+  - path: src/frontend/src/components/types.ts
+    algorithm: sha256
+    value: 77f8cb555df0043b9ee15c2676372c71653a0c91fc70c47edc23e8fd0f130fd7
+  - path: src/frontend/src/index.css
+    algorithm: sha256
+    value: cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec
+  - path: src/frontend/src/main.tsx
+    algorithm: sha256
+    value: d9fd4133d1f21df0e88b3f04369a464b8a69e35c7187abf5383aaa10e325c388
+  - path: src/frontend/src/utils/rsa.ts
+    algorithm: sha256
+    value: 8a84ad9ba2d9031c417be5aebed60dd486ab2c4df38474280d77a18102325676
+  - path: src/frontend/src/vite-env.d.ts
+    algorithm: sha256
+    value: 65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5
+  - path: src/frontend/tailwind.config.js
+    algorithm: sha256
+    value: c1e1c713729906cae66e3fcba21de46e6596a8fc0505fedbd34ce8e982af1521
+  - path: src/frontend/tsconfig.json
+    algorithm: sha256
+    value: e406d87c9b5edebb901c53ec8e53c7aa35f4c93616a279b18c96f24efaea6385
+  - path: src/frontend/tsconfig.node.json
+    algorithm: sha256
+    value: c40d0614fda5b8a746a1ba2e3be8e2370140c0167851ac77881cd53bb5647cdd
+  - path: src/frontend/vite.config.ts
+    algorithm: sha256
+    value: 7a82de43ce44daf753154d196e7e27db10999867a5e8b00b607589896d76b5b0
+  - path: src/frontend/yarn.lock
+    algorithm: sha256
+    value: b4d0bff2db25b26c5caba39e05016d837ab43fea0c6624624e6d13c63ebc5154
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

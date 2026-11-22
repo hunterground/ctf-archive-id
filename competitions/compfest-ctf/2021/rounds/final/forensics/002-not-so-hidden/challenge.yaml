@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-forensics-002
+name: Not-So-Hidden
+slug: 002-not-so-hidden
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: forensic
+description: Your lecturer has given you a zip archive for you to study. It is a broken zip bomb and every single file can't be extracted from that archive. He tried to inject another DEFLATE-compressed file, but ended up breaking it. Are you able to recover that file?
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Forensic
+- zip
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: forensic/not-so-hidden
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a04ec892a71b7428498e527680cf0a6358703eebf9cca0ff1eec9f1dc9b8a9da
+  - path: public/Assignment W04.zip
+    algorithm: sha256
+    value: f0d70033c79b248983ce0a013cb2775c124c1e0276d0344540d37ba3fe2b0e82
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

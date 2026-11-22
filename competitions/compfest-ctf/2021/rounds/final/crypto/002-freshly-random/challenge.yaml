@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-crypto-002
+name: Freshly Random
+slug: 002-freshly-random
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: I own some random store across the street. We sell some homemade, freshly generated random numbers and RSA-encrypted messages... who knows, maybe you can even get something more out of them?
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- RSA
+- pseudorandom number generation
+- Mersenne Twister
+- Franklin-Reiter
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: cryptography/freshly-random
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: d938d551e06b22c3110bc2ce46700d0ca7108295560e896bf559a594f6fa51ba
+  - path: README.md
+    algorithm: sha256
+    value: 211c59b7d3562c6268e96945cb8bc0dc16f590306679ec1dd02d67cae57162f0
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 30e7b8dd6e294d94b809cc396fdd0943a03d96dba666c63f031b29c1dfe0bcb0
+  - path: public/chall.py
+    algorithm: sha256
+    value: ae59fde8f9f62ca5f7397157861860b42ed4307304c20cffc0fb220166a8db03
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6bf161934cefe6ea7a07d77f1a82011d7a18bd2358f90fba63c2f0779d3f9002
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: bf866e5f633bff3726c0805e4b2fe41e94fb9aaff280c438a4ee00fa9f4f4757
+  - path: src/docker/install.sh
+    algorithm: sha256
+    value: 1f92c1a175578ac849cec2dc910b54de642d612ae6120fe45fccd1ff2b467986
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/chall.py
+    algorithm: sha256
+    value: ae59fde8f9f62ca5f7397157861860b42ed4307304c20cffc0fb220166a8db03
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: 274868efaef7671c8205aa7b2b4484533a348a8c2abd35bd43feff2aae38aa78
+  - path: src/server/secret.py
+    algorithm: sha256
+    value: 340107c476467c145fac0ffaf8f83eae2a6052344b43fb72cb0f78fa4cafa87d
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

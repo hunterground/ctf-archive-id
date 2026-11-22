@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-crypto-003
+name: knapsack
+slug: 003-knapsack
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: I have tried to encrypt my data but mistakenly I forgot to output the public key.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- knapsack cryptosystem
+authors:
+- name: swusjask
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Cryptography/knapsack
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 362ee35dd0daec85d9c4e4b1c0fd481f3e7912788c453d0a1ba29c0083a037b2
+  - path: public/chall.py
+    algorithm: sha256
+    value: f3d3841c443f8968dad0cec12afdf1770fd4a77962e151a8036dd6d3f27d429c
+  - path: public/output.txt
+    algorithm: sha256
+    value: 734acf9f1ece0fe2d83d2ccf32e66289529a193f350ebe642d66c99b020bf5fb
+  - path: src/chall.py
+    algorithm: sha256
+    value: f3d3841c443f8968dad0cec12afdf1770fd4a77962e151a8036dd6d3f27d429c
+  - path: src/output.txt
+    algorithm: sha256
+    value: 734acf9f1ece0fe2d83d2ccf32e66289529a193f350ebe642d66c99b020bf5fb
+  - path: src/secret.py
+    algorithm: sha256
+    value: 4eef93cc3711591dae54d96ccacad980b810dc480484c321cec4c67ba24a63a4
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

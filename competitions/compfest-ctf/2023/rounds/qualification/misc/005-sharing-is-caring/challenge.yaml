@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-misc-005
+name: sharing is caring
+slug: 005-sharing-is-caring
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: yayayaya, you see i am a generous guy. im giving you free flag here since sharing is caring. oh i also included my notes which was written , or type-ed i'd rather say, using full-width japanese char in case you want to learn more about me. beautiful ain't it!
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Torrent
+- SHA-1
+- UNICODE
+authors:
+- name: Lily
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Misc/sharing is caring
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: Dockerfile
+    algorithm: sha256
+    value: f732d1899bbcebc17607c4b40947a36f93113167f48c52b2dfc3aa426836abe3
+  - path: README.md
+    algorithm: sha256
+    value: 34bbf68b8d1ea87fcad922baa212407751c36c512489a4887f7cac8202efd84a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b736058db774d56f136ea1b3a0347af7f6fa92360f1c336bb440826f8d24bdf8
+  - path: public/weebs - mirror
+    algorithm: sha256
+    value: b6f9a958656bcff8bfda156cc5001424facc6901aa7a1bae35a63b2112812844
+  - path: public/wibu
+    algorithm: sha256
+    value: 000ab5040edd885b35aac618d8c62b1efc1e252508ddc39d61e73e74eba01810
+  - path: src/hippity_hop/bio.txt
+    algorithm: sha256
+    value: 4c82062994aca7e209e0b44de618198dcccd0a90b003e9755b27947bccf75562
+  - path: src/hippity_hop/diary_1.txt
+    algorithm: sha256
+    value: 14766e552a5bd7a4784047ef07c6f13e8eef7c3ee676a56073279be531b71a11
+  - path: src/hippity_hop/flag.dll
+    algorithm: sha256
+    value: 6e4dfd91a6aca467922e85034fc6adc1e3f4720f23fe1ec94fa5fa9685921e92
+  - path: src/hippity_hop/flag.exe
+    algorithm: sha256
+    value: 6e4dfd91a6aca467922e85034fc6adc1e3f4720f23fe1ec94fa5fa9685921e92
+  - path: src/hippity_hop/flag.torrent
+    algorithm: sha256
+    value: 6e4dfd91a6aca467922e85034fc6adc1e3f4720f23fe1ec94fa5fa9685921e92
+  - path: src/hippity_hop/flag.txt
+    algorithm: sha256
+    value: d4c8d5a15f7b74fa671fd2d20d25ca5aee76d0bb2132602267fde466df2fb69b
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: 3e21d52d48590f2a72be31dafe6fa883e8b87ca928f73aad63fb8a6f103b08f0
+  - path: src/package.json
+    algorithm: sha256
+    value: 720496313f0e301c3d05b338da106fe727a9bd40de3ee1af5712e836cd12c740
+  - path: src/torrent-maker.js
+    algorithm: sha256
+    value: b372cddb5c17a88439185ac3f83c6ede55d3106273aba1565891471c3047ac25
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

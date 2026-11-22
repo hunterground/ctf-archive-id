@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-rev-004
+name: Validator Machine
+slug: 004-validator-machine
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Just a simple flag validator machine.
+
+  > Note: Wrap the flag with COMPFEST15{}
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- vm
+- gdb scripting
+- anti-analysis
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Reverse Engineering/Validator Machine
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b40b80ad8829b338067f4bfdc46d0c582bbc02b247245e89f0337819936006d1
+  - path: public/chall
+    algorithm: sha256
+    value: f528476dae8e727fd941365377fa97d355eb19c1d05da7736e6e9f00f6049260
+  - path: src/chall
+    algorithm: sha256
+    value: f528476dae8e727fd941365377fa97d355eb19c1d05da7736e6e9f00f6049260
+  - path: src/chall.c
+    algorithm: sha256
+    value: 30232b7418a431c1795791094acbaf42e1bcece87e9332d2d5829312e280b633
+  - path: src/gen_chall.py
+    algorithm: sha256
+    value: bdeb7d2d543a1dff717bc7b9b0a38e094c16d3d68b9bd69ac3c534258074fa34
+  - path: src/writable
+    algorithm: sha256
+    value: ccbe34427b2ef8af9865075edafed9eea9f5353535aeb75fc0d6a7dfb1599142
+  - path: src/writable.c
+    algorithm: sha256
+    value: 6130c3a86d89d23a87e767ae24e4abdeb134de8093f03807af1d6208095d8e61
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

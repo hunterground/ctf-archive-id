@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-web-001
+name: Chasing The Flag!
+slug: 001-chasing-the-flag
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Hi! This contest might be over, but if you could generate the coupon. You might could get discount from a hidden course in this web! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+  <link to web>
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Sql Injection
+authors:
+- name: William (Hori75)
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: web/chasing-the-flag
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cb975be21d0c6e4bd446e14526c3a8f7cee3f0fd8ce467473301c024c90bfa0a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 78a693344805e21c3e278c2439fbde76973846906c6d3b4a418f753ced9d74d9
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: 68a68e3fd8aed1e7bc29d2e3de24ed58f6e0f6740fd6fafa88a40bca07ff8173
+  - path: src/web/db/db.sql
+    algorithm: sha256
+    value: abee616f80059297888eb938f55087655950b0e21c40894520e8585e20e37677
+  - path: src/web/docker/entrypoint.sh
+    algorithm: sha256
+    value: 360394a6cb04e3a31fa18f134ffbe2833ed5219743895da3341f6468bd3c2c5b
+  - path: src/web/docker/mysql-alpine.sh
+    algorithm: sha256
+    value: de75f1946a4d7462f4047c99460640da5b071ddc3c1112126a140a28c20e1018
+  - path: src/web/docker/nginx.conf
+    algorithm: sha256
+    value: 76003912be51f2250c8bfa6b8da32239267ba5fe4edb2a4b76c88bcd6b426e10
+  - path: src/web/docker/php.ini
+    algorithm: sha256
+    value: 6a7821e9ef361137e91213dc65fd9f2e919f27ffe2804f32f7445cadcfa5c9e4
+  - path: src/web/server/checkcred.php
+    algorithm: sha256
+    value: 924be6f0d8d0f192230f897266c2935346d87c4191b97797ddb82f0870a2c08e
+  - path: src/web/server/generatecode.php
+    algorithm: sha256
+    value: 72716f5588a8e5ecc505048d726c0cf3e996c28b669f6396aeccae9996ea3eaf
+  - path: src/web/server/index.php
+    algorithm: sha256
+    value: d76acd487e375d3298de67bc221f7f7302f43d5f3d9d7b080cb5e2b0986f60ed
+  - path: src/web/server/leaderboard.php
+    algorithm: sha256
+    value: 675d4e27ea828c7b4eaeacfaa0a46ce87ab48701f4469b20f0c3a6ebc67cfc86
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

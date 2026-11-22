@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-pwn-004
+name: Working at COMPFEST Shop
+slug: 004-working-at-compfest-shop
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  You are a new and aspiring shop worker at COMPFEST Shop, a shop owned by COMPFEST Company. Upon arriving at the shop to begin your first day working, you met a mysterious figure. Looks like they want to say something to you, go on and listen to them!
+
+  `nc <ip> <port>`
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- heap
+- uaf
+- house of spirit
+- tcache poisoning
+- safe linking
+- fsop
+- rop
+authors:
+- name: NeoZap
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Binary Exploitation/Working at Compfest Shop
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8fefc0918efdaf5ee7967c757cd7611b27e8079e5c99ca56bf53d5a36ef8e89c
+  - path: README.md
+    algorithm: sha256
+    value: d3bac5e23d1fed2f35a2f47455c7a40eb514034a893bbdf002959539fc2fdadc
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: fecce49df876e0320473449c43692546aa994c374e742d09776f3ec2cf95f9a2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bc07d09a80fae0aec4ed3de1cedd2efc6d49fc2fe95d73a9aae9e12f6f899746
+  - path: public/chall
+    algorithm: sha256
+    value: ab14fded45be636f7ceda489ae4aea257539d2c3d69a4c9abea9816ba3e7c56c
+  - path: public/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: public/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: src/Makefile
+    algorithm: sha256
+    value: a155b59a838da5de7ab851aa9be8ca689a1c1e6ed5ef21e1890750f023db04c4
+  - path: src/chall
+    algorithm: sha256
+    value: ab14fded45be636f7ceda489ae4aea257539d2c3d69a4c9abea9816ba3e7c56c
+  - path: src/chall.c
+    algorithm: sha256
+    value: 1b19f0ed532a406cd440dc9dbeb2092a7b6dedf543ee686141bc80d8103103bb
+  - path: src/chall_patched
+    algorithm: sha256
+    value: ce2fa40533cecd481810fbad88dde6cad75852c8dc4f3cc124fbd508f709f1b6
+  - path: src/flag-e9fa6b1fd75b2ae57fcb0e66790584.txt
+    algorithm: sha256
+    value: f52c4ab4404c16ca04b1af0a5fced1d3fb48f072303c2cf9e2a10af6de129572
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: fdaa44be131da64b35f6b132cbb612e0acdd49ca0d29fd247d023619835231e4
+  - path: start.sh
+    algorithm: sha256
+    value: 9019d9bc74771519b802a69cca956500bf66518b219f7efe7d32d24150aab60d
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

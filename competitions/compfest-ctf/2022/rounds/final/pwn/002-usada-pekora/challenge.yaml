@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-pwn-002
+name: Usada Pekora
+slug: 002-usada-pekora
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: '![Error](https://cdn.discordapp.com/attachments/541207260794191874/1017297573620494366/unknown.png)'
+difficulty:
+  value: Medium-Hard
+  source: organizer
+tags:
+- heap
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: pwn/usada-pekora
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1d33aeb21884d18e146f992b56c8528b39f7a320dd899edc8fccf9cb9c4f7023
+  - path: release/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: release/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: release/usadapekora
+    algorithm: sha256
+    value: 80886e332981aed1d4a428d97ca72f379157528c09dc06e338cb61b8ec665458
+  - path: release/usadapekora.cpp
+    algorithm: sha256
+    value: 501835803f0f206db1879eddd1804ceb5c5134b1e801fce0f91804b09af57c27
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: src/usadapekora
+    algorithm: sha256
+    value: 80886e332981aed1d4a428d97ca72f379157528c09dc06e338cb61b8ec665458
+  - path: src/usadapekora.cpp
+    algorithm: sha256
+    value: 501835803f0f206db1879eddd1804ceb5c5134b1e801fce0f91804b09af57c27
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

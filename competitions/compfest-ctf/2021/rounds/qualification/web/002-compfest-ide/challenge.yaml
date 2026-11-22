@@ -1,0 +1,140 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-web-002
+name: COMPFEST IDE
+slug: 002-compfest-ide
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Only support shell code. We will add another language later.
+
+  [http://link-to-web/](#)
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Race condition
+- Shell jail
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: web/compfest-ide
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 7f0072e46e1089f145e65eb20122d3a4d28b7297a34c5fa996d3058a2db422f1
+  - path: README.md
+    algorithm: sha256
+    value: b1401fa2230ad45c38e759232a00b518ef7ba2b5557187b74de9f38938465675
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 18adda406f66734820df3cb88b01204f02dc887a757cb15348c5ca4bf41b3946
+  - path: public/urls.py
+    algorithm: sha256
+    value: a486969c9dcf1892791a0e440484c847e2c44c5e23c8d311ce6b6e7ba325fca6
+  - path: public/views.py
+    algorithm: sha256
+    value: 25d7d79c9efb63b37393d42302890db723cebf9ade24f465b74ccd601ee21b3a
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: d51cd3ec1424d07b5fcd6387da96ad18bcaab2b47a89f01e8d257c734364f717
+  - path: src/web/docker/entrypoint.sh
+    algorithm: sha256
+    value: 96198522060a9246ba9381f3b220c744627c779dca54c75f4e41ff22cb1ca344
+  - path: src/web/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: 4153b92ea30fa70a5792dcc99b6c87cafe1fddc6d21e260313a65f4d9ab8ddc3
+  - path: src/web/docker/nginx.conf
+    algorithm: sha256
+    value: 3eea245f2b23a737d622015f612505be95e17a37c89072c542cfea21eeb2d59e
+  - path: src/web/docker/postgres-alpine.sh
+    algorithm: sha256
+    value: 6440d1dd4cba0b24d0fa6e9d8ea1be447aa0c0299290ddfe48b233768563de71
+  - path: src/web/docker/server-req.txt
+    algorithm: sha256
+    value: b069e6334bb2f1bb7c3270484bf36826ab831f2ac05137fe5cddabef9e8a7da0
+  - path: src/web/server/compfestide/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/compfestide/asgi.py
+    algorithm: sha256
+    value: f5e4539ee243ccc67788d717a3e5f34f2ddb6e5ba44aaa917ad2da32d5b43f29
+  - path: src/web/server/compfestide/migrations/0001_initial.py
+    algorithm: sha256
+    value: 30d6333f73c4c03ab37a2d9b58f2708694793d035fd5dfd3350193f2d9f73016
+  - path: src/web/server/compfestide/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/compfestide/models.py
+    algorithm: sha256
+    value: 6b13952eb89a017fd6c2f385aaf685134704164b38220ed511c9bcb112daab40
+  - path: src/web/server/compfestide/settings.py
+    algorithm: sha256
+    value: ab7fe6fe84dc12e03b03afee2dc84de340e33bc9d69419682334b8a0c143d7a0
+  - path: src/web/server/compfestide/urls.py
+    algorithm: sha256
+    value: a486969c9dcf1892791a0e440484c847e2c44c5e23c8d311ce6b6e7ba325fca6
+  - path: src/web/server/compfestide/utils.py
+    algorithm: sha256
+    value: ae624b41bfb14de559371434dd826916f9d2c20a1d74f88220373f818a944206
+  - path: src/web/server/compfestide/views.py
+    algorithm: sha256
+    value: 92decb9b3a34f15142b9d23890a091a95d562c14d50c531b97fecf79865f9c5f
+  - path: src/web/server/compfestide/wsgi.py
+    algorithm: sha256
+    value: f3781605bd111aaba39a1e959e95f2ff6e224421f3b71b0d7e415efc6b94a0d8
+  - path: src/web/server/flag.txt
+    algorithm: sha256
+    value: 5a956d0fccaf83edff7283ff4990aa2d1fae25cfa6caad0509ae1ad9fa819de9
+  - path: src/web/server/manage.py
+    algorithm: sha256
+    value: 45b8c1d15c1e53d17501f60193d397c2aa59a9003712df906ef53332825c8f7b
+  - path: src/web/server/requirements.txt
+    algorithm: sha256
+    value: 568ea3eb225b45fe56b278e4929183a1e479126e430ae94fddba052ad2b56bcb
+  - path: src/web/server/scripts/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/scripts/coderunner.py
+    algorithm: sha256
+    value: 69ecc7ee11ffa38c4016242e087bf2dd9893ea7cbe496e3f29dd690ab5bfe56c
+  - path: src/web/server/templates/base.html
+    algorithm: sha256
+    value: a36bf8db7a2762e4f93f4b0c6c63bfd9485375d991bc90586393c94958c45b9d
+  - path: src/web/server/templates/createcode.html
+    algorithm: sha256
+    value: 38358517ed5ad080af048899bc9f09d4a3adf902a2123c1ee2d7b630b2c77f19
+  - path: src/web/server/templates/viewcode.html
+    algorithm: sha256
+    value: a58e240e5f3190c85f8ebacff4b8b6a1a7427085a5c5e3d0a0fb5b34aa0270ff
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

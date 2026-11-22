@@ -1,0 +1,194 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-rev-001
+name: GoDroid
+slug: 001-godroid
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: '![image](https://cdn.discordapp.com/attachments/881129085403811840/1146005218723627028/220px-Nardwuar_2019_SC.png)'
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- apk
+- frida
+- golang
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Reverse Engineering/GoDroid
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/GoDroid/.idea
+    reason: Editor settings are not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a77b88de698e907b7a81f9c7d935c86ce192dc6519e7d6de4484b7c0df5264fb
+  - path: public/chall.apk
+    algorithm: sha256
+    value: 9557fd17d6687c97c87938b2e0188fe8d7bfd6ffd8400f7d6e0dceb888b6b367
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/GoDroid/.gitignore
+    algorithm: sha256
+    value: 703238443066325af08e3868d1e4b571a633baf68fcc93e323f0066999a97e1b
+  - path: src/GoDroid/app/.gitignore
+    algorithm: sha256
+    value: 5c3174b74edc6f2b9e0743594b8bd3c7f31e4f4405758cc9872b3fe1de1d28b4
+  - path: src/GoDroid/app/build.gradle
+    algorithm: sha256
+    value: 9337c76b6fd5b4bae046d3a2b2bdfbaa3b2bafc0fd4e7be5f7902aeba55079ea
+  - path: src/GoDroid/app/libs/utils-sources.jar
+    algorithm: sha256
+    value: 4580423bc8b98bc8957a3e675dce84b63adc927414d70d4d4d7def9cff359bbc
+  - path: src/GoDroid/app/libs/utils.aar
+    algorithm: sha256
+    value: 63c9cf7b51ee3d702ebecfbc6fc90dc2db8e8336efd8cbce7dfc220cbb13fe94
+  - path: src/GoDroid/app/proguard-rules.pro
+    algorithm: sha256
+    value: 56fd960cf225f6ca40f982b13a5dbb0d8bc3dfde13ff76422825c6070d0a1890
+  - path: src/GoDroid/app/src/androidTest/java/com/ivanox/godroid/ExampleInstrumentedTest.java
+    algorithm: sha256
+    value: 10df4d4e9e0838104d5f3779dfe924fc39db4407a830932c44e6f9417af1e642
+  - path: src/GoDroid/app/src/main/AndroidManifest.xml
+    algorithm: sha256
+    value: 281808c15e8384831de2c4a9883bbc823d31a61288453d4598b55db93b26e6ad
+  - path: src/GoDroid/app/src/main/ic_launcher-playstore.png
+    algorithm: sha256
+    value: 211ed0f737ccd55252dbb5d0fed7f2051cc1be43b4f6024270a03e6978ac70a0
+  - path: src/GoDroid/app/src/main/java/com/ivanox/godroid/MainActivity.java
+    algorithm: sha256
+    value: 7ffca9a2dae15b666005bdd0ee8ecc08da3730ec35543f84cef42392ecb5fd78
+  - path: src/GoDroid/app/src/main/res/layout/activity_main.xml
+    algorithm: sha256
+    value: 0f55d57b6960008f61c595c223fea9857aa65be6ec30d550bb023c3ee2ceafa5
+  - path: src/GoDroid/app/src/main/res/mipmap-hdpi/ic_launcher.png
+    algorithm: sha256
+    value: 425dbbcd77cfa033ae7e25fe3ef1cc9a879332812149d48d012aea5521119645
+  - path: src/GoDroid/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png
+    algorithm: sha256
+    value: bfd17a119074fb29a9d1851d4c8189f9261356cb24f5bb52ac6f421a2c2df3f6
+  - path: src/GoDroid/app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+    algorithm: sha256
+    value: 0f5cc212b503a53b71b87467c348d39f363495149b3fc26fdd7998971fdae911
+  - path: src/GoDroid/app/src/main/res/mipmap-mdpi/ic_launcher.png
+    algorithm: sha256
+    value: 5635932173f50067fe011dc6472673e01d423bf9a550baae76d321057238cb76
+  - path: src/GoDroid/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+    algorithm: sha256
+    value: 75c567a6e8d87c8ff90449b24cd3751839a9e76c1d7ccb7021ee36436cfa1605
+  - path: src/GoDroid/app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+    algorithm: sha256
+    value: 76e6fb960b29ec1119aa351fd202a3c83d755aa46e362035363fde3d23eb4700
+  - path: src/GoDroid/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+    algorithm: sha256
+    value: 760235dd73f47855af8caa2916e9ae8c212a8d901b9a82b9066110f2e256c47b
+  - path: src/GoDroid/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png
+    algorithm: sha256
+    value: c2917bb81aca374e303a5c350833b8272e9d1c4d84c05913975649ad78163eee
+  - path: src/GoDroid/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+    algorithm: sha256
+    value: 31f66ebe05d3be70904cd69af8b3b26917bf576dccea4d928a610f3d7227ac1a
+  - path: src/GoDroid/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+    algorithm: sha256
+    value: e985ef96190af6c92d8b7f7ec45e2b72cce0d94f24bd05b37b98f071b334a1d3
+  - path: src/GoDroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png
+    algorithm: sha256
+    value: 90b22d17601d8d5feb63081b7b8d9814101c8d06a71c9b35a7c870b80e7f99ca
+  - path: src/GoDroid/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+    algorithm: sha256
+    value: c3127e3698223ec761d31a504e6521ee23d24a1da9c061923215ade8988efc76
+  - path: src/GoDroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+    algorithm: sha256
+    value: 05c429a5257f966e77393bc679cee8f18ce548818fa1cb8c29c3eea59e3a4682
+  - path: src/GoDroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png
+    algorithm: sha256
+    value: 112cd6a0837ec2b97fc22eb8f47de2473a5b0ed042943fddad3a88f933630aff
+  - path: src/GoDroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+    algorithm: sha256
+    value: 6defe4785b24c49623f0f8e343f4b1ebc73b6dc01560e35884eb74a36ed2d0e0
+  - path: src/GoDroid/app/src/main/res/values-night/themes.xml
+    algorithm: sha256
+    value: c22d0fa046fe79f20c1ab2b4c0af0304e8e8e48ee6bd426d3ebfcada2b03fdaa
+  - path: src/GoDroid/app/src/main/res/values/colors.xml
+    algorithm: sha256
+    value: b5626527d503417f0d8e5b1e08f338de7b31173bf0e122815f03e64932adbd88
+  - path: src/GoDroid/app/src/main/res/values/ic_launcher_background.xml
+    algorithm: sha256
+    value: 138efd1c59db46a1605390010c61650a0b11c00793075ade56017cb4ba4bc665
+  - path: src/GoDroid/app/src/main/res/values/strings.xml
+    algorithm: sha256
+    value: 254be101dab011ca5c2ccf7eb4001f9b489c970563dcdecd5119da322832e65a
+  - path: src/GoDroid/app/src/main/res/values/themes.xml
+    algorithm: sha256
+    value: 27205ea70033cf42d8e6fb06feddc58c4dd7064e99de6fb344619400e48a1ef1
+  - path: src/GoDroid/app/src/main/res/xml/backup_rules.xml
+    algorithm: sha256
+    value: 9f7e4c84c8fd2c81478d15962383f47cc6ff55d62abcd40c8ffa6fc08a8c35b7
+  - path: src/GoDroid/app/src/main/res/xml/data_extraction_rules.xml
+    algorithm: sha256
+    value: cb1fc47ab4a984530ed60e0e6ee638929c3038290e7e7e0b4b03a3a30fbe7381
+  - path: src/GoDroid/app/src/test/java/com/ivanox/godroid/ExampleUnitTest.java
+    algorithm: sha256
+    value: f544f58a4fbd95d06989028de30e037b3e74f1f44817ecf6ad82b4e08039bcac
+  - path: src/GoDroid/build.gradle
+    algorithm: sha256
+    value: d2234426f23d49a64d0a65ffe1cdc283893e591dcc7797a9a98f345ebc071206
+  - path: src/GoDroid/gradle.properties
+    algorithm: sha256
+    value: 8e23982b54de00b8b69584b1852e8733cca0d1be64e4dc7f83a5cb354e338578
+  - path: src/GoDroid/gradle/wrapper/gradle-wrapper.jar
+    algorithm: sha256
+    value: e996d452d2645e70c01c11143ca2d3742734a28da2bf61f25c82bdc288c9e637
+  - path: src/GoDroid/gradle/wrapper/gradle-wrapper.properties
+    algorithm: sha256
+    value: 36f2366294b4f0043020345d5600e485a92de16b282deea64337f750c1bd7f2d
+  - path: src/GoDroid/gradlew
+    algorithm: sha256
+    value: 63135287117a1e6d12c84580f1f49c61d1ba02218ecd28660605e97f976e7d65
+  - path: src/GoDroid/gradlew.bat
+    algorithm: sha256
+    value: af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b
+  - path: src/GoDroid/settings.gradle
+    algorithm: sha256
+    value: a801b5090b812e9b0193d4978c17bf843cac0b37b79d9f36018e16d6847b7b5f
+  - path: src/GoDroid/utils/go.mod
+    algorithm: sha256
+    value: 11fd7914d66d1bffcf4ccf66dad712b5ef48e2042cf550e3c1c92b68dc78348f
+  - path: src/GoDroid/utils/go.sum
+    algorithm: sha256
+    value: efd1ef010775ef38d0e36570cb3c080173d34fff8bf7c71bb21f8020bec19379
+  - path: src/GoDroid/utils/utils.go
+    algorithm: sha256
+    value: 7979c132353668a6e4ed000a7c7eb12f3d534e83f2ac1ab68ccf2998a8c52abb
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

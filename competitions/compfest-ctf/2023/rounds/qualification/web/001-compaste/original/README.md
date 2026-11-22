@@ -1,0 +1,43 @@
+# COMPaste
+
+by rorre
+
+---
+
+## Flag
+
+```
+COMPFEST15{NULL_4nD_C_stR1k3S_again_90dea8e9}
+```
+
+## Description
+
+Obligatory pastebin clone. But people said that Python is slow, so I made the I/O in C! Now it is blazingly fast!
+
+## Difficulty
+
+Tingkat kesulitan soal: easy
+
+## Hints
+
+Intentionally left empty
+
+## Tags
+
+Strings
+
+## Deployment
+
+Penjelasan cara menjalankan service yang dibutuhkan serta requirementsnya.
+
+#### Contoh 1
+
+- Install docker engine>=19.03.12 and docker-compose>=1.26.2.
+- Run the container using:
+  ```
+  docker-compose up --build --detach
+  ```
+
+## Notes
+
+None

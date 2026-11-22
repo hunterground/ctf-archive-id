@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-crypto-002
+name: Anti-Factorization
+slug: 002-anti-factorization
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: It's me. Hi. I'm the problem, it's me.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- RSA
+- LLL
+- weak prime
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: cryptography/anti-factorization
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 876542ed27f909a03039295f80b06c40949c04d1c8807bd74851864b133a0b5b
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: a32524ecb4d6be627edf708ceb0f5d7892c6860c5ffbd72745fd1071440fcdb5
+  - path: public/enc
+    algorithm: sha256
+    value: 5992a5d18f4323cee22f532e33567d56758c7c75cb7b83f1aab1191b1601d532
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall.py
+    algorithm: sha256
+    value: a32524ecb4d6be627edf708ceb0f5d7892c6860c5ffbd72745fd1071440fcdb5
+  - path: src/enc
+    algorithm: sha256
+    value: 5992a5d18f4323cee22f532e33567d56758c7c75cb7b83f1aab1191b1601d532
+  - path: src/secret.py
+    algorithm: sha256
+    value: e705d5b0b7a3129ab7fa5f6aa891e08d4410bea6aef77d70bf2404a373d39a8d
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

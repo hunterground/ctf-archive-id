@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-web-002
+name: I'm Too Lazy
+slug: 002-i-m-too-lazy
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: |-
+  My friend have deployed an app. But because he is too lazy, his app features were not implemented because he forgot to actually push it. Would you like to find something interesting? lul
+
+  `<link menuju web>`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: William(hori75)
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: web/i-am-too-lazy
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e884f36cdf462015b8974873b546c196f0d8dd19511bb96d2ac8da9f2c0d5d26
+  - path: README.MD
+    algorithm: sha256
+    value: d0bf7374007b4db922ff340edf1020bfb09b605351ff205627af9c5beeafb8eb
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 370c7aee5616663a07de5a0332e6c7dfedb19c0d05cdf5e5b640005f450b2f98
+  - path: flagfiles/Hey.txt
+    algorithm: sha256
+    value: 102e22105ee84619adc8b3cf0d0937180c0c3f46746e6518a24ca543805c7b4f
+  - path: flagfiles/Heyhey.txt
+    algorithm: sha256
+    value: f4e891d22cf1c87efde7049090fd3fa73b83550e2dabd9dfc508c901920ca770
+  - path: flagfiles/Heyheyhey.txt
+    algorithm: sha256
+    value: cad55d88d78c25c7b4acf2f03ef84fc5f17f2120bc8b986a809724ddac491326
+  - path: flagfiles/Heyheyheyhey.txt
+    algorithm: sha256
+    value: 7fd9de82c8f9d94d86146d4d356924b9bd2bd152348944559eb8ba4317b5cb5a
+  - path: payload.txt
+    algorithm: sha256
+    value: c0c556c2ec2eeb5fc8a98f7c96bda507590775ef4b7f80564c429de4f928e0a8
+  - path: web/config/costum.php.ini
+    algorithm: sha256
+    value: f0a944650b4256f040a1ec767e76b236caeb555d35267d9cae74fc29de46715c
+  - path: web/index.php
+    algorithm: sha256
+    value: 0a4dfd8782c508c5632a4de33aeb791d096bf2e215d703ebc75707d08fe350e7
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

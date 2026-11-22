@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-pwn-002
+name: Gambling Problem 2
+slug: 002-gambling-problem-2
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: null
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: ??? and Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: binary-exploitation/gambling-problem-2
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 090f18833f5afbe6832da6a4cda9409951b756609e0e7e49e42672dc97103ceb
+  - path: files/flag.txt
+    algorithm: sha256
+    value: a9353868db50a1fb6359bbeae79c586adff96072a372440c6f023c04fccfc997
+  - path: files/gamblingProblem
+    algorithm: sha256
+    value: 9a4270a49f7539bf26e90946432633bcf836a75cb46c5c114978ae4c20e46b99
+  - path: files/gamblingProblem.c
+    algorithm: sha256
+    value: ce6759afc6330d083197f894f9131a6e494a2a00f216859241b9f738f7144544
+  - path: share/gamblingProblem
+    algorithm: sha256
+    value: 9a4270a49f7539bf26e90946432633bcf836a75cb46c5c114978ae4c20e46b99
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-crypto-002
+name: CryptoVault
+slug: 002-cryptovault
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: f0xie is building a vault to store his crypto wallet. He is using ECDSA as the authentication method since he recently learned ECDSA is super-secure. little did he know ECDSA implementation is super tricky. Can you break it?
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Crypto
+- ECDSA
+authors:
+- name: fahrul
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Cryptography/CryptoVault
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 61e06d8e02897c0ffbb808ebaba8f12a0c46cc655593e46b7a6b6cc87582845f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7dec6034044ea148115883d024dfde21453846958941d495e058a9d2d95ca627
+  - path: dockerfile
+    algorithm: sha256
+    value: 236bb6c9eea6daf37ab8efebd90404f2d0b011f411d8027a2c0a3e61f5af05cf
+  - path: public/main.py
+    algorithm: sha256
+    value: a6d2d0741274dd51f079a1f1bc98d26969a59bee72011af92c0991a4c868a272
+  - path: src/main.py
+    algorithm: sha256
+    value: 209bc1bc33498ec696ecd1fca59c4a4fe61849716d6c1d2dac976bd5bb8148de
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 43445e9bde4efc557e9ee8e3870caa75f9ef32f1a597c8906e487bf996608df7
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

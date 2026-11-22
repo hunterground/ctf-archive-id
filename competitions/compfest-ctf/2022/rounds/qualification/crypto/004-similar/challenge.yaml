@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-crypto-004
+name: similar
+slug: 004-similar
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: Don't you see, the similarities between us~
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- LFSR
+- correlation attack
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: cryptography/similar
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3adc697e4a5a998511b2b886ff129bc89434372a34117ed9dbda425c0911dee0
+  - path: public/chall.py
+    algorithm: sha256
+    value: 98871fbe56c22ef4cc5ec8a78f97b6f5187454d6e97dbb8d64aaf98408197572
+  - path: public/out.txt
+    algorithm: sha256
+    value: 2d9c0f1cbd551df29b8f54adedb7437741cee071012ddb2e4615453552e4a7ac
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall.py
+    algorithm: sha256
+    value: 98871fbe56c22ef4cc5ec8a78f97b6f5187454d6e97dbb8d64aaf98408197572
+  - path: src/out.txt
+    algorithm: sha256
+    value: 2d9c0f1cbd551df29b8f54adedb7437741cee071012ddb2e4615453552e4a7ac
+  - path: src/secret.py
+    algorithm: sha256
+    value: 2ccd5ff4f9c4142f5649c17d89f84a70887b61c97865d03e52ebef05935e7e1f
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

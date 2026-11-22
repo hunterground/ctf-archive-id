@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-pwn-005
+name: Sandbox King
+slug: 005-sandbox-king
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: You have to get a shell. The seccomp is easy to bypass right?
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: binary-exploitation/sandbox-king
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5c1bf24b35bbc03cd33a6efc32169ca79b1ea59a0f150082dfbbd5f922363fe2
+  - path: README.md
+    algorithm: sha256
+    value: d6d4a5371cfd422b71b6d39038cec78d050ef2a0a2a2580872b9e357047622e6
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1ec97a28f4e326f4a4d96d3ec3517e1294d5726bf6a80c37d7184c59267b67f1
+  - path: files/flag.txt
+    algorithm: sha256
+    value: 398a9de48dc77786f6927587a0315d214147fa5a51da25250a4fe28b2babd838
+  - path: files/king
+    algorithm: sha256
+    value: 8157247d5c3d02da9c51446e745185dbe81a0ff34ea29fab5310cce4051d7581
+  - path: files/king.c
+    algorithm: sha256
+    value: 8550a45e7635f46f0d64b014b59680fe486829fe7077ff7aaf8c3a1080b9495e
+  - path: files/readFlag
+    algorithm: sha256
+    value: c82b4b21a0cc7841c70a0070b21459d02d139cfbb41f5ce58da9dd97120e609f
+  - path: files/readFlag.c
+    algorithm: sha256
+    value: 20e66df7223a7c6c8dbbd5cdced36d2abdd4da8fe9da30ab5cad15a000d1a589
+  - path: files/sandbox
+    algorithm: sha256
+    value: cd5b4989c92e42d32dc906cb7a8014ad9a7db69b79eecacb4200d88899947b80
+  - path: files/sandbox.c
+    algorithm: sha256
+    value: 92143c4164e78fb514b3da823d1f19cfcc5496acc0e1c9ed634379767b472a31
+  - path: share/files/king
+    algorithm: sha256
+    value: 8157247d5c3d02da9c51446e745185dbe81a0ff34ea29fab5310cce4051d7581
+  - path: share/files/sandbox
+    algorithm: sha256
+    value: cd5b4989c92e42d32dc906cb7a8014ad9a7db69b79eecacb4200d88899947b80
+  - path: share/flag/flag.txt
+    algorithm: sha256
+    value: 398a9de48dc77786f6927587a0315d214147fa5a51da25250a4fe28b2babd838
+  - path: share/flag/readFlag
+    algorithm: sha256
+    value: c82b4b21a0cc7841c70a0070b21459d02d139cfbb41f5ce58da9dd97120e609f
+  - path: xinetd
+    algorithm: sha256
+    value: 167b95e58bc938103e46c9bc4231c3eb7e85f1aafacd436e08abd7ed07ba91d9
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

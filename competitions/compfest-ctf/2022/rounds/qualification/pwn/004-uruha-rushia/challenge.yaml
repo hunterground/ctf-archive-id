@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-pwn-004
+name: Uruha Rushia
+slug: 004-uruha-rushia
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: |-
+  Rushia 😭😭😭😭😭
+
+  ![Error](https://pbs.twimg.com/media/FMXJVASaUAA_y-G?format=jpg)
+difficulty:
+  value: Hard
+  source: organizer
+tags:
+- heap
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: pwn/uruha-rushia
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor settings are not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: fa30e04f1300e27318320cf1e945905c971f4cabc5895ad2e3ac27c46f01a184
+  - path: README.md
+    algorithm: sha256
+    value: 5a3093935b839f9fdcfb8d56ed50d71533d87e1eda9607723da7d403e0364776
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: 2c3d37faf4ee695cf2896459fe9ec18729aa474a662dc27504e4827cb14e3fb2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 10fb47ad93bf55ef017ad8826b5c1e91bfb2c0f0566a8d160c8e86d379d9391b
+  - path: release/ld-2.35.so
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: release/libc-2.35.so
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: release/uruharushia
+    algorithm: sha256
+    value: c755b47d532a5f9ea2c9e408eefb3802d0123dcf71e71a3d9dbf7ce701c8d55e
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 422ace11e2521102338e8c217494f3173cda6af501e1a2f1a6cad3c581ffad80
+  - path: src/uruharushia
+    algorithm: sha256
+    value: 4565800669a49b625e67f622c71d0b68ba41086e9f623ba45baeec5f13467324
+  - path: src/uruharushia.c
+    algorithm: sha256
+    value: ba6458990c3193f2e8350e80c98c88ae0aa9a8ed224860ff8cdc10992d52a476
+  - path: start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

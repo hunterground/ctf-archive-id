@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-pwn-002
+name: Time Capsule… Mail??
+slug: 002-time-capsule-mail
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: This weird app can send a mail to the past!!!! What if my future self already sent me a mail from the future?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Format String
+- ret2win
+- Return Oriented Programming
+authors:
+- name: ReeyaDono
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: pwn/time-capsule-mail
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: df3f1de4ca87f73b01233f98294ee8960c2fbdb645fcc27edf22216edb6305d3
+  - path: README.md
+    algorithm: sha256
+    value: 5c3c6ed716c80571fa02b269b4689272faf5b4121c854162d64a90585c1ce60c
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: cea31ca11ed372fb7c75e09cddeba02bea514124dca0da02f3a18a245b8dd138
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 800b6dd46259ae548e6ad8f7d24020fd3e216d9da5e1fdf0962c3636a9d3d448
+  - path: public/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: public/libc-2.27.so
+    algorithm: sha256
+    value: acf8ac6d219b657af09328abde95a6a52a3ce7019c6717cade77db5634498866
+  - path: public/libtcmail.so
+    algorithm: sha256
+    value: fa13ab0d1dfa5f067c9376acbb2b95ef9ccffeeba2ff2aea84009b2123e709ee
+  - path: public/tcmail
+    algorithm: sha256
+    value: 9bebec18392b7b21bb86aaaebd566650325dc6bcbaacbf9714e6919001445547
+  - path: src/compile.txt
+    algorithm: sha256
+    value: fdda5e67cb2f48a00d9f732691a2fd6bc5f67ff5769d2d67badbe4c445858316
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 1f42328a922d2d27becda492cad9d5562d165f1ab24eb94be3469756ca445fe6
+  - path: src/libtcmail.c
+    algorithm: sha256
+    value: 8b25adc1d0aa0c81a29cccdb5f7d3b5f2aeef93ff950371c0237ec405e2769c1
+  - path: src/libtcmail.h
+    algorithm: sha256
+    value: 151e41f9816f082f6d2868f8771f62a45f6f04f3e9a9dce8fe7f2ef0bd0baad0
+  - path: src/libtcmail.o
+    algorithm: sha256
+    value: 8fa4f59e15f8b225e325906f58456f9eb5ae90da38df77da847eed858c154b9e
+  - path: src/libtcmail.so
+    algorithm: sha256
+    value: fa13ab0d1dfa5f067c9376acbb2b95ef9ccffeeba2ff2aea84009b2123e709ee
+  - path: src/tcmail
+    algorithm: sha256
+    value: 9bebec18392b7b21bb86aaaebd566650325dc6bcbaacbf9714e6919001445547
+  - path: src/tcmail.c
+    algorithm: sha256
+    value: d5868a653a965710c364f7dedac1ebc0a793d3d62d72387117440f71c38e0be8
+  - path: start.sh
+    algorithm: sha256
+    value: 9019d9bc74771519b802a69cca956500bf66518b219f7efe7d32d24150aab60d
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

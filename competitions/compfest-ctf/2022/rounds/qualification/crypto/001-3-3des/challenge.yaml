@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-crypto-001
+name: 3(3DES)
+slug: 001-3-3des
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: Who said that 3DES is slow? Triple that and it's still fast enough, though.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- DES
+- bruteforce
+authors:
+- name: ivanox
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: cryptography/3_3des
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2281bc71a40b493b647aab3370b45978ef4ed90cfbca9cec60e31f8a5adcd3f4
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: 4ab4bb76e0ddfb303f79b3711750387317160a024109617bc1c97e37630a9b7f
+  - path: public/flag.enc
+    algorithm: sha256
+    value: 5e0734db47fba6bd0e4de2602125f13e98622977076c8d9cf8e5d36684a3c550
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4ab4bb76e0ddfb303f79b3711750387317160a024109617bc1c97e37630a9b7f
+  - path: src/des_lib.py
+    algorithm: sha256
+    value: 65b898b9b80d72fbab1d2123ff2198285e158e5e71ca5428e1d845e9bc1d9975
+  - path: src/flag.enc
+    algorithm: sha256
+    value: 5e0734db47fba6bd0e4de2602125f13e98622977076c8d9cf8e5d36684a3c550
+  - path: src/flag.py
+    algorithm: sha256
+    value: 5820da1ecbefda6bd1698a653e7f1d7da3c76749ab12b5a062cfa917f0c9835f
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

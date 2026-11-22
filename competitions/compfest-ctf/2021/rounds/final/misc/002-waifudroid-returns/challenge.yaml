@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-misc-002
+name: WaifuDroid Returns
+slug: 002-waifudroid-returns
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: misc
+original_category: miscellaneous
+description: |-
+  Ughh, people convinced my waifu to tell them about my secrets the last time! So I've made sure to never let her say anything meaningful to anyone else again... or at least that's what I hope. She's back now on Discord anyway as `Nadenka#7791`, this time everything should be fine... right?
+
+  (Note: this challenge requires no automation. Please do not automate your Discord account as that is a violation of Discord's Terms of Service and may lead to the termination of your account)
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- JavaScript sandboxing
+- JavaScript types
+- filter bypass
+- typeof()
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: miscellaneous/waifudroid-returns
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: README.md
+    algorithm: sha256
+    value: adfb85e7fd2aae7757b860169c543566bc2a6d17bdb57286ce38a7357d4f16e2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5617b4b4852473bfa5bf5c673716b3bc9463143cc0b5a255ff4de85f5259ec00
+  - path: public/app.js
+    algorithm: sha256
+    value: 46ed680940882fabda6860c873343f4e7c7002433bb2e66f070489a3dc232993
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 272ccfc92292d358f05876e87d9cb38ee7c35a0e1d4bbc40919d1ffeebc1fcac
+  - path: src/app.js
+    algorithm: sha256
+    value: 79bebe24fe167b9fa1212672e93d758100fe07b88f4790ed750ed2023a79ea70
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: fc8ea2b7815477a5acaecd45a72188f948e34dec1e0c3db17be51785fc11683b
+  - path: src/package.json
+    algorithm: sha256
+    value: d34cd6d7b3794f0f8f00cab508b6eb020ac35508018684762c9aff0a9a2f15cd
+  - path: src/pfp.png
+    algorithm: sha256
+    value: 8e75680939ce59a6ba93abbc921acb2cf2b12296a3542cb29b1903f01efaf7f8
+  - path: src/secrets.js
+    algorithm: sha256
+    value: 00bd23383cfae8283b6d330f59cfe173055b3cf2fc890aa29ff5daec45559c16
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

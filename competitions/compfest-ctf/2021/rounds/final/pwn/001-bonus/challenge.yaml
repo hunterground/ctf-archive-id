@@ -1,0 +1,104 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-pwn-001
+name: Bonus
+slug: 001-bonus
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: Since You are our shop manager, and we have working so hard these days, why don't you give us a bonus?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- FILE struct
+- ROP
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: binary-exploitation/bonus
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a2b87d54d0de53b548782df299ee8faf4932fd5fe626fac2fb272b5d33e99775
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/chall
+    algorithm: sha256
+    value: 6bb9fa238ea0bba7166fd16ae0f8018b1d39c62abc5f71ee3e36adb5511292db
+  - path: public/employee.txt
+    algorithm: sha256
+    value: f5777080b52b11e5ce754724c14322c84bb27ab0c2a348cb7dcaeb7c712fca25
+  - path: public/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: public/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: bbffb5e49e5ed9adbdc494e872635db8bc79e04000329476bd8e6c75d0d995b6
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 38e5ad2cda8b4c0c27bba5b798842da2a5311e1559552c03d3f6e4c19ff0ffc0
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: 213c1c8a4cc60481eb67ecdc48600ed4ad7271610b9317fdd636e541c7ee83c5
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+  - path: src/server/chall
+    algorithm: sha256
+    value: 6bb9fa238ea0bba7166fd16ae0f8018b1d39c62abc5f71ee3e36adb5511292db
+  - path: src/server/chall.c
+    algorithm: sha256
+    value: a7409ce745d4d614ab15b5818b0ec8a63b832fefd8a98eaa08b9c4cad3b27a4e
+  - path: src/server/debug.txt
+    algorithm: sha256
+    value: 5e47c2681e062766ecf6f7fe52971911c5507e28768232a67ac21ee3d84b10d7
+  - path: src/server/employee.txt
+    algorithm: sha256
+    value: f5777080b52b11e5ce754724c14322c84bb27ab0c2a348cb7dcaeb7c712fca25
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: aef7b8ab9c6f68b91c3c2b0d0b016a7ecf1f49a7b05c2ddab532c4d7041650fb
+  - path: src/server/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: src/server/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

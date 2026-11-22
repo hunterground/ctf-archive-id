@@ -1,0 +1,144 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-web-002
+name: index.php.ts
+slug: 002-index-php-ts
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  I love Next.js 13! The server actions and components is very cool! It looks just like back then when I was writing PHP!
+
+  `https://<ip>:<port>/`
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- web
+- react
+- js
+authors:
+- name: rorre
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Web Exploitation/indexphpts
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 14058c60e02423e3a481737c5768b49a2d16529d619fef0bd6c56420434a0a9d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2d097761cabe14080f306b58e493f0ee2e3e2b2892195825e6caff5fe25dea65
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0487a48160af4c567eba56d33a399229c9960b11f9bf68c7267cd78aab5551df
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.zip
+    algorithm: sha256
+    value: 0b03ed994d84dd5e751bbb4d87d9ec8308f60ab47ec73fe14ffbbb5f5c779e62
+  - path: src/.env
+    algorithm: sha256
+    value: e8e21d4934310f5b4fb97dea3e4efda89f176f0701843ee064e8e92bf8a8f5f5
+  - path: src/.eslintrc.json
+    algorithm: sha256
+    value: 1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961
+  - path: src/.gitignore
+    algorithm: sha256
+    value: 15a2dd5cd553e5ac46afa49adfbbc452c39eb2c55fcb8d1c84e6e9a7d7b4a4eb
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: abeffd979599074120d58e5a4088f36a8bca774e5393cd39faac809437b4b374
+  - path: src/next.config.js
+    algorithm: sha256
+    value: f742da715e8c420c450164308b9c6c28063188dc5dd326e18e521a42e2f59228
+  - path: src/obfuscateActions.js
+    algorithm: sha256
+    value: 0011776b53cb553c69e8672dd0aba9192a5c0b0edcb73fdcdc20dd2053dddb13
+  - path: src/package.json
+    algorithm: sha256
+    value: dff3cf08b972d01a3983f2461132d76fb4e16a83fde037dcbac394ef81864bc7
+  - path: src/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: src/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: src/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: src/src/app/actions.ts
+    algorithm: sha256
+    value: a4f44b12cbf2033d9de23bedeee482ccb4b05bb23019c90aa7f4f3de36b20f0c
+  - path: src/src/app/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: src/src/app/globals.css
+    algorithm: sha256
+    value: cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec
+  - path: src/src/app/layout.tsx
+    algorithm: sha256
+    value: 0f3cd47f7b4ebb9fc812b1a99b88d995ca3616faab6482bdd8cec92c7616cacc
+  - path: src/src/app/page.tsx
+    algorithm: sha256
+    value: 3871a54b12abd1eeefb96e696b92b71725e883d6c366cc5f4e1603532d8728cc
+  - path: src/src/components/AskBox.tsx
+    algorithm: sha256
+    value: fd54474fd40e384e11055ff589734ccf4de172f0272c9c8b85af2400f4b069cb
+  - path: src/src/components/QuestionBox.tsx
+    algorithm: sha256
+    value: 9096bbec36e5e58947f9cdd10c91fb6be32614fa871ee081b45c293c7731cafe
+  - path: src/src/middleware.ts
+    algorithm: sha256
+    value: 1425c3d9037e93fe70a318d694b1d877387f905340f056045f2ae51763943198
+  - path: src/src/utils/crypto.ts
+    algorithm: sha256
+    value: f5d6eed43640ecd9ae6cf8c5cca768540e8162c0ba80bdf0b6cbb4351f787b03
+  - path: src/src/utils/db.ts
+    algorithm: sha256
+    value: 77be7468c53920186512f4ab42489937ba1462be19c77207b869be5869696075
+  - path: src/tailwind.config.js
+    algorithm: sha256
+    value: c2361082cc6f863bd73800fb9c2d6df4a28417f78d46f76310aa78cc2880b0c7
+  - path: src/tsconfig.json
+    algorithm: sha256
+    value: 7de61c6cdc9104e906e674b02c349aaf78f3e7931dd2ddd2c493fb7bf4829ab9
+  - path: src/yarn.lock
+    algorithm: sha256
+    value: 2678c733e82c4dc6643ad56eed947bad69cf2b8e1442e122929a1e19e39debcb
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

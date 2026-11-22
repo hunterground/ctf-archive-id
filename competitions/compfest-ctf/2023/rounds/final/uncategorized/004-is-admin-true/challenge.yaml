@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-004
+name: is_admin=true
+slug: 004-is-admin-true
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  Emang boleh se is_admin=true itu? mending is_admin=turu aja deh.
+
+  [Attachment](https://d.rorre.me/sbR0ndEX/is_admin_true.zip)
+
+  Author: swusjask
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: swusjask
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: is_admin_true
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b28e8f97bf29baf79edd98222489e66a4a5dd561b254938adf422748e5b5360e
+  - path: attachment/attachment.zip
+    algorithm: sha256
+    value: 0eba86b1b5f2eaeb64dfef620f253bfe63f84476a56276347c5bdcab09b253f7
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1e570db026dd6f604e0657b521311469c3a4391125c6ce91d73dc6f275f8bbfd
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: 13b5c02dee80dbc593dcee35d72fc7eb8418205b17d6607e89267edaa3141836
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 09392b4dbd222cd8d59d5a4ff71cb66f16b2703935c1b103f5d53336944c0fcc
+  - path: flag/flag.txt
+    algorithm: sha256
+    value: 8afc8148d7a446f41834bf93bbb38ed5d279c36cf76e1ceca7388c085ca09d53
+  - path: patchrule.yml
+    algorithm: sha256
+    value: aefadb90b14efae5e27c2af91edfeaf9961a61b257b191a707d664740ca782f8
+  - path: src/server.py
+    algorithm: sha256
+    value: 405f25fff200f4a12b49a1060a53e088bfddd284b585a48c2b201f0a116a2559
+  - path: test/requirements.txt
+    algorithm: sha256
+    value: 22a4bff3ad104714b7130cf12359d145f2ed4e232457b2b491a1f5a9d81ce981
+  - path: test/test.py
+    algorithm: sha256
+    value: a3631f0d053e106342a9e69b7af4fc39a807bca5afadb95ae85a42f45b00676b
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

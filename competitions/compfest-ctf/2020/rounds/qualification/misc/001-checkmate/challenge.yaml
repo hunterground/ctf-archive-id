@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-misc-001
+name: Checkmate
+slug: 001-checkmate
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: The knights are in a hurry! I wonder how long will it take for the quickest one to arrive.
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- Misc
+- scripting
+authors:
+- name: Gytzero
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: misc/checkmate
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e6cf59eda37e5bac3d4c395d9ac2885972990311b7dff1ce903f5dda13ae8f53
+  - path: chess.py
+    algorithm: sha256
+    value: df3418275b6da040100835c847d97bec2fced7cf547ba04c24ce756e6238e374
+  - path: flag.txt
+    algorithm: sha256
+    value: 08518157f35a0092bcb3db0888a90b6861c82d20c9b2fc4e43d8a154aee0200b
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

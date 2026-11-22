@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-web-003
+name: Run Image
+slug: 003-run-image
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: How about executing image file?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- RCE
+- PNG
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: web/run-image
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 9be899144203e82a07cd39e4b64dd701841f2a58063170518e3edc1e4a333abf
+  - path: README.md
+    algorithm: sha256
+    value: 71056207573e4cbf03e6fcd0a308fe7fe4754019c03a6ef2f2407a2d27b56247
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e9f896446ee33904dbe9e64119031fb1615bacc902153c085b9f33e625912dfe
+  - path: payload.png
+    algorithm: sha256
+    value: 9f3330bfefdd6f4a3ce8215127a633f2f89a74e4f1335ca5c5190e8369635c2d
+  - path: share/Dockerfile
+    algorithm: sha256
+    value: 7b4fc929c78d2a08ed7df11c5465889b2b9e5b098c96473364ab450542cf4edd
+  - path: share/docker-compose.yml
+    algorithm: sha256
+    value: e9f896446ee33904dbe9e64119031fb1615bacc902153c085b9f33e625912dfe
+  - path: share/web/index.php
+    algorithm: sha256
+    value: 5eda64e44553f433d01bac0e429b9bcfe6a4db31e48ef28a6f976db7e2f65a38
+  - path: share/web/run.php
+    algorithm: sha256
+    value: ae4a0a6791458402b932a8e73dd2a40e0ce007fe0facf528915b4617f9ad9e71
+  - path: web/index.php
+    algorithm: sha256
+    value: 5eda64e44553f433d01bac0e429b9bcfe6a4db31e48ef28a6f976db7e2f65a38
+  - path: web/run.php
+    algorithm: sha256
+    value: ae4a0a6791458402b932a8e73dd2a40e0ce007fe0facf528915b4617f9ad9e71
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

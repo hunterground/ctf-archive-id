@@ -1,0 +1,52 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-forensics-002
+name: Chocolate With Nuts
+slug: 002-chocolate-with-nuts
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: It's valentine's day. You decided to stay in your room since you don't want to see couples walking outside. The only chocolate you got was from your mom and was eaten an hour ago. Few moments later, your highschool friend, Naomi sends you a gift. Instead of chocolate, she gave you a memory image of her computer. "Cheer up! Here's a chocolate for you, but you have to get it yourself. There's a Hypertext Transfer Protocol Secure link that you have to find. Next step you'll figure them out by yourself. The chocolate is located at the end of each file, " she said. Immediately you ran to your study desk. "I have to figure out how to get this gift, it's the only gift I got," you thought.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Memory Dump
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: forensic/chocolates-with-nuts
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 402f4d5de3de876a19446badbfad7d919ce4cc64ac522c118410c1f1d328c773
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-web-003
+name: Vacation Gallery
+slug: 003-vacation-gallery
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  My friend just came back from a vacation in the Austrian Alps, Munich, and Weimar. Check out her photos!
+
+  ```
+  http://<ip>:<port>
+  ```
+
+  **Note**: For this challenge, there is a special prize of points (half of the final challenge points) for writeups that contain the shortest payload that is shorter than the limit. If several payloads have the same (shortest) length, all will get the prize.
+difficulty:
+  value: Hard
+  source: organizer
+tags:
+- Web
+- SSTI
+- filtered SSTI
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: web/vacation-gallery
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 1328404608e666abf2b853bc78d09f791611248f083036f212a5f21fa825a3aa
+  - path: README.md
+    algorithm: sha256
+    value: 5ccdd1808bd00dee6d66d92b81e282cad7b19565c0c1aed5533d4fd5ec2e5e34
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7c0977ea248242f663866a5528bd2d248f8dd37c7a79cf11c7cd89fbf6cdab21
+  - path: public/chall.py
+    algorithm: sha256
+    value: 818a2543926b17f6ad6e2725cfdbf308749de372d3cccea7efa88d168823e630
+  - path: src/docker/entrypoint.sh
+    algorithm: sha256
+    value: 769ae6f38ae6a84d8480d7ac10cd27219d307eece7b7884611ea15a08c75f705
+  - path: src/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: bb094f0c36286ffa5883a7dcd10dde517552c86d5f3910c2bebb8b5aa3094231
+  - path: src/docker/kill_zombie.sh
+    algorithm: sha256
+    value: b974b8c52f5130f6ef0f4aec7b1b8f5f075df1a058de0f41395eb0f19164060c
+  - path: src/docker/nginx.conf
+    algorithm: sha256
+    value: d288a1802c96e6ee45bd05a95a0d8a94e1941cc2f2cfb7db9951fe3f92ac5df4
+  - path: src/server/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/server/c4n_y0u_fUlly_s4y_my_N4m3.txt
+    algorithm: sha256
+    value: f67a42cbf93c942cfd8827bffccdd14e382a7f850c3485ae9496f09b17d0eb2e
+  - path: src/server/main.py
+    algorithm: sha256
+    value: 818a2543926b17f6ad6e2725cfdbf308749de372d3cccea7efa88d168823e630
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: 4f28b3d523a1c2c004bb5ce3749ee36e64f7c6b674f27b9948674e5d6898333b
+  - path: src/server/templates/index.html
+    algorithm: sha256
+    value: c185780298b0f29d26e742b6cbffbbc7b168b83e4337bc41f0b0890e0748aa50
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

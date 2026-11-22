@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-pwn-003
+name: Mine
+slug: 003-mine
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: Deep and deeper, go down the mine to find minerals.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- integer overflow
+- out of bound
+- return to function
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: binary-exploitation/mine
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 40e20c17a1a10580c62713a7904663c98976be1b590b8e069ac62555558fcf52
+  - path: README.md
+    algorithm: sha256
+    value: 831aff4dcbea54a0abd36995973dbdde325cd6fc8ad2b043e38451713891f3a5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 16bd6090e0fe6c536f3c21d1b01eba063fb6561a45306fc0f87a5c8c70b87795
+  - path: public/chall
+    algorithm: sha256
+    value: f68d5d46838e7b8a1777e9e3ec733882d76a277005c5fe6868751d3799b994e6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6d57a706fec305a05138a2518355b48ce929382ff68ceb3324f27394cba75da5
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 7d1d3ed2aba65e7f94bf9a17709c483f75cfca1757911fbb4cbdf87376df9272
+  - path: src/docker/install.sh
+    algorithm: sha256
+    value: 1f92c1a175578ac849cec2dc910b54de642d612ae6120fe45fccd1ff2b467986
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/chall
+    algorithm: sha256
+    value: f68d5d46838e7b8a1777e9e3ec733882d76a277005c5fe6868751d3799b994e6
+  - path: src/server/chall.c
+    algorithm: sha256
+    value: e1d6bc1c1796c1cdf9e043b036d32c8e96a35ab7254ecbe402542ee826956099
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: f5e0f9bc4c68f1cced020b1adeb514f5d1525b1e87b5c8d78382f562d7c6fcd5
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

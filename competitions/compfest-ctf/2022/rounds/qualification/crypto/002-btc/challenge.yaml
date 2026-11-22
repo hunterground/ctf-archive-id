@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-crypto-002
+name: BTC
+slug: 002-btc
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: |-
+  After multiple failure login attempts, we receive a hint from the system, "Indonesia". Could you help me access my brainwallet?
+
+  Flag format: `COMPFEST14{<private_key>}`
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- crypto
+- bitcoin
+authors:
+- name: IGNITE
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: cryptography/btc
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 15b09537d40a2f01e88ec6266689dee3c8eb5b3e1d68178185510f200d2ce96f
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/pubkey.txt
+    algorithm: sha256
+    value: 7801bbad80585ac6bf1616279d2c8087498473acc6de5b909de94afae35c3457
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

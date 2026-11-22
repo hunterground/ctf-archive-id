@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-forensics-004
+name: not simply corrupted
+slug: 004-not-simply-corrupted
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: My friend loves to send me memes that has cats in it! One day, he sent me another cat meme from his 4-bit computer, this time with “a secret”, he said. Unfortunately, he didn’t know sending the meme from his 4-bit computer sorta altered the image. Can you help me repair the image and find the secret?
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+- png
+- obfuscation
+- steganography
+authors:
+- name: notnot
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Forensic/not simply corrupted
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0d620f5e8f301f6d2b90f0a9765e207ae80dce2179de9bf907f874008e013ba5
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/cat.png
+    algorithm: sha256
+    value: 0307a2debec4e3b47d7db1c3b188a08c592169022a4672cac371ac45dc3d8289
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/cat.png
+    algorithm: sha256
+    value: 0307a2debec4e3b47d7db1c3b188a08c592169022a4672cac371ac45dc3d8289
+  - path: src/chall.png
+    algorithm: sha256
+    value: 0cca0d3b996dbc0082e9d7319233575a637c69e96eb04c02de0c012479e62c97
+  - path: src/flag.png
+    algorithm: sha256
+    value: 05647deff7b0715b225b1ea9a450e4101c51c9f8c1550686953ee979b5d5434b
+  - path: src/generate4bit.py
+    algorithm: sha256
+    value: 0a76c3db6ada8a0f47603a8b0761d4d9c7bfc7deafe892e7c26a982b2b29ac9c
+  - path: src/hide.py
+    algorithm: sha256
+    value: 605996a9eabfe025d30db3bf87a9170d5ccb8d1a94182fa563ed45c27861fb95
+  - path: src/original_pic.png
+    algorithm: sha256
+    value: 937638eede070b47ca973fb1f9a6971a76b85a562eae706a1f70a1b8c1f439ed
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

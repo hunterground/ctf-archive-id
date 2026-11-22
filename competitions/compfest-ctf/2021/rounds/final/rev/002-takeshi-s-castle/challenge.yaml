@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-rev-002
+name: Takeshi's Castle
+slug: 002-takeshi-s-castle
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: |-
+  Have you ever heard tv show that name "Takeshi's Castle"? Well, I made some games from that tv show.
+
+  P.S. Be careful not to meet the demon when you walk into the maze.
+
+  Bonus Clip: [Honeycomb Maze](https://www.youtube.com/watch?v=7OqkRtWWY5o&t=104s)
+difficulty:
+  value: Hard
+  source: organizer
+tags:
+- Bytecode
+- Anti debugger
+- Dynamic
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: reverse-engineering/takeshi-castle
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cf94a93f531d787b69ad5738bac7d9b6d4b20195f3f0c34c0abb29e9b3c619e8
+  - path: public/takeshi
+    algorithm: sha256
+    value: 2ac266b7462fa544bed805ed2f36f26cd29d1d817f024408713a46100bf5b613
+  - path: src/compile.sh
+    algorithm: sha256
+    value: 6a4077acbbb0ba177fce3300fddbe59a751377c2ea3ae7f37113fac21992e439
+  - path: src/design/maze-design.pdf
+    algorithm: sha256
+    value: e2bc7a342181a89a8f12bfba89efeb8006a13c170082da15d8537ce4183f2011
+  - path: src/design/maze-design.txt
+    algorithm: sha256
+    value: 6fff611531808333934d2a3e69a8a4caaebb5754f62008de87cc745ab2723188
+  - path: src/genchall.py
+    algorithm: sha256
+    value: 38f83083dfe811666aa4959e2caa2942be7c9bcebdfbd75dd0762165ed6e4042
+  - path: src/input.txt
+    algorithm: sha256
+    value: 8c28ae0fc643cebf1cec6f91775e310e719ea5d4c31623b8659dd84ec82764e5
+  - path: src/takeshi
+    algorithm: sha256
+    value: 2ac266b7462fa544bed805ed2f36f26cd29d1d817f024408713a46100bf5b613
+  - path: src/takeshi.c
+    algorithm: sha256
+    value: e66f3351413a308423b37014fb5bd6ef54777df5e82382c8e0e6d7d876668e9b
+  - path: src/takeshi.part1
+    algorithm: sha256
+    value: e6d5a8d7278abffedbeefc9057881a05d73a7edfeee7e626a198df2c26f7704d
+  - path: src/takeshi.part2
+    algorithm: sha256
+    value: e7afe154aab8205fb874d533bb7edc09383599c6048851b15510f3f2a412488d
+  - path: src/validator/maze-dec.c
+    algorithm: sha256
+    value: 952705e23b25903284ba8a6dfa82d277f1fe253734a6eaca2e1dfbfa7fb893d0
+  - path: src/validator/test.c
+    algorithm: sha256
+    value: 3dcdbe4e7d669a0c60ab0db704810afe8964a185e20951b9b750ccb924cc96d8
+  - path: src/validator/test.in
+    algorithm: sha256
+    value: 570d266260d7ad5fda87098c6d1a5c96e1b54d38b507fd99363339bdffc33cb0
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

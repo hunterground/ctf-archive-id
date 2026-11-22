@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-forensics-005
+name: VidCap
+slug: 005-vidcap
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Found this pcap of my ex's network traffic. I knew they're streaming video but I can't extract it. Can you help me ?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Pcap
+authors:
+- name: xMaximusKl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: forensic/vidcap
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bfe44bea7a919e9a9ec84f22db3615c388a651d1173b80ec2d48c6d0eeb4b057
+  - path: public/capture.pcapng
+    algorithm: sha256
+    value: 63980e3c6346783ea502de9b0b4f5333bf474b0936b814a4532eb056dd2bec6e
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

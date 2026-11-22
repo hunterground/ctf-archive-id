@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-forensics-003
+name: industrialspy
+slug: 003-industrialspy
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: |-
+  Dear IT guy,
+  I have suspicions that our graphic designer intern is stealing confidential documents and
+  sending them to our competitor. I have sent her PC's memory dump to analyze.
+
+  https://drive.google.com/file/d/18u8OSCejwV5Wo7Ezh7NLlVpuhkMQbw4d/view?usp=sharing
+
+  MIRROR: https://drive.google.com/file/d/1923XC_EyweYVt_8CsE9Luysq2njkfBN3/view?usp=sharing
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: k3ng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Forensic/industrialspy
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 7f92fe38f3ec8bafac293e7ef3b7672b31bffbe1f6ae0c4f95992356f7cf97f1
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,188 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-web-001
+name: Log4baby
+slug: 001-log4baby
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Yes yes, I hear you say. What’s a 2022 CTF without a l4j challenge? Here’s one for babies.
+  Wrap the secret around `COMPFEST14{}` for the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Log4shell
+- DNS Logging
+- CVE-2021-44228
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: web/log4baby
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: be36959c118cf3a9d6c8b3d9a4fe36ab95f2f64fef2d397136844b3ab6b09165
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 63ba239f7b66636792fa765c06ebddaed8c62b4029179c9a4415a4deb2578e6f
+  - path: public/HomeController.java
+    algorithm: sha256
+    value: 79d8bc54b629bee18c66ee56a317178586592648283d800d39d89289717156fc
+  - path: src/app/.mvn/wrapper/maven-wrapper.jar
+    algorithm: sha256
+    value: 46b0acdfe3da08b3f40d25bd135858b6014ee62b92883768995c946a3b446bd6
+  - path: src/app/.mvn/wrapper/maven-wrapper.properties
+    algorithm: sha256
+    value: d1603205f50da5f09233e7507ab28fafc487a3eba607e4d49910660feece9636
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: 5ea7d8d390a19ae04d61f8760ebc78d6e25611b4d9425e75764350726ef3658a
+  - path: src/app/log4baby.jar
+    algorithm: sha256
+    value: 919e7a4656213ca014730cab84d186775f71339f9bdd3a750121ec5fc340d7a1
+  - path: src/app/mvnw
+    algorithm: sha256
+    value: 4591ada725d05dbb596064ff1540d673a6252036699596d279ce8117606e823f
+  - path: src/app/mvnw.cmd
+    algorithm: sha256
+    value: 6d19e53372cb157e46f62b648832d34ab12f0e6b6b9f5f10b643f1f010bcc4c9
+  - path: src/app/pom.xml
+    algorithm: sha256
+    value: 12445cb9a739476196f2ecd6ffdc2dd25eb1fcf21441d34a0010f3a2f412e86a
+  - path: src/app/src/main/java/id/compfest/ctf/log4baby/HomeController.java
+    algorithm: sha256
+    value: 79d8bc54b629bee18c66ee56a317178586592648283d800d39d89289717156fc
+  - path: src/app/src/main/java/id/compfest/ctf/log4baby/Log4babyApplication.java
+    algorithm: sha256
+    value: 5736b4b4d1dd45c8e13bb22fd4f18e34b8246f1b2cb5cd1cccb4ed436f91ae04
+  - path: src/app/src/main/java/id/compfest/ctf/log4baby/Utils.java
+    algorithm: sha256
+    value: c9e0b93ef888e64091079092390f7797311c84001e3403962ab210fc062d9ac8
+  - path: src/app/src/main/resources/application.properties
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/src/main/resources/log4j2.xml
+    algorithm: sha256
+    value: 1f58bd4628943c29ad3de08234a78a809f46e3288781b93449580a84b32920ea
+  - path: src/app/src/main/resources/static/css/bootstrap-grid.css
+    algorithm: sha256
+    value: fc29c556ae66d5caaffe87a805d2a2f3216eea673d332a7cb61095a1dfff8bd6
+  - path: src/app/src/main/resources/static/css/bootstrap-grid.css.map
+    algorithm: sha256
+    value: 32e02ecff453bdc3af7a9f2a2683d98573fc6ee25f7255ee4718862ce544b152
+  - path: src/app/src/main/resources/static/css/bootstrap-grid.min.css
+    algorithm: sha256
+    value: bd5d59041ce440f26ec2348c624e743a392741700d54c21a6a95fd7ae33ea430
+  - path: src/app/src/main/resources/static/css/bootstrap-grid.min.css.map
+    algorithm: sha256
+    value: 2458255994c216f48a23bef13c4d524e322c88d682136d76bec2ed54ae5b9a40
+  - path: src/app/src/main/resources/static/css/bootstrap-reboot.css
+    algorithm: sha256
+    value: 55ee2c6964373765d715c92e65fead134cf83fc750c362e0a0629fd8e43453bc
+  - path: src/app/src/main/resources/static/css/bootstrap-reboot.css.map
+    algorithm: sha256
+    value: 5bde0bb1d0942a6a03f66ac155f0f1e55f1f44919e390ce72b05cd71c632f7b2
+  - path: src/app/src/main/resources/static/css/bootstrap-reboot.min.css
+    algorithm: sha256
+    value: 7f9a4f51e3e279f6a0805e2b0de7940a6d106ff0c0dd863e8d23f77df58900e5
+  - path: src/app/src/main/resources/static/css/bootstrap-reboot.min.css.map
+    algorithm: sha256
+    value: 86d8d2ab31633caa31c2d054ec16ff9f8ae99d851e56f9a04b070c0be3977f24
+  - path: src/app/src/main/resources/static/css/bootstrap.css
+    algorithm: sha256
+    value: 7c367ac076e6a1bef61fd77aa2adcfebf1771dcfb01c18dd8ba153b14bef423b
+  - path: src/app/src/main/resources/static/css/bootstrap.css.map
+    algorithm: sha256
+    value: 4f776490799031a7dde73046c9251e2686dbea21f98e1614a2c703a3d6a784e9
+  - path: src/app/src/main/resources/static/css/bootstrap.min.css
+    algorithm: sha256
+    value: aebf611c1438dc7ec748e9a6364c734066b34bf2a1c7e2fc6511ed784635b50e
+  - path: src/app/src/main/resources/static/css/bootstrap.min.css.map
+    algorithm: sha256
+    value: aebcd39a2e455a724a2f4f47dc9834af29719aee121f2d798125280d4b11dc45
+  - path: src/app/src/main/resources/static/fonts/glyphicons-halflings-regular.eot
+    algorithm: sha256
+    value: 13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407
+  - path: src/app/src/main/resources/static/fonts/glyphicons-halflings-regular.svg
+    algorithm: sha256
+    value: 42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5
+  - path: src/app/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf
+    algorithm: sha256
+    value: e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456
+  - path: src/app/src/main/resources/static/fonts/glyphicons-halflings-regular.woff
+    algorithm: sha256
+    value: a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742
+  - path: src/app/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2
+    algorithm: sha256
+    value: fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c
+  - path: src/app/src/main/resources/static/js/bootstrap.min.js
+    algorithm: sha256
+    value: fa421b6ebbd2fb474d3a3866409ce6c1efd120b47ff256fffb8f8f50d556d3d9
+  - path: src/app/src/main/resources/static/js/jquery.min.js
+    algorithm: sha256
+    value: 160a426ff2894252cd7cebbdd6d6b7da8fcd319c65b70468f10b6690c45d02ef
+  - path: src/app/src/main/resources/static/js/popper.min.js
+    algorithm: sha256
+    value: 976705f4556d7fb372a1696b61112f0091182e1761a27a7ff261cafb4da551da
+  - path: src/app/src/main/resources/static/js/tether.min.js
+    algorithm: sha256
+    value: 7a208a14587694c3607e6a9421063aec6495232c103d872a1d3e750379d83c28
+  - path: src/app/src/main/resources/static/logo.png
+    algorithm: sha256
+    value: 4b699b1325e894bad53f31960c823da15bf83a489bf7f3777afcee479647ba10
+  - path: src/app/src/main/resources/templates/angry.html
+    algorithm: sha256
+    value: e74e4ed5f30decd54e1bc29f0a2769838354997cc9bd925462157d391607a142
+  - path: src/app/src/main/resources/templates/index.html
+    algorithm: sha256
+    value: d5111f9af011b0ef8a6537ea43beaa149ce2c44a77c98315d2508c5b2bc9e4b6
+  - path: src/app/src/main/resources/templates/win.html
+    algorithm: sha256
+    value: 0b8130542839cb5e6fdcb8f731dcfa36c86c4583cb3135a6345e4f743a423c38
+  - path: src/app/src/test/java/id/compfest/ctf/log4baby/Log4babyApplicationTests.java
+    algorithm: sha256
+    value: aa5d6c1b25abb41789fd65961baa8ead2d4a32e3da73be2ef76b6d0f6cbacb15
+  - path: src/nginx/Dockerfile
+    algorithm: sha256
+    value: 8e95b0bec40d02e216ab794e8209c332493fef7c925348cf1b1a91de7f5b4651
+  - path: src/nginx/nginx.conf
+    algorithm: sha256
+    value: ced1700590a609ec80f798c9173f95e5bca60d3085fd7378440288db314c7646
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

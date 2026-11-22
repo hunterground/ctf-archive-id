@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-misc-002
+name: Lost My Source 2
+slug: 002-lost-my-source-2
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: This time I make a simple program (and put the flag there) with python and build it as a standalone with [PyInstaller](https://www.pyinstaller.org/), but my friend just accidentally erased the source code (again)!
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: misc/lost-my-source-2
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 818f85fb37dbf1a47d43628b803a4132577a434b6858339e46a4e0056617ce8b
+  - path: main.py
+    algorithm: sha256
+    value: 2e7c6e1190a91e3a444fb7414baf4cdfec178b7327b83dad30b9c83a93ee3bd7
+  - path: share/main
+    algorithm: sha256
+    value: d11a7209819866d265934082f6f64c6114d4d3674fc4b818f3ad0761c55f84ce
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

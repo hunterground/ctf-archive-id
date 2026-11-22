@@ -1,0 +1,170 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-006
+name: Writeup Editor
+slug: 006-writeup-editor
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  This year, the CTF COMPFEST committee developed a write-up editor. This platform allows users to compose in a markdown format and then compile it to PDF directly. Hopefully, this platform can help a lot of beginners in CTF.
+
+  [Attachment](https://d.rorre.me/3i7HuB17/writeup-editor.zip)
+
+  Author: Bonceng
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: writeup-editor
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: d21f3b44fc3be8c48f58cce2cb2ca9b3c19dcffd1ffc586a6b4f16653f06f022
+  - path: attachment/writeup-editor.zip
+    algorithm: sha256
+    value: 47a086585bbbd88911aad87c710e5732c5016acb3d08f03707ac2606cf797882
+  - path: challenge.yml
+    algorithm: sha256
+    value: f6924588be6317863f53b4fc3e762fe8036fc0ede23a023559cbc1f40a6b751b
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: e277a1b989e7ed58ef8255bc452c39ea19e4c0b7af9c8d3237bc5ef913b9af1e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 754a3055d5bb9f875b21c715c8e853a746b59d6153d2b943f149b62311d22014
+  - path: patchrule.yml
+    algorithm: sha256
+    value: 3cba649d090bae3b1d8f8f4f206a5fa36d4524bbb0b4e724283a9bed09b98db0
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2f3d256cc1ac7d3b6549057d4f3a421f74d0ef7b4e42d672df736a48bf6ae631
+  - path: src/editor/.gitignore
+    algorithm: sha256
+    value: 68ca959cb12faba5272c09e6f97cba359a012f55cc31897c228580055a3ca4b2
+  - path: src/editor/README.md
+    algorithm: sha256
+    value: 66bf55397ba0dbf1096f6edc8fdc64c5544b57af79eeb13ad603b45d6d85fe20
+  - path: src/editor/code/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/editor/compile.json
+    algorithm: sha256
+    value: 52079fea85b7e2b8f6ee1e401923a7fcdf010f6a3cf230576c12a047bf5f3f6c
+  - path: src/editor/next.config.js
+    algorithm: sha256
+    value: 356bee0852eafa3e324dfce00bd9f9f69cd0f7c389b51a1cf3e9d81cd0b4f797
+  - path: src/editor/package.json
+    algorithm: sha256
+    value: 0fbca6681436458bd3ab202867a539eccb7c814abdde6d1fb6378cb1ec419f2e
+  - path: src/editor/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: src/editor/public/compfest-logo.png
+    algorithm: sha256
+    value: d311289f30ccea440b4bdba00096baec41499db122991e688bdbb9aa1855e7ec
+  - path: src/editor/public/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: src/editor/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: src/editor/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: src/editor/src/pages/_app.tsx
+    algorithm: sha256
+    value: 122b910ba6f22610384633f942d447c351d92f90c6eb7734205c8d39b53c525c
+  - path: src/editor/src/pages/_document.tsx
+    algorithm: sha256
+    value: 513ef09718234ca433da7d7a01965ff582c5e66ab27f2dd57c495ceae8260207
+  - path: src/editor/src/pages/api/convert.ts
+    algorithm: sha256
+    value: 36cd12123b16571d8423719d22a1ad52810c865f64ba331fd873b026da19dbd5
+  - path: src/editor/src/pages/api/save.ts
+    algorithm: sha256
+    value: ceaab48acc9610bf285fdbb8aed4245ea81df779ea890bf78c6b3d7727e36e54
+  - path: src/editor/src/pages/choose-template.tsx
+    algorithm: sha256
+    value: fe3771274e22cc5b62ccb54ffced2c9774c355e2cfd86b1996e1acf9cb4e72a6
+  - path: src/editor/src/pages/code/[id].tsx
+    algorithm: sha256
+    value: 9ae9c5812cb258e5ae89619da31b460744fdf0de328ccf04c91e4fe7e6f294cd
+  - path: src/editor/src/pages/index.tsx
+    algorithm: sha256
+    value: 2f8a9a86554661fac4af2a04cc9ff71510ca98467ec4a7dba15d1f9a784f94dd
+  - path: src/editor/src/pages/new.tsx
+    algorithm: sha256
+    value: 49dc8847c00c8a30d4cdb43f7128dffda6425f73c7802a6f56fec0607424a306
+  - path: src/editor/src/styles/globals.css
+    algorithm: sha256
+    value: d1246d4d1de5db72e3b3e6f9dfccaac8f2d1cf5260f9a241bd56afe6e59d1538
+  - path: src/editor/src/utils.ts
+    algorithm: sha256
+    value: 8677ccb334c302ee68ac228f0b666aedef8955f3b5bbc9d7dad1eebcfed9f1f5
+  - path: src/editor/tailwind.config.ts
+    algorithm: sha256
+    value: 50015cf292693c47a9123edf40572ac4c568ee26af36b69e2b360bb4fba32676
+  - path: src/editor/templates/article
+    algorithm: sha256
+    value: a164e685c4083e971b8de7a33d554e4dac0ef1c672c9154de915c377775794f9
+  - path: src/editor/templates/readme
+    algorithm: sha256
+    value: 0549922ca65ae5a496849d1a26494c7dc16d8d22ecd49abbd33d10eb3b142ad6
+  - path: src/editor/templates/writeup
+    algorithm: sha256
+    value: 7f78906603e507de0f68a1cddcdc3dd1a31d7d8bd609b38558d2f4aaf54d3c7c
+  - path: src/editor/tsconfig.json
+    algorithm: sha256
+    value: 8730b10bf95b39294ba01b65fb8644a40b9fb05ee75e129dc9191ffe6cad4c76
+  - path: src/editor/yarn.lock
+    algorithm: sha256
+    value: 8e53e3a1afaa7ea406f14df788aa6eb18b212213d2e7a7a801f856f6d9746771
+  - path: src/startup.sh
+    algorithm: sha256
+    value: f1a2c0157306725c28c9c9c29c3ceb33c4b46822d54ea9d42b096636e3e0c54c
+  - path: test/requirements.txt
+    algorithm: sha256
+    value: f679ff7a13e45c7b8324ca0acd77a2c06fbc33f71fa85bedd338c699779f72a5
+  - path: test/rmit-logo.jpg
+    algorithm: sha256
+    value: 8159f4387144f5974801eefc5f00ee7ebcc92db718ab54687825f18949a2ce95
+  - path: test/test.py
+    algorithm: sha256
+    value: 290d7a12a8efb834c49a957270093f2177446d0ca6b90ef3174bea7f200661a4
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

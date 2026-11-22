@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-pwn-002
+name: Greetify v2
+slug: 002-greetify-v2
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Because I'm feeling lonely, I created an application to greet me once again. However, I realized that I'm not the only one who is feeling lonely, so I modified it to be able to greet anyone. Nevertheless, I'm unsure about its safety. Could you please help me check it?
+
+  **P.S: Due to limitations on my server, each session is restricted to a duration of 5 seconds ☹️ (to simulate this behavior, run the binary with this command: `timeout 5 ./chall`)**
+
+  `nc <ip> <port>`
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- one-byte stack overflow
+- format string
+- libc database
+- one gadget
+authors:
+- name: NeoZap
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Binary Exploitation/Greetify v2
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: c59e2cc776d867970deac3131e4a811b36947653da8295fd53b8e4388c3c9fcb
+  - path: README.md
+    algorithm: sha256
+    value: 36bd9a33c0b285b3ab07bf32bf138f8716cb297d7a5447ce93e28713ebeffcdf
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: 0dd80e8362f7a57f9049fd3ededc3f71f095b140f4e2b8c5e427c7ff5200a110
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 01261a690b6e5fefe464cda2ea0616ae5f5683306ba261a40bb901c20b7ec19b
+  - path: public/chall
+    algorithm: sha256
+    value: 704d23bb08a438f2518e98f08a5a0c496e49763b5707a39e7800479587a5d93c
+  - path: src/Makefile
+    algorithm: sha256
+    value: 2eb0f72ac1b159f9b15bf3503cc859649095b6a35ee07526579ecdf2dda3c229
+  - path: src/chall
+    algorithm: sha256
+    value: 704d23bb08a438f2518e98f08a5a0c496e49763b5707a39e7800479587a5d93c
+  - path: src/chall.c
+    algorithm: sha256
+    value: 2683baf4ea7f106b1e42e2c5a24dba3bc7807bad389479d270c38d0d04c66d5d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: b2f153009e3907d6bea3fb2756d98bd78396fd9e16990cfff106080bf1d938f7
+  - path: src/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: src/libc6_2.27-3ubuntu1.6_amd64.so
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: start.sh
+    algorithm: sha256
+    value: 9019d9bc74771519b802a69cca956500bf66518b219f7efe7d32d24150aab60d
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

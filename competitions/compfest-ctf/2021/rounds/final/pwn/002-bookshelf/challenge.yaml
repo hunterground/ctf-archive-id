@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-pwn-002
+name: Bookshelf
+slug: 002-bookshelf
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: Keep your books tidy with our bookshelf. `nc <HOST> <PORT>`
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- UAF
+- OOB
+- double free
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: binary-exploitation/bookshelf
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 900ba8a8f19517c1f27eec7f57ea99b22b4170359478a4e2aa7db0dd31ec2996
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/chall
+    algorithm: sha256
+    value: 0258fa62019fdee1216554815c6fa6771e1c754c13790f12fd9d5aec834b7337
+  - path: public/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: public/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b0b358ccedece9d039e7c7765a2e1b882c5b6271bf36c0df290e34390ac47bfe
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 38e5ad2cda8b4c0c27bba5b798842da2a5311e1559552c03d3f6e4c19ff0ffc0
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: 213c1c8a4cc60481eb67ecdc48600ed4ad7271610b9317fdd636e541c7ee83c5
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+  - path: src/server/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/server/chall
+    algorithm: sha256
+    value: 0258fa62019fdee1216554815c6fa6771e1c754c13790f12fd9d5aec834b7337
+  - path: src/server/chall.c
+    algorithm: sha256
+    value: 5f4f31fb88c4698dfe4145306272f53a91329c671166f4f1c2d57e2dfe30436a
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 32619e2690397d4952e1b064b4f71b16b3800360215a5631a611cb920e8bfff8
+  - path: src/server/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: src/server/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

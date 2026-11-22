@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-pwn-003
+name: SMS
+slug: 003-sms
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  The program that will send messages to your loved ones 🖤
+
+  `nc <ip> <port>`
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- One Byte Stack Overflow
+- Libc database
+- ROP
+- Ret2csu
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Binary Exploitation/SMS
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 37cacf6409eda8880d762abd9e7a5d0caf7f606befddc6c8bbe7ff5f69bd2bd6
+  - path: README.md
+    algorithm: sha256
+    value: a2f60fcd3ab3779d0a20d0953cb998cfa127e1ebb52d21cf14c1bca7b0a57fe9
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: fecce49df876e0320473449c43692546aa994c374e742d09776f3ec2cf95f9a2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 58c6264beab75e95231b8c18da9a43a8d81d11ef6e2decb6d2525dd362f5d90e
+  - path: public/chall
+    algorithm: sha256
+    value: 0afcd1919a0f5fb2e268b0cfcd2ab9ce2de5ff11406151387f76cbbdc57f4b83
+  - path: public/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: public/libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: src/chall
+    algorithm: sha256
+    value: 0afcd1919a0f5fb2e268b0cfcd2ab9ce2de5ff11406151387f76cbbdc57f4b83
+  - path: src/chall.c
+    algorithm: sha256
+    value: a8831541e3b20a02c46a2864ede943f4e400e01f41e1be8cd6552f1e0d05a758
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8ab48d5d5f016a37a4e735c8a151124fa91844ca168aeb9887b52945461ace95
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: start.sh
+    algorithm: sha256
+    value: fd788a55ca3472e46a23d4f574dae0b079177794fd677c5935b8325f641ea2d6
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

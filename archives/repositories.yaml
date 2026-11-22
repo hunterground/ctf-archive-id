@@ -609,3 +609,485 @@ repositories:
       qualification and final directories named in the README. It was not cloned.
       No organizer problem set for Arkavidia 5.0 was found, and no edition year
       was assigned.
+
+  - schema_version: "1.0"
+    id: compfest-12-qualification
+    name: CTF COMPFEST 12 Qualification
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest12-qualification
+      owner: ctfcompfest
+      repository: compfest12-qualification
+      branch: main
+      commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2020
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 28
+    categories:
+      - binary-exploitation
+      - cryptography
+      - forensic
+      - misc
+      - reverse-engineering
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest12-qualification
+        url: https://github.com/ctfcompfest/compfest12-qualification
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set for COMPFEST 12 qualification. The README also
+      describes this set as the public mirror and licenses the problems
+      CC BY-SA 4.0 to the respective author. Commit
+      40a8edf86c5b437207179f2ba7aef1bfebc4af3c is the tip of a shallow clone
+      of main on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-12-final
+    name: CTF COMPFEST 12 Final
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest12-final
+      owner: ctfcompfest
+      repository: compfest12-final
+      branch: main
+      commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2020
+    round_id: final
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 10
+    categories:
+      - binary-exploitation
+      - cryptography
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest12-final
+        url: https://github.com/ctfcompfest/compfest12-final
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set for COMPFEST 12 final. The README licenses the
+      problems CC BY-SA 4.0 to the respective author. Commit
+      af3cf6402abd3279d8ddc99d68a5d9ea79800739 is the tip of a shallow clone
+      of main on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-13-qualification
+    name: CTF COMPFEST 13 Qualification
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest13-qualification
+      owner: ctfcompfest
+      repository: compfest13-qualification
+      branch: master
+      commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2021
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 25
+    categories:
+      - binary-exploitation
+      - cryptography
+      - forensic
+      - miscellaneous
+      - reverse-engineering
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest13-qualification
+        url: https://github.com/ctfcompfest/compfest13-qualification
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set for the COMPFEST 13 qualification and its public
+      mirror. The README licenses the problems CC BY-SA 4.0 to the respective
+      author. Commit 334a2018553a8c3dbffe530aa52f19ee1cd0710b is the tip of a
+      shallow clone of master on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-13-final
+    name: CTF COMPFEST 13 Final
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest13-final
+      owner: ctfcompfest
+      repository: compfest13-final
+      branch: master
+      commit: 6a124784990632f25aee576e57958ac917ac0210
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2021
+    round_id: final
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 16
+    categories:
+      - binary-exploitation
+      - cryptography
+      - forensic
+      - miscellaneous
+      - reverse-engineering
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest13-final
+        url: https://github.com/ctfcompfest/compfest13-final
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set for the COMPFEST 13 final. The README licenses
+      the problems CC BY-SA 4.0 to the respective author. Commit
+      6a124784990632f25aee576e57958ac917ac0210 is the tip of a shallow clone
+      of master on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-14-qualification
+    name: CTF COMPFEST 14 Qualification
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest14-qualification
+      owner: ctfcompfest
+      repository: compfest14-qualification
+      branch: master
+      commit: eed323394cb5ac6965545e41971c3d333b7656fe
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2022
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 30
+    categories:
+      - cryptography
+      - forensics
+      - misc
+      - osint
+      - pwn
+      - reverse-engineering
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest14-qualification
+        url: https://github.com/ctfcompfest/compfest14-qualification
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set titled Qualification CTF COMPFEST 2022. GitHub
+      does not detect a LICENSE file. The README states CC BY-SA 4.0 to the
+      respective author and says the set also covers the mirror. Commit
+      eed323394cb5ac6965545e41971c3d333b7656fe is the tip of a shallow clone
+      of master on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-14-final
+    name: CTF COMPFEST 14 Final
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest14-final
+      owner: ctfcompfest
+      repository: compfest14-final
+      branch: master
+      commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2022
+    round_id: final
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 13
+    categories:
+      - cryptography
+      - forensics
+      - misc
+      - pwn
+      - reverse-engineering
+      - web
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest14-final
+        url: https://github.com/ctfcompfest/compfest14-final
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer jeopardy final titled Final CTF COMPFEST 2022. GitHub does
+      not detect a LICENSE file. The README states CC BY-SA 4.0 to the
+      respective author. Commit 669c5ef85f99c7b99528756516acad40a1a32d7b is
+      the tip of a shallow clone of master on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-15-qualification
+    name: CTF COMPFEST 15 Qualification
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest15-qualification
+      owner: ctfcompfest
+      repository: compfest15-qualification
+      branch: main
+      commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2023
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 27
+    categories:
+      - Binary Exploitation
+      - Cryptography
+      - Forensic
+      - Misc
+      - OSINT
+      - Reverse Engineering
+      - Web Exploitation
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest15-qualification
+        url: https://github.com/ctfcompfest/compfest15-qualification
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer problem set titled Qualification CTF COMPFEST 2023. The
+      README says the set also covers the mirror and licenses the problems
+      CC BY-SA 4.0 to the respective author. Commit
+      c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a is the tip of a shallow clone
+      of main on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-15-final
+    name: CTF COMPFEST 15 Final
+    source:
+      type: github
+      url: https://github.com/ctfcompfest/compfest15-final
+      owner: ctfcompfest
+      repository: compfest15-final
+      branch: main
+      commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2023
+    round_id: final
+    maintainer:
+      type: organization
+      name: CTF COMPFEST
+      url: https://github.com/ctfcompfest
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 6
+    categories: []
+    verification:
+      status: partially_verified
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: CC-BY-SA-4.0
+      redistribution: permitted
+    references:
+      - title: compfest15-final
+        url: https://github.com/ctfcompfest/compfest15-final
+        type: official_repository
+        accessed: "2026-11-22"
+    notes: >
+      Organizer attack-defense final for COMPFEST 15. Challenges are service
+      directories without a category label. The README licenses the problems
+      CC BY-SA 4.0 to the respective author. Commit
+      3959efee0959f2e4cc40fb87f1ab9cdfdfffaede is the tip of a shallow clone
+      of main on 2026-11-22.
+
+  - schema_version: "1.0"
+    id: compfest-16-qualification-writeups-henrybs18
+    name: COMPFEST16 Qualification writeups
+    source:
+      type: github
+      url: https://github.com/HenryBS18/COMPFEST16-Qualification
+      owner: HenryBS18
+      repository: COMPFEST16-Qualification
+      branch: null
+      commit: null
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2024
+    round_id: qualification
+    maintainer:
+      type: person
+      name: HenryBS18
+      url: https://github.com/HenryBS18
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - writeups
+    challenge_count: null
+    categories: []
+    verification:
+      status: discovered
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: Writeup COMPFEST16 Qualification by CTRL + V
+        url: https://github.com/HenryBS18/COMPFEST16-Qualification
+        type: writeup
+        accessed: "2026-11-22"
+    notes: >
+      Participant write-ups for ten COMPFEST 16 qualification challenges.
+      The same account also has HenryBS18/COMPFEST16-Hackerclass, a hacker
+      class write-up rather than the contest problem set. Neither repository
+      was cloned. No organizer problem set for COMPFEST 16 was found.
+
+  - schema_version: "1.0"
+    id: compfest-18-writeups-hax1ng
+    name: COMPFEST CTF 2026 writeups
+    source:
+      type: github
+      url: https://github.com/hax1ng/compfest-ctf-2026
+      owner: hax1ng
+      repository: compfest-ctf-2026
+      branch: null
+      commit: null
+      path: null
+    competition_id: compfest-ctf
+    edition_year: 2026
+    round_id: null
+    maintainer:
+      type: person
+      name: hax1ng
+      url: https://github.com/hax1ng
+    access:
+      visibility: public
+      access_date: "2026-11-22"
+    content_types:
+      - writeups
+      - solutions
+    challenge_count: null
+    categories:
+      - blockchain
+      - crypto
+      - forensics
+      - pwn
+      - rev
+      - web
+    verification:
+      status: discovered
+      last_checked: "2026-11-22"
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: COMPFEST CTF 2026 writeups
+        url: https://github.com/hax1ng/compfest-ctf-2026
+        type: writeup
+        accessed: "2026-11-22"
+    notes: >
+      Participant write-ups and solve scripts for challenges solved at
+      COMPFEST CTF 2026, which the README calls COMPFEST 18. The repository
+      was not cloned. No organizer problem set for this edition was found.
+      The ctfcompfest organization also publishes the Ailurus attack-defense
+      platform, its CTFd machine-challenge plugin, and Fulgens. Those are
+      event infrastructure and were not imported.

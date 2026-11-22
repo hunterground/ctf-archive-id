@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-misc-003
+name: Missing Coordinates
+slug: 003-missing-coordinates
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: |-
+  These two files show the same image.
+
+  Oh, I forgot to tell you that these two files only use capitalized command, so don't worry, it must be not that hard.
+difficulty:
+  value: Medium-Hard
+  source: organizer
+tags:
+- Misc
+- Graphing
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: misc/missing-coordinates
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 79891e980747ffbd21e690297394efe764fa56d7e37750f800879fbb2d34571a
+  - path: README.md
+    algorithm: sha256
+    value: 56ba3361000d1109d814320a249faa0ebc7d0cd9b42a6b4abe544843416278ba
+  - path: assets/flag-path.svg
+    algorithm: sha256
+    value: d20c882d8c4992c840538141870b4c8a7fa584bdbb58717378a0a5dfb89073ca
+  - path: assets/flag-text.svg
+    algorithm: sha256
+    value: 5a886a42debd09e210ac5343f08b1da4ed1305d1f89afb2a2918c8eebf857354
+  - path: assets/flag.svg
+    algorithm: sha256
+    value: 1fafbb12709b7987467e1459a049582ec089bd1332ff3473c5a9a6c54bc67d54
+  - path: generate_chall.py
+    algorithm: sha256
+    value: c6d0d4125c63d41fd3a2b3d347f9e7dfd4ca33fa25a800478aa347a3935f0ea3
+  - path: requirements.txt
+    algorithm: sha256
+    value: a501bc4c4bfb4e8625618dc687c487d3ecaa316b2e424f514c5058600f7a5c6e
+  - path: share/missing_coor1.svg
+    algorithm: sha256
+    value: f6b378efb52fa9d70da43ebbd536e247c5db3df81801619ef7f7c556a8489895
+  - path: share/missing_coor2.svg
+    algorithm: sha256
+    value: 707c57e4cc304a68c9085f942d1a96b7dc0033350f6ebc4490b5384df0cb0390
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-misc-004
+name: napi
+slug: 004-napi
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  john is currently planning an escape from jail.
+  Fortunately, he got a snippet of the jail source code from his cellmate.
+  Can you help john to escape?
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Python Jail
+authors:
+- name: k3ng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Misc/napi
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f732d1899bbcebc17607c4b40947a36f93113167f48c52b2dfc3aa426836abe3
+  - path: README.md
+    algorithm: sha256
+    value: c7c6711112e92f4c3b0932052ae3aa8e00cc497992f290652852a291046ff80d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5866fcac4fe80ed1ae81770ef875ab0005b0f683bb48f13fe102feea64062f2a
+  - path: public/snippet.py
+    algorithm: sha256
+    value: 08be66e62b1f4a87b20a55ca0a15f0c077c215ab5c98cb84246878c87733ef2d
+  - path: src/admin/flag.txt
+    algorithm: sha256
+    value: 1bc05c3b3d2e680f0e92fdb7d212b7c3dcfb13838fb0bba61c1462af9d752d9c
+  - path: src/ctf/chall.py
+    algorithm: sha256
+    value: 9cc54c4c1552cfcc3bb3dcb4964c9764e591cc7a1191caceda43b2a271262228
+  - path: src/ctf/notice.txt
+    algorithm: sha256
+    value: b1ef1fe36e428eb4345d701ec32f6b19106f9ac8659fb5645268167f6ae06dbb
+  - path: src/ctf/start.sh
+    algorithm: sha256
+    value: d7d3fc3adaec0de538b726c06d415967a61e7d136b134dce74e6bfdb5e8c61f6
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

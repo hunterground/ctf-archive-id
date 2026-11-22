@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-web-001
+name: COMPaste
+slug: 001-compaste
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Obligatory pastebin clone. But people said that Python is slow, so I made the I/O in C! Now it is blazingly fast!
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Strings
+authors:
+- name: rorre
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Web Exploitation/compaste
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: ac186e1b41384ab4b977be59cabfc42bd88df7604f9946cc33c8dd4afe6b4f91
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0757009635e7131347b7c5e2041f2332b0d15cfa2372bb33ee10e8cbd0e7b52c
+  - path: README.md
+    algorithm: sha256
+    value: df6f49c6b1c3a7491f5c9e177c92f5de1b6a5ca22a6edfbc0c138d4415c23741
+  - path: challenge.yml
+    algorithm: sha256
+    value: 105d21e1611983d47d57bd8fba2aed07b29d2dbc6dc350eb0eff31eb4b4f9589
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1493d2384eae3417b4ebf451a929720f102a04516955975b8a203bd359f0e2a2
+  - path: src/app.py
+    algorithm: sha256
+    value: 61d9e89d4f985ff2a57b76c8a3da9f117a5162b8e42672981cdd00bd1f1b0bcb
+  - path: src/files/flag
+    algorithm: sha256
+    value: 80c649b07fd4c970173053f045ad0a83fc8f0e98d04b5715b0edca4154d7445d
+  - path: src/files/flag.txt
+    algorithm: sha256
+    value: e2c864b265239b4ffe2c9d48f179d6c937bf4a59e9f735d3eea0797f52263ad5
+  - path: src/fio.pyx
+    algorithm: sha256
+    value: d7debe75d5032ad74b71e8dd6c3cc77161c2e34e06ab4fcca6016bcaee8ae306
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 26322c6099fcaacc490698c1b29c01f84efd2ad9444e14cda87d2ddb712a073b
+  - path: src/setup.py
+    algorithm: sha256
+    value: a52eb688b95380be6cb52f9ba390659b6e25abe4a1f91c99e059519c08d17dd9
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 3c0e70667b86d3fa9e4d0c3a322debce0b83b88352a66be2eaf82017bca63ac3
+  - path: src/templates/paste.html
+    algorithm: sha256
+    value: b5a9cb3e4c26b3ef4f98fe3ddd29be2f4c13f974fbd2887419ed8f6aeac50685
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-rev-003
+name: Magical Mystery Club
+slug: 003-magical-mystery-club
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: Roll up to the Magical Mystery Club! Wonderful things await you, but first you have to prove your ability by casting your most powerful spell. Do you have what it takes to be admitted into the club?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- ELF
+- XOR
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: reverse-engineering/magical-mystery-club
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6019ce052f095692f9e30e205fca77165c67358e3d55f74bb252e86438a78615
+  - path: public/mystery_club
+    algorithm: sha256
+    value: f10312ff76e1f180e3829f7c1ae1b9d48b951ce0f03b694c129e819fec1f8b76
+  - path: src/mystery_club
+    algorithm: sha256
+    value: f10312ff76e1f180e3829f7c1ae1b9d48b951ce0f03b694c129e819fec1f8b76
+  - path: src/mystery_club.c
+    algorithm: sha256
+    value: f0a15ee9adbe55f43182f3e753253521aaecf05bd1cef31bedde8d5df981e4f0
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

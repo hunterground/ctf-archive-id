@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-web-001
+name: CodeBackup
+slug: 001-codebackup
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Wanna try my codeBackup? Sorry, my server's storage is small. Besides that, database processing is so slow on my server, but I can guarantee that your files is already uploaded.
+
+  Since it's beta version, I will clear all client's folder every hour.
+
+  P.S. We've upgraded this problem, a little bit different from the original.
+difficulty:
+  value: Medium-Hard
+  source: organizer
+tags:
+- SSTI
+- LFI
+- PRNG
+- Scripting
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: web/codebackup
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile-template
+    algorithm: sha256
+    value: e247cf8a6ee0f53ca8d68ba6bd76fae1cace377b88cf5813e31cafba995708e0
+  - path: README.md
+    algorithm: sha256
+    value: 1c6127e8ddd8e401ab8a81af8fe9326b8d5257b011cbaecf590e1924b2ed8034
+  - path: cronscript/clear_upload
+    algorithm: sha256
+    value: 01bf7e932d4498078c879452049827848c2434406bb5d208ed5fe79d6ec79612
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8e404bade1b21a7e5669c18617688eab4a63bcd25c280c7ac65f1463145b3899
+  - path: init.py
+    algorithm: sha256
+    value: 11590f69118d0e18595578e468fc3edf4712c88bf178cf3eaad32951e778af9b
+  - path: requirements.txt
+    algorithm: sha256
+    value: 9105008af1a0b5d32007a1fd7bca5fc37ba11b78607cdb805a6c21485543caf4
+  - path: share/Dockerfile
+    algorithm: sha256
+    value: 08ab5547ca289bdea8acfa868f3a67f93d764fa958ba1855e80914154d6b9d41
+  - path: web/lib/config.py
+    algorithm: sha256
+    value: 676ac1609d9339dff3f2023038387154d375e52317b996091ee194741dbe65c5
+  - path: web/lib/myrandom.py
+    algorithm: sha256
+    value: 167a555e591cf82e1c3354568d8269385ecbb25c7f73343e4ce242b4521906eb
+  - path: web/lib/security.py
+    algorithm: sha256
+    value: 32db31ec7e8a2be7aec575328b0f54f8e137af1a6fea8916bc59578cabc6ca2a
+  - path: web/lib/utils.py
+    algorithm: sha256
+    value: 8e4f1b551d066d26a7b542a94b5f8c558825b9ad92ab3254458a4366b01d37b5
+  - path: web/main.py
+    algorithm: sha256
+    value: 6859a7f804a3898a29380d134d416d50451fc99fd9e569d89d9f9b489f9e9ee7
+  - path: web/templates/base.html
+    algorithm: sha256
+    value: 7209b0702e33d8932af97cbd7ef5853417e87cb3e3c8145830b0286cd146a245
+  - path: web/templates/index.html
+    algorithm: sha256
+    value: 183b66abc0c048a37771506b799bc62de8ec2347ee74680aad7af4912720cccd
+  - path: web/templates/upload.html
+    algorithm: sha256
+    value: 187e8ca499956fd24d5b79e048bdc21accdaa93b95890346d6b86721bcb86a54
+  - path: web/templates/viewer.html
+    algorithm: sha256
+    value: 746eaec78c0087667209cb4f6cc79e7a994fc0b67e6ef500adf174a7e9138e21
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

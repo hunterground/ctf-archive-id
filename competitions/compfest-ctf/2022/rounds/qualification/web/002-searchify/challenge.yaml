@@ -1,0 +1,136 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-web-002
+name: Searchify
+slug: 002-searchify
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  > I won't do anything unnecessary. It's just a low-key search engine clone, so bugs are expected.
+
+  ```
+  http://<ip>:9013
+  ```
+difficulty:
+  value: medium/hard (?)
+  source: organizer
+tags:
+- web
+- waf
+authors:
+- name: Sui
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: web/searchify
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 582799b1d23fb2b456b120c901b06d0a67a74f1ca3fd4d977bcc5ba066e68cb7
+  - path: challenge.yml
+    algorithm: sha256
+    value: 25f77fc4c9f9c5a76bdcec5fcbc665f50f5b6d6a1c37b1504d9a4c1bf7a2c900
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d1241168229d854d8559e7073f1be81676b15f2583b7c0ccf8a05f5521ddf827
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/public_searchify.zip
+    algorithm: sha256
+    value: c13bce446592cc95b5069785daf7f4e4e3e9eea7a5ad0bb52d10bc35dd436ce5
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 395a70a09825dadfb74bd2ff243662a2a0a15c6491b046bf467fec5b5a91ab18
+  - path: src/backend/flag.txt
+    algorithm: sha256
+    value: 0ac73b4846fea622e906199d592eaa85596fc922a848209c1fd511a6f615dd63
+  - path: src/backend/patch.sh
+    algorithm: sha256
+    value: 861425ac0edfd74f6840cd150daeb48a6eb75838dd735b56b3370df53db931b1
+  - path: src/backend/src/__init__.py
+    algorithm: sha256
+    value: a6b1b4f144414b9e724b8d67eb1115f5e225770bbfe1365762570d56080439e2
+  - path: src/backend/src/api.py
+    algorithm: sha256
+    value: 2847e0891f5f7ded91ae3fd7aa6647a7e35b029a694b5c050a29792c6594ad5e
+  - path: src/backend/src/requirements.txt
+    algorithm: sha256
+    value: ac3ecaf6f9dbb24ef580ca6a758bd4240e32c8deb436ca716de47fd9da1c4f70
+  - path: src/backend/src/routes.py
+    algorithm: sha256
+    value: d216ac5748e709143209fabf4425dc4553d028d55fefaaf834b51f9309c814f2
+  - path: src/backend/src/utils.py
+    algorithm: sha256
+    value: c785dcc09a53d4e2c31cf8659b2690769581b656452854f775b4a3a3709845d9
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b5aaa5f8bbb72d26e290bacf6d20aefd540020bf92239178f41bea49bf1f0853
+  - path: src/frontend/Dockerfile
+    algorithm: sha256
+    value: 41c129c8693392055c9b6833602d0552ae5fd96d137071f55fcabaaadf7f94e1
+  - path: src/frontend/conf/httpd.conf
+    algorithm: sha256
+    value: e213236ed3ae29503ed838a72e610d1c7a3439d5c4d1c6962f2afb824a3e33ae
+  - path: src/frontend/conf/modsecurity.conf
+    algorithm: sha256
+    value: 0146a9211111ce67816b955090350b0226d14b06c5d63ec3ea149a783e25efd4
+  - path: src/frontend/conf/modsecurity_crs_21_protocol_anomalies.conf
+    algorithm: sha256
+    value: ea26d86f4e510b460bf2b6e7201506e91a45a8607b10370fde720ce442b7c3b7
+  - path: src/frontend/conf/waf.conf
+    algorithm: sha256
+    value: 99fed7bbf800a70c20737af12d8490c082b3866294f9cabe4d3ae67d6975dcc2
+  - path: src/frontend/src/.htaccess
+    algorithm: sha256
+    value: 1dfe84697fcf050c26499044fbdd5a5bcdc32c48316e831d88ef8bb949310edb
+  - path: src/frontend/src/assets/css/index.css
+    algorithm: sha256
+    value: bc64f9f08a26ee6b45aa937b25c376d31549280dd2ed5d71bb1afc290f99fb34
+  - path: src/frontend/src/assets/css/search.css
+    algorithm: sha256
+    value: d243fc60ebe00c07bbd8e7726495eaca6df782c25bf5dd230a24a578caf350ab
+  - path: src/frontend/src/assets/js/script.js
+    algorithm: sha256
+    value: 7339e8abafc7eaf527421afcc31dc961e84cd096b8b400fac36d6d8516b5e22b
+  - path: src/frontend/src/index.html
+    algorithm: sha256
+    value: c8f078edbcd2a9fb7fe46675eabe20591b3029ac92e58d93f4dc2b22d1ca2693
+  - path: src/frontend/src/search.html
+    algorithm: sha256
+    value: 21487a5c9892b7b656ee2cf98a094dbaceddfaea4bd88310f50fe1395e97be3c
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: final
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+name: Final
+original_name: final
+sequence: 2
+type: final
+delivery: null
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 10
+  participant_count: null
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: Final problem set for COMPFEST 12. Category counts are crypto 3, pwn 4, web 3. Imported from the organizer repository on 2026-11-22. Every problem-set README states that the problems are licensed CC BY-SA 4.0 to the respective author. Sequence numbers are alphabetical by archived challenge name within each category. Author solution directories named writeup, solver, solution, answer, or exploit, and solver scripts at the challenge root, were placed under solvers/ and are not recorded in challenge.yaml. Editor metadata, Python bytecode caches, and a committed virtual environment inside one solver directory were not copied.

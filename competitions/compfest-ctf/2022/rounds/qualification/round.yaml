@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: qualification
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+name: Qualification
+original_name: qualification
+sequence: 1
+type: qualification
+delivery: null
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 30
+  participant_count: null
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: Qualification problem set for COMPFEST 14. The README titles it Qualification CTF COMPFEST 2022 and says the set also covers the mirror. Category counts are crypto 5, forensics 6, misc 5, osint 3, pwn 4, rev 4, web 3. Imported from the organizer repository on 2026-11-22. Every problem-set README states that the problems are licensed CC BY-SA 4.0 to the respective author. Sequence numbers are alphabetical by archived challenge name within each category. Author solution directories named writeup, solver, solution, answer, or exploit, and solver scripts at the challenge root, were placed under solvers/ and are not recorded in challenge.yaml. Editor metadata, Python bytecode caches, and a committed virtual environment inside one solver directory were not copied.

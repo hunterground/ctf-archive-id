@@ -1,0 +1,110 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-misc-001
+name: n0talogus
+slug: 001-n0talogus
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: misc
+original_category: misc
+description: '"__*History repeats itself. Hence, it''s the best teacher.*__" that''s what she said.'
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Bash
+- histexpand
+authors:
+- name: twoface
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: misc/n0talogus
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: f478a5d2f3dd0dedb20443ac54dfc1bd4cdc56d429e8c7508e900620915afc2d
+  - path: README.md
+    algorithm: sha256
+    value: f27c7f394fde9d781708c62eea374ba769884583351b8188c69c5664fa94f822
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f4ba54606bad356d61fede35d52b94a852ea4302b86ee3e0fc0d41b14403d47e
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: aabcc3577b5dd098f3aef50708b9cd83b2e517486f4370f180f7aa6ebac3a78b
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: 75038191671c2752e1c5114f3b5957c6d72e6d5f854db0dc2810798399dd80bc
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/server/cleaner.sh
+    algorithm: sha256
+    value: 20d80de5e3d1dd445ace42bd3941ab7d748bb692bdcc37b2a11dc199970ce4ca
+  - path: src/server/main.txt
+    algorithm: sha256
+    value: fd7ea145441666986897ff85643fa7505576b650cc15e4657065d182ace6decc
+  - path: src/server/menu.sh
+    algorithm: sha256
+    value: d63f58c03da90a273ab1fc5466f796d1eb7dc729d24a88a3972c821013a196db
+  - path: src/server/n0talogus.zip
+    algorithm: sha256
+    value: 8d240e50f1b89c55145928a587a585a80bf16938ef0af7e788006aa0d73f67e2
+  - path: src/server/nothingtosee.txt
+    algorithm: sha256
+    value: d8d9f5f336574ed8402b8bfd6252cf7823a9ac5a0626f2c98afd14fd8a1b3fd8
+  - path: src/server/secret/do/you/wonder/what/is/inside/this/well/then,/let/me/show/you/not_your_flag
+    algorithm: sha256
+    value: f49e764bb3736e0eaaa999c6b633d60207c05145da0bb6a63d279de8cc67380d
+  - path: src/server/secret/do/you/wonder/what/is/inside/this/well/then,/let/me/show/you/not_your_flag2
+    algorithm: sha256
+    value: b9ff108306d6ac2e08e20d7ce51809cea4f738932649ad6c478961842376ad5c
+  - path: src/server/secret/do/you/wonder/what/is/inside/this/well/then,/let/me/show/you/not_your_flag3
+    algorithm: sha256
+    value: 56af7b4d5a6c358f56ec9aebb7d71f0ae82a437c0e8350a3b030ab22b6033d61
+  - path: src/server/squaretext.py
+    algorithm: sha256
+    value: ccbaba49974201790df77646d17393c1fbb84bd1c46abda340f8597e99310045
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

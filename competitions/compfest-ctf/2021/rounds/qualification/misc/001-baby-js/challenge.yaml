@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-misc-001
+name: Baby JS
+slug: 001-baby-js
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: miscellaneous
+description: We create JS console emulator. Could you read our platform code?
+difficulty:
+  value: Easy
+  source: organizer
+tags:
+- Javascript
+- basic knowledge
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: miscellaneous/baby-js
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 2d20fedc8bda2f19d5f2d49310727a0deb086e59a5c6b848510e7137f8d869ed
+  - path: README.md
+    algorithm: sha256
+    value: 9e921279fdeb8af6c1c6d734045ca01b70d485b5972c9c1f966ca87b6c945ee8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 59f7a76b0bde6135a69811b05a978d804bd3d2e79c2aac33911002113e3069b8
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: b9fa7b0ed1ab681c71a615c3891467dac5d8b477d2911a98a4a8209b6c617a24
+  - path: src/web/index.js
+    algorithm: sha256
+    value: 87c4d37b4782eecb182443c4365695942cd51d8c14fbb580d513299ef72f3528
+  - path: src/web/package-lock.json
+    algorithm: sha256
+    value: 08ee49271a27e60155092c22a7618cf1dc8de9cb50aea17154bcc28ab81a1fc5
+  - path: src/web/package.json
+    algorithm: sha256
+    value: a291bf8f819b85081fe9b05d112c3aeb8983336b3f5035917944c9e43895f288
+  - path: thisorthat.jpg
+    algorithm: sha256
+    value: c6b185fee6c85bf1a3b45648809541aa64e7a7343575fd36b393d800e80395be
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

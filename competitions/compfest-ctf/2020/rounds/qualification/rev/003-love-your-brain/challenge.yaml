@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-rev-003
+name: Love Your Brain
+slug: 003-love-your-brain
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: I can't believe you're still doing this. Is this what you eat ? I'm impressed that you haven't gone mad already! Dude, please, love your brain.
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: xmaximuskl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: reverse-engineering/love-your-brain
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cf1dec4842e8e07a7a82ef697f4b98dc62b7d386d8942742d3f87ff3b2382dde
+  - path: private/Documentation.txt
+    algorithm: sha256
+    value: 673ca0fa51ff1a4416b2bb726fa8d5066e98f8bd06bf4e326c060ed44777c3d5
+  - path: private/generator2.py
+    algorithm: sha256
+    value: af1e90b2e0f78f0ba162448734a53226f698b7bdb8a696ee18e7a650d0c3764a
+  - path: share/lol.bf
+    algorithm: sha256
+    value: 05864e65666b3f11d5b15466250a8cd5d5cedd500d202701c93acfa0825bf201
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

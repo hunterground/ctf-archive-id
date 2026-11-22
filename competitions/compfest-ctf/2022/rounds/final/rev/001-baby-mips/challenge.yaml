@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-rev-001
+name: baby mips?
+slug: 001-baby-mips
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: My avr challenge was so bad, so I decided to make a mips challenge, which is also very bad. This program can’t even run properly for some reason lmao. But my friend can magically run the program and give the output to me. Can you figure out what input did my friend give to the program? btw I use musl.cc.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- mips
+- qemu-user
+authors:
+- name: ReeyaDono
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: reverse-engineering/baby-mips
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: da0a26d992c44785d83e74ca7f0164b78d061de8fed417b4c80d8c37056bf30c
+  - path: public/chall
+    algorithm: sha256
+    value: 331680d4e4d517474cb70074b4d717213e5c40294219582611b02a0aed1adb67
+  - path: public/out.bin
+    algorithm: sha256
+    value: 03ea3199e53331c1996beabbb309bf36a5ec34b5c390b29a6cc4c30596cabe75
+  - path: src/chall
+    algorithm: sha256
+    value: 331680d4e4d517474cb70074b4d717213e5c40294219582611b02a0aed1adb67
+  - path: src/encrypt.py
+    algorithm: sha256
+    value: 1c76df0d9fdd7d3eebe8a0c00e4dab7b0d93fe6450bbcde2b70ac40921553466
+  - path: src/out.bin
+    algorithm: sha256
+    value: 03ea3199e53331c1996beabbb309bf36a5ec34b5c390b29a6cc4c30596cabe75
+  - path: src/source.s
+    algorithm: sha256
+    value: 17eef38fbd77bbb51ad11772ae4e56a5ef59e0a2fb89edfc82de9256476664bc
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

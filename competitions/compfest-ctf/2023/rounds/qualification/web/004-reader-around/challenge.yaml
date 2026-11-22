@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-web-004
+name: Reader Around
+slug: 004-reader-around
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Okay, okay! People still say the framework adds a lot of overhead, thus making it slow. So now I’ve written the entire stack myself, what about now, huh?! (I removed the C dependency though)
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Strings
+- Buffer Overflow
+- HTTP
+authors:
+- name: rorre
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Web Exploitation/reader2
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: ac186e1b41384ab4b977be59cabfc42bd88df7604f9946cc33c8dd4afe6b4f91
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8404611ea27cda8f5c54b0f9a40b8c6006f9842a8ff7effb328b8bb32d835cc9
+  - path: README.md
+    algorithm: sha256
+    value: dbbde7841ea060fdb39e8f0ac5b4d7d41aeaee724dc4e7046ad15d32b5c9fdd1
+  - path: challenge.yml
+    algorithm: sha256
+    value: 87d9fb66a4d40398534462e2098b54f910efbb47cd54f408601f5f43843f5da8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: daef186b9360e7a9bd8e2b2f1111a4fcd39de66ac8256a11e70f8dddad812841
+  - path: flag
+    algorithm: sha256
+    value: 57b53d15214e67e76266b4da6f65fdabaede58373d23e28106934cec5a622346
+  - path: src/files/beemovie.txt
+    algorithm: sha256
+    value: 6f98c7045276bf9fc4eaa0f112f9ee4fb9e0fded5f53e019620c036e4ec78562
+  - path: src/files/flag.txt
+    algorithm: sha256
+    value: e2c864b265239b4ffe2c9d48f179d6c937bf4a59e9f735d3eea0797f52263ad5
+  - path: src/files/lorem.txt
+    algorithm: sha256
+    value: b52ba9821df2bd92f8cbd23ba373b46e1d59258ac73fa78e2f66f00ee59fc37b
+  - path: src/main.py
+    algorithm: sha256
+    value: f544a34b671cdaf731c26112167a218b0bbe4c48f3c8245ad67e1fdc9eeea909
+  - path: src/reader/core.py
+    algorithm: sha256
+    value: ecc83b64cc153b3c1a506a4044b6a85962d3e7c8efb4a53ec7738c65798c6668
+  - path: src/reader/routes.py
+    algorithm: sha256
+    value: 28bf32a118ec4cbcfbd64d36c9226b347186ffc7fe41662bff492b035dfde051
+  - path: src/reader/server.py
+    algorithm: sha256
+    value: 0533e7f83a735007a35585274d172d93377b2cc0e7cee1003a754be22729f582
+  - path: src/reader/templates/index.html
+    algorithm: sha256
+    value: 49337f609048c30234e75318c99a66376d883829cdd8ce5ca47e698ce39c9546
+  - path: src/reader/utils.py
+    algorithm: sha256
+    value: 233d8663812ea606cb5c8552ccf51a015ddb7cfbe5a7cc09ac74f576428a4e3c
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 0d0d57464ee197c392ca36ee11e7e70e71cadf7d3728806656dddeb4f0e27f61
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

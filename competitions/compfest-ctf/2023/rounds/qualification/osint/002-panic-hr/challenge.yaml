@@ -1,0 +1,51 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-osint-002
+name: Panic HR
+slug: 002-panic-hr
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: Hi, I am an HR on a retail company, Free Terracota. I need your help for find our lost flag that hidden by our Security Analysist, named Andi Hakim. Thank you for helping me!
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: kilometer
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: OSINT/Panic HR
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3d5afe7226b63a6f82b3a3725a1c64cd5f6adfbf608d3fed3a668c79c354289e
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The README heading is the unfilled template "Judul Soal". The archived name is Panic HR, from the challenge directory.

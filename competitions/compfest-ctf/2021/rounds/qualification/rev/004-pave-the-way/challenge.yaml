@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-rev-004
+name: Pave The Way
+slug: 004-pave-the-way
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: I've already paved your way. Now find it!
+difficulty:
+  value: Easy
+  source: organizer
+tags:
+- Java
+- JAR
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: reverse-engineering/pave-the-way
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ea3a5bff8e0b536e290d381520352b606d5750c8d5b1a09093df98048ab24e21
+  - path: public/chall.jar
+    algorithm: sha256
+    value: 8eadecc20ed1ceb42142458204bc644c5e3f5ace0384b033a8e608cc61569e06
+  - path: src/chall.jar
+    algorithm: sha256
+    value: 8eadecc20ed1ceb42142458204bc644c5e3f5ace0384b033a8e608cc61569e06
+  - path: src/generate_chall.py
+    algorithm: sha256
+    value: 904af3db9cd6320626d9f3d6336cc8bf75719e527140f1904aeee4e4548eabf7
+  - path: src/source.java
+    algorithm: sha256
+    value: 604f660acb91e417387b1e76157efdcb59ea0b8fe760c1f8d096e36ecc6c9782
+  - path: src/source.mf
+    algorithm: sha256
+    value: 9cf4a65aa11c87eb7e06e26ba474a1c20835d088d2eef32dad9fca63c7b55fac
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

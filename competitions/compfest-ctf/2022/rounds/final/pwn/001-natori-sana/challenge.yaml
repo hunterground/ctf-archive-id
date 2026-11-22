@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-pwn-001
+name: Natori Sana
+slug: 001-natori-sana
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: 'this is still one of my favorite vtuber clips: https://www.youtube.com/watch?v=BSdCEbjoXME'
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- stack
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: pwn/natori-sana
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f261d7e5a4d7ceb52499235106704184f3c28adbdede3b138727a5a4e176312a
+  - path: release/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: release/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: release/natorisana
+    algorithm: sha256
+    value: 5a80e52fa6dcd2a3af0c08e620819e3dcddfaf178878c1e789d9fb5f4fb1751f
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: src/natori/Cargo.lock
+    algorithm: sha256
+    value: 04eeba453a5c8a46bd00e30501a63b91ba67437d04b31372502372c83986589b
+  - path: src/natori/Cargo.toml
+    algorithm: sha256
+    value: 08a26210d466d047191248bb4a4db0a9845bcae79f469c9cce22ae9ed1b44e8d
+  - path: src/natori/src/main.rs
+    algorithm: sha256
+    value: 44e1a5e1d0373ae9736c0b4fa6feff8791a055c1afe3707d22bb5821fef43754
+  - path: src/natorisana
+    algorithm: sha256
+    value: 5a80e52fa6dcd2a3af0c08e620819e3dcddfaf178878c1e789d9fb5f4fb1751f
+  - path: src/test.py
+    algorithm: sha256
+    value: 5c2276c345355a21d8c7558ad5215433114b0d50f0ea18c1d69f4e13734589d2
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-rev-004
+name: WasmCasino
+slug: 004-wasmcasino
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: Money money money! Can you get a jackpot tho ?
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: xmaximuskl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: reverse-engineering/wasmcasino
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Makefile
+    algorithm: sha256
+    value: 88bed4ff0e1410528b0c56833b46ffd5b714a17cc8489ac1a2a92c1ddd5b9dd8
+  - path: README.md
+    algorithm: sha256
+    value: 0e09c78093421155e560c3d09aafda384321530a421b33d1912ee25fc061923c
+  - path: share/index.html
+    algorithm: sha256
+    value: 6405cc28f56685d45f94c9544838165c96563ffe7eca4b1d873b056af25a2e1c
+  - path: share/index.js
+    algorithm: sha256
+    value: d8ccb42327075913eaa99545c0ca9abad3e50e0944936bad13a587f98004116b
+  - path: share/index.wasm
+    algorithm: sha256
+    value: 342a80faabbb0236c3180e0b4a357d72bdb21ccb54263e31730cb8e488a88212
+  - path: src/main.c
+    algorithm: sha256
+    value: d5562838837e7d8321cbbdb8c79ad1271678c3f0bb93861125dc021055c1d46c
+  - path: src/page.html
+    algorithm: sha256
+    value: 44563dc3afdd52bc08c41d836ca2caa64d81a6d1b3821ae04512cf5e77d5a211
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

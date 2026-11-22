@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-pwn-003
+name: It's Time to Play
+slug: 003-it-s-time-to-play
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: Take your time to solve this amazing sudoku puzzle
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: Captain_GN
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: binary-exploitation/its_time_to_play
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: files/__pycache__
+    reason: Generated Python bytecode is not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b1fdd2b9c1aa5f047333e50d9b2b62a31e35f5ec2d7cab130e7499418653b8b5
+  - path: check.py
+    algorithm: sha256
+    value: 14c7cf749ee1e1b2eba325a26160c700f86fa2ef43bb0a14f00ac3c83de73d2e
+  - path: files/Solusi.py
+    algorithm: sha256
+    value: 73c12be66359a95dd486cf50d1c09bb71ff6fa86c05f22d0df0d4244dd3f1d62
+  - path: files/check.py
+    algorithm: sha256
+    value: 14c7cf749ee1e1b2eba325a26160c700f86fa2ef43bb0a14f00ac3c83de73d2e
+  - path: files/flag.txt
+    algorithm: sha256
+    value: a6aac2478de693bd7e46d1092e69cce2c47b6b63b511840b486471083e3d0ec7
+  - path: files/generate1.py
+    algorithm: sha256
+    value: 7da421ebad7fa3f8e24e2d8a4b57e51264601efa674b871c305cb4912c2b8d49
+  - path: files/generate2.py
+    algorithm: sha256
+    value: 57e6dcc66ac1e7230243fc79f7b7ff89a75e02712abb3091534f0d46c8a8fc7d
+  - path: files/generate3.py
+    algorithm: sha256
+    value: b188cd91e1319e0fe25fbdf7204baef593051f5a4dbec2721ed239c97c1353ed
+  - path: files/rop_sudoku
+    algorithm: sha256
+    value: 2a8ac3dc8e711f1751c05af8d753e2f41abc4cee46c4a4bc459bd7014972a472
+  - path: files/rop_sudoku.c
+    algorithm: sha256
+    value: 6289c20f2f2650a27089671029c81b4c6a5561f42696fe54ae135abc6e8dc87b
+  - path: flag.txt
+    algorithm: sha256
+    value: a6aac2478de693bd7e46d1092e69cce2c47b6b63b511840b486471083e3d0ec7
+  - path: share/rop_sudoku
+    algorithm: sha256
+    value: 2a8ac3dc8e711f1751c05af8d753e2f41abc4cee46c4a4bc459bd7014972a472
+  - path: share/rop_sudoku.c
+    algorithm: sha256
+    value: 6289c20f2f2650a27089671029c81b4c6a5561f42696fe54ae135abc6e8dc87b
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

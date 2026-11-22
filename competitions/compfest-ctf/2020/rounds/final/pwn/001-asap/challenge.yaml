@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-pwn-001
+name: asap
+slug: 001-asap
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: Dude! I need help. So I found a poem reading program. Apparently you can contribute your poem here too. But, after you submit your poem, the file ownership will be taken over by the root and I heard that the program will append some kind of secret code on your text before it. Can you get the secret code for me ASAP ?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: xmaximuskl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: binary-exploitation/asap
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor settings are not part of the challenge distribution.
+  - path: asap.code-workspace
+    reason: Editor workspace metadata is not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 03d084e158bb80585c1b6e4101a00f458cc6d1fcea1ac0a41e764b1c51fdeebc
+  - path: Makefile
+    algorithm: sha256
+    value: 6ba623eb89059d916c2e5fda3a3ff109141a369b10f59036c2c9543076042b33
+  - path: README.MD
+    algorithm: sha256
+    value: 97c35f6d7954185ff9f9e31cee6248d477facc86713d0a705eb8ad96736e6a20
+  - path: build/file
+    algorithm: sha256
+    value: 4f046da0e70c0d09a9b30f0b2a01327de106250aaaa77b6e2db68a3b49b093d6
+  - path: build/from-beautiful-boyfriend.txt
+    algorithm: sha256
+    value: d73b1bd42e69c41a64ecc1b1ebda860540513e86c8e2a488760efc4d8cc8729c
+  - path: build/millenium-six-songs.txt
+    algorithm: sha256
+    value: 7c39feba4b5218b0564a56416d8d93bb5eff750e91151642172abcb1e92ac386
+  - path: build/rhapsody-in-plain-yellow.txt
+    algorithm: sha256
+    value: 67ee9102671c31fb0ab8bbb1f7531f7d03cf8ab494e56b0885d2befc486248a1
+  - path: build/september-tomatoes.txt
+    algorithm: sha256
+    value: 02dcd2c0176fb0830be5519e6add6557e5a285367b8cf450f534218d900ba5af
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 59d8545170b6f5555a7a5a96231625e058e1e441e1653ecb4967317a7d574b79
+  - path: files/from-beautiful-boyfriend.txt
+    algorithm: sha256
+    value: d73b1bd42e69c41a64ecc1b1ebda860540513e86c8e2a488760efc4d8cc8729c
+  - path: files/millenium-six-songs.txt
+    algorithm: sha256
+    value: 7c39feba4b5218b0564a56416d8d93bb5eff750e91151642172abcb1e92ac386
+  - path: files/rhapsody-in-plain-yellow.txt
+    algorithm: sha256
+    value: 67ee9102671c31fb0ab8bbb1f7531f7d03cf8ab494e56b0885d2befc486248a1
+  - path: files/september-tomatoes.txt
+    algorithm: sha256
+    value: 02dcd2c0176fb0830be5519e6add6557e5a285367b8cf450f534218d900ba5af
+  - path: flag.txt
+    algorithm: sha256
+    value: bef2c12251189292e0ecc0e6ad9d25bd681688fa6e6e7510eb6a5f4c01e31ba5
+  - path: src/file.c
+    algorithm: sha256
+    value: 14a51103b1b7bfa7c431a2164010680c61204217dad6edd118555f549eec6fe5
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

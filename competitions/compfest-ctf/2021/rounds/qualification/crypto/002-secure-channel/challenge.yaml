@@ -1,0 +1,118 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-crypto-002
+name: Secure Channel
+slug: 002-secure-channel
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: |-
+  You are able to watch the encrypted chat of Alice and Bob. They are talking about the flag right now. Can you get the flag from them?
+
+  P.S.: Alice and Bob once have said that they will communicate with some trivial encoding, so people will not notice their message at first glance. Although, people will know it if they search it on the internet! Sure, all of it is printable characters.
+
+  Watch the conversation: `nc <HOST> <PORT>`
+
+  Talk with Alice: `nc <HOST> <PORT>`
+
+  Talk with Bob: `nc <HOST> <PORT>`
+difficulty:
+  value: Easy-medium
+  source: organizer
+tags:
+- Cryptography
+- CRT
+- modular maths
+- Diffie-Hellman key exchange
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: cryptography/secure-channel
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ef2f182198dfeb234ca1f5402cd3cbf074d9f5d435c9697c2edefb198613bf99
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8b08b10497b4bd44f148593703a87bed4d6a55b35fea97882209ac5f4e913a73
+  - path: public/alice-bob.py
+    algorithm: sha256
+    value: 911ef92deb5d8f1d978bf0d712361f3a52831da26637a2ebb186f3a739d7f3eb
+  - path: public/secrets.py
+    algorithm: sha256
+    value: 438f6b497ae5e7ed121573e8be70d25c4d585c33b21eb2c41eaf647880fc331d
+  - path: public/talk-with-alice.py
+    algorithm: sha256
+    value: 875fcd1b11999d6120a9e15516e5357e8114956c7c0029ea86af4bbb199b5912
+  - path: public/talk-with-bob.py
+    algorithm: sha256
+    value: 28a4d6519e42a681d06f41e9778e181c4c8d8ffe4e3c051ea00b9c4d98d6c746
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 358fb18fd544c44b0d15270fb741e72961a60c4756dfc22e5ee7410d8044f723
+  - path: src/docker/alice.xinetd
+    algorithm: sha256
+    value: f7cab3b2de9ee44633cb65e1d5bd2d4992d6cc07fdb133132862437f4144b842
+  - path: src/docker/alicebob.xinetd
+    algorithm: sha256
+    value: bfaeec08d584fcd63755f503e4a736a36e8b66663bb0827a7d480c371f767f58
+  - path: src/docker/bob.xinetd
+    algorithm: sha256
+    value: b92f384f2385f19d626f41190dae479261272dfe61b9de412536a6804f7f08a4
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/alice-bob.py
+    algorithm: sha256
+    value: 911ef92deb5d8f1d978bf0d712361f3a52831da26637a2ebb186f3a739d7f3eb
+  - path: src/server/chats.py
+    algorithm: sha256
+    value: 479e5d971bb80a49f7efcb63464362467f89294c9a327a345985a89edaa8c259
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: 274868efaef7671c8205aa7b2b4484533a348a8c2abd35bd43feff2aae38aa78
+  - path: src/server/secrets.py
+    algorithm: sha256
+    value: 849f7314e0858bf6f0255795f108cc99416230a60b822226aa663dbde70b8f73
+  - path: src/server/talk-with-alice.py
+    algorithm: sha256
+    value: 875fcd1b11999d6120a9e15516e5357e8114956c7c0029ea86af4bbb199b5912
+  - path: src/server/talk-with-bob.py
+    algorithm: sha256
+    value: 28a4d6519e42a681d06f41e9778e181c4c8d8ffe4e3c051ea00b9c4d98d6c746
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

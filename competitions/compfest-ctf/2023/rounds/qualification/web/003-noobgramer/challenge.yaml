@@ -1,0 +1,260 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-web-003
+name: noobgramer
+slug: 003-noobgramer
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  everyone says i am a bad programmer. Hmph!, let me show you my highly secured web app.
+
+  `https://<ip>:<port>/`
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- NextJS
+- JWT attack
+authors:
+- name: lily
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Web Exploitation/noobgramer
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitlab-ci.yml
+    algorithm: sha256
+    value: 0a9268cb60cd041f74644571804f9c0bf5b4524f1131149336628dbc04e5930a
+  - path: README.md
+    algorithm: sha256
+    value: c7b26ec7889f24c8c547c2a6c8058d95bf4ad3493cb5711aad9f745956d9c9f3
+  - path: challenge.yml
+    algorithm: sha256
+    value: d329187e0d79a6a14ff1ddf1c7329dbd5f6f2a94d2c7a1d2897c12fe6f156355
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2ec0806761cbdca8c62ab43483af49c42a9e733e30f01bea3c04ff86dda7a0ff
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/src.zip
+    algorithm: sha256
+    value: 37ecdb537e8a644ac51dfecdad32064d8ff06b49fdd2ae742a9310d99e56ad08
+  - path: public/src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/src/backend/.dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/src/backend/Dockerfile
+    algorithm: sha256
+    value: 887e8f2d3962acfe722edb065590e53d172cfe278ad19fe92ea81f95dcecabc2
+  - path: public/src/backend/index.js
+    algorithm: sha256
+    value: 851dd21cd5734c432a4bb39da698444a1d7679a1e9e80f5343c4d420bae19977
+  - path: public/src/backend/package-lock.json
+    algorithm: sha256
+    value: dae899f2eda7c2d8fe5764f2809a094bedb17848c32a966a3a4a48932671f9dd
+  - path: public/src/backend/package.json
+    algorithm: sha256
+    value: 482e3079eeff14189878fead21a511b6e42f39de2ff48cb58d36b6be3aafb4be
+  - path: public/src/frontend/.dockerignore
+    algorithm: sha256
+    value: 370dfe320e2ba55174f03aabd746f262e1dbd2a478415bf1ebda157454eab262
+  - path: public/src/frontend/.eslintrc.json
+    algorithm: sha256
+    value: 1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961
+  - path: public/src/frontend/.gitignore
+    algorithm: sha256
+    value: 39688688e26f2389bdd9d3683986f158a146d5de2909b2f83e542ceb471d5ed4
+  - path: public/src/frontend/Dockerfile
+    algorithm: sha256
+    value: 5a27eb6419649c054aa82e460e9d3d35523185fdfa3464e4d08acf6df71e5dca
+  - path: public/src/frontend/README.md
+    algorithm: sha256
+    value: ee01728e71954902b97dca1267f263264fa5bcf197bc54f33701b72d0180300e
+  - path: public/src/frontend/next.config.js
+    algorithm: sha256
+    value: 660f78af355945be56f482c9b697e4892d2ee7da261c8743e75a1c95d3c72c73
+  - path: public/src/frontend/package-lock.json
+    algorithm: sha256
+    value: 6c772754950d83119f89a360ef94e8703744129f8f732b15169ddf7680a50dc1
+  - path: public/src/frontend/package.json
+    algorithm: sha256
+    value: 30eb76f20babbbe98b6a1dc9b155a17bdd1dfc1306a48d0265acb70f4861d53d
+  - path: public/src/frontend/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: public/src/frontend/public/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: public/src/frontend/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: public/src/frontend/public/thirteen.svg
+    algorithm: sha256
+    value: 6a70cf328586a2b3e98f6f7f5ab88ae84732d4d4f0040d3ccc6b3a3ea0f1eab0
+  - path: public/src/frontend/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: public/src/frontend/src/pages/_app.tsx
+    algorithm: sha256
+    value: 122b910ba6f22610384633f942d447c351d92f90c6eb7734205c8d39b53c525c
+  - path: public/src/frontend/src/pages/_document.tsx
+    algorithm: sha256
+    value: 513ef09718234ca433da7d7a01965ff582c5e66ab27f2dd57c495ceae8260207
+  - path: public/src/frontend/src/pages/api/hello.ts
+    algorithm: sha256
+    value: b797b4e5661d8f3d477d2f41b134301f4e03629759b3f19ff6fec69b25a9392a
+  - path: public/src/frontend/src/pages/index.tsx
+    algorithm: sha256
+    value: 7dd746098c0e7f7ddf63ab9ad21efa8e00431c1327486157ce3782554795688f
+  - path: public/src/frontend/src/pages/note/[note_id].tsx
+    algorithm: sha256
+    value: 5d20b64808f7fe4fa38454a90780b89cd3f3d8a446c71c01a3509b6b1061ece9
+  - path: public/src/frontend/src/styles/Home.module.css
+    algorithm: sha256
+    value: c2f3ab5a8c9aab34436ca4562db77dbf6b7ab71bed6ec54580115705fde1f444
+  - path: public/src/frontend/src/styles/globals.css
+    algorithm: sha256
+    value: 1ebfeb7797847177166c376c2bb7a9d1f9d89f97c744359e391493638d2ed547
+  - path: public/src/frontend/tailwind.config.js
+    algorithm: sha256
+    value: fa3260b3147a9502f098e2540718e6199a4af5dc07671b12020ba9a57702ad67
+  - path: public/src/frontend/tsconfig.json
+    algorithm: sha256
+    value: d2f0a986a2206cd67da91ec7bf8d8404a27c7099c54e3657ae7d36f1fcb0d8b0
+  - path: public/src/nginx/Dockerfile
+    algorithm: sha256
+    value: f874bbb621a4a0811866fd7115d3f51ef191206082a85c7e5eaa7870e47c2567
+  - path: public/src/nginx/nginx.conf
+    algorithm: sha256
+    value: dd8ec188648c0f3c54cb7c1db6cb53a7289fb7afbc9ff287a9afa82e5d8b1d53
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/backend/.dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 887e8f2d3962acfe722edb065590e53d172cfe278ad19fe92ea81f95dcecabc2
+  - path: src/backend/index.js
+    algorithm: sha256
+    value: 1dd246bc27aa55ff9ff02596f33aa4d22a3e789a66f122d440d846c2805449d1
+  - path: src/backend/package-lock.json
+    algorithm: sha256
+    value: dae899f2eda7c2d8fe5764f2809a094bedb17848c32a966a3a4a48932671f9dd
+  - path: src/backend/package.json
+    algorithm: sha256
+    value: 482e3079eeff14189878fead21a511b6e42f39de2ff48cb58d36b6be3aafb4be
+  - path: src/frontend/.dockerignore
+    algorithm: sha256
+    value: 370dfe320e2ba55174f03aabd746f262e1dbd2a478415bf1ebda157454eab262
+  - path: src/frontend/.env.local
+    algorithm: sha256
+    value: f693fde4dac881ec43e5a82ccb4297809d62844c8877944ab36459702883bfac
+  - path: src/frontend/.eslintrc.json
+    algorithm: sha256
+    value: 1589a15e55fbebc6519c95d91d8f0a090618f20dc78e479858b9c27552484961
+  - path: src/frontend/.gitignore
+    algorithm: sha256
+    value: 2853eaf18758c6c03378c51e37dca75fab02deaee6b83e48c8cbb61c47d94e64
+  - path: src/frontend/Dockerfile
+    algorithm: sha256
+    value: 5a27eb6419649c054aa82e460e9d3d35523185fdfa3464e4d08acf6df71e5dca
+  - path: src/frontend/README.md
+    algorithm: sha256
+    value: ee01728e71954902b97dca1267f263264fa5bcf197bc54f33701b72d0180300e
+  - path: src/frontend/next.config.js
+    algorithm: sha256
+    value: 660f78af355945be56f482c9b697e4892d2ee7da261c8743e75a1c95d3c72c73
+  - path: src/frontend/package-lock.json
+    algorithm: sha256
+    value: 6c772754950d83119f89a360ef94e8703744129f8f732b15169ddf7680a50dc1
+  - path: src/frontend/package.json
+    algorithm: sha256
+    value: 30eb76f20babbbe98b6a1dc9b155a17bdd1dfc1306a48d0265acb70f4861d53d
+  - path: src/frontend/postcss.config.js
+    algorithm: sha256
+    value: 251ecddd4672c9cf467547e3dc535de00ad2129df26e7e7ae728fa4e5ac45fc5
+  - path: src/frontend/public/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: src/frontend/public/next.svg
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: src/frontend/public/thirteen.svg
+    algorithm: sha256
+    value: 6a70cf328586a2b3e98f6f7f5ab88ae84732d4d4f0040d3ccc6b3a3ea0f1eab0
+  - path: src/frontend/public/vercel.svg
+    algorithm: sha256
+    value: 3fa5cd757b418e18afc68ddebad55f443206e410327921ddb2bf1be731658880
+  - path: src/frontend/src/pages/_app.tsx
+    algorithm: sha256
+    value: 122b910ba6f22610384633f942d447c351d92f90c6eb7734205c8d39b53c525c
+  - path: src/frontend/src/pages/_document.tsx
+    algorithm: sha256
+    value: 513ef09718234ca433da7d7a01965ff582c5e66ab27f2dd57c495ceae8260207
+  - path: src/frontend/src/pages/api/hello.ts
+    algorithm: sha256
+    value: b797b4e5661d8f3d477d2f41b134301f4e03629759b3f19ff6fec69b25a9392a
+  - path: src/frontend/src/pages/index.tsx
+    algorithm: sha256
+    value: 7dd746098c0e7f7ddf63ab9ad21efa8e00431c1327486157ce3782554795688f
+  - path: src/frontend/src/pages/note/[note_id].tsx
+    algorithm: sha256
+    value: 5d20b64808f7fe4fa38454a90780b89cd3f3d8a446c71c01a3509b6b1061ece9
+  - path: src/frontend/src/styles/Home.module.css
+    algorithm: sha256
+    value: c2f3ab5a8c9aab34436ca4562db77dbf6b7ab71bed6ec54580115705fde1f444
+  - path: src/frontend/src/styles/globals.css
+    algorithm: sha256
+    value: 1ebfeb7797847177166c376c2bb7a9d1f9d89f97c744359e391493638d2ed547
+  - path: src/frontend/tailwind.config.js
+    algorithm: sha256
+    value: fa3260b3147a9502f098e2540718e6199a4af5dc07671b12020ba9a57702ad67
+  - path: src/frontend/tsconfig.json
+    algorithm: sha256
+    value: d2f0a986a2206cd67da91ec7bf8d8404a27c7099c54e3657ae7d36f1fcb0d8b0
+  - path: src/nginx/Dockerfile
+    algorithm: sha256
+    value: f874bbb621a4a0811866fd7115d3f51ef191206082a85c7e5eaa7870e47c2567
+  - path: src/nginx/nginx.conf
+    algorithm: sha256
+    value: dd8ec188648c0f3c54cb7c1db6cb53a7289fb7afbc9ff287a9afa82e5d8b1d53
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

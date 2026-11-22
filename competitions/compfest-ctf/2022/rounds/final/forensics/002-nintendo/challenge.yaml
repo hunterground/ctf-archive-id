@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-forensics-002
+name: nintendo
+slug: 002-nintendo
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: forensics
+original_category: forensics
+description: |-
+  Playing nintendo is very fun. We can choose many various animated games with cool design. Do you wanna try it?
+  `Flag = COMPFEST14{FLAG}`
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: kilometer
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: forensics/nintendo
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 0d9a4e1c7e769c1864f3bde80022449c3428beacaf299156da72e0ad57be2c16
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/file_maker.py
+    algorithm: sha256
+    value: 65ef03ffc4df62dd33d56caaa2ca5c355f5e0be7dabcf1272bb8ffd4c01ba638
+  - path: public/nintendo
+    algorithm: sha256
+    value: d147113f5a46c78431b93014da55339381a5d6d34e0185461d04c2cdda1343f0
+  - path: public/nintendo.png
+    algorithm: sha256
+    value: 73adf49ffdcaff26fb6d6afa965abd1a7e49b4fa8d0d7f2df17d2212054ad4c0
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The README heading is the unfilled template "Judul Soal". The archived name is nintendo, from the challenge directory.

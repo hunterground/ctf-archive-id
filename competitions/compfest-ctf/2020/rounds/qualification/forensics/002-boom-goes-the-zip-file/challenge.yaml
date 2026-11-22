@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-forensics-002
+name: Boom Goes the Zip File!
+slug: 002-boom-goes-the-zip-file
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  Dont unpack it all! IT WILL BREAK YOUR COMPUTER!
+
+  Remember, the flag matches the RegEx COMPFEST12{[A-z0-9_-]+}
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: forensic/boom-goes-the-zip-file
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 32e4dd39bcc6ae23583495e6c4277c5aeaa1e2eb1a820cb26b0b9f706bdaada7
+  - path: README.md
+    algorithm: sha256
+    value: fc2a480967fe738a98e1ac760f6ae6989b658d0f44bff8d8f9e276dc985eead0
+  - path: files/README.txt
+    algorithm: sha256
+    value: 992a71163972975c6822d329e53f8f88328d36f9b016e570f54d49d7eb21fbd5
+  - path: files/generator.py
+    algorithm: sha256
+    value: 9488bfaeff0b209a527e1164508d867d016b5bfb4d4b38289fee467dfc0dc733
+  - path: files/yang_ini_aman_diunzip.zip
+    algorithm: sha256
+    value: 32bb943d5ac60b5aa4066fe8f48109832565692daeb26b8c8709ee12bf70431c
+  - path: files/zipbomb.py
+    algorithm: sha256
+    value: a64cf99b175d9ff5ec47a28600273a791c645c11f28a317136f2a69a161ca1f6
+  - path: share/README.txt
+    algorithm: sha256
+    value: 992a71163972975c6822d329e53f8f88328d36f9b016e570f54d49d7eb21fbd5
+  - path: share/yang_ini_aman_diunzip.zip
+    algorithm: sha256
+    value: 32bb943d5ac60b5aa4066fe8f48109832565692daeb26b8c8709ee12bf70431c
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

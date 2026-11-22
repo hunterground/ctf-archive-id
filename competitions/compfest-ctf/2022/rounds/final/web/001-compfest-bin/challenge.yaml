@@ -1,0 +1,155 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-web-001
+name: COMPFEST-Bin
+slug: 001-compfest-bin
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: |-
+  >Another faulty clone webservice. But, I guess there's something special beneath it
+
+  ```
+  http://<ip>:12021
+  ```
+difficulty:
+  value: medium/hard (?)
+  source: organizer
+tags:
+- lfi
+- sqli
+- weasyprint
+authors:
+- name: Sui
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: web/compfest-bin
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: dd7edd6a7b1c0c7cd1c5065538a8d3b2ab76bd8b01cdbc72c0290d3a7301dd56
+  - path: challenge.yml
+    algorithm: sha256
+    value: fd9d0589995dbd8a95b4e2d83986d0e38e8c5e3f0c90c5662444d20d2e4e0445
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0b23f6876e6dd454864c9f2f6a2c21b79c5160a18fb5ea6c612cc9eb4b5b3150
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: bc8c30b0eb7bb95e0d2fe3d8a56cf2e5e2190824a8987406118e6b9996215e7f
+  - path: src/app/db3485d0f1bc54303cdaf9dabb1d78d961e50b233efeec9e663aea5df89490f5.db
+    algorithm: sha256
+    value: 2a5910a122e795b69aa86bb30529b96cdd65da9a70fc1d6b0d86461b075468d4
+  - path: src/app/src/__init__.py
+    algorithm: sha256
+    value: 1b7c58ccb980111ff83f990e9fb850516afbb67f57bf0fcb712aa23323a213c6
+  - path: src/app/src/app.py
+    algorithm: sha256
+    value: ab986b1ac430de57cf4d4368e5056c40fa065945fc738c7ac6d518531384ed75
+  - path: src/app/src/config.py
+    algorithm: sha256
+    value: d7a6338c49fb36e9cbbde718c094192c04574332b567d579aaba60a2fd2eaf05
+  - path: src/app/src/controllers/NoteController.py
+    algorithm: sha256
+    value: 3206e947cd46e12591dcdd59a0746dafa3eb8a4661b9ee29fb1a2a8534671089
+  - path: src/app/src/controllers/SessionController.py
+    algorithm: sha256
+    value: d8e91c27040e6e754053739170e60e5aa4ee98c6aaaf7ac5a9a8a64ebc47cb11
+  - path: src/app/src/controllers/UserController.py
+    algorithm: sha256
+    value: ab1154cdf062484b81b1c3b07793790308a6b1e5a72693de4895ff7fc491c502
+  - path: src/app/src/controllers/Utils.py
+    algorithm: sha256
+    value: 9bb5af32ac8be75de3e05b65b775bedc8ace3d79c269f4b9c8a8283c82b79fc5
+  - path: src/app/src/controllers/__init__.py
+    algorithm: sha256
+    value: 952220fa77432bbc28f06dacd0961e92fb3f00806f2f4b85b9ffd8725c1eeedf
+  - path: src/app/src/models/Note.py
+    algorithm: sha256
+    value: 729d6932aae58665aae901cf37d82e71d07562e2ac29dbe00f39987ca681dfbe
+  - path: src/app/src/models/User.py
+    algorithm: sha256
+    value: 250f6d186b54518cb14e5f04c2cde6f3b8fff7dea96f2d0f9b1ecb012cea81a8
+  - path: src/app/src/models/__init__.py
+    algorithm: sha256
+    value: e87d0de8b353a98aab948f93d45547cfddb67d9202072b40f968c529eb192a8f
+  - path: src/app/src/requirements.txt
+    algorithm: sha256
+    value: 66339083b24589981d26c8dde823a4c65adba3e92f5439b84451c6032743022b
+  - path: src/app/src/routes/__init__.py
+    algorithm: sha256
+    value: dde595c17500df0764d41c75028e974460ffcdb8588a5bdfeb574068fa7c17f4
+  - path: src/app/src/routes/api.py
+    algorithm: sha256
+    value: b2ff8370373675679d3610634379cd48371d5067c9d8786c4d7ddd38d6313b74
+  - path: src/app/src/routes/web.py
+    algorithm: sha256
+    value: 6bc6de3820ef71b3d86bec49a78ec5f6b17068007f35d467ce852434af813481
+  - path: src/app/src/templates/404.html
+    algorithm: sha256
+    value: 2ab270de07097633845d13bc682831d16a3750780b18e9484c2e976b4fe4c266
+  - path: src/app/src/templates/base.html
+    algorithm: sha256
+    value: 44126a7228c60676dcc6133d50e4c5e83c8747a41741a622df8b94419eb8a4fe
+  - path: src/app/src/templates/form.html
+    algorithm: sha256
+    value: 03031ca766fe273dacc1374b68c977b0be716b656da322d4ce7742fd9ad8955c
+  - path: src/app/src/templates/index.html
+    algorithm: sha256
+    value: c464848de678c9850f35bb0b071ac8d37dfcc40aecd5d26d04890eda704f8d2e
+  - path: src/app/src/templates/login.html
+    algorithm: sha256
+    value: d24e86c3fd0d5bfe48418bb71d77fcd261157274c6618b29dd4e5015f1c63292
+  - path: src/app/src/templates/note.html
+    algorithm: sha256
+    value: a14a7562afb9b2ed5f77a2c30304bbd1de393a76f6ff11d997274fb79b64d140
+  - path: src/app/src/templates/profile.html
+    algorithm: sha256
+    value: 4675e53533538f658286aa21a049259acae70627d6f06766cb545e63c7075587
+  - path: src/app/src/templates/publish.html
+    algorithm: sha256
+    value: acbda63fc0d3cf09316cd553341c2fc5556c1b65712091446d702b8349f5d53b
+  - path: src/app/src/templates/register.html
+    algorithm: sha256
+    value: 35b45ddebca5078f69f7161c59a5bcc164cf655ac82996ae7c4e811746dcfd76
+  - path: src/nginx.conf
+    algorithm: sha256
+    value: fc040b8d5a2643ce159a81cab92cc83172eb2e87bae1eb3cfdc4fb4e94fe6cd7
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

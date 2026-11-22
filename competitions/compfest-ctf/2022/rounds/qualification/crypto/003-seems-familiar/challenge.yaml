@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-crypto-003
+name: Seems Familiar
+slug: 003-seems-familiar
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: Your friend has developed an AES-based enryption system in his spare time. That system is very limited and only able to use printable characters, and furthermore, two of four of its functions has yet to be fixed. Even though they are broken, he insisted the flag can be acquired through thorough analysis of the encryption itself. Feeling intrigued, you feel like you are able to get the flag.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- AES
+- ECB
+- Oracle Attack
+- Known Plaintext Attack
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: cryptography/seems-familiar
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7d96bf15f504663f3e9b586096bbecba840adc19825b556aa49e2224b69575a2
+  - path: README.md
+    algorithm: sha256
+    value: e7ae6fa97b5dcba03a367a78a2e5bd0318579b2bfc4ef34e94f3732ce4804c71
+  - path: challenge.yml
+    algorithm: sha256
+    value: b1dfb6914ff50425a8ec8a64c7cf0c2417f85f19d7c09fef3255d2e6fa2bd8b3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 36ddc76ad3a0b0d6b079dca8f655e3bb7a3b6a70dd8a2bf5ae02ee4dc5b35c11
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: bf866e5f633bff3726c0805e4b2fe41e94fb9aaff280c438a4ee00fa9f4f4757
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/chall.py
+    algorithm: sha256
+    value: 46984facc613c970dfa7f01e54499c7514dd7ea588ee225b586b48ad4fe34c18
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: bf658dec0e21df619b917f77f2725fb3fad6b78a1da1e5929e4d51bc9b611c69
+  - path: src/server/secret.py
+    algorithm: sha256
+    value: 1cb48a0bfc2e7bd7c1f0699e23c242ec559b6b4966dc48bc2060cf894a443664
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

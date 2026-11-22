@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-web-004
+name: Hospital Donation
+slug: 004-hospital-donation
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: Please donate to help our hospital! Donate 10 - 50 (inclusive) transport ventilators to receive the rewards.
+difficulty:
+  value: Easy
+  source: organizer
+tags:
+- Web
+- JS
+- Precision error
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: web/hospital-donation
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 5204852fbe1e50277c96696127bd07bd255b6920c3cf60e15d2bf0c4dc2270b6
+  - path: README.md
+    algorithm: sha256
+    value: e1227c15294093e326c794587daf82f50a397c14c8a2c3625318fbe12f5b7218
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 11f8912a58251f78c8d93f1a286e75117f3636dbce21632ecec5810a6e0f8162
+  - path: src/web/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: 2ece982a2f50104985d02f4ab4e6c6bd750eff312534045f8aa59c89ca2f5a30
+  - path: src/web/docker/entrypoint.sh
+    algorithm: sha256
+    value: 9f66e7f9d3af598f85673dbb55cb165d0ea03d427f5f1a262182ff5c2355d040
+  - path: src/web/docker/nginx.conf
+    algorithm: sha256
+    value: 62782cffe3ec110df20254bf2d9c62d9eee780a10a08f52a1b5705eef48f36e6
+  - path: src/web/server/index.js
+    algorithm: sha256
+    value: 3ee36e1d975e20e25f51d59ce3b2185c82e7ea07456ffacc8d77e13e174e54d8
+  - path: src/web/server/lib/secret.js
+    algorithm: sha256
+    value: c3c0ac584409ae8154bb997fb66888f10c0cc851927b3c6ed4d9268d76f5a9dc
+  - path: src/web/server/lib/utils.js
+    algorithm: sha256
+    value: 3eb11a48b37c7ab5656980f3717edf831684250db8a896621340b65deb6ffc3c
+  - path: src/web/server/package-lock.json
+    algorithm: sha256
+    value: 51d765bf0258e5f0413d0373526456a24b27e6f8b86c664953f5e229b8f5cd77
+  - path: src/web/server/package.json
+    algorithm: sha256
+    value: 271e428add0687daafeca1e44c740d209aee148e28f13ff12b74d9c56dd8e718
+  - path: src/web/server/views/donate.html
+    algorithm: sha256
+    value: 6beb539be1ece4d96851fc435d3ef94704aebf4335ce7febb58c7692401cde82
+  - path: src/web/server/views/index.html
+    algorithm: sha256
+    value: 7dea8612034adadcfe1469ce3f02232c470d843e0f8ff3c5960f3f33cf933d61
+  - path: src/web/server/views/receipt.html
+    algorithm: sha256
+    value: 6173e70e2b5ea27e766f96debd141478a65b77eb1499774ebd29d2e80788958f
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

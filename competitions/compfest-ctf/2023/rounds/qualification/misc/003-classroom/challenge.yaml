@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-misc-003
+name: classroom
+slug: 003-classroom
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  New semester has begun, this is a class room list for each day :
+  bit.ly/Spreadsheet-Chall
+  Wait.. why there is a flag page?
+  Flag : COMPFEST15{flag}
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: kilometer
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Misc/classroom
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1e0225f9a41c180863c12fd49f616c5055e4d1b11f66b081f3d635c7c280d9d0
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The README heading is the unfilled template "Judul Soal". The archived name is classroom, from the challenge directory.

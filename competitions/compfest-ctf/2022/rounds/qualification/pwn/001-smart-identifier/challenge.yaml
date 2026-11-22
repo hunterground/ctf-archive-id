@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-pwn-001
+name: Smart Identifier
+slug: 001-smart-identifier
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: 'This program can identify who you are (source: trust me bro!). Cmon, try it. It’s not like this program is fake or anything :D.'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- bof
+- ret2win
+authors:
+- name: ReeyaDono
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: pwn/smart-identifier
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitattributes
+    algorithm: sha256
+    value: 825f72a53744c9d733d2146f1d1d843d19e6f8144a908ee256a0bebf9f0cf5bf
+  - path: Dockerfile
+    algorithm: sha256
+    value: 92f44173047a9ef140a5a79a8f0330cffe18c975107ad0ab566c881b58af06a5
+  - path: README.md
+    algorithm: sha256
+    value: 2314ce32fc3cf87fa454c9580dd0e2d7f2e97f5f37dccb62b27bb5eb78c5e81f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 800b6dd46259ae548e6ad8f7d24020fd3e216d9da5e1fdf0962c3636a9d3d448
+  - path: public/chall
+    algorithm: sha256
+    value: 19971c895f6edbe7a5972f6857e0d67591692b64671fd559bd7e2865dbac7058
+  - path: public/ld-2.27.so
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: public/libc-2.27.so
+    algorithm: sha256
+    value: acf8ac6d219b657af09328abde95a6a52a3ce7019c6717cade77db5634498866
+  - path: src/chall
+    algorithm: sha256
+    value: 19971c895f6edbe7a5972f6857e0d67591692b64671fd559bd7e2865dbac7058
+  - path: src/chall.c
+    algorithm: sha256
+    value: d22d0ff9abbb119f77b97dbef226540c73fdecbbfeb03d84fbdb8d404d325e84
+  - path: src/ctf.xinetd
+    algorithm: sha256
+    value: 54349dcea2e591aa0336868a45ecc5f71218ce36ca1394c5431f388f1acc7a5e
+  - path: src/flag.txt
+    algorithm: sha256
+    value: cc1904b832de6a0c55d8ec3df367af0553833c96db131d9ea2503cd6d43f0218
+  - path: src/start.sh
+    algorithm: sha256
+    value: 9019d9bc74771519b802a69cca956500bf66518b219f7efe7d32d24150aab60d
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

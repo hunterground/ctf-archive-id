@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-pwn-001
+name: BrainSim
+slug: 001-brainsim
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: Heyy! So, I found this BF simulator thing. I thought it's hackable-ish? Because my friend told me there's flag file in it. Maybe you could help me while I'm having my breakfast ? Ehehe...
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Brainfuck
+- Buffer Overflow
+- Shellcode
+authors:
+- name: xMaximusKl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: binary-exploitation/brainsim
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 40e20c17a1a10580c62713a7904663c98976be1b590b8e069ac62555558fcf52
+  - path: README.md
+    algorithm: sha256
+    value: f077aa8d915afbe3b34f66c71feec454fbc52b5361736a31294b8cf2b15d4227
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 96f068585508c351dfa4e33526f76e031df03d2a138740473cb143ad4a412505
+  - path: public/BrainSim
+    algorithm: sha256
+    value: c49a81622d699886b8f3f7daf3e761e14da8d364ffc7520bd456f06a0c0c7a5c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 11dde735e9522d605d7382979d7ceccaaa3f85142e3f6e3e3901bfce9464a119
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: bc6419757ae6bf2bde82ccee9e384e48aea39e79bbde77b40e973c21f425537f
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/BrainSim
+    algorithm: sha256
+    value: c49a81622d699886b8f3f7daf3e761e14da8d364ffc7520bd456f06a0c0c7a5c
+  - path: src/server/BrainSim.c
+    algorithm: sha256
+    value: cd608451880048bbba330d15df598f9e3b5954d96db9996dd0635f4db200b449
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 9e74b0b5ae08a5b6b4932e5b22e530fab29dc9f000acd534e7bdbd6d02da43c3
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

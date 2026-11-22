@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-rev-003
+name: KatVM
+slug: 003-katvm
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  I made my own language! It's very simple, yet effective in comparing things. It has turing machine like properties as well.
+
+  Here are the instructions available, write in just like how you write assembly or script, its top to down:
+
+  - `left <N>`, `right <N>`: Move the tape head to left or right by N
+  - `store <STRING>`: Store string to from current head, the head will move right after the string
+  - `print`: Print from head to next empty
+  - `input`: Input from stdin and store it in current head, the head will move right after the string
+  - `push`: Push current head to stack
+  - `popeq <CHAR>`: Pop current stack, and compare the character with given char. If true, it will skip next instruction
+  - `quit`: Exit
+
+  You may write it the code in a `.kat` file, and you can compile it with `python build.py yourfile.kat output.kb`. Then execute it
+  with `python katvm.py output.kb`.
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- assembly
+- compiler
+authors:
+- name: rorre
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Reverse Engineering/KatVM
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 93f74cfcff622991d9acbe47b5199ef97d458cfb0422bc6b5e36f2afa42a0743
+  - path: README.md
+    algorithm: sha256
+    value: c3067ea86efe7e100bf467910dbe38ca63e702f73aee62c065b0c022bbbdea0c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e44d2c865e32e1e443ebbde4190d1fdb83018d8388cdcd4d12a7fad6603c72fa
+  - path: public/check.kb
+    algorithm: sha256
+    value: 9693f7d1b22f9cb70a07637817ddb10ff89bb53a68bb791bfece32f9e53c7d3b
+  - path: public/run_katvm.py
+    algorithm: sha256
+    value: b3b04d8c77fb8f452fea855f0d945f47db20ee084d4617ea94bc8bd93f476004
+  - path: src/bootstrap.py.tmpl
+    algorithm: sha256
+    value: 7500542f3c5967f3f38e350317a557ffb8b3bb0db4e4213dcdb958f6a5158280
+  - path: src/build_runner.py
+    algorithm: sha256
+    value: 16bb637bd0c9883353f47db6b7fd1de127b617b385e5cd40d1ca23099c8dd49e
+  - path: src/generate.py
+    algorithm: sha256
+    value: 4fefcdbd68625a1f05cc0519eaa90aba91c40be9c77613a4967c29883f74868c
+  - path: src/runner/katvm.py
+    algorithm: sha256
+    value: 8b39162223e40ea0cdde620a6bd97087e994fc1c36df16e75c26b63415ed90df
+  - path: src/runner/utils.py
+    algorithm: sha256
+    value: 3d9bc04b8978929705632e1a7b15bd6f67da5f0bc774f5938c6462c879c09d10
+  - path: src/runner/vm.py
+    algorithm: sha256
+    value: 6731c5181e324352b4fd77a68b642439e0c81388f6f4569ab33c23c74972c3b6
+  - path: src/web/app.py
+    algorithm: sha256
+    value: 736be364232301420afbf298da81e86dbf057fabf6a574490fbabe12eb56e8bb
+  - path: src/web/build.py
+    algorithm: sha256
+    value: 5428ee3cecc9ec275343644c38d67b0ec767ec80514aee438224abc36714b1a5
+  - path: src/web/requirements.txt
+    algorithm: sha256
+    value: 83f8b08f5183153870b71d091c0975fc84171886a5e9921eac193ef543029d16
+  - path: src/web/templates/index.html
+    algorithm: sha256
+    value: 92fb988479a1e6a2e66cbd46bdd0637fd94f289fac246c255498a9fef224e992
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

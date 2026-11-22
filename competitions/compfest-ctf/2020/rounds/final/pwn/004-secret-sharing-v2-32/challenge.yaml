@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-pwn-004
+name: Secret Sharing v2.32
+slug: 004-secret-sharing-v2-32
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: Share you secrets, now with glibc 2.32!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: binary-exploitation/secret-sharing-v2.32
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b2c46c7a8e953f4b5768db7ae16fadd54cafceb585460425bc794604870e5aed
+  - path: README.md
+    algorithm: sha256
+    value: aedb6e880168c94fb4e259caa9d3f96339efafc64f0b888c29c3deafb7e4aefe
+  - path: build/flag.txt
+    algorithm: sha256
+    value: 82efbee3fdda362a91275c625081d50cb5d17db433d1521ec9b4574e1165efa7
+  - path: build/ld-2.32.so
+    algorithm: sha256
+    value: 1942ca1a8b346213b59b23e9d741cd02252a0a22fb9ae4e1d092f044da4e19ec
+  - path: build/libc.so.6
+    algorithm: sha256
+    value: b8de177ba439d420c61081a017d9408d8f87fbcdca08b82cf7a2a31e82825ca3
+  - path: build/secrets
+    algorithm: sha256
+    value: 861ddfd9d04528eee32da3239f3b3ed746a2db4bfa25a5f0a725780600e83c7c
+  - path: build/secrets.c
+    algorithm: sha256
+    value: 127aea0cf175461a9faabf287b3ca30fb1592332373d14d1dbdd615ed610c9cc
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3fc462b565758860f458f9a5d43520f0b54914988cedf9302dda2f103b36407a
+  - path: files/ld-2.32.so
+    algorithm: sha256
+    value: 1942ca1a8b346213b59b23e9d741cd02252a0a22fb9ae4e1d092f044da4e19ec
+  - path: files/libc.so.6
+    algorithm: sha256
+    value: b8de177ba439d420c61081a017d9408d8f87fbcdca08b82cf7a2a31e82825ca3
+  - path: files/secrets
+    algorithm: sha256
+    value: 861ddfd9d04528eee32da3239f3b3ed746a2db4bfa25a5f0a725780600e83c7c
+  - path: files/secrets.c
+    algorithm: sha256
+    value: 127aea0cf175461a9faabf287b3ca30fb1592332373d14d1dbdd615ed610c9cc
+  - path: share/ld-2.32.so
+    algorithm: sha256
+    value: 1942ca1a8b346213b59b23e9d741cd02252a0a22fb9ae4e1d092f044da4e19ec
+  - path: share/libc.so.6
+    algorithm: sha256
+    value: b8de177ba439d420c61081a017d9408d8f87fbcdca08b82cf7a2a31e82825ca3
+  - path: share/secrets
+    algorithm: sha256
+    value: 861ddfd9d04528eee32da3239f3b3ed746a2db4bfa25a5f0a725780600e83c7c
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

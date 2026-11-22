@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-005
+name: NeoZap Checker
+slug: 005-neozap-checker
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  Disclaimer: Tahukah Anda, apalagi yang dadakan selain tahu bulat? Yak, challenge ini 😂.
+
+  Because NeoZap is a true sigma, he developed an HTTP webserver in C to authenticate himself. NeoZap, unlike other noob C developers, knows how to secure his apps from trivial exploitation, like buffer overflows, etc. Prove him wrong!
+
+  Note:
+  - Bruteforcing the remote server is not allowed.
+  - Length difference between the original binary file and your patch cannot exceed 32 bytes.
+  - Restart the challenge service after patching
+
+  [Attachment](https://d.rorre.me/aWFfDR8Q/neozap-checker.zip)
+
+  Author: NeoZap
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: NeoZap
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: neozap-checker
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b53e346b2bbbbc6cb54b70420184c5bd91c71c0ce0521da84832ffa2347f42ae
+  - path: attachment/neozap-checker.zip
+    algorithm: sha256
+    value: b56a83e8a6ff3b121c245e153eb2d399d8526de7043a8cdbad8bc53f7bb87ada
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3f664cfcc294b65b855c8e4a8c86f821549ea82984c4c74c83f9073587ce08ae
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: 72e3b9741d473262354b25819906fd2ff31bef321ff4adcba805647e3fc3e8e1
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 00acc362f10fbe53bc3aecf2285ecd4e9b5ce87efd33ef8d92d45ea72e8a2c72
+  - path: flag/flag.txt
+    algorithm: sha256
+    value: 8e551adf72dd0d2b076ee3759552833922ca218a43c24a268fb4fc3559bb3156
+  - path: patchrule.yml
+    algorithm: sha256
+    value: a55508befa2309e89d330ce9ce204c60594dded72dab5254f8250a6723d74fc1
+  - path: src/.gdb_history
+    algorithm: sha256
+    value: 8623ccbcb25240be91d3c53e3da6544fcad17d5482e7e703dccff495fe25fb29
+  - path: src/Makefile
+    algorithm: sha256
+    value: 9905adf30676bd5d285be01f040689fc5d87e2bef656cc02a2a2da79431d7bea
+  - path: src/README.md
+    algorithm: sha256
+    value: 1062231d45162b13fd2b7b11ed48279fcd8b5a6388c8158756718812fa780309
+  - path: src/login.html
+    algorithm: sha256
+    value: 1d6321bd5390a525282c5c99ca6a75f54d5b3ecfcc6377ea6869133113bc1277
+  - path: src/secret.html
+    algorithm: sha256
+    value: ad2b460a1d1faa590582f6dca0e45a57999c95d967275dd6e2142a90657db29a
+  - path: src/server
+    algorithm: sha256
+    value: 983be1fa00e69497172f420dc41068a30e7d01cbe7c3e155e9e022433c37beae
+  - path: src/server.c
+    algorithm: sha256
+    value: 744ceaa56a092ae23bcc57df111355b8c9df998bb6c3d73c459d9c1cd1cecb50
+  - path: test/requirements.txt
+    algorithm: sha256
+    value: 7cc4959877dbe6b6c63a8eb1bfe3bfb545fa8fe5b28b1b2c13e4a7c1c0d1c4d4
+  - path: test/server
+    algorithm: sha256
+    value: 983be1fa00e69497172f420dc41068a30e7d01cbe7c3e155e9e022433c37beae
+  - path: test/test.py
+    algorithm: sha256
+    value: b2483f096397dae3d0a8f9bfb3ccf7e566c801cbf67d4523e2b1f991869ad0ed
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

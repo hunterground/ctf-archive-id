@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-rev-002
+name: baby networking
+slug: 002-baby-networking
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: idk, I literally made this challenge last night. I hope this challenge is not that bad. Someone with username davebinrobinson gave me his public key for this program and challenged me to connect to his server only with this information and this broken socket client written in c.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- elf
+- socket
+authors:
+- name: ReeyaDono
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: reverse-engineering/baby-networking
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a4d6eb8d8c1ff4dba9f270d9a34eccc307c68c2a5e377f24d9a34c6f3f5c450d
+  - path: public/client
+    algorithm: sha256
+    value: 40495bf5cf35a3e24199e311cd0df6419499258fe6d718875a42d86e4cb73eb5
+  - path: public/publicKey.txt
+    algorithm: sha256
+    value: 910370041d464ade7b3b12eccadcf97de99e98c2d0af7f12073fa9b71497359d
+  - path: src/client
+    algorithm: sha256
+    value: 40495bf5cf35a3e24199e311cd0df6419499258fe6d718875a42d86e4cb73eb5
+  - path: src/client.c
+    algorithm: sha256
+    value: 2fd86c8dbdc7dee0880b6cf5539c1e0f6d6babeede9b0e27e0d6c1868dc4a526
+  - path: src/client.py
+    algorithm: sha256
+    value: 6d0c7f0b9a55b80a93b2c7d26176ec7e80255f3889521b385cba0e66fd2bb32b
+  - path: src/server.py
+    algorithm: sha256
+    value: d9cd7b52d42b8ebbeb9903801e3f2f6f1c76ad9c6492ca7ecfd4df9c8ab37eaa
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

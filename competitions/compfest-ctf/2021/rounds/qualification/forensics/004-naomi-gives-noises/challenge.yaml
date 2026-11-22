@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-forensics-004
+name: Naomi Gives Noises
+slug: 004-naomi-gives-noises
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  Your friend Naomi tried to give you an image with the flag inside it. She said the voice recording might help, but you can't quite understand what it's about. She said the light of the image will lead you to the flag. Are you able to figure it out?
+
+  *You might want to turn your volume down before playing the audio file
+difficulty:
+  value: Easy-medium
+  source: organizer
+tags:
+- Forensics
+- Steganography
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: forensic/naomi-gives-noises
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4ec131285feaafa9dbd7b52d683ba903a22ae7364557b1057b21d4ca085e42d3
+  - path: public/Flag.jpg
+    algorithm: sha256
+    value: ab0c4886b879ffaec5e0d2c0ce855fac781febd71395b4d2d3e3e116c73f0cb0
+  - path: public/pass.wav
+    algorithm: sha256
+    value: bcc070c74fd30acab853bcaa3f95b0855b5b88a597ff884eee603239ed51042e
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

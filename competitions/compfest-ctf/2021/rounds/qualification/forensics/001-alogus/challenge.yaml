@@ -1,0 +1,53 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-forensics-001
+name: alogus
+slug: 001-alogus
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Dillan Duck is an intern who has just been accepted at PT Santoso Star. One day, Mr. Santoso shared a link to an important zip file to all of his employee. There is an image contained inside that zip file and Mr. Santoso asked every employee to recolor that image and send him the recolored image best suited for the company. Unfortunately, Dillan forgot what the password of that zip file is and tried to contact Mr. Santoso. Can you get the contents of that file?
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Packet Capture
+- Memory Dump
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: forensic/alogus
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 617f5d07497eded4ed6ebd34d57d58325c09b689057e46df1c388a5b835c1b10
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

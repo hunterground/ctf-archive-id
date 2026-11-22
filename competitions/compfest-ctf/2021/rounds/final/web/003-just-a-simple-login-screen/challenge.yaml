@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-web-003
+name: Just a Simple Login Screen
+slug: 003-just-a-simple-login-screen
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: |-
+  Yeah, this is just a simple login screen to log in.
+
+  Flag is in the `/flag.txt`
+
+  <link to web>
+difficulty:
+  value: Medium-hard
+  source: organizer
+tags:
+- Blind Sql Injection
+- LFI
+authors:
+- name: William (Hori75)
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: web/just-a-simple-login-screen
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3c703dc7e2a2a6810bfd42b17e97317603f13f76fcaa910d00ea92ff740869b5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 68a319e214bef28c1606dceadf0ce7f657752e07634eed1a78764ff13cf2dfe8
+  - path: public/index.php
+    algorithm: sha256
+    value: cf492aed2981f35f63d4ee75c6a58abb20ed202d512a4148faf5aa77bfe7c328
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: bc29324c010a1f0841ee5d936a9849bba1e31a1faf9aa9554c7d72812d62d2b5
+  - path: src/web/db/db.sql
+    algorithm: sha256
+    value: 1bf5d42f8d7876ae75646bec6191ce6ac884700872102a4064d170c1b1333418
+  - path: src/web/docker/entrypoint.sh
+    algorithm: sha256
+    value: 360394a6cb04e3a31fa18f134ffbe2833ed5219743895da3341f6468bd3c2c5b
+  - path: src/web/docker/flag.txt
+    algorithm: sha256
+    value: 8f4bd92f9ca3bba7d01e6b2a396217d82514d86dc3411b546771e1d43f100c9d
+  - path: src/web/docker/mysql-alpine.sh
+    algorithm: sha256
+    value: de75f1946a4d7462f4047c99460640da5b071ddc3c1112126a140a28c20e1018
+  - path: src/web/docker/nginx.conf
+    algorithm: sha256
+    value: 1fc6b70e07742f3c52a24f80b941356660b692e3e65d4f460c7b5cdc9508a13c
+  - path: src/web/docker/php.ini
+    algorithm: sha256
+    value: 6a7821e9ef361137e91213dc65fd9f2e919f27ffe2804f32f7445cadcfa5c9e4
+  - path: src/web/server/index.php
+    algorithm: sha256
+    value: 93a2eb9181555e7567055c17e89e0a9368e9a2f56d748b7d2ca235d30ba82367
+  - path: src/web/server/static/images/meong.jpg
+    algorithm: sha256
+    value: db814099bda123409f01ea1b22c246552ed56bc7514da518629df0e2514eab7b
+  - path: src/web/server/static/images/mesus.png
+    algorithm: sha256
+    value: c88e0db4b59272c6c38a289dc245b329362094bc91003a5039dd8082440fd41b
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

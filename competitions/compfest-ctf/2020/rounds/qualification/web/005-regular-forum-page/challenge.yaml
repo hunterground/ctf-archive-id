@@ -1,0 +1,166 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-web-005
+name: Regular Forum Page
+slug: 005-regular-forum-page
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: Check out my sweet new forum page! Mods will check often in to prevent bad things from happening.
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: web/regular-forum-page
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 28404807be52edd05843013385cb22b173af2e33f803a418d3b6637ab2a27574
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 6aafc766eab37361a25ec87d1329ba9fd632b2d759e092669ce0fd847d864c25
+  - path: logs/web/access.log
+    algorithm: sha256
+    value: 2189abf7d33c5203533758abcd616d5b4080760a72cbb7202367a6667fca2c65
+  - path: logs/web/error.log
+    algorithm: sha256
+    value: 3aaf7749fe2eada7e01fa24d70fe9bb58edf3d91010a0c81a5d4b5e95d751b6f
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 1de32f0671914f03de26821191597968759ae81e2505491f3379196a7d56b416
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: a08782f42501c18920ea3773df3d2cf130cfa34a5dc90f6ac51d9e105bed01e6
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: 70e6419f6c318ba8890cf8ea6451055a3411c3c71653b37de263d74082284874
+  - path: src/web/src/docker/entrypoint.sh
+    algorithm: sha256
+    value: 1ec361b77b6a143ad2afb6bacccf2067ecd8a262f8054a8a5243e747f55233e5
+  - path: src/web/src/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: 549ec093787a685ef8415bb125fd52a4e34ca343ab35e3e19fefe5b29fa86e71
+  - path: src/web/src/docker/install.sh
+    algorithm: sha256
+    value: 72c6d542a13638bed37d6dc6547428c251cbac8ceddda3152892ff110c8e8d0e
+  - path: src/web/src/docker/nginx.conf
+    algorithm: sha256
+    value: 62ad9ff7a4281ea4c1b2937fd028313e799b1d720d537dd590e04c3a2ea5b318
+  - path: src/web/src/docker/postgres-alpine.sh
+    algorithm: sha256
+    value: 6440d1dd4cba0b24d0fa6e9d8ea1be447aa0c0299290ddfe48b233768563de71
+  - path: src/web/src/docker/server-req.txt
+    algorithm: sha256
+    value: e754088a869a78bf9beb32fea93b088703a9b49fe93d52196d5c5bf02fb95ccb
+  - path: src/web/src/regularforum/.gitignore
+    algorithm: sha256
+    value: 328c8424b65773e5f019e5b9ee3166dbad11d1dfaf4e2a5c82588538a9a8c867
+  - path: src/web/src/regularforum/db.sqlite3
+    algorithm: sha256
+    value: d0e93cddfb9e72cc33afb28189c771a4b0d4918ad179050a0abb1aec12af782a
+  - path: src/web/src/regularforum/fixtures/data.json
+    algorithm: sha256
+    value: 91af6df9c99dcf9778a3c0cbb6e695303485bec0f96128fcd961fd25b2ade78f
+  - path: src/web/src/regularforum/forum/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/src/regularforum/forum/admin.py
+    algorithm: sha256
+    value: c57be1ff564e3687de38d8a4d72f408846de6ba405623527613634530921fd12
+  - path: src/web/src/regularforum/forum/apps.py
+    algorithm: sha256
+    value: 701aaa5ac37bc50bc87724ae49e2d41b11fe273ed8132bada3e9cffefe5e52e0
+  - path: src/web/src/regularforum/forum/filter.py
+    algorithm: sha256
+    value: f37c78be5786e9b43238530557247add3fd48984fd9f55831464ff222e45dbed
+  - path: src/web/src/regularforum/forum/migrations/0001_initial.py
+    algorithm: sha256
+    value: 2ccd9406a44fdd8c3ee65b0d069b5a4127b4859742dc6c66efa3f2078caed485
+  - path: src/web/src/regularforum/forum/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/src/regularforum/forum/models.py
+    algorithm: sha256
+    value: 9554b9c02b062e8cd853cd6cf5d5134666989b72a967e2edb900b53272bd14da
+  - path: src/web/src/regularforum/forum/static/style.css
+    algorithm: sha256
+    value: 8f1406ba7cc45cb0a2535bfe0b6acb42b90780b3c343045819a61e00472a4d8b
+  - path: src/web/src/regularforum/forum/templates/base.html
+    algorithm: sha256
+    value: 2321a77fd902ba0ef526d5fabbac13058738b8af0c30467e0f66c18fd8d15132
+  - path: src/web/src/regularforum/forum/templates/forum/create.html
+    algorithm: sha256
+    value: c566d5035f86b9571fc509c890e0a8c3a328c011b3511a7f7b0e1e2e95392e3f
+  - path: src/web/src/regularforum/forum/templates/forum/index.html
+    algorithm: sha256
+    value: e34116d546b5a8411449ee145a755d6235cf184749b3250876c85968f8d88f6e
+  - path: src/web/src/regularforum/forum/templates/forum/login.html
+    algorithm: sha256
+    value: 88f40cedc4cbb138838bd8e839a8f85e6a24e50442628379e3c21a71e49c485c
+  - path: src/web/src/regularforum/forum/templates/forum/signup.html
+    algorithm: sha256
+    value: bffcf19676a4676dbbc3fb5ae8a5bf87bf980aeea33205f3336b63ae119ac6f5
+  - path: src/web/src/regularforum/forum/templates/forum/view.html
+    algorithm: sha256
+    value: 0ed29d12faea6997b9acff4490fa2f0c65cb7afa1a869a5638d57a434229d5b0
+  - path: src/web/src/regularforum/forum/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/web/src/regularforum/forum/urls.py
+    algorithm: sha256
+    value: 4c3774abe27f7376542868bc1f92947ccd6da512fdeeb9095fb378464f783f94
+  - path: src/web/src/regularforum/forum/views.py
+    algorithm: sha256
+    value: 6be246f68dec3fe05fa06b7c7c38cfa9e240da2dc0ab97d42d768aaa9836f36c
+  - path: src/web/src/regularforum/manage.py
+    algorithm: sha256
+    value: 93e8eab068ce6043908dc9cac2dfcabb190d28ee70f4a3b53f40aa4684a16555
+  - path: src/web/src/regularforum/regularforum/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/src/regularforum/regularforum/asgi.py
+    algorithm: sha256
+    value: 500e32359d07946f618dd1cc4a30a7bc39935a8d29fd8291c9ce14e1d207b2be
+  - path: src/web/src/regularforum/regularforum/settings.py
+    algorithm: sha256
+    value: 15ace623d7275faa99dc6a09330aa7a94eb06b1663d6b3be5ade0998452e0428
+  - path: src/web/src/regularforum/regularforum/urls.py
+    algorithm: sha256
+    value: d9d6f54fdd46a8d1bba278c1ecdada20ca125130ce854b558cbb7cdcea505630
+  - path: src/web/src/regularforum/regularforum/wsgi.py
+    algorithm: sha256
+    value: af3e83c88da37b42cab058f8601cbc3a48c05d883343ad864649b57ab14817f9
+  - path: src/web/src/regularforum/requirements.txt
+    algorithm: sha256
+    value: de0a9632a8553d8f49203d4a4622be5665421064fccb7901a8ec3d4cd5bfc99a
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

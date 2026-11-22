@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-crypto-003
+name: Private
+slug: 003-private
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: Welp, I guess you just need to decrypt it.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- RSA
+- same private key attack
+- LLL
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: cryptography/private
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: aff01424955c1b9b7cc6860d8d7b8309f2b535c92dce722f53434b66493eed5c
+  - path: README.md
+    algorithm: sha256
+    value: 5c79f4053d752ce3b63c62dd562c5ebebaf7bc7aa8fd6baeb1fef93a8032d564
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/chall.py
+    algorithm: sha256
+    value: bddfa13b0ae1db46f907e6eb2da4306e0d5aef2007ddb4069d6d9bbbcc60d1c4
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e7c81f83358c9a75c55cfb79d81f3db9b9fc0a61fd162a5e6da7edb1f37c390a
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: bf866e5f633bff3726c0805e4b2fe41e94fb9aaff280c438a4ee00fa9f4f4757
+  - path: src/docker/install.sh
+    algorithm: sha256
+    value: 1f92c1a175578ac849cec2dc910b54de642d612ae6120fe45fccd1ff2b467986
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/chall.py
+    algorithm: sha256
+    value: bddfa13b0ae1db46f907e6eb2da4306e0d5aef2007ddb4069d6d9bbbcc60d1c4
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: 274868efaef7671c8205aa7b2b4484533a348a8c2abd35bd43feff2aae38aa78
+  - path: src/server/secret.py
+    algorithm: sha256
+    value: 4511b3c8ec281a689a9229715730a28d07f33798e7f66f03b587db6af963e855
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

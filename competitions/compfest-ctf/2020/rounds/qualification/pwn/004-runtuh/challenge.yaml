@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-pwn-004
+name: Runtuh
+slug: 004-runtuh
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: 'This is one of my first C++ code ever. Based on the problem "Runtuh" found here: https://tlx.toki.id/courses/competitive/chapters/01/problems/B. Turns out you can pwn it :v'
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: binary-exploitation/runtuh
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 790f3b5554bd5071d0e009321c5d2929f849536cb3405683abc0fab5e910f976
+  - path: files/flag.txt
+    algorithm: sha256
+    value: 17fbf65a2c96a403ca6a61ee1d70af5077178afd6a7f15d088c946388603565f
+  - path: files/runtuh
+    algorithm: sha256
+    value: cab0b05546fbf1361f0f4e7518e9dc02320a8f93f810f01a3abafbaf6d7de330
+  - path: files/runtuh.cpp
+    algorithm: sha256
+    value: cfd8743fc21e5f904d67340fd07fb95e7aff4d363220bfb83289d3c8b5d3391b
+  - path: share/runtuh
+    algorithm: sha256
+    value: cab0b05546fbf1361f0f4e7518e9dc02320a8f93f810f01a3abafbaf6d7de330
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

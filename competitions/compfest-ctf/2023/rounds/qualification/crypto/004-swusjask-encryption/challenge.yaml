@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-crypto-004
+name: Swusjask Encryption
+slug: 004-swusjask-encryption
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: RSA is widely known and used as cryptography encryption algorithm and work in group Zp under multiplication. What if I’m trying my own cryptography encryption algorithm that work under some my defined group with my defined multiplication operation. I think this cryptography algorithm have secure enough to encrypt my data
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- cryptosystem
+- abstract algebra
+authors:
+- name: swusjask
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Cryptography/Swusjask Encryption
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c9408a018b1ffb52fc5b8dc44327ec613894464602f1f1d39aae158f549967f1
+  - path: public/chall.py
+    algorithm: sha256
+    value: 2cb8f268337d1b1e01fd7f7355e227d04725882b64ace78ae7b5ca40bce303df
+  - path: public/flag.enc
+    algorithm: sha256
+    value: 8dad49406a7c1bfa8fd076eb28d3fb6cc4bd0d5a517f74deec68d939f9e56f47
+  - path: src/chall.py
+    algorithm: sha256
+    value: 2cb8f268337d1b1e01fd7f7355e227d04725882b64ace78ae7b5ca40bce303df
+  - path: src/flag.enc
+    algorithm: sha256
+    value: 8dad49406a7c1bfa8fd076eb28d3fb6cc4bd0d5a517f74deec68d939f9e56f47
+  - path: src/flag.png
+    algorithm: sha256
+    value: 8cb172fa4455755c412eff5b5ddd41b2b33dc07713ed729e22d7cca18141909e
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

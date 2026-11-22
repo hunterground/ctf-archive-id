@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-forensics-005
+name: Silverqueen
+slug: 005-silverqueen
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: |-
+  "Silverqueen Chunky Bar! Berbagi bersama teman." ((Totally not sponsored))
+
+  Jadi laper abis ngeliat gambar coklat...
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: mdzkm
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: forensic/silverqueen
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9f362dc9be0f4e5d6af9d88c40830cdf6b8ed474f8f46433949809964f3e81a0
+  - path: silverqueen
+    algorithm: sha256
+    value: efa0d37040c956769a2ec1b09789a0c6b2554cfdf57fcd9c06958e366f30ed1c
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

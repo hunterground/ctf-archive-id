@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: qualification
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+name: Qualification
+original_name: qualification
+sequence: 1
+type: qualification
+delivery: null
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 25
+  participant_count: null
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: Qualification problem set for COMPFEST 13. The repository README says the same set was used for the public mirror. Category counts are crypto 4, forensics 5, misc 3, pwn 5, rev 4, web 4. Imported from the organizer repository on 2026-11-22. Every problem-set README states that the problems are licensed CC BY-SA 4.0 to the respective author. Sequence numbers are alphabetical by archived challenge name within each category. Author solution directories named writeup, solver, solution, answer, or exploit, and solver scripts at the challenge root, were placed under solvers/ and are not recorded in challenge.yaml. Editor metadata, Python bytecode caches, and a committed virtual environment inside one solver directory were not copied.

@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-003
+name: ggez
+slug: 003-ggez
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  "ez mid" they said. I gave them this web so they can play midlane better 😤
+
+  P.S. Restart the challenge service after patching
+
+  [Attachment](https://d.rorre.me/9hkm93ng/ggez.zip)
+
+  Author: NeoLily
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: NeoLily
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: ggez
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: d21f3b44fc3be8c48f58cce2cb2ca9b3c19dcffd1ffc586a6b4f16653f06f022
+  - path: attachment/attachment.zip
+    algorithm: sha256
+    value: c31953a4f6cec529e6dd88bf6c5e98e435c8a04e700d53d5df3333b3d6033b77
+  - path: challenge.yml
+    algorithm: sha256
+    value: f595be5d9ec0d7e263ac8af21628bcbfd2fb8548d3575905ce8b646afd767d26
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: e907fb5b17a66d611cc698743bc6108c482cf99000e9eae220754629b9690fe5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 02fd49e29a3891595687b4534c526c04c690adb6688278639f65c5c489c9c130
+  - path: patchrule.yml
+    algorithm: sha256
+    value: 226a33c5707f88f5abd0a023046a7041545d048c69516f1d323578f74559bc28
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1f7a3ecd85f4029ff95fe9c85aba0e7946bb1d2752f42c22b635721bd63a7047
+  - path: src/server/app.py
+    algorithm: sha256
+    value: 7fc59522e74214a3327561491eb88288fd36c90672b40704777f33c7e7eed577
+  - path: src/server/heroes_data.csv
+    algorithm: sha256
+    value: a61a5607e1f93a6449e17870cd40976f12dfe76a99ba61217de0b1d8d489d6eb
+  - path: src/server/templates/hero.html
+    algorithm: sha256
+    value: a85a21f8ef6541c93e367c034c3e95425b17c8b364887d809de953e993c2da88
+  - path: src/server/templates/index.html
+    algorithm: sha256
+    value: 480703cdd89f09288a279e7c317aa7f8ea02563fec90bdd5a3b86b67c1484ff6
+  - path: test/test.py
+    algorithm: sha256
+    value: c7890e95e052e3f0a232622ea6553af41d6b390bc9d0c8719c77b582d8d6c65f
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

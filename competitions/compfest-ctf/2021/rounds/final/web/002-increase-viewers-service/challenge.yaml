@@ -1,0 +1,224 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-web-002
+name: Increase Viewers Service
+slug: 002-increase-viewers-service
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: |-
+  Do you want to increase viewers on your website? Give us your RSS link, and then we will send it to our customers.
+
+  For a free plan, you can get one promotion for one domain every 15 minutes. Try it now!
+
+  Flag regex: `COMPFEST13-[A-z0-9_-]+`
+difficulty:
+  value: Hard
+  source: organizer
+tags:
+- XXE
+- SSRF
+- Redis RCE
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: web/increase-viewers-service
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 7317a0be3c42c64ecf41f0e70e7452a239e2ca6e8929b61e8b17742b86b6b5f6
+  - path: README.md
+    algorithm: sha256
+    value: 7b26477835f35bea44f497f9b85a6a69b0ee1ca02dd99cf714d38cf76962b64b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f5eab9060bb7f8e31e92e11462b8bc5670454b8438c5f0d13fdb4be391182bec
+  - path: public/app/Dockerfile
+    algorithm: sha256
+    value: 468bc8cd868ed1a40ce39c195f474b1bca84f502e42f14d9466beddd3bdae56a
+  - path: public/app/docker/entrypoint.sh
+    algorithm: sha256
+    value: 28162181288522c12df899221b173fd0f553c9389745d71539a4d57e95372d14
+  - path: public/app/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: 7e4faef9fa0727598fab12f99256d42d78b6f31b6f383cc255aeee4336e6c237
+  - path: public/app/docker/iptables.sh
+    algorithm: sha256
+    value: 4f15f6bbb9b7b15b9f2c6b42577702cae5ebb7afcedfdc88d055fb1152460348
+  - path: public/app/docker/nginx.conf
+    algorithm: sha256
+    value: 3eea245f2b23a737d622015f612505be95e17a37c89072c542cfea21eeb2d59e
+  - path: public/app/docker/server-req.txt
+    algorithm: sha256
+    value: b069e6334bb2f1bb7c3270484bf36826ab831f2ac05137fe5cddabef9e8a7da0
+  - path: public/app/web/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/app/web/cache.py
+    algorithm: sha256
+    value: ec156462b5a09a71204e25bdfd8bdc7b246a098a4ce595a169caa6a13d47c5e5
+  - path: public/app/web/mailers.py
+    algorithm: sha256
+    value: dcd1eaed66214fbdf6513e0a79d7e81ea7f59e095586426a44b9204ba44c10ab
+  - path: public/app/web/main.py
+    algorithm: sha256
+    value: 1f80cbcc8cbc0db7e7f804d20e8b30c9c7cdb502bf9a9900916566241a5defcb
+  - path: public/app/web/requirements.txt
+    algorithm: sha256
+    value: 8e1db80ea98f38684491271f698a1b511d39caa2131d62c65b02624a0ee82bf4
+  - path: public/app/web/rss.py
+    algorithm: sha256
+    value: 1179a8e52585528bb141bb7ef4ee74c3d7e78f6cd5ef99d34d159d9f6a4c05d2
+  - path: public/app/web/static/css/font-awesome.min.css
+    algorithm: sha256
+    value: 799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd
+  - path: public/app/web/static/css/owl.theme.default.min.css
+    algorithm: sha256
+    value: 296b3d8e9fa36733999a69d6e630bc6361ea23dada8c98a0e48d34ba7f7d0ed2
+  - path: public/app/web/static/css/tooplate-style.css
+    algorithm: sha256
+    value: 51ad4eaffdc88ea0df0eba9e394419c948d21d304f4c3ed45a1657033d9927a1
+  - path: public/app/web/static/images/home-bg.jpg
+    algorithm: sha256
+    value: 6287b18da2f668894fc922bf19235c40dc646e4e8cc6c72a89ac846d275d1b0c
+  - path: public/app/web/static/js/custom.js
+    algorithm: sha256
+    value: 46342ef121b41ae8afcd8e66da9e6d1c4055d5af94b8cf598f1aedcf49e3a505
+  - path: public/app/web/templates/index.html
+    algorithm: sha256
+    value: bb777de40a6c64bfb28418ac302db7ef61d69a7be0bb88fe9e302770374bfbf2
+  - path: public/cache/Dockerfile
+    algorithm: sha256
+    value: ad3a1f24e0dff78d8e5d9171112269166fc96ca629a319491607c4e0f778f808
+  - path: public/cache/docker/entrypoint.sh
+    algorithm: sha256
+    value: 4434fdfe14aa518c800f9703a67fe025b6ac828b445c3386413785dbd2cc448c
+  - path: public/cache/docker/iptables.sh
+    algorithm: sha256
+    value: 9df528847e6001168096154ca83b1f475613093091f6ceed88a1bfd9d5c6ce2c
+  - path: public/cache/docker/redis.conf
+    algorithm: sha256
+    value: c62abf5b191a8aaefca15067b0c57de33bd4fe82e61a0003428434a0c143acbf
+  - path: public/cache/docker/requirements.txt
+    algorithm: sha256
+    value: c3a49409673d433645937e474526d486f7e96b3a82e269a5998cb05411f8b051
+  - path: public/cache/docker/security.py
+    algorithm: sha256
+    value: 78cd1bfc8048853b055498c2b1578b175765fa5a27c121dea495bad012d79516
+  - path: public/docker-compose.yml
+    algorithm: sha256
+    value: f5eab9060bb7f8e31e92e11462b8bc5670454b8438c5f0d13fdb4be391182bec
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: e91f8a4d46083a106099ceec76f057c6c0cb95e5eba0de65a235319627dde67e
+  - path: src/app/docker/entrypoint.sh
+    algorithm: sha256
+    value: 28162181288522c12df899221b173fd0f553c9389745d71539a4d57e95372d14
+  - path: src/app/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: 7e4faef9fa0727598fab12f99256d42d78b6f31b6f383cc255aeee4336e6c237
+  - path: src/app/docker/iptables.sh
+    algorithm: sha256
+    value: 4f15f6bbb9b7b15b9f2c6b42577702cae5ebb7afcedfdc88d055fb1152460348
+  - path: src/app/docker/nginx.conf
+    algorithm: sha256
+    value: 3eea245f2b23a737d622015f612505be95e17a37c89072c542cfea21eeb2d59e
+  - path: src/app/docker/server-req.txt
+    algorithm: sha256
+    value: b069e6334bb2f1bb7c3270484bf36826ab831f2ac05137fe5cddabef9e8a7da0
+  - path: src/app/web/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/web/cache.py
+    algorithm: sha256
+    value: ec156462b5a09a71204e25bdfd8bdc7b246a098a4ce595a169caa6a13d47c5e5
+  - path: src/app/web/mailers.py
+    algorithm: sha256
+    value: dcd1eaed66214fbdf6513e0a79d7e81ea7f59e095586426a44b9204ba44c10ab
+  - path: src/app/web/main.py
+    algorithm: sha256
+    value: 1f80cbcc8cbc0db7e7f804d20e8b30c9c7cdb502bf9a9900916566241a5defcb
+  - path: src/app/web/requirements.txt
+    algorithm: sha256
+    value: f61a00964360858cf9b35f14910835af699ee2d2efe56334c0a3f0986bcb0b7a
+  - path: src/app/web/rss.py
+    algorithm: sha256
+    value: 1179a8e52585528bb141bb7ef4ee74c3d7e78f6cd5ef99d34d159d9f6a4c05d2
+  - path: src/app/web/static/css/font-awesome.min.css
+    algorithm: sha256
+    value: 799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd
+  - path: src/app/web/static/css/owl.theme.default.min.css
+    algorithm: sha256
+    value: 296b3d8e9fa36733999a69d6e630bc6361ea23dada8c98a0e48d34ba7f7d0ed2
+  - path: src/app/web/static/css/tooplate-style.css
+    algorithm: sha256
+    value: 51ad4eaffdc88ea0df0eba9e394419c948d21d304f4c3ed45a1657033d9927a1
+  - path: src/app/web/static/images/home-bg.jpg
+    algorithm: sha256
+    value: 6287b18da2f668894fc922bf19235c40dc646e4e8cc6c72a89ac846d275d1b0c
+  - path: src/app/web/static/js/custom.js
+    algorithm: sha256
+    value: 46342ef121b41ae8afcd8e66da9e6d1c4055d5af94b8cf598f1aedcf49e3a505
+  - path: src/app/web/templates/index.html
+    algorithm: sha256
+    value: bb777de40a6c64bfb28418ac302db7ef61d69a7be0bb88fe9e302770374bfbf2
+  - path: src/cache/Dockerfile
+    algorithm: sha256
+    value: ad3a1f24e0dff78d8e5d9171112269166fc96ca629a319491607c4e0f778f808
+  - path: src/cache/docker/entrypoint.sh
+    algorithm: sha256
+    value: 4434fdfe14aa518c800f9703a67fe025b6ac828b445c3386413785dbd2cc448c
+  - path: src/cache/docker/iptables.sh
+    algorithm: sha256
+    value: 9df528847e6001168096154ca83b1f475613093091f6ceed88a1bfd9d5c6ce2c
+  - path: src/cache/docker/redis.conf
+    algorithm: sha256
+    value: 5f6e7e357a81be1622910ac87653442ef0bc646ba9a0d1ee023d05810ebe7674
+  - path: src/cache/docker/requirements.txt
+    algorithm: sha256
+    value: c3a49409673d433645937e474526d486f7e96b3a82e269a5998cb05411f8b051
+  - path: src/cache/docker/security.py
+    algorithm: sha256
+    value: 78cd1bfc8048853b055498c2b1578b175765fa5a27c121dea495bad012d79516
+  - path: src/corsproxy/web/.gitignore
+    algorithm: sha256
+    value: 7317a0be3c42c64ecf41f0e70e7452a239e2ca6e8929b61e8b17742b86b6b5f6
+  - path: src/corsproxy/web/index.js
+    algorithm: sha256
+    value: d1c6741d6ff127d537a99e4527f8d9868456983a168b5660ff2485cdfaf1c99b
+  - path: src/corsproxy/web/package-lock.json
+    algorithm: sha256
+    value: 6caa51e656a07f5897a93fcbac270cf8a35f037c5c04a245bec86676732ba44c
+  - path: src/corsproxy/web/package.json
+    algorithm: sha256
+    value: 8f05294fa7b45589294e0535539b846fbb6fd1cb65e77f40efee498c4bfcbeed
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

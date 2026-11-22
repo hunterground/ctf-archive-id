@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-pwn-006
+name: Tcache King
+slug: 006-tcache-king
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: hahah Tcache go brrr
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: binary-exploitation/binary-exploitation-can-also-be-hard
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9dbdffebc99c647d7f1e23cb08ddc63182aef651dadb7a1fe516b66d61ce0de0
+  - path: files/flag.txt
+    algorithm: sha256
+    value: 21143565724a4bd6d9bd019f6399274e203e1dc3e5036217d8153d8cc59e95e7
+  - path: files/tcache_king
+    algorithm: sha256
+    value: 257f4ababc3ccb3df1488b555041395fc1b9b3dddcb704dc37f2331d21057606
+  - path: files/tcache_king.c
+    algorithm: sha256
+    value: ecf1c3266c06b3a5a3cb179b13e471c5bcd0415d021c1e0a01fed8fa40e5726c
+  - path: share/tcache_king
+    algorithm: sha256
+    value: 257f4ababc3ccb3df1488b555041395fc1b9b3dddcb704dc37f2331d21057606
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

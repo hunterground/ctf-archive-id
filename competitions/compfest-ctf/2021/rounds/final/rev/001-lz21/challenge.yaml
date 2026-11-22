@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-rev-001
+name: LZ21
+slug: 001-lz21
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: reverse-engineering
+description: Mr Smolin is a newbie programmer who likes using a program called Smallify to reduce his file sizes. He's always liked LZ77, one day he wanted to write his own LZ77, called LZ21, and tested it on some files including Smallify, but then he didn't know how to retrieve them :(. Today, he's also forgotten his Smallify password. Can you help him recover his files? He's said there'll be a prize for the one to help recover his password too! Wrap the program's pass key with COMPFEST13{} as flag.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Compression algorithm
+- serial key
+- theorem proving
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: reverse-engineering/lz21
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 07e925189d32ce41ebcb9840c6ac5128872ffc8fdc4b15cb375f55d8c140eeb8
+  - path: public/funcs
+    algorithm: sha256
+    value: 2b4aad1c78087915744b131bd4a49179e5783309caf9e55b1dee908f2b506c6c
+  - path: public/lorem
+    algorithm: sha256
+    value: 9d449fed66cea33300db6298efab7cfde69e6ff65fc16244edd0df32e796c56b
+  - path: public/main
+    algorithm: sha256
+    value: 82987aa41b757643dba16808300a58093e4a321f8adeb8b1b132d460c0e1783a
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

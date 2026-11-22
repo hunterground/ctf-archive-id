@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-crypto-003
+name: Snab? Yes, Snab
+slug: 003-snab-yes-snab
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: Snab likes to give you a challenge. It is a simple challenge of RSA encrypted messages, and you only have to find out what those messages really are! Be careful though, Snab has some trick up his sleeve.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- RSA
+authors:
+- name: houseoforion
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: cryptography/snab-yes-snab
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 56149187994a1ad184052492753b4d51e057c850ec69b3eda46896d4537e97db
+  - path: public/Snab.py
+    algorithm: sha256
+    value: e20d9580ab0e194d47ad7eff7949680346e7bd6616558c5c2aa696933b96932c
+  - path: public/output.txt
+    algorithm: sha256
+    value: 661ad32fe379f660ef713f72ba769d7516c459851959db0a070573cbaa0765f5
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

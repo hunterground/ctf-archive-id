@@ -1,0 +1,125 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-web-001
+name: Crypto Tracker
+slug: 001-crypto-tracker
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: Always monitoring crypto markets
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- Prototype Pollution
+- SSTI
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: web/crypto-tracker
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: dbc898f6fa411a0d92550998f431e3be40205358b90cff4247bd5e3e11ede44b
+  - path: README.md
+    algorithm: sha256
+    value: 55740cc132a19d157176fc08b412428fbcab98c05dc8ab92c09bc2650872e071
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 61c1f98dfc1aca516d0ec2f7c7b734f64868ee39a5e276699d2e24d87919072d
+  - path: public/Dockerfile
+    algorithm: sha256
+    value: 36f19c28cfdde114f682a4cb2a2b9be85946117e48906acbd358da23ffc27a49
+  - path: public/app/app.js
+    algorithm: sha256
+    value: 5efff46d24e251a660fa6424c815278d457d40f7e9e676dc135e90cb34e6ed9d
+  - path: public/app/flag.txt
+    algorithm: sha256
+    value: 7fabbcc33ba0f6a65b89ed9f17b8dc9253319fe10e72be0f8c969a4b64b89eaf
+  - path: public/app/package-lock.json
+    algorithm: sha256
+    value: e0eddf43148ec57e40bba1b6f6e1068210dab309a7b6a2bb90323c95132e7654
+  - path: public/app/package.json
+    algorithm: sha256
+    value: 6981a0dcd0fb864aa0482ccfd50d72c917a323c4c45894bab7493f306a0d8f62
+  - path: public/app/routes/errors.js
+    algorithm: sha256
+    value: cc51ac10929cdd1d64955f95c1f3669c27679f5bd299d72ac32c48ffca6a4ef8
+  - path: public/app/routes/index.js
+    algorithm: sha256
+    value: 9192d51295fd50dc8af6a6765e166a401d471567c03a20955cc4243f2b8b1215
+  - path: public/app/utils.js
+    algorithm: sha256
+    value: 4a257d285a852f2129a16d57eab4c61032a02a1ad5fa92a326c42d9d02d26954
+  - path: public/app/views/error.html
+    algorithm: sha256
+    value: a18a7beaed7bf2a2db401d14d57347cbf2239a32c28860eaff3522c70bcf0559
+  - path: public/app/views/index.html
+    algorithm: sha256
+    value: 3b93b85e1b3314735b16f1cb78b0623a1bc0fd72debbebe49114d00b1b44cd7a
+  - path: public/docker-compose.yml
+    algorithm: sha256
+    value: f29fa44660d2618ac9779e9f2034f019e79207bceeaca40de6487193490202e3
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 653c4caf3d3ef58320772dbf734acefb02baf13a6e7178afb262ae3905f5cbcb
+  - path: src/server/app.js
+    algorithm: sha256
+    value: 5efff46d24e251a660fa6424c815278d457d40f7e9e676dc135e90cb34e6ed9d
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 895502148f8648870d0c04d879cc18e61ebddbba81187c55c274d4509fc16d44
+  - path: src/server/package-lock.json
+    algorithm: sha256
+    value: e0eddf43148ec57e40bba1b6f6e1068210dab309a7b6a2bb90323c95132e7654
+  - path: src/server/package.json
+    algorithm: sha256
+    value: 6981a0dcd0fb864aa0482ccfd50d72c917a323c4c45894bab7493f306a0d8f62
+  - path: src/server/routes/errors.js
+    algorithm: sha256
+    value: cc51ac10929cdd1d64955f95c1f3669c27679f5bd299d72ac32c48ffca6a4ef8
+  - path: src/server/routes/index.js
+    algorithm: sha256
+    value: 9192d51295fd50dc8af6a6765e166a401d471567c03a20955cc4243f2b8b1215
+  - path: src/server/utils.js
+    algorithm: sha256
+    value: 4a257d285a852f2129a16d57eab4c61032a02a1ad5fa92a326c42d9d02d26954
+  - path: src/server/views/error.html
+    algorithm: sha256
+    value: a18a7beaed7bf2a2db401d14d57347cbf2239a32c28860eaff3522c70bcf0559
+  - path: src/server/views/index.html
+    algorithm: sha256
+    value: 3b93b85e1b3314735b16f1cb78b0623a1bc0fd72debbebe49114d00b1b44cd7a
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

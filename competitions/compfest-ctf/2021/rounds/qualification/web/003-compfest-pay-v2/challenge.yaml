@@ -1,0 +1,315 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-web-003
+name: COMPFEST Pay v2
+slug: 003-compfest-pay-v2
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  We come back with new features and security. To make up for our mistake last year, we were given free credits for all accounts.
+
+  [http://link-to-web/](#)
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- XSS
+- Logic Error
+- Mass Injection
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: web/compfest-pay-v2
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 21b2ce4898aa959fdd5540f9b20dd9a6820072e619dbb5ce3006293aaf908fc4
+  - path: README.md
+    algorithm: sha256
+    value: c6d9b3d74adae82a9be8bce4845395f1e6baa0846f09daa277823b1f60e41dd5
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 059b2031556850b8a628df806ae624fb5d2129d03e40b6047cb191c64245edcf
+  - path: public/transaction/views.py
+    algorithm: sha256
+    value: 5c3500267013c9c7ef237969cd72708f7a162877f9ef74a28e96b47ea2325793
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 50240fb99b71bc086aa91f61f640bf0dbf014f31c63d5c19288d40235f4576cb
+  - path: src/bot/server/bot.js
+    algorithm: sha256
+    value: bc30f6dcc5bfde4a9946ff27fa00a69add05d95d5ac4f268ab66e6609908d56b
+  - path: src/bot/server/package-lock.json
+    algorithm: sha256
+    value: 500ef42a25b14b288652cbdd8dbc524ba6609aef0ed4f12658bb9c51ccf37a77
+  - path: src/bot/server/package.json
+    algorithm: sha256
+    value: 54a7de705f7d39bb2b3038aa3207489ca1d5db097509127ae9ea71e5a61364de
+  - path: src/creds.txt
+    algorithm: sha256
+    value: 5c8b4030f592096e225e9e95127ca46da1cc4466d54d08153eefac1f0690cd0a
+  - path: src/web/Dockerfile
+    algorithm: sha256
+    value: bc5b431a2887ae6e050de0096a0d035b7f76d8676e0e1727da918f07829c3b22
+  - path: src/web/docker/entrypoint.sh
+    algorithm: sha256
+    value: d873e0f00849ca3ad134da8770498d0fdb11f07fea120436c5db1b9d2c7d18ae
+  - path: src/web/docker/gunicorn.conf.py
+    algorithm: sha256
+    value: e0971fee5807b08fb5a272cd12299696b2e3a421b8f67e0f0a89b41dc00a0f27
+  - path: src/web/docker/nginx.conf
+    algorithm: sha256
+    value: 3eea245f2b23a737d622015f612505be95e17a37c89072c542cfea21eeb2d59e
+  - path: src/web/docker/postgres-alpine.sh
+    algorithm: sha256
+    value: 6440d1dd4cba0b24d0fa6e9d8ea1be447aa0c0299290ddfe48b233768563de71
+  - path: src/web/docker/server-req.txt
+    algorithm: sha256
+    value: b069e6334bb2f1bb7c3270484bf36826ab831f2ac05137fe5cddabef9e8a7da0
+  - path: src/web/server/accmanager/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/accmanager/admin.py
+    algorithm: sha256
+    value: 0b9e85045328a1937addbcace0c6dc2e6311a1defcb574fed168cb36dc5cecca
+  - path: src/web/server/accmanager/apps.py
+    algorithm: sha256
+    value: bb73e5fc11d53210f3571845559dd90a76a0c1496a64927e04e0c0b911ff7e36
+  - path: src/web/server/accmanager/forms.py
+    algorithm: sha256
+    value: 600edc7fcdb2f6bd43cd4c9572f0de35041b91b9b15b4907a6e81a672b815e03
+  - path: src/web/server/accmanager/migrations/0001_initial.py
+    algorithm: sha256
+    value: 7c81c5b81e318f92c73c8804615db83747c46b5deac6cf357606fc2720b9438a
+  - path: src/web/server/accmanager/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/accmanager/models.py
+    algorithm: sha256
+    value: 97d1ac031f9111a4da2b745ae97996b3d5400325a7181c3f722a9060b6ea0b20
+  - path: src/web/server/accmanager/serializers.py
+    algorithm: sha256
+    value: 5cf2bc614dfbc6888a5d9e555ecffee6758b66451a61b7cddacf5888937f426f
+  - path: src/web/server/accmanager/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/web/server/accmanager/urls.py
+    algorithm: sha256
+    value: d84ab6cd69825f4878a37b00e298093cd999f75852706a23245d7f436180a8c2
+  - path: src/web/server/accmanager/views.py
+    algorithm: sha256
+    value: abe221edf6b02856ed347765b420219c16a39a7f636e2573d5eecf86e1d396fa
+  - path: src/web/server/api/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/api/admin.py
+    algorithm: sha256
+    value: b2e328e31f08dc907100505521d13ee6a9ea67a240655d051120011ce49cfaf8
+  - path: src/web/server/api/apps.py
+    algorithm: sha256
+    value: b4db90de55cd6dbcaa174df55724a73e2ff33f64760b0f3f12e3f5903944e314
+  - path: src/web/server/api/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/api/models.py
+    algorithm: sha256
+    value: 563734a765db00f804e87c9317abe597df00e1e0e103902f690aac738910f404
+  - path: src/web/server/api/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/web/server/api/urls.py
+    algorithm: sha256
+    value: 991abaeab40a1e4d81a48e840585e6cf88686ac543e98ae2db9c978d42dcab86
+  - path: src/web/server/api/views.py
+    algorithm: sha256
+    value: 47263654269476e32b934cf04fbb364f0e2fb51c5da504bbb4f24e65994df5af
+  - path: src/web/server/compfestpay2/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/compfestpay2/asgi.py
+    algorithm: sha256
+    value: 4aaf0073c6107ae65b3924097c944e61db2dcbb12b23a723b88741479604ee87
+  - path: src/web/server/compfestpay2/secret.py
+    algorithm: sha256
+    value: 8747f9340acb25c77e02c61d2fb77b2abf61ed85805bb1083a83c18dc0cbf2f0
+  - path: src/web/server/compfestpay2/settings.py
+    algorithm: sha256
+    value: b75f9abc3afcda36300888ab9ee4a46a2c7324dde26f0ce2667d4df070c5f94d
+  - path: src/web/server/compfestpay2/templatetags/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/compfestpay2/templatetags/money_format.py
+    algorithm: sha256
+    value: 7610d581158fbb5ddc8f8ce0c98ac4c91857b3e87bf83b6d3aeeda7fdba75fa0
+  - path: src/web/server/compfestpay2/urls.py
+    algorithm: sha256
+    value: b08489e46cac271ab1a8c342c53cdca290dcdfdd5b92c0c7601dcb45eff301af
+  - path: src/web/server/compfestpay2/views.py
+    algorithm: sha256
+    value: 4d851a276595454ab186f5899af4a49a1fa2a0afbcb9142e42dd29dac7461584
+  - path: src/web/server/compfestpay2/wsgi.py
+    algorithm: sha256
+    value: d3188e7113b226580c07e064a68a27c3dc6feb960e71bdcf3f9dc335e4da9bf1
+  - path: src/web/server/fixtures/seed.json
+    algorithm: sha256
+    value: 653953564e067a6c2e1b1b3794567e4fb1185743a121b9b3e035a2385c5a76ca
+  - path: src/web/server/history/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/history/admin.py
+    algorithm: sha256
+    value: b2e328e31f08dc907100505521d13ee6a9ea67a240655d051120011ce49cfaf8
+  - path: src/web/server/history/apps.py
+    algorithm: sha256
+    value: 3f23514844d5596400abf68410a8e6a957f4d587625ad31a22e4d66b5e51928b
+  - path: src/web/server/history/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/history/models.py
+    algorithm: sha256
+    value: 563734a765db00f804e87c9317abe597df00e1e0e103902f690aac738910f404
+  - path: src/web/server/history/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/web/server/history/urls.py
+    algorithm: sha256
+    value: 2593515ec3dbe038c877a52562a3b8869104f4bf2d96cd9b0ac672fb5f5596f9
+  - path: src/web/server/history/views.py
+    algorithm: sha256
+    value: fb44c7985430ed1aefe72302850905cc3948e7068140102f3cde186dfb409c06
+  - path: src/web/server/manage.py
+    algorithm: sha256
+    value: adcf7ac37802b1a89855617fdf1b9b407b268126710edfe7bf60cee2f4229339
+  - path: src/web/server/requirements.txt
+    algorithm: sha256
+    value: 5df243f1721f04cafcef06c44eeafe511dc832813792fb92214e2dc2b0d2bb75
+  - path: src/web/server/static/css/custom.css
+    algorithm: sha256
+    value: 7c0677a986e05a13fa8360510de0cba1ba3c87a3e0741785c19baca2a44bc1f3
+  - path: src/web/server/static/css/flexstart.css
+    algorithm: sha256
+    value: 68dd34662172b97ddb0592b58b66e37e0b3242c0563ba156dcce44dedf087448
+  - path: src/web/server/static/image/card-bg.png
+    algorithm: sha256
+    value: 5dee4a38a41993a7a4bf0b155569e07e5fb7b0fc279d34ecc990ad1a4dd6d71e
+  - path: src/web/server/static/image/compfest-white.png
+    algorithm: sha256
+    value: b5ba3224c1cc4fed50ae81158f61ed832a57d6f1c0c6c3163986aea7f9a9f686
+  - path: src/web/server/static/image/compfest13-color.png
+    algorithm: sha256
+    value: 51152384668a04339684275624043d50370393151e6e95b758ba925bb1ed4595
+  - path: src/web/server/static/image/trxin.svg
+    algorithm: sha256
+    value: 95738cb445fcb4c371e39600d7496611a929fcb8495fa3dad2dbd6ed5f88e796
+  - path: src/web/server/static/image/trxout.svg
+    algorithm: sha256
+    value: faf70208cebf606d362d4d9234b56389eb3a59dec8478b73550a04357a2752b3
+  - path: src/web/server/templates/accmanager/login.html
+    algorithm: sha256
+    value: b46d9631797c7adedde747a8c7338094cdb327c098c8a78095da8991990aed4f
+  - path: src/web/server/templates/accmanager/register.html
+    algorithm: sha256
+    value: 533dc9879e1b6350ab12a26f4f62f623ade5533d20d9adfca924c857ac120d18
+  - path: src/web/server/templates/base.html
+    algorithm: sha256
+    value: 0a6210ba91ebbffe37bbe30f80a28f5ff04637ed194e0ec2a6ebbe2eb65f8e53
+  - path: src/web/server/templates/history/delete.html
+    algorithm: sha256
+    value: 122c35d34112bec55bd168305b1572fb869abcf317f02fe82bbc9dacb66201ff
+  - path: src/web/server/templates/history/edit.html
+    algorithm: sha256
+    value: 3a86f82796905f17fdf479765775960c13e377ae9ea7c941896e7cf04706b24f
+  - path: src/web/server/templates/history/received.html
+    algorithm: sha256
+    value: b258c528b51c4c8e57d618299d5cbe5ed8400e41861fe1db1248a01bd071e4ea
+  - path: src/web/server/templates/history/sent.html
+    algorithm: sha256
+    value: 69b4482481d6a0369609cc468708eaf461d80ff03f2884eb187cea5d711517ea
+  - path: src/web/server/templates/index.html
+    algorithm: sha256
+    value: 68971f45d32e74c9536e37c48c177a484376f097e26c1989ce74393be748dafa
+  - path: src/web/server/templates/navbar.html
+    algorithm: sha256
+    value: 4996ce71767eec0fdc127b6bccd9c5471e169062975115c01e3835eb5c7ecb40
+  - path: src/web/server/templates/transaction/dashboard.html
+    algorithm: sha256
+    value: b1d7842660ec70157c3374cf3d09116121db83511508a726b43f224607710a3b
+  - path: src/web/server/templates/transaction/flag.html
+    algorithm: sha256
+    value: 32122ffa9dcfd4f8edcab7192dac4f75de57b2c211d9a5e6242198695251e5cb
+  - path: src/web/server/templates/transaction/send.html
+    algorithm: sha256
+    value: f58065d3102650f2f90e7cdc15a19e623afaca6aa91f906cd5e0f8fb18996003
+  - path: src/web/server/templates/transaction/wallet.html
+    algorithm: sha256
+    value: 4977edb3e1f83a20ad5501d2a66be36ecda1e503c0fbe9c9e348ebd2927f4624
+  - path: src/web/server/transaction/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/transaction/admin.py
+    algorithm: sha256
+    value: ca1f4b137f4d707cbaf6afde184ee26ae62908d48ff73bb9d89195d7b29b399f
+  - path: src/web/server/transaction/apps.py
+    algorithm: sha256
+    value: 7aa2b2c43ae46e0f33e63e640dcc9d5ab944dc93b425a30c0a5d1bcfed1eae15
+  - path: src/web/server/transaction/forms.py
+    algorithm: sha256
+    value: 3f2ec8e473a12d05c9c9ff191b0455341c4dfd07f602d39b1595cfbf1db330a8
+  - path: src/web/server/transaction/migrations/0001_initial.py
+    algorithm: sha256
+    value: b4f3e03331936877ece50fe506df3a6730724e5aec03b1597fafefa4979b216d
+  - path: src/web/server/transaction/migrations/0002_transactionmodel_date.py
+    algorithm: sha256
+    value: 0e6dd91c6beae2d7fafb5bde9cf8ef8352acc46da77e8049e23969f3e1f3f48a
+  - path: src/web/server/transaction/migrations/0003_alter_transactionmodel_msg.py
+    algorithm: sha256
+    value: 7f78ba6c77433d8248d223346af6359011b69b90d500231645891edc18bfb489
+  - path: src/web/server/transaction/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/web/server/transaction/models.py
+    algorithm: sha256
+    value: 43a4b21f2b67f70b52de1313320070023716f73e6de2bc222c6a6a49095fa234
+  - path: src/web/server/transaction/serializers.py
+    algorithm: sha256
+    value: 2d2d72549e2127c1dbb0055fe442a57da0e0657f27ea4c5fea62b7ddd9d626cb
+  - path: src/web/server/transaction/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: src/web/server/transaction/urls.py
+    algorithm: sha256
+    value: 88e1a36875bd4562e653742838b3e71e1b4b036501fa1ebe56a1254853bac953
+  - path: src/web/server/transaction/views.py
+    algorithm: sha256
+    value: 5c3500267013c9c7ef237969cd72708f7a162877f9ef74a28e96b47ea2325793
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

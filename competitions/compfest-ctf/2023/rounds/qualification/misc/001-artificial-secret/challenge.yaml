@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-misc-001
+name: artificial secret
+slug: 001-artificial-secret
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |-
+  I'm developing an AI Waifu chatbot startup but i'm too lazy to host my own LLMs, So i just use chatGPT API, but first i need to hide my prompt since it's my only moat, can you help me pentesting this?
+
+  the bot is online as `lemond
+  #8498` on the Discord server, but only talking in DMs.
+  (Note: this challenge requires no automation. Please do not automate your Discord account as that is a violation of Discord's Terms of Service and may lead to the termination of your account)
+
+  The flag format is COMPFEST15{flag_sha256(flag)[0:10]}, the hash is there so you could verify you're getting the right flag or not.
+
+  for example :
+  COMPFEST15{very_ez_58f54efc55} -> 58f54efc55 is the first 10 char of the sha256(very_ez)
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- AI
+- Propmpt Injection
+authors:
+- name: fahrul
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Misc/artificial secret
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 47ae373a51bc8d2041eeb0a0fcfbf0d208fe78a9aa61e4c0c0ca0dea5e45cb89
+  - path: README.md
+    algorithm: sha256
+    value: b7e74428f432ece2d4008a9844d514e02b49b1d73708c637ad58f2004b057c17
+  - path: challenge.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 37c3a9a0473dc01fb9e092ad06896e69b6297d441060274803b52fdb375800eb
+  - path: public/main.py
+    algorithm: sha256
+    value: 50bbd5e10d5d27908e2771b05b1969e6a9d99d75ec0496e6ce505eff7c52d76e
+  - path: src/main.py
+    algorithm: sha256
+    value: 5a17c992c008f7a3620b4bbe88f1c8cb6d3f96f0dfe93fe93a28aa362b2aae45
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

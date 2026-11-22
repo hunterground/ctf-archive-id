@@ -1,0 +1,128 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-web-004
+name: NoPass
+slug: 004-nopass
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: |-
+  Forgets your password! We've already invent secure login system. One account only can log on in one device. The flag is the token of admin.
+
+  P.S: Choose unique username to avoid duplicate.
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- Web
+- SQLi
+authors:
+- name: Bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: web/nopass
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: b1018f6fce61bc0348239f409f17d2ece974ae3f3a8468099dd491e728687b64
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7dbc03d3d12d08442170ee7332f0c7e8c068af2b1c0975804a20d5f89481d59c
+  - path: README.md
+    algorithm: sha256
+    value: 941f94a1512d9c85f0ae6040ffa61ff59ed5561465d93dbffd595d9f7ff382ae
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2470843521ab96ac8a63eda9c1c6cb262f287414de2e9dee3e5de762ca41fa8e
+  - path: requirements.txt
+    algorithm: sha256
+    value: c60d87d54577cceb81ea498969bae1e19fbf77466302b3ab75c35bd429e26e14
+  - path: web/fixtures/admin.json
+    algorithm: sha256
+    value: 406d935f47d82f62c3c37ef36c7820e794531d2ad04227e34ad61b7580630841
+  - path: web/manage.py
+    algorithm: sha256
+    value: a720ed00f7454cb3d8091a9844b041cd30b3c802d523d8c5ef8de794d3e5982e
+  - path: web/nopass_login/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/nopass_login/asgi.py
+    algorithm: sha256
+    value: 4d36b7612d016db08f1b8166b0358eaa12e90aad0daa9b9b74efb9c2844a6b7d
+  - path: web/nopass_login/forms.py
+    algorithm: sha256
+    value: 37036c61e233c3f88c6479e1b5622af646854836c26e77e9c6b0069fd30bfae6
+  - path: web/nopass_login/management/commands/cleandb.py
+    algorithm: sha256
+    value: cd1d18f1b576dfa2efb9539a689637612c4af93c444da8a7384c1915eb68417e
+  - path: web/nopass_login/migrations/0001_initial.py
+    algorithm: sha256
+    value: bb69e43e6e2ed09c679e0a2652909cbba01401747514f6c15598b5cb822a375d
+  - path: web/nopass_login/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: web/nopass_login/models.py
+    algorithm: sha256
+    value: 95c1d5d165b120fda4ceeb5b701f019d1241513bed6b16aa65fd4fb4e6469365
+  - path: web/nopass_login/queries.py
+    algorithm: sha256
+    value: bc077985773408c1ff5ca9c2c244405b72910642f820fb932ac9ed4c548d4b80
+  - path: web/nopass_login/settings.py
+    algorithm: sha256
+    value: 3853903afaec97c57fcff460795657d605fdf85d05856986a8246d482bdafe74
+  - path: web/nopass_login/templates/base.html
+    algorithm: sha256
+    value: 894e9ef770e6982b0d62249d4d89000d615fe200944288e4ae047e880e31113b
+  - path: web/nopass_login/templates/flag.html
+    algorithm: sha256
+    value: d3d37a5e1411f7b27eb375fcc5a9253c0574fc740c28b4c20f7955e4733920ac
+  - path: web/nopass_login/templates/index.html
+    algorithm: sha256
+    value: 372736658eb93581c540f82ebefee40714d95c14d0505e295174f6a7f5a6706f
+  - path: web/nopass_login/templates/login.html
+    algorithm: sha256
+    value: f6d6c21b05549c3936c7b1fb6204e19ca8bca070fe3f494bbd08b36355800df3
+  - path: web/nopass_login/templates/navbar.html
+    algorithm: sha256
+    value: 47ae687196270cf679cd71d2ce32186d2f87442e70b5dc2a13341125a290c769
+  - path: web/nopass_login/urls.py
+    algorithm: sha256
+    value: 6a91aa404e8c7d04f4189978ff899069d6ab3cfd420270910b400610d8369b8f
+  - path: web/nopass_login/utility.py
+    algorithm: sha256
+    value: 6506b688c7948f84cfd6df64b0c07fff67fa94f92b9a69d6427b48b66eb3d9a8
+  - path: web/nopass_login/views.py
+    algorithm: sha256
+    value: cec13526c6b94b6e12859fbee850eda813e8808daf8b1d0255abcdf4507df7fb
+  - path: web/nopass_login/wsgi.py
+    algorithm: sha256
+    value: 5e2a6dc8b22c484ceaa9f80405ca00295d5473bd628000731f7a88274566dec7
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

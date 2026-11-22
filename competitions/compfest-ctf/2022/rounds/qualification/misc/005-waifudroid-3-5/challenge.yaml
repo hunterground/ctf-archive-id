@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-misc-005
+name: WaifuDroid 3.5
+slug: 005-waifudroid-3-5
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: |-
+  Yes yes that was easy :u now maybe now it's a bit harder.
+
+  Nadenka is now `Nadead'ntka#1227`.
+
+  (Note: this challenge requires no automation. Please do not automate your Discord account as that is a violation of Discord's Terms of Service and may lead to the termination of your account)
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- JavaScript code golf
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: misc/waifu-droid-3-5
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 8ecfeda9a74bbf394dd6585c98ecdfaf8a613b8b6355294c434d0692e12c887b
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6bd2c37d28bdb42955b9a0ad756f7648c90602f854f960f5042af007b0058dba
+  - path: README.md
+    algorithm: sha256
+    value: 880f1565fe2d36f3dd67c323c62b6b87f00b07d36c0311b6936984a166a46178
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8683ffbe14e8efea017725d544f86bde779e9e98a937624b6533db31a281939b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7b7a99228c804f5463c1dfe1b6e86a8461ecbd981e93f424935accc81b2dbe99
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/app.js
+    algorithm: sha256
+    value: fbb506f6c4123aa4fbed7566315e534a1a9fd11895dbd3337e6bcc46bf708420
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app.js
+    algorithm: sha256
+    value: 0425331295d880d21f638e8fa6345b737d9da451f87520fd1fd44b0a46321f8f
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: fc8ea2b7815477a5acaecd45a72188f948e34dec1e0c3db17be51785fc11683b
+  - path: src/package.json
+    algorithm: sha256
+    value: d34cd6d7b3794f0f8f00cab508b6eb020ac35508018684762c9aff0a9a2f15cd
+  - path: src/pfp.png
+    algorithm: sha256
+    value: 8e75680939ce59a6ba93abbc921acb2cf2b12296a3542cb29b1903f01efaf7f8
+  - path: src/secrets.js
+    algorithm: sha256
+    value: d647c262d2e4d6361ac757bf9e9a0a6275fcfd953782a554aba12eb240b8e3ba
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

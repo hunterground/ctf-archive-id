@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-crypto-001
+name: A Round
+slug: 001-a-round
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: Just one round.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- AES structure
+- differential cryptanalysis
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: cryptography/a-round
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 623a554aece65f2c6d271661a8f296cf951b0c06c3947547e104390a12ee7301
+  - path: public/around.py
+    algorithm: sha256
+    value: b869a31d2731f6a2cd9496b35c2ec433eb8552f83b6aba580b7d9bfe9df99644
+  - path: public/chall.py
+    algorithm: sha256
+    value: 00a7548bfc67c83b73def73aa8fe051fb678ac7e6a6294a63035ffbaf4d40cdc
+  - path: public/output.txt
+    algorithm: sha256
+    value: a172e5c4afbbdd48f2f2b1c913911b4ecd77b42ea8384ac7433eedcf6435f2cd
+  - path: src/around.py
+    algorithm: sha256
+    value: b869a31d2731f6a2cd9496b35c2ec433eb8552f83b6aba580b7d9bfe9df99644
+  - path: src/chall.py
+    algorithm: sha256
+    value: 00a7548bfc67c83b73def73aa8fe051fb678ac7e6a6294a63035ffbaf4d40cdc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: fb85881bb08bae675df8119b334331efee86f77ecdd6d8ed371ed4f57001d462
+  - path: src/output.txt
+    algorithm: sha256
+    value: a172e5c4afbbdd48f2f2b1c913911b4ecd77b42ea8384ac7433eedcf6435f2cd
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

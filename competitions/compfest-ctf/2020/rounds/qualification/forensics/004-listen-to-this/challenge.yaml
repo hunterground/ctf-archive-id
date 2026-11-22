@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-forensics-004
+name: Listen To This
+slug: 004-listen-to-this
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Listen here! I found this cryptic and weird sound, also I need your help to open this damn file.
+difficulty:
+  value: Medium - Hard
+  source: organizer
+tags: []
+authors:
+- name: Teofanus Gary
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: forensic/listen-to-this
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c3c84c6478467d8761d9c3dc3c042387b71ab4d98a75f638db30110afbd35e68
+  - path: share/flag.encrypted
+    algorithm: sha256
+    value: 6de14e7d2f9408df2a827e5a71699b00e07dd593c172147c906da0fa954259fc
+  - path: share/mysterious_audio.wav
+    algorithm: sha256
+    value: 14828da63777eac6053f3d0e380136e14f0aa2eaaf0bba0edcb1272c111080c1
+  - path: share/private.key
+    algorithm: sha256
+    value: fd8beaaab7d7fbfcc7118dd2f432aae42305a64acd0063c61cc88f96fccd11db
+  - path: solution.md
+    algorithm: sha256
+    value: 5a77f1f5335e83cb08fa7cd0fed3a1a7e9dfdf569f4c55d7b5acedcb6eab38f5
+  - path: src/flag.encrypted
+    algorithm: sha256
+    value: 6de14e7d2f9408df2a827e5a71699b00e07dd593c172147c906da0fa954259fc
+  - path: src/mysterious_audio.wav
+    algorithm: sha256
+    value: 14828da63777eac6053f3d0e380136e14f0aa2eaaf0bba0edcb1272c111080c1
+  - path: src/private.key
+    algorithm: sha256
+    value: fd8beaaab7d7fbfcc7118dd2f432aae42305a64acd0063c61cc88f96fccd11db
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

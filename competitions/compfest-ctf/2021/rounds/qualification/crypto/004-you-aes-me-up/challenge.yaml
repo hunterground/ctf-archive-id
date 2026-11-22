@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-crypto-004
+name: You AES Me Up
+slug: 004-you-aes-me-up
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: So I can stand on scoreboard~
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- AES mode
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: cryptography/you-aes-me-up
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9021c980ea6487b69e71c812c102efe14ae6403e9fbeb8d365445bc73301a1a1
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/chall.py
+    algorithm: sha256
+    value: 2c39348b97b79a9dead6bc08fad06464132cf23c9618300084a82256cc97b695
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a2cece26283b49ec46ad51492acbfcbafc0a2d553bb9395287a3829fdf4f60f6
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 233a94d5352c0508e02b62702d6918a88c4145da77c4ea7cc06e2a555a7646a4
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: e89e349746f621e8638327ee731386aab98d6d399152cc0439343c670187fd40
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+  - path: src/server/chall.py
+    algorithm: sha256
+    value: 2c39348b97b79a9dead6bc08fad06464132cf23c9618300084a82256cc97b695
+  - path: src/server/requirements.txt
+    algorithm: sha256
+    value: 274868efaef7671c8205aa7b2b4484533a348a8c2abd35bd43feff2aae38aa78
+  - path: src/server/secret.py
+    algorithm: sha256
+    value: 34b92faa39a3ab92ab07a943cfa53329527d831849e473f580209548dcf170cf
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

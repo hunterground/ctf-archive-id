@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-final-uncategorized-001
+name: Alice, Bob, and Random Numbers
+slug: 001-alice-bob-and-random-numbers
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: uncategorized
+original_category: null
+description: |-
+  Alice and Bob just love random numbers, and they want share it to you. Yeah, just random number.
+
+  [Attachment](https://d.rorre.me/R5XkuBpv/alicebobrandomnumbers.zip)
+
+  Author: prajnapras19
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-final
+  commit: 3959efee0959f2e4cc40fb87f1ab9cdfdfffaede
+  original_path: alice-bob-and-random-numbers
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: bd76cfe51583823cb8db03a8fb56f60b94032b64916baab627d9b03c3966560b
+  - path: attachment/attachment.zip
+    algorithm: sha256
+    value: ad80478e8374cb59479c3a97237de6f4b8ab634c60192c5d7ba4e51ff00bff8d
+  - path: challenge.yml
+    algorithm: sha256
+    value: fe7e7335b6951ba28146540eedb70ff2dd24507c2c26f6dd6880e31eb439b816
+  - path: docker-compose.dev.yml
+    algorithm: sha256
+    value: 0fa5f3e8855f499a7bb1ef3ee8b77197fa455778e51b228a8d2c4fb47a43ce33
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7fc7e1534234f3cc797ca54c793b6054661baddd497a10eb7a5bb2e8c50028c0
+  - path: flag/flag.txt
+    algorithm: sha256
+    value: 8afc8148d7a446f41834bf93bbb38ed5d279c36cf76e1ceca7388c085ca09d53
+  - path: patchrule.yml
+    algorithm: sha256
+    value: 94c9b76afe2121be1e62c70aaa741f08618f5d5fc2aba80dc4f526f4c9a5436a
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4af17d81778fe9c91debf6b95ff5c80d41e723e773f3ddf43fedacfe4cf4f27b
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: test/test.py
+    algorithm: sha256
+    value: a1342eab054d6d2991518b34afd8ca930d7f02b0064c0ce4d5ba2b682b13343c
+references:
+- title: compfest15-final
+  url: https://github.com/ctfcompfest/compfest15-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

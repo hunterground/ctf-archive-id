@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-misc-003
+name: WaifuDroid
+slug: 003-waifudroid
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: miscellaneous
+description: |-
+  Lockdowns have really made me feel lonely... so I made something that hopefully will keep me company! My waifu bot is really awesome, she does everything I tell her to. She knows all of my secrets and she won't tell anyone else. You can talk to her, her name is Nadenka#4738. She's shy though, so she will only talk on DMs.
+
+  (Note: this challenge requires no automation. Please do not automate your Discord account as that is a violation of Discord's Terms of Service and may lead to the termination of your account)
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- JavaScript sandboxing
+- code injection
+- node.js
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: miscellaneous/waifudroid
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: README.md
+    algorithm: sha256
+    value: 288b5d9f65a58b89107f4899f4d23036ba283eba16b3f1fb2221874796fafc91
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5617b4b4852473bfa5bf5c673716b3bc9463143cc0b5a255ff4de85f5259ec00
+  - path: public/app.js
+    algorithm: sha256
+    value: dd8584d4994cc47a36eb4ba60212c864d95ae1613ddbcd96ce9a754926ec7fef
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 7ffe0ad192fcd548f7e089aa9f99cd8664f901581b66b203671db3c6a6a051bf
+  - path: src/app.js
+    algorithm: sha256
+    value: dd8584d4994cc47a36eb4ba60212c864d95ae1613ddbcd96ce9a754926ec7fef
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: fc8ea2b7815477a5acaecd45a72188f948e34dec1e0c3db17be51785fc11683b
+  - path: src/package.json
+    algorithm: sha256
+    value: d34cd6d7b3794f0f8f00cab508b6eb020ac35508018684762c9aff0a9a2f15cd
+  - path: src/pfp.png
+    algorithm: sha256
+    value: 6f6929983cb7b84f558c3d7cfda701788e2822bc1c0d1bf250cab9d1d2eb4101
+  - path: src/secrets.js
+    algorithm: sha256
+    value: c5645152c8fe08eb75c431711a6ee488de8fca406c1306fcc6a17076078309e0
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

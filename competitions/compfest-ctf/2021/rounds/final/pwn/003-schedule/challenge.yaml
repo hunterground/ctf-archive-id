@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-final-pwn-003
+name: Schedule
+slug: 003-schedule
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: binary-exploitation
+description: Plan ahead your schedule.
+difficulty:
+  value: Medium-hard
+  source: organizer
+tags:
+- Heap
+- house of storm
+- shellphish how2heap
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-final
+  commit: 6a124784990632f25aee576e57958ac917ac0210
+  original_path: binary-exploitation/schedule
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-final/blob/6a124784990632f25aee576e57958ac917ac0210/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e5cb63857ee8b34649ebf245a2dc20f4a3965e3237bfca616074fdfd8876475a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/Dockerfile
+    algorithm: sha256
+    value: ba39e2707a3e22652a649f6768ed0949edf39af623beda9db2aad35884948955
+  - path: public/docker-compose.yml
+    algorithm: sha256
+    value: a08c5862bedb13fbd05300cd95bd9e25d54bc22209f98bcd07a57ee0f7f2605a
+  - path: public/src/chall
+    algorithm: sha256
+    value: 9c3fb09d5e41a9a2a4916580b90c4aa6792a1ea0aa336f31e84a050c46b65988
+  - path: public/src/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: public/src/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: cc084144d2f573baf88664c98b1df7f25eba2ff9ad216dd76b998602d3efb448
+  - path: src/chall
+    algorithm: sha256
+    value: 9c3fb09d5e41a9a2a4916580b90c4aa6792a1ea0aa336f31e84a050c46b65988
+  - path: src/chall.c
+    algorithm: sha256
+    value: 69224c7d36728ca965de95029ae314e8455fb0e1716c246516fa17bfd778ecbe
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 69d05baa13d91ce622aa0fa1f0dc82fb81abe821c2718e091d98cf4e17ea0a22
+  - path: src/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: src/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+references:
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

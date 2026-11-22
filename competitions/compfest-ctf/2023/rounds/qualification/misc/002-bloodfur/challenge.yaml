@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-misc-002
+name: BLooDFUR
+slug: 002-bloodfur
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: I actually wanted to make another challenge that starts with a "Not" but I ran out of ideas. Solve this instead :p
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- misc
+- scripting
+- rubik's cube
+- math graph
+authors:
+- name: notnot
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Misc/BLooDFUR
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4fab9c83b85caf8603f4aca813f9342e60d96eaef66021c92a1d553d5e05b2e4
+  - path: public/back.txt
+    algorithm: sha256
+    value: 16fe417880da782168c20b0950d3381bb3ab9489d1721ccfb8d57a8236c9625c
+  - path: public/bottom.txt
+    algorithm: sha256
+    value: db32f5b9afacde3e52ee8b1fbebd0ee2c8ea29f558ede1a07756425e8ef81741
+  - path: public/front.txt
+    algorithm: sha256
+    value: b7c7dcd6e439da6dc6bb27bd9a1ab9db038f1e089323cce9b39e14c0791c8393
+  - path: public/instructions.txt
+    algorithm: sha256
+    value: 17b27bace0baa63ee367b54569a6f3ac358e3d366b98e849f2d2a707cd70190b
+  - path: public/left.txt
+    algorithm: sha256
+    value: 048f2af5701b8fe4a6f4167c5409e3bc521160b8ef1e5714cd3a0b5f070abdc7
+  - path: public/right.txt
+    algorithm: sha256
+    value: 7c66ef7deba25d0cdde6c6fd7d198b60411aa790447246816b4ef47a22260fa7
+  - path: public/scramble.png
+    algorithm: sha256
+    value: be1eee35533277fc4eaa337c7a8f4148033d4ac53a57b1d6a3346a7bebc8c8b1
+  - path: public/top.txt
+    algorithm: sha256
+    value: c1cb8f1357f9eeb36a915a6efb85ab3e6684ff4a0ee7dc73e93df62c9583c68a
+  - path: src/back.txt
+    algorithm: sha256
+    value: 16fe417880da782168c20b0950d3381bb3ab9489d1721ccfb8d57a8236c9625c
+  - path: src/bottom.txt
+    algorithm: sha256
+    value: db32f5b9afacde3e52ee8b1fbebd0ee2c8ea29f558ede1a07756425e8ef81741
+  - path: src/create.py
+    algorithm: sha256
+    value: fe4e762ac15564728a409a6f4d2058ee7d8b0fa3e14707e561463ab94a0a4141
+  - path: src/front.txt
+    algorithm: sha256
+    value: b7c7dcd6e439da6dc6bb27bd9a1ab9db038f1e089323cce9b39e14c0791c8393
+  - path: src/left.txt
+    algorithm: sha256
+    value: 048f2af5701b8fe4a6f4167c5409e3bc521160b8ef1e5714cd3a0b5f070abdc7
+  - path: src/math.txt
+    algorithm: sha256
+    value: 1e58edb7995942c6c5b833d619503f5f1fc2d0ed3b896ed2e004d54ab44de0ba
+  - path: src/math_ori.txt
+    algorithm: sha256
+    value: 1e58edb7995942c6c5b833d619503f5f1fc2d0ed3b896ed2e004d54ab44de0ba
+  - path: src/right.txt
+    algorithm: sha256
+    value: 7c66ef7deba25d0cdde6c6fd7d198b60411aa790447246816b4ef47a22260fa7
+  - path: src/top.txt
+    algorithm: sha256
+    value: c1cb8f1357f9eeb36a915a6efb85ab3e6684ff4a0ee7dc73e93df62c9583c68a
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

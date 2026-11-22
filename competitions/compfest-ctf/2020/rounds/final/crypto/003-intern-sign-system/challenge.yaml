@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-crypto-003
+name: Intern Sign System
+slug: 003-intern-sign-system
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: |-
+  Our new intern has claimed that his implementation of RSA signing algorithm is fast and secure. But he  forgot to make the signature able to be verified.
+
+  ```nc <HOST> <PORT>```
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: cryptography/intern-sign-system
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: aa3dcdf7c76f5341292fa2e9a40eb5937cc5e44180c804aabd94e16edf18df75
+  - path: Dockerfile
+    algorithm: sha256
+    value: 151f47e463e22657bb3dbf76af3d7f65b0f428c9aa5764bdb2a26f3a727c318b
+  - path: README.md
+    algorithm: sha256
+    value: 79c5a1d67ed7dd450f7e17bb27e764d203b800ced5c2a5327965e83f5a4c2a7f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 41ee667386ff002315007b1988dbd67a05ae6c58d6354167c4ae4fdfe5f214d6
+  - path: flag.txt
+    algorithm: sha256
+    value: 954f6af815ce8fe7aa3ee44468141df3c16bce0b5d1e67d9500c1d56051353ab
+  - path: prob.py
+    algorithm: sha256
+    value: b7fb88e5802bc167ae0e308adb229644df584dd364d4f0bd62efc52743764251
+  - path: share/prob.py
+    algorithm: sha256
+    value: b7fb88e5802bc167ae0e308adb229644df584dd364d4f0bd62efc52743764251
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

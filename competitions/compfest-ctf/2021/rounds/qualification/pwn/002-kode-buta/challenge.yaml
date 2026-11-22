@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-pwn-002
+name: Kode Buta
+slug: 002-kode-buta
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: |-
+  The author of this challenge is very 'anti' with 'blind' type of challenge.
+
+  P.S.: If you don't understand Indonesian language, consider using google translate.
+difficulty:
+  value: Easy-medium
+  source: organizer
+tags:
+- Anti debugger
+- static
+- buffer overflow
+authors:
+- name: hhh
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: binary-exploitation/kode-buta
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 40e20c17a1a10580c62713a7904663c98976be1b590b8e069ac62555558fcf52
+  - path: README.md
+    algorithm: sha256
+    value: 49d51aab2370668b5a9230c01f39278945ae8fcee609641282843a4bf0f60481
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 16bd6090e0fe6c536f3c21d1b01eba063fb6561a45306fc0f87a5c8c70b87795
+  - path: public/anti_blind
+    algorithm: sha256
+    value: 0594bbb5a7ad422b5578c846c4c1005726a36d4fc7bb18a8a042573281946180
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b9a60586098b02f8889acaa40e4f48671ee4c3eb5bcb128f5d7651174e19e9f6
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: c9612f5bc6b3c3f59c7ac6dc8bf850201a83c9a96520a1ce5ce8d613f457dddf
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/anti_blind
+    algorithm: sha256
+    value: 0594bbb5a7ad422b5578c846c4c1005726a36d4fc7bb18a8a042573281946180
+  - path: src/server/anti_blind.c
+    algorithm: sha256
+    value: 6269b3bc2b2c180a19207219692ffa1f6f71a4821f4bb60128e75f1ee0753821
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 5d2dff8d63723ca06099f521b55b72a2bd55cf5b7e8098735cd4abee9a409ca8
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

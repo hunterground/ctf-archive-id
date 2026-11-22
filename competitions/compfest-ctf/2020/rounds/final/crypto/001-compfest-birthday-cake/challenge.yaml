@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-final-crypto-001
+name: Compfest Birthday Cake
+slug: 001-compfest-birthday-cake
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: |-
+  Selamat ulang tahun!
+
+  Compfest punya hadiah spesial, tapi kamu harus tahu passwordnya :D
+
+  Butuh hint? Baca judulnya :P
+
+  `<link menuju web>`
+
+  P.S.: flag ada di password, submit flag dalam format `COMPFEST12{<password tersebut>}`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-final
+  commit: af3cf6402abd3279d8ddc99d68a5d9ea79800739
+  original_path: cryptography/compfest-birthday-cake
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-final/blob/af3cf6402abd3279d8ddc99d68a5d9ea79800739/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 88be8df28503f51c526b5342a1547ed3897143f4b7f21cc4ee90f430451e03c6
+  - path: Dockerfile
+    algorithm: sha256
+    value: 85b71830f2ed53bbb995ba2e6aea869f507fb7b820bb7957623aa6386b9d4df7
+  - path: README.md
+    algorithm: sha256
+    value: 5789f0b8635ea39060e505aa54942b068722f675761f9f625a3a3b5e1e51ca12
+  - path: app.py
+    algorithm: sha256
+    value: e053b73dde10444362adb43601076e142d56899977459ad9c0bbc903e9b5baec
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a78563944022d506a088e95a05d005e9a67121b7c9fe4f83175fe8141bd9ee2a
+  - path: flag.txt
+    algorithm: sha256
+    value: 8d3ad0c28938d6ca2598949d72bed34a3654a03d9090016778bba7447f1cecc3
+  - path: key.txt
+    algorithm: sha256
+    value: 3bf1a4adf7dc790d402435bfa228f770c83610025f37a9d5a9beb156a4c76f37
+  - path: pass.txt
+    algorithm: sha256
+    value: 0a650b5227743c4cdc82b2c0b5a4cf1abf562ec0a8b89f3698aa253d2b329a21
+  - path: requirements.txt
+    algorithm: sha256
+    value: de56ecb5086751c54d975a9af94bc8c6d7a69d57cfce0e944937db618ec9e388
+  - path: templates/index.html
+    algorithm: sha256
+    value: cad3b590e3e4e1db052b4dcdd92e9f16ee10442caa62106f20eec6d23a84365b
+  - path: templates/success.html
+    algorithm: sha256
+    value: f8fb020063fd07f7f9f5addd31a8287d42cb313f7403c9b39bd0337f50977eaf
+references:
+- title: compfest12-final
+  url: https://github.com/ctfcompfest/compfest12-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

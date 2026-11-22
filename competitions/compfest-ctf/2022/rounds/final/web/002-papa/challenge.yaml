@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-web-002
+name: PAPA
+slug: 002-papa
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: This semester I'm taking a Spring Boot class called PAPA. For our first assignment we had to experiment with request mappings with various methods. I made an extra feature that nobody is supposed to know.. or at least I hope I did.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Spring4Shell
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: web/papa
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0c2ef86ba9ef2d51c6ca855d1c0c1fb30a1cdd5ef457c1aeeb47cd08aa72aa0a
+  - path: README.md
+    algorithm: sha256
+    value: 1da7f47d36aafa0be3da7f7a5c9951a54fc804c8fb19a54f1dddf30cd5a077ea
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d97ca282ca1ab1b6a8055b40749e68d13c646d89d711d80bdce54f1ed395415c
+  - path: pom.xml
+    algorithm: sha256
+    value: 2b3df8e609fdaba870c2e8a12f4b29ce4e1cde90363fdaf5b14ccb562598fa53
+  - path: public/HomeController.java
+    algorithm: sha256
+    value: 05fea5bbf8a78f065a0b2c17eac81b6f7e850e0bf3b50fdd4ded5e54cdc00c42
+  - path: src/main/java/id/compfest/papa/HomeApplication.java
+    algorithm: sha256
+    value: 5b2e3f72ae2aef4241aafe8a1f451e5a7e314ed2ea100c625a0dc7abcb0ddf3a
+  - path: src/main/java/id/compfest/papa/HomeController.java
+    algorithm: sha256
+    value: 6f734063ec270b43d078dcd913e00a89f8169ada51638b4141dd27198080a84b
+  - path: src/main/java/id/compfest/papa/model/HomeModel.java
+    algorithm: sha256
+    value: 1471efb8d8be07b00aabb86f80ac36f267a961d1392fbb9117ffa6c7427c5c10
+  - path: src/main/resources/application.properties
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: src/main/resources/templates/error.html
+    algorithm: sha256
+    value: 71592c143462b7c26d310b79bff3a51f9d7a0b9d1723795af0f5630172d47aec
+  - path: src/main/resources/templates/home.html
+    algorithm: sha256
+    value: d53b4c9dd426eb3c16ce1ec5147e28f476e6a7481931fd31343bb4cd0fc784d3
+  - path: src/main/resources/templates/win.html
+    algorithm: sha256
+    value: 86285a51707ebc45087c7836f189b27fad9fa240eff2d6c1eee12db99fa0116c
+  - path: src/test/java/id/compfest/papa/HomeApplicationTests.java
+    algorithm: sha256
+    value: a79bc329b3e5473b195beec4a133a1d6bfdbdb5d6e9695482962080c6783e7e7
+  - path: start.sh
+    algorithm: sha256
+    value: 103fff6e4da7d77f48c3823696ecc434fc5f93d5f1540eb7426baf7c627e00bb
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

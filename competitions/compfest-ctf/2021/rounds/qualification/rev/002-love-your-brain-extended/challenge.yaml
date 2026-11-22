@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-rev-002
+name: Love Your Brain Extended
+slug: 002-love-your-brain-extended
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: Ey, got somethin for ya. Let's see if you can wrap your brain around it this time.
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Brainfuck
+authors:
+- name: xMaximusKl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: reverse-engineering/love-your-brain-extended
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: 68facfaca0ac0e2901cff2e15a71746606ff9e817416a6a72abed4c53b410b8a
+  - path: public/problem.bf
+    algorithm: sha256
+    value: 716dfb688479a8a0b0b1f9ce5a2eefa5399433a850ea03fe454f9ae886ff097c
+  - path: src/LoveYourBrain.py
+    algorithm: sha256
+    value: 01f2f68b61902ca49b5664ec8a71d626927125de9daf8168c18f603079c4889d
+  - path: src/LoveYourBrainExt.bf
+    algorithm: sha256
+    value: 82921578f978d62dad83a76ecd69825fcacfd7fce6c4ed7b3819a20e91d5f6e5
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

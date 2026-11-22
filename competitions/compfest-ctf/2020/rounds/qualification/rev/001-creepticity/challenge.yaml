@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-rev-001
+name: CreeptiCity
+slug: 001-creepticity
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: |-
+  A gang leader has run away. But he left his computer on, because he thinks
+  we're boomers that doesn't know this. Prove him wrong by reversing this encryptor.
+  Note: The flag must be submitted in the format COMPFEST12{\<answer\>}
+difficulty:
+  value: Easy - Medium
+  source: organizer
+tags: []
+authors:
+- name: William (Hori75)
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: reverse-engineering/creepticity
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fddc169b04e72b9206eae171db92db62a63ae4b9bd644ea51be5d49b1bfbaae7
+  - path: files/enc.py
+    algorithm: sha256
+    value: be9515645a1a781ace97546e3f514107abce0e83f5053677dfcdd5bd7bc14c93
+  - path: files/encryptor
+    algorithm: sha256
+    value: 938f0931e144e8c0c938c641567953be29e67db8a48e9f630ee3ef0f26157d31
+  - path: files/encryptor.asm
+    algorithm: sha256
+    value: d5829ef3d3ee9e67e16c74a8596561cf529edfa5ffc6aeca313c7f244e3bb5dc
+  - path: files/encryptor.o
+    algorithm: sha256
+    value: d1b015afb50bf4eba77645c1a9d39878cb6ffe37744c0e786a2eeb8c92b5668d
+  - path: files/flag.txt
+    algorithm: sha256
+    value: 600dce0dfa3f534b92af134b2b6a753682e6e4570ece22ef5779e1afe44b1294
+  - path: files/out.txt
+    algorithm: sha256
+    value: e81213cd7bc41c826a408c54a7842ab6400e3d48b4af9135de992c390bbdd71e
+  - path: share/encryptor
+    algorithm: sha256
+    value: cb5c12dc1b5c3ff5ed40506105aee1a4b4eccb6d9c322e855bea08e215c75fa0
+  - path: share/out.txt
+    algorithm: sha256
+    value: e81213cd7bc41c826a408c54a7842ab6400e3d48b4af9135de992c390bbdd71e
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

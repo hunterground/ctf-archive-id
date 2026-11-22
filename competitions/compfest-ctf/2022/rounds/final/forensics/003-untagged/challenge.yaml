@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-final-forensics-003
+name: Untagged
+slug: 003-untagged
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: final
+category: forensics
+original_category: forensics
+description: |-
+  >A lot of stuff happened, but I ended up with a weird-looking archive. It was pretty old and had several names worn off. But I guess it has such kind of secret
+
+  `Zip password: cycleleergreycactus`
+difficulty:
+  value: medium/hard (?)
+  source: organizer
+tags:
+- forensic
+authors:
+- name: Sui
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-final
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-final
+  commit: 669c5ef85f99c7b99528756516acad40a1a32d7b
+  original_path: forensics/untagged
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-final/blob/669c5ef85f99c7b99528756516acad40a1a32d7b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: b0a530a66c4608e0598f3a8857be16eec93099998fb540da302c153e047dada1
+  - path: challenge.yml
+    algorithm: sha256
+    value: 30f1abbe6e97154b574cd94c539de803b2b423b2a5496b3e1ed2298b844dcb2e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/untagged.zip
+    algorithm: sha256
+    value: e521b5ce6244decec190c2ac443e6f7760bd1faeed4d8462ab80f2091e857c03
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/Makefile
+    algorithm: sha256
+    value: 29af8ce163df91a000babdb468312c76ed70484e16504a9a497ccd850873743c
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 75ca90208bf0b5c7bb58f20ff9000831b7b1417e70cc7a167d31d44ca588719a
+  - path: src/info2dir.py
+    algorithm: sha256
+    value: faae76c44068611686d39397e0f43b5abf022b698439a0cd0f872f6121c55038
+  - path: src/mod.py
+    algorithm: sha256
+    value: bb493b8002f72f1f7af71b0853e1aad65d8c73d5d1bf819ff71481f246b81f4d
+  - path: src/rebuild_ch.py
+    algorithm: sha256
+    value: 30eb14c02c7ca6c29935f3d0d6ce56a9a895c8fd47c20a699579023ad0faeecf
+  - path: src/rem
+    algorithm: sha256
+    value: 161474b99b3475d337ac8a9cbcc2c5c25a11f33aa5bf636b1c22b3afa0a132c3
+  - path: src/untagged.zip
+    algorithm: sha256
+    value: e521b5ce6244decec190c2ac443e6f7760bd1faeed4d8462ab80f2091e857c03
+references:
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

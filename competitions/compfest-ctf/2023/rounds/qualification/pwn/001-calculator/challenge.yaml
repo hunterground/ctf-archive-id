@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-pwn-001
+name: Calculator
+slug: 001-calculator
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  A well-written regular calculating program, it should have no other function than counting. Unless you prove me wrong!
+
+  `nc <ip> <port>`
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Heap
+- Tcache Poisioning
+- Oob
+- Safe Linking
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: Binary Exploitation/Calculator
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 37cacf6409eda8880d762abd9e7a5d0caf7f606befddc6c8bbe7ff5f69bd2bd6
+  - path: README.md
+    algorithm: sha256
+    value: 07bab281aa68e15cb43a59ce3aadea717fd2389bfecb24e62d69052b52b887e5
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: fecce49df876e0320473449c43692546aa994c374e742d09776f3ec2cf95f9a2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 6bcbeb33065a8ecaced95630c41336350168dfed0387c7b3431dc540b4848bb0
+  - path: public/chall
+    algorithm: sha256
+    value: 2ba0efd0536777df65d7af28c5591c4002039731dab61883c92116cc9019b876
+  - path: public/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: public/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: src/chall
+    algorithm: sha256
+    value: 2ba0efd0536777df65d7af28c5591c4002039731dab61883c92116cc9019b876
+  - path: src/chall.c
+    algorithm: sha256
+    value: ad0e8598da34e0eeec7ff6e7c663f3e0e44cda69608f527cd4fdf4bf9a84f680
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 2e3587a178b3c7992f289dff5b79ed1068f53ef2c48329a550ea7e2e712553c3
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: start.sh
+    algorithm: sha256
+    value: 9019d9bc74771519b802a69cca956500bf66518b219f7efe7d32d24150aab60d
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

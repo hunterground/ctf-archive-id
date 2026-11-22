@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-pwn-004
+name: Moneypoly
+slug: 004-moneypoly
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: Your favorite board game from your childhood :D.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- format string
+- rop
+- shellcode
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: binary-exploitation/moneypoly
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 40e20c17a1a10580c62713a7904663c98976be1b590b8e069ac62555558fcf52
+  - path: README.md
+    algorithm: sha256
+    value: 0d67fc6f601d77520619f499ab54d74a8569883971dea067d75b69e0ae4810d4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bb3f47b7d726eb598c1309a9e5147f7d741d6210e52e40d389f5f1f75527b0a6
+  - path: public/chall
+    algorithm: sha256
+    value: afdc0de08c467bd769c63fb592d204d9945afd1d33ffd02339e74aa4d67cecb7
+  - path: public/map.txt
+    algorithm: sha256
+    value: 5ef3282d7850a28f2abc2528d309f39068176cc8685cd35cfc1aa16573080ee0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9b5e917b3e365a88aeb4bcdf5d3dff918a78a3d83b71038af445a5f0554c68df
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 7d1d3ed2aba65e7f94bf9a17709c483f75cfca1757911fbb4cbdf87376df9272
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/chall
+    algorithm: sha256
+    value: afdc0de08c467bd769c63fb592d204d9945afd1d33ffd02339e74aa4d67cecb7
+  - path: src/server/chall.c
+    algorithm: sha256
+    value: 16713cc573bb1845ebbec1302676c7ecf0f85821207905622935f5b9103b9fe6
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 2a2a4d3dbcc555b900db4764a5f1c6caefa1869d70c79e34ed8462851816a356
+  - path: src/server/map.txt
+    algorithm: sha256
+    value: 5ef3282d7850a28f2abc2528d309f39068176cc8685cd35cfc1aa16573080ee0
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-rev-001
+name: ATMEGA Time Capsule
+slug: 001-atmega-time-capsule
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse-engineering
+description: You just found a weird time capsule with a flash drive, and you immediately plug it into your computer (don't try this at home). You found an asm file and a txt file created on 8 May 2015. Try to find out what the asm file does!
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Reverse Engineering
+authors:
+- name: ReeyaDono
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: reverse-engineering/atmega-time-capsule
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 37a5c8bcc116bde448ef3e4983e2343938330a1e6fec4f4dd9351e6aaf1ca401
+  - path: public/atmega.asm
+    algorithm: sha256
+    value: d1cb204841bdb7c8b7236a1b4827047d2a9ba35a9a7ab991d262fe1bf9adcb08
+  - path: public/key.txt
+    algorithm: sha256
+    value: aac021e7d01020100165b86617dfae73dbc19a89b2bd5036c655d35d9814caee
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,6 +1,6 @@
 schema_version: '1.0'
 id: compfest-2021
-competition_id: compfest
+competition_id: compfest-ctf
 year: 2021
 name: COMPFEST CTF 2021
 status: completed
@@ -10,7 +10,20 @@ dates:
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Listed by CTFtime on the COMPFEST CTF series page.
+  challenge_count: 41
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+- title: compfest13-final
+  url: https://github.com/ctfcompfest/compfest13-final
+  type: official_repository
+  accessed: '2026-11-22'
+- title: CTFtime / COMPFEST CTF 2021
+  url: https://ctftime.org/event/1358
+  type: third_party_archive
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: >
+  COMPFEST 13. The organizer published the qualification and final problem sets in ctfcompfest/compfest13-qualification and ctfcompfest/compfest13-final. The year is the same annual numbering used by the COMPFEST 14 READMEs, which name 2022, and by the COMPFEST 15 qualification README, which names 2023. The repositories do not state the local event dates. The CTFtime listing is the public mirror, so its window is not recorded as the local dates.

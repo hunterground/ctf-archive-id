@@ -1,6 +1,6 @@
 schema_version: '1.0'
 id: compfest-2022
-competition_id: compfest
+competition_id: compfest-ctf
 year: 2022
 name: COMPFEST CTF 2022
 status: completed
@@ -10,7 +10,20 @@ dates:
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Listed by CTFtime on the COMPFEST CTF series page.
+  challenge_count: 43
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+- title: compfest14-final
+  url: https://github.com/ctfcompfest/compfest14-final
+  type: official_repository
+  accessed: '2026-11-22'
+- title: CTFtime / COMPFEST CTF 2022
+  url: https://ctftime.org/event/1811
+  type: third_party_archive
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: >
+  COMPFEST 14. Both organizer READMEs title the problem sets as CTF COMPFEST 2022. Qualification and final materials were imported from ctfcompfest/compfest14-qualification and ctfcompfest/compfest14-final. The repositories do not state the local event dates. The CTFtime listing is the public mirror, so its window is not recorded as the local dates.

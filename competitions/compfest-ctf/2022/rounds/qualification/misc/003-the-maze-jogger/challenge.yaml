@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-misc-003
+name: The Maze Jogger
+slug: 003-the-maze-jogger
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: |-
+  You don't even need to run. Just don't be too slow, ok? :)
+
+  `nc <ip> <port>`
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Programming
+- pathfinding algorithm
+authors:
+- name: sl0ck
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: misc/the-maze-jogger
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 73bc35d46e5e6f519165502b0176252b1365c2ea22122ed3ab8ee4fe75ff4260
+  - path: README.md
+    algorithm: sha256
+    value: e01f0d77a256880ae053de94cb87b69932db4ffb189ee07991707ac82740bc3f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3cb9bbc3618ee0389ac38496cbf9af73e3d03cd06d709ef7b0bad29b9096cf6f
+  - path: public/flag.txt
+    algorithm: sha256
+    value: dd2d8ebf85a326d2667963c753b6ba505f4d7dfaf606d92000fff416b2635692
+  - path: public/maze.py
+    algorithm: sha256
+    value: 00ecf2f71e929dd5b7c3d5de1f4f3c6cdf886b301f269a7432e75111b8ca39e8
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 0accb0ab5c612019353587b8eb31dae9f8b7290e1cb844dbda97912dce1d5625
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: d7b1568ec5da388c610844b45b54d9324c10be7cdc7a1a1cc8eb6fb832f8ce01
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: 2e96da149db645ba5dadb73cace2c7c2e5c01dafea6180106e806f902896a82e
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 289a294b56d966d4393f9b1cf6a5363ede075fc1fa5b411c26e5236998000ae2
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: bee13c2e0c5caeb0dc4c9b1f681e79df39ef5ceb4438c769542aa573fbc9afd0
+  - path: src/server/maze-dbg.py
+    algorithm: sha256
+    value: 55a92f51c4f3d2d8649d58dfa9a1f3d0d4aaf5b0bace71d64eb877bc67771f75
+  - path: src/server/maze.py
+    algorithm: sha256
+    value: 00ecf2f71e929dd5b7c3d5de1f4f3c6cdf886b301f269a7432e75111b8ca39e8
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

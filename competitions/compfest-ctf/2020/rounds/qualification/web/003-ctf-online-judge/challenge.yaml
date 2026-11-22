@@ -1,0 +1,129 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-web-003
+name: CTF Online Judge
+slug: 003-ctf-online-judge
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: We tried to recreate competitive programming online judge for python only, but failed miserably, and by miserably, fatal failure. What's the bug? see if you can find it out!
+difficulty:
+  value: Easy
+  source: organizer
+tags: []
+authors:
+- name: ???
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: web/ctf-online-judge
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: ef579cdda047dd00d5fb9a51a8e61f6f814f49445e8c2498a3a17dec655ff107
+  - path: home/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: home/admin.py
+    algorithm: sha256
+    value: b2e328e31f08dc907100505521d13ee6a9ea67a240655d051120011ce49cfaf8
+  - path: home/apps.py
+    algorithm: sha256
+    value: 06ca66b63f6f41f77c25b5c6d292d26c569a6cfcbb505ea6195ab911f35de8db
+  - path: home/forms.py
+    algorithm: sha256
+    value: 0b59c6f6ac9832d352997ea9d70d8c82707adb86ec782bc778b14132bd34c335
+  - path: home/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: home/models.py
+    algorithm: sha256
+    value: 563734a765db00f804e87c9317abe597df00e1e0e103902f690aac738910f404
+  - path: home/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: home/urls.py
+    algorithm: sha256
+    value: 214361db61b165f1ff729b8ad3931f6aad7c18430145055bc46d086fc16a58e5
+  - path: home/views.py
+    algorithm: sha256
+    value: 26a94dfa6925a2fd134bf2d6045efd19eedaf70d4ee294cefb07ebca91943b53
+  - path: manage.py
+    algorithm: sha256
+    value: 057d45676c72a735783c1bc4ab4f75d4bab9b97e309a06791cd6b405992d2bd9
+  - path: payload.py
+    algorithm: sha256
+    value: 22a07ce7d83c6e3625ec1540aa2304389126730cc7d0e4ecdd6a3693807fd813
+  - path: pemulator/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: pemulator/asgi.py
+    algorithm: sha256
+    value: e9a6484e890368c2e54ed5cb6cae1d8286f255e9b4a97ffb23462bb78b6a4ab7
+  - path: pemulator/manage.py
+    algorithm: sha256
+    value: 057d45676c72a735783c1bc4ab4f75d4bab9b97e309a06791cd6b405992d2bd9
+  - path: pemulator/pemulator/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: pemulator/pemulator/asgi.py
+    algorithm: sha256
+    value: e9a6484e890368c2e54ed5cb6cae1d8286f255e9b4a97ffb23462bb78b6a4ab7
+  - path: pemulator/pemulator/settings.py
+    algorithm: sha256
+    value: 93c1cfbc3f8feecf50052062123584e532549e0cdd2a0c14b72097dfec0631d8
+  - path: pemulator/pemulator/urls.py
+    algorithm: sha256
+    value: 6676ee274fbbdf2af30c8202b0d7b988d00fd993ac7bbb71a6622778f4d02206
+  - path: pemulator/pemulator/wsgi.py
+    algorithm: sha256
+    value: 61d8ccbdd8f611e128df32b3d909d4097d7dafb0aa1ac4ca0f72497bdf970e9c
+  - path: pemulator/settings.py
+    algorithm: sha256
+    value: 5da62976439b41f96f4ec429685d395ae6d2cbbfdecfddbd99ef4fb925dd4e72
+  - path: pemulator/urls.py
+    algorithm: sha256
+    value: 911deb031e2f7e7a0bec546b244cec88327346b988006644c474f1bee972ba8f
+  - path: pemulator/wsgi.py
+    algorithm: sha256
+    value: 61d8ccbdd8f611e128df32b3d909d4097d7dafb0aa1ac4ca0f72497bdf970e9c
+  - path: readme.md
+    algorithm: sha256
+    value: 0f6e6473d5201dff810054c128158e4e55701edb0cb4db93d990b3620df13203
+  - path: requirements.txt
+    algorithm: sha256
+    value: 1ed9b5906b1441bf9b92952209cd9f74f1ef93acf4fb63de23892e2c18fdc608
+  - path: templates/home.html
+    algorithm: sha256
+    value: d049f59ac337a3c9b612e7afefb9981821f5a696ff93b0c0a96d2728e59fe64e
+  - path: templates/result.html
+    algorithm: sha256
+    value: 3068dd025f49f8754864df388fb19bbc80145a2d598c8eb2702b939bead310d9
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: compfest-ctf-2022-qualification-pwn-003
+name: Tosaki Mimi
+slug: 003-tosaki-mimi
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: |-
+  https://www.youtube.com/watch?v=OyzPWpS-9eQ
+
+  https://www.youtube.com/watch?v=tgXOahcMDKs
+
+  https://www.youtube.com/watch?v=IIBH2UxXT5s
+
+  https://www.youtube.com/watch?v=tmMinL-3MSI
+difficulty:
+  value: Medium
+  source: organizer
+tags:
+- heap
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-14-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest14-qualification
+  commit: eed323394cb5ac6965545e41971c3d333b7656fe
+  original_path: pwn/tosaki-mimi
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest14-qualification/blob/eed323394cb5ac6965545e41971c3d333b7656fe/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor settings are not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 86a77bf0edb8da9dfa217dfbeec615e107849006d4b1efe28efea8a27271d72c
+  - path: README.md
+    algorithm: sha256
+    value: 945bb8befff4edc2bb22bb3eb35f7ef214cff038d81eececf5578550523bbbd8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a580e67e861163b86903c9570114eeb50511ff6d424e9d29fc089bbcd669b2b6
+  - path: release/ld-2.31.so
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: release/libc-2.31.so
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: release/tosakimimi
+    algorithm: sha256
+    value: 1dacc6aceeb79139e28ca4d37ff6a07f4d1af0dfcd59433e7f6188112b2469da
+  - path: src/ctf.xinetd
+    algorithm: sha256
+    value: 0193f9ae34f77796c5c1ebcec374b4908b95b29d8acb53ccb0c967bfc13ea7fc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 7fef68966535068f0bf50ce1374d9e790a6467aad2b3d82ceee55c70b7b7f3ab
+  - path: src/start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: src/tosakimimi
+    algorithm: sha256
+    value: 70d64d39b9d9f517d0af6739ee79d7ed41e4981a8cc1ebd30ed2e305570e3d88
+  - path: src/tosakimimi.cpp
+    algorithm: sha256
+    value: 8c70169ce679ee9076979b13f2ea718733b4a0558be1409d4ac44c871a0db8c9
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+references:
+- title: compfest14-qualification
+  url: https://github.com/ctfcompfest/compfest14-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

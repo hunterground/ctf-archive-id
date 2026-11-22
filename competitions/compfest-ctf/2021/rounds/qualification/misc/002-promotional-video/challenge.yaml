@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-misc-002
+name: Promotional Video
+slug: 002-promotional-video
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: miscellaneous
+description: |-
+  Marketing Committee: Can you show this video to your participants?
+
+  CTF committee: Ok, no problem.
+
+  Marketing Committee: Are all your participants use English as their first language?
+
+  CTF committee: No, but we can fix that easily. Don't worry!
+
+  https://www.youtube.com/watch?v=047T5AZpOiI
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- misc
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: miscellaneous/promotional-video
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0d7f792b2bf6823a7add4b7750bb731504c04e4d243f6d69a6a13a855b45aa0e
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

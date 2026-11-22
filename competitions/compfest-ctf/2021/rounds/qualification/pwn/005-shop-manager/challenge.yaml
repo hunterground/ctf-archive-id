@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: compfest-ctf-2021-qualification-pwn-005
+name: Shop Manager
+slug: 005-shop-manager
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: binary-exploitation
+description: A simple shop simulator
+difficulty:
+  value: Easy
+  source: organizer
+tags:
+- Heap overflow
+- ret2libc
+- rop
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-13-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest13-qualification
+  commit: 334a2018553a8c3dbffe530aa52f19ee1cd0710b
+  original_path: binary-exploitation/shop-manager
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest13-qualification/blob/334a2018553a8c3dbffe530aa52f19ee1cd0710b/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 40e20c17a1a10580c62713a7904663c98976be1b590b8e069ac62555558fcf52
+  - path: README.md
+    algorithm: sha256
+    value: c9fbf4d34712eff1515624190fa05340a80d225d7e6dab39bb10241f063211c0
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 42370bede7cfd32e95916ab4d8a84d4159434f8c8e2af1029e8d47254691687a
+  - path: public/chall
+    algorithm: sha256
+    value: 09199873e9340b1d2e1b30b3a01d74fbf91cf014649533a6fa1a3d0391d6a4d2
+  - path: public/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: public/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6297164e68e23c9bf18e74b926fcd45ce6d79b47d50cfa2a18592ad5cd3fced0
+  - path: src/docker/ctf.xinetd
+    algorithm: sha256
+    value: 38e5ad2cda8b4c0c27bba5b798842da2a5311e1559552c03d3f6e4c19ff0ffc0
+  - path: src/docker/run.sh
+    algorithm: sha256
+    value: e89e349746f621e8638327ee731386aab98d6d399152cc0439343c670187fd40
+  - path: src/docker/start.sh
+    algorithm: sha256
+    value: b8ba4450e654f46e81fdd8b1db93ccc7a212165f7914469e667edfddd6cc44a7
+  - path: src/docker/xinetd.conf
+    algorithm: sha256
+    value: 9b6213e7dede55a6e580a76d9324da5b902dc159a451980d3f49d622cffee4db
+  - path: src/server/chall
+    algorithm: sha256
+    value: 09199873e9340b1d2e1b30b3a01d74fbf91cf014649533a6fa1a3d0391d6a4d2
+  - path: src/server/chall.c
+    algorithm: sha256
+    value: 19350ed2594685c7d3ab85c0a4ec3dbc3edddeff2b32abe710d955fc4fbbc3f8
+  - path: src/server/flag.txt
+    algorithm: sha256
+    value: 68cf8eebaf44c76bf00a5c0a89bc53e008436713f7fbab132b9a2936b772a039
+  - path: src/server/ld-2.27.so
+    algorithm: sha256
+    value: 56e0140608ed2623cf88d08d209e746b09ec48919af02f18976c0dfe594a4a57
+  - path: src/server/libc-2.27.so
+    algorithm: sha256
+    value: 467d8d5596e31cec78cdcde0c589bd04c031ec36598531bfd77e346ac447d9d6
+references:
+- title: compfest13-qualification
+  url: https://github.com/ctfcompfest/compfest13-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

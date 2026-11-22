@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-crypto-003
+name: Lost My Source
+slug: 003-lost-my-source
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cryptography
+description: |-
+  I made a program that works like a cipher, but my friend just accidentally erased the source code!
+  I forgot to make the decipher and I have erased the plaintext.
+  Can You help me recover the plaintext?
+
+  P.S.: The plaintext is in format [flag][key]
+difficulty:
+  value: Easy - Medium
+  source: organizer
+tags: []
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: cryptography/lost-my-source
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d9d1db6212cf5c4471f829a68f0a23b3f2acb544aae2470903355b917db10b5f
+  - path: share/encrypted.txt
+    algorithm: sha256
+    value: f731b98aacf9ad032feca1b3dbeb1e2cbda38225d2cfb9251e3091c40194953e
+  - path: share/source
+    algorithm: sha256
+    value: 070717dfad6474a421220d1129bafff1229fd3dbf7e6fcd889598dee5e104795
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

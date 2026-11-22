@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: compfest-ctf-2023-qualification-osint-001
+name: Not A CIA Test
+slug: 001-not-a-cia-test
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: |-
+  That night was definitely the happiest of my life. I get to spend a night with my favorite girl, walking and strolling around the streets of Seoul, holding hands and enjoying the winter air with the beautiful night lights decorating our surroundings. Look, I even took a picture of her! Although, she was really camera-shy. What I don’t really get is, my friends told me that all of this is just in my imaginations. I can assure you I did have a date with her. Otherwise, how would I take this picture?!
+
+  Anyway, I organize my dating pictures by location. The problem is, I forgot the name of the street where I took this picture, specifically the street behind her. And the girl? Well, long story, but there’s no way I can ask her. All I can remember is this location was near a Burberry store. I tried to look it up too, but the streets and buildings were pretty hard to recognize because the pictures on the internet were from 5 years ago.
+
+  I know you can find the street location. So please help me, yeah? Also, sorry for the pixellated image!
+
+  **NOTE: Brute-force solutions in the writeups will not be considered valid.**
+
+  Flag format: COMPFEST15{StreetNameWithoutDash_DistrictName_BurberryStorePlusCode}
+
+  Example: COMPFEST15{BanpoDaero_Geumjeong_RRXH+88}
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- OSINT
+- location lookup
+- reverse image search
+authors:
+- name: notnot
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-15-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest15-qualification
+  commit: c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a
+  original_path: OSINT/Not A CIA Test
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest15-qualification/blob/c8d9aeed4298fd1076eb3d7e139f375cf34d6a5a/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: aeb504e51302c8c1ecdcd8909fc06ad653efe9a1780053db604390b711cfe769
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/ayang.jpg
+    algorithm: sha256
+    value: 3c5c2b135cd7dc23c3348824ee3c57593b69b029eb169c0a1b854a3ea02b759f
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/ayang.jpg
+    algorithm: sha256
+    value: 3c5c2b135cd7dc23c3348824ee3c57593b69b029eb169c0a1b854a3ea02b759f
+  - path: src/yujin (original res).jpg
+    algorithm: sha256
+    value: 3b67914ecfd88dea361d29c2b0b1c78aec49af731c7a49fe44e51852a45cd952
+references:
+- title: compfest15-qualification
+  url: https://github.com/ctfcompfest/compfest15-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

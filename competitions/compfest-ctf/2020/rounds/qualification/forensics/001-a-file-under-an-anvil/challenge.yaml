@@ -1,0 +1,405 @@
+schema_version: '1.0'
+id: compfest-ctf-2020-qualification-forensics-001
+name: A File Under An Anvil
+slug: 001-a-file-under-an-anvil
+original_name: null
+competition_id: compfest-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Psst, can you do me a favor kid? I found this under the blacksmith's anvil. It looks like there's some secret in it. Can you please retrieve the secret for me?
+difficulty:
+  value: Medium - Hard
+  source: organizer
+tags: []
+authors:
+- name: xmaximuskl
+  team: null
+organization: null
+provenance:
+  archive_id: compfest-12-qualification
+  source_type: git
+  repository: https://github.com/ctfcompfest/compfest12-qualification
+  commit: 40a8edf86c5b437207179f2ba7aef1bfebc4af3c
+  original_path: forensic/a-file-under-an-anvil
+licensing:
+  declared_license: CC-BY-SA-4.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  permission_reference: https://github.com/ctfcompfest/compfest12-qualification/blob/40a8edf86c5b437207179f2ba7aef1bfebc4af3c/README.md
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 40dc4251af7c9d981361e22f58fa58d91cb3379308fc365dc237080205209fd5
+  - path: private/BrolandJava/DIM-1/data/raids.dat
+    algorithm: sha256
+    value: 7885096279646f865f8b846a6474d03edf0ac4fdbd1b36234c81f12ec61a4eb0
+  - path: private/BrolandJava/DIM-1/data/raids_nether.dat
+    algorithm: sha256
+    value: 39a49ee848259f2d8cd9cd545ef54bdcba69048696c86b07416d229d852c3809
+  - path: private/BrolandJava/DIM-1/poi/r.-1.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-1.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-1.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-1.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-1.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-2.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.-2.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.0.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/poi/r.1.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/region/r.-1.-1.mca
+    algorithm: sha256
+    value: af05f5ef79bfc6f5970fa53019ac039ba60df8891e1c358897df4b8231aead2e
+  - path: private/BrolandJava/DIM-1/region/r.-1.0.mca
+    algorithm: sha256
+    value: e3e9f1dcad3178a15e9605176a06660c367e2731b586199dc45c3757cc4128e3
+  - path: private/BrolandJava/DIM-1/region/r.-1.1.mca
+    algorithm: sha256
+    value: 0db0527b3ab7e6f73aabc9a11ec69d1ce03411f22c3104ea88fbf64d3cac77e3
+  - path: private/BrolandJava/DIM-1/region/r.-1.3.mca
+    algorithm: sha256
+    value: 6c36c843a095587e96c506dc59ac7db24f250c341b7c08fd4c364c077c90a567
+  - path: private/BrolandJava/DIM-1/region/r.-2.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/region/r.-2.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM-1/region/r.0.-1.mca
+    algorithm: sha256
+    value: 472d6681d111be1f48f6b370125d5e3be19ca677a4e072b07722d174a537f8b3
+  - path: private/BrolandJava/DIM-1/region/r.0.0.mca
+    algorithm: sha256
+    value: 9b8cecff262adff8676480e8dcc0ba426cbe18d87cc849a101461361102e5dce
+  - path: private/BrolandJava/DIM-1/region/r.0.1.mca
+    algorithm: sha256
+    value: 48b0f578930e7eeae641ffd80a6a129c41a0922baad4810a9a719443d6e0d5bc
+  - path: private/BrolandJava/DIM-1/region/r.0.2.mca
+    algorithm: sha256
+    value: 1b0433a3074d8b225746d213497ee985d8c17ae1e5f8d0fab7dec6fe095d67b4
+  - path: private/BrolandJava/DIM-1/region/r.0.3.mca
+    algorithm: sha256
+    value: 154e4d09e1a90ec78513d47a7b0342c52dbb9363c7191c9b5f812cd4e4c7f42e
+  - path: private/BrolandJava/DIM1/data/raids_end.dat
+    algorithm: sha256
+    value: 1a54aca87f0a4a701ea6607e7762e92fcd00ff3f9610ff6ff37c9b18c33ae9c3
+  - path: private/BrolandJava/DIM1/poi/r.-1.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-1.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-2.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-2.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-2.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-2.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-3.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-3.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-3.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-3.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-3.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-4.-1.mca
+    algorithm: sha256
+    value: 1e00fe3d1b056022176847959ded7f8ea9d1d144a0d4a60fb6b623ce7860df4f
+  - path: private/BrolandJava/DIM1/poi/r.-4.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-4.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-4.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-4.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-5.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-5.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.-5.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.0.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.0.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.0.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/poi/r.0.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/DIM1/region/r.-1.-1.mca
+    algorithm: sha256
+    value: 87336d4cbbf59fa0659a5d5fbf3a52de787f023842364048ba2b38dbaa9f6e4e
+  - path: private/BrolandJava/DIM1/region/r.-1.0.mca
+    algorithm: sha256
+    value: f2a9bbddfd95efe45162f6eb81b77b2f8a965161f4f2fff620ac7a215791a903
+  - path: private/BrolandJava/DIM1/region/r.-2.0.mca
+    algorithm: sha256
+    value: e737d0ca8109e4361d25cb9741bc94dacafd525c546d56bd5d43088bbb58f2ca
+  - path: private/BrolandJava/DIM1/region/r.-2.1.mca
+    algorithm: sha256
+    value: 98f6cdea23c811770f2c23e5a6c074a704ec899da801d83e38e9f56933f77edc
+  - path: private/BrolandJava/DIM1/region/r.0.-1.mca
+    algorithm: sha256
+    value: b41f4d15d5db0a0b5e1e7f2a6317220b89ead06fc7147954ae8729368db1967b
+  - path: private/BrolandJava/DIM1/region/r.0.0.mca
+    algorithm: sha256
+    value: 13214bc74cd4773435bb8c142441e0d32a5da8760bb944377d1d02c0609d682b
+  - path: private/BrolandJava/DIM1/region/r.0.2.mca
+    algorithm: sha256
+    value: 2260a6265711b54e41981ade5b1228876b2714c39c1c4b4977e8ec7116eca4b4
+  - path: private/BrolandJava/DIM1/region/r.0.3.mca
+    algorithm: sha256
+    value: 85287303e6f5db12a22a846a3c6eb994d58220684aeae71b91dc504822f9018f
+  - path: private/BrolandJava/advancements/42b1fb88-878c-46eb-8ff9-1afed13e3cf9.json
+    algorithm: sha256
+    value: 448393b7d9ebb9ed1a031d9c9b03795fbced9666ab1b53f8576d7fd944cc589f
+  - path: private/BrolandJava/advancements/5a3d986c-8ba3-44c9-9627-8452ed778d71.json
+    algorithm: sha256
+    value: b3912efd534a0c0afbf8366b7c5743a3c14e45ce9ac59e1284c738d2b3626da3
+  - path: private/BrolandJava/data/capabilities.dat
+    algorithm: sha256
+    value: 5adebcc102ea8d2cab0f4e13bc8dd2cbf50db53211bf21d676b34d4fedb49d0c
+  - path: private/BrolandJava/data/caps.dat
+    algorithm: sha256
+    value: f3291b96389740994e0fb201010c16df95736ca52d5df78dd38f3b2bcf38808c
+  - path: private/BrolandJava/data/fabricRegistry.dat
+    algorithm: sha256
+    value: 9196669e515f3b5cabbb44f19bf1fb6c74c4464fc9b120e544d1bd74ee9dc2f5
+  - path: private/BrolandJava/data/fabricRegistry.dat.1
+    algorithm: sha256
+    value: 9196669e515f3b5cabbb44f19bf1fb6c74c4464fc9b120e544d1bd74ee9dc2f5
+  - path: private/BrolandJava/data/fabricRegistry.dat.2
+    algorithm: sha256
+    value: 9196669e515f3b5cabbb44f19bf1fb6c74c4464fc9b120e544d1bd74ee9dc2f5
+  - path: private/BrolandJava/data/idcounts.dat
+    algorithm: sha256
+    value: 54cadca1d2c7adfddc82fa2543535fa197eba36f14e63ba0eca95aeb5748ad86
+  - path: private/BrolandJava/data/map_0.dat
+    algorithm: sha256
+    value: 8050bf1012c96ae642941c55442c537e8623a715886d36a871a7244242c020c3
+  - path: private/BrolandJava/data/raids.dat
+    algorithm: sha256
+    value: acb8ef7955882c7c1f553d99f6da1167fb73e46ebfa5b1cbaad0045759ad271a
+  - path: private/BrolandJava/icon.png
+    algorithm: sha256
+    value: a0d441b34dfd62ef5f6403ea44203c91b0aad5a153a7df19f91e28d92992ba03
+  - path: private/BrolandJava/level.dat
+    algorithm: sha256
+    value: 2f6b84373f4a57f180e75ea70e2451883d772af81176e0ef56418afc909ab381
+  - path: private/BrolandJava/level.dat_old
+    algorithm: sha256
+    value: f46fb900ed2b49e0733f38ae723e979a7f62daa04187c42f229275217892dfc6
+  - path: private/BrolandJava/playerdata/42b1fb88-878c-46eb-8ff9-1afed13e3cf9.dat
+    algorithm: sha256
+    value: 96b18fb2315b85ebaeec1f8b85bc014bb6e0dcbdcc612f2df9a1c4a95004797e
+  - path: private/BrolandJava/playerdata/42b1fb88-878c-46eb-8ff9-1afed13e3cf9.dat_old
+    algorithm: sha256
+    value: 96b18fb2315b85ebaeec1f8b85bc014bb6e0dcbdcc612f2df9a1c4a95004797e
+  - path: private/BrolandJava/playerdata/5a3d986c-8ba3-44c9-9627-8452ed778d71.dat
+    algorithm: sha256
+    value: 170871c8cabb2e57b4211b07d7394ea6ef1995040c0fce8660b3d548460a8037
+  - path: private/BrolandJava/poi/r.-1.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-1.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-1.0.mca
+    algorithm: sha256
+    value: d8ceefccbbdbe60f6904b23272a0fac795c2d772a124c9eb8738078b550eeb99
+  - path: private/BrolandJava/poi/r.-1.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-1.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-1.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-1.4.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.0.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-2.4.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-3.-1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.-3.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.0.-1.mca
+    algorithm: sha256
+    value: acdc58062f0a57c279a43245384ff9fc5678b90d07ff28e2359e2c67aa955a1a
+  - path: private/BrolandJava/poi/r.0.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.0.0.mca
+    algorithm: sha256
+    value: d0cce9ea07e3405e6f3a4cc2036d53eb0ddbf57d2a1cea611e2953a8b04be837
+  - path: private/BrolandJava/poi/r.0.1.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.0.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.0.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.0.4.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.1.-2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.1.2.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/poi/r.1.3.mca
+    algorithm: sha256
+    value: 9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47
+  - path: private/BrolandJava/region/r.-1.-1.mca
+    algorithm: sha256
+    value: 20fa8412457e9bac298c19cbe2d5c1c687919a394b96f8e66d2a09ca6a8ebfc0
+  - path: private/BrolandJava/region/r.-1.0.mca
+    algorithm: sha256
+    value: dde324a6f679f65573a8c6e3cc1bbecd5d25fee60f43a0ce7c4e66767b4e68fd
+  - path: private/BrolandJava/region/r.-1.1.mca
+    algorithm: sha256
+    value: 5401a0eb19b4c7b11fd3f4c16bf74ca200572ba4202e4b10c850b8b185f54e00
+  - path: private/BrolandJava/region/r.-1.3.mca
+    algorithm: sha256
+    value: 271637e61476e2711b2b9a6fe714940dfce2ba3b9fe3eaf59d93e2f4d70a9d2c
+  - path: private/BrolandJava/region/r.-2.-1.mca
+    algorithm: sha256
+    value: 239bfb74669d97cf98bbda40ae2b42ee6bd0039a6d487ef35118b1fc247c0e86
+  - path: private/BrolandJava/region/r.-2.0.mca
+    algorithm: sha256
+    value: 6c14e2bec64b0120239ad1b10ef0c9920d7348ed7db7013e8e20dcef74d489b0
+  - path: private/BrolandJava/region/r.-2.1.mca
+    algorithm: sha256
+    value: 080dfaa8524204dbc637cf40aa492ef05afe813ab1df97e4b72a8e40b711f9c8
+  - path: private/BrolandJava/region/r.0.-1.mca
+    algorithm: sha256
+    value: 93cb1623b625686a8886188aab815a2a55271ac3a955c09c516528fd5fb6685b
+  - path: private/BrolandJava/region/r.0.0.mca
+    algorithm: sha256
+    value: f33bcb81e119b71e343ae5b6bfd714e471722e19d689860059677467ed455c0e
+  - path: private/BrolandJava/region/r.0.1.mca
+    algorithm: sha256
+    value: 30cd27a4a3bded21238723473f6c29aa7efe13048cceada2b88afe99b2acbcb3
+  - path: private/BrolandJava/region/r.0.2.mca
+    algorithm: sha256
+    value: 0b3de1094a964038d16f36330630c59fa88c1b439f46f216f81f43df48846095
+  - path: private/BrolandJava/region/r.0.3.mca
+    algorithm: sha256
+    value: 4bef5f197319259ac556130604ab8a44abdad3b93618a9a02384ca6469fb0a33
+  - path: private/BrolandJava/session.lock
+    algorithm: sha256
+    value: de3968af534228cea6672f327c977b7153d975aee98490e756e3f3ad9b5f2513
+  - path: private/BrolandJava/stats/42b1fb88-878c-46eb-8ff9-1afed13e3cf9.json
+    algorithm: sha256
+    value: 6e89fdd9027a2c8e4f1a6db4564a56fd0295212b4e48511e36c7824590c54354
+  - path: private/BrolandJava/stats/5a3d986c-8ba3-44c9-9627-8452ed778d71.json
+    algorithm: sha256
+    value: 268cb569b9dc8f1536c8d03894cf5ec0d34fe3317b3e031789b833083ae297c5
+  - path: private/BrolandJava/uid.dat
+    algorithm: sha256
+    value: 89fb9995902639ccf3848e87af9e6947d5c36aead24b4c3ce3668655bc1ec11a
+  - path: share/r.-1.0.mca
+    algorithm: sha256
+    value: dde324a6f679f65573a8c6e3cc1bbecd5d25fee60f43a0ce7c4e66767b4e68fd
+references:
+- title: compfest12-qualification
+  url: https://github.com/ctfcompfest/compfest12-qualification
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
