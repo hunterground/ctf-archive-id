@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-web-002
+name: Extra Mile
+slug: 002-extra-mile
+original_name: Extra Mile [669 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Setelah melakukan proses recon, Anda menemukan halaman dashboard admin tersembunyi suatu perusahaan. Secara intuitif, Anda mencoba untuk memasukkan admin:admin untuk login dan ternyata bisa! Sayangnya tidak ada apa-apa di dalam dashboard tersebut.
+
+  Anda ingin melaporkan temuan Anda untuk mendapatkan bounty namun Anda khawatir kalau laporan Anda tidak eligible karena tidak ada apa-apa di dalam dashboard tersebut. Oleh karena itu, Anda ingin mencoba untuk menempuh extra mile dan mencoba mencari hal lain di aplikasi web tersebut untuk mendemonstrasikan impact setinggi mungkin.
+
+  Hint: Sepertinya Anda bisa mendapatkan suatu informasi dengan membuat error web tersebut.
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:669
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Web Exploitation/Extra Mile [669 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 307e410ce5514db832d2bc140eef2281a2d43782bc6fa9f4a20fda1e2410ac54
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Extra Mile [669 pts].

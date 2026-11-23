@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-rev-004
+name: Koq Error
+slug: 004-koq-error
+original_name: Koq Error [699 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Teman Anda baru belajar menggunakan Go dan membuat sebuah program sederhana. Namun, program tersebut crash ketika dijalankan padahal ia yakin programnya benar.
+
+  Ia meminta bantuan Anda untuk memeriksa apa yang salah. Namun, bukannya memberikan source code, teman Anda malah memberikan program yang sudah di-compile.
+
+  Dapatkah Anda memeriksa apa yang salah dan mendapatkan output yang diekspektasikan? Flag dari soal ini
+  mengikuti format CJ2020{output}; nilai aslinya tidak dicatat di metadata arsip.
+
+  [Unduh program](https://drive.google.com/file/d/1T0Cmjr4Ul1orltMOfNwf9cyyUoVpTTxM/view?usp=sharing)
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:699
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Reverse Engineering/Koq Error [699 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1T0Cmjr4Ul1orltMOfNwf9cyyUoVpTTxM/view?usp=sharing
+    reason: Linked from the challenge README and not part of the upstream git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 33aece84962ff70ca79df993e3f969d7121c448616cc49cab302cc8a4a8d33b8
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Koq Error [699 pts]. Attachment linked at https://drive.google.com/file/d/1T0Cmjr4Ul1orltMOfNwf9cyyUoVpTTxM/view?usp=sharing
+  is not in the upstream tree and was not archived.

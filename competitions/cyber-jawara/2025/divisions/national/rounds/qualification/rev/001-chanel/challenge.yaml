@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-rev-001
+name: Chanel
+slug: 001-chanel
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: rev
+original_category: Reverse
+description: https://go.dev/tour/concurrency/2
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Reverse/chanel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 709c50245f78dd0f415c2ed029f7b6eed9b82fedb02adff55283b8a2db0e567b
+  - path: challenge.yml
+    algorithm: sha256
+    value: df0d1657e40b62d6578691f7ab1d482b2afe6d41ba587378f1cd279af562fe50
+  - path: release/chanel
+    algorithm: sha256
+    value: 150ab6b46d813e7cfd9ce6d59ed959d78fedc2ad536d4db2fa64e79da15f3064
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

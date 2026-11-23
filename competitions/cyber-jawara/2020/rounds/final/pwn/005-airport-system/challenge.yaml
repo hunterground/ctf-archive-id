@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-pwn-005
+name: Airport System
+slug: 005-airport-system
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: pwn/airport-system
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 23534e9cb060da096a750d83f1f9cb91bd94cfe12da3afa16bdc7cc55b50580d
+  - path: README.md
+    algorithm: sha256
+    value: da00cb4bfdc75f671755281268708b429c4c6ff798b232b4b6567edf12f2b074
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c2f8ab798e072f9924df8b6bfb009bbbdde165966dc87b3e11ce2b53932b035b
+  - path: flag.txt
+    algorithm: sha256
+    value: 2df21c375affb917b33e4f6c5b0b26b8aeb60438dfa56dc0e631711387d93a70
+  - path: service/airport_system
+    algorithm: sha256
+    value: 1b2c2dd59bf9192d20dab25584903ff8686921dcc6d71fcaff3217ffd47b1290
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

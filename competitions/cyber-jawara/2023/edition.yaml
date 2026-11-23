@@ -3,15 +3,34 @@ id: cyber-jawara-2023
 competition_id: cyber-jawara
 year: 2023
 name: Cyber Jawara 2023
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
   start: null
-  end: null
+  end: '2023-12-16'
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record. The pages reviewed for 2024 and 2025 did not establish
-  a separate 2023 edition.
+  challenge_count: 22
+references:
+- title: Soal Penyisihan Cyber Jawara 2023 (Tingkat Pelajar)
+  url: https://github.com/Danieldd28/Cyber-Jawara-23
+  type: third_party_archive
+  accessed: '2026-11-23'
+- title: Soal Finalist Cyber Jawara 2023 (Tingkat Pelajar)
+  url: https://github.com/Danieldd28/CyberJawara23-Finalist
+  type: third_party_archive
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >-
+  The 2023 edition combined online and on-site rounds and used the same three tracks as later editions:
+  National, High-School, and CSIRT Team. The two imported challenge sets are explicitly the high-school
+  track ("Tingkat Pelajar"), so only that division holds material; the other tracks are not recorded as
+  divisions because no 2023 evidence for them has been imported. The high-school final took place on
+  16 December 2023 at Pradita University, Tangerang, which is the recorded edition end date; the start
+  date is not recorded. Both imported repositories sit on a personal account and do not state that their
+  owner set the challenges, so authors are left empty and the changesets are marked needs_scope_review.
+  The material is nonetheless the genuine event set: the qualification tree carries CJ2023{...} flag
+  placeholders and links to the official cyberjawara.id/2023 track pages, and the final tree references
+  instance hostnames under ctf.cyberjawara.id. An earlier revision of this record cited the FTUI "12th
+  national hacking competition" article as 2023 evidence; that article describes the on-site final held
+  on 8 February 2025, so the reference was removed here and it is cited by the 2025 edition instead.

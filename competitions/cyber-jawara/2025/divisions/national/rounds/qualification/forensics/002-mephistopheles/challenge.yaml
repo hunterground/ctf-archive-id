@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-forensics-002
+name: Mephistopheles
+slug: 002-mephistopheles
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  I have a hypothese that my device is compromised by my own friend in my office (again). Why do everyone always target me because I don't have a single clue to setup my laptop securely? .... Oh right .. that's why. Anyway, can you help me out? I actually love customizing my Desktop theme with art.
+
+  https://drive.google.com/file/d/1L_a2xS6EVmVd79jvaG6P5pAwwP0ihIWk/view?usp=sharing
+
+  Please answer all the investigation-based questions by connecting to the remote IP
+
+  `nc {IP} 5113`
+
+  There are multi stage of episodes with total 25 Questions, and every time the next questions appear, it might need further analysis, not relatively judged by difficulty.
+
+  **NOTES: Please do run the malware inside the VM if necessary.**
+difficulty:
+  value: med/hard/insane
+  source: organizer
+tags: []
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Forensics/Mephistopheles
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1L_a2xS6EVmVd79jvaG6P5pAwwP0ihIWk/view?usp=sharing
+    reason: Linked from the challenge README and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e25cd652631970729b431256e859db862056bc4f5dfe7852d7e42dc3ea421c6d
+  - path: challenge.yml
+    algorithm: sha256
+    value: bfcbc348a14657e5390ab9d40546cc8b817b77a6d59b569298d5b508f5dd67d2
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: c011274a090cb703f92020f1a53b8e3c2a5d26a21859bf8d88791cb5ab9e7f5a
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 0d78e825a2cdacb46710d053bbf5fd156cd72b8ebf3c408ec9afc72381428bbd
+  - path: challenge/main.py
+    algorithm: sha256
+    value: b0a84da09d3b164dd7014402619f85c89d346d961dbfff65fe62e0cc0a9e9464
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

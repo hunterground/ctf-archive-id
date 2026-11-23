@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-web-001
+name: CS2018
+slug: 001-cs2018
+original_name: Cyber Jawara 2019 Qualification - CS2018
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/web/Cyber Jawara 2019 Qualification - CS2018
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: html/index.html
+    algorithm: sha256
+    value: 24260bf17783bef9b0d611c9ec3a6fdf67e9ecaf159af76748c6a4a3cbcd6e82
+  - path: html/index.php
+    algorithm: sha256
+    value: c0eacc7ba535c21a0919e69640fb08bc925f7e897c76555f77406b6fa238918b
+  - path: html/js/jquery.js
+    algorithm: sha256
+    value: 75b707d8761e2bfbd25fbd661f290a4f7fd11c48e1bf53a36dc6bd8a0034fa35
+  - path: html/js/main.js
+    algorithm: sha256
+    value: b40bbc2e0a1ab5fd22975ad7a27e9c4a391373590f18c95e8d3e22df0b1a3ef1
+  - path: html/mode/_phpinfo.php
+    algorithm: sha256
+    value: 8a3b552b719e5a50d43a7c1befa61f75dccdfaf82ca03f918bef63fdcbef82aa
+  - path: html/mode/login.php
+    algorithm: sha256
+    value: 468337f38eefe82f9e00940e5a591a592b06cef66041b0791d0517bcf5587d27
+  - path: html/mode/readfile.php
+    algorithm: sha256
+    value: 6918458829f2713eab668c526b96f248ebba3d8745ba85b8b3320d5efc25bceb
+  - path: html/utils/db.php
+    algorithm: sha256
+    value: 2e47e84972b2d28b66beacd1d6e8b3bcc7d4a0b1632bab628d7c1dba1a8fa80a
+  - path: html/utils/debug.php
+    algorithm: sha256
+    value: 1b92e49f33189d74c7114e55b3a4d5f4807c8e5b806a27f9bb984bc0eedea209
+  - path: html/utils/session.php
+    algorithm: sha256
+    value: 0f7ab832efab80626a595dfae11b5dcc7b64c06fb562035c2ce6868eb1487cbd
+  - path: html/utils.php
+    algorithm: sha256
+    value: 14052bc4390a916f1f435e5016a4be0b0c124fe7e7840dee4ba459b23e062980
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

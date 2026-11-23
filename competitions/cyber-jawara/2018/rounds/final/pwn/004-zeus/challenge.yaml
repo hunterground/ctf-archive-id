@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-pwn-004
+name: p11-zeus
+slug: 004-zeus
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: In-memory key-value database server like Redis and Memcache is widely used for caching in
+  a production server. Can you pwn this key-value database service? You need to reverse engineered it
+  first to know what data structure is used for storing the data. This service is also run with sandbox.
+  For patching, you are only allowed to patch 32 bytes in 'zeus' binary and only 2 bytes in 'zeus_sandbox'.
+  For this service, all attack points are multiplied by 2x.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p11-zeus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e30fcbfa4c7711660697d6b9d90a5d42d98d37fe4c246556b777ba8e4f470318
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 9a7a70b1b83e2bb75d3193495923211748df2e37b4eeeae955f4c5e2539ee10c
+  - path: src/app/zeus
+    algorithm: sha256
+    value: 60cde676446a7d2b80c6c0915871ea2a851ca339c7ac16e8effc2f40ab0c2fba
+  - path: src/app/zeus_sandbox
+    algorithm: sha256
+    value: 29185498e06b4301b5fbb8c44cb3331966e619d21a0af42fc592a7bd2d86d4c2
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 3f4854b1febd8ba9e6e70e63246acb94872c353f182d8d841f2c6d7054243590
+  - path: src/start.sh
+    algorithm: sha256
+    value: 9af6ac9fc9eb4c966b32b0ebb7bbda3cfc6729f5791d08aa890e7c675b9dc29f
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: `nc 127.0.0.1 51100` Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

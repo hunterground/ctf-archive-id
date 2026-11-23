@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-rev-005
+name: newbie.exe
+slug: 005-newbie-exe
+original_name: Cyber Jawara 2019 Qualification - newbie.exe
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/reverse/Cyber Jawara 2019 Qualification - newbie.exe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: newbie.exe
+    algorithm: sha256
+    value: 042869c94df6f25c20205f3881fc439446125a5cb065acf45a2fe676538ba0fa
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

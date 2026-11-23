@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-crypto-001
+name: AESaaS
+slug: 001-aesaas
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: I believe a crypto player should be all rounder.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/crypto/aesaas
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8daa3d08442f2bd359b5b1dabd171effa20795336bf03a5ee181593e4aa1f9bb
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: a3ce5fe360990d8f7881d25b0df12fa8fa1683ebbc2e20582fea0cb388a42fcb
+  - path: deploy/chall
+    algorithm: sha256
+    value: d656af176044f8ee562d4c2749b79edbb9615e610aaf7ac07a0d16998f9287a3
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 094e374eac893367c97a1187856235e6ed89438e254ab22ec954a959ad9ea63c
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: eef0a6b41d9bf2c46dcf5680b0af4df5e0d614f21b256951c73aebbad43c3fcd
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 3463590ba3e56d479d63d62caa3aca62fc94e4690e98608574512d8ce2301603
+  - path: src/aes.c
+    algorithm: sha256
+    value: 96ba7c74c8735bb54507605fa3603252a114a93550fd9ccab94a76b0239db613
+  - path: src/aes.h
+    algorithm: sha256
+    value: 51d41bc4bc99bacca65fa0d0ea4d79578d0f0dd8bf8be75a2423523fcff3d2f4
+  - path: src/chall.c
+    algorithm: sha256
+    value: 4fbb30aba9fc90f7cd9cac98b0c5302ddb34552a15f07e2a5bd1895a376a84e3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

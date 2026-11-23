@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-rev-001
+name: CJFC
+slug: 001-cjfc
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: Camera Judge Face Checker (CJNE), only the right face deserve the flag.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/rev/cjfc
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1da1711644db7c4dabe00ae88aa02c9482d24252d75fe841aa6095f64bdb0009
+  - path: release/camera-judge-face-checker_0.0.0_x64_en-US.msi
+    algorithm: sha256
+    value: a58abf39aba8f23ee9c9b533dda24deb064ed820a664f45fc4522929c3fe37fe
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

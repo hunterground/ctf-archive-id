@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-web-001
+name: AWS
+slug: 001-aws
+original_name: AWS [100 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Suatu hari, Anda sedang mencari bug di suatu sistem demi mendapatkan bounty. Karena Anda pusing tidak dapat menemukan bug, Anda mencoba untuk mencari leaked credentials di Github.
+
+  Karena Anda ingin agar temuan Anda ber-impact tinggi, Anda fokus untuk mencari credentials yang mengandung string "aws". Anda menemukan sebuah file di Github yang mencurigakan milik salah satu Software Engineer di perusahaan X. Anda juga tahu bahwa perusahaan X menyimpan beberapa berkas di cloud yang beralamat di https://cyberjawara.s3.amazonaws.com/.
+
+  Kira-kira, apa yang dapat Anda dapatkan dari credentials AWS berikut?
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:100
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Web Exploitation/AWS [100 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 25476352a24a44c6dba3eb03e21229862c0a55e677506167ea670251e07c7bad
+  - path: credentials
+    algorithm: sha256
+    value: 7c301a21a22b2b50bc3d8ab86a2dccd4877bae1964ec4f0465f0bd99e353e4cd
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as AWS [100 pts].

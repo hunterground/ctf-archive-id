@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-rev-005
+name: Pawon
+slug: 005-pawon
+original_name: Pawon [598 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Yet another reverse engineering challenge
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:598
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Reverse Engineering/Pawon [598 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 61bbd4f02fc0682583b6fefdebe83fff4a76d31f9f289f1b08439df6eb79da76
+  - path: pawon_re.zip
+    algorithm: sha256
+    value: 180dc412a28951ea734b31b02e93485ef90c463b6e79091fffd349d3640d6c0b
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Pawon [598 pts].

@@ -18,3 +18,16 @@ venv/
 # Generated temporary output
 .build/
 .cache/
+
+# Archived challenge material is preserved verbatim, including files that look
+# like build or runtime artifacts (for example an audit.log forensic attachment).
+# Never ignore anything inside an original/ directory.
+!competitions/**/original/**
+
+# Staged upstream clones used only to read source material into the archive.
+/checkouts/
+
+# A few preserved distributions ship their own .gitignore under original/, and a
+# nested rule outranks the !competitions/**/original/** exception above. Those
+# files are challenge material and are tracked with `git add -f`; see each
+# challenge.yaml notes. Do not edit the nested .gitignore files themselves.

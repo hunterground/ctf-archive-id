@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-pwn-002
+name: Maze Solver
+slug: 002-maze-solver
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: pwn/maze-solver
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: d9925dac5d7d27b26d49c1fbd2c54bc29cb64a7b3fe760a66eec0636a389d3eb
+  - path: README.md
+    algorithm: sha256
+    value: a43e222c849b4caa2c6d58416a4c7791ba19811ff94531df62952e62de76f020
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 166a093e94e980da79772503742c33883779aa228dd391392f56683c3bb37b89
+  - path: flag.txt
+    algorithm: sha256
+    value: 5f0f6673007f932ded7098246825a686bb77ec9b026d26b633e2132f1dfe4571
+  - path: service/example1.txt
+    algorithm: sha256
+    value: d49dc56e44bbc6b10190c307a62c2fd29bb10abbf05acfb1069fa63c68d300b6
+  - path: service/example2.txt
+    algorithm: sha256
+    value: 998a9ef39ed9c2c07b7d4d51133954e5d3ef44bfd3dfd16918f4cebe3cc8d6f1
+  - path: service/example3.txt
+    algorithm: sha256
+    value: c0fc84c4777381afb045204fea61cfaab6cedd3f97cc57d62b810e6bf08f90b3
+  - path: service/maze_solver
+    algorithm: sha256
+    value: f1fecdc896eeab5920e61b667a3d052f38013614922dc5efde29a55e5f0f43fd
+  - path: solution.txt
+    algorithm: sha256
+    value: 0d63e73d04d2e23ea9c971705a38f09b82189f73df56cb16a2be5d06b76f4e38
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

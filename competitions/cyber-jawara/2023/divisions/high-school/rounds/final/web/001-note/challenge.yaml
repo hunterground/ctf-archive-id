@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2023-high-school-final-web-001
+name: Note
+slug: 001-note
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2023
+division_id: high-school
+round_id: final
+category: web
+original_category: web
+description: I have this simple note. The flag is in the bot's cookie.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2023-finalist-danieldd28
+  source_type: git
+  repository: https://github.com/Danieldd28/CyberJawara23-Finalist
+  commit: 9dabdf0a0f77b5b8c3a8e33a88d47280f7229065
+  original_path: web/Note
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Note.html
+    algorithm: sha256
+    value: c1c908e579942dfa57cd69e628f268ea7f6f10dec70473c5a208f314661d5198
+  - path: README.txt
+    algorithm: sha256
+    value: 4bc4f5bf3a2005c7ae6aa7053a4c1da81789839349d773e889b0f7311d921627
+  - path: botnote.html
+    algorithm: sha256
+    value: 8a3aae991295124ede15e27bb2018170f0b79260e95a0d03844804e8596373a7
+licensing:
+  declared_license: MIT
+  copyright_holder: Danieldd28
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) Danieldd28 (https://github.com/Danieldd28)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: remote
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2023-finalist-danieldd28
+  url: https://github.com/Danieldd28/CyberJawara23-Finalist
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: The upstream README reads 'Soal Finalist Cyber Jawara 2023 - Tingkat Pelajar', so the set is the
+  high-school track of the 2023 final round. Instance hostnames under ctf.cyberjawara.id appear in Web/Note,
+  Web/NoteAgain, and Web/magic-0 READMEs, which corroborates the event. The repository sits on a personal
+  account and does not state that its owner set the challenges, so authors are left empty. The flag.txt
+  shipped with Web/magic-0 is an original distribution file and was copied as-is.

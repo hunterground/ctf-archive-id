@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-forensics-003
+name: exfiltration
+slug: 003-exfiltration
+original_name: Cyber Jawara 2019 Qualification - exfiltration
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: IDS kami mendeteksi adanya indicator of compromise pada network traffic berikut. Sepertinya
+  ada RAT yang melakukan data exfiltration secara sembunyi-sembunyi. Data apa yang diambil oleh RAT tersebut?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/forensic/Cyber Jawara 2019 Qualification - exfiltration
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b9fbdf8f1961c8918e8b141bf49d85c44b70d5fecd8734b72ecc7d5b29104eac
+  - path: exfiltration.pcap
+    algorithm: sha256
+    value: 36951ca1867aefc46a770f0353827516d1a41cb102e395a94302ff2861c90cca
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

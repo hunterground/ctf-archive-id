@@ -1,0 +1,118 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-pwn-001
+name: Baby ROP
+slug: 001-baby-rop
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Baby challenge is the hardest challenge!
+difficulty:
+  value: Hard
+  source: organizer
+tags: []
+authors:
+- name: zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Pwn/baby_rop
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e1469c0bfe0ac465f761efe22fd25b89f4f49bd4191998ac54d0cd9826d63e7f
+  - path: challenge.yml
+    algorithm: sha256
+    value: e9c385fc365b285a0377b6f26f3a7118e899f9811ceb9949650e94530129913d
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: bb753d3440640a96aa1ccd2d90ed39a5c8fbe17aba7260a71e566574bc020a1d
+  - path: challenge/baby_rop
+    algorithm: sha256
+    value: 777c403f4384489763a0b96354e2fa16cc2eb7ed0555d9dff54ee74771720e18
+  - path: challenge/baby_rop.c
+    algorithm: sha256
+    value: 382f2731230f47e13f1ca2384daca0af9be1793d33df8b80f778c15b65129e32
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 372bd3be90f135774d5a8940f37804dd60a72c456a84773ea7c5c8bddaedce5a
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: 54ad5132fd07eb32cbde83c86a7fac289dad932f9b2d3760117c483db13e46b7
+  - path: release/Dockerfile
+    algorithm: sha256
+    value: bb753d3440640a96aa1ccd2d90ed39a5c8fbe17aba7260a71e566574bc020a1d
+  - path: release/baby_rop
+    algorithm: sha256
+    value: 777c403f4384489763a0b96354e2fa16cc2eb7ed0555d9dff54ee74771720e18
+  - path: release/baby_rop.c
+    algorithm: sha256
+    value: 382f2731230f47e13f1ca2384daca0af9be1793d33df8b80f778c15b65129e32
+  - path: release/docker-compose.yml
+    algorithm: sha256
+    value: 372bd3be90f135774d5a8940f37804dd60a72c456a84773ea7c5c8bddaedce5a
+  - path: release/flag.txt
+    algorithm: sha256
+    value: b9633b26d486c6280cdae212bc3d0911c53a52a6fcb37b8c7dd1d7b10ae70729
+  - path: src/.gdb_history
+    algorithm: sha256
+    value: 01826337583c115f795ac3bb75b994ae0b6f3045bda28d0bedc5b689cc9d94b5
+  - path: src/baby_rop
+    algorithm: sha256
+    value: 777c403f4384489763a0b96354e2fa16cc2eb7ed0555d9dff54ee74771720e18
+  - path: src/baby_rop.c
+    algorithm: sha256
+    value: 382f2731230f47e13f1ca2384daca0af9be1793d33df8b80f778c15b65129e32
+  - path: writeup/.gdb_history
+    algorithm: sha256
+    value: c9d056385875abac3aa4aae5c0cf880f80d92cd0c00b8774203dbc529d698a71
+  - path: writeup/baby_rop
+    algorithm: sha256
+    value: 777c403f4384489763a0b96354e2fa16cc2eb7ed0555d9dff54ee74771720e18
+  - path: writeup/baby_rop_patched
+    algorithm: sha256
+    value: 044ae2c57e4e2481b0f91ed2dec3f6da60775130be409633cc325e370a8e4f18
+  - path: writeup/bin_gadgets.txt
+    algorithm: sha256
+    value: 158ea20c695af6d30aa14db57f850e028efe066a40064df9f76f1b4d2655260f
+  - path: writeup/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 854a9eb45875e00f48e1e89d40251317931d2d82555ab612d6090beba0c9f972
+  - path: writeup/libc.so.6
+    algorithm: sha256
+    value: c1e50a701d3245c8c45a1ba40151efe414ac41d2c9ae604087b4875e0d85c4fb
+  - path: writeup/libc_gadgets.txt
+    algorithm: sha256
+    value: 60c3775e45065068ec80fa306fccff7a47a938eccfb0d133b68995e5f95413b8
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-misc-001
+name: p00-warmup
+slug: 001-warmup
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: misc
+original_category: null
+description: Welcome to Cyber Jawara 2018 and welcome to Bali! Please familarize yourself with this Attack
+  & Defense CTF. You can try to patch this web service by using this Patcher Platform and attack the others
+  with the Flagger Platform. Score for this service is 0.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p00-warmup
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8339b9570c6791058592a4a2097c01c6c83d8e679c00a1a3bcdbc9660c6e7aaf
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 76e4470ea716c6225ee49a090bd958f72a74fd7e17474f3d3b2e2dc358744341
+  - path: src/app/README.txt
+    algorithm: sha256
+    value: 3a0b3d7b74247de31f3f1d973be5bd124ce65d1f0a808de5c96eb667ef4071f7
+  - path: src/app/index.php
+    algorithm: sha256
+    value: e7b270b18da4bfe377290fc8a8e773df697156acce0a3e24624d2ce027f201f2
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: daebf5861793f58cb604cfb2d2be8987d9ad2da0719575d5aae595974520de42
+  - path: src/start.sh
+    algorithm: sha256
+    value: ef4731e9419fc3cebcb493fd588ebe4dd074e7bdbeda4aebb85e0b8a19cb6dcc
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50000 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-crypto-001
+name: p05-crypto
+slug: 001-crypto
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: crypto
+original_category: null
+description: This is a crypto service using AES/Rijndael 256. This service will encrypt the flag file
+  and user inputted string. You need to break the encryption and try to recover the flag. For patching,
+  you are only allowed to patch crypto.cpp and key. Functionality test will try to encrypt and decrypt
+  with your key. Please don't change the block cipher mode of operation.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p05-crypto
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e30fcbfa4c7711660697d6b9d90a5d42d98d37fe4c246556b777ba8e4f470318
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bb514a124caece61940db09920cdabfffa9fa446cdef17cebc93a324ec494e56
+  - path: src/app/AES256.cpp
+    algorithm: sha256
+    value: d7badda6b86497b74a2582ce1bef722c4f6d06aeb6641bb62a10928f1abf15e4
+  - path: src/app/AES256.hpp
+    algorithm: sha256
+    value: ffac44c6950c97cfe6b92b0a96a741f6dfe0e9dcb3054213af53d98f7640d044
+  - path: src/app/AES256_Base.cpp
+    algorithm: sha256
+    value: 743aea420a69aa2ba9a07d84d99da4e869827293a051d99e7bad8168244c8c26
+  - path: src/app/AES256_Base.hpp
+    algorithm: sha256
+    value: d6757a3838c33cd06b160d66872bb4eb329ceefb41ffc9a4e76841dcb69bdb12
+  - path: src/app/AES256_PRNG.cpp
+    algorithm: sha256
+    value: 12beef4af719c4f3c0ceb62fbedfcdad840008a2cdc79aa40409c0f1606cc436
+  - path: src/app/AES256_PRNG.hpp
+    algorithm: sha256
+    value: 1e38e5d5532e227594e83d8329a2677f4f89e35a7b8ce00e8781011a26a62593
+  - path: src/app/Byte_Block.hpp
+    algorithm: sha256
+    value: 6f3496c1bf84a293fce278e54e8316ea3eb920b6fb31e23e66c12c72ec6c9392
+  - path: src/app/Makefile
+    algorithm: sha256
+    value: 645cbb0c59395e4fb4f180ce61437b66a2161cd6f07b82c7950f3195fb6a14f9
+  - path: src/app/Padding_Type.hpp
+    algorithm: sha256
+    value: 8dbba4db90ac1d6bb614927cf78720a1eeed375687d1c49620a2a9364511b28b
+  - path: src/app/S_Box.cpp
+    algorithm: sha256
+    value: 8e6a6c6baad844967e1298d0d4bb6292bbfb3d1b9762c195a33a1c0c4ffcc37d
+  - path: src/app/S_Box.hpp
+    algorithm: sha256
+    value: 36bd661ab6778e2daaebc63edbdc0968c5c817477d02ea272c199efd4174334f
+  - path: src/app/crypto.cpp
+    algorithm: sha256
+    value: a49dce3b51fa31cb2e4a92f501c9a2e315338107c44112376dc5604c742c081d
+  - path: src/app/key
+    algorithm: sha256
+    value: 8ed22db5c904ca7dc734ba51b4028e804737955c29d78ca135e24d009f61ba0a
+  - path: src/app/nist_test.cpp
+    algorithm: sha256
+    value: 0c1eabf1e55aa95e29f6c2818e68993ce2e81b7b43cd92632a914a2514d7092d
+  - path: src/app/nist_test_mct.cpp
+    algorithm: sha256
+    value: 6f0bdd19b9428b86ed58942c1379e2a62d6643aa68130ec2ccc44b97d6aca4a7
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 92197aa149105d7f06ea938d3e312857d7ff4f0ed3f57343156fa00ad64db101
+  - path: src/start.sh
+    algorithm: sha256
+    value: 2dbf4202eb7c13909cdccd8c83b3a10f78a1de432606b1299237f2776ee35e14
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: `nc 127.0.0.1 50500` Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

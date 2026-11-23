@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-pwn-004
+name: Lab Virus
+slug: 004-lab-virus
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: pwn/lab-virus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0c7186a74b4b75fae0aeae137b0610e70509f1933037761ab14ffcce7f3149eb
+  - path: README.MD
+    algorithm: sha256
+    value: 460d91ed16d34204684204ff3c57558b25fc570d0f756b9340ba9f9fe13b7115
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 617ac0dd68817f3ec39d0b842fd109154bef464b8dc3dee980efe2b9caf39496
+  - path: flag.txt
+    algorithm: sha256
+    value: 242ab5f4ce9c736099b8db50d96ac49099b8234177d2441acac0f4a6f9927eae
+  - path: service/lab_virus
+    algorithm: sha256
+    value: 3298e03b306e1cc9bf2ac064851128d77099b5d0c56c9822a2135bb6405d1c6f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

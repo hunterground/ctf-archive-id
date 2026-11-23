@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: cyber-jawara-2018
+competition_id: cyber-jawara
+year: 2018
+name: Cyber Jawara 2018
+status: completed
+verification: corroborated
+dates:
+  start: '2018-10-09'
+  end: '2018-10-11'
+statistics:
+  participant_count: null
+  challenge_count: 12
+references:
+- title: CJ2018-Final-CTF
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: The 2018 final was held in Bali during Code Bali 2018, 9-12 October 2018, and the final session
+  ran on the evening of 11 October 2018. BSSN's statement reported the Cyber Jawara final on 9 October
+  2018; the two dates are kept as the recorded start and end rather than resolved. Only the final stage
+  is documented in the imported source. The 12 imported services are the Attack & Defense service
+  environments from the author repository, which states that the original cluster images, the A&D platform,
+  and the Docker manager are not included.

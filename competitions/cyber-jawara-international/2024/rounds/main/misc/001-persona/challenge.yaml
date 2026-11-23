@@ -1,0 +1,54 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-misc-001
+name: Persona
+slug: 001-persona
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: A hacker known as "Ed" has crafted an elaborate online persona, leaving traces scattered
+  across their personal webpage and various digital platforms. Your mission is to investigate and find
+  the traces.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: farisv
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/misc/persona
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0d70ed21066c814bb493ab705e8e08e011eb3deb055189a4f5e8a95d8de982ad
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

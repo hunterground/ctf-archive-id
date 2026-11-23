@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: qualification
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+name: Qualification
+original_name: Qualification
+sequence: 1
+type: qualification
+delivery: online
+description: Online qualification round of Cyber Jawara 2019.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 17
+  participant_count: null
+references:
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2019 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: 'The source repository groups the 17 challenges by technique: forensic (5), pwn (4), reverse (5),
+  and web (3). The compile-time archive is not an organizer publication; it is a third-party copy of the
+  challenge distributions, so authors are left empty rather than guessed. The source gives no round date.
+  Two forensic items (audit.log, split) ship without a README.'

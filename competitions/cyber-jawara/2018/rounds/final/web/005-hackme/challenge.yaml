@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-web-005
+name: p08-hackme
+slug: 005-hackme
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: Can you hack this simple and obviously vulnerable website? It seems easy, but the website
+  is protected by Web Application Firewall (WAF) with ModSecurity. You can configure the WAF by modifying
+  waf.conf for more protection.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p08-hackme
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: d55594780297b29fd00e92537ef0555de99ec67d343fd4df9b1a38c769d5cb1a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a17a15ccb5160cf2e4793bc012dd1e06fb07bc5db6c274ad91a8aec70daa2051
+  - path: src/app/waf.conf
+    algorithm: sha256
+    value: 1f20964413353af7662db9572f0dd0c39ef148209330436c5c9dcbf9101b5680
+  - path: src/etc/apache2/sites-available/hackme.conf
+    algorithm: sha256
+    value: 918218214417509a93f488c875ed4d8efd046b604f967aa306f9530ad6f3db35
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: c2ae0181cc52f8dcecd7ff6c940a6b3ac06de129fa5d54fb8cf22bf44b7fa6c5
+  - path: src/start.sh
+    algorithm: sha256
+    value: ce3de6c7b62cd978fc491264e283022833d5e116d8763d6ecc7abb99c3d678fa
+  - path: src/webapp/hackme.py
+    algorithm: sha256
+    value: 014d60347f17c800376669e783c5b0ef2160f2cdd279475d0b8fbd3c88eff457
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50800 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-pwn-004
+name: mipssshh
+slug: 004-mipssshh
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: pwn
+description: I give you flag so Sssshhhhhhhhhhhhhhhh.... okay? IYKWIM
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Linz
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/pwn/mipssshh
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 892a36f7422f8b18c09538aeb4f651c4f67fda0dc758d024cc6401a907599f49
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 9ac980c43d9e205b29b5b322a952a34d655767ac0c8bcc68f99025b3b61d1539
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: a4cf85771210fb571d0f12189869e9472527712106c970344d3f9fe15910e6d2
+  - path: deploy/flag
+    algorithm: sha256
+    value: 0453abd0b23b891cb228ee2b326fb9bf4976f5e22bc861eb4e190559ac901b6b
+  - path: deploy/sssh
+    algorithm: sha256
+    value: 29731cf85a2bc5e7c77fd6181a02c265301beb7cd3f9b0983cc8baf53012342e
+  - path: src/sssh.c
+    algorithm: sha256
+    value: aafab191458ff36a32bf9af624a1f537f3b94433dc85ebb76eb3696852158373
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

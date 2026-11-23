@@ -1,0 +1,140 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-web-001
+name: Toko Masker 4
+slug: 001-toko-masker-4
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: web/toko-masker-4
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5f6a06249befa038619aefcd7243b0345dea975aa39f130247a748f6be327faa
+  - path: MaskShop/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: MaskShop/settings.py
+    algorithm: sha256
+    value: 36e9f95d1b838b093962d0d320969e8fda19918836cd556330a0a762082b3ab9
+  - path: MaskShop/shop/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: MaskShop/shop/api.py
+    algorithm: sha256
+    value: 53abccb75c8758810001396cde8a0bbd49e94f0f688cb8bc59ad00736d4a9da9
+  - path: MaskShop/shop/apps.py
+    algorithm: sha256
+    value: 49cd66ac031f2b20ed9df9a2d7bab50390f84dde894ef9d31c34b86ebcd915f0
+  - path: MaskShop/shop/helpers.py
+    algorithm: sha256
+    value: 4efdad1b4b29ce448e74ba747613bdaee36a67451afa24e4a5063bcd0c0aa592
+  - path: MaskShop/shop/management/commands/populate_db.py
+    algorithm: sha256
+    value: 6e9ac720fb9809f98cd6e11148fd82ef7d538fb8cbac0c3c67c69922847a1d6e
+  - path: MaskShop/shop/migrations/0001_initial.py
+    algorithm: sha256
+    value: 414ef0c83152a7ac319158cd0bb0fa62ecd62c6fd0c91aae9cd25d5eeba1322d
+  - path: MaskShop/shop/migrations/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: MaskShop/shop/models.py
+    algorithm: sha256
+    value: 529a2bd0cf56c36606a434a4b1436f415f3ac9bd00b1741d010d806be6e54740
+  - path: MaskShop/shop/templates/checkout.html
+    algorithm: sha256
+    value: 4a228cd1c610de32c3a1328384501da7f30db0881609c640078433ebd58367fe
+  - path: MaskShop/shop/templates/index.html
+    algorithm: sha256
+    value: 4ce2a0e50c74fe0232a853c1fb4e45f2fb7ea51231a7c93137c396480519d1da
+  - path: MaskShop/shop/templates/invoice.html
+    algorithm: sha256
+    value: 6753d0e7622c8c068e0f3175a443d53ca1783a248a37f20ae437377b36915291
+  - path: MaskShop/shop/tests.py
+    algorithm: sha256
+    value: 9ab6c6191360e63c1b4c9b5659aef348a743c9e078be68190917369e4e9563e8
+  - path: MaskShop/shop/urls.py
+    algorithm: sha256
+    value: 41a465453ce4fe706b7d76c7a691bbc7d250b3ae2db021126a046942411d2d04
+  - path: MaskShop/shop/views.py
+    algorithm: sha256
+    value: 17933326222c4795ecbbd4f201ab2d0a82d9cf8b8bd8e5bb15877743614714e6
+  - path: MaskShop/urls.py
+    algorithm: sha256
+    value: bc6b389ac6329480dcbf1543ddd9d0e1f47345f85e03051b42174c9266e160df
+  - path: MaskShop/wsgi.py
+    algorithm: sha256
+    value: 5ea293823b738b3500289f098cde6189c475c99bb91270cfc1eec9aaf7b26df4
+  - path: README.md
+    algorithm: sha256
+    value: 2964433191929f7a0a3e2962732f8dbfee427e4214b0fb45931ec30df5fb9499
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1b1b9085cf42fc6497d691639532193761dc750b2f58b43e405d01dd7f3bc5a6
+  - path: files/gas_mask.jpg
+    algorithm: sha256
+    value: 578a60d4340f3ad199659505e5f76d056b5edb1eefa394ffeef2e8097355321d
+  - path: files/minus.svg
+    algorithm: sha256
+    value: b0412386eaee178381d68ebb5997c16641990c7ba0553d9cb421a728b03630b6
+  - path: files/n95_mask.jpg
+    algorithm: sha256
+    value: d3979f855a813af8134de1b25151b04e25b388eb69cab007f9c502b1008746f8
+  - path: files/n99_mask.jpg
+    algorithm: sha256
+    value: 2c25f8a1c6fbde703a1cb1794c84948a9bddbaf049d856e7bb9e766ea3e4c0c5
+  - path: files/plus.svg
+    algorithm: sha256
+    value: c66640bbcdf1218b50e08cc260b87a3a4e54ab3921797714047461bc292d5958
+  - path: files/style.css
+    algorithm: sha256
+    value: 53e9cffc5abf300c6d8a402f32011eac42d617d7230166b11b05a5800d1641fc
+  - path: files/surgical_mask.jpg
+    algorithm: sha256
+    value: a6a80ca808168486cf0b3351ff5b86a1d1c1ce9d3f0f3c17e95946cc5905cb3a
+  - path: manage.py
+    algorithm: sha256
+    value: 1f5da6a00a90124de63454eff68292d79577310087ef82411fd3896eb2bcbd80
+  - path: requirements.txt
+    algorithm: sha256
+    value: 859b04a5ced541d70361c3b1662f82fa1d13eecaeaa41f928f5a2de95655032c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

@@ -1,0 +1,185 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-web-001
+name: insanity-check
+slug: 001-insanity-check
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Web/Insanity Check
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 62b622f064379f14667ff42fa1213b82f5e9f41eb84c4f8cef88d085e3acc511
+  - path: challenge/.gitignore
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: challenge/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: challenge/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: challenge/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: challenge/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: challenge/bot/Dockerfile
+    algorithm: sha256
+    value: 0e038c02b966f447d4688ded691ad285d27db7bd847d087e94540a5db340f957
+  - path: challenge/bot/bot.js
+    algorithm: sha256
+    value: 9eff9c6780c5e8823f6927ac6b95ab6652ca97fa7bc2efb7542954bd079f8b7e
+  - path: challenge/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: challenge/bot/package.json
+    algorithm: sha256
+    value: e66cf7ece1715058e7838829d9beba0cf357609631987e95d2260c83f2ad8d38
+  - path: challenge/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge/docker-compose.yaml
+    algorithm: sha256
+    value: a7db558b964e0277bfc6112e7c43ce5e77f9169ef4b3bf28ad3e307ab788740c
+  - path: challenge/proxy.conf
+    algorithm: sha256
+    value: 4fcf20385071828a6d003a13bda49cd54f76d85cb7835b61fd4e54ec1b4a4807
+  - path: challenge/src/Dockerfile
+    algorithm: sha256
+    value: 5ca69759eaf1e3d7315b74b6a4eb2f766ccc6c19bb0a6d79e382ce78bf666eeb
+  - path: challenge/src/app/__init__.py
+    algorithm: sha256
+    value: 3a39a247e8da4a58a25d4f58825682f58f5d5df748aea31325e3293bad5dc79f
+  - path: challenge/src/app/auth.py
+    algorithm: sha256
+    value: 99253858e0a318f88b2cc0f7076d5b9dbbf285a409ef0e276f60a605b897915b
+  - path: challenge/src/app/models.py
+    algorithm: sha256
+    value: cd166ec7b9c59d02a85b5a81ac69e3c2f3391c5bb8f0ce3452e9ff8d5fd68d22
+  - path: challenge/src/app/notes.py
+    algorithm: sha256
+    value: bc9c4ae30694522ea20654fdf851471b2c7547c3fc2268b74f23e802dc8e7878
+  - path: challenge/src/app/static/css/style.css
+    algorithm: sha256
+    value: bcf2a8bb893604016845485823b3eb5827775ae90aa2898750d0827628e1e0a3
+  - path: challenge/src/app/static/js/options.js
+    algorithm: sha256
+    value: f44dd0983a5b6de35dcd82939e775300a34e48a1b9a52eaa4b25315ede3a78b4
+  - path: challenge/src/app/templates/base.html
+    algorithm: sha256
+    value: 8ca86705565947ab786e95526889e7e7606d42daed50e3e5b973cd8d8bc9a60c
+  - path: challenge/src/app/templates/identity/signin.html
+    algorithm: sha256
+    value: a6b7e7c428387cf72aef55d38a853a85b298706efbe36c579c01b4f7817bfd5c
+  - path: challenge/src/app/templates/identity/signup.html
+    algorithm: sha256
+    value: cdc39ea5f84746a74e9e49f8166255977d907eae69a3a7d3f310d8c33c92fcd5
+  - path: challenge/src/app/templates/workspace/compose.html
+    algorithm: sha256
+    value: efc35c7449d5ef4c44a1e387c74c5f7f3eaff48b1456cdc976224855a088019e
+  - path: challenge/src/app/templates/workspace/display.html
+    algorithm: sha256
+    value: 135b0302a7dde41e2482aea4c7eeffe191ad723dae3e3d4abdf452434d29f474
+  - path: challenge/src/app/templates/workspace/home.html
+    algorithm: sha256
+    value: c3987c45c493930ade5714d11f2733c2642f9afc45bd3208103b44aa519da055
+  - path: challenge/src/app/templates/workspace/modify.html
+    algorithm: sha256
+    value: 1f6a4ecfb1c81277698caee60fb9f19d65b56dfc65eb15f4236b1fdd70998d00
+  - path: challenge/src/app/workspace.py
+    algorithm: sha256
+    value: bc9c4ae30694522ea20654fdf851471b2c7547c3fc2268b74f23e802dc8e7878
+  - path: challenge/src/main.py
+    algorithm: sha256
+    value: e08e07d46979aaf1593066c97eb7b605f392912773b8ec3edb358de5096d9476
+  - path: challenge/src/requirements.txt
+    algorithm: sha256
+    value: 7bd3d5c3f7e9a8f2593a2ac846f495a43c1d9a18f6fcbbacc801af372b8afc26
+  - path: release/.gitignore
+    algorithm: sha256
+    value: 56c9e1c4b5360a5b089004396ed37fe3a20f7c4f5954072098039789ba3ab68a
+  - path: release/src.zip
+    algorithm: sha256
+    value: 18aed9d5498342a3eff68d8fd90adc170231e6448dd6c2c683776c53aa7a4ca1
+  - path: writeup/README.md
+    algorithm: sha256
+    value: b05fc460b407f210badef5627c3d2550bb6bedd6d304ffc2601fffb5c6a89537
+  - path: writeup/app.py
+    algorithm: sha256
+    value: 960bb2237c20caa7cad7934440bb2de476afdaf067f219841eb24ca3f849ccfa
+  - path: writeup/gen.py
+    algorithm: sha256
+    value: 3b7e74232c40522b8b819715903474690d6c6b430cd6f2e9398497c5eb8606cc
+  - path: writeup/static/css/fifth.css
+    algorithm: sha256
+    value: 6cf5ba479e400f2a70e509193d4ef3cd0080794666f9f7a5e6416a795a5d9120
+  - path: writeup/static/css/first.css
+    algorithm: sha256
+    value: 6e54edf2b5fc51db6a5f7d11f9006d602c66b4605aab857a274b7abc77f6a95e
+  - path: writeup/static/css/fourth.css
+    algorithm: sha256
+    value: 21de1c7ad065973e2bf68a1268ae7c3a8a3b041b2448e0afcd51bdd35d662856
+  - path: writeup/static/css/second.css
+    algorithm: sha256
+    value: ce2af393fe8b244ccc8221e765d3e00fbb6242bb6c84943bfc5e05bd277c73b6
+  - path: writeup/static/css/third.css
+    algorithm: sha256
+    value: 687c8d26bab04863e73eff35815b27cfaa8be497aaddd0a66faa2f8a7b81c845
+  - path: writeup/static/index.html
+    algorithm: sha256
+    value: 057b6b356260c8c62fe3fcc9c892239038531ee9c42e52dd0fd56c6e837c4d4d
+  - path: writeup/tri.py
+    algorithm: sha256
+    value: f94e908a24f80f5db534b90a76d4ff8ca647c33d33edcd62945ead82ebf8e56f
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/quals/umum/Web/Insanity
+    Check/challenge/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

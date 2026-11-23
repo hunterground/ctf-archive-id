@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-misc-002
+name: Pygolfline
+slug: 002-pygolfline
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: Let's start with a warm-up by playing with this lovely Pygolfjail.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nagi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/misc/pygolfline
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d473851ce2c9b31d2ca8005870db6e4d1632b18c112c5b42178e6b895e3656c8
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: db09ee253c182f55ebad93a2fc58db4ff06180cb32ebc4bfeed94f92709472bf
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: ea673d5f46306e24a3974dd56bf24f218357857488f5c22ae4ec90fb2812299a
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 5bc5e6e01a7f7dc5efcf06e7bd40b541cb6032c53a4306efc0840ce40dfaf284
+  - path: deploy/jail.py
+    algorithm: sha256
+    value: 9d7a67c3c878e41792db39d07b446ddfbe66830900ab4f034fbc91accfee7e70
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 6d7a503d9c226371b019a2228392599618da12d163d90aca09392ab38f192711
+  - path: release/jail.zip
+    algorithm: sha256
+    value: e9fb1643c961fe87d13648a089c4c77e537ef73100d431fd2afe152c87bb2157
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: warmup
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+name: Warmup
+original_name: Warmup
+sequence: 1
+type: warmup
+delivery: online
+description: Warmup set of recycled example challenges offered alongside the 2020 qualification.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 3
+  participant_count: null
+references:
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2020 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: Warmup is a stage, not a topic, so it is modelled as its own round instead of a category. Each
+  challenge README states that it is a slightly modified version of a CJ2017, CJ2018, or CJ2019 challenge,
+  so the three entries are classified by technique (pwn, web, pwn) and the source label is kept in original_category.

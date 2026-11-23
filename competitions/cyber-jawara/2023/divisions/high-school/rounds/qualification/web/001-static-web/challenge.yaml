@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2023-high-school-qualification-web-001
+name: Static Web
+slug: 001-static-web
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2023
+division_id: high-school
+round_id: qualification
+category: web
+original_category: Web
+description: '"Static" web for your hacking warmup.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2023-soal-penyisihan-danieldd28
+  source_type: git
+  repository: https://github.com/Danieldd28/Cyber-Jawara-23
+  commit: 84753c563b00d4f3934ab234def987165c477bcb
+  original_path: Web/Static web
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.txt
+    algorithm: sha256
+    value: 5c99135e287407a0af6907c5baa52d53fc0fdf29b996f4b4afc592f68a73c78d
+  - path: index.html
+    algorithm: sha256
+    value: 28ec0a3a37124cbb7cb6d60e515d0111b5b9d56fdb0881794e0b9bf946f66bef
+  - path: index.js
+    algorithm: sha256
+    value: 18bed340cfe774e695ac5793188bac0fe285d7a1b123686b4bfe8fb4571e7745
+licensing:
+  declared_license: MIT
+  copyright_holder: Danieldd28
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) Danieldd28 (https://github.com/Danieldd28)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: remote
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2023-soal-penyisihan-danieldd28
+  url: https://github.com/Danieldd28/Cyber-Jawara-23
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: The upstream README reads 'Soal Penyisihan Cyber Jawara 2023 - Tingkat Pelajar', so the set is
+  the high-school track of the 2023 qualification round. The repository sits on a personal account and
+  does not state that its owner set the challenges, so authors are left empty even though the material
+  is the genuine event set. CJ2023{...} flag placeholders and the full deployment trees in Web/magic-1,
+  Web/magic-2, Misc/dictjail, and Misc/wordless are original distribution files and were copied as-is.

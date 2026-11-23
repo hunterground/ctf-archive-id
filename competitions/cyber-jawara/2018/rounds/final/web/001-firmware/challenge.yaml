@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-web-001
+name: p01-firmware
+slug: 001-firmware
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: This web service is running with a standalone binary executable and simulating a firmware
+  (not a real firmware). You need to find the ways to get into administrator area.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p01-firmware
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e30fcbfa4c7711660697d6b9d90a5d42d98d37fe4c246556b777ba8e4f470318
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8fca7a50c446afcd0394d397e1b374f01c0106d951e90046770f496e7636420e
+  - path: src/app/Makefile
+    algorithm: sha256
+    value: b00dfbe8fb21c8ce6bd324f81e24ebec29b5e343426cafcdb0839182e9cbeaae
+  - path: src/app/helper.h
+    algorithm: sha256
+    value: fa2b5ca61726d110784d279b932d92cbb055fa62f799636c292514685770aa92
+  - path: src/app/httpd.c
+    algorithm: sha256
+    value: 97a07c859f3cb853c2f1278f9e9e3374d781d4b5565fc6f5c1e4f1b3db3dd836
+  - path: src/app/httpd.h
+    algorithm: sha256
+    value: 8556b5a5b06b9c042a4caadd344919c497978eaa91e75fe7b30bebb41003e740
+  - path: src/app/index.html
+    algorithm: sha256
+    value: 5c1383c3b41fa6e6857e0879d93b07cbbe8201227af110d01c9deb132406de26
+  - path: src/app/main.c
+    algorithm: sha256
+    value: aba881aa4777621b733f4b02d59defb0ccf415ea423b9b7f60b3ef8c47112d6b
+  - path: src/app/password.conf
+    algorithm: sha256
+    value: 0cd1c0f76f13b28e131f3e5890835c45170170465c0891e53697fa2360f8ac35
+  - path: src/app/static/jquery.min.js
+    algorithm: sha256
+    value: 7fa0d5c3f538c76f878e012ac390597faecaabfe6fb9d459b919258e76c5df8e
+  - path: src/app/static/script.js
+    algorithm: sha256
+    value: f20f96dafbaa838d667e1a90ec4177c4b982c681ec01648f0218cff6054fa19e
+  - path: src/app/static/style.css
+    algorithm: sha256
+    value: 38c893cb5c077a578988957fe4c6c827868553544c323a8dd62fb43de8a64417
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 4ddea4a6dc009fa362c14f06dfa7183d4989d745dd0629567c2d5169b29bea89
+  - path: src/start.sh
+    algorithm: sha256
+    value: 18c1fc02c663d70f2cc7628d79b93d84a0dc2d64a5352cd32491acab5897373e
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50100 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

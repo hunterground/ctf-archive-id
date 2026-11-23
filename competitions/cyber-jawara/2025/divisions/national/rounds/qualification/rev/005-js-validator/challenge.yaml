@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-rev-005
+name: js-validator
+slug: 005-js-validator
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: rev
+original_category: Reverse
+description: Nothing special, just another crackme challenge
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: ryuk
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Reverse/js-validator
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f7256a601cb304d820927018f3a1c3fea0215134f33e821679e0db16f5fe6d22
+  - path: challenge.yml
+    algorithm: sha256
+    value: c148816eae0d0c9555cfaddc8fbdd1ab6735e9da683cf23534ac80e6441e905e
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 7fee35c597f368075e6ced7bd0ce85e714cf44ecd361528df2aaa1ef22835b69
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

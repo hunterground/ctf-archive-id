@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2023-high-school-final-crypto-001
+name: ground
+slug: 001-ground
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2023
+division_id: high-school
+round_id: final
+category: crypto
+original_category: Cryptography
+description: Hint menyarankan memfaktorkan modulus dengan ECM dan melihat Tonelli-Shanks.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2023-finalist-danieldd28
+  source_type: git
+  repository: https://github.com/Danieldd28/CyberJawara23-Finalist
+  commit: 9dabdf0a0f77b5b8c3a8e33a88d47280f7229065
+  original_path: Cryptography/ground
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.txt
+    algorithm: sha256
+    value: 6d5c891bf3d358c7dfac17e91b899a6f99d0fca374dcfd6f4f4f2a042c4c8af7
+  - path: challenge.py
+    algorithm: sha256
+    value: 8fcf167967f149fc163285e06abc33648079822f4945e683d7e95a95afdaec6b
+  - path: output.txt
+    algorithm: sha256
+    value: 31df5667bcb459fe0cfd91420104447bba46a58dc58871a4e61fd20fa96add5b
+licensing:
+  declared_license: MIT
+  copyright_holder: Danieldd28
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) Danieldd28 (https://github.com/Danieldd28)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: remote
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2023-finalist-danieldd28
+  url: https://github.com/Danieldd28/CyberJawara23-Finalist
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: The upstream README reads 'Soal Finalist Cyber Jawara 2023 - Tingkat Pelajar', so the set is the
+  high-school track of the 2023 final round. Instance hostnames under ctf.cyberjawara.id appear in Web/Note,
+  Web/NoteAgain, and Web/magic-0 READMEs, which corroborates the event. The repository sits on a personal
+  account and does not state that its owner set the challenges, so authors are left empty. The flag.txt
+  shipped with Web/magic-0 is an original distribution file and was copied as-is.

@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-pwn-003
+name: Spushcode
+slug: 003-spushcode
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Push and Pull and Call
+difficulty:
+  value: Medium-Hard
+  source: organizer
+tags: []
+authors:
+- name: zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Pwn/spushcode
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 27f929a00a7d4bc3296ddefb233b3e6652beff60e99bbc37dabc90e86e59566c
+  - path: challenge.yml
+    algorithm: sha256
+    value: b7784a223c9d1115a47308d2d309fc13c86693959ca737862f274750a27081d6
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 0ce7f8f8e4c200dd3d9476cc75009bf6ee0ddba69f7c788b62d7416ce4bb7b0f
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 66fcdb667373ca89ba357fd815124ad469338a726cc47ca76dfd4d7663ec57e8
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: b77dc4553c28867f483e8d25e314dfb210bba6754d7d493edc970dadaf6f6e6f
+  - path: challenge/spushcode
+    algorithm: sha256
+    value: e6f6aec2ee56baf17264629e7049b8bcaaa1f198f49ba1b630c14c0e0e1e6853
+  - path: challenge/spushcode.c
+    algorithm: sha256
+    value: 1ec7aba896daa507333f2c53de599708a81fd2cfa5e595cba665c1601b2aa79f
+  - path: release/Dockerfile
+    algorithm: sha256
+    value: 0ce7f8f8e4c200dd3d9476cc75009bf6ee0ddba69f7c788b62d7416ce4bb7b0f
+  - path: release/docker-compose.yml
+    algorithm: sha256
+    value: 66fcdb667373ca89ba357fd815124ad469338a726cc47ca76dfd4d7663ec57e8
+  - path: release/flag.txt
+    algorithm: sha256
+    value: b9633b26d486c6280cdae212bc3d0911c53a52a6fcb37b8c7dd1d7b10ae70729
+  - path: release/spushcode
+    algorithm: sha256
+    value: e6f6aec2ee56baf17264629e7049b8bcaaa1f198f49ba1b630c14c0e0e1e6853
+  - path: release/spushcode.c
+    algorithm: sha256
+    value: 1ec7aba896daa507333f2c53de599708a81fd2cfa5e595cba665c1601b2aa79f
+  - path: src/.gdb_history
+    algorithm: sha256
+    value: 0b8a859d014344efe4ed81eba891a8370594fd943743836de4bef751d86615ff
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9cb0482b50b6f07316d3bc2e87fe18c9dbe06cafea7bfb4722fafb9b948cc877
+  - path: src/spushcode
+    algorithm: sha256
+    value: e6f6aec2ee56baf17264629e7049b8bcaaa1f198f49ba1b630c14c0e0e1e6853
+  - path: src/spushcode.c
+    algorithm: sha256
+    value: 1ec7aba896daa507333f2c53de599708a81fd2cfa5e595cba665c1601b2aa79f
+  - path: writeup/.gdb_history
+    algorithm: sha256
+    value: f5d41ab19ece4766e095d90564a15c5316eee70cb823e602cc2aa0388846d490
+  - path: writeup/bin_gadgets.txt
+    algorithm: sha256
+    value: 64c6a96f4a26217d6d4172861891f929011bd1c84b587db190de8bfb566e0ff9
+  - path: writeup/spushcode
+    algorithm: sha256
+    value: e6f6aec2ee56baf17264629e7049b8bcaaa1f198f49ba1b630c14c0e0e1e6853
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

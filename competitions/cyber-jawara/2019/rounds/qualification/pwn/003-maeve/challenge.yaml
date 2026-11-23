@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-pwn-003
+name: maeve
+slug: 003-maeve
+original_name: Cyber Jawara 2019 Qualification - maeve
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: Walaupun saat ini sistem 64 bit dipakai di mana-mana, beberapa sistem masih harus menggunakan
+  OS 32 bit (misalnya untuk IoT devices seperti Raspberry Pi). Retaslah aplikasi berikut yang merupakan
+  ELF 32 bit yang statically-linked.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/pwn/Cyber Jawara 2019 Qualification - maeve
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7b72a9c61893a5b093f60d506a11117336a354a3a41475e616e1f98a84959980
+  - path: maeve
+    algorithm: sha256
+    value: 3987dfb3fb4078eb81e9507dd219f7074de17ab43c09f0c0d71282aa4fd751fe
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

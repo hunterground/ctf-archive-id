@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-rev-003
+name: Hyunjin
+slug: 003-hyunjin
+original_name: Cyber Jawara 2019 Qualification - Hyunjin
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse
+description: |-
+  Hyunjin membuat sebuah key checker di web. Akan tetapi, dia merasa JavaScript terlalu lambat sehingga dia beralih ke WebAssembly. Suatu hari dia lupa key miliknya. Bantulah Hyunjin mendapatkan key-nya kembali!
+
+  Note:
+
+  - Hati-hati karena browser dapat hang walaupun telah dimasukkan dengan flag yang benar.
+
+  - Perhatikan overflow.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/reverse/Cyber Jawara 2019 Qualification - Hyunjin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3e46214be7105b8dd88a4782662289b23ab45ec2a7ac361ab5acacc9566ebcb3
+  - path: hyunjin.js
+    algorithm: sha256
+    value: eb5a8ed841281fac1f551261a4c8aa5913681d55db8d79685e599fdaf9f58597
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: cyber-jawara-2019
+competition_id: cyber-jawara
+year: 2019
+name: Cyber Jawara 2019
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 17
+references:
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2019 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+- title: WriteUp Capture The Flag Cyber Jawara 2019
+  url: https://github.com/rizqiwahyudi/writeup_ctf_cj2019
+  type: writeup
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: 'The edition is established by two independent participant records: a 17-challenge qualification
+  set published by ArkAngels, and a team write-up PDF for the 2019 event. Only the qualification round
+  is documented in the imported sources; no final round is recorded because no source describes one. The
+  exact event date is not established, so dates are null.'

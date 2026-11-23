@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-web-002
+name: Code Sandbox
+slug: 002-code-sandbox
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: web
+original_category: Web
+description: Run your code in this sandbox
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: nyxmare
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Web/code-sandbox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ccb8625669f1fe7a39bf8173c2274995abab19f88b3badef7a18d91004a90087
+  - path: challenge.yml
+    algorithm: sha256
+    value: 00628a336ba893a7a5cd02397322d517cd58f38087233f0c1ea542588063e994
+  - path: challenge/.env
+    algorithm: sha256
+    value: dcb2f6990788e968fddced8878dd28b46d9d7c48b1afd5e1a8406ca7c931774d
+  - path: challenge/app/flask-proxy/Dockerfile
+    algorithm: sha256
+    value: 4990f9a95255d4ef228093a7eb9f4037e0e5b4474edfd6ffbbbfa7e9b2409647
+  - path: challenge/app/flask-proxy/app.py
+    algorithm: sha256
+    value: 9bff75c25be99dd5dca1ff383dead0c49f7eebc8e3e4e23071f3ce5736a0faba
+  - path: challenge/app/flask-proxy/requirements.txt
+    algorithm: sha256
+    value: 30f42e8607c6e4431085ca9a279465f2b39d0b326c609935fe496ce85e3fae5b
+  - path: challenge/app/nginx/Dockerfile
+    algorithm: sha256
+    value: 841fa787c0b4e511a6ee45beff999ef5e7f198aa4902a075a66dd1e8a16d0819
+  - path: challenge/app/nginx/nginx.conf
+    algorithm: sha256
+    value: 18e7a4315e4be70ab59b79d6d6e9a7f1da13eb85f75ece53b6ab168bf70469fe
+  - path: challenge/app/nodejs-sandbox/Dockerfile
+    algorithm: sha256
+    value: 1c0576115010c3051a8662c0cc28fcdd5ede76e6ed81aaa77151eabacde4d8a4
+  - path: challenge/app/nodejs-sandbox/package.json
+    algorithm: sha256
+    value: 12a16a295067c545fdb5d960955996cdc23b75fd4f80da6dad1eac871313c759
+  - path: challenge/app/nodejs-sandbox/src/index.js
+    algorithm: sha256
+    value: 2a672aaeee27a562e90327b77d8a9e6125adbe8dff448467d66f4f027f5c0e71
+  - path: challenge/app/nodejs-sandbox/src/runner.js
+    algorithm: sha256
+    value: f8c946980424dd79c60b17d456d53343b4e39a08fd4e0dcd3db68bb7669e120f
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: e6b253a2dd2a6a36945802b28e8390a33035e8b7c1a5081af9cd5334cab51474
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: fa0523cac327d4861113479eed359af375bcdd83bc20a974d7345ac4b020857a
+  - path: challenge/readflag.c
+    algorithm: sha256
+    value: 2183f46fe127fab4ed2f3b8e3da5b5da4e25f4e890fd6ff4b181b994ba7c35e6
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 8b7eb18958058687dccdebd2067b51a08b703027fd552e4d71c5510a205236d6
+  - path: release/.gitignore
+    algorithm: sha256
+    value: 63853d6cbeeeccaf39f8710675db4fa4be8d16315537aa8e3dcb2d59b522d070
+  - path: writeup/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

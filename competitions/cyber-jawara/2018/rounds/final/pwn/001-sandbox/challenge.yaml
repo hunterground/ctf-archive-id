@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-pwn-001
+name: p02-sandbox
+slug: 001-sandbox
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: In this web service, you can run a sandboxed x64 Linux Shellcode by pasting hex string that
+  encodes x64 instructions. Sandboxing is done with a ptrace-based syscall filter to block execve and
+  execveat sysall. You need to find the ways to get the flag. For patching, you are only allowed to patch
+  sandbox.c. Functionality tests to write a string to stdout or file and read a file will be performed.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p02-sandbox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 9776b229722f04703be441b149d4227e592f7c6a387d7cb6401407e9f2c809cd
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c4904b6806ec2b1b5cf21ef7b755939d540b1d47368f7eeccf3a9bc42dac03fa
+  - path: src/app/sandbox
+    algorithm: sha256
+    value: da8f82ff3353e9a629502c6d4b06377642955628a5d7999a1581fbd73670a2ee
+  - path: src/app/sandbox.c
+    algorithm: sha256
+    value: 278cbf6165afcb715fa216b3353c24fee6e23668fd23103d9cb6c1463e368086
+  - path: src/app/shellcode_runner
+    algorithm: sha256
+    value: ce3b1cac4c912db9ca8738e032ae94b4397365aa86e895202e9b20c7d77e7277
+  - path: src/html/hello_world.txt
+    algorithm: sha256
+    value: dcf2501eeba22364cb684c88c54cbb387609eaa61c32197e966c673fc1e34754
+  - path: src/html/index.php
+    algorithm: sha256
+    value: 7889625fbd124be57a5ada516c75ee77359e7d32793bfc0362c85d15d36bc566
+  - path: src/html/style.css
+    algorithm: sha256
+    value: 9a4dad741f6e23789b73ff56903de8cd66f7091d5478fb394b42d4b197e012af
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: daebf5861793f58cb604cfb2d2be8987d9ad2da0719575d5aae595974520de42
+  - path: src/start.sh
+    algorithm: sha256
+    value: cf79e580f166983cfbff2f6d6502724b0d2029859f2ded310debec59a13fbe09
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50200 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

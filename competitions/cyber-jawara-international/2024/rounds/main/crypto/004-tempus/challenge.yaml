@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-crypto-004
+name: Tempus
+slug: 004-tempus
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: I found an old cryptography library, but it looks good and has some state-of-the-art features
+  so I tried to use it for my project.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: merricx
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/crypto/tempus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c167bcf0f03c34c1be2ca22c1351100ff07bc2c5a04007fba3f2bd214d4ec220
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 54739da9658828063a4e34cfda7fce0fb81d49aadb8e80a226bcb961f0a9ca74
+  - path: deploy/challenge.py
+    algorithm: sha256
+    value: 88676f61d61f2a7f79c1a328317a5f4c27c26db5886622ef44cfe4b058153540
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: e4d1ce8cade41b4c75d7adca8d9894fc555b27b676430315ed72bddaaffcba20
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 422ca1b02d580c89e006fd38cfe8c94f5d7c0c3d7066cf5584072595a8f3ce32
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 0a7e001b65fc60d25541f3ec3d413cb0984a180b5d178a1612b6de79c394a6fd
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

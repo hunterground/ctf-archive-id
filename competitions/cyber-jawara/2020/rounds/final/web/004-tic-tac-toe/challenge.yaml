@@ -1,0 +1,114 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-web-004
+name: Tic Tac Toe
+slug: 004-tic-tac-toe
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Visat
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: web/tic-tac-toe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 4de6c4fd0a2681d0202216763a3d1df975d47321bb1008db6c0c7029498d296c
+  - path: .gitignore
+    algorithm: sha256
+    value: 1988cb7593f4b28812dca300b653fa3c8708cbe37e905cf1fa68374434b3afdf
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0ddda0245f162a6f3f276eeeafebda9e8b35f9a1e6ab755640da152fcf9fc43c
+  - path: README.md
+    algorithm: sha256
+    value: 7aefecaf9e30f73d73bec4433dc18de54e5ab0a71290f6c970ebc81fd3886cb5
+  - path: bot/.dockerignore
+    algorithm: sha256
+    value: 081e4752ae43b40695e72787a08d0ed42e93c886923f4be6a3e389feb705a41c
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: b5dbdf0615243a63d3fed612a10aba80bb6a164df89bbe39a1fe8a4366f72c51
+  - path: bot/env.example
+    algorithm: sha256
+    value: 492c29a806c8572571301bd712f50978aa608c056349e8fb71f201c6469ff616
+  - path: bot/index.js
+    algorithm: sha256
+    value: ff14a534a98e1b5cbcd14cf3b2c9eb5805a3f316b0cc33225b711f19236811d2
+  - path: bot/package-lock.json
+    algorithm: sha256
+    value: 758d21a025c37c884289165691db53713b515193c621b6bf78be995b34e161dc
+  - path: bot/package.json
+    algorithm: sha256
+    value: 3f536e5f9cde575c9cd005c7fd31a1ba1dc9ceb4425f0c38dcddd8860dd944a4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 047742ac69838b540d42ed9a1aa510b690a0ca34081256b8502cb31e93d56741
+  - path: env.example
+    algorithm: sha256
+    value: 2dce8563263769a1e5b017d3d4ca1c6fee69e780dc1c41f0b80b9a99fa30555c
+  - path: index.js
+    algorithm: sha256
+    value: 36d51d24ec8f1061ecead00207df2cdd90fa2ac870aca94d9794fb4c636477a6
+  - path: package-lock.json
+    algorithm: sha256
+    value: 6a4f93b04e5121a53da461c573aac1596c46ecbb478116173c97d32a665def2a
+  - path: package.json
+    algorithm: sha256
+    value: f553eb307b79bef5f1f7e3bf75aa160610c93e3da9c087d536fc2f0bd3b1f0a4
+  - path: public/index.html
+    algorithm: sha256
+    value: 460f71f7995f12fb6375fae5b26fec082794777b51b92e26491fdfd63868a230
+  - path: public/static/query.js
+    algorithm: sha256
+    value: 750d11aadeafea5758283a9aa94b0929c813e6031194ac0e758fc72387a1a6e4
+  - path: public/static/styles.css
+    algorithm: sha256
+    value: 21e6d7e8ef28ea5c2cfe410d4889b46fe31843a2de3cb2cce3079dc189ce96b5
+  - path: public/static/tic.js
+    algorithm: sha256
+    value: cf5f274ef76adc6e7fa3a7ec243469127edff93fff834db7afed24bf05138192
+  - path: src/reporter.js
+    algorithm: sha256
+    value: 4d5dc7e7f6b4fc110c5662661af102b715cdc77f7317a9b9a0e43596cacaab05
+  - path: src/solver.js
+    algorithm: sha256
+    value: 646a9dcf71eee860e9562e9750ef758e41350d313ece4708b6bfe2e1dae90ee2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description. src/solver.js
+  is the web application game engine loaded by index.js, not an organizer solution, so it stays in original/.

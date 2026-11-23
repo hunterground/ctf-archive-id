@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-crypto-001
+name: the absolute idol
+slug: 001-largo
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Crypto/largo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: cd2c598adf10c8c90b008a196ab1b34c11aa7d43411c2a785bbaf5bef70ae3d2
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 6f9ebcb0dd7b067f670f9f87afbdb3294c194faf6086b4f0e26653bc79e06d62
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 92b19f817b6c93c8a9d79280679b428d21626d65ae97ddae02384f9108230ed7
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source directory is named largo but challenge.yml names the challenge 'the absolute idol';
+  the slug keeps the source directory name.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

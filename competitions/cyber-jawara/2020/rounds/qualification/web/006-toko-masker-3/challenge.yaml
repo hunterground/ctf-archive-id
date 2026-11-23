@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-web-006
+name: Toko Masker 3
+slug: 006-toko-masker-3
+original_name: Toko Masker 3 [693 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Setelah berhasil menemukan cara untuk mendapatkan masker secara gratis, Anda melaporkan bug tersebut secara bertanggung jawab ke pemilik web. Setidaknya, ada 2 bug yang dilaporkan. Pemilik web tersebut pun telah melakukan patching untuk bug yang diketahui.
+
+  Sayangnya, toko masker tersebut tidak punya program bug bounty sehingga Anda hanya dikasih 2M (makasih mas). Tetapi, Anda kemudian ditawarkan proyek untuk melakukan security code review pada aplikasi tersebut. Karena outsource, pemilik web tidak dapat memberikan source code secara keseluruhan.
+
+  Dapatkah Anda meretas kembali toko masker ini untuk mendapatkan masker gratis? Flag akan ditampilkan ketika Anda berhasil membeli 100 buah masker N99.
+
+  https://tokomasker3.web.cyber.jawara.systems/
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:693
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Web Exploitation/Toko Masker 3 [693 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: baaaf92bbc6f87c9aff7c199214e28ebdb720563430d2947c2ebd91836e895d5
+  - path: api.py
+    algorithm: sha256
+    value: fccc6118987db3b1c1bf85f31b9e8f3b97acfc46302e3dd48f0d3ceef473c162
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Toko Masker 3 [693 pts].

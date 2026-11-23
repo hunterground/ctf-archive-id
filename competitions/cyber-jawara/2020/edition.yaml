@@ -1,0 +1,36 @@
+schema_version: '1.0'
+id: cyber-jawara-2020
+competition_id: cyber-jawara
+year: 2020
+name: Cyber Jawara 2020
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 42
+references:
+- title: CJ2020-Final-CTF
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+- title: Cyber Jawara 2020 Final write-up
+  url: https://tripoloski1337.github.io/ctf/2020/10/18/writeup-cyberjawara-2020-final.html
+  type: writeup
+  accessed: '2026-11-22'
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2020 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >-
+  The author repository states that the 2020 final ran online because of the COVID-19 situation.
+  It ships no dates. A participant write-up published 18 October 2020 describes the final, so the edition
+  is dated no later than that day, but no exact date is recorded. Two stages are imported from different
+  sources: the final (13 challenges) from the problem setter's own repository, and the qualification
+  (26 challenges) plus a separate warmup stage (3 challenges) from a third-party copy of the challenge
+  distributions. The 42-challenge count is the sum of those imported entries. The qualification source
+  gives no date and no challenge authors, so authors are empty there.
+

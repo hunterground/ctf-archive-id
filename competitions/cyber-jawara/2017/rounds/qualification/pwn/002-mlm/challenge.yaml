@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2017-qualification-pwn-002
+name: MLM
+slug: 002-mlm
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2017
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Grup platinum dari MLM ini mendapat hadiah jalan-jalan ke Paris dan mengunjungi menara Eifel.
+  Tentu saja Anda tertarik untuk bergabung ke grup platinum tersebut.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2017-akanura-collection
+  source_type: git
+  repository: https://github.com/akanura/cyber-jawara-2017
+  commit: c3d2f592f784b4804226f3e99195d6b460a8bfac
+  original_path: '[Binary Exploitation] MLM'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: mlm
+    algorithm: sha256
+    value: d403442c61181d8b25f528af4f365528326e796deed6cbdc309bab091654c343
+  - path: soal.txt
+    algorithm: sha256
+    value: b8e70f24edcc38f00a2c2513f334dd846a9f098d6d3c205674cfe2fc2e7275e3
+licensing:
+  declared_license: MIT
+  copyright_holder: akanura
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) akanura (https://github.com/akanura)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: remote
+  services:
+  - nc cj2k17.ctf.idsirtii.or.id 51337
+  requirements: []
+references:
+- title: cyber-jawara-2017-akanura-collection
+  url: https://github.com/akanura/cyber-jawara-2017
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: 'The 23 packaged directories name the event in no README; every soal.txt service address points
+  at cj2017.ctf.idsirtii.or.id or cj2k17.ctf.idsirtii.or.id, which ties the set to the 2017 Cyber Jawara
+  qualification infrastructure. The uploader is a single personal account with one 2017-08-30 commit and
+  no README, and nothing states that the owner set the challenges, so authors are left empty. The source
+  ships no round label. It is modeled as the qualification round because every challenge is an online
+  jeopardy service; no final round material is present. connection_info from soal.txt: nc cj2k17.ctf.idsirtii.or.id
+  51337'

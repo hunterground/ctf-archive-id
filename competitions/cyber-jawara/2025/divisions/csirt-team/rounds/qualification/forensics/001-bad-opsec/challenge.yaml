@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-csirt-team-qualification-forensics-001
+name: Bad OPSEC
+slug: 001-bad-opsec
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: csirt-team
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  I should've checked the domain is not from `kaspersky.com` but it's from `kasperky.com`. I'm calling you now to help me investigate since I'm too paranoid and there's this silly process AV that I accidentally run (of course) so I dump it for you to analyze.
+
+  Please do answer all the questions on the remote connection. There are only 5 Questions for you to answer, which is nice!
+
+  `nc {IP} 5112`
+
+  **WARNING: This malware is intended to encrypt files in specific directory. It MIGHT encrypt yours but for safety, please do run the malware inside the VM if necessary.**
+
+  All of the necessary artifacts can be downloaded from the following zip file:
+
+  https://drive.google.com/file/d/1mDBPn49gFFqrac4he0w8jRkAkibP7EDv/view?usp=sharing
+difficulty:
+  value: medium/hard
+  source: organizer
+tags: []
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/csirt/Forensics/Bad OPSEC
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1mDBPn49gFFqrac4he0w8jRkAkibP7EDv/view?usp=sharing
+    reason: Linked from the challenge README and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: be4ceacabdc8f13623fbc5bc39e1fb063af0c5819ae32f861b080e3f6fbdce04
+  - path: challenge.yml
+    algorithm: sha256
+    value: 887519cd835ee8d09b3a05d3de57b24a3d764a703a205830395cd75fa3ff90de
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b7cdd81c64f896703e19bc0570a014e5cfc3f9ecfab7bcac64679cc230633436
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: fcb6dfd16790b3d9caa9fcab8a2489128b3e4059802ba54c9bf3a546a24c8b23
+  - path: src/main.py
+    algorithm: sha256
+    value: 62ff0ea8edf6ba1216de8e23117515950b83019bca59ede3da9185f93da7533e
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

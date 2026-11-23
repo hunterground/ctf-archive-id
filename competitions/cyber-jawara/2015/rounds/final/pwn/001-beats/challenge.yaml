@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: cyber-jawara-2015-final-pwn-001
+name: beats
+slug: 001-beats
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2015
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: Soal final Cyber Jawara 2015 berupa aplikasi ELF 32-bit; write-up membahas penyelesaiannya.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2015-final-writeup-rndc
+  source_type: git
+  repository: https://github.com/rndc/cyberjawara-2015-final-writeup
+  commit: c4968ea208030d551909ffdc26ccad7d89424fac
+  original_path: beats
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6c8e84e8624d8afec77cbfddc004fd6dbc68dbf496db5b8e98e69a21a998a927
+  - path: beats
+    algorithm: sha256
+    value: c3be1eb0b4a494a8bf7c6dd61305c932fc803cd33c3d0a81d2d123bf1cf83e57
+licensing:
+  declared_license: MIT
+  copyright_holder: RNDC
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2015 RNDC
+  permission_reference: https://github.com/rndc/cyberjawara-2015-final-writeup/blob/c4968ea208030d551909ffdc26ccad7d89424fac/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2015-final-writeup-rndc
+  url: https://github.com/rndc/cyberjawara-2015-final-writeup
+  type: writeup
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: 'Published by team RNDC as ''Solusi untuk beberapa soal final Cyber Jawara 2015'', so the set is
+  the 2015 final round. Participant-authored: the challenge statement is not reproduced, only the write-up
+  and the binary or attachment it analyses. The repository is MIT licensed, copyright 2015 RNDC. Only
+  these three of the 2015 final challenges are covered by the write-up; the round challenge count records
+  three because that is all the source documents.'

@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024
+competition_id: cyber-jawara-international
+year: 2024
+name: The Cyber Jawara International 2024
+status: completed
+verification: corroborated
+dates:
+  start: '2024-10-27'
+  end: '2024-10-28'
+statistics:
+  participant_count: 211
+  challenge_count: 27
+references:
+- title: CTFtime / The Cyber Jawara International 2024
+  url: https://ctftime.org/event/2552/
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: The-Cyber-Jawara-International-2024-CTF
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: CTFtime gives the event window as 27 October 2024 02:00 UTC to 28 October 2024 02:00 UTC and records
+  211 teams. The 27 imported challenges are the directories in the organizer repository's challs/ tree.
+  The repository README lists 26 named challenges; challs/misc/welcome is an additional Discord welcome
+  challenge with no named author, and the 27 directories were imported as they stand. The single stage
+  is recorded as round main because the source describes no separate qualifier or final.

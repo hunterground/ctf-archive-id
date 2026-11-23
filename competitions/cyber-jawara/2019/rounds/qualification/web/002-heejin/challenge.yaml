@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-web-002
+name: Heejin
+slug: 002-heejin
+original_name: Cyber Jawara 2019 Qualification - Heejin
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/web/Cyber Jawara 2019 Qualification - Heejin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: src/app/api/main.go
+    algorithm: sha256
+    value: 214ec318d2c84469246da497761ab5333f9ee059072acf13296b7db916c94f15
+  - path: src/database/database.go
+    algorithm: sha256
+    value: 6b5924f14c576865bf25e434de0b36340aa70153e747082e3478fd26b8a590be
+  - path: src/database/mysql.go
+    algorithm: sha256
+    value: b5b09ec60eb6dac53d01ccc6d2383a056e3846af1e94a84a09a28863e829049d
+  - path: src/handler/api/api.go
+    algorithm: sha256
+    value: 4cea97f0d921d95d001cfbd70b8ce2fc017405bd2649043ceed1e0f454dff36a
+  - path: src/handler/api/login.go
+    algorithm: sha256
+    value: cdb8929f46465ad01309caeb074461b261570036590d724788930d0eb652596d
+  - path: src/handler/api/me.go
+    algorithm: sha256
+    value: 84ec64914767e8dcfc23077912a0bbd76a2288df4ce47a1133344a9cf1288664
+  - path: src/handler/api/product.go
+    algorithm: sha256
+    value: 1e8f35747de28bfc53658359bb1de2b9152a2f5a82074923da44602a8f3eb094
+  - path: src/handler/api/register.go
+    algorithm: sha256
+    value: 36c58bd4746fd019ad03ba105e2558554b903f1e81b937878f33c0b9ea10a133
+  - path: src/handler/handler.go
+    algorithm: sha256
+    value: 1c607c9081cae732ef064647b8e5df08fa317a6349645f23c4db290baaa0f7d0
+  - path: src/handler/spa/spa.go
+    algorithm: sha256
+    value: 441afe371f6fbb2ab0f01054c5df2c93a79a1226867ec182af3c281ecb484540
+  - path: src/heejin.go
+    algorithm: sha256
+    value: 84e22ad56f2e6dc59a2c74d5750ef83dad2671791816d3655ed93016a210333c
+  - path: src/middleware/middleware.go
+    algorithm: sha256
+    value: 8ff31a3639722b15c354f31e504f830ea9ebf7d38ae39e705f63fc07dc76c729
+  - path: src/model/model.go
+    algorithm: sha256
+    value: 61d28c8e16b0f1913aed9c8c47c3a1e2a728ec1f9f1318ffa90ba0ecbac13e29
+  - path: src/model/order.go
+    algorithm: sha256
+    value: 29b92b0e46a412bdcd04e83a177ae5d75fa221ad70d117af1ac47ab45e8a4a83
+  - path: src/model/product.go
+    algorithm: sha256
+    value: dfba537bf6cab6562df21057ecb2f600dda1e5926384138d62e5b5ee7dc7241d
+  - path: src/model/user.go
+    algorithm: sha256
+    value: aed88ec631531112717d69d3719b633bcea1bce248656384194e137deedc830f
+  - path: src/response/error.go
+    algorithm: sha256
+    value: 15760a01514e37a7df03bb55cc3642f718375cc3d82bd8113003f50dab9421f0
+  - path: src/response/response.go
+    algorithm: sha256
+    value: ec419124f215ec6075dab331c2ed0e322d08749077ae327b7e585863d5de5141
+  - path: src/session/session.go
+    algorithm: sha256
+    value: 428fa3a9da8962da671e5a069539932988c8a6ed52f6c0993ff2c9f4e02800dd
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

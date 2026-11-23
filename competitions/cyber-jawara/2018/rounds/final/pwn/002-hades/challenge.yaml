@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-pwn-002
+name: p06-hades
+slug: 002-hades
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: This binary can compute the longest increasing subsequence of 64 bit numbers with O(n^2)
+  time complexity. Can you pwn it like a pro? For patching, you are only allowed to patch 64 bytes. For
+  this service, all attack points are multiplied by 1.5x.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p06-hades
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e30fcbfa4c7711660697d6b9d90a5d42d98d37fe4c246556b777ba8e4f470318
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7c17a0bd6a2d5f653ee0ac2a868210e6dfdd1d1c3bc16a03460a20f03a4ba6ec
+  - path: src/app/hades
+    algorithm: sha256
+    value: 215b11c4f54cc56029b6611f08150a482c6312e41abb265a36b48f3a0a6e110c
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: c0aa01160bf376f4e7c4e9af5bf67f19c9bc1f862663c5792039fb97641b3621
+  - path: src/start.sh
+    algorithm: sha256
+    value: 9e0a98de548ce60f3fc049a69ab674add662f95215d94abee5cf7056bf1cb224
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: `nc 127.0.0.1 50600` Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

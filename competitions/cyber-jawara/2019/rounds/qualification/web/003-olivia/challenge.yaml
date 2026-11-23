@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-web-003
+name: Olivia
+slug: 003-olivia
+original_name: Cyber Jawara 2019 Qualification - Olivia
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/web/Cyber Jawara 2019 Qualification - Olivia
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: index.html
+    algorithm: sha256
+    value: d7491af890b7ffc50412e484014acd2a103be386c28a186bf49198241576eca9
+  - path: olivia.py
+    algorithm: sha256
+    value: 809fcaebd26dbb510bdbd9348c364ccc79f399acea51a129b1049979bc22496b
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

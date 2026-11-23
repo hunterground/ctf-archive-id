@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-pwn-002
+name: backdoored\_kernel
+slug: 002-backdoored-kernel
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: pwn
+description: I was learning how to compile a kernel and my friend tampered with a file. Its just 3 lines,
+  right? No way its a backdoor... right?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/pwn/backdoored_kernel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 37c8a60e5cb04b07db030539fb00dd4ad742531ce37656dd80f58e7ef8c85aa3
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: ce6a59fe360d782f065e674d64d79b50e276a01547a2671f4eafe0b69aab77d0
+  - path: deploy/bzImage
+    algorithm: sha256
+    value: 98996e58f8746dc8617459e2ddeb18dd41edf6d0bf8f3719cc2838e1a67963f0
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 0eb7ea33201e8493bb3dfa95c3119cc2de6cc43d7af528097f34617883538712
+  - path: deploy/pow
+    algorithm: sha256
+    value: e5a6de4ff537b396e53e016fa6dabb73f61b7accbb91e0300fd470cfcd79f770
+  - path: deploy/rootfs.cpio.gz
+    algorithm: sha256
+    value: 5274e41d662a6a6bebc127fc6732f15df866534a13bd3e9c36f7a40840c30761
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 8e0f7ccc530470c2fc4154e0b77c3b7047d480c88da080f6b977f1437a1aaf86
+  - path: deploy/xinetd
+    algorithm: sha256
+    value: 8d92da8e7ee4998f9c16e811792f3f4f30347e16a13943a2f86fce98ef5753b3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

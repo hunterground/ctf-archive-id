@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: cyber-jawara-2015-final-forensics-001
+name: scarlet
+slug: 001-scarlet
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2015
+division_id: null
+round_id: final
+category: forensics
+original_category: null
+description: Soal final Cyber Jawara 2015 berisi dua berkas, sebuah gambar (Capture.JPG) dan sebuah berkas
+  teks (kabayan.txt).
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2015-final-writeup-rndc
+  source_type: git
+  repository: https://github.com/rndc/cyberjawara-2015-final-writeup
+  commit: c4968ea208030d551909ffdc26ccad7d89424fac
+  original_path: scarlet
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fddd6cf7c3a4a321bd793cd3277439a12656cbfbe953ef6a2db0e69109276b4d
+  - path: capture.jpg
+    algorithm: sha256
+    value: cd7c38020e1faba3ccee418a768b8e0f80c5785110be1ec7cce4a1bc52798b92
+  - path: kabayan.txt
+    algorithm: sha256
+    value: b5b5a267748a8b87c9d6aa2d99f416b5716edadec58fdcb28d4b36ec48dbc654
+licensing:
+  declared_license: MIT
+  copyright_holder: RNDC
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2015 RNDC
+  permission_reference: https://github.com/rndc/cyberjawara-2015-final-writeup/blob/c4968ea208030d551909ffdc26ccad7d89424fac/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2015-final-writeup-rndc
+  url: https://github.com/rndc/cyberjawara-2015-final-writeup
+  type: writeup
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: 'Published by team RNDC as ''Solusi untuk beberapa soal final Cyber Jawara 2015'', so the set is
+  the 2015 final round. Participant-authored: the challenge statement is not reproduced, only the write-up
+  and the binary or attachment it analyses. The repository is MIT licensed, copyright 2015 RNDC. Only
+  these three of the 2015 final challenges are covered by the write-up; the round challenge count records
+  three because that is all the source documents.'

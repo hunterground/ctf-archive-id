@@ -7,15 +7,26 @@ status: completed
 verification: corroborated
 dates:
   start: null
-  end: null
+  end: '2025-02-08'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 35
 references:
 - title: Cyber Jawara National 2025
   url: https://cyberjawara.id/2025/national
   type: official_website
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The national rules page was reviewed. It does not by itself confirm whether the High-School and
-  CSIRT Team tracks were also held in 2025, so divisions were not created for this edition.
+  accessed: '2026-11-22'
+- title: CJ2025-public
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+challenge_materials_imported: true
+notes: The online qualification was followed by an on-site final on 8 February 2025. Public reporting
+  says 45 teams advanced from the online qualification, and the final was hosted by the Faculty of
+  Engineering, Universitas Indonesia. The official 2025 site lists four tracks - National, High-School,
+  CSIRT Team, and Kedinasan (government-affiliated school) - recorded here as the national, high-school,
+  csirt-team, and government-affiliated divisions. The imported organizer repository holds the
+  qualification stage only, with 16 national, 14 high-school, and 5 CSIRT Team challenge entries, and
+  no material for the government-affiliated track. The edition challenge count is the sum of the
+  imported entries; shared challenge names are imported once per division that used them.
+  Participant count is left null because the reporting gives finalists, not qualification entrants.

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-rev-003
+name: Javascript is Easy
+slug: 003-javascript-is-easy
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: The actual "javascript" flag checker challenge with only 29 lines
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ryuk
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/rev/javascript_is_easy
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5a0321fafbdf6a364f5992590de964d79de64f77bd02c4569f98a89a449ad707
+  - path: release/rev-jseasy.zip
+    algorithm: sha256
+    value: 80eb92bd00a99143d7029659e675e25507b7fa74dca9ffe0247ee48c02d54a02
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

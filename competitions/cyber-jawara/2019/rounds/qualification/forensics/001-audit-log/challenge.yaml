@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-forensics-001
+name: audit.log
+slug: 001-audit-log
+original_name: Cyber Jawara 2019 Qualification - audit.log
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Seseorang telah meng-compromise server Linux kami. Untungnya kami sebelumnya sudah memasang
+  auditd daemon guna melakukan logging untuk syscall tertentu. Dapatkah Anda menganalisis apa yang attacker
+  lakukan dengan melakukan forensik pada berkas audit.log ini?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/forensic/Cyber Jawara 2019 Qualification - audit.log
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1fc7f81b73c4418cbd7f3d7a8fa82b3373949df4b1e1b3509e7977772817d84c
+  - path: audit.log
+    algorithm: sha256
+    value: 656f9823e7c4815f748a01cacb2c74f83c5ab0895644fa2e833cf772766a413e
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

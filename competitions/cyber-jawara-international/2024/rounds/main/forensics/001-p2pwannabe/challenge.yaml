@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-forensics-001
+name: P2PWannabe
+slug: 001-p2pwannabe
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: forensic
+description: Uruzic is a protocol network maniac! He want to make a protocol by combining 2 protocol he
+  loved! P2P and multiplex! In this time he just implemented like transfer file as usual between server
+  and client, but adapted the behavior of 2 protocol he loved! Can you get file inside this traffic with
+  protocol he created?!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Blacowhait
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/forensic/p2pwannabe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bc08466d3b6c4288f66721f33e2d1a439a7c40187f4a0efef890bb55fd47b84c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

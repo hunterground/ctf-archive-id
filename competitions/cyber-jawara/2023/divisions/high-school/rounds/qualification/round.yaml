@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: qualification
+competition_id: cyber-jawara
+edition_year: 2023
+division_id: high-school
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online qualification round of Cyber Jawara 2023 for the high-school track.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 12
+  participant_count: null
+references:
+- title: Soal Penyisihan Cyber Jawara 2023 (Tingkat Pelajar)
+  url: https://github.com/Danieldd28/Cyber-Jawara-23
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: >-
+  The repository README reads "Soal Penyisihan Cyber Jawara 2023 - Tingkat Pelajar" and holds 12 challenge
+  directories. Source categories are preserved: Binexp (2), Crypto (1), Forensic (2), Misc (2), Reverse
+  Engineering (2), Web (3). The containerised web and jail challenges keep their full deployment trees
+  and flag placeholders as original files. The round date is not stated in the source.

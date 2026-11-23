@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-crypto-002
+name: Virtuoso
+slug: 002-virtuoso
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: Ticket Maestro from Cryptohack was too easy. So, I've updated the challenge such that you
+  cannot even buy a ticket. Can you still solve it?
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: merricx
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Crypto/virtuoso
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b1cae27e377dd3fd285b7973adc3810090c1e53c38e9f9de4caffea6bb928076
+  - path: challenge.yml
+    algorithm: sha256
+    value: 47196287e4abdda6c070d9c20e4c275ee4950e215583a299fcfa5721eaa0a8c0
+  - path: challenge/Cargo.lock
+    algorithm: sha256
+    value: a9d611ea674572243e5cb0466ede693fd7a8eb479ebf073a0a30e28e93d82852
+  - path: challenge/Cargo.toml
+    algorithm: sha256
+    value: e390732a76ea371f1fb6c51c6ec0b7bd998312e9001ff4a976104f017de67a98
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 183205f00bffdaba3ca56ef702891b7d16272598303fc2da295c7e9d72b10576
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 10bc9de7d81c78d31cc391b75b4e90dd50a11de031f07045b871629156746185
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: f4e51e1d160b8e79f3871f0abcae8569826c5530337123ecff34af85370f8b11
+  - path: challenge/src/main.rs
+    algorithm: sha256
+    value: ec2d2b5edb797b1d4f4593bc8fb3282348170132659d17326b7a02a7d15f234a
+  - path: challenge/src/virtuoso.rs
+    algorithm: sha256
+    value: 50dd53c0202cf1969457e1e931d781aa59456042d8bad1314ddf30b19c0dddb6
+  - path: release/Cargo.toml
+    algorithm: sha256
+    value: e390732a76ea371f1fb6c51c6ec0b7bd998312e9001ff4a976104f017de67a98
+  - path: release/Dockerfile
+    algorithm: sha256
+    value: 183205f00bffdaba3ca56ef702891b7d16272598303fc2da295c7e9d72b10576
+  - path: release/src/main.rs
+    algorithm: sha256
+    value: ec2d2b5edb797b1d4f4593bc8fb3282348170132659d17326b7a02a7d15f234a
+  - path: release/src/virtuoso.rs
+    algorithm: sha256
+    value: 50dd53c0202cf1969457e1e931d781aa59456042d8bad1314ddf30b19c0dddb6
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

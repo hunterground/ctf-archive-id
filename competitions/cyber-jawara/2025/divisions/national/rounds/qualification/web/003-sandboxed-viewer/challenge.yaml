@@ -1,0 +1,166 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-web-003
+name: sandboxed-viewer
+slug: 003-sandboxed-viewer
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nyxmare
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Web/sandboxed-viewer
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 04735fdcc318383de533e6d9c97c23f25460e6eb798fb8bf9bffaf2642646892
+  - path: .gitignore
+    algorithm: sha256
+    value: 04735fdcc318383de533e6d9c97c23f25460e6eb798fb8bf9bffaf2642646892
+  - path: challenge.yml
+    algorithm: sha256
+    value: d2f30ec8dba75cd951b8f80c2d42a130e530a2f5ccd7f628b15185446e9f4cdd
+  - path: challenge/.env
+    algorithm: sha256
+    value: 0171c62ed17a8220c0cc63c39dc7874b2f8d72fddc1153226621dc4105674eea
+  - path: challenge/Caddyfile
+    algorithm: sha256
+    value: 23f6ce5712ac6ddd7908101efdba7557bb3e516516ccf60ceabf9ccca86adc65
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: c9c39da0c7fcd909d6d6265765ff08a00d1b25bee31811866b2de0e9246317c1
+  - path: challenge/apache2/000-default.conf
+    algorithm: sha256
+    value: b17a6bb3c575054cfaf05c4f39c6c9375f54885617ea77a6b7d09403bcf361bc
+  - path: challenge/app/.dockerignore
+    algorithm: sha256
+    value: a81419ec5267a1b1b1d4ec0325e48e212d06f5d87d94900e4c33110a53368215
+  - path: challenge/app/controllers/adminController.js
+    algorithm: sha256
+    value: 7d905543e7fa31184bd0a81b1d8885edc2b578c7d9d773cd9744da2b4b93ade4
+  - path: challenge/app/controllers/authController.js
+    algorithm: sha256
+    value: 7a9943b45d58376bb7c1c70e1ee5b514e9322400f5d0493c4cc9e054fef47ef0
+  - path: challenge/app/controllers/dashboardController.js
+    algorithm: sha256
+    value: 0074a77e57090568b1616fe28a023589932ad079c8ada3e14fd3d39eb51af88d
+  - path: challenge/app/files/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/app/package-lock.json
+    algorithm: sha256
+    value: 23f9a7ba3fbd2efa3e21a74d33236f966ff6418c9c96fdd99fcaf5bbc01a6ec2
+  - path: challenge/app/package.json
+    algorithm: sha256
+    value: 3ad383547a62d8d1393c88a97fc6537f914a21fb76ca63ae6318816ce08570c5
+  - path: challenge/app/public/Skope.min.js
+    algorithm: sha256
+    value: 831c082c4d38fda5ad07ee2bae69fd17ab98ba2caafe905cb7da00e7b7c74eeb
+  - path: challenge/app/public/styles.css
+    algorithm: sha256
+    value: 8da00a3476e8bd59a0409f661f8e06416b167fb1fea97755299ca0e6d95eda90
+  - path: challenge/app/server.js
+    algorithm: sha256
+    value: e8d0c27a50b0c76281a00d1182c46aa7ce8cdc561e68f9b96ce7fbe5848ad4ab
+  - path: challenge/app/services/auth.js
+    algorithm: sha256
+    value: d00c3532d6783e946d928b0eb93de5f1edf4aaf30fa62fb102aa18b40eb47302
+  - path: challenge/app/services/validators.js
+    algorithm: sha256
+    value: e759e3394852316a6d34ea82a5ce018ca1507d7ea3cc70adbba9972772fca82e
+  - path: challenge/app/templates/admin.ejs
+    algorithm: sha256
+    value: f32b5433823fafd5b2c8fb360e471fab018205a1dbb715ecba4d0865db1a116b
+  - path: challenge/app/templates/dashboard.ejs
+    algorithm: sha256
+    value: 8577eba746b952344beefb48b344335b76ba87f4a11b5714a35403a03220d0ed
+  - path: challenge/app/templates/error.ejs
+    algorithm: sha256
+    value: f821f759542b69759e8bf880a335080a77cc977c3c0cf5a790a8387b60c81ca0
+  - path: challenge/app/templates/home.ejs
+    algorithm: sha256
+    value: 28987ab6480dd1cb5dce0bfdeb1480f57dcb47e45323b56bc5bf8d69f801d9aa
+  - path: challenge/app/templates/login.ejs
+    algorithm: sha256
+    value: 71ab0d066fe25a862f5135a22dc5b95b362472afd62286ab0b823a7603d7cc51
+  - path: challenge/app/templates/partials/flash.ejs
+    algorithm: sha256
+    value: 3ade4169ecf6651651429d4e4af4f113ec8548610cd9ef3efda9dba02267fa2f
+  - path: challenge/app/templates/partials/nav.ejs
+    algorithm: sha256
+    value: fe9fe7ce8304fdd481f114d4f5a8e6b553c4f3bf5b4ba17d64955ff1c2e15c94
+  - path: challenge/app/templates/register.ejs
+    algorithm: sha256
+    value: 8e672fea402c458b02f4875754fdee4f4476b685fc5d46cfe1d57957c26179f2
+  - path: challenge/app/utils/index.js
+    algorithm: sha256
+    value: 89ca0da2ee63899c7777c0006f6a2e14a23339f1e5aca3dd28a19628e1f7c3c3
+  - path: challenge/bot/.dockerignore
+    algorithm: sha256
+    value: 63685f3d1349c06c84638a6b55fa95e63638f0477a982f49a13a8821bd1ddce1
+  - path: challenge/bot/Dockerfile
+    algorithm: sha256
+    value: 0c1664b7e21325c7d632da5fc400f54c066223b972e9d85a60499c2e5f1a6e86
+  - path: challenge/bot/package.json
+    algorithm: sha256
+    value: b4bd041b19cab7ef1d34298ceb0bb5b782c16b17a685a0b32705d173ccb3f7ef
+  - path: challenge/bot/server.js
+    algorithm: sha256
+    value: f9c29dc5c0769e1e04d7a7807adff942e56fc411205956a488a483ee69eb6665
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: ca58c8acf030bb4e13b7b4104276cf7925dcac8f8a94bf0a23d23014939ee95a
+  - path: challenge/files/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/start.sh
+    algorithm: sha256
+    value: 325bb13041a8abc1102d537aa320e4410350599deb763f9fc9d9e5e42c7f3ffc
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 4432401220af896ff50dc0ffc0cfb5a32a94805f088de0a1b507dcf8eaccc625
+  - path: release/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: writeup/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

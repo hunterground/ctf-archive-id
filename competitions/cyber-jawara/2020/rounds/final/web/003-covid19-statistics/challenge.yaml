@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-web-003
+name: COVID-19 Statistics
+slug: 003-covid19-statistics
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Visat
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: web/covid19-statistics
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: b53ee26e6ff1da219b0563333a76d2c9ec19eec713d6ee54e11a1edacb0e9f3d
+  - path: README.md
+    algorithm: sha256
+    value: cd8a82eec0a581285601b6a844ef5910b1e8c98f5b60fcd233fbe79cd0a1b74e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 236c57d75dcc164a352f65e455ed75e495126935e522bcefae173aaefb9c84ab
+  - path: flag.txt
+    algorithm: sha256
+    value: be06ad7fcd724dc9eff7a1607cea091fc8ee0f86a2cbfbc349874651e36de9b8
+  - path: pom.xml
+    algorithm: sha256
+    value: 1bb8d5246e00244722d7b2afeff2653549e5ea5ab668aa512d70c933be67d0b6
+  - path: src/main/java/cyber/jawara/ctf/IndexServlet.java
+    algorithm: sha256
+    value: f16969ccf7d1dd68d9ba29d99290d46c5025bb686c528c0d30c90193483610d2
+  - path: src/main/java/cyber/jawara/ctf/NotFoundServlet.java
+    algorithm: sha256
+    value: f9f107751850aa7697ddf92aa8475d050e529f2b6beeabde6854e2cbfbbbfd63
+  - path: src/main/webapp/WEB-INF/velocity.properties
+    algorithm: sha256
+    value: bdca8e8cfbac46e4cf9182f2d12222dbd3d9a666d065f4b82e10e839d1b0ee8c
+  - path: src/main/webapp/WEB-INF/web.xml
+    algorithm: sha256
+    value: 3bf31312220f0b25ec129869ebbe8d9654797acc23501d1aa04c78a947b9ba1a
+  - path: src/main/webapp/templates/404.vm
+    algorithm: sha256
+    value: 292d8de7f037f5a3bd50d653fa33343d0f0e7bb6471061bdb3b99ba4a231e724
+  - path: src/main/webapp/templates/index.vm
+    algorithm: sha256
+    value: 4d7973a2352f18d3ac678cd13d4460dc6ae07920ea26bee0e7448a33f720c677
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-warmup-pwn-001
+name: CJ2017 Zero Day Market
+slug: 001-cj2017-zero-day-market
+original_name: CJ2017 Zero Day Market [100 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: warmup
+category: pwn
+original_category: Warmup
+description: |-
+  Ini adalah salah satu contoh soal Cyber Jawara 2017 dengan nama Zero Day Market yang sudah dimodifikasi sedikit. Pembahasan dari soal yang terdahulu dapat dicari di internet.
+
+  nc pwn.cyber.jawara.systems 1001
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:100
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Warmup/CJ2017 Zero Day Market [100 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 348559fde9af13d2b3789e130e62b1db676d8dab64e28dd75779f6c4506bef11
+  - path: zero
+    algorithm: sha256
+    value: 8a3f89e58f5d80442564be14b2ffdd1b58ec16a00aadded6b13625ebe46438b4
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2020 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source places this challenge in a Warmup group, which is a stage rather than a topic. Its README
+  states it is a slightly modified version of an earlier Cyber Jawara challenge, so the technique-based
+  category is a best-fit classification and the original label is preserved in original_category.

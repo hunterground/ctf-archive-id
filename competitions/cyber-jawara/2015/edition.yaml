@@ -1,0 +1,43 @@
+schema_version: '1.0'
+id: cyber-jawara-2015
+competition_id: cyber-jawara
+year: 2015
+name: Cyber Jawara 2015
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: '2015-11-10'
+statistics:
+  participant_count: 208
+  challenge_count: 3
+references:
+- title: Prestasi Fast Affine Projection di Cyber Jawara dan Cyber Sea Games 2015
+  url: https://cs.ui.ac.id/2015/10/25/prestasi-fast-affine-projection-di-cyber-jawara-dan-cyber-sea-games-2015/
+  type: other
+  accessed: '2026-11-23'
+- title: aliansi/soal-cyber-jawara-2015
+  url: https://github.com/aliansi/soal-cyber-jawara-2015
+  type: third_party_archive
+  accessed: '2026-11-23'
+- title: rndc/cyberjawara-2015-final-writeup
+  url: https://github.com/rndc/cyberjawara-2015-final-writeup
+  type: writeup
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >-
+  Cyber Jawara 2015 was run by ID-SIRTII and had two stages: an online qualification, then an offline
+  final for the 16 teams that advanced from 208 entrants. The final was held on 10 November 2015 at Hotel
+  Sari Pan Pacific, Jakarta, which is the recorded edition end date; the qualification ran in
+  September-October 2015 but its exact dates are not established, so the start date is null. Two
+  independent collections are known. The RNDC write-up repository covers three final challenges (beats,
+  ellegarden, scarlet) and is the only material imported, because it provides a clear per-challenge
+  structure and an MIT license. The aliansi/soal-cyber-jawara-2015 repository, collected by team ISA of
+  Forum Open Source Akakom under a "copyright@FOSA2015" notice, holds the qualification attachments as a
+  flat dump (cj2015.zip, 132486.tar.gz, Qer.zip, LoginCJ.exe, Camouflage.mp4, suunto.png, haXOR, CJ15)
+  with no per-challenge directories, no category labels, and no license. Participant blogs show that
+  several of those files are individual qualification challenges and publish their flags, so the round is
+  genuine, but the file-to-category mapping is not stated by the source itself. Importing it requires an
+  explicit per-file classification decision and a redistribution determination; until then the
+  qualification round is recorded with no imported challenge material. The two sources share no challenge
+  names, which is what distinguishes the qualification set from the final set.

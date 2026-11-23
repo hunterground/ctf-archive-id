@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-pwn-003
+name: p09-poseidon
+slug: 003-poseidon
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: Hackers also need to understand data structure and algorithm. Do you know if ext3 filesystem
+  tracks directory entries in a balanced binary search tree using red-black tree? Virtual memory areas
+  (VMAs) in Linux are also tracked with red-black trees, as are epoll file descriptors, cryptographic
+  keys, and network packets in the "hierarchical token bucket" scheduler. Now, please try to pwn this
+  binary search tree service. For patching, you are only allowed to patch 16 bytes. For this service,
+  all attack points are multiplied by 1.5x.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p09-poseidon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e30fcbfa4c7711660697d6b9d90a5d42d98d37fe4c246556b777ba8e4f470318
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 75b6c241f944c4ca017755cd9d35636548e6aa31046d017667178b0699da7720
+  - path: src/app/poseidon
+    algorithm: sha256
+    value: 794bbed051d1dc45134f1a9b6f31e64d42f1c2f8155b647b726a36101464d53c
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 54d39c485072ff5cbd7aa36013e7d7d094d9ab403ae2f3f791ee7ef5b3210a4a
+  - path: src/start.sh
+    algorithm: sha256
+    value: 91c0b8f01d72010904b66dc0bba53c18e8b9635cc5700199fae981ffebd339d0
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: `nc 127.0.0.1 50900` Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

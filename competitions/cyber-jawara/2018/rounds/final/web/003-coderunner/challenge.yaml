@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-web-003
+name: p04-coderunner
+slug: 003-coderunner
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: Evaluating user inputted variable for code execution is dangerous. For protection, dangerous
+  PHP functions are disabled. For additional layer of protection, Web Application Firewall (WAF) with
+  ModSecurity is also used. You can configure the WAF by modifying waf.conf to protect this service.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p04-coderunner
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c686e0a59824ce2a733aa1a9a19b850c0f4dcd9e64b63a9df9d118d4818e0621
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 737a08a3d5c536295799ab560f4007a8b78e2d4518bf68a010be1a962c8574f7
+  - path: src/app/waf.conf
+    algorithm: sha256
+    value: 051ce9785f1fca593fd5d894c20b851a3c31f2c726800012097a06be18dc4611
+  - path: src/html/index.php
+    algorithm: sha256
+    value: 3d4117a4f20add40f2b2595076deac4097adbcb78c5dddb8d365d101d9998467
+  - path: src/html/style.css
+    algorithm: sha256
+    value: 9a4dad741f6e23789b73ff56903de8cd66f7091d5478fb394b42d4b197e012af
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: daebf5861793f58cb604cfb2d2be8987d9ad2da0719575d5aae595974520de42
+  - path: src/start.sh
+    algorithm: sha256
+    value: 725f14d55a6b4556e74e82e474bb3b6d8ec55d515eb254439eaf832301f4a2b8
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50400 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

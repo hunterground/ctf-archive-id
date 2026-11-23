@@ -1,0 +1,157 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-pwn-001
+name: 5-LPT
+slug: 001-5-lpt
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: GIVE ME 5 LIFE PRO TIPS TO BECOME THE BEST PWNER. ONE MORE THAN 4 LIFE PRO TIPS!
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Pwn/5-LPT
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 639489ac566e4a46fbee24ff49ec3b2742887d99799402291a20aa4363379058
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4ee23998441be69987e076ff3c45153f82f19625497fbd6772a03da560964686
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: bf44be21dfa0d9e36487d03be2b50535927feddf724d0a59e1a80c9a14847c29
+  - path: challenge/bzImage
+    algorithm: sha256
+    value: 4a4893978f4a250547bf3fede77ec4f33a5ff0e1e67cba4488584d87e9d894fb
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: c452bb1f68206dfb1f8cbd00edf7d569fec25359173a7d573a8f12e40f7658ec
+  - path: challenge/flag
+    algorithm: sha256
+    value: 1be196271a914d2ab5cd8e1c9bd1869a5cc4e7c2581b872abf250ebcd8cd447e
+  - path: challenge/initramfs.cpio.gz
+    algorithm: sha256
+    value: 38132554deae0420fb6649f6b7e7894e27a9b83193eca82b76986853f75db5b9
+  - path: challenge/run.sh
+    algorithm: sha256
+    value: 3ffe131d882f46989b0710607da649b8ae3f9948f6c4757201bb7cd8ba863d73
+  - path: release/Dockerfile
+    algorithm: sha256
+    value: bf44be21dfa0d9e36487d03be2b50535927feddf724d0a59e1a80c9a14847c29
+  - path: release/bin_src/chall.c
+    algorithm: sha256
+    value: b008cc6eee248936f2b7107d74d2fd80dd538732fe9ce53eb3f626e1fe8a72f1
+  - path: release/bzImage
+    algorithm: sha256
+    value: 4a4893978f4a250547bf3fede77ec4f33a5ff0e1e67cba4488584d87e9d894fb
+  - path: release/docker-compose.yml
+    algorithm: sha256
+    value: c452bb1f68206dfb1f8cbd00edf7d569fec25359173a7d573a8f12e40f7658ec
+  - path: release/flag
+    algorithm: sha256
+    value: b9633b26d486c6280cdae212bc3d0911c53a52a6fcb37b8c7dd1d7b10ae70729
+  - path: release/initramfs.cpio.gz
+    algorithm: sha256
+    value: 38132554deae0420fb6649f6b7e7894e27a9b83193eca82b76986853f75db5b9
+  - path: release/kern_src/patch.diff
+    algorithm: sha256
+    value: 2f8a1fcf974f9ada6d75011813dcf4c02febff13b0a352bc817c858adc982fb4
+  - path: release/run.sh
+    algorithm: sha256
+    value: 3ffe131d882f46989b0710607da649b8ae3f9948f6c4757201bb7cd8ba863d73
+  - path: src/bin_src/.gdb_history
+    algorithm: sha256
+    value: 9afdcb3af6f3218ef7ebedf4d1164473c4bb8e6784e13965d71281d02895bed0
+  - path: src/bin_src/chall
+    algorithm: sha256
+    value: 1b1620f45acc330f7a4317450b45e129207327681c0693bf5593f77d4a2cfd9f
+  - path: src/bin_src/chall.c
+    algorithm: sha256
+    value: b008cc6eee248936f2b7107d74d2fd80dd538732fe9ce53eb3f626e1fe8a72f1
+  - path: src/bin_src/flag
+    algorithm: sha256
+    value: 9cb0482b50b6f07316d3bc2e87fe18c9dbe06cafea7bfb4722fafb9b948cc877
+  - path: src/kern_src/bzImage
+    algorithm: sha256
+    value: 4a4893978f4a250547bf3fede77ec4f33a5ff0e1e67cba4488584d87e9d894fb
+  - path: src/kern_src/compress.sh
+    algorithm: sha256
+    value: ed4c3da952c53fe909913d8b3ee68f0be0b9f24b8f929fb67f5e5ccf4c965115
+  - path: src/kern_src/decompress.sh
+    algorithm: sha256
+    value: 92dade218a0df568f84e3d0361786ac685f95a4089d351ff6aa9cae78d64a3ca
+  - path: src/kern_src/flag
+    algorithm: sha256
+    value: 9cb0482b50b6f07316d3bc2e87fe18c9dbe06cafea7bfb4722fafb9b948cc877
+  - path: src/kern_src/initramfs.cpio.gz
+    algorithm: sha256
+    value: 38132554deae0420fb6649f6b7e7894e27a9b83193eca82b76986853f75db5b9
+  - path: src/kern_src/patch.diff
+    algorithm: sha256
+    value: 2f8a1fcf974f9ada6d75011813dcf4c02febff13b0a352bc817c858adc982fb4
+  - path: src/kern_src/run.sh
+    algorithm: sha256
+    value: 505d8fbacc9215ee0317e4c5c34b52f8ac6d7630c64597a3449733c007f4c6f4
+  - path: writeup/.gdb_history
+    algorithm: sha256
+    value: 79f49b41fbf164bd058ff50387119b9a4fd0786abc5e7a9e9993767750470b66
+  - path: writeup/bin_gadgets.txt
+    algorithm: sha256
+    value: 6bbad5986dd5a8d8aae5331a87007919d911283ebeb07a904363513881d0891a
+  - path: writeup/chall
+    algorithm: sha256
+    value: 1b1620f45acc330f7a4317450b45e129207327681c0693bf5593f77d4a2cfd9f
+  - path: writeup/chall_patched
+    algorithm: sha256
+    value: b173ef9e36d3b0227d1743acddfbc6c6c1d35fb86bae173eb6354c1c1be3d07c
+  - path: writeup/flag
+    algorithm: sha256
+    value: 9cb0482b50b6f07316d3bc2e87fe18c9dbe06cafea7bfb4722fafb9b948cc877
+  - path: writeup/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 6222a16be7f2d458d6870efe6e715fc0c8d45766fb79cf7dcc3125538d703e28
+  - path: writeup/libc.so.6
+    algorithm: sha256
+    value: c9c0341f9282bfaa1250e05ca8d5553e6ff6590cb1e1d1b195d40a407a150b3c
+  - path: writeup/libc_gadgets.txt
+    algorithm: sha256
+    value: afd2feaac63a44f955f1100c77e602d2d16ed2ee17c6883ff4386a1d031f3604
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-csirt-team-qualification-rev-001
+name: Dior
+slug: 001-dior
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: csirt-team
+round_id: qualification
+category: rev
+original_category: Reverse
+description: https://dlang.org/download.html
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/csirt/Reverse/dior
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4e2487fc9aa7ea1e05e9272b96d33f1ac24d076cea0a1dcc8b3353e37d4556c1
+  - path: challenge.yml
+    algorithm: sha256
+    value: cf960d3fe406a052cf54cb654f00cc541e82895eb6beaf1271e7d69f40a888f4
+  - path: release/dior
+    algorithm: sha256
+    value: 3eb3ead1542f97e0c0f471b010d397e4c21a76448aaeaeb90b0dd932ad17c590
+  - path: release/flag.txt.dior
+    algorithm: sha256
+    value: 8a0fd3f7cfbef2194b884564399b52c16f602a270239c25f2a0e0e0f0c636788
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

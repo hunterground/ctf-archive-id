@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-web-005
+name: Toko Masker 2
+slug: 005-toko-masker-2
+original_name: Toko Masker 2 [183 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Pemilik toko masker online dari soal sebelumnya telah menyadari bahwa aplikasinya dapat diakali sehingga banyak orang yang bisa memesan dan mendapatkan masker secara gratis. Bug yang dianggap sebagai penyebab kerugian toko tersebut kemudian diperbaiki.
+
+  Anda pun tetap ingin mencoba untuk mendapatkan masker secara gratis dari toko tersebut. Flag akan ditampilkan ketika Anda berhasil membeli 100 buah masker N99.
+
+  https://tokomasker2.web.cyber.jawara.systems/
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:183
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Web Exploitation/Toko Masker 2 [183 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 312478def8113374ca175d53bdddd571d2444624b5583e160f9fadd2df1965c3
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Toko Masker 2 [183 pts].

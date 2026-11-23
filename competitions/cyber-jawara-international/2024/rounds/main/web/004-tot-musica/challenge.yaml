@@ -1,0 +1,280 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-web-004
+name: Tot Musica
+slug: 004-tot-musica
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: Someone just recently making a new website, find the full name of the author.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nyxmare
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/web/tot-musica
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 655957e887ff33b57af511322a38850a1be52ae34d8f77a25ccd250eb8adaf08
+  - path: deploy/.env
+    algorithm: sha256
+    value: 581a6a2feb7a3b04be61c357f3fe804c6d5642d4345c6be74869568712ddb960
+  - path: deploy/bot/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: deploy/bot/Dockerfile
+    algorithm: sha256
+    value: d9024a0ae975fe2d36c9952a67e5012fb5c1572245fcf40bba413537787a475f
+  - path: deploy/bot/app.js
+    algorithm: sha256
+    value: dc4de353c41da665038ba9902d68ca5d4d2ff1559cb2fc779bf7b1b70b0194e1
+  - path: deploy/bot/package-lock.json
+    algorithm: sha256
+    value: a39d84625adfdb6b58664b27e2060120af7aa5ab113c10bade783c77c8c30857
+  - path: deploy/bot/package.json
+    algorithm: sha256
+    value: d1fddb9f3e65ffb504be81a6cfd6437b184eee02416daebdb5ae5a5f31b761b2
+  - path: deploy/database/Dockerfile
+    algorithm: sha256
+    value: aa418485ab652d19445aa78a8641ddc068e90218c452a101d0ae92a96c26f8cf
+  - path: deploy/database/init.sh
+    algorithm: sha256
+    value: 61b0bd57fd7e980c9bacf7ba13b9063ec01c999f81a619d92a1cb948ee24ac95
+  - path: deploy/database/init.sql
+    algorithm: sha256
+    value: 9c0c835fddefea4ace65a08394a0774b1fcb97b25ff97b2c0c83c6a8116f5de8
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 432e1fffda75da6953005988607ab070b0e5592c6cf5d317b39da77a3a8a971d
+  - path: deploy/nginx/nginx.conf
+    algorithm: sha256
+    value: 567081bf497fdbc5b7d99904730936ec6d78e82912e98af54c3f5dfaca088f3e
+  - path: deploy/php/.gitignore
+    algorithm: sha256
+    value: fda44c5fafdee37828509ac7db83ec1027eaf2643ea38139e866a11a6a2ab0e8
+  - path: deploy/php/Dockerfile
+    algorithm: sha256
+    value: 7b731abc81353abf7bc2d4df1dee20f40963764f758735637f5721bae15e07c4
+  - path: deploy/php/app/dependencies.php
+    algorithm: sha256
+    value: b0de387f6a914b2d44960a2d159d66dcb944033a458aaee51af41f4242a40004
+  - path: deploy/php/app/middleware.php
+    algorithm: sha256
+    value: 646ac55be59a5dbce3ff4f2bc1028cfffd3577920617402a98f1dfe45d582cbe
+  - path: deploy/php/app/repositories.php
+    algorithm: sha256
+    value: 67ab36afdcab37150e6849818a5e3008c05a71da55ca726ea73b512c2ea61a44
+  - path: deploy/php/app/routes.php
+    algorithm: sha256
+    value: 26456d6695babf6c0dcb1864bacfea97bae102cd5ca72603eda4f520ed4bb3d7
+  - path: deploy/php/app/settings.php
+    algorithm: sha256
+    value: 81d8e2512f663d9bd95adbbe0f9851d795f9930faab68f913460c9aac14c112b
+  - path: deploy/php/composer.json
+    algorithm: sha256
+    value: 81d7b3e4cdc01edddb24f5e8ae7c4214acfcab689c7c006dab2720325edf3908
+  - path: deploy/php/logs/README.md
+    algorithm: sha256
+    value: 7bf1424817ff8808b850adab3e68dcbbf74d1b74a8b8c55c38e5ab6ab88a8337
+  - path: deploy/php/public/.htaccess
+    algorithm: sha256
+    value: a05fb99f9b54fa2a556272ec08340ba4121f3d32f494650eac09ae518722fc12
+  - path: deploy/php/public/index.php
+    algorithm: sha256
+    value: b014492a9e5e240d7d02caec504735945eebaf8ec14f88207389565b8ef4c85f
+  - path: deploy/php/public/static/css/404.css
+    algorithm: sha256
+    value: f0fe5086b9d331b3addbf9dbb69002cd104ceadbc3aa31358168af4a7205faa5
+  - path: deploy/php/public/static/css/font-awesome.css
+    algorithm: sha256
+    value: 36e0a7e08bee65774168528938072c536437669c1b7458ac77976ec788e4439c
+  - path: deploy/php/public/static/css/font-awesome.min.css
+    algorithm: sha256
+    value: 799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd
+  - path: deploy/php/public/static/css/login.css
+    algorithm: sha256
+    value: f63eb333d775de6eda63be49233933860871f9bb71fd8ec317278f1eb3248364
+  - path: deploy/php/public/static/css/songs.css
+    algorithm: sha256
+    value: 1ac79cb47263ebd7eb83a9b221087d8205eb790ea361a0260e3e1320b9f63951
+  - path: deploy/php/public/static/fonts/FontAwesome.otf
+    algorithm: sha256
+    value: 444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5
+  - path: deploy/php/public/static/fonts/fontawesome-webfont.eot
+    algorithm: sha256
+    value: 7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979
+  - path: deploy/php/public/static/fonts/fontawesome-webfont.svg
+    algorithm: sha256
+    value: ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4
+  - path: deploy/php/public/static/fonts/fontawesome-webfont.ttf
+    algorithm: sha256
+    value: aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8
+  - path: deploy/php/public/static/fonts/fontawesome-webfont.woff
+    algorithm: sha256
+    value: ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07
+  - path: deploy/php/public/static/fonts/fontawesome-webfont.woff2
+    algorithm: sha256
+    value: 2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe
+  - path: deploy/php/public/static/images/ado-login.jpeg
+    algorithm: sha256
+    value: c9ea98a5e8a76e63dfde2516ff54086a17b4a5917dec86d94f72a6ff62a99c22
+  - path: deploy/php/public/static/images/dribbble_1.gif
+    algorithm: sha256
+    value: 354f63f88b57aceea4536df0c0cff0c3592aa46fe887ff910751fefc12f3e76c
+  - path: deploy/php/public/static/images/uta.jpeg
+    algorithm: sha256
+    value: a9fa5204ecba618d7317ad4624204aabc24138d67b9921d1656a7d7b847f324e
+  - path: deploy/php/public/static/images/uta2.jpeg
+    algorithm: sha256
+    value: ea3a843c45453850c9e6eb47b744ecff247df3ac3efcefce54440cefca73d027
+  - path: deploy/php/public/static/js/jquery-3.7.1.min.js
+    algorithm: sha256
+    value: fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a
+  - path: deploy/php/src/Application/Actions/Action.php
+    algorithm: sha256
+    value: e1b74bca5692dee16285ea61a9ea79b216e8c0193ed0f15f1e77981eab1128fa
+  - path: deploy/php/src/Application/Actions/ActionError.php
+    algorithm: sha256
+    value: 1cbf472c9760973d2e6d1f26b6a474e7ee4af83b6752749044b222eb85b6f7f2
+  - path: deploy/php/src/Application/Actions/ActionPayload.php
+    algorithm: sha256
+    value: c7cef06c8f97bdabc6693d2c8b26227eaabd8bfbde196146fc1504593ab50a39
+  - path: deploy/php/src/Application/Actions/Auth/ForgotPassword.php
+    algorithm: sha256
+    value: 48ad65746d2567d5e0686ec2f71ee39cbd4713dddd8463ad4a9d270406da2660
+  - path: deploy/php/src/Application/Actions/Auth/Login.php
+    algorithm: sha256
+    value: d6fa721a0164de42c473ce291417c60343b95b75415d8f865fc750422848177d
+  - path: deploy/php/src/Application/Actions/Auth/Register.php
+    algorithm: sha256
+    value: 19642286c401e581d6fe5bfa2067a09f641ac653e323e0f94618eadc73c29f07
+  - path: deploy/php/src/Application/Actions/Song/NewSong.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: deploy/php/src/Application/Actions/Song/SearchSong.php
+    algorithm: sha256
+    value: fbc5e70c1325f3f93ef7c7313ec3c7cc375643d9603848de9a0568ba8d4a5452
+  - path: deploy/php/src/Application/Actions/Song/Songs.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: deploy/php/src/Application/Handlers/HttpErrorHandler.php
+    algorithm: sha256
+    value: eb9207a0c639356f96d79e7dfe1de2d0172ab0967c8e5aabf612280296e6689a
+  - path: deploy/php/src/Application/Handlers/LoggedInHandler.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: deploy/php/src/Application/Handlers/ShutdownHandler.php
+    algorithm: sha256
+    value: 270465d39c6258a0d537de35dbc4c73caabf423e2a00056d15478a3a3443d534
+  - path: deploy/php/src/Application/Middleware/Authorization.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: deploy/php/src/Application/Middleware/SessionMiddleware.php
+    algorithm: sha256
+    value: 6ae695ee8a4bf698f75ba9bb2a731d44fdb0b17aa7a628ab50136336d7738862
+  - path: deploy/php/src/Application/ResponseEmitter/ResponseEmitter.php
+    algorithm: sha256
+    value: 85795ee8feaa6de193d465b4aaf15c36ef6587ccf21c65cfdfecfed6d91c9440
+  - path: deploy/php/src/Application/Settings/Settings.php
+    algorithm: sha256
+    value: bc34a77859479521c7358dc4b72889b7cf39ea4e7fc0de95257cc77c4f97d9dd
+  - path: deploy/php/src/Application/Settings/SettingsInterface.php
+    algorithm: sha256
+    value: 876e05b1f14f6f0745eed77ff5d8bf241ac2c8e28d4c0379b53fe39581455e42
+  - path: deploy/php/src/Domain/DomainException/DomainException.php
+    algorithm: sha256
+    value: 5043a59e22c22e94826ec988a81d4603c9a3ff23612ff9f67134de3dabbdf3c6
+  - path: deploy/php/src/Domain/DomainException/DomainRecordNotFoundException.php
+    algorithm: sha256
+    value: 2c5cb88cf4374bf6c965c61be7aac9bf79224081bd701374873d42756383bb8b
+  - path: deploy/php/src/Domain/User/User.php
+    algorithm: sha256
+    value: 6b8d62ac345fdb9f0efd5b43c6385ad7b15409a5d527205381a398fc58be6468
+  - path: deploy/php/src/Domain/User/UserNotFoundException.php
+    algorithm: sha256
+    value: 894dcc5c2acb181a2444dab1173612bfe7ed9e691b5ecb4032172e33c6e552b5
+  - path: deploy/php/src/Domain/User/UserRepository.php
+    algorithm: sha256
+    value: 7eb835837408aa3246f9b9215525355822c0ccc67dce0a60b3f765a142c98af5
+  - path: deploy/php/src/Frameworks/Renderer.php
+    algorithm: sha256
+    value: 74e1246345c0a0c6d1dc85822c88cad49927678f62cbaab30a2da8787553d03e
+  - path: deploy/php/src/Frameworks/SearchFilter.php
+    algorithm: sha256
+    value: 5d6c33b18bf7b9a3c4d810cb8d72de7512b763844ca9009e8d1161f4ba49c957
+  - path: deploy/php/src/Frameworks/StateManager.php
+    algorithm: sha256
+    value: 0b7e08c7b3486018339f0740beb4f3330f2f58fb19822ff407f32979785f4918
+  - path: deploy/php/src/Infrastructure/Persistence/User/InMemoryUserRepository.php
+    algorithm: sha256
+    value: e3c519ad28faae7b3c17ff88f32424f4eb27c113facc62894457f34f35513dde
+  - path: deploy/php/src/Models/Song.php
+    algorithm: sha256
+    value: 65ea9792f4189df49bf267bf951c6a196f061abdf3fa0b47a42db6bcb8dff6b3
+  - path: deploy/php/src/Models/User.php
+    algorithm: sha256
+    value: 838484d929bbffac764bed8207d44a60fbcf0899e1798d3723836d5e90e52de5
+  - path: deploy/php/templates/auth/forgot-password.html
+    algorithm: sha256
+    value: 063daba68fc02de8ebc3c2d670da4eb52b4f4738764deb1c028a578f1288e9b9
+  - path: deploy/php/templates/auth/login.html
+    algorithm: sha256
+    value: 5603521ff7d8a2546713c43ccac88049d392fecaa6fff66647da84de17918919
+  - path: deploy/php/templates/auth/register.html
+    algorithm: sha256
+    value: d46b6db63f0766c4287d29186a13b5a22ef9929899710190e080e9a513b60c49
+  - path: deploy/php/templates/index.html
+    algorithm: sha256
+    value: 86161209baac66f4f24af30d7cd56803b32930531bb43b15f922f9850954e6ee
+  - path: deploy/php/templates/songs/index.html
+    algorithm: sha256
+    value: d4d6f217adf3a9da31b8bb3ea8389b856cd531ff63b141b783400623ab88fa14
+  - path: deploy/php/templates/songs/search-empty.html
+    algorithm: sha256
+    value: 1d2b3f185cf81b80f510ddf11a07793c7883b57b670ad987b3ee358a03aa1061
+  - path: deploy/php/templates/songs/search.html
+    algorithm: sha256
+    value: 317b4e1a953bcb66aedf4960914bd0dbdadef2876e9cd1f17ae1ec15185575f9
+  - path: deploy/php/var/cache/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: deploy/prepare.sh
+    algorithm: sha256
+    value: 9771b6ea3f9e910c7b150758d02a796f61989b278b48817da0664ee593cf0982
+  - path: release/tot_musica.zip
+    algorithm: sha256
+    value: 19cdfb49939545fafb9e2f5d1d15a060864eaf7a24f82b4423677af5eb995f67
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

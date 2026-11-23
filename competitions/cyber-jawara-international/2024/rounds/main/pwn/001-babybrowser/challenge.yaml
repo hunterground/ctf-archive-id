@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-pwn-001
+name: babybrowser
+slug: 001-babybrowser
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: pwn
+description: Pls dont 0 day :(, don't bully me :(
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Linz
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/pwn/babybrowser
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fc3eab6a8ab3859d578e15786a27bed79826664457a12342686a302b41cbfd9a
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 78fc220d3d094c8fd282e74826d6e310d29f322713a413d94864fd8410dd2eea
+  - path: deploy/chall.patch
+    algorithm: sha256
+    value: f007f2e12fb4d07f7472dcbd1d2c9ffe419aa1cf76eceb336aca63ece3d49a72
+  - path: deploy/commit
+    algorithm: sha256
+    value: 93f3e024b00464406b61d0fd5923bbf68cd71b9f2bf95da41727578bfa07f31c
+  - path: deploy/d8.tar.xz
+    algorithm: sha256
+    value: b7a6484e0079e00d89b91af21c438568ce9ad73ef67f6c92591fa285ffc6f2ff
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 0e212e3e1fa7d727c29dac016320967d69307aa351323f52667ae9444126f181
+  - path: deploy/flag
+    algorithm: sha256
+    value: bab43ad66b356f4bb1cbea4394d8b833036f4b36bdca9d8c7b9c35d24d1775c2
+  - path: deploy/flag_reader
+    algorithm: sha256
+    value: 4f1b13f4ce519918e84a8521e2e905aded096230be848875e36faa516794c1f9
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: f1d9d850d2c94bcc3e245bee50bfae3e603f74e570e2a2a9bb243270ab9c0a61
+  - path: deploy/runner.py
+    algorithm: sha256
+    value: fbe2225362b326909846a240064e51ce7332a8c42ac032b988190ac0c7be9ff4
+  - path: deploy/snapshot_blob.bin
+    algorithm: sha256
+    value: e51ce91ed4cb12092feef5143982742f7e7137c75bb0c4b25ea401025f44739a
+  - path: release/babybrowser.tar.xz
+    algorithm: sha256
+    value: 6ed89c700ad33df47201d1722bf4c99eef191640954c995b1fe6b95328f12f9f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

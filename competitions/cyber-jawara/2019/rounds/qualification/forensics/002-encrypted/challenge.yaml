@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-forensics-002
+name: encrypted
+slug: 002-encrypted
+original_name: Cyber Jawara 2019 Qualification - encrypted
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: IDS kami mendeteksi adanya reverse shell pada mesin Windows kami. Namun, kami tidak dapat
+  mengetahui apa yang sebenarnya attacker lakukan. Di saat yang sama, sepertinya attacker mengakses sesuatu
+  melalui komunikasi yang terenkripsi. Dapatkah Anda menganalisis apa yang attacker lakukan?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/forensic/Cyber Jawara 2019 Qualification - encrypted
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b111bdd7cfe22f66cc7958d87a4b94db67412483b9edfb4557c9a20592dad370
+  - path: encrypted.pcapng
+    algorithm: sha256
+    value: 85d54ae9d8b3582dc4d1f9f17f3febaef5ddf2c0da7a1a7b6987939fb33e3b2d
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

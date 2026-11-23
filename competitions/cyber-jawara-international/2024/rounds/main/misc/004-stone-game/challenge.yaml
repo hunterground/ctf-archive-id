@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-misc-004
+name: Stone Game
+slug: 004-stone-game
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: Welcome to the Stone Game. Take turns with the computer to pick stones from any set. Remove
+  as many as you want, but the one who takes the last stone wins. Plan your moves carefully and try to
+  outsmart the computer.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: farisv
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/misc/stone-game
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 871a813c7cd5507434f9ed0780a2399c5e357683afca54d840bafbea904bbfae
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 8069acd745d5f4eebea12518a8f04f56fb5dbd2b040cce27b1f1918a9a110fe7
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 4e921effce31363f9bd959014697b5438f40b307020abce4a3ef20aa352b9b7a
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 540c6ecc630bfc549899d0b4394498a9a737130373adf42ca13807a1ce40f235
+  - path: deploy/stone
+    algorithm: sha256
+    value: 644f6b95686508eed9698661681cd861e0e889d3e3ddff4cb2e1d265cb28dd67
+  - path: src/stone.c
+    algorithm: sha256
+    value: 8b70cf5df16f8e167aa7a604adf7ff5365b16fa582d1e651fff6459e1ac3041d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

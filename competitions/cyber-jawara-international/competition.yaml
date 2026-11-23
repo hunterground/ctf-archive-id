@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: cyber-jawara-international
+name: The Cyber Jawara International
+country: ID
+organizer:
+  name: CSIRT.ID
+  website: https://csirt.id/
+website: null
+description: International segment of Cyber Jawara introduced in 2024, with the SKSD CTF team appointed
+  as the problem setter.
+metadata:
+  established_year: 2024
+  recurring: null
+  formats:
+  - jeopardy
+status: unknown
+verification: corroborated
+references:
+- title: CTFtime / The Cyber Jawara International 2024
+  url: https://ctftime.org/event/2552/
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: The-Cyber-Jawara-International-2024-CTF
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+notes: Recorded as a separate competition at the archive maintainer's direction on 2026-11-22. The organizer
+  repository README says the international segment was introduced in 2024 and that CSIRT.ID organizes
+  Cyber Jawara; CTFtime lists SKSD as the organizer of record for the 2024 event. Only the 2024 edition
+  is established. Do not infer later editions from the Cyber Jawara series.

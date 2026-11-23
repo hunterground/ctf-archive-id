@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-web-003
+name: Unknown
+slug: 003-unknown
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: web
+original_category: Web
+description: idk?
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Web/unknown
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 524221db2c88e302de9e6a7ef3f8d43ecb93f5583ffab56f94ab9dfdacf5bad8
+  - path: challenge.yml
+    algorithm: sha256
+    value: 40493fe9f52686cba940a34ce1dbb7d7b3c2995dfce3b8adb29ae3725adf0ed6
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: b7dff775cca4ad42e8d75b900e807e798a380122f643f8fcda55c6ca02e7c4dc
+  - path: challenge/app/.dockerignore
+    algorithm: sha256
+    value: 92614d525a57c7f045dfe57512ec15984c528cc510d286c4f9ba3f194f764695
+  - path: challenge/app/.gitignore
+    algorithm: sha256
+    value: 92614d525a57c7f045dfe57512ec15984c528cc510d286c4f9ba3f194f764695
+  - path: challenge/app/README.md
+    algorithm: sha256
+    value: 3946e429aaa879d1c7083b53f9934e1422aeca2ebccd43c7d54f425ea45e5422
+  - path: challenge/app/package.json
+    algorithm: sha256
+    value: 8bb4b41ebe7b706447997ee2364faaaf2084154b068605f863753f5b6afc4283
+  - path: challenge/app/scripts/id
+    algorithm: sha256
+    value: 984a644ec3b56d32b0404777e1eb73390c4b0742a6a0e183f07861056b6746de
+  - path: challenge/app/scripts/pwd
+    algorithm: sha256
+    value: b1119ecaf54feb68aa5ca8387277e0a929c71cd99fc70f1985b1de1b3b8724b6
+  - path: challenge/app/src/index.ts
+    algorithm: sha256
+    value: f2647ba498859fa2e2642a45a0d9a9ec40b8012fdd6476422d20f6d1088cf09b
+  - path: challenge/app/tsconfig.json
+    algorithm: sha256
+    value: 1580da21cd2aa99138e5036f78fdf7bd1d3c5085f53979d37e0506fe9b5fca10
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 208daa888e7fba02037c0a444d9408d8831653e5c894f0e7bda6a48072ee8d48
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: 03b5005b30b3cb5b59dc1fab2c9c19d5846f2d0c09f4735a8021e72768cb4f32
+  - path: challenge/readflag.c
+    algorithm: sha256
+    value: 2183f46fe127fab4ed2f3b8e3da5b5da4e25f4e890fd6ff4b181b994ba7c35e6
+  - path: release/.gitignore
+    algorithm: sha256
+    value: 63853d6cbeeeccaf39f8710675db4fa4be8d16315537aa8e3dcb2d59b522d070
+  - path: writeup/api.py
+    algorithm: sha256
+    value: 50cbda859f3ce12f5e118cb7ab1eb9d9c63ee7864ab7e7700d43741881849f9a
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The organizer names this challenge 'unknown' and describes it only as 'idk?'; the archive keeps
+  the source name.
+environment:
+  type: docker
+  services: []
+  requirements: []

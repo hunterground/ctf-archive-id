@@ -1,0 +1,122 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-web-002
+name: Java Box
+slug: 002-javabox
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: I used to hate black box web challenges in CTFs, but then I remembered, my day job as a pentester
+  also requires black box testing. Sometimes, what seems like a black box isn’t so black after all.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: farisv
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/web/javabox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5567bae3b98ffe81f71736f95bf8f22b390cf93cbf124619cb4128671a2f1169
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: fdba822ba1678cca08509e6fc4f27d55054e92cf3b958e87ea9c2a7ae064ec4b
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 8c4c06080025c21b729ca7a8a56ef996c15d2923ea790b1d7392a8b82c104265
+  - path: src/.gitignore
+    algorithm: sha256
+    value: 36c43236a738a3e005adb510fe6cdf3e8559148e12b4833f4c9ec34966337684
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: af0af8c64f6897b639fbc6ed60d87e3cde6c2c31f8afa8970ceede06b0e3427f
+  - path: src/build.gradle
+    algorithm: sha256
+    value: 58e9b1b38f0edcf9b69ef12576f689343c4be7f1cf8d0e87a45f45dcb8cfc489
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: dd3d4936a2c43550553354157bec4a43f77d25ebbb1cedecded1f0ae1cc90a45
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 69446fefd136f11754aa9ec107ac6e69240df3397cae2d6bf8c829aa6031b1af
+  - path: src/gradle.lockfile
+    algorithm: sha256
+    value: 97b964dc0c35dd5edcf9d535f0c1f1a9cef06537e3fcc122226338aac40d09f6
+  - path: src/gradle/wrapper/gradle-wrapper.jar
+    algorithm: sha256
+    value: cb0da6751c2b753a16ac168bb354870ebb1e162e9083f116729cec9c781156b8
+  - path: src/gradle/wrapper/gradle-wrapper.properties
+    algorithm: sha256
+    value: 712d9bc912d4b0d42b0faf8c6afeed13ae31ced75ca28463b1dfc4ced1a4bc9a
+  - path: src/gradlew
+    algorithm: sha256
+    value: fc977a94723af68aaffa4e5d60496fb4aeed1884b6b19e5e2f2fd7612673313d
+  - path: src/gradlew.bat
+    algorithm: sha256
+    value: bdecf875b6868cbcbd36a1f85eedf0832f358ff28092c5797ed645f7edce77d9
+  - path: src/settings.gradle
+    algorithm: sha256
+    value: 382086888a6009679ab35ef694df4713ce7149d34dc1bc5603dafdf90b93e87a
+  - path: src/src/main/java/com/cyberjawara/chall/web/javabox/JavaBoxApplication.java
+    algorithm: sha256
+    value: 97a332676bcbc2ffd2016dada561ffc57d220bb0dc2a91be70cbc125dbcc8b01
+  - path: src/src/main/java/com/cyberjawara/chall/web/javabox/controller/MainController.java
+    algorithm: sha256
+    value: f546a6f7c93ca398608b6fd461a018efd2fe458bb2887eede770feae9219b03b
+  - path: src/src/main/java/com/cyberjawara/chall/web/javabox/exception/ControllerAdvisor.java
+    algorithm: sha256
+    value: d78dec9cfdb8cea96aa472474c15160b9e085744e5f1837e3fd120617712532c
+  - path: src/src/main/java/com/cyberjawara/chall/web/javabox/util/JwtUtil.java
+    algorithm: sha256
+    value: 7568de763766eccc69e0691d045332b1054f6f772d79d4dc0b5965ef5cd5f585
+  - path: src/src/main/resources/application.properties
+    algorithm: sha256
+    value: 2695ce04bc4cf8f22a6f7b4691dcb729bdca15603de575c18cba26cd1cd1453d
+  - path: src/src/main/resources/assets/box.jpg
+    algorithm: sha256
+    value: f9489df955cd5a7a7d5242f3e1d3a9d87307f8185df8f50df916bc1db830a4cc
+  - path: src/src/main/resources/assets/style.css
+    algorithm: sha256
+    value: 79f581f729c12b4e3a032e8195a71ffe02b450bb9897ace7ca2dc78d5c953fab
+  - path: src/src/main/resources/templates/dashboard.html
+    algorithm: sha256
+    value: 23879f73222af3902b6b905db542c28149efc8e106b713361658ecd733f9d208
+  - path: src/src/main/resources/templates/index.html
+    algorithm: sha256
+    value: e5b4d00c174f7a20d5e87c4636ce2aa92c487683189e61aaeefc85c2581de75b
+  - path: src/src/main/resources/templates/register.html
+    algorithm: sha256
+    value: a6bb172b2358f8a9b7ccc0fb0b5455bda6c74816b864581e72bfec5c89c2f674
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-rev-004
+name: Python is Hard
+slug: 004-python-is-hard
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ryuk
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/rev/python_is_hard
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d0a5c911ff46c7626be94e9a58b4472aaa85502bb41d7ac349c6aff02d0537f6
+  - path: release/rev-pythonhard.zip
+    algorithm: sha256
+    value: dc3b5aafc173481103e0c710b582e473de41c110159909560b80504b774fc294
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-blockchain-002
+name: Nusantara Fortune Pool
+slug: 002-nusantara-fortune-pool
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: blockchain
+description: |-
+  In the heart of Indonesia's lush Nusantara, a mystical pool known as "Nusantara's Fortune Pool" is said to hold the power to multiply wealth. According to local legend, those who flip a coin into its shimmering waters with a pure heart will be blessed with prosperity beyond their wildest dreams.
+
+  As tales of the pool's magic spread, adventurers and fortune-seekers from around the world journey to Nusantara, eager to test their luck and uncover the secrets of the enchanted waters. Some return with stories of newfound riches, while others speak of mysterious forces at play beneath the surface.
+
+  But beware, for the pool's magic is not without its challenges. Only those with the keenest insight and the sharpest wit can truly harness its potential. Will you be the one to unlock the mysteries of Nusantara's Fortune Pool and claim its legendary bounty?
+  The journey awaits, and the magic of Nusantara calls to those brave enough to seek it.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/blockchain/nusantara-fortune-pool
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d528bcafc19566b075f11a995ec3fad7128fa033d053e170d6c5d0838370ab31
+  - path: deploy/.env
+    algorithm: sha256
+    value: b919765c4063a6309396e76cb078e265b914909a27b64e9af085292efc7e2e4b
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: ff5bd15d77f08bbfb6389dd162a6f300fe994acb8a3c781463c50ce6dd49dd9b
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 908cb000cee44d6b9e69760ff22da287655a7af32740b9a6c871c3e7e8d88b09
+  - path: deploy/contracts/NusantaraFortuneOperator.sol
+    algorithm: sha256
+    value: 118aaff2e714d7bca56401c1aaa46bab4b6071830419f448a94016cf33a09370
+  - path: deploy/contracts/NusantaraFortunePool.sol
+    algorithm: sha256
+    value: 12f85a5cc3a735a9f0c8c909b953e9aae09255f114e31150be2af82d49bf2611
+  - path: deploy/contracts/Ownable.sol
+    algorithm: sha256
+    value: 1864d6a33a43cbbf9895b1d148b17a98b5ba5182716f7bd5ed4b08385d21ce13
+  - path: deploy/contracts/Setup.sol
+    algorithm: sha256
+    value: ce5e929683abcd2825b593d03ce50d6b589c57a265855cb767b75cca75256e41
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: a90b84ff847052c086ad3dfa0ad46b2ef7b77f953d6104b90209f3593dc5a192
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

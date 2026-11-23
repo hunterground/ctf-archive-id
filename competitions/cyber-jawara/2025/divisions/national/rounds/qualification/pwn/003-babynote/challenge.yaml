@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-pwn-003
+name: BabyNote
+slug: 003-babynote
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  ```
+  Welcome to BabyNote! Your notes, our responsibility ;)
+
+  nc localhost 13373
+  ```
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: linz
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Pwn/babynote
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3663d2586dea800e2b6ec8f4806fe65cae90bdcb91b4582b863da23a9f4c68b4
+  - path: challenge.yml
+    algorithm: sha256
+    value: c6016b563b2feca644795babed4d9f38076c0d943e9d1b23cab35af16341e72b
+  - path: dist/babynote
+    algorithm: sha256
+    value: 9c2d33a26e65eec4dd131fd0b243e84a336bb7e65a13a8a861852aec295ecd05
+  - path: src/.gdb_history
+    algorithm: sha256
+    value: f7e328cbd1a5f0cc5e1010e12211ed8366c9b60aa9d4a3bde37e384a75213b97
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a8655872bd64011e8ee3faed0516c00f49aed5d808816aace7cea23f81f6c339
+  - path: src/babynote
+    algorithm: sha256
+    value: 9c2d33a26e65eec4dd131fd0b243e84a336bb7e65a13a8a861852aec295ecd05
+  - path: src/babynote.c
+    algorithm: sha256
+    value: ea5971ff3a2e7d0af79e7e77e20500edbd414c3e7a22e88d8716467b1e9ea6f8
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0d9a374033311eaa255f1fc06afd2d656dbdc02e23278268e3a804285e872e14
+  - path: src/flag
+    algorithm: sha256
+    value: 6698837e7ed19ef55496f5cd9b27506a4b2d4772fec6fda7ced02a9f462bb6ad
+  - path: src/run.sh
+    algorithm: sha256
+    value: 70fc3d941638a76930c50db2f148e8caccb89457d12e1faa1969922b357b07e4
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

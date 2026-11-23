@@ -1,0 +1,115 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-web-002
+name: not-so-nice-html-viewer
+slug: 002-not-so-nice-html-viewer
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nyxmare
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Web/not-so-nice-html-viewer
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 37fc1807fa94e571d0ff4b6de12d9d00aca643e02bb8831a3c2c4e9118060219
+  - path: challenge/.gitignore
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: challenge/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: challenge/README.md
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: challenge/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: challenge/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: challenge/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: challenge/bot/Dockerfile
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: challenge/bot/bot.js
+    algorithm: sha256
+    value: d965ca0401bfc82ff4e32bfebdfd91d24c67b50e4786a22d84bf88b61e0a3bb4
+  - path: challenge/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: challenge/bot/package.json
+    algorithm: sha256
+    value: e66cf7ece1715058e7838829d9beba0cf357609631987e95d2260c83f2ad8d38
+  - path: challenge/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge/docker-compose.yaml
+    algorithm: sha256
+    value: b8816b16b9729368f75597d7c5161e3af37f9e9777195081fe131fe944ee1ba6
+  - path: challenge/proxy.conf
+    algorithm: sha256
+    value: df0e51a4f9eb197da925a2a3ffab4e81fd2bc1c42e8bebc1bdc04cd591815881
+  - path: challenge/src/index.html
+    algorithm: sha256
+    value: e4bd279e78b749bd52d90e6c1e8774dbb1068bf1366c510462c17c87025de50c
+  - path: challenge/src/main.js
+    algorithm: sha256
+    value: a84533a83609080c7b1760b10d8ea8a57cb5fc60c4f8ef8f6d7b02cfe99429f5
+  - path: challenge/src/purify.min.js
+    algorithm: sha256
+    value: 9b494057fad6656fd9ce2089d0b6898df9632c10e45e4775a43073a46cffc8cb
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: a6d155b7ee1727e5a964a5f0943e3696900070db0b6711038a79fc13c12cabfa
+  - path: release/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: writeup/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/quals/umum/Web/not-so-nice-html-viewer/challenge/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

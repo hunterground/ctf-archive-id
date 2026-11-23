@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-forensics-003
+name: Unorthodox Part 1
+slug: 003-unorthodox-part-1
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  Our client has suffered a critical internal breach. All the details can be found in `CJ-UNORTHODOX-CASE-1.pdf` file. You need to answer all the tasks correctly in the remote connection.
+
+  `nc {IP} 5111`
+
+  There are 8 Questions for you to answer.
+
+  All of the necessary artifacts including the document can be downloaded from the following zip file:
+
+  https://drive.google.com/file/d/1rJk2hWxTV8jGLkAOdKPGAyBHPxNB67a2/view?usp=sharing
+
+  **NOTE: The malicious artifact doesn't encrypt/modify your files, don't worry. You can trust me ^-^**
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Forensics/Unorthodox Part 1
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1rJk2hWxTV8jGLkAOdKPGAyBHPxNB67a2/view?usp=sharing
+    reason: Linked from the challenge README and not present in the git tree. Not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: eda486f196c96130313f5f87e8ea0f66eaa13938c75fbc0d82c52c3426e7c116
+  - path: challenge.yml
+    algorithm: sha256
+    value: 187a0eb99419a0e6b6243485b5c66be73410a736ce7cb09fa74c3be21e78288d
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 97d0da85aaeb9d899ef3a02329e3ae4b9f679d2541848de99c8a986168176a70
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 8c66b022ceb0cd9ab7566db389b0b854b64b6376dbdbff14f1a0c3b6738f7be2
+  - path: challenge/main.py
+    algorithm: sha256
+    value: e298a58ff0e025aacd1319e2ec448f80a5cfdb2b9ab78d484a49b2adb5651d99
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

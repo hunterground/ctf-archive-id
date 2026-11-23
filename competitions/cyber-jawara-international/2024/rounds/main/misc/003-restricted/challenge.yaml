@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-misc-003
+name: Restricted
+slug: 003-restricted
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: misc
+original_category: misc
+description: Welcome to another classic PyJail. Given the level of restrictions in place, are you able
+  to escape this time?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: nagi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/misc/restricted
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 51e1567bd475450d758777a0619d93376f8400bddede77a94f6fccbd16dc851a
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: a39965609ee7df6112a40b54801ed9f591d7c030e63a9d5ecd525fba9a265212
+  - path: deploy/RestrictedPython/Eval.py
+    algorithm: sha256
+    value: a5aefdb5cf89b13ef17f3c20d1c78c931ca2a0812715b34773f3ec294864923f
+  - path: deploy/RestrictedPython/Guards.py
+    algorithm: sha256
+    value: d8e2f1b88f90cc459738e54b87c2dc42da321616d867f996c6a5f1f75487e465
+  - path: deploy/RestrictedPython/Limits.py
+    algorithm: sha256
+    value: 74e469ba5cb6d6f4a3cbc83335a73d2187c85cc31645516fa9488a288799dce3
+  - path: deploy/RestrictedPython/PrintCollector.py
+    algorithm: sha256
+    value: 6c10a99d43ceb8acf5c090ee4a087bc28d9aa0a7dc4c979e4fc3989ccf8af45f
+  - path: deploy/RestrictedPython/Utilities.py
+    algorithm: sha256
+    value: 529af9750d2a723aefccb67c9a827b60a3015b185d705de786ba07a102e45d63
+  - path: deploy/RestrictedPython/__init__.py
+    algorithm: sha256
+    value: a81feceb30f1b973c018ca0a60a04c73ec59d204e743466fb58e45c5d006dda3
+  - path: deploy/RestrictedPython/_compat.py
+    algorithm: sha256
+    value: 9da71d0098b813c18a86447df7f040c4c03402d2b61509efaea65b1bc846a1f7
+  - path: deploy/RestrictedPython/compile.py
+    algorithm: sha256
+    value: 221705ef7dedf9b90f72f7d0dbf37205e09b4883ed1d8c51f8640d3479da3073
+  - path: deploy/RestrictedPython/transformer.py
+    algorithm: sha256
+    value: b683c6a85bdcf563356e7876c8880d65cb33d324b0952c895d588249abbed7d2
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 3dc62e82bebb0f9584438ccae1b96f53e1d92a3406b26812a657689ddf033aa2
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 9b50ac3631182dd2be31d2379cfec7dfb04ba31e8cbc3a26dc9f93f87ee4ee88
+  - path: deploy/jail.py
+    algorithm: sha256
+    value: 5d5e92682584059c8089603d9936c7457f5ae31f1a05553b33749fe2b1f1005c
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: ac3a5a4002a266fcd523ad84cec0032f9e9147ddc357a0f70770cbf8d91a81fb
+  - path: release/jail.zip
+    algorithm: sha256
+    value: fa834dce761aabd6ef740f629d1615925edc9d8e6fd15977e1e2f116f3e6a626
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

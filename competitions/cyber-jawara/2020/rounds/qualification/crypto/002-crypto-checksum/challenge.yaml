@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-crypto-002
+name: Crypto Checksum
+slug: 002-crypto-checksum
+original_name: Crypto Checksum [697 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Salah satu cara untuk memeriksa integritas sebuah data adalah dengan mengecek checksum. Terkadang checksum juga digunakan untuk memeriksa apakah suatu input yang digunakan dalam proses dekripsi adalah valid atau tidak valid.
+
+  Layanan berikut akan memeriksa suatu ciphertext untuk menentukan apakah input tersebut valid atau tidak valid.
+
+  nc net.cyber.jawara.systems 3002
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:697
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Cryptography/Crypto Checksum [697 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d2ff2d61ac00c3b3e2e87ebffcd8e59a650db250238ebb7d7868f6f9c804376c
+  - path: crypto_checksum.py
+    algorithm: sha256
+    value: 4c647fd9a05188942acb9aa5caad33763870dddcd84b04637592db536496e71a
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Crypto Checksum [697 pts].

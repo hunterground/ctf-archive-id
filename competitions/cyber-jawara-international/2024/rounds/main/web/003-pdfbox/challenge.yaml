@@ -1,0 +1,856 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-web-003
+name: PDF Box
+slug: 003-pdfbox
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: |-
+  You’ve stumbled upon a website that generates personalized name cards, complete with your name and country flag. What can go wrong?
+
+  Note: It is recommended to solve the challenge on a local Docker environment before attempting it on the remote instance. If you manage to solve it locally but encounter issues on the remote version, please contact the author or organizer for assistance.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: farisv
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/web/pdfbox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 41535e4ec200cc2706dbcb54bc532698ff0007b8a73b0eeeb59bf4d806dd008c
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 641a1bcd9de8f2ff25f7d677792cf683fe8f74be7887311773da14cf65445073
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 90aa3a95e851376eeda0f818013e574715fd44c085ef1aa990fb383d2d3f3e6b
+  - path: release/release.sh
+    algorithm: sha256
+    value: 44c53539bc39ac3704d487c4285bb4e5ea1bb56719ed82ca16b8143d5680b8f5
+  - path: release/web-pdfbox.zip
+    algorithm: sha256
+    value: 668b034452625a688bcc24cb5c6b893dcad20c24bbec6920df6878e4ff994563
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 3d4b1c1054e3ea9be707e1dee950b8226cd2fa8f36e4f8f17d53b509cb11e5ad
+  - path: src/app/card.php
+    algorithm: sha256
+    value: 3198675adc4d4277e3b2db304b22c898817de16b01f56da9786416a57fab249b
+  - path: src/app/composer.json
+    algorithm: sha256
+    value: 9a22d519e94715d363f42699b46b4e84a4ddfc35a62597f7d7b887a5435f3c46
+  - path: src/app/composer.lock
+    algorithm: sha256
+    value: 7a9b0d317513c03b17af46cbbc39e4ca414458d40e1dd701d761917fa4c2d7ac
+  - path: src/app/index.php
+    algorithm: sha256
+    value: 540bbeb81bd98ee352404c729649f02e2afd6ea5a1bbd1051b859948c96f4e27
+  - path: src/app/repository/country/ad.png
+    algorithm: sha256
+    value: 145663969c02dc3030fd866bce08c4c69376518b5c611c7ea4b4144410bf090a
+  - path: src/app/repository/country/ae.png
+    algorithm: sha256
+    value: e83fb17cae744902e0c96ce8a1895e28d2d7d459329b6768572bf4f6a07fe8a8
+  - path: src/app/repository/country/af.png
+    algorithm: sha256
+    value: fbee2e6df12b9012b8706b0d6221c92789f39c41587830a2c96ebbb9b96257a0
+  - path: src/app/repository/country/ag.png
+    algorithm: sha256
+    value: 449e94e0aa9c2be086a83b06ba13bd447025d7fed573e21af1121f0af9bbe807
+  - path: src/app/repository/country/ai.png
+    algorithm: sha256
+    value: 7c6f72e2301e55ae0c0755364363fba3ac95dc121d1d0b654189429dcf871fb6
+  - path: src/app/repository/country/al.png
+    algorithm: sha256
+    value: 0444a40f580374172517b6a1646d6818aa0ac25c110c49f10eb0fbbdbceafd76
+  - path: src/app/repository/country/am.png
+    algorithm: sha256
+    value: d561191671a4e378595d7fdedf42a74a0041bf6cebdb579fc5c5a6e47bf5a9a1
+  - path: src/app/repository/country/ao.png
+    algorithm: sha256
+    value: a027dd21faeda1f8cc469cdf357f5ec02da8f8589c6431a4d29495642758b030
+  - path: src/app/repository/country/aq.png
+    algorithm: sha256
+    value: 3bdae542d89dd7e8729d5ae080ec70acf9e5d35b6d87d2937863640de23fca6d
+  - path: src/app/repository/country/ar.png
+    algorithm: sha256
+    value: 7e4b0b8044d152088b0595be2123a586a8de000e637f0febb4d8d29a574b19c5
+  - path: src/app/repository/country/as.png
+    algorithm: sha256
+    value: 8c8d9e16da350ea4af7fcbe5a7ae17b46b6f722f14f3dcbd770ed30d777aaf9f
+  - path: src/app/repository/country/at.png
+    algorithm: sha256
+    value: 0a985c8a3ecaa2a889a253b34550f4be09818edc2bce123f1a64c5732d07d481
+  - path: src/app/repository/country/au.png
+    algorithm: sha256
+    value: b93fd80474a2af8dd49706818a0b8b757d8145f29b975f314b9826931407da17
+  - path: src/app/repository/country/aw.png
+    algorithm: sha256
+    value: 3169bad64332a14b3b52906e92c195b395e3cb1fa86483860fd202842534940f
+  - path: src/app/repository/country/ax.png
+    algorithm: sha256
+    value: 8575041a1b9bef53d601d3761f9bd52e152858b8f78404bf999bb22da6a80afa
+  - path: src/app/repository/country/az.png
+    algorithm: sha256
+    value: 18a386ccebbaf23db6e1bfccc8e5c9b673b7a84081882c6a91111b76b73ad2d0
+  - path: src/app/repository/country/ba.png
+    algorithm: sha256
+    value: 242fad710ba91a2379871e49b7f414cdfddbb4b8f6113d45865c24b14ef367c2
+  - path: src/app/repository/country/bb.png
+    algorithm: sha256
+    value: 38839f97c8d23ad830f0d2ac37fd9bafc8bab9fbabf4e684f251fb14954fcae4
+  - path: src/app/repository/country/bd.png
+    algorithm: sha256
+    value: c0390d8ae6d80b7fbeed03864992fd952bd96bea1be99890d688581bf9e6723b
+  - path: src/app/repository/country/be.png
+    algorithm: sha256
+    value: 0f056f590649c1d7143acde3dd1e2bc0ddb5272c3e09c3ba15927dbf77139d9f
+  - path: src/app/repository/country/bf.png
+    algorithm: sha256
+    value: 9d3ebe72876e180b96ad59a9dc2fe4a3a2ce7a49cf06f6113c87283ae5b0edf5
+  - path: src/app/repository/country/bg.png
+    algorithm: sha256
+    value: 5e68b3df89722ec407463ab1d31c552527182eca316fd552d21a1e51747f6be1
+  - path: src/app/repository/country/bh.png
+    algorithm: sha256
+    value: fac059786ed527cc8a83fb19b199dc454836410e442df45cb666330a1eb601ad
+  - path: src/app/repository/country/bi.png
+    algorithm: sha256
+    value: 420676dcd87e1e586ff3aba8d473b25adc03c4eff23d2570960226564bebdc88
+  - path: src/app/repository/country/bj.png
+    algorithm: sha256
+    value: a825750e0a8f409de81b50232972b08b1662ca383b72b25dcd8fddb996d47cd1
+  - path: src/app/repository/country/bl.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/bm.png
+    algorithm: sha256
+    value: 710eb6300781dc102b2dfc3f8bfb32380ffe186facbb6a91dbbe63fd3529bacc
+  - path: src/app/repository/country/bn.png
+    algorithm: sha256
+    value: 387f4210a5f441e5ff5d53f982ba2f1ba850ce485950ba5068c4921a03249908
+  - path: src/app/repository/country/bo.png
+    algorithm: sha256
+    value: f18bcad8852e3f1f4bb468add694a843a8f57b18137e8e9cd8ba0c458d8560e9
+  - path: src/app/repository/country/bq.png
+    algorithm: sha256
+    value: 43a7afbb4cc2d4b508a97b38f9a89cdcc922208dfeba1ee46409dab2a099a943
+  - path: src/app/repository/country/br.png
+    algorithm: sha256
+    value: e85307614496fb1943cb624ce2985e746ef5398adc0e20bce2bdb5e7c126e2bf
+  - path: src/app/repository/country/bs.png
+    algorithm: sha256
+    value: 854b13c142980a1a19016f0514a65cb4b25e98f2c718b167ef92648b4a3ce193
+  - path: src/app/repository/country/bt.png
+    algorithm: sha256
+    value: 0414011802dfc668db51d2a87c19aa08469f8f2a096c41733146ece6c196fa59
+  - path: src/app/repository/country/bv.png
+    algorithm: sha256
+    value: 7b0458d38def119b0c1067dc85758b66c63e2b6fcb1f7b0141064a072a59ee43
+  - path: src/app/repository/country/bw.png
+    algorithm: sha256
+    value: 7135778f8909ae455bae5dd777d84c36a81b50b183d44171fd5938d7a6830be1
+  - path: src/app/repository/country/by.png
+    algorithm: sha256
+    value: 1ecba7b942242d76806ee502a1eca7268ef784bcf734cbcbe872d95dd166b8d0
+  - path: src/app/repository/country/bz.png
+    algorithm: sha256
+    value: 20c111dcd45b400e905476c587a37cdb1f64309e36ef8f83594584ad3723862c
+  - path: src/app/repository/country/ca.png
+    algorithm: sha256
+    value: b1b3f5dc45af4b1d8dc7e8508c25b998c399e1c3b748dfe71917c9c88725f405
+  - path: src/app/repository/country/cc.png
+    algorithm: sha256
+    value: 2e232861ee2fa359ee741d095a589290d86f6822a1ac13ae635f4c16f205662b
+  - path: src/app/repository/country/cd.png
+    algorithm: sha256
+    value: 76db28c9a2bf438e0066ccf5d89fc056d2679bed5f9ac06262244e248429c228
+  - path: src/app/repository/country/cf.png
+    algorithm: sha256
+    value: 0d5beb852b614691c15a90b766590c7d34fcc744b3d84bdf2826b5679fd9df56
+  - path: src/app/repository/country/cg.png
+    algorithm: sha256
+    value: 901a816dd04eefb777f6cd48b17bf82864a1052f25780ecc551e3795e33e9329
+  - path: src/app/repository/country/ch.png
+    algorithm: sha256
+    value: efe5c475599c66d3274e23e95d405a91e93abfdf04a7bff32a9c454aa0d22cb8
+  - path: src/app/repository/country/ci.png
+    algorithm: sha256
+    value: deb481906b7ab4e5a12935041de6b6ccbac39d9e1a904241fb6dd03c691475af
+  - path: src/app/repository/country/ck.png
+    algorithm: sha256
+    value: 89bb46da460316aa9e84883cc37575a00c46675e3fdad61cf509abf7c8087b00
+  - path: src/app/repository/country/cl.png
+    algorithm: sha256
+    value: 5f0bc8a14305c668c142364ad6d242ff4250c9e1d93358b8a4c2af807f45592d
+  - path: src/app/repository/country/cm.png
+    algorithm: sha256
+    value: 0796a6ba04bce48ebe8c168941f23bdbbc9af0bce219347ed4090dd75095a1dd
+  - path: src/app/repository/country/cn.png
+    algorithm: sha256
+    value: e38860f18fc4edb0e7de3366de7d8779da3ecaf19e6135123c6bebfd1b5e6ea7
+  - path: src/app/repository/country/co.png
+    algorithm: sha256
+    value: 9f56ce2c627c9c9b0f5b7b96d8491649141ac2651350341d9bc3aaad26ba364b
+  - path: src/app/repository/country/cr.png
+    algorithm: sha256
+    value: e4ebc3584611184590b1a29dc3297455f97ab1b910937d152fb4101f09a5c576
+  - path: src/app/repository/country/cu.png
+    algorithm: sha256
+    value: 21736cfb7dcd7f84753718bd9e88c70ed5ef82e654a809e87cb15dbabd42f04b
+  - path: src/app/repository/country/cv.png
+    algorithm: sha256
+    value: 1f8a4e9676d4904f4b9fdcbd1489aca00312155e782df31f0eec63b140bdde71
+  - path: src/app/repository/country/cw.png
+    algorithm: sha256
+    value: 9c1a842aed7fd46757f01026d0e1873532b3446c103e28f1621d263600cc52da
+  - path: src/app/repository/country/cx.png
+    algorithm: sha256
+    value: 5675016488186840ccad0315bda9b389adbc8450d964040ffe36ebb92711da14
+  - path: src/app/repository/country/cy.png
+    algorithm: sha256
+    value: f17fbf1bd393952ae071c1baad1e149a5f0d419eec76ffb44d723c6c8782f0ee
+  - path: src/app/repository/country/cz.png
+    algorithm: sha256
+    value: 456b8248fc176f02b4b9313a704601cd164665382a42c32378ef96489488522a
+  - path: src/app/repository/country/de.png
+    algorithm: sha256
+    value: 584dbf6a358888253d2bf3b62cca807c35d6c62bb102d103fd595e995be5137a
+  - path: src/app/repository/country/dj.png
+    algorithm: sha256
+    value: 4801c1cbfc9e6187562b08b07b9c59b1dc547edf57ec220d188e813105483068
+  - path: src/app/repository/country/dk.png
+    algorithm: sha256
+    value: 86b6b95df950b1ddb002a60caa9928a88393c9da3310af4b4dc3b27d77c3c2f2
+  - path: src/app/repository/country/dm.png
+    algorithm: sha256
+    value: 6010349b9e5c6b514036f887a66487b382369062225e1e75bf72b7bb3028760b
+  - path: src/app/repository/country/do.png
+    algorithm: sha256
+    value: 74e4c4e03354e6e8121f685d06afdb033efd8e12d79c9d2e49c5e625b92ae666
+  - path: src/app/repository/country/dz.png
+    algorithm: sha256
+    value: a56d66b0ad219de5bf448d3e531ebe697297484849b02eb0d33c712dbf3ec1de
+  - path: src/app/repository/country/ec.png
+    algorithm: sha256
+    value: 21fedc43c3e988f7287dbfa33a9d349d219560588f70eb8f7b5b42ad5a25ab3f
+  - path: src/app/repository/country/ee.png
+    algorithm: sha256
+    value: 94e3321e0bec9727a50495dc1073197771fb8de53d7770188ea3f76c2ac6c6dc
+  - path: src/app/repository/country/eg.png
+    algorithm: sha256
+    value: 80f1b5eb6d2adc1be05ed6c45a6c16648b8f1952a0d9b331c9b46fb24246eaca
+  - path: src/app/repository/country/eh.png
+    algorithm: sha256
+    value: dc4ab9205276b55531901682f8728f4116ef74fc8d2c0b3a9dff570d49f0cfd8
+  - path: src/app/repository/country/er.png
+    algorithm: sha256
+    value: 432b340b5b53286988c6bc4cad67a20a81447d580d82b858bbcda9e3ed3a81b6
+  - path: src/app/repository/country/es.png
+    algorithm: sha256
+    value: 430e426094faec30a77228b58b6b87e5b1ecd7e2d7b8caffcf5532087fdd2937
+  - path: src/app/repository/country/et.png
+    algorithm: sha256
+    value: f286543bb8dbd09bb4dfef47ddf04117b3307577d53ba05944ec92935586bbf2
+  - path: src/app/repository/country/eu.png
+    algorithm: sha256
+    value: 6aaa4c01342d57716060cbf6598ae2f980c2a564a0c6f4627e5ce1b302d4ff18
+  - path: src/app/repository/country/fi.png
+    algorithm: sha256
+    value: 77b9376ae4cb24c61b8d701ed5aa4bb88bf832039fd5d922336f5ef910f4f606
+  - path: src/app/repository/country/fj.png
+    algorithm: sha256
+    value: d505a96a1cea506bd3a671643eba931442e8871bc2bd1ba5b982a52e44d03cf1
+  - path: src/app/repository/country/fk.png
+    algorithm: sha256
+    value: 20ac92b56b0f526e5193aa21714c534dacf5760ad5c3ed059d390357d22a3072
+  - path: src/app/repository/country/fm.png
+    algorithm: sha256
+    value: 3b9a28080e5fd332e90d1ab5d83a342ca9336719609d48020879896c5b407bfd
+  - path: src/app/repository/country/fo.png
+    algorithm: sha256
+    value: 6200667e56ff0a24d0ac165eb0a6e32c2c7e75571b1c08e23366e7fad8cb9559
+  - path: src/app/repository/country/fr.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/ga.png
+    algorithm: sha256
+    value: 7e25735b52fa5c66c3f15c537c168a02e54e37fc58c1c5449cbfeb1be84fa617
+  - path: src/app/repository/country/gb-eng.png
+    algorithm: sha256
+    value: 9a7875e9b8d319a472fe1e887a1e28210f5d9d94496693374f27f9878968decf
+  - path: src/app/repository/country/gb-nir.png
+    algorithm: sha256
+    value: ccd31316f38d58e511a12e76bfb375b5484b02d3bad6260e72faf98e47a4950e
+  - path: src/app/repository/country/gb-sct.png
+    algorithm: sha256
+    value: 29e4bb047c7e7d4482babcb1e3fa98654eb7734859d50094e657f45290bcd401
+  - path: src/app/repository/country/gb-wls.png
+    algorithm: sha256
+    value: dc1b8ef73f7870df4d0b8b6bf28c57dd9a9e12da8d504cba8e0f23d7486378a6
+  - path: src/app/repository/country/gb.png
+    algorithm: sha256
+    value: ccd31316f38d58e511a12e76bfb375b5484b02d3bad6260e72faf98e47a4950e
+  - path: src/app/repository/country/gd.png
+    algorithm: sha256
+    value: 29b92b4ce3968be8a91c4ea58469d0fc7d08da2e4cd8bfff116e0ad1da6e2da1
+  - path: src/app/repository/country/ge.png
+    algorithm: sha256
+    value: d70add7c95ea19d7243ebd1795e970fd53127bc8fd743301761819e0e01a5893
+  - path: src/app/repository/country/gf.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/gg.png
+    algorithm: sha256
+    value: b257f8db5f43d418dd5f3e7c63191afcd1646534c17a558c86605384dfabb132
+  - path: src/app/repository/country/gh.png
+    algorithm: sha256
+    value: 089a8bc0d1bda5bc997137e8c68790b1250d6b249b63dea880b00529332ab56d
+  - path: src/app/repository/country/gi.png
+    algorithm: sha256
+    value: 4f1d834d2dcbeff513124f6edf5af35fee5c690b7925c0abde5e15c91bdde748
+  - path: src/app/repository/country/gl.png
+    algorithm: sha256
+    value: 216f96edf8bf4f1e4d874b4c188913e6477ca42bbf970997096013e3b5164c07
+  - path: src/app/repository/country/gm.png
+    algorithm: sha256
+    value: 4a622019b4f21fb255e04dca01b47f4abe64184600f27f3ec4facc48112fc624
+  - path: src/app/repository/country/gn.png
+    algorithm: sha256
+    value: 34a0dfc6a91473607accd3821fb7e0774d87e6975803ef57e6157299dcfa6572
+  - path: src/app/repository/country/gp.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/gq.png
+    algorithm: sha256
+    value: a1f164665cde0a01c69591c5a40794797a889dec8b4c791cea83686730a10b59
+  - path: src/app/repository/country/gr.png
+    algorithm: sha256
+    value: 07cddcfb051e56cc9a3588801fd9494862de06ff2efa1c2fc43d5fa3c05cfb4e
+  - path: src/app/repository/country/gs.png
+    algorithm: sha256
+    value: 014779328b9571abd00a7b9ddd8596ff5184eb2f5abf750b7f6daebecbcdbe61
+  - path: src/app/repository/country/gt.png
+    algorithm: sha256
+    value: bb1ca03dec914be7c1bb287c99d66c39ad92c1f0bd0a258ba9b4a47747621482
+  - path: src/app/repository/country/gu.png
+    algorithm: sha256
+    value: 291c0ea420d2b6aa6d26e44ad95cca60ece74ef3227993f6b43f66a8454d2f72
+  - path: src/app/repository/country/gw.png
+    algorithm: sha256
+    value: 10d8233f28080b07e3d216bfa455c878510943d6af2b6d234ca383898f804e1c
+  - path: src/app/repository/country/gy.png
+    algorithm: sha256
+    value: e373a99392509a896561c568de99010cde18bb3ed6d808e5b4ebff183bec525d
+  - path: src/app/repository/country/hk.png
+    algorithm: sha256
+    value: dff149b4acf3c84ef7b265ba470c8c6ba7ce56bf9c95763393115709df8339c1
+  - path: src/app/repository/country/hm.png
+    algorithm: sha256
+    value: b93fd80474a2af8dd49706818a0b8b757d8145f29b975f314b9826931407da17
+  - path: src/app/repository/country/hn.png
+    algorithm: sha256
+    value: 06368d1173d7a560ac78cc1cbcebdc8fa7ee8350c801ba98510319698fafc4c0
+  - path: src/app/repository/country/hr.png
+    algorithm: sha256
+    value: ef4a47dc6e16e89d74a35becc850fd0dbc98bfe4fb1e28e98c3d85c4a59a7063
+  - path: src/app/repository/country/ht.png
+    algorithm: sha256
+    value: 23363d793e8be58a0e135834f0ea0c0babdf1020634ba3d697021fd540a7130c
+  - path: src/app/repository/country/hu.png
+    algorithm: sha256
+    value: edd73b63ea33903017cb72b0329904f2411374ad490a3c83539067b14bb086cf
+  - path: src/app/repository/country/id.png
+    algorithm: sha256
+    value: 59c706baea166d071b8e49f4953060002e2c26c0d6df6f76d1cdd5bf122aa4cb
+  - path: src/app/repository/country/ie.png
+    algorithm: sha256
+    value: f2ff9a425d90ab01fabeaa943bfc1abccbd3ab94bc9141b1aad9424bc4b23b56
+  - path: src/app/repository/country/il.png
+    algorithm: sha256
+    value: fc5224e94a564a3c3add55619c31edfcbd7fcdd7b224c9b6b1bb6a3d4b3557ae
+  - path: src/app/repository/country/im.png
+    algorithm: sha256
+    value: 0199a2a046181857d1f32fcce69287166dce0f625838a44c4af79936b1a429e6
+  - path: src/app/repository/country/in.png
+    algorithm: sha256
+    value: 0a8cbc20bde74a2f7205aca2d83f0f4410e3f7cfc09aa6617273dcd3464a0787
+  - path: src/app/repository/country/io.png
+    algorithm: sha256
+    value: 1e076276241b6053b845ab37c767241889e7601c738d18b296fb4d3df13d2e7a
+  - path: src/app/repository/country/iq.png
+    algorithm: sha256
+    value: 5d2121a02fb61f1589005ec3bfc7510b4a879ebc52c54c6e1fe2ec33a851da38
+  - path: src/app/repository/country/ir.png
+    algorithm: sha256
+    value: 86e0d39ebf123c08454e89c010745ff24af20c23afbd3981c8b7c911d332eb92
+  - path: src/app/repository/country/is.png
+    algorithm: sha256
+    value: ba5a2ddf934ef578da2d924f42dd7a0cd973e89ea7530a3c54807b7fb4d0cf86
+  - path: src/app/repository/country/it.png
+    algorithm: sha256
+    value: d241b7ce27bc8a0123cb47bf30f902140be790383112a34765cb2c565bb4d728
+  - path: src/app/repository/country/je.png
+    algorithm: sha256
+    value: e72b47b4aa588bf8bf5af435c87636f4cbd1529a95fe41c7aafb67c57c7fae63
+  - path: src/app/repository/country/jm.png
+    algorithm: sha256
+    value: d07d7efb6093b5cedc88776ebd5246752d69f66a3a65c20bea2d8f9be4b6de1f
+  - path: src/app/repository/country/jo.png
+    algorithm: sha256
+    value: 69a2fd246b1d3398ee60993275070804ff08294e499c1d018c977f74cb2b011f
+  - path: src/app/repository/country/jp.png
+    algorithm: sha256
+    value: b929263f2c7f5410c2d76f2348d782e4aa69f9211bfba3d0453f0c959b2943f3
+  - path: src/app/repository/country/ke.png
+    algorithm: sha256
+    value: 2e75ad3a521d3a3320af968f5d371ba15118d12877fbdd3d734c4f142857e43e
+  - path: src/app/repository/country/kg.png
+    algorithm: sha256
+    value: d5c0e3e71bca1f2aefefa928c977aa22d8e2f438388bb52ca9577415a694e3b5
+  - path: src/app/repository/country/kh.png
+    algorithm: sha256
+    value: 05251c595cb788c0d4b84f874377b91221ec5b24a0eac2c50b0c3932b6b2e958
+  - path: src/app/repository/country/ki.png
+    algorithm: sha256
+    value: 9a4fdfc62c6adc5184d9746b2f33c35ebf6ec86b890f1c15910f5448657767ca
+  - path: src/app/repository/country/km.png
+    algorithm: sha256
+    value: 0ca1e55cfdbf283686b876ad472e15552e73cd04a698f590d2147663031c95cb
+  - path: src/app/repository/country/kn.png
+    algorithm: sha256
+    value: 74d19d4c014b5fc29240c9277ccb47d565852c94d500fa9a51dce283e5668a15
+  - path: src/app/repository/country/kp.png
+    algorithm: sha256
+    value: 34fba24cbcc683e02bf332e2fb55b4a2401835eed63b331be6fb18a5fbc1aecb
+  - path: src/app/repository/country/kr.png
+    algorithm: sha256
+    value: f13584e135e9a0d3a6a819d10f9ed204c3ee2301bdba5df4261503780d29163e
+  - path: src/app/repository/country/kw.png
+    algorithm: sha256
+    value: cf11be10e8dde4275c032f218233b029f57a9ecb38d16991a54b98dc83e8525b
+  - path: src/app/repository/country/ky.png
+    algorithm: sha256
+    value: 510d852d8fb35e0381a061969fb912b8b072d8887ce5998da6262fd62835535b
+  - path: src/app/repository/country/kz.png
+    algorithm: sha256
+    value: 5030e25f83ded50c0f06dfa1622ea3a7573fe5814be856583397015c331d8217
+  - path: src/app/repository/country/la.png
+    algorithm: sha256
+    value: 5cfa7ff4636d2aaee6adf3733bd3956659d0a86cbe45b1390a6cb9d656325169
+  - path: src/app/repository/country/lb.png
+    algorithm: sha256
+    value: 0730f08dfb3c0376b6d1ed2a26285407d1b199f00d08d2898b7d3ef0739e9923
+  - path: src/app/repository/country/lc.png
+    algorithm: sha256
+    value: 5e1250fbd8d4dcd49536c14a79d529991f6e7e368e2d950036d10c1d644b9a31
+  - path: src/app/repository/country/li.png
+    algorithm: sha256
+    value: 2f1eaff2be977c160efa2825b9d135e953b7344e6dcab4a7e9b97d6add3a11b5
+  - path: src/app/repository/country/lk.png
+    algorithm: sha256
+    value: 5a8f19c2a202e1326b6c7fc7ac4e416cc62de0fc9466c927faee7e42604a8d4f
+  - path: src/app/repository/country/lr.png
+    algorithm: sha256
+    value: 66b50342908ba5e94b863dad94e2b15e7337dc9e3ed287b2bfbd34570bd6ca3c
+  - path: src/app/repository/country/ls.png
+    algorithm: sha256
+    value: 6a79cff37d0a4d43f08c6fb6cff9c24ba75049cb5311598529c92f709d005eb6
+  - path: src/app/repository/country/lt.png
+    algorithm: sha256
+    value: cc5ff1c54c0490115999e34059eb8560a899568d724b6db65ca30003a7a30c59
+  - path: src/app/repository/country/lu.png
+    algorithm: sha256
+    value: 1f65b2caa577d71fd857caa55c45fcd28fce1afc2d1c8f9b40a69fd25488bec3
+  - path: src/app/repository/country/lv.png
+    algorithm: sha256
+    value: ced8df1d548b25037d4227bd94a38b984adaf77d1e21d920b6303b26c6fce3be
+  - path: src/app/repository/country/ly.png
+    algorithm: sha256
+    value: 6efd32ce3b9ced5a90dca5c168f23d8f4ab748e4394efb702156dc0d225201a5
+  - path: src/app/repository/country/ma.png
+    algorithm: sha256
+    value: 6308b6cfbed0dc07f43319aec726aea7fe738cbce87f98ca37bdc0dfca3d00e6
+  - path: src/app/repository/country/mc.png
+    algorithm: sha256
+    value: ad4f1ed46ff0780204ddd9d3527225e062073d97c4f79d180aba7d5423ff05ce
+  - path: src/app/repository/country/md.png
+    algorithm: sha256
+    value: 96469657b80d3c0b2533e03e51400926b2f03263f8567490c820e82141753ae3
+  - path: src/app/repository/country/me.png
+    algorithm: sha256
+    value: cca6923855750cff4c525d1948987f8be8c9aa87d29da41453cb90b35f170663
+  - path: src/app/repository/country/mf.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/mg.png
+    algorithm: sha256
+    value: 7f3a95d552c59561a33e6e9f66e4deb2de679aefc169782ca0e8d4ebd5c2f41e
+  - path: src/app/repository/country/mh.png
+    algorithm: sha256
+    value: d820b6b71b1404a5dbb3da39401ce597e230bcdf148de13a56e69bc4dea211b4
+  - path: src/app/repository/country/mk.png
+    algorithm: sha256
+    value: c27fda613e6b4f583da3a1e0325f6fe49c9e28057666d40d0ccd64cd77a5b86d
+  - path: src/app/repository/country/ml.png
+    algorithm: sha256
+    value: 6b2c6d5f53fe19ed34da15b6a95b2bc46e5c0a92117dcd224c12c398fc00e3c4
+  - path: src/app/repository/country/mm.png
+    algorithm: sha256
+    value: f1301fb09cb39aad4bb522278d7e3c41c19fd42722f3b4ca593a8a29300a6447
+  - path: src/app/repository/country/mn.png
+    algorithm: sha256
+    value: 1f00cd11049ae3e2c1dd51f3acfe036f2fb31c6a71ec6595edd46379b4cb1a04
+  - path: src/app/repository/country/mo.png
+    algorithm: sha256
+    value: f8cadf4d713b4bfc4754eeb42c24a9979f0853f1346eb123de8caf758e04e1ec
+  - path: src/app/repository/country/mp.png
+    algorithm: sha256
+    value: 63e781df3ed53c3b6613c3e328d513b9c4a53e1fa1541d83ccf72ee7f00a24c9
+  - path: src/app/repository/country/mq.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/mr.png
+    algorithm: sha256
+    value: dc71f59bfa087a98dc4c408f707e9ef3bb68ca587698f5c8107813e415b1bb5a
+  - path: src/app/repository/country/ms.png
+    algorithm: sha256
+    value: 2cba10df1be4ac9dc479636c5ea5cab68da9548fe15e9eda363ae2b467ca4b95
+  - path: src/app/repository/country/mt.png
+    algorithm: sha256
+    value: edd2d96bc1bea0ed97b96ebfaa8f92d76b94dba7c97590d4b7de99c01d4f6d1e
+  - path: src/app/repository/country/mu.png
+    algorithm: sha256
+    value: 5fd6ab004691037bbc23f465aea43e3b616181fd8369103ed30d50e1071a1812
+  - path: src/app/repository/country/mv.png
+    algorithm: sha256
+    value: 76b226b6f6b96ddc848a2b0dfe9f8afdea8c745fedf0789756670aa173a45f5d
+  - path: src/app/repository/country/mw.png
+    algorithm: sha256
+    value: b24b7c0caaa913df84ea394f37209b69f08caa0145acc868a3ab218ecf08ad92
+  - path: src/app/repository/country/mx.png
+    algorithm: sha256
+    value: 78bf3214cf4cbd67687de3348468ba19bdae0d7def50efc119d31a2067130aa8
+  - path: src/app/repository/country/my.png
+    algorithm: sha256
+    value: 3b7e886ad4021a557e667bbdc92b919a1ac36faeaaca67a45e21b34804d629b7
+  - path: src/app/repository/country/mz.png
+    algorithm: sha256
+    value: 826d9f13e89078bbc59518d795341818557f88daf05448c574975dbdae04eb2d
+  - path: src/app/repository/country/na.png
+    algorithm: sha256
+    value: 241938ff1febfd5adee25ac6d4b045b76c5a2c4e62ff3a6a03e13491e68f210d
+  - path: src/app/repository/country/nc.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/ne.png
+    algorithm: sha256
+    value: b52150fa8a2655cd6a92759e098d2c9ca0c986847f71e2a5c7fa44b360d663d8
+  - path: src/app/repository/country/nf.png
+    algorithm: sha256
+    value: 7b8a51790d9251fd9646ae949bb5ec91c9a88fb0a5bb2f83f8e934f569a99881
+  - path: src/app/repository/country/ng.png
+    algorithm: sha256
+    value: 0f49fecba8b37c2b880dff9ac492ac5a9602b5381a011454903235eaa148d0f8
+  - path: src/app/repository/country/ni.png
+    algorithm: sha256
+    value: 73cb13549cdcb9f3e9ce37ecdc36b9f1341676e81b68ae0051fcfe0192323207
+  - path: src/app/repository/country/nl.png
+    algorithm: sha256
+    value: 43a7afbb4cc2d4b508a97b38f9a89cdcc922208dfeba1ee46409dab2a099a943
+  - path: src/app/repository/country/no.png
+    algorithm: sha256
+    value: 7b0458d38def119b0c1067dc85758b66c63e2b6fcb1f7b0141064a072a59ee43
+  - path: src/app/repository/country/np.png
+    algorithm: sha256
+    value: 7ac3061aff0f82a15763d8a30ae918d82e37927b694b88e57f80ac19a1b21a35
+  - path: src/app/repository/country/nr.png
+    algorithm: sha256
+    value: 9a2c1ecc1a0201c88218bf83297ea428689a3db92b80528e7816d62d8dc53f30
+  - path: src/app/repository/country/nu.png
+    algorithm: sha256
+    value: b9554b90f0081eafe2895da6ee9c26063b4808bd0e4f1eaf5bfe2b5ea09a91c8
+  - path: src/app/repository/country/nz.png
+    algorithm: sha256
+    value: 86d9345177a5ce6d56a4b84450f5cc12ca2c8653a9c9273c5066a9031f8e3446
+  - path: src/app/repository/country/om.png
+    algorithm: sha256
+    value: fab269907cf5f32773ae066a414878418a12a921d7823a0b4ddfb35f24947260
+  - path: src/app/repository/country/pa.png
+    algorithm: sha256
+    value: c6855c24c0b6074e6f5ef9d16f4e8259d60bd28e668acc4e806fcccb9a5a604a
+  - path: src/app/repository/country/pe.png
+    algorithm: sha256
+    value: 7d63a06aabdeee9b4c3b685a07bb8e638d30dce6d9c8cd67909f095840e78f91
+  - path: src/app/repository/country/pf.png
+    algorithm: sha256
+    value: 42b9f1bc2f21394140baeaf621a623910ebecded6754d601af1da36da99d5be5
+  - path: src/app/repository/country/pg.png
+    algorithm: sha256
+    value: 44f42898bc58bb717061021cb0225ee8c3455e29f70498fa787a3feec6c792b4
+  - path: src/app/repository/country/ph.png
+    algorithm: sha256
+    value: a6ea4b9b7c5a51606ab2ea78155ae3e26992cde7b3e6bb8ef996ccef11386e60
+  - path: src/app/repository/country/pk.png
+    algorithm: sha256
+    value: 1088d5e8b5ff1b87dc183453ec077090f01d73ac2da70fa4c74209d2ddba0fd9
+  - path: src/app/repository/country/pl.png
+    algorithm: sha256
+    value: eaebd67b61d0ad0ab02f21b4a3e9443b6cf6fb486204426771a18e52a665a443
+  - path: src/app/repository/country/pm.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/pn.png
+    algorithm: sha256
+    value: dfd2229fde614a7cc372a9b112c3678a5a03c9b6a600eb6f669d5c5d4d51a5b2
+  - path: src/app/repository/country/pr.png
+    algorithm: sha256
+    value: 8025dd402b8b86fe0343f07f031c834e622e5e27619a6098b27c1d5d57e8459a
+  - path: src/app/repository/country/ps.png
+    algorithm: sha256
+    value: 2a5a9d1edab2b594617ccf97469cda6723a498351331f675aac327ec718eba7e
+  - path: src/app/repository/country/pt.png
+    algorithm: sha256
+    value: 570585bacb87d8941441ab425d3d66c65e727c746a42618606a8c2c08157ca5c
+  - path: src/app/repository/country/pw.png
+    algorithm: sha256
+    value: 17fd25fd84b33d3d1145c3e7478cc9c5bc276a53c64b1e5bc5cd64a4fdcfb236
+  - path: src/app/repository/country/py.png
+    algorithm: sha256
+    value: c9b9e9f9a7d8974f594e0ce9ea9791dd42b94be53d102e06bd40b5ca03ac65d0
+  - path: src/app/repository/country/qa.png
+    algorithm: sha256
+    value: b33b61a8c99fba840225f156ec67bfa753979ffc63688e749c0d1dd821edabd4
+  - path: src/app/repository/country/re.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/ro.png
+    algorithm: sha256
+    value: 2e0d85bbf6e8897c8c9e08dafcc3d1d1a66cd31c45608795f8e993afeb770169
+  - path: src/app/repository/country/rs.png
+    algorithm: sha256
+    value: a4f538a52b3b661f7dc9e6bed8ca34524dcd037941039a43be92b534363eaffb
+  - path: src/app/repository/country/ru.png
+    algorithm: sha256
+    value: 37579d7cbce843ad4f5642dad5821cbcc10e89b8dfa9a2b0c65111a7c39c08bd
+  - path: src/app/repository/country/rw.png
+    algorithm: sha256
+    value: d26e07312ea97fe8d0b5dd2757ed834b7ed8f905afa2193f5d3afcb728665c4a
+  - path: src/app/repository/country/sa.png
+    algorithm: sha256
+    value: d4502adc77d01cfd13b2722bb2f2613dd666c3c8679d7d6ff88b30a7e49e6a66
+  - path: src/app/repository/country/sb.png
+    algorithm: sha256
+    value: 538cc6b33235b8b30e1bd30a353cddd53085b39b28e2cd2167a5307a586a8eb9
+  - path: src/app/repository/country/sc.png
+    algorithm: sha256
+    value: 15a278cf8bb38d4907d1015ff14a161afa09aa02e1b39994035b0083a125f210
+  - path: src/app/repository/country/sd.png
+    algorithm: sha256
+    value: e880f531301e1105f0c62f530b2f423957e38657a3eb3c9c47c302bc9aea5a42
+  - path: src/app/repository/country/se.png
+    algorithm: sha256
+    value: 5e53e73d72c72a91b4029ed9d51d9d2608c958dc001181215f368945a8edee3a
+  - path: src/app/repository/country/sg.png
+    algorithm: sha256
+    value: e6a6e3c823b130ae398ec8b15e12ffead6847b7d616f5b8acf705ed7bd752138
+  - path: src/app/repository/country/sh.png
+    algorithm: sha256
+    value: ccd31316f38d58e511a12e76bfb375b5484b02d3bad6260e72faf98e47a4950e
+  - path: src/app/repository/country/si.png
+    algorithm: sha256
+    value: 964b68b01b1083cbcb66ad42e92137f826a528a72108dfacccf1ec85123c564b
+  - path: src/app/repository/country/sj.png
+    algorithm: sha256
+    value: 7b0458d38def119b0c1067dc85758b66c63e2b6fcb1f7b0141064a072a59ee43
+  - path: src/app/repository/country/sk.png
+    algorithm: sha256
+    value: e0c973cb9e68bffc6f5d7cf613d384ffbe83d75294f5b8cd9c05b684707be319
+  - path: src/app/repository/country/sl.png
+    algorithm: sha256
+    value: 11a84cb50a91fc95c2c72348175d2db06e186a3086ec7015be206e9350522b6c
+  - path: src/app/repository/country/sm.png
+    algorithm: sha256
+    value: 0b523781687a95fde9772346b32133ddd3f5d51415c2f005350c2d9f8b7b1746
+  - path: src/app/repository/country/sn.png
+    algorithm: sha256
+    value: 3eb8b0ffc4d07bef49a6e088f1325019c7e1e1b730134b144efd031906c0cc80
+  - path: src/app/repository/country/so.png
+    algorithm: sha256
+    value: 7f853bebd5e32b8b8d86bb9475deaf49a32e6b714d1256a521fe2e17928cdb43
+  - path: src/app/repository/country/sr.png
+    algorithm: sha256
+    value: 523d6a46216699b18767b67451072e59eeebc27b8438701aa465d81375acf36f
+  - path: src/app/repository/country/ss.png
+    algorithm: sha256
+    value: 1249708c321c85e17d232e05c09084788897e7aa33018946d37e0b46fa7b638a
+  - path: src/app/repository/country/st.png
+    algorithm: sha256
+    value: e692175529d6d4c8efd145b00e8fc08f1a01ac4c85865f02668d374363d4e196
+  - path: src/app/repository/country/sv.png
+    algorithm: sha256
+    value: a23bd1c573c23f853d99a0240ab403a1d42ca45316e5f516a2399a4ab47af99f
+  - path: src/app/repository/country/sx.png
+    algorithm: sha256
+    value: 0190b7f9dbd645825c872e36bac0836707483eee7c4f08fc18b536ecc015553c
+  - path: src/app/repository/country/sy.png
+    algorithm: sha256
+    value: e902c3f3090f542d4101cc4a70d87f58a9e4bbbd39f694eb4fb7bda8478d6eef
+  - path: src/app/repository/country/sz.png
+    algorithm: sha256
+    value: 16a8b1bff31ff2484b948ef12a75e326ab1d2ce520610e579a58e5da0c94f3a0
+  - path: src/app/repository/country/tc.png
+    algorithm: sha256
+    value: 93d85518aa0a1083d5ce17d421dc1df10c628f84d45e707125e541a5cc140632
+  - path: src/app/repository/country/td.png
+    algorithm: sha256
+    value: f1f0302e7ee3c5030330a662bf980344ac6964cae69f9caa79756aabfb495365
+  - path: src/app/repository/country/tf.png
+    algorithm: sha256
+    value: 759f83e3603014dcd3702880d290eda02c70ac3c0c6d5b2aae43344580451c3c
+  - path: src/app/repository/country/tg.png
+    algorithm: sha256
+    value: 258179dbb5baa4be9299bc7b11c28507a5cee044fac5cf44aea9983842d3cc52
+  - path: src/app/repository/country/th.png
+    algorithm: sha256
+    value: 46356372a08c4cf08dfb5473743af1b5b734c93e81b94682ae871deae92d66d1
+  - path: src/app/repository/country/tj.png
+    algorithm: sha256
+    value: bd1dc1f5682431b0223a85b20c83337398a41c619f963b30df282f1cec0e89fc
+  - path: src/app/repository/country/tk.png
+    algorithm: sha256
+    value: b4beb769edcebb84a6c9c5eceeaf0da3e8a3045ff9c58ca8ae5f43749f217eb4
+  - path: src/app/repository/country/tl.png
+    algorithm: sha256
+    value: 699f3ce803023ee9b94ffe24c50f15011d00b6601d638f4d6cd19396ed3c7ace
+  - path: src/app/repository/country/tm.png
+    algorithm: sha256
+    value: 748913d20f96f02a3b3353946e4b5cb464b1f065f61fc8afdf1e7e96eefcb62b
+  - path: src/app/repository/country/tn.png
+    algorithm: sha256
+    value: 1ffdc8825fd1b5d5487f8e2ab37055093ee531a20649e37ef06b3a642a60dc8a
+  - path: src/app/repository/country/to.png
+    algorithm: sha256
+    value: 3396c2c7d74186ea5e5fb098c8718078d992bb5bc0deaa71d6fa8a92d8ea33f3
+  - path: src/app/repository/country/tr.png
+    algorithm: sha256
+    value: 0392f95af483ed90cb9721d854f5e839a2c17af00312c9beb6b8939b03d62b78
+  - path: src/app/repository/country/tt.png
+    algorithm: sha256
+    value: 7214c387ae9a5126a75c0f095aabfdc7fed9d3fc32083523a1e4d9da0dcd9b08
+  - path: src/app/repository/country/tv.png
+    algorithm: sha256
+    value: d09ae17fac3b35a66d3a056012977d027d13745f07563347791ba93988fe4c66
+  - path: src/app/repository/country/tw.png
+    algorithm: sha256
+    value: 6bdb2b73a9e83c0f8fb55f3a67be4fe6bce189c6f8c1db74a7541c71da7f9647
+  - path: src/app/repository/country/tz.png
+    algorithm: sha256
+    value: 3728ae78f79fa6a1fc7264b8bc92d2c600eda7b3072dba43e633fb3d3f869ec0
+  - path: src/app/repository/country/ua.png
+    algorithm: sha256
+    value: 7f3b32808544edd4d4a7ec0e90b907e82875dde46e75e451ccab64af46901e9d
+  - path: src/app/repository/country/ug.png
+    algorithm: sha256
+    value: 5086959984a0172d0efeddea8b070a5893103c5138efe2dd26984cca06cbd294
+  - path: src/app/repository/country/um.png
+    algorithm: sha256
+    value: af0d386cd0b691aa9fad4b4ec7000cf7c1e42ea21d480277f5b32c253d80acd9
+  - path: src/app/repository/country/us.png
+    algorithm: sha256
+    value: af0d386cd0b691aa9fad4b4ec7000cf7c1e42ea21d480277f5b32c253d80acd9
+  - path: src/app/repository/country/uy.png
+    algorithm: sha256
+    value: aea76692752fe7c6f214a49f28eb1dbf14f7c121d8c200708b55ec38007cbd30
+  - path: src/app/repository/country/uz.png
+    algorithm: sha256
+    value: 5308e384a85c55c73e4470f83edc4cd6a2cc3d74006d35eaf964923b9c81cd36
+  - path: src/app/repository/country/va.png
+    algorithm: sha256
+    value: 1692961fa576a42d9c9bbcad23f4c9c35b97752f1ce2633b70f77aa50d9fbce9
+  - path: src/app/repository/country/vc.png
+    algorithm: sha256
+    value: 3f235234daebb8809d85c4b72938df2eadf651fdcacb93a47d053fe3eac0c826
+  - path: src/app/repository/country/ve.png
+    algorithm: sha256
+    value: 9c182d29f07284c9c988ea7169ce455d5ec79459bfc026356fb8bd208a957c63
+  - path: src/app/repository/country/vg.png
+    algorithm: sha256
+    value: 3ffe7e9f492cbc11029423aef05e0f7ff25c8d0a1f68f2172d8e807e2d3c95e6
+  - path: src/app/repository/country/vi.png
+    algorithm: sha256
+    value: 44dbd66a50f5143835a5b470be5f2a117c3ceb683ce8c24fba654dfbe195b6f4
+  - path: src/app/repository/country/vn.png
+    algorithm: sha256
+    value: a41352a26ace65552f1910f5db24587793fe3604d3483446d393f007e803c121
+  - path: src/app/repository/country/vu.png
+    algorithm: sha256
+    value: 1df3f0a357ead9bdccc88f8491cb47daba5927cd68922aaedbfd4287fc66512a
+  - path: src/app/repository/country/wf.png
+    algorithm: sha256
+    value: efd8e333259efa10cff3ed52f761823de33164a26928da399bcdf7d242009ccb
+  - path: src/app/repository/country/ws.png
+    algorithm: sha256
+    value: e5c9474db5e644a86bb78fb50f066376292bd899b0926b95f7b1e1f8300668cb
+  - path: src/app/repository/country/xk.png
+    algorithm: sha256
+    value: ef732816d477bcb6febd872260f50438c1012d4751aaa9891da1130c452e8b0f
+  - path: src/app/repository/country/ye.png
+    algorithm: sha256
+    value: 600b1f38cff58ae520e7f299b83b36d9c9598cbe09276227b320df5f1e6af5a8
+  - path: src/app/repository/country/yt.png
+    algorithm: sha256
+    value: 5e1b0cb3ce0a73395c8a0933515e0422fb490194b45d042308536acdabf670b5
+  - path: src/app/repository/country/za.png
+    algorithm: sha256
+    value: 7e56798330fb06d7e605d93053001e34b917bc9fe7a34e74359146732d752625
+  - path: src/app/repository/country/zm.png
+    algorithm: sha256
+    value: 86def54655f2d662d61c3db2a209941fca7b25709007c1cdeb64aa9ae2a6984f
+  - path: src/app/repository/country/zw.png
+    algorithm: sha256
+    value: a6c70314e197e7511713b2f694fb08a8fa720cda8d89aad91682ba9640609120
+  - path: src/app/util.php
+    algorithm: sha256
+    value: 22f533cba7733793e8441138bb65288ff492a0d85da36ec8f81dd4254ea9739e
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 91e08a05c3d973fb76a8cca04e9b236a96a4facb004e86132dd3c7e7da7f0235
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 57404692a9d55d60c32c10da2e773b9b30317c324a89a28b6865bd1eda1f0a91
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

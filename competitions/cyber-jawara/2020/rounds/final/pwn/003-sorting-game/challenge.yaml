@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-pwn-003
+name: Sorting Game
+slug: 003-sorting-game
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: pwn/sorting-game
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e076c52dfc0c2ba0bcf2602312bec8025f9bc026757f0f6614a3bbdbf6a5df39
+  - path: README.md
+    algorithm: sha256
+    value: da7009312a9f14b42eb071003e5811bd9e30681d7d8782d73ec17feaca10f165
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 94672157e0e2c6d010fdec38b711479431601620c5b2bd4b15c73413b3f41520
+  - path: flag.txt
+    algorithm: sha256
+    value: aadfbcd22d6a313152d58b23de674e6c21616b16965fb4de1da6628e22e4f4a0
+  - path: service/sorting_game
+    algorithm: sha256
+    value: 0f9842e9bfeb2a4e69be426fc7cea9bb6776d4edbad783b9ce71c341efdf6039
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

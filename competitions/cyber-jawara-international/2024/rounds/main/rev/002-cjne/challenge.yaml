@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-rev-002
+name: CJNE
+slug: 002-cjne
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: rev
+description: My company just got hacked! Aren't static sites supposed to be safe? Send help pls!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/rev/cjne
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d9919325a16e6cf442a2db1c59a9d57df0add2e959f7328317857a92a0ff33f8
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: adae3d3a4ed7148c3cd7ada6141aec014becbf10768ab8a4749e4359cab6ad17
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: cd250e58f2afdaf1cfc5cec1f137577b35a3a26b7a13d76cf9ba8d9b30aeff34
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b86a6782db5387b108ac8693c32e1c3dd6962fb60ef344618b384c4acd30b09d
+  - path: src/app.js
+    algorithm: sha256
+    value: 401c26afd6974d0fc6118165993d9ef5e4b5b7195f0fe78760f7251793f966e2
+  - path: src/flag.txt
+    algorithm: sha256
+    value: fc35091b54bb2aaa4c0c3bbf2dd918e6683e5c7f0b1866a143dbaf7d9975abf1
+  - path: src/index.html
+    algorithm: sha256
+    value: 1180816c9e8644a38400c66f5dfa48a7739fa7a4d59b2f794482d738ca9118ea
+  - path: src/package.json
+    algorithm: sha256
+    value: c62ab477ba2de0db24eb420d35cf9d756974996587926e88c753a21574c6b09e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

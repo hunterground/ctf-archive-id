@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-forensics-004
+name: python3.dump
+slug: 004-python3-dump
+original_name: Cyber Jawara 2019 Qualification - python3.dump
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Dukungan untuk Python 2 akan segera berakhir. Attacker pun mulai lebih sering menggunakan
+  Python 3 termasuk pada saat post exploitation. Berikut adalah memory dump dari suatu process Python
+  3 yang mencurigakan pada server Linux. Dapatkah Anda melakukan forensik dan mengekstraksi informasi
+  berharga dari situ?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/forensic/Cyber Jawara 2019 Qualification - python3.dump
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ac31db88652a73875c15f9c531df78184a49f5e19d339473b035b63b6b285061
+  - path: python3.dump
+    algorithm: sha256
+    value: 8f5398160852214dcfa74a659c23aad083c09269917d53e4f5f3fe40b325ed00
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-crypto-002
+name: Chemistry Lab
+slug: 002-chemistry-lab
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: Checkout my new chemistry experiment on using Deoxyribonucleic acid (DNA) to encrypt images
+  securely :)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BerlianGabriel
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/crypto/chemistry-lab
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7b7f0c4a4f598f0262787247a92ad5028c839e61802872ab0627e7fc05abfdb2
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 1fe743652baaadd14b1b8e234274b92bd95d1c16d6703953dc90b75cb70a5167
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 831067811ecb0e658286a1ff5e49b0b0c256c5cb49a4e62c3bd5519eb05399b5
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 75fc9c0ab308b1e01fff06c4ddf07fe37524a73d575843feb1f45a54d90e7682
+  - path: src/chall.py
+    algorithm: sha256
+    value: cee2330afbb14365f00044c88f4ef646d8e1233a3d2a7545a54085eac89e70b9
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 80c2669ad15592d6398185d23ac0624823ed672d176da9be5f36e466b44c9034
+  - path: src/flag.png
+    algorithm: sha256
+    value: b3dc139a4a1a556798de55d0d1c3b8d29f468364a126e7ea6361495c29c7ef27
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 74e9f0d93971d33682ed9f8f43010832601f4b36529f8f88b4d0eafeb3064901
+  - path: src/run.sh
+    algorithm: sha256
+    value: e6cd012b9462f5d3d6b6bd017b181050e166e71864e44515fb6aa244edd0b88b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

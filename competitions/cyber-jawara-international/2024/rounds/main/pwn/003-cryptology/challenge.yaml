@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-pwn-003
+name: cryptology
+slug: 003-cryptology
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: pwn
+description: super secure encryption using C++! (again!)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/pwn/cryptology
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 722e38eae98adaac57acec74904c4d85d396c1c6bbab013af1a7644a6d46b2c8
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: f3d418dc2e0c48f565164747f017e7a66167ce0adc89fd84e47493da3b9db39c
+  - path: deploy/cryptology
+    algorithm: sha256
+    value: dc2797f138959fc0c386a3a902b63efe0483231915b45275022d3297aca10bf6
+  - path: deploy/deploy.sh
+    algorithm: sha256
+    value: 99745cbfd4c9f9a3f80c204c0053fde42b29e631518e12a847d6aa329fafcf6b
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 97f15e478afbe9ec2cc5335cebe82115aa68dfd744239933c61e7218931eb587
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 5512c6b2cfcb15783feae135010ba978612d4e1c16cd27d53edb6ded68f5681b
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 27429e2417aa2df34096563dff598da319762598b2e1af1b750a1734b385fac2
+  - path: deploy/xinetd
+    algorithm: sha256
+    value: 8d92da8e7ee4998f9c16e811792f3f4f30347e16a13943a2f86fce98ef5753b3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-blockchain-001
+name: Intro to ETH
+slug: 001-intro-to-eth
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: blockchain
+original_category: blockchain
+description: Welcome to the world of Ethereum smart contracts! This warmup challenge is designed to introduce
+  newcomers to the basics of interacting with Ethereum blockchain technology. You'll get hands-on experience
+  with a simple smart contract, learning how to read and interact with it. No prior blockchain knowledge
+  is required – just bring your curiosity and problem-solving skills. Are you ready to take your first
+  steps into the exciting realm of decentralized applications?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/blockchain/intro-to-eth
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0b40dee035241f70d9954b37e389714cb64b9849b8e73b63fe4a9166fbb7567f
+  - path: deploy/.env
+    algorithm: sha256
+    value: 4849d25e0f0ff49d48e70ff58146deca5a2c69d39be601e5e817218958cad6ab
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: ff5bd15d77f08bbfb6389dd162a6f300fe994acb8a3c781463c50ce6dd49dd9b
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 7ba6823910d8c4dae820ec409eabb84d93627e42863e02c02b3494288a811b40
+  - path: deploy/contracts/Setup.sol
+    algorithm: sha256
+    value: 4b12b8a7f588e770008a16e5bc3e385305d03e89ce9a144e28b58f434e024a46
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: a90b84ff847052c086ad3dfa0ad46b2ef7b77f953d6104b90209f3593dc5a192
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

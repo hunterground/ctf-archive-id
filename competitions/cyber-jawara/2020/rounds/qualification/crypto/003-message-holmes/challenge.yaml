@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-crypto-003
+name: Message Holmes
+slug: 003-message-holmes
+original_name: Message Holmes [590 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Message Holmes :
+
+  0d3b108d097c0197097c0197124107d608a8099913470d3e096a0eb506ea14bb096713470b5f06ea11690431122401b114bb09840cf6
+
+  Public key: 29, 2021, 666, 879, 3, 404, 1337, 1945
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:590
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Cryptography/Message Holmes [590 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bc20b4350239036f6458a5e07176b022e87a5f2327725ab47421985ac09b63b2
+  - path: encrypt.py
+    algorithm: sha256
+    value: ede8c9da78bf9b4ec0ccbbe80f49da5fb0b93d8b3cbb6869b6633f209e8a61b0
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Message Holmes [590 pts].

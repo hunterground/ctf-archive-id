@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: final
+competition_id: cyber-jawara
+edition_year: 2015
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: onsite
+description: On-site final round of Cyber Jawara 2015.
+dates:
+  start: '2015-11-10'
+  end: '2015-11-10'
+statistics:
+  challenge_count: 3
+  participant_count: 16
+references:
+- title: rndc/cyberjawara-2015-final-writeup
+  url: https://github.com/rndc/cyberjawara-2015-final-writeup
+  type: writeup
+  accessed: '2026-11-23'
+- title: Prestasi Fast Affine Projection di Cyber Jawara dan Cyber Sea Games 2015
+  url: https://cs.ui.ac.id/2015/10/25/prestasi-fast-affine-projection-di-cyber-jawara-dan-cyber-sea-games-2015/
+  type: other
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >-
+  The final was held on site at Hotel Sari Pan Pacific Jakarta on 10 November 2015, with 16 teams having
+  advanced from the online qualification; both facts come from a Fasilkom UI report on the event. The
+  imported material is the RNDC participant write-up, not an organizer problem set. It states that it
+  covers "beberapa soal final" (some of the final challenges), so the round had more challenges than the
+  three archived here. This final set is distinct from the qualification material collected by
+  aliansi/soal-cyber-jawara-2015: no challenge name is shared between the two sources.

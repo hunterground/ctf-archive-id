@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-pwn-002
+name: Starlight
+slug: 002-starlight
+original_name: Cyber Jawara 2019 Qualification - Starlight
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/pwn/Cyber Jawara 2019 Qualification - Starlight
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: languages/en.lang
+    algorithm: sha256
+    value: ec1746d22a62c5145ad6fd8fae297b5766f46af8974b7fcd026892e5bf3556e1
+  - path: languages/id.lang
+    algorithm: sha256
+    value: 5a3e8883facc1c74115310519d85680d425969d4e5bf292f2e8ecc0027ac1beb
+  - path: languages/it.lang
+    algorithm: sha256
+    value: e11810678517f02c09bb1f8ea222d9126ded7dd92a835fa6aa943f6f96bec5ae
+  - path: starlight
+    algorithm: sha256
+    value: 94a4a599cd6e104f11945dafd03cba5c098aaf3ab5c4469a7990ef5859e2c087
+  - path: starlight.c
+    algorithm: sha256
+    value: eaeb6626349659beb9e2e73151edae0ad6b89f938cf61241421826b6e16a6e4a
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

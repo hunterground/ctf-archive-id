@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-pwn-002
+name: Mongkotoid
+slug: 002-mongkotoid
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  I wanna be a mongolotoid so freakin baaad~~
+  throw everything that i never hadd~
+
+  nc {IP} 10015
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: linz
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Pwn/Mongkotoid
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 06c350d44ba5b0aebe30cfdd42f3f75d5e1eeba261328c7ef544b8c6fb231eb5
+  - path: README.md
+    algorithm: sha256
+    value: e43b4aa767ec48dab942de4f98a6d04cac861d400d7f3c8895a8f949a4379dae
+  - path: challenge.yml
+    algorithm: sha256
+    value: c071dcfa66dd01906e79be90cc84b6851c2a83b4ed87f6c785abb2d83f9b273f
+  - path: deploy/chall.patch
+    algorithm: sha256
+    value: b78f0c523bed1dac6da1064e4bbcb95a6dfaa1ff796262f88e8a569627997832
+  - path: deploy/commit
+    algorithm: sha256
+    value: acd63d2d29548d469b01a5ff072e5a6d0c2b320e70988f27188a3de8fb2c554a
+  - path: deploy/flag_reader
+    algorithm: sha256
+    value: 4f1b13f4ce519918e84a8521e2e905aded096230be848875e36faa516794c1f9
+  - path: deploy/js.tar.xz
+    algorithm: sha256
+    value: 48ca8dcb4b62836faeec4a5c985dcd6ea546f17f16c63d4e5b2efdc30e113e7a
+  - path: deploy/pow
+    algorithm: sha256
+    value: e5a6de4ff537b396e53e016fa6dabb73f61b7accbb91e0300fd470cfcd79f770
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 0696f37c7de6d594ff4a6e921eb8b318ffd5723fbf63e39cfd47e5a902bf632e
+  - path: deploy/runner.py
+    algorithm: sha256
+    value: b8b80076cfe1880d3ddaede669c9edb3b948c25f506511098f7474a9c9b0664a
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 06c350d44ba5b0aebe30cfdd42f3f75d5e1eeba261328c7ef544b8c6fb231eb5
+  - path: dist/deploy.tar.xz
+    algorithm: sha256
+    value: 726eabbd05330dee958ff2fa31e18ecdc504edc615013de8ede1fd99824fa760
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 4510119cd21b78cb0877eed1a68eed336c03a8109d780d7276f514e7f2fbf698
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 58cc65cd737509115863e10a2e901195b781ffa9caf1e61dabacd4231526868d
+  - path: flag
+    algorithm: sha256
+    value: ab9957d7b7f93214271aca3763dedd359f3b806933537aaca909b7b21139b139
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

@@ -1,0 +1,25 @@
+schema_version: '1.0'
+id: final
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+name: Final
+original_name: Final
+sequence: 3
+type: final
+delivery: online
+description: Jeopardy final of Cyber Jawara 2020, held online.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 13
+  participant_count: null
+references:
+- title: CJ2020-Final-CTF
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source calls this the final and describes a Jeopardy problemset. It gives no dates and does
+  not document the qualification stage.

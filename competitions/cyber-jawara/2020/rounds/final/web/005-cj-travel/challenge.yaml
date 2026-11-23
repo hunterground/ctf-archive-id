@@ -1,0 +1,124 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-web-005
+name: CJ Travel
+slug: 005-cj-travel
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Visat
+  team: null
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: web/cj-travel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 69aa73cf5bc3377a7d97f2e8d2bb773195815efe225af7f1be6f5b9306bbe14f
+  - path: README.md
+    algorithm: sha256
+    value: 7fc74cbda61fa1f32557fd6a601a521c367876df827c0f52fd371b4c1453aab1
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bb462bb93ecb7e4c28a8644aa8d3f1b22f99564d52971c639792777419a7895d
+  - path: env.example
+    algorithm: sha256
+    value: 2dce8563263769a1e5b017d3d4ca1c6fee69e780dc1c41f0b80b9a99fa30555c
+  - path: schema.sql
+    algorithm: sha256
+    value: 75daf6f77586745fd7baa674893bbdaa3c6774ec0b6c3a277bd8c86af4a43c57
+  - path: weasyprint/.dockerignore
+    algorithm: sha256
+    value: d22d91e15bd2c767423fdedab2bc253d2a15715f9479d2fa238a91b1e0b752ab
+  - path: weasyprint/.gitignore
+    algorithm: sha256
+    value: eee20c6fd3a63472ac2c7be3042e86bdc6b52a678190665e592337311806f737
+  - path: weasyprint/Dockerfile
+    algorithm: sha256
+    value: 98688d59e8efc04fc611a958c90074fabc044d575e3013ac1803d8117e7f67ae
+  - path: weasyprint/app.py
+    algorithm: sha256
+    value: 8a7227952aad10c58ea162ca07f417b91bb60c5b96f45773bd7d3dc39ce4b68a
+  - path: weasyprint/requirements.txt
+    algorithm: sha256
+    value: cda5b75afadbc8bfae25520871055d3389c1246e76cac6f06042247a4c0a0f96
+  - path: web/.dockerignore
+    algorithm: sha256
+    value: d22d91e15bd2c767423fdedab2bc253d2a15715f9479d2fa238a91b1e0b752ab
+  - path: web/.gitignore
+    algorithm: sha256
+    value: eee20c6fd3a63472ac2c7be3042e86bdc6b52a678190665e592337311806f737
+  - path: web/Dockerfile
+    algorithm: sha256
+    value: 7db38aa02095b7bed476d0a726f2f289ece03459b2016b29db40e20aa00c7155
+  - path: web/app.py
+    algorithm: sha256
+    value: 52ec8b59ee7185c17be3d9e9d17429a20389e89cb49e1c38522ed45c50b9a19b
+  - path: web/requirements.txt
+    algorithm: sha256
+    value: 5326641d9690a21a91f45da3457d378a923203cd01564df1752e1be632a0de84
+  - path: web/static/style.login.css
+    algorithm: sha256
+    value: 629292f7e6dc0a405ed0f45c3c28d2ab55112e08971f5abdb3bf7b87f0ca4bc9
+  - path: web/static/style.register.css
+    algorithm: sha256
+    value: bb43f31ed30f002fac34e3aef9f6ca68b8d08d59dc15cfd138e4a7905ca63522
+  - path: web/templates/bookings.html
+    algorithm: sha256
+    value: 4420cc938b47c43b0972efa37fe9f7f2f0f5e47442a494790fc9db249dccca0f
+  - path: web/templates/eticket.html
+    algorithm: sha256
+    value: 533d4bee97d0bb09831d7e5b67fde0059672cf22cc7ebd5ce0461f27401a8a13
+  - path: web/templates/hotel.html
+    algorithm: sha256
+    value: 5aa22b9b351f7c2d84ac6d3b87ac9d2406a3ff5581970c2cade052a2e8716912
+  - path: web/templates/index.html
+    algorithm: sha256
+    value: b5c98471a82bf730c88a9a1a6677983c5560d4ffbb9e3e5c909744c7975c713f
+  - path: web/templates/layout.html
+    algorithm: sha256
+    value: 98394455c933aa0196c4a58ae126f10c7f3edec37af9501ee2588c6f4f020f40
+  - path: web/templates/login.html
+    algorithm: sha256
+    value: 0d5d07032d9675e50be111d745af42fe063b6dbf1ef7364f17579aee328098a5
+  - path: web/templates/register.html
+    algorithm: sha256
+    value: 9e877434c68ad69be7b7e4c89c4f103c6da246900511e53580134d49f2115247
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

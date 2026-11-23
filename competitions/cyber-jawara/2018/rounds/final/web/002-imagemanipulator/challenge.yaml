@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-web-002
+name: p03-imagemanipulator
+slug: 002-imagemanipulator
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: An image manipulator with PHP for resize, crop, rotate, flip, mirror, grayscale, and sepia
+  effect.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p03-imagemanipulator
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5381c0a1da7ea3050360ba2ca7c04715208ab05bf5a38b0cb6b974083882c577
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b232960e100daedd65b5748ec6539519ae8ec54f6f9519830b9dfe43c8fd2740
+  - path: src/app/App.php
+    algorithm: sha256
+    value: 06db35b9c3db725a8bdc5c8f30542655aa786e5fe5eaca35fd2d70d1e87c622f
+  - path: src/app/Driver/Base.php
+    algorithm: sha256
+    value: b99b1b9ae8cf3b6719f3e6e138b95f5ca3e48a20e7b4e25c7ef0e033bf046b50
+  - path: src/app/Driver/Convert.php
+    algorithm: sha256
+    value: d8a2568cfe4516eb2a3ff8c0726a9f244f70aadc50d1b3aa6e06bbf35eb199be
+  - path: src/app/Driver/Image.php
+    algorithm: sha256
+    value: a779174d38c9605860518a9900e8b2af1c076e664c80df03d07c310c72f11248
+  - path: src/app/Driver/index.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/Template/index.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/Template/main.html
+    algorithm: sha256
+    value: 71edb1461875e7f7a60b3164572f8b91a8e7425bbc5032bb7e8d7cbc33a198f8
+  - path: src/app/assets/index.html
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/app/assets/main.css
+    algorithm: sha256
+    value: 2127f60538625e70e8b8fe030f3e65515af748ef3fa26f10acd1ae7335d6115a
+  - path: src/app/inc.php
+    algorithm: sha256
+    value: d0f2c1f95e95d997160715980dcffc319307716c378d69beacce3f7e13447964
+  - path: src/app/index.php
+    algorithm: sha256
+    value: 38dcc1138c529411454378b4a733084f999e7aeb39709d7f10ff4c4609e0d276
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: daebf5861793f58cb604cfb2d2be8987d9ad2da0719575d5aae595974520de42
+  - path: src/start.sh
+    algorithm: sha256
+    value: 1d14ee1465de7a5e2aafae8805f0c85c4cc27c8b877f8b820be83638c94e940a
+  - path: src/usr/bin/gs
+    algorithm: sha256
+    value: 338437ec7253e3feba30e7466a824a94e717d4c36df53331dcdf055523259788
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50300 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

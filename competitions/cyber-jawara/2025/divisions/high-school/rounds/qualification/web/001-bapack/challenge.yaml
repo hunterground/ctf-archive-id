@@ -1,0 +1,124 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-web-001
+name: Bapack
+slug: 001-bapack
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: web
+original_category: Web
+description: Selamat pagi pak!
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Web/Bapack
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a2b6b5ddd0de5d4dbf05961948c4b51696e2dd74eeca0357c17e867a2b8d4712
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7684b03690ae239717c03b001f726c9fd22b81b83f30884d1710781e341285ed
+  - path: challenge/.gitignore
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 66a349462a832182a4102bd9313b2d68659fa5078ae0530973979aaf7bf9ede2
+  - path: challenge/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: challenge/README.md
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: challenge/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: challenge/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: challenge/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: challenge/bot/Dockerfile
+    algorithm: sha256
+    value: 348885c1798717b2dddb7d27a78507185a39ff6d44ad6d9883bb2415d40e26f8
+  - path: challenge/bot/bot.js
+    algorithm: sha256
+    value: 0a7f0c68a9c8e9836e582ce2188b06926490d3d199895a72a449fb46c6fdc638
+  - path: challenge/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: challenge/bot/package.json
+    algorithm: sha256
+    value: e66cf7ece1715058e7838829d9beba0cf357609631987e95d2260c83f2ad8d38
+  - path: challenge/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge/build/package-lock.json
+    algorithm: sha256
+    value: 0925dc84568e3c40b8b2ef87431da69f90cfd28bc68356a6bcb7f08b184bb9fb
+  - path: challenge/build/package.json
+    algorithm: sha256
+    value: 2ec206f425afc2c8d74d60d0d9e5a1baee14f0e1fd743cd21a75cec3e798c0b0
+  - path: challenge/build/src/index.html
+    algorithm: sha256
+    value: 9730d2c96f2faa616b8ba1e6eeab2524bf767f2f6fda06685b1ffed95e865c7f
+  - path: challenge/build/src/index.js
+    algorithm: sha256
+    value: a8357e6e480342a4ebd71e337dd2baf6a1cc83ec494c69b060ae08d941532238
+  - path: challenge/build/webpack.config.js
+    algorithm: sha256
+    value: c2f15017d3dcb477f74bb620b34ad79841e2e8247bf40ad31efb09bf86e3a95e
+  - path: challenge/docker-compose.yaml
+    algorithm: sha256
+    value: bbe58f933240fdeb7630c55f04280cead7d310783ff381c3d4e3bb1e4572d592
+  - path: challenge/proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: release/.gitignore
+    algorithm: sha256
+    value: 56c9e1c4b5360a5b089004396ed37fe3a20f7c4f5954072098039789ba3ab68a
+  - path: release/src.zip
+    algorithm: sha256
+    value: cb1f08076709bdec1ce2641fc8bb6e9df07f5fcfb74577f082bcd6f8e9170e55
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/quals/pelajar/Web/Bapack/challenge/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

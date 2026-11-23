@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-web-001
+name: Example Box
+slug: 001-examplebox
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: Whenever I test my code or web applications that require HTTP requests, I prefer using example.com.
+  To share this experience, I've made one public. Since it only allows requests to example.com, I’m confident
+  it’s secure... or is it?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: farisv
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/web/examplebox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bd77607d92872c89af69620028734646396a40a0c5dd7c8c3527aaf7488b8c7c
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 84badfe11c5ef081a053ef130801bd220dd1e91507bafdcfbfcb25e788b3ad22
+  - path: deploy/run.sh
+    algorithm: sha256
+    value: 02d7bd64f2af3f04fb317ee5ac862e5d44342e986c90a06f64776c93b18bbfff
+  - path: release/release.sh
+    algorithm: sha256
+    value: 58810aba5789ba7392db23a10ea96d597bde6363ca03129dac5d665d05eb041f
+  - path: release/web-examplebox.zip
+    algorithm: sha256
+    value: 33e821bf769c5cf6a510a1e49829f8824a28eb02df152085f6159eef04086875
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: c3779607625a4eae77ccaf74f10bab2e1dad19171dd882757796aeb65e573c5a
+  - path: src/app.py
+    algorithm: sha256
+    value: f0d035678a6ed1b3f84af66a5f8882426bc785838ea9d1ef8a9b28afbc136765
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 1f92aa9ab0e57c9d61cce87dfa199485d2487642289f93c6f57039e5271a362b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 1598a3d6dc5c3186eec22bfee656b8f4366c3c8efdbef4fdcac3039d94a30580
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 602329fc543c6aba56f81d6740abe14ac9213aee887444c76fe45699537e7a8f
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 94c29281da82fc1583059e9ad78bf4f8775c2a9357a2c143e2b0a0ae76c5720b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

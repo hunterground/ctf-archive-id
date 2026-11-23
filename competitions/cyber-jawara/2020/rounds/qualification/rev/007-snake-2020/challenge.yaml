@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-rev-007
+name: Snake 2020
+slug: 007-snake-2020
+original_name: Snake 2020 [611 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Permainan Snake dari Cyber Jawara sebelum-sebelumnya kembali lagi! Kali ini sudah menggunakan GUI yang dibuat dengan Java.
+
+  Flag akan ditampilkan ketika skor permainan mencapai 8172. Tetapi, apakah ularnya akan muat?
+
+  Hint: Mengubah skor secara langsung menggunakan aplikasi semacam cheat engine tidak akan mengeluarkan flag.
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:611
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Reverse Engineering/Snake 2020 [611 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4aee86c2b836de38d58a2e6ced460e5359ebdf187a0904578a55989a5ddaed2d
+  - path: Snake.jar
+    algorithm: sha256
+    value: 0048d0410197319f3152c112051e8f587672c6763ad26b66327e62d8e69e432e
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Snake 2020 [611 pts].

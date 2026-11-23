@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-pwn-004
+name: Ranjau
+slug: 004-ranjau
+original_name: Ranjau [669 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Mari bermain permainan yang sulit! Diberikan petak 4x4. Di setiap giliran, Anda harus memilih satu petak yang aman dari ranjau. Tentunya posisi ranjau selalu diacak layaknya game minesweeper. Flag akan ditampilkan ketika Anda berhasil bertahan hingga 8 giliran.
+
+  nc pwn.cyber.jawara.systems 13373
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:669
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Binary Exploitation/Ranjau [669 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5559cf0b55cbd5c73d4bd87bd2942505db8fe5052cb0be5d82afe120cd557d7c
+  - path: ranjau
+    algorithm: sha256
+    value: ca0538f5c578d142434e478aa2d77765eb5f0dbbf2f43481479c0487458b8e60
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Ranjau [669 pts].

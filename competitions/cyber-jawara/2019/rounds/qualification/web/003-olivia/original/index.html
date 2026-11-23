@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Olivia</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAyNTgAAAAAAP///wB0fIoA4+HhAK2srADn3OgAYoajAMnIxwAFBQUA1tbWAAAAAAAAAAAAAAAAAAAAAAAAAAAAERERERERERERMwAAAAAzEREzAAAAADMRETNmZmZmMxERM2ZmZmYzERF3ZpmZZncREXdmmZlmdxERIhF3dxEiEREiEXd3ESIREapViIhVqhERqlWIiFWqERGIiBERiIgREYiIERGIiBERREQREUREERFERBERREQRERERERERERH//wAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMPDAADDwwAAw8MAAMPDAAD//wAA" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h5 class="center-align">Hi, {{sid}}!</h5>
+      <p class="center-align">Convert your image to 64x64 monochrome here!</p>
+    </div>
+    <div class="row">
+      <form method="POST" id="form">
+        <div class="row input-field">
+          <input type="text" id="url" name="url" placeholder="https://upload.wikimedia.org/wikipedia/en/8/84/Olivia_Hye_album.jpg" class="validate" required autofocus>
+          <label for="url">URL</label>
+        </div>
+        <a id="convert" class="waves-effect waves-light btn-large">🐺 Convert</a>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.getElementById('convert').onclick = function() {
+      document.getElementById('form').submit();
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-pwn-001
+name: Brankas
+slug: 001-brankas
+original_name: Brankas [691 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Kali ini, Anda harus membongkar brankas digital. Brankas ini cukup unik. Brankas memiliki 30 lapis. Di setiap lapis, Anda harus memasukkan PIN berupa 5 digit angka yang di-generate secara random pada setiap Anda mengakses brankas. Untuk setiap PIN yang dimasukkan, brankas akan menampilkan jumlah posisi digit yang sudah benar. Untuk proteksi, Anda hanya bisa menebak PIN sebanyak 10 kali untuk setiap lapis.
+
+  Sebagai contoh, misalnya PIN untuk lapisan 1 brankas adalah 50123. Interaksinya adalah sebagai berikut:
+
+  > PIN: 01234
+
+  > Benar: 0
+
+  > PIN: 12123
+
+  > Benar: 3
+
+  > PIN: 00123
+
+  > Benar: 4
+
+  > PIN: 50123
+
+  > Benar: 5
+
+  > Lapisan 1 terbuka
+
+  nc pwn.cyber.jawara.systems 13374
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:691
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Binary Exploitation/Brankas [691 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4df7af87acd1dc11a078e5dea1943f53e7237e2c0f1fb3b2fd41a71be58446a6
+  - path: brankas
+    algorithm: sha256
+    value: 52f11f135335666f57a054fc4aabdf9c529707e1c2588b07a6828c79d648ff80
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Brankas [691 pts].

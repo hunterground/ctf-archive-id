@@ -1,0 +1,15 @@
+schema_version: '1.0'
+id: government-affiliated
+name: Cyber Jawara Kedinasan
+original_name: Kedinasan
+competition_id: cyber-jawara
+edition_year: 2025
+description: Track for students of government-affiliated schools (Kedinasan) in the 2025 Cyber Jawara
+  qualification round.
+verification: corroborated
+notes: 'The official 2025 site lists four tracks in its navigation: National, High-School, CSIRT Team,
+  and Kedinasan, and serves a dedicated page at /2025/government-affiliated whose heading is "Cyber
+  Jawara Government-Affiliated School". No challenge material for this track was found: the organizer
+  repository sksd-id/CJ2025-public holds only umum, pelajar, and csirt directories, so no challenges
+  are imported under this division. The division is recorded so the edition is not silently presented
+  as a three-track event.'

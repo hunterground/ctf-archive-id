@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-forensics-001
+name: FTP
+slug: 001-ftp
+original_name: FTP [100 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: |-
+  Potongan paket jaringan berikut berisi beberapa paket data yang terdiri dari berbagai komunikasi protokol, termasuk FTP. Sepertinya ada hal menarik yang bisa Anda ketahui dari situ.
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:100
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Forensic/FTP [100 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3de4f3220456811634c72557af81736eb25c2dcb8443521f4bb9ca7b084359fd
+  - path: ftp_cj.pcap
+    algorithm: sha256
+    value: f7402bed318a89d05ccb3860d9f3b83ecd54fc3fac38793e92493e82103df021
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as FTP [100 pts].

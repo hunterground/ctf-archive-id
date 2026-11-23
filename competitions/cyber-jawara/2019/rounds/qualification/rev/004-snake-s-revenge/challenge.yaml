@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2019-qualification-rev-004
+name: Snake's Revenge
+slug: 004-snake-s-revenge
+original_name: Cyber Jawara 2019 Qualification - Snake's Revenge
+competition_id: cyber-jawara
+edition_year: 2019
+division_id: null
+round_id: qualification
+category: rev
+original_category: reverse
+description: |-
+  Pada Cyber Jawara tahun lalu, peserta diharuskan melakukan cracking terhadap program Snake agar mendapatkan skor tertentu untuk mendapatkan flag. Tahun ini Anda harus melakukan cracking terhadap game Snake yang berbeda yang sudah diproteksi dan Anda harus mencapai skor tepat 133333337 untuk mendapatkan flag.
+
+  Note:
+
+  - Game ini berbentuk aplikasi ELF yang dapat dijalankan di terminal Linux 64 bit.
+
+  - Gunakan 'w', 'a', 's', dan 'd' untuk bergerak.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2019-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2019 Qualification/reverse/Cyber Jawara 2019 Qualification - Snake's Revenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: df05f4e9dc3fec7da23653c2cac70835c11a36260512003947e5355a5ec82741
+  - path: snake_revenge
+    algorithm: sha256
+    value: 454ff10104c0363856c85d19b63e34e2130630a6e1423cc73de6945ff82e923e
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: cyber-jawara-international-2024-main-forensics-003
+name: Sleeper
+slug: 003-sleeper
+original_name: null
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: forensic
+description: Wareth is a person who always leaves his laptop without sleep, lock, or anything done by
+  himself. He only depends on Windows features to automatically handle his laptop. Someday, he can't access
+  his account! He said he didn't do anything suspicious, but a few hours ago, he installed an app for
+  the internet. Can you help?!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Blacowhait
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-international-2024-challenges
+  source_type: git
+  repository: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  commit: eade4586651a7f319f9189872105fed7335b5c7c
+  original_path: challs/forensic/sleeper
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: aebc1a5f25b8233c916a23ccfff5d2826d674c68fcacc5b04b4439b59930176b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-international-2024-challenges
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null

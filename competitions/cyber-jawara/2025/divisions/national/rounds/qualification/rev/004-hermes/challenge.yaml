@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-national-qualification-rev-004
+name: Hermes
+slug: 004-hermes
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: national
+round_id: qualification
+category: rev
+original_category: Reverse
+description: https://thehustle.co/originals/how-to-win-the-hermès-game
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/umum/Reverse/hermes
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0c2b3ef2f2f2f8d79ad70639e822e60497ff8493de46cd92d04dd2d603e34a83
+  - path: challenge.yml
+    algorithm: sha256
+    value: f5c3799d99270eec60b2d5a9bb18ec665e22bf0770f6ef3b351896866c1e87b8
+  - path: release/hermes.apk
+    algorithm: sha256
+    value: 96b863e9981627fdc551b2eaca77202c5c739b39fd704d32f2a7b2dfd90ccc54
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

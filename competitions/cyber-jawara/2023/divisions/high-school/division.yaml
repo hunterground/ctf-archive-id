@@ -1,0 +1,13 @@
+schema_version: '1.0'
+id: high-school
+name: Cyber Jawara High-School
+original_name: Pelajar
+competition_id: cyber-jawara
+edition_year: 2023
+description: High-school participant track of Cyber Jawara 2023.
+verification: needs_scope_review
+notes: >-
+  Both imported 2023 source repositories label their contents "Tingkat Pelajar", so the division id is
+  high-school to match the archive vocabulary used for the 2025 event, and the source wording is kept in
+  original_name. The 2023 edition also ran National and CSIRT Team tracks, but no material for those
+  tracks has been imported, so they are not created as division entities.

@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: qualification
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+name: Qualification
+original_name: Qualification
+sequence: 2
+type: qualification
+delivery: online
+description: Online qualification round of Cyber Jawara 2020.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 26
+  participant_count: null
+references:
+- title: ArkAngels/CTF-Source-Codes - Cyber Jawara 2020 Qualification
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source groups the challenges as Binary Exploitation (5), Cryptography (3), Forensic (5), Reverse
+  Engineering (7), and Web Exploitation (6), plus a separate Warmup stage recorded as its own round. Challenge
+  directory names carry the original point values, preserved in the points tag. Toko Masker 1-3 form a
+  prequel series to the Toko Masker 4 challenge of the 2020 final and are distinct challenges. Two reverse
+  challenges link their binaries externally instead of shipping them; those links are recorded as omissions.
+  The source gives no round date.

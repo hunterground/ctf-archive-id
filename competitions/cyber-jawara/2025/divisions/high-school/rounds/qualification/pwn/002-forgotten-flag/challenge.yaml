@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-pwn-002
+name: Forgotten Flag
+slug: 002-forgotten-flag
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Oops, I left my flag in .bss area. Please don't leak it somehow...
+difficulty:
+  value: Easy-Medium
+  source: organizer
+tags: []
+authors:
+- name: zafirr
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Pwn/forgotten_flag
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 60b03015b6d5594f481481bf75ce952d2a0f38857256ae7cec1e72ecd6f406e6
+  - path: challenge.yml
+    algorithm: sha256
+    value: c8206f116d267841b0d076f69198bd454815783acd17ca91802e0be5d59c1dcc
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 12dc18aba001f9e82b6e3c65fd83f07d6179462361a6f8a73853d0ad18daa975
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: cfe9f99df5660f4cf64881bbf3db6340cb97c49318ff3885f6ac314b7174257f
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: 84fa46ee8d04fbd3466450e6ff43c68c18fe64f0a9829f0572752882f1ee0460
+  - path: challenge/forgotten_flag
+    algorithm: sha256
+    value: 77a9ecb6a03d4dbe72531a9e2c870388d9bef9bffce3d6ea8eb22c4ed1eb7b92
+  - path: challenge/forgotten_flag.c
+    algorithm: sha256
+    value: a4cc00720a69497397c9b4dd204d8a6dc8554406625d00b48125747a62757542
+  - path: release/Dockerfile
+    algorithm: sha256
+    value: 12dc18aba001f9e82b6e3c65fd83f07d6179462361a6f8a73853d0ad18daa975
+  - path: release/docker-compose.yml
+    algorithm: sha256
+    value: cfe9f99df5660f4cf64881bbf3db6340cb97c49318ff3885f6ac314b7174257f
+  - path: release/flag.txt
+    algorithm: sha256
+    value: b9633b26d486c6280cdae212bc3d0911c53a52a6fcb37b8c7dd1d7b10ae70729
+  - path: release/forgotten_flag
+    algorithm: sha256
+    value: 77a9ecb6a03d4dbe72531a9e2c870388d9bef9bffce3d6ea8eb22c4ed1eb7b92
+  - path: release/forgotten_flag.c
+    algorithm: sha256
+    value: a4cc00720a69497397c9b4dd204d8a6dc8554406625d00b48125747a62757542
+  - path: src/.gdb_history
+    algorithm: sha256
+    value: 305a0d136cd5fd87221f8e2826e59b1648788af6b65a5b6f0f211f9e0282704b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9cb0482b50b6f07316d3bc2e87fe18c9dbe06cafea7bfb4722fafb9b948cc877
+  - path: src/forgotten_flag
+    algorithm: sha256
+    value: 77a9ecb6a03d4dbe72531a9e2c870388d9bef9bffce3d6ea8eb22c4ed1eb7b92
+  - path: src/forgotten_flag.c
+    algorithm: sha256
+    value: a4cc00720a69497397c9b4dd204d8a6dc8554406625d00b48125747a62757542
+  - path: writeup/.gdb_history
+    algorithm: sha256
+    value: c9d056385875abac3aa4aae5c0cf880f80d92cd0c00b8774203dbc529d698a71
+  - path: writeup/payload.md
+    algorithm: sha256
+    value: 1ae3695a4c2b3aab89a78e48ce274a6faff8677d5f61414a6a45672783ada5b3
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []

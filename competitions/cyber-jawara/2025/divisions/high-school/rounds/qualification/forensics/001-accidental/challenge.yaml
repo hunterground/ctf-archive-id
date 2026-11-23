@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-forensics-001
+name: Accidental
+slug: 001-accidental
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  While I'm playing along with my `pyftpdlib` to debug my localhost FTP and switched along bidirectional host with other tool, yet it looks like I accidentally leaked one of the SSH password that I forgets to clear in my terminal. I'm doomed!
+
+  The flag can be found from what I try to download from FTP and also combined with the leaked SSH password.
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Forensics/Accidental
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 68cc1d9dc45e3fcc39064e7452f4dad49085f71e22f9081a059146b464fcf660
+  - path: challenge.yml
+    algorithm: sha256
+    value: f995810de488b4c0c8db3945f5c883f5716039f93eab13c87653cf5d2d77d632
+  - path: challenge/sniffed.pcap
+    algorithm: sha256
+    value: c3f005932c364f2f85ab1e2fe10f901813882ae9b1a448c7bf37e9ebd557f79a
+  - path: dist/sniffed.pcap
+    algorithm: sha256
+    value: c3f005932c364f2f85ab1e2fe10f901813882ae9b1a448c7bf37e9ebd557f79a
+  - path: release/sniffed.pcap
+    algorithm: sha256
+    value: c3f005932c364f2f85ab1e2fe10f901813882ae9b1a448c7bf37e9ebd557f79a
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: static-attachment
+  services: []
+  requirements: []

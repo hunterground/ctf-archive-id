@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: main
+competition_id: cyber-jawara-international
+edition_year: 2024
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: Single Jeopardy stage of The Cyber Jawara International 2024.
+dates:
+  start: '2024-10-27'
+  end: '2024-10-28'
+statistics:
+  challenge_count: 27
+  participant_count: 211
+references:
+- title: CTFtime / The Cyber Jawara International 2024
+  url: https://ctftime.org/event/2552/
+  type: third_party_archive
+  accessed: '2026-11-22'
+- title: The-Cyber-Jawara-International-2024-CTF
+  url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source describes one online Jeopardy CTF window with no separate qualifier or final, so the
+  round uses id main with type other.

@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-crypto-001
+name: CaaS
+slug: 001-caas
+original_name: CaaS [514 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  CaaS (Crypto as a Service) adalah layanan yang dapat digunakan untuk mengenkripsi suatu plain text. Kode sumber layanan ini bisa diunduh di bawah.
+
+  Encrypted string berikut adalah flag yang sudah dienkripsi dengan layanan yang sama.
+
+  pJ8GmKrvZS0dO3LPfcvjXrbIRusaEF/wb/Ps8ENwmH0fvkcIau74mSnZPwBvbyMeXyUrAvDBY+McaztsZsM+nw==
+
+  Anda harus mendapatkan plain text dari flag tersebut.
+
+  nc net.cyber.jawara.systems 3001
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:514
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Cryptography/CaaS [514 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c957cb54680245981063518b72dee1254afb089741a1b615ffcbcbc794fe097e
+  - path: caas.py
+    algorithm: sha256
+    value: 84abf188484b669ea6563b06a0cb2022e704876d19a4f9a8238d3b7a4a995d74
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as CaaS [514 pts].

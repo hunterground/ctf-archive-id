@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: cyber-jawara-2023-high-school-final-pwn-001
+name: Compressor
+slug: 001-compressor
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2023
+division_id: high-school
+round_id: final
+category: pwn
+original_category: binexp
+description: Pwn challenge; README hanya memuat judul dan emoticon palu.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2023-finalist-danieldd28
+  source_type: git
+  repository: https://github.com/Danieldd28/CyberJawara23-Finalist
+  commit: 9dabdf0a0f77b5b8c3a8e33a88d47280f7229065
+  original_path: binexp/Compressor
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.txt
+    algorithm: sha256
+    value: 357f8d4e9c9c7abc59f58a8ce1d0ca34d4b4f0ca7687c623f53aaeef019c01fe
+  - path: compressor
+    algorithm: sha256
+    value: 8194d275cf82575282973579827987b106e968617bab9e80842093dca0166e4f
+licensing:
+  declared_license: MIT
+  copyright_holder: Danieldd28
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) Danieldd28 (https://github.com/Danieldd28)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: remote
+  services: []
+  requirements: []
+references:
+- title: cyber-jawara-2023-finalist-danieldd28
+  url: https://github.com/Danieldd28/CyberJawara23-Finalist
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: needs_scope_review
+notes: The upstream README reads 'Soal Finalist Cyber Jawara 2023 - Tingkat Pelajar', so the set is the
+  high-school track of the 2023 final round. Instance hostnames under ctf.cyberjawara.id appear in Web/Note,
+  Web/NoteAgain, and Web/magic-0 READMEs, which corroborates the event. The repository sits on a personal
+  account and does not state that its owner set the challenges, so authors are left empty. The flag.txt
+  shipped with Web/magic-0 is an original distribution file and was copied as-is.

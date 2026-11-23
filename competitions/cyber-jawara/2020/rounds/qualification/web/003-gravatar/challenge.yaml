@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-qualification-web-003
+name: Gravatar
+slug: 003-gravatar
+original_name: Gravatar [700 pts]
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Gravatar adalah salah satu penyedia layanan avatar yang sangat banyak digunakan walaupun sekarang pamornya kalah turun semenjak adanya layanan integrasi akun dan avatar melalui OAuth populer seperti Google dan Facebook.
+
+  https://gravatar.web.cyber.jawara.systems/
+
+  Hint:
+
+  - gravatar_image_path = urllib.parse.urljoin(gravatar_url, path)
+  - whois $(dig +short gravatar.web.cyber.jawara.systems)
+
+  Hint:
+difficulty:
+  value: null
+  source: unknown
+tags:
+- points:700
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-quals-arkangels
+  source_type: git
+  repository: https://github.com/ArkAngels/CTF-Source-Codes
+  commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+  original_path: Cyber Jawara 2020 Qualification/Web Exploitation/Gravatar [700 pts]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3547d9489eb0c4b850f94dc76b6294a2bbeae70f1895d94cbded85607c5c717a
+licensing:
+  declared_license: MIT
+  copyright_holder: ArkAngels
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) ArkAngels (https://github.com/ArkAngels)
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-22 treats a source with no license as MIT, and permitted redistribution is recorded on that
+    basis.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: ArkAngels/CTF-Source-Codes
+  url: https://github.com/ArkAngels/CTF-Source-Codes
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory labels this challenge as Gravatar [700 pts].

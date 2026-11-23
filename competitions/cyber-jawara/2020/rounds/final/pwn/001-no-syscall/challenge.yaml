@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: cyber-jawara-2020-final-pwn-001
+name: No Syscall
+slug: 001-no-syscall
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2020
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fariskhi
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2020-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2020-Final-CTF
+  commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+  original_path: pwn/no-syscall
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6f8b57a447c14daff2837e7239751b934db748d5a238581a12930ca3c06936e8
+  - path: README.md
+    algorithm: sha256
+    value: 174bfad5e514e7409ba1f247f180cd1ab7e700de8ccb4057d29c2f43f8db7c9c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c7033b7073d99f55e7636ee8233a85918764632b249b5bb36a8ceb501286d37c
+  - path: service/jail
+    algorithm: sha256
+    value: 407119c43d708c8bb06afe21a6c27b368d5f388f50720eaabe88bdaf57790925
+  - path: service/shellcode
+    algorithm: sha256
+    value: 142dac0a9d777da1581bb8a165c6db2bf411b27ae4ebdda9f5e757198a880701
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-22 to record a source with no license
+    file as MIT.
+references:
+- title: cyber-jawara-2020-final-challenges
+  url: https://github.com/farisv/CJ2020-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: The source README.md for this challenge is the organizer after-event write-up and describes deployment
+  and the intended solution. It is preserved in original/ and was not copied into the description.

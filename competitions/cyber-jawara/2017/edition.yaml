@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: cyber-jawara-2017
+competition_id: cyber-jawara
+year: 2017
+name: Cyber Jawara 2017
+status: completed
+verification: needs_scope_review
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 23
+references:
+- title: akanura/cyber-jawara-2017
+  url: https://github.com/akanura/cyber-jawara-2017
+  type: third_party_archive
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >-
+  A 2017 edition is established by a single 2017-08-30 repository that packages 23 Cyber Jawara 2017
+  challenge directories. Every soal.txt in the tree points its service address at
+  cj2017.ctf.idsirtii.or.id or cj2k17.ctf.idsirtii.or.id, which ties the material to the 2017 event
+  infrastructure. The uploader is one personal GitHub account with a single commit and no README, and
+  nothing in the repository states that the owner set or organized the challenges, so the edition is
+  recorded as needs_scope_review and challenge authors are left empty. The source states no round name;
+  the set is modeled as the qualification round because every entry is an online jeopardy service and no
+  final-stage material is present. The event date is not established, so dates are null.

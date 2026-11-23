@@ -1,0 +1,42 @@
+schema_version: '1.0'
+id: qualification
+competition_id: cyber-jawara
+edition_year: 2015
+division_id: null
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online qualification round of Cyber Jawara 2015.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: null
+  participant_count: null
+references:
+- title: Prestasi Fast Affine Projection di Cyber Jawara dan Cyber Sea Games 2015
+  url: https://cs.ui.ac.id/2015/10/25/prestasi-fast-affine-projection-di-cyber-jawara-dan-cyber-sea-games-2015/
+  type: other
+  accessed: '2026-11-23'
+- title: Pembahasan Soal Cyber Jawara 2015 - Camouflage.mp4 (Easy)
+  url: https://noob1t4.blogspot.com/2015/10/pembahasan-soal-cyber-jawara-2015_11.html
+  type: writeup
+  accessed: '2026-11-23'
+- title: soal-cyber-jawara-2015
+  url: https://github.com/aliansi/soal-cyber-jawara-2015
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >-
+  The 2015 event ran as an online qualification (penyisihan) followed by an offline final. A Fasilkom UI
+  report states that 208 teams entered and 16 advanced as finalists to the final held 10 November 2015,
+  and a participant blog published these challenges with the remark that the online competition had
+  finished and the offline finalists had been announced. The aliansi/soal-cyber-jawara-2015 repository,
+  collected by team ISA of Forum Open Source Akakom, holds this qualification material as loose
+  attachments. No challenge material from this round is imported yet: the source is a flat attachment
+  dump with no per-challenge directories and no category labels. Participant blogs identify individual
+  files as separate challenges and give their flags, but the mapping from file to event category is not
+  stated by the source, so importing it requires an explicit per-file classification decision. The round
+  date is not recorded; the qualification ran in September-October 2015, before the 10 November final.

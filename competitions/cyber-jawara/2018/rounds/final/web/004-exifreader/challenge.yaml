@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: cyber-jawara-2018-final-web-004
+name: p07-exifreader
+slug: 004-exifreader
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2018
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: EXIF or Exchangable Image File is a format that is a standard for storing interchange information
+  in digital photography image files using JPEG compression. This web based app is useful for forensic
+  analysis to quickly read the EXIF data inside an image.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: cyber-jawara-2018-final-challenges
+  source_type: git
+  repository: https://github.com/farisv/CJ2018-Final-CTF
+  commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+  original_path: p07-exifreader
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 01b7238976f18e3d30becdf9d433fcb2f3df079ac7cbe98e60edab58787acaa4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 75b96dfb540253fb765c1fd076054b75bb85286b0ff2390403ca8034639ebaa4
+  - path: src/app/server.py
+    algorithm: sha256
+    value: 2edaad216f8a5f9ad9d5102792bf504b06546deb84728495dd3d5dc2dd7bd70e
+  - path: src/app/static/style.css
+    algorithm: sha256
+    value: 22fe311b4c5890b82f764ae5f5579427293cd7f64aa8a4a6261f8829926e2736
+  - path: src/app/template/main.html
+    algorithm: sha256
+    value: 07d219a898bb6f323aebd587694721d3eb6dcef0dd4154098cdc638fd41d4a12
+  - path: src/app/template/show.html
+    algorithm: sha256
+    value: 374cb40ef6fd6d5f18fd2005bc33f951360b891bd4a7d3f4a9d3a46c1b46c5e3
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 2126929a2837a75b1324026247550c74434ae9cea2d50e9cb3fde03435ba0454
+  - path: src/start.sh
+    algorithm: sha256
+    value: 056b1011d01853d1a1d5538b2eadced512ffa1335ccb3e1b16f98a0e18a65ee9
+  - path: src/usr/bin/gs
+    algorithm: sha256
+    value: 338437ec7253e3feba30e7466a824a94e717d4c36df53331dcdf055523259788
+licensing:
+  declared_license: MIT
+  copyright_holder: farisv
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2018 farisv
+  permission_reference: https://github.com/farisv/CJ2018-Final-CTF/blob/9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2/LICENSE
+references:
+- title: cyber-jawara-2018-final-challenges
+  url: https://github.com/farisv/CJ2018-Final-CTF
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: 'connection_info from README.md list of services: http://127.0.0.1:50700 Attack & Defense service
+  from the 2018 final. The source README gives no event category label; the archive category is a best-fit
+  classification from the service description.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []

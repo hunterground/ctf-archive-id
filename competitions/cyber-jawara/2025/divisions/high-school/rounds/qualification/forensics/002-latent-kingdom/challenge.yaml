@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: cyber-jawara-2025-high-school-qualification-forensics-002
+name: Latent Kingdom
+slug: 002-latent-kingdom
+original_name: null
+competition_id: cyber-jawara
+edition_year: 2025
+division_id: high-school
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |-
+  CloudServe is a PaaS platform startup that hosts a static marketing site on AWS. One day their site was attacked by an attacker. Your job is to reconstruct what happened end-to-end by answering 15 investigation questions.
+
+  These questions can be answered through remote connection.
+
+  `nc {IP} 31337`
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: aseng
+  team: null
+- name: kangwijen
+  team: null
+organization: null
+provenance:
+  archive_id: cyber-jawara-2025-quals-sksd
+  source_type: git
+  repository: https://github.com/sksd-id/CJ2025-public
+  commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+  original_path: quals/pelajar/Forensics/Latent Kingdom
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: edc6718522212f5247cbb1ed4d4e3585b298ad3eaf27fedee2d1d1b4b139253f
+  - path: challenge.yml
+    algorithm: sha256
+    value: ca014b5c7d2b5569165ee145d1be6061777e6ca16e0dcbd7e0b57a8ddc8675b4
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: 17a9a8cc958707e93eb1d92a98d04b11931f32ce44f8b02144dfd97a58543842
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: b71dedc49fd960df54020b4131640d3fd878a3ecf1456d327d945cf8a52fbe0f
+  - path: challenge/main.py
+    algorithm: sha256
+    value: 5444b98c8dde24c0928651216a2621082ba6d7b7261f2090b209aba1d61a64df
+  - path: dist/s3_logs.zip
+    algorithm: sha256
+    value: 6bb3d634bd90e9d21e3d601fda5463bd4f793f07e63a7243b8c7d668085df7da
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 7a06875e97098fbfe4ab3f01328b7bbc1c58fc97bab210855e31b7461e94dbf3
+licensing:
+  declared_license: AGPL-3.0
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: https://github.com/sksd-id/CJ2025-public/blob/84ee9df7ca27ad567b2eb378851b3194fe6cb333/LICENSE
+references:
+- title: cyber-jawara-2025-quals-sksd
+  url: https://github.com/sksd-id/CJ2025-public
+  type: official_repository
+  accessed: '2026-11-22'
+verification: corroborated
+notes: null
+environment:
+  type: docker
+  services: []
+  requirements: []
