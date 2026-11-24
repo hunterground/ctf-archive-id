@@ -91,13 +91,18 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: 'Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and
-  the KEITO writeup Forensics section. The directory mixes organizer stage artifacts with participant
-  work, because the solver wrote their own scripts to complete the stages. The participant material is
-  moved to solvers/: `solve.py`, a stage-4 extraction script, and `solvesolve.py`, an IHDR CRC brute-forcer.
-  The stage text files 4.txt and flag3.txt contain partial flag fragments the solver recovered, and they
-  are preserved as shipped because they document the chain. `script.py` names an image that is not present
-  and is treated as a shipped artifact left in original/. Participant solver material was moved out of
-  the challenge distribution
+notes: |-
+  Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and
+  the KEITO writeup Forensics section. The directory mixes organizer stage artifacts with
+  participant work, because the solver wrote their own scripts to complete the stages. The
+  participant material is moved to solvers/: `solve.py`, a stage-4 extraction script, and
+  `solvesolve.py`, an IHDR CRC brute-forcer. The stage text files 4.txt and flag3.txt contain
+  partial flag fragments the solver recovered, and they are preserved as shipped because they
+  document the chain. `script.py` names an image that is not present and is treated as a shipped
+  artifact left in original/. Participant solver material was moved out of the challenge
+  distribution to solvers/ per archive policy, keeping its relative path: `solve.py`.
 
-  to solvers/ per archive policy, keeping its relative path: `solve.py`.'
+  Provenance caveat: this challenge material was obtained from a participant writeup repository
+  (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+  the original distribution, but this copy is not an authoritative organizer source. It may be
+  cleaned up or restructured in a later pass.

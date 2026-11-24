@@ -64,6 +64,12 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: Qualification challenge. Category follows the source rev directory and both writeups Reverse Engineering
-  sections. The source ships the decompiled GiftManager.java alongside the class file as an author-side
-  artifact. No solver scripts were present in the source.
+notes: |-
+  Qualification challenge. Category follows the source rev directory and both writeups Reverse
+  Engineering sections. The source ships the decompiled GiftManager.java alongside the class
+  file as an author-side artifact. No solver scripts were present in the source.
+
+  Provenance caveat: this challenge material was obtained from a participant writeup repository
+  (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+  the original distribution, but this copy is not an authoritative organizer source. It may be
+  cleaned up or restructured in a later pass.

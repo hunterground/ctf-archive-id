@@ -155,8 +155,15 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: Qualification challenge. This is the only 2024 challenge whose full application source, Dockerfile,
-  and docker-compose file were located, so it is preserved verbatim. The source directory contains src/token.txt
-  and src/users.txt, which are participant session and account artifacts from their own instance; they
-  are not organizer credentials and are preserved so the tree stays unmodified. The src/__pycache__ directory
-  is excluded as generated build output. No solver scripts were present in the source.
+notes: |-
+  Qualification challenge. This is the only 2024 challenge whose full application source,
+  Dockerfile, and docker-compose file were located, so it is preserved verbatim. The source
+  directory contains src/token.txt and src/users.txt, which are participant session and account
+  artifacts from their own instance; they are not organizer credentials and are preserved so the
+  tree stays unmodified. The src/__pycache__ directory is excluded as generated build output. No
+  solver scripts were present in the source.
+
+  Provenance caveat: this challenge material was obtained from a participant writeup repository
+  (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+  the original distribution, but this copy is not an authoritative organizer source. It may be
+  cleaned up or restructured in a later pass.

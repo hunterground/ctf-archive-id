@@ -67,9 +67,15 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: 'Final round challenge. The source finals README marks it pwn and describes it as a one-shot payload
-  over a buffer overflow; the directory sits under finals. The participant exploit is moved to solvers,
-  along with the dummy and exploit bitmaps they generated, which are participant outputs rather than organizer
-  attachments. Participant solver material was moved out of the challenge distribution
+notes: |-
+  Final round challenge. The source finals README marks it pwn and describes it as a one-shot
+  payload over a buffer overflow; the directory sits under finals. The participant exploit is
+  moved to solvers, along with the dummy and exploit bitmaps they generated, which are
+  participant outputs rather than organizer attachments. Participant solver material was moved
+  out of the challenge distribution to solvers/ per archive policy, keeping its relative path:
+  `exploit.bmp`; `exploit.py`.
 
-  to solvers/ per archive policy, keeping its relative path: `exploit.bmp`; `exploit.py`.'
+  Provenance caveat: this challenge material was obtained from a participant writeup repository
+  (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+  the original distribution, but this copy is not an authoritative organizer source. It may be
+  cleaned up or restructured in a later pass.

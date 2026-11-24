@@ -67,9 +67,14 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: 'Qualification challenge. Category follows the source quals README, which marks it pwn. The exploit
-  uses a one-byte heap overflow into a FILE structure; the participant exploit is moved to solvers. Its
-  libc and loader are preserved as shipped. Participant solver material was moved out of the challenge
-  distribution
+notes: |-
+  Qualification challenge. Category follows the source quals README, which marks it pwn. The
+  exploit uses a one-byte heap overflow into a FILE structure; the participant exploit is moved
+  to solvers. Its libc and loader are preserved as shipped. Participant solver material was
+  moved out of the challenge distribution to solvers/ per archive policy, keeping its relative
+  path: `exploit.py`.
 
-  to solvers/ per archive policy, keeping its relative path: `exploit.py`.'
+  Provenance caveat: this challenge material was obtained from a participant writeup repository
+  (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+  the original distribution, but this copy is not an authoritative organizer source. It may be
+  cleaned up or restructured in a later pass.
