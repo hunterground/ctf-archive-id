@@ -1,0 +1,116 @@
+schema_version: '1.0'
+id: 0bytectf-2024-main-pwn-002
+name: Catatan Sipil
+slug: 002-catatan-sipil
+original_name: null
+competition_id: 0bytectf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: '"Pencatatan sipil adalah sistem dimana pemerintah mencatat peristiwa penting warga negara
+  dan penduduknya." -Wikipedia-
+
+
+  `nc <ip> 20038`
+
+
+  Author: Lychnobyte'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Heap Overflow
+- Tcache Poisoning
+- Safe Linking
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Zerobyte-2024/Catatan_Sipil
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: f9b0b186cb0eb5a78614aeb21858961c233cd8e6915475d844eef7cfb74f06ae
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 5ce6eb4ff0478658bd7d09fc2d39e4dee2707846c6e0425142ea4ba0fd9ffccc
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: d8901a11ee391c085e4fb2d4168a4ca0b85bf9b217d2fa44dc68f8247633afd6
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: src/Makefile
+    algorithm: sha256
+    value: c8baf8855d61c53334a857b07c30978f11313d837c704d5d4a1e665bae2ddfac
+  - path: src/chall
+    algorithm: sha256
+    value: 5ce6eb4ff0478658bd7d09fc2d39e4dee2707846c6e0425142ea4ba0fd9ffccc
+  - path: src/chall.c
+    algorithm: sha256
+    value: 94bd90e947169703fbde5d791b128f3e8a9b2cb17125d9dd4c01a44ea629c1b1
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d48a2487b1f817062c300acf73dd8fb9ff77e20166e0968a0e4cb41c0699867e
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 6d952c32823027467a6d8d1871164e89e6c7b1fe3337dcdda4072fad9470df9d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction on 2026-11-23: a challenge or competition source
+    without an implicit license is recorded as MIT.'
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+- title: 0byteCTF 2024
+  url: https://zerobyte.id/events/0byteCTF-2024/
+  type: official_website
+  accessed: '2026-11-23'
+verification: corroborated
+notes: Primary author distribution from Lychnobyte (afmaghribi). Ships its own GLIBC 2.33 runtime under
+  src/ and dist/, plus the released dist/chall.zip attachment. The author repository table rates the challenge
+  Hard while the challenge README states medium; the README value is recorded. src/flag.txt is part of
+  the shipped distribution and was copied unchanged; no flag appears in this metadata. Service listens
+  on port 20038.

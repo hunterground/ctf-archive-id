@@ -1,0 +1,51 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-rev-001
+name: Cryver
+slug: 001-cryver
+original_name: cryver
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Indra Yana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/reverse/cryver
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.zip
+    algorithm: sha256
+    value: ae781bd5452566e7c0bd10b1de6937c29eb583ed95e14e706fd9e9497ddf1fa4
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

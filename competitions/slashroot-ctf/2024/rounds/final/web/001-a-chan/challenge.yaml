@@ -1,0 +1,322 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-web-001
+name: a-chan
+slug: 001-a-chan
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/web/a-chan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 03b07d13fcbd14888fca928b4d495a4226365b193601622283c2b47007af850f
+  - path: Dockerfile
+    algorithm: sha256
+    value: ecd18ee9f872d3d4e53e3d05111cb2ba9fb615ba11dcbf5ca24a42a92adeb624
+  - path: flag.txt
+    algorithm: sha256
+    value: c6c54ac298e312b4d7f786eb76fa5a9b306682f0babe954a4b3c8c01e68752d5
+  - path: public/css/base.css
+    algorithm: sha256
+    value: d990984b869bea0a5a3374b0e2bd6467e29e7094ebff7b87a16b7d4e993a473b
+  - path: public/css/font-awesome/css/font-awesome.css
+    algorithm: sha256
+    value: 295074933a25ae5d6646f86705412ae194ca64508e04984857c61ef495c66ec2
+  - path: public/css/font-awesome/css/font-awesome.min.css
+    algorithm: sha256
+    value: 0fb1bbca73646e8e2b93c82e8d8b219647b13d4b440c48e338290b9a685b8de1
+  - path: public/css/font-awesome/fonts/FontAwesome.otf
+    algorithm: sha256
+    value: 0d34da07e5cbcb4ff087b397966a9f9ffb4d6ed7c7060568565203c02f3fee11
+  - path: public/css/font-awesome/fonts/fontawesome-webfont.eot
+    algorithm: sha256
+    value: e511891d3e01b0b27aed51a219ced5119e2c3d0460465af8242e9bff4cb61b77
+  - path: public/css/font-awesome/fonts/fontawesome-webfont.svg
+    algorithm: sha256
+    value: d5b5636ebb2e124810436200086b74a60dff9e8a8be7f4a1088bf5d3458bc3c8
+  - path: public/css/font-awesome/fonts/fontawesome-webfont.ttf
+    algorithm: sha256
+    value: 4d6eb9e9d852a2a6f74e7c428456a2f07fc63a1613d10192d8ed3401d9da5ffa
+  - path: public/css/font-awesome/fonts/fontawesome-webfont.woff
+    algorithm: sha256
+    value: 199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1
+  - path: public/css/fonts.css
+    algorithm: sha256
+    value: cd4c4db579e307a0d81c655a3390c48fb11ca1503e94553bcf3c0280a2f3bf47
+  - path: public/css/main.css
+    algorithm: sha256
+    value: f5e80c26cc1372e46aa39209ee3f82791a56dae046db6d9d88021ed8212b82bf
+  - path: public/css/micons/fonts/icomoon.eot
+    algorithm: sha256
+    value: a0624018b3efd4d7324d75a5d8b05a98802824c9b747c3fedb2155a7fd00071f
+  - path: public/css/micons/fonts/icomoon.svg
+    algorithm: sha256
+    value: c02efc97e5daabb62214a66acc4c0efbd19e94aca9574535e25c5803f4c726cb
+  - path: public/css/micons/fonts/icomoon.ttf
+    algorithm: sha256
+    value: 1209b735a0a5a297d6379986d00fe88f6b537e9070ecf79455a3129302f56870
+  - path: public/css/micons/fonts/icomoon.woff
+    algorithm: sha256
+    value: 391e449bc60625d6685adde14f3c0e6ca675a815ad6cc41ab46d0a142e58e1a3
+  - path: public/css/micons/micons.css
+    algorithm: sha256
+    value: 266f19efba773108a75857e3c0227752f55e8203292c4b747b6d4c3e7fe37eaa
+  - path: public/css/vendor.css
+    algorithm: sha256
+    value: ac9901bd2b2619a05d17e6579675d69dcdfc1657066b9b2811e6dfc35f2a3655
+  - path: public/favicon.png
+    algorithm: sha256
+    value: c649d2d16a08b56109c300e65995d7e6db832d4513ee167f9d8897ee5f2a851d
+  - path: public/fonts/lora/lora-bold-webfont.eot
+    algorithm: sha256
+    value: 3d06cdf6cae33bc3ac9cf3a3047c263de3e83e3daa1f29a5911ccf7e64b9699a
+  - path: public/fonts/lora/lora-bold-webfont.svg
+    algorithm: sha256
+    value: 41d633bd9a64bb8b538b4da48eab1575f5dc1a0ff83097c3b8c9329d271db18d
+  - path: public/fonts/lora/lora-bold-webfont.ttf
+    algorithm: sha256
+    value: 0c03d89a5b4d039c70acaa3c8e1f53e2ea2ee5b63845d49c4828d4478d63d0ab
+  - path: public/fonts/lora/lora-bold-webfont.woff
+    algorithm: sha256
+    value: f40b27b3419187219c1bee107a7d5bab8c77a514df5a829824d4f146f889e4a1
+  - path: public/fonts/lora/lora-bolditalic-webfont.eot
+    algorithm: sha256
+    value: 457cd0f8ad8ee0667bb138ac30fd8f2d8ec302e037e6120a4a13fa75044f39cf
+  - path: public/fonts/lora/lora-bolditalic-webfont.svg
+    algorithm: sha256
+    value: 79d54cdbea3c5448745700dc677eea7d2656bee4ab9dc2db0e138aeeb3a87bf2
+  - path: public/fonts/lora/lora-bolditalic-webfont.ttf
+    algorithm: sha256
+    value: b743c967efcc63da4eb7f0dba923839262cb2a6247bd0ea73c1e47754b68c885
+  - path: public/fonts/lora/lora-bolditalic-webfont.woff
+    algorithm: sha256
+    value: 6277cd7b3a1dc18bb285f57cee95e319ef96061efc828b33c56f460a6acb3033
+  - path: public/fonts/lora/lora-italic-webfont.eot
+    algorithm: sha256
+    value: 98f014f8cee81cf030011a33f6d56adb4d0b5ab3fd9c1a4a629115145b0c9585
+  - path: public/fonts/lora/lora-italic-webfont.svg
+    algorithm: sha256
+    value: 52953538a7a77c385dabffdd177900f373609642d602d786ec65efb6309fb21e
+  - path: public/fonts/lora/lora-italic-webfont.ttf
+    algorithm: sha256
+    value: d78ee35a5e291416a12aeeae505f059e1c1ea6420c4b00e82b081f792a10fe04
+  - path: public/fonts/lora/lora-italic-webfont.woff
+    algorithm: sha256
+    value: 2158e38e20e2b94f8b0c39467dca21da637e3709bf41278e9f232dbf2744752a
+  - path: public/fonts/lora/lora-regular-webfont.eot
+    algorithm: sha256
+    value: 71a0bdf7a8708d64d16a8efd1f991acbc190facf122d488fced1e32625fd42a8
+  - path: public/fonts/lora/lora-regular-webfont.svg
+    algorithm: sha256
+    value: c76d3a311fddf0568c33eb8b2cabbf00326183b8c4acce662d7556d282b72222
+  - path: public/fonts/lora/lora-regular-webfont.ttf
+    algorithm: sha256
+    value: 62036e005018dc320ce6813cb7b0c93a977b60dae6fa28a92b867b5503ecda41
+  - path: public/fonts/lora/lora-regular-webfont.woff
+    algorithm: sha256
+    value: e0f258bf37945ab28e0214d6b60f94fea7e02c511ac41a1bc66e62149dedfa18
+  - path: public/fonts/lora/stylesheet.css
+    algorithm: sha256
+    value: 80a4a2a88ed8ba5891ef57862583c9f3859c7dfdec5b9ff8ceeeab9b00f851aa
+  - path: public/fonts/poppins/poppins-bold-webfont.eot
+    algorithm: sha256
+    value: 913fc8c05c37736f8791a2b237f18557355863fd4d7e525d38a4b9d53e8d9279
+  - path: public/fonts/poppins/poppins-bold-webfont.svg
+    algorithm: sha256
+    value: 634daf89350f4538ad2327626ca40f4d2e0b0b3fc8230b825529f9773c9eaad4
+  - path: public/fonts/poppins/poppins-bold-webfont.ttf
+    algorithm: sha256
+    value: ebc07ffa938a1490620cc9c777e11bb5ea91e3fa8c0dc2a969396e55ad353540
+  - path: public/fonts/poppins/poppins-bold-webfont.woff
+    algorithm: sha256
+    value: fc19b4039e3c3acb8b8fb6e4f08fc98cec55ad18c427ee8f6b4c2205241b30d0
+  - path: public/fonts/poppins/poppins-bold-webfont.woff2
+    algorithm: sha256
+    value: bcf40b9433773c31a27cb51c62924aa061dd0d0de58694f255eadbb4597c559a
+  - path: public/fonts/poppins/poppins-light-webfont.eot
+    algorithm: sha256
+    value: 95c975889a120688d17c5ad39d7f9848da5cca2247a3b8273f9b31baa043a870
+  - path: public/fonts/poppins/poppins-light-webfont.svg
+    algorithm: sha256
+    value: 04da7917967154fda4803fb5e6fe53bb1cbcbf317f45ff9ad91139566f86c6c7
+  - path: public/fonts/poppins/poppins-light-webfont.ttf
+    algorithm: sha256
+    value: df29e6f562986f59715665bf833a607d5b4e30a602598c8460056b4654248336
+  - path: public/fonts/poppins/poppins-light-webfont.woff
+    algorithm: sha256
+    value: a9e30912fcec89a6902e32bd5191ebded43a22a56a2329d05e155fcdd42b3856
+  - path: public/fonts/poppins/poppins-light-webfont.woff2
+    algorithm: sha256
+    value: 2bc81092898db63fa17298769d3bd37a9bebd4ce11f0a6647164e9fa8132f3e9
+  - path: public/fonts/poppins/poppins-medium-webfont.eot
+    algorithm: sha256
+    value: 5ace5f61f61109dafc9ebfd59a2f6a2fc2e21d00365cb301cad2331db1d84ec1
+  - path: public/fonts/poppins/poppins-medium-webfont.svg
+    algorithm: sha256
+    value: c3cd4383b7d5c63f73d2676c97af9d0f375f9c84f6aaf40a452363822c056144
+  - path: public/fonts/poppins/poppins-medium-webfont.ttf
+    algorithm: sha256
+    value: 55ae099718d973841bc87674cb529f8e2c0953d0e4f951e0b4f10112c4502310
+  - path: public/fonts/poppins/poppins-medium-webfont.woff
+    algorithm: sha256
+    value: f35ed01038cb4c27974ae4dbeeedc5ad0899d2ff5359f857df5f3d1a10944c63
+  - path: public/fonts/poppins/poppins-medium-webfont.woff2
+    algorithm: sha256
+    value: 13109c4f619a31c896e16a96d678244f9b426de464c36e8f3358b6831735c3b0
+  - path: public/fonts/poppins/poppins-regular-webfont.eot
+    algorithm: sha256
+    value: 08b9c76dd83da8bb14a12c17c3f43e6b06b4805b0834f00ebac6bd8ec0868567
+  - path: public/fonts/poppins/poppins-regular-webfont.svg
+    algorithm: sha256
+    value: 18e3edbc64058f77e6e67f90e77150f15ac3ca1ceee06d4f7145ea8638a78ad5
+  - path: public/fonts/poppins/poppins-regular-webfont.ttf
+    algorithm: sha256
+    value: 29a8fc3cf806b86353e4ac2fab00d1869f74294cdd5d9309b912fffc7ffe3279
+  - path: public/fonts/poppins/poppins-regular-webfont.woff
+    algorithm: sha256
+    value: 5c0e5ec0e0d7825420c5134535f4cee4377aa5ee1d8c6c0142d4c71648ea7dff
+  - path: public/fonts/poppins/poppins-regular-webfont.woff2
+    algorithm: sha256
+    value: a72c6b818932b1ca76a15654d8c7c89429aa30a986663076a1491f41ced381b3
+  - path: public/fonts/poppins/poppins-semibold-webfont.eot
+    algorithm: sha256
+    value: 2d33080b9eb44c62c4b3661b47f43d2c85f75862b2105ad2769149b61f0cb3eb
+  - path: public/fonts/poppins/poppins-semibold-webfont.svg
+    algorithm: sha256
+    value: ec17875d5d7cdb913b8e3e87702c4feb409d5eb5df42d7d4925ed83bacf8e321
+  - path: public/fonts/poppins/poppins-semibold-webfont.ttf
+    algorithm: sha256
+    value: f9de0f2ed73ab4a501b71efd8411cc0b893d4396dcdb0c9d541d5910d21b8ffe
+  - path: public/fonts/poppins/poppins-semibold-webfont.woff
+    algorithm: sha256
+    value: ef3fb27455b125b1cc6cd06df88819c0621c4a4e886f502de5bf1381427097e0
+  - path: public/fonts/poppins/poppins-semibold-webfont.woff2
+    algorithm: sha256
+    value: 2cba92ebd876da15cac59011482c09236183bc5fcd715a5676598a9551341dfe
+  - path: public/fonts/poppins/stylesheet.css
+    algorithm: sha256
+    value: 8a4d33bb892f1ebdfb1306800f19e0e920ccb7534d96f988c72f19bffe10c5eb
+  - path: public/images/bg.jpg
+    algorithm: sha256
+    value: a727ad08bc00dbfce43b7d00ea08351b3c49e5853813e6a9f76c1c16052b7a42
+  - path: public/images/intro-bg.jpg
+    algorithm: sha256
+    value: a24aa0b583e2140ab0cba65ed24949de2f2ae7054b04781de2fb1905fb883c55
+  - path: public/images/logo.png
+    algorithm: sha256
+    value: ae3fa886edfb6b7f5e0d2695540e6e1e469954867966981e86a103cf88671d6c
+  - path: public/images/portfolio/beetle.jpg
+    algorithm: sha256
+    value: b311b372a75f086855f1292a327dabfcf61ca6a3af497e3fd9e71e3788d19075
+  - path: public/images/portfolio/clouds.jpg
+    algorithm: sha256
+    value: ead6004567ee736259b4a0d1120f1b006881e1cba48b33a28bddb50c4217273f
+  - path: public/images/portfolio/liberty.jpg
+    algorithm: sha256
+    value: 2240c3bedf18899ce607de03cb36bf9fa7412747e08fa12117ed35f881491258
+  - path: public/images/portfolio/lighthouse.jpg
+    algorithm: sha256
+    value: 53f1958a98da145434a6aabee00c97578a8c40016f35f8d36a3ec6191b503eae
+  - path: public/images/portfolio/modals/m-beetle.jpg
+    algorithm: sha256
+    value: 0bd966880a904930eab17e777077013d7d4ccc2dff24d43d1cbe35868479af3e
+  - path: public/images/portfolio/modals/m-clouds.jpg
+    algorithm: sha256
+    value: 2cddc2c8971710af967e1cfb46124eabd6140a9decdc1de7047a8bbdb51b9fe8
+  - path: public/images/portfolio/modals/m-liberty.jpg
+    algorithm: sha256
+    value: 5a1cfa686b8bfef8fff51049c845a2b07c931a879707cca99cb88b982179f48c
+  - path: public/images/portfolio/modals/m-lighthouse.jpg
+    algorithm: sha256
+    value: 270a5a9242e06f46266ab3a795996f66f24606069b7b35157859aa607387aaf9
+  - path: public/images/portfolio/modals/m-salad.jpg
+    algorithm: sha256
+    value: 9b9a6708fd413bccb328cb1a77449d45c2ca28a8c3a3f6fc04c77d68e447441c
+  - path: public/images/portfolio/modals/m-shutterbug.jpg
+    algorithm: sha256
+    value: 7cf1f9a008f47ac47b4dff764118c3457985a7cc699def1b3ca91ce4f32404fc
+  - path: public/images/portfolio/salad.jpg
+    algorithm: sha256
+    value: 94e224c58221d37ee3c9a0f3f6ab99cf487dc10317d16ef7c421982d1033b085
+  - path: public/images/portfolio/shutterbug.jpg
+    algorithm: sha256
+    value: 1e99e2d39b2693db1523c30dfdf0b827e3b878139530232cbc73ef61bed0a9cf
+  - path: public/images/profile-pic.jpg
+    algorithm: sha256
+    value: e9bd74491dfbf060df2233b504d2e44b0dbf1f1491994ca28c2e78d29a7274fe
+  - path: public/images/sample-image.jpg
+    algorithm: sha256
+    value: 228d601dfdb87b312136e5411206c13c72e920ee6f0747825a3549b6fbffe4c0
+  - path: public/inc/sendMessage.php
+    algorithm: sha256
+    value: aec2f8ab56f4605332b0d165bb366439c466e7ea178f354a796a24b6a99e1556
+  - path: public/index.php
+    algorithm: sha256
+    value: d87194592041725a0d30e6c21c4ee0b9911a959c37c61f18a29382505aaa87ae
+  - path: public/js/jquery-2.1.3.min.js
+    algorithm: sha256
+    value: 8af93bd675e1cfd9ecc850e862819fdac6e3ad1f5d761f970e409c7d9c63bdc3
+  - path: public/js/main.js
+    algorithm: sha256
+    value: dccb1b46060703c350b93f9422c266ac1045fe2b34f5c540b0e4ab8a62514a65
+  - path: public/js/modernizr.js
+    algorithm: sha256
+    value: 40646c369a9937af219b54946d683ce29e31eb908eda4b604a152b443a793f37
+  - path: public/js/pace.min.js
+    algorithm: sha256
+    value: 579a10a2485055e988338be054f866cbe713c8510442130cbda0ce11ced6c49f
+  - path: public/js/plugins.js
+    algorithm: sha256
+    value: 46f99cbae66f2988d0141d8eb7b4ef439cd4001a5950b05a99c793605b9cdd0c
+  - path: public/test.php
+    algorithm: sha256
+    value: 77ed5c1b4e8ad46a82a378a4972448f2a56e2db40350f650e599b7f9c8d6d3b8
+  - path: readflag
+    algorithm: sha256
+    value: 385f627a15bcb6387651cb4d2dda4ddfd7c3c7c53eb2e237804039f2e3732e30
+  - path: readflag.c
+    algorithm: sha256
+    value: 15b13f2f782c0b3be71920b17ad9e893bddd9fe12a8481fb4677614aeefb7ffb
+  - path: setup.sh
+    algorithm: sha256
+    value: fb8eda7f12c86f295e462ce1ff7067cb1ca3f61751356ef14d4159f2e94d8863
+  - path: test.php
+    algorithm: sha256
+    value: 01a3a4a656ea2c274c12fcf852fe2cf82c1a477239f06603b7cff399d5a091b9
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

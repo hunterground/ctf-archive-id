@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-web-002
+name: Hingga diangkasa sana, di se java
+slug: 002-hingga-di-angkasa-sana-di-se-java
+original_name: Hingga diangkasa sana di se java
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: |-
+  Proof that Java is a sus programming language: https://youtu.be/22lDAPbMFaY?t=69
+
+  It even ends at timestamp 69, the infamous, cursed number! 😱
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/web/Hingga diangkasa sana di se java
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d2d4486fdb822cd70423e97cf669158e0608f190c8b0cc9f64fafca2c7b0feed
+  - path: .gitignore
+    algorithm: sha256
+    value: e27e6f9be70ffc88337144147ccb8bc246e1e47dc888a8cdd1f543f5c98fcd88
+  - path: Dockerfile
+    algorithm: sha256
+    value: edd03f19c8e2b5077046991959fb040a56cd2ce22ca0a1bce736e7afbfb441d6
+  - path: challenge.yml
+    algorithm: sha256
+    value: f1a193a9466744481047b2641e5eb522b82949fe36c34247f178dc66daf1ba26
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 0b97359f03bb8cdd7a97ad1674803af0424baba7337e11a3d423185c4dac8acf
+  - path: flag.txt
+    algorithm: sha256
+    value: 90ab581e78aabaf55e0b600cee3d9446a1ab459210ada48d89b0952bcc0d161e
+  - path: pom.xml
+    algorithm: sha256
+    value: b16d5f9ae92646210186a7f109f43bfc95be4ff37eab9cb99c698fbc102262ef
+  - path: run.sh
+    algorithm: sha256
+    value: e7e01d86ccb82e556f48950c1520acef82780e9b57e0bc3c8cb0788af41bdb9f
+  - path: src/main/java/com/dimas/Command.java
+    algorithm: sha256
+    value: 5d15c32d5e5d2a269a05868be7da948668698b1a886e795ad0749309c8bc1197
+  - path: src/main/java/com/dimas/Gadget.java
+    algorithm: sha256
+    value: 80567166531c25981165935c163d70efd397ed42549e0e2a5bf58d051ec14ad1
+  - path: src/main/java/com/dimas/Main.java
+    algorithm: sha256
+    value: 7694d8091910d6be7229d356701695093e62cf1f6e7cbb9e48bc38a3b9bbcee6
+  - path: src/main/java/com/dimas/Util.java
+    algorithm: sha256
+    value: 2e16eac241af34f234a9d047b45109954e5b06dc3bd0528605cade52e883e3c3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The organizer challenge.yml states value 1000 and no qualitative difficulty.

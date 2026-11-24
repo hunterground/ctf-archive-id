@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-rev-003
+name: cek-khodam
+slug: 003-cek-khodam
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: Cari tahu khodam anda disini.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: roxasium
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/reverse/cek-khodam
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG.txt
+    algorithm: sha256
+    value: bdbd494823c37ed4999887e5140b62d0ab55fc385ff042c82e2a83d6abe02bb0
+  - path: README.txt
+    algorithm: sha256
+    value: 70b8c48de62178dc7510dfc8c03d34a35c297f2c87435d75ea0acecd2fc0b6fd
+  - path: app-release.apk
+    algorithm: sha256
+    value: 0e44b01e7c734bf69b24a997c32c7dcf7c419c97cd64ddd485ed315af4b35f2e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

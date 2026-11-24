@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-web-004
+name: VeryLight
+slug: 004-verylight
+original_name: verylight
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Please help me to test my website
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/web/verylight
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 0987364748373737463.txt
+    algorithm: sha256
+    value: d708fe21325f63814cc0c97345bb5081d2b94f7a6f5131f947644a1d9b1bf136
+  - path: Dockerfile
+    algorithm: sha256
+    value: 24f631cab48c5708c4cd384c92b919fcffdc039a606ed7a47e5f9f2760d3c90a
+  - path: README.md
+    algorithm: sha256
+    value: 4803b546b85fa10ac31e2c6adcb25f481c79f0dd3847f92785629624358ff9bd
+  - path: app.py
+    algorithm: sha256
+    value: 37d99fc972659c2977e990818ad36a2627cf6ad5833bb1f4fb2425535f837af0
+  - path: coomme_geeeett_youur_flek
+    algorithm: sha256
+    value: ed742e628049259a2ca234ba8869f3770d93d4d903c9a7afbb2fdf98ef9ff5ac
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7f1f88aae4d3d518e377fa0c1ca6d589a974cca8fba0d3a664d30793297400e9
+  - path: flag.txt
+    algorithm: sha256
+    value: 7571a805f10e6f8cb33799b4e448936dfa403e5da16bb8cafbe935a0edb79bff
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

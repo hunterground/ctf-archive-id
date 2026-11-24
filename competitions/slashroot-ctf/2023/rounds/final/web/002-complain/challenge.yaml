@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-web-002
+name: complain
+slug: 002-complain
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: Remember my first website? I have already fixed it. If you have any complaints about this website you can complain to admin after logging in. Your complaints will be seen by admin. However, now you have only one chance to file a complaint, and the admin can access /getFlag
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ganes
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/web/complain
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: app/Dockerfile
+    algorithm: sha256
+    value: 0966694c3ab19b05b894ca0cd0e93d5e68925e27be00c05edb69dfee6c3cf6a7
+  - path: app/bot.js
+    algorithm: sha256
+    value: f1c23ae73f05e0f007a873cd00e566827ec6f641bb89c5ec751f4476c971e926
+  - path: app/conn.js
+    algorithm: sha256
+    value: 838bb841b7bc39fac50a23de2a4de97855d488a6423d870703020996ab838972
+  - path: app/find.js
+    algorithm: sha256
+    value: 0da8cb3197b12f296dce7edb22719bab495a8bf9c8f6c89631cc12b03df03858
+  - path: app/index.js
+    algorithm: sha256
+    value: 64730605554d88d38a38c9a7874aabcfd7254222d35486785c85f92e42f0c820
+  - path: app/model.js
+    algorithm: sha256
+    value: 8a9fc413880459e51334d7388cac8405e8fb139ab504883a1c7ca3de693bfd18
+  - path: app/package.json
+    algorithm: sha256
+    value: 584da8ce27a6599cda0206004abd569351d5f52a73e423b77b43afdd577c8d48
+  - path: app/public/css/bootstrap.min.css
+    algorithm: sha256
+    value: 7633b7c0c97d19e682feee8afa2738523fcb2a14544a550572caeecd2eefe66b
+  - path: app/views/index.ejs
+    algorithm: sha256
+    value: 9e59a6401c8597f3c350db279f9b96b8a58cfb69c827727168ac93bf60b5eaa9
+  - path: app/views/regis.ejs
+    algorithm: sha256
+    value: 8a3e6ab00d5f74c4a28780429ce211da4cff49d2e2bc28a40c72ba20ad854d3a
+  - path: app/views/welcome.ejs
+    algorithm: sha256
+    value: 46ff04ddc898338690bd49196192b19bec66f7e3d52d526bf4ffe6cd3d557963
+  - path: desc
+    algorithm: sha256
+    value: 4455adfe0555ac40367078fb39057d829a29519d357e07cd953612ce4cb3bcf8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 088599a4a0aa6275a05fdb2948bf0ce69cb4acff13853ba60b53a548815811e1
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,52 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-forensics-001
+name: panic
+slug: 001-panic
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: I've just discovered that someone gained unauthorized access to my computer and trying to read my crucial file! As a forensic enjoyer, could u please help me to investigate the breach and recover the stolen data.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/forensic/panic
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7f671f05de79b5934cb8abfd57f83907d34b29f353839b765c505a6c914928a9
+  - path: dist/challenge.pcap
+    algorithm: sha256
+    value: ac66a9fb44f371cc24d61c6f0cdc8965615a0c1edc169ec2bc3092c25b1bff53
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

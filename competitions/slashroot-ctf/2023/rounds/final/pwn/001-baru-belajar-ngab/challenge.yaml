@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-pwn-001
+name: baru belajar ngab
+slug: 001-baru-belajar-ngab
+original_name: baru-belajar-ngab
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ekajaya
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/pwn/baru-belajar-ngab
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: d0965273fbdf3bd371223a366db4df7d4cdebfb31583bdc79de2aedbceb63bf5
+  - path: chall
+    algorithm: sha256
+    value: cde8cd2c743f9dd72d0ff01cfda8938cc1267b1dc20bd98d6ac392d622234f20
+  - path: chall.c
+    algorithm: sha256
+    value: a2d1e10a603e82667fcf8c5c509198c8dbe92c19194245cc451a8b5aa2ddb73a
+  - path: flag.txt
+    algorithm: sha256
+    value: eb33f6bf2ee15257451c3073a868df02b7264c47b448241be11976a3cb13a0fc
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -10,11 +10,19 @@ dates:
   end: '2023-11-04'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 46
 references:
-- title: ITB STIKOM Bali on Slashroot CTF 7.0
-  url: https://www.stikom-bali.ac.id/id/kelompok-studi-linux-itb-stikom-bali-gelar-lomba-hacking-nasional-slashroot-ctf-7-0/
-  type: organizer_announcement
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Qualification on 30 September 2023. Seminar and awarding on 4 November 2023.
+- title: SlashRoot 7 2023 problemset
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >
+  Qualification on 30 September 2023. Seminar and awarding on 4 November 2023. The organizer
+  problem-set repository separates penyisihan (qualifier) and final, which is the round structure
+  used here. The 46 imported challenges are the 28 qualifier and 18 final directories in that
+  repository. Its README problem tables list 26 qualifier and 18 final problems; RGX1337 and
+  SangChall have directories and appear in the organizer points recap but not in the README
+  qualifier table, and that recap also names Feedback and Welcome, which have no directory. The
+  repository is MIT licensed and its LICENSE is preserved at competitions/slashroot-ctf/2023/LICENSE,
+  since it covers both the qualifier and the final.

@@ -6,16 +6,26 @@ name: 0byteCTF 2024
 status: completed
 verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2024-08-18'
+  end: '2024-08-18'
 statistics:
-  participant_count: null
+  participant_count: 350
   challenge_count: null
 references:
 - title: 0byteCTF 2024
   url: https://zerobyte.id/events/0byteCTF-2024/
   type: official_website
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Independence Day edition with 350 participants. Categories included web, cryptography, digital
-  forensic, pwn, reverse engineering, OSINT, and boot to root. Dates were not stated on the page reviewed.
+  accessed: '2026-11-23'
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: Independence Day edition marking Indonesia's 79th anniversary, with 350 participants. The official
+  page's timeline dates registration to 13 August, registration closing to 17 August, the competition
+  ("Fight!") to 18 August, and the winner and reward announcement to 23 August 2024; the 18 August competition
+  day is recorded as the edition window. Categories stated by the page are web exploitation, cryptography,
+  digital forensic, pwn, reverse engineering, OSINT, and boot to root. No challenge list or archived CTFd
+  instance was found for 2024, so the edition challenge count is unknown. Only the pwn category has primary
+  author material available and was imported. No participant writeup collection, challenge archive, or
+  other secondary source for this edition was found during research.

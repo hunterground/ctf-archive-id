@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-osint-001
+name: Belajar Pemrograman
+slug: 001-belajar-pemrograman
+original_name: belajar_pemrograman
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: osint
+original_category: OSINT
+description: Selamat datang di Bali para finalis jag0 dari seluruh penjuru. Saya mau belajar CTF juga, tapi kata kating harus belajar pemrograman dasar dulu. Demi bisa menjadi heker jag0 seperti para finalis, saya sudah mulai belajar pemrograman dasar di sebuah platform populer yang digunakan untuk melatih skill programming saya. Coba cari saya disana yaahhh.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Krisna
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/OSINT/belajar_pemrograman
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cca9974ec324e95fbdeddfdebf3b1b3a400d03e79422429fe58d7fdeb4717f7f
+  - path: hint1.txt
+    algorithm: sha256
+    value: f0cf6b91406b0a3757ae76ac83c1ec3706c059f3e9d23c599d3f20a3e0905c4f
+  - path: hint2.txt
+    algorithm: sha256
+    value: 2f0d200ae2dbc1d79506e8dd5456b3f9ed0f012ac256a85360b8a11d6773bae1
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

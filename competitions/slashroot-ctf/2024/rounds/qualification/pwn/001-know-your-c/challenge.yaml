@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-pwn-001
+name: Know Your C
+slug: 001-know-your-c
+original_name: know_your_c
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  This is **Know Your Programming Language** Series, as you might know this was inspired by **Know Your Meme**
+
+  Bosen pwn aneh-aneh, tes pemahaman C aja yh
+difficulty:
+  value: medium
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/pwn/know_your_c
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1fcb5e743f51091858d1a01ce0b40d4a27911890d2e20d1feca3d3972f62193b
+  - path: challenge/Dockerfile
+    algorithm: sha256
+    value: eb0a3e0b3295741c24c466e36a2da92216873dd89fa3318e54a967fec9bcd587
+  - path: challenge/chall
+    algorithm: sha256
+    value: 0aff84dbfba2131f7078085fe24c79a5238f20098297d542d87c3336331e3c41
+  - path: challenge/chall.c
+    algorithm: sha256
+    value: 992e6019878aa687da9266ec78bddcb73d100be83764d931395622f5f2d34610
+  - path: challenge/docker-compose.yml
+    algorithm: sha256
+    value: 2dad8faac94d5aa78cc5c0ff2b798d8f3b25e8bab007761ef717ef3433c0a267
+  - path: challenge/flag.txt
+    algorithm: sha256
+    value: dbca1dc4b4d002c77fa9f1b08deff9c7c27d15f9536eee41922c4dce81f204b0
+  - path: dist.zip
+    algorithm: sha256
+    value: e16b9f7a8d2eba5fc2149b14887b483526e833ba9d3ce7c5aa94dd82df810b93
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

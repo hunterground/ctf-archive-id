@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-osint-005
+name: Waka Waka eh eh
+slug: 005-waka-waka-eh-eh
+original_name: waka_waka_eh_eh
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: |-
+  Apakah anda tahu tool yang digunakan untuk tracking waktu coding ?
+  Flag nya ada pada halaman profil(probset) website tool tersebut.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Indra Yana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/OSINT/waka_waka_eh_eh
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7cec82068a004ef3b6ffcbe289d98a323da3cc188579ed380e7e41a4d45c5838
+  - path: hint.txt
+    algorithm: sha256
+    value: 2ab24c50591900bf1981dd7119dd84b6e192c1b47e5bec29a481365ec5a10f9b
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

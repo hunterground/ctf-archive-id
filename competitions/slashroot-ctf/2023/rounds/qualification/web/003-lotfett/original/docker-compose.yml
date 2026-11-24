@@ -1,0 +1,13 @@
+version: '2'
+services:
+    lotfett:
+        image: web
+        build: .
+        container_name: lotfett
+        restart: unless-stopped
+        ports:
+            - "20012:80"
+        volumes:
+            - ./src:/var/www/html:ro
+            - ./r34L_fl4g:/r34L_fl4g:ro
+            - ./custom-php.ini:/usr/local/etc/php/conf.d/custom.php.ini:ro

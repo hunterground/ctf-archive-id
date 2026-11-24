@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-pwn-003
+name: sender
+slug: 003-sender
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: I made this mass sender for send multiple messages at one time. Please help me to try it🙏️
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/pwn/sender
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7d1615f96364a1a01b9d3c0545667d313aaad8af55a045235d73ebe045c291c2
+  - path: README.md
+    algorithm: sha256
+    value: 50d19e654729f30fc6df442cc4e5b2a1afbe9ec57a8f67b074a3931b89e30019
+  - path: app/chall
+    algorithm: sha256
+    value: 09ff63db52208092d52633fc241283d6f6d2282d10fd97bc77cf72a4f41dea34
+  - path: app/flag.txt
+    algorithm: sha256
+    value: ee43ee03463ae44fbf812dfda627fa20bd39207ea4f1ec32ee5d656aeff518ea
+  - path: app/ld-2.32.so
+    algorithm: sha256
+    value: ecab4e584960d16aa97ae4d9366cf7a9ec604a8e0ba9d05c5e66ac6abe2abab5
+  - path: app/libc-2.32.so
+    algorithm: sha256
+    value: 7c6c29415611d86c4c7fc05bb3c11d6ec30b25d9fca0b1e75ae7dd2b6b96267c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8267edb4d28f0dca4f1ababaa6e9d3d0d858f27e9409dacf46a97c44f0d9a5ff
+  - path: run.sh
+    algorithm: sha256
+    value: e8c54052adb736d059f83c1558e052531a22b6fed7e21e30c5555af029b9fb58
+  - path: src/chall
+    algorithm: sha256
+    value: 09ff63db52208092d52633fc241283d6f6d2282d10fd97bc77cf72a4f41dea34
+  - path: src/chall.c
+    algorithm: sha256
+    value: 3d821166ad59294df2e480519f4d8e956d4494eab8778dac10b8fbc2acc4929d
+  - path: src/ld-2.32.so
+    algorithm: sha256
+    value: ecab4e584960d16aa97ae4d9366cf7a9ec604a8e0ba9d05c5e66ac6abe2abab5
+  - path: src/libc-2.32.so
+    algorithm: sha256
+    value: 7c6c29415611d86c4c7fc05bb3c11d6ec30b25d9fca0b1e75ae7dd2b6b96267c
+  - path: xinetd
+    algorithm: sha256
+    value: 866d1ff3623fa7006ae1e924dd6b00d0a4e0d6f13e1593f5c51ae94f72bf17a6
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

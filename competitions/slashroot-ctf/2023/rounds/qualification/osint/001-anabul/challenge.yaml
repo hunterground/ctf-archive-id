@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-osint-001
+name: Anabul
+slug: 001-anabul
+original_name: anabul
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: |-
+  ANABUL
+
+  Anabul lucuku ternyata pergi entah kemana. Bisa minta tolong untuk ditemukan??
+  Jika sudah berhasil ditemukan. Jangan lupa diberi makan. Pasti si anabul lelah dan perlu energi setelah pergi bermain.
+
+  Semoga ini membantu dalam pencariannya:
+  https://drive.google.com/file/d/1_X4Cmeas8A_pIVK-iQ7IdLbnmHSN68IA/view?usp=sharing
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Wrinda
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/OSINT/anabul
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: ANABUL.txt
+    algorithm: sha256
+    value: e469b1f897224252f1bcd58c4a03d8a46c6ff96149e73325a37b39b25b6f0e0c
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

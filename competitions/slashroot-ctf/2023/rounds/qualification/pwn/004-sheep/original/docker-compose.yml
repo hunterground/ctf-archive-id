@@ -1,0 +1,12 @@
+version: '2'
+services:
+  sheep:
+    image: pwn
+    build: .
+    container_name: sheep
+    restart: always
+    environment:
+      - TERM=xterm
+    ports:
+      - '30013:5000'
+    privileged: true

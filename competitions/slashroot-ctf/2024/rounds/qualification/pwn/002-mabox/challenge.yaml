@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-pwn-002
+name: Mabox
+slug: 002-mabox
+original_name: mabox
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: '> Bang ini kok shellcodenya gak jalan di remote ya?'
+difficulty:
+  value: medium
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/pwn/mabox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3a82c99f08fb5940f715f75e23e3307df8c283c4115237bad3b91823dcd8a05c
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 29d14c12cf757664aa8b56222acbc0ea3ef1507e736845fe85021405ff90ff82
+  - path: chall/chall
+    algorithm: sha256
+    value: 6b78d6eabdf3b5c3b11ceb382d3b6a82c2bd6f5f7bbe8576148f28dd26b06fa0
+  - path: chall/chall.c
+    algorithm: sha256
+    value: c069a5c05919b36824613fd9d0f9f79d947261f94a5481c8498d126239d26b39
+  - path: chall/docker-compose.yml
+    algorithm: sha256
+    value: 380406e83b3a79aebfe94badce7139f69e75a844c3381d8e52fed180535799af
+  - path: chall/execute_me
+    algorithm: sha256
+    value: e691d7d20a9ed1d9efcea6a5d0dc2b3cd94d257cdc7c38d0e07906966189bd3c
+  - path: chall/execute_me.c
+    algorithm: sha256
+    value: dc2b24d29cb952302d7f8fbad8fdcec49785c5c787b0e473fd005719713a1b14
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4e0f657ad1145ba26840ad1fe7b83f05ed189b6e65298a27725965be352fe1d6
+  - path: dist.zip
+    algorithm: sha256
+    value: 6434f5796173ca68902d3534df5d7b349d2f9e4a57458b2e6619e39047bfd991
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

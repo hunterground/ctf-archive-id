@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-misc-002
+name: SangChall
+slug: 002-sangchall
+original_name: sangchall
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: misc
+description: Abijail comeback from Ssangmun-dong
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/misc/sangchall
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: fdc966d7f809b15c5e8d47cd4621b809c89380e3187af6ead0c2c02642129d55
+  - path: README.md
+    algorithm: sha256
+    value: c9b30c305e0513d463686acd1d4acb8aa652db68f8a6af6bebe5a5fe8fec8ba8
+  - path: chall.py
+    algorithm: sha256
+    value: 0942d4a4dcdc3f6ac19fec108a04459b3ae2dd8a8c68600e17ab85d608d32d1c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8085502c19268c6e2c3719b99fc819b3b31d7fa7c5744e07ec92a5ef70e11675
+  - path: flag
+    algorithm: sha256
+    value: e3583bc2e42f8b53df76ffc10f239ffab6b718d5a61a126d9926f168fcec19c3
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source README and the organizer points recap name this challenge, but the repository README problem table does not list it and states no setter.

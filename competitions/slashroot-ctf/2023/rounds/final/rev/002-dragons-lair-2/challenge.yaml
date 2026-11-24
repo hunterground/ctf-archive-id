@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-rev-002
+name: Dragon's Lair 2
+slug: 002-dragons-lair-2
+original_name: dragons_lair2
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Indra Yana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/reverse/dragons_lair2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 247325646ef296babbfa238034717e396d1720cf1cf41d683177fef5061792a4
+  - path: chall
+    algorithm: sha256
+    value: 8adac2bb5879b4977ba42989b4eb5c3d6a0626497951f487acc8a93f66a857a3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5064d8383d89eb1d96349b10cb52a67e9fb235505880eb2248d93993e9b28292
+  - path: flag.txt
+    algorithm: sha256
+    value: afdbe0bc2bef32d5bb0c78796e3e8464711794260597abc8a5ea88e13159b1d9
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

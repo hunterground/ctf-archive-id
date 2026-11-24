@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-rev-002
+name: baby-lua
+slug: 002-baby-lua
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: lua but baby
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/reverse/baby-lua
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG.txt
+    algorithm: sha256
+    value: f709611a30a1173a0baf669c71616cbc11af6d0301ece4a18636108b758b2ca6
+  - path: README.txt
+    algorithm: sha256
+    value: 33f8c12d4409831284008d8a87229981f6a16eb1e19f351b18245040b00645ed
+  - path: main
+    algorithm: sha256
+    value: 2f8ebdeb67c9ccf4005be56aab01e251a114969a9652bd6ce26ebd6074b8de88
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-crypto-003
+name: JackD
+slug: 003-jackd
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Crypto
+description: |-
+  Hii there! Let me introduce myself, I am Agent Daniel.
+  I need your help asap.
+  Agent Jack is an investigator working on a cybercrime case. Unfortunately, Agent Jack has been declared missing since this morning.
+  However, before Agent Jack disappeared, he gave me this note.
+
+  "
+  Agent Daniel, 
+
+  I've found a file that could serve as strong evidence in the case we're working on. 
+  But, I'm sorry, this file is encrypted with an algorithm that I'm not familiar with.
+  I managed to find fragments of the key for decryption. 
+  I hope what I've found will be useful for you.
+
+  Jack
+  "
+
+  I believe you can help me.
+  Please, help me... :(
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: MockingJay
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/crypto/JackD
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor workspace settings, not challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: 1be228843d456b4eda5df149f96bc97135feaab28a70c7f3eddc81cef3c461ad
+  - path: desc.txt
+    algorithm: sha256
+    value: 3eb02e427ed5c0b6191702f87006dbaa1a9a450efe7ee4e7eda88d37c0138470
+  - path: flag.enc
+    algorithm: sha256
+    value: 33f8d34004bfa5b5faf169aa7bd7a5c196d0ddd845fc781b26920886d4df7f8c
+  - path: flag.txt
+    algorithm: sha256
+    value: e9ff44e5e2abc0f2f997c529fe6104e48fe99555fdb09d30c5a7be1f4c70333a
+  - path: private_key.pem
+    algorithm: sha256
+    value: ec4c7499df03d171f0aa81147f6d411f85b2474229a374f010d430a731388cd4
+  - path: private_key.pem.org
+    algorithm: sha256
+    value: 26e4f6f24a511d6edbeef66b8da45a75535b67adbb5def71c6aba92823762c3a
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >-
+  The source directory also carries private_key.pem.org, a valid RSA private key, beside the
+  redacted private_key.pem that players were given. It is part of the published problem set and
+  was preserved unchanged, but it is a working decryption key committed to a public repository
+  rather than a distribution file, so it is flagged for human review rather than treated as
+  ordinary challenge material. The source flag.txt is likewise preserved in original/ and is not
+  copied into this metadata.

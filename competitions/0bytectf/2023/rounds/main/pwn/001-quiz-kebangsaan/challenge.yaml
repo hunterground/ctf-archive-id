@@ -1,0 +1,116 @@
+schema_version: '1.0'
+id: 0bytectf-2023-main-pwn-001
+name: Quiz Kebangsaan
+slug: 001-quiz-kebangsaan
+original_name: null
+competition_id: 0bytectf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: 'Jangan ngaku paling nasionalis kalo ngga bisa jawab semua soal quiz kebangsaan!
+
+
+  `nc <ip> <port>`
+
+
+  Author: Lychnobyte'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Buffer Overflow
+- One Gadget
+- ret2libc
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Zerobyte-2023/Quiz Kebangsaan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: b18993b0f433df618a9b9eeb1345cc61e7816bb806550d1f5513d10302d9b5d5
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 5dabbd507983e35fbcfc82bab39badf9f763fa7e188fe850bce4339b88112a35
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: src/Makefile
+    algorithm: sha256
+    value: 982dcb5e53122f06276ef615164dc820b4d1ee9077abddb5466c08261e1a6b3e
+  - path: src/chall
+    algorithm: sha256
+    value: 5dabbd507983e35fbcfc82bab39badf9f763fa7e188fe850bce4339b88112a35
+  - path: src/chall.c
+    algorithm: sha256
+    value: b16f7d14022530ecffefa57edabef55c4d8699681a7a26b6f2f42a1a0ee4f520
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9a6700147d27486336f1a50c00158d6c564a0c7a072796ca30143164ab3ea345
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 36201cfc061cf29721ab7cfcaf278a93d4eae8e553acacf40dde6d083fe5b21b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction on 2026-11-23: a challenge or competition source
+    without an implicit license is recorded as MIT.'
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+- title: 0byteCTF 2023
+  url: https://zerobyte.id/events/0byteCTF-2023/
+  type: official_website
+  accessed: '2026-11-23'
+- title: 0byteCTF 2023 archived CTFd user solves API
+  url: https://web.archive.org/web/20230819151234/https://0bytectf2023-34a6e5d64ade17ef4e51612c50dd72f5.zerobyte.id/api/v1/users/125/solves
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: Primary author distribution from the challenge author Lychnobyte (afmaghribi), who is listed as
+  a 0byteCTF 2023 committee member on the official event page. The distribution ships its own GLIBC 2.27
+  runtime under src/ and dist/ as released. src/flag.txt is part of the shipped distribution and was copied
+  unchanged; no flag appears in this metadata. Service is deployed with docker compose plus xinetd on
+  port 9999.

@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-web-003
+name: LotFeTT
+slug: 003-lotfett
+original_name: lotfett
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Please bro, look for the flag! The problem setter is having a headache thinking about challenge ideas.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/web/lotfett
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e279d9fde14f04130d4b37ccf298af5c583c363439beb9793bea5a63148205a0
+  - path: README.md
+    algorithm: sha256
+    value: c2a6e0388230701d046633f87668b975b29f325b9074ec4df5786fc1da39655f
+  - path: custom-php.ini
+    algorithm: sha256
+    value: 688227fc4ee84948baaf54117d23df42ee97d9c93de077e4dc41318c069dfc03
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d52772731904d0ab759e9882a151423ddfea21274912f27354aecabab895ed38
+  - path: r34L_fl4g
+    algorithm: sha256
+    value: 34e7759316b17f4c367718ef66f36c7dbcda851b0050541c69234d87620462b2
+  - path: src/assets/part-conf.js
+    algorithm: sha256
+    value: 6e503d61487b6081a21c2bf509238ef169f7449428fea948780e2df479447dee
+  - path: src/assets/particles.min.js
+    algorithm: sha256
+    value: a0be8b5deb36e357a6b6fc94b39b33dd26cd2f71d0da51def6fa47b0da813073
+  - path: src/flag
+    algorithm: sha256
+    value: 0b305dd92e46ccc5985f55b5bbc6134fd20d13bc6fcfbe18d64b084be32dc547
+  - path: src/index.php
+    algorithm: sha256
+    value: a9fa8d3a2f5ec258ff3b781e7ba2f8f7a238c53e49bd70f0d37d48cd92844c1e
+  - path: src/page/dashboard.php
+    algorithm: sha256
+    value: 5c81fa2a2015fec87139f2adf9a5efa290a474f5e6344e2f86d5d92ae4f6626c
+  - path: src/page/login.php
+    algorithm: sha256
+    value: 4f018343a80e5a4ceba2a997928f526884dddf9f7e26c653af7c22f490f69678
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

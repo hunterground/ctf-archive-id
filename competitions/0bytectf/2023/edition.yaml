@@ -15,7 +15,29 @@ references:
 - title: 0byteCTF 2023
   url: https://zerobyte.id/events/0byteCTF-2023/
   type: official_website
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Ran from 19 August 2023 to 20 August 2023. Categories included web, cryptography, digital forensic,
-  pwn, reverse engineering, and boot to root.
+  accessed: '2026-11-23'
+- title: 0byteCTF 2023 archived CTFd instance
+  url: https://web.archive.org/web/20230819150441/https://0bytectf2023-34a6e5d64ade17ef4e51612c50dd72f5.zerobyte.id/api/v1/scoreboard/top/10
+  type: third_party_archive
+  accessed: '2026-11-23'
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: 'Ran from 19 August 2023 07:00 +07:00 to 20 August 2023 00:00 +07:00, marking Indonesia''s 78th
+  Independence Day, with 250+ registered participants. The official page names the categories web exploitation,
+  cryptography, digital forensic, pwn, reverse engineering, and boot to root, but publishes neither a
+  challenge list nor a total, so the edition challenge count is unknown. The catalog below was recovered
+  from Wayback Machine captures of the event CTFd instance on 19 August 2023, with the point value that
+  capture recorded: Digital Forensic — Romeo and Dulliet (350), Pink (440), One of the greatest matches
+  of all time! (490), Who the Hack? (280); Web Exploitation — Just Explore! (430), Gambar Ajaib (360),
+  Guestbook (Beta) (100), the Injection (380), Health Check (490); Cryptography — Enkripsi Jadoel (420),
+  Token (280); PWN — Quiz Kebangsaan (480); Reverse Engineering — 0Pyte (430); Boot2Root — Makima (480),
+  Penggal kepala (490); Misc — Welcome ! (10), free flag (1). That is 17 challenges; the PWN challenge
+  Sistem Anti Hek is documented by its author and absent from the captures, bringing the known set to
+  18, and the total remains unknown because unsolved challenges do not appear in those API responses.
+  The captured point values are dynamic CTFd values rather than original static values. Only the pwn category
+  is archived here; the rest are unarchived. Participant writeup collections that reference this edition,
+  registered but not imported: daffainfo/ctf-writeup (third place; web, forensic, and crypto writeups),
+  devit7/CTF-Writeup-Mpiie, and Hope0351/my_CTF_collections.'

@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-pwn-004
+name: sheep
+slug: 004-sheep
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: No sheep here😢️
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/pwn/sheep
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c38489a93e6d387f6bcb8d85940396df121cf1b1f31bba09b097438f9a185bdd
+  - path: README.md
+    algorithm: sha256
+    value: 760a9d30de87a55afd33040c3b8ee032fa67c073cd01fe382ff299d6001076d0
+  - path: app/chall
+    algorithm: sha256
+    value: 38d1b620386e7cb54e61b1c964594b2d9f64aabd1b8adcded854df938e1470d1
+  - path: app/flag
+    algorithm: sha256
+    value: 1e210da8304462640f0064c84b16778aee0b47bf454647bdf050a9a97cdf800b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 99f5a99ba74d4dfd9b4fd708cda1262380f23869065680209e14f2a8b49bbb1b
+  - path: src/chall
+    algorithm: sha256
+    value: 38d1b620386e7cb54e61b1c964594b2d9f64aabd1b8adcded854df938e1470d1
+  - path: src/chall.c
+    algorithm: sha256
+    value: 84bb190a16ed9accdacad023ba239a12687501739ca855efdad37b3ac42ca7bc
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

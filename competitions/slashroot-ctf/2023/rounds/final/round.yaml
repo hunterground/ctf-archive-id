@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: final
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: final
+sequence: 2
+type: final
+delivery: null
+description: Final round of SlashRoot CTF 7.0.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 18
+  participant_count: null
+references:
+- title: SlashRoot 7 2023 problemset
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >
+  The final directory of the organizer repository holds 18 challenge directories across crypto,
+  forensics, joy, osint, pwn, rev, and web. The README problem table lists the same 18, but the
+  organizer points recap also names Something Big and Peww?, which have no directory; the README
+  keeps Peww? only as a commented-out row. The source does not state when, or whether onsite or
+  online, the final was played, so delivery and dates are left null. The organizer announcement
+  does date the seminar and awarding to 4 November 2023, but it does not say the final ran that
+  day. The MIT LICENSE at the repository root covers this round and is preserved at
+  competitions/slashroot-ctf/2023/LICENSE. Imported on 2026-11-23.
+  Author solution directories and solver scripts were placed under solvers/ and are not
+  recorded in challenge.yaml.

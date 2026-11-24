@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-forensics-001
+name: Bad Radio
+slug: 001-bad-radio
+original_name: bad-radio
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: I was recording a radio station the other day and suddenly the frequency gets hijacked with some kind of weird signal?? This is the audio file, hopefully you can extract something out of it.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Hari
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/forensics/bad-radio
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode
+    reason: Editor workspace settings, not challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: 09-06-2023_20.28.30.wav
+    algorithm: sha256
+    value: 10cc36af4a4c1a49194da06b92519e4cf09ccad5c900a3afeebf4e328b1f39bd
+  - path: README.txt
+    algorithm: sha256
+    value: 2e87782793258f2c6dec6b88e43726b4f333fbdc23441e42a2559ba9a78f42d7
+  - path: doksli.webm
+    algorithm: sha256
+    value: f902066cd766b243d8b8a134eead58c69b799e11983991540f8aaff58b2e3417
+  - path: flag
+    algorithm: sha256
+    value: 3a6cb903498690f40b524d8ecefc7f86401047e859f8a80a22cc87671948c4bb
+  - path: flag.webm
+    algorithm: sha256
+    value: 8c0fae01e54113be8460636e19b3f84bae79a3822a1c9463f2ef7a7c0fd7bc04
+  - path: gambar_doksli.png
+    algorithm: sha256
+    value: e2e7987cf996500905fe6fb8155d53fb5dfab344489ecbd11b46b83caa147d40
+  - path: lsb_overlay.png
+    algorithm: sha256
+    value: 308adef946afaf592235ae86840303e0340e10782aa967bcf478368953c884fe
+  - path: make_chall.py
+    algorithm: sha256
+    value: eae0f2ce3638dc76398046c7548ffc1fa41743794eff5944c68225140ec7c5cd
+  - path: shrine.png
+    algorithm: sha256
+    value: b785dad1ab4ad3bf95cc18e7d65ce4c68328fcb46a9c475b44df1775100d1704
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The source directory also holds the author build artifacts and a walkthrough. The repository README states that only the WAV recording was distributed to players.

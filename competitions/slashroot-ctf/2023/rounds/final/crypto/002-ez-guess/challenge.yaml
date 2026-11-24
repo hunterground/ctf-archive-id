@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-crypto-002
+name: ez guess
+slug: 002-ez-guess
+original_name: ezGuess
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Crypto
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Anehman
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/crypto/ezGuess
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: ab65d76d322d4e5a386a96c2b0f67af71e046826c453e3b13d6255704d275661
+  - path: crackLCG.py
+    algorithm: sha256
+    value: 13278b51ff28a0ff2eeb0019286fd22e9d4367343b6fd8bc134f7cdf47e9099c
+  - path: secret.py
+    algorithm: sha256
+    value: 3348da80e16c5257ceb8651c5fd7fdb0cc3c88d863e3d0d984699632a27b6eeb
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

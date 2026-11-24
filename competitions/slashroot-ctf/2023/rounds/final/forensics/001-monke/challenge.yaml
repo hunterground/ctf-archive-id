@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-forensics-001
+name: monke
+slug: 001-monke
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Hari
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/forensic/monke
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: flag.txt
+    algorithm: sha256
+    value: a33442cd33dcc169270fc6e4264fb3a13bb69313a84d9e42d447861cb9294aaf
+  - path: monke
+    algorithm: sha256
+    value: 4d63de0141e94309251827782f8f2e734f953de0836046b6254c23c26b3a408b
+  - path: othermonke
+    algorithm: sha256
+    value: 0324b7968ba049db7620aa604ec0cdb2f1a52609508df9bc55e0cbdb7f349eb3
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

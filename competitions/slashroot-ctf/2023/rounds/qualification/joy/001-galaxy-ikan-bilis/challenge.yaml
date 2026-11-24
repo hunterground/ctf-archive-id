@@ -1,0 +1,54 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-joy-001
+name: Galaxy Ikan Bilis
+slug: 001-galaxy-ikan-bilis
+original_name: Galaxy-Ikan-Bilis
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: joy
+original_category: Joy
+description: Ras Ikan Bilis sudah tidak ingin menjadi bagian dari Planet Nasi Lemak karena suatu konflik. Saat ini mereka akan bermigrasi ke planet lain menggunakan kapal ikan bilis yang sudah di desain sedemikian hingga memiliki laser yang sangat mematikan. Apakah mereka bisa melawan alien-alien di sepanjang perjalanan?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ekajaya
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/JOY/Galaxy-Ikan-Bilis
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8129d7ee22dbc5b1078a3dd81793c0a7110410ab5a30e28c515b6f30f42f1759
+  - path: build.apk
+    algorithm: sha256
+    value: 400be73a790078b3f34d1328a249f5cc86e2aaa2b5d366f0af397665d377f5be
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

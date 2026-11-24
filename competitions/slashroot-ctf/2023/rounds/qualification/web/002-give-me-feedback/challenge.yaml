@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-web-002
+name: Give Me Feedback
+slug: 002-give-me-feedback
+original_name: give-me-feedback
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Aku habis bikin website gallery, kirim aku saran gambar untuk aku tambahkan
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ananta
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/web/give-me-feedback
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: .gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: Dockerfile
+    algorithm: sha256
+    value: 61d330396959971177cf2206e7aae472795d6fa0a28dc4f2cad1de800b075390
+  - path: bot.js
+    algorithm: sha256
+    value: 50f2e456bbb45b4053d7932467e5c3e34b75171111ee1d105fe3d856602fb536
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 96324858a5e93294595462ba637d6787018b0f6ff98ba613390ac8ea2dfa883d
+  - path: index.js
+    algorithm: sha256
+    value: 71cb57e13b97e5ecb20c00c15784ba0a25754c2fd161fcaeefab7489bf9db922
+  - path: package-lock.json
+    algorithm: sha256
+    value: a30b938bbb241c7fbda44535cc9c3c06c6baf3fc47a1bc9bcaa2376f5b917508
+  - path: package.json
+    algorithm: sha256
+    value: 5f62c42d43182178177b89ac2ca5d81c907fcacca5842f7249d85d99797875cb
+  - path: readme.md
+    algorithm: sha256
+    value: 7cd36694ed90c3a7cb90ea61fe69fa2d0a11d1f76595262056a261b1ac7aad03
+  - path: views/feedback.ejs
+    algorithm: sha256
+    value: a6d1d3f8dc5e39d5e88ce4cf0be9473b67b3058e5b900192fb2b6ec7b8c48bf2
+  - path: views/gallery.ejs
+    algorithm: sha256
+    value: 2bc8a231311eefd7e9a727144a09ed5828fb14a95f355531308a62062f695dc8
+  - path: views/index.ejs
+    algorithm: sha256
+    value: 52fbb6f789e19c31a86f5b83229ffd9af9984bc40505a71d64c332820155ef5c
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

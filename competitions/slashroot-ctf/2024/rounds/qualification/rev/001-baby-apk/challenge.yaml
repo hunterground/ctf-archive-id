@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-rev-001
+name: baby-apk
+slug: 001-baby-apk
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: apk but baby
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/reverse/baby-apk
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG.txt
+    algorithm: sha256
+    value: 85ac537f1f370901ef8576e45c04331fb62aee7c2a6a7184a78a20d5f4fdc041
+  - path: README.txt
+    algorithm: sha256
+    value: e60fffebb44f155331f65b853e37d5ed27feb809634437f190b276efa2b5232a
+  - path: app-debug.apk
+    algorithm: sha256
+    value: 9f269432ebf64daef17feea58eb626f08f447fb058079623aa1351e24561959b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

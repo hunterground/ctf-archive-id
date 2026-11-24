@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-pwn-001
+name: CFHP
+slug: 001-cfhp
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: nooo it's not baby anymore
+difficulty:
+  value: hard
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/pwn/CFHP
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e98f1d1d626619520b6f1d9e3429640f92be2a8ec06187feaf1f66b0ce5d9c31
+  - path: README.md
+    algorithm: sha256
+    value: 47e25ef986960a412a6847c2a698fdd631bcd1b56db481ca4e7cb6bfaddc1531
+  - path: cfhp.zip
+    algorithm: sha256
+    value: c0301c81a7d409a4cc6fc372de3d69c2d009bb5846b27d8803c9661feddca3ed
+  - path: challenge/bios/bios-256k.bin
+    algorithm: sha256
+    value: 2b864f5b202625b03bdf152322c7ecabcde1413e62bd0987970bded9cc915184
+  - path: challenge/bios/efi-e1000.rom
+    algorithm: sha256
+    value: f37222fcdf0481bfbaf7a16d9aaf740aeb41d3d24c187801eb6e9a628cec0fc8
+  - path: challenge/bios/kvmvapic.bin
+    algorithm: sha256
+    value: cdf057a71b07e3b52b19cbe210bdefa59250d01a9810b960f7fe1f98eed95a27
+  - path: challenge/bios/linuxboot_dma.bin
+    algorithm: sha256
+    value: 9c49e255340c78fc12e54ed043462bca02fb7fca29b7cfab62ff88a5344b6950
+  - path: challenge/bios/vgabios-stdvga.bin
+    algorithm: sha256
+    value: e13dafa0bd55d3d8632f278d87272122db18cbd5675307002c28636d597e2d1e
+  - path: challenge/bzImage
+    algorithm: sha256
+    value: 33a5971426d96ef9ebe669ecffd38a5e2423f70bdd26e041cef054299b8f9b36
+  - path: challenge/cfhp.c
+    algorithm: sha256
+    value: 75b0151b095713e5bc7fb45a1ce4b3be40f221482f74f4a4fd9361ad9d245c5a
+  - path: challenge/flag
+    algorithm: sha256
+    value: 09bc2d135d00d3226c716eba1ad0e65985f105badb97bc9ff2a6ae6531595ae7
+  - path: challenge/qemu-system-x86_64
+    algorithm: sha256
+    value: 6af3e2f7ed483a8211b5053090844f24bbebaf4f9f985bfab4fe16a973f03ff4
+  - path: challenge/rootfs.cpio.gz
+    algorithm: sha256
+    value: 047e0e430a03219f692e59a0f863447886f50f2b6f1cc53e8395056926a46e5c
+  - path: challenge/run.sh
+    algorithm: sha256
+    value: 8a75c554feb91f599f8c80ec0bd77e8e198c28ef90c2ecee6a6d709410b3ba77
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5d2f11b5b08582735643910e7ec5e23f0be03786ea8cda87fa423b574c2bfe03
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

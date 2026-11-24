@@ -1,0 +1,120 @@
+schema_version: '1.0'
+id: 0bytectf-2023-main-pwn-002
+name: Sistem Anti Hek
+slug: 002-sistem-anti-hek
+original_name: null
+competition_id: 0bytectf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: 'Sistem buatan anak bangsa sudah pasti aman dan anti hek!
+
+
+  `nc <ip> <port>`
+
+
+  Author: Lychnobyte'
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Off-by-one
+- Format String
+- use-after-free
+- tcache poisoning
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Zerobyte-2023/Sistem Anti Hek
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: c0b5ff0e1587ba4568b8e049801c50ce2fb4987d6c6281263eb54ba0d6ede67e
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: ad6a7a7d4023178b9ec39029ea506097c58a9bf39cfd553cea1a8d5ea5ac870d
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: src/Makefile
+    algorithm: sha256
+    value: 982dcb5e53122f06276ef615164dc820b4d1ee9077abddb5466c08261e1a6b3e
+  - path: src/README.md
+    algorithm: sha256
+    value: 19f665dafea635c046379c7904b6382df0d444b91ec8992011911033165f9934
+  - path: src/chall
+    algorithm: sha256
+    value: ad6a7a7d4023178b9ec39029ea506097c58a9bf39cfd553cea1a8d5ea5ac870d
+  - path: src/chall.c
+    algorithm: sha256
+    value: cabf7dcab5e12c64709d4c980dd2fb47a64478592606b3391a7cd00edff490e1
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 93b14ce6f26ec58ea146c6e76873f436a6cc68e9c1fe90c6ad11f09f4a15825f
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 51f375d15a2423dac9eb25561733122703de9f7fb2ef764825c60438e003d7ce
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction on 2026-11-23: a challenge or competition source
+    without an implicit license is recorded as MIT.'
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+- title: 0byteCTF 2023
+  url: https://zerobyte.id/events/0byteCTF-2023/
+  type: official_website
+  accessed: '2026-11-23'
+- title: 0byteCTF 2023 archived CTFd user solves API
+  url: https://web.archive.org/web/20230819151234/https://0bytectf2023-34a6e5d64ade17ef4e51612c50dd72f5.zerobyte.id/api/v1/users/125/solves
+  type: third_party_archive
+  accessed: '2026-11-23'
+verification: corroborated
+notes: Primary author distribution from Lychnobyte (afmaghribi), a 0byteCTF 2023 committee member listed
+  on the official event page. Ships its own GLIBC 2.31 runtime under src/ and dist/. The challenge is
+  absent from the archived 19 August 2023 CTFd API captures, which only reflect solved challenges, while
+  the official final top-10 scoreboard confirms that PWN was a scored category. src/flag.txt and src/README.md
+  are part of the shipped distribution and were copied unchanged; no flag appears in this metadata.

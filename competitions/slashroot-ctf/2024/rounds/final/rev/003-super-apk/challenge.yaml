@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-rev-003
+name: super-apk
+slug: 003-super-apk
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: reverse
+description: |-
+  apk but super (i guess)
+
+  *Note*: Wrap the result with `slashroot8{<result>}`
+difficulty:
+  value: hard
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/reverse/super-apk
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG.txt
+    algorithm: sha256
+    value: a6626c44f648e9ee0e477b9e75e8a3c154895e378e0ede6381943a7ecdcc7f53
+  - path: README.md
+    algorithm: sha256
+    value: 2acd2f9e47fae5470bacc91eb02d612a3c2a0f88b47f2f575dc9dcf0cfc4212d
+  - path: super.apk
+    algorithm: sha256
+    value: 687f67dfb5404b05a92973ad52671db012512580e52d9027a1fef38cf9267c31
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

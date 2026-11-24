@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-crypto-002
+name: Sprei Gratis
+slug: 002-sprei-gratis
+original_name: sprei_gratis
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: crypto
+description: 'related video: https://youtu.be/T83SdjwvAl8?si=rLSUdPSYZXj7MLzF'
+difficulty:
+  value: medium
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/crypto/sprei_gratis
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 14cf5ebba6381f165f4c078ca59f306199b1c15fdc147b1f7801decc75a80597
+  - path: README.md
+    algorithm: sha256
+    value: 8c69b219a32689eee0941575744db3a7a241ee4e1eaea8a2feb67d0e3b43b5e4
+  - path: chall.py
+    algorithm: sha256
+    value: e47d72e5b0e9bbd9e73d442a577f6b54542a6c549509c7ff5ed1600d513efff3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3eb6e5d7ccc1475bff945d64b3877ddaacf5395e14120a26f3e274f5f273d95f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-web-003
+name: Login For Admin
+slug: 003-login-for-admin
+original_name: login_for_admin
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: AnantaWeda
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/web/login_for_admin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: ctf_4.sql
+    algorithm: sha256
+    value: 628f0fdcb135cc9d5b56d9aec758b933bb1a5a7f44f1844d57f0c2ba84f1a256
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 20a01699291016523cf64d29016bff9e6f8ed51f194da69b37c39549c650e7bb
+  - path: login-for-admin/Dockerfile
+    algorithm: sha256
+    value: 4a31c297019111c24c8e28e61e15680ae721142673b2b8b87e754daa421b4109
+  - path: login-for-admin/conn.php
+    algorithm: sha256
+    value: 7f147f82435ea189a363a5ba249b24e94deb4571254e8daf0cfca1b5ed2b53c2
+  - path: login-for-admin/flag.php
+    algorithm: sha256
+    value: 8f518b5263b7a0f13fd0e71b0f8f93637aa8379518a85e1860aedeb4b0136a4d
+  - path: login-for-admin/index.php
+    algorithm: sha256
+    value: 600c4c60ecd89f3eaacb2b3a0119faf8c3c8cfd7c14ae5ebb4d4a1d41fe56064
+  - path: login-for-admin/login.php
+    algorithm: sha256
+    value: 39e7129d98af2009928fc7c3597f4bcb53ae72948a229caf805dadd847b11462
+  - path: login-for-admin/logout.php
+    algorithm: sha256
+    value: 8fc325f98b2f003c9b56283e2eeae47e7ec4f03c155dd527985ddb6f8d66f543
+  - path: login-for-admin/register.php
+    algorithm: sha256
+    value: fc0ad90ab319f4dec1b15d81d104bda48c44d22a15e2da1e1d5e31a8b8ba1a42
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

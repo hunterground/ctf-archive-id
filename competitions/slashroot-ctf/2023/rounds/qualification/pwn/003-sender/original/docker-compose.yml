@@ -1,0 +1,11 @@
+version: '2'
+services:
+  sender:
+    image: pwn
+    build: .
+    container_name: sender
+    restart: always
+    environment:
+      - TERM=xterm
+    ports:
+      - '30011:1337'

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-pwn-001
+name: sandbox
+slug: 001-sandbox
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: Welcome to sandbox gannn
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/pwn/sandbox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c38489a93e6d387f6bcb8d85940396df121cf1b1f31bba09b097438f9a185bdd
+  - path: README.md
+    algorithm: sha256
+    value: c9c0ad8d9599cd44f35525b05d09f33ae4dffdcea94a1bfbba23430a9db76ec2
+  - path: app/chall
+    algorithm: sha256
+    value: f0a1c5f02a04ccfe5769bea15ba470b86022336bb3818d02f3ce8fff72600d99
+  - path: app/flag
+    algorithm: sha256
+    value: 1d9dcc506184e92257a618bba4dc82ca67da4162e3d4dd5fdf080bd9a92bf975
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 58303a20a633e23122db44ff9df79f257bda86b07234a6da7cdb744bcc8111d4
+  - path: src/chall
+    algorithm: sha256
+    value: f0a1c5f02a04ccfe5769bea15ba470b86022336bb3818d02f3ce8fff72600d99
+  - path: src/chall.c
+    algorithm: sha256
+    value: 5703eb8ed6fb86e8308d21d95bae48426d33bb371bcde5f80a2b6c4495b4f393
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

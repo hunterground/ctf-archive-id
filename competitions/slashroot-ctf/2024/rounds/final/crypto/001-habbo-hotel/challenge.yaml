@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-crypto-001
+name: Habbo Hotel
+slug: 001-habbo-hotel
+original_name: habbo
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: crypto
+description: |-
+  Hello, Agents.
+  Your mission today is to infiltrate Habbo Hotel and gain access to the heavily-guarded Secret Chamber. Your objective is to steal the classified items stored within.
+
+  Hotel Pool's closed due to AIDS, so no relaxing!
+  ![pools closed](https://i.kym-cdn.com/photos/images/original/000/001/407/pool.jpg)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/crypto/habbo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b32bef9fb2837bfd1d38aa2d367a06c6f812d9fb57945cb8ac4abf5bc7497d6e
+  - path: chall.py
+    algorithm: sha256
+    value: 69c6f1b220b88a612cf92b1473c079afebce80c57f124a5863194cd92c287f3a
+  - path: desc.txt
+    algorithm: sha256
+    value: d32d3d805c62758f512b99068fe09e060ee33e8f63678284e4c0a12506afe79e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 746b348f0c2ffc635f7b83e3e768dcb6359c1eb3a290db144bebbe0a8188a8ab
+  - path: flag.txt
+    algorithm: sha256
+    value: f5fd834e62f04b0f4376e188c72ddc603bffbb5ce6a30736bddc8facf889ae29
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

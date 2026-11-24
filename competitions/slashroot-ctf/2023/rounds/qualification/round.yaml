@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: qualification
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: penyisihan
+sequence: 1
+type: qualification
+delivery: null
+description: Qualifier round for SlashRoot CTF 7.0.
+dates:
+  start: '2023-09-30'
+  end: null
+statistics:
+  challenge_count: 28
+  participant_count: null
+references:
+- title: SlashRoot 7 2023 problemset
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >
+  The penyisihan directory of the organizer repository holds 28 challenge directories across
+  crypto, forensics, joy, misc, osint, pwn, rev, and web. The repository-root MIT LICENSE covers
+  this edition and is preserved at competitions/slashroot-ctf/2023/LICENSE. Imported on
+  2026-11-23. Editor metadata, Python bytecode caches, and macOS archive metadata were not copied;
+  author solution directories and solver scripts were placed under solvers/ and are not recorded
+  in challenge.yaml.

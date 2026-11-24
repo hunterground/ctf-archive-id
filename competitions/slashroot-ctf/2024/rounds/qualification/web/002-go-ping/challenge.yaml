@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-web-002
+name: Go-Ping
+slug: 002-go-ping
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Let's try ping on my web
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Anehinnn
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/web/Go-Ping
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 0d6e4079e36703ebd37c00722f5891d28b0e2811dc114b129215123adcce3605
+  - path: Dockerfile
+    algorithm: sha256
+    value: 30be3891c78e74480e48003dc5bdc82cfe4254f9158956a217e1b3aa58e0d4f7
+  - path: README.md
+    algorithm: sha256
+    value: 60a5011fce6501bb2c99adeaf10cfa5e651c934d94d0f4a8efda5b3e281babda
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4f52e3207e9fee000803d54b660a580c6372342165eb8dbd9bfec44f10ef9a7f
+  - path: go.mod
+    algorithm: sha256
+    value: 8c8c06b8ede38ebf1842f27ef6d2cef82dc3cbb7be6f3ec20b9d5789361b94ec
+  - path: go.sum
+    algorithm: sha256
+    value: fb4b736149822429139f9e422526f3f7efb7978765aebc8be30888982b4e047c
+  - path: main.go
+    algorithm: sha256
+    value: 059a22ef6e17ba75f9ea563f425661d5aacb38563c55a24f6f43846b83253d3f
+  - path: template/index.html
+    algorithm: sha256
+    value: e0ec5c10b66c616393ec0cf596e04f5a0c91046989857610853c455ec7ce0d41
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

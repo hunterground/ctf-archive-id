@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: main
+competition_id: 0bytectf
+edition_year: 2024
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: Single online Jeopardy CTF window of 0byteCTF 2024.
+dates:
+  start: '2024-08-18'
+  end: '2024-08-18'
+statistics:
+  challenge_count: null
+  participant_count: 350
+references:
+- title: 0byteCTF 2024
+  url: https://zerobyte.id/events/0byteCTF-2024/
+  type: official_website
+  accessed: '2026-11-23'
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The official 2024 page dates the event as "Fight!" on 18 August, with registration closing on 17
+  August and winners announced on 23 August, and reports 350 participants. The page gives no separate
+  qualifier or final, so the round uses id main and type other. No archived CTFd instance for 2024 was
+  found, so the full challenge list and challenge count are unknown; only the pwn challenges available
+  from the author repository are imported.

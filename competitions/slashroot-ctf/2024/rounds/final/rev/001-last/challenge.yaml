@@ -1,0 +1,54 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-rev-001
+name: LAST
+slug: 001-last
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: reverse
+description: izin off, ada skripsi yang harus diketik 🗿🙏
+difficulty:
+  value: medium
+  source: organizer
+tags: []
+authors:
+- name: indrayyana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/reverse/LAST
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: LAST
+    algorithm: sha256
+    value: f052fc7480830dfcc8863ab2b6a4c15999379c68fb540d71de3a78745086e8e9
+  - path: README.md
+    algorithm: sha256
+    value: e3fbf01e1955f962c9c38ac9bf3931fc2e91cd2076e9c6907ee9873169f45900
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

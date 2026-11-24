@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-web-003
+name: Login Begin
+slug: 003-login-begin
+original_name: loginbegin
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: |-
+  Hallo Peserta Slashroot CTF #8, Pada Hari Ini Kita Akan Mengikuti Penyisihan CTF, 
+  Sebelum Memulai Kegiatan, Saya Sebagai Probset Ingin Menguji Kemampuan Temen" Dalam Bidang Web Hacking,
+  Ayo Teman" Cobalah Exploit Web Sederhana Buatan Saya Dan Temukan Hak Akses Admin Dalam Sebuah Web Tersebut !, 
+  Siapa Tau Diantara Temen" Dapat Menemukan Flag Tersembunyi Di Dalam Web Tersebut.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: riyanpradana_slashroot7.0
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/web/loginbegin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ed1565a1cf52f1b89975697f902c1c02723e7f583b2b63f3751cc2ae7b9cbe16
+  - path: README.md
+    algorithm: sha256
+    value: ad4a48007aec95a8b9720214c7b94fd36879026a684279cdac106791c31bcd86
+  - path: apache2.conf
+    algorithm: sha256
+    value: aa86b2bb3327cbc60253c5d46a9baa0765555ca9bb70dbe84e3335d3717062fc
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 59bb274233c9c520e94264fbe704c08979db036fbcf868aebdf7a1610293e888
+  - path: landingpage/conn.php
+    algorithm: sha256
+    value: 4e27ab3a938eb98e83680a7ae9e1ba55dedbc08f5cdb304579abeba9801593f9
+  - path: landingpage/flag.php
+    algorithm: sha256
+    value: 446af94b1d6722aa2ee0dad15d799b37a3033b37dc6e25cfb9f241466a7bf4de
+  - path: landingpage/index.php
+    algorithm: sha256
+    value: 943d64c722e4c3e6e143243a2b4e211c62ef5927ee4eda22412a539fd11a6a7f
+  - path: landingpage/login.php
+    algorithm: sha256
+    value: d2ca4f01e2339d4c531a5c5abb4d63482953a007d77b9341406b7a615646cfd5
+  - path: landingpage/logout.php
+    algorithm: sha256
+    value: 4200a6b5f49cfffe152b559b17b9d7c292e922a4f29ea6f43fc24c0af5a16255
+  - path: landingpage/register.php
+    algorithm: sha256
+    value: f525deec1056092a700f9b7f3eb992ddacd255506c783d5744501bffcc671ff0
+  - path: user_management.sql
+    algorithm: sha256
+    value: 8700b12d89e60493aaa11b9812745077460591823a9ab49904e7540d187e0e01
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

@@ -1,0 +1,52 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-forensics-002
+name: Whale
+slug: 002-whale
+original_name: whale
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: So I am a new devops engineer, one day my server got really big traffic. It was really gross because I am not able to understand what he trying to do w my little server🥺. Could u help me to know what he's trying to retrieve?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/forensic/whale
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d08cece7c9d38f91880a98cfbb14e0e16e115f1c55b0c7eb3666aea303db335d
+  - path: dist/chall.img
+    algorithm: sha256
+    value: cea7feeca309560a4680dba400f915f2d08fc2d22c0eb82b48989f21ff72610c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

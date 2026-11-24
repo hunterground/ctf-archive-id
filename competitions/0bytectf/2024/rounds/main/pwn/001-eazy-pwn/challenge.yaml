@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: 0bytectf-2024-main-pwn-001
+name: ez Pwn
+slug: 001-eazy-pwn
+original_name: null
+competition_id: 0bytectf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: '2024 emang masih ada yang ngerjain soal pwn?
+
+
+  `nc <ip> 20037`
+
+
+  Author: Lychnobyte'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Buffer Overflow
+- One Gadget
+- ret2libc
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Zerobyte-2024/eazy_pwn
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: b2dc0d12ea19cf7fa9bfba07a0da624a5fbcc54a49948cc19f8014ad6274ed7b
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: d2df0622d6872f20ec2ae8e93423fe3d1f2430c76233f1590f6aefe9608c460e
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 9749d47e2eb7b84b48ef24bb6d7f595e5129f96154919b7abb3995053fb20ced
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: fa2be2458b59a6123bf561e67b3d5d850431e7d05cacb6435483d1e47eff6de5
+  - path: src/Makefile
+    algorithm: sha256
+    value: ce8678471ae73d65b825686239bafde3146d4427f551b8902b2260a2a0aec466
+  - path: src/chall
+    algorithm: sha256
+    value: d2df0622d6872f20ec2ae8e93423fe3d1f2430c76233f1590f6aefe9608c460e
+  - path: src/chall.c
+    algorithm: sha256
+    value: 1047a3355f85fd95c15b504ab651f8340ddb203ee9be9ba555ae1c19800f7597
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 531b76faddd90f25184a98a9e9569e7717489e65f5a8cbc3c9fa115a690fdd97
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 9749d47e2eb7b84b48ef24bb6d7f595e5129f96154919b7abb3995053fb20ced
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: fa2be2458b59a6123bf561e67b3d5d850431e7d05cacb6435483d1e47eff6de5
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 58c7a5694b2d813c55604a8b9448e6796c5e76a2526e144b01e32a72e588b21f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction on 2026-11-23: a challenge or competition source
+    without an implicit license is recorded as MIT.'
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-23'
+- title: 0byteCTF 2024
+  url: https://zerobyte.id/events/0byteCTF-2024/
+  type: official_website
+  accessed: '2026-11-23'
+verification: corroborated
+notes: Primary author distribution from Lychnobyte (afmaghribi). The challenge directory is named eazy_pwn
+  in the source; the display name in the author README is "Ez Pwn". Ships its own GLIBC 2.31 runtime under
+  src/ and dist/. src/flag.txt is part of the shipped distribution and was copied unchanged; no flag appears
+  in this metadata. Service listens on port 20037.

@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-pwn-003
+name: pramhomo
+slug: 003-pramhomo
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/pwn/pramhomo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ab03525baefc7649ef6bcdb300e254fe4b83fc7cc8ba8ef4d4a8ca0d4a5a51c2
+  - path: chall
+    algorithm: sha256
+    value: 35a87e5910f8dff9ae6ef873e9faf3b2e7e842720ac7413ccbb687ed6d606b1b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1d5578a8770942e369d88fc217178ce47821af518a7740e99e30fd6da0e9ad2d
+  - path: flag.txt
+    algorithm: sha256
+    value: 739259e7f8ab3981cbc1ae140ae29737dcc89300b7c272b5f5e28a2cb5b9dd5f
+  - path: libc-2.31.so
+    algorithm: sha256
+    value: 09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541
+  - path: startchall.sh
+    algorithm: sha256
+    value: 13d5dc129bbb5990456f94040ad3c8e012eb5bf05e70512c54f623a8e457a58c
+  - path: xinetd
+    algorithm: sha256
+    value: 92504cfbfc35d945e567a576c5cdb0779e1058221bb47ec2e69cbb0a94bca509
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

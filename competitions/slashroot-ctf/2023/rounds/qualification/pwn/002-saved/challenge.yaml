@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-pwn-002
+name: saved
+slug: 002-saved
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: I got lost in my memory
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/pwn/saved
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: efc6998207afcee24ed5cb3280ed2b4a002cba5523ed0a5c1d567ae474a624f9
+  - path: README.md
+    algorithm: sha256
+    value: c9ac4d5771427ed803fdef2ff31ef45ce9f909f165128ea1a9fed5b7a5560d0a
+  - path: app/chall
+    algorithm: sha256
+    value: 10d25255c1bbecc9a78992987e0d9404a014b6124fc0f0db72133c0c6bcfab8a
+  - path: app/flag.txt
+    algorithm: sha256
+    value: 70b4f9b9340f0c543698a94138a93318bc4d30d97ea17020c19d189e9e587c9a
+  - path: app/ld-2.31.so
+    algorithm: sha256
+    value: 188489d32e430c1ab5985565a3398421655a287056adbe5c5ee728dbd1a83e7a
+  - path: app/libc-2.31.so
+    algorithm: sha256
+    value: dcfba5b03622f31b1d0673c3f5f14181012b46199abca3ba4af6c1433f03ffd9
+  - path: app/libseccomp.so.2.5.1
+    algorithm: sha256
+    value: 3cfdba390c07a1cdb4723838d70f8bab86bc1aad7be59277bbd02ec20177a28d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c3c61c4dcf325d71357afa46abd0a4f69862ff7b39fafae697c00ecb15e6ba06
+  - path: run.sh
+    algorithm: sha256
+    value: e8c54052adb736d059f83c1558e052531a22b6fed7e21e30c5555af029b9fb58
+  - path: src/chall
+    algorithm: sha256
+    value: 10d25255c1bbecc9a78992987e0d9404a014b6124fc0f0db72133c0c6bcfab8a
+  - path: src/chall.c
+    algorithm: sha256
+    value: 049b6c7ffac8befd2098591e33033000ac5249ae4c58fc9565daeb6c19c7360d
+  - path: src/ld-2.31.so
+    algorithm: sha256
+    value: 188489d32e430c1ab5985565a3398421655a287056adbe5c5ee728dbd1a83e7a
+  - path: src/libc-2.31.so
+    algorithm: sha256
+    value: dcfba5b03622f31b1d0673c3f5f14181012b46199abca3ba4af6c1433f03ffd9
+  - path: src/libseccomp.so.2.5.1
+    algorithm: sha256
+    value: 3cfdba390c07a1cdb4723838d70f8bab86bc1aad7be59277bbd02ec20177a28d
+  - path: xinetd
+    algorithm: sha256
+    value: 866d1ff3623fa7006ae1e924dd6b00d0a4e0d6f13e1593f5c51ae94f72bf17a6
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

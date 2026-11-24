@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-pwn-003
+name: Short
+slug: 003-short
+original_name: short
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ibnu
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/pwn/short
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: aa3981601507f5f819efdf60baa170d48d5dd58e17ee82062db7fe3a3e1d4da3
+  - path: chall
+    algorithm: sha256
+    value: 2bd2d24a158e7e3f44ae923fd0e11417d9098829ca9c9d9794d73ed598d7e5b4
+  - path: chall.c
+    algorithm: sha256
+    value: 95cea3677878d7114992033d7e7a0e61275bc94ffe9ae96346f9ed099510283a
+  - path: flag.txt
+    algorithm: sha256
+    value: 6b922a8d2e464fbd76f9d4d03c0786a2778f81f469dce7bd6bd8d1a27012fce1
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

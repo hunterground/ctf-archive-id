@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-pwn-002
+name: LINZ IS HERE
+slug: 002-linz-is-here
+original_name: LINZ_IS_HERE
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: ADA LINZ IS HERE COYYYYY, bang ini soal kesukaanmu
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/pwn/LINZ_IS_HERE
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b91725cd4dc8ab781547205828c38e44097333161db0ebf15ce80a147eeef462
+  - path: README.md
+    algorithm: sha256
+    value: 2cd4375ed9ced892a137989886077e7842b722adc104a2f74ec5acb4056c71f5
+  - path: dist.zip
+    algorithm: sha256
+    value: 4415a789f5824fb8a6d7e5eb35f021a4a4175fb475d82145c88cee822e720b41
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0760c66a0d1bcf359426315b22eb74aea22f011d81f39b6d9ec2d3a9e423c194
+  - path: flag
+    algorithm: sha256
+    value: 80ea5f42ba862c027fa588e8a2fdb1a41bdedbd9cd592c40fe4e2cbde8b75c8f
+  - path: ld-2.31.so
+    algorithm: sha256
+    value: f8adf99608ed294d9e1d5b8a8e9b9fbb4d493d25ea47b8474670d7e332042b74
+  - path: libc.so.6
+    algorithm: sha256
+    value: 45e721f531d445f23b56e71d75d8320bf0cc79cacbe9f8e6676a6a1b1aa6079f
+  - path: main
+    algorithm: sha256
+    value: 246ddb14f39f85fa103336e40e6afce0650bc9cf31f6780aff7ef6d811497944
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

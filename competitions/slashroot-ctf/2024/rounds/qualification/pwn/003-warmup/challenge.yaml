@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-pwn-003
+name: Warmup
+slug: 003-warmup
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/pwn/Warmup
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: __MACOSX
+    reason: macOS archive metadata directory, not challenge distribution.
+  - path: warmup/.DS_Store
+    reason: macOS Finder metadata file, not challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: warmup/Dockerfile
+    algorithm: sha256
+    value: 3b66e07bc99c800c507565e2739968caf21c5737f4e1fc00fa8d283af726d0ba
+  - path: warmup/chall
+    algorithm: sha256
+    value: f5f3b08a19e659008bc7efe4d49e5938862d085dfcbdf08c84da9bf4cd0d6ae0
+  - path: warmup/chall.c
+    algorithm: sha256
+    value: 3194fd402fbf1aa84b0349ee408c07a23bad0fdfcf0c3dccbd7b0eb839bf200a
+  - path: warmup/docker-compose.yml
+    algorithm: sha256
+    value: 17aaeff789c070c1ab1fba7692e427790708e1028da33250f05be9a4f0b5e52a
+  - path: warmup/flag.txt
+    algorithm: sha256
+    value: 72b6f35bc6490bc23c1d20dfce7343eb8f7ccc1860bcfa28552e4e814e00b98a
+  - path: warmup/libc-2.31.so
+    algorithm: sha256
+    value: 09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541
+  - path: warmup/startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: warmup/xinetd
+    algorithm: sha256
+    value: 46d4c458d13edce38dc45c9a8d10e698662ad09b50977a0f554d7556e301d51d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >-
+  The challenge files sit in a nested warmup/ directory beside a macOS __MACOSX archive artefact,
+  which is not part of the distribution. original_structure keeps that warmup/ level rather than
+  flattening it.

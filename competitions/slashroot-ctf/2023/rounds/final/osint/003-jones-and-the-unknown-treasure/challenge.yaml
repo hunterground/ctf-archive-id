@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-osint-003
+name: JONES and The Unknown Treasure
+slug: 003-jones-and-the-unknown-treasure
+original_name: JONES_and_The_Unknown_Treasure
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: osint
+original_category: OSINT
+description: |-
+  The world full of mysterys. JONES, one of the Trasure "Hunter" was looking for "The Unknown Treasure" in this world. Let's help him to find it.
+
+  1. https://drive.google.com/file/d/1YbrOkznT21Bvmv1GRB-x7oWgtyaVhnGU/view?usp=sharing
+  2. https://drive.google.com/file/d/1BpoJ18WVqdYKTjR7GXTPC_nUxfepmh72/view?usp=sharing
+  3. https://drive.google.com/file/d/1kL_gxvmu6zPDDlWuF1SMWRsePD1sObzg/view?usp=sharing
+
+  1	2	3	4	5	6	7	8	9	10
+  Just in case you forgot how to count🤷‍♂️
+
+  Follow the instructions carefully. Don't miss anything. Not even the smallest thing!!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Wrinda
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/OSINT/JONES_and_The_Unknown_Treasure
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: (OSINT) JONES and The Unknown Treasure.txt
+    algorithm: sha256
+    value: 54bd04c22733ef2dfd9206aa2cbd27b5f4d8f0f0e2ffbe8c02b89e228ff21d8a
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

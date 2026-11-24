@@ -1,0 +1,144 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-web-003
+name: NodeJS Enthusiast
+slug: 003-nodejs-enthusiast
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: This is my first time using Node.js, and I am pretty sure that this code is bug free
+difficulty:
+  value: medium
+  source: organizer
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/web/NodeJS Enthusiast
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 60eaa6452c4dd3f744d38e4ce52515085e5ffb9551e60b10a4be35e27ba9ba63
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6edd9ad3f1a1bfa93f2c0ff4cbd209b0d0b8610e1bb6da3ae23bc1fd358091e9
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 22a628990ebcae5ddb8466a4cfaf98262f57ee6a7d7c8850d2cfa2c14b8ec5c5
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 248602f90ce9c96cfdf16f3fc18d751ca38e1429979b6da42a763a32aa2f2448
+  - path: dist/src/app.js
+    algorithm: sha256
+    value: c8e1fc252559c6faec4e5afc058a24dc101a7299fdb2a13a04ffbe44e4cf70f1
+  - path: dist/src/db.js
+    algorithm: sha256
+    value: 244676ac578ec1c42f7375408ef855a26524b50bd21ca59d5d0fcbb6f87a7c49
+  - path: dist/src/flag.txt
+    algorithm: sha256
+    value: 4a7c613483c7b2928e52e6c2031ef602d6095e6c04cadba66f01bf8e55064f0e
+  - path: dist/src/init.sql
+    algorithm: sha256
+    value: fe4f75bbfbce05e1fcf86e8fb6a441e255ea37a1f82d59c719e5f52e033f27ba
+  - path: dist/src/package-lock.json
+    algorithm: sha256
+    value: f69354358302df6356c29ffcc1f41689bf39ea093b18c1905aa67eb607494308
+  - path: dist/src/package.json
+    algorithm: sha256
+    value: 1c70c1b26c0605b395f8b9c6d0cadbe3fad70a60212fbcc7279595038bd8b0c4
+  - path: dist/src/routes/admin.js
+    algorithm: sha256
+    value: 506481be0110441cf96f536d8c432376a05997db8215c64963f5140113811c97
+  - path: dist/src/routes/auth.js
+    algorithm: sha256
+    value: cc4d151705e6239d1a058d5037f2c2274b6b05d330114c160f78ef8774eb30dc
+  - path: dist/src/views/admin.pug
+    algorithm: sha256
+    value: 2d28884be03e35441f2b60995e2c5b388ce1c9447a690ff8dcee04f67ca844c6
+  - path: dist/src/views/index.pug
+    algorithm: sha256
+    value: e653b9fa4b51737f0fa9cd992876392cd1c5ef25be0aa3bff11e0d713fe1cbc4
+  - path: dist/src/views/login.pug
+    algorithm: sha256
+    value: 929621e485916dc4c141de3e4fb81b97e98ff92370f47af6dc111da22a671ce5
+  - path: dist/src/views/profile.pug
+    algorithm: sha256
+    value: 14fe2b8aa14ed74c49c5f3a90f4acead20cc9b7209c8f4b74c1d577accfa5f2e
+  - path: dist/src/views/register.pug
+    algorithm: sha256
+    value: e649f66797ce0c764979e20702b7cd23fa922174e9541aeb32e68f7095895439
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 22a628990ebcae5ddb8466a4cfaf98262f57ee6a7d7c8850d2cfa2c14b8ec5c5
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 6eb9efa52a8a6e9f9025f4d1d9f26869ac0ff9065385a99eaa4689fa6c9c47f5
+  - path: src/src/app.js
+    algorithm: sha256
+    value: c8e1fc252559c6faec4e5afc058a24dc101a7299fdb2a13a04ffbe44e4cf70f1
+  - path: src/src/db.js
+    algorithm: sha256
+    value: 244676ac578ec1c42f7375408ef855a26524b50bd21ca59d5d0fcbb6f87a7c49
+  - path: src/src/flag.txt
+    algorithm: sha256
+    value: 4a7c613483c7b2928e52e6c2031ef602d6095e6c04cadba66f01bf8e55064f0e
+  - path: src/src/init.sql
+    algorithm: sha256
+    value: fe4f75bbfbce05e1fcf86e8fb6a441e255ea37a1f82d59c719e5f52e033f27ba
+  - path: src/src/package-lock.json
+    algorithm: sha256
+    value: f69354358302df6356c29ffcc1f41689bf39ea093b18c1905aa67eb607494308
+  - path: src/src/package.json
+    algorithm: sha256
+    value: 1c70c1b26c0605b395f8b9c6d0cadbe3fad70a60212fbcc7279595038bd8b0c4
+  - path: src/src/routes/admin.js
+    algorithm: sha256
+    value: 506481be0110441cf96f536d8c432376a05997db8215c64963f5140113811c97
+  - path: src/src/routes/auth.js
+    algorithm: sha256
+    value: cc4d151705e6239d1a058d5037f2c2274b6b05d330114c160f78ef8774eb30dc
+  - path: src/src/views/admin.pug
+    algorithm: sha256
+    value: 2d28884be03e35441f2b60995e2c5b388ce1c9447a690ff8dcee04f67ca844c6
+  - path: src/src/views/index.pug
+    algorithm: sha256
+    value: e653b9fa4b51737f0fa9cd992876392cd1c5ef25be0aa3bff11e0d713fe1cbc4
+  - path: src/src/views/login.pug
+    algorithm: sha256
+    value: 929621e485916dc4c141de3e4fb81b97e98ff92370f47af6dc111da22a671ce5
+  - path: src/src/views/profile.pug
+    algorithm: sha256
+    value: 14fe2b8aa14ed74c49c5f3a90f4acead20cc9b7209c8f4b74c1d577accfa5f2e
+  - path: src/src/views/register.pug
+    algorithm: sha256
+    value: e649f66797ce0c764979e20702b7cd23fa922174e9541aeb32e68f7095895439
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

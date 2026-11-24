@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-final-web-001
+name: Calculator
+slug: 001-calculator
+original_name: calculator
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: AnantaWeda
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: final/web/calculator
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d8a9c38247e08d9dd4cb06b71503e3b620d37bc3d33d34b0ef09bee65c55ad62
+  - path: .htaccess
+    algorithm: sha256
+    value: f55e528f6309a6944bf85f0e608db548150049bf850714aaf84724817aebf77c
+  - path: Dockerfile
+    algorithm: sha256
+    value: 9ceda2470840e34e0452eb52e7afc43041629c9c3ea9568b479c5e606b32704f
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 4e958b147c0f01b6f28d981cbe33d0955d669c96c51f8ba1b60ccdf2650ec689
+  - path: hint.php
+    algorithm: sha256
+    value: 78dfba60d6435b3a0eaf3df866d14a518aebc46bbf44b2ae6b3164a7db10f47c
+  - path: index.php
+    algorithm: sha256
+    value: 23e24f874b18961100b21baaff2f8c287fd8aa9982cc9b7cb7cee71913d6df84
+  - path: source.php
+    algorithm: sha256
+    value: 1e2057153ba15910ba5780e57eff92f1e6fa233baba4cee01f8f7b3f7fb711a0
+  - path: this_is_the_flag_for_slashroot.txt
+    algorithm: sha256
+    value: 6cb9d20ccacedb4bb3153173f3add90e7d9f3df5ca2f4f81b728c757d7c6b1dd
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

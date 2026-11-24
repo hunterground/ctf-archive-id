@@ -10,11 +10,16 @@ dates:
   end: '2024-11-08'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 26
 references:
-- title: ITB STIKOM Bali on Slashroot CTF 8.0
-  url: https://www.stikom-bali.ac.id/id/kompetisi-hacking-nasional-slashroot-ctf-8-0-ukm-kelompok-studi-linux-angkat-tema-secure-today-safe-tomorrow/
-  type: organizer_announcement
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Qualification on 28 September 2024. Final event on 8 November 2024.
+- title: SLASHROOT CTF #8 challenge repository
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+challenge_materials_imported: true
+notes: >
+  Qualification on 28 September 2024. Final event on 8 November 2024. The organizer challenge
+  repository separates quals and finals, which is the round structure used here. The 26 imported
+  challenges are the 12 qualifier and 14 final directories in that repository. Its joy directories
+  are empty placeholders, so no joy challenge is recorded. The repository has no LICENSE file; on
+  2026-11-23 the archive was instructed to treat such a source as MIT.

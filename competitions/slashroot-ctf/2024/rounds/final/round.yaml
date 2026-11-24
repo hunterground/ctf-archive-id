@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: final
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: finals
+sequence: 2
+type: final
+delivery: null
+description: Final round of SlashRoot CTF 8.0.
+dates:
+  start: '2024-11-08'
+  end: null
+statistics:
+  challenge_count: 14
+  participant_count: null
+references:
+- title: SLASHROOT CTF #8 challenge repository
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: >
+  The finals directory of the organizer repository holds 14 challenge directories across crypto,
+  forensics, pwn, reverse, and web. Its joy directory contains only a .gitkeep placeholder, so no
+  joy challenge is recorded for this round. The organizer announcement dates the final event to
+  8 November 2024, which is recorded as the round start date; the source does not state whether it
+  was played onsite or online, so delivery is left null. The repository has no license file; on
+  2026-11-23 the archive was instructed to treat such a source as MIT. Imported on 2026-11-23.
+  Author solver scripts were placed under solvers/ and are not recorded in challenge.yaml.

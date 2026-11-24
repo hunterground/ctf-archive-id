@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-final-rev-004
+name: super-lua
+slug: 004-super-lua
+original_name: null
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: reverse
+description: |-
+  lua but super.
+
+  *Note*: Wrap the result with `slashroot8{<result>}`
+difficulty:
+  value: hard
+  source: organizer
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: finals/reverse/super-lua
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG.txt
+    algorithm: sha256
+    value: 14e6a8a261acb7f36b76073ec64baf82703fc1cd52fb4a8a87a3baa844b806ec
+  - path: README.md
+    algorithm: sha256
+    value: fa493ada9fd0233beff4830ba52693490471d569c331c0777cbb0eefd882f564
+  - path: chall.luac
+    algorithm: sha256
+    value: aa771bd9d614a04dcf382da925668927554698e77d82670a2d041628da2e6b92
+  - path: lua
+    algorithm: sha256
+    value: 1c4b94e764d615bfc98976361104134f7cdfa4457e243a404b1204cbf17bf9bd
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

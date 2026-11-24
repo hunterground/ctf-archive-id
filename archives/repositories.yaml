@@ -1351,3 +1351,1242 @@ repositories:
       no per-challenge license file. Two forensic challenges link their large artifacts externally
       (Google Drive and iCloud) instead of carrying them in the tree; those artifacts are not
       archived and the links are recorded as omissions.
+  - schema_version: "1.0"
+    id: cyber-jawara-2018-final-challenges
+    name: Cyber Jawara 2018 Final CTF services environments
+    source:
+      type: github
+      url: https://github.com/farisv/CJ2018-Final-CTF
+      owner: farisv
+      repository: CJ2018-Final-CTF
+      branch: master
+      commit: 9ed007f3369a9a3d3cf16f053c7ef9cf6b6b1fb2
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2018
+    round_id: final
+    maintainer:
+      type: person
+      name: Fariskhi Vidyan
+      url: https://github.com/farisv
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - challenge_materials
+    challenge_count: 12
+    categories:
+      - crypto
+      - misc
+      - pwn
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: CJ2018-Final-CTF
+        url: https://github.com/farisv/CJ2018-Final-CTF
+        type: official_repository
+        accessed: '2026-11-22'
+    notes: >-
+      Attack & Defense service environments for the Cyber Jawara 2018 final, published by the problem
+      setter under the repository MIT license, copyright 2018 farisv. The README states the original
+      cluster images, the A&D platform, and the Docker manager are not included. Service
+      p10-assignment vendors a full Laravel vendor tree as part of the distribution and it is
+      preserved. No solver material was present.
+  - schema_version: "1.0"
+    id: cyber-jawara-2020-final-challenges
+    name: Cyber Jawara 2020 Final problemset
+    source:
+      type: github
+      url: https://github.com/farisv/CJ2020-Final-CTF
+      owner: farisv
+      repository: CJ2020-Final-CTF
+      branch: master
+      commit: 956fc62bffa2691b578d8f511b26a71f51f4177e
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2020
+    round_id: final
+    maintainer:
+      type: person
+      name: Fariskhi Vidyan
+      url: https://github.com/farisv
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 13
+    categories:
+      - pwn
+      - re
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: CJ2020-Final-CTF
+        url: https://github.com/farisv/CJ2020-Final-CTF
+        type: official_repository
+        accessed: '2026-11-22'
+    notes: >-
+      Jeopardy problemset for the Cyber Jawara 2020 final, published by the problem setter. The
+      repository has no LICENSE file. On 2026-11-22 the archive was instructed to treat a source
+      without a license as MIT, and redistribution is recorded as permitted on that basis. The per-
+      challenge README.md files are organizer after-event solution notes and stay in original/. The
+      repository-level after-event statistics and solutions PDF was not copied. One solver-named file,
+      web/tic-tac-toe/src/solver.js, is the web application's game engine required by index.js and
+      stays in original/ rather than moving to solvers/.
+  - schema_version: "1.0"
+    id: cyber-jawara-international-2024-challenges
+    name: The Cyber Jawara International 2024 CTF
+    source:
+      type: github
+      url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+      owner: farisv
+      repository: The-Cyber-Jawara-International-2024-CTF
+      branch: main
+      commit: eade4586651a7f319f9189872105fed7335b5c7c
+      path: null
+    competition_id: cyber-jawara-international
+    edition_year: 2024
+    round_id: main
+    maintainer:
+      type: organization
+      name: SKSD
+      url: https://github.com/sksd-id
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - challenge_materials
+    challenge_count: 27
+    categories:
+      - blockchain
+      - crypto
+      - forensic
+      - misc
+      - pwn
+      - rev
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: The-Cyber-Jawara-International-2024-CTF
+        url: https://github.com/farisv/The-Cyber-Jawara-International-2024-CTF
+        type: official_repository
+        accessed: '2026-11-22'
+      - title: CTFtime / The Cyber Jawara International 2024
+        url: https://ctftime.org/event/2552/
+        type: third_party_archive
+        accessed: '2026-11-22'
+    notes: >-
+      Organizer problem set for the 2024 International segment. The README attributes the set to the
+      SKSD CTF team, which was appointed problem setter; the account is the individual account of SKSD
+      member Fariskhi Vidyan. The repository has no LICENSE file, and on 2026-11-22 the archive was
+      instructed to treat a source without a license as MIT. The README lists 26 named challenges;
+      challs/misc/welcome is an additional Discord welcome challenge and is imported too. The challs/
+      tree is preserved as the original structure. No solver material was present.
+  - schema_version: "1.0"
+    id: cyber-jawara-2025-quals-sksd
+    name: Cyber Jawara 2025 Qualifiers
+    source:
+      type: github
+      url: https://github.com/sksd-id/CJ2025-public
+      owner: sksd-id
+      repository: CJ2025-public
+      branch: main
+      commit: 84ee9df7ca27ad567b2eb378851b3194fe6cb333
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2025
+    round_id: qualification
+    maintainer:
+      type: organization
+      name: SKSD
+      url: https://github.com/sksd-id
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 35
+    categories:
+      - Crypto
+      - Forensics
+      - Pwn
+      - Reverse
+      - Web
+    verification:
+      status: verified
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: AGPL-3.0
+      redistribution: permitted
+    references:
+      - title: CJ2025-public
+        url: https://github.com/sksd-id/CJ2025-public
+        type: official_repository
+        accessed: '2026-11-22'
+    notes: >-
+      Organizer repository for the Cyber Jawara 2025 qualification stage, published by the SKSD
+      organization. The root LICENSE is AGPL-3.0. The tree holds 16 umum, 14 pelajar, and 5 csirt
+      challenge entries; shared challenge names are imported once per division. Solver and writeup
+      material under challenge solver/, writeup/, and solution directories was moved to solvers/.
+      Web/Bapack, Web/Insanity Check, and Web/not-so-nice-html-viewer carry their own MIT LICENSE
+      inside challenge/; that MIT is recorded for those challenges instead of the root AGPL. Challenge
+      directories ship flags in challenge.yml, README.md, and .env files; these are original
+      distribution files and were preserved as-is, not copied into challenge metadata.
+      quals/umum/Reverse/dior and quals/umum/Reverse/gosecret have no challenge.yml.
+  - schema_version: "1.0"
+    id: cyber-jawara-2023-soal-penyisihan-danieldd28
+    name: Soal Penyisihan Cyber Jawara 2023 (Tingkat Pelajar)
+    source:
+      type: github
+      url: https://github.com/Danieldd28/Cyber-Jawara-23
+      owner: Danieldd28
+      repository: Cyber-Jawara-23
+      branch: main
+      commit: 84753c563b00d4f3934ab234def987165c477bcb
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2023
+    round_id: qualification
+    maintainer:
+      type: person
+      name: Danieldd28
+      url: https://github.com/Danieldd28
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - challenge_materials
+    challenge_count: 12
+    categories:
+      - Binexp
+      - Crypto
+      - Forensic
+      - Misc
+      - Reverse Engineering
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Soal Penyisihan Cyber Jawara 2023
+        url: https://github.com/Danieldd28/Cyber-Jawara-23
+        type: third_party_archive
+        accessed: '2026-11-22'
+    notes: >-
+      Imported on 2026-11-23 at the archive maintainer's direction. The README reads "Soal Penyisihan
+      Cyber Jawara 2023 - Tingkat Pelajar", so the set is the high-school track of the 2023
+      qualification round and is archived under divisions/high-school. The repository sits on a
+      personal account and does not state that its owner set or organized the challenges, so challenge
+      authors are left empty and the set is marked needs_scope_review. The material is nevertheless
+      the genuine event set: CJ2023{...} flag placeholders appear in the jail and web trees, and
+      Web/Static web links to the official cyberjawara.id/2023 track pages. The 12 challenge
+      directories were imported with their full deployment trees and flag placeholders preserved as
+      original distribution files. There are no solver or write-up directories.
+  - schema_version: "1.0"
+    id: cyber-jawara-2022-documentation-shl
+    name: CTF Cyber Jawara 2022 Documentation
+    source:
+      type: github
+      url: https://github.com/SurabayaHackerLinkProject/CTF-CyberJawara-2022
+      owner: SurabayaHackerLinkProject
+      repository: CTF-CyberJawara-2022
+      branch: null
+      commit: null
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2022
+    round_id: null
+    maintainer:
+      type: organization
+      name: Surabaya Hacker Link
+      url: https://github.com/SurabayaHackerLinkProject
+    access:
+      visibility: public
+      access_date: '2026-11-22'
+    content_types:
+      - writeups
+    challenge_count: null
+    categories:
+      - Cryptography
+      - Digital-Forensic
+      - Misc
+      - PWN
+      - Reverse-Engineering
+      - Web
+    verification:
+      status: discovered
+      last_checked: '2026-11-22'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: CTF Cyber Jawara 2022 Documentation
+        url: https://github.com/SurabayaHackerLinkProject/CTF-CyberJawara-2022
+        type: writeup
+        accessed: '2026-11-22'
+    notes: >-
+      Secondary source, not imported and awaiting human review. The README describes participant
+      write-ups and proof-of-concept documents assembled from several teams, not an organizer
+      problemset, and it states that write-ups came from various sources. It is evidence that a 2022
+      edition ran, but no 2022 edition record was created because no organizer or author source for it
+      was found. Not cloned.
+  - schema_version: "1.0"
+    id: cyber-jawara-2017-akanura-collection
+    name: Cyber Jawara 2017 challenge collection
+    source:
+      type: github
+      url: https://github.com/akanura/cyber-jawara-2017
+      owner: akanura
+      repository: cyber-jawara-2017
+      branch: master
+      commit: c3d2f592f784b4804226f3e99195d6b460a8bfac
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2017
+    round_id: null
+    maintainer:
+      type: person
+      name: adityarahmayadi
+      url: https://github.com/akanura
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 23
+    categories:
+      - Binary Exploitation
+      - Forensics
+      - Misc
+      - Reverse Engineering
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: cyber-jawara-2017
+        url: https://github.com/akanura/cyber-jawara-2017
+        type: third_party_archive
+        accessed: '2026-11-23'
+    notes: >-
+      Imported on 2026-11-23 at the archive maintainer's direction. Genuine 2017 material: the 23
+      challenge directories hold soal.txt and attachments, and every service address points at
+      cj2k17.ctf.idsirtii.or.id or cj2017.ctf.idsirtii.or.id, which ties them to the 2017 event
+      infrastructure. The uploader is a single personal account with one 2017-08-30 commit and no
+      README, and nothing states that the owner set or organized the challenges, so challenge authors
+      are left empty and the set is marked needs_scope_review. The source gives no round label; the
+      set is modeled as the qualification round because all entries are online jeopardy services and
+      no final-stage material is present. Large attachments were copied as shipped (NHA-13.7z about 28
+      MB, FlightSimulator.apk about 21 MB). The source has no LICENSE file, so MIT is recorded under
+      the archive maintainer instruction of 2026-11-22.
+  - schema_version: "1.0"
+    id: cyber-jawara-2015-aliansi-collection
+    name: Soal Cyber Jawara 2015
+    source:
+      type: github
+      url: https://github.com/aliansi/soal-cyber-jawara-2015
+      owner: aliansi
+      repository: soal-cyber-jawara-2015
+      branch: master
+      commit: de360e827e2dafc1581da8e44f47d9cdbe94eb3a
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2015
+    round_id: qualification
+    maintainer:
+      type: person
+      name: aliansi
+      url: https://github.com/aliansi
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 7
+    categories:
+      - forensics
+      - misc
+      - rev
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: soal-cyber-jawara-2015
+        url: https://github.com/aliansi/soal-cyber-jawara-2015
+        type: third_party_archive
+        accessed: '2026-11-23'
+      - title: Prestasi Fast Affine Projection di Cyber Jawara dan Cyber Sea Games 2015
+        url: >-
+          https://cs.ui.ac.id/2015/10/25/prestasi-fast-affine-projection-di-cyber-jawara-dan-cyber-sea-
+          games-2015/
+        type: other
+        accessed: '2026-11-23'
+      - title: Pembahasan Soal Cyber Jawara 2015 - Camouflage.mp4 (Easy)
+        url: https://noob1t4.blogspot.com/2015/10/pembahasan-soal-cyber-jawara-2015_11.html
+        type: writeup
+        accessed: '2026-11-23'
+      - title: Writeup Cyber Jawara 2015 Day 1 - LoginCJ (Medium I)
+        url: https://www.sitakom.com/2015/10/cyber-jawara-2015-day-1-logincj-medium-i.html
+        type: writeup
+        accessed: '2026-11-23'
+      - title: Writeup Cyber Jawara 2015 Day 2 - CJ15
+        url: https://www.sitakom.com/2015/10/cyber-jawara-2015-day-2-cj15.html
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Qualification-round material, not imported and awaiting a maintainer decision. README.txt says
+      "copyright@FOSA2015" and describes the upload as the 2015 Cyber Jawara run by ID-SIRTII,
+      collected by team ISA of Forum Open Source Akakom. The round attribution is established: the
+      2015 event had an online qualification followed by an offline final for 16 finalists from 208
+      teams, and a participant blog published these files with the remark that the online competition
+      had finished and the offline finalists announced. The set is therefore the qualification round,
+      and it shares no challenge name with the RNDC final write-up that was imported. The files are a
+      flat attachment dump with no per-challenge directories and no category labels. Participant blogs
+      identify most individual files as separate challenges: haXOR (easy, 25 points, XOR with key 6),
+      132486.tar.gz (easy, 25 points, a mislabelled text file decoded from base64), Camouflage.mp4
+      (easy, 25 points, steganography with unfiction Camouflage), LoginCJ.exe (medium I, Windows
+      reversing), CJ15 (day 2, ELF 32-bit, XOR with 22), and suunto.png with Qer.zip as one
+      steganography challenge (EXIF short URL to a QR-puzzle archive). cj2015.zip holds cj2015.exe
+      with library.zip and python27.dll and has no located write-up, so its category is unknown. Two
+      blockers remain before import: the file-to-event-category mapping is supplied by third-party
+      blogs rather than the source, and redistribution is not granted, because "copyright@FOSA2015" is
+      a copyright assertion rather than a license. The maintainer's standing instruction treats a
+      source with no license as MIT, but this source carries an explicit copyright claim, so that
+      instruction does not obviously apply and the question is left open.
+  - schema_version: "1.0"
+    id: cyber-jawara-2015-final-writeup-rndc
+    name: Cyber Jawara 2015 Final Writeup (RNDC)
+    source:
+      type: github
+      url: https://github.com/rndc/cyberjawara-2015-final-writeup
+      owner: rndc
+      repository: cyberjawara-2015-final-writeup
+      branch: master
+      commit: c4968ea208030d551909ffdc26ccad7d89424fac
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2015
+    round_id: final
+    maintainer:
+      type: organization
+      name: RNDC
+      url: https://github.com/rndc
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: 3
+    categories:
+      - Binary Exploitation
+      - Forensics
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Cyber Jawara 2015 Final Writeup
+        url: https://github.com/rndc/cyberjawara-2015-final-writeup
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Imported on 2026-11-23 as the material backing the new 2015 edition. MIT licensed, copyright
+      2015 RNDC; the three challenge directories (beats, ellegarden, scarlet) each hold the write-up
+      README plus the original binary or attachment. Participant-authored: the challenge statement is
+      not reproduced, so descriptions summarise what the write-up analyses and authors are left empty.
+      This repository also establishes that a 2015 final ran, which the 2015 edition cites. The loose
+      FOSA attachment dump recorded as cyber-jawara-2015-aliansi-collection stays unimported because
+      it has no challenge boundaries.
+  - schema_version: "1.0"
+    id: cyber-jawara-2019-writeup-rizqiwahyudi
+    name: Cyber Jawara 2019 Write-Up (SumekarID.CTF)
+    source:
+      type: github
+      url: https://github.com/rizqiwahyudi/writeup_ctf_cj2019
+      owner: rizqiwahyudi
+      repository: writeup_ctf_cj2019
+      branch: master
+      commit: fa29725695e51adf99f4397b84b0602d0ef4a412
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2019
+    round_id: null
+    maintainer:
+      type: person
+      name: rizqi-wahyudi
+      url: https://github.com/rizqiwahyudi
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: null
+    categories: []
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: WriteUp Capture The Flag Cyber Jawara 2019
+        url: https://github.com/rizqiwahyudi/writeup_ctf_cj2019
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source, not imported and awaiting human review. The repository holds a single PDF
+      write-up (WriteUp_CJ2019_SumekarID.CTF.pdf) by team SumekarID.CTF plus a README that explains
+      what CTF and Cyber Jawara are. It is evidence that a 2019 edition ran, but it contains no
+      challenge files, so it cannot establish challenge records. No 2019 edition record was created
+      from it.
+  - schema_version: "1.0"
+    id: cyber-jawara-2023-finalist-danieldd28
+    name: Soal Finalist Cyber Jawara 2023 (Tingkat Pelajar)
+    source:
+      type: github
+      url: https://github.com/Danieldd28/CyberJawara23-Finalist
+      owner: Danieldd28
+      repository: CyberJawara23-Finalist
+      branch: main
+      commit: 9dabdf0a0f77b5b8c3a8e33a88d47280f7229065
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2023
+    round_id: final
+    maintainer:
+      type: person
+      name: Danieldd28
+      url: https://github.com/Danieldd28
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 10
+    categories:
+      - Cryptography
+      - Forensic
+      - binexp
+      - reverse
+      - web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: Soal Finalist Cyber Jawara 2023
+        url: https://github.com/Danieldd28/CyberJawara23-Finalist
+        type: third_party_archive
+        accessed: '2026-11-23'
+    notes: >-
+      Imported on 2026-11-23 at the archive maintainer's direction. The README reads "Soal Finalist
+      Cyber Jawara 2023 - Tingkat Pelajar", so the set is the high-school track of the 2023 final
+      round and is archived under divisions/high-school. The ten challenge directories (ground,
+      keylog, ransom, Compressor, Pet, done, gone, Note, NoteAgain, magic-0) were imported. Instance
+      hostnames under ctf.cyberjawara.id appear in the Note, NoteAgain, and magic-0 READMEs, which
+      corroborates the event, but the repository sits on a personal account and does not state that
+      its owner set the challenges, so authors are left empty and the set is marked
+      needs_scope_review. web/magic-0 ships a flag.txt and a full deployment tree as original files;
+      both were preserved as-is and no flag value was copied into metadata.
+  - schema_version: "1.0"
+    id: cyber-jawara-2025-writeup-mrgl1tchnu11
+    name: CyberJawara 2025 Writeups (MrGl1tchNu11)
+    source:
+      type: github
+      url: https://github.com/MrGl1tchNu11/CyberJawara2025-WriteUp
+      owner: MrGl1tchNu11
+      repository: CyberJawara2025-WriteUp
+      branch: main
+      commit: d5cd42152055b487978398afbc11a4942f32025f
+      path: null
+    competition_id: cyber-jawara
+    edition_year: 2025
+    round_id: null
+    maintainer:
+      type: person
+      name: MrGl1tchNu11
+      url: https://github.com/MrGl1tchNu11
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: 11
+    categories:
+      - Cryptography
+      - Forensics
+      - PWN
+      - Reverse Engineering
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: CyberJawara 2025 Writeups
+        url: https://github.com/MrGl1tchNu11/CyberJawara2025-WriteUp
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source, not imported. Participant write-ups from the high-school track by team "kata
+      rizqi lengah dikit mau di ddos platformnya hati hati ya panitia". The tree contains only two
+      PDFs plus a readme; the readme lists six qualification challenges (Accidental, virtuoso, Hermes,
+      chanel, Spushcode, forgotten-flag) and five finals challenges (babu-format, 7sFetcher, S7,
+      legacy-project, Safe Extension). It is useful corroboration that a 2025 finals round ran with
+      different challenges from the qualification set, and it publishes challenge flags verbatim. Do
+      not copy flags into archive metadata. It does not replace the organizer repository as a source.
+  - schema_version: "1.0"
+    id: cyber-jawara-2019-2020-quals-arkangels
+    name: ArkAngels CTF-Source-Codes - Cyber Jawara 2019 and 2020 Qualification
+    source:
+      type: github
+      url: https://github.com/ArkAngels/CTF-Source-Codes
+      owner: ArkAngels
+      repository: CTF-Source-Codes
+      branch: master
+      commit: 28634028e9c66e0a5d159be8146e058a2bd4b928
+      path: null
+    competition_id: cyber-jawara
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: ArkAngels
+      url: https://github.com/ArkAngels
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 46
+    categories:
+      - Binary Exploitation
+      - Cryptography
+      - Forensic
+      - Pwn
+      - Reverse
+      - Reverse Engineering
+      - Warmup
+      - Web
+      - Web Exploitation
+      - forensic
+      - pwn
+      - reverse
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: ArkAngels/CTF-Source-Codes
+        url: https://github.com/ArkAngels/CTF-Source-Codes
+        type: third_party_archive
+        accessed: '2026-11-23'
+    notes: >-
+      Multi-competition source-code collection whose default branch main is empty; the content lives
+      on master at commit 28634028, authored by ArkAngels (kris.saputra@binus.ac.id). It holds two
+      Cyber Jawara directories: "Cyber Jawara 2019 Qualification" (17 challenges, 60 files, 7.9 MB)
+      and "Cyber Jawara 2020 Qualification" (29 challenges across 6 groups, 53 files, 1.8 MB), both
+      imported under the archive maintainer instruction of 2026-11-22 that treats a source without a
+      license file as MIT. The repository has no LICENSE file. It is a third-party copy of challenge
+      distributions rather than an organizer publication, so per-challenge authors are left empty; no
+      author or setter attribution appears anywhere in the tree. Attachments that exist only as Google
+      Drive links (Home Sherlock, Koq Error) are recorded as preservation omissions. No solver
+      material was present. Note that the repository also contains unrelated non-Cyber-Jawara CTF
+      directories (CSAW, Facebook CTF, Harekaze, N1CTF, SEC-T, UNITY), which were not imported. The
+      default branch being empty is why a plain shallow clone appears to fail; clone with --branch
+      master.
+  - schema_version: "1.0"
+    id: afmaghribi-my-pwnyable
+    name: My Pwnable - 0byteCTF 2023 and 2024 pwn challenges
+    source:
+      type: github
+      url: https://github.com/afmaghribi/my-pwnyable
+      owner: afmaghribi
+      repository: my-pwnyable
+      branch: main
+      commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+      path: null
+    competition_id: 0bytectf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: afmaghribi
+      url: https://github.com/afmaghribi
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 4
+    categories:
+      - pwn
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: my-pwnyable
+        url: https://github.com/afmaghribi/my-pwnyable
+        type: other
+        accessed: '2026-11-23'
+      - title: 0byteCTF 2023
+        url: https://zerobyte.id/events/0byteCTF-2023/
+        type: official_website
+        accessed: '2026-11-23'
+      - title: 0byteCTF 2024
+        url: https://zerobyte.id/events/0byteCTF-2024/
+        type: official_website
+        accessed: '2026-11-23'
+    notes: >-
+      Author-owned repository of pwn challenges by Lychnobyte (afmaghribi, Ahmad Fauzzan Maghribi),
+      who is listed as a committee member on the official 0byteCTF 2023 page. It holds the full
+      challenge directories for Zerobyte-2023/Quiz Kebangsaan, Zerobyte-2023/Sistem Anti Hek,
+      Zerobyte-2024/eazy_pwn, and Zerobyte-2024/Catatan_Sipil: Dockerfile, compose.yml, dist/
+      attachments, src/ source and build files, and a writeup/ directory with the author exploit and
+      notes. The four challenge distributions were copied and the writeup/exploit.py files were placed
+      under solvers/ at the mirrored challenge paths. The repository has no LICENSE file; on
+      2026-11-23 the archive maintainer instructed the archive to treat sources without a license as
+      MIT. It is not an organizer-wide publication: no other 0byteCTF category is present, so the
+      edition imports are partial. The recorded commit is the tip of main cloned on 2026-11-23.
+  - schema_version: "1.0"
+    id: daffainfo-ctf-writeup
+    name: daffainfo CTF writeups - 0byteCTF 2023
+    source:
+      type: github
+      url: https://github.com/daffainfo/ctf-writeup
+      owner: daffainfo
+      repository: ctf-writeup
+      branch: main
+      commit: ddb01203ac94c9fe998b91a1ac899a54ad25753b
+      path: 2023/0ByteCTF 2023
+    competition_id: 0bytectf
+    edition_year: 2023
+    round_id: main
+    maintainer:
+      type: person
+      name: daffainfo
+      url: https://github.com/daffainfo
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: 8
+    categories:
+      - Crypto
+      - Forensic
+      - Web
+    verification:
+      status: partially_verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: 0ByteCTF 2023 writeups
+        url: https://github.com/daffainfo/ctf-writeup/tree/master/2023/0ByteCTF%202023
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: participant writeups by daffainfo, who placed third in 0byteCTF 2023 according
+      to both the official event page and the repository README. Holds 8 writeup directories (Web:
+      Guestbook (Beta), Gambar Ajaib, the Injection, Just Explore!; Forensic: Who the Hack, Romeo and
+      Dulliet, One of the greatest matches of all time!; Crypto: Token), each a README plus
+      screenshots and, for one challenge, a zip attachment. Not cloned into the archive and not
+      imported as challenge material; recorded for review because it is a participant writeup rather
+      than an organizer or author source. The tree was read with a blobless clone on 2026-11-23; the
+      recorded commit is that clone tip on branch main.
+  - schema_version: "1.0"
+    id: devit7-ctf-writeup-mpiie
+    name: devit7 CTF writeups - 0byteCTF 2023
+    source:
+      type: github
+      url: https://github.com/devit7/CTF-Writeup-Mpiie
+      owner: devit7
+      repository: CTF-Writeup-Mpiie
+      branch: main
+      commit: 7825cbe11b6b521f35c1eef70ff47f5950533da8
+      path: 0bytectf2023
+    competition_id: 0bytectf
+    edition_year: 2023
+    round_id: main
+    maintainer:
+      type: person
+      name: devit7
+      url: https://github.com/devit7
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: null
+    categories:
+      - Web
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: devit7/CTF-Writeup-Mpiie
+        url: https://github.com/devit7/CTF-Writeup-Mpiie
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: participant writeup pointer. The 0bytectf2023 directory holds only a readme.md
+      that links a Google Drive writeup for the Guestbook (Beta) web challenge; no challenge files.
+      Not imported.
+  - schema_version: "1.0"
+    id: hope0351-my-ctf-collections
+    name: Hope0351 CTF collections - 0byteCTF 2023
+    source:
+      type: github
+      url: https://github.com/Hope0351/my_CTF_collections
+      owner: Hope0351
+      repository: my_CTF_collections
+      branch: main
+      commit: 16f51d251cf4d639f0528e5aff569ae775e158bb
+      path: null
+    competition_id: 0bytectf
+    edition_year: 2023
+    round_id: null
+    maintainer:
+      type: person
+      name: Hope0351
+      url: https://github.com/Hope0351
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: null
+    categories: []
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: Hope0351/my_CTF_collections
+        url: https://github.com/Hope0351/my_CTF_collections
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: participant writeup collection. The only 0byteCTF reference is one row in the
+      repository's competition/ranking table (0byteCTF 2023, solo, third place); there is no 0byteCTF
+      directory in the tree. Not imported.
+  - schema_version: "1.0"
+    id: slashroot-ctf-2023-challenges
+    name: SlashRoot 7 2023 problemset
+    source:
+      type: github
+      url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+      owner: Kelompok-Studi-Linux-Stikom-Bali
+      repository: soal-slashroot-7
+      branch: master
+      commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: 2023
+    round_id: null
+    maintainer:
+      type: organization
+      name: UKM Kelompok Studi Linux, ITB STIKOM Bali
+      url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+      - solutions
+      - writeups
+    challenge_count: 46
+    categories:
+      - crypto
+      - forensics
+      - joy
+      - misc
+      - osint
+      - pwn
+      - rev
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: SlashRoot 7 2023 problemset
+        url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+        type: official_repository
+        accessed: '2026-11-23'
+    notes: >-
+      Organizer problem-set repository for SlashRoot CTF 7.0 (2023). It holds two round directories,
+      penyisihan (28 challenges, imported as round qualification) and final (18 challenges, imported
+      as round final), so one registry entry covers both rounds. Commit
+      6e636718346bc2fa02b72a3a45d4a12be4804531 is the tip of a shallow clone of master on 2026-11-23.
+      The repository root carries an MIT LICENSE (Copyright (c) 2023 Kelompok Studi Linux), preserved
+      at competitions/slashroot-ctf/2023/LICENSE and referenced from every 2023 challenge. Several
+      challenge directories also contain author build artifacts, flags, and walkthroughs; those were
+      kept in original/ because they are part of the published problem set, while directories and
+      scripts that are clearly author solvers were moved to solvers/.
+  - schema_version: "1.0"
+    id: slashroot-ctf-2024-challenges
+    name: SLASHROOT CTF
+    source:
+      type: github
+      url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+      owner: Kelompok-Studi-Linux-Stikom-Bali
+      repository: slashroot-8-challs
+      branch: main
+      commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: 2024
+    round_id: null
+    maintainer:
+      type: organization
+      name: UKM Kelompok Studi Linux, ITB STIKOM Bali
+      url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 26
+    categories:
+      - crypto
+      - forensics
+      - pwn
+      - rev
+      - web
+    verification:
+      status: verified
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: MIT
+      redistribution: permitted
+    references:
+      - title: SLASHROOT CTF
+        url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+        type: official_repository
+        accessed: '2026-11-23'
+    notes: >-
+      Organizer challenge repository for SlashRoot CTF 8.0 (2024). It holds two round directories,
+      quals (12 challenges, imported as round qualification) and finals (14 challenges, imported as
+      round final), so one registry entry covers both rounds. Commit
+      1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9 is the tip of a shallow clone of main on 2026-11-23.
+      The repository has no LICENSE file; the archive maintainer instructed on 2026-11-23 that a
+      source with no license file is recorded as MIT, and each challenge records that instruction as
+      its permission_reference. The joy directory in both rounds contains only a .gitkeep placeholder.
+      Author solver scripts were moved to solvers/ and are not recorded in challenge.yaml.
+  - schema_version: "1.0"
+    id: slashroot-ctf-2024-rsctf-tcp1p
+    name: TCP1P Slashroot 8 CTF 2024 RSCTF distribution
+    source:
+      type: github
+      url: https://github.com/TCP1P/Slashroot-8-CTF-2024
+      owner: TCP1P
+      repository: Slashroot-8-CTF-2024
+      branch: main
+      commit: dd6ab952c74f8f0623047008bc11ea4eea73c8e5
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: 2024
+    round_id: null
+    maintainer:
+      type: organization
+      name: TCP1P
+      url: https://github.com/TCP1P
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 4
+    categories:
+      - pwn
+      - web
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: TCP1P/Slashroot-8-CTF-2024
+        url: https://github.com/TCP1P/Slashroot-8-CTF-2024
+        type: third_party_archive
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: third-party RSCTF re-distribution of SlashRoot 8 CTF 2024, whose README names
+      https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs as the original
+      repository. The tree holds only four converted challenge packages (finals: hingga-diangkasa-
+      sana-di-se-java-rsctf-dynamic, nodejs-enthusiast; quals: mabox-rsctf-dynamic, ezz-memento-rsctf-
+      dynamic) plus RSCTF event manifests, not the full problem set. Not cloned into the archive and
+      not imported; the archive already carries the full set from the organizer repository. Recorded
+      for review because it is a mirror, not an organizer or author source. The tree was read with a
+      blobless clone on 2026-11-23; the recorded commit is that clone tip on branch main.
+  - schema_version: "1.0"
+    id: ganes556-slashroot
+    name: Ganes556 SlashRoot 6.0 challenge sources
+    source:
+      type: github
+      url: https://github.com/Ganes556/slashroot
+      owner: Ganes556
+      repository: slashroot
+      branch: master
+      commit: 10ea64a8761a4710419b09840cb9a64c4146b006
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: Ganes556
+      url: https://github.com/Ganes556
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 7
+    categories:
+      - web
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: Ganes556/slashroot
+        url: https://github.com/Ganes556/slashroot
+        type: other
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: challenge-author repository. Its docker-compose.yml names containers
+      slashroot6-check_age-web, slashroot6-guessing_number-web, and slashroot6-complain-web, which
+      ties the material to SlashRoot CTF 6.0, but the repository itself states no edition year and
+      carries no edition metadata, so edition_year is left null. Holds seven challenge sources across
+      js (checkAge, final-complain), php (myself, oop, trickation 2), and python, several with author
+      payload and solver scripts and committed flags. The archive records SlashRoot CTF 6.0 as the
+      2022 edition; because this repository states no year, edition_year is left null rather than
+      inferred from that match. Not cloned into the archive and not imported, since the 2022 edition
+      currently has no organizer problem-set source. Recorded for review because it is an author
+      source that may supply material the organizer never published.
+  - schema_version: "1.0"
+    id: indravscode-dora-ctf
+    name: indravscode dora_ctf challenge source
+    source:
+      type: github
+      url: https://github.com/indravscode/dora_ctf
+      owner: indravscode
+      repository: dora_ctf
+      branch: master
+      commit: 7dd73df58c0cee81dac811766bca3fa2578cdd7d
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: indravscode
+      url: https://github.com/indravscode
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+    challenge_count: 1
+    categories:
+      - mobile
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: indravscode/dora_ctf
+        url: https://github.com/indravscode/dora_ctf
+        type: other
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: author repository for a Flutter mobile challenge. lib/flag.dart displays the
+      string "SlashRoot CTF 6.0", which ties it to that edition, but the repository carries no edition
+      metadata or organizer reference, so edition_year is left null. Not cloned into the archive and
+      not imported; it also contains the challenge flag in lib/flag.dart, so the source is only
+      registered. Recorded for review because it is an author source for a mobile challenge the
+      organizer repositories do not cover.
+  - schema_version: "1.0"
+    id: indravscode-solo-lord
+    name: indravscode solo_lord challenge source
+    source:
+      type: github
+      url: https://github.com/indravscode/solo_lord
+      owner: indravscode
+      repository: solo_lord
+      branch: main
+      commit: 7ce8ef99117b2ce2febf70c5acff4aeb1a0d88cf
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: indravscode
+      url: https://github.com/indravscode
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - challenge_materials
+      - solutions
+    challenge_count: 1
+    categories:
+      - pwn
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: indravscode/solo_lord
+        url: https://github.com/indravscode/solo_lord
+        type: other
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: author repository for one pwn challenge. It holds solo_lord.cpp, a compiled
+      solo_lord2, solver.py, and flag.txt whose flag starts with slashroot6, which ties it to
+      SlashRoot CTF 6.0; the repository states no edition year, so edition_year is left null. Not
+      cloned into the archive and not imported, because it contains the flag and the archive has no
+      2022 problem-set import. Recorded for review as an author source.
+  - schema_version: "1.0"
+    id: mentimun-mentah-slashroot-platform
+    name: mentimun-mentah slashroot platform
+    source:
+      type: github
+      url: https://github.com/mentimun-mentah/slashroot
+      owner: mentimun-mentah
+      repository: slashroot
+      branch: master
+      commit: ba60c99a15198220453ef347f442d0062b997a39
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: mentimun-mentah
+      url: https://github.com/mentimun-mentah
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - infrastructure
+    challenge_count: null
+    categories: []
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: mentimun-mentah/slashroot
+        url: https://github.com/mentimun-mentah/slashroot
+        type: other
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: the CTF platform frontend, whose README states "Platform for slashroot 5". It
+      contains Next.js scoring and flag-submission pages and no challenge material, so it is out of
+      scope for challenge import and no edition year is recorded. Registered only because it
+      identifies a SlashRoot 5 edition that the archive does not yet have.
+  - schema_version: "1.0"
+    id: d4em0n-slashrootctf-writeup
+    name: d4em0n SlashRootCTF 2.0 writeups
+    source:
+      type: github
+      url: https://github.com/d4em0n/slashrootctf-writeup
+      owner: d4em0n
+      repository: slashrootctf-writeup
+      branch: master
+      commit: 0dd998c063b6c20de03f9c3951d1b38449f045d6
+      path: null
+    competition_id: slashroot-ctf
+    edition_year: null
+    round_id: null
+    maintainer:
+      type: person
+      name: d4em0n
+      url: https://github.com/d4em0n
+    access:
+      visibility: public
+      access_date: '2026-11-23'
+    content_types:
+      - writeups
+    challenge_count: 13
+    categories: []
+    verification:
+      status: discovered
+      last_checked: '2026-11-23'
+    licensing:
+      declared_license: null
+      redistribution: unknown
+    references:
+      - title: d4em0n/slashrootctf-writeup
+        url: https://github.com/d4em0n/slashrootctf-writeup
+        type: writeup
+        accessed: '2026-11-23'
+    notes: >-
+      Secondary source: DarkRose Team writeups for SlashRootCTF 2.0 (2017 by the repository history).
+      The README names the event as SlashRootCTF 2.0 but gives no year and the archive holds no 2.0
+      edition record, so edition_year is left null. Holds 15 writeup files (13 text writeups plus two
+      .doc writeups) covering challenges such as zodiak, warmup, rsa, gdb, rev4fun, and
+      overwriteing_game. Not cloned into the archive and not imported; recorded for review as a
+      participant writeup source and as evidence that an earlier SlashRoot edition exists.

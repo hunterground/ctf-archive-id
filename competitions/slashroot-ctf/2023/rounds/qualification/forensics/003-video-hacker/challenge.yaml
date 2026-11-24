@@ -1,0 +1,51 @@
+schema_version: '1.0'
+id: slashroot-ctf-2023-qualification-forensics-003
+name: Video Hacker
+slug: 003-video-hacker
+original_name: video_hacker
+competition_id: slashroot-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ekajaya
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2023-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  commit: 6e636718346bc2fa02b72a3a45d4a12be4804531
+  original_path: penyisihan/forensics/video_hacker
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.avi
+    algorithm: sha256
+    value: 6e16520869eff703a3fa8cf5adc383fa56dd9f4f049a4425276b3cf849fe6351
+licensing:
+  declared_license: MIT
+  copyright_holder: Kelompok Studi Linux
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: MIT LICENSE at the source repository root (Copyright (c) 2023 Kelompok Studi Linux), preserved as competitions/slashroot-ctf/2023/LICENSE.
+references:
+- title: slashroot-ctf-2023-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/soal-slashroot-7
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: null

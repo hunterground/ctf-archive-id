@@ -1,0 +1,114 @@
+schema_version: '1.0'
+id: slashroot-ctf-2024-qualification-web-001
+name: EZZ Memento
+slug: 001-ezz-memento
+original_name: ezz memento
+competition_id: slashroot-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: |-
+  java is ezz... zzz...
+
+  but wait! whattt.......!?
+difficulty:
+  value: 1000
+  source: organizer
+tags: []
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: slashroot-ctf-2024-challenges
+  source_type: git
+  repository: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  commit: 1d84dcfd0b61e79ff22dc8d7e09b04248ea9d0a9
+  original_path: quals/web/ezz memento
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 460a93f8172a7b65de47d7823d0c7ee299d1a4baa058884281ad7eeacbd6dcd9
+  - path: dist/.dockerignore
+    algorithm: sha256
+    value: d2d4486fdb822cd70423e97cf669158e0608f190c8b0cc9f64fafca2c7b0feed
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: b25cb32be69ab423b8e86c3b46d72bfc59f0cde4b81e3dc3a0c7a02050264832
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 6ef41b17d52348596c560098a407b42ae9c0223a77393907651674201f974fdb
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/pom.xml
+    algorithm: sha256
+    value: 546dee881a9d708eafd1382fe99f25f59c532af85432a751037f5f3817d59444
+  - path: dist/src/main/java/com/dimas/Command.java
+    algorithm: sha256
+    value: 792a1f0df2621b68cf1d3d0369d50693af1566c75b0d3234ec45d84d2fb7a422
+  - path: dist/src/main/java/com/dimas/Gadget.java
+    algorithm: sha256
+    value: d1ae486b535b525f1f3d8e592532c88bd13afeaf624093c21f01e279926ac250
+  - path: dist/src/main/java/com/dimas/Main.java
+    algorithm: sha256
+    value: 7fd9f797018fba9b4c8092314c4c0be13de2744b595854ce45904fcd07c6fb2a
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: d2d4486fdb822cd70423e97cf669158e0608f190c8b0cc9f64fafca2c7b0feed
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b25cb32be69ab423b8e86c3b46d72bfc59f0cde4b81e3dc3a0c7a02050264832
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 9905d273ef8ffe62f08d47f4c46d2762fea76531e0eff2a7db29caae27a55d7d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 39649dfdcb9b25ed36943b7cee76826a7ac5e5c4fff3da6ac3d05a8cfad8f4e0
+  - path: src/pom.xml
+    algorithm: sha256
+    value: 546dee881a9d708eafd1382fe99f25f59c532af85432a751037f5f3817d59444
+  - path: src/src/main/java/com/dimas/Command.java
+    algorithm: sha256
+    value: 792a1f0df2621b68cf1d3d0369d50693af1566c75b0d3234ec45d84d2fb7a422
+  - path: src/src/main/java/com/dimas/Gadget.java
+    algorithm: sha256
+    value: d1ae486b535b525f1f3d8e592532c88bd13afeaf624093c21f01e279926ac250
+  - path: src/src/main/java/com/dimas/Main.java
+    algorithm: sha256
+    value: 7fd9f797018fba9b4c8092314c4c0be13de2744b595854ce45904fcd07c6fb2a
+  - path: src/target/classes/com/dimas/Command.class
+    algorithm: sha256
+    value: 107c7285795b846c486c6cb0ae3bf4fd6e752a2a1724eb74abc5e551c23ed40a
+  - path: src/target/classes/com/dimas/Gadget.class
+    algorithm: sha256
+    value: fa1f9de8297921f182ae7023203ff11c5aefef769f65b29d53765b0afd3e5382
+  - path: src/target/classes/com/dimas/Main$MyHandler.class
+    algorithm: sha256
+    value: efc28008b18f5e901ece0cae679437305cdcfb25b236fe5680ccbdf46e6b5b55
+  - path: src/target/classes/com/dimas/Main.class
+    algorithm: sha256
+    value: 31dde8054e6d27489146925d7f44762c19ca08943931c772de3425949e487d7f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: null
+  permission_reference: Archive maintainer instruction on 2026-11-23 to record a source with no license file as MIT.
+references:
+- title: slashroot-ctf-2024-challenges
+  url: https://github.com/Kelompok-Studi-Linux-Stikom-Bali/slashroot-8-challs
+  type: official_repository
+  accessed: '2026-11-23'
+verification: corroborated
+notes: The organizer challenge.yml states value 1000 and no qualitative difficulty.
