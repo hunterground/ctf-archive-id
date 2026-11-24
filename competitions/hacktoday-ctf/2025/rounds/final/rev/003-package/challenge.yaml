@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-rev-003
+name: Package
+slug: 003-package
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: REVERSE ENGINEERING
+description: |-
+  Dipaksa Uno bikin soal ini!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/rev/package
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fcfd5cdabdd52ee058f5a38a7e56a3f9272b9f55e1cfe56c7a12a35a1955d2ff
+  - path: checker
+    algorithm: sha256
+    value: e25041e7e24b46041efa9a210c92c9eacf54296bc44f0c49642452160f2a4411
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: 03aa9bc067460a6b02fca3d91cad14bf934ec97f48d3137aa8fe315058f70b87
+  - path: src/package.json
+    algorithm: sha256
+    value: f3dee37c3a5a1214c8b6bb2099697560d7c8d8be6e21cbb0d60920d7083cdb6c
+  - path: src/server.js
+    algorithm: sha256
+    value: 7ea35b7932f27404f95511198ba055f2e4bd39508a6444a56dbded64862c4597
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804) in commit authorship.

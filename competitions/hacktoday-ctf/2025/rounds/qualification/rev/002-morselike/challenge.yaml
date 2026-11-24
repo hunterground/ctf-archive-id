@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-rev-002
+name: MorseLike
+slug: 002-morselike
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  I created a message visualizer for my own Morse-like encoder. Can u see it? Oh, you might need super eyes to read the message.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/rev/MorseLike
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c084a336ba350d8ef63ab1a8fe31a6ebdd1a274a41901c77ee5ce2a8e60845d9
+  - path: src/gui.cpp
+    algorithm: sha256
+    value: 1d111166a10d7033004a25bbad63c06209f12b587f800814cb1bd000cbd00d38
+  - path: src/picosha2.h
+    algorithm: sha256
+    value: f2f8e3ec0415957be6b8c9360166918f859f2f3c1cd788f592fc7dcd42f6ff40
+  - path: visualizer.exe
+    algorithm: sha256
+    value: 8a89e845820e099ace35bd302ef8b6b1958eee6f4118025b147b4c4cc7e07567
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804) in commit authorship.

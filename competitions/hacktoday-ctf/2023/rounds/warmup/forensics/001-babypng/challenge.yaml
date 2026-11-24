@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-warmup-forensics-001
+name: babypng
+slug: 001-babypng
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: forensics
+original_category: null
+description: |-
+  WAIT, I thought the last 4 bytes of a chunk are useless...?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: warmup/babypng
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 41d6df7a81c13911b8f60753fb6c5e342b2934734e5177610bc9878ef76ff0d8
+  - path: babypng.png
+    algorithm: sha256
+    value: 31c1bc5659d6d98f71774b619802b9dcdbd2448270f7ecd39ef47acdad00b4e4
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Warm-up challenge. The organizer repository keeps 2023 warm-up challenges in a flat warmup/<challenge> layout with no category directories, so category is a curator classification and original_category is null. Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy) in commit authorship.

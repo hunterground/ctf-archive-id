@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-pwn-001
+name: Competitive Programming Noob
+slug: 001-competitive-programming-noob
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: BINARY EXPLOITATION
+description: |-
+  whatever i give up, i'll just play ctfs from now on
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Muhammad Zahran
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/pwn/Competitive Programming Noob
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ae5c2aaa5169ce219ca2e79a42ac6ae624b551869df082475b11382319cf6e68
+  - path: handouts/beginner.zip
+    algorithm: sha256
+    value: 7e88e60f44e150efa4d5e11124dd32422a32aec111acc00c9d45a15cefd41b51
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 032e598d30c0cbb10aeffbb0684c1f82021da89d21e0a200135f9b888a0fced6
+  - path: source/beginner
+    algorithm: sha256
+    value: 9df167608aa9df65f2e969709faad7c9e4bda8e8f755cde8eb0479d696ca7d7a
+  - path: source/beginner.c
+    algorithm: sha256
+    value: dffd9fc79e225f531d2834e2241ce0151386f61c615863c5db59dd8720a01afd
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 49aecb5a9103873ea955e45f530d5550e5413f99479a2434caaf9771bee553f4
+  - path: source/flag.txt
+    algorithm: sha256
+    value: 2bfc7d6e36d301d77aef6ff1d08daf756c33a1ef6e0f6272bbcc5d6352eca43d
+  - path: source/ld-2.31.so
+    algorithm: sha256
+    value: cfd44e4341767033532d1483c8250d200ad4cdf535d0abc19064ae34cdc51ca0
+  - path: source/libc.so.6
+    algorithm: sha256
+    value: 53b909551f8e581120ddc2d24cfb5df76c52e3c2e2a5dac0d202b25638b3e902
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Muhammad Zahran, who has no linked GitHub account in the commit trail, so no login is recorded.

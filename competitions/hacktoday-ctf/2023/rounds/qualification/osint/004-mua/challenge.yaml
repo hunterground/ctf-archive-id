@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-osint-004
+name: MUA
+slug: 004-mua
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: |-
+  Aku akhir-akhir ini sangat suka sekali make up >< aku juga menyukai salah satu make up artist asal korea. AH!! aku lupa namanya, tapi dia adalah orang yang ada di gambar ini. Aku sangat menyukai make up hasilnya. Selain jago make up dia juga jago menggambar. Aku meninggalkan komentar beberapa hari yang lalu untuk menyemangatinya di salah satu video di channel youtubenya. Video itu berisi vlog dia sedang menggambar.
+
+  Attachments: https://drive.google.com/drive/u/0/folders/1xbu4MeedX52g4luMbzrVuHP4XHAkpXgf
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: althaftaqiyyah
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/OSINT/MUA
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c4906e5a8423e131409e72078fdda333b1a593df39f7169bf59df5b3eb936ad8
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to althaftaqiyyah (althaftaqiyyah) in commit authorship.

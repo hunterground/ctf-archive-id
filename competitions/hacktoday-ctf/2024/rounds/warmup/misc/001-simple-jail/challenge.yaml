@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-warmup-misc-001
+name: simple jail
+slug: 001-simple-jail
+original_name: simple jail
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: misc
+original_category: MISCELLANEOUS
+description: A warm-up jail challenge distributing a Python jail script and its archive.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/warmup/simple jail
+licensing:
+  declared_license: MIT
+  copyright_holder: Miscellaneous challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: simple_jail.py
+    algorithm: sha256
+    value: 86bef45a2fba53292a0a6b27ea23b308ad966cac176f4747c6775341bcffacc2
+  - path: simple_jail.zip
+    algorithm: sha256
+    value: 1520255cebcd8626b46accfec432a1dd732ca215656264539870f37912f59b2b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/warmup/simple%20jail
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Warm-up challenge. Category is not stated by any source; misc is the curator classification from
+  the Python jail script. No solver scripts were present in the source.

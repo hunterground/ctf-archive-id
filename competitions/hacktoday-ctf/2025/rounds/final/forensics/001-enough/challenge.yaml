@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-forensics-001
+name: enough
+slug: 001-enough
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: DIGITAL FORENSIC
+description: |-
+  Damn this asburg guy is giving me a hard time. I was gonna update a program from a file that he gave me, but after all this time it was his plan to inject my pc with a ransomeware. Oh come on, istg
+
+  Attachment: https://www.dropbox.com/scl/fi/k2e0fca7fean21jkoiv40/chall.7z?rlkey=vw58yjzx1encemciwtcap5x2r&st=avjfgd6f&dl=0
+
+  Password: c826620fc7325b13513f6ed15c02cc63
+
+  Author: asburg
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/for/enough
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 166b5acb9c3139687d8035f3a3500689a665522146ce46910458ebade17a8551
+  - path: Zoom.exe
+    algorithm: sha256
+    value: 635a36c96114abb6bdf11fe23e6b43bbe333dd92400c64f839a302ff016a52e0
+  - path: capture.scap
+    algorithm: sha256
+    value: 40fee9874388961744d72862d8928663b5936b05a5bdf2fb67cd84205424fae1
+  - path: chall.zip
+    algorithm: sha256
+    value: 6bfab27dcb04fb7624184253b993e6510f92bc514ce42620160615ecd9d3a471
+  - path: decrypt.py
+    algorithm: sha256
+    value: 7156d771caf61aa522345ae41b8c869a68f25384f75b75429f37ba8bbe95533c
+  - path: ransom
+    algorithm: sha256
+    value: 5c5c0184583aa603b70fada00d6290cbcf2febd2581743d761e6159b9f325b8f
+  - path: script.sh
+    algorithm: sha256
+    value: 009845107c813a2d661a6d83058dc38e76ba5e2b02bda09195dae4c6bccf0b6f
+  - path: secret.zip
+    algorithm: sha256
+    value: 419559916ed3cd979757ca2c45297bd54a25d6902f9cb304f07766a9d0506a14
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to asburg.

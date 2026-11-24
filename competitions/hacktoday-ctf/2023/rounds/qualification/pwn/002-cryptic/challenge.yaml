@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-pwn-002
+name: Cryptic
+slug: 002-cryptic
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: |-
+  A lot of weird pwn challs lately, let's stick to the stack for now.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+- name: zran
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/pwn/Cryptic
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: a539b65620ab43c7fd49c257ab6d181a52e68044273f4a610bfcbd5d94f28f02
+  - path: README.md
+    algorithm: sha256
+    value: 2946f1116bd4eb07c22e955f362b08232106d813a9759fcda91b47f5b072354e
+  - path: cryptic
+    algorithm: sha256
+    value: 4bc13ac49b25d6354ad46276907534271950eb637f4a2bb9a5c2ca42a8ef0980
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: cded268ef3f5f7e34c2316e68e65f793a92bd1e383c14030c5b6396ae6a7546f
+  - path: flag.txt
+    algorithm: sha256
+    value: 384599b1508276b01656c9f5268d8e79afbe43db4c7892f3397d456b9d3d07e9
+  - path: ld-2.35.so
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy), zran (zran147) in commit authorship.

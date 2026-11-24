@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-forensics-001
+name: Easy PCAP
+slug: 001-easy-pcap
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: DIGITAL FORENSIC
+description: |-
+  Kakakku mengirimkan sebuah pesan aneh, entah keyboardnya rusak ataukah dia mengirimkan pesan rahasia. Oh iya dia juga mengirimkan sebuah gambar yang aku tidak tau maksudnya apa.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Fbrina
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/for/Easy PCAP
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dbf4b6ef0ea391869d754908fcb589e4e124b6cb1ff0f5031cf822d4e710190c
+  - path: challenge.pcapng
+    algorithm: sha256
+    value: aa6c1ddaba68ac777b09d1f994b6062142df978cbecf0be3e418717fdb5570da
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Dwi Febrina Wati.

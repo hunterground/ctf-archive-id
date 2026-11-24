@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-rev-001
+name: another flagcheckers
+slug: 001-another-flagchecker
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  bingung mau ditaro dimana sebenernya, maaf ya klo skill issue 😔😔😔
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Durrr
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/rev/another flagchecker
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Chall
+    algorithm: sha256
+    value: adef22a4fc145f31cb680e1d49b706661ca720a98cb9614d04586764eb9a503c
+  - path: README.md
+    algorithm: sha256
+    value: 0a327050b4cda26f07c942a5af00e4d4535379e45cf28e12904c028a06c3ac85
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Durrr.

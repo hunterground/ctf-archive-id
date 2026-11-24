@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-misc-002
+name: yesjail
+slug: 002-yesjail
+original_name: yesjail
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISCELLANEOUS
+description: A Python jail escape challenge distributed as a single script.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/mis/yesjail
+licensing:
+  declared_license: MIT
+  copyright_holder: Miscellaneous challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: yesjail.py
+    algorithm: sha256
+    value: f661fda2418b8a22b3e4dd626de84400c15b6d79756d7882f9eb4341867c7306
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/mis/yesjail
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the source mis directory. No solver scripts were present
+  in the source.

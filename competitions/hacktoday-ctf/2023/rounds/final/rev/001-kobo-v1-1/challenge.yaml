@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-rev-001
+name: Kobo v1.1
+slug: 001-kobo-v1-1
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: |-
+  My friend sent me another picture of Kobo Kanaeru. But, I'm sad because the photo she sent me is grayish :(
+  She said that there's a secret she's hiding behind this picture. Can you find it and make me smile?
+
+  Nb: She said she was using the latest python version available
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: jedifathan
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/rev/Kobo v1.1
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 637721477fc548b11c4ec7331143ec3b1c4ef835a93935c59cdad1d0084837df
+  - path: bytecode.txt
+    algorithm: sha256
+    value: 389bc67f049e5abc044f39dad909920b70a1032d77eb7557b8e7a8cf50b98ea6
+  - path: flag.txt
+    algorithm: sha256
+    value: 874570aea1d77e80a1f739356397b3f92d01a7f7233a23f6569606ddccbea05a
+  - path: kobo.pyc
+    algorithm: sha256
+    value: feb5a74a9721ac588490722aab353e577df82e922ce12132542dc942d54513ec
+  - path: kobok.png
+    algorithm: sha256
+    value: a7534cfb4f3cb9897ac25a70889f722a5d7bbf41ce8a2f3025575e54b6cf67c9
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to jedifathan (jedifathan) in commit authorship.

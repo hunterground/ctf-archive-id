@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-rev-003
+name: Reverse 101
+slug: 003-reverse-101
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Is the fastest way always the best way?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/rev/Reverse 101
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8ba212c05f3ff2fa2d9e4eb703d5cbcb68b57f0ec2134fbbcb1703d04840b43e
+  - path: chall
+    algorithm: sha256
+    value: d4ff9680d9ae0b885e9c5d8dde25f0f78794357a930216a61c673d228c06322f
+  - path: chall.c
+    algorithm: sha256
+    value: 3ee9700ea0a47194fc8e0d963fef491ea997f75d850a15987da77e06c1c26a6c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Nikoo.

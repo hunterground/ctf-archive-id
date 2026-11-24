@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-misc-004
+name: TLEcorp
+slug: 004-tlecorp
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: misc
+original_category: Miscellaneous
+description: |-
+  TLEcorp, yang dipimpin oleh CEO ln y, saat ini membuka kesempatan magang khusus untuk
+  individu dengan kemampuan berpikir cepat dan sangat cekatan. Anda yanh merupakan salah
+  satu pendaftar magang akan ditanyakan dua file oleh ln y beberapa kali. Tugas Anda
+  adalah menentukan folder yang merupakan titik pertemuan terendah dari kedua file
+  tersebut, yang berarti folder tersebut harus berisi kedua file tersebut jika ditelusuri
+  dan folder tersebut merupakan folder paling dalam.
+
+  `nc <ip> 19009`
+
+  *contoh pengerjaan dapat dilihat pada file attachment
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ariyudo Pertama
+  team: Cyber Security IPB
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/misc/TLEcorp
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7f628a8c29db2bc03ebc09c8b696ea2edb53b2c8b40cbcca52ed59839e305409
+  - path: attachment/example.zip
+    algorithm: sha256
+    value: 347c16ab63f079ec184ec4d59c17fceebe0bbbb379f88665f098e4d56e8bad42
+  - path: docker/Dockerfile
+    algorithm: sha256
+    value: 854cce973212837212a5cbcd5d17cd6188a00594b14699fca98895bd5b0c825f
+  - path: docker/docker-compose.yml
+    algorithm: sha256
+    value: 8df89c9956cc057268cd1d6207b6f5b03dce325487a71123cfbf6dbd1c8ffa62
+  - path: docker/server
+    algorithm: sha256
+    value: 5efe0c3fab1a59baad20080d8b6722c6da98969b0bde867115704ce09a8f3a91
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Ariyudo Pertama (YudoTLE), Numero Uno Arroefy (UnoArroefy) in commit authorship.

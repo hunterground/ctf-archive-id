@@ -1,0 +1,146 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-web-003
+name: maru
+slug: 003-maru
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: |-
+  that time i got reincarnated as maruu..
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: arai
+  team: null
+- name: patsac
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/web/maru
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.gitignore'
+    algorithm: sha256
+    value: c37a2d78b681e1da2449309ad92340d879693e47715b2316a5f4bd88d4044556
+  - path: Dockerfile
+    algorithm: sha256
+    value: d6ca589599da8861123c9a3bc4fb41ef7d95916bae2ad27e208e94a068537b0e
+  - path: README.md
+    algorithm: sha256
+    value: df57e2bc6c48557907fb4de6df19f1b7b9f1199a08b61453dbe57a6c42e3eca6
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a3e554fccbda56db10abaec18d78f46e7a0aa0ac24ad923279bf468af84977f6
+  - path: flag/u/n/e/e/d/,/r/e/v/s/h/e/l/l/s/,/f/o/r/,/t/h/i/s/some_fl_ag_8200f96c-bf71-488e-9526-d8c41cc5a407
+    algorithm: sha256
+    value: 959ca37a1ea2bbf78e660c49dd9a303d4774af4ea89d4668d94561b890fb04ad
+  - path: src/app.py
+    algorithm: sha256
+    value: 63b7a1cd773398e17e4b5b683748d95eee2d6ef64accc3060408ae4c707e4524
+  - path: src/old_pin.py
+    algorithm: sha256
+    value: 6f7a7018898053f162b5dca162c2fd8deec81193e2b1e5da4c8e93f8428f6346
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b6780656858e9ac69bce8a1bd327d2084897f8d6c7fb1cfb48515f90c368a1b6
+  - path: src/secret.py
+    algorithm: sha256
+    value: 2b2e644989166a963ea80839d3527e35558737441c72cadb9b650537de5fd522
+  - path: src/static/1.png
+    algorithm: sha256
+    value: 4671d59014d6ec3810ecd94058c1c00a9e4af4b22dc750e82fa87ee583d2442f
+  - path: src/static/2.webp
+    algorithm: sha256
+    value: cbdc46f2ffd0610afee453818b331498a2aa0a801ecc2f36a310ce326cc514d8
+  - path: src/static/3.webp
+    algorithm: sha256
+    value: 81b3adec9ca50bba97206543e189dba7121f5268bcf7caecc90cfb54c6acc803
+  - path: src/static/4.webp
+    algorithm: sha256
+    value: 521d10c357f609cc7058444a72dfad66dd964f9e70f92a2fe348585a6262852a
+  - path: src/static/5.webp
+    algorithm: sha256
+    value: 976e813b9136f2e3c338d30d654b3fa3200e36dce7dd8fb21e28e153314efac2
+  - path: src/static/6.webp
+    algorithm: sha256
+    value: 5b3b21a7d00798282e34a0bb21892edbec833b87ee0d5b680dd76f469888910e
+  - path: src/static/7.webp
+    algorithm: sha256
+    value: 8bba799efd41c62f20ec577a20151c80e10f5b884435a77538d4f15cc5e02a5f
+  - path: src/static/8.webp
+    algorithm: sha256
+    value: 3f9ad495490ab9431767d9f8865f3203517b2e6ba87b72f9d8aedeac999b39f5
+  - path: src/static/9.webp
+    algorithm: sha256
+    value: 83989e8991b19065527b4d9e0d441ab2a93591e1f21475ede8d4c55395adc7d5
+  - path: src/templates/admin.html
+    algorithm: sha256
+    value: a0c74d0c0d282c64a4e641b0b2426b6416a11fea7c611353f5fcb3e09a2e8fe1
+  - path: src/templates/article.html
+    algorithm: sha256
+    value: b30e53cd0d814642b1a41066cb82c0e1fdcbfc086b293477e5e2e34fe4c87bf8
+  - path: src/templates/asd.html
+    algorithm: sha256
+    value: 2feacf671f9084d6923fcf478541ef75b8b0c9f7a7e034fc990d474b03e5c148
+  - path: src/templates/errors/400.html
+    algorithm: sha256
+    value: 6c48f773432f2fce26d107d12087e7185a9400a50e72b6e661927d6c224e9e7b
+  - path: src/templates/errors/403.html
+    algorithm: sha256
+    value: 2e8229166b8a7aa3a31cc2c6e20ddffdfa53945cd6d0893c618b7e08a8528590
+  - path: src/templates/errors/404.html
+    algorithm: sha256
+    value: 0617453f2a9065733b43eff7f0714475713cc717062ca4ed2949d906226c1248
+  - path: src/templates/errors/layout.html
+    algorithm: sha256
+    value: cf93e04945df39cbde4d64d96b10ef487eda645a2836e4959f00fddd1dc492d7
+  - path: src/templates/file/blank.txt
+    algorithm: sha256
+    value: e130ea209237f2feff24d9ef71eba01c0f38b360f882857fc388a4d86e507e81
+  - path: src/templates/file/notallowed.txt
+    algorithm: sha256
+    value: 831fa79ee17024f7213412be693212364c377ff0265c76b6e16f375991d45592
+  - path: src/templates/layout.html
+    algorithm: sha256
+    value: f434df176299490abfcbb2f5d8e7c8c9238a603d11b9301d6497537da6e9a484
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: efa7cd5310ac4b388aa0b0807391e6691e06310b5c2d64ef6d0830feebc5c6d9
+  - path: src/templates/main.html
+    algorithm: sha256
+    value: 1a96e44ed0579d1ccffb40402b7995879485d6b1e3102f3f51e47f8dbc212fbe
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Aulia Rochman, patarisac.

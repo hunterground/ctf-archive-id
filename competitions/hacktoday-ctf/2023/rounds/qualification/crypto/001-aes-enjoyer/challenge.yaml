@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-crypto-001
+name: AES Enjoyer
+slug: 001-aes-enjoyer
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Legenda mengatakan, "CTF gak afdhol kalo di crypto gak ada aes-nya"
+
+  nc 103.181.183.216 18002
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dwputraa0
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/cry/AES Enjoyer
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6f36bc7cea9214b04c926a603472a755d8db53a9fa69d44070dd418be807a059
+  - path: README.md
+    algorithm: sha256
+    value: 89678593ae4738327392e871ef8014ba1fa5d91d91c7450af5c694ef29d58c62
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c1eeee2154a99e166662f44ef0d8984fe88fe8d589c8463c186b058d8227b976
+  - path: flag.txt
+    algorithm: sha256
+    value: 8409f617dd27f9a8722f39e8439369449d5b01e5f08728b26b1058b6b2f225b2
+  - path: server.py
+    algorithm: sha256
+    value: 124f57ab4762b7642e406af1d1811ec323a26a4075e50970a0a5240bb8a7a9a5
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to dwputraa0 (dwputraa0) in commit authorship.

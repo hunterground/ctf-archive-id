@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: warmup
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+name: Warm Up
+original_name: warmup
+sequence: 1
+type: warmup
+delivery: online
+description: Warm-up stage of HackToday 2024, held online on 17 August 2024. The organizer published
+  no warm-up repository, so the stage is reconstructed from a participant archive with a warmup
+  directory.
+dates:
+  start: '2024-08-17'
+  end: '2024-08-17'
+statistics:
+  challenge_count: 3
+  participant_count: null
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024 warmup
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >-
+  The date comes from the published IT Today 2024 timeline, which lists Warm Up on 17 August 2024.
+  Only three warm-up challenges are imported. The participant archive also holds Easy RSA and
+  unknown leak in its warmup directory, but both names are also used by HackToday 2022 and 2023
+  and no writeup ties them to 2024, so they were excluded on maintainer review rather than
+  attributed to this edition. No organizer repository exists for this stage, so the imported
+  material is a participant copy. Difficulty is not stated upstream. Category is unknown for all
+  three, because no source states it and the archive does not guess; curator classification was
+  avoided rather than risk a wrong category.

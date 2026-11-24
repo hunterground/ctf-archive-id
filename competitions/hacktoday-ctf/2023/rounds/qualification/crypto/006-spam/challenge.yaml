@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-crypto-006
+name: Spam
+slug: 006-spam
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Today is your birthday, your friends send you a file that has password on it. They said the password will be send from fake email. But because of your birthday, many people send you an email. Here's what you got on email.
+
+  `nc <ip> 18000`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: BIMASKUY
+  team: Cyber Security IPB
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/cry/Spam
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: d29efd75ad277a0b9493defbc726aea9d3d96205d0d7f8b7315faaf4a2a1a563
+  - path: README.md
+    algorithm: sha256
+    value: ecbfc7035774f34e511689ad56ae39fee67b9b704aae85cb4a7f490de510dda7
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ec75769c634306aea2f84ecae453cf3510d986427d38ddba534a4c64c9b2c34a
+  - path: flag.txt
+    algorithm: sha256
+    value: f4e374c5935f486818e4c4564da3acf8c73551074e0dda6330d5de8009f74e04
+  - path: password.txt
+    algorithm: sha256
+    value: 040796988dcfd9abd48bfc297a74b89c69f5bfa5602c47dd236362de33de540c
+  - path: server.py
+    algorithm: sha256
+    value: fa9120bc99f1153c4f69f9274ec9a258a17beafee2437c25c7859ae9b6449425
+  - path: spam.txt
+    algorithm: sha256
+    value: 6db12e726f1d69dc143472497d7105f5d0fe2ff638a67b2fc5e322767b739da0
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to BIMASKUY (BIMASKUY), Numero Uno Arroefy (UnoArroefy) in commit authorship.

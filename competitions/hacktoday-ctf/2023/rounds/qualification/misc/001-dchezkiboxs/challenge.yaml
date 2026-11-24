@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-misc-001
+name: DCHEZKIBOXS
+slug: 001-dchezkiboxs
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Miscellaneous
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Anro128
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/misc/DCHEZKIBOXS
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5361e45e33de9aae4dfa9dac9d096b68dca72e9d773fab152ed62cb509a4402f
+  - path: README.md
+    algorithm: sha256
+    value: f1a6004d3f03d1bef6dc6f7d5e7dc8633a733e489f1c883bde20a018c6bfb62a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 876f2560cb4d5b082cc952daee1b82d4ae65f6c3b017c6584ccbafabd25fb9b3
+  - path: flag.txt
+    algorithm: sha256
+    value: 79ee433a64a9101c662e067eec23eaf9230f8d97480c695fbf4239ba9a24886c
+  - path: secret.py
+    algorithm: sha256
+    value: c0c40a277059abee02fb4e594673590ce226cc5eb21fb5f92d52a4be0e43b3ca
+  - path: server.py
+    algorithm: sha256
+    value: 4c71864f2d2b5cb3d80050184f044fb1f78c9c9bdcdaa821cb5c070defb4561e
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Anro128 (Anro128) in commit authorship.

@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-crypto-001
+name: Baby_Math
+slug: 001-baby-math
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: |-
+  My friend got an assignment from his major course, namely mathematical cryptography, and he was given an encoding result and algorithm from his lecturer, help him solve the algorithm and get the results before encoding.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Encrypted
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/cry/Baby_Math
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f72c6a524a1826aa9753a0eb5f7a22c897c0dc05ec7ba2da2d49dc70d5cd3a3e
+  - path: chall.py
+    algorithm: sha256
+    value: 8bc9c42f96c0c64a34fdc7d72ed6d8cac5f2f4c97609e004f26d43ea4ade1550
+  - path: output.txt
+    algorithm: sha256
+    value: 5b010eb34adb804f465010dc9dc61cda4e3b53c1d9bca356823a8621406dfadb
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Encrypted (EncryptedScripts) in commit authorship.

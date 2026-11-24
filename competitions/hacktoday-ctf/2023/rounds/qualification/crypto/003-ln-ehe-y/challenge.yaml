@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-crypto-003
+name: ln-ehe-y
+slug: 003-ln-ehe-y
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  Pada suatu hari, ada seorang anak yang sedang berkendara menggunakan motor. Ketika dia sedang...
+
+  dahlah males ngarang cerita kerjain ajh pokoknya (^_^)
+
+  `nc <ip> 18008`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ariyudo Pertama
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/cry/ln-ehe-y
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 445c0548343d657674e57911d772f50716ebe56da98575b46320fbd822f43120
+  - path: attachment/chall.py
+    algorithm: sha256
+    value: b49b3525a1a15c8bdbf73cda3ed04f728481f6a1ca890b53811f5d1910ec3356
+  - path: docker/Dockerfile
+    algorithm: sha256
+    value: e143bd08fac809b99750d5c2c08e7fd409fb5736b62fadd5f8338679a96b614c
+  - path: docker/docker-compose.yml
+    algorithm: sha256
+    value: 5fa324140c9218f0392242109d59bc054a9dbb840e55caada460387008532452
+  - path: docker/flag.txt
+    algorithm: sha256
+    value: b41a8c9a71985d8dd5fa0c1ad701bffcdc4863e11a2ade63129d06e927a7613c
+  - path: docker/server.py
+    algorithm: sha256
+    value: c3e82e3230c02a8e9e05bbe7a718944abe939d90cbf9bc2687ffd9227cb532f4
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Ariyudo Pertama (YudoTLE) in commit authorship.

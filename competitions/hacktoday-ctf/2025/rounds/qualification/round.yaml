@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: qualification
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+name: Penyisihan
+original_name: qual
+sequence: 1
+type: qualification
+delivery: online
+description: Qualification round of HackToday 2025, stored in the organizer repository under
+  qual/ with cryptography, digital forensic, miscellaneous, PWN, reverse engineering, and web
+  exploitation categories.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 14
+  participant_count: null
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  The IT Today 2025 announcement schedules the HackToday series across 2 August to 27 September
+  2025 and names 27 September 2025 for the competition finals and awarding, but it does not date
+  the qualification round. The qualification dates are therefore left null rather than inferred
+  from the series start. Qualification challenge commits in the organizer repository fall mainly
+  between 2025-08-03 and 2025-08-10, with a later cluster on 2025-09-17 and 2025-09-18.

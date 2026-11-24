@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-misc-002
+name: Excelent
+slug: 002-excellent
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISCELLANIOUS
+description: |-
+  Did you know that there is an Excel esports?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/misc/excellent
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0837cd6aeb47620834f72bf7201ce840fcc41fd8bded871eb01189a0ec6529ec
+  - path: chall.xlsx
+    algorithm: sha256
+    value: 917de096d04ea02190c56425a90da7eea6e45b2342fc672e08b2279ef0842661
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804) in commit authorship.

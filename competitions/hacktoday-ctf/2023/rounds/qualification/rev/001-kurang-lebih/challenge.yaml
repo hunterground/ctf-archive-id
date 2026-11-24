@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-rev-001
+name: kurang-lebih+
+slug: 001-kurang-lebih
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  siapa yang benci soal beranak??, well here we go
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/rev/kurang-lebih+
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FLAG??.txt
+    algorithm: sha256
+    value: c8c9bf938199478e3b23311b31bfe5d6938db0107054a8637184e382c1ee1b86
+  - path: README.md
+    algorithm: sha256
+    value: dc209eafaf5a1037e49b5a21a7767881d78b06d259a4bf711d0e5c1b17b2cd5f
+  - path: chall.py
+    algorithm: sha256
+    value: 50d8ba81065c184c6325e68746661d5c94db7f17a08189626a4d6e7ddaadd488
+  - path: gen.py
+    algorithm: sha256
+    value: 7500acc40b2d7124594f9b190cd24f131b5605c414df4944acb93a7cdec8449b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy) in commit authorship.

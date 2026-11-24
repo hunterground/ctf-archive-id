@@ -10,11 +10,23 @@ dates:
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 62
 references:
 - title: HackToday 2023 challenge repository
   url: https://github.com/cybersecurityipb/hacktoday2023
   type: official_repository
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Challenge repository published by cybersecurityipb. Event dates were not stated there.
+  accessed: '2026-11-24'
+- title: IT TODAY 2023 COMPETITION
+  url: https://olimpiade-update.com/it-today-2023-competition/
+  type: other
+  accessed: '2026-11-24'
+challenge_materials_imported: true
+notes: >-
+  Challenge material for the warm-up, qualification, and final stages was copied from the
+  organizer repository at commit 05a10377267f32cf43e8003b54b321f8d468d9b1. The repository
+  publishes 6 warm-up, 34 qualification, and 22 final challenge directories, excluding the
+  shared server/ directory and server.cpp at the repository root. No exact round dates were
+  established: the IT Today 2023 announcement lists only registration batches (1-30 June and
+  1-31 July 2023), and no official timeline page for HackToday 2023 was found. Participant award
+  posts place the competition in September 2023, and commits touching final/ cluster on 2023-09-20
+  to 2023-09-23, so the dates object is left null rather than guessed.

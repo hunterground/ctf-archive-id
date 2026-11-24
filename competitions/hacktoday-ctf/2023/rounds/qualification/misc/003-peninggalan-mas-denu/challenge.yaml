@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-misc-003
+name: Peninggalan Mas Denu
+slug: 003-peninggalan-mas-denu
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Miscellaneous
+description: |-
+  Mas Denu adalah mentor Yudo yang sudah lama hilang. Beliau menghilang setelah berpergian ke kota Erdogan untuk mencari vaksin Yandex-69. Saat mengerjakan laprak, Yudo teringat kata-kata terakhir Mas Denu sebelum menghilang, "jika kamu ingin mengetahui rahasia untuk menjuarai ICPC, jawabannya ada pada soal `<problem.HAHA>` dengan input berupa `<testcase69.txt>` yang dijalankan pada program `<decrypt_program.cpp>`. Namun, karena teman Yudo yang bernama Visco Vernandez merasa iri karena tidak bisa menyelesaikan soal tersebut, dia melakukan "sesuatu" kepada soal yang diberikan Mas Denu.
+
+  Bantu Yudo untuk menemukan pesan dari Mas Denu!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Ariyudo Pertama
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/misc/Peninggalan Mas Denu
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Problem/decrypt_program.cpp
+    algorithm: sha256
+    value: 869552059e8b34368e57928081efa9f34f58d568f5223b882e6978aae3476cbb
+  - path: Problem/problem.HAHA
+    algorithm: sha256
+    value: 23015f0d825584000f4d416d71b917243b545a3019949fe13ae2ed3d11050656
+  - path: Problem/testcase69.txt
+    algorithm: sha256
+    value: 763341dbf7ac024dab957fda44a471e6d48ec1b287797a97035d3fd5fd67f8b5
+  - path: README.md
+    algorithm: sha256
+    value: a61950b645a92dd72914999e0cb4935b9ca32d2390d718cdd04a6aa2ba188190
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Ariyudo Pertama (YudoTLE) in commit authorship.

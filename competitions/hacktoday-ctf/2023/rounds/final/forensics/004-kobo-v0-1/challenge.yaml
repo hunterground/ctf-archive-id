@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-forensics-004
+name: Kobo v0.1
+slug: 004-kobo-v0-1
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Digital Forensic
+description: |-
+  My friend sent me a picture of Kobo Kanaeru. She said she was hiding something behind this lovely picture
+  Can you find it for me?
+
+  Nb: She said she was using default python version for Ubuntu 22
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: jedifathan
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/foren/Kobo v0.1
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 71a55d065a6ca639c280cb37430eca9a03bf2ede6eea50f2e453087ef0e80f0d
+  - path: flag.txt
+    algorithm: sha256
+    value: fc2194e1eb51b91ad7af0e878707d2df683de08c9292b2a59ed8975805d6ace1
+  - path: kobo.pyc
+    algorithm: sha256
+    value: 5414565607329b42b340efc44b7f291713150d6a22a219cd73799454e40f5f8f
+  - path: kobok.png
+    algorithm: sha256
+    value: 837700cbe169c256f6534bcadde5e2ffca161b59b5781102db660ffb209e24b5
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to jedifathan (jedifathan) in commit authorship.

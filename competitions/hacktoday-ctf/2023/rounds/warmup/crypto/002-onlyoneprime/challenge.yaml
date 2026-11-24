@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-warmup-crypto-002
+name: Only One Prime
+slug: 002-onlyoneprime
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: crypto
+original_category: null
+description: |-
+  Is it enough to crack RSA with only one prime factor of modulus?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: warmup/OnlyOnePrime
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 63208544d33fedad69c16ec6ae48efd2b15d72ab067c96d449b0db96b465716f
+  - path: flag.txt
+    algorithm: sha256
+    value: 12a4e6d4a164b26b3e2da53eb411d519a19b6581f5d59fcbdf62842edd9f4b72
+  - path: output.txt
+    algorithm: sha256
+    value: c4112c49df48710c918e8deec84fa02ab9967357cca5b837a9dc7d31427881ec
+  - path: problem.py
+    algorithm: sha256
+    value: 2bf66e05ec8fcc7891c4f9003f26ea98c36d5d5b184083db8a477e53a2e2aa13
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Warm-up challenge. The organizer repository keeps 2023 warm-up challenges in a flat warmup/<challenge> layout with no category directories, so category is a curator classification and original_category is null. Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy) in commit authorship.

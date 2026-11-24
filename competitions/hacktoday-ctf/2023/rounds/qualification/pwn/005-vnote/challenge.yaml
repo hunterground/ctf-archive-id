@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-pwn-005
+name: Vnote
+slug: 005-vnote
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: |-
+  cpP enjoyer
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: luqqmman
+  team: Cyber Security IPB
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/pwn/Vnote
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7ff6698a9bdcb124e1c81d453be609d59588e84d2bdbeadfe7d4bd4b58ecaaf0
+  - path: README.md
+    algorithm: sha256
+    value: 3c62405bab151e890f5400adeb03db7f677094b9fad74b94b49ee52df1d66d45
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c281ac2b934b6853fdb6f07018ae8366feabd33d9a3f3a04e8a7ffe5134a0aa9
+  - path: flag.txt
+    algorithm: sha256
+    value: 51d258df9a22538d33739fcbb139d8fbfaffa9c78f4a757f240a4b7271045947
+  - path: vnote
+    algorithm: sha256
+    value: e557af5f8e4eae3c78a561f5f0ba948224166af05dd84bad6b68f3346afecec0
+  - path: vnote.cpp
+    algorithm: sha256
+    value: 39efe4218c66c9b88164db6f17e069d95233d465803a3bf8606c25c077a7c31a
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to luqqmman (luqqmman), Numero Uno Arroefy (UnoArroefy) in commit authorship.

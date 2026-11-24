@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-misc-004
+name: Simulasi UTBK
+slug: 004-simulasi-utbk
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Miscellaneous
+description: |-
+  Mari gan yang kangen atau mau UTBK bisa kerjain soal saya
+
+  nc 103.181.183.216 19003
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dwputraa0
+  team: Cyber Security IPB
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/misc/Simulasi UTBK
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3beb87cef03b5296230f7071651707baff6596f996de2ec0757989c500055427
+  - path: README.md
+    algorithm: sha256
+    value: fb9ffca50d381bca9502258ae6bf3e28243bb3512d7b42e7b3352cbd09041a83
+  - path: database.txt
+    algorithm: sha256
+    value: 3e84df9b84e6f60ab2038675f7bca5c6c2345430d9aef678c6c3e77ee9f473d3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1aba2c757e5911d3047ba77e4223685c9c4fcf1cf3998bf33fb9b42c37e6a69f
+  - path: flag.txt
+    algorithm: sha256
+    value: b72b445223b81890eef526214c66934d113d209916fd0862513c5e3bb259eb1f
+  - path: server.py
+    algorithm: sha256
+    value: bd19ba4f09e95370e5899a9d610f515cf05737e43bb20be8449473525462b39d
+  - path: tes.py
+    algorithm: sha256
+    value: d177f929dec3296b14e77d980ba0479a34316a407afeebb72e2f4f2445569ad1
+  - path: tes.txt
+    algorithm: sha256
+    value: a288843e66de23acab33a027f030bb4f1a8868cbb291ff4a4156a6a6d64521de
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to dwputraa0 (dwputraa0), Numero Uno Arroefy (UnoArroefy) in commit authorship.

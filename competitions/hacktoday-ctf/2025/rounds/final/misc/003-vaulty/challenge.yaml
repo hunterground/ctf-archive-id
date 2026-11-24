@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-misc-003
+name: Vaulty
+slug: 003-vaulty
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: misc
+original_category: MISCELLANEOUS
+description: |-
+  http://103.226.138.119:24379
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ZafiN
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/misc/Vaulty
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.env'
+    algorithm: sha256
+    value: 48741a2189a36ee0385554b43f87731c741cb871604d4cfa0a9a1efa91e428f8
+  - path: Dockerfile
+    algorithm: sha256
+    value: d6e22ebc51cbb76a7641b75f6a497497045195c893f464f74d6b530534206f48
+  - path: README.md
+    algorithm: sha256
+    value: f9b655bb2bde36428ee331de29a7ad5271b1fc5eade5aa926a622f5ecaa52baf
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 9b57b16e504ba8dcdcdbc3db4388773c4ebc41b0efcf5e1c0bb5281276d1e575
+  - path: contracts/Token.sol
+    algorithm: sha256
+    value: 5423cd25ee8ab3749485e3c459ba959bb2dd0ebfe0a5a28098f89ed7c5788c5a
+  - path: contracts/Vault.sol
+    algorithm: sha256
+    value: e1982a9f448d52c96f4db61a3d7439d3ede068067f7f312aa6f773f6b646b4cb
+  - path: contracts/VaultFactory.sol
+    algorithm: sha256
+    value: 0a0ad53630dcc3fc569a5ccb885ece553358ca123bb48b304fb89961831a095d
+  - path: contracts/lib/Account.sol
+    algorithm: sha256
+    value: b4024fb1a98bde9058c546368ce3067f4a7168e941474d7b5218f8050a3c27ce
+  - path: contracts/lib/Context.sol
+    algorithm: sha256
+    value: 1d4cccca85c986a4b76549a0cc6cfa774a58227be415a6fb0ba8da5fbebf6140
+  - path: contracts/lib/ERC20.sol
+    algorithm: sha256
+    value: e8f07ac923c6640ff63a9cf7349bc876bcdb04153969542a75afcd11dd560ac1
+  - path: contracts/lib/IERC20.sol
+    algorithm: sha256
+    value: 4cbb8139ede4a09ec0e79b57e6b8eda9481c0ad731fc7745a0ec058847bc8350
+  - path: contracts/lib/IERC20Metadata.sol
+    algorithm: sha256
+    value: 9a0fc8d9118fba7ebc17a405c4f79df654a5494d0731dd881d6ff8b6fcb4f278
+  - path: contracts/lib/draft-IERC6093.sol
+    algorithm: sha256
+    value: 73b9712bb06549a389aae0cd907dc5a1f7e588404ba012a33d644db136aa9932
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 3c371196cee72775026bed07138f737d10dc51eabf26fb8a0666615c91686d0d
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0f281fe0bed4fadeace3b1d2b5a2942ff1d7203ca16ff133a86146a96e4f1cf3
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Muhammad Nafiz.

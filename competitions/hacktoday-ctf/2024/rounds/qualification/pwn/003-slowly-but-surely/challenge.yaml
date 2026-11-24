@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-pwn-003
+name: slowly but surely
+slug: 003-slowly-but-surely
+original_name: slowly but surely
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: 'A PWN challenge with an unlimited-format-string primitive over a very small buffer,
+
+  escalated by hijacking exit handlers.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: HyggeHalcyon
+  team: HCS
+organization: null
+provenance:
+  archive_id: hyggehalcyon-hacktoday-2024
+  source_type: git
+  repository: https://github.com/HyggeHalcyon/CTFs
+  commit: 914708be7ca157d01e508111beb7c77e5be19f64
+  original_path: 2024/HackToday/quals/slowly but surely
+licensing:
+  declared_license: MIT
+  copyright_holder: Binary Exploitation (PWN) challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: HyggeHalcyon (HCS) - HackToday 2024, imported via https://github.com/HyggeHalcyon/CTFs
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall
+    algorithm: sha256
+    value: 906f5ed4e7b8fce50d9413d07cb0fcfddc711280f1fab46553eb7f723216c592
+  - path: flag.txt
+    algorithm: sha256
+    value: aa768554309ebd413483ead31cc0533e11e6cedd3f4f9304bdbed4a1d91d4317
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 595bcdc306999711a5a9c787e5d01618f94eb92c4c09a178e875a324f1072d89
+  - path: libc.so.6
+    algorithm: sha256
+    value: 799afb7e84a4cfe473af8c3cf0c1ff75b6e2d40434f5f00a74c2a3e50625829f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HyggeHalcyon/CTFs - HackToday 2024
+  url: https://github.com/HyggeHalcyon/CTFs/tree/914708be7ca157d01e508111beb7c77e5be19f64/2024/HackToday/quals/slowly%20but%20surely
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge. Category follows the source quals README, which marks it pwn. The participant
+  exploit is moved to solvers. Its libc and loader are preserved as shipped. Participant solver material
+  was moved out of the challenge distribution
+
+  to solvers/ per archive policy, keeping its relative path: `exploit.py`.'

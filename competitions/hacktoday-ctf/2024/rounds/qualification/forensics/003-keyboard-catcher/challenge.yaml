@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-forensics-003
+name: Keyboard Catcher
+slug: 003-keyboard-catcher
+original_name: Keyboard Catcher
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSICS
+description: 'A forensics challenge about an alleged keylogger in WSL, distributing an API Monitor
+
+  capture and a shell script.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/quals/Keyboard Catcher
+licensing:
+  declared_license: MIT
+  copyright_holder: Digital Forensics challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: api-monitor-v2r13-x86-x64.zip
+    algorithm: sha256
+    value: d045e45f523a6c0c7a2a8e06831f4b2d705fb84f4995791b5a70b28424a49d2b
+  - path: chall.apmx64
+    algorithm: sha256
+    value: 0ba6acbf5a31de72eb5f46771a5d4a44a0ecc8cdde7c7bf42c3abb1a710c52bc
+  - path: chall.sh
+    algorithm: sha256
+    value: 2261a296b851e0be7c139354375eb13a0295aa86d472606431b18fda5ff0deb2
+  - path: flag.txt
+    algorithm: sha256
+    value: 924484e2eccdbc6a84a1041bd496f22cf9c7ff2ac3b7e748f622eda003139fd0
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/Keyboard%20Catcher
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and the
+  KEITO writeup Forensics section. The challenge description refers to WSL, but the capture is a Windows
+  API Monitor trace. No solver scripts were present in the source.

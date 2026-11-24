@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-pwn-004
+name: examination
+slug: 004-examination
+original_name: examination
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: A PWN challenge distributing a 64-bit ELF service and a pwn.red jail Dockerfile.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/quals/examination
+licensing:
+  declared_license: MIT
+  copyright_holder: Binary Exploitation (PWN) challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 60fa4ab4285d9067a5d68212176cf0e0a8c42757187b55a2c1de9ec1b24414da
+  - path: examination
+    algorithm: sha256
+    value: af12e007d7bf8f8e5c68176c2983fb92a56b768d124e69c1ac3c59fb444e22a1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/examination
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. No writeup states its category; pwn is the curator classification, supported
+  by the shipped pwn.red jail Dockerfile and non-stripped ELF binary. No solver was included in the source.
+  No solver scripts were present in the source.

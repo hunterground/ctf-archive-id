@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-rev-003
+name: packer
+slug: 003-packer
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: |-
+  my secret documents have been packed, but I lost the unpacker :(
+
+  **WARNING: be careful when executing the pyc files!**
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/rev/packer
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a58fbb602b449f94f7185b844618bf98e1e20494e8c7f4ff9e95fb520c6b3d9d
+  - path: chall.zip
+    algorithm: sha256
+    value: c69ffa0e58a616707207cb1d94c65f824782ae9dabc6cde1e02087dc5bfbff4f
+  - path: flag/flag-1.pdf
+    algorithm: sha256
+    value: 84a4dcaa1fa64e39e36792398852fbe950992de63054404075cd462e1b547d78
+  - path: flag/flag-2.pdf
+    algorithm: sha256
+    value: f541a85096edadd9b6de1d2755a5f27ecdcf17641547809b18f3aba4f416d04c
+  - path: flag/flag-3.pdf
+    algorithm: sha256
+    value: d4a90f065dca9d5d2b9f51d0e65c96a963892b68c6c83b2b79d837060d3a0b1c
+  - path: flag/flag-4.pdf
+    algorithm: sha256
+    value: 8a5904692929a80e2b34d8fc11bbfe617d76262132787bfe85f3b1af0c572cd5
+  - path: packer.pyc
+    algorithm: sha256
+    value: d4c03f93a17975e9343452bf561dbdf16d25790f8bea8bfc83c992aa1c2176e1
+  - path: secret/packed.png
+    algorithm: sha256
+    value: ab71d0663a20f221130d00801b45507dd34c11201fb88b57feffb3c210ef1cc2
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804) in commit authorship.

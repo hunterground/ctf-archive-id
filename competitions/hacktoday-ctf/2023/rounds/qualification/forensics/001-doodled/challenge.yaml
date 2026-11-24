@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-forensics-001
+name: Doodled
+slug: 001-doodled
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: |-
+  Oh no! My cousin Gio Ferdiansyah has scribbled all over my stuff! Almost everything is covered with his doodles, including an important QR code, making it unreadable. Can you help me retrieve the lost information?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: kelapacuyy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/foren/Doodled
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 97ce7c1b3823e02aac026cc3995a7f75d3ee4c7edc38d1a7511417a1de7d0d9d
+  - path: chall.jpg
+    algorithm: sha256
+    value: 3cb7b5bb700cd1b4282fc77ea56fcde578a362a63381f875f144e16c84ed12bf
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to kelapacuyy (kelapacuyy) in commit authorship.

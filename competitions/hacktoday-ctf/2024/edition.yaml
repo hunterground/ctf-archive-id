@@ -3,14 +3,98 @@ id: hacktoday-ctf-2024
 competition_id: hacktoday-ctf
 year: 2024
 name: HackToday 2024
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2024-08-17'
+  end: '2024-09-21'
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record. This pass did not open an organizer page for 2024.
+  challenge_count: 23
+references:
+- title: wondping0/Hacktoday2024_Quals
+  url: https://github.com/wondping0/Hacktoday2024_Quals
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: BIMASKUY/Hacktoday2024
+  url: https://github.com/BIMASKUY/Hacktoday2024
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: HyggeHalcyon/CTFs - HackToday 2024 quals and finals
+  url: https://github.com/HyggeHalcyon/CTFs/tree/main/2024/HackToday
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: SandWithCheese/ctf-writeups - HackToday 2024 by category
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024
+  type: writeup
+  accessed: '2026-11-25'
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024
+  type: writeup
+  accessed: '2026-11-25'
+- title: evanaff/CTF-writeups - Hacktoday 2024 forensics writeups
+  url: https://github.com/evanaff/CTF-writeups/tree/39eb97c8ac435becbdd553ab13bdd309c61870cc/2024/Hacktoday%202024
+  type: writeup
+  accessed: '2026-11-25'
+- title: jonscafe/ctfs-write-ups - WU HackToday 2024 quals (KEITO)
+  url: https://github.com/jonscafe/ctfs-write-ups/tree/main/hacktoday-2024-quals
+  type: writeup
+  accessed: '2026-11-25'
+- title: HackToday 2024 - CTF Pal writeup index
+  url: https://ctfpal.com/writeups/ctf/hacktoday-2024-2024-community
+  type: writeup
+  accessed: '2026-11-25'
+- title: HyggeHalcyon/CTFs - HackToday 2024 quals and finals
+  url: https://github.com/HyggeHalcyon/CTFs/tree/914708be7ca157d01e508111beb7c77e5be19f64/2024/HackToday
+  type: third_party_archive
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: 'HackToday 2024 has no organizer challenge repository, so this edition is the first in the archive
+  reconstructed from participant and author sources rather than an official source. The cybersecurityipb
+  GitHub organization was enumerated on 2026-11-25 and holds only hacktoday2023, hacktoday2025, micro2025,
+  Agrihack0x08/0x09, CTF-Archive, and the site repository; CTF-Archive contains only GlacierCTF, NCWBinusCTF,
+  NetsosUI, PatriotCTF, and sknbCTF material. A GitHub commit search over August-October 2024 returns
+  only participant repositories.
+
+
+  The timeline is verified from the HIMA IF Telkom University publication for IT Today 2024: registration
+  batch 1 on 1-15 July 2024, batch 2 on 16-31 July 2024, warm-up on 17 August 2024, qualification on 24
+  August 2024, finalists announced on 7 September 2024, and the final and awarding night on 21 September
+  2024. The format was Jeopardy for both the qualification and the final. That page now fails TLS negotiation
+  and was read from its Internet Archive capture of 2026-05-18, which is why it is recorded as a secondary
+  reference. The final''s onsite delivery is inferred from the accompanying awards publication describing
+  an in-person awarding night.
+
+
+  Twenty-three challenges are imported: three from the warm-up, eighteen from the qualification, and two
+  from the final. The official 2024 category set is crypto, forensics, misc, pwn, rev, and web, with no
+  osint category. Two independent writeups attest it for the qualification: the KEITO qualification PDF
+  groups challenges under Forensics, Cryptography, Misc, Web Exploitation, and Reverse Engineering, and
+  the HCS (Girls Band Cry) PDF covers Web Exploitation, Reverse Engineering, and PWN. Qualification imports
+  are crypto 4, rev 2, misc 2, web 2, pwn 4, forensics 4; warm-up imports are forensics 1, rev 1, misc
+  1; final imports are pwn 2. Only pwn is attested for the final.
+
+
+  Import fidelity differs by stage and is recorded per challenge. Only note to self arrived as a complete
+  application distribution with its Dockerfile and compose file. The pwn and forensics challenges arrived
+  as challenge artifacts plus libc and loader files. The writeup-only sources supplied descriptions but
+  almost no per-challenge text, so several descriptions are curator summaries of the distributed files
+  rather than organizer wording, and no difficulty is stated anywhere upstream, leaving every difficulty
+  null with source unknown. Category for the three warm-up challenges and for examination is the curator
+  classification, because no source states it; every other category comes from the source tree or a writeup
+  section. All authors are participant handles, since no organizer attribution exists.
+
+
+  Participant solver material was moved to solvers/ and the challenge notes record the move without editing
+  the remaining files. Generated bytecode caches under note to self were excluded as build output and
+  are listed in that challenge''s omissions. Two participant artifacts are preserved rather than removed,
+  because they ship inside the challenge directories: a participant session token and account list in
+  note to self, and partial flag fragments in Pentathlon. Neither is an organizer credential.
+
+
+  Attested but not imported, because no distribution was located: qualification misc Ceremony, web Baby
+  Slim and Sanitizer, and the bonus Hadiah kemerdekaan. The warm-up names Easy RSA and unknown leak were
+  excluded on maintainer review because both names are also used by HackToday 2022 and 2023 and no writeup
+  ties them to 2024. No forensics, crypto, web, or rev final challenge was found. None of the sources
+  declares a license; per archive maintainer instruction on 2026-11-25, imported material is recorded
+  as MIT with attribution to the participant who published it.'

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-misc-001
+name: Komputer N4SA
+slug: 001-komputer-n4sa
+original_name: Komputer N4SA
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISCELLANEOUS
+description: A misc challenge distributing an encrypted text file and its encryption script.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/mis/Komputer N4SA
+licensing:
+  declared_license: MIT
+  copyright_holder: Miscellaneous challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: enc.txt
+    algorithm: sha256
+    value: 828f3a245a7e3c4289a309a362ba73c363dccaa679989149643ae002ee7403be
+  - path: encrypt.py
+    algorithm: sha256
+    value: a0683de0292c25cda1bd85da9555ed972835b479248676d7943c4c5b98611174
+  - path: flag.py
+    algorithm: sha256
+    value: 6d0777e4eb16ce7f433cb372d6eb4c646dcb8f3614e54b961ae3ba1040f0c273
+  - path: flag.txt
+    algorithm: sha256
+    value: e3cfe9bce17427803644eb45b783e3c17908388e853db102ba3823bb2760930c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/mis/Komputer%20N4SA
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the source mis directory. The KEITO writeup lists the
+  same challenge as N4SA under Misc. No solver scripts were present in the source.

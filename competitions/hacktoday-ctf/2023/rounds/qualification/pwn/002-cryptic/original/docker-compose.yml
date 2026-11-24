@@ -1,0 +1,10 @@
+version: '3'
+services:
+  hacktoday:
+    container_name: cryptic
+    network_mode: bridge
+    restart: always
+    build: .
+    ports:
+      - "17001:8000"
+    read_only: true

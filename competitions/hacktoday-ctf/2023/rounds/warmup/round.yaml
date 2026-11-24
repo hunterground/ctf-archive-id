@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: warmup
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+name: Warm Up
+original_name: warmup
+sequence: 1
+type: warmup
+delivery: online
+description: Warm-up stage of HackToday 2023. The organizer repository stores it in a top-level
+  warmup directory with one directory per challenge and no category directories.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 6
+  participant_count: null
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Neither the organizer repository nor the IT Today 2023 announcement states a warm-up date, so
+  the dates object is null. Commits touching the repository warmup/ directory fall between
+  2023-08-13 and 2023-08-19, but a commit date is not an event schedule.

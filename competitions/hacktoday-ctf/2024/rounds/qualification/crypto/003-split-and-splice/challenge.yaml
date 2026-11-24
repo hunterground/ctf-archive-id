@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-crypto-003
+name: Split and Splice
+slug: 003-split-and-splice
+original_name: Split and Splice
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTOGRAPHY
+description: 'An RSA challenge that splits and splices a ciphertext, solved by reversing custom
+
+  Gray-code transforms as documented in public writeups.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/cry/Split and Splice
+licensing:
+  declared_license: MIT
+  copyright_holder: Cryptography challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: file.txt
+    algorithm: sha256
+    value: e99ab2d1f56fb0f6b22f5bb3dbf82de2860b20c9c33b8b2e944274896c0dede0
+  - path: flag.py
+    algorithm: sha256
+    value: 9423039d050914247cafdec48a527103e205b2557f9a55098da0b8c981dfbf74
+  - path: flag.txt
+    algorithm: sha256
+    value: 1621ce567287485c09d8f8d8c35b8e51af48864db99e0e687ca1211955258f65
+  - path: script.py
+    algorithm: sha256
+    value: 099b76006298b8aaf3edc118d570a021a1034b6cc306faa295246b9ed3b17cf6
+  - path: secret.txt
+    algorithm: sha256
+    value: e66692069696b69cda30045609bc55bb5b5cdfa362d1353f10a24880a979bd87
+  - path: test.txt
+    algorithm: sha256
+    value: eb71f905bf1d3a8e31e21b341138bcdf524bc256af6eb715fffc878d69e687b7
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/cry/Split%20and%20Splice
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the source cry directory and the KEITO writeup Cryptography
+  section. The source directory also ships flag.py and flag.txt, which are author-side artifacts; they
+  are preserved as shipped. No solver scripts were present in the source.

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-pwn-001
+name: housemd
+slug: 001-housemd
+original_name: housemd
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: 'A heap exploitation challenge with a one-byte overflow in a CRUD interface, run under a
+
+  pwn.red jail.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: HyggeHalcyon
+  team: HCS
+organization: null
+provenance:
+  archive_id: hyggehalcyon-hacktoday-2024
+  source_type: git
+  repository: https://github.com/HyggeHalcyon/CTFs
+  commit: 914708be7ca157d01e508111beb7c77e5be19f64
+  original_path: 2024/HackToday/quals/housemd
+licensing:
+  declared_license: MIT
+  copyright_holder: Binary Exploitation (PWN) challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: HyggeHalcyon (HCS) - HackToday 2024, imported via https://github.com/HyggeHalcyon/CTFs
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0cf1e2252a951574c8d01b60d7a64cab02c83647b394df693bde18234d042f20
+  - path: flag.txt
+    algorithm: sha256
+    value: 525a6dd73f8efd94a30ba9dd60145cc1ba98e9f4187b5dbce4f07db308bfccff
+  - path: house
+    algorithm: sha256
+    value: 4aab1ab54f3184be5cb35adb227aabdca4827f110303c0eddd586f5515f8d382
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: f3a90b0d5c1d5f2bd1c3584a5295b03052d40eb1fe6d7854b72cd2f6573e8488
+  - path: libc.so.6
+    algorithm: sha256
+    value: 8f4585ef3e81af4fc3ae5e2f8b6416e51af139bdeb3a972725b0bcca7c6a9da6
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HyggeHalcyon/CTFs - HackToday 2024
+  url: https://github.com/HyggeHalcyon/CTFs/tree/914708be7ca157d01e508111beb7c77e5be19f64/2024/HackToday/quals/housemd
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge. Category follows the source quals README, which marks it pwn. The exploit
+  uses a one-byte heap overflow into a FILE structure; the participant exploit is moved to solvers. Its
+  libc and loader are preserved as shipped. Participant solver material was moved out of the challenge
+  distribution
+
+  to solvers/ per archive policy, keeping its relative path: `exploit.py`.'

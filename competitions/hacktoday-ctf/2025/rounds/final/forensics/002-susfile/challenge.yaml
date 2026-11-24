@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-forensics-002
+name: susfile
+slug: 002-susfile
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: DIGITAL FORENSIC
+description: |-
+  Sus file, answer the question and it will not sus anymore
+
+  `Author : jedi`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: jedi
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/for/susfile
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 324cf63c2010b7c5aa1bc8912fa76c84ab33bdfcc7d6cb40392f474f68ea97db
+  - path: quiz-server.py
+    algorithm: sha256
+    value: 9c7052368cabfd442a637fcdc8ce4456c305550dcdf042b3524b8887775f7a1c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to jedifathan.

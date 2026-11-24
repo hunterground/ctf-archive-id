@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-forensics-001
+name: DumpTheSecret
+slug: 001-dumpthesecret
+original_name: DumpTheSecret
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSICS
+description: 'A forensics challenge distributing a Windows memory image and a password-protected
+
+  archive holding the flag.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/quals/DumpTheSecret
+licensing:
+  declared_license: MIT
+  copyright_holder: Digital Forensics challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: filedump.dmp
+    algorithm: sha256
+    value: 0b80bc932082f949b0ac94d84ab33c9df0ab74acf313b004d9d51d778ef7d681
+  - path: flag.zip
+    algorithm: sha256
+    value: 9a82ea791e3fc76ab229db243a966e2d6426216be4ad369f8a9e8d213753495d
+  - path: hash.txt
+    algorithm: sha256
+    value: 1e28dc31ef490e3a32d610c9345df4d0a069ed26e237b5ba8f13e8fab87ae4d6
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/DumpTheSecret
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the evanaff writeup, which labels it Digital Forensic,
+  and the KEITO writeup Forensics section. The distributed image and archive are participant re-uploads
+  of organizer files. No solver scripts were present in the source.

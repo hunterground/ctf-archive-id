@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-web-001
+name: CSV Analyzer
+slug: 001-csv-analyzer
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: WEB EXPLOITATION
+description: |-
+  I'm a Data Engineer,  a good one of course. I built data pipeline for a big company. What, you don't believe me? Here, I made this simple project that will analyze your CSV file so you don't have to do the data exploration yourself. How did I build it? Well I left my prompt at home, but I can send it to you after I get back. Do I understand the code? Bruh, this is 2025; LLMs are already that good, so I don't need to. Security? What kind of food is that?
+
+  `Author : yqroo`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/web/csv_analyzer
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4b45486ecf254607141b755f497a4f42b7fdab0f35e55733929bd94ed85a4b30
+  - path: a.csv
+    algorithm: sha256
+    value: e18f845f8fef98c6bbb26227184c5fa44bde3d2f3bbdb7745009f1a5c4c6df66
+  - path: backend/Dockerfile
+    algorithm: sha256
+    value: a11702ea1582f30864f3aa9989576781466aaaf6610abff9307f0e803c73da9e
+  - path: backend/app.py
+    algorithm: sha256
+    value: 429cf5fe5e63af914390cfb1b00fee990d4ea72f7236a3d4f02a6bff5137ea4b
+  - path: backend/requirements.txt
+    algorithm: sha256
+    value: e756f37a6a6fbf52ff07eefaf0132cb614c37f8fbd9651eb5c5f2692ab65213d
+  - path: compose.yml
+    algorithm: sha256
+    value: 1d167ba135af1e45ba09d846ff6a9e2e4afb28b0191ee9353907e569731880c7
+  - path: dist.7z
+    algorithm: sha256
+    value: e6351f5738f3bc8a768b32a5f7bf7f256a67b561d082b167b97221a39af272c9
+  - path: frontend/Dockerfile
+    algorithm: sha256
+    value: 777c4a48a8a0e60adbc8a445e91b33c01e36dbb861bc8e5d7ad6341dc31cb5e4
+  - path: frontend/index.html
+    algorithm: sha256
+    value: 6643e1ae0cb11d48ad886ee64b313f93623ea139ce9feced380bb6a5f55c6ddb
+  - path: frontend/nginx.conf
+    algorithm: sha256
+    value: d2e8a478a9ecba907912d8e897f66743c210e936338e917a8e4feeb7da3a8704
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Numero Uno Arroefy.

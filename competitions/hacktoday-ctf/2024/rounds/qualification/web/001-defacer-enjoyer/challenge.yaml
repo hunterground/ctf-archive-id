@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-web-001
+name: Defacer Enjoyer
+slug: 001-defacer-enjoyer
+original_name: Defacer Enjoyer
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: WEB EXPLOITATION
+description: 'A web exploitation challenge against an Apache 2.4.50 service, exploiting the
+
+  path-traversal and RCE CVE from that release.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/web/Defacer Enjoyer
+licensing:
+  declared_license: MIT
+  copyright_holder: Web Exploitation challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: PoC.sh
+    algorithm: sha256
+    value: f93fa710c644e426b6e269a64bf4eeebde10bf8ceabcdab9095150193c435fd7
+  - path: flag.txt
+    algorithm: sha256
+    value: fc8e3e17178f697223f8a23565cb283462a51351aeda6dd9df2047ecdbd882e0
+  - path: targets.txt
+    algorithm: sha256
+    value: 4b1d726e01ab245df1fb69c2639d17346021242c137dc7c22b28493483316b1d
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/web/Defacer%20Enjoyer
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the source web directory and both writeups Web Exploitation
+  sections. The source ships targets.txt, which is a participant note listing their own instance hosts,
+  and includes a participant-provided PoC. No solver scripts were present in the source.

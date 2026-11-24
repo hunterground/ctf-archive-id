@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-crypto-001
+name: Curve Enjoyer
+slug: 001-curve-enjoyer
+original_name: Curve Enjoyer
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTOGRAPHY
+description: 'An elliptic curve cryptography challenge distributing a Sage implementation and a server
+
+  script.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/cry/Curve Enjoyer
+licensing:
+  declared_license: MIT
+  copyright_holder: Cryptography challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: flag.sage
+    algorithm: sha256
+    value: 1df969730c5a205cb961cdfed143707e77c15e56e70f559dd3e58abd2227f153
+  - path: flag.sage.py
+    algorithm: sha256
+    value: 9aaf6d2de32d466f93a37c4a5c401df6e8dbd28d0b7632fda46ea3b0f93dcbe0
+  - path: server.py
+    algorithm: sha256
+    value: 877a5111add8de8bd41393a09d406f5dfff363497f7c92363b4d20239a6dccb0
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/cry/Curve%20Enjoyer
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. The source tree groups challenges in a cry directory and the KEITO and
+  HCS writeups both carry a Cryptography section, so the category follows the source rather than a curator
+  guess. No solver scripts were present in the source.

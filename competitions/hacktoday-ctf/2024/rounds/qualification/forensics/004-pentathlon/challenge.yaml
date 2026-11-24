@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-forensics-004
+name: Pentathlon
+slug: 004-pentathlon
+original_name: Pentathlon
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSICS
+description: 'A multi-part forensics and steganography challenge with five sequential stages, each
+
+  revealing the next.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/quals/pentathlon
+licensing:
+  declared_license: MIT
+  copyright_holder: Digital Forensics challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 01.png
+    algorithm: sha256
+    value: e47f90c9bfa4391be7c3b45b65bbfd7256c42efcaa7c39ebd52378598cc74362
+  - path: 2solp.jpg
+    algorithm: sha256
+    value: a6f51e50ac17b9ecab806f1a7b11274a92d5f9e9a8f7d55a6c6ba40d1a53acab
+  - path: 4.txt
+    algorithm: sha256
+    value: 24aa923fa58422004ae2e81d6cd2e3030a48ff9fa49720dcc300347b7a880bf0
+  - path: DONE.png
+    algorithm: sha256
+    value: d9d22b372c94a2c1aa76deee251fae152f88a23b6c5206f7718c7119d05462b9
+  - path: chall1.png
+    algorithm: sha256
+    value: f39f19fea43a45706363a7490641860e5cb750318f6517a46f1f67cd280d66d9
+  - path: chall2.jpg
+    algorithm: sha256
+    value: c55f57e7d512c10964512654ebbf1d2aa3a9fde2d31a26d0f19fea05aa02d125
+  - path: chall3.zip
+    algorithm: sha256
+    value: 579ee64b9f61ba4c8862b00c54d06c9685c1025555effb08386d709e24f2ae10
+  - path: chall4.png
+    algorithm: sha256
+    value: 89f1c12836664f234c3238b4ebb3d14e665a0bd69e2cdc58418028d9cdb5f382
+  - path: chall5.png
+    algorithm: sha256
+    value: 30b69c98156f406c5b0df5eb270932a6eb53f57528e4b7912a8a78fddc155cab
+  - path: chall5.zip
+    algorithm: sha256
+    value: de4b190aefac2ea1bb1ed898c846119b03c64b0365256fa1a794e4ed57dd7ad5
+  - path: finish.png
+    algorithm: sha256
+    value: e7916011a1110a321447fa190962d8feffcf96255528acadf9870acfda80d607
+  - path: flag3.txt
+    algorithm: sha256
+    value: 9452cecb5d2d3330cb393f9751db0480624eeb6e271cb2947da17c98f3048a3d
+  - path: script.py
+    algorithm: sha256
+    value: 067456a513e59d79000a8aad465114e452ad37997cc2de41966b95662e5a7841
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/pentathlon
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and
+  the KEITO writeup Forensics section. The directory mixes organizer stage artifacts with participant
+  work, because the solver wrote their own scripts to complete the stages. The participant material is
+  moved to solvers/: `solve.py`, a stage-4 extraction script, and `solvesolve.py`, an IHDR CRC brute-forcer.
+  The stage text files 4.txt and flag3.txt contain partial flag fragments the solver recovered, and they
+  are preserved as shipped because they document the chain. `script.py` names an image that is not present
+  and is treated as a shipped artifact left in original/. Participant solver material was moved out of
+  the challenge distribution
+
+  to solvers/ per archive policy, keeping its relative path: `solve.py`.'

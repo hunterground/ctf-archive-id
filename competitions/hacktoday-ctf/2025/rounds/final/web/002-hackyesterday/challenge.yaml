@@ -1,0 +1,170 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-web-002
+name: HackYesterday
+slug: 002-hackyesterday
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: WEB EXPLOITATION
+description: |-
+  Bruh, why are the current organizers so lazy? This CTF is doomed, so I'm making my own called HackYesterday because there'll be no HackToday for tomorrow. I don't want to help with this event anymore unless they put more effort into organizing it. I feel like this is truly the embodiment of slavery in the modern CTF era, smh. Oh, anyway, can you win my CTF event?
+
+  `Author : yqroo`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/web/hackyesterday
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2c27f7dd99a77e3edebbd9ff1e6ebf8d2c16c296dacdadf9a12e04fdba1481a6
+  - path: dev/Dockerfile
+    algorithm: sha256
+    value: 207cd80cf919675cf036cdca9c65eaada2dfe66939ac4039738e7355829b0ead
+  - path: dev/api/app.py
+    algorithm: sha256
+    value: 35a9e81b555a151ec37dce23b8d8c3313d10c7f6c6fd0374b50793ef29fd038e
+  - path: dev/api/requirements.txt
+    algorithm: sha256
+    value: 4327274aff2040ab9d010b47396cc639d9a8d74240c88f6c80696513b170f52f
+  - path: dev/api/src/app.py
+    algorithm: sha256
+    value: dfb316b014c32c55890f5af1fb640d0d2011f807625ba3fe440859adcf262f25
+  - path: dev/api/src/authentication.py
+    algorithm: sha256
+    value: 201ab2c5da9fa3a1e7b13551546f348dfc3bb67562fc7c9e6d9fa3a78b5d2066
+  - path: dev/api/src/bot.py
+    algorithm: sha256
+    value: 354e867087dd26ba9f34998c3ac98a9593ef8991e20061810bf4f04d026a333a
+  - path: dev/api/src/models.py
+    algorithm: sha256
+    value: d8df4ce30bb23bfc53f645204b62c11b9ed341c8c8a8d264b2e5a9692b1efe7b
+  - path: dev/api/src/routes.py
+    algorithm: sha256
+    value: 1a48890fea93f0a304bb8f3dc6d9bc2f98df4f36040daca8ec6ff713e2aa7092
+  - path: dev/api/src/utils.py
+    algorithm: sha256
+    value: 3c0949d5f93a21bdb13f4fba197b43513e3a84158ea1e6d809fc540b597284a9
+  - path: dev/api/uploads/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dev/compose.yml
+    algorithm: sha256
+    value: 0c462f1408d3beb4d5b17870cd6fa3e42af193e432cd28a7b20f41d023bf6b98
+  - path: dev/frontend/package-lock.json
+    algorithm: sha256
+    value: dfa3264ff6f49d8979955a12e57330ae417914da1797bc61ee368ea407052461
+  - path: dev/frontend/package.json
+    algorithm: sha256
+    value: 24a7c3c4bac63f8fd310c001ef30f2642b5d157c3a46c928634492aa89941696
+  - path: dev/frontend/public/favicon.ico
+    algorithm: sha256
+    value: 1143811404ce7bb2e893bcf2cb2d9bc834a325735741cb9455b790b1918d2302
+  - path: dev/frontend/public/index.html
+    algorithm: sha256
+    value: a8901a2a4bf3cf3f43ab951e8c35bb11ac604c5664f5a5e0a34a7acd2aeb5ab1
+  - path: dev/frontend/public/logo.png
+    algorithm: sha256
+    value: 3aa00485a28690190f9202217898ecc882f00af9edd50ea5757bd50de53ae03b
+  - path: dev/frontend/public/manifest.json
+    algorithm: sha256
+    value: 251d6396c12a38445bc46f97336f3341e05fe205ebc479939e72a9781a5b45a1
+  - path: dev/frontend/public/robots.txt
+    algorithm: sha256
+    value: 90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2
+  - path: dev/frontend/src/App.js
+    algorithm: sha256
+    value: eff51c33efbe06c19118440fde88b345c686773e28b82c755f92a3528da73109
+  - path: dev/frontend/src/components/Challenge.js
+    algorithm: sha256
+    value: 58020a4d9abcd5e567edb0f1b7252b829f133e66c03d0a94cd1fd160d4497ffc
+  - path: dev/frontend/src/components/TopNavbar.js
+    algorithm: sha256
+    value: 56e4c52b48e1a4f2855dfbbfa8ca61f080f4963e68bb984589615e13ab81b502
+  - path: dev/frontend/src/index.css
+    algorithm: sha256
+    value: daf22c296c801d3d533083361cc59fbdc22e5bfe528aa4bad1973b54cc5448a4
+  - path: dev/frontend/src/index.js
+    algorithm: sha256
+    value: eadee16a69ff4b3d0694a1f5a54268c39c26627e3e8a70240e19254281f798f2
+  - path: dev/frontend/src/logo.svg
+    algorithm: sha256
+    value: e86a110ee5cfdba4ed79e627d1c16a62ddf568607a4e10d0c340b11d5d64c9cd
+  - path: dev/frontend/src/pages/Challenges.js
+    algorithm: sha256
+    value: 93a1b300c1fa55184996f7279a502dfaaea432d2e5d6e1fb99101a8df8af35cb
+  - path: dev/frontend/src/pages/CreateChallenge.js
+    algorithm: sha256
+    value: 6e6a2ad8ec577dbfe5bff7da2e8a238fedda411e91aa08c64bbfd4d333624f22
+  - path: dev/frontend/src/pages/Layout.js
+    algorithm: sha256
+    value: 843ac79ee306548e18bfd57b5081a4b6f31983905cdabe58e005149361165c76
+  - path: dev/frontend/src/pages/Leaderboard.js
+    algorithm: sha256
+    value: 8bab73a100d860ec8c82c5b3dadbfad502a33097db6e809a523dfd32cdec9ad5
+  - path: dev/frontend/src/pages/Login.js
+    algorithm: sha256
+    value: 650b3785661adfc247cf2620c260d588eecda3bed33dbf2aa72bb0f58a7ad7a1
+  - path: dev/frontend/src/pages/NoPage.js
+    algorithm: sha256
+    value: 1cd1a0bca5d25b20dc82d39da295a973620b01ac4368bc70991341ed8edfcebe
+  - path: dev/frontend/src/pages/Profile.js
+    algorithm: sha256
+    value: e024663a8ccb6e7b491591e45f7a22978073c83ad8b8a442bfdbead0e72a6d95
+  - path: dev/frontend/src/pages/Register.js
+    algorithm: sha256
+    value: d66501185ac2108f717baa38c60850f165c6699f22a7c19f8201b79866924623
+  - path: dev/frontend/src/utils/apiClient.js
+    algorithm: sha256
+    value: 054de4b351ff440151bdedcdc0f25ae1c787f222010be6f764bb4a930ed87c62
+  - path: dev/nginx.conf
+    algorithm: sha256
+    value: 79d9950c838d40b7fe7d20a9e8bc341da5c175de2efa5dd4b1f94c795dc0b63e
+  - path: dev/payload.pdf
+    algorithm: sha256
+    value: 4af178365d521d014650a0baa2ea3012bce2055b52c939731547192c8a9c707f
+  - path: dev/supervisord.conf
+    algorithm: sha256
+    value: 31fd897cae03f86115074e4e172632db9eb9924886b9b2cf449cc8ae7d88b048
+  - path: dist.7z
+    algorithm: sha256
+    value: 17967fe6d625658ebfeb940d2f3897be191f0092de188862835b6eb6b300249c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Numero Uno Arroefy.

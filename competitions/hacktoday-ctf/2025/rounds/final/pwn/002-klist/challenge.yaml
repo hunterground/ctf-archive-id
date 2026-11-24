@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-pwn-002
+name: Klist
+slug: 002-klist
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: BINARY EXPLOITATION
+description: |-
+  habis belajar heap belajar apa bang? kernel aja, dan yap 2 tahun berlalu dan saya tidak belajar apa-apa, jangan menjadi seperti saya, mari solp challenge kernel mudah ini.
+
+  `Author : yqroo`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/pwn/klist
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ac93172fd2a959a5b296f050b5b229d245307d9f1776adf6b58ee7cb2f5f1c0f
+  - path: README.md
+    algorithm: sha256
+    value: fc96c4f4c64d69c2ef144bd9e3eaa5e91db51efdf66424a67172514bc4c3cd9f
+  - path: artifacts/bzImage
+    algorithm: sha256
+    value: ac3d26678ffd32a0900b5980c40ad4d3538da25ec707320ba5eae34225abd010
+  - path: artifacts/chall.c
+    algorithm: sha256
+    value: b8cd0fcff3639d66ab24c1d68c04d7ef68a86ea56ae5a7f9ba7e199372e70d7c
+  - path: artifacts/rootfs.cpio.gz
+    algorithm: sha256
+    value: 081e8b31cd223672dccb35e3a960a7c3ae83d18b571289cf6d9293fdd597b0c6
+  - path: compose.yml
+    algorithm: sha256
+    value: d476c20fbe4ae04b44c6dd37068f792900e1510335410ea0e61ce9e33c3b61f9
+  - path: dist.7z
+    algorithm: sha256
+    value: ad2864050e2ecdfe862d012e14ecd5972fa0cfce1ac09d04d7e7f1f10f703636
+  - path: flag.txt
+    algorithm: sha256
+    value: a656147eb28b964c065f5725709adb0b28138be7bd3375d4e0e2e91f828e6f94
+  - path: run.sh
+    algorithm: sha256
+    value: e3725d7d44c1fbbaf81f2cac64b3ad7a54183ed8d84d3c433e9495f0600365b1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Numero Uno Arroefy.

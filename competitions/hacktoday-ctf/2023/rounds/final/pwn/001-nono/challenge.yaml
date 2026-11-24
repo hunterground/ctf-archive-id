@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-pwn-001
+name: Nono
+slug: 001-nono
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: linz04
+  team: Cyber Security IPB
+- name: patarisac
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/pwn/nono
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c552803848d88b1eff2bc02f4f22ac27ead617e00d66e7bc32a77fecee44982c
+  - path: README.md
+    algorithm: sha256
+    value: ba30b9df5e942ab9e55e2b7fbffac2fe0109ad6bcf01c3f7517ead6ac4785f25
+  - path: config/ctf.xinetd
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: config/run_challenge.sh
+    algorithm: sha256
+    value: aa4eacee50ba8da5a53cb22d5b76de552c39632b31139923a9d3f7aedd0ea437
+  - path: config/run_xinetd.sh
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: debug.txt
+    algorithm: sha256
+    value: 3f121ec08aea0e0c9d8139e24e1392576eb8c6a46221956ceff129729cd968d0
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 177b99fcda3a6d984b2a40beff4173d79d1a996bdfe3fe10d93b45363d7f65df
+  - path: down_docker.sh
+    algorithm: sha256
+    value: 6734b2ee4b7bbf84531f47337de629c04b4daac9d33919f400d464d99239535b
+  - path: flag-random_taext_nono_linz_is_here_ulala.txt
+    algorithm: sha256
+    value: c24d5d7bf7f159ad73a21f6f548fd1fb1437d59ea925971d0f4a0f6a6ffe0a8f
+  - path: release/nono
+    algorithm: sha256
+    value: fc22b50f396a3f3606dd014db210d335e5c523a94dda1b1a0805153bc778b70f
+  - path: restart_docker.sh
+    algorithm: sha256
+    value: 48165c37e61ad111e73a1f68fe8167430b4d91b6574d99a66348536dab473797
+  - path: src/webserver
+    algorithm: sha256
+    value: fc22b50f396a3f3606dd014db210d335e5c523a94dda1b1a0805153bc778b70f
+  - path: up_docker.sh
+    algorithm: sha256
+    value: 10fdb91afca69ec56aa5be188b1797f32657d4b1f2e2dc09d5614b64ccb8f77d
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to linz04 (linz04), patarisac (patarisac) in commit authorship.

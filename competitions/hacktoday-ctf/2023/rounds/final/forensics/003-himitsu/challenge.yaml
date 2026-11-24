@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-forensics-003
+name: Himitsu
+slug: 003-himitsu
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Digital Forensic
+description: |-
+  Temanku glitchgoo baru saja belajar wireshark. Malamnya, ketika aku sedang asyik menonton youtube, dia tiba-tiba mengirimiku pesan "aku akan mengirimkan sesuatu". Aku pun langsung mengcapture traffic di komputerku. Tapi, aku tidak tahu apa yang dia kirimkan.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/foren/Himitsu
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e054df52877ae0fe19e9e30a8cdc3d713466e53fbfa55b1a188ffb71bb7bd9c2
+  - path: capture.pcapng
+    algorithm: sha256
+    value: eaab999385f078599f1f4fc8658de106b14fe9bb276c3aa22b86e4680ee24c49
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy) in commit authorship.

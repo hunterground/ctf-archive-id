@@ -6,7 +6,7 @@ name: HackToday 2026
 status: completed
 verification: corroborated
 dates:
-  start: '2026-09-13'
+  start: '2026-09-11'
   end: '2026-10-03'
 statistics:
   participant_count: null
@@ -15,6 +15,35 @@ references:
 - title: Hack Today, IT Today 2026
   url: https://ittoday.web.id/competition/hack-today
   type: official_website
-  accessed: '2026-11-21'
+  accessed: '2026-11-25'
+- title: Ramdhanisheva/ForensicAnalysis - HackToday 2026 forensics notes
+  url: https://github.com/Ramdhanisheva/ForensicAnalysis
+  type: third_party_archive
+  accessed: '2026-11-25'
 challenge_materials_imported: false
-notes: 'Official agenda: qualification on 13 September 2026 and final on 3 October 2026.'
+notes: >-
+  No challenge material is imported, because no organizer challenge repository for 2026 exists:
+  the cybersecurityipb organization was enumerated on 2026-11-25 and holds only hacktoday2023,
+  hacktoday2025, micro2025, Agrihack0x08/0x09, CTF-Archive, and the site repository. A GitHub
+  commit search over September-November 2026 returns six results, none of which is a challenge
+  source: a HackToday 2023 writeup site, a participant forensics toolkit, and the HackToday 2024
+  cryptography collection.
+  The schedule is taken from the official IT Today 2026 API rather than the rendered page, which
+  is a client-side application: registration batch 1 on 17-31 July 2026, batch 2 on 31 July-11
+  August 2026, warm-up on 11 September 2026 13:00-16:59 WIB, technical meeting on 12 September
+  2026, qualification on 13 September 2026 08:00-17:59 WIB, finalists announced on 20 September
+  2026, final technical meeting on 1 October 2026, and the final on 3 October 2026 09:00-14:59 WIB.
+  All times in that API are stored as UTC, so the 07:00Z record for batch 1 is 14:00 WIB on 17 July,
+  not 17 July 07:00 WIB; the dates themselves are used as recorded here. An independent listing on
+  AjangLomba gives the qualification as 12 September 2026 and the technical meeting as 10 September
+  2026, which conflicts with the official API; the API is treated as authoritative and the
+  discrepancy is left unresolved rather than silently reconciled.
+  The results are published. Eight finalist teams are listed and the top three are recorded as
+  champions, which confirms the edition ran to completion. The event is team-based with at most
+  three members, a registration fee of 150000 IDR, and an offline final that requires a writeup
+  PDF submission and public AI-usage disclosure. No total team count and no challenge count are
+  published, so both statistics remain null.
+  One 2026 flag-format clue surfaced from a participant toolkit: a sample flag rendered as
+  HackToday26{sample_ctf_flag_success}, which suggests the 2026 flag prefix changed from hacktoday
+  to HackToday26. That is a single participant-authored example and is not confirmed by an organizer
+  source, so it is recorded here as a lead only and must not be used to validate flags.

@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-web-001
+name: Gateway
+slug: 001-gateway
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  Pernah dengar Gerbang Torii? Katanya sih itu gerbang pembatas antara dunia manusia sama dunia arwah. Nggak semua orang bisa sembarangan lewat. Harus tenang, sopan, dan tau diri. Kalau nggak… ya bisa aja "tersesat" ke tempat yang nggak seharusnya.
+
+  http://103.160.212.3:13810
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: MuSaMa
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/web/Gateway
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6986ed57cf3d0555ecda6fa1f542a50aee547e7347860eef27b5aa843757ceaf
+  - path: README.md
+    algorithm: sha256
+    value: 88fb49eb81c06248484a59f5b8b679301cac9eeb120250dd850fbb938ec56187
+  - path: gateway.zip
+    algorithm: sha256
+    value: e42e2fab86406709ef113a3b187a2f6402cca946b0b042e97595b097cb2f5f18
+  - path: nginx.conf
+    algorithm: sha256
+    value: 3c3c7605c2fefb93b6a43e001a578b4edf627ef21e47b8f50263222a3ded1b13
+  - path: www/index.html
+    algorithm: sha256
+    value: 7a56ae578e21ff61df88f47b8017408d4f41eb041a3909547216bb7cb2b7dda6
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to altaircc.

@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-rev-001
+name: AtLeast
+slug: 001-atleast
+original_name: AtLeast
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REVERSE ENGINEERING
+description: 'A reverse engineering challenge built on a Rust binary that encrypts the input with
+
+  AES-CBC and compares it against an embedded ciphertext.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/rev/AtLeast
+licensing:
+  declared_license: MIT
+  copyright_holder: Reverse Engineering challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: 4e7ab4e2d00da7926298532bf9fc40863c9058e99c5102af6956ca769d85ec06
+  - path: AtLeast
+    algorithm: sha256
+    value: e187a5ea386d4025bbe16a75545426cd9ae71c0448a039b9a97ec8f1841b9274
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/rev/AtLeast
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Both writeups discuss it under Reverse Engineering, and one captions the
+  binary as Rust; the event label is rev even though the technique is cryptographic. No solver scripts
+  were present in the source.

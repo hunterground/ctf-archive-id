@@ -26,6 +26,26 @@ references:
   url: https://github.com/cybersecurityipb/hacktoday2023
   type: official_repository
   accessed: '2026-11-21'
-notes: IT Today states that the parent event has existed since 2003. That is not recorded as the first
-  HackToday year. Older public challenge material attributes HackToday to Cyber Security IPB. The 2025
-  edition was already in the archive record and was not separately corroborated.
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+notes: >-
+  IT Today states that the parent event has existed since 2003. That is not recorded as the first
+  HackToday year. Older public challenge material attributes HackToday to Cyber Security IPB. The organizer
+  publishes challenge repositories for the 2023 and 2025 editions under the cybersecurityipb GitHub
+  organization, and both were imported into this archive. Challenge authorship was recovered from commit
+  history in those repositories, and every imported challenge records its attributed author. An
+  author-owned source repository, MNafiz/CTF (CTF/SoalHacktoday), corroborates the 2023 attribution,
+  several of whose flags embed the handle "ZafiN". No organizer repository was found for 2024 or 2026.
+  The cybersecurityipb organization was enumerated again on 2026-11-25 and still holds only the 2023 and
+  2025 challenge repositories plus Agrihack, micro2025, CTF-Archive, and the site repository, so no
+  organizer source exists for the two missing editions. Starting from the official 2024 timeline, the
+  2024 record was expanded with six secondary sources: three participant archives, two writeup PDFs, and
+  an author-side copy. Together they attest the official 2024 category structure (crypto, forensics, misc,
+  pwn, rev, web, with no osint) and roughly two dozen qualification challenge names, including the first
+  2024 final-round material located (pwn challenges stegoscan and yqroo wants a job). For 2026 the
+  official IT Today API supplied the authoritative timeline and published finalists and champions, and one
+  participant forensics toolkit is the only challenge-related artifact found. All of these remain recorded
+  as leads; nothing from 2024 or 2026 is imported, because no organizer source or redistribution grant
+  exists for either edition.

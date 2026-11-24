@@ -1,0 +1,162 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-web-002
+name: note to self
+slug: 002-note-to-self
+original_name: note to self
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: WEB EXPLOITATION
+description: 'A web exploitation challenge on a notes service with a FastAPI backend, involving a race
+
+  condition between the active-user and not-admin bookkeeping.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/web/note to self
+licensing:
+  declared_license: MIT
+  copyright_holder: Web Exploitation challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: note_to_self/src/__pycache__/chall.cpython-312.pyc
+    reason: Generated Python bytecode cache, excluded as build output.
+  - path: note_to_self/src/__pycache__/schemas.cpython-312.pyc
+    reason: Generated Python bytecode cache, excluded as build output.
+  checksum_verified: true
+  checksums:
+  - path: flag.py
+    algorithm: sha256
+    value: eb9ebbeb3a10398640372fbe6d607d922f6c565064b4a7047f3cf6c3e20ed079
+  - path: note_to_self/Dockerfile
+    algorithm: sha256
+    value: 1abde9437a76ffcd1b060d1a1d3d2f7e4b7309f472dfe055d211baf37839a918
+  - path: note_to_self/docker-compose.yml
+    algorithm: sha256
+    value: af64a94928c9305af5d42d87187bcb783ee58e81a15f38b4346943cba2c488ae
+  - path: note_to_self/requirements.txt
+    algorithm: sha256
+    value: 7ae1d3a352fb774cb6a974b3e4568d06b566bbd104f4718f29541029ddf97773
+  - path: note_to_self/run.sh
+    algorithm: sha256
+    value: fe2675fe3c8f7da304d16b60baaa34db080b1a1080d0cb4e6acf47a058c8d4c1
+  - path: note_to_self/src/active_users.txt
+    algorithm: sha256
+    value: cb4bbcec7a2515219f3d7b93413ac189913a466b7f7ea1f57dc6899259f3900e
+  - path: note_to_self/src/chall.py
+    algorithm: sha256
+    value: 49e2e8be29eae8bd50dadc1a790be809f09d0f725b06d368ea409641535791fc
+  - path: note_to_self/src/create_token.sh
+    algorithm: sha256
+    value: 1586da6c791457f774f7d06afadeb98618bf3ca680f341bb561a4f768fcda18e
+  - path: note_to_self/src/not-admin.txt
+    algorithm: sha256
+    value: 5ab3649bc120a2f3bbc51f3e3c8001e712e3bc924250d2f20d9ad223afa50ebb
+  - path: note_to_self/src/schemas.py
+    algorithm: sha256
+    value: 59bbb957be675c44b7c8e93180ad0f9bc99e81fda97ccc4089d7f5d0e8243097
+  - path: note_to_self/src/token.txt
+    algorithm: sha256
+    value: f48487148064c6eb0ff65df84069dad86f07f228c6a2311e2cbf954876345586
+  - path: note_to_self/src/users.txt
+    algorithm: sha256
+    value: ba30461b1383fa2d782fdff9da1b7050a6b58e51612ba711422e38831048d3c7
+  - path: note_to_self/src/notes/01503650-902d-41ed-8572-16c41d2ed314
+    algorithm: sha256
+    value: 330f59957d5e01a75c1202d282fb30d4074ad33282a5ea178796d0f3653ae657
+  - path: note_to_self/src/notes/14c123e4-41f0-4658-9f76-07e88f6171a1
+    algorithm: sha256
+    value: aaa50e59b76e5ea3afe673f45383b2c7b7633ec7a6d99c9b55b66b13b3ac27fe
+  - path: note_to_self/src/notes/20826ec2-9c19-4d1e-9407-0e23fc56966f
+    algorithm: sha256
+    value: 330f59957d5e01a75c1202d282fb30d4074ad33282a5ea178796d0f3653ae657
+  - path: note_to_self/src/notes/2189d499-242f-4067-b9c1-c3021a9fc574
+    algorithm: sha256
+    value: 8b1a9d17c2ae8bd93de96d7ca3070e72ed6ea5e7e0a3a95e600e3bbb642760ee
+  - path: note_to_self/src/notes/2258e5a1-4b7f-4c48-bb10-e4147ac71d6b
+    algorithm: sha256
+    value: 689c202069ed0950e229832ae7f0abe74dd6a665f4d03c5ced6a6be4b710f394
+  - path: note_to_self/src/notes/2547aacb-9554-4257-9470-b48388ce5fc6
+    algorithm: sha256
+    value: 603fb60d602de0d5ef00f7cfd6e093367ba2e3b9654aa6f3aea1cfd2e84bacc8
+  - path: note_to_self/src/notes/36c0549b-3a20-4676-96f0-65d03f070870
+    algorithm: sha256
+    value: 84d5652d13743f5fb5db48fbecf64add932822a387114d85705d2b2fbfbac7c8
+  - path: note_to_self/src/notes/62b79a13-a3e6-4700-a559-7fa788fc2353
+    algorithm: sha256
+    value: ad5fd90905090698b8354b7ba6e0015b7345aec6d6f840d5ec14e0de7af2cfa9
+  - path: note_to_self/src/notes/76036429-e2d6-49d4-980c-9e90b10fda82
+    algorithm: sha256
+    value: 467a467bce089a4f3740b2340511452a64f2daa1ead7a2ab63c14336ab904f6e
+  - path: note_to_self/src/notes/7be7ad65-9115-41a2-8c42-48790c01d656
+    algorithm: sha256
+    value: 8f8f428bbcb194f05c756078debc26b6c299d308353910d0eeab8d357c613de0
+  - path: note_to_self/src/notes/84ab248a-ecaf-403c-bf38-f13c45b1aa9d
+    algorithm: sha256
+    value: 84d5652d13743f5fb5db48fbecf64add932822a387114d85705d2b2fbfbac7c8
+  - path: note_to_self/src/notes/85b40cfe-e87e-48d1-8a0b-23068f64acc7
+    algorithm: sha256
+    value: 86822667ce57398aab57d1f756613687317c60ec58e91610b019b4825fa072dd
+  - path: note_to_self/src/notes/90853bd2-8e5a-4195-b56d-54625e53959c
+    algorithm: sha256
+    value: 603fb60d602de0d5ef00f7cfd6e093367ba2e3b9654aa6f3aea1cfd2e84bacc8
+  - path: note_to_self/src/notes/911d8c0d-0156-449c-a4ec-026ccb2adf54
+    algorithm: sha256
+    value: 689c202069ed0950e229832ae7f0abe74dd6a665f4d03c5ced6a6be4b710f394
+  - path: note_to_self/src/notes/be58d123-3e87-47a5-9077-cc701a31e982
+    algorithm: sha256
+    value: 0bbf825a55e7ba0b2321ae0239a7f51517f37819c9d2f4a2a013bf1956c5e176
+  - path: note_to_self/src/notes/deb20838-8774-4aa9-9c85-938c3296cf96
+    algorithm: sha256
+    value: 467a467bce089a4f3740b2340511452a64f2daa1ead7a2ab63c14336ab904f6e
+  - path: note_to_self/src/notes/f09436fb-5246-40f6-83c2-17b824750ff5
+    algorithm: sha256
+    value: d4be9252597a84ae82183270768e78dafa17f7ef0a32bf233bd4e8b470134d72
+  - path: note_to_self/src/notes/f1c22f95-093a-4719-a16b-6dded0dfa757
+    algorithm: sha256
+    value: f46d4198566c1fa385863f27ea6487d8da3912a127a7a3b67b729b686df0328e
+  - path: note_to_self/src/notes/f43d2b88-9199-4872-971f-bf7974fe6ef5
+    algorithm: sha256
+    value: bde3b494ef81bc956535fc89a8ddf78e2ea80a177d82eae12619b2f47de35eda
+  - path: note_to_self/src/notes/f5f3c7c5-ee07-46dd-8909-d3403d064de6
+    algorithm: sha256
+    value: 84d5652d13743f5fb5db48fbecf64add932822a387114d85705d2b2fbfbac7c8
+  - path: note_to_self/src/notes/flag.txt
+    algorithm: sha256
+    value: 352ec974e40b93bddf63460701de222b01a12a4f79dd14fe1091fb53f281fa1a
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/web/note%20to%20self
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. This is the only 2024 challenge whose full application source, Dockerfile,
+  and docker-compose file were located, so it is preserved verbatim. The source directory contains src/token.txt
+  and src/users.txt, which are participant session and account artifacts from their own instance; they
+  are not organizer credentials and are preserved so the tree stays unmodified. The src/__pycache__ directory
+  is excluded as generated build output. No solver scripts were present in the source.

@@ -1,0 +1,38 @@
+schema_version: '1.0'
+id: final
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: finals
+sequence: 3
+type: final
+delivery: onsite
+description: Final round and awarding night of HackToday 2024, held on 21 September 2024 after
+  finalists were announced on 7 September 2024.
+dates:
+  start: '2024-09-21'
+  end: '2024-09-21'
+statistics:
+  challenge_count: 2
+  participant_count: null
+references:
+- title: Info Lomba JULI 2024 - HIMA IF Telkom University
+  url: https://himaiftelkom.com/infolombajuli2024/
+  type: other
+  accessed: '2026-11-25'
+- title: HyggeHalcyon/CTFs - HackToday 2024 finals
+  url: https://github.com/HyggeHalcyon/CTFs/tree/main/2024/HackToday/finals
+  type: third_party_archive
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >-
+  The date comes from the published IT Today 2024 timeline: finalists were announced on
+  7 September 2024 and the Babak Final and Awarding Night were held on 21 September 2024. Delivery
+  is recorded as onsite because the accompanying awards publication describes an in-person final
+  and awarding night, not because a per-challenge statement says so. Only two final challenges
+  are attested, both PWN, from a single participant archive; the source README for that directory
+  is titled "HackToday CTF Qualifier 2024" although the files sit in a finals directory and one of
+  them is described there as a final challenge. No forensics, cryptography, web, or reverse
+  engineering final challenge was located, so the final challenge count here is a floor, not the
+  total.

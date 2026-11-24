@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-crypto-003
+name: Warm Up
+slug: 003-warm-up
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: |-
+  Pemanasan Dulu Gak sihh??
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dwputraa0
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/cry/Warm Up
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 62fc13850be1a7fdbe37dff0874b80bb39615c7fb4178a54ffa3793708cb94ab
+  - path: chall.py
+    algorithm: sha256
+    value: 1b37d4fd15ff9f5774875efe3e662585442105d8eb9b5f0183439970fe11c53e
+  - path: flag.txt
+    algorithm: sha256
+    value: 4d15172bdf2fdf7d83bb07108ae7fac89b7a085a6d13b134faf5236f18a3423f
+  - path: output.txt
+    algorithm: sha256
+    value: deec38e54b51515ce1ca7d82cf6f6c2061c162ab672a9dba76e5e4e7b46dff7b
+  - path: secret.py
+    algorithm: sha256
+    value: 9afe9c161362dc3b6fc82b8eeb5737faa0695909f52aedc1cc3c62a2ae70999e
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to dwputraa0 (dwputraa0) in commit authorship.

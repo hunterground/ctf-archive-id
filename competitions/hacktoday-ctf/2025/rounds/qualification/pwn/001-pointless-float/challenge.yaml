@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-pwn-001
+name: Pointless Float
+slug: 001-pointless-float
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: BINARY EXPLOITATION
+description: |-
+  Good morning Mr. Hagrid. As you mentioned in your first lecture, we can get additional points by submitting interesting facts about the C programming language. So, I would like to submit the following code I have written that highlights some curious behaviour I discovered about floating point numbers in C.
+
+  Best Regards,
+  Harry "You're a hacker, Harry" Potter
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Muhammad Zahran
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/pwn/Pointless Float
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 02c0f4c7d89c1ab3fb0d74f0c1709650b2c2c0025a4bb1d560380e3368d159dd
+  - path: handouts/chall.zip
+    algorithm: sha256
+    value: dad0c45652e10d15dd9c4cc0975337bdb18d7b26abaf951392d6c5d7e41cf69f
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: f39d66cea36d81c63dd3aa0950cfb6ebd7557b37b7d6f934184299d1003e5f77
+  - path: source/chall
+    algorithm: sha256
+    value: 12b93bea9a62a15727fa1b6bf790c27cf0c83b20550784976f43655bfbdf38d8
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 5fd449ad9a064c3455de376948b64056f3b384baaffe49e72e9787832e95883d
+  - path: source/flag.txt
+    algorithm: sha256
+    value: a417dfcf31056cf1d17e0c11a16fb4e8d6d8a8d16ef38a762374ddb664d2478d
+  - path: source/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 4f961aefd1ecbc91b6de5980623aa389ca56e8bfb5f2a1d2a0b94b54b0fde894
+  - path: source/libc.so.6
+    algorithm: sha256
+    value: de259f5276c4a991f78bf87225d6b40e56edbffe0dcbc0ffca36ec7fe30f3f77
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Muhammad Zahran, who has no linked GitHub account in the commit trail, so no login is recorded.

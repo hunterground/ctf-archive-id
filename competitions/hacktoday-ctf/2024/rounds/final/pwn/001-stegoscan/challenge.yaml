@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-final-pwn-001
+name: stegoscan
+slug: 001-stegoscan
+original_name: stegoscan
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: 'A PWN challenge in a steganography-scanning service, exploiting a stack buffer overflow
+
+  with a one-shot payload.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: HyggeHalcyon
+  team: HCS
+organization: null
+provenance:
+  archive_id: hyggehalcyon-hacktoday-2024
+  source_type: git
+  repository: https://github.com/HyggeHalcyon/CTFs
+  commit: 914708be7ca157d01e508111beb7c77e5be19f64
+  original_path: 2024/HackToday/finals/stegoscan
+licensing:
+  declared_license: MIT
+  copyright_holder: Binary Exploitation (PWN) challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: HyggeHalcyon (HCS) - HackToday 2024, imported via https://github.com/HyggeHalcyon/CTFs
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: eb75d08e2d670d0e1dad22d029a4bb25395d347b78a87d14e32c0c763963ff1d
+  - path: dummy.bmp
+    algorithm: sha256
+    value: c1fdf1e55a774f185be5a6a89d65c1390d465fd3f9e49777f6d7d4c9bf69c88d
+  - path: flag.txt
+    algorithm: sha256
+    value: 847780e55841735b4c7aa96481ffd7999488629a3f4591b84972b1b5a5ed0570
+  - path: stegoscan
+    algorithm: sha256
+    value: 24b050189bf689f25a86710f7d2cfac70bc93daddab2656b937a73079e9564da
+  - path: stegoscan.c
+    algorithm: sha256
+    value: 41232b91b5de55c193d649f6778615839a7585a99bc2b7126d385e968d63e4da
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HyggeHalcyon/CTFs - HackToday 2024
+  url: https://github.com/HyggeHalcyon/CTFs/tree/914708be7ca157d01e508111beb7c77e5be19f64/2024/HackToday/finals/stegoscan
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Final round challenge. The source finals README marks it pwn and describes it as a one-shot payload
+  over a buffer overflow; the directory sits under finals. The participant exploit is moved to solvers,
+  along with the dummy and exploit bitmaps they generated, which are participant outputs rather than organizer
+  attachments. Participant solver material was moved out of the challenge distribution
+
+  to solvers/ per archive policy, keeping its relative path: `exploit.bmp`; `exploit.py`.'

@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-pwn-003
+name: Tr0llDay
+slug: 003-tr0llday
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: |-
+  Easiest chall on this final, goodluck
+
+  https://github.com/jart/blink	
+
+  `nc <ip> 13337`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: linz04
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/pwn/Tr0llDay
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: cacabe443f8271cfb5fd0c989ff912ed143406af0cc15341de47d3f5d77f5a05
+  - path: README.md
+    algorithm: sha256
+    value: 0c7a2563dabb5783e980665b0c1bb6583419ffdc006a485c68a78c395223a16b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b5f52c84beb339a6bfab87fdea77a2fa58edd58a5256e0d01649e56e424be50f
+  - path: flag
+    algorithm: sha256
+    value: 690effa4a3b850b152b6a07705ec79f798aaf6aef89b1347f52290cad1d8c1a0
+  - path: release/.gdb_history
+    algorithm: sha256
+    value: 260347a8704c07b9c14d3d3055ce6096a1797e224b62e40680428d698fbe952a
+  - path: release/blink
+    algorithm: sha256
+    value: 10cfcd5809981f3da48187dcd92ffa04f25488df587eb0d5642e5c7cdd6ad60a
+  - path: release/runner.py
+    algorithm: sha256
+    value: bb48cea032c5721b06eee620256b4fe2c0ba86f9afdae6d49e823e8d68efb8a6
+  - path: release/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+  - path: src/blink
+    algorithm: sha256
+    value: 10cfcd5809981f3da48187dcd92ffa04f25488df587eb0d5642e5c7cdd6ad60a
+  - path: src/runner.py
+    algorithm: sha256
+    value: 56db185868c385090608e6dc3089b79c85b70f530d476cd71ac3041b992f3c6d
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to linz04 (linz04) in commit authorship.

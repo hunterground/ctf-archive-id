@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-warmup-crypto-001
+name: Easy Algebra
+slug: 001-easy-algebra
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: crypto
+original_category: null
+description: |-
+  Semangat Gais
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: warmup/Easy Algebra
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 469100256ba670a806212c7e47e5a0c7e00a4d39f5594316189c6ffb003b6d44
+  - path: chall.py
+    algorithm: sha256
+    value: f2476271249e03cbe6c7b37daf9239f356365a99655e085e389d8b50ee63d7c7
+  - path: flag.txt
+    algorithm: sha256
+    value: 4913149ea8a01398c17b135e5bed6aac9e17e290b5e24c8be4d5154f6ce5f665
+  - path: output.txt
+    algorithm: sha256
+    value: 9c4858e779455d93d109a4c2861e035a457f74f16dc64dcf7bf90ada1d7f78f1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Warm-up challenge. The organizer repository keeps 2023 warm-up challenges in a flat warmup/<challenge> layout with no category directories, so category is a curator classification and original_category is null. Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy) in commit authorship.

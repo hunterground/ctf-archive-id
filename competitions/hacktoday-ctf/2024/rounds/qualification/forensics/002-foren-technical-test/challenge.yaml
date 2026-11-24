@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-forensics-002
+name: Foren Technical Test
+slug: 002-foren-technical-test
+original_name: Foren Technical Test
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSICS
+description: 'A forensics challenge built on an exported disk image containing a password-protected
+
+  archive, with the password stored elsewhere on the image.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/quals/Foren Technical Test
+licensing:
+  declared_license: MIT
+  copyright_holder: Digital Forensics challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Secret-file.zip
+    algorithm: sha256
+    value: f640cfbcc53a8f4a8165e09d198951ed7eca08579de0178af0206218571d2604
+  - path: top-secret.docm
+    algorithm: sha256
+    value: 9efea8a4331abfd6d852a39a34e01be23014265f2315f5d32cecc1ed6db02e95
+  - path: zip.hash
+    algorithm: sha256
+    value: 729da34f75cc9e5921e68fb31a66fe87295473dbab54f194cdbf0f4aee9124c0
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/Foren%20Technical%20Test
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and the
+  KEITO writeup Forensics section. No solver scripts were present in the source.

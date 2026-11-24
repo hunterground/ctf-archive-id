@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-warmup-forensics-001
+name: Uncanny Friend
+slug: 001-uncanny-friend
+original_name: Uncanny Friend
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: forensics
+original_category: FORENSICS
+description: A warm-up forensics challenge distributing an image and two text files.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/warmup/Uncanny Friend
+licensing:
+  declared_license: MIT
+  copyright_holder: Digital Forensics challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: H4H4H4H4H4H4H4H4H4H4H4H4H4H4_n0_0n3_c4n_kn0w.png
+    algorithm: sha256
+    value: dae2d49bfacd2d782ec1d479256f0b997b91dbe20d665a45c0f2a66a08ce08b0
+  - path: file.txt
+    algorithm: sha256
+    value: a9eb3e756d595f308ef15ef2a787d4af49c7ccb545e818ef1e3acf58a9b12e60
+  - path: fixed_2.png
+    algorithm: sha256
+    value: 479fe073e05cb56cb424cd213367f9fd5fcb185046db09a71aa6d188ebf2d041
+  - path: fixed_2_fixed.png
+    algorithm: sha256
+    value: 8d559a0d59e94b6ef0b709d02e811f8f44645121e48ad52c89eeabd1f30e26f5
+  - path: fixedfixed.jfif
+    algorithm: sha256
+    value: dcace35974bcdadf7b7dffb6187edf9881d149e4f787fb999c531974d4f10a53
+  - path: please_dont_open_it.txt
+    algorithm: sha256
+    value: e6dc5b9056b2f3fe8c8258319c4ebc6831398d8e441f03b16eb48c79a1c53dfc
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/warmup/Uncanny%20Friend
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Warm-up challenge. Category is not stated by any source; forensics is the curator classification
+  from the distributed material (one PNG image and two text files). No solver scripts were present in
+  the source.

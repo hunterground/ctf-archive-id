@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: qualification
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+name: Penyisihan
+original_name: quals
+sequence: 2
+type: qualification
+delivery: online
+description: Qualification round of HackToday 2024, held online on 24 August 2024 in Jeopardy format with
+  cryptography, digital forensics, miscellaneous, PWN, reverse engineering, and web exploitation categories.
+dates:
+  start: '2024-08-24'
+  end: '2024-08-24'
+statistics:
+  challenge_count: 18
+  participant_count: null
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024 by category
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024
+  type: writeup
+  accessed: '2026-11-25'
+- title: jonscafe/ctfs-write-ups - WU HackToday 2024 quals (KEITO)
+  url: https://github.com/jonscafe/ctfs-write-ups/tree/main/hacktoday-2024-quals
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The date comes from the published IT Today 2024 timeline, which lists Babak Penyisihan on 24 August
+  2024. The category set is attested by two independent writeups: the KEITO qualification PDF groups challenges
+  under Forensics, Cryptography, Misc, Web Exploitation, and Reverse Engineering, and the HCS (Girls Band
+  Cry) PDF covers Web Exploitation, Reverse Engineering, and PWN. The event used Jeopardy format for both
+  the qualification and the final per the organizer description. No organizer repository exists for 2024,
+  so all imported material is a participant copy. Challenge count reflects the 20 challenges actually
+  imported, not the total the organizer ran; the full set is unknown, and Ceremony, Baby Slim, Sanitizer,
+  and the bonus Hadiah kemerdekaan are attested only in writeup prose and were not imported because no
+  distribution was located.'

@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-misc-001
+name: berlian
+slug: 001-berlian
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: misc
+original_category: Miscellaneous
+description: |-
+  Just make a ruby code for counting some basic math in fancy way
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: jedifathan
+  team: Cyber Security IPB
+- name: patarisac
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/misc/berlian
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: a26dd209e5b696b1cc05e6a3996bbac96b2e32b959ad8c33a4541c46ded51700
+  - path: README.md
+    algorithm: sha256
+    value: a2201af7bd78d3f00d87cef422f056f4d6a81cf5011ad902fd1d12be68002141
+  - path: app.rb
+    algorithm: sha256
+    value: 4b076754c59b6d6e603b65f61dcc943cf4eb2a5bb2a69ba64469ae28608775ac
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 834352cfab6cbf8ebbbd153b22d234e4780c7e71561d78189ab59b0e704066aa
+  - path: flag.txt
+    algorithm: sha256
+    value: b207fe4c6e67483036809a4dfd0523247a4d6f517640a6ad8e77fb5f29d5b93c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to jedifathan (jedifathan), patarisac (patarisac) in commit authorship.

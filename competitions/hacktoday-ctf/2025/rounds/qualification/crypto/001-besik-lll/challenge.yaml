@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-crypto-001
+name: besik-lll
+slug: 001-besik-lll
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTOGRAPHY
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Muhammad Allif Qalbiy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/crypto/besik-lll
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: chal.py
+    algorithm: sha256
+    value: 56a06be21ad4c0b1fe51bbf96c032392f1b399f62e3d909fdbe1aa21946679be
+  - path: output.txt
+    algorithm: sha256
+    value: c98950e2f4d75943aff098bb33878bf3584c9a299d3398b81510a432fafe18c8
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Muhammad Allif Qalbiy (ji4xuu) in commit authorship.

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-crypto-004
+name: tercuri
+slug: 004-tercuri
+original_name: tercuri
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTOGRAPHY
+description: 'An RSA challenge served over a network endpoint, distributing the server script and a
+
+  list of (n, e, c) pairs.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/cry/tercuri
+licensing:
+  declared_license: MIT
+  copyright_holder: Cryptography challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: flag.py
+    algorithm: sha256
+    value: 7316a34d870b885a8c43c6cf57a59d425289e793eaccf0a50af68b42e5af495f
+  - path: nec_pairs.txt
+    algorithm: sha256
+    value: 180113e90a0677f0f742cdbee86f553aebd1e4381a023a3c0e13bad96763ffc4
+  - path: server.py
+    algorithm: sha256
+    value: 72f24b9742f71cbee7a33784d44723e98ac112c3b76646df6663f6b823d867ff
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/cry/tercuri
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Its author published the same challenge under the name Stolen in the BIMASKUY
+  Hacktoday2024 repository, which corroborates it as genuine 2024 material; this source tree calls it
+  tercuri. Category follows the source cry directory. No solver scripts were present in the source.

@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-misc-001
+name: Auction
+slug: 001-auction0
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: misc
+original_category: MISCELLANEOUS
+description: |-
+  $100001, mr. wayne the bidding amounts are $50000--, $200000, fine we have $200000, $200001, very well $300000--, $300000.01, $500000 now back off you little brad
+  http://xxx.xxx.xxx.xxx:1169
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Durrr
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/misc/auction0
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.env'
+    algorithm: sha256
+    value: de87fcd09f251a8071bcfa800bf6891a2ac22d20cff3bf9646b8dbc3c475e23f
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7628a623a26978d189eb2a9215ea45bbd19030d7d0465016128003698a78f22f
+  - path: README.md
+    algorithm: sha256
+    value: 6949520b3aff1d8280627b27d06711849585ce63ba1e7aee214459d1fcfc18ef
+  - path: contracts/Auction.sol
+    algorithm: sha256
+    value: 26ad8d05b0a277bb1530a586375002c32293159c8184aa051538f811da293ed5
+  - path: contracts/Nft.sol
+    algorithm: sha256
+    value: 2f183f2e7a5a23416c17143aad330bef3a7e38d75ce0d1f18d978cd9d9701055
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: e077db4c77c5bcb161d7047ffb9cae7ceba0682ccb6eb6f46dc10cac04c72b32
+  - path: contracts/lib/openzeppelin-contracts/contracts/access/Ownable.sol
+    algorithm: sha256
+    value: 38578bd71c0a909840e67202db527cc6b4e6b437e0f39f0c909da32c1e30cb81
+  - path: contracts/lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol
+    algorithm: sha256
+    value: 330a87f2bf94083df8ddd341735d712866455042aaca58d33ee1799773e1cae1
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: dfe3150f10d39148f7b429d63965dde7287f26ad3e98e68b9119e7ce0939c8e5
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: dc7609344dc4b94bdfb01bfa2bd84ec4f3d11fac05663cdc8796c6dd83b7b783
+  - path: release/auction0.zip
+    algorithm: sha256
+    value: 125d7c81d57b38de1bfa0f46855e712764f627b9086a5cc9ca6c9eb0520747d5
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Durrr.

@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-misc-003
+name: FreeFlag
+slug: 003-freeflag
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISCELLANIOUS
+description: |-
+  http://103.160.212.3:24376
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ZafiN
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/misc/FreeFlag
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.env'
+    algorithm: sha256
+    value: 87b7dc0686ce9d324f69463c1b824b867566fac600801aa45c0f11d71b6487a2
+  - path: Dockerfile
+    algorithm: sha256
+    value: 84b377428b0d6be11695ffe3e70c99ad19dd4d8ef8ea0218ab7b48aea9844cb0
+  - path: README.md
+    algorithm: sha256
+    value: 3a88f540848f4bb73644d2cd573469aad28f843e070cb96b41702da6676f5ef9
+  - path: chall.zip
+    algorithm: sha256
+    value: bb4ed740a30e348b001ac398c80dffa33114e691ac64789a67fab6ae7d47a2e6
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 5a4133d6ac9c03caff4eca6d58950b0c9addb3653783eca3ebe481538a4f3e9f
+  - path: contracts/Warmup.sol
+    algorithm: sha256
+    value: 3359fe7168cb2eb8036a36025a5f2a829b2c2bfbd938d0d4ecc21f5cd43a0be1
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 31fd9141fec97342e40e1ced396e1405f1ea8aa0f1328981d06a895b59f93f0c
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4e68c0080be88c33c77eafc76268f0b05078941110e458298b1fd650064476ad
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Muhammad Nafiz, Numero Uno Arroefy.

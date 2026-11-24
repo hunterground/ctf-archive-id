@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-final-web-002
+name: ezcatcher
+slug: 002-ezcatcher
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Naufal Ardhani
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: final/web/ezcatcher
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 833047a1380d3e510d7a31dbcf129aedad5ae68e6c798bc7d040d5474e2bd5ca
+  - path: app/.DS_Store
+    algorithm: sha256
+    value: 68eee5808bbb8bc42b03f618306bfebae127740f97c0d77272dc202b27824620
+  - path: app/app.py
+    algorithm: sha256
+    value: cdab921c703f75c8258bd524da4411a6c4059f503b9438469965f6f6a59aee26
+  - path: app/requirements.txt
+    algorithm: sha256
+    value: 76f8bae45e807865955344c1a58882d38c8ceb4f855f58091642b7d48290af97
+  - path: app/static/css/styles.css
+    algorithm: sha256
+    value: 8d8b5429dc0786e443002ab75dd7065aba7947b0d54c66e2e46af7831633be66
+  - path: app/templates/index.html
+    algorithm: sha256
+    value: 58866d9769a2b978879acfd0e49cc50e67b2b9b3c45287eff9f9292b63369c61
+  - path: app/templates/path_detail.html
+    algorithm: sha256
+    value: 1aa72476a37a08bcb606c5b4f695eeca2be8fea3b1556528cf6aa134adebb43a
+  - path: deskripsi
+    algorithm: sha256
+    value: c95bbd1dae874bc24ddaef9ed415a97e59ec4c200270dc21ea0f786ee75a3af9
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 9f2eda5c460551f1a7822fb9bcf6ae494daba33ebb5f44176ce8648b646e057d
+  - path: flag
+    algorithm: sha256
+    value: bb97555282271e1275f1cf0b630c169f888221558af9dfd49945cdbc151aa612
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to Naufal Ardhani (naufalardhani) in commit authorship.

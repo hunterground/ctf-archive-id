@@ -1,0 +1,254 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-web-003
+name: impossible_xss
+slug: 003-impossible-xss
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: WEB EXPLOITATION
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dwputraa0
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/web/impossible_xss
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: code.zip
+    algorithm: sha256
+    value: 874d2a89de32f28acb879f31dd2297ff1754c97bc1efe436ae4c88193b4179b4
+  - path: code/.editorconfig
+    algorithm: sha256
+    value: d9a5756ca5adea55000be0ee4f5af68946e3554c986981b7f8e35e7acaad28fa
+  - path: code/.env.example
+    algorithm: sha256
+    value: 8efd41205071959c84e3546fc736c13f165630d56ce207ff54b39f4f7af45ff6
+  - path: code/.gitattributes
+    algorithm: sha256
+    value: a40eb27ee0b545ca5b5542daaf99fec51f84f23b3766a6353864ef2a115bc51c
+  - path: code/.gitignore
+    algorithm: sha256
+    value: 2049db033d4f531564a125d6bb85fef678d924f998b75c895e9d3e5bb2e68cca
+  - path: code/Dockerfile
+    algorithm: sha256
+    value: e9102e054ec01b50d98b1ab6b78b646ecae3208064d5af366a201df5223455f6
+  - path: code/README.md
+    algorithm: sha256
+    value: 44b83afe2178ca6fd420f84d447de3b1dab72b996804c3ff719bdf68c265147f
+  - path: code/app/Http/Controllers/Controller.php
+    algorithm: sha256
+    value: 25d1c1ef8e6cc8a376553faacfba2b07d9dfaee9bdbb84f14f77517580e9deb1
+  - path: code/app/Http/Controllers/ReflectionController.php
+    algorithm: sha256
+    value: d25c638c2c2e7ed93eebc3a0578c9186e117dec9d0cd8debd340f4d3b98bce85
+  - path: code/app/Models/User.php
+    algorithm: sha256
+    value: e0f171d54e3f65fdca8442e730ee7f75a1ed8985ad8f1585682b28d60ee99467
+  - path: code/app/Providers/AppServiceProvider.php
+    algorithm: sha256
+    value: caf306ef6a25a547bbb7edd5508a39b51c365083eb6dd58378cf2242018e94c7
+  - path: code/artisan
+    algorithm: sha256
+    value: e313db8b935d646e728aef4402df1dd5345760268139449f13e98d9a294a9d97
+  - path: code/bootstrap/app.php
+    algorithm: sha256
+    value: bba9ff06394e0df3dc993a33d0dacc60fcbfc169266abf6a4b230aa33892571a
+  - path: code/bootstrap/cache/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/bootstrap/providers.php
+    algorithm: sha256
+    value: 2ef405f988a6ef3f5222bfbdd89352a6ad7b2e9e21aa25e236ac5dff58358953
+  - path: code/bot/Dockerfile
+    algorithm: sha256
+    value: 267748aebb47f9f13c629f5f99247bed4e87663898bfaaa64464d1dfd5e85ddb
+  - path: code/bot/app.js
+    algorithm: sha256
+    value: 72461e842962999099b663d7f94082d2c971c2775249b16bd4019fe422df4de1
+  - path: code/bot/package.json
+    algorithm: sha256
+    value: 520c25a86cb141dec0cd983ac1ea93cbbb7af55a8a1a34423c3e9811bdeee851
+  - path: code/composer.json
+    algorithm: sha256
+    value: 1b63b4055c0e3914579ee858d1b2a4e5c986c897375e71641219e8b1084bcac8
+  - path: code/composer.lock
+    algorithm: sha256
+    value: 8ab2981ba5dadc157189f1a899c5a4e96bcdd2c0bf905fc44215e9fadc172e53
+  - path: code/config/app.php
+    algorithm: sha256
+    value: 5a44387ebeedf16d775122372f5709e2fd76e5bf50f3d36708554721001c82f9
+  - path: code/config/auth.php
+    algorithm: sha256
+    value: d5bd78db15ec31df30248bb56dff53d385d7826d9ab0cfb2846dc6ce06d531c0
+  - path: code/config/cache.php
+    algorithm: sha256
+    value: dc3a64749bc19946ba6a054be0b67ae8c450c9401799cb176ac0a0b8d4756664
+  - path: code/config/database.php
+    algorithm: sha256
+    value: d9f563cf6d380ec017ae3166efb3fe5e24c183dc5d1e3143c26a2ad1203af18a
+  - path: code/config/filesystems.php
+    algorithm: sha256
+    value: 46b977d9555ed617aa0d42055a0c76a34c9d16c63ee634ff6683bc95712c9317
+  - path: code/config/logging.php
+    algorithm: sha256
+    value: 6e0885a09b96f9e3e9ccfae9e536da3c33dbd53a7710a518c05ac0f2b6808fb8
+  - path: code/config/mail.php
+    algorithm: sha256
+    value: 433acc0d5342a074b32e44b3d7ffba153c3eaf292a5a2fc94d7cb6ee0addb147
+  - path: code/config/queue.php
+    algorithm: sha256
+    value: a185a3e86b65db26938204f4f50cf0c0ca99974e9926b9cdcef6b7743feea482
+  - path: code/config/services.php
+    algorithm: sha256
+    value: 2226be3fa0e560fc8cd628f3e8f50fcd78639a24375f5e931d0c656eaf1d4ce8
+  - path: code/config/session.php
+    algorithm: sha256
+    value: c7f637c49f3e61d5488a11653b06a6b5a8a73b335d1dadbd84666be5ec4f6de6
+  - path: code/database/.gitignore
+    algorithm: sha256
+    value: e758642d95e83e907e010b6e46b07b3f953c7cef11fe5ebefc2a77b9d7b4d5f7
+  - path: code/database/factories/UserFactory.php
+    algorithm: sha256
+    value: 05c4cfa8e4dc7ebe659c66717b30ea6970f62d732a1bbce32b55650cccc6aa8d
+  - path: code/database/migrations/0001_01_01_000000_create_users_table.php
+    algorithm: sha256
+    value: 10d79883bc08ce46510f9ad8b1830b4d06d586dc56ae2c8bac3b3e491f69a90f
+  - path: code/database/migrations/0001_01_01_000001_create_cache_table.php
+    algorithm: sha256
+    value: 20f769d3c11748c1cc42c41cd3789b0b9b2cd0db44ee22d378addac3ff8aed4f
+  - path: code/database/migrations/0001_01_01_000002_create_jobs_table.php
+    algorithm: sha256
+    value: 7c9c712adf4091c87bf2612f4d0dccdfa1df4501553e4ac068b83d7bd5462fa5
+  - path: code/database/seeders/DatabaseSeeder.php
+    algorithm: sha256
+    value: 03b392bf45ef0e52d2fa3dba22e33f8c1a66f50e94546b1815b72d07b56ad9b6
+  - path: code/docker-compose.yml
+    algorithm: sha256
+    value: d1406603f700056e72b51b11bf8a3af23679ed682e4b350086810df1320fe226
+  - path: code/nginx/default.conf
+    algorithm: sha256
+    value: f96229c5e9d97ae3b63a37d5fcaf6be1f2eafe14e0c94ac1a4e6fc98219c98b7
+  - path: code/package.json
+    algorithm: sha256
+    value: b62a111d778f001b4e0fd52630004946abd123305bd5ec89864ebb4a8d334423
+  - path: code/phpunit.xml
+    algorithm: sha256
+    value: e232db04f03301e1a45a4d7e2ef8309e61d116965a7babaa4a952ceac8dd4fce
+  - path: code/postcss.config.js
+    algorithm: sha256
+    value: c713dcb623f3a959b28f6e7f724440660f890288c7b796d8c9ce42372ee7f36b
+  - path: code/public/.htaccess
+    algorithm: sha256
+    value: b7e379c77639fd56144947dbae84c84eb466d9c686ea81f2f013ae85421da923
+  - path: code/public/favicon.ico
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: code/public/index.php
+    algorithm: sha256
+    value: 8e8554cc123b541ff4abb247fb40fc93aa42877376c1296f3cf8106350c52e8b
+  - path: code/public/robots.txt
+    algorithm: sha256
+    value: e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f
+  - path: code/resources/css/app.css
+    algorithm: sha256
+    value: cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec
+  - path: code/resources/js/app.js
+    algorithm: sha256
+    value: cf6dab196c721f6911ff99cc4f910897f978599a2d289971a316a5fc33091f94
+  - path: code/resources/js/bootstrap.js
+    algorithm: sha256
+    value: 6fd9fc82e68fa915a882f4e227b9faacbe7bfd66cb953c628840e83bda6b72f4
+  - path: code/resources/views/reflection.blade.php
+    algorithm: sha256
+    value: ef3e2f966cd02f1ca70650940cff361aef02c6d86e1060404e98538d0ea7970e
+  - path: code/resources/views/welcome.blade.php
+    algorithm: sha256
+    value: 5fbfd8447b385e39fd91af361d15d836c8ba474d11701461c0f447ee49fdbeba
+  - path: code/routes/console.php
+    algorithm: sha256
+    value: 9adccc33e7dd400683e434774077c7fdb2f299c5712cedf16a43fdf56f2850fa
+  - path: code/routes/web.php
+    algorithm: sha256
+    value: 5e0c50db54d8dc3a086ff479b9e2e31387effd5bb26514cbeb3845baf23dfaa4
+  - path: code/storage/app/.gitignore
+    algorithm: sha256
+    value: 993b9e3709d7b5189da331725d1169d79e561a509db2490b722b525073d2d976
+  - path: code/storage/app/private/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/app/public/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/framework/.gitignore
+    algorithm: sha256
+    value: 2d452d65596636197757afa17df52331c84da7bb74ee0f3462fd5be4eb6afdc6
+  - path: code/storage/framework/cache/.gitignore
+    algorithm: sha256
+    value: 32f79194633ddb34f013c6ee8819d112104ff822357adf308ec385b46a7f42f6
+  - path: code/storage/framework/cache/data/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/framework/sessions/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/framework/testing/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/framework/views/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/storage/logs/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: code/tailwind.config.js
+    algorithm: sha256
+    value: bd8edb717c3d7a9e22a8c0617d180d19ad4b7233e5e7351c7ecde28058b0f48f
+  - path: code/tests/Feature/ExampleTest.php
+    algorithm: sha256
+    value: aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8
+  - path: code/tests/TestCase.php
+    algorithm: sha256
+    value: c7c209f5579c42647c1f7b2a79ac828e8b54ac62a98442045a6e94fa2c0d0ebc
+  - path: code/tests/Unit/ExampleTest.php
+    algorithm: sha256
+    value: ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf
+  - path: code/vite.config.js
+    algorithm: sha256
+    value: b79dffc57362f908a5f6a451c4c4bc1543a7f43b596300691f754f5c8b320312
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to dwputraa0 (dwputraa0) in commit authorship.

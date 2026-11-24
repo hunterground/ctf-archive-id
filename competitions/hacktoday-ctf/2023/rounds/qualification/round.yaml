@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: qualification
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+name: Penyisihan
+original_name: qual
+sequence: 2
+type: qualification
+delivery: online
+description: Qualification round of HackToday 2023, stored in the organizer repository under
+  qual/ with OSINT, cryptography, digital forensic, miscellaneous, PWN, reverse engineering,
+  and web exploitation categories.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 34
+  participant_count: null
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+- title: IT TODAY 2023 COMPETITION
+  url: https://olimpiade-update.com/it-today-2023-competition/
+  type: other
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  No exact qualification date was established. The IT Today 2023 announcement publishes only the
+  registration batches, and no official HackToday 2023 timeline page was located, so the dates
+  object is left null rather than inferred. Commits touching qual/ run from 2023-07-11 to
+  2023-08-30, but a commit date is not an event schedule.

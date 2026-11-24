@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-forensics-002
+name: forcry
+slug: 002-forcry
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: DIGITAL FORENSIC
+description: |-
+  I found a PNG file that seems to be **broken** and I suspect someone tried to **encrypt it badly**. From a quick look, it seems like the file **wasn't fully encrypted** and only **parts of the data were affected**. Interestingly, the **pattern of encryption** looks suspiciously **repetitive** and I believe the **encryption key and the pattern are the same**. The data might have been **shifted multiple times** but **not randomly**. Can you figure out the **encryption flow** and help me restore the original image?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/for/forcry
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 792e93f5d1ba23d0183e70da6c25e26d1e372a22149510c1595c96688b5b5d85
+  - path: file.png
+    algorithm: sha256
+    value: f6401f2dc428ce84a295c125ef9b882d3eac213171433a036bb4432a70afc68e
+  - path: fix.png
+    algorithm: sha256
+    value: 1b98c558095a8244c0b461a6e7124aa028ebc39bce6cd81d9b57042007a1f5fe
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Nikoo.

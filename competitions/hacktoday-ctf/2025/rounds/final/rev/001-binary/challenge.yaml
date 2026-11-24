@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-rev-001
+name: Binary
+slug: 001-binary
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: REVERSE ENGINEERING
+description: |-
+  I swear I made this chall before COMPFEST17!!!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: Cyber Security IPB
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/rev/binary
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1e0ff8d881b92d037e6fcfa4c82b4057514cfd1d884d0a176f42fc3734c4ee28
+  - path: chall
+    algorithm: sha256
+    value: 1d6bed803c70d6a86609f0347a604036781c78ee5991d3a7bb0a5773c08130b1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804), Numero Uno Arroefy (UnoArroefy) in commit authorship.

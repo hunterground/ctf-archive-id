@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-misc-006
+name: Where is my git?
+slug: 006-where-is-my-git
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Miscellaneous
+description: |-
+  I just playing around with git command, and suddenly, my flag (i mean, my git) is disappear. Can you find it for me?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: jedifathan
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/misc/Where is my git
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4a6a29e1087aadf641e3d7b5c8348873ddb8eb70169a824551f3a65d3e985e52
+  - path: flag.txt
+    algorithm: sha256
+    value: 62ed1a8ad51bcf1a8327d0a07e8c9ff799cc8b7bf22146e0e3dd5e7fa1be1c06
+  - path: where-is-my-git.zip
+    algorithm: sha256
+    value: 02ecc5fb0a8f9f511295a827a895d7e1f4326382fe6aebc4874ca96a86059ec5
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to jedifathan (jedifathan) in commit authorship.

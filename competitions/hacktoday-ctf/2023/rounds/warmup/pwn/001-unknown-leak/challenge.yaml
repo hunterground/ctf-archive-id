@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-warmup-pwn-001
+name: unknown leak
+slug: 001-unknown-leak
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: pwn
+original_category: null
+description: |-
+  what does this leak mean?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Numero Uno Arroefy
+  team: Cyber Security IPB
+- name: zran
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: warmup/unknown leak
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7b312251e4462641ebb3202e8baea61b61e8c727d587664f28645cfbdf82fdf5
+  - path: README.md
+    algorithm: sha256
+    value: 0aa59adc261a30a63d82c836395f4d3b6d1e528c40597450580f2679a6aab4d7
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: fcae4e63caaf578f5357dd4d7a5b8f1719dc440ae428a8dab77c7bd4cce2fb1b
+  - path: flag.txt
+    algorithm: sha256
+    value: 13b7cd4f1dc158d76acdf3d0a9cae47dea063924d0a2ac7ec665922e32f223ef
+  - path: how
+    algorithm: sha256
+    value: 9c9a83b50589033a361bc4b94fcccef4cdb6d807ede059311c1be4beaa21bfe2
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Warm-up challenge. The organizer repository keeps 2023 warm-up challenges in a flat warmup/<challenge> layout with no category directories, so category is a curator classification and original_category is null. Author inferred from the organizer repository's git history: this challenge directory is credited to Numero Uno Arroefy (UnoArroefy), zran (zran147) in commit authorship.

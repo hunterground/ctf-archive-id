@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2023-qualification-pwn-003
+name: Rangkaian Digital
+slug: 003-rangkaian-digital
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: |-
+  Selamat datang di pertemuan mata kuliah Rangkaian Digital! Materi hari ini adalah bilangan biner!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: Cyber Security IPB
+organization: null
+provenance:
+  archive_id: hacktoday-2023-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2023
+  commit: 05a10377267f32cf43e8003b54b321f8d468d9b1
+  original_path: qual/pwn/Rangkaian Digital
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2023
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 40a46e90d1ac14583e4a23a0654ba6e610b217017e499b5ec1fef58c97b73b24
+  - path: README.md
+    algorithm: sha256
+    value: b7fff46509d27c676d2413068f08e9841b95a0ca2042961e8bb2fa118b65867a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: fe181e0f29b3d656b8095f5f0ad4c6912e1f544703037b82c4523a07fac03cbb
+  - path: flag.txt
+    algorithm: sha256
+    value: a8c15b81f832d147462d52dc6887b19cec3482418c35a5e1f3d2b708ff092c40
+  - path: ld-2.35.so
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: libc.so.6
+    algorithm: sha256
+    value: fdaa44be131da64b35f6b132cbb612e0acdd49ca0d29fd247d023619835231e4
+  - path: teleport
+    algorithm: sha256
+    value: fa37990a2f0e0fbdea44b088aa5a01e5dea34e923b3b10ff3f36eb7be0631483
+  - path: teleport.zip
+    algorithm: sha256
+    value: 184c73e7ee907df127b708035e85aeb8a6852886c6230f442655918e4d124411
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author inferred from the organizer repository's git history: this challenge directory is credited to zran (zran147) in commit authorship.

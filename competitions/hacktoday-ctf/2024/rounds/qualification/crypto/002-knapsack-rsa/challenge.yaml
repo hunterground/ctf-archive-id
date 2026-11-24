@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-crypto-002
+name: Knapsack RSA
+slug: 002-knapsack-rsa
+original_name: Knapsack RSA
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTOGRAPHY
+description: 'An RSA challenge built on a knapsack problem, distributed with the challenge script and
+
+  an output file.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: SandWithCheese
+  team: null
+organization: null
+provenance:
+  archive_id: sandwithcheese-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: HackToday 2024/cry/Knapsack RSA
+licensing:
+  declared_license: MIT
+  copyright_holder: Cryptography challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: 169b279dcd0e6eead139c0d0bbdd879e0fe7102e2061d62444276811660f4191
+  - path: flag.py
+    algorithm: sha256
+    value: 232ac909f6ddf90261329dbdcc52bcdd7729eae82d8d183527603d6b52c18cdc
+  - path: flag.txt
+    algorithm: sha256
+    value: 77ac0b003ea05fadb490ff402400a9093efec5873240752557a8ee7adf17ff3a
+  - path: output.txt
+    algorithm: sha256
+    value: 3ed35ffebdbb081d9910bf023428151b06d9ab56a1d12dfc1240b6109e19c1d8
+  - path: output_test.txt
+    algorithm: sha256
+    value: 7fbfd812e0cccaf7e4be652c1e5aebeddd8c26c35c61bdec52cb74dc54ca2a0d
+  - path: test.txt
+    algorithm: sha256
+    value: 7db255ea632e586512fe3d334bf19a38c78e7972e76bf11f52a8a92ac02d2f92
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups - HackToday 2024
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024/cry/Knapsack%20RSA
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge. Category follows the source cry directory. No solver scripts were present
+  in the source.

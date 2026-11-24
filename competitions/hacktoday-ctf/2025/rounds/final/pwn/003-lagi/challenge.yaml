@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-final-pwn-003
+name: lagi
+slug: 003-lagi
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: BINARY EXPLOITATION
+description: |-
+  Lagi, soalnya ditaruh di sebelah ga disentuh siapa tau taro disini laku soalnya pada jago, lagian soal gampang juga si semoga kalian solp cepat ya.
+
+  Note : my solver needs to run couple of times
+
+  `Author : yqroo`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: final/pwn/lagi
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6f692ee826ac0c2c699df49a56a8ac3cdb8adbbb8a1c966f4530834569ae7f49
+  - path: README.md
+    algorithm: sha256
+    value: cb85e36f4a5395d9fad7878b777b56c2ae28e8a38f036ab66744ac751a6d2f14
+  - path: chall
+    algorithm: sha256
+    value: b950eb01b983b25d117e513175bca17803fc88d3f8d9a528cbc5499adfd5096a
+  - path: compose.yml
+    algorithm: sha256
+    value: e6af1d5399db3ea710d8c960dca90fcd3cd9e1106a9e3358d1ce3ee0dcd5f1da
+  - path: flag.txt
+    algorithm: sha256
+    value: 5c7268d1dab1d3561d382321f87d039e9acb1b0a879941a133c0b523cf05f462
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Numero Uno Arroefy.

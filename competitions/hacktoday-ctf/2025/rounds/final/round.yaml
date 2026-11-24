@@ -1,0 +1,38 @@
+schema_version: '1.0'
+id: final
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+name: Final
+original_name: final
+sequence: 2
+type: final
+delivery: online
+description: Final round of HackToday 2025, stored in the organizer repository under final/ with
+  cryptography, digital forensic, miscellaneous, PWN, reverse engineering, and web exploitation
+  categories.
+dates:
+  start: '2025-09-27'
+  end: '2025-09-27'
+statistics:
+  challenge_count: 15
+  participant_count: null
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+- title: Olimnesia - IT Today 2025
+  url: https://olimnesia.com/events/it-today-2025
+  type: other
+  accessed: '2026-11-24'
+- title: HCS team achievements
+  url: https://hcs-team.com/achievements/
+  type: other
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  IT Today 2025 schedules the competition finals and awarding on 27 September 2025, and the Heroes
+  Cyber Security achievement listing records HackToday 2025 on the same date. The final challenge
+  directories were committed to the organizer repository between 2025-09-17 and 2025-09-27, with the
+  largest batch of commits on 2025-09-27 itself.

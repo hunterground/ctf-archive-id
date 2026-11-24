@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-qualification-pwn-002
+name: raisha
+slug: 002-raisha
+original_name: raisha
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: 'A C++ PWN challenge combining an out-of-bounds read leak with a stack buffer overflow
+
+  that abuses C++ exception unwinding.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: HyggeHalcyon
+  team: HCS
+organization: null
+provenance:
+  archive_id: hyggehalcyon-hacktoday-2024
+  source_type: git
+  repository: https://github.com/HyggeHalcyon/CTFs
+  commit: 914708be7ca157d01e508111beb7c77e5be19f64
+  original_path: 2024/HackToday/quals/raisha
+licensing:
+  declared_license: MIT
+  copyright_holder: Binary Exploitation (PWN) challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: HyggeHalcyon (HCS) - HackToday 2024, imported via https://github.com/HyggeHalcyon/CTFs
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 75b20305aadb8cd4a63d1138f33ea295b0444cfc01bd6ce3aecdf56b344263e7
+  - path: flag.txt
+    algorithm: sha256
+    value: 18773a9bfc27f425f1af3d15de6501d1757e4cbe646ee7285bd25347357d0b5f
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: f3a90b0d5c1d5f2bd1c3584a5295b03052d40eb1fe6d7854b72cd2f6573e8488
+  - path: libc.so.6
+    algorithm: sha256
+    value: 8f4585ef3e81af4fc3ae5e2f8b6416e51af139bdeb3a972725b0bcca7c6a9da6
+  - path: libgcc_s.so.1
+    algorithm: sha256
+    value: adf528587ec4424e4f1918072d3cf2878fd4b37dfc643f0c9e059b35a499c12f
+  - path: libm.so.6
+    algorithm: sha256
+    value: 6b92f6f3fd5a3a02ca87fed0eae984040492a757e12907b5a69480447bc0e9ac
+  - path: libstdc++.so.6
+    algorithm: sha256
+    value: 51deee4c3c03c994a6aff0491b1b5469abe819acae1a288a591b21d4201dffba
+  - path: raisha
+    algorithm: sha256
+    value: 1158ec9ac5c5f40ace45d521fc623cbda67eba8f92fc97fad3fe5a69b68e5b02
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HyggeHalcyon/CTFs - HackToday 2024
+  url: https://github.com/HyggeHalcyon/CTFs/tree/914708be7ca157d01e508111beb7c77e5be19f64/2024/HackToday/quals/raisha
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge. Category follows the source quals README, which marks it pwn. The source
+  ships a full C++ runtime set (libstdc++, libm, libgcc_s) because the binary links them; all are preserved.
+  The participant exploit is moved to solvers. Participant solver material was moved out of the challenge
+  distribution
+
+  to solvers/ per archive policy, keeping its relative path: `exploit.py`.'

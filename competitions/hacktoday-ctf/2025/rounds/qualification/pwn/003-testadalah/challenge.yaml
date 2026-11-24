@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2025-qualification-pwn-003
+name: Testadalah
+slug: 003-testadalah
+original_name: null
+competition_id: hacktoday-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: BINARY EXPLOITATION
+description: |-
+  test adalah test
+
+  `Author : yqroo`
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: hacktoday-2025-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/hacktoday2025
+  commit: d1eaac26a3af65e43558122595ae2c786897f3d1
+  original_path: qual/pwn/testadalah
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Cyber Security IPB (Himalkom IPB University), HackToday 2025
+  permission_reference: The upstream repository declares no license. Archive maintainer instruct to records a source with no license file as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2e3921389a51f8d32b1fcc504e59b1ba600098fa38a18e8e76c75ffb64eb8b7b
+  - path: README.md
+    algorithm: sha256
+    value: 085594a61f1e1fb5491ea61f33cfde9954d0b8b344621b91f2e416a424266eb3
+  - path: a.out
+    algorithm: sha256
+    value: caa3147607f2d4df18960c4ca298d35a79f6bff77f555e7d7bb55cfbf9dee5f9
+  - path: chall.c
+    algorithm: sha256
+    value: b172cb7350d5cdd51389b8e68e2bc90ab130ad8e3fe104530dcb5647f048cd6e
+  - path: compose.yml
+    algorithm: sha256
+    value: cb2445b5642581e091fa11fad82c1d6c614de1db4898bd048f337bb823c2db60
+  - path: flag.txt
+    algorithm: sha256
+    value: 033f2586b4622868c895bbf4ef27920f92f71c02fbf89f1f2d56f8c1d1d58e11
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: HackToday 2025 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2025
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  Author as stated in the challenge README. Git history for this directory is credited to Numero Uno Arroefy.

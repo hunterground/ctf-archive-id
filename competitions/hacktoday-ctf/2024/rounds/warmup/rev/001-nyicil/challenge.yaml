@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: hacktoday-ctf-2024-warmup-rev-001
+name: nyicil
+slug: 001-nyicil
+original_name: nyicil
+competition_id: hacktoday-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: rev
+original_category: REVERSE ENGINEERING
+description: A warm-up reverse engineering challenge distributing an ELF binary named Nyicil.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: miraicantsleep
+  team: HCS
+organization: null
+provenance:
+  archive_id: miraicantsleep-hacktoday-2024-writeups
+  source_type: git
+  repository: https://github.com/miraicantsleep/ctf-writeups
+  commit: 01c9c8b07cc3368eff65cfe570f282f98e0d6693
+  original_path: 2024/HackToday CTF 2024/warmup/nyicil
+licensing:
+  declared_license: MIT
+  copyright_holder: Reverse Engineering challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: miraicantsleep (HCS) - HackToday 2024, imported via https://github.com/miraicantsleep/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
+    records a source with no license file as MIT for imported HackToday material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Nyicil
+    algorithm: sha256
+    value: 5dd5f4cbd7ca0544467a69b821d160407e4add0fb6abe3d73c8532c0558bb49b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: miraicantsleep/ctf-writeups - HackToday CTF 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/warmup/nyicil
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Warm-up challenge. Category is not stated by any source; reverse engineering is the curator classification
+  from the distributed ELF binary. Participant solver material was moved out of the challenge distribution
+
+  to solvers/ per archive policy, keeping its relative path: `solve.py`.'

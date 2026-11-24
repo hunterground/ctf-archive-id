@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: final
+competition_id: hacktoday-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: final
+sequence: 3
+type: final
+delivery: online
+description: Final round of HackToday 2023, stored in the organizer repository under final/ with
+  cryptography, digital forensic, miscellaneous, PWN, reverse engineering, and web exploitation
+  categories.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 22
+  participant_count: null
+references:
+- title: HackToday 2023 challenge repository
+  url: https://github.com/cybersecurityipb/hacktoday2023
+  type: official_repository
+  accessed: '2026-11-24'
+verification: corroborated
+notes: >-
+  No official final-round date was established. Participant award listings place the 2023 event in
+  September 2023, and commits touching final/ cluster on 2023-09-20 to 2023-09-23, but neither is an
+  event schedule, so the dates object is left null rather than inferred.
