@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-qualification-crypto-001
+name: Failure
+slug: 001-failure
+original_name: Failure
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'This cipher is a failure T_T
+
+
+  nc {{ .host }}'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- crypto
+authors:
+- name: Etynslop
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: quals/Crypto/Failure
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2e3d35b08cf62f6cecf94d8c6fe8ad947689484548e029341237d27e451cc77c
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: ef5e7c9effde40bd8b8897c182fdf7482b3a74c175280054c637151f3c305d14
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a3106b3b2a38e200de44b83fae902d0051ff99dee52e835d736ada6c1a8809e5
+  - path: src/chall.py
+    algorithm: sha256
+    value: 76d0cc941162bc912ab3e81f204464ddab3d92b19255c8181fb4c11251894758
+  - path: src/cipher.py
+    algorithm: sha256
+    value: 8fc5eaa355102d99cda20d35ab58d05509cef4b3278a7fdb5982822c1f728c5b
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: a8bd23c078c17fc96ab7f22bfca85d92f2ac137d6d3b02a1f83fdeae6cafd32f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d91561c3f773e0b0d21c8381008e0bdcf66ebeb85ac8524f27c347c8a6d6764e
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/run.sh
+    algorithm: sha256
+    value: f3b44e1867b9bc2af82c9be49a97482efefcb34489a6a04174a37baa986318d1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: quals/Crypto/Failure at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/quals/Crypto/Failure
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names Etynslop as the author and assigns an organizer value
+  of 1000, recorded as-is. The dynamic-service description keeps its original {{ .host }} placeholder
+  because it is the challenge statement as published; no host was substituted. The dist/ archive and the
+  src/ service tree are both preserved. The published flag in challenge.yml and src/flag.txt is part of
+  the original distribution and so stays inside original/; it is not reproduced in this metadata.

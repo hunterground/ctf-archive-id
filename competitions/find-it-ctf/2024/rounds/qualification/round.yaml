@@ -1,0 +1,49 @@
+schema_version: '1.0'
+id: qualification
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+name: Penyisihan
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online qualification stage of Find IT! CTF 2024. Sixteen challenges were
+  published across Cryptography, Forensics, MISC, OSINT, PWN (Binary
+  Exploitation), Reverse Engineering, and Web Exploitation.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 16
+  participant_count: null
+references:
+- title: CTF Find IT! 2024 qualification export (challs.json)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+- title: jonscafe writeups - Find IT 2024 qualification archive
+  url: https://github.com/jonscafe/ctfs-write-ups
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: W-zrd/FindIT-CTF-2024 qualification tree
+  url: https://github.com/W-zrd/FindIT-CTF-2024
+  type: third_party_archive
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  All sixteen challenges come from a platform-style export, challs.json, whose title
+  is "CTF Find IT! 2024" and whose source URL is https://ctf.find-it.id. The export
+  carries each challenge's description, author credit, points, and solve count, and
+  the archive records those values as organizer data; the points shown are the
+  dynamic scores at export time, not fixed initial values. Two independent
+  participant archives corroborate the same categories and challenge names:
+  W-zrd/FindIT-CTF-2024 holds a Qualification/ tree with per-challenge source and
+  exploit scripts, and SandWithCheese/ctf-writeups holds a "CTF Find IT! 2024" set
+  for crypto i love matrix including its data and test vectors. The export date
+  stamps inside the archive are 2024-05-05. No organizer statement gave round dates,
+  so both date fields stay null. No solver material was present in any
+  distribution. The export itself is preserved verbatim as challs.json at this round
+  directory. The round is recorded as online because the export is a remote platform
+  capture, not because an organizer venue statement was located.

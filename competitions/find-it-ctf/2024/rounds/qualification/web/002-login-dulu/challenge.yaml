@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-web-002
+name: login dulu
+slug: 002-login-dulu
+original_name: login dulu
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Just read the file!
+difficulty:
+  value: 887
+  source: organizer
+tags:
+- web
+authors:
+- name: repalfarel
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Web Exploitation/login dulu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: de898bad8bc275736f14b4d0e80acb003aad625cfceddb068e2b58715c5eaf4d
+  - path: login_dulu_dist.zip
+    algorithm: sha256
+    value: 6795ce904163272ca1d45e70a510b3a140431cbd71d5553665cd2a3533c30de2
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Web Exploitation/login dulu in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

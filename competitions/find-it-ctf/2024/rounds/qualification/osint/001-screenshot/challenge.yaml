@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-osint-001
+name: screenshot
+slug: 001-screenshot
+original_name: screenshot
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: 'One day, Asep wanted to contact me via a popular social media platform in Indonesia. However,
+  he found something intriguing and took a screenshot: he discovered many Suzuki cars in there. He asked
+  me to find the name among them that has the date "2024-03-13 05:58"
+
+  FLAG =  FindITCTF{NAME}
+
+  Hint:
+
+  - Sometimes you should "twist" your brain
+
+  - website medsos populer di indonesia tapi perhatikan clue sebelumnya 👍
+
+  - Mungkinkah Asep salah ketik di keyboard dia?
+
+  pantas saja perusahaan besar banyak beli domain untuk 1 produk saja. Jika saja aku tahu Asep ada dimana
+  mungkin sudah bisa kutebak pertanyaan dia 😭.
+
+  - ga ada hubungan sama sekali dengan pribadi manapun
+
+  - Mungkin saja abang elceef bisa membantu kita dengan tools dia :(
+
+  > kalau masih ga ketemu berarti ini bukan takdir kita
+
+  > last hint'
+difficulty:
+  value: 998
+  source: organizer
+tags:
+- osint
+authors:
+- name: hilmo
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!OSINT/screenshot
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 92e10ded5ceb6b2c89e3f3509ef31b963855685ad4693ac120f89811d93960db
+  - path: screenshot.zip
+    algorithm: sha256
+    value: 62bf12c3909e90308f311e0251c136654e1b0c27d788b526a08c4eacbe6fab9e
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: OSINT/screenshot in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-misc-002
+name: waifuku
+slug: 002-waifuku
+original_name: waifuku
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: 'ancrit foto waifuku napa malah jadi video woyyyy 😭😭😭
+
+
+  Note: The waifu name should be without spaces and in all lowercase letters.
+
+  Hint:
+
+  - This is my masterpiece, written with my friend. Yin and Yang are with us.
+
+  - 1 adalah putih 0 adalah hitam. Mereka bergerak dari dekat tempat di mana kursor bisa hilang di kedua
+  sisi menuju ke tempat hanya 1 ujung kursor yang terlihat. Mereka melakukannya secara berulang ulang.
+  Hingga akhirnya mereka berada di tempat kursor tidak bisa hilang lagi.'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- misc
+- video
+authors:
+- name: hilmo
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!MISC/waifuku
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 77a0c815378900d1925373c41081ae7774dfb2dc11219a7ed019c28bf3ff2458
+  - path: waifuku.zip
+    algorithm: sha256
+    value: c4be59c8bb056de87261b1f9dbd5a9e4ffb5b43193afdd1bb1f26c89d03b23b7
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: MISC/waifuku in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

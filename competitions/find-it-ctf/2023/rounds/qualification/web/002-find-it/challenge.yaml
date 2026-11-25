@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-web-002
+name: Find IT
+slug: 002-find-it
+original_name: Find IT
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |
+  Ada Find IT coyyyyy. Absen trio file web kayak biasa dulu bang, sambil makan biskuit. Btw, tadi ada robot di sekitar *sini*. Beneran di sini.
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- web
+- robots-txt
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Web Exploitation/Find IT
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 02cb0f3909a9ea8fa9178de71c8b0dd869bdd2c007d725b0662976df7fb7e3d4
+  - path: docker/Dockerfile
+    algorithm: sha256
+    value: b3f9bc8d9b0c52c3dbc2bba04a76382552a2a9ff7b71ce445280f08e47913d95
+  - path: docker/docker-compose.yml
+    algorithm: sha256
+    value: 5ad4c65b95026e0da1e5fb0c57898f8297de781bf0e169af5effe035f64e03fe
+  - path: docker/logs/access.log
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker/logs/error.log
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker/nginx/nginx.conf
+    algorithm: sha256
+    value: aa61b13c80e146ea7af4deee6ca639512278916aeb679c2439e8c889e1ddef41
+  - path: src/public/index.php
+    algorithm: sha256
+    value: 7ada5fd108fe02202723ebcd342b7af74dab089a7fe85f73623d8b121d76e820
+  - path: src/public/script.js
+    algorithm: sha256
+    value: e79f1ab3add9977654b8bfd0bfc06f18dd63726bd054df848e6bdcbfb8a13447
+  - path: src/public/style.css
+    algorithm: sha256
+    value: 82de54dd95784ab0e4a5e6e4b0ded82d5b44321f33680808cba336e37c658b38
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Web Exploitation/Find IT at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Web%20Exploitation/Find%20IT
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

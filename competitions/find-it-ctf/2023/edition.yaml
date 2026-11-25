@@ -10,12 +10,24 @@ dates:
   end: '2023-06-03'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 40
 references:
 - title: Taalenta on Find IT UGM 2023 CTF
   url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The cited account gives qualification on 14 May 2023 and the final on 3 June 2023, and says Taalenta
-  supplied the problem-setting and judging team.
+- title: CTF-Find-IT-2023-Chall (organizer challenge repository)
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  type: official_repository
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >
+  The cited account gives qualification on 14 May 2023 and the final on 3 June 2023, and
+  says Taalenta supplied the problem-setting and judging team. The organizer organization
+  CTF Find IT 2023 (competitions@find-it.id) publishes the challenge pools at commit
+  5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc. Forty challenges are archived: twenty-nine in
+  the qualification pool and eleven in the final collaboration pool (Taalenta and
+  Cyberkarta). A third source directory, challenge-unreleased, holds challenges withdrawn
+  before the event and is not imported. The GPL-3.0 LICENSE at the repository root is
+  preserved at competitions/find-it-ctf/2023/LICENSE and is recorded on every imported
+  challenge.

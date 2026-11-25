@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-crypto-002
+name: Choo-Choo
+slug: 002-choo-choo
+original_name: Choo-Choo
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  Our friend found this code written on the side of a fence. However, he found an interesting string which he believes is something hidden by the legendary Thomas the Train. He also left a readable note which says: "I was born in 2012 = 5. I left this note in 2015 = 8. 2023 = key". What did Thomas the Train hide?
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- crypto
+- rail-fence
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Cryptography/Choo-Choo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 99f1bb66f81a550c99fe93f4388b916217c9e04195bb87efae36d8c945698259
+  - path: peserta/chall.cpp
+    algorithm: sha256
+    value: dc83b52c31920d5acb32ab286497a026c85e0ca71de9a017588ddf24c1e0928e
+  - path: peserta/notes_from_thomas.txt
+    algorithm: sha256
+    value: 00f6561a5bd9a81152d70d1a15dad2de40128e9fc4afac7b405a913103c23ba5
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Cryptography/Choo-Choo at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Cryptography/Choo-Choo
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

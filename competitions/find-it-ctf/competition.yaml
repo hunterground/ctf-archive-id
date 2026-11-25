@@ -27,6 +27,36 @@ references:
   url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
   type: other
   accessed: '2026-11-21'
-notes: A 2023 account names DTETI FT UGM as the host of that edition. The current KMTETI page names KMTETI
-  FT UGM as the organizer of Find IT!. The 2025 edition below was already in the archive record and was
-  not separately corroborated. A 2026 edition is recorded from the organizer's 2026 competition timeline.
+- title: CTF-Find-IT-2023-Chall (organizer challenge pools)
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT UGM on GitHub (organizer writeup repositories)
+  url: https://github.com/Find-IT-UGM
+  type: official_repository
+  accessed: '2026-11-25'
+- title: TCP1P/findit-ctf-2026 (2026 author-side challenge set)
+  url: https://github.com/TCP1P/findit-ctf-2026
+  type: official_repository
+  accessed: '2026-11-25'
+notes: >
+  A 2023 account names DTETI FT UGM as the host of that edition. The current KMTETI
+  page names KMTETI FT UGM as the organizer of Find IT!. Two challenge sources were
+  imported in this pass. The 2023 edition comes from the organizer-run organization
+  CTF-Find-IT-2023, which publishes the qualification and final challenge pools under
+  a GPL-3.0 LICENSE; forty challenges are archived. The 2026 edition comes from
+  TCP1P/findit-ctf-2026, an author-side event repository whose challenge directories
+  name their authors and whose commit history records those authors plus GZCTF admin
+  edits made while the event was live; ten challenges are archived. That repository
+  is not an organizer publication, so the edition rests on it together with organizer
+  corroboration: the Find IT UGM GitHub organization's 2026 penyisihan and final
+  writeup repositories, and the TCP1P::CTF practice mirror, which states it was
+  imported from that repository. No organizer-run challenge repository exists for
+  2024 or 2025. The 2025 edition was corroborated from organizer writeup collections
+  that list its challenges without shipping them, and the 2024 edition remains
+  participant-sourced only and is marked needs_scope_review. A 2021 writeup collection
+  suggests an earlier edition but is the only located evidence for it, so no 2021
+  record was created. Secondary sources for challenge material exist outside this
+  archive and were used only to corroborate, never to copy. They are recorded as one
+  research entry, find-it-ctf-participant-collections, in archives/repositories.yaml
+  and are left for maintainer review.

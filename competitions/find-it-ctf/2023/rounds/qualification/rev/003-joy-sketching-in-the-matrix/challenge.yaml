@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-rev-003
+name: Joy Sketching in the Matrix
+slug: 003-joy-sketching-in-the-matrix
+original_name: Joy Sketching in the Matrix
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |
+  Joy is a big fan of the Matrix. She has this DVD which contains hidden easter eggs from the actors of the Matrix, especially the 8x16 version. Can you find out the easter egg?
+
+  Note: Format flag adalah FindITCTF{string} dengan kapitalisasi sesuai seperti petunjuk
+difficulty:
+  value: 400
+  source: organizer
+tags:
+- rev
+- arduino
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Reverse Engineering/Joy Sketching in the Matrix
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 40d0a38d4b1a126f5377868ce6c94ea494442c9f493902d5f97464d1d9a20e5a
+  - path: chall/chall.ino
+    algorithm: sha256
+    value: a63ab13be02e0de80973d4c6aadb56a28df149221d86f3a1e8c10359f6ebe6f0
+  - path: clue.png
+    algorithm: sha256
+    value: 0486cd85598cf21719899a9be747129db36ba271748dcd67a57cad33409fbb24
+  - path: flag.txt
+    algorithm: sha256
+    value: c698cf3e89e12485971241de1787838bce0f373cf6f0975c72efb0f789bd2210
+  - path: koentji.txt
+    algorithm: sha256
+    value: e060a659d11589d5211c8b7a3bc427fe26544ad7e521926d508ef8e2591b9daa
+  - path: peserta/chall
+    algorithm: sha256
+    value: da07770eb054a401eaf442ff7a806dedc671a138dc1050896d74c058d05ba598
+  - path: peserta/cmd.txt
+    algorithm: sha256
+    value: b80e5c927464b3672716937417619ddb47a7d569c5809ce57853e7aa7d710f16
+  - path: translator.py
+    algorithm: sha256
+    value: b60ecf4ff38a943168dfb5a260a0f149bdf4adefa25dc08a03e27bd634c06456
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Reverse Engineering/Joy Sketching in the Matrix at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Reverse%20Engineering/Joy%20Sketching%20in%20the%20Matrix
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

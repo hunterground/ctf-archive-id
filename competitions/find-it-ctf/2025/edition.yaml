@@ -3,14 +3,39 @@ id: find-it-ctf-2025
 competition_id: find-it-ctf
 year: 2025
 name: Find IT! 2025 CTF
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
   start: null
   end: null
 statistics:
   participant_count: null
   challenge_count: null
-references: []
+references:
+- title: CTF-2025-Writeup (organizer writeup repository)
+  url: https://github.com/Find-IT-UGM/CTF-2025-Writeup
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF-2025-Warm-Up-WU (organizer warm-up writeup repository)
+  url: https://github.com/Find-IT-UGM/CTF-2025-Warm-Up-WU
+  type: official_repository
+  accessed: '2026-11-25'
+- title: FINDIT!2025 final and awarding day announcement
+  url: https://id.linkedin.com/company/findit-ugm
+  type: organizer_announcement
+  accessed: '2026-11-25'
 challenge_materials_imported: false
-notes: Carried from the previous archive record. This pass did not open an organizer page for a 2025 CTF.
+notes: >
+  The organizer GitHub organization Find IT UGM publishes two 2025 writeup
+  repositories, CTF-2025-Warm-Up-WU and CTF-2025-Writeup, and an organizer post dated
+  18 May 2025 announces the final and awarding day. Together they establish that the
+  edition ran, that it included a warm-up stage separate from the main rounds, and
+  that the main categories were Cryptography, Forensic, MISC, OSINT, PWN, Reverse,
+  and Web, with twenty-three challenge writeups in the main collection and three in
+  the warm-up collection. Neither repository states round dates, a participant count,
+  or a total challenge count, so those fields stay null, and no round records were
+  created because the sources do not establish the round structure beyond the
+  existence of a warm-up. Neither repository ships challenge distributions, so no
+  materials were imported. A participant archive of the 2024 edition and several
+  participant 2024/2026 collections were located and are recorded separately under
+  find-it-ctf-participant-collections for maintainer review.

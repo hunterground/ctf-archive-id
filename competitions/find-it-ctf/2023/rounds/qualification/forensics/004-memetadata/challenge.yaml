@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-forensics-004
+name: 'Me(me)tadata'
+slug: 004-memetadata
+original_name: 'Me(me)tadata'
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |
+  Adit yang baru terbangun dari tidurnya kaget karena melihat notifikasi deadline PR kalkulusnya dimajukan ke siang ini. Ia langsung menghubungi Bobi untuk menanyakan apakah dia sudah mengerjakan PR nya atau belum. Namun, Bobi hanya membalas dengan sebuah gambar. Hmmm, kira-kira ada apa ya dengan gambar yang dikirim Bobi?
+difficulty:
+  value: 150
+  source: organizer
+tags:
+- forensics
+- metadata
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/Forensics/Me(me)tadata'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Peserta/gambarbobi
+    algorithm: sha256
+    value: 33c7bb46499f73d49a5e66cc23e35836c8d9db1a2ca6ccc23f6b9defc974ab91
+  - path: README.md
+    algorithm: sha256
+    value: 35357d4c4f0263c54012859ffa0bc585c4fe3146e4cb6e7b9ab353862a12d86c
+  - path: gambarbobi
+    algorithm: sha256
+    value: 33c7bb46499f73d49a5e66cc23e35836c8d9db1a2ca6ccc23f6b9defc974ab91
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/Forensics/Me(me)tadata at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Forensics/Me(me)tadata
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

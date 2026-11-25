@@ -3,15 +3,63 @@ id: find-it-ctf-2024
 competition_id: find-it-ctf
 year: 2024
 name: Find IT! 2024 CTF
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
   start: null
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record. This pass did not open an organizer page for the 2024
-  CTF.
+  challenge_count: 16
+references:
+- title: CTF Find IT! 2024 qualification export (challs.json)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+- title: jonscafe writeups - Find IT 2024 qualification archive
+  url: https://github.com/jonscafe/ctfs-write-ups
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: W-zrd/FindIT-CTF-2024 challenge and solution archive
+  url: https://github.com/W-zrd/FindIT-CTF-2024
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: miraicantsleep writeups - Find IT 2024
+  url: https://github.com/miraicantsleep/ctf-writeups/tree/main/2024/Find%20IT%202024
+  type: writeup
+  accessed: '2026-11-25'
+- title: SandWithCheese writeup collection - Find IT! 2024 and 2024 Final
+  url: https://github.com/SandWithCheese/ctf-writeups
+  type: writeup
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >
+  The qualification round is imported from a platform-style export,
+  Arsip_CTF_Find_IT_UGM_Quals_2024.zip, shipped inside jonscafe/ctfs-write-ups at
+  commit 56e338da88bb38b618e80af6c8ab445bb4ff9c11. Its challs.json has the title
+  "CTF Find IT! 2024" and the source URL https://ctf.find-it.id, and it lists sixteen
+  challenges across Cryptography (3), Forensics (3), MISC (3), OSINT (1), PWN (2),
+  Reverse Engineering (2), and Web Exploitation (2), with per-challenge descriptions,
+  author credits, points, and solve counts. Those sixteen challenges are the
+  edition challenge count and are all present under the Qualification round; the
+  shared challs.json is preserved verbatim beside them at the round directory. The
+  export carries no license file, so the material is recorded as MIT with
+  redistribution permitted per archive maintainer instruction dated 2026-11-25, while
+  the underlying rights stay with the Find IT! 2024 authors and organizer; that
+  trade-off is recorded in every challenge's licensing block. Category and challenge
+  names are independently corroborated by W-zrd/FindIT-CTF-2024, which holds
+  Qualification/ and Final-Round/ trees with per-challenge source and exploit
+  scripts, and by SandWithCheese/ctf-writeups, whose "CTF Find IT! 2024" qualification
+  set for crypto i love matrix includes the challenge data and test vectors and whose
+  "CTF Find IT! 2024 Final" set carries crypto challenges RSA But, neural_like, and
+  Quandale Dingle Sequel with flag.py and flag.sage helpers, the neural_like
+  challenge_setup.py holding a literal redacted placeholder FindITCTF{redacted}.
+  The points recorded on each challenge are the dynamic scores at export time rather
+  than fixed initial values. No organizer statement gave edition or round dates, so
+  the date fields remain null; the archive timestamps inside the export are
+  2024-05-05. The 2024 final round is not imported: only participant working
+  directories were located for it, with no distribution or clean per-challenge
+  package, so no final round record was created and the count of final challenges
+  stays unknown. No solver material was present in any qualification distribution.
+  Every copied file is recorded with a sha256 checksum in its challenge.yaml and was
+  re-verified byte-for-byte against the source archive.

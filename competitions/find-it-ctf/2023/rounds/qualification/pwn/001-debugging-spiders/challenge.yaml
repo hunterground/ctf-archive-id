@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-pwn-001
+name: Debugging Spiders
+slug: 001-debugging-spiders
+original_name: Debugging Spiders
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'PWN (Binary Exploitation)'
+description: |
+  Your friend is a lazy developer who likes spiders a lot for some reasons. One day, he is making a new, refined app called new_spider. He brags about how this app is so sophisticated it can give you a flag by using one of its function. Sadly, it is yet to be implemented. CAn you, by force, make the program run the yet to be implemented function?
+
+  Hint:
+  1. Check the manual page of readelf or objdump
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- pwn
+- buffer-overflow
+authors:
+- name: 'Elin(tinygiant#8987)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Debugging Spiders'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deploy/Dockerfile
+    algorithm: sha256
+    value: 48faf5dbc3d955a01faaf110cee5f7ac6148165b33af33171daaa90988947b88
+  - path: Deploy/docker-compose.yml
+    algorithm: sha256
+    value: 8848dbe49a1aef387c71da9d20911e2f54a5fc12d51457296a925a5f186faf0f
+  - path: Deploy/flag.txt
+    algorithm: sha256
+    value: 89c9ad6177bd3e8ab0431b4da8f4accbb2841257ecf98d9529755493f1f1e339
+  - path: Deploy/spiders
+    algorithm: sha256
+    value: 85907428b80bb35114d8173afbaf2c2084fa273e200cd17b6812dc29495402b4
+  - path: README.md
+    algorithm: sha256
+    value: 06d4b60df7d6b2d02b5a934c02e3a68ef23b6e7bddcbeaca3e2b29d89c2bdfa7
+  - path: flag.txt
+    algorithm: sha256
+    value: 89c9ad6177bd3e8ab0431b4da8f4accbb2841257ecf98d9529755493f1f1e339
+  - path: new_spider
+    algorithm: sha256
+    value: c6bdb9448fbea725b2c57d03da05170fc091fa4530d40ac7a73079b8ccad2014
+  - path: new_spider.c
+    algorithm: sha256
+    value: 5943171a8f0c44ad96544376d726b13f80a67ccbb688d6724a0680a1b0d88ba0
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 1e749e3f7dcff6b380600b4600868b5353e0a0d3575d8e0f19bd0fca4962f57c
+  - path: peserta/spiders
+    algorithm: sha256
+    value: 85907428b80bb35114d8173afbaf2c2084fa273e200cd17b6812dc29495402b4
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Debugging Spiders at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/PWN%20(Binary%20Exploitation)/Debugging%20Spiders
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

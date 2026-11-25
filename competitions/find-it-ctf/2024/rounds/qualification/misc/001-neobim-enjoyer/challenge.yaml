@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-misc-001
+name: neobim enjoyer
+slug: 001-neobim-enjoyer
+original_name: neobim enjoyer
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: Quandale Dingle ingin menghadiri acara EliteCoder Rizz Party, namun dia belum sigma. Salah
+  satu syarat untuk menjadi sigma di kalangan Rizzler adalah dengan menggunakan NeoVim dan Arch Linux.
+  Quandale sudah menggunakan Arch linux namun belum pernah menggunakan NeoVim. Para Rizzler yang sudah
+  sigma mengetes Quandale Dingle dengan memberikan sebuah NeoVim plugin (github.com/dundorma/neobimenjoyer)
+  yang didalamnya terdapat pesan tersembunyi. Bantulah Quandale Dingle untuk menginstall plugin dan menemukan
+  pesan tersembunyi tersebut. (wrap the flag in FindITCTF{})
+difficulty:
+  value: 982
+  source: organizer
+tags:
+- misc
+- neovim
+authors:
+- name: xxi0n
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!MISC/neobim enjoyer
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dcd44a7da4a195d8acaf67c6d1ec03a3acb89fbc10bef72a97c3012220566537
+  - path: neobim-enjoyer.zip
+    algorithm: sha256
+    value: 39a1204173ac56e11ecb9d258bffbf833eef95a763645d655e5834c182edf420
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: MISC/neobim enjoyer in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

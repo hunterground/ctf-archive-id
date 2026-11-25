@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-001
+name: Sekure
+slug: 001-sekure
+original_name: Sekure
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Taalenta/Web/Sekure
+description: |
+  Web Sangat Sekure
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- web
+- sql-injection
+- deserialization
+authors:
+- name: 'VascoZ#3787'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Taalenta/Web/Sekure
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bbfd9bc2b3534c1124acd620fb9cbed278a8692762b595fa6e7aa779acf17e8a
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 5a1c509a7cb5c69e9ce64424db3c8f62eada56743a8af2ca2d5f5aadd3e5a2de
+  - path: fl4g_k3r3n_4bies.txt
+    algorithm: sha256
+    value: a2747e251c95a7f841c4f65ac4b33aca4e5dd6cf60d001b07add882216c9b746
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a0acb77dcb0f97db2b0421224eb183d9c68ea28fc1e313bf1a88e1b92260a911
+  - path: src/badhacker.php
+    algorithm: sha256
+    value: 3aaddbf88b68800ee1b3fd15979a5c60964f876112815c3022aaa1aa46ac5576
+  - path: src/dashboard.php
+    algorithm: sha256
+    value: 6f4dcc2868865cdee3180d9d78c3cc45cd5d12924a774acb403ae27be45050e9
+  - path: src/db_conn.php
+    algorithm: sha256
+    value: 5af9d637be46819b3281c815b95913edba7d8463313ac19ab387ef7716bbe33c
+  - path: src/fl4g.php
+    algorithm: sha256
+    value: c30768e9a0f42f54ea2d17cdaa3049b34a95fecf659f0979939b5f20b670476b
+  - path: src/index.html
+    algorithm: sha256
+    value: ca510d3db5498de0205a9cc87fd673b38be1b0e88ea9baef1f2bba8bfdd4f365
+  - path: src/logins.php
+    algorithm: sha256
+    value: 96faf9b8b56023241b74a2f9b4622ca02b938487f60092aad94b49a18d2bbc2f
+  - path: src/style.css
+    algorithm: sha256
+    value: 339bd7327768478c34355ce9718ace5a3e86498969d7f1aa9f26ceed142ae131
+  - path: web_blindsql.sql
+    algorithm: sha256
+    value: a5dd4d45d82a34552b19eef847df8ea0cdc43098231884fc0d33d77685f659c2
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Taalenta/Web/Sekure at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Taalenta/Web/Sekure
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author.

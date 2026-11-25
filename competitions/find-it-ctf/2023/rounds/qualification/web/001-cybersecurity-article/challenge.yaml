@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-web-001
+name: Cybersecurity Article
+slug: 001-cybersecurity-article
+original_name: Cybersecurity Article
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |
+  Bob writes cybersecurity articles on his website. There doesn't seem to be anything there, right? But there's something on that website.
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- web
+- http-headers
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Web Exploitation/Cybersecurity Article
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deploy/.htaccess
+    algorithm: sha256
+    value: 5702d1c9be8f9e75084217ffb146b64b9d1f60d8af4fc876de5a68c62cea1292
+  - path: Deploy/Dockerfile
+    algorithm: sha256
+    value: bc1b617d23eba4dca1c0198cc3f799ded5984876068f170c86c304d7214f5aa4
+  - path: Deploy/docker-compose.yml
+    algorithm: sha256
+    value: dceb7251ba495dfd03275ddfd335584af9ce97045c6e207434a0fd25620940b6
+  - path: Deploy/index.php
+    algorithm: sha256
+    value: 164a4e5adc9fd1afffb341328a351f9a995c3fd68f7ccaeb40a0b3cbab67e357
+  - path: Deploy/views/home.php
+    algorithm: sha256
+    value: 8f36ed3593f1d4812620f2ed62894ddb216ba0bf61a492944ffb68a8587f1a94
+  - path: Deploy/views/profile.php
+    algorithm: sha256
+    value: 3d6f09f8c0e8b1ddad72350cc8650b0d527d229defa2353edaf367013da39b5c
+  - path: README.md
+    algorithm: sha256
+    value: 9bbd20554913d3ebb15ea0baa415bb23eb32dd36d037b271d069162e72abfec7
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Web Exploitation/Cybersecurity Article at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Web%20Exploitation/Cybersecurity%20Article
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-forensics-001
+name: Been There Done That
+slug: 001-been-there-done-that
+original_name: Been There Done That
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |
+  We have found a suspicious looking file from an old HDD discarded in the land fill. We suspect that it might belong to a lost hiker. Can this file tell us about their whereabaout?
+
+  Notes:
+  The answer is case sensitive, capitalize the first letter of each word and separate them with an underscore, don't forget to wrap the answer in the format of FindITCTF{Your_Answer_Here}.
+
+  Hints:
+  1. The file might need some repairing to do
+  2. If the file cannot be inspected visually, consider other information revolving around the file
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- forensics
+- jpeg
+- exif
+authors:
+- name: 'Elin(tinygiant#8987)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Forensics/Been There Done That
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6f43ec14cfe3b6dc0eea71e38ea00b009d3ecf925afe3f7a4d1f3ba4f8356cbb
+  - path: crashed1
+    algorithm: sha256
+    value: 56066452d867898f9d244c66ed35eaf5d2b21299f129856c0ac71cb9ac7795ce
+  - path: flag.txt
+    algorithm: sha256
+    value: 08fe88a961b53f82e3bba633481e5a6fe5daaf8021f8b23b7d6ae2648e5ac0c3
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 02fabbdafc5a90cc8b510c69bb781b5e70ea939d946a027075b808419827c2ff
+  - path: peserta/crashed1
+    algorithm: sha256
+    value: 56066452d867898f9d244c66ed35eaf5d2b21299f129856c0ac71cb9ac7795ce
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Forensics/Been There Done That at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Forensics/Been%20There%20Done%20That
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

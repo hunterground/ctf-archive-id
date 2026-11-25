@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-pwn-002
+name: Everything Machine
+slug: 002-everything-machine
+original_name: Everything Machine
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'PWN (Binary Exploitation)'
+description: |
+  The "Everything Machine" is a volumetric printer that had the ability to copy and print any three dimensional object. Can you, by force, make it print out a flag? Maybe overflow it with something?
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- pwn
+- buffer-overflow
+authors:
+- name: 'Elin(tinygiant#8987)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Everything Machine'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deploy/Dockerfile
+    algorithm: sha256
+    value: efcafec0b5f59f2aad28f45b63b55a3cf12a009b79090ca15472a51e2d5edabd
+  - path: Deploy/docker-compose.yml
+    algorithm: sha256
+    value: 1e0d67c33d575d9b6072313c1f2e9ccb14ee3eb34cf57132f2bca9512a806ec2
+  - path: Deploy/everything
+    algorithm: sha256
+    value: 4fee3bec288a25b36189ab8718586be5363bc8a3864af94a8ddc7cf0d90fcac9
+  - path: Deploy/flag.txt
+    algorithm: sha256
+    value: 308600107a46b0039b3b3328264ee7cd08d3d323fffa3acdf81da76e2e510204
+  - path: README.md
+    algorithm: sha256
+    value: 6a25e92a489293beccff5131e74970d9cad353a037bdf552d46d4ae2fb34c75a
+  - path: everything.c
+    algorithm: sha256
+    value: 4fa33a39885cb81c72023df509f0c4145c446c71745535d332a10e40758172e5
+  - path: flag.txt
+    algorithm: sha256
+    value: 447e218dfab52018d8486adf8eb9a62f7c5ca6c657e5952c93b5b60424fd7c05
+  - path: peserta/README.md
+    algorithm: sha256
+    value: a704a82271b59b98d5898a14c7b996a79a953b2e5b8e89ff4e8dd19435f6ba96
+  - path: peserta/everything
+    algorithm: sha256
+    value: 6498bd86f3ab6a7f509e52a64f2fab8dfbc926190f845dcbdb8304200cb3e3f3
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Everything Machine at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/PWN%20(Binary%20Exploitation)/Everything%20Machine
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

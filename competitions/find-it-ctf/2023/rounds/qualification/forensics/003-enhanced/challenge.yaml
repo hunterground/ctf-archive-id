@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-forensics-003
+name: Enhanced
+slug: 003-enhanced
+original_name: Enhanced
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: |
+  Bob wants to enhance his own image. He uses an image enhancer that he got from his friend. His friend advised that besides making the image look good, this image enhancer also sends a message. But after Bob tried it, he found out that his friend pranked him and he got scammed by the image enhancer. However, he managed to get the source code from the image enhancer. Can you help bob to recover his picture and get a message from his friend? (Bracket the flag with FindITCTF{})
+difficulty:
+  value: 400
+  source: organizer
+tags:
+- forensics
+- steganography
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Forensics/Enhanced
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Peserta/enhancedfile
+    algorithm: sha256
+    value: 11372788f7867caf86b95913c99f4be1c9c4b2b9fbc6c4fff0d91d7f519aae03
+  - path: Peserta/enhancer.py
+    algorithm: sha256
+    value: 2508c68eace281bec7d5043b0c30632065b9afa9dc8c6ae3e60961ed930a9005
+  - path: README.md
+    algorithm: sha256
+    value: 528f9b5d27b8225cb4291b506829c7b32577d1b1ce4d54908e907655abb3a90c
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Forensics/Enhanced at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Forensics/Enhanced
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: qualification
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online qualification stage of Find IT! 2023 CTF, published by the organizer as
+  challenge-pools-preliminaries. Twenty-nine challenges across seven source categories.
+dates:
+  start: '2023-05-14'
+  end: null
+statistics:
+  challenge_count: 29
+  participant_count: null
+references:
+- title: CTF-Find-IT-2023-Chall preliminaries pool
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  The Taalenta account gives 14 May 2023 as the qualification date and does not state an end
+  date, so only start is recorded. The organizer repository groups the qualification pool into
+  Cryptography, Forensics, OSINT (Open-Source Intelligence), Others, PWN (Binary Exploitation),
+  Reverse Engineering, and Web Exploitation. Each source directory maps to the archive category
+  crypto, forensics, osint, misc, pwn, rev, and web respectively; the original labels are kept in
+  original_category. Sequence numbers follow the order the organizer repository lists each
+  category. Solver scripts and solver screenshots shipped alongside the challenges were moved to
+  solvers/competitions/find-it-ctf/2023/ as required by archive policy and are not listed as
+  preservation omissions.

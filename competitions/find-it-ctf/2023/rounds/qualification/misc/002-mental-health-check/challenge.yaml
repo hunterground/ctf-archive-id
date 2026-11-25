@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-misc-002
+name: Mental Health Check
+slug: 002-mental-health-check
+original_name: Mental Health Check
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Others
+description: |
+  Mental health is important. We're checking yours before you start competing.
+difficulty:
+  value: 100
+  source: organizer
+tags:
+- misc
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Others/Mental Health Check
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ae85c62d388c856814b9237ff41a74fbc8cfd3c2387c8001356f825d57a75235
+  - path: mentalhealthcheck.cpp
+    algorithm: sha256
+    value: e32806a91fa881ea0de7f698cb640b786b5b42baa9fc4ecaaa72bd94526010fd
+  - path: peserta/mentalhealthcheck.exe
+    algorithm: sha256
+    value: 748f216b861508ff25e11d46151794d1554fc0bb00bf73a26d94bb53acaa0ac6
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Others/Mental Health Check at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Others/Mental%20Health%20Check
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

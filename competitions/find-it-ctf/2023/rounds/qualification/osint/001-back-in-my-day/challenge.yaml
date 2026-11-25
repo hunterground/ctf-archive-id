@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-osint-001
+name: Back In My Day
+slug: 001-back-in-my-day
+original_name: Back In My Day
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: 'OSINT (Open-Source Intelligence)'
+description: |
+  What was the ip address ugm.ac.id was hosted on 5 and a half year ago (2017-05-26 - 2017-09-03) ? Wrap your answer within the flag format: FindIT{}
+  PS. Bruteforcing the flag won't be accepted as a valid write-up
+difficulty:
+  value: 150
+  source: organizer
+tags:
+- osint
+- dns-history
+authors:
+- name: 'Arif (''saj#6550)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Back In My Day'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e72c05e7b36546519d711c3f5293beaa81ff79977a0c17c37f51b3008d78d74b
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 76f6319626441d9991debad6bddb97f26588a72d323b1f9417032c1a2281afb6
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Back In My Day at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/OSINT%20(Open-Source%20Intelligence)/Back%20In%20My%20Day
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

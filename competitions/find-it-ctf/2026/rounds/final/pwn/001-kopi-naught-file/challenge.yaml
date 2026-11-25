@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-final-pwn-001
+name: Kopi Naught File
+slug: 001-kopi-naught-file
+original_name: Kopi Naught File
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: 'copy fail ??<br>
+
+  more like "Kopi Naught File" HahAhAhhAhh ... get it ? ( pliss laugh .·°՞(っ-ᯅ-ς)՞°·. )'
+difficulty:
+  value: 5
+  source: organizer
+tags:
+- pwn
+authors:
+- name: m3rr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: final/Pwn/kopi-naught-file
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: ae8d7aad8f8f0ffde01a46c2c140b0a8969af9f93eea3df9e4def8263be332fa
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: cc3969726d8b9550ad3c321593ec217586b8654f5965826a3490dd30df949a28
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 86cfd373570f4404fbe6effae527da87832a8c8f8e1441e4fcfe796c26555d58
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 2d74e50721f1ed8237bebd9fc94362e8bee509bab126bf8a8bcf3c159afa86c6
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 7832b57b802b6776422b80e40aa356d585f17e42e3e7710f97aeb520bc55f5de
+  - path: src/image.zip
+    algorithm: sha256
+    value: f2ee02d4d2ca0e0c0808d66f8e8da2418f62887838d421aa29f4f22ec6d02d28
+  - path: src/pow.py
+    algorithm: sha256
+    value: 8553120ad877139f69fd3ff873f880e969ca41f08687fd7e31800b80a9f8bb7a
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 3919e434c4c4c838ff9796c548d37a991aa27b9cdba6cdd12dd20b225de35202
+  - path: src/run.sh
+    algorithm: sha256
+    value: ec6d6fe5a59644ecc85358194af9f5bdff4a8758ddcfe0865af45e38e0b0c897
+  - path: src/start.sh
+    algorithm: sha256
+    value: d70a7d890c8806b94aafa72dff62b071fbfb954c970e1fc50495a1efb706a7e4
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticContainer
+  services: []
+  requirements: []
+references:
+- title: final/Pwn/kopi-naught-file at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final/Pwn/kopi-naught-file
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names m3rr as the author, declares category Pwn, and gives
+  difficulty 5 with no separate point value, so the organizer difficulty rating is recorded as-is; it
+  is not comparable to the 1000-point values other challenges in this set carry. The container image reference
+  and the src/ build material (Dockerfile, start.sh, pow.py, and image.zip) are preserved. No solver was
+  shipped for this challenge.

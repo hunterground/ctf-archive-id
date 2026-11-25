@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-rev-001
+name: Woilah Cik
+slug: 001-woilah-cik
+original_name: Woilah Cik
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Woilah, cik! Mas Faiz dikasih challenge sama Wak Amba buat nyari tahu passwordnya Wak Amba.
+  Mas Faiz dikasih 2 file, satu file buat nge-generate password, satu file buat ngecek password. Tolong
+  Mas Faiz ya rek!
+difficulty:
+  value: 894
+  source: organizer
+tags:
+- rev
+authors:
+- name: pwnwas
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Reverse Engineering/Woilah Cik
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 448b651d1f7f3b8e137c3daf057ae3e168749db95e99585dc7ecbffb72e33623
+  - path: woilah cik.zip
+    algorithm: sha256
+    value: 60b05105261a35beef65f62f415e99a78ac500f686869f8f691c6044a51ced82
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Reverse Engineering/Woilah Cik in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

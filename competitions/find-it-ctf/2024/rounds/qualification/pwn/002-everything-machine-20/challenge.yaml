@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-pwn-002
+name: Everything Machine 20
+slug: 002-everything-machine-20
+original_name: Everything Machine 20
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN (Binary Exploitation)
+description: The "Everything Machine" is a volumetric printer that has the ability to copy and print any
+  three dimensional object. The maintainer of the Everything Machine has received your feedback from last
+  year and are proud to deploy the second model. But I think you can still force it to print a flag though.
+difficulty:
+  value: 931
+  source: organizer
+tags:
+- pwn
+- heap
+authors:
+- name: tinygiant0902
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!PWN (Binary Exploitation)/Everything
+    Machine 20
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fad06c9a06c1cb3eedf6ee1c56ab2c94d1ca7851bdc077c70d860448f530a232
+  - path: everything_machine.zip
+    algorithm: sha256
+    value: cc12f35e8435bc4c73f16d79749451c224c4bfea07112f711c2c96b8846b3d4d
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: PWN (Binary Exploitation)/Everything Machine 20 in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

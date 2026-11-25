@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-crypto-004
+name: Detective Handal
+slug: 004-detective-handal
+original_name: Detective Handal
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  Drian is known as a great detective. He always solved the problem he found. One day, Drian is assigned to solve a problem. He got a mysterious code that maybe lead to something. He also got a machine that possible to go to the past. The machine is called "Blow Fish". But, to operate the machine, he needs a key. The one who give him the machine tell Drian, the key is a "line" that assigned you to solve all the problems here. The one who assigned the task also tell him to go back to the past when Drian still in "IV" grade. In that time Drian is asked to figure out "when was the first episode of AOT is release?". Oh ya, the one who assigned task for Drian is always play "Crash Team Racing". Usually, he eats a "Raw" meat. He also love a girl named "Hex"sa. Can you help him solve the problems?
+
+  Notes: 17 March 2023 will be write as "17032023" and "line" is an id of an social media
+difficulty:
+  value: 150
+  source: organizer
+tags:
+- crypto
+- blowfish
+authors:
+- name: 'LevireG#5551'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Cryptography/Detective Handal
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: cf8d2ea2317690c49db90601c7f0c541ea71d17864aaf3d60f7573d0fde13687
+  - path: flag.txt
+    algorithm: sha256
+    value: b604945bd51e2b8d5cf866bdb4405dc898f66ac5c04152bb460f9c4f837a38c0
+  - path: mysterious_code.txt
+    algorithm: sha256
+    value: df4e0696a1c5615e295db8677ea6b100ad69e053c230eea56881308922785675
+  - path: peserta/README.MD
+    algorithm: sha256
+    value: 06d2eb1ad6052a216098be7fefd5ec81ed7d0e5d0435892f6716fda01adf8337
+  - path: peserta/mysterious_code.txt
+    algorithm: sha256
+    value: df4e0696a1c5615e295db8677ea6b100ad69e053c230eea56881308922785675
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Cryptography/Detective Handal at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Cryptography/Detective%20Handal
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

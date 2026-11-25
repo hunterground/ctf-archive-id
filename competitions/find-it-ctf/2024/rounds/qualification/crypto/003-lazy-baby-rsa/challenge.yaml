@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-crypto-003
+name: lazy baby RSA
+slug: 003-lazy-baby-rsa
+original_name: lazy baby RSA
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Hey you! Yeah, you. If you have found this poster, may fate has brought us together. This
+  challenge is only for a person who is patient enough to write an exceptionally long code just for a
+  simple RSA. Are you scared? Haha.
+difficulty:
+  value: 942
+  source: organizer
+tags:
+- crypto
+- rsa
+authors:
+- name: hilmo
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Cryptography/lazy baby RSA
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d5d8e52b42e7e4b2ccaf9d5fc55a18968f949ef4fc35bc898d9a846da32c8ab6
+  - path: lazy_baby_rsa.zip
+    algorithm: sha256
+    value: c777de6246a8ddde785d421b93a85b1a9b34ee32d2d02f80ce7f71846d9f837d
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Cryptography/lazy baby RSA in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

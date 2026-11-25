@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-crypto-001
+name: Jobs In Encryption
+slug: 001-jobs-in-encryption
+original_name: Jobs In Encryption
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Taalenta/crypto/Jobs_In_Encryption
+description: |
+  Since a week ago Aya started working in mining. In a week at least she works for 5 days actively. For one day she can produce at least 128 tons of pure copper. Aya is only an expert in copper mining so she doesn't care about other ores. Unfortunately, in its implementation, the salary she receives per hour is around 4096 rupiah.
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- crypto
+- rsa
+- coppersmith
+authors:
+- name: 'wondPing#0870'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Taalenta/crypto/Jobs_In_Encryption
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/__pycache__/
+    reason: Cache or tooling directory excluded from the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b15fba77024eb7f39f6714b146c1c2741396082a8e08154e119449721ccf2581
+  - path: README.md
+    algorithm: sha256
+    value: c141eebaf2430d638f7301250ef40329c24d370c366a298aa0ebde346e5b6002
+  - path: dist/app.py
+    algorithm: sha256
+    value: 34a1f936fdf94aabbc12c71bf1af826a9115dcd86982b26bbd1eb4dcd30f80b4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 67714af064c4eee858f29ef29c7e6b011bac6b62ee9baa3082b51ef64092db50
+  - path: src/app.py
+    algorithm: sha256
+    value: f5011cb0ba464c82f453dd0b2116db7f53f0a7222d6c0a01115ceaace462cafb
+  - path: src/secret.py
+    algorithm: sha256
+    value: 01b075a74ad7c76f5a6a1cda2a7a3f21774b9c2e42a0dadb6f9a505307542e3d
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Taalenta/crypto/Jobs_In_Encryption at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Taalenta/crypto/Jobs_In_Encryption
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author.

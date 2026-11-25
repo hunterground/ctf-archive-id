@@ -1,0 +1,286 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-003
+name: Dynasty
+slug: 003-web-dynasty-medium
+original_name: Dynasty
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Cyberkarta/Web/web_dynasty_medium
+description: |
+  Hi guys, kita sedang mengembangkan aplikasi tracking silsilah keluarga crazy rich kita dengan cara mengintegrasikan ke Google search.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Ismail Hakim (twang#7040)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Cyberkarta/Web/web_dynasty_medium
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: Untuk_Panitia/service/.DS_Store
+    reason: 'macOS Finder metadata, not challenge material.'
+  checksum_verified: true
+  checksums:
+  - path: Guide.md
+    algorithm: sha256
+    value: a541e56a40400ddc559c1183a4efdae074f7b3543ea087d4e682a1a0d9a83878
+  - path: Untuk_Panitia/service/docker-compose.yml
+    algorithm: sha256
+    value: 782b697ddb75a73a2f4abfddfdc9d35fde9485f2a1fd50a3cdc92be839fec7e2
+  - path: Untuk_Panitia/service/src/.htaccess
+    algorithm: sha256
+    value: b3f9fd4362d2a8cb854574f86263f27a97df75aca22e56c43ad12d8ee30b1adb
+  - path: Untuk_Panitia/service/src/Dockerfile
+    algorithm: sha256
+    value: 2e8f632a027b94fff9dcdba8d990c1f1899920212166c262d471b77e5d487fac
+  - path: Untuk_Panitia/service/src/app/LICENSE
+    algorithm: sha256
+    value: 2a50d5b85df79a0ad844670b1c93fbbbfa2d243e23109ab04c3b273950efa329
+  - path: Untuk_Panitia/service/src/app/README.md
+    algorithm: sha256
+    value: f91c6d60bb351cf525e233a0ce5305a3ebfdc8e35fd1fc2d2af557183cc6d9dc
+  - path: Untuk_Panitia/service/src/app/composer.json
+    algorithm: sha256
+    value: 331c140eba194f7d6c002bcdf784826d02754fe732e0f61927b2fb5af00458ad
+  - path: Untuk_Panitia/service/src/app/composer.lock
+    algorithm: sha256
+    value: afdad1befc1b077367fcd2191ab611487b39030a79131b88dd192f046e307d26
+  - path: Untuk_Panitia/service/src/app/config.php
+    algorithm: sha256
+    value: 9438d6a1c5b54a5b390a5733cc596d6a58906a3421911e1805e0b4713f764b1d
+  - path: Untuk_Panitia/service/src/app/css/main.css
+    algorithm: sha256
+    value: 31422a720c8f2afac50c3b208bd0d3a424960e43593db77c536f5da55862738e
+  - path: Untuk_Panitia/service/src/app/images/image_kingdom.svg
+    algorithm: sha256
+    value: 15b73837e64fc840c8b83c0d2b42a6653f97ed1ac5c1cf04390a6113c3b34542
+  - path: Untuk_Panitia/service/src/app/includes/.htaccess
+    algorithm: sha256
+    value: b3c24d9ac22a58159f07ba59f97d4bcdee06380ee0a778af1a67b2885e65e92c
+  - path: Untuk_Panitia/service/src/app/includes/head.php
+    algorithm: sha256
+    value: ea77e8e0851abf739b8755e3dfc3428c5511e94f97e7799180aac7579cd21bbf
+  - path: Untuk_Panitia/service/src/app/includes/nav.php
+    algorithm: sha256
+    value: 9efcedb6f01b17d248a60c4db70f524bde1cbfdda290584a8389c3007c72e7db
+  - path: Untuk_Panitia/service/src/app/index.php
+    algorithm: sha256
+    value: 977ff02ebe37b9caa6998a7a47c7edc5dbdb2416e27683b0dc216684c3ab7890
+  - path: Untuk_Panitia/service/src/app/js/main.js
+    algorithm: sha256
+    value: 5f75e31bc91dc6cce4207ae01b7c8f709ef0ea4f859d9f8a621a7fb8352ba61a
+  - path: Untuk_Panitia/service/src/app/plugins/TestPlugin.php
+    algorithm: sha256
+    value: 448c33cb2ea2cf21045831c5b364091478fa5b0ddc82258ed790a9bd780b09ac
+  - path: Untuk_Panitia/service/src/app/plugins/UrlFormPlugin.php
+    algorithm: sha256
+    value: 9ad2d9874cefcd21898b239943cb45fe478326b0d8bbc1848b1a03ddd4cc9a30
+  - path: Untuk_Panitia/service/src/app/setup.txt
+    algorithm: sha256
+    value: a2ec7a3065060b56c1658db0ed51a005dc70990f6bc501cf6a21c9f9943b40de
+  - path: Untuk_Panitia/service/src/app/templates/main.php
+    algorithm: sha256
+    value: bf004a5f39b16124641d2480998c9d8043aa970be70f3685e6bdecd4419d06ec
+  - path: Untuk_Panitia/service/src/app/templates/url_form.php
+    algorithm: sha256
+    value: e615cd768a6e93b5c7cccabf05735023d5a31e751573bd63fc4e85e22d8ca1c3
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/LICENSE
+    algorithm: sha256
+    value: a446f219aabe3667850444bbd5f11b7e931889b4d5dbf3bc074fe00f25f1124c
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/README.md
+    algorithm: sha256
+    value: d66ea1432385f0fba0044042cc62e9076f3ff2964ca61d1b3b8323617c2a6485
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/composer.json
+    algorithm: sha256
+    value: d3c6f346977604f9a9f156429529781043ba0a73039d17cc5e4b7acbd9016439
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/DailyMotionPlugin.php
+    algorithm: sha256
+    value: d8615e5360b42bea0d2d275070afc2ff7a4b6e6c69ee4834029e913c148cc14d
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/LogPlugin.php
+    algorithm: sha256
+    value: 4bdb83fdce0456e5f7093c7ab7b42212c45090c2330dd5b3270bf3e58fc36104
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/PornhubPlugin.php
+    algorithm: sha256
+    value: c8c57da7bbe4b96af2a7f99fe7792536f5fec8f56569ee1172e1f4743befee45
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/RedTubePlugin.php
+    algorithm: sha256
+    value: bccf9f26ff1f88acd453fd1a0576b1f75a7306fb2b9e33f70e6cd72518fd03ab
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/TwitterPlugin.php
+    algorithm: sha256
+    value: 845a240588ce5dd38badfc775fd1e657acff44cf8320df77b309d690dbb3f83b
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/XHamsterPlugin.php
+    algorithm: sha256
+    value: acbb5b2c35544102b28b1368a0e2bfc8faba7b30db49b3ddf6d79487df01601a
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/XVideosPlugin.php
+    algorithm: sha256
+    value: 09e2cdbd5603662372d99ab7ceaac36dd7dc90f125e9d7c5f5e398591df5c662
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/XnxxPlugin.php
+    algorithm: sha256
+    value: 0ef921ec6eb5c528d9f0f7159b9222c32517537e72a13de6bb9adf312de874d8
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/YoutubePlugin.php
+    algorithm: sha256
+    value: 7898def6cc79d5a4bceeb93a294adc59a37b4345fb2f560fad0ea37c043736be
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy-plugin-bundle/src/utils.php
+    algorithm: sha256
+    value: 03360df68d2cd468abcf459a5475145063d149f8692aaae72373c11fe9040f62
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/.gitignore
+    algorithm: sha256
+    value: febbc5b193b1ac03e38200034c3a7b03157511f182b198592be346de2238c362
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/LICENSE
+    algorithm: sha256
+    value: a446f219aabe3667850444bbd5f11b7e931889b4d5dbf3bc074fe00f25f1124c
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/README.md
+    algorithm: sha256
+    value: 37da5f23dc4b9d9b50e27f80dab1cc3ab982386f3e5d420671de81495a03b942
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/composer.json
+    algorithm: sha256
+    value: 83d4ab41465db0be0560f46859e65afaf8f794f4766232f13e8a4728f53177f7
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Config.php
+    algorithm: sha256
+    value: 8a8e5903842b62ab9d0cd7ad111b4fbbc47c3923c3f188a77ae4d410f4d331e3
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Event/ProxyEvent.php
+    algorithm: sha256
+    value: 30ab9bbe448e4ae3d2a3581b1e072b202ca8e8145666444672b21cdf7bec1b7f
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Html.php
+    algorithm: sha256
+    value: d935e36cce0819f9a42fef5065d3d6f8ca3f179cc5e8f2ae5e5e3449aa9a56c7
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Http/ParamStore.php
+    algorithm: sha256
+    value: 6a87159fe336522d98e312db4c54b84cb8832731facbffda14930602ffab9886
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Http/Request.php
+    algorithm: sha256
+    value: 14b4b82299ca422d13c5ed4c65f428032cf6113ad01c71403721d7ae785037db
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Http/Response.php
+    algorithm: sha256
+    value: b6a557c7c219903ff3b46ee6a34e626f2601d7ecc03a741968561c12e88239a5
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/AbstractPlugin.php
+    algorithm: sha256
+    value: e4af127c3611bb4657d06bd0cb6dd08c219a09c9324d04da447aa01feb0dfd53
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/BlockListPlugin.php
+    algorithm: sha256
+    value: 2b1e1c3037bc7942ecc74017f2da1a18f58c80b35865ff6727589e8ac594deb9
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/CookiePlugin.php
+    algorithm: sha256
+    value: d8511f8d608deadeb078ba755ac627bf40522fdc8d45ff19f70a466e72ba4f80
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/HeaderRewritePlugin.php
+    algorithm: sha256
+    value: 0d3d5c81790b9e0d3aa89c04bcc649980e7a8255020b3c8793bbdadd46fd2c06
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/ProxifyPlugin.php
+    algorithm: sha256
+    value: b652402882c5280e96033b70bbc655ddabfa7fa8fb92ae43f23b80c10d01fff1
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Plugin/StreamPlugin.php
+    algorithm: sha256
+    value: 926995c17b0f3c7a17e1ad1c47439be4220e31131a47a014b83f6c19ab3bc4d8
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Proxy.php
+    algorithm: sha256
+    value: 814212262ddc50247f6506fd96d6659ca3594919ddb8fc710eb9805a80102d75
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/Redis.php
+    algorithm: sha256
+    value: 00c3f97cadbfa7295d37a7ab2f28af8820c104452ded06d7fa1b7e8f5cf89394
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/src/helpers.php
+    algorithm: sha256
+    value: c1c68057cc3d8fa738d59609fbb56acb1aa2c99334ef6c8028383a0102934dad
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/php-proxy/tests/TestCase.php
+    algorithm: sha256
+    value: e2ee3f9a82d803eae06a8f8156e86c8faedd3fcab6801067049c918e59d858c4
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/.gitignore
+    algorithm: sha256
+    value: 2a44898cac14d9c380bf5db8cb262090e03028637f8dbea0334a8c153db5f9ff
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/LICENSE
+    algorithm: sha256
+    value: a446f219aabe3667850444bbd5f11b7e931889b4d5dbf3bc074fe00f25f1124c
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/README.md
+    algorithm: sha256
+    value: 431dcbfab88fe295598b1868ad5819d8c423377b8724a29a11a0a8e2ec61afc3
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/composer.json
+    algorithm: sha256
+    value: 339f57429cf8d13704fabdf3d8c8441da02187c922933732175db41c53e50143
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/src/Browser.php
+    algorithm: sha256
+    value: 9212071d8aaa66138f642af993a170e0b26c7deb8349ad3ccaa78fc9a7e9b9d7
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/src/Parser.php
+    algorithm: sha256
+    value: cc0eecef90bed23ad78ad9042f0c5d747d9bc4460b8d17f649bda8728e77e00a
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/src/SignatureDecoder.php
+    algorithm: sha256
+    value: f8e4b15ac6c6aa3cef8dcf4f0a69e09751a1ed83b206ebce523ca40598efc1fb
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/src/YouTubeDownloader.php
+    algorithm: sha256
+    value: 1915d982f77a01ff56a2e7a1aff0f926c83b0710284349b5ac8970300f524933
+  - path: Untuk_Panitia/service/src/app/vendor/athlon1600/youtube-downloader/tests/YouTubeTest.php
+    algorithm: sha256
+    value: 8626f7ad20c4dce527a38664994ca65a15cbdd2b037e581919d07ce795759ca8
+  - path: Untuk_Panitia/service/src/app/vendor/autoload.php
+    algorithm: sha256
+    value: 52f8c4653a95eb41914530ee175c3a5295ff2b0958e67e1a39caa042d16789f2
+  - path: Untuk_Panitia/service/src/app/vendor/composer/ClassLoader.php
+    algorithm: sha256
+    value: e4fc4d4487a4d766d3ef14606fa0d8ff09dd7f3f0885425803d7aa7fc68e2c3d
+  - path: Untuk_Panitia/service/src/app/vendor/composer/LICENSE
+    algorithm: sha256
+    value: c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_classmap.php
+    algorithm: sha256
+    value: 894fbd23013969829316a4c244401c65355ee4d48440f2d533fb517c693b717d
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_files.php
+    algorithm: sha256
+    value: e03ee3b66b530a5ca1e09e7d0f3a412196bcb141a60f6e4fb575795f976fc61a
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_namespaces.php
+    algorithm: sha256
+    value: 6d1b582b311799934568f00d45e01de7a04f8a1865a8a72c7841904ad4dac3a7
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_psr4.php
+    algorithm: sha256
+    value: c7853edfe422e58bedf3eca953a7429d678274d77b04fd0b3055f75eb32c0a0a
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_real.php
+    algorithm: sha256
+    value: 735f00b524e72d16dc0b8d22855ce7481c9313fcc70a896ba2ea8d8e55775862
+  - path: Untuk_Panitia/service/src/app/vendor/composer/autoload_static.php
+    algorithm: sha256
+    value: 4f358b209110d8e7b4d23c0acbe7697a2e8b190ddc1e9a4e80acb32a028728d3
+  - path: Untuk_Panitia/service/src/app/vendor/composer/installed.json
+    algorithm: sha256
+    value: aff3c5397eb3a699310b3aba49f71b2ba25609fb2138a33ac4643c5b3393c138
+  - path: Untuk_Panitia/service/src/flag.txt
+    algorithm: sha256
+    value: 5cdb9495294e5924147991421ccec9354d281df285ff027ab5fd0e401f743f7d
+  - path: Untuk_Panitia/service/src/index.php
+    algorithm: sha256
+    value: 151ee8cfb951fa57820f3b93721cfd7f9c6b09f50d8c39c4f9ec6d92d82094bb
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Cyberkarta/Web/web_dynasty_medium at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Cyberkarta/Web/web_dynasty_medium
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author. The source ships the organizer deployment tree under untuk_panitia/ and, for OooVM, the participant whitebox archive; all are preserved as given.

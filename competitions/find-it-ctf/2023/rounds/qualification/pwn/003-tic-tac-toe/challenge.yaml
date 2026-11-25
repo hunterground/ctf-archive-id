@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-pwn-003
+name: Tic tac toe
+slug: 003-tic-tac-toe
+original_name: Tic tac toe
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'PWN (Binary Exploitation)'
+description: |
+  Bob created a tic tac toe game and deployed it on the server. He turns on all existing security. So he believes that his game service is safe. Bob's Tic tac toe game is safe right?
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- pwn
+- stack-canary
+- ret2libc
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Tic tac toe'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deploy/ld-2.31.so
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: Deploy/libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: Deploy/secretMessage
+    algorithm: sha256
+    value: 65d2b4d1fbfd7bbf97d80c7a1c92649a2c0ee0f2320ae3599642b1a1f778b4d2
+  - path: Deploy/vuln
+    algorithm: sha256
+    value: 520e1a82d12dd467296aa454cdf1149cdc5ce7bc0b2ee3ae191e0a38ca1a89a7
+  - path: README.md
+    algorithm: sha256
+    value: 297894369ade4129593d10f700c398c92016124c436748daecd0d1c9cbfa0f75
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/PWN (Binary Exploitation)/Tic tac toe at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/PWN%20(Binary%20Exploitation)/Tic%20tac%20toe
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

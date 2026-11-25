@@ -1,0 +1,126 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-002
+name: Web_CP_Merchandise_Medium
+slug: 002-web-cp-merchandise-medium
+original_name: Web_CP_Merchandise_Medium
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Cyberkarta/Web/web_cp_merchandise_medium
+description: |
+  Konser yang ditunggu-tunggu hampir tiba. So we pickled everything into the shop !
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Ismail Hakim (twang#7040)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Cyberkarta/Web/web_cp_merchandise_medium
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: untuk_panitia/src/challenge/application/.DS_Store
+    reason: 'macOS Finder metadata, not challenge material.'
+  - path: untuk_panitia/src/challenge/application/static/images/.DS_Store
+    reason: 'macOS Finder metadata, not challenge material.'
+  checksum_verified: true
+  checksums:
+  - path: untuk_panitia/guide.md
+    algorithm: sha256
+    value: 7863a2a6a15893fd0054f6e1b5508a5142ac7ec3dfe317cee6721ae30799c081
+  - path: untuk_panitia/src/Dockerfile
+    algorithm: sha256
+    value: f567b508cc2994a2741a01301e3c6f5e492f3ac7d7a64a7637ac1f4913e7e91c
+  - path: untuk_panitia/src/challenge/application/app.py
+    algorithm: sha256
+    value: 2e104d91219c8a4022131f51b24935565fa4d6fabfd851fbbe86afcc10fbabed
+  - path: untuk_panitia/src/challenge/application/blueprints/routes.py
+    algorithm: sha256
+    value: a92e0a687bbf8afe7e4b09cb77e5a8082bce8d0ad6929e0e9c23c46472ddb813
+  - path: untuk_panitia/src/challenge/application/config.py
+    algorithm: sha256
+    value: 2ea748c3fb772ca291f79569b5c01f94327d4d447d49b9ee565044a9c0bdb2f5
+  - path: untuk_panitia/src/challenge/application/database.py
+    algorithm: sha256
+    value: 88044f768e19174b54bdee9e859ee103853892f616b2093b96bb9d3c0b1c59ba
+  - path: untuk_panitia/src/challenge/application/models.py
+    algorithm: sha256
+    value: e639ebebb21375bf88047902d68ec37b1fc63cdf6c67175a70e5626bd2850626
+  - path: untuk_panitia/src/challenge/application/static/css/styles.css
+    algorithm: sha256
+    value: d035e0dda9bdc230446da7e4419871c356f893da1864a8deeac639d00782cf80
+  - path: untuk_panitia/src/challenge/application/static/images/basic_shirt.png
+    algorithm: sha256
+    value: c365002faf69ee3a3d336687ed671866bf713d32513bc16be70ab0ab9a953b9b
+  - path: untuk_panitia/src/challenge/application/static/images/cassettes_infinity.png
+    algorithm: sha256
+    value: 32b9a5be89d86ee8117b4c284ef06db3880b96181fe2bd949c4672e9f1702c2a
+  - path: untuk_panitia/src/challenge/application/static/images/higherpower_bracelet.png
+    algorithm: sha256
+    value: 480826e14a822fdfeff1fdb16e6ac3ee933ce306cf29ebc9f78ba9f339b6a65c
+  - path: untuk_panitia/src/challenge/application/static/images/world_tour.png
+    algorithm: sha256
+    value: 3198396b87d020ceb61cb0f516561fefb66e454e44c4cb95a0ba47d9de7652d1
+  - path: untuk_panitia/src/challenge/application/static/js/scripts.js
+    algorithm: sha256
+    value: 3308ef9bbdbed0a1e4e1c4ee725c42974120792fb51342996c39b0015941f22e
+  - path: untuk_panitia/src/challenge/application/templates/index.html
+    algorithm: sha256
+    value: 8c603b24d95644bb7555d9de21cf677d676988d7eba89cf927a4ba98f01b3299
+  - path: untuk_panitia/src/challenge/application/templates/item.html
+    algorithm: sha256
+    value: 758ef314a90dbe6a334f0e2cff8f88fe69a0a3265ba6f0f01b6418b9a887e495
+  - path: untuk_panitia/src/challenge/flag.txt
+    algorithm: sha256
+    value: c6739d0a9a3d8b5ab4cbc7c0cd66eec427fe2b8374b1fb3fc85aafac1485bc90
+  - path: untuk_panitia/src/challenge/requirements.txt
+    algorithm: sha256
+    value: c0862201e27e10f591cc0e3fb8d1dd4f6a4af2559d04a71fb0cb142d59b2f6b7
+  - path: untuk_panitia/src/challenge/run.py
+    algorithm: sha256
+    value: c059d5b2bfc7f7910516e4c35238fe31454350aa7b7ba5cf2393edb817a1b33f
+  - path: untuk_panitia/src/challenge/schema.sql
+    algorithm: sha256
+    value: e63d6a4e13f203a3c9480973c7af1f06ae6889c716875294cd366611eb1b7669
+  - path: untuk_panitia/src/config/supervisord.conf
+    algorithm: sha256
+    value: a3fadfca19769e1a4442993e58afa38fe7100c43ea1d13b3910437c7361de32e
+  - path: untuk_panitia/src/dockerbuild.sh
+    algorithm: sha256
+    value: 4e6ed02a2e10be0058429c664621a4fd4d1341d631e43bcfd8a3ddcbc034e87c
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Cyberkarta/Web/web_cp_merchandise_medium at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Cyberkarta/Web/web_cp_merchandise_medium
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author. The source ships the organizer deployment tree under untuk_panitia/ and, for OooVM, the participant whitebox archive; all are preserved as given.

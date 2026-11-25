@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-crypto-001
+name: CRYptograPI
+slug: 001-cryptograpi
+original_name: CRYptograPI
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  A Ngawi Spy was arrested in Lempuyangan Railway Station while eating a bread. He was arrested becuse he wanted to deliver an encrypted secret message to another spy. It was known that the message is encrypted by bitwise operating the message with decimal digits of Pi. Can you decrypt the secret message?
+
+  Hint:
+  - How many bitwise operation do you know?
+  - Pi has unending decimal digits...
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- crypto
+- xor
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Cryptography/CRYptograPI
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Peserta/message.txt
+    algorithm: sha256
+    value: 269cfc51d8eb2d3071d86b94aa84e28e880877a2e7e395a17c15b1e790ff3ac2
+  - path: README.md
+    algorithm: sha256
+    value: a5a78a5118ea4d7011cd157b0731f3bdd285a8ef1b7a695024f8400fc4fb4b72
+  - path: message.txt
+    algorithm: sha256
+    value: 269cfc51d8eb2d3071d86b94aa84e28e880877a2e7e395a17c15b1e790ff3ac2
+  - path: return_flag.cpp
+    algorithm: sha256
+    value: 3ec943f064207d17c4339aac7aa24cb8c07a3fbab3c88ed2114810b2c25309a5
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Cryptography/CRYptograPI at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Cryptography/CRYptograPI
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-crypto-007
+name: Randomized Seed
+slug: 007-randomized-seed
+original_name: Randomized Seed
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  Yeah, we use randomzier
+difficulty:
+  value: 300
+  source: organizer
+tags:
+- crypto
+- prng
+authors:
+- name: 'Arif (''saj#6550)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Cryptography/Randomized Seed
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2b0a7965f5a2afb96a52f748c79acdd55b7646ab515ab24caf42e61d5f6377a6
+  - path: flag.txt
+    algorithm: sha256
+    value: 10ba72ce20489014c4fc95a4cbd17fa9d1fd9ff7abd118b65d06bd3c132aec3c
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 559d16fab996d07c714015b9201853b7f3a49cd085419d723d30112dc410a639
+  - path: peserta/challenge.py
+    algorithm: sha256
+    value: de1fa62783108eb4fc6cbee98a16f0b0d0a3b2b9bc444d516a1d18c47142e78d
+  - path: peserta/out.txt
+    algorithm: sha256
+    value: d1743bd559980602ca3357531864ae321b316f942ac3a7f4edf478c1c38deb8c
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Cryptography/Randomized Seed at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Cryptography/Randomized%20Seed
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

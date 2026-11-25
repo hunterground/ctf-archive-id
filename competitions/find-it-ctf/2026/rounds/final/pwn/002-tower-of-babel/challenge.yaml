@@ -1,0 +1,114 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-final-pwn-002
+name: Tower of Babel
+slug: 002-tower-of-babel
+original_name: Tower of Babel
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: '<style>.briefing{position:relative;background:linear-gradient(rgba(10,14,10,.78),rgba(10,14,10,.78)),url(''https://arknights.wiki.gg/images/BB-Welcome_to_Babel.png'')
+  center/cover no-repeat;color:#7fff9f;font-family:''Courier New'',Consolas,monospace;padding:1.5rem 2rem;border-left:3px
+  solid #4fdf6f;border-radius:4px;line-height:1.8;box-shadow:0 0 20px rgba(79,223,111,.15);width:100%;box-sizing:border-box;animation:briefing-glow
+  2.4s ease-in-out infinite;text-shadow:0 0 6px rgba(0,0,0,.85),0 1px 2px rgba(0,0,0,.9);cursor:pointer;transition:box-shadow
+  .25s ease;filter:none!important;-webkit-filter:none!important;backdrop-filter:none!important}.briefing:hover{box-shadow:0
+  0 36px rgba(79,223,111,.4)}.briefing__title{font-weight:bold;font-size:1.1em;margin-bottom:.75rem}.briefing__type{display:block;overflow:hidden;white-space:nowrap;width:0;border-right:2px
+  solid #7fff9f}.briefing__type--year{animation:briefing-type-year .4s steps(9,end) .2s forwards,briefing-caret-off
+  .01s linear .61s forwards}.briefing__type--loc{animation:briefing-type-loc .7s steps(25,end) .7s forwards,briefing-caret-off
+  .01s linear 1.41s forwards}.briefing__type--nc{margin-top:.75rem;border-right-color:#00ffff;color:#00ffff!important;font-weight:bold!important;text-decoration:none!important;text-shadow:0
+  0 8px rgba(0,255,255,.6),0 1px 2px rgba(0,0,0,.9)!important;-webkit-text-fill-color:#00ffff!important;filter:none!important;-webkit-filter:none!important;animation:briefing-type-nc
+  .6s steps(21,end) 1.5s forwards,briefing-caret .5s step-end infinite 2.1s}.briefing__type--nc:hover{color:#fff!important;-webkit-text-fill-color:#fff!important;text-shadow:0
+  0 12px rgba(255,255,255,.8),0 1px 2px rgba(0,0,0,.9)!important}.briefing__type--nc::before{content:"";position:absolute;inset:0;z-index:1}.briefing__hl{color:#ffd866}@keyframes
+  briefing-type-year{to{width:9ch}}@keyframes briefing-type-loc{to{width:25ch}}@keyframes briefing-type-nc{to{width:21ch}}@keyframes
+  briefing-caret{50%{border-color:transparent}}@keyframes briefing-caret-off{to{border-color:transparent}}@keyframes
+  briefing-glow{0%,100%{box-shadow:0 0 20px rgba(79,223,111,.15)}50%{box-shadow:0 0 28px rgba(79,223,111,.3)}}</style><div
+  class="briefing"><div class="briefing__title">Terran Conflict History 101</div><div class="briefing__type
+  briefing__type--year">Year <span class="briefing__hl">1094</span></div><div class="briefing__type briefing__type--loc">Current
+  Location - <span class="briefing__hl">Kazdel</span></div><a class="briefing__type briefing__type--nc"
+  href="https://www.youtube.com/watch?v=jhWe4zIb_ZE&t=4s" target="_blank" rel="noopener noreferrer">$
+  nc {{ .host }} 1094</a></div>'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- pwn
+authors:
+- name: m3rr
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: final/Pwn/tower-of-babel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4924cca74c57fa2b79a73b9c857d158161d5de66860fe3d1f8032be7a829422a
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: b0327c40353e94ea15ab8f8920d1315921ee7fdd9e99795cac41e169ee1b7c9c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9bb681e3fd9d0bd856233fcf9083434a207cbf83d57aae5e2a1161c697a13953
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c27322768a54b136b6a1e5b58b49f17f01b4ac378a41df9ff9afb60b69c1c9de
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d5af1d18c41c5b944352203907f9b11a32e95f1172e172163c94aef8bab5afe7
+  - path: src/main.py
+    algorithm: sha256
+    value: 740aa3b5f53ea1e5b589165ce25d0f6dd258d7bf617d469cfa9993a0a1368c0f
+  - path: src/runner.cpp
+    algorithm: sha256
+    value: 3978c4fd0f3e195adb982c56c7bdfd8dc5dbd18fa078d895cf852514dae7b098
+  - path: src/start.sh
+    algorithm: sha256
+    value: 1cd27e19a0a18ff1eb08c22d223913e98e3223289f1bcb29ec6e9daa3cee2c94
+  - path: src/unicorn.z01
+    algorithm: sha256
+    value: a9dddc2d6be5b72e71c9a4b52d6fd1c9d9b3d96ec9ccee7a7dd55900c067dec8
+  - path: src/unicorn.z02
+    algorithm: sha256
+    value: 84018691837242db728180fa7bc5a0b35ef03b709cac9e1e4480de247b502502
+  - path: src/unicorn.zip
+    algorithm: sha256
+    value: e02953129d7552fe85c6bef11a14a159049a337139bbdd26074d2dda6b4d5804
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticContainer
+  services: []
+  requirements: []
+references:
+- title: final/Pwn/tower-of-babel at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final/Pwn/tower-of-babel
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names m3rr as the author and declares category Pwn with an
+  organizer value of 1000. The description embeds a styled HTML briefing block copied verbatim from the
+  source, including its external image and video links; those were not rewritten. The split unicorn.z01/unicorn.z02/unicorn.zip
+  payload and the src/ build files are preserved. No solver was shipped for this challenge.

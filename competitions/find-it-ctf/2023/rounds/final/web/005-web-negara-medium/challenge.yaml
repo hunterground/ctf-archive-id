@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-005
+name: Negara
+slug: 005-web-negara-medium
+original_name: Negara
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Cyberkarta/Web/web_negara_medium
+description: |
+  Web
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Ismail Hakim (twang#7040)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Cyberkarta/Web/web_negara_medium
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: web_negara_medium/deskripsi.md
+    algorithm: sha256
+    value: d676446465c2b87708b9dd8837cef183fca68af2474e36e1ecb7bb748d3bdaa1
+  - path: web_negara_medium/untuk_panitia/Dockerfile
+    algorithm: sha256
+    value: eb4fbaac1de0f6e47f51ee70938d11c3dda36d829a2f64fd27e5dd2cd93b5f49
+  - path: web_negara_medium/untuk_panitia/app/src/app.py
+    algorithm: sha256
+    value: d245286f556ed9479e3c6d4dbe212299410f56d5e0624302ae14559202da6783
+  - path: web_negara_medium/untuk_panitia/app/src/database.py
+    algorithm: sha256
+    value: 01611b56636ab0049c20d1906d876e96b54f03bd29dbbfe8dca5698e15704473
+  - path: web_negara_medium/untuk_panitia/app/src/flag.txt
+    algorithm: sha256
+    value: a4ccb808c1278cfb3d425beec6d48a1d5d9e06ec74d697cfb097c3708bf086eb
+  - path: web_negara_medium/untuk_panitia/app/src/models.py
+    algorithm: sha256
+    value: 98097938c99ffac01682d2f9c514067afbb69152f1165ae342fc944836f11c3e
+  - path: web_negara_medium/untuk_panitia/app/src/seed.py
+    algorithm: sha256
+    value: d900aef1328acc86fc141643769cb01856166bc8baae949b61d082fe52a0bc6b
+  - path: web_negara_medium/untuk_panitia/app/src/templates/home.html
+    algorithm: sha256
+    value: 2c584695cf90a88df80a16069bd08ef61129f7d01e05e898881497381be74630
+  - path: web_negara_medium/untuk_panitia/docker.sh
+    algorithm: sha256
+    value: 0d5a337fb661fe9ae8f491fb53f097d0dd122a226fb2b8817be1edc1f31a6e8c
+  - path: web_negara_medium/untuk_panitia/flag.txt
+    algorithm: sha256
+    value: a4ccb808c1278cfb3d425beec6d48a1d5d9e06ec74d697cfb097c3708bf086eb
+  - path: web_negara_medium/untuk_panitia/requirements.txt
+    algorithm: sha256
+    value: f4417e94d6d09387d6e74d166fd43942b7e6c540218e5cbe7c3c70a88dc2f131
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Cyberkarta/Web/web_negara_medium at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Cyberkarta/Web/web_negara_medium
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author. The source ships the organizer deployment tree under untuk_panitia/ and, for OooVM, the participant whitebox archive; all are preserved as given.

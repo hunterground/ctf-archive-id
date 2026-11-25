@@ -1,0 +1,46 @@
+schema_version: '1.0'
+id: final
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: online
+description: >
+  Final stage of Find IT! 2023 CTF, published by the organizer as challenge-pools-final-collab
+  with challenges contributed by Taalenta and Cyberkarta.
+dates:
+  start: '2023-06-03'
+  end: null
+statistics:
+  challenge_count: 11
+  participant_count: null
+references:
+- title: CTF-Find-IT-2023-Chall final collaboration pool
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+- title: F1ndIT CTF Final challenge list (Taalenta)
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/blob/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Taalenta/README.md
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  The Taalenta account gives 3 June 2023 as the final date and the organizer repository publishes
+  the final pool under challenge-pools-final-collab, described there as the final round with
+  collaboration from Taalenta and Cyberkarta. Eleven challenges are archived: five in the
+  Taalenta tree and six in the Cyberkarta tree. The Taalenta README lists its five challenges with
+  author and tags, which are recorded as stated. The Cyberkarta tree ships organizer-facing
+  deployment material under untuk_panitia rather than participant distributions, and it is
+  preserved unchanged; rev_paminfla and the five web challenges carry no description or score in
+  the source, so those fields stay null rather than being reconstructed from the solving steps.
+  Sequence numbers follow this archive's alphabetical source order within each category. The
+  source does not state a delivery mode for the 2023 final; delivery is recorded as online from
+  the organizer FAQ for a later edition and should be treated as needs-review if a 2023-specific
+  venue statement surfaces.

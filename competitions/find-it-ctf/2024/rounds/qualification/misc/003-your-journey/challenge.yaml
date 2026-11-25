@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-misc-003
+name: your journey
+slug: 003-your-journey
+original_name: your journey
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: Life's journey can often be fraught with deception and falsehoods, yet it is through these
+  challenges that we learn and grow. Despite the obstacles and the temptation to veer off course, perseverance
+  and determination are key. By staying true to ourselves and our goals, we can navigate through the deceit
+  and emerge stronger and wiser on the other side. Remember, every battle against falsehoods brings us
+  closer to the truth and to fulfilling our journey's purpose.
+difficulty:
+  value: 901
+  source: organizer
+tags:
+- misc
+- python
+authors:
+- name: hilmo
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!MISC/your journey
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 617a2c4ed2e9a55ab5cc3c88fc3583a664f43d43a73726a54cf2ade8fce763a2
+  - path: your_journey.zip
+    algorithm: sha256
+    value: 6405c5fe91393094a69b9c1ab0be3e8255d2fd900d0ae0245f429eed56f7cf46
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: MISC/your journey in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

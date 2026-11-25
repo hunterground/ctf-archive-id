@@ -1,0 +1,21 @@
+name: NativeNote
+author: Dimas Maulana
+description: >-
+  We built a sleek note-sharing app — now our admin reviews flagged notes with a premium desktop client.
+
+  The client was written quickly, and the developers may have taken a few shortcuts.
+
+
+  Can you get the admin's flag?
+
+
+type: DynamicContainer
+category: Web
+difficulty: 5
+flagTemplate: FINDIT{nativenote_3l3ctr0n_pr0t0_p0llut10n_[TEAM_HASH]}
+container:
+  memoryLimit: 1024
+  storageLimit: 512
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: true

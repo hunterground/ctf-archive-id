@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-crypto-006
+name: One Of Us
+slug: 006-one-of-us
+original_name: One Of Us
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  Hi, you're a cryptography nerd, right? Long story short, I want to join this C00L KIDZ KLUB but in order to get in, I need to encode the phrase "HAPPY SWEET SEVENTEEN FREDDIE" with this tool they lend me? I don't get it! They also gave me a text file as a clue? I don't even know what these jumbled words are talking about!
+
+  Notes:
+  Answer is in all capital letters, but don't forget the usual format of FindITCTF{I_AM_INSIDE_YOUR_WALLS}
+
+  Hint:
+  1. The alphabet index starts from 0 all the way to 25
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- crypto
+- vigenere
+authors:
+- name: 'Elin(tinygiant#8987)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Cryptography/One Of Us
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 81e9cc45cbcd0347471fec89dc1854ce2e05bd765ebbb514ab90cb7954d400a9
+  - path: encrypted.txt
+    algorithm: sha256
+    value: b1bddc5519accfd6c332209487f99d217cb6488953640c1197ae70a8af5722ae
+  - path: fixed_encoder.py
+    algorithm: sha256
+    value: 3fd5dc7c4e2abf572193b49d467a4b587ff24d80def8a9fd996279ef013b1960
+  - path: flag.txt
+    algorithm: sha256
+    value: eb87a7eb0cebe63307fb2f69a3f55a140e86d9bb14f57e7ec3d82ff7d9b93a03
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 17c5f0342c8f6ee3020e09c595a09247e7e98ce044ae69bc5fbf2ba02efe644a
+  - path: peserta/encrypted.txt
+    algorithm: sha256
+    value: b1bddc5519accfd6c332209487f99d217cb6488953640c1197ae70a8af5722ae
+  - path: peserta/new_encoder.py
+    algorithm: sha256
+    value: 00f8a7302889a54b1c890e5f1dfd598575c8a82b61d6fe304efa511d20884bf0
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Cryptography/One Of Us at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Cryptography/One%20Of%20Us
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

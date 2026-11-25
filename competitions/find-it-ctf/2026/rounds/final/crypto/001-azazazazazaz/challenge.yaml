@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-final-crypto-001
+name: azazazazazaz
+slug: 001-azazazazazaz
+original_name: azazazazazaz
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: crypto
+original_category: cryptography
+description: 'azazazazazazazazazaz
+
+
+  nc <> 6767'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- crypto
+authors: []
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: final/Crypto/azazazazazaz
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 431ebadae4610aa374caaa7ae68decabbbfcb7989f6b80fb97ad6298af442b69
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 71b6d3a4f721cc2e935a11538e4cb98285a1f8b2d5d8ad8cfad3547072c237e9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: fb81b2688aef877b81f3a4e34e0f0a9353e7315cfa7da6351cd49711000c5fc7
+  - path: src/chall.py
+    algorithm: sha256
+    value: 71b6d3a4f721cc2e935a11538e4cb98285a1f8b2d5d8ad8cfad3547072c237e9
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 278569051ec517e8ba34c0fda38c1fc87ae20bf20e6329ded91b180b980d6716
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 38a482edcd28da697985edfadfc53869ab79e61f5dbeb0217a36fdc927831496
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: src/run.sh
+    algorithm: sha256
+    value: 9fd7ae4607043f2d32c349121d97c6e7aa1aa1c680b26a3a8c62158acafc92a2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: final/Crypto/azazazazazaz at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final/Crypto/azazazazazaz
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml declares category cryptography and assigns an organizer value
+  of 1000; it names no author, so authors is empty rather than guessed. The dist/ attachment and src/
+  service are preserved. The source solve/ directory (solve.py and README.MD) was moved to solvers/competitions/find-it-ctf/2026/
+  and is not a preservation omission.

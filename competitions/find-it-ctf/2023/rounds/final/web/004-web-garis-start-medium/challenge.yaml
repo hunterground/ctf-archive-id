@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-004
+name: Garis Start
+slug: 004-web-garis-start-medium
+original_name: Garis Start
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Cyberkarta/Web/web_garis_start_medium
+description: |
+  Marathon runner? silahkan daftar lewat web ini. Tapii… setelah webnya ready ya!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Ismail Hakim (twang#7040)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Cyberkarta/Web/web_garis_start_medium
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: untuk_panitia/web_garis-start/service/.DS_Store
+    reason: 'macOS Finder metadata, not challenge material.'
+  checksum_verified: true
+  checksums:
+  - path: Guide.md
+    algorithm: sha256
+    value: 0732ce05dbf8d656c89c4cc5c0c8709d235ee6da69273416bf6d53205e0f2b51
+  - path: untuk_panitia/Solve
+    algorithm: sha256
+    value: 469e2ca12360d44aee48b4be4ee365c82ff3f1b87b215525e3ea3cc13b6bd633
+  - path: untuk_panitia/web_garis-start/service/.docker/setup.sql
+    algorithm: sha256
+    value: 76c25ed352a00884ab9fe847b0b7f98bc37d4663d9d434cf096054f7cd4d2559
+  - path: untuk_panitia/web_garis-start/service/docker-compose.yml
+    algorithm: sha256
+    value: 96d34c4cdd767005803c7f4315ec0b0d422d5ce11a0bf237b63e4a91d9175ab6
+  - path: untuk_panitia/web_garis-start/service/php/.htaccess
+    algorithm: sha256
+    value: d792815026e6b28c5610291cc3df33f7e4e72228fd2ef2be43f8551ca68e3c7c
+  - path: untuk_panitia/web_garis-start/service/php/Dockerfile
+    algorithm: sha256
+    value: f41a1761188934f2a9e38d077d3e58766e64fcb98334b8cca1dcdd33f56bbb1a
+  - path: untuk_panitia/web_garis-start/service/php/css/main.css
+    algorithm: sha256
+    value: f2f63cfc42d3479fdb8178eb7799d6c9cf1d94579322bab3780845e7ac1ad587
+  - path: untuk_panitia/web_garis-start/service/php/flag.txt
+    algorithm: sha256
+    value: 9bb59d87e44e6406e0ad67cafb28f5637b927d27b33b8dfc058b790034afea67
+  - path: untuk_panitia/web_garis-start/service/php/images/images_start.svg
+    algorithm: sha256
+    value: ba14d24cfed8124bbc91889547a5269e4e9571708512aea448e7ffaf0c083057
+  - path: untuk_panitia/web_garis-start/service/php/includes/.htaccess
+    algorithm: sha256
+    value: b3c24d9ac22a58159f07ba59f97d4bcdee06380ee0a778af1a67b2885e65e92c
+  - path: untuk_panitia/web_garis-start/service/php/includes/head.php
+    algorithm: sha256
+    value: bd1bc2abb729cc3a1f21e47258ece32cc593aa4206d0d74a27507212d4910280
+  - path: untuk_panitia/web_garis-start/service/php/includes/nav.php
+    algorithm: sha256
+    value: 718b38923106a2d31764eb78c5bebb0f97f8b9430293767fe33803c66024e79b
+  - path: untuk_panitia/web_garis-start/service/php/includes/process_login.php
+    algorithm: sha256
+    value: 0c4cf6e31c6a0a603f6dc0e0baf080b8de550cbec395a8d9ab29cf9c91f11b0b
+  - path: untuk_panitia/web_garis-start/service/php/index.php
+    algorithm: sha256
+    value: e677c6ae145802ee0bc94ab72a1e2e6aa2386bf0e60d79068fa7be9e16b3f09a
+  - path: untuk_panitia/web_garis-start/service/php/js/main.js
+    algorithm: sha256
+    value: 5f75e31bc91dc6cce4207ae01b7c8f709ef0ea4f859d9f8a621a7fb8352ba61a
+  - path: untuk_panitia/web_garis-start/service/php/login.php
+    algorithm: sha256
+    value: 2e32fe55e6ea970509cb4f52fc1cf64eb0772f9664bb40112115e9f7d4bbfc6c
+  - path: untuk_panitia/web_garis-start/service/php/users.db
+    algorithm: sha256
+    value: 35123fe30e09d7c09e11788b953971e9f00be6fa3d7af6e6bbf18422596c27a0
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Cyberkarta/Web/web_garis_start_medium at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Cyberkarta/Web/web_garis_start_medium
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author. The source ships the organizer deployment tree under untuk_panitia/ and, for OooVM, the participant whitebox archive; all are preserved as given.

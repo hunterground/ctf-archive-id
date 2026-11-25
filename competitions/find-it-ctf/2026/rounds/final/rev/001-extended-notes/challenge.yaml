@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-final-rev-001
+name: Extended Notes
+slug: 001-extended-notes
+original_name: Extended Notes
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse
+description: It's either extremely painful reversing session or just "reversing" with AI.
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- rev
+- android
+authors:
+- name: Marc
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: final/Reverse/Extended Notes
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 84bca4426a7d464bc52b5a759b5d9179b8c9f69e33a9b98a6bf76c3799a752c5
+  - path: dist/ExtendedNotes.apk
+    algorithm: sha256
+    value: 71176c4378dcc1ec3ba957da5c246ac8b037ee2d643465e5bc0b04729a87b173
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: final/Reverse/Extended Notes at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final/Reverse/Extended%20Notes
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names Marc as the author and assigns an organizer value of
+  1000; the challenge is an Android APK named ExtendedNotes.apk. No solver was shipped for this challenge.

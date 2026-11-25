@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-qualification-rev-001
+name: unoriginal
+slug: 001-unoriginal
+original_name: unoriginal
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Free Flag!
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- rev
+authors:
+- name: Etynslop
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: quals/Reverse/unoriginal
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 211a08a902503e1f185f603eafd46e18f1821048c77220eb8f1231151845e684
+  - path: dist/challenge
+    algorithm: sha256
+    value: 9f7d98a077a5648217b3e74766cd3d7471fbf6f931bdd4625d856431907fb0f2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: quals/Reverse/unoriginal at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/quals/Reverse/unoriginal
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names Etynslop as the author and assigns an organizer value
+  of 1000; the description reads only "Free Flag!". The published flag is part of original/challenge.yml
+  and is not repeated here.

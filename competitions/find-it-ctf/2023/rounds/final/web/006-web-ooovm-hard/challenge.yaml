@@ -1,0 +1,140 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-web-006
+name: Web_Ooovm_Hard
+slug: 006-web-ooovm-hard
+original_name: Web_Ooovm_Hard
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Cyberkarta/Web/web_ooovm_hard
+description: |
+  Website ooovm dengan berbagai kapabilitasnya
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Ismail Hakim (twang#7040)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Cyberkarta/Web/web_ooovm_hard
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Untuk_Panitia/Dockerfile
+    algorithm: sha256
+    value: e97e59ee49698c14ab59d4099dee9c33c3c004453c4018252f988513a3d966a2
+  - path: Untuk_Panitia/OooVM/CustomSessionHandler.php
+    algorithm: sha256
+    value: 14b40ac78bc252dfb2d16342a323dd2946adcd7f5ca33b33baea849340a13993
+  - path: Untuk_Panitia/OooVM/Database.php
+    algorithm: sha256
+    value: 8236e4af869071b0474b3cdc46a3199fb207c9b6ea10830103e968bee6a5128a
+  - path: Untuk_Panitia/OooVM/Router.php
+    algorithm: sha256
+    value: 7beaa921dc37d3a912b258b9e7c035fd321612e36637a9342a916ef3194afa67
+  - path: Untuk_Panitia/OooVM/assets/favicon.png
+    algorithm: sha256
+    value: 76345952d180e1821ba5cf310b2c1c53b55399c0a037dc9357207421461176dd
+  - path: Untuk_Panitia/OooVM/assets/images.gif
+    algorithm: sha256
+    value: b99aa3719b7f022f625a3d46c60b1e76fb7d3ba3b865149e44e1e427a9dcd019
+  - path: Untuk_Panitia/OooVM/assets/therock.gif
+    algorithm: sha256
+    value: 576852277125a1c5f7a4db0c6972300ef0577aba2e31443768b5aa673a463f60
+  - path: Untuk_Panitia/OooVM/controllers/Controller.php
+    algorithm: sha256
+    value: 6b44f67fd26864418013914d3afd9eb95de1aab0a04e22b6733039fbb3d7c9ea
+  - path: Untuk_Panitia/OooVM/controllers/ImageController.php
+    algorithm: sha256
+    value: 4b746a3a4a54b0c3f779134e2c4bfd16f199ecaacce66b5390370d07684ed369
+  - path: Untuk_Panitia/OooVM/controllers/ProxyController.php
+    algorithm: sha256
+    value: 85116cbb36c20b3236dc45179f9cfccd92944cd8d915f7cda318a331f21b47ef
+  - path: Untuk_Panitia/OooVM/index.php
+    algorithm: sha256
+    value: 62e061517335c61bb6e89645586cb28bc929fec981c73b4fe18d31b405e11dc3
+  - path: Untuk_Panitia/OooVM/models/FileModel.php
+    algorithm: sha256
+    value: df6b153a389bbdb9cca50409038f09dad9462e973224db3956d90b7088f69776
+  - path: Untuk_Panitia/OooVM/models/ImageModel.php
+    algorithm: sha256
+    value: 660d9f987f5d662f5f6650199ce4a75f0a362a08c0d99b8f55c10fc17708931b
+  - path: Untuk_Panitia/OooVM/models/Model.php
+    algorithm: sha256
+    value: 93c663897520d2643d851ca29127300c311df0f4d7cfa3c259da70a07797dea8
+  - path: Untuk_Panitia/OooVM/models/UserModel.php
+    algorithm: sha256
+    value: 197775ecb863d965f8ac9cff483489533c03283645e59409715306afece5335a
+  - path: Untuk_Panitia/OooVM/static/css/main.css
+    algorithm: sha256
+    value: 056f75a78ac6b7c37f2861a91ed84d7a217bbbef32f9fda8364288807d0a452d
+  - path: Untuk_Panitia/OooVM/static/js/therock.js
+    algorithm: sha256
+    value: fb95034be9ae89c9d6b0fababc36f1b8f545160619e2523048cb81fe1fa8388b
+  - path: Untuk_Panitia/OooVM/uploads/.gitignore
+    algorithm: sha256
+    value: 5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452
+  - path: Untuk_Panitia/OooVM/views/show.php
+    algorithm: sha256
+    value: 3f48c6347d8ae437ad8bab5b792a92d7d4f12f63f19d1b43fed69b0d8fe150ce
+  - path: Untuk_Panitia/OooVM/views/upload.php
+    algorithm: sha256
+    value: f2e29e858624520772b36e77fd83fc1ce1d5ce1af887b1e0bf3c322c89ed35da
+  - path: Untuk_Panitia/config/fpm.conf
+    algorithm: sha256
+    value: c9889aa19a61416322a2c3afbd8a3950d6be0a00b49bcefb88420ba8c42fdb83
+  - path: Untuk_Panitia/config/nginx.conf
+    algorithm: sha256
+    value: ebddeb636f687f685918981f7a57a823c93ce5fb4e137258b80dd3a05211c443
+  - path: Untuk_Panitia/config/supervisord.conf
+    algorithm: sha256
+    value: d5b7e029c4511d85d796906a43b1a6479c16e35383b2cbcc097d0ed542cf6f5b
+  - path: Untuk_Panitia/dockerbuild.sh
+    algorithm: sha256
+    value: e8bc6ce997aeb95e8a22467ba7ecb69474487d1811d8cec6bdc6aa8158bce10a
+  - path: Untuk_Panitia/entrypoint.sh
+    algorithm: sha256
+    value: e51397a707cb07287c100c074e21c38338caa41de43b70914fb957b06216f70b
+  - path: Untuk_Peserta_whitebox_challenge/OooVM.zip
+    algorithm: sha256
+    value: 5382bb9bd7b4ab18b28003b23fdf8173f60f8d27b0a86bc0183f594aebf558e0
+  - path: guide.md
+    algorithm: sha256
+    value: f6e43a009779ba5e6d66409ec9ba02a505a4cbee895c8f7a0a3ecfc1c75ce6f9
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Cyberkarta/Web/web_ooovm_hard at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Cyberkarta/Web/web_ooovm_hard
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author. The source ships the organizer deployment tree under untuk_panitia/ and, for OooVM, the participant whitebox archive; all are preserved as given.

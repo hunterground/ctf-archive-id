@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-crypto-002
+name: i love matrix
+slug: 002-i-love-matrix
+original_name: i love matrix
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Today, your linear algebra lecturer taught you about something that you forgot the name of.
+  You only remember two sentences. The first one is "Which vectors stay parallel with the original vectors?"
+  and the second one is "How many times the original vectors is longer or shorter than the thing mentioned
+  in the first sentence?"
+difficulty:
+  value: 979
+  source: organizer
+tags:
+- crypto
+- linear-algebra
+authors:
+- name: hilmo
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Cryptography/i love matrix
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 391314497221d40d6c630acbb29b04680a19097c9a06ce13c14a7d1b5610373f
+  - path: i love matrix.zip
+    algorithm: sha256
+    value: f70a145ba252fee947da63bef735231ad172f114df0453f49f305983f71ddece
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Cryptography/i love matrix in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

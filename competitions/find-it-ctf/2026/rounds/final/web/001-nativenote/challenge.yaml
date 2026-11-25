@@ -1,0 +1,149 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-final-web-001
+name: NativeNote
+slug: 001-nativenote
+original_name: NativeNote
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: 'We built a sleek note-sharing app — now our admin reviews flagged notes with a premium desktop
+  client.
+
+  The client was written quickly, and the developers may have taken a few shortcuts.
+
+
+  Can you get the admin''s flag?'
+difficulty:
+  value: 5
+  source: organizer
+tags:
+- web
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: final/Web/NativeNote
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 6fb0d2fe890a9f7a0f415459c48f6df1fe9fd521b8af9b696c115986823d8753
+  - path: challenge.yml
+    algorithm: sha256
+    value: 931a97c1259585564ef343f7718132ad2bf08261e35acd3d52dc4b112c7b2883
+  - path: dist/NativeNote.zip
+    algorithm: sha256
+    value: 23d747075695cf49bced4022163068d651bdce9045a4dac63ed7354d48c5294a
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: fc6ef7a824fda8df9da2aed36d3156a286c22115659aaf5ae5ee5a68af5ce074
+  - path: src/.env
+    algorithm: sha256
+    value: 2233c985b9810e6819dd73aea6a53eba703eab6459f0f8fab2d42c85b4c4b155
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: cf0525c1f4a2e3da164c91ce7692cfd5201a2b21150304a7dfafbda54ebc728c
+  - path: src/app.py
+    algorithm: sha256
+    value: 3c66b86a35aaf6cb300a68bd207944f40e60a5c31369da21781a0bdb6cd8df98
+  - path: src/bot/main.js
+    algorithm: sha256
+    value: 2956505c546aca86bb55d03ea7fb1297f1af2d8735d133652eb57c69416b91ed
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 29847f549aeae768e0320d59b166a72068afc0311234deab6f5f1dcc74311bbb
+  - path: src/bot/preload-src/package-lock.json
+    algorithm: sha256
+    value: 37d264781e53ea576539c587e1dfb138caae64c607496207d707a370e748cbf2
+  - path: src/bot/preload-src/package.json
+    algorithm: sha256
+    value: cfad3bc5b94bc5078047d69c48826448c3ef3d3fe437be36c145f9232443ee34
+  - path: src/bot/preload-src/src/preload.js
+    algorithm: sha256
+    value: 3f3b95a9e57e08f8b2a456b5b4c2aa0a607e64a0f6ebd3b7f1ae4c4a0eed1870
+  - path: src/bot/preload-src/webpack.config.js
+    algorithm: sha256
+    value: 7f4417656f25060b7c08ea99fa2db2a8dda6443d4a53f517cf917b7571b6c985
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 625898547be020ff01d8fd27da49892057f162eff31f2e7cb62e559a8e06efb4
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: bf1a0a60ff6ca1799418ff00e1d92a728c65f67071216d4786fcc8d5076a7dfe
+  - path: src/start.sh
+    algorithm: sha256
+    value: 887c18e2f4ad2097babdaed060ab3ebfd1f54406737f16c6c61bcb9a6c66a51f
+  - path: src/static/bg-pattern.svg
+    algorithm: sha256
+    value: ee2207dc7e20363e6d88611a03c428556f98f599cc208496d7111d82f739970b
+  - path: src/static/mask.svg
+    algorithm: sha256
+    value: c6410394a0606c5c4d5009501f2cc4a2ecdd96de4b0caf016211763ac33f0d81
+  - path: src/static/style.css
+    algorithm: sha256
+    value: 08bd24611f7e81875dbd6d3ebb826426ddb78b3b93ecd716d83b0789e6650e1f
+  - path: src/static/torn-edge.svg
+    algorithm: sha256
+    value: ca488f80db80dc6f7a502c3bd71a2ccef3623a3033054131e7572b0b3478091a
+  - path: src/templates/base.html
+    algorithm: sha256
+    value: 6ff5bba7b1f1fdbc30632e3da9ed0220461dcdd39abf87858bb9e4e448b2d2ff
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: a7bbd5e68a88793f4a8cd071a759d0b48b0b9656575f72a2989d805121b68fff
+  - path: src/templates/macros.html
+    algorithm: sha256
+    value: cb58ff1b6a0b46e0376913faea5a8987d2bd33eddf53aae4684f659f80859a7f
+  - path: src/templates/note.html
+    algorithm: sha256
+    value: 595508f0782ea5896d1a5f9984d42a6710329e30dd0f03bb7a6e084250f511be
+  - path: src/templates/notes.html
+    algorithm: sha256
+    value: 151b2ba257fffb21adf7d75f704ad99d8e5c5d36b9fdf6dedc124fad76aac879
+  - path: src/templates/register.html
+    algorithm: sha256
+    value: 33dbf8295d6875b591bfabd6d081e61c6b193974f760a9c3fafd492602365fb4
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: DynamicContainer
+  services: []
+  requirements: []
+references:
+- title: final/Web/NativeNote at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final/Web/NativeNote
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names Dimas Maulana as the author, declares category Web,
+  and gives difficulty 5 with no separate point value, so the organizer difficulty rating is recorded
+  as-is; it is not comparable to the 1000-point values other challenges in this set carry. The flagTemplate
+  uses a per-team hash placeholder, which is kept out of the metadata. Both the src/ application tree
+  (Flask app and Electron bot with its preload sources) and the dist/ archive are preserved. The source
+  solver/ directory was moved to solvers/competitions/find-it-ctf/2026/ and is not a preservation omission.
+  src/.env holds only DOMAIN=1pc.tf and is preserved because it ships with the distribution.

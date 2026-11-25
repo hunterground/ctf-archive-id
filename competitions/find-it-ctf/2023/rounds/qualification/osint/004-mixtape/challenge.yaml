@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-osint-004
+name: Mixtape
+slug: 004-mixtape
+original_name: Mixtape
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: 'OSINT (Open-Source Intelligence)'
+description: |
+  Hey, I heard you can do OSINT? Well, I have a challenge for you. Guess my favorite song, in May of 2019! Take a look: https://open.spotify.com/user/31xz343hzapehdt4kvwwnlrh2qru
+
+  Notes: Place your answer in the format of FindITCTF{Artist_Name_Song_Title}. If there are multiple artists, credit the FIRST artist according to Spotify.
+difficulty:
+  value: 150
+  source: organizer
+tags:
+- osint
+- spotify
+authors:
+- name: 'Elin(tinygiant#8987)'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Mixtape'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0f88e9fd75eaf4f4da532dd234592520b142860ea49d96b019780650d9b0dfc3
+  - path: flag.txt
+    algorithm: sha256
+    value: 5b83e622c3fc725a00e094fbe4a6d1d7d39aca627d7dc576ce0818bca00f4517
+  - path: peserta/README.md
+    algorithm: sha256
+    value: 903624b793acbbba848bd765d684bb7e79f1e997c25d86721c948d3c083486d6
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Mixtape at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/OSINT%20(Open-Source%20Intelligence)/Mixtape
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

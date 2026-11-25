@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-final-osint-001
+name: MINCERAFT
+slug: 001-minceraft
+original_name: MINCERAFT
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: osint
+original_category: Taalenta/osint/minceraft
+description: |
+  Alex adalah seorang pencari kerja.
+  Dia aktif bermedia sosial.
+  Hingga saat ini dia belum mendapatkan pekerjaan.
+  Akhirnya dia menjadi pengangguran.
+
+  Ternyata Alex dan keluarga manusia 4 dimensi!
+difficulty:
+  value: 500
+  source: organizer
+tags:
+- osint
+authors:
+- name: 'hanz0x17#5746'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-final-collab/Taalenta/osint/minceraft
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 647d9e3f8e5445a725e8689a56923cf3c301f9e6c43e30f1620f1be9a9423ff2
+  - path: dist/alex-apaan-nih.jpg
+    algorithm: sha256
+    value: ba253be9f0ab485a858caa133f735a2d8e3abbcc90e74245c5890de2403c0b12
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-final-collab/Taalenta/osint/minceraft at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-final-collab/Taalenta/osint/minceraft
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Challenge from the 2023 final round, published by the organizer in the final-collaboration pool. The source records the collaboration with Taalenta and Cyberkarta; Taalenta was the problem setter and judge per the organizer account, and the Cyberkarta-authored challenges are attributed here to their stated author.

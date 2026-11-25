@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-rev-004
+name: Top-Level Security
+slug: 004-top-level-security
+original_name: Top-Level Security
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |
+  A bank vault has this state-of-the-art security technology on their program. Or so the owner said. He said the password is the key. Well, it always was, wasn't it?
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- rev
+- rot
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: challenge-pools-preliminaries/Reverse Engineering/Top-Level Security
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: beac19c9546a5745f242bdd1effa012befda71bd51b3db03bddb87c91382e6b4
+  - path: chall.cpp
+    algorithm: sha256
+    value: ef22d2037b84e0fbf639663b27c0b58f84bfb1a91b747c4b67a76164e9f0e7a5
+  - path: peserta/altchall.exe
+    algorithm: sha256
+    value: 79bd3f7b2d2a3fff19aff11b4d27aad8c6eeb554d2547f1f37f68078b3acd778
+  - path: peserta/chall.exe
+    algorithm: sha256
+    value: ad669f889ef344daa57d6447f9bbe94a800c1dfb08b1491368b42a79fd743e27
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: challenge-pools-preliminaries/Reverse Engineering/Top-Level Security at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Reverse%20Engineering/Top-Level%20Security
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

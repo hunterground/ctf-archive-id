@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-forensics-001
+name: File Kosong
+slug: 001-file-kosong
+original_name: File Kosong
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Joe Biden mendapatkan sebuah file dari Vladimir Putin. Akan tetapi, setelah dibuka Joe Biden,
+  filenya ternyata kosong. Bantulah Joe Biden untuk menemukan pesannya.
+difficulty:
+  value: 588
+  source: organizer
+tags:
+- forensics
+- unicode
+authors:
+- name: LevireG
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Forensics/File Kosong
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9e3bf30a9d3be55f260532438ce9346be0f02a8da121376338397a13032871c6
+  - path: file kosong.zip
+    algorithm: sha256
+    value: 92d66abe1d7b88de262e644dbd866f671ce10eba1b8e3557490577f6e2c8391d
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Forensics/File Kosong in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

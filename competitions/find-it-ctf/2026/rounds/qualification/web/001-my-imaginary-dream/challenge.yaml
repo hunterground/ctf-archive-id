@@ -1,0 +1,155 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-qualification-web-001
+name: my imaginary dream
+slug: 001-my-imaginary-dream
+original_name: my imaginary dream
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'A Go note-taking app offers note creation, search, single-note views, and some legacy formatting
+  behavior.
+
+
+  An admin bot also interacts with the service. Somewhere in that workflow is enough to recover protected
+  data.'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- web
+- ssti
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: quals/Web/my imaginary dream
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 22b3c698cff0317041e9fc169e05834244f2bd98971310aeb7de86b867e1dad1
+  - path: dist/my_imaginary_dream.zip
+    algorithm: sha256
+    value: d72aea5f7d9f820aa2f4e3c310852e4bb486966c0a94a15c28471cabf78e7e4b
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6a8d31bdc0478232464a832cdd72d0390b91becef05285d92b0d8d662e83d48d
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 430017179341208e127dc59ae1c7bd933f6301b9c36492bc652ed4e1389ceb9f
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: 3976b0ccb933b283b1bfac4abcea7f70356db7dcf3fa1bf872d56dc4a0660606
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: 9ca3645f11a15d4f113d9d9d2344ca14e2f33259e508e98530158ebd9638b9d4
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b4232521bf8880d825b79bffb258e012a4d7ccae90ca73d5f8ba94dbb7096921
+  - path: src/ext.conf
+    algorithm: sha256
+    value: 55c17d750f8cff55f36ef4f12324578b056f1662542ad267ee9633001b8f55d1
+  - path: src/nginx.conf
+    algorithm: sha256
+    value: 7673fccd13e47efe5477577e93fc329941660bbcdcf09b37759cb8b760a6a922
+  - path: src/src/assets/login.js
+    algorithm: sha256
+    value: ed8fb7a2e6cd35c3c8925f13f0fdc568915f8862689c3d950066e8c69d34ac63
+  - path: src/src/go.mod
+    algorithm: sha256
+    value: abf1698d0c602365349f0f13311405ecfaf3b385663dba42d1cd0e5c9c52f41e
+  - path: src/src/go.sum
+    algorithm: sha256
+    value: eb3621d41b37adfde938a8955bfdda5aaa29c0ff4d553400126689443245ad2a
+  - path: src/src/main.go
+    algorithm: sha256
+    value: 5715689e9f5ad98aca92df83a63b4f6fca6ae3b2795ee5031cdb6788fdea8dfa
+  - path: src/src/route.go
+    algorithm: sha256
+    value: 909671308fdcd4858b2397a32dce39eb5dd27bc31c4740f9994cebde58a9488a
+  - path: src/src/src
+    algorithm: sha256
+    value: f439ac07235ea219060a157bb2d374bdea5819cce97932b82f3ccd681fe6869b
+  - path: src/src/type.go
+    algorithm: sha256
+    value: b9874e33f0228b1d562bba1b37400cd04c6d8389f3d389c7a20ca91696d8f9a3
+  - path: src/src/utils.go
+    algorithm: sha256
+    value: 23d7c3cae7d7d6b1b5e6501eb109d90845b477cbd1bfe7a036415a6d2ab4cc63
+  - path: src/src/views/index.html
+    algorithm: sha256
+    value: 65e66fdfb7ada1ef0326e185058f0bc906a33e9f17f5460f5f08faa308e8b07e
+  - path: src/src/views/login.html
+    algorithm: sha256
+    value: 5ac129109635196752a4567a1eb0f322e26f0263598507ea7a2d3e81b9ddaa4d
+  - path: src/src/views/note.html
+    algorithm: sha256
+    value: 43650a0561c7a69018a2bbd0a3409a34b527203125d32e2561e22f3a6777a9fe
+  - path: src/src/views/notes.html
+    algorithm: sha256
+    value: 2777a85603f264cd6ac9602d4ded198a24aba2a3ad4bdf513fe07bc831421360
+  - path: src/src/views/preview-results.html
+    algorithm: sha256
+    value: acd3db75cf9f47b61758fc85829e24d5c18bfbc2d5b7c5dd58b79baf860c7d0e
+  - path: src/src/views/register.html
+    algorithm: sha256
+    value: c7e3e9c0f0965452c141395cd08fd2c2a68b8cc61ebe67c9274878b377770cb0
+  - path: src/src/views/search-results.html
+    algorithm: sha256
+    value: fbce697b18aaad2f74901a40769ffc7c06477e1553d06b0daa4948c21c5212bf
+  - path: src/src/views/shared-notes.html
+    algorithm: sha256
+    value: e527450751a8c06d83ae4b272c994e0588465c182d0aaa661e36830e7a262b85
+  - path: src/src/views/theme.html
+    algorithm: sha256
+    value: da5ad8c761a4d0859f820b9f32f5794c7c96c4add8eedde93c5d9d76bb3337eb
+  - path: src/src/watcher.sh
+    algorithm: sha256
+    value: 022eeb0fffa394121cdfc2ab329f093b42eb8de7ceec556af0ef02bb1e871867
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: quals/Web/my imaginary dream at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/quals/Web/my%20imaginary%20dream
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names Dimas Maulana as the author and assigns an organizer
+  value of 1000. Both the src/ deployment tree (Go service, nginx, and admin bot) and the dist/ attachment
+  are preserved. The source solver/ directory holding solve.py, writeup.md, and a solve-side Dockerfile
+  was moved to solvers/competitions/find-it-ctf/2026/ and is not a preservation omission.

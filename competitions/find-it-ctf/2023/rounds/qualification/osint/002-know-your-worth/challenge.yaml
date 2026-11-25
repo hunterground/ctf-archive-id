@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-osint-002
+name: Know Your Worth
+slug: 002-know-your-worth
+original_name: Know Your Worth
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: osint
+original_category: 'OSINT (Open-Source Intelligence)'
+description: |
+  My friend loves looking at the US stock market. He stumbled upon a stock with a movement like this one, but he forgot to look at the name of the stock. Can you help him find this stock?
+
+  Note: Format flag adalah FindITCTF{namaperusahaan_TICKER_kotaheadquarters} dengan kapitalisasi sesuai seperti petunjuk
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- osint
+- stock-market
+authors:
+- name: 'Infinicus#6867'
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Know Your Worth'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 46bfbf409473186a5232c618efb71a3f26ccbc53b5f42ad590e32ad38b35bd54
+  - path: peserta/chall.jpg
+    algorithm: sha256
+    value: bc6bf9c8da55a789c9eb9f42e0912e1be814b86ed69fc3217c2c40e351cc3286
+  - path: peserta/chall2.png
+    algorithm: sha256
+    value: 303943fc30cbc75003860e67ae2884df030e3aab81147b7cc0096680de5996a2
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/OSINT (Open-Source Intelligence)/Know Your Worth at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/OSINT%20(Open-Source%20Intelligence)/Know%20Your%20Worth
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

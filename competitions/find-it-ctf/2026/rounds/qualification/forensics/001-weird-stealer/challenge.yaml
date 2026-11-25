@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: find-it-ctf-2026-qualification-forensics-001
+name: weird stealer
+slug: 001-weird-stealer
+original_name: weird stealer
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: i just found this weird stealer in the wild, no scenario needed, my heart is already stolen
+  ❤️
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- forensics
+- memory
+authors:
+- name: buwung ap tu man
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-findit-ctf-2026
+  source_type: git
+  repository: https://github.com/TCP1P/findit-ctf-2026
+  commit: 164d9ca0bc635bef5133228a310fc2e0fc3b5773
+  original_path: quals/Forensics/weird-stealer
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 46414e789137150b9f3573d2aef386d311ac029ca01e5d1791e98bbb563bce87
+  - path: dist/stealer.zip
+    algorithm: sha256
+    value: 87da120d534d7a8e493668c5818c57eca4f0e627c87658f30155ac72d4699cb3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2026 challenge material contributed to TCP1P/findit-ctf-2026 by its named
+    authors
+  permission_reference: No license file in the source repository. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: quals/Forensics/weird-stealer at github.com/TCP1P/findit-ctf-2026
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/quals/Forensics/weird-stealer
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Author-side source. The challenge.yml names "buwung ap tu man" as the author and assigns an organizer
+  value of 1000. The solver write-up shipped in the source's solver/ directory was moved to solvers/competitions/find-it-ctf/2026/
+  per archive policy and is not listed as a preservation omission.

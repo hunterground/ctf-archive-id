@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: find-it-ctf-2024-qualification-forensics-002
+name: Image Cropper
+slug: 002-image-cropper
+original_name: Image Cropper
+competition_id: find-it-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Alice found a python script that in its documentation promises to make it easy to crop images
+  to a 1:1 ratio. However, Alice was scammed by that script, which actually removed the input image she
+  inserted and transformed it into another file. Meanwhile, the image holds something important for her.
+  Can you help Alice get that important thing back?
+difficulty:
+  value: 972
+  source: organizer
+tags:
+- forensics
+- audio
+authors:
+- name: BROP
+  team: null
+organization: null
+provenance:
+  archive_id: find-it-ctf-2024-quals-export
+  source_type: git
+  repository: https://github.com/jonscafe/ctfs-write-ups
+  commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+  original_path: findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip!Forensics/Image Cropper
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3d5976b9da792bc6aa089b2a5f9b234d20254cd6555e4e9d1c05724060a56498
+  - path: image cropper.zip
+    algorithm: sha256
+    value: d9940b1c4e31a1a5c484d7908cad883542b94bbdbb7842c5f066db6f24c25566
+licensing:
+  declared_license: MIT
+  copyright_holder: Find IT! 2024
+  redistribution: permitted
+  attribution_required: true
+  attribution: Find IT! CTF 2024 challenge material by the named challenge authors, exported from https://ctf.find-it.id
+    and republished in jonscafe/ctfs-write-ups
+  permission_reference: No license file in jonscafe/ctfs-write-ups. Recorded as MIT per archive maintainer
+    instruction on 2026-11-25, with the challenge-material rights remaining with the Find IT! 2024 authors
+    and organizer.
+environment:
+  type: StaticAttachment
+  services: []
+  requirements: []
+references:
+- title: Forensics/Image Cropper in Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  url: https://github.com/jonscafe/ctfs-write-ups/blob/56e338da88bb38b618e80af6c8ab445bb4ff9c11/findit-2024-quals/Arsip_CTF_Find_IT_UGM_Quals_2024.zip
+  type: third_party_archive
+  accessed: '2026-11-25'
+- title: CTF Find IT! 2024 (exported platform title)
+  url: https://ctf.find-it.id
+  type: official_website
+  accessed: '2026-11-25'
+verification: corroborated
+notes: null

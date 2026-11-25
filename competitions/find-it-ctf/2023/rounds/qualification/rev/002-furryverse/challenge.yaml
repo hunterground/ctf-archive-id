@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: find-it-ctf-2023-qualification-rev-002
+name: 'Furr(y)verse'
+slug: 002-furryverse
+original_name: 'Furr(y)verse'
+competition_id: find-it-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |
+  Sebuah pertemuan rahasia diadakan oleh perkumpulan Furry Indonesia di Land of Dawn. Sebagai anggota intelijen, kamu ditugaskan untuk mengikuti pertemuan tersebut untuk menguak rencana apa yang sedang mereka buat. Namun, untuk dapat mengikuti pertemuan itu, kamu harus mencari flag yang tepat agar bisa diijinkan masuk ke Land of Dawn. Bisakah kamu mencari flag itu? <br/>
+difficulty:
+  value: 200
+  source: organizer
+tags:
+- rev
+- elf
+authors: []
+organization: null
+provenance:
+  archive_id: find-it-ctf-2023-chall
+  source_type: git
+  repository: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall
+  commit: 5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc
+  original_path: 'challenge-pools-preliminaries/Reverse Engineering/Furr(y)verse'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Peserta/ayojadifurry
+    algorithm: sha256
+    value: 1a8fbff085d3b03dc25802607e0c6e03129055e9fdd0a64e51f189983c21eadf
+  - path: README.md
+    algorithm: sha256
+    value: cc4ca5004147ad1fd8f3c5f8639500abe93ac3deadaba73b15c688e1057dd342
+  - path: ayojadifurry
+    algorithm: sha256
+    value: 1a8fbff085d3b03dc25802607e0c6e03129055e9fdd0a64e51f189983c21eadf
+  - path: implementation.c
+    algorithm: sha256
+    value: caee0a1535cd89e5a131206280c503ef0b34d9a96d7cbc7297b3c182a228d683
+  - path: ss1.png
+    algorithm: sha256
+    value: 6b516f9fcaa58ee9297fd95bb9f920b749c661593ee02c4ceff05ded9d5515b5
+  - path: ss2.png
+    algorithm: sha256
+    value: d5e2b8b598bacf8c7c3b7b7f1354a7a7d4879adf09834ad11f3f2a0cc223f716
+  - path: ss3.png
+    algorithm: sha256
+    value: fa34e00b0dcb618639b6fa6ac0d8ed32e6443caa2a7667ebd5a2e2b16a24e438
+licensing:
+  declared_license: GPL-3.0
+  copyright_holder: 'CTF Find IT 2023'
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Find IT! CTF 2023 challenge material by the Find IT! 2023 problem-setting team, published by the CTF Find IT 2023 organizer organization (competitions@find-it.id), https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  permission_reference: 'GPL-3.0 LICENSE at the source repository root, preserved at competitions/find-it-ctf/2023/LICENSE.'
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 'challenge-pools-preliminaries/Reverse Engineering/Furr(y)verse at github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall'
+  url: https://github.com/CTF-Find-IT-2023/CTF-Find-IT-2023-Chall/tree/5f74ca4a6e85773aae1d5a4ea26c7deecfb501cc/challenge-pools-preliminaries/Reverse%20Engineering/Furr(y)verse
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Taalenta on Find IT UGM 2023 CTF
+  url: https://taalenta.id/blog/taalenta-dipercaya-sebagai-problem-setter-pada-ajang-capture-the-flag-ctf-findit-ugm-2023/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: |
+  Organizer-published challenge pool for the 2023 preliminaries. The source README gives the challenge description, the score, and (where stated) the author's Discord handle; those are recorded as-is. The README also gives the published flag, so flag text is not repeated here. Solver material (solver files) was moved to solvers/ per archive policy and is not listed as a preservation omission.

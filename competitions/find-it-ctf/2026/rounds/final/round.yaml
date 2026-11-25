@@ -1,0 +1,45 @@
+schema_version: '1.0'
+id: final
+competition_id: find-it-ctf
+edition_year: 2026
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: unknown
+description: >
+  Final stage of Find IT! CTF 2026. Six challenges were published in the
+  author-side event repository under final/, covering Cryptography, Forensics,
+  Pwn, Reverse Engineering, and Web.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 6
+  participant_count: null
+references:
+- title: TCP1P/findit-ctf-2026 final tree
+  url: https://github.com/TCP1P/findit-ctf-2026/tree/164d9ca0bc635bef5133228a310fc2e0fc3b5773/final
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Find IT! CTF 2026 Finals on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/1
+  type: other
+  accessed: '2026-11-25'
+- title: FindIT CTF 2026 second-place account
+  url: https://www.linkedin.com/in/muhammad-falah-
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  No organizer statement was located for the 2026 final's date or venue, so both
+  date fields stay null and delivery is unknown; the .gzevent files in the source
+  carry 2026-01-10 to 2026-01-12, but that block is the untouched gzcli template
+  sample (its summary reads "example summary" and its organization reads "Miku fans
+  club"), so it is not used as an event date. A 2026 participant award notice places
+  recognition in May 2026, consistent with a final after the May preliminary. The
+  TCP1P::CTF practice mirror describes itself as imported from TCP1P/findit-ctf-2026,
+  which corroborates that this repository is the challenge set used for the event.
+  Six challenges carry a challenge.yml at the event-time commit. Solver material was
+  moved to solvers/competitions/find-it-ctf/2026/ and is not a preservation omission.
