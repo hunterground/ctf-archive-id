@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-forensics-003
+name: Ruze
+slug: 003-ruze
+original_name: ruze
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensics
+description: 'You are a DFIR Consultant, you got a client (MR. K) who has a ransomware problem, where
+  when he installs something suddenly his device reboots and his files suddenly disappear, and there are
+  files that confirm that he was hit by ransomware. can you help him?
+
+
+  Note : Dont execute the malicious file on your computer!
+
+
+  Note : Remember you are a DFIR Consultant, not a malware consultant who focus to analyze the ransomware
+  file!
+
+
+  you can download the file you need in here : [https://mega.nz/file/Ln53ARjT#ZUwOX1WBfTsRjgjsYgsHB5xr6d4pGNpVPr8N3kl6WhI](https://mega.nz/file/Ln53ARjT#ZUwOX1WBfTsRjgjsYgsHB5xr6d4pGNpVPr8N3kl6WhI)
+
+
+  Password : 1nip4ssw0rdny4'
+difficulty:
+  value: easy - medium
+  source: organizer
+tags:
+- ransomware
+- persistence
+- registry key
+- powershell script
+authors:
+- name: blacowhait
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: forensics/ruze
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a16c726543ffa4914f11bf9c218d05eae9f7c75efa71f1f76cda1d27a20ba98d
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 0440f78c2707e385ebf589336ad82f5a6fae226b157994e9cd9fb00ebe43b7dc
+  - path: writeup/aes_decrypt.py
+    algorithm: sha256
+    value: 7701853ef7bf19f27a9310f00b3277473b177e46c2e4cc32fb956f58ad55db33
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - forensics/ruze
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/forensics/ruze
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `forensics`; original_category preserves that label.

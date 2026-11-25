@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-forensics-001
+name: Hacked
+slug: 001-hacked
+original_name: hacked
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: for
+description: 'Aku memiliki server linux dan sepertinya baru saja dihack... Bantu aku analisis attachment
+  yang kuberikan dan jawab semua pertanyaan yang ada
+
+
+  Pass: 3a42937cf98baa5dd9a78846f54ae43f
+
+
+  Attachment: https://drive.google.com/file/d/1dPNJvubVKFbM43w9IPABvn26sDfB12-T/view?usp=sharing'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: for/hacked
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c2d198496dc274a3b459bac7b06a19c681cf77139fea6a8c28b1c6f7c2c6492c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 12bea11ba68235f40100b0072b6a8145f3b5aae74dc45183a0a8b16e382e1b82
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 48e0e4ec023db149a255fda8a0c511d31bae74979a0f41c44955e006afac91e5
+  - path: src/main.py
+    algorithm: sha256
+    value: 0d1c3202286ce20d3732ba98dbaa04505380c99c63ffd07790c7f957f852ab51
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - for/hacked
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/for/hacked
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `for`; original_category preserves that label. The 2025 organizer repository states no difficulty or tags.'

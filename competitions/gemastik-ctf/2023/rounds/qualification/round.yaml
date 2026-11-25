@@ -1,0 +1,38 @@
+schema_version: '1.0'
+id: qualification
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+name: Penyisihan
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online Capture the Flag qualification stage of the GEMASTIK XVI Cyber Security
+  division.
+dates:
+  start: '2023-07-16'
+  end: '2023-07-16'
+statistics:
+  challenge_count: 13
+  participant_count: null
+references:
+- title: Pedoman GEMASTIK 2023 (XVI)
+  url: https://kemahasiswaan.ub.ac.id/wp-content/uploads/2023/04/Pedoman-GEMASTIK-2023-v.pdf
+  type: official_website
+  accessed: '2026-11-25'
+- title: Penyisihan CTF GEMASTIK 2023 (organizer challenge repository)
+  url: https://github.com/ctf-gemastik/penyisihan
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >-
+  The GEMASTIK XVI guidebook schedules the Cyber Security qualification as a Capture the
+  Flag round on 16 July 2023, 18.00-23.00 WIB, with write-up judging 17-30 July 2023. It also
+  schedules a non-scoring warm-up on 9 July 2023; no warm-up challenge files are published in
+  the organizer repository, so no warmup round is created. The thirteen imported challenges are
+  the complete set published under this repository's crypto, forensics, pwn, rev, and web
+  directories; the template directory is repository tooling and is not imported. The guidebook
+  lists the tested material as system hardening, web, digital forensic, cryptography, binary
+  analysis, steganography, reverse engineering, and network sniffing, which is consistent with
+  the five published category directories.

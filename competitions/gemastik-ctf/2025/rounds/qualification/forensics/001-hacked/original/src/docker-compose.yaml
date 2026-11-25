@@ -1,0 +1,6 @@
+services:
+  for-hacked:
+    build: .
+    restart: always
+    ports:
+      - "9082:32884"

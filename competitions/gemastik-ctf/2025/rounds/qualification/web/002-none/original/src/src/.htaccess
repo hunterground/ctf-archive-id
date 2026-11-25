@@ -1,0 +1,4 @@
+<IfModule mod_headers.c>
+    DirectoryIndex index.html
+    Header always set Content-Security-Policy ""
+</IfModule>

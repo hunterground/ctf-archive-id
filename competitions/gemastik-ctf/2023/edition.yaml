@@ -6,12 +6,43 @@ name: GEMASTIK XVI Keamanan Siber
 status: completed
 verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2023-07-16'
+  end: '2023-09-16'
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: The 2024 guidebook's historical section places Gemastik XVI in 2023. Competition dates for the
-  cybersecurity division were not extracted.
+  challenge_count: 13
+references:
+- title: Pedoman GEMASTIK 2023 (XVI)
+  url: https://kemahasiswaan.ub.ac.id/wp-content/uploads/2023/04/Pedoman-GEMASTIK-2023-v.pdf
+  type: official_website
+  accessed: '2026-11-25'
+- title: Penyisihan CTF GEMASTIK 2023 (organizer challenge repository)
+  url: https://github.com/ctf-gemastik/penyisihan
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Tim Mahasiswa UMS Sabet Juara III pada Ajang Gemastik XVI 2023 Cabang Keamanan Siber
+  url: https://news.ums.ac.id/id/berita/tim-mahasiswa-ums-sabet-juara-iii-pada-ajang-gemastik-xvi-2023-cabang-keamanan-siber/
+  type: other
+  accessed: '2026-11-25'
+- title: devit7/CTF-Writeup-Mpiie
+  url: https://github.com/devit7/CTF-Writeup-Mpiie
+  type: writeup
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >-
+  GEMASTIK XVI was held in 2023. The GEMASTIK 2023 guidebook gives the Cyber Security
+  qualification as a Capture the Flag round on 16 July 2023 and the final as 12-16 September
+  2023, with the competition itself on 14 September 2023. Edition start is the qualification
+  date and edition end is the close of the final and award ceremony on 16 September 2023. Only
+  the qualification challenge set is published by the organizer, so the thirteen imported
+  challenges and the edition challenge_count are the qualification count; the final
+  attack-defense challenges are not published and are not recorded here. A UMS news article
+  reports roughly 250 teams in the qualification and the final hosted at Universitas Brawijaya,
+  but that figure is a participant account rather than an official statistic, so
+  participant_count stays null. Prior to this import the edition carried no references and no
+  extracted competition dates; both are now established from the guidebook.
+  Secondary sources reviewed but not imported: devit7/CTF-Writeup-Mpiie (gemastik2023 directory,
+  forensic writeups hosted on Google Drive) and nopedawn/CTF. Neither matches the organizer
+  qualification challenge set imported here — devit7 names forensic challenges HELLO WORD, GEN Z,
+  SCATTRED, TOM THE CAT, and THE SECRET, which are absent from the organizer repository, so its
+  scope is unclear and needs review. nopedawn/CTF only covers GEMASTIK XVII 2024.

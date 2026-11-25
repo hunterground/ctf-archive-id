@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-forensics-002
+name: Iri
+slug: 002-iri
+original_name: iri
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: for
+description: Temanku iri karena aku mengerjakan tugas akhir kuliah lebih cepat darinya, tolong bantu analisis
+  forensic artifact ini dan jawab pertanyaan yang sudah disediakan
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: for/iri
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1559143cbabe48880b53490576e38c5d8c6fe0c6d69f1bc67de2f6d181890b21
+  - path: attachment/capture.pcapng
+    algorithm: sha256
+    value: 4cc1149912e5be60f1658cdb6a847f241ac99562eed114eee0b84724a5565ab9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b9b90ca3ba0cb44dec056aaf141aade48bf9f2b91f490ba1778c4ef3f2da1af0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: cb19051201d9c52e48c5ce58ce0aa1a6592c44cffa418f14da8281a4651314c0
+  - path: src/main.py
+    algorithm: sha256
+    value: 822e3c0be6efd26a6d9fb75c2891c4b749eeb1d652b7bc290657b22ec63bc6c7
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - for/iri
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/for/iri
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `for`; original_category preserves that label. The 2025 organizer repository states no difficulty or tags.'

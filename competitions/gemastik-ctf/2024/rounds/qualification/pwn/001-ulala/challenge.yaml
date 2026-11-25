@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-pwn-001
+name: Ulala
+slug: 001-ulala
+original_name: Ulala
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: In this challenge you guys required to create your own payload to become ROP master. The
+  resources all everywhere, just search RET2LIBSHEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESH!!
+difficulty:
+  value: Ez
+  source: organizer
+tags: []
+authors:
+- name: Enryu
+  team: null
+- name: Linz
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: pwn/Ulala
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: ff72bff5fff4372cc6d58efa844ec6c4df752bbdf1f49a1fc2fe5609e77f3632
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7fcd903990970ba3d6ca6c0f4a26911448dc717829a6725ebe68e378e7cd03d0
+  - path: README.md
+    algorithm: sha256
+    value: e147a23f874b50141b1bade3a5c53d7be24ec171ff7f84f9d24cef95369910c8
+  - path: config/ctf.xinetd
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: config/run_challenge.sh
+    algorithm: sha256
+    value: b23894d239a697dff1c3eebff2d3d8e8c924d5c46e94344f885488022727f477
+  - path: config/run_xinetd.sh
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d628859c763cbecf5580ddad5d9b8ef4d2956c014b071917d6977afd619d7ecf
+  - path: flag.txt
+    algorithm: sha256
+    value: 29b64561a232810bc7e3f111dd956c75399f3044fdf4dd1204c680b57f66eafe
+  - path: release/ulele
+    algorithm: sha256
+    value: 6b9b437fc6d889336015fbcb506ff3b5cb2d024aa5de84f1a7358d6173b98979
+  - path: src/chall
+    algorithm: sha256
+    value: 6b9b437fc6d889336015fbcb506ff3b5cb2d024aa5de84f1a7358d6173b98979
+  - path: src/chall.c
+    algorithm: sha256
+    value: c30f58c6a2dfd2523bac46d0dab604afb8113a3d78b35b95c9d61e79bd63364b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - pwn/Ulala
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/pwn/Ulala
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label.'

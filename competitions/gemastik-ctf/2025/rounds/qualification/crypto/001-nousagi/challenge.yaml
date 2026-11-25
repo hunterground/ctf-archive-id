@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-crypto-001
+name: nousagi
+slug: 001-nousagi
+original_name: nousagi
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cry
+description: harikitte ikouu!!
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: cry/nousagi
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: d792704dbcf0cfb608f728f07567074a72b9292810188d9e6a3c0965c963279e
+  - path: dist/chall.py
+    algorithm: sha256
+    value: b88f9c6ae23b27a91d4156510597d51f4b09d74fe2add1ad5fe279182035f3a5
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 703e6ed2b4d0619fe5c29d74342a0ed6759c464f73a306517d9bcf84899427b0
+  - path: src/chall.py
+    algorithm: sha256
+    value: b88f9c6ae23b27a91d4156510597d51f4b09d74fe2add1ad5fe279182035f3a5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 19f9f59a02986b7b0d7ed8959f93f4ba1ae3ee59d32beb86ca0182dede74eaf6
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3694d22df464473b61def096e7e4820259b94cd50570f95b960d880214dce229
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 0e4274576818d02ec73519f06ecdcef1a5158f72f3724a6cd7179f57bd207961
+  - path: src/run.sh
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - cry/nousagi
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/cry/nousagi
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `cry`; original_category preserves that label. The 2025 organizer
+  repository states no difficulty or tags.

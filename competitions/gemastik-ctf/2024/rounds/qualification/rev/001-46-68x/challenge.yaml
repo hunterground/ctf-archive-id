@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-rev-001
+name: 46_68x
+slug: 001-46-68x
+original_name: 46_68x
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: x86_64 architecture is hard to learn, so i decided to create my own architecture called 46_68x.
+difficulty:
+  value: Easy/Medium
+  source: organizer
+tags:
+- VM
+authors:
+- name: _kosong
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: rev/46_68x
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8806faafcd0d44ad7ac30bdaa7b9d870faa30f3c61dbec09907cb4a8e356e5e6
+  - path: public/chall
+    algorithm: sha256
+    value: a66fae39350f9b253b84104bd9f87252c5c76ab4f9027bf599520e5c0d12652b
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 38c3772422a982ab0f440fc0719302887efd66309b93d95008540d4858beccb4
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - rev/46_68x
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/rev/46_68x
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `rev`; original_category preserves that label. Git history attributes
+  this challenge directory to committer kos0ng (_kosong), who added it as "Add chall rev/46_68x" on 2024-07-17;
+  that commit is the authorship evidence.

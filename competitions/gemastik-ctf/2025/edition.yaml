@@ -6,16 +6,34 @@ name: GEMASTIK XVIII Keamanan Siber
 status: completed
 verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2025-08-24'
+  end: '2025-10-30'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 10
 references:
+- title: Panduan GEMASTIK 2025 (XVIII)
+  url: https://static-gemastik18.telkomuniversity.ac.id/Panduan%20GEMASTIK%202025.pdf
+  type: official_website
+  accessed: '2026-11-25'
+- title: Penyisihan CTF GEMASTIK 2025 (organizer challenge repository)
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public
+  type: official_repository
+  accessed: '2026-11-25'
 - title: Pengumuman Hasil Seleksi Liga KOMATIK UGM 2025
   url: https://kreativitas.ugm.ac.id/?p=12515
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: UGM's 16 July 2025 decree names the selected contingent for GEMASTIK XVIII 2025, including the
-  Keamanan Siber division. Dates and the 2025 format were not taken from a GEMASTIK rulebook in this pass.
+challenge_materials_imported: true
+notes: >-
+  GEMASTIK XVIII was hosted by Telkom University in 2025. The GEMASTIK 2025 guidebook gives the
+  Cyber Security qualification as an online round on 24 August 2025 with write-up judging 25-31
+  August 2025, and the final competition on 28 October 2025 with write-up presentation on 29
+  October 2025 and the closing ceremony on 30 October 2025. Edition start is the qualification
+  date and edition end is the closing ceremony. Only the qualification challenge set is published
+  by the organizer, so the ten imported challenges and the edition challenge_count are the
+  qualification count; the final attack-defense challenges are not published and are not recorded
+  here. The earlier reference recorded a Universitas Gadjah Mada decree naming its GEMASTIK XVIII
+  contingent; it is retained because it independently dates the edition to 2025.
+  Secondary sources reviewed but not imported: no participant writeup collection for the 2025
+  qualification round was located.

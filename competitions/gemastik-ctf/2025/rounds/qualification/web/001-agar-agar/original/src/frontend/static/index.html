@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agar-Agar</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="ui">
+      <div class="brand">Agar.io-like</div>
+      <div class="hud">
+        <span id="name">Connecting…</span>
+        <span id="mass">Mass: -</span>
+        <span id="players">Players: -</span>
+        <span id="boost">Boost: Space</span>
+      </div>
+      <div class="hint">Move mouse to steer. Space to boost (costs mass). Spawn protection for a few seconds.</div>
+      <div class="namebox">
+        <input id="nameInput" maxlength="20" placeholder="Enter your name" />
+        <button id="nameBtn">Set</button>
+      </div>
+
+      <div class="namebox" style="margin-top:6px; gap: 6px;">
+        <input id="skinUrl" placeholder="Image URL (png/jpg/webp/gif)" />
+        <button id="skinFetchBtn">Fetch</button>
+      </div>
+    </div>
+
+    <div id="board"></div>
+
+    <!-- Space starfield background -->
+    <canvas id="stars"></canvas>
+
+    <!-- Main 3D canvas -->
+    <canvas id="game"></canvas>
+
+    <!-- Boost bar -->
+    <div id="boostbar"><div class="fill"></div></div>
+
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/three@0.158.0/build/three.min.js" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+services:
+  traefik:
+    image: traefik:v3.5
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - "9021:443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik/dynamic.yml:/etc/traefik/dynamic/dynamic.yml:ro
+      - ./traefik/certs:/certs:ro
+    networks:
+      - traefik
+    command:
+      - "--api.dashboard=true"
+      - "--api.insecure=false"
+      - "--entrypoints.websecure.address=:443"
+      - "--providers.docker.network=traefik"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.file.directory=/etc/traefik/dynamic"
+      - "--providers.file.watch=true"
+      - "--log.level=INFO"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.gemas.tik`)"
+      - "traefik.http.routers.traefik.entrypoints=websecure"
+      - "traefik.http.routers.traefik.service=api@internal"
+      - "traefik.http.routers.traefik.tls=true"
+
+  protobuf:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - GRPC_PORT=50051
+      - DEBUG_MODE_FLAG=GEMASTIK18{g0d_m0d3_4ct1v4t3d_1nf1n1t3_p0w3r}
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 50051 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.tcp.routers.protobuf.rule=HostSNI(`protobuf.gemas.tik`)"
+      - "traefik.tcp.routers.protobuf.tls=true"
+      - "traefik.tcp.routers.protobuf.entrypoints=websecure"
+      - "traefik.tcp.services.protobuf.loadbalancer.server.port=50051"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    environment:
+      - PORT=5000
+      - GRPC_ADDR=protobuf:50051
+    restart: unless-stopped
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.frontend.rule=HostRegexp(`.*`)"
+      - "traefik.http.routers.frontend.entrypoints=websecure"
+      - "traefik.http.routers.frontend.tls=true"
+      - "traefik.http.services.frontend.loadbalancer.server.port=5000"
+
+networks:
+  traefik:
+    name: traefik
+

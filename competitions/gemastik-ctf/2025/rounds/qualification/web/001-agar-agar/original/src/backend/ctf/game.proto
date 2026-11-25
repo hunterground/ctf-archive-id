@@ -1,0 +1,74 @@
+syntax = "proto2";
+package game;
+option go_package = "./ctf;gamepb";
+
+message Vec2 { required float x = 1; required float y = 2; }
+message World { required uint32 size = 1; }
+
+message WelcomeReply { required string id = 1; required World world = 2; }
+message Respawn { required float x = 1; required float y = 2; required float protected_for = 3; }
+message BoostStatus { required float fuel = 1; required bool boosting = 2; }
+message Ate { required string by = 1; required string victim = 2; required float gain = 3; }
+message Bump { required string id = 1; required float power = 2; }
+
+message PlayerState {
+  required string id = 1;
+  required string name = 2;
+  required float x = 3;
+  required float y = 4;
+  required float mass = 5;
+  required string color = 6;
+  required bool protected = 7;
+  required float fuel = 8;
+  required bool boosting = 9;
+  required bool debug_mode = 10;
+}
+
+message Pellet { required float x = 1; required float y = 2; }
+
+message Massive { required float x = 1; required float y = 2; required float mass = 3; }
+
+message State {
+  repeated PlayerState players = 1;
+  repeated Pellet pellets = 2;
+  repeated Massive stars = 3;
+  repeated Massive galaxies = 4;
+  repeated Massive blackholes = 5;
+  repeated PlayerState leaderboard = 6;
+  required World world = 7;
+}
+
+// Client->Server
+message Input { required string id = 1; required float tx = 2; required float ty = 3; }
+message SetNameRequest { required string id = 1; required string name = 2; }
+message PlayerID { required string id = 1; }
+message PlayerName { required string name = 1; }
+message DebugModeNotification { required string message = 1; required string flag = 2; }
+message DebugOptions {
+  required float boost_speed_multiplier = 1;
+  required bool infinite_stamina = 2;
+  required float mass_multiplier = 3;
+}
+message DebugModeRequest {
+  required string name = 1;
+  required DebugOptions options = 2;
+}
+message Empty {}
+
+service GameService {
+  // Server-streamed world snapshots at a target tick rate
+  rpc StreamState(Empty) returns (stream State);
+  // Input/control
+  rpc SendInput(Input) returns (Empty);
+  rpc StartBoost(Input) returns (Empty);
+  rpc EndBoost(PlayerID) returns (Empty);
+  rpc SetName(SetNameRequest) returns (Empty);
+  rpc Disconnect(PlayerID) returns (Empty);
+  // Optional one-shot welcome/world info
+  rpc Welcome(Empty) returns (WelcomeReply);
+  // Debug mode functionality
+  rpc ToggleDebugMode(PlayerName) returns (DebugModeNotification);
+  rpc SetDebugOptions(DebugModeRequest) returns (DebugModeNotification);
+}
+
+

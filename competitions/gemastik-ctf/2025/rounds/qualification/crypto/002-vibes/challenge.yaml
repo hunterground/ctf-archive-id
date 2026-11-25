@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-crypto-002
+name: vibes
+slug: 002-vibes
+original_name: vibes
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cry
+description: I heard vibe coding on CTF is a thing now, so why don't I vibe code to create challs too?
+  https://chatgpt.com/share/68ac911c-7044-8007-a444-99bce43176a1
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: cry/vibes
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: 45816bfd355cb82706568f108cc2ec3e9c30223fc3a12429e18572292ea0feea
+  - path: dist/chall.py
+    algorithm: sha256
+    value: aa0a7970865b5e9ff4571803b0837c0324328843b5ad1e038625ef0d6e0e50f0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 703e6ed2b4d0619fe5c29d74342a0ed6759c464f73a306517d9bcf84899427b0
+  - path: src/chall.py
+    algorithm: sha256
+    value: aa0a7970865b5e9ff4571803b0837c0324328843b5ad1e038625ef0d6e0e50f0
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 4e8d9e370a011269c565de672823c501d476f8130b3ef5b7c816f52fc89d3d83
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 2af5fd00fef32bfe8935acf0ff87e1fda0a74ebd90470169a61537c17e57a257
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: c49384d33d68249eb18e2a285c2aa4ef8d8953b2d490d6a592531411ae3e7484
+  - path: src/run.sh
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - cry/vibes
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/cry/vibes
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `cry`; original_category preserves that label. The 2025 organizer
+  repository states no difficulty or tags.

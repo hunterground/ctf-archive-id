@@ -1,0 +1,223 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-qualification-pwn-001
+name: Introduction Into Kernel
+slug: 001-introduction-into-kernel
+original_name: Introduction_Into_Kernel
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Linz
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan
+  commit: 00c2e0b862c64d68d083cecb6d0a873a88319b31
+  original_path: pwn/Introduction_Into_Kernel
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVI Keamanan Siber 2023, imported via https://github.com/ctf-gemastik/penyisihan
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .Module.symvers.cmd
+    algorithm: sha256
+    value: 6bc0386f183dfa99d1b5e237d8189a948d104e4a91d3cf0979fb90398564c168
+  - path: .modules.order.cmd
+    algorithm: sha256
+    value: 81f139725b9e17158a3cefc6e6952e3ca83814bb6551d5cbe511066208b938bb
+  - path: .vuln.ko.cmd
+    algorithm: sha256
+    value: 23c4ec37ef2b78559f53996410e76d3624cac9b7e8e373ae1286034c86fa45ae
+  - path: .vuln.mod.cmd
+    algorithm: sha256
+    value: 491a48f277d5c8242b425861ecb96fdb7cb86da60214faa271950ae391bc4979
+  - path: .vuln.mod.o.cmd
+    algorithm: sha256
+    value: fa0cbed0886ff3b0cb005836830983fe966a7725e126b1a70559b8cd8cf54f65
+  - path: .vuln.o.cmd
+    algorithm: sha256
+    value: 91ce9bd1d8d631cdfae83970106e41a7eb976bbe6aa83bb3b0d55b8646cdb8a1
+  - path: Dockerfile
+    algorithm: sha256
+    value: e5cb79f448875fb84ddaee9457a3bc18300e1f53c43c50af4fb07bc956f93620
+  - path: chall/bzImage
+    algorithm: sha256
+    value: 7ba25d4d0c32fcd12543fef8944d245414690c5e59867d838a605699603e77b2
+  - path: chall/debug/Makefile
+    algorithm: sha256
+    value: 16ce21af1ed08f8d84f9365da33e47e8311ea45b503cc8307e09cd24019ad975
+  - path: chall/debug/exploit
+    algorithm: sha256
+    value: f2af3bc06ef70ffa2dcb2b5b9000cab2c6ae5eb2439bbabeb5bcbf9d13905418
+  - path: chall/debug/send
+    algorithm: sha256
+    value: 3b04796df90e260accca6d4d81412a2ef88837f8c4234ebfb8e6e4c210b1700d
+  - path: chall/extract-vmlinux
+    algorithm: sha256
+    value: 97cfeeeb51de17f4b5928c5442b56e5581314ddef3cedf2523be2049d79394af
+  - path: chall/gdb.sh
+    algorithm: sha256
+    value: 94a01120ef5b1d016edd76a4b72c78ed6ad7b61aaaa145722afe3347972da752
+  - path: chall/initramfs/bin/busybox
+    algorithm: sha256
+    value: b114a1a5e0b184b142f313c76d64a5dd7a1c2b4761c5b317976132cede17eb5e
+  - path: chall/initramfs/etc/group
+    algorithm: sha256
+    value: 3d91d34627c800004f54610ce2505318d6f0f4e8ce5e7c165bc4cfdcc13b18d2
+  - path: chall/initramfs/etc/issue
+    algorithm: sha256
+    value: 1dd5016720427feeeb64093ba0728b35443329b2ada8af150926f858f0db7a49
+  - path: chall/initramfs/etc/passwd
+    algorithm: sha256
+    value: 4d39ffee237da914bd117e6be1203f8e1510122c5f971f40a5aa35bcaaafb80d
+  - path: chall/initramfs/etc/profile
+    algorithm: sha256
+    value: d87e477598e0f5122914e8122771863933475ff031946eb8b83420d10499c38b
+  - path: chall/initramfs/exploit
+    algorithm: sha256
+    value: 279bde81ba22bc4b3ff5ec5e5b38efbb57a7ac3f750451054e4ba46b17e8c531
+  - path: chall/initramfs/init
+    algorithm: sha256
+    value: 70cbbd4798714622d47a615e6ad82d958e3d842c09eeed9b10dbc6d3ced3f882
+  - path: chall/initramfs/lib/modules/6.4.7/vuln.ko
+    algorithm: sha256
+    value: 194678cb702f85e1421fc24e98285716894cd05526013a264e94ac0b8a476f37
+  - path: chall/initramfs.cpio.gz
+    algorithm: sha256
+    value: dbeb0f835f710277f09da31fd6619ecabf65b6c15c9364d1c4c05e110df6630e
+  - path: chall/launch.sh
+    algorithm: sha256
+    value: 4a9218bf0ef5b2d94a75a4195d4e0a84c957f2be9d8c1967cae7b8ef1ff04574
+  - path: chall/vmlinux
+    algorithm: sha256
+    value: 92950981223f504d786d33ec2be440922b7ad262c48d0aa253bec40f9c07957c
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 1959850e2570c529c8aa038cb642782256f3dadeb2d18af543ffbbbaebb86e85
+  - path: release/bzImage
+    algorithm: sha256
+    value: 7ba25d4d0c32fcd12543fef8944d245414690c5e59867d838a605699603e77b2
+  - path: release/initramfs/bin/busybox
+    algorithm: sha256
+    value: b114a1a5e0b184b142f313c76d64a5dd7a1c2b4761c5b317976132cede17eb5e
+  - path: release/initramfs/etc/group
+    algorithm: sha256
+    value: 3d91d34627c800004f54610ce2505318d6f0f4e8ce5e7c165bc4cfdcc13b18d2
+  - path: release/initramfs/etc/issue
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: release/initramfs/etc/passwd
+    algorithm: sha256
+    value: 4d39ffee237da914bd117e6be1203f8e1510122c5f971f40a5aa35bcaaafb80d
+  - path: release/initramfs/etc/profile
+    algorithm: sha256
+    value: d87e477598e0f5122914e8122771863933475ff031946eb8b83420d10499c38b
+  - path: release/initramfs/flag
+    algorithm: sha256
+    value: a88e86f205217be219229befe69db59597405e57fca9d14789f272d1c86b2e10
+  - path: release/initramfs/init
+    algorithm: sha256
+    value: 846bfbfbcbfca41dad9a0c5fc449eef107a1fa0e04f48d87efd02d0f020b3709
+  - path: release/initramfs/lib/modules/6.4.7/vuln.ko
+    algorithm: sha256
+    value: 194678cb702f85e1421fc24e98285716894cd05526013a264e94ac0b8a476f37
+  - path: release/initramfs.cpio.gz
+    algorithm: sha256
+    value: 37e38384751e87b6aac010d115c77bfa03034a4dce0d7a3b4a67ec683c033c66
+  - path: release/launch.sh
+    algorithm: sha256
+    value: accc3d70f725d4adb483e8722f450f546aa484ada589abb64063bbbbffe09a22
+  - path: release/vuln.ko
+    algorithm: sha256
+    value: 194678cb702f85e1421fc24e98285716894cd05526013a264e94ac0b8a476f37
+  - path: release.zip
+    algorithm: sha256
+    value: f3008181abf7a6d019505f0fe7c9aa3c8c36504c0d9eb0b2b8236901e06185c5
+  - path: run.py
+    algorithm: sha256
+    value: a82b0dea32f21bc52a9b3d6b05e9e9bf90f09c51b83ab07631ca8a9c0e0d1fbb
+  - path: src/.Module.symvers.cmd
+    algorithm: sha256
+    value: 11e23bb66ef085f6ea6f368960c9731422e8c93f5da200cac979d8b0067f323c
+  - path: src/.modules.order.cmd
+    algorithm: sha256
+    value: 5ae7527fdc5ecef9804c43f60b6ea2bd2813f0a02ee468a2ead3032899d77494
+  - path: src/.vuln.ko.cmd
+    algorithm: sha256
+    value: 6586e6dda3ad34931d25bcc23e745f5d589646a61ee7d1c4f06c96de57813b5b
+  - path: src/.vuln.mod.cmd
+    algorithm: sha256
+    value: 6d57fdf01c781ff8907091085ad8d5ed5e74b75af07e495a3046eec1fb6250ea
+  - path: src/.vuln.mod.o.cmd
+    algorithm: sha256
+    value: 215a4aaa0f4354608bb426f26805b89589beb23ca8b6425c2d3b06fad96751ef
+  - path: src/.vuln.o.cmd
+    algorithm: sha256
+    value: 591091f31e2641d10e637a15abfd984cee32ed5b36269226f488957b0dfd45d0
+  - path: src/Makefile
+    algorithm: sha256
+    value: 8d38605de6a63869d55b11ed642e3502a4b076de9cc655b4ea05cd6d51b67b22
+  - path: src/Module.symvers
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/modules.order
+    algorithm: sha256
+    value: 3bd695f360d616095b2d2d97730da4d7e43d6cc6d7c8fa77aa55e51625075921
+  - path: src/vuln.c
+    algorithm: sha256
+    value: 7551e9e4d2d1e5fe23482cc12522813d6bd6ac16ed8a4118684e85de3c74db46
+  - path: src/vuln.h
+    algorithm: sha256
+    value: f5de2bba5c6700997cedeb25a887266f2a95e56f8c90649b3f67fccba4257e74
+  - path: src/vuln.ko
+    algorithm: sha256
+    value: 194678cb702f85e1421fc24e98285716894cd05526013a264e94ac0b8a476f37
+  - path: src/vuln.mod
+    algorithm: sha256
+    value: 3bd695f360d616095b2d2d97730da4d7e43d6cc6d7c8fa77aa55e51625075921
+  - path: src/vuln.mod.c
+    algorithm: sha256
+    value: 6a430f93107af64cd5b8b7fb0d66973a5ac10137789f410cfdcf9850d739f656
+  - path: src/vuln.mod.o
+    algorithm: sha256
+    value: 0fe37ff53e5e6764c747e3a5549ffbf2342e1b9e0ca7ac371aae984f4228ecde
+  - path: src/vuln.o
+    algorithm: sha256
+    value: f26919c082229083019aff9092025c778f2cf5f44507ca71ce254bb2f0a0c465
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2023 - pwn/Introduction_Into_Kernel
+  url: https://github.com/ctf-gemastik/penyisihan/tree/00c2e0b862c64d68d083cecb6d0a873a88319b31/pwn/Introduction_Into_Kernel
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2023-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label. The organizer shipped
+  no challenge README, so no description or difficulty is recorded. The compiled challenge/debug/exploit
+  and chall/initramfs/exploit binaries are part of the shipped challenge and are referenced by launch.sh,
+  so they remain in original/. Git history attributes this challenge directory to committer linz04 (Linz),
+  who added the kernel material on 2023-07-29; that commit is the authorship evidence.

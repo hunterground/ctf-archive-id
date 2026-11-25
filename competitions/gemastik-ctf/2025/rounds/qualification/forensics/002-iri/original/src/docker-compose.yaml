@@ -1,0 +1,6 @@
+services:
+  for-iri:
+    build: .
+    restart: always
+    ports:
+      - "9081:32883"

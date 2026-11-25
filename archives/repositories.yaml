@@ -3065,3 +3065,148 @@ repositories:
     renders an example flag as HackToday26{sample_ctf_flag_success}, which suggests the 2026 flag prefix
     differs from earlier editions; that is a single secondary observation, not organizer confirmation,
     and is recorded on the 2026 edition as a lead only.'
+- schema_version: '1.0'
+  id: gemastik-ctf-2023-penyisihan
+  name: Penyisihan CTF GEMASTIK 2023
+  source:
+    type: github
+    url: https://github.com/ctf-gemastik/penyisihan
+    owner: ctf-gemastik
+    repository: penyisihan
+    branch: master
+    commit: 00c2e0b862c64d68d083cecb6d0a873a88319b31
+    path: null
+  competition_id: gemastik-ctf
+  edition_year: 2023
+  round_id: qualification
+  maintainer:
+    type: organization
+    name: Gemastik CTF (ctf-gemastik)
+    url: https://github.com/ctf-gemastik
+  access:
+    visibility: public
+    access_date: '2026-11-25'
+  content_types:
+  - challenge_materials
+  challenge_count: 13
+  categories:
+  - crypto
+  - forensics
+  - pwn
+  - rev
+  - web
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-25'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: Penyisihan CTF GEMASTIK 2023
+    url: https://github.com/ctf-gemastik/penyisihan
+    type: official_repository
+    accessed: '2026-11-25'
+  notes: Organizer challenge repository for the GEMASTIK XVI Cyber Security qualification. The ctf-gemastik
+    organization profile describes these repositories as storing Gemastik CTF challenges provided by the
+    problem setters. Challenge files from commit 00c2e0b862c64d68d083cecb6d0a873a88319b31 were copied
+    into the 2023 qualification round. The recorded commit is the tip of a shallow clone of master on
+    2026-11-25. The repository states no license; per archive maintainer instruction on 2026-11-25, material
+    from a source with no license file is recorded as MIT. Organizer-published solver and write-up material
+    was moved to solvers/ per archive policy. The template/ directory is repository tooling and was not
+    imported.
+- schema_version: '1.0'
+  id: gemastik-ctf-2024-penyisihan
+  name: Penyisihan CTF GEMASTIK 2024
+  source:
+    type: github
+    url: https://github.com/ctf-gemastik/penyisihan-2024
+    owner: ctf-gemastik
+    repository: penyisihan-2024
+    branch: main
+    commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+    path: null
+  competition_id: gemastik-ctf
+  edition_year: 2024
+  round_id: qualification
+  maintainer:
+    type: organization
+    name: Gemastik CTF (ctf-gemastik)
+    url: https://github.com/ctf-gemastik
+  access:
+    visibility: public
+    access_date: '2026-11-25'
+  content_types:
+  - challenge_materials
+  challenge_count: 15
+  categories:
+  - crypto
+  - forensics
+  - pwn
+  - rev
+  - web
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-25'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: Penyisihan CTF GEMASTIK 2024
+    url: https://github.com/ctf-gemastik/penyisihan-2024
+    type: official_repository
+    accessed: '2026-11-25'
+  notes: Organizer challenge repository for the GEMASTIK XVII Cyber Security qualification. Challenge
+    files from commit b5800ac9f044bd43056b3251fe1b51eb135969e4 were copied into the 2024 qualification
+    round. The recorded commit is the tip of a shallow clone of main on 2026-11-25. The repository states
+    no license; per archive maintainer instruction on 2026-11-25, material from a source with no license
+    file is recorded as MIT, except the two challenges that carry their own MIT license files, which are
+    recorded from those files. Organizer-published solver and write-up material was moved to solvers/
+    per archive policy. The template/ directory is repository tooling and was not imported.
+- schema_version: '1.0'
+  id: gemastik-ctf-2025-penyisihan
+  name: Penyisihan CTF GEMASTIK 2025
+  source:
+    type: github
+    url: https://github.com/ctf-gemastik/penyisihan-2025-public
+    owner: ctf-gemastik
+    repository: penyisihan-2025-public
+    branch: main
+    commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+    path: null
+  competition_id: gemastik-ctf
+  edition_year: 2025
+  round_id: qualification
+  maintainer:
+    type: organization
+    name: Gemastik CTF (ctf-gemastik)
+    url: https://github.com/ctf-gemastik
+  access:
+    visibility: public
+    access_date: '2026-11-25'
+  content_types:
+  - challenge_materials
+  challenge_count: 10
+  categories:
+  - crypto
+  - forensics
+  - pwn
+  - rev
+  - web
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-25'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: Penyisihan CTF GEMASTIK 2025
+    url: https://github.com/ctf-gemastik/penyisihan-2025-public
+    type: official_repository
+    accessed: '2026-11-25'
+  notes: Organizer challenge repository for the GEMASTIK XVIII Cyber Security qualification. Challenge
+    files from commit 7d21c290d8ce0f45326018d65e7100c733a3d94a were copied into the 2025 qualification
+    round. The repository uses the abbreviated category directory names cry, for, pwn, rev, and web, which
+    are preserved in each challenge's original_category. The repository states no license; per archive
+    maintainer instruction on 2026-11-25, material from a source with no license file is recorded as MIT,
+    except the none challenge, which carries its own MIT license file and is recorded from that file.
+    Organizer-published solver material was moved to solvers/ per archive policy.

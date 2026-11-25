@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-web-001
+name: Baby XSS
+slug: 001-baby-xss
+original_name: baby-xss
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: 'Aku yang baru belajar XSS menemukan sebuah repo untuk automasi XSS challenge deployment,
+  berikut reponya:
+
+
+  https://github.com/dimasma0305/CTF-XSS-BOT/
+
+
+  Bisakah kalian membantuku untuk melakukan exploitasi XSS sesuai pada repo kode vulnerable yang ada di
+  repository tersebut?'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- XSS
+- XSS on eval
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: web/baby-xss
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Dimas Maulana - GEMASTIK XVII 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: 'LICENSE in the challenge directory: MIT License, Copyright (c) 2023 Dimas Maulana.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 3d010a3c0d8c11c9ea5965ddaf3490a5375cbdca5e58f6f663c58f28c34d267c
+  - path: LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: README.md
+    algorithm: sha256
+    value: abbdc1179c50a698ae9fcf21ba1901ea768ebc94ad0cd39232d85bbf66eef9fe
+  - path: bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 9edd978e8850dbfde0dfdf3370d03f6a24e035702538bf92868789d5e0cc7d53
+  - path: bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: bot/package.json
+    algorithm: sha256
+    value: 01174d4036d20a2bf43952f184f404c39ea79568e001cb8ad2b6d333ba5562a8
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: c85d1f02d62d02b9872b06a0a0a8171a199ca96f689767fad7981ead24526d29
+  - path: proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: src/index.html
+    algorithm: sha256
+    value: c8ae3e0a745a50845f3dced2f7e431bb9f96a8ae7780265c705b78856bef444d
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - web/baby-xss
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/web/baby-xss
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `web`; original_category preserves that label.

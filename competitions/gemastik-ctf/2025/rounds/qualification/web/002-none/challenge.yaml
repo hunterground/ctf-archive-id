@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-web-002
+name: None
+slug: 002-none
+original_name: none
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: Anggap saja website ini tidak ada
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dimasc.tf
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: web/none
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: dimasc.tf (Dimas Maulana) - GEMASTIK XVIII 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: 'src/LICENSE in the challenge directory: MIT License, Copyright (c) 2023 Dimas
+    Maulana.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f2c99f85c1cee9c9b8405bace794b940d6f74ef6f6ccca405cf1b8906decd01b
+  - path: src/.gitignore
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 292b8cefea77165012e5038aad4ec263e0ed12386f37fe9b8c30ec153bc5549c
+  - path: src/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: src/README.md
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: src/assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: src/assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 84ab5d6dc4f7a09b7dea17155041e2283a6fbdd5d3e182a2fd331bf7a53ddb48
+  - path: src/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: e66cf7ece1715058e7838829d9beba0cf357609631987e95d2260c83f2ad8d38
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 66bc3e96394073bf24503728c5255485ec6a4acd560bfe1f606b6109176c8eef
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: src/src/.htaccess
+    algorithm: sha256
+    value: cbce6e8be33c7641162bfbb1babd586c13b8011290d230bb45da5a6a1bf4e146
+  - path: src/src/index.html
+    algorithm: sha256
+    value: 0d8ea3c42be8cdbd4bc704782b1314fe7f4fcb648245a3e8775325c23416efb8
+  - path: src/src/modules/main.js
+    algorithm: sha256
+    value: 4bce0c7126e0046832821430f975325f0573b52bc1a39a60ce56ef9013ccf2b9
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - web/none
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/web/none
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `web`; original_category preserves that label. The 2025 organizer repository states no difficulty or tags.'

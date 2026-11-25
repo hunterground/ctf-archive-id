@@ -1,0 +1,311 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-web-003
+name: Vendor Baru
+slug: 003-vendor-baru
+original_name: vendor-baru
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: I just learn PHP and now I am ready to work on Wakanda government projects.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- unsafe deserialization
+- RCE
+- CVE-2024-4990
+authors:
+- name: bonceng
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: web/vendor-baru
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: 836ff184e7b41b1e13cb5fd89fa1de98dbbab99e9d2918913ff43b86a5c7c213
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3e428ed841e5161c27269ce26eec6412c2c15110d4fe9163334f5d6f93206de8
+  - path: README.md
+    algorithm: sha256
+    value: d11d4fbb60b1d86701a48f8d15831286dbb7ed531e7b851caa1df1a41cba30d8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5c97ff7d6a6e2f3e1c36b9d2ba4baca72052b50c1e97a767d4c8b0c285f4f952
+  - path: public/vendor-baru.zip
+    algorithm: sha256
+    value: 9291313f805027455b0a91174d3bc12b17d282a832db0c1bb16979578aa6a77e
+  - path: src/app/.bowerrc
+    algorithm: sha256
+    value: 0901b7a4561bb40fa1f3d26d75a30614b1a0b86dfb0338724edde8b23fec3dee
+  - path: src/app/.gitignore
+    algorithm: sha256
+    value: e9a339f2fcc9faead0d7eb109bd115d1fab0d5e26d965656b77cee8715a9566a
+  - path: src/app/LICENSE.md
+    algorithm: sha256
+    value: b17af7e48fe4791b2e9b18ad6ccdd943f0b75e09042e64a5dc28c0b93412f1c8
+  - path: src/app/README.md
+    algorithm: sha256
+    value: 4370ad8ce1c8df2da0827a7dcfddc55e2b6c881bfcd45fbe1e9504fc1ac2b780
+  - path: src/app/Vagrantfile
+    algorithm: sha256
+    value: e60d0e9a4d59277fd2ef4e75d5cd64905d87f41a3716eb73cd12d0019bacfaa3
+  - path: src/app/assets/AppAsset.php
+    algorithm: sha256
+    value: 556ba251853b4751409a3baf2e29b8ceff604d39f8d2e5333c6df7180edf78fc
+  - path: src/app/codeception.yml
+    algorithm: sha256
+    value: eec4f1848b0a1b1e997d14c2f96635a48b9bb81fa4250b0c75ac424e45f9c56c
+  - path: src/app/commands/HelloController.php
+    algorithm: sha256
+    value: 8b94020784a07815ccf9c9b238e9067ebc4f6ab1eda32a7b5723c99b436b38d8
+  - path: src/app/composer.json
+    algorithm: sha256
+    value: 44e8c3665d4183a983132104d0b99355badcd962ff53877134284b0f40f55568
+  - path: src/app/composer.lock
+    algorithm: sha256
+    value: 6f478dd575b5a85aadc9b034f0bd39c7aa5bacdbbd6096617af9b5d5feead133
+  - path: src/app/config/__autocomplete.php
+    algorithm: sha256
+    value: 0fd7b17e47e1172a863bb4da6f9adc6fb5902f4bcdaf6a8419927e0ae0cce609
+  - path: src/app/config/console.php
+    algorithm: sha256
+    value: 4fb32367b7b9feb658676517ec7e6c78218179b5d3a0445eecd613a6370f64f6
+  - path: src/app/config/db.php
+    algorithm: sha256
+    value: 87f27f7958ef58e6a4769df97ae1df4ee6e843ee0e55d7e1163990f665b2d382
+  - path: src/app/config/params.php
+    algorithm: sha256
+    value: 521cfd73f2c81a531b546f047b7fffeb606c1e6e19c8d293bc5473f3216a1487
+  - path: src/app/config/test.php
+    algorithm: sha256
+    value: ce83604e20f36ae60bc81fa0728677a93bb9dd3944a173dc78cb57c52f1ccbcb
+  - path: src/app/config/test_db.php
+    algorithm: sha256
+    value: 016c43f16a454c9945e8d90fa7ee5a0db84a669fe7d2de4333620c980cbb2398
+  - path: src/app/config/web.php
+    algorithm: sha256
+    value: 6ec99e9fb08b0d40d379205c69b3ed01699de40c4e20ef0c9981c2918a6846e8
+  - path: src/app/controllers/SiteController.php
+    algorithm: sha256
+    value: c8909cfc28beba10d12e0c4beda9f04af5e68b7be529fc9f2710a54c4834da8b
+  - path: src/app/docker-compose.yml
+    algorithm: sha256
+    value: 9c13a9e8be47600e53ffdf4e4a5313c0791cd4b2f72ec3148eef283bd5d8eb46
+  - path: src/app/mail/layouts/html.php
+    algorithm: sha256
+    value: ddb29e7a8ce6fa4c458818de0b8cb7316037d46b87d71a8596a66ed9e322c0c9
+  - path: src/app/mail/layouts/text.php
+    algorithm: sha256
+    value: b092caae21224ec4b1f8f0bb4899c135ab3f917f563cc7f27af7e9371224eaac
+  - path: src/app/models/ContactForm.php
+    algorithm: sha256
+    value: a7479b3b127fc33ddadf8a9e81382c21c92dd167f732a24f5b1ca325d81fc59a
+  - path: src/app/models/LoginForm.php
+    algorithm: sha256
+    value: e8dee6ba541bb64bab0bca3a2fb55266600f13b740fc9309545c699d9073cb9a
+  - path: src/app/models/User.php
+    algorithm: sha256
+    value: 83762ea49fc89b5656fc33b582757b86e335a0a595363d8e374d825f6609264b
+  - path: src/app/requirements.php
+    algorithm: sha256
+    value: 0ec42225fe70bfcaff66f13086b3089d391764260dd430978cf84ab99dedc84c
+  - path: src/app/runtime/.gitignore
+    algorithm: sha256
+    value: 5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452
+  - path: src/app/tests/_bootstrap.php
+    algorithm: sha256
+    value: 2391518e6a02e89a32c11a960d920b5d9150dd02993e020cf4bd0db4dc164fc4
+  - path: src/app/tests/_data/.gitkeep
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: src/app/tests/_output/.gitignore
+    algorithm: sha256
+    value: 5c89a8a9c5af258d02d0bfd3582c75963bea53baa1f5f5132662b80020a63452
+  - path: src/app/tests/_support/AcceptanceTester.php
+    algorithm: sha256
+    value: 3c02febf192b23f24ed3e02ea98eb7302d616435a0ef67996f0ed79a50201c54
+  - path: src/app/tests/_support/FunctionalTester.php
+    algorithm: sha256
+    value: 7cdef26b0551ee09a5f0d740ca2751af7c76846665221e3469222a84144ca17e
+  - path: src/app/tests/_support/UnitTester.php
+    algorithm: sha256
+    value: 971393ef6bcccec63eb8b742b11bfbfadb018d20b759ebad698e9bb29254dab6
+  - path: src/app/tests/acceptance/AboutCest.php
+    algorithm: sha256
+    value: 418e2c8f7bedb0e4a5d8ca438e7d0dcd353d2dd873cf78173f199b2b5f5effa5
+  - path: src/app/tests/acceptance/ContactCest.php
+    algorithm: sha256
+    value: d37db836f9ba63b02b8ba43aaa88ba403ed4d86ad7d7d625f80bca6076d12caa
+  - path: src/app/tests/acceptance/HomeCest.php
+    algorithm: sha256
+    value: 1e697be8b103b51d5bf264d8f703aea3a0d90bf59389b9b47460f95089d31da1
+  - path: src/app/tests/acceptance/LoginCest.php
+    algorithm: sha256
+    value: f7c8c361542b0d518b22d2efa1d84905b1b407ce3c32bf9e494487796f94cecc
+  - path: src/app/tests/acceptance/_bootstrap.php
+    algorithm: sha256
+    value: 00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37
+  - path: src/app/tests/acceptance.suite.yml.example
+    algorithm: sha256
+    value: 8037217044f364839482abbbdd8f85b59eabcf33d737a63140bc48202ee50aa4
+  - path: src/app/tests/bin/yii
+    algorithm: sha256
+    value: fe378d9f876c79e0561335621966487ba63379489ddddfa67820059d4c51a440
+  - path: src/app/tests/bin/yii.bat
+    algorithm: sha256
+    value: 1dcd503a582ad5b16314705289352b136e13f4af0428710e4c1d88e77f3ac7e6
+  - path: src/app/tests/functional/ContactFormCest.php
+    algorithm: sha256
+    value: df611db1d09e0a6bde666d3c3582848a0c24d0bd20e857837873468734a922a1
+  - path: src/app/tests/functional/LoginFormCest.php
+    algorithm: sha256
+    value: 25585d3b8724bc6303ce6b3bcb185567a9447327c98b81ebb3a55bcbb84aa6c0
+  - path: src/app/tests/functional/_bootstrap.php
+    algorithm: sha256
+    value: 00aba3928cd622ad67c0f81ecd5aa8699e07f8f4908c045fe34f6a2dc0067b37
+  - path: src/app/tests/functional.suite.yml
+    algorithm: sha256
+    value: e2f6d2b982f11afaf7a299f15d8948ac9b1ff61b98e16655e0e39a0fb7722dfc
+  - path: src/app/tests/unit/_bootstrap.php
+    algorithm: sha256
+    value: e8250569d5150727bde76008e823e91d59c69c8d30a173f34c2c2fd25c346ff5
+  - path: src/app/tests/unit/models/ContactFormTest.php
+    algorithm: sha256
+    value: 0f864e26d056bf480ac6844c1f1e0c2c546d13e711a4fe4630fd8600bb3016e2
+  - path: src/app/tests/unit/models/LoginFormTest.php
+    algorithm: sha256
+    value: 4df6a4ce00359a37cb535bbe5c1363490333cf6f4ea0e30839e30cc4d3f03788
+  - path: src/app/tests/unit/models/UserTest.php
+    algorithm: sha256
+    value: db2f7d30f508c97d75354f28ae94d3beb84d183b4eb8578138c782c13c52ac7d
+  - path: src/app/tests/unit/widgets/AlertTest.php
+    algorithm: sha256
+    value: 11e5a0cc435c817ec2e1352aefb880a2b763dd9dbfec689bdb4ed79274514b6a
+  - path: src/app/tests/unit.suite.yml
+    algorithm: sha256
+    value: d9658639a75528d5dfbcd5b48dcdda0eda8a19b71e3d4faca539b956a8c63887
+  - path: src/app/vagrant/config/.gitignore
+    algorithm: sha256
+    value: 44121051973bcf3ce3b0d11d6fdf92858dc41ab7f1c53e7a0250499c67604848
+  - path: src/app/vagrant/config/vagrant-local.example.yml
+    algorithm: sha256
+    value: 290e7df611b954612861b3137e857e4175bdf54be18fc44cafc935f347a6113e
+  - path: src/app/vagrant/nginx/app.conf
+    algorithm: sha256
+    value: ad156f8c9a4e5bd5e48dca9a34d9f2ca35cebd0be676c79dc225c70f59baf300
+  - path: src/app/vagrant/provision/always-as-root.sh
+    algorithm: sha256
+    value: 06d6ab159801d8be7b28775f851d07628e2e232c176d1953f79110333d3ad0cd
+  - path: src/app/vagrant/provision/once-as-root.sh
+    algorithm: sha256
+    value: 9008510dbdf47086d8ca891ae8afa90693ac94a1ca281cfc040efc559aaeb2f7
+  - path: src/app/vagrant/provision/once-as-vagrant.sh
+    algorithm: sha256
+    value: 46a92f5adf0c415c44d22084a493f338f5d6726ea9719b9dd7a5631dacadf2c9
+  - path: src/app/vagrant/provision/provision.awk
+    algorithm: sha256
+    value: ae19044b4547f1dd30fd350cdb057435e8f49a4525435e6aed7e9ad1790421f7
+  - path: src/app/views/layouts/main.php
+    algorithm: sha256
+    value: 316fb4b1f1e5724ef3e0c1067ca1d77eb2fe7a9831a526708ae0ae66409a1646
+  - path: src/app/views/site/about.php
+    algorithm: sha256
+    value: 7aee74c9f4271b12a22ec59b63945a3baff885d82ab0a9e7a78d37dc13b419bf
+  - path: src/app/views/site/contact.php
+    algorithm: sha256
+    value: b91df65f4860da6ca0c07d9dd5f0056c9db7eb06c90176373033d616c29ea2b9
+  - path: src/app/views/site/error.php
+    algorithm: sha256
+    value: f72e2bbe8eee7c07844345e6794b51bae0d5012f3ab65fb45741ef7e9cfee16b
+  - path: src/app/views/site/index.php
+    algorithm: sha256
+    value: 6e72cb6f5083a09225c3528b3bff3d33509696a81a45f4227ac54b4a86dcae98
+  - path: src/app/views/site/login.php
+    algorithm: sha256
+    value: 919cc54ddadeb6a5d726bbd35ed9b98c4fa6fb25ba0700a6e4e920cd8463971c
+  - path: src/app/web/.htaccess
+    algorithm: sha256
+    value: 3dd755484e15b8354b0db2299e37dbef231f098664b4180ba340d92d695f790b
+  - path: src/app/web/assets/.gitignore
+    algorithm: sha256
+    value: 240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d
+  - path: src/app/web/css/site.css
+    algorithm: sha256
+    value: dd8244db974c7c3dc0abee2bae3d728338a6da160395c7e83b38764da52e4044
+  - path: src/app/web/favicon.ico
+    algorithm: sha256
+    value: 66332859bd8e3441a019e073a318b62a47014ba244121301034b510dc7532271
+  - path: src/app/web/index-test.php
+    algorithm: sha256
+    value: 779ea9d28b742ef902f673439d6c380067f4e6a2bac6b2a4429b8a1261070846
+  - path: src/app/web/index.php
+    algorithm: sha256
+    value: e9756b75dc07030c6a71134849f56a434fc1bb520cd55a65bc189814940609e0
+  - path: src/app/web/robots.txt
+    algorithm: sha256
+    value: 3a125e84a637dc3f5442bb6949fa200056f37db4627b4c2a3addc55bbb89b703
+  - path: src/app/widgets/Alert.php
+    algorithm: sha256
+    value: 2dd8f7b41af071d1125d9fe39f5dda99f435d77355a63222bf8cf74359f83052
+  - path: src/app/yii
+    algorithm: sha256
+    value: 6845af62dd4a93028e5cbc570715d31bb3f0f7e2a71a9c68d887a9373adeb37c
+  - path: src/app/yii.bat
+    algorithm: sha256
+    value: 1dcd503a582ad5b16314705289352b136e13f4af0428710e4c1d88e77f3ac7e6
+  - path: src/docker-entrypoint.sh
+    algorithm: sha256
+    value: c1f5bd28ffe45281bbd53c78d591435417f2d8271212104abd0718aa7d839e34
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 19d9cf439883bc96c7da9fa0fcb8494258e6814f42ec277290d5f8823c099ed9
+  - path: src/php.ini
+    algorithm: sha256
+    value: ce03a7066f825138de5c00c1c86d3c7790a5a77d79d3925b5a7ff22a88ad9a2e
+  - path: src/site.conf
+    algorithm: sha256
+    value: 94edc745e70fb3c5b9d23d32b7fb79e8e76fefbc1ff97aa58c5ed6718950f1f8
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 65da55fef23fffe0eb6c7e751cafa617a154b2e6a25165f4ecc9c7dc86101e46
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - web/vendor-baru
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/web/vendor-baru
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `web`; original_category preserves that label. src/app/LICENSE.md
+  is the Yii framework starter-template license and covers the bundled framework scaffolding, not the
+  challenge as a whole; it is preserved unchanged.

@@ -1,0 +1,127 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-web-001
+name: Agar-Agar
+slug: 001-agar-agar
+original_name: agar-agar
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: Website game buatan anak bangsa yang terinspirasi dari agar.io.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: dimasc.tf
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: web/agar-agar
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: da84e78017af104f4d41f1295a0ba8d4d1aef872b9afbf13778c3d79b91abbfc
+  - path: attachment/README.md
+    algorithm: sha256
+    value: 458a571a10edee8bf45c7f4dd3ac422808b76f4fe7f4b0689832b0ee337dfa80
+  - path: src/backend/.dockerignore
+    algorithm: sha256
+    value: 54db51407dabe2fa2276f8039fef47f640fdf0ffe095ba0bb411c6b3913689a7
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 245fc8e5f73ad7247b5900a610b122e20824ae2402012daef4c9c475b379cfff
+  - path: src/backend/cmd/grpcserver/game.go
+    algorithm: sha256
+    value: 6d8a1711aedf04395af5e4df2969f16810dfbfb405ec2bda82cba458919b2a14
+  - path: src/backend/cmd/grpcserver/main.go
+    algorithm: sha256
+    value: eff2bc4e6e8c3edee26df1bd5e5a36b3c1fd1cc4d8321694b109a8a0b69a75a6
+  - path: src/backend/ctf/game.pb.go
+    algorithm: sha256
+    value: 10ae9139902808ebbf3262a76b1af853bf4135216100aeb9e0b86b5fd1a05f25
+  - path: src/backend/ctf/game.proto
+    algorithm: sha256
+    value: 2e40c97bbc747c2322c0e4aae140120a94dec70a80c95c6eb8873484b04bc48e
+  - path: src/backend/ctf/game_grpc.pb.go
+    algorithm: sha256
+    value: 082eddddd1bd8eafa3fbceaf48b23279c53fc4058f7b5d355cfda34d05aced07
+  - path: src/backend/go.mod
+    algorithm: sha256
+    value: b49a1679bfcf208508fda60f44daf54a0479d87b4d6409008b0bb2fbb5f6a827
+  - path: src/backend/go.sum
+    algorithm: sha256
+    value: d58e825c7e24727c01d00f04241872c5017ef3002ab3a2b01c37b64b70fcab6f
+  - path: src/compose.yml
+    algorithm: sha256
+    value: ece302dafe16603281e6411cd81ff5573813c0e832cc345680609aa121c85faa
+  - path: src/frontend/.dockerignore
+    algorithm: sha256
+    value: 27a62dfa19a917cfde0424344e57a1aa6221c3c9e6965f6a0b84cf9e5df5276b
+  - path: src/frontend/Dockerfile
+    algorithm: sha256
+    value: e880bb1f449a0b74e6519a22cf95f748d73ad71980ab1d5330b80e68ba93c51c
+  - path: src/frontend/ctf/game.proto
+    algorithm: sha256
+    value: 4f73348e3f4ec3bccab6bde58bf89c2e16052a168e6b69bf08a4e41ec84daa71
+  - path: src/frontend/package.json
+    algorithm: sha256
+    value: ae8573c754cd5c93d93a9e73b2a0d6dfd98c01461319cd43597708dc0971a80d
+  - path: src/frontend/server.js
+    algorithm: sha256
+    value: 39d8400e31ae5e858f00b5d708bab56620cd265808dbc987e445c6d976344198
+  - path: src/frontend/static/index.html
+    algorithm: sha256
+    value: 6862efa0860dcbbd38e78b0bc7eea4d4898e92309777829bc6bf9bdb99eeeedb
+  - path: src/frontend/static/main.js
+    algorithm: sha256
+    value: 10fd341cd7423d82d96ff17f67c16d9fc787e563020dbd1dc06a29d47a051e2c
+  - path: src/frontend/static/skins/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/frontend/static/style.css
+    algorithm: sha256
+    value: 453a5417e676487cfee92d9038caed4985232ff0166329f5cc675fce623f55cc
+  - path: src/traefik/certs/selfsigned.crt
+    algorithm: sha256
+    value: 9d7db51fc4b42313783058d7e5a70c0462af735607e18e9b452f696d77115241
+  - path: src/traefik/certs/selfsigned.key
+    algorithm: sha256
+    value: 6777bbed8a346b2d5b4b0ee4126d7a8e04025fcf19a6df8936cf7c5c33db4a6a
+  - path: src/traefik/dynamic.yml
+    algorithm: sha256
+    value: 2c0322cb00c2745895b768e8359beda1648da827b0eaa264478f7a03b563f7e1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - web/agar-agar
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/web/agar-agar
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `web`; original_category preserves that label. The 2025 organizer
+  repository states no difficulty or tags.

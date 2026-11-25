@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-rev-003
+name: The Art of RENN
+slug: 003-the-art-of-renn
+original_name: The Art of RENN
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: I was too lazy to train my flag's dataset so I made this deep learning prototype modelling
+  instead as a flag guesser, with hopes of improbable overfit.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- ml
+- neural-network
+- pytorch
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: rev/The Art of RENN
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: README.md
+    algorithm: sha256
+    value: c10d5c69fa911c779c25c4ac44d88668692a985745d8b145f538f70ddb3e0787
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: 6bf08348637b46d762eeb25b4d49074e709e7c6e8d3764685f46094d932b2c2e
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 8b06c4c16916044366f83cbe604dcdb586dff43c634559ed333b6db68ebae1f5
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - rev/The Art of RENN
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/rev/The
+    Art of RENN
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `rev`; original_category preserves that label.

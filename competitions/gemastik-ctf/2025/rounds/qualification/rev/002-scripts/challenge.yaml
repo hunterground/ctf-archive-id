@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-rev-002
+name: Scripts
+slug: 002-scripts
+original_name: Scripts
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: Scripting != Coding (or is it?)
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: rev/Scripts
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b5b0dd2c4fdc9fbb8399fc0be04bc9993a6ae88b58b97aa1ea824e856160a4cc
+  - path: dist/main
+    algorithm: sha256
+    value: 50e7c4f31f67c8826a8d10a515bbaea52b52e1a175e6f6ee9220b938e0a37f30
+  - path: src/Makefile
+    algorithm: sha256
+    value: 96ef09a4085e526ce6c5b46fd06638c337275c6b7b9b28774556474943c131bd
+  - path: src/generate_flag.py
+    algorithm: sha256
+    value: 0f1ac4e24b54f9da4bbe06d5c35b40aab001fa53fc68738dbca11f85f0f1879d
+  - path: src/main
+    algorithm: sha256
+    value: 50e7c4f31f67c8826a8d10a515bbaea52b52e1a175e6f6ee9220b938e0a37f30
+  - path: src/main.c
+    algorithm: sha256
+    value: e6e76c302e51a3471c75e8eff80c96f9027d0cb62e62f9b91876981f2ded2491
+  - path: src/main.lua
+    algorithm: sha256
+    value: e7f3f679e5cb4640f7dd8cf94521fc16ee28c3ca8712396a6d471c1ebf6b674a
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - rev/Scripts
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/rev/Scripts
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `rev`; original_category preserves that label. The 2025 organizer
+  repository states no difficulty or tags.

@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-pwn-003
+name: Bolehhh
+slug: 003-bolehhh
+original_name: bolehhh
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: easy
+  source: organizer
+tags: []
+authors:
+- name: Enryu
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: pwn/bolehhh
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 536a736494e6ca61c88dd27fa03d833b553acadf6d0da633f5510dcbbe22d724
+  - path: README.md
+    algorithm: sha256
+    value: 4236e034d543761d9638135bc5ec329e6dda219f0d82eedadc55915d6bbee539
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 5d42e73734fd19de71519d4c0e0277bcec8c9b1734a50401d6fed76074a7e847
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall
+    algorithm: sha256
+    value: 9c8115fce8aa65f3be9222646f09ca8c9e306c82aafa597c448d235e726035b9
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: c6367f4eff6de6fa0483f04d041a30997c7f45d1f448ace6d7cb0756a500435c
+  - path: src/chall
+    algorithm: sha256
+    value: 9c8115fce8aa65f3be9222646f09ca8c9e306c82aafa597c448d235e726035b9
+  - path: src/chall.c
+    algorithm: sha256
+    value: ba898a6c024ce156567f2133492532662b059f9a6b0136c732fd254f17bcbc1c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 5d42e73734fd19de71519d4c0e0277bcec8c9b1734a50401d6fed76074a7e847
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 0170b68f0cee0cea4c170ea4a6fb72b890ba1b1d279a49084023e0ea19358316
+  - path: src/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 580dfa678ab10af2c145f8801b138de06ae734d203303eeab4f5985dae6c0d6d
+  - path: writeup/chall
+    algorithm: sha256
+    value: 9c8115fce8aa65f3be9222646f09ca8c9e306c82aafa597c448d235e726035b9
+  - path: writeup/chall.c
+    algorithm: sha256
+    value: ba898a6c024ce156567f2133492532662b059f9a6b0136c732fd254f17bcbc1c
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - pwn/bolehhh
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/pwn/bolehhh
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label. The organizer shipped no challenge README, so no description,
+  difficulty, or author is recorded.'

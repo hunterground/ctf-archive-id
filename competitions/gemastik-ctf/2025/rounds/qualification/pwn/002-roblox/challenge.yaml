@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-pwn-002
+name: roblox
+slug: 002-roblox
+original_name: roblox
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: pwn/roblox
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: bzImage
+    algorithm: sha256
+    value: 0f87f3e1bfec000fe515ed33a634c437fe5a5d13b8e517330c0fb92475ed46c6
+  - path: dist/bzImage
+    algorithm: sha256
+    value: 0f87f3e1bfec000fe515ed33a634c437fe5a5d13b8e517330c0fb92475ed46c6
+  - path: dist/main.c
+    algorithm: sha256
+    value: afc05396de67c3b7f868a17bdba573a72194f251e24ba3eaf9b0560e0c9893ea
+  - path: dist/rootfs.cpio.gz
+    algorithm: sha256
+    value: 9fa2a9cb11555eafd732c41ce35cddca92b4993704fa96e54bb7a97fef145be5
+  - path: dist/run.sh
+    algorithm: sha256
+    value: d3c99f705e5d6544e3ad1eb05bebd3f0dc7839d48828adcacd988eafd2a37f73
+  - path: main
+    algorithm: sha256
+    value: 7592ed21df9a71c5ec745057c00e8ebb7ba341326f0338c57379b23f9fae582d
+  - path: main.c
+    algorithm: sha256
+    value: afc05396de67c3b7f868a17bdba573a72194f251e24ba3eaf9b0560e0c9893ea
+  - path: penjara/bin/sh
+    algorithm: sha256
+    value: 86d31f6fb799e91fa21bad341484564510ca287703a16e9e46c53338776f4f42
+  - path: penjara/lib/libc.so.6
+    algorithm: sha256
+    value: de259f5276c4a991f78bf87225d6b40e56edbffe0dcbc0ffca36ec7fe30f3f77
+  - path: penjara/lib64/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 4f961aefd1ecbc91b6de5980623aa389ca56e8bfb5f2a1d2a0b94b54b0fde894
+  - path: rootfs.cpio.gz
+    algorithm: sha256
+    value: 12234ce6cff0a3ad869c0c012655f932c8c75a0f817f426bc08aaeae1f937d8c
+  - path: run.sh
+    algorithm: sha256
+    value: d3c99f705e5d6544e3ad1eb05bebd3f0dc7839d48828adcacd988eafd2a37f73
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - pwn/roblox
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/pwn/roblox
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label. The organizer shipped no challenge README, so no description, difficulty,
+  or author is recorded. The 2025 organizer repository states no difficulty or tags.'

@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-forensics-002
+name: Baby Structured
+slug: 002-baby-structured
+original_name: baby-structured
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensics
+description: my friend sent me a picture, but she say its got 'cropped'. can you recover it?
+difficulty:
+  value: baby - easy
+  source: organizer
+tags:
+- PNG Structure
+authors:
+- name: blacosuru
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: forensics/baby-structured
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 76a3ced6b49634c0034724cce0998e1544363083e9c4e33d8897b78fa35f0c3f
+  - path: zhezhi_______.zip
+    algorithm: sha256
+    value: db729cafe5ac42c4aecf4807c88c51eb36bc777f6537271fff3086b66fc300eb
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - forensics/baby-structured
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/forensics/baby-structured
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `forensics`; original_category preserves that label.

@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-crypto-003
+name: Common and Well-known
+slug: 003-common-and-well-known
+original_name: common-and-well-known
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: Maybe it's not a new one. But, have you know it?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- Common modulus attack
+- LWE
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: crypto/common-and-well-known
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: edec1f223bae11249515c1e899ff9a68cddadfe192d473f422d94a2656b21b43
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2c8d3cc9200ee1ae97f672d7649be81ef161231e28a299675841100b8bb50315
+  - path: README.md
+    algorithm: sha256
+    value: 12dfdcc776d9c53a01444d75ecaf8570c0b42780dc63e0419b81f976f3248a73
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: bfd15ca5a2ffa5d803c2c7974843f3c11c104412aa636f2bf4fbf3e218ead2d6
+  - path: public/chall.py
+    algorithm: sha256
+    value: f3ef590bba2731ae1b188b7b8fbec5e6efe44232ab123061aa62554e93709725
+  - path: src/chall.py
+    algorithm: sha256
+    value: f3ef590bba2731ae1b188b7b8fbec5e6efe44232ab123061aa62554e93709725
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 0e4ba067a67abfdca0463e99205cf79d5c7f3823236034d6ddd37762ae1ba2a5
+  - path: writeup/README.md
+    algorithm: sha256
+    value: c679ad1bc28d1fcef5266405decb8d3706d9b1a44f3402e23d302bc050122c3b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - crypto/common-and-well-known
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/crypto/common-and-well-known
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `crypto`; original_category preserves that label.'

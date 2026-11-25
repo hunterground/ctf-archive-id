@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-web-002
+name: Karbit
+slug: 002-karbit
+original_name: karbit
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: Setelah bertahun tahun menjadi orang normal, akhirnya kamu berkesempatan untuk menjadi raja
+  Karbit. Tapi, untuk menjadi raja Karbit, kamu harus menyelesaikan tantangan yang diberikan oleh raja
+  Karbit sebelumnya. Kamu harus bisa membuktikan bahwa kamu bisa mencuri data rahasia dari raja Karbit
+  sebelumnya. Curi data tersebut dan buktikan bahwa kamu layak menjadi raja Karbit.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- XSS
+- XSS Sanitizer Bypass
+- SameSite Strict Bypass
+- Alert and Location Redirect Bypass
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: web/karbit
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 79faf9e52daf0716dd960fcd9583b043dece80cf2ba70a637ee2fe12c4c1f631
+  - path: README.md
+    algorithm: sha256
+    value: 68cc3d8df0e379ba5851871a898b93b7d58babb87bf39ccc479bc37ceb8bb8fb
+  - path: assets/bothome.png
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: assets/deploy-wdocker.png
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 90f496f2bf48f53c0f630873ccaf6b1334265d63341d3018f878371cbb197035
+  - path: bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: bot/index.js
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: bot/package.json
+    algorithm: sha256
+    value: 01174d4036d20a2bf43952f184f404c39ea79568e001cb8ad2b6d333ba5562a8
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist.zip
+    algorithm: sha256
+    value: 7c96642479ec5f74d284f4f1b160c84c33b2710882a4a3cc8c866c9d8dc479c3
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 52115814ebcdfd8ebf1b4b13098888ac93875f94bbf8f7cd2802ac272f7d8e24
+  - path: proxy.conf
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: src/index.html
+    algorithm: sha256
+    value: 6261f5aa29f479924edfd0fdd551342726e9a3536cd9f89bf3d2c93de271515d
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 53ccaf905579ee81be5030a98d6058d0baa369ebfa7efb4ceb4c46521f2d7d50
+  - path: writeup/index.html
+    algorithm: sha256
+    value: 7daf97bd47b6d5adc517ea1d0ec667d6a54914ab77d58ab787fa0023a9571ae6
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - web/karbit
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/web/karbit
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `web`; original_category preserves that label.

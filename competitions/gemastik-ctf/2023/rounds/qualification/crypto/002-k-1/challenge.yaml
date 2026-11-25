@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-qualification-crypto-002
+name: k-1
+slug: 002-k-1
+original_name: k-1
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: 'Shamir said we need `k` shares to recover the secret.
+
+
+  ```
+
+  nc <HOST> <PORT>
+
+  ```'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Shamir's secret sharing
+- linear algebra
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan
+  commit: 00c2e0b862c64d68d083cecb6d0a873a88319b31
+  original_path: crypto/k-1
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVI Keamanan Siber 2023, imported via https://github.com/ctf-gemastik/penyisihan
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: d6f5c403bbf16c27adcf2c051d05446e061eeabcf1e850aaba18955c1f5044a5
+  - path: README.md
+    algorithm: sha256
+    value: 8e7fd8b08664501012c2457cee15fb6212093d0f932b356c22bdf5f654f595a6
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 9e6bf2a238671ade64d5ac5fe969cf821f10c477a258ad9375303fb9c70efa03
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: 0c77096a2caa6fc8ec57f4f099fc5e92b0815d60253e764ab7ab160ebfde2f57
+  - path: src/chall.py
+    algorithm: sha256
+    value: 0c77096a2caa6fc8ec57f4f099fc5e92b0815d60253e764ab7ab160ebfde2f57
+  - path: src/flag.txt
+    algorithm: sha256
+    value: c056f039dd8c1e4dc88d18e34d84393f3207ecfab1437437050bb3948a5f121b
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 3d812a466120ceea003bc3ae011c9724067d7e7644a8d33ac1537c07fc229c71
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2023 - crypto/k-1
+  url: https://github.com/ctf-gemastik/penyisihan/tree/00c2e0b862c64d68d083cecb6d0a873a88319b31/crypto/k-1
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2023-penyisihan).
+  Category follows the source directory `crypto`; original_category preserves that label.sage`; `writeup/solve.sage.py`.'

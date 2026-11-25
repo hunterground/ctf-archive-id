@@ -10,12 +10,36 @@ dates:
   end: '2024-09-11'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 15
 references:
 - title: Pedoman GEMASTIK 2024
   url: https://pusatprestasinasional.kemdikbud.go.id/uploads/lampiran/Pedoman%20GEMASTIK%202024%20-%2003-01.pdf
   type: official_website
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Qualification Capture the Flag on 12-13 July 2024. Final attack-defense on 10 September 2024 and
-  write-up presentations on 11 September 2024.
+- title: Penyisihan CTF GEMASTIK 2024 (organizer challenge repository)
+  url: https://github.com/ctf-gemastik/penyisihan-2024
+  type: official_repository
+  accessed: '2026-11-25'
+- title: nopedawn/CTF (GEMASTIK-XVII-2024 writeups)
+  url: https://github.com/nopedawn/CTF
+  type: writeup
+  accessed: '2026-11-25'
+- title: hackaforgesec/ctf-writeup (Gemastik-2024 quals writeups)
+  url: https://github.com/hackaforgesec/ctf-writeup
+  type: writeup
+  accessed: '2026-11-25'
+- title: Hope0351/my_CTF_collections (Final Gemastik 2024 writeup)
+  url: https://github.com/Hope0351/my_CTF_collections
+  type: writeup
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >-
+  Qualification Capture the Flag on 12-13 July 2024. Final attack-defense on 10 September 2024 and
+  write-up presentations on 11 September 2024. Only the qualification challenge set is published
+  by the organizer, so the fifteen imported challenges and the edition challenge_count are the
+  qualification count; the final attack-defense challenges are not published and are not recorded
+  here.
+  Secondary sources reviewed but not imported: nopedawn/CTF (GEMASTIK-XVII-2024, qualification and
+  final writeup PDFs), hackaforgesec/ctf-writeup (Gemastik-2024/quals, per-challenge writeups such
+  as Forensics/Baby_Structured), and Hope0351/my_CTF_collections (Final Gemastik 2024, final-round web
+  writeup). All three are participant writeup collections and were not used as the import source.

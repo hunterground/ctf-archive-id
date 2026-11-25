@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-rev-001
+name: Packs
+slug: 001-packs
+original_name: Packs
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: rev
+description: This can be VERY easy or VERY hard for you, depends on how you do it, I guess...
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: rev/Packs
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b3e1c57a75c935f868f34f83673fe0004cd101c7c540dee638dc4e03528803d6
+  - path: dist/Packs.exe
+    algorithm: sha256
+    value: 7ca9bddb40531ab10f861a57e578608e219be72a06cea4854d13e7b24ffa349f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - rev/Packs
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/rev/Packs
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `rev`; original_category preserves that label. The 2025 organizer
+  repository states no difficulty or tags.

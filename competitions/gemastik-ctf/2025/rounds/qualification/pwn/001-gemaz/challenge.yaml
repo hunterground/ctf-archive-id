@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: gemastik-ctf-2025-qualification-pwn-001
+name: gemaz
+slug: 001-gemaz
+original_name: gemaz
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2025-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2025-public
+  commit: 7d21c290d8ce0f45326018d65e7100c733a3d94a
+  original_path: pwn/gemaz
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVIII Keamanan Siber 2025, imported via https://github.com/ctf-gemastik/penyisihan-2025-public
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gdb_history
+    algorithm: sha256
+    value: 25adb62e53d73852a4796dc21938dfefb28e0eb8ac635150ab0e7094ec3e3db5
+  - path: a.out
+    algorithm: sha256
+    value: 727b548b7c4e4b16554ea823fdb8881a3724a3ef9b12f53c4731a25fbeee998b
+  - path: chall
+    algorithm: sha256
+    value: cbdbcebc4776fcc7357a002b3d421f846bd78578e59ec6d4d6d71ef8c5c2ce10
+  - path: chall.c
+    algorithm: sha256
+    value: 27e548deca581b611caeaaec66e9176bd0bc8672ed282e8afc4b35e4a777f340
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2025 - pwn/gemaz
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public/tree/7d21c290d8ce0f45326018d65e7100c733a3d94a/pwn/gemaz
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2025-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label. The organizer shipped no challenge README, so no description,
+  difficulty, or author is recorded. The 2025 organizer repository states no difficulty or tags.'

@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-crypto-002
+name: broken-chall
+slug: 002-broken-chall
+original_name: broken-chall
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: I recently learned about the RSA scheme, and now I'm offering an RSA decryption service to
+  anyone. I asked my friends to test it, and they said it is broken because they always receive the same
+  output. Can you help me test it?
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- RSA
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: crypto/broken-chall
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: ec244a78fed1ef0e3b1e1e814a1ad8ddc6315c9733fb9938745b5454be3398a6
+  - path: README.md
+    algorithm: sha256
+    value: 5f954142b9577540e7cd03de39aac1753af40f31dede01d16095561e7c0c0057
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 61876e025ff74ae1487344fb59bddc2fffd3ce9f9c51575c033ff7789a33dc8e
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: d0a6982bf568811ae47fa1ebba6cce5defad8f9a011149676fd6abdfddb6aaac
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall.py
+    algorithm: sha256
+    value: d0a6982bf568811ae47fa1ebba6cce5defad8f9a011149676fd6abdfddb6aaac
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 45494ceb5227355b635ae8d351180037be39728e3d0aa19c8226e575e1200fb4
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 1a3e5a8a2256d49ac1e90fbd541091a793bad1d79f2cf1c912712fbf2866c1c1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - crypto/broken-chall
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/crypto/broken-chall
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `crypto`; original_category preserves that label.'

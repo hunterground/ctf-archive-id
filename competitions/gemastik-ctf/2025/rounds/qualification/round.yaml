@@ -1,0 +1,36 @@
+schema_version: '1.0'
+id: qualification
+competition_id: gemastik-ctf
+edition_year: 2025
+division_id: null
+name: Penyisihan
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online Capture the Flag qualification stage of the GEMASTIK XVIII Cyber Security
+  division.
+dates:
+  start: '2025-08-24'
+  end: '2025-08-24'
+statistics:
+  challenge_count: 10
+  participant_count: null
+references:
+- title: Panduan GEMASTIK 2025 (XVIII)
+  url: https://static-gemastik18.telkomuniversity.ac.id/Panduan%20GEMASTIK%202025.pdf
+  type: official_website
+  accessed: '2026-11-25'
+- title: Penyisihan CTF GEMASTIK 2025 (organizer challenge repository)
+  url: https://github.com/ctf-gemastik/penyisihan-2025-public
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: >-
+  The GEMASTIK XVIII guidebook schedules the Cyber Security qualification on 24 August 2025 with
+  write-up judging 25-31 August 2025, and a non-scoring warm-up on 10 August 2025. No warm-up
+  challenge files are published in the organizer repository, so no warmup round is created. The
+  ten imported challenges are the complete set published under this repository's cry, for, pwn,
+  rev, and web directories. This repository publishes bare directory names (cry, for) rather than
+  the full category words, and states no difficulty or tags; those labels are preserved in
+  original_category.

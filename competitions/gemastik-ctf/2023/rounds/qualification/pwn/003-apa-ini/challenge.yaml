@@ -1,0 +1,156 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-qualification-pwn-003
+name: Apa ini
+slug: 003-apa-ini
+original_name: apa_ini
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: Ini Apa
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- pwn
+- real-pwn
+- easy?
+authors:
+- name: Enryu
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan
+  commit: 00c2e0b862c64d68d083cecb6d0a873a88319b31
+  original_path: pwn/apa_ini
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVI Keamanan Siber 2023, imported via https://github.com/ctf-gemastik/penyisihan
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 110eeffe0b8ef851d1e2418b4ab8531cc37ba37fec275470a8a4ad529ea7ae05
+  - path: README.md
+    algorithm: sha256
+    value: cb4c7512673e963b4738cce3d1f0ae77d7cdfc5ae64472fd9179cd04185c2c30
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ace340096ebd61c99fdc9a7c18e531de0abdca2f736c8bc2f0d2bd9eabe79ce6
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall
+    algorithm: sha256
+    value: 6206e26418817878c43e8ea91aced7bd2039e97318d4db4c4710f03241bcf798
+  - path: public/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: public/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: public/username-1.txt
+    algorithm: sha256
+    value: 5ff457be4dbdec5918e3d64b2ff5aa98ac736b8057184b173e39bf653342932b
+  - path: public/username-2.txt
+    algorithm: sha256
+    value: 71efe7328311d268f1e46aff5dddd3577e14d0003223276517945817228285c9
+  - path: public/username-3.txt
+    algorithm: sha256
+    value: 3cb047e90fdd69c9bb4234f7b16e07b6e0a662a5d883a6a1be8d73a41b30e5e1
+  - path: public/username-4.txt
+    algorithm: sha256
+    value: 1097f6ed484ea871eb2e691a6186e33ac8a6464754afbe0e13ef79abc447b00d
+  - path: public/username-5.txt
+    algorithm: sha256
+    value: f53dc1a04b6614db2b18f41377a351fc8d446173bd1325d40fa7b9541b7a49ca
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall
+    algorithm: sha256
+    value: 6206e26418817878c43e8ea91aced7bd2039e97318d4db4c4710f03241bcf798
+  - path: src/chall.c
+    algorithm: sha256
+    value: 4b1387ae2fd3c8ffde14b46f55fb019f919e4e221c9c16d7428af58b009450d6
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 3e6b8e050436c7cd2579fec074eae543c1383e652f89d6b5497298e94dccd320
+  - path: src/run.sh
+    algorithm: sha256
+    value: 49e1b41ef4c925740b8d41ff78eec9befee941e7806e05ff5c94fad88596638c
+  - path: src/startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: src/username-1.txt
+    algorithm: sha256
+    value: 5ff457be4dbdec5918e3d64b2ff5aa98ac736b8057184b173e39bf653342932b
+  - path: src/username-2.txt
+    algorithm: sha256
+    value: 71efe7328311d268f1e46aff5dddd3577e14d0003223276517945817228285c9
+  - path: src/username-3.txt
+    algorithm: sha256
+    value: 3cb047e90fdd69c9bb4234f7b16e07b6e0a662a5d883a6a1be8d73a41b30e5e1
+  - path: src/username-4.txt
+    algorithm: sha256
+    value: 1097f6ed484ea871eb2e691a6186e33ac8a6464754afbe0e13ef79abc447b00d
+  - path: src/username-5.txt
+    algorithm: sha256
+    value: f53dc1a04b6614db2b18f41377a351fc8d446173bd1325d40fa7b9541b7a49ca
+  - path: src/xinetd
+    algorithm: sha256
+    value: dce08115e68017206a19074ddc3ce05f1203257945225b6dfe9e844671d9bf58
+  - path: writeup/README.md
+    algorithm: sha256
+    value: f13522940d5606204d34b3fc48fc338e824e8a54b63b4ae70a3763af13212487
+  - path: writeup/chall_patched
+    algorithm: sha256
+    value: c4ae52b6a34461be59afa1e474d33cd10ac04d19df386888a3d5c68f5fd40f6d
+  - path: writeup/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: ee7aa16bd8443a946286c9ab84a0af0cbc47aa53a8f00477bf8ada5c38580a36
+  - path: writeup/libc.so.6
+    algorithm: sha256
+    value: 568740b06a8afa26db4874f8cf61985ecbc6dd127f4229416fe95da8f9ec13fb
+  - path: writeup/username-1.txt
+    algorithm: sha256
+    value: 5ff457be4dbdec5918e3d64b2ff5aa98ac736b8057184b173e39bf653342932b
+  - path: writeup/username-2.txt
+    algorithm: sha256
+    value: 71efe7328311d268f1e46aff5dddd3577e14d0003223276517945817228285c9
+  - path: writeup/username-3.txt
+    algorithm: sha256
+    value: 3cb047e90fdd69c9bb4234f7b16e07b6e0a662a5d883a6a1be8d73a41b30e5e1
+  - path: writeup/username-4.txt
+    algorithm: sha256
+    value: 1097f6ed484ea871eb2e691a6186e33ac8a6464754afbe0e13ef79abc447b00d
+  - path: writeup/username-5.txt
+    algorithm: sha256
+    value: f53dc1a04b6614db2b18f41377a351fc8d446173bd1325d40fa7b9541b7a49ca
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2023 - pwn/apa_ini
+  url: https://github.com/ctf-gemastik/penyisihan/tree/00c2e0b862c64d68d083cecb6d0a873a88319b31/pwn/apa_ini
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2023-penyisihan).
+  Category follows the source directory `pwn`; original_category preserves that label.'

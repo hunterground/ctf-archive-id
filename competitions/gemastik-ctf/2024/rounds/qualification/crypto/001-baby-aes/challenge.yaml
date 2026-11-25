@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-qualification-crypto-001
+name: baby-aes
+slug: 001-baby-aes
+original_name: baby-aes
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: I recently learned about AES encryption, and now I'm offering an AES encryption service to
+  anyone. Please provide a message that you would like encrypted.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- AES CBC
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan-2024
+  commit: b5800ac9f044bd43056b3251fe1b51eb135969e4
+  original_path: crypto/baby-aes
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVII Keamanan Siber 2024, imported via https://github.com/ctf-gemastik/penyisihan-2024
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: .gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: Dockerfile
+    algorithm: sha256
+    value: 265133a2fc253e4bc6b125558372cd284b8a3b77e62b2311f4d7a2328f810684
+  - path: README.md
+    algorithm: sha256
+    value: 3a844e42c410cd51915f6321845a19702ce98219d8d9a9daf68eaadfcef18a2e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8286df523c5ad54b7d21b3bb102cf471ce236a87395876a873ad2725c4d18ac5
+  - path: public/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: public/chall.py
+    algorithm: sha256
+    value: 1419d161a24101f30d83043af75eb9e5abea90c82aff0d64bd5a2bfa47740fe9
+  - path: src/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/chall.py
+    algorithm: sha256
+    value: 1419d161a24101f30d83043af75eb9e5abea90c82aff0d64bd5a2bfa47740fe9
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 48e969d5ee94fb1b007c24a8f3e80aec33fc1c7f12870a949339ae38393ee310
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 0623382e53d394a92247069353dfd928ef43a3482e525ab6b5657eb1dda5e080
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2024 - crypto/baby-aes
+  url: https://github.com/ctf-gemastik/penyisihan-2024/tree/b5800ac9f044bd43056b3251fe1b51eb135969e4/crypto/baby-aes
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2024-penyisihan).
+  Category follows the source directory `crypto`; original_category preserves that label.'

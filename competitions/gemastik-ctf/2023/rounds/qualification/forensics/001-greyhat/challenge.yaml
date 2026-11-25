@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-qualification-forensics-001
+name: GreyHat
+slug: 001-greyhat
+original_name: GreyHat
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensics
+description: 'a DFIR enjoyer who love analyze dump memory ask your help for analyze ''sus'' file. He say
+  ''aku menemukan ini dari hasil dump memory client ku, client ku berkata bahwa file dia pada folder tertentu
+  tiba-tiba menghilang, dan ia terakhir kali menjalankan sebuah executables, dan mungkin ini penyebabnya.
+  Aku mengambil beberapa file yang ''sus'' dan sepertinya ini kunci untuk menemukan penyebab hilangnya
+  file-file tersebut. Bisa kah kau menolong ku?''
+
+
+  Notes : Jangan di run exe nya ya, kecuali di sandbox yang emang buat coba-coba
+
+
+  file : https://mega.nz/file/a2oixaib#Y7hu00KLlvhqVV43BzYYKcqxy8hEkUbZ1iL2rDg2wCM'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- PCAP
+- malware
+- code review
+authors:
+- name: blacowhait
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-penyisihan
+  source_type: git
+  repository: https://github.com/ctf-gemastik/penyisihan
+  commit: 00c2e0b862c64d68d083cecb6d0a873a88319b31
+  original_path: forensics/GreyHat
+licensing:
+  declared_license: MIT
+  copyright_holder: GEMASTIK challenge setter
+  redistribution: permitted
+  attribution_required: true
+  attribution: GEMASTIK challenge setter - GEMASTIK XVI Keamanan Siber 2023, imported via https://github.com/ctf-gemastik/penyisihan
+  permission_reference: The organizer repository declares no license. Archive maintainer instruction on
+    2026-11-25 records a source with no license file as MIT for imported GEMASTIK material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ed9c76aca45068c76a8f0d3025ca57d1c980c9731cd1e69b483618cb49026202
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 794abc7b5240372c0862355dc4d5dfe74987ca23ff3d7160c3a56998b08e25ec
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Penyisihan CTF GEMASTIK 2023 - forensics/GreyHat
+  url: https://github.com/ctf-gemastik/penyisihan/tree/00c2e0b862c64d68d083cecb6d0a873a88319b31/forensics/GreyHat
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Qualification challenge imported from the organizer challenge repository (gemastik-ctf-2023-penyisihan).
+  Category follows the source directory `forensics`; original_category preserves that label.'
