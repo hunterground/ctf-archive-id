@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: wreck-it-2024-junior-final-forensics-001
+name: sniff
+slug: 001-sniff
+original_name: null
+competition_id: wreck-it
+edition_year: 2024
+division_id: junior
+round_id: final
+category: forensics
+original_category: Forensic
+description: |-
+  serial bus but i tweak it a little bit
+
+  Source POC note: USB HID, last byte of the packet. The attached capture is kren.pcap.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+- usb
+- pcap
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2024-junior-final-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-50-jr
+  commit: c0d1f0543f93fe822fe266cfe9f646c926dcfb0c
+  original_path: Final/Forensic/sniff
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: kren.pcap
+    algorithm: sha256
+    value: 18b475850bb0cb0c2457ef22575a0892eadcddc3373c1b0d2bf1befe110707e6
+  - path: readme.md
+    algorithm: sha256
+    value: f97077d3b26939141ab33f78b71e01b918ec32a68d0cefc912c57b357e819a14
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2024 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-50-jr
+  permission_reference: The upstream repository has no LICENSE file; its README names k.eii, wondPing
+    and 1kazz as the authors. MIT under the archive maintainer instruction of 2026-11-25; underlying rights
+    remain with the Wreck-It 5.0 organizer and the challenge authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/Forensic/sniff in jonscafe/wreckit-50-jr
+  url: https://github.com/jonscafe/wreckit-50-jr/tree/c0d1f0543f93fe822fe266cfe9f646c926dcfb0c/Final/Forensic/sniff
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-50-jr at commit
+  c0d1f0543f93fe822fe266cfe9f646c926dcfb0c, source path Final/Forensic/sniff. The parent repository groups
+  these under Final/ and its README lists them as the Wreck IT 5.0 Junior Category final set. Solver material
+  shipped alongside the challenge was moved to solvers/ per archive policy and is not listed as a preservation
+  omission. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

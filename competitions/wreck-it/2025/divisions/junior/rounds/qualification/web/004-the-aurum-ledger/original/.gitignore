@@ -1,0 +1,14 @@
+# Node and project artifacts
+node_modules/
+challenge/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Local databases and environment
+*.db
+challenge/feedback.db
+.env
+
+# OS/editor noise
+.DS_Store
+.vscode/

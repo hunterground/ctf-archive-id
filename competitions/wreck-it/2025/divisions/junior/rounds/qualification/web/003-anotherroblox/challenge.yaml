@@ -1,0 +1,187 @@
+schema_version: '1.0'
+id: wreck-it-2025-junior-qualification-web-003
+name: Anotherroblox
+slug: 003-anotherroblox
+original_name: null
+competition_id: wreck-it
+edition_year: 2025
+division_id: junior
+round_id: qualification
+category: web
+original_category: Web
+description: '"RoboChat API: The Robux Heist Protocol", a Flask API behind HAProxy. Participants reached
+  the flag through a proxy ACL bypass combined with JWT algorithm confusion. The source ships no challenge
+  description, so this summary is taken from the application''s own page text and the repository''s verification
+  report.'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+- jwt
+- proxy
+authors: []
+organization: null
+provenance:
+  archive_id: wreck-it-2025-junior-quals-rajdoll
+  source_type: git
+  repository: https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  commit: 7bf3a7b9e47bca7931af81a8a7e13015b20d1b03
+  original_path: web/anotherroblox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 7ba27155e57420bb30cec3abfbe3967ad6bf5a68e9a9f5075de45548d9c9b841
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8bd4ecc54d981f5f21c7e975b4b96f7495b5384ae501ba8d961a922e39d7d1d9
+  - path: VERIFICATION_REPORT.md
+    algorithm: sha256
+    value: 195fc116ed406b94d8ea268cf34dbfb30fa292a7328d26b844d59493ec05edd7
+  - path: advanced_bypass_test.py
+    algorithm: sha256
+    value: 6645041a82cb07ba8b402983541b69d594c8cd65cedf6d5f6f84907daf5d94ca
+  - path: build_docker.sh
+    algorithm: sha256
+    value: f6f0cbfacd57224732c64dcac8a877da3183c6aab0bf2b0d78b45a465654d113
+  - path: challenge/app/__init__.py
+    algorithm: sha256
+    value: fd23c445ef5678f1e2ac88dfcbd69158a0a495f9226dc188b203a1ef5b5febb7
+  - path: challenge/app/api/__init__.py
+    algorithm: sha256
+    value: 618c871c8639182007c96b9aa24968bf44dc9f72442d3ab0fde6e86bcd5f572d
+  - path: challenge/app/api/json/1.json
+    algorithm: sha256
+    value: cbbbdb23534d689436409565fd1ab086c1ba5088a1ee379c296b4e095cc0e5d3
+  - path: challenge/app/api/json/10.json
+    algorithm: sha256
+    value: b6d893d0c5d02b630e0f07c733cf4ed5cb29789a97b202247cacd759c8d7aab0
+  - path: challenge/app/api/json/2.json
+    algorithm: sha256
+    value: 332a7d5c77f1e31efb5e2b4bb15ef686f7a8c450d49d0ffd1733add72ede4394
+  - path: challenge/app/api/json/3.json
+    algorithm: sha256
+    value: b318c3463c641e95659eebf226616762ac5650b77a4cfb7e6bf728963f74a242
+  - path: challenge/app/api/json/4.json
+    algorithm: sha256
+    value: 4b5c2b205d7e2d80c7447dc41f23402597b02850f77f42ab905ff98896f7fe82
+  - path: challenge/app/api/json/5.json
+    algorithm: sha256
+    value: 5117f36c623c86839e8394c60d2f000b2c09cf85bc86dcbea396f07ee32b8e6b
+  - path: challenge/app/api/json/6.json
+    algorithm: sha256
+    value: ae485d7956d0d31790bd2cbf9bb994d2d1b6746d01b82c7f4f88f289c86beaf0
+  - path: challenge/app/api/json/7.json
+    algorithm: sha256
+    value: 7f7914d19a2412480761053138bfefe1e1afc3ddd6ba073d234aa3cbdfbf535a
+  - path: challenge/app/api/json/8.json
+    algorithm: sha256
+    value: 572a850e755a7f0d9499507365f295ca3246038affab571bfa8ddee09be2c41d
+  - path: challenge/app/api/json/9.json
+    algorithm: sha256
+    value: a4b89c8572b7eea937f2200995a79709ce45ad8031d47054b3b79de631bcf60a
+  - path: challenge/app/api/routes.py
+    algorithm: sha256
+    value: 6df0e760971424a9b413415872c2c5e38886633e18b82a7d2ccd11323a10fb47
+  - path: challenge/app/main/__init__.py
+    algorithm: sha256
+    value: 85808b6eb79f9fbd0e0595e6ee3206bba160c2806bf4a0d42c2b128b23283fdc
+  - path: challenge/app/main/routes.py
+    algorithm: sha256
+    value: 1898aaf2989aea20b117642516240f708a8b419d929b634cf9dc2d90f2625d9b
+  - path: challenge/app/main/static/css/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/app/main/static/css/style.css
+    algorithm: sha256
+    value: cf58273e2e752274a1297ac0653af0581132621d5713082161f084375bccabde
+  - path: challenge/app/main/static/fonts/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/app/main/static/images/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/app/main/static/js/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge/app/main/static/js/main.js
+    algorithm: sha256
+    value: 5e9b1d1ae576f0b509a1fdcce8f05a5cbd75ecb5b0d22c1808352dc6f4bddf52
+  - path: challenge/app/main/templates/index.html
+    algorithm: sha256
+    value: 436743d49fecc562984a0f60d5a7abe2f53e6cf6db178674b9ae0328de2a4b54
+  - path: challenge/app/middleware/__init__.py
+    algorithm: sha256
+    value: 7e2ca7624db648e08e61a37b16938421e797d30eca23df865dfda4511f838891
+  - path: challenge/app/middleware/middleware.py
+    algorithm: sha256
+    value: f5f5872604410536515a0cb16aabd6a9390289e75b09dcdf749c2507ca196662
+  - path: challenge/config.py
+    algorithm: sha256
+    value: 6df51204d7a52f72410f43c76772732453d4f736bf4045afcb573325de5d27db
+  - path: challenge/run.py
+    algorithm: sha256
+    value: e2d6f948238bfe5470a70cd7add62e3d233deee0c2e29303c10a394e1a64b2fa
+  - path: complete_robochat_solver.py
+    algorithm: sha256
+    value: 0a9223be870408b2d8e1f228660a05db38c836a64409c9174b56612e53d063de
+  - path: conf/haproxy.cfg
+    algorithm: sha256
+    value: 04cda6f4339c4501ac69ac240b6fb91479313fb0c10e74f09edd71596c296d0e
+  - path: conf/requirements.txt
+    algorithm: sha256
+    value: bb085353b4ca9d3ccf547ccb61a3e2a505c00b48018967acd9b7668baae92b39
+  - path: conf/supervisord.conf
+    algorithm: sha256
+    value: eb2d30f99e73e3c70e51993e3b4f9255638c666d03835b4bffb79c1ea4970d32
+  - path: conf/uwsgi.ini
+    algorithm: sha256
+    value: f177f66629c7ce11aaf9b6626cc079b9def3cd6cab033ed8ff0cc30130c7423a
+  - path: raw_http_test.py
+    algorithm: sha256
+    value: fc29c94ed3022692f6a758bf00c35afc5b27a6efe9269cdd291d8b8480ccf2e5
+  - path: read_pdf.py
+    algorithm: sha256
+    value: ecb7b41aaea0bf45fc27edf709680357973547b9371d96fe5a65bcbff14dda73
+  - path: robochat_exploit.py
+    algorithm: sha256
+    value: 1db26b09019254fff3f438b80b71aefed952f420d052e42e7b65783c65420639
+  - path: test_bypass.py
+    algorithm: sha256
+    value: 659c59d1c2be9170a4e6731ee1a267a2133b3eacc0c75cad86965ece5daf6eee
+  - path: test_chat_endpoint.py
+    algorithm: sha256
+    value: 9f22a43b9f05406df956c457c2c1cfcfcaf0f913b6769bd88a98fa0fd09b60f8
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2025 challenge material by the credited authors and organizers; source https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  permission_reference: The upstream repository has no LICENSE file and does not state who wrote the challenges;
+    commit authorship is the repository owner's account only, so no author is recorded. MIT under the
+    archive maintainer instruction of 2026-11-25; underlying rights remain with the Wreck-IT 6.0 organizer
+    and the challenge authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/anotherroblox in Rajdoll/WRECKIT6-JUNIOR
+  url: https://github.com/Rajdoll/WRECKIT6-JUNIOR/tree/7bf3a7b9e47bca7931af81a8a7e13015b20d1b03/web/anotherroblox
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/Rajdoll/WRECKIT6-JUNIOR at commit
+  7bf3a7b9e47bca7931af81a8a7e13015b20d1b03, source path web/anotherroblox. The repository does not state
+  who wrote the challenges and commit authorship is only the repository owner's account, so no author
+  is recorded. Files in the source that carry a flag value are preserved under original/; no flag text
+  is copied into this metadata.

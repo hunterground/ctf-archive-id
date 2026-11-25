@@ -1,0 +1,10 @@
+name: pwn-blind-girl
+services:
+  chall:
+    build: .
+    ports:
+      - "${PORT_19530:-19530}:19530"
+    environment:
+      - FLAG=WRECKIT70{placeholder}
+    mem_limit: 32m
+    cpus: 0.2

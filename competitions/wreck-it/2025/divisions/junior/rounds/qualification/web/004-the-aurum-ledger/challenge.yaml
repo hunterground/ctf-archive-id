@@ -1,0 +1,192 @@
+schema_version: '1.0'
+id: wreck-it-2025-junior-qualification-web-004
+name: The Aurum Ledger
+slug: 004-the-aurum-ledger
+original_name: null
+competition_id: wreck-it
+edition_year: 2025
+division_id: junior
+round_id: qualification
+category: web
+original_category: Web
+description: A Node.js and Fastify newspaper page with a feedback form and a headless bot. The feedback
+  listing and an internal page answer only on localhost. The source ships no challenge description, so
+  this summary is taken from the application's README and routes.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- xss
+- bot
+authors: []
+organization: null
+provenance:
+  archive_id: wreck-it-2025-junior-quals-rajdoll
+  source_type: git
+  repository: https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  commit: 7bf3a7b9e47bca7931af81a8a7e13015b20d1b03
+  original_path: web/theaurumledger
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 37c5a667000ff0d54036a164fe0f054834af6db08d839fe3dd17e07a4e6ff572
+  - path: .gitignore
+    algorithm: sha256
+    value: 3de6b72b62c910a54831b8539d6cb65975797e650fc61f6ee085bc75f527b0d7
+  - path: Dockerfile
+    algorithm: sha256
+    value: 9aab744156f5f0ca9fe640b381b284e7f72b701b960cf141781b7f36c1d2376e
+  - path: README.md
+    algorithm: sha256
+    value: 0c49465fa7548f76635bbae155cb540c01588930a9369472b95deadbdf90ebae
+  - path: The Galactic Times.pdf
+    algorithm: sha256
+    value: a8b07b98d6e95a07cf7b088845af0f2d2c19cf7fb7144c21d84a87f29b94a740
+  - path: build_docker.sh
+    algorithm: sha256
+    value: b5aad264220d253528f3f714a5f0e2cc1211c2b3df0c16af702a1d26f0a2fe94
+  - path: challenge/bot.js
+    algorithm: sha256
+    value: 9e9d8246a53ea1c4a0f510d3898e7c4cf919dcc1840535d766c8047f86812fbe
+  - path: challenge/database.js
+    algorithm: sha256
+    value: 23add07126ea34e23af7b43246533b7df81c679f31dbb1fecadb221546a0afd0
+  - path: challenge/index.js
+    algorithm: sha256
+    value: f50b443e9bc96d8a09d26347bde67b74a5dc96c33217886372227e1204545d96
+  - path: challenge/package-lock.json
+    algorithm: sha256
+    value: 7a746274e08c39a5e85dcb3ec62d673834658472cea99b0405494ca51b31385f
+  - path: challenge/package.json
+    algorithm: sha256
+    value: 7532bdc84fe46718405a0b36d8bc0273e4a2decaa5b8cdeba31afe0a84aa58d6
+  - path: challenge/public/static/css/bootstrap.min.css
+    algorithm: sha256
+    value: 882f9a6a85743235cbd8889b82d92c70da49b469eb437c68c12a760023cd8e31
+  - path: challenge/public/static/css/main.css
+    algorithm: sha256
+    value: 0a0b3063ca1f66ae40be6f22ad8915885aca0b843a2eb75af071a726d90ce61d
+  - path: challenge/public/static/images/abduction.gif
+    algorithm: sha256
+    value: c2fd323a4ccc70e1c5998d4c5d55903e326f59de5139d8a348d1b3e2d474b002
+  - path: challenge/public/static/images/abduction.jpg
+    algorithm: sha256
+    value: 65755cd3f4e773afb8a70094e6396e7bbb4b4d986f21f6e904dc484dea543ec6
+  - path: challenge/public/static/images/alien.jpg
+    algorithm: sha256
+    value: 1829cc4185e30a04b94d9ce4b2782ed33fcb56c49ce3429e6c191a2e5e0ebca2
+  - path: challenge/public/static/images/alien_cat.jpg
+    algorithm: sha256
+    value: 0401a07799cb423159196a0c4e77ddf2e9b3a2ee6dc6374d15d3dde666d97c5c
+  - path: challenge/public/static/images/dance.gif
+    algorithm: sha256
+    value: 4db7e9d5a67fb8185804514d1971cb265fd819b40b6ca616119f04e1759e04b1
+  - path: challenge/public/static/images/favicon.png
+    algorithm: sha256
+    value: 1c773116db843f71bcca9d02bb5d92e71c10b63c6bd78b778dcf7be227474995
+  - path: challenge/public/static/images/feedback.jpg
+    algorithm: sha256
+    value: 4427b100d087906e4e1e8614f3f758e976d0910020c4d2e3d6e130ac3c4718c7
+  - path: challenge/public/static/images/gold_beam.svg
+    algorithm: sha256
+    value: 61b870a021d465ada3c399098f0d94af64fc41f8ce85a324457fd527ee2a4a97
+  - path: challenge/public/static/images/gold_breaking.svg
+    algorithm: sha256
+    value: 868385bf2df6c8e41b4ec3ba1bb764a019158e938af1886648da8327625c658c
+  - path: challenge/public/static/images/gold_coins.svg
+    algorithm: sha256
+    value: 2021551a61076657b0ce9a8c266128a50f59e5b2b57c2c718d79a0e63a585037
+  - path: challenge/public/static/images/gold_pet.svg
+    algorithm: sha256
+    value: 44f4b2f5e8c5486b48b0c595051cc0dd3781dfdff31687a1b8a6d6c90c011107
+  - path: challenge/public/static/images/gold_pie.svg
+    algorithm: sha256
+    value: a97a2f38ab3368dde72411e517ffedf0cfd0eba9415121435498fe78582f6f8c
+  - path: challenge/public/static/images/gold_trend.svg
+    algorithm: sha256
+    value: c7f078bee8f759c1ba4d99682752df4709e54ca8ce9ca9917ca4e7f815fa84cf
+  - path: challenge/public/static/images/gold_vault.svg
+    algorithm: sha256
+    value: ec87d6349f5b2414b920940d49c2b98217a3a082618b58ec93b39e82fccdf8b7
+  - path: challenge/public/static/images/jones.webp
+    algorithm: sha256
+    value: 5e4e2ebe3269075a1c8d6f09bac9ba796f308cd6e1ffebb0cd71f36aa81c970a
+  - path: challenge/public/static/images/naruto.jpeg
+    algorithm: sha256
+    value: e3824a48b3d1460d70193d437f0f25323ab279e3d202ad5f6ba2ccae18017de4
+  - path: challenge/public/static/images/pie.jpg
+    algorithm: sha256
+    value: 170bf7b8495474f7401e925d497b9dc65b0e6518437a82ec64ef6354e693937b
+  - path: challenge/public/static/images/ready.jpg
+    algorithm: sha256
+    value: 2aaffae77fc90235cf8281071992e13d7775589a2b55833e7867ae46e9285da7
+  - path: challenge/public/static/images/social.gif
+    algorithm: sha256
+    value: 7a6f857fb0514bf475bda6e4f3a031c6adc5119ae5795141c3c876eea2f580a6
+  - path: challenge/public/static/images/stars.png
+    algorithm: sha256
+    value: f29303de6a679b3b0bac8e8f431469d83c671354298f973fa2961a13483d2d13
+  - path: challenge/public/static/js/bootstrap.bundle.min.js
+    algorithm: sha256
+    value: cfd88d43b9c596f514e0223a98b150266ecdec5e2a9491ab94320b92fa130e0b
+  - path: challenge/public/static/js/main.js
+    algorithm: sha256
+    value: f1da80c841888e2651e3e0364bd09b6b4ccb6bd6a1914cc4aa421064428d971a
+  - path: challenge/routes/index.js
+    algorithm: sha256
+    value: b1b892235b9d3b3f7cbc9b0cc370c14d6fc380b3ff5c69940963113caa791e67
+  - path: challenge/views/alien.html
+    algorithm: sha256
+    value: 72df3a9e3f45c49d19e374738074d21f2f62e483e13fbde0e78ceee4dd8719e3
+  - path: challenge/views/feedback.html
+    algorithm: sha256
+    value: c4f44f74638af205047fd251050736f5304cbfa2c0b5bf85a9585cf18bf13d0c
+  - path: challenge/views/index.html
+    algorithm: sha256
+    value: aa81eef9e5f089cc573c7502bc7ceda62467b691e5917f27fb5e7e422b3ebb66
+  - path: challenge/views/list.pug
+    algorithm: sha256
+    value: 54df86c3d88e031dc026688d041dac6b7f162ed1177ca3b77b3193665b0fff08
+  - path: challenge/yarn.lock
+    algorithm: sha256
+    value: dc82e786707e2c363bc574f02ecc516b1013e8bbc9259c8dbfd4e48b09ff633b
+  - path: config/supervisord.conf
+    algorithm: sha256
+    value: 24f2c6e7fde6c34ad425a0ec26109e5d788a4bd04e12da42e4540908e52af4fe
+  - path: run_docker.ps1
+    algorithm: sha256
+    value: 685e089e935e5dac16b695e552f1ae5a9c1a25c46121e4a747bd7a812cf640f7
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2025 challenge material by the credited authors and organizers; source https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  permission_reference: The upstream repository has no LICENSE file and does not state who wrote the challenges;
+    commit authorship is the repository owner's account only, so no author is recorded. MIT under the
+    archive maintainer instruction of 2026-11-25; underlying rights remain with the Wreck-IT 6.0 organizer
+    and the challenge authors.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: web/theaurumledger in Rajdoll/WRECKIT6-JUNIOR
+  url: https://github.com/Rajdoll/WRECKIT6-JUNIOR/tree/7bf3a7b9e47bca7931af81a8a7e13015b20d1b03/web/theaurumledger
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/Rajdoll/WRECKIT6-JUNIOR at commit
+  7bf3a7b9e47bca7931af81a8a7e13015b20d1b03, source path web/theaurumledger. The repository does not state
+  who wrote the challenges and commit authorship is only the repository owner's account, so no author
+  is recorded. Files in the source that carry a flag value are preserved under original/; no flag text
+  is copied into this metadata.

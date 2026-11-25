@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-forensics-002
+name: 'MERAK-17: Sisa Panas'
+slug: 002-merak-17-sisa-panas
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: 'Host build `MERAK-17` mati setelah proses sinkronisasi paket gagal. Tidak ada memory dump.
+  Disk VM berhasil diamankan.
+
+
+  Source topic: Windows disk forensics. Source level: General/Junior.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- forensics
+- windows
+- disk-image
+authors:
+- name: hombing
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: forensics/MERAK-17 Sisa Panas
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1wDWklnebUbMA0f9lJ77puylYtu8pa6Wb/view?usp=sharing
+    reason: 'The VM disk image is a Google Drive file, not a file in the tree. Linked from the challenge
+      README and not present in the git tree. Not downloaded. Probed 2026-11-25: link returns HTTP 404
+      from Google Drive, so the artefact is no longer publicly retrievable.'
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2280b8b72c1fd2afd2e03d2c636468b811969713235a9777ee092237c20236c3
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensics/MERAK-17 Sisa Panas in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/forensics/MERAK-17%20Sisa%20Panas
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path forensics/MERAK-17 Sisa Panas. The source README
+  labels this challenge's level as General/Junior; the level is recorded through the division placement.
+  A challenge labelled General/Junior is published once in each division tree as a separate copy of the
+  same source directory. Files in the source that carry a flag value are preserved under original/; no
+  flag text is copied into this metadata.

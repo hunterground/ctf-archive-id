@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="gold" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="#0e0b07"/>
+  <g stroke="#A67C00" stroke-width="2" opacity="0.7">
+    <line x1="60" y1="390" x2="760" y2="390"/>
+    <line x1="60" y1="60" x2="60" y2="390"/>
+  </g>
+  <polyline fill="none" stroke="url(#gold)" stroke-width="4" points="80,360 130,330 170,340 220,310 280,320 340,280 410,300 480,240 540,260 600,200 660,170 720,110"/>
+  <g fill="#FFD700">
+    <circle cx="720" cy="110" r="6"/>
+  </g>
+  <text x="620" y="95" fill="#FFD700" font-family="Manrope, sans-serif" font-size="18">ATH Sep 2025</text>
+</svg>

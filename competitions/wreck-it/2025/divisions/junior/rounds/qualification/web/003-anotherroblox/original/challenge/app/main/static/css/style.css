@@ -1,0 +1,160 @@
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Roboto:wght@400;500;700&display=swap');
+
+.header {
+    background: linear-gradient(135deg, #00B2FF 0%, #006FFF 50%, #0040FF 100%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(0, 64, 255, 0.3);
+}
+
+.header h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    margin: 10px 0 0 0;
+    opacity: 0.9;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #f0f8ff 0%, #e6f3ff 100%);
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container h3 {
+    font-family: 'Fredoka One', cursive;
+    color: #0040FF;
+    font-size: 1.8em;
+    text-align: center;
+    margin: 30px 0 20px 0;
+    text-shadow: 1px 1px 2px rgba(0, 64, 255, 0.2);
+}
+
+.endpoint {
+    border: 2px solid #00B2FF;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 15px 0;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 178, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+.endpoint:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 178, 255, 0.3);
+}
+
+
+.method {
+    background: linear-gradient(135deg, #00D4AA 0%, #00B88A 100%);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+    box-shadow: 0 2px 8px rgba(0, 212, 170, 0.3);
+}
+
+.path {
+    margin-top: 0;
+    margin-left: 15px; 
+    font-weight: bold;
+    font-family: 'Roboto', monospace;
+    color: #0040FF;
+    font-size: 1.1em;
+}
+
+.description {
+    margin-top: 0;
+    margin-left: 15px;
+    color: #333;
+    font-size: 1em;
+}
+
+
+input[type="text"] {
+    margin-top: 0;
+    margin-left: 15px;
+    padding: 10px 15px;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    transition: all 0.3s ease;
+    background: #FAFAFA;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #00B2FF;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 178, 255, 0.2);
+}
+
+.is-locked {
+    margin-top: 0;
+    margin-left: 15px;
+    color: #FFB347;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 2px rgba(255, 179, 71, 0.3);
+}
+
+
+.execute-btn {
+    margin-top: 0;
+    margin-left: auto; 
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF5252 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(255, 107, 107, 0.4);
+}
+
+.execute-btn:hover {
+    background: linear-gradient(135deg, #FF5252 0%, #FF4444 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.6);
+}
+.results-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  /* Results styling */
+  .results pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: monospace;
+    border: 1px solid gray;
+}

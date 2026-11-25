@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-rev-003
+name: PCRS
+slug: 003-pcrs
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Controls: I/J/K/L move, Space add or remove block, Enter submit, Esc exit. The source README instructs replacing the prefix "flag" with "WRECKIT7".
+
+  Source level: General.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- rev
+- game
+authors:
+- name: FlaB
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: reverse-engineering/PCRS
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e511cf848157c38b5b55ee3b489f6f337805fe4d88a9043633de2f637c763e5c
+  - path: chal.zip
+    algorithm: sha256
+    value: adce2e8ccd4e949936a536eb381720248ea5abfe04c3a6a981ea94c2e760e3aa
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: reverse-engineering/PCRS in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/reverse-engineering/PCRS
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path reverse-engineering/PCRS. The source README labels
+  this challenge's level as General; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

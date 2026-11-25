@@ -10,12 +10,21 @@ dates:
   end: '2024-08-21'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 8
 references:
 - title: Poltek SSN on Wreck-IT 5.0
   url: https://poltekssn.ac.id/berita/korps-taruna-poltek-ssn-selenggarakan-event-wreck-it-5-0/
   type: organizer_announcement
   accessed: '2026-11-21'
-challenge_materials_imported: false
+- title: Wreck IT 5.0 Junior Final archive
+  url: https://github.com/jonscafe/wreckit-50-jr
+  type: official_repository
+  accessed: '2026-11-25'
+challenge_materials_imported: true
 notes: Opened on 21 August 2024. Poltek SSN reports jeopardy and attack-defense Capture The Flag, 239
-  Reguler teams and 74 Junior teams, and a final at Huawei Innovation Center in Jakarta.
+  Reguler teams and 74 Junior teams, and a final at Huawei Innovation Center in Jakarta. Eight junior
+  final challenges were imported from an author-published repository at commit c0d1f0543f93fe822fe266cfe9f646c926dcfb0c;
+  the repository README names k.eii, wondPing, and 1kazz as authors. Its forensic "perpesanan" challenge
+  keeps only a README in the tree because the artefact is a MEGA download link; that link is recorded
+  as a preservation omission and no longer resolves (the MEGA API returns object not found as of 2026-11-25).
+  No Reguler challenge material was located.

@@ -1,0 +1,10 @@
+name: pwn-blind-goddess
+services:
+  chall:
+    build: .
+    ports:
+      - "${PORT_19550:-19550}:19550"
+    environment:
+      - FLAG=WRECKIT70{placeholder}
+    mem_limit: 256m
+    cpus: 0.25

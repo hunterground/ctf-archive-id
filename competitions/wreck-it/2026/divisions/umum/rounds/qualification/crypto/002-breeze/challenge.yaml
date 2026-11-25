@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-crypto-002
+name: breeze
+slug: 002-breeze
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  angin sepoi-sepoi
+
+  Source topic: PRNG. Source level: General/Junior.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- crypto
+- prng
+authors:
+- name: itoid
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: cryptography/breeze
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.MD
+    algorithm: sha256
+    value: b9f1804b969d9b024cd09e225dd3b2ba52b623860bc120fba49212eb13038bc4
+  - path: dist/chall.py
+    algorithm: sha256
+    value: a3f12aecc3c1b1f3fa18e79fcdebd70846ea4228d17415fbaef421d7614906dc
+  - path: dist/out.txt
+    algorithm: sha256
+    value: ad1a2450b08dea40649e1a7cfbc739890133b88054effe203f713cd93aba3ff8
+  - path: src/chall.py
+    algorithm: sha256
+    value: a3f12aecc3c1b1f3fa18e79fcdebd70846ea4228d17415fbaef421d7614906dc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 698119b384af757cdffdec0b668a285b2b21ead8f30942ddc330dfeeaafed4f2
+  - path: src/out.txt
+    algorithm: sha256
+    value: ad1a2450b08dea40649e1a7cfbc739890133b88054effe203f713cd93aba3ff8
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: cryptography/breeze in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/cryptography/breeze
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path cryptography/breeze. The source README labels
+  this challenge's level as General/Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

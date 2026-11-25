@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-forensics-001
+name: It Wrecked (Again)
+slug: 001-it-wrecked-again
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: 'I deployed a nice service for wreck it 7.0, but it seems to be broken again
+
+
+  Source topic: memory dump, theoretical pwn. Source level: General.'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- forensics
+- memory-dump
+authors:
+- name: keii
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: forensics/it-wrecked-again
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1nMGdq6weanYTaiMhnf7-CELRG4z-xMDD/view?usp=sharing
+    reason: 'The memory dump archive is a Google Drive file, not a file in the tree. Linked from the challenge
+      README and not present in the git tree. Not downloaded. Probed 2026-11-25: link still serves a 561,102,607-byte
+      RAR5 archive.'
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 93e5195df3cc3f1cb49b0b54ec132221f99c9f2fbfe4064a1240710e71363462
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensics/it-wrecked-again in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/forensics/it-wrecked-again
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path forensics/it-wrecked-again. The source README
+  labels this challenge's level as General; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

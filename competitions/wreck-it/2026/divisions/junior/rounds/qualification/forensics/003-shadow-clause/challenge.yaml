@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-forensics-003
+name: Shadow Clause
+slug: 003-shadow-clause
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: 'Mantan karyawan dituduh menyalin paragraf dari dokumen desain internal ke spesifikasi produk
+  pesaing. Ia mengklaim dokumen itu ditulis manual dari awal di Microsoft Word. Buktikan!
+
+
+  Source topic: document forensics. Source level: Junior.'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+- document
+authors:
+- name: hombing
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: forensics/Shadow Clause
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5e22924fbc74c456831f45bd3a97c021ea918730c51a3632ca13039338616e3b
+  - path: ShadowClause_evidence.zip
+    algorithm: sha256
+    value: 4354db44423066e570eacece28d676e33e9b42421b06e6cb25b39bae70499754
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensics/Shadow Clause in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/forensics/Shadow%20Clause
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path forensics/Shadow Clause. The source README labels
+  this challenge's level as Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata. The Google Drive artefact ShadowClause_evidence.zip was added to original/
+  on 2026-11-26 (87,339 bytes, SHA-256 recorded, archive verified with unzip -t); the earlier omission
+  entry was removed because the file is now archived.

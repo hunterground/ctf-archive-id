@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-pwn-001
+name: Blind Girl
+slug: 001-blind-girl
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  nc {{host}} {{port}}
+
+  Source topic: blind, format string, libc database. Source level: General/Junior.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- pwn
+- format-string
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: pwn/blind-girl
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c73804898e31b31c3f46cfa64e8057728ea831a960236e109853498478521b83
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1a472efb9517b70c030ef88ef6042894849f9f72a700e37c56ff1457131ecce3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ff6b4b954e41239cd981240e94b36849cbec104769bdce697e45e74daa57193e
+  - path: docker-entrypoint.sh
+    algorithm: sha256
+    value: aca557a527e8dbd1fa0c796fce8fb80a63ae3083e354decbbeee5b102f727ed8
+  - path: src/Makefile
+    algorithm: sha256
+    value: 24db9e791275c142d653ec6ce22408d9934c714f86aa265565288e31277eb976
+  - path: src/chall
+    algorithm: sha256
+    value: 671f331d22e5737297cb336ca9a0c414de0da2e61f5798e9aa9539f376d7e15d
+  - path: src/chall.c
+    algorithm: sha256
+    value: f869893d436690be248d40c2e22623879903f7d9906d9c9a81b43995abe2619d
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: pwn/blind-girl in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/pwn/blind-girl
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path pwn/blind-girl. The source README labels this
+  challenge's level as General/Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Solver material shipped alongside the challenge was moved to solvers/ per archive policy
+  and is not listed as a preservation omission. Files in the source that carry a flag value are preserved
+  under original/; no flag text is copied into this metadata.

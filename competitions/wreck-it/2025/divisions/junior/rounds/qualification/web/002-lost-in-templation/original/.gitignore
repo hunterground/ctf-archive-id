@@ -1,0 +1,39 @@
+# Java / Maven
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
+# IntelliJ / VS Code
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.pid
+
+# Docker
+**/.docker/
+**/.env
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# Node (if any future assets tooling)
+node_modules/
+
+# Misc
+.cache/
+.tmp/
+
+# Exclude compiled resources duplicates inside target
+challenge/target/

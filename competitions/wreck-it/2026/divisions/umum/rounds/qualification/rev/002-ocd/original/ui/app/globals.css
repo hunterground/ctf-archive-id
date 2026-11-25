@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6f0e7;
+  --ink: #141210;
+  --ink-muted: #4a4742;
+  --accent: #e85d5d;
+  --accent-2: #f4b35f;
+  --mint: #76d1b6;
+  --shadow: rgba(20, 18, 16, 0.12);
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: radial-gradient(1200px 600px at 20% -10%, #fce3c4 0%, transparent 60%),
+    radial-gradient(900px 500px at 80% 0%, #f4c0a2 0%, transparent 55%),
+    linear-gradient(180deg, #f6f0e7 0%, #efe2d2 100%);
+  color: var(--ink);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+  min-height: 100vh;
+}
+
+.photocalc-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(20, 18, 16, 0.08);
+  box-shadow: 0 24px 60px -40px var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+.photocalc-title {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.photocalc-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+@keyframes float-in {
+  0% {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-float-in {
+  animation: float-in 700ms ease both;
+}

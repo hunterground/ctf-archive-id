@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.log
+
+# Virtual envs
+.env
+.venv/
+venv/
+env/
+pythonenv*/
+
+# Testing & coverage
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.dist/
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node (in case you add tooling later)
+node_modules/
+
+# Docker
+**/.dockerignore

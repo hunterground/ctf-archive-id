@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: wreck-it-2023-qualification-crypto-003
+name: Random Plays a Game
+slug: 003-random-plays-a-game
+original_name: Random Plays a Game
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: 'Random fact: Uang kertas itu bukan persegi panjang, melainkan kotak. Tidak percaya? coba
+  kamu cek berapa milimeter ketebalan uang kertas.'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: wondPing
+  team: null
+organization: null
+provenance:
+  archive_id: maulvialf-ctf-challs-archive
+  source_type: git
+  repository: https://github.com/maulvialf/CTF-Challs-Archive
+  commit: 5347e5db1a2b2e8381603126a2a236ede111f45d
+  original_path: 2023/WreckIT 4.0/Crypto/Random Plays a Game
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 4.0 challenge material by the credited authors and organizers; source https://github.com/maulvialf/CTF-Challs-Archive
+  permission_reference: Neither the collection nor an organizer publication carries a license for these
+    files. The collection README states that all challenge copyright belongs to each event organizer and
+    problem setter. Recorded as MIT under the archive maintainer instruction of 2026-11-25; underlying
+    rights remain with the organizer and the individual authors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0c56fa0e4980db03924bf3e0d6fa285cf48e9b16ba245171e1089f75c01c50c8
+  - path: crypto2.py
+    algorithm: sha256
+    value: 84393798d471328300ac381a805cecab27b8a712f768e706f744510680b0ae9d
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Crypto/Random Plays a Game in maulvialf/CTF-Challs-Archive
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0/Crypto/Random%20Plays%20a%20Game
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'Imported from the third-party collection maulvialf/CTF-Challs-Archive at commit 5347e5db1a2b2e8381603126a2a236ede111f45d,
+  source path 2023/WreckIT 4.0/Crypto/Random Plays a Game. The collection keeps a CTFd export at the set
+  root; the values below come from it. Organizer-recorded points 436, solves 12. Points are not a difficulty
+  scale, so difficulty is left unknown. The round is the Wreck-IT 4.0 qualification: organizer and press
+  coverage describe the penyisihan as jeopardy across web, crypto, reverse engineering, pwn, forensic,
+  and misc, while the final used attack-defense, and this source repository files a separate attack-defense
+  set under 2023/final-wreckit-4. The collection states that challenge copyright belongs to the event
+  organizer and problem setters, and ships no license for these files; redistribution is therefore recorded
+  under the archive maintainer instruction of 2026-11-25. Attribution: Wreck-IT 4.0 challenge material
+  by the credited authors and the organizer, Senat Korps Taruna, Politeknik Siber dan Sandi Negara. Provenance
+  runs through a third-party aggregate, not an organizer publication, so verification is needs_scope_review.'

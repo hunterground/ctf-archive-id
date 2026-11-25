@@ -1,0 +1,121 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-web-002
+name: CraftedVitae
+slug: 002-craftedvitae
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |-
+  cari kerja susah sekarang mah
+
+  Source topic: template injection, LFI. Source level: General/Junior.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- ssti
+- lfi
+authors:
+- name: rajdoll
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: web-exploitation/craftedvitae
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ca7c182ff10f73d9dde8dc48c5ddef15f859a2f18e675a9644438487ac926882
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 7ac5dd4582cc65126c4d794a776e5002f7fc17b6b299c35aea3175da91f56700
+  - path: challenge/go.mod
+    algorithm: sha256
+    value: c1bd073df31767b78129c8c2f77407b5f466015a852bd860b88e330517e15b73
+  - path: challenge/handlers.go
+    algorithm: sha256
+    value: d8b64806372124ba918d539f2d2501344d3f5f2af9d3fd2efa7b7f46051f8195
+  - path: challenge/main.go
+    algorithm: sha256
+    value: 270d43bfac67622576c1137485b7b14f92693740a538aa6c6c4b0b7ff24ebd43
+  - path: challenge/middleware.go
+    algorithm: sha256
+    value: 7449c0dfb4042c35f791a327248225f28f6240f2be490b880d60da4c19c0a6a5
+  - path: challenge/models.go
+    algorithm: sha256
+    value: e27faeb38c0a9c5be7d6804a584c448a367a91570eee37547c8ce2a515afbe92
+  - path: challenge/static/css/style.css
+    algorithm: sha256
+    value: bd56e4ecf5dbaff46a3b90697598c3bd5caeb3fb95f697ba04f016192f3c3249
+  - path: challenge/static/js/app.js
+    algorithm: sha256
+    value: 55f08dacd78974726987b3e55ce1b19e07a95bc094be611cc1faf36d3027a3c2
+  - path: challenge/templates/creative.tpl
+    algorithm: sha256
+    value: cd9259d6cfa5b4c5a38cee6aa8ee7cf93ba1766365d26d88adad41bd5c7e7741
+  - path: challenge/templates/index.html
+    algorithm: sha256
+    value: e9c5687f7445c6d4bb666268b0c9fee9c4fd35cc3c08d3e8d42e4184c9ef0dff
+  - path: challenge/templates/minimal.tpl
+    algorithm: sha256
+    value: bfeed52fe99007be6bdf866a01428ca8431d66b682c0636bf01d337dc0f43038
+  - path: challenge/templates/modern.tpl
+    algorithm: sha256
+    value: 44c39cbb78880078b0659c58ef19018ee3330dc70150e1abb93eca0237b6a2c4
+  - path: challenge/templates/professional.tpl
+    algorithm: sha256
+    value: b1949a6dd489d0a15584b1a9d7c0ff6277bba33b4d3fe398d86026f8ced47db0
+  - path: config/supervisord.conf
+    algorithm: sha256
+    value: e1e276085febb60ce8eee31c5b38ffddaa882c5541785c8cc91c7ab4c25855ab
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 65565378ef9c284d9cc9c1eb461307a57b8f86f58fdf1f571148fca956aa99fa
+  - path: entrypoint.sh
+    algorithm: sha256
+    value: b8ff9c02ebf42301a88f001f3ea4cdbbb5d4587447e94d9874fbd22231bd28fc
+  - path: flag.txt
+    algorithm: sha256
+    value: 16a85d7c7c202da114461545151eb1b5f2c95511fca2a49493d7e2c59e19cb19
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web-exploitation/craftedvitae in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/web-exploitation/craftedvitae
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path web-exploitation/craftedvitae. The source README
+  labels this challenge's level as General/Junior; the level is recorded through the division placement.
+  A challenge labelled General/Junior is published once in each division tree as a separate copy of the
+  same source directory. Files in the source that carry a flag value are preserved under original/; no
+  flag text is copied into this metadata.

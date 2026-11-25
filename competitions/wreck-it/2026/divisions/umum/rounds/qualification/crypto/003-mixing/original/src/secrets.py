@@ -1,0 +1,1 @@
+flag = b"WRECKIT70{5urf_w4v3_4nd_curv3}"

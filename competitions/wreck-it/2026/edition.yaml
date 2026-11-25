@@ -10,7 +10,7 @@ dates:
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 28
 references:
 - title: Wreck-IT 7.0 terms of service
   url: https://wreckit.id/terms
@@ -20,7 +20,22 @@ references:
   url: https://sijastembase.blogspot.com/2026/08/berprestasi-pada-ajang-ctf-junior.html
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The official terms name Senat Korps Taruna Poltek SSN and Umum and Junior CTF categories. A participating
+- title: Wreck IT 7.0 Qualification Challenges (wreckit-7-qual)
+  url: https://github.com/jonscafe/wreckit-7-qual
+  type: official_repository
+  accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >-
+  The official terms name Senat Korps Taruna Poltek SSN and Umum and Junior CTF categories. A participating
   school reports the online jeopardy qualification on 7 August 2026 and an offline cyber-war-game final.
-  The final date was not stated.
+  The final date was not stated. The qualification challenge pool was imported from an author-published
+  repository at commit 6c51504fac20bfb4592509b58a6e3c5c92977c3e. It holds eighteen challenge directories
+  across cryptography, forensics, pwn, reverse engineering, and web exploitation, and labels each one
+  General, General/Junior, or Junior. Its README also lists a web challenge named TokoLoyalty that has
+  no directory in the tree, so it is not archived. Because a General/Junior challenge applies to both fields, the pool
+  was published once per division tree, which yields twenty-eight archived challenge records (fourteen
+  in each division). The source is not an organizer publication: its challenge.yml files point at
+  ctf.wreckit.id and its author is a Wreck-IT 7.0 web and forensics challenge author, so the edition rests
+  on that repository together with the organizer records already cited here. The source README also links
+  several challenge artefacts to Google Drive folders that are not in the tree; those links are recorded
+  per challenge as preservation omissions and were not downloaded.

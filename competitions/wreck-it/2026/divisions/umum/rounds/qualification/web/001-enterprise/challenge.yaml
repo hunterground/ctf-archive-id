@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-web-001
+name: Enterprise
+slug: 001-enterprise
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'Source topic: client side, race condition. Source level: General. The source challenge.yml
+  gives no description text.'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- web
+- client-side
+- race-condition
+authors:
+- name: keii
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: web-exploitation/enterprise
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 142ee37a71e22afe29ab11819f4091f3aaff7ad7a96a97bf7c1798adc0498722
+  - path: enterprise-dist.zip
+    algorithm: sha256
+    value: 94a6a5002b3f3851620a9090e0015760850b6cd83e3e514b53d22420ba20f1c8
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: web-exploitation/enterprise in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/web-exploitation/enterprise
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path web-exploitation/enterprise. The source README
+  labels this challenge's level as General; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Solver material shipped alongside the challenge was moved to solvers/ per archive policy
+  and is not listed as a preservation omission. Files in the source that carry a flag value are preserved
+  under original/; no flag text is copied into this metadata.

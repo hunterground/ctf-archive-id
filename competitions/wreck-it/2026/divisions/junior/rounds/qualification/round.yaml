@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: qualification
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online jeopardy qualification stage of Wreck-IT 7.0, junior field. The imported source is
+  the challenge pool the author published for this stage.
+dates:
+  start: '2026-08-07'
+  end: null
+statistics:
+  challenge_count: 14
+  participant_count: null
+references:
+- title: wreckit-7-qual challenge pool
+  url: https://github.com/jonscafe/wreckit-7-qual
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Fourteen source challenges are labelled Junior or General/Junior, covering crypto, forensics, pwn,
+  rev, and web. Challenges the source labels General/Junior appear in both the junior and umum trees as
+  separate copies of the same source directory. The source does not separate a junior-only pool, so the
+  junior set is derived from the source level column in its README.

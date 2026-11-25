@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-forensics-001
+name: 'Wulung-2604: Sinkron Terakhir'
+slug: 001-wulung-2604-sinkron-terakhir
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: 'Mesin build internal `wulung-2604` diamankan setelah aktivitas sinkronisasi package terlihat
+  keluar dari baseline. Di permukaan, host ini hanya menjalankan service cache biasa.
+
+
+  Source topic: disk image forensics. Source level: General/Junior.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- forensics
+- disk-image
+authors:
+- name: hombing
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: forensics/Wulung-2604 Sinkron Terakhir
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1VA6sXB8P4bTJF1-fewwzXVkOLkQ76r3L/view?usp=sharing
+    reason: 'The VM disk image is a Google Drive file, not a file in the tree. Linked from the challenge
+      README and not present in the git tree. Not downloaded. Probed 2026-11-25: link returns HTTP 404
+      from Google Drive, so the artefact is no longer publicly retrievable.'
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1491e6e6d6708b206d9f8de423c3cd6d52b8279b57800958183e5c9843838e41
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensics/Wulung-2604 Sinkron Terakhir in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/forensics/Wulung-2604%20Sinkron%20Terakhir
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path forensics/Wulung-2604 Sinkron Terakhir. The source
+  README labels this challenge's level as General/Junior; the level is recorded through the division placement.
+  A challenge labelled General/Junior is published once in each division tree as a separate copy of the
+  same source directory. Files in the source that carry a flag value are preserved under original/; no
+  flag text is copied into this metadata.

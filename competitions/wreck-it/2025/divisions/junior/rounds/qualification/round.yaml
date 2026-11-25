@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: qualification
+competition_id: wreck-it
+edition_year: 2025
+division_id: junior
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online jeopardy qualification stage of Wreck-IT 6.0, junior field.
+dates:
+  start: '2025-10-04'
+  end: null
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: WRECKIT6-JUNIOR web challenge set
+  url: https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  type: official_repository
+  accessed: '2026-11-25'
+- title: HIMA IF Telkom University note on Wreck-IT 6.0
+  url: https://himaiftelkom.com/informasi-lomba-september-oktober-2025-2/
+  type: other
+  accessed: '2026-11-25'
+verification: corroborated
+notes: The imported repository holds four web challenges. A 6.0 junior participant write-up names the
+  same four challenges (Sisiroblox, Lostintemplation, Anotherroblox, and the Aurum Ledger challenge) among
+  its junior qualification web set, which is how the round is established. The edition record already
+  gives 4 October 2025 for the qualification. Only the web category is imported; the source repository
+  contains no other category.

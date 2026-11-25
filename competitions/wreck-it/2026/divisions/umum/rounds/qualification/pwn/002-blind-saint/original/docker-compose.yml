@@ -1,0 +1,10 @@
+name: pwn-blind-saint
+services:
+  chall:
+    build: .
+    ports:
+      - "${PORT_19540:-19540}:19540"
+    environment:
+      - FLAG=WRECKIT70{placeholder}
+    mem_limit: 32m
+    cpus: 0.2

@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: qualification
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: Online jeopardy qualification stage of Wreck-IT 7.0. The imported source is the challenge
+  pool the author published for this stage.
+dates:
+  start: '2026-08-07'
+  end: null
+statistics:
+  challenge_count: 14
+  participant_count: null
+references:
+- title: wreckit-7-qual challenge pool
+  url: https://github.com/jonscafe/wreckit-7-qual
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Fourteen source challenges are labelled General, covering crypto, forensics, pwn, rev, and web.
+  Challenges the source labels General/Junior appear in both the umum and junior trees as separate copies
+  of the same source directory, so the archive edition holds more challenge directories than the source
+  has directories. The source publishes no challenge for five categories beyond this stage, so no other
+  round is recorded. A participating school reports the online qualification on 7 August 2026; the end
+  date is not stated.

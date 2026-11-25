@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: wreck-it-2025-junior-qualification-web-002
+name: Lost In Templation
+slug: 002-lost-in-templation
+original_name: null
+competition_id: wreck-it
+edition_year: 2025
+division_id: junior
+round_id: qualification
+category: web
+original_category: Web
+description: '"Ancient Templates Await Your Discovery." The page reflects submitted text back through
+  a template. The source ships no challenge description, so this summary is taken from the application''s
+  own page text.'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+- ssti
+authors: []
+organization: null
+provenance:
+  archive_id: wreck-it-2025-junior-quals-rajdoll
+  source_type: git
+  repository: https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  commit: 7bf3a7b9e47bca7931af81a8a7e13015b20d1b03
+  original_path: web/lostintemplation
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 1794efec6e739439ee8ec4704d44feb27f0561642797375eb26b4444a1a719dd
+  - path: Dockerfile
+    algorithm: sha256
+    value: f0739014a4b7885257769a2e9a1e7d9bb5b8fb71500f746ff38800a6dae6fe07
+  - path: build-docker.sh
+    algorithm: sha256
+    value: 077ee66e214349345cec94d56fa94ae048d5cab0572f50aed027aee549966d70
+  - path: challenge/.gitignore
+    algorithm: sha256
+    value: 306fd52e74fca6746e12acc750f232de15e71da917756a1270d74c91f5eb7368
+  - path: challenge/pom.xml
+    algorithm: sha256
+    value: 93b6efb4336b096e945c16b0e22a2c483620daba8f72a83d3ec534ef92d79573
+  - path: challenge/src/main/java/Main.java
+    algorithm: sha256
+    value: 4ca0f81d8e19d9a8b5916595512fd9a74cf08f8fddfb8871d8b91332b426f65f
+  - path: challenge/src/main/resources/static/css/style.css
+    algorithm: sha256
+    value: c72e16788d818234b8fb54a786d258e8765f40e60f819703da883857d019eb2c
+  - path: challenge/src/main/resources/static/font/Ancient_G_Written.ttf
+    algorithm: sha256
+    value: 9fa9725e204e4332821e2e2d45dd29bd0163774316961f675c7927477b11e955
+  - path: challenge/src/main/resources/templates/index.html
+    algorithm: sha256
+    value: ce2eac2003ea4f4e1ccb884bdafca48f975b23db6e126b2c50b14340afde4f2d
+  - path: config/supervisord.conf
+    algorithm: sha256
+    value: 889b557f7fe82224c3a4d3f12f04c0452396beb27d9659f7ade6e398d0ae26b3
+  - path: entrypoint.sh
+    algorithm: sha256
+    value: aaecaa975a45a011df0b1dd164ac00dbc08101d0bd436ed1a577fdc3ae8ec8c6
+  - path: flag.txt
+    algorithm: sha256
+    value: 23322dcda88ebc68e5f1f2d9feaf755bdc4c0b1647be96a3a43925094226b05c
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2025 challenge material by the credited authors and organizers; source https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  permission_reference: The upstream repository has no LICENSE file and does not state who wrote the challenges;
+    commit authorship is the repository owner's account only, so no author is recorded. MIT under the
+    archive maintainer instruction of 2026-11-25; underlying rights remain with the Wreck-IT 6.0 organizer
+    and the challenge authors.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: web/lostintemplation in Rajdoll/WRECKIT6-JUNIOR
+  url: https://github.com/Rajdoll/WRECKIT6-JUNIOR/tree/7bf3a7b9e47bca7931af81a8a7e13015b20d1b03/web/lostintemplation
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/Rajdoll/WRECKIT6-JUNIOR at commit
+  7bf3a7b9e47bca7931af81a8a7e13015b20d1b03, source path web/lostintemplation. The repository does not
+  state who wrote the challenges and commit authorship is only the repository owner's account, so no author
+  is recorded. Files in the source that carry a flag value are preserved under original/; no flag text
+  is copied into this metadata.

@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: wreck-it-2025-junior-qualification-web-001
+name: Sisiroblox
+slug: 001-sisiroblox
+original_name: null
+competition_id: wreck-it
+edition_year: 2025
+division_id: junior
+round_id: qualification
+category: web
+original_category: Web
+description: '"SIAKAD Roblox", a student information system themed as Roblox. Participants recovered the
+  flag through the client-side JWT handling. The source ships no challenge description, so this summary
+  is taken from the application''s own page title and routes.'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+- jwt
+- client-side
+authors: []
+organization: null
+provenance:
+  archive_id: wreck-it-2025-junior-quals-rajdoll
+  source_type: git
+  repository: https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  commit: 7bf3a7b9e47bca7931af81a8a7e13015b20d1b03
+  original_path: web/sisilainroblox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: 0d552f2a6c870cfe583aa703796d7ab11431c29d9f58b3ffd8af2f70b3a8c9e8
+  - path: README.MD
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a240e54d90142d0d653291795c143074f1d6fdc92da1b38ae73e055355256df7
+  - path: dockerfile
+    algorithm: sha256
+    value: 11011f15f47b4135f15f47e203b79bffacf20f3344c936d0aad29791203b3931
+  - path: package-lock.json
+    algorithm: sha256
+    value: 6a81a8397c47fbcfd1a213ff5aee2c84ac8ee29ce459d68d85371f670f83aa55
+  - path: package.json
+    algorithm: sha256
+    value: d855eb3234327ff16f1199c44f3af77552f85b3516391d1b6a146b5b85f9a42f
+  - path: public/app.js
+    algorithm: sha256
+    value: bbab7c9fd8fc30bd8311ac4a757605fdc57602dc27d2ceb20d24f4a4440b7228
+  - path: public/index.html
+    algorithm: sha256
+    value: f2461982a7899a86da666a7e272d53b8814aaf33afac37b67cf79511ca15e7b9
+  - path: public/lib/auth.js
+    algorithm: sha256
+    value: b91e0ae60b685cacbe3b13e64f19d297759964cb103ff3a3869884c8f2047d8e
+  - path: public/lib/constants.js
+    algorithm: sha256
+    value: e315eff338bde74320ae9d447351daadb923bc38e2ae40d714a1d619061b0662
+  - path: public/lib/jwt.js
+    algorithm: sha256
+    value: 8dce60b7cf58b1ba7ef33be6e087b429e09f696ad9b8c6c627b43719013cde25
+  - path: public/lib/util.js
+    algorithm: sha256
+    value: 8d9e8acbf05ee736dcbd7895d77d237a05f4ffea16d636acab3e81ae21e26e8d
+  - path: roblox-docker-manager.sh
+    algorithm: sha256
+    value: d661da656a78163ea60ea38d16bfbf7e93a56b2d7c892bafecdbd8a8e36cdd3b
+  - path: server.js
+    algorithm: sha256
+    value: 76358beeb9c56fccc20098f6d7621b6f4648f8eda2fd26c5baae5ef4f2ed5af7
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2025 challenge material by the credited authors and organizers; source https://github.com/Rajdoll/WRECKIT6-JUNIOR
+  permission_reference: The upstream repository has no LICENSE file and does not state who wrote the challenges;
+    commit authorship is the repository owner's account only, so no author is recorded. MIT under the
+    archive maintainer instruction of 2026-11-25; underlying rights remain with the Wreck-IT 6.0 organizer
+    and the challenge authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/sisilainroblox in Rajdoll/WRECKIT6-JUNIOR
+  url: https://github.com/Rajdoll/WRECKIT6-JUNIOR/tree/7bf3a7b9e47bca7931af81a8a7e13015b20d1b03/web/sisilainroblox
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/Rajdoll/WRECKIT6-JUNIOR at commit
+  7bf3a7b9e47bca7931af81a8a7e13015b20d1b03, source path web/sisilainroblox. The repository does not state
+  who wrote the challenges and commit authorship is only the repository owner's account, so no author
+  is recorded. Files in the source that carry a flag value are preserved under original/; no flag text
+  is copied into this metadata.

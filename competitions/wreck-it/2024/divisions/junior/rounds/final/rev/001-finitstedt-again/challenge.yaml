@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: wreck-it-2024-junior-final-rev-001
+name: finitstedt? again??
+slug: 001-finitstedt-again
+original_name: null
+competition_id: wreck-it
+edition_year: 2024
+division_id: junior
+round_id: final
+category: rev
+original_category: Rev
+description: |-
+  kemarin kan transisinya gampang yah, tebak-able malah.
+
+  nah, kali ini gua cuma nambahin dan ngacak dikit state transisinya :)
+
+  aman lah yaaaaa :D
+
+  Source POC note: finite-state automata shuffling with 10 states.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- rev
+- fsm
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2024-junior-final-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-50-jr
+  commit: c0d1f0543f93fe822fe266cfe9f646c926dcfb0c
+  original_path: Final/Rev/finitstedt-again
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c53bef3947923cb74c99fdc4c2c401e6507d00aba46a2121bf9a3109e6b0f79f
+  - path: chall.c
+    algorithm: sha256
+    value: a1f22be2cc59821ad5a5e41673328d01a6c9c9dcc820a612340bec8e696e06e1
+  - path: chall.exe
+    algorithm: sha256
+    value: f326db75b2579e2607a9140f29cd73181308376cad8efc148a35bc9945076ec7
+  - path: desc.md
+    algorithm: sha256
+    value: e59dc5562aab97708ed7c1ea094bf5a4a0b8e648f805b79e529e9df8217f47f7
+  - path: dist/chall.exe
+    algorithm: sha256
+    value: f326db75b2579e2607a9140f29cd73181308376cad8efc148a35bc9945076ec7
+  - path: dist/finitstedt-again.rar
+    algorithm: sha256
+    value: 39b81a3a784257b2566a6d60e3a6d322ca9d8c0f50e380818732bd1fd805550f
+  - path: dist/flag-dist.txt
+    algorithm: sha256
+    value: 76691dbdb76080c396de6773789c20561a0c37f5451ac8e7ba116487ec6ff441
+  - path: finitstedt-again.rar
+    algorithm: sha256
+    value: 39b81a3a784257b2566a6d60e3a6d322ca9d8c0f50e380818732bd1fd805550f
+  - path: flag
+    algorithm: sha256
+    value: c149561398acffce4648bcc4aeedb63851c65e8ecc2f78382790e173204ba1ab
+  - path: flag-dist.txt
+    algorithm: sha256
+    value: 76691dbdb76080c396de6773789c20561a0c37f5451ac8e7ba116487ec6ff441
+  - path: real-flag.txt
+    algorithm: sha256
+    value: 9456803bee5820bfe5f38cc153b339dd6817810996153ed96d37a6e29d40ef9c
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2024 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-50-jr
+  permission_reference: The upstream repository has no LICENSE file; its README names k.eii, wondPing
+    and 1kazz as the authors. MIT under the archive maintainer instruction of 2026-11-25; underlying rights
+    remain with the Wreck-It 5.0 organizer and the challenge authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/Rev/finitstedt-again in jonscafe/wreckit-50-jr
+  url: https://github.com/jonscafe/wreckit-50-jr/tree/c0d1f0543f93fe822fe266cfe9f646c926dcfb0c/Final/Rev/finitstedt-again
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-50-jr at commit
+  c0d1f0543f93fe822fe266cfe9f646c926dcfb0c, source path Final/Rev/finitstedt-again. The parent repository
+  groups these under Final/ and its README lists them as the Wreck IT 5.0 Junior Category final set. Solver
+  material shipped alongside the challenge was moved to solvers/ per archive policy and is not listed
+  as a preservation omission. Files in the source that carry a flag value are preserved under original/;
+  no flag text is copied into this metadata.

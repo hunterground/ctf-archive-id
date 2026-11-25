@@ -1,0 +1,20 @@
+# Exclude VCS
+.git
+.gitignore
+
+# Node modules
+node_modules
+challenge/node_modules
+
+# Local databases
+*.db
+challenge/feedback.db
+
+# Editor and OS files
+.vscode
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-error.log*

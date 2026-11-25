@@ -1,0 +1,46 @@
+services:
+  gateway:
+    build: ./gateway
+    ports:
+      - "${PORT_8443:-8443}:8443"
+    environment:
+      BACKEND_HOST: backend
+      BACKEND_PORT: "8080"
+      # POOL_SIZE=1 (not 2): with asyncio.Queue's FIFO acquire/release order,
+      # two sequential forward_and_relay calls on a POOL_SIZE=2 pool
+      # deterministically land on two DIFFERENT backend connections, so a
+      # client's own carrier request and its "leftover" smuggled
+      # continuation never reconstruct on the same backend connection.
+      # POOL_SIZE=1 forces every request through the one connection,
+      # guaranteeing the dangling prefix and its completion always meet.
+      POOL_SIZE: "1"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    mem_limit: 128m
+    cpus: 0.25
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      PORT: "8080"
+      FLAG_PART1: "WRECKIT70{g4t3w4y_c0nfus3d_by_ch53nk3d}"
+      ADMIN_SEED_FLAG_PART2: "WRECKIT70{qu3u3_p01s0n1ng_st33ls_s3ss10ns}"
+      ADMIN_PASSWORD: "2c6f3c9510f92237dcbceb851fc86b76b2545ea695a68269cf93f7d4e2d7659d"
+    expose:
+      - "8080"
+    mem_limit: 256m
+    cpus: 0.5
+
+  bot:
+    build: ./bot
+    environment:
+      APP_URL: "http://gateway:8443"
+      VISIT_INTERVAL_MS: "15000"
+      ADMIN_PASSWORD: "2c6f3c9510f92237dcbceb851fc86b76b2545ea695a68269cf93f7d4e2d7659d"
+    depends_on:
+      - gateway
+    restart: unless-stopped
+    mem_limit: 128m
+    cpus: 0.25

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: wreck-it-2023-qualification-web-002
+name: register
+slug: 002-register
+original_name: register
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Mau daftar ikut lomba? Silahkan akses web ini. Eh tapi tidak bisa register, lah gimana peserta
+  mau join coba? Mungkin sebenarnya ada tapi tidak langsung terlihat, harus lebih jeli saja.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: meshifox
+  team: null
+organization: null
+provenance:
+  archive_id: maulvialf-ctf-challs-archive
+  source_type: git
+  repository: https://github.com/maulvialf/CTF-Challs-Archive
+  commit: 5347e5db1a2b2e8381603126a2a236ede111f45d
+  original_path: 2023/WreckIT 4.0/Web/register
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 4.0 challenge material by the credited authors and organizers; source https://github.com/maulvialf/CTF-Challs-Archive
+  permission_reference: Neither the collection nor an organizer publication carries a license for these
+    files. The collection README states that all challenge copyright belongs to each event organizer and
+    problem setter. Recorded as MIT under the archive maintainer instruction of 2026-11-25; underlying
+    rights remain with the organizer and the individual authors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d89ed36cc78fe8c737c2928a24ca82de6e70d5a97eaf5af9d1e541957e8c9114
+environment:
+  type: remote
+  services: []
+  requirements:
+  - Original service is offline; only the source README survives.
+references:
+- title: Web/register in maulvialf/CTF-Challs-Archive
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0/Web/register
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'Imported from the third-party collection maulvialf/CTF-Challs-Archive at commit 5347e5db1a2b2e8381603126a2a236ede111f45d,
+  source path 2023/WreckIT 4.0/Web/register. The collection keeps a CTFd export at the set root; the values
+  below come from it. Organizer-recorded points 152, solves 29. Points are not a difficulty scale, so
+  difficulty is left unknown. The round is the Wreck-IT 4.0 qualification: organizer and press coverage
+  describe the penyisihan as jeopardy across web, crypto, reverse engineering, pwn, forensic, and misc,
+  while the final used attack-defense, and this source repository files a separate attack-defense set
+  under 2023/final-wreckit-4. The collection states that challenge copyright belongs to the event organizer
+  and problem setters, and ships no license for these files; redistribution is therefore recorded under
+  the archive maintainer instruction of 2026-11-25. Attribution: Wreck-IT 4.0 challenge material by the
+  credited authors and the organizer, Senat Korps Taruna, Politeknik Siber dan Sandi Negara. Provenance
+  runs through a third-party aggregate, not an organizer publication, so verification is needs_scope_review.
+  The collection holds no service source for this web challenge, only the README, so the archived material
+  documents the challenge but cannot reproduce it.'

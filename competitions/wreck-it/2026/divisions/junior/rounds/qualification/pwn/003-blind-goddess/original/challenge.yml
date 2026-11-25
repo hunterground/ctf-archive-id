@@ -1,0 +1,7 @@
+id: pwn-blind-goddess
+name: "Blind Goddess"
+category: pwn
+description: socat -,raw,echo=0 TCP:{{host}}:{{port}}
+ports:
+  - 19550
+timeout: 1800

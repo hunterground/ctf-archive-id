@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: wreck-it-2024-junior-final-web-001
+name: elcompe
+slug: 001-elcompe
+original_name: null
+competition_id: wreck-it
+edition_year: 2024
+division_id: junior
+round_id: final
+category: web
+original_category: Web
+description: |-
+  welcome to el compe's hideout
+
+  A black-box challenge; the source tags it comparison bug and float bug. Source severity: Medium.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- php
+- type-juggling
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2024-junior-final-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-50-jr
+  commit: c0d1f0543f93fe822fe266cfe9f646c926dcfb0c
+  original_path: Final/Web/elcompe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2bd76712892f3ecadc2a4d1219980b38220b772f73cb2b1db0d0a350410bdf78
+  - path: flag.php
+    algorithm: sha256
+    value: 6d3fff3f6ae67f0667f872bd584869e105cea05ff138523288f0e79e0d24f9f6
+  - path: index.php
+    algorithm: sha256
+    value: 74932935bccc044296d3bed1aa0258379c8d678300c894efa6c49da71a0dfb2d
+  - path: readme.md
+    algorithm: sha256
+    value: b368a85038e23f5a4191361d2cc10376aacb8283285dabb8d2ce7d740504a3a1
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2024 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-50-jr
+  permission_reference: The upstream repository has no LICENSE file; its README names k.eii, wondPing
+    and 1kazz as the authors. MIT under the archive maintainer instruction of 2026-11-25; underlying rights
+    remain with the Wreck-It 5.0 organizer and the challenge authors.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Final/Web/elcompe in jonscafe/wreckit-50-jr
+  url: https://github.com/jonscafe/wreckit-50-jr/tree/c0d1f0543f93fe822fe266cfe9f646c926dcfb0c/Final/Web/elcompe
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-50-jr at commit
+  c0d1f0543f93fe822fe266cfe9f646c926dcfb0c, source path Final/Web/elcompe. The parent repository groups
+  these under Final/ and its README lists them as the Wreck IT 5.0 Junior Category final set. Solver material
+  shipped alongside the challenge was moved to solvers/ per archive policy and is not listed as a preservation
+  omission. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

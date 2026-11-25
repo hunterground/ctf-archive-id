@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: wreck-it-2023-qualification-pwn-002
+name: Menari Bersama
+slug: 002-menari-bersama
+original_name: Menari Bersama
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Mari menari bersamaku
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: itoid#8709
+  team: null
+organization: null
+provenance:
+  archive_id: maulvialf-ctf-challs-archive
+  source_type: git
+  repository: https://github.com/maulvialf/CTF-Challs-Archive
+  commit: 5347e5db1a2b2e8381603126a2a236ede111f45d
+  original_path: 2023/WreckIT 4.0/Pwn/Menari Bersama
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 4.0 challenge material by the credited authors and organizers; source https://github.com/maulvialf/CTF-Challs-Archive
+  permission_reference: Neither the collection nor an organizer publication carries a license for these
+    files. The collection README states that all challenge copyright belongs to each event organizer and
+    problem setter. Recorded as MIT under the archive maintainer instruction of 2026-11-25; underlying
+    rights remain with the organizer and the individual authors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5c17869e3bd6e5bff6839a2a163701f60960deb943c23e3c2ea266147ecd570d
+  - path: menaribersama
+    algorithm: sha256
+    value: 83f0085a085702601c6ab42043e4a5d6e69fe783b07d81fb430fe6fd5ce55596
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Pwn/Menari Bersama in maulvialf/CTF-Challs-Archive
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0/Pwn/Menari%20Bersama
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'Imported from the third-party collection maulvialf/CTF-Challs-Archive at commit 5347e5db1a2b2e8381603126a2a236ede111f45d,
+  source path 2023/WreckIT 4.0/Pwn/Menari Bersama. The collection keeps a CTFd export at the set root;
+  the values below come from it. Organizer-recorded points 200, solves 27. Points are not a difficulty
+  scale, so difficulty is left unknown. The round is the Wreck-IT 4.0 qualification: organizer and press
+  coverage describe the penyisihan as jeopardy across web, crypto, reverse engineering, pwn, forensic,
+  and misc, while the final used attack-defense, and this source repository files a separate attack-defense
+  set under 2023/final-wreckit-4. The collection states that challenge copyright belongs to the event
+  organizer and problem setters, and ships no license for these files; redistribution is therefore recorded
+  under the archive maintainer instruction of 2026-11-25. Attribution: Wreck-IT 4.0 challenge material
+  by the credited authors and the organizer, Senat Korps Taruna, Politeknik Siber dan Sandi Negara. Provenance
+  runs through a third-party aggregate, not an organizer publication, so verification is needs_scope_review.'

@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: wreck-it-2023-qualification-crypto-002
+name: Fake Blind
+slug: 002-fake-blind
+original_name: Fake Blind
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: 'Opening challenge of Wreck-IT 4.0: a free-flag welcome notice that points participants at
+  the event Discord. The source description is the flag itself, so it is not reproduced in this metadata;
+  the original README under original/ is preserved verbatim.'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: ac3
+  team: null
+organization: null
+provenance:
+  archive_id: maulvialf-ctf-challs-archive
+  source_type: git
+  repository: https://github.com/maulvialf/CTF-Challs-Archive
+  commit: 5347e5db1a2b2e8381603126a2a236ede111f45d
+  original_path: 2023/WreckIT 4.0/Crypto/Fake Blind
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 4.0 challenge material by the credited authors and organizers; source https://github.com/maulvialf/CTF-Challs-Archive
+  permission_reference: Neither the collection nor an organizer publication carries a license for these
+    files. The collection README states that all challenge copyright belongs to each event organizer and
+    problem setter. Recorded as MIT under the archive maintainer instruction of 2026-11-25; underlying
+    rights remain with the organizer and the individual authors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9a8e4f3e11a5d3786e06cd825b97e12d4b528fdfcf7cd01351b76ff74547eaa7
+  - path: hasil.txt
+    algorithm: sha256
+    value: 8afaed3e5be578450f37759e6ca0ac3f2be9728104817fdd38f251c7ab3365a0
+  - path: script.py
+    algorithm: sha256
+    value: 4e2a818262f9eceabe098a5f242ab66f6be65a4f19d6521787a3695f1f890da9
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Crypto/Fake Blind in maulvialf/CTF-Challs-Archive
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0/Crypto/Fake%20Blind
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'Imported from the third-party collection maulvialf/CTF-Challs-Archive at commit 5347e5db1a2b2e8381603126a2a236ede111f45d,
+  source path 2023/WreckIT 4.0/Crypto/Fake Blind. The collection keeps a CTFd export at the set root;
+  the values below come from it. Organizer-recorded points 400, solves 14. Points are not a difficulty
+  scale, so difficulty is left unknown. The round is the Wreck-IT 4.0 qualification: organizer and press
+  coverage describe the penyisihan as jeopardy across web, crypto, reverse engineering, pwn, forensic,
+  and misc, while the final used attack-defense, and this source repository files a separate attack-defense
+  set under 2023/final-wreckit-4. The collection states that challenge copyright belongs to the event
+  organizer and problem setters, and ships no license for these files; redistribution is therefore recorded
+  under the archive maintainer instruction of 2026-11-25. Attribution: Wreck-IT 4.0 challenge material
+  by the credited authors and the organizer, Senat Korps Taruna, Politeknik Siber dan Sandi Negara. Provenance
+  runs through a third-party aggregate, not an organizer publication, so verification is needs_scope_review.
+  The source README for this challenge also carries the flag in its description; it is preserved under
+  original/ and omitted from this metadata.'

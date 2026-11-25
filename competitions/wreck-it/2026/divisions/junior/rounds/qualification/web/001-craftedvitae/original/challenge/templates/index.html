@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftedVitae - Resume Builder</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="logo">Crafted<span class="accent">Vitae</span></h1>
+            <nav>
+                <a href="/editor" class="active">Editor</a>
+                <a href="/api/templates">Templates</a>
+                <a href="/api/health">Status</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container editor-layout">
+        <section class="editor-panel">
+            <h2>Resume Editor</h2>
+            <p class="subtitle">Choose a template and preview your resume</p>
+
+            <div class="form-group">
+                <label for="template-select">Template</label>
+                <select id="template-select">
+                    <option value="professional">Professional</option>
+                    <option value="modern">Modern</option>
+                    <option value="minimal">Minimal</option>
+                    <option value="creative">Creative</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="source-select">Source</label>
+                <select id="source-select">
+                    <option value="local">Local Templates</option>
+                    <option value="remote">Remote URL</option>
+                </select>
+            </div>
+
+            <div class="form-group remote-url-group" style="display:none;">
+                <label for="remote-url">Template URL</label>
+                <input type="url" id="remote-url" placeholder="https://example.com/resume.tpl">
+                <small>Load a Go template from a remote server</small>
+            </div>
+
+            <div class="button-group">
+                <button id="btn-preview" class="btn btn-primary">Preview Resume</button>
+                <button id="btn-export" class="btn btn-secondary">Export PDF</button>
+            </div>
+        </section>
+
+        <section class="preview-panel">
+            <div class="preview-header">
+                <h2>Preview</h2>
+                <span id="status-badge" class="badge">Ready</span>
+            </div>
+            <iframe id="preview-frame" class="preview-frame" sandbox="allow-same-origin"></iframe>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>CraftedVitae v1.0 &mdash; Professional Resume Builder</p>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

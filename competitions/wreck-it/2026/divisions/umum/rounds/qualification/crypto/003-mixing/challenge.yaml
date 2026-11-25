@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: wreck-it-2026-umum-qualification-crypto-003
+name: Mixing
+slug: 003-mixing
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: umum
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |-
+  ICE MIXED PAKDE NYOS THIS MIXED FRUIT AND SYRUP IS NOT MEASURED, THE PORTION IS VERY BIG.
+
+  Source topic: ECC. Source level: General/Junior.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- crypto
+- ecc
+authors:
+- name: itoid
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: cryptography/Mixing
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.MD
+    algorithm: sha256
+    value: bf71f8a273ab1f09d09538da4d512b45c909c7b4401cc9d7cbf17d7d7023a520
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 3afcfbcd9b5d63893ee96355ae228c214fd59858ec04def38416691b2afaaa06
+  - path: dist/out.txt
+    algorithm: sha256
+    value: 102df01ba7ccb277cef653f4be4f7d3b4cf4b5f9c479a79fad0bff54c5743ea2
+  - path: src/chall.py
+    algorithm: sha256
+    value: 3afcfbcd9b5d63893ee96355ae228c214fd59858ec04def38416691b2afaaa06
+  - path: src/out.txt
+    algorithm: sha256
+    value: 102df01ba7ccb277cef653f4be4f7d3b4cf4b5f9c479a79fad0bff54c5743ea2
+  - path: src/secrets.py
+    algorithm: sha256
+    value: 28bc5e079459a6ed7ca6918fcc9b9c2258864ced341c9d658e03dc97c3ded867
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: cryptography/Mixing in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/cryptography/Mixing
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path cryptography/Mixing. The source README labels
+  this challenge's level as General/Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata.

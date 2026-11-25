@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-pwn-002
+name: Blind Saint
+slug: 002-blind-saint
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  nc {{host}} {{port}}
+
+  Source topic: blind, out-of-bounds read and write, ELF parsing. Source level: General/Junior.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- pwn
+- oob
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: pwn/blind-saint
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0c19a05f221ef3b597fee0b74a9346b102a9c77b4c59be8aeae30bf7566f2306
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7abc59c37363b3741e9da0ad772241ff2677ee8b75be4f06ca3314c856faefa8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 06fe625b5aca65cbc12c65006d97fc6d92a0184225e59fa5e960e55416acee99
+  - path: docker-entrypoint.sh
+    algorithm: sha256
+    value: aca557a527e8dbd1fa0c796fce8fb80a63ae3083e354decbbeee5b102f727ed8
+  - path: src/Makefile
+    algorithm: sha256
+    value: ee311f15e4fb1f3adafff2469cf8d23db41eaf08d831e41b38d45af5239c5a66
+  - path: src/chall
+    algorithm: sha256
+    value: a69bdb31da05dbf37e4b76402c13cc76d1995e2e606a0263f95764fe0119b85a
+  - path: src/chall.c
+    algorithm: sha256
+    value: 142ce266dd72c8f996a83c2d5a7e13eefa8807a48d8a3a646281dd4f1458fff4
+  - path: src/lib.tar.xz
+    algorithm: sha256
+    value: 1444cc8738d6df945a01ce38d6ae65bad9b857c1694a1b8e27c73efc827898cb
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: pwn/blind-saint in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/pwn/blind-saint
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path pwn/blind-saint. The source README labels this
+  challenge's level as General/Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Solver material shipped alongside the challenge was moved to solvers/ per archive policy
+  and is not listed as a preservation omission. Files in the source that carry a flag value are preserved
+  under original/; no flag text is copied into this metadata.

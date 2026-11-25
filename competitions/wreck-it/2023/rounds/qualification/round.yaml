@@ -1,0 +1,45 @@
+schema_version: '1.0'
+id: qualification
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: 'Babak penyisihan of Wreck-IT 4.0, held in jeopardy style: teams collected points by solving
+  challenges across web exploitation, cryptography, reverse engineering, pwn, forensics, and misc. The
+  final used a different attack-defense format.'
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 28
+  participant_count: null
+references:
+- title: maulvialf/CTF-Challs-Archive, WreckIT 4.0 set
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0
+  type: other
+  accessed: '2026-11-26'
+- title: Bank Sinarmas on Wreck-IT 4.0
+  url: https://www.banksinarmas.com/id/informasi/wreck-it-2023
+  type: other
+  accessed: '2026-11-21'
+- title: Republika on the Wreck-IT 4.0 qualification and final formats
+  url: https://tekno.republika.co.id/berita/rv0pvm349/uus-bank-sinarmas-gandeng-poltek-ssn-dorong-generasi-muda-sadar-keamanan-it
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'The round is identified from format evidence rather than a source label: Bank Sinarmas and Republika
+  both describe the penyisihan as jeopardy across web exploitation, cryptography, reverse engineering,
+  pwn, forensic, and misc, and the final as attack-defense. The imported collection holds exactly those
+  six jeopardy categories and files a separate attack-defense set under 2023/final-wreckit-4, which is
+  not part of this import. Challenge points and solve counts come from the collection''s CTFd export.
+  Four web challenges survive only as README files, so their services cannot be reproduced. The set''s
+  provenance is a third-party aggregate, which is why the round and its challenges are needs_scope_review
+  rather than verified. The collection''s CTFd export is preserved as challs.json at this round directory,
+  matching the archive''s existing treatment of platform exports such as find-it-ctf/2024/rounds/qualification/challs.json.
+  Its per-file download URLs carried signed access tokens tied to the uploader''s platform account; those
+  query strings were removed and only the bare file paths were kept, because the tokens are credentials
+  rather than challenge material. Everything else in the export is unchanged.'

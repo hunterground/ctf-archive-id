@@ -1,0 +1,7 @@
+id: pwn-blind-girl
+name: "Blind Girl"
+category: pwn
+description: nc {{host}} {{port}}
+ports:
+  - 19530
+timeout: 1800

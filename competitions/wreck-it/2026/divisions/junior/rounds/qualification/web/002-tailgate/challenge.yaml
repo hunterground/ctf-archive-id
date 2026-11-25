@@ -1,0 +1,107 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-web-002
+name: Tailgate
+slug: 002-tailgate
+original_name: Tailgate
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'Jangan mau percaya dan jadi buda korPorART
+
+
+  Source topic: HTTP request smuggling. Source level: Junior. The source directory is named relay while
+  its challenge.yaml gives the name Tailgate.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- http-smuggling
+authors:
+- name: rajdoll
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: web-exploitation/relay
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: backend/Dockerfile
+    algorithm: sha256
+    value: e567130b7b5aee1452305cfd0bcb726a6a040ccae22c0870f511479ac1fce418
+  - path: backend/db.js
+    algorithm: sha256
+    value: 651e7495983e2a5b92a0b1085f8783601578b13824d3621779398a27567a2764
+  - path: backend/package.json
+    algorithm: sha256
+    value: 9bbaea8b819b2f68307465beaa8b939d687bd193ec09c2f0670ee9b151df922d
+  - path: backend/server.js
+    algorithm: sha256
+    value: 679410e4a714085e758d46944e3e37fa2b929a717e1d2d64cea1190570bf635e
+  - path: backend/views.js
+    algorithm: sha256
+    value: f8d08b10410486fc9ad7b38f2bf43f4da33953a4ccccf6845d71b51b848eb1f2
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 86966066b254a05a738807580c3b0666a783f25d999d453ce7598eca1e4c5973
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 8db9c6cc4fda1c87e1a3593a39a2b3cc65bf96695c6bf7b3646ee1730d5b9d9a
+  - path: bot/package.json
+    algorithm: sha256
+    value: 2ec9e3fef4e4829a0b074e824c8980be5fd9361f4b8b91f9846b300e532076ba
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 81bd02ca21fe3e253c85861d26dc0b83557e476ce997f71fca8d4396a661d5e5
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 72765a0c954adbed2ad3d6cee6f0863d6c3c43f625dcc806dab322881e1000d6
+  - path: gateway/Dockerfile
+    algorithm: sha256
+    value: 449b7aaa50d3779302dc8113943e3d1e47afb6f06e5cc5730de46ade7930dcec
+  - path: gateway/gateway.py
+    algorithm: sha256
+    value: a6caa9ce5b6b3df647297cb1eaa8379f4ab39199166fbb2151be4fe876da0f97
+  - path: gateway/waf.py
+    algorithm: sha256
+    value: 6d4956002259ab564ac3a4d09473f5a7b3f9a7674bce89ee0548e47ccb61de30
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web-exploitation/relay in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/web-exploitation/relay
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path web-exploitation/relay. The source README labels
+  this challenge's level as Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Files in the source that carry a flag value are preserved under original/; no flag text is
+  copied into this metadata. The source directory is named relay; its challenge metadata carries id relay
+  and display name Tailgate, and the slug follows the display name.

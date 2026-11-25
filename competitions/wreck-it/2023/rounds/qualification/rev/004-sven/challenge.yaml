@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: wreck-it-2023-qualification-rev-004
+name: Sven
+slug: 004-sven
+original_name: Sven
+competition_id: wreck-it
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Rev
+description: play my sven pls
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: maulvialf-ctf-challs-archive
+  source_type: git
+  repository: https://github.com/maulvialf/CTF-Challs-Archive
+  commit: 5347e5db1a2b2e8381603126a2a236ede111f45d
+  original_path: 2023/WreckIT 4.0/Rev/Sven
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 4.0 challenge material by the credited authors and organizers; source https://github.com/maulvialf/CTF-Challs-Archive
+  permission_reference: Neither the collection nor an organizer publication carries a license for these
+    files. The collection README states that all challenge copyright belongs to each event organizer and
+    problem setter. Recorded as MIT under the archive maintainer instruction of 2026-11-25; underlying
+    rights remain with the organizer and the individual authors.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b6e10a7ae8b8a65fc1c4d56cc66fd429d985c4ebbfcef0e77386c481f3d9e883
+  - path: sven
+    algorithm: sha256
+    value: 9dfde7ba2aab78532f6d17e1b6a6d827ecdd591e4ae8390e653815265d7928f9
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Rev/Sven in maulvialf/CTF-Challs-Archive
+  url: https://github.com/maulvialf/CTF-Challs-Archive/tree/5347e5db1a2b2e8381603126a2a236ede111f45d/2023/WreckIT%204.0/Rev/Sven
+  type: other
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'Imported from the third-party collection maulvialf/CTF-Challs-Archive at commit 5347e5db1a2b2e8381603126a2a236ede111f45d,
+  source path 2023/WreckIT 4.0/Rev/Sven. The collection keeps a CTFd export at the set root; the values
+  below come from it. Organizer-recorded points 496, solves 3. Points are not a difficulty scale, so difficulty
+  is left unknown. The round is the Wreck-IT 4.0 qualification: organizer and press coverage describe
+  the penyisihan as jeopardy across web, crypto, reverse engineering, pwn, forensic, and misc, while the
+  final used attack-defense, and this source repository files a separate attack-defense set under 2023/final-wreckit-4.
+  The collection states that challenge copyright belongs to the event organizer and problem setters, and
+  ships no license for these files; redistribution is therefore recorded under the archive maintainer
+  instruction of 2026-11-25. Attribution: Wreck-IT 4.0 challenge material by the credited authors and
+  the organizer, Senat Korps Taruna, Politeknik Siber dan Sandi Negara. Provenance runs through a third-party
+  aggregate, not an organizer publication, so verification is needs_scope_review.'

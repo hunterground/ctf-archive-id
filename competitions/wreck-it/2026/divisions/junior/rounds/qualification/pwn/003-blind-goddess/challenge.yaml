@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: wreck-it-2026-junior-qualification-pwn-003
+name: Blind Goddess
+slug: 003-blind-goddess
+original_name: null
+competition_id: wreck-it
+edition_year: 2026
+division_id: junior
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: |-
+  socat -,raw,echo=0 TCP:{{host}}:{{port}}
+
+  Source topic: blind, kernel, arbitrary address write and read, kallsyms parsing. Source level: General/Junior.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- pwn
+- kernel
+authors:
+- name: msfir
+  team: null
+organization: null
+provenance:
+  archive_id: wreck-it-2026-quals-jonscafe
+  source_type: git
+  repository: https://github.com/jonscafe/wreckit-7-qual
+  commit: 6c51504fac20bfb4592509b58a6e3c5c92977c3e
+  original_path: pwn/blind-goddess
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 1df6697935d3c9d130c18721605f373068d65734af3409a2a798c23d01572d37
+  - path: challenge.yml
+    algorithm: sha256
+    value: 02cc780fa77a553a1d36ed334953414f25b1d136814605f2676a9605e2f667b7
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f0ef3545b64ee1a9c50687f8bfa82c154ca47075fcc8b52486c2b4da86be8527
+  - path: docker-entrypoint.sh
+    algorithm: sha256
+    value: 38f165f72ffd855a354eefdffaa15cbd09abc75e648259a94e54880257e819e9
+  - path: src/bzImage
+    algorithm: sha256
+    value: 651122318e727fb4486cf75998670b172245c8004a591497149cc1569deb973e
+  - path: src/initramfs.cpio.gz
+    algorithm: sha256
+    value: 52ccc14d23fcd8ee90fbf894fe3abe2afbe6d8786ecae4ba998514a24847b7e5
+  - path: src/run.sh
+    algorithm: sha256
+    value: 1a88995390abde109470ee548872cdfff9f16e694f2ab4412d9db550198a9516
+licensing:
+  declared_license: MIT
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
+    authors
+  redistribution: permitted
+  attribution_required: true
+  attribution: Wreck-IT 2026 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-7-qual
+  permission_reference: The upstream repository has no LICENSE file. The Wreck-IT 7.0 Terms of Service
+    (section 07) state that challenges remain the intellectual property of Senat Korps Taruna Poltek SSN
+    and the respective authors and grant no redistribution. Recorded as MIT under the archive maintainer
+    instruction of 2026-11-25; underlying rights remain with the organizer and the individual authors.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: pwn/blind-goddess in jonscafe/wreckit-7-qual
+  url: https://github.com/jonscafe/wreckit-7-qual/tree/6c51504fac20bfb4592509b58a6e3c5c92977c3e/pwn/blind-goddess
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-7-qual at commit
+  6c51504fac20bfb4592509b58a6e3c5c92977c3e, source path pwn/blind-goddess. The source README labels this
+  challenge's level as General/Junior; the level is recorded through the division placement. A challenge
+  labelled General/Junior is published once in each division tree as a separate copy of the same source
+  directory. Solver material shipped alongside the challenge was moved to solvers/ per archive policy
+  and is not listed as a preservation omission. Files in the source that carry a flag value are preserved
+  under original/; no flag text is copied into this metadata.

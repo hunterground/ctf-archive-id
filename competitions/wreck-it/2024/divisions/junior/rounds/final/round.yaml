@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: final
+competition_id: wreck-it
+edition_year: 2024
+division_id: junior
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: onsite
+description: On-site Wreck-IT 5.0 junior final, held alongside the general attack-defense final at Huawei
+  Innovation Center, Jakarta.
+dates:
+  start: '2024-08-21'
+  end: '2024-08-21'
+statistics:
+  challenge_count: 8
+  participant_count: null
+references:
+- title: Wreck IT 5.0 Junior Final archive
+  url: https://github.com/jonscafe/wreckit-50-jr
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Poltek SSN on Wreck-IT 5.0
+  url: https://poltekssn.ac.id/berita/korps-taruna-poltek-ssn-selenggarakan-event-wreck-it-5-0/
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The repository README titles the set Wreck IT 5.0 Junior Category - Final and names k.eii, wondPing,
+  and 1kazz as authors. Poltek SSN reports a junior jeopardy final on 21 August 2024 at Huawei Innovation
+  Center. Eight challenges are imported: two each in forensics, web, rev, and crypto. The source lists
+  no pwn challenge.'

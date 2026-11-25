@@ -1,0 +1,268 @@
+@font-face {
+    font-family: ancient;
+    src: url(/font/Ancient_G_Written.ttf);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.15) 0%, transparent 50%),
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg fill-opacity='0.08' fill='%23ffffff'%3E%3Cpolygon points='30,0 60,30 30,60 0,30'/%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.temple-header {
+    text-align: center;
+    padding: 40px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+}
+
+.temple-title {
+    font-family: ancient, cursive;
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    color: #ffffff;
+    text-shadow: 
+        0 0 30px rgba(138, 43, 226, 0.8),
+        0 0 60px rgba(75, 0, 130, 0.6),
+        0 0 90px rgba(138, 43, 226, 0.4);
+    animation: mystical-glow 3s ease-in-out infinite alternate;
+    margin-bottom: 10px;
+}
+
+.temple-subtitle {
+    color: #b8b8ff;
+    font-size: 1.2rem;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.temple-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.temple-form {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(138, 43, 226, 0.3);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 32px rgba(138, 43, 226, 0.2);
+}
+
+.ritual-text {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mystical-prompt {
+    color: #e6e6ff;
+    font-size: 1.3rem;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.input-container {
+    display: flex;
+    gap: 15px;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.temple-input {
+    flex: 1;
+    min-width: 250px;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(138, 43, 226, 0.4);
+    border-radius: 15px;
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.temple-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+.temple-input:focus {
+    border-color: rgba(138, 43, 226, 0.8);
+    box-shadow: 
+        0 0 20px rgba(138, 43, 226, 0.3),
+        inset 0 0 20px rgba(138, 43, 226, 0.1);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.temple-button {
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #8a2be2, #9932cc);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(138, 43, 226, 0.3);
+}
+
+.temple-button:hover {
+    background: linear-gradient(45deg, #9932cc, #8a2be2);
+    box-shadow: 0 6px 25px rgba(138, 43, 226, 0.5);
+    transform: translateY(-2px);
+}
+
+.temple-button:active {
+    transform: translateY(0);
+}
+
+.revelation-area {
+    text-align: center;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    border: 1px solid rgba(138, 43, 226, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.ancient-text {
+    font-family: ancient, cursive;
+    font-size: clamp(3rem, 12vw, 8rem);
+    color: #ffffff;
+    text-shadow: 
+        0 0 20px rgba(138, 43, 226, 0.8),
+        0 0 40px rgba(75, 0, 130, 0.6),
+        0 0 60px rgba(138, 43, 226, 0.4),
+        0 0 80px rgba(75, 0, 130, 0.2);
+    animation: ancient-pulse 4s ease-in-out infinite;
+    word-break: break-word;
+}
+
+.temple-footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.mystical-symbols {
+    color: rgba(138, 43, 226, 0.7);
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    animation: symbol-float 3s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes mystical-glow {
+    0% {
+        text-shadow: 
+            0 0 30px rgba(138, 43, 226, 0.8),
+            0 0 60px rgba(75, 0, 130, 0.6),
+            0 0 90px rgba(138, 43, 226, 0.4);
+    }
+    100% {
+        text-shadow: 
+            0 0 40px rgba(138, 43, 226, 1),
+            0 0 80px rgba(75, 0, 130, 0.8),
+            0 0 120px rgba(138, 43, 226, 0.6);
+    }
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        opacity: 0.8;
+        text-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+    }
+    50% {
+        opacity: 1;
+        text-shadow: 0 0 20px rgba(138, 43, 226, 0.8);
+    }
+}
+
+@keyframes ancient-pulse {
+    0%, 100% {
+        text-shadow: 
+            0 0 20px rgba(138, 43, 226, 0.8),
+            0 0 40px rgba(75, 0, 130, 0.6),
+            0 0 60px rgba(138, 43, 226, 0.4),
+            0 0 80px rgba(75, 0, 130, 0.2);
+        transform: scale(1);
+    }
+    50% {
+        text-shadow: 
+            0 0 30px rgba(138, 43, 226, 1),
+            0 0 60px rgba(75, 0, 130, 0.8),
+            0 0 90px rgba(138, 43, 226, 0.6),
+            0 0 120px rgba(75, 0, 130, 0.4);
+        transform: scale(1.02);
+    }
+}
+
+@keyframes symbol-float {
+    0%, 100% {
+        transform: translateY(0px);
+        opacity: 0.7;
+    }
+    50% {
+        transform: translateY(-5px);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .temple-header {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .temple-form {
+        padding: 20px;
+    }
+    
+    .input-container {
+        flex-direction: column;
+    }
+    
+    .temple-input {
+        min-width: auto;
+    }
+    
+    .mystical-symbols {
+        letter-spacing: 5px;
+    }
+}

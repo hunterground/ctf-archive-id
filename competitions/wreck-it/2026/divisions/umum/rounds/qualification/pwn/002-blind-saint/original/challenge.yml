@@ -1,0 +1,7 @@
+id: pwn-blind-saint
+name: "Blind Saint"
+category: pwn
+description: nc {{host}} {{port}}
+ports:
+  - 19540
+timeout: 1800

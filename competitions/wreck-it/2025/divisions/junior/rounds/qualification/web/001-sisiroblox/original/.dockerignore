@@ -1,0 +1,43 @@
+# .dockerignore
+# Standard ignores (nothing suspicious here)
+node_modules
+npm-debug.log
+.git
+.gitignore
+README.md
+.env
+.nyc_output
+coverage
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+
+# Docker files (don't dockerize docker, that's just silly)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Challenge specific ignores
+*.log
+temp/
+.temp
+build/
+
+# Roblox Studio files (if any developer accidentally puts them here)
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Secret files that definitely don't contain JWT secrets (wink wink)
+secrets/
+private/
+hidden/
+
+# Developer notes that are totally not hints
+notes.txt
+hints.md
+solution.txt
+cheat-codes.txt
