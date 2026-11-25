@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-warmup-crypto-001
+name: Introduction with RSA
+slug: 001-introduction-with-rsa
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: crypto
+original_category: _warmup/Crypto
+description: Decrypt this simple RSA output.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- cryptography
+- rsa
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: _warmup/Crypto
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1b4f304b51b99a8422cd6447383b85787cf584f1c0a1ad2cc148f4f171165f2a
+  - path: release/chall.py
+    algorithm: sha256
+    value: cc497201795e564935af2914237262df5f5b206f4c5a825e56b426da4bd3076c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: _warmup/Crypto at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/_warmup/Crypto
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Warmup CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/Warmup%20CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Beginner challenge from the source's _warmup set. An independent participant collection ships the
+  same files byte-for-byte, which confirms the set was played under NETCOMP flags. That collection records
+  the served flag as netcomp{RSA_101}; this challenge ships no flag file of its own. The preserved README.md
+  still carries a stale TNIAL{...} string from a TNI Angkatan Laut event; that string predates the NETCOMP
+  re-flagging and is not the served flag. Which NETCOMP stage served the set is not stated by any located
+  source, so the challenge stays under the warmup round pending organizer review.

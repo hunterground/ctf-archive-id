@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-forensics-002
+name: Learning
+slug: 002-learning
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: So me and my friend currently learning how to analyze some network traffic and how to reproduce
+  that. My friend sent me this file and tell me for solve it. He say originally is a USB data traffic,
+  but he convert it to ICMP. Can you help me solve thiss?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- forensics
+- usb
+- icmp
+- pcap
+authors:
+- name: Bleco
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: forensic/learning
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5344ce3b690761345cd274347e54bc87f20d4e50a29ba6c4bb7e64d417a17361
+  - path: release/learning.zip
+    algorithm: sha256
+    value: c424268deec8f6bfdbc36b6aaa32028cc81ebaa8b6c57316bbd2059e76ce3c0e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensic/learning at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/forensic/learning
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: The source README names Bleco and gives an easy-medium rating. The participant release zip learning.zip
+  is preserved. This challenge does not appear in the participant collection that corroborates the rest
+  of the set, so it rests on the author archive alone.

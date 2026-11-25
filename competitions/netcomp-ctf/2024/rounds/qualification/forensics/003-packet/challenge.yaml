@@ -1,0 +1,174 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-forensics-003
+name: Packet
+slug: 003-packet
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- pcap
+- icmp
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: forensic/packet
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1c63eea5b4169282f226b262b4205a11c97ce36a86728dbc18bfec7a6fde8bc3
+  - path: generate/1.png
+    algorithm: sha256
+    value: b05f22a2e0880dabcfca89dbe5a79e1840cee9bfde6d06913c598bca25d4c3d0
+  - path: generate/10.png
+    algorithm: sha256
+    value: e2cb67d4be84210e999e0e9591dfc63c6a51ad4cb3c216a99aeed7a5fd8c6829
+  - path: generate/11.png
+    algorithm: sha256
+    value: b05f22a2e0880dabcfca89dbe5a79e1840cee9bfde6d06913c598bca25d4c3d0
+  - path: generate/12.png
+    algorithm: sha256
+    value: 0d8984bea399618ef9e55074256f4155a60e282cb08711517391195450aadfe8
+  - path: generate/13.png
+    algorithm: sha256
+    value: 38b3c55762f52eb6a0305f916e096731573747c55a0375203863e291c843d827
+  - path: generate/14.png
+    algorithm: sha256
+    value: b05f22a2e0880dabcfca89dbe5a79e1840cee9bfde6d06913c598bca25d4c3d0
+  - path: generate/15.png
+    algorithm: sha256
+    value: c455828f9810f55a1b69d7ab529c8b91c2937921a2863815ff8e74b37284f0f0
+  - path: generate/16.png
+    algorithm: sha256
+    value: 3288d71b384264ad0a0851b9a7b195a59f6e2adfc2c0d7cd63268adf006a2801
+  - path: generate/17.png
+    algorithm: sha256
+    value: 1957d7a8654e163ad8dcd8cfb1f7c83d17f2067918d4109b226d9ceb48375a63
+  - path: generate/18.png
+    algorithm: sha256
+    value: 38b3c55762f52eb6a0305f916e096731573747c55a0375203863e291c843d827
+  - path: generate/19.png
+    algorithm: sha256
+    value: 9857e379ff661cc1cc29c3da5757e6a576130d264a38ccce6bf0c87c4e8e6b6c
+  - path: generate/2.png
+    algorithm: sha256
+    value: e2cb67d4be84210e999e0e9591dfc63c6a51ad4cb3c216a99aeed7a5fd8c6829
+  - path: generate/20.png
+    algorithm: sha256
+    value: e2cb67d4be84210e999e0e9591dfc63c6a51ad4cb3c216a99aeed7a5fd8c6829
+  - path: generate/21.png
+    algorithm: sha256
+    value: 3288d71b384264ad0a0851b9a7b195a59f6e2adfc2c0d7cd63268adf006a2801
+  - path: generate/22.png
+    algorithm: sha256
+    value: 56d9bc2961c3f5911f1a8551cc70e22791c51a2c7607f509acc3e3b41f235702
+  - path: generate/23.png
+    algorithm: sha256
+    value: cd54a141c964e11e7508b7d97ce2733c0c1d808d80332cfcb0c0a1142ada5d10
+  - path: generate/24.png
+    algorithm: sha256
+    value: d9f6f02e99f50cea0674f6d05771f7877b04d222fdfa8c77ad111c948c9f0bb9
+  - path: generate/25.png
+    algorithm: sha256
+    value: d1383cea94a5b7095e87d8812d578371ae557bc9fba034e7ef20fa9498119dc6
+  - path: generate/26.png
+    algorithm: sha256
+    value: 57bc7b8d1f8194664dc18b9c75e41fea47f7221c0ab92cb8041c8bf2d2a1cfc1
+  - path: generate/27.png
+    algorithm: sha256
+    value: c455828f9810f55a1b69d7ab529c8b91c2937921a2863815ff8e74b37284f0f0
+  - path: generate/28.png
+    algorithm: sha256
+    value: cd54a141c964e11e7508b7d97ce2733c0c1d808d80332cfcb0c0a1142ada5d10
+  - path: generate/29.png
+    algorithm: sha256
+    value: 3288d71b384264ad0a0851b9a7b195a59f6e2adfc2c0d7cd63268adf006a2801
+  - path: generate/3.png
+    algorithm: sha256
+    value: 56d9bc2961c3f5911f1a8551cc70e22791c51a2c7607f509acc3e3b41f235702
+  - path: generate/30.png
+    algorithm: sha256
+    value: e2b2702e3d625a3c72863dc4cfc1851a617de3e14a9051cbc0412a10b8cb9946
+  - path: generate/31.png
+    algorithm: sha256
+    value: 99f25cb1c6283f91b371019c1fe993580e4ece52c2e5b44c3b1b7eddae2a8408
+  - path: generate/32.png
+    algorithm: sha256
+    value: f2b18ce1a232e9f50c91068595eabd0b4f045003593a714fbaf26518fbef2171
+  - path: generate/33.png
+    algorithm: sha256
+    value: ea6a1c9e66344a295a4dcb3977d8751374e6bf21031441f61fdffc503786517c
+  - path: generate/34.png
+    algorithm: sha256
+    value: 41d757fc63627b9a4d850cf5cac714871dabb18f1ecddee5e41cdf5e6fd9e1e0
+  - path: generate/4.png
+    algorithm: sha256
+    value: 6e8cba782965590da388d5d2c1b2ceb70d8b37d67189d4e014c7856691368871
+  - path: generate/5.png
+    algorithm: sha256
+    value: d1383cea94a5b7095e87d8812d578371ae557bc9fba034e7ef20fa9498119dc6
+  - path: generate/6.png
+    algorithm: sha256
+    value: d386797fd6f107716dcd48d33853b7b1fb91216258797f836286d94d7b8eec86
+  - path: generate/7.png
+    algorithm: sha256
+    value: f058b92a214a11391f64bba4f83291b78ce3c14195062655fff289cc14f434f2
+  - path: generate/8.png
+    algorithm: sha256
+    value: c05e5bca363a78ecbe904e96bdfabc3cf29a69a866fd35061cbc2645fcdfecf6
+  - path: generate/9.png
+    algorithm: sha256
+    value: cb2e4da0f3af7c6f35d9d3f86fc82ed27a3fc3688bcc1e27e43800add8d6362e
+  - path: generate/evilPing.sh
+    algorithm: sha256
+    value: 5bf28924bd6abb10084076e0c609b2114cf24ad5cd11125008ea7547625e1656
+  - path: generate/gen.py
+    algorithm: sha256
+    value: 099b2b33b4f36562d825d0d58a15198f73b3e56ea85cd4bb705562266ea7d03f
+  - path: release/packet.pcap
+    algorithm: sha256
+    value: 744919f8461e730a7e666608d3d1c0ca76f41a004a5f813ebce75271c6bb7947
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensic/packet at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/forensic/packet
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: The source README gives no author and no difficulty, so both stay null; it does include a tshark
+  one-liner for extracting the image. generate/ holds the image stager that produced the payload. The
+  TSA Cyber Champion 2024 'Forensic 101' entry in this archive reuses this challenge's stager and solve
+  output under a TSA flag, which corroborates the material's authorship but is a different event. This
+  challenge does not appear in the participant collection that corroborates the rest of the set, so it
+  rests on the author archive alone.

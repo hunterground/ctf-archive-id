@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-web-001
+name: File Downloader
+slug: 001-file-downloader
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: This is my new tool for download any file but i still limit to 2KB cause i have not enough
+  storage
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- file-download
+- temp-file
+authors:
+- name: ganezo
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: web/FileDownloader
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e8338d84650b6c79c39a063634c7d3f86eecbdf9bbf0cf89dd623411b06fc55b
+  - path: releases/FileDownloader_peserta.zip
+    algorithm: sha256
+    value: c3709e6bad35dc06fb3171a9e8b2ccbdb2452f8aee546b87da51cdc6b8e26553
+  - path: src_fd/Dockerfile
+    algorithm: sha256
+    value: 15337762e5a7c720cf9e174759c65fe59f16a1d4071f2fa29b49736a9c07def2
+  - path: src_fd/docker-compose.yml
+    algorithm: sha256
+    value: 0c0820143ea83f0d9cc965429f86e9ad9065854926166e81e72b7b00d9bc3a55
+  - path: src_fd/flag.txt
+    algorithm: sha256
+    value: 8765692a4a53262a09ee288b851bd2edbcc2e33a9e46e633c86b3010fd045464
+  - path: src_fd/src/.htaccess
+    algorithm: sha256
+    value: aa243d6ec8e38b41b2cc7301c66bd2e316c3ae690a91eb17f0ef95bb11a7af00
+  - path: src_fd/src/download.php
+    algorithm: sha256
+    value: 1c4d9544339ef8f5d2d6c5d2b42a879f3792b6db4cf5e7defafceadd2e8367a6
+  - path: src_fd/src/index.php
+    algorithm: sha256
+    value: d416daddb2e43090749cdba2ef22ae618208a68cb5d0ecdf262509ad4adce03c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/FileDownloader at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/web/FileDownloader
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: The source README names ganezo as the author and gives a medium rating. The participant release
+  zip is preserved at releases/FileDownloader_peserta.zip alongside the server source in src_fd/. This
+  challenge does not appear in the participant collection that corroborates the rest of the set, so it
+  rests on the author archive alone.

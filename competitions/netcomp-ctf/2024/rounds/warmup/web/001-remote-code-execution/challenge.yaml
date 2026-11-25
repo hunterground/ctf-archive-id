@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-warmup-web-001
+name: Remote Code Execution
+slug: 001-remote-code-execution
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: web
+original_category: _warmup/Web
+description: Given a URL to an HTTP service with a remote code execution vulnerability, exploit it to
+  get a shell and read the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- web
+- rce
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: _warmup/Web
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4c59503cfd1cc68829434c3d68c2bfc49a1a5ea7fdde7224738035aae62f0b11
+  - path: server/Dockerfile
+    algorithm: sha256
+    value: 500e87efc03e72cb027bd03bb410a14866e55038e31f6bb9b6672fbb3992edac
+  - path: server/flag.txt
+    algorithm: sha256
+    value: 722ff40a9b639cfc79457fa74543edcf3d2c09f3a868daa0992d963610293b21
+  - path: server/src/index.php
+    algorithm: sha256
+    value: 18ccd1965d60d0bd2ecacacf405c4208148d5961432fd40b1847498a114c712a
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: _warmup/Web at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/_warmup/Web
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Warmup CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/Warmup%20CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Beginner challenge from the source's _warmup set. An independent participant collection ships the
+  same files byte-for-byte, which confirms the set was played under NETCOMP flags. The preserved server/flag.txt
+  holds netcomp{Web_Hacking_101}, which the participant collection reports as the served flag. The preserved
+  README.md still carries a stale TNIAL{...} string from a TNI Angkatan Laut event; that string predates
+  the NETCOMP re-flagging and is not the served flag. Which NETCOMP stage served the set is not stated
+  by any located source, so the challenge stays under the warmup round pending organizer review.

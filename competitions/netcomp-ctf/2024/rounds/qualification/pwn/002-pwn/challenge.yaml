@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-pwn-002
+name: pwn
+slug: 002-pwn
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- heap
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: pwn/pwn
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 8fb151d372d2869cfcc96b305b4e364156c8296a6f3c3cada8860b0fa423d3de
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 315b9dd75ad6ed5f5484248de54e8c5ee2167e7b8e7399719508966c614c103e
+  - path: deploy/flag
+    algorithm: sha256
+    value: 260290dd04f6f37a219ef6fb7973bd713165d6612971eb32640d6929bd91e9eb
+  - path: deploy/main
+    algorithm: sha256
+    value: e1fe0b5983b8f2bdd24436195948661b68fbafd767d9a50932eb9be7f1571f0f
+  - path: ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 7af637a5047b1d08ed39bd18808e5bb984a069060ed52f9f5448b94f16f99330
+  - path: libc.so.6
+    algorithm: sha256
+    value: 80378c2017456829f32645e6a8f33b4c40c8efa87db7e8c931a229afa7bf6712
+  - path: main
+    algorithm: sha256
+    value: e1fe0b5983b8f2bdd24436195948661b68fbafd767d9a50932eb9be7f1571f0f
+  - path: main.c
+    algorithm: sha256
+    value: 317d8919108e074b23c4eb47167635b71a33fe2e2152fa944da7986966c38375
+  - path: main2
+    algorithm: sha256
+    value: 4a7744d7d18b86f7c9b84b7367002ae4432ef3f2260b407aae4c51e47d54e4a7
+  - path: public/Dockerfile
+    algorithm: sha256
+    value: 8fb151d372d2869cfcc96b305b4e364156c8296a6f3c3cada8860b0fa423d3de
+  - path: public/docker-compose.yml
+    algorithm: sha256
+    value: 315b9dd75ad6ed5f5484248de54e8c5ee2167e7b8e7399719508966c614c103e
+  - path: public/main
+    algorithm: sha256
+    value: e1fe0b5983b8f2bdd24436195948661b68fbafd767d9a50932eb9be7f1571f0f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: pwn/pwn at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/pwn/pwn
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: This challenge has no README in the source, so description, difficulty, and author stay null. The
+  directory holds main.c with a note that inserting more than six notes overflows the pointer array, plus
+  the deploy and public builds. This challenge does not appear in the participant collection that corroborates
+  the rest of the set, so it rests on the author archive alone.

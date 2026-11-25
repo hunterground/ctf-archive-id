@@ -1,0 +1,485 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-web-002
+name: Fun Notes
+slug: 002-fun-notes
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: You can share your notes here with us!
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- broken-access-control
+- file-write
+authors:
+- name: ganezo
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: web/FunNotes
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src_fn/src/public/assets/css/bootstrap/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/css/bootstrap/mixins/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/fonts/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/images/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/js/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/scss/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  - path: src_fn/src/public/assets/scss/bootstrap/.DS_Store
+    reason: macOS directory metadata, not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 75008f1473d43b270687050edb377c6cf3b6c0876852c4a4b9688a877d998725
+  - path: releases/FunNotes_peserta.zip
+    algorithm: sha256
+    value: b97bd32bfc4fd6d1b3cdd37b771a690b6779794dc153970f9f0e742a5fe71687
+  - path: src_fn/Dockerfile
+    algorithm: sha256
+    value: e0dcbe35b62ca5f05ec3207ddb169acc85e14f373587de49082431e63def0a27
+  - path: src_fn/docker-compose.yml
+    algorithm: sha256
+    value: d1400e30906cfb030cef454f9b29783a4bbede7b4f787516dd505cc9fe64d3e3
+  - path: src_fn/flag.txt
+    algorithm: sha256
+    value: 3394d9dac45250a8b08da10efdacc8bcaf54100a4b2501f7ff87925e3c477e2e
+  - path: src_fn/notes.json
+    algorithm: sha256
+    value: c7c749b6be4aceb89e458feb691492af9191a062317833c0126b740b265b76ec
+  - path: src_fn/src/app/Controller.php
+    algorithm: sha256
+    value: 5b998b7e0dd5602192cf1850d5c77388f739183d95154064bfa7f7df5d3421af
+  - path: src_fn/src/app/Controllers/DashboardController.php
+    algorithm: sha256
+    value: c977743a989afa4953b5febdb801d9c60a49a18b1ae86d3f6c0e11c9bf6c44f4
+  - path: src_fn/src/app/Controllers/HomeController.php
+    algorithm: sha256
+    value: c0bc65206c866ccae5ea25a800ada98f48727f13dc9ddabd45b437b44d70fd7f
+  - path: src_fn/src/app/Models/Notes.php
+    algorithm: sha256
+    value: 711e1669fee52b121e5429344b451fb487cbfb8e7006b0587df81c0345217a2c
+  - path: src_fn/src/app/Models/User.php
+    algorithm: sha256
+    value: 2105cd0c178893408a60c819ad418e634cfe447440884a944c921bc2b1c220aa
+  - path: src_fn/src/app/Router.php
+    algorithm: sha256
+    value: fa15948a999d2943a08b13f0da273f081ca0e81082940bcf9b45d81d4e9c9177
+  - path: src_fn/src/app/Routes/index.php
+    algorithm: sha256
+    value: f059d905e2bda4e0549cab6db8630bd276b0e13f379e1aa2e9d092195a1bf849
+  - path: src_fn/src/app/Views/dashboard.php
+    algorithm: sha256
+    value: 69440e51ae8f7c7f0b3407e9159cca3b8f1fa56cc30e4ffdb170e40eda6792b9
+  - path: src_fn/src/app/Views/login.php
+    algorithm: sha256
+    value: 84e8fb1cd92f37ed325941c899c9e9d172766034530f48c7545133401f026f4a
+  - path: src_fn/src/app/Views/signup.php
+    algorithm: sha256
+    value: 08dd02fc34c2f4b085cd3e74e271eee4192ffe92d74f3c7fac7efb0913b04d8f
+  - path: src_fn/src/composer.json
+    algorithm: sha256
+    value: f5813c7f804cbc92de7067f08c5ac7335f3a10f04d84a8133e780efb99a6db87
+  - path: src_fn/src/public/assets/css/bootstrap.min.css
+    algorithm: sha256
+    value: 60b19e5da6a9234ff9220668a5ec1125c157a268513256188ee80f2d2c8d8d36
+  - path: src_fn/src/public/assets/css/bootstrap/_media.css
+    algorithm: sha256
+    value: cbb7273f7ca655eb3be1d0a0e54fc0b5fb89ac7277827d4f9df0806d47dfa957
+  - path: src_fn/src/public/assets/css/bootstrap/mixins/_border-radius.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src_fn/src/public/assets/css/bootstrap/mixins/_screen-reader.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src_fn/src/public/assets/css/bootstrap/mixins/_transition.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src_fn/src/public/assets/css/bootstrap/mixins/_visibility.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src_fn/src/public/assets/css/bootstrap/utilities/_stretched-link.css
+    algorithm: sha256
+    value: 48fd7c7d1cdfbf89f05258ca17c0e1eaed9005c10ffb4a0c17c9f99cfbe2f1e5
+  - path: src_fn/src/public/assets/css/style.css
+    algorithm: sha256
+    value: c5c6744a8d6d88ec103a82e3d13f5e2f3d0f6767a7ca1b4434d583cb5bc8bb0b
+  - path: src_fn/src/public/assets/css/styles.css
+    algorithm: sha256
+    value: 4e5fc948f7603cf5d65564947b065ba51ea4656d6755ff1fe8f0354a9c31a45a
+  - path: src_fn/src/public/assets/images/bg-1.jpg
+    algorithm: sha256
+    value: b646092cc6da8438329a0e1df2426370b63fadca3a4a525a28f12b6f4b9f2f07
+  - path: src_fn/src/public/assets/js/bootstrap.min.js
+    algorithm: sha256
+    value: 0a34a87842c539c1f4feec56bba982fd596b73500046a6e6fe38a22260c6577b
+  - path: src_fn/src/public/assets/js/datatables-simple-demo.js
+    algorithm: sha256
+    value: 039af85f6e18e1439e03b1410ba1d2defa23efac6499ccf2c21f6a3be2f2e614
+  - path: src_fn/src/public/assets/js/jquery.min.js
+    algorithm: sha256
+    value: 4c24dfd28784ad2befb3dafaac6bf1ed4e7cd58cce713d9a0b228d426e812baf
+  - path: src_fn/src/public/assets/js/main.js
+    algorithm: sha256
+    value: 65767c864ba004bfbec22417f07411188e53815418c1b01897a5d435123dc978
+  - path: src_fn/src/public/assets/js/popper.js
+    algorithm: sha256
+    value: 71ef7c16d75da75a5d417df75ed72144bc5ec65a9c0429b7dee0988adc3e8d29
+  - path: src_fn/src/public/assets/js/scripts.js
+    algorithm: sha256
+    value: 85238ab5aa0b6ed017dd02f1a2055c69583c16fed8e874c272926a55e3efef6d
+  - path: src_fn/src/public/assets/scss/bootstrap/_alert.scss
+    algorithm: sha256
+    value: 4954115518ca77e689500d875d2f7e4cc5f232dcaec03db665dadc2368bf4b47
+  - path: src_fn/src/public/assets/scss/bootstrap/_badge.scss
+    algorithm: sha256
+    value: c875b1bba2ef41722e3d1eca0afb2d2fd7484059bbe4d1c5558d9a431ea36813
+  - path: src_fn/src/public/assets/scss/bootstrap/_breadcrumb.scss
+    algorithm: sha256
+    value: 95ccf5291cf3114c73a696dd13690f04fadd38fd5fede4a96d96d98ffd9c498b
+  - path: src_fn/src/public/assets/scss/bootstrap/_button-group.scss
+    algorithm: sha256
+    value: 5ebb5c8806824628ff4dceb15ee4e6783f3d83b5bc949dc9854dbd09d94dc201
+  - path: src_fn/src/public/assets/scss/bootstrap/_buttons.scss
+    algorithm: sha256
+    value: 7eb9532cbcd984cde19160b615c2cebb402c2e5a449bafcb2e830164d548850e
+  - path: src_fn/src/public/assets/scss/bootstrap/_card.scss
+    algorithm: sha256
+    value: d30db1f34d5057bff742ffe3ef1d05e17b4068379ad925ed60c1df356be99e8f
+  - path: src_fn/src/public/assets/scss/bootstrap/_carousel.scss
+    algorithm: sha256
+    value: b1f66f9c3ea3e165f2fd8d0553ecd9df06bd401694dffcf19b1d18c389fab296
+  - path: src_fn/src/public/assets/scss/bootstrap/_close.scss
+    algorithm: sha256
+    value: 9f667d8479ee6ea957d4c21037aa3a8c8f05e91dda1381f79fe60d91e14c82ca
+  - path: src_fn/src/public/assets/scss/bootstrap/_code.scss
+    algorithm: sha256
+    value: 39684fcd9153be65c68497d535d75d70b2dbb76f08467a8ef58788332c3db30f
+  - path: src_fn/src/public/assets/scss/bootstrap/_custom-forms.scss
+    algorithm: sha256
+    value: 37806ca6a5944d59c1b2cc42d1c2cead41cb9380b43b051f961052cb7d813746
+  - path: src_fn/src/public/assets/scss/bootstrap/_dropdown.scss
+    algorithm: sha256
+    value: d8a910ed50ffe7e74cffa06b6a09c79d5a8212f6f63e8f9eaef81284789879db
+  - path: src_fn/src/public/assets/scss/bootstrap/_forms.scss
+    algorithm: sha256
+    value: 67354e9b21cb9145e79a858da29f09b44d5511fa9c037c5044931fe1e2f5a7c0
+  - path: src_fn/src/public/assets/scss/bootstrap/_functions.scss
+    algorithm: sha256
+    value: 4594651b55bb3461898eb275b139cb75653adebf1f276c22e3be53233abf2239
+  - path: src_fn/src/public/assets/scss/bootstrap/_grid.scss
+    algorithm: sha256
+    value: c580b8c1d451ccf55458e7cb63cebd9aee83df31ae01ad4c47b073d3f9664b3c
+  - path: src_fn/src/public/assets/scss/bootstrap/_images.scss
+    algorithm: sha256
+    value: 18cd554da96be234bf163301a002f2b6ae87608de496d42cd042d3765ae2296e
+  - path: src_fn/src/public/assets/scss/bootstrap/_input-group.scss
+    algorithm: sha256
+    value: f97687f3a67dd8ae3efbf6672fb5d20f7fc4c4f58af619a84d55f61b92d4f73d
+  - path: src_fn/src/public/assets/scss/bootstrap/_jumbotron.scss
+    algorithm: sha256
+    value: 6a05af03fba27ca8bf7c0c2f060024a38bb4112d6c536b821fa4f4d6795f2b88
+  - path: src_fn/src/public/assets/scss/bootstrap/_list-group.scss
+    algorithm: sha256
+    value: 632e2e237793e5011218e9a6359b5bc2772d7b35768c5672e6aa26f6345df515
+  - path: src_fn/src/public/assets/scss/bootstrap/_media.scss
+    algorithm: sha256
+    value: 04d8c8e714d17f1aa57e7afed1b1016d879d7161cc79651059717503f4767578
+  - path: src_fn/src/public/assets/scss/bootstrap/_mixins.scss
+    algorithm: sha256
+    value: d17293699a22c47b7988e40e901827c82bdd2278f2b936a9444f331bd5460478
+  - path: src_fn/src/public/assets/scss/bootstrap/_modal.scss
+    algorithm: sha256
+    value: 22aa263e19eb5b6aada662243122e32e826ec89e3e65de1cb4f635d2e64b8a95
+  - path: src_fn/src/public/assets/scss/bootstrap/_nav.scss
+    algorithm: sha256
+    value: 8503f573ed1e31b0b282d97c845be2fa959323424c01ecd604f9f9a2c71e4e31
+  - path: src_fn/src/public/assets/scss/bootstrap/_navbar.scss
+    algorithm: sha256
+    value: 065a088e1e55dee070cb3dab469aab8efc954883950f565eda64ce06a4c6a082
+  - path: src_fn/src/public/assets/scss/bootstrap/_pagination.scss
+    algorithm: sha256
+    value: 89836ec5251f4bf7daddb21b7eb5b9c6efff568f8a44a380b8aefd0a2d8e7732
+  - path: src_fn/src/public/assets/scss/bootstrap/_popover.scss
+    algorithm: sha256
+    value: 837f07252df792281fac69244ca93da080285dd6b900fe96c617743a444bfd5b
+  - path: src_fn/src/public/assets/scss/bootstrap/_print.scss
+    algorithm: sha256
+    value: da6e00a7291ab85ca88ce10fe848b525259e9a44f0b334d5aef6e954a63a9fd5
+  - path: src_fn/src/public/assets/scss/bootstrap/_progress.scss
+    algorithm: sha256
+    value: b16498b94099edaf870f8f1b1b35a7a9cfab40b5f11999a89a7f2302cd82d8ef
+  - path: src_fn/src/public/assets/scss/bootstrap/_reboot.scss
+    algorithm: sha256
+    value: aa2c839f9a2968fa99bdf6a84805ad8c6c78322071f1b7b9797dfadfada17570
+  - path: src_fn/src/public/assets/scss/bootstrap/_root.scss
+    algorithm: sha256
+    value: 57cb6c8201fd3197d44892a5bb5f5db5cc67c4cab28b91b862d3295271f97b5f
+  - path: src_fn/src/public/assets/scss/bootstrap/_spinners.scss
+    algorithm: sha256
+    value: 3bac6d1ad74c7bdb156e9e95ab9613069dd5451c690b1e32b896783ead750660
+  - path: src_fn/src/public/assets/scss/bootstrap/_tables.scss
+    algorithm: sha256
+    value: 0f9ec2da7f7ae327fecf0947c26fec8ff6ddb943901d3928f9b7f61051658494
+  - path: src_fn/src/public/assets/scss/bootstrap/_toasts.scss
+    algorithm: sha256
+    value: 7dc6b32a51448bf34d99192d28e5913f38b1c2c4b93c4684522a27890bd089f1
+  - path: src_fn/src/public/assets/scss/bootstrap/_tooltip.scss
+    algorithm: sha256
+    value: 792e414541adbc9ef4b2b43aeadc89f741fb30f11122d9ecbe305692e1df8059
+  - path: src_fn/src/public/assets/scss/bootstrap/_transitions.scss
+    algorithm: sha256
+    value: 21617756b43787232cedca351b15c5cc73b0c38159ac926fa84281dc1fe71c01
+  - path: src_fn/src/public/assets/scss/bootstrap/_type.scss
+    algorithm: sha256
+    value: 50f89e6babef8173f6c63f9c92ca469529884a4de1c734d1b9aadbce204aa4e5
+  - path: src_fn/src/public/assets/scss/bootstrap/_utilities.scss
+    algorithm: sha256
+    value: 2a43d447b265bb2a3e38c04517e582f789f1602ac588f4c8bce460caab673c85
+  - path: src_fn/src/public/assets/scss/bootstrap/_variables.scss
+    algorithm: sha256
+    value: cb212f9df31cf102e0fd4a9c2f3095a5fca7ed3fdacfb20fc3b61990a2da7c7b
+  - path: src_fn/src/public/assets/scss/bootstrap/bootstrap-grid.scss
+    algorithm: sha256
+    value: 31d77c880c1cd5db811600b0057b36a53923de05adf7943146b983ba82bff934
+  - path: src_fn/src/public/assets/scss/bootstrap/bootstrap-reboot.scss
+    algorithm: sha256
+    value: e08f1b3eabdfb79a4dbe7a559991947cb0ec4a5f9959883b5679237a8489738a
+  - path: src_fn/src/public/assets/scss/bootstrap/bootstrap.scss
+    algorithm: sha256
+    value: 3e250deb1d19d22b24214c3aecd990f15108edc7f6b235806f0a0d34df9a5a01
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_alert.scss
+    algorithm: sha256
+    value: 75d86577eb4780173cd06bac82a7ded8a0bdc1cc8c744ea6f87bac35e0e85b41
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_background-variant.scss
+    algorithm: sha256
+    value: 7425ff16f881d0333938cafc087fd64e11abbdd631647e0f93f8fa56eeba465a
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_badge.scss
+    algorithm: sha256
+    value: c496f71226942302d6603b14d765d783da4193b03ea12886b913ed2639f25f05
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_border-radius.scss
+    algorithm: sha256
+    value: 47901134e19da5d6bb0ed43504330e471796264b08461675abf8425794e765fb
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_box-shadow.scss
+    algorithm: sha256
+    value: c3fe0d3900c13e57fb650822497b65030a385c4c08380510f11af1326604498d
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_breakpoints.scss
+    algorithm: sha256
+    value: c0480456a36e041c706bb0a9cc6eb1e395638f23b1b698c84017495070462912
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_buttons.scss
+    algorithm: sha256
+    value: 82a92d84dd2ca24e894eead05efd31146a9a3f6ee1fefa04efef3a95817bfad7
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_caret.scss
+    algorithm: sha256
+    value: 1d11261d08d0c7353872d5f26352f21da3f3c94e7fe99dbf9c766de9f2507305
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_clearfix.scss
+    algorithm: sha256
+    value: 4789e07655c53ae9de37403cbaf596f140c059acaed6c4360158ab6cc14e6c29
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_deprecate.scss
+    algorithm: sha256
+    value: 690780a5f568226bb755f5e601add120af65474c8f2e07764d6f10bdb586eb11
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_float.scss
+    algorithm: sha256
+    value: dcdd48caefe766306dd2185b8e647ecb642a115ba0ee6846373c2281b92de8b0
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_forms.scss
+    algorithm: sha256
+    value: bfb4d1e36e801b10da6da3917b760d5ac526ad58b717626b318fc5db225abb5b
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_gradients.scss
+    algorithm: sha256
+    value: fb6d548190524e40d9685b4ec63dfcbc7b474b74d1bba0511fa0c827297d1330
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_grid-framework.scss
+    algorithm: sha256
+    value: 7c6a6700304150cbbba3372413d313020cac0d3d11e8e14da2535394ce2f9178
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_grid.scss
+    algorithm: sha256
+    value: 401348f9f7af5e56aaf23cc76310440f478254047e69571ebe1f5e44e14b9d2e
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_hover.scss
+    algorithm: sha256
+    value: ec2bb763316ca4c0031edf8739f9f38de010ceef1c34604c2afafa878698586a
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_image.scss
+    algorithm: sha256
+    value: 39b64ac04a8966fe7b90e2241fc426f1c95d0e8d43816bf022d9d841d7f9835b
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_list-group.scss
+    algorithm: sha256
+    value: 268492d55fce318a99982ff7079729266cdb455803f2730600e38c273466b474
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_lists.scss
+    algorithm: sha256
+    value: 84717fbc7fc41ce2ba06cb7542efbf5ceca62022f32cdd48cea839c158e31624
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_nav-divider.scss
+    algorithm: sha256
+    value: cd80dca216cec4eca4f2a5ea2a430bf36c1b213139d8a3bc22270e0fff2a5b50
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_pagination.scss
+    algorithm: sha256
+    value: 5d380cfec16d3d4659f8b1eb248273a53d231ff04fee9f3cf8ee66d6863c72ca
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_reset-text.scss
+    algorithm: sha256
+    value: 8e512fc5a99d68250c8c2abdfc454e2e7659a56ee93a01bcfc7e64c647879be4
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_resize.scss
+    algorithm: sha256
+    value: a7f0a7d2f9904e49b70969b62d8200742f85425299efb34e2e751d35a4132ace
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_screen-reader.scss
+    algorithm: sha256
+    value: 2c4b9f0aaf962c3b36b5a80f3acd040c896b2b46018ac2f635901cdcd7c2ec25
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_size.scss
+    algorithm: sha256
+    value: 8654865a4acd786fe20feb3ffbd33c84c85fb900934caaa8c40e61e2ccfd9083
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_table-row.scss
+    algorithm: sha256
+    value: b976643c551dd2809bec5c620c3356ebb00eae805f233f60fd00ecd685c0fab5
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_text-emphasis.scss
+    algorithm: sha256
+    value: 3c2718e224403d6cd3b93bd02b388aab50759217437a990183cb46c628afd665
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_text-hide.scss
+    algorithm: sha256
+    value: 301d8c5ca2a34b9fb4ee21f98897f47226356e140fabab166df6f3fef8fc6e25
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_text-truncate.scss
+    algorithm: sha256
+    value: e85ea7e6025a8a061fe65b27706be1b1fd76fc3164c4c91d6727f91a0055ae1c
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_transition.scss
+    algorithm: sha256
+    value: be18d5ebd5ae889450cb7a2e4f3806ce986c2fb5085bb29f4049c54f8049fa49
+  - path: src_fn/src/public/assets/scss/bootstrap/mixins/_visibility.scss
+    algorithm: sha256
+    value: a26c23ec541f0c281316fd0fdc5af6e77b8ef2cf0962faefd9ec0fbdb26cdd59
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_align.scss
+    algorithm: sha256
+    value: 520e54a8e4b23655af787da250eb6b91e64f4997d6f6d02f0eae5dc7622f2a41
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_background.scss
+    algorithm: sha256
+    value: 16f90453aa79392de158d41641a96e9d2ff8bae90424b93d7c11a2acb903fa92
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_borders.scss
+    algorithm: sha256
+    value: 9017280d8f7fdde8a45bc6ecc9fbd3fa42eb7d251ed5f430f38518971044866d
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_clearfix.scss
+    algorithm: sha256
+    value: 7fdae7a5d8899c474419f72c6f8452fee490d80953678b7b34adb8d0e4e790a9
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_display.scss
+    algorithm: sha256
+    value: 05d27c10aaf9778ba8486204a060cae022553d61e12232f31835b5c73a159319
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_embed.scss
+    algorithm: sha256
+    value: d3daa8503295a3587da0210865bc9ceccb856fe400d206d4dd809249065d4262
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_flex.scss
+    algorithm: sha256
+    value: dc14669d8f68ac142c117a63745a22af5709e2887768eaae7039acf598928483
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_float.scss
+    algorithm: sha256
+    value: ee27ec36eca324e4bf09a7078d85696aba6a4d346d0d83e08615fe962d96ba5a
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_overflow.scss
+    algorithm: sha256
+    value: 3da464f4eb0d21db74910fbf52809d90e5c459864c5ba6eb63b9d7ef24be9073
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_position.scss
+    algorithm: sha256
+    value: 37e8361c22f3d4ff6f1148cd4a8ff59cebff754e465e895851254123f0dd7f00
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_screenreaders.scss
+    algorithm: sha256
+    value: 2d0844f20e0ca372a635f3c3df636951c0ef67a04bbc026ced3224348374d009
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_shadows.scss
+    algorithm: sha256
+    value: 3b88c13f70831f9e7c336d49a2bcba06211077ef7f15486dd0357daa1681e6cb
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_sizing.scss
+    algorithm: sha256
+    value: 42ad593a000512db052a6531b65ffaa0c5f35620f664457a25ae99f807196027
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_spacing.scss
+    algorithm: sha256
+    value: c437dd983bfcb56309f9a21516bdd3f623b8a0bda4480f85cb718dd54c633f0a
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_stretched-link.scss
+    algorithm: sha256
+    value: 993551e8be7c45b27405a1403e44c926608bc21e48cd46ad7cdc1fa9b785b462
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_text.scss
+    algorithm: sha256
+    value: 33b962e6fdbed6799b9817b0f73f1588b8d745c46992575a7007006a4a36e071
+  - path: src_fn/src/public/assets/scss/bootstrap/utilities/_visibility.scss
+    algorithm: sha256
+    value: e08641e8478ad1e4e4ae1d6331441126552f85e32801af54491148f5f0104b28
+  - path: src_fn/src/public/assets/scss/bootstrap/vendor/_rfs.scss
+    algorithm: sha256
+    value: 0e2ef005c8189fc1fd0862a529b81f3c8032ca004e8712fe647e16858414a860
+  - path: src_fn/src/public/assets/scss/style.scss
+    algorithm: sha256
+    value: a1b8703dd0d1f23467cc0ef69ebefd5ff81e1d5fa556d39a7a0aae97c7dca040
+  - path: src_fn/src/public/export/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src_fn/src/public/index.php
+    algorithm: sha256
+    value: 8827b3fa9a637a9f6f7bb0a3d554dfef7f9fdef37e2b78d57e0f47bfc013a22c
+  - path: src_fn/src/vendor/autoload.php
+    algorithm: sha256
+    value: e615a038f2191c7184c12049a1cdca0c5facc30e77bcb16d726ee1a7a2d840af
+  - path: src_fn/src/vendor/composer/ClassLoader.php
+    algorithm: sha256
+    value: d4b2313e562edf942838ec316d983c1a3459ca67da3e5658e861200b0b3693c2
+  - path: src_fn/src/vendor/composer/LICENSE
+    algorithm: sha256
+    value: c8cce4b6b9729f264ffdf9296d505d63432497feeed1f586d1902b942197e024
+  - path: src_fn/src/vendor/composer/autoload_classmap.php
+    algorithm: sha256
+    value: 375085d0d6690301081436cd75755cb2c882f8a7f6fc385c8814a11734fc413a
+  - path: src_fn/src/vendor/composer/autoload_namespaces.php
+    algorithm: sha256
+    value: ede505407590638a435137f4e060136f1008de79fc169b3de9793423b0cea38c
+  - path: src_fn/src/vendor/composer/autoload_psr4.php
+    algorithm: sha256
+    value: 5e336b1a434dc53de0d72bbf8155f0f1e485e25c5c80c177ce0572c2a15e961b
+  - path: src_fn/src/vendor/composer/autoload_real.php
+    algorithm: sha256
+    value: 709d773a1bdd46afc94175aa4f8ceb7f94d5fc96d7e5219097aac4280e02eb88
+  - path: src_fn/src/vendor/composer/autoload_static.php
+    algorithm: sha256
+    value: 699f41adfb2bf9898bf4fa6f66a70180ddadbfd88fcf85755eb39c86504dfb51
+  - path: src_fn/user.txt
+    algorithm: sha256
+    value: d4503e7eed1942fbd34b95b1b4a4eb80189227661f206873f89ef5be63eb5569
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/FunNotes at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/web/FunNotes
+  type: official_repository
+  accessed: '2026-11-25'
+- title: NETCOMP 2.0 write-up by team Shelltatic (secondary source)
+  url: https://cysec.ardhptr21.space/ctf/national/2024/netcomp-2.0
+  type: writeup
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The source README names ganezo as the author and gives a medium rating. Participant write-ups
+  for NETCOMP 2.0 corroborate this challenge and report the same netcomp flag. The preserved src_fn tree
+  carries the framework''s bootstrap assets; seven .DS_Store files inside it are recorded as omissions.
+  Corroborated as NETCOMP 2.0 material by an independent participant collection: The source tree is byte-identical
+  to the participant copy across 152 shared files.'

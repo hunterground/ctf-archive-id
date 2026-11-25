@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-crypto-001
+name: Old But Different
+slug: 001-old-but-different
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: This is old, this is different.
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- cryptography
+- differential analysis
+- feistel network
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: crypto/old-but-different
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 9854b1f670b053b43d46fb89bae5c0e5f6f170bd923e4d1b0930facb58c2f702
+  - path: Dockerfile
+    algorithm: sha256
+    value: 349836a220130fdf25193e9c4b388f2b724ccd321b1dbcaa634119672110153a
+  - path: README.md
+    algorithm: sha256
+    value: 34eb3fd917ca730ff505a61bac3e1c9cd1fcce2094478aa2330eddd4b0bf0340
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f49f0a3042719a6e01c37c1a3326beae8c672c252fb772de4636868f3e44c393
+  - path: public/chall.py
+    algorithm: sha256
+    value: 4ced93b90c57cf01f8f81d8aa1ddcc60e339c9fdff3921957cae50f1b6e56291
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4ced93b90c57cf01f8f81d8aa1ddcc60e339c9fdff3921957cae50f1b6e56291
+  - path: src/flag.py
+    algorithm: sha256
+    value: ed14689957594ac1df61c8b8bb054f946682eb13c2f7913163958025f176e43f
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: e27a288120bbd0d6ff65ed98af8c24d918e8bb509355d3e99acc2860a78d1597
+  - path: writeup/crack.go
+    algorithm: sha256
+    value: 64e467674a145bd1ea51fdfa480222e78b7d7e931a8d54bf44f346e76ef60955
+  - path: writeup/find_diff_characteristic.go
+    algorithm: sha256
+    value: 55a121c84a9e7f332d16499d02b586d6822334210ebe296a068c92b6155eea83
+  - path: writeup/poc.py
+    algorithm: sha256
+    value: 5f57402aa2f403e5be5263360183949c7672dbcfd01d2150cf0ea1a379cfe953
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: crypto/old-but-different at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/crypto/old-but-different
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'Source README names prajnapras19 as the author, gives a medium-hard rating, and lists a crypto-feal.php
+  hint. The server runs from src/ and public/ holds the participant copy of chall.py. The writeup directory
+  holds the Go differential-characteristic scripts that accompany the challenge. Corroborated as NETCOMP
+  2.0 material by an independent participant collection: public/chall.py is byte-identical to the participant
+  copy.'

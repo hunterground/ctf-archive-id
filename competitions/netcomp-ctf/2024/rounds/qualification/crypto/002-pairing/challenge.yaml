@@ -1,0 +1,180 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-crypto-002
+name: Pairing?
+slug: 002-pairing
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: Have you know this one?
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- cryptography
+- ecc
+- pairing
+- bilinearity
+authors:
+- name: prajnapras19
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: crypto/pairing?
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 72575ee5e4e3ffe4bbecf1400c2a14d3eb74752e27e44a2448aec986105f8332
+  - path: README.md
+    algorithm: sha256
+    value: 30d82140dae092e9b41bda527544d6bcfe45e63bef46467e24b3f9e45322b0eb
+  - path: public/py_pairing.zip
+    algorithm: sha256
+    value: 9cab079001444254b5e28170edb7f65112dad4d4b89045a832fe4667c369100a
+  - path: public/py_pairing/chall.sage
+    algorithm: sha256
+    value: ced1b89694f8b8e7fb4b05271dd35b79c384a09243335c81032434d76250438b
+  - path: public/py_pairing/py_ecc/__init__.py
+    algorithm: sha256
+    value: 158c112d629998c032f90408fe839c934d40db2459b1b626be30c3ed3554bb7a
+  - path: public/py_pairing/py_ecc/bn128/__init__.py
+    algorithm: sha256
+    value: 20ffef3171014d8c788d0f744690f3877f626a6e32249576a4ec98e3f207921a
+  - path: public/py_pairing/py_ecc/bn128/bn128_curve.py
+    algorithm: sha256
+    value: 3a3f5aee97644eafe4cd2bbd0b73223bc758641a1e0a4d24973e9769f7994b26
+  - path: public/py_pairing/py_ecc/bn128/bn128_field_elements.py
+    algorithm: sha256
+    value: 7d1091655ee1d776059231284e67eb09627abb3f264ddde6a1282520de3059c5
+  - path: public/py_pairing/py_ecc/bn128/bn128_pairing.py
+    algorithm: sha256
+    value: d53e8ea9f4e33fca15c71d4ee565709c029cbd10b55ea5b434a6d0bd34732cfd
+  - path: public/py_pairing/py_ecc/optimized_bn128/__init__.py
+    algorithm: sha256
+    value: 9bb3581629b959d3cf4a8593492a5293071d46df65a2dd37b79964ed29d6688f
+  - path: public/py_pairing/py_ecc/optimized_bn128/optimized_curve.py
+    algorithm: sha256
+    value: 6a7a0c95b2435dfc5acc16e25c553d76ce7e68e5741cbd7ad977aef9df7eec47
+  - path: public/py_pairing/py_ecc/optimized_bn128/optimized_field_elements.py
+    algorithm: sha256
+    value: 4df1ac0f11b4317b0d2de7a07c68e43c62e66695d044e3e76c32c5e82bfba884
+  - path: public/py_pairing/py_ecc/optimized_bn128/optimized_pairing.py
+    algorithm: sha256
+    value: dc1bb73a60b37938985b9ba175bcf57c069229b50c59d7d7c69b6a7665fcb229
+  - path: public/py_pairing/py_ecc/secp256k1/__init__.py
+    algorithm: sha256
+    value: 5806605d26ac53f99bb0ac7df5792f99ca1de2e82265c6544b891e1a0f41bf06
+  - path: public/py_pairing/py_ecc/secp256k1/secp256k1.py
+    algorithm: sha256
+    value: 4b97a1e78f7038c2b619ec525fac9d44076af25f8340d8367c1caa2a9293349f
+  - path: src/py_pairing/chall.sage
+    algorithm: sha256
+    value: 5a7eebd44fe4c0417af2d11f0910073c78271dc7729cb3a728156625b9d04864
+  - path: src/py_pairing/py_ecc/__init__.py
+    algorithm: sha256
+    value: 158c112d629998c032f90408fe839c934d40db2459b1b626be30c3ed3554bb7a
+  - path: src/py_pairing/py_ecc/bn128/__init__.py
+    algorithm: sha256
+    value: 20ffef3171014d8c788d0f744690f3877f626a6e32249576a4ec98e3f207921a
+  - path: src/py_pairing/py_ecc/bn128/bn128_curve.py
+    algorithm: sha256
+    value: 3a3f5aee97644eafe4cd2bbd0b73223bc758641a1e0a4d24973e9769f7994b26
+  - path: src/py_pairing/py_ecc/bn128/bn128_field_elements.py
+    algorithm: sha256
+    value: 7d1091655ee1d776059231284e67eb09627abb3f264ddde6a1282520de3059c5
+  - path: src/py_pairing/py_ecc/bn128/bn128_pairing.py
+    algorithm: sha256
+    value: d53e8ea9f4e33fca15c71d4ee565709c029cbd10b55ea5b434a6d0bd34732cfd
+  - path: src/py_pairing/py_ecc/optimized_bn128/__init__.py
+    algorithm: sha256
+    value: 9bb3581629b959d3cf4a8593492a5293071d46df65a2dd37b79964ed29d6688f
+  - path: src/py_pairing/py_ecc/optimized_bn128/optimized_curve.py
+    algorithm: sha256
+    value: 6a7a0c95b2435dfc5acc16e25c553d76ce7e68e5741cbd7ad977aef9df7eec47
+  - path: src/py_pairing/py_ecc/optimized_bn128/optimized_field_elements.py
+    algorithm: sha256
+    value: 4df1ac0f11b4317b0d2de7a07c68e43c62e66695d044e3e76c32c5e82bfba884
+  - path: src/py_pairing/py_ecc/optimized_bn128/optimized_pairing.py
+    algorithm: sha256
+    value: dc1bb73a60b37938985b9ba175bcf57c069229b50c59d7d7c69b6a7665fcb229
+  - path: src/py_pairing/py_ecc/secp256k1/__init__.py
+    algorithm: sha256
+    value: 5806605d26ac53f99bb0ac7df5792f99ca1de2e82265c6544b891e1a0f41bf06
+  - path: src/py_pairing/py_ecc/secp256k1/secp256k1.py
+    algorithm: sha256
+    value: 4b97a1e78f7038c2b619ec525fac9d44076af25f8340d8367c1caa2a9293349f
+  - path: writeup/py_ecc/__init__.py
+    algorithm: sha256
+    value: 158c112d629998c032f90408fe839c934d40db2459b1b626be30c3ed3554bb7a
+  - path: writeup/py_ecc/bn128/__init__.py
+    algorithm: sha256
+    value: 20ffef3171014d8c788d0f744690f3877f626a6e32249576a4ec98e3f207921a
+  - path: writeup/py_ecc/bn128/bn128_curve.py
+    algorithm: sha256
+    value: 3a3f5aee97644eafe4cd2bbd0b73223bc758641a1e0a4d24973e9769f7994b26
+  - path: writeup/py_ecc/bn128/bn128_field_elements.py
+    algorithm: sha256
+    value: 7d1091655ee1d776059231284e67eb09627abb3f264ddde6a1282520de3059c5
+  - path: writeup/py_ecc/bn128/bn128_pairing.py
+    algorithm: sha256
+    value: d53e8ea9f4e33fca15c71d4ee565709c029cbd10b55ea5b434a6d0bd34732cfd
+  - path: writeup/py_ecc/optimized_bn128/__init__.py
+    algorithm: sha256
+    value: 9bb3581629b959d3cf4a8593492a5293071d46df65a2dd37b79964ed29d6688f
+  - path: writeup/py_ecc/optimized_bn128/optimized_curve.py
+    algorithm: sha256
+    value: 6a7a0c95b2435dfc5acc16e25c553d76ce7e68e5741cbd7ad977aef9df7eec47
+  - path: writeup/py_ecc/optimized_bn128/optimized_field_elements.py
+    algorithm: sha256
+    value: 4df1ac0f11b4317b0d2de7a07c68e43c62e66695d044e3e76c32c5e82bfba884
+  - path: writeup/py_ecc/optimized_bn128/optimized_pairing.py
+    algorithm: sha256
+    value: dc1bb73a60b37938985b9ba175bcf57c069229b50c59d7d7c69b6a7665fcb229
+  - path: writeup/py_ecc/secp256k1/__init__.py
+    algorithm: sha256
+    value: 5806605d26ac53f99bb0ac7df5792f99ca1de2e82265c6544b891e1a0f41bf06
+  - path: writeup/py_ecc/secp256k1/secp256k1.py
+    algorithm: sha256
+    value: 4b97a1e78f7038c2b619ec525fac9d44076af25f8340d8367c1caa2a9293349f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: crypto/pairing? at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/crypto/pairing%3F
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The upstream directory name is ''pairing?'' with a literal question mark; it is preserved inside
+  original/ and the challenge slug drops the punctuation. The README cites a RingZer0 CTF 2023 public
+  write-up as a reference. The writeup directory bundles a vendored py_ecc copy alongside the challenge
+  material. Corroborated as NETCOMP 2.0 material by an independent participant collection: The released
+  py_pairing tree is byte-identical to the participant copy.'

@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-forensics-001
+name: bouncies
+slug: 001-bouncies
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: forensic
+description: Last night, our system got reconn-ed by an attacker, can you analyze what information he
+  got?
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+- ftp
+- bounce-attack
+- pcap
+authors:
+- name: Bleco
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: forensic/bouncies
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b0bd7e174819197a1ee4e02b71fff61a6fac62c32825a225bdbc59b4264c8dcf
+  - path: release/bounciez.zip
+    algorithm: sha256
+    value: 9aeccc5846578ade87d16a8aa3bc14893781cf59e42ac1fb150fa4088ba1e2cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: forensic/bouncies at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/forensic/bouncies
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The source README names Bleco, gives an easy rating, and links the HackTricks FTP-bounce page.
+  The participant release zip bounciez.zip is preserved. Corroborated as NETCOMP 2.0 material by an independent
+  participant collection: The pcapng inside release/bounciez.zip is byte-identical to the participant
+  copy.'

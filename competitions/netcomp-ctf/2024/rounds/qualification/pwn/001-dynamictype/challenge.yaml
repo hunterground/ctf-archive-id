@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-pwn-001
+name: dynamictype
+slug: 001-dynamictype
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: pwn
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: pwn/dynamictype
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 6e0accb0b84659558ee87e95a98869abac2143ebfc1fcec7d8f7b5f40717daa7
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2ed2f933d01b64c97be34a237fcbd70ffaed98cff954db30b1109bad86c33d8c
+  - path: Makefile
+    algorithm: sha256
+    value: 0fc34510ba989449e7a9e17774f39f8fb0f826524432bdcbadbab01a36a35624
+  - path: config/ctf.xinetd
+    algorithm: sha256
+    value: e6210d980b3cf01a589cf4583c6d68bd0da607f6639e8a25f3adb79c05b801f4
+  - path: config/flag.txt
+    algorithm: sha256
+    value: ccf3dfb47045fd8ba483fce0300372cfb6bb717ea1ceeeccd04b320ab73bcca2
+  - path: config/start.sh
+    algorithm: sha256
+    value: 238918f47cb75cb2af97cffe4bf60d014035cc8a34b4863b2f6f55dbe2ae45d4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 826334f76c2a700a992bc9ec73f53352dd49c80f23019f775fcbb03c20704b91
+  - path: logs/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: release/chall
+    algorithm: sha256
+    value: 4e99d3a96a1059be94a3c95d150101bfeb50d20c7032338b3cac3f06de66e02b
+  - path: release/libc.so.6
+    algorithm: sha256
+    value: b64e061ed7acb7a7c507f278a7fb1915387200a387b62b78d8bd6410318bd041
+  - path: src/main.c
+    algorithm: sha256
+    value: babe363baf5f93d51baa6624086fc3fa7f557f3b58181a7271d5d6796472f7fd
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: pwn/dynamictype at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/pwn/dynamictype
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: This challenge has no README in the source, so description, difficulty, and author stay null. The
+  tree carries the C source, a release binary with libc, and an xinetd deployment. The checker directory
+  holds an exploit script named xpl.py. This challenge does not appear in the participant collection that
+  corroborates the rest of the set, so it rests on the author archive alone.

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-rev-003
+name: netcompromise
+slug: 003-netcompromise
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reversing
+description: we got compromise compromised
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- reverse
+- golang
+- ransomware
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: reversing/netcompromise
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fb47a407c49e3255c59cf027c118426479b692799f117955255df13bc910e40a
+  - path: releases/netcompromise.zip
+    algorithm: sha256
+    value: 0c6fc21629dc2ce6396178f4962950b5c733eceecb6df1aa99c81d3f3a8fa1f3
+  - path: src/go.mod
+    algorithm: sha256
+    value: 222b3dc74e4bd9b7a1fe05962c69cd3b8ddc428a24944fa3c323fa38a7400b78
+  - path: src/main.go
+    algorithm: sha256
+    value: 31dac75d4c23251d939749b456f683787fcdee9d4a501620af1e8f859cb2e0b6
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: reversing/netcompromise at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/reversing/netcompromise
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The source README names vidner and gives a medium rating. The Go source and the participant release
+  zip are preserved. Corroborated as NETCOMP 2.0 material by an independent participant collection: netcompromise.exe
+  inside the release zip is byte-identical to the participant copy.'

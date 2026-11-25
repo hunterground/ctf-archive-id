@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-crypto-003
+name: RS 1+1
+slug: 003-rs-1-1
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: crypto
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- cryptography
+- rsa
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: crypto/RS1+1
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7b9cfd4a3878909bbcf0a55f0b796aea7f2c10671f2344337de69acb16850e99
+  - path: peserta/chall.py
+    algorithm: sha256
+    value: 896127c0b778ece24e53e4e703203104b5e8bd86728324d50f00a6d7514b7764
+  - path: server/Dockerfile
+    algorithm: sha256
+    value: 8ede1559a10de6e8fb6e962c1744a096d0160cca67031494b4802150f4c51b95
+  - path: server/app/chall.py
+    algorithm: sha256
+    value: 7d79237e448d550cdf6df94edd141c5ee9f08bc1278f71e0eeaa018bea410f0e
+  - path: server/app/flag.py
+    algorithm: sha256
+    value: 5c73eef9bc36a957899f8a40477271f17bfe2417cbca8993174caca39f0c0a5b
+  - path: server/app/requirements.txt
+    algorithm: sha256
+    value: 99c8b0e09e1900612c13a637b03df6cb29867ac0bd188b9e73773f20c3226667
+  - path: server/docker-compose.yaml
+    algorithm: sha256
+    value: 262cf45250373d862663f2007f9342cf00859c616a38100ef4aab2c975a7888d
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 2c283c9b283cd3bb6cd244e225bd84bae0eb463b3c9bf548a0d244911bf72e1e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: crypto/RS1+1 at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/crypto/RS1%2B1
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The source README leaves the description, difficulty, and author empty and states ''No Hints'',
+  so those fields stay null. The server is deployable from server/ with docker-compose; peserta/ holds
+  the participant copy of chall.py. Corroborated as NETCOMP 2.0 material by an independent participant
+  collection: The participant chall.py is byte-identical to the release copy.'

@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-web-004
+name: TMP Storage
+slug: 004-tmp-storage
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: If i rename the extension of uploaded file, my web can't be hacked, right?
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- web
+- race-condition
+- file-upload
+- rce
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: web/TMPStorage
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f7033e3bd6b67647c732461be88c43741c5df81ad1c83b5b8cd992e944cda4ab
+  - path: peserta/index.php
+    algorithm: sha256
+    value: b5123426f75d77ec667ec387cf46e9d27dde0acb2a0ff3211a05f4013a017101
+  - path: server_tmpstorage/Dockerfile
+    algorithm: sha256
+    value: f46446d1f45c031b961399fed4f1e56ac6489138ca984d94617c9b0f8fbfa4c6
+  - path: server_tmpstorage/conf/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: server_tmpstorage/conf/docker-php.conf
+    algorithm: sha256
+    value: 4a8a1025a5e6ce2e1d5c242955b2c35c8ab60d87c9d4b5d3e7877e45e9c51d2a
+  - path: server_tmpstorage/conf/php.ini
+    algorithm: sha256
+    value: 0e79dbc84a3dd3d218beb11cae18c22c2f43ff8f302070ab6fd1482c2fee6057
+  - path: server_tmpstorage/docker-compose.yml
+    algorithm: sha256
+    value: ff94ebcc2b53bcef4b78ecf8d556f3940db7156beac505ec2de8cadcc6a65cc6
+  - path: server_tmpstorage/dump/db.sql
+    algorithm: sha256
+    value: 3b42fa859311601789bbadf2d4d0e657759d19cd3d7d6d23201dfd83265abd91
+  - path: server_tmpstorage/flag.txt
+    algorithm: sha256
+    value: 74a967e9d8efdb0bfaa02d98a5bad1549fbb8e4f295153b770aee610cb711168
+  - path: server_tmpstorage/run.sh
+    algorithm: sha256
+    value: 62a2e154cd53f6bf9c299db1dbdf3fe0f592b5b9aa1893b6af56d5824cb4ad79
+  - path: server_tmpstorage/www/conn.php
+    algorithm: sha256
+    value: e8e20555c890625d870793c0d732508769bba6d7f6a065e47f4f13bf06ce353d
+  - path: server_tmpstorage/www/index.php
+    algorithm: sha256
+    value: b5123426f75d77ec667ec387cf46e9d27dde0acb2a0ff3211a05f4013a017101
+  - path: server_tmpstorage/www/tmp/index.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: server_tmpstorage/www/uploads/index.php
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/TMPStorage at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/web/TMPStorage
+  type: official_repository
+  accessed: '2026-11-25'
+- title: NETCOMP 2.0 write-up by team Shelltatic (secondary source)
+  url: https://cysec.ardhptr21.space/ctf/national/2024/netcomp-2.0
+  type: writeup
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The README leaves the flag, description, and author empty and gives only ''Tingkat kesulitan soal:
+  hard''. The description text above comes from the participant write-up for NETCOMP 2.0, which corroborates
+  this challenge and reports the netcomp flag. Corroborated as NETCOMP 2.0 material by an independent
+  participant collection: index.php is byte-identical to the participant copy.'

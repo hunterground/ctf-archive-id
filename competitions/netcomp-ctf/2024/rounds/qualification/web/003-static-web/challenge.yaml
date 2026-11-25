@@ -1,0 +1,131 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-web-003
+name: Static Web
+slug: 003-static-web
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: I learn to create static website with assembly, check it bro!
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- web
+- assemblyscript
+- xss
+authors:
+- name: ganezo
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: web/StaticWeb
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src_sw/src/node_modules
+    reason: Dependency directory committed for local builds; generated content, not part of the distributed
+      challenge.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fc11fb94694aad09a5c1e88bec8fad96ae3943ea4709c9b913bd76c47c01fd58
+  - path: releases/StaticWeb_peserta.zip
+    algorithm: sha256
+    value: 4490476e5803a48d3471bade85f2ea51ec80bc1821113141ce2e8e28948e8575
+  - path: src_sw/bot/Dockerfile
+    algorithm: sha256
+    value: e0fd59931a5765c5fa1e7fe87fd6f380aedc6d57d5222d499949940e438c66b1
+  - path: src_sw/bot/bot.js
+    algorithm: sha256
+    value: c912bc665ae76f246ab7b99b630d09c0107ea4327bc25093e15708d318e6cb65
+  - path: src_sw/bot/index.js
+    algorithm: sha256
+    value: b79d78dc87358e85a8559e7573fff48248e1aabddc735d5766b532d405dca800
+  - path: src_sw/bot/package.json
+    algorithm: sha256
+    value: 9d15a3682f20bc6560023492c368866ec473211df9ebaa0a913a55c39f706d24
+  - path: src_sw/bot/views/index.ejs
+    algorithm: sha256
+    value: b75bcb568c51ea48f27e766c33146a785e847dae3db1f92e598f3486242bf59a
+  - path: src_sw/docker-compose.yaml
+    algorithm: sha256
+    value: 80e814f93f281652f9c563dbc3bb95739e16a0ab2a866fb3462f523144b9b1d7
+  - path: src_sw/proxy.conf
+    algorithm: sha256
+    value: 372a6fa8c115f727d448803b0b20fda8eac403a805eb3462170d5930ebc4f92f
+  - path: src_sw/src/Dockerfile
+    algorithm: sha256
+    value: b53bd11d7c5699e95f7674bb68645a1045a87006eba88ea20d6f0b52b8694358
+  - path: src_sw/src/asconfig.json
+    algorithm: sha256
+    value: e5ecd81f3f8b0e9ed6637d89adea1bf730ac80e92e4467d046f9a588cafa8050
+  - path: src_sw/src/assembly/index.ts
+    algorithm: sha256
+    value: 76a053acde1d777bddb239ff81e5beb54a56adcac4d8cb35da9ab3b142cb4728
+  - path: src_sw/src/assembly/tsconfig.json
+    algorithm: sha256
+    value: 52d94f0428c497952550d2c099b63d7c0936ace88ac5c2a9ff37b2a2e3358e80
+  - path: src_sw/src/build/release.d.ts
+    algorithm: sha256
+    value: 84e4b457f56a399bed177c04c0fe25704a4fe968dbaf2a7b29956257c429f80a
+  - path: src_sw/src/build/release.js
+    algorithm: sha256
+    value: 3a608d5dc1e0687c9b4af465a68324a9c86415f94e7e236cb1318abeb8bc6a60
+  - path: src_sw/src/build/release.wasm
+    algorithm: sha256
+    value: 18240edfeea461c9c8ec553948c12f3d285f831edf51e5cf2129dc04ea5c8d09
+  - path: src_sw/src/build/release.wasm.map
+    algorithm: sha256
+    value: 920abe664c6bc50afa4c45866adf1538469d462993b3152207aa4a9232b3712a
+  - path: src_sw/src/build/release.wat
+    algorithm: sha256
+    value: b8a7971a6a176b488143c689227d58c9decb0a53f3a861962e97cb198a10a090
+  - path: src_sw/src/index.html
+    algorithm: sha256
+    value: 5f65ab94fad6d5a63f52fd0491239f8bbe893652dc9ee5887704a60b6a9a23e1
+  - path: src_sw/src/package-lock.json
+    algorithm: sha256
+    value: da9036b89a250311740f6e19fbd8ed317c6c22c68875ab39a08c83a894e0c81f
+  - path: src_sw/src/package.json
+    algorithm: sha256
+    value: 508b04b719773c56f1b5f0f9ee5af148d2cff9f0e78d103b259fe6b24ea5a781
+  - path: src_sw/src/tests/index.js
+    algorithm: sha256
+    value: f88257b7d2768a5545ba78bf16e949504e685db1f03a0cb64e9cf5d289af8e20
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/StaticWeb at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/web/StaticWeb
+  type: official_repository
+  accessed: '2026-11-25'
+verification: needs_scope_review
+notes: The source README names ganezo as the author and gives an easy-medium rating. Its preserved flag
+  uses the netcomp23{...} prefix, while the other challenges in this source use netcomp{...}; the challenge
+  is also the only web entry here that the secondary NETCOMP collections I checked do not list. It may
+  belong to an earlier NETCOMP edition. Recorded under this edition as the author archive places it, flagged
+  for review. The committed node_modules directory was excluded from original/; the participant distribution
+  zip at releases/StaticWeb_peserta.zip is preserved.

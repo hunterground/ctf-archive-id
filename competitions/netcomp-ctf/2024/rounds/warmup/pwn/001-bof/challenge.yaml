@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-warmup-pwn-001
+name: Bof
+slug: 001-bof
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: pwn
+original_category: _warmup/Pwn
+description: overwrite me
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- pwn
+- buffer-overflow
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: _warmup/Pwn
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4b4b5b9bc9d1b48491c85964ab18ce538e93915ac73f37470c1ac5bde120f239
+  - path: release/pwn
+    algorithm: sha256
+    value: 22be7cc1f2894c0268b063416460eda163bd9b94652c9cf8a0aa8198e3723c7e
+  - path: server/Dockerfile
+    algorithm: sha256
+    value: 9f61dc4d21047f30610c76c2a766c25b98c1528b8bae6a1d638ee0a1de9e2590
+  - path: server/flag.txt
+    algorithm: sha256
+    value: fe06906437d2c4f1cbdc956c5bc6b8ce47ba3bb1a25198b046fd4ba18e71e0bd
+  - path: server/pwn
+    algorithm: sha256
+    value: 22be7cc1f2894c0268b063416460eda163bd9b94652c9cf8a0aa8198e3723c7e
+  - path: source code/pwn.c
+    algorithm: sha256
+    value: a2fae1ac434af48b0b6c412076142f4b879a625bbd82a0232b3b760d90647480
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: _warmup/Pwn at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/_warmup/Pwn
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Warmup CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/Warmup%20CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Beginner challenge from the source's _warmup set. An independent participant collection ships the
+  same files byte-for-byte, which confirms the set was played under NETCOMP flags. That collection records
+  the served flag as netcomp{pwn_binex_101}, matching the preserved server/flag.txt. The preserved README.md
+  still carries a stale TNIAL{...} string from a TNI Angkatan Laut event; that string predates the NETCOMP
+  re-flagging and is not the served flag. Which NETCOMP stage served the set is not stated by any located
+  source, so the challenge stays under the warmup round pending organizer review.

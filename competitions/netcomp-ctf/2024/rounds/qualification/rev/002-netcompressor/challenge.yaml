@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-rev-002
+name: netcompressor
+slug: 002-netcompressor
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reversing
+description: only compress compressor
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- reverse
+- odin
+- compressor
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: reversing/netcompressor
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5c38244a203e0fb890e8ce3e2020cbe21812a9d613e5340896ac1ccaf0935874
+  - path: releases/flag.netcomp
+    algorithm: sha256
+    value: abb06f75494523db110b2cdc20efcc027c88c489e38f4d883753ae668e5af2db
+  - path: releases/netcompressor
+    algorithm: sha256
+    value: 037e313cd51f1eb23bfbd5bd43b927d02456618a5d05f3096a901d13d2b09824
+  - path: src/flag.txt
+    algorithm: sha256
+    value: f65566aa77454ad01dd14513527782a417918290e41868870631c858d7d94d61
+  - path: src/main.odin
+    algorithm: sha256
+    value: a1729e4b079574bbf5fd5c1116bb566806b109522adf2958835cf914e6b74039
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: reversing/netcompressor at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/reversing/netcompressor
+  type: official_repository
+  accessed: '2026-11-25'
+- title: CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: 'The source README names vidner and gives a medium rating. The release binary, the compressed sample
+  flag.netcomp, and the Odin source are preserved. src/flag.txt in the source holds the challenge flag.
+  Corroborated as NETCOMP 2.0 material by an independent participant collection: The released binary and
+  the flag.netcomp and test files are byte-identical.'

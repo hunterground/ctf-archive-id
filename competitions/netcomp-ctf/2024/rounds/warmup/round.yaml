@@ -1,0 +1,40 @@
+schema_version: '1.0'
+id: warmup
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+name: Warm Up
+original_name: _warmup
+sequence: 1
+type: warmup
+delivery: online
+description: >
+  Beginner challenge set stored in the source's _warmup directory, separate from the five
+  category directories. It holds one challenge per category with its own set-level
+  docker-compose file.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 5
+  participant_count: null
+references:
+  - title: Bayu Fedra CTF challenge archive - 2023-Netcomp-UGM
+    url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/2023-Netcomp-UGM
+    type: other
+    accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  The source keeps this set in a top-level _warmup directory with its own docker-compose.yml and one
+  directory per category, so it is modelled as a separate warmup round. A participant collection at
+  https://github.com/SandWithCheese/ctf-writeups holds the same four binaries and forensic image
+  byte-for-byte and records the flags this set was actually served with: netcomp{RSA_101},
+  netcomp{__REV_101__}, netcomp{pwn_binex_101}, netcomp{Web_Hacking_101}, and
+  netcomp{Forensic_101_101_101}. That confirms the set was played under NETCOMP flags, so it is a real
+  warm-up offering rather than an author-only draft. Four preserved READMEs still carry TNIAL{...}
+  strings from a TNI Angkatan Laut event, which shows the material was recycled and re-flagged rather
+  than written for NETCOMP; those README strings are stale and are not the served flags. No source
+  states which NETCOMP stage served the set or when, so sequence and dates stay null. Review question:
+  confirm with the organizer whether this was a scored warm-up and which edition it belonged to. The
+  set-level _warmup/docker-compose.yml builds the Web and Pwn servers and sits outside every challenge
+  directory, so it was not copied; it is recorded on those two challenges.

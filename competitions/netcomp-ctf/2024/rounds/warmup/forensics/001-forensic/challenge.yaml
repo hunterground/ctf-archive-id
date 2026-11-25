@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-warmup-forensics-001
+name: Forensic
+slug: 001-forensic
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: forensics
+original_category: _warmup/Forensic
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors: []
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: _warmup/Forensic
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.jpg
+    algorithm: sha256
+    value: 51b5d80558a56ad35cab1087cae1c6ccf826f47ee5de7c471f21a8e6bb9fd8f7
+  - path: flag.txt
+    algorithm: sha256
+    value: 2dfae1053f0926c4a0035c95ec6d88f7ebdb3228f727ad987d4f4f2a9bd898f3
+  - path: pamflet.jpeg
+    algorithm: sha256
+    value: 8d17ffa5f1d475122399a8a6fe35c917cde37d9d842043c8c2ec8fa04f228720
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: _warmup/Forensic at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/_warmup/Forensic
+  type: official_repository
+  accessed: '2026-11-25'
+- title: Warmup CTF NETCOMP 2024 by SandWithCheese (secondary source)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/Warmup%20CTF%20NETCOMP%202024
+  type: writeup
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Beginner challenge from the source's _warmup set. An independent participant collection ships the
+  same files byte-for-byte, which confirms the set was played under NETCOMP flags. The preserved flag.txt
+  holds netcomp{Forensic_101_101_101}, which the participant collection reports as the served flag. Which
+  NETCOMP stage served the set is not stated by any located source, so the challenge stays under the warmup
+  round pending organizer review.

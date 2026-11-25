@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: netcomp-ctf-2024-qualification-rev-001
+name: netcomon
+slug: 001-netcomon
+original_name: null
+competition_id: netcomp-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: reversing
+description: Welcome to Pokemon Game! There are 3 hidden type Pokemons which hold the partial FLAG for
+  each one. Your objective is to try to get and capture them!
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- reverse
+- python-exe
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-netcomp-ugm-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: reversing/netcomon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 73b93515d5f8015da8a2146db6e27b3b6862d9dab12b2127e06c43fc9115f786
+  - path: releases/dist.zip
+    algorithm: sha256
+    value: 2a7c30dcb1f58954d99f4a8685c12c1a68e9aba03eca2a82369aef81fa772bd7
+  - path: src/README.md
+    algorithm: sha256
+    value: f7bd60bb5186bf16626bacfb69795fca94a29954a1bb6704e1a545b1ea222719
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
+    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: reversing/netcomon at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/reversing/netcomon
+  type: official_repository
+  accessed: '2026-11-25'
+verification: corroborated
+notes: The source README names aseng, gives a medium-hard rating, and points to a Google Drive download
+  for the game with the zip password chipichipichapachapa. A releases/dist.zip is present in the tree
+  and is preserved; the Drive link was not fetched. The src directory holds only a 'TBA' placeholder README.
+  This challenge does not appear in the participant collection that corroborates the rest of the set,
+  so it rests on the author archive alone.
