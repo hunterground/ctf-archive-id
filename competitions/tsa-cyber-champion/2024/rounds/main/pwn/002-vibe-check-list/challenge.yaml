@@ -1,0 +1,110 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-pwn-002
+name: Vibe Check List
+slug: 002-vibe-check-list
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: 'Lemme check if you are vibing or nay
+
+
+  `nc <ip> 20048`'
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Off-By-Null
+- Tcache Poisoning
+- Safe Linking
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable-tsa-2024
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: TSA-2024/Vibe Check List
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 669db29fff978f19acdef0329dc447c27b81373575bfecf9d7fca76989c8ade6
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 4ef0eda38b16c09634cda29140720e4e32e044ccade0a0116aab3261a52e8725
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: dist/release.zip
+    algorithm: sha256
+    value: 172874b6d8c498e413a49dcac2a320e66a671e5ea4361abe75fbc82c000af6c1
+  - path: src/Makefile
+    algorithm: sha256
+    value: ecf0fdbddbcee52b79104c66bc012c0193f83b55fdb49e36cb6e5027a8ff7dae
+  - path: src/chall
+    algorithm: sha256
+    value: 4ef0eda38b16c09634cda29140720e4e32e044ccade0a0116aab3261a52e8725
+  - path: src/chall.c
+    algorithm: sha256
+    value: 344bb69c14472a1acc209d521767aaf6175b174c5284069c218cbadb35f63586
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 5fc4d2c5b8c110303a3110e8e2d1841dcf013ef39e0c94586a5cf61ae0db1746
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 601a08463086ce72c5ae04af209e8c1f6715e438ca153b85d025950ccb602ee8
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 172f437ae1297ee05899973ce672dfd780bfa14969214a084a3958e50bcae757
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 019a9a67066294aa11c004f552c7c494a607ca09bbd3390859c8dbc0b2e3dca6
+licensing:
+  declared_license: MIT
+  copyright_holder: Ahmad Fauzzan Maghribi
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository
+    https://github.com/afmaghribi/my-pwnyable
+  permission_reference: The author repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: TSA-2024/Vibe Check List at github.com/afmaghribi/my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable/tree/7999bb10bfaed861be2ae1bb55399d5e90daf241/TSA-2024/Vibe%20Check%20List
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author repository of Lychnobyte (Ahmad Fauzzan Maghribi), the Pwn PIC named
+  in the event challenge README. src/flag.txt is part of the shipped distribution and was copied unchanged;
+  no flag appears in this metadata. The author README states the deployment used Ubuntu libc6 2.33-0ubuntu9_amd64.
+  A second packaging of this challenge with ctf.xinetd and release.zip exists in the Bayu Fedra collection;
+  the author copy was imported instead.

@@ -1,0 +1,113 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-pwn-003
+name: Vibe Check List v2
+slug: 003-vibe-check-list-v2
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: 'I got some reports that some hackers managed to get shells in previous versions. So,
+  I decided to release a more secure version!
+
+
+  `nc <ip> 20058`'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- Safe Linking
+- Use-After-Free
+- Tcache Poisoning
+- FSOP
+- ROP
+- Heap
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable-tsa-2024
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: TSA-2024/Vibe Check List v2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: f736a77e635fc9355b713feeeac2434fc84a383727f0d211e2c84a1e956d724e
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: f64d892c329ec7be37d60de5f81d82c8096f825a9c3628ef6d5b8ad313afaa33
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 595bcdc306999711a5a9c787e5d01618f94eb92c4c09a178e875a324f1072d89
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 5955dead1a55f545cf9cf34a40b2eb65deb84ea503ac467a266d061073315fa7
+  - path: dist/release.zip
+    algorithm: sha256
+    value: 872d027392a144532b4ac45117b3ba180c7256de2a975b69cd74a3a514366333
+  - path: src/Makefile
+    algorithm: sha256
+    value: ecf0fdbddbcee52b79104c66bc012c0193f83b55fdb49e36cb6e5027a8ff7dae
+  - path: src/chall
+    algorithm: sha256
+    value: f64d892c329ec7be37d60de5f81d82c8096f825a9c3628ef6d5b8ad313afaa33
+  - path: src/chall.c
+    algorithm: sha256
+    value: f3ab05b77b0ad0668603a64f722e147909898516b4fd0c281a8c86ef366fddea
+  - path: src/flag-321527cfeb1aca7161a63a77b958ffbe.txt
+    algorithm: sha256
+    value: c5b0c51210547872a2d39cb2f59dc4d60fddab70b2eece5c9fb0eddd9ed1456e
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 595bcdc306999711a5a9c787e5d01618f94eb92c4c09a178e875a324f1072d89
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 5955dead1a55f545cf9cf34a40b2eb65deb84ea503ac467a266d061073315fa7
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 37c89910f49c29fe61c38a2d99dcd230fb2247ac09c3059e7466a37c4166fd37
+licensing:
+  declared_license: MIT
+  copyright_holder: Ahmad Fauzzan Maghribi
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository
+    https://github.com/afmaghribi/my-pwnyable
+  permission_reference: The author repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: TSA-2024/Vibe Check List v2 at github.com/afmaghribi/my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable/tree/7999bb10bfaed861be2ae1bb55399d5e90daf241/TSA-2024/Vibe%20Check%20List%20v2
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author repository of Lychnobyte (Ahmad Fauzzan Maghribi). src/flag-321527cfeb1aca7161a63a77b958ffbe.txt
+  is part of the shipped distribution and was copied unchanged; no flag appears in this metadata.
+  The author README states the deployment used Ubuntu 22.04.01 LTS libc 2.35 with safe linking. A
+  second packaging exists in the Bayu Fedra collection; the author copy was imported.

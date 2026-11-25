@@ -1,0 +1,42 @@
+schema_version: '1.0'
+id: tsa-cyber-champion
+name: TSA Cyber Champion
+country: ID
+organizer:
+  name: Talent Scouting Academy (Digital Talent Scholarship, Kementerian Komunikasi dan Digital)
+  website: https://digitalent.kominfo.go.id/
+website: null
+description: >
+  National Capture The Flag competition of the Talent Scouting Academy (TSA) program under
+  Indonesia's Digital Talent Scholarship, run by Pusat Pengembangan Profesi dan Sertifikasi
+  (Pusbang Proserti), Kementerian Komunikasi dan Digital, with Cyberkarta, Cisco NetAcad
+  Indonesia, International Test Center (ITC), and Sekolah Tinggi Multi Media (STMM) Yogyakarta
+  as partners. Entry is limited to active and alumni university students across Indonesia aged
+  at most 29, in teams of one to four.
+metadata:
+  established_year: 2024
+  recurring: null
+  formats:
+    - jeopardy
+status: unknown
+verification: corroborated
+references:
+  - title: BPSDM Komdigi on TSA Cyber Champion Award 2024
+    url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+    type: organizer_announcement
+    accessed: '2026-11-25'
+  - title: TSA 2024 Cyber Security competition announcement (Sains Data Terapan PENS)
+    url: https://sainsdata.pens.ac.id/kompetisi-cyber-security-2024/
+    type: other
+    accessed: '2026-11-25'
+notes: >
+  The Pusbang Proserti announcement describes the 2024 edition as a national CTF held with the
+  Talent Scouting Academy and partners, with 759 participants in 267 teams and an award ceremony
+  at STMM Yogyakarta on 23 December 2024. It does not state whether the event is annual, and no
+  second edition has been found, so recurring stays null rather than true. The same announcement
+  gives the organizer as Pusbang Proserti; TSA and Cyberkarta are recorded as partners in the
+  description instead of as the organizing body. An ITN Malang article and a winner's LinkedIn
+  post both call 2024 a first-time event, which is participant-side evidence and not used to set
+  recurring. Secondary sources reviewed but not imported: ctfpal.com, the abdinata and azuketto
+  HackMD writeups, and xiao-caomay's GitBook. No competition-level website distinct from the
+  Digital Talent Scholarship portal was found.

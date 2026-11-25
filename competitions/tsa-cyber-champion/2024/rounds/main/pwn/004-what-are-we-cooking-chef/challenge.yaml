@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-pwn-004
+name: What are we cooking, chef?
+slug: 004-what-are-we-cooking-chef
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: PWN
+description: 'So, are you cook or cooked?
+
+
+  `nc <ip> 20038`'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- House Of IO
+- Multithread
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable-tsa-2024
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: TSA-2024/What are we cooking, chef?
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 978f7f9e718721483acddaddd638cbb65031b592fee302a890e29865916a1e79
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 6d438d05e195e7c686effb237be97de596008ec281420e34a936dd853ed26ff3
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 9749d47e2eb7b84b48ef24bb6d7f595e5129f96154919b7abb3995053fb20ced
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: fa2be2458b59a6123bf561e67b3d5d850431e7d05cacb6435483d1e47eff6de5
+  - path: src/Makefile
+    algorithm: sha256
+    value: 5dea5d1ce5afae0bb2feb8512a13af5dd9b9e59da7904e3474d55a83a0a711c9
+  - path: src/chall
+    algorithm: sha256
+    value: 6d438d05e195e7c686effb237be97de596008ec281420e34a936dd853ed26ff3
+  - path: src/chall.c
+    algorithm: sha256
+    value: 210b038d4f83c5c337732b3bd4aa8bd54a0ac01ba43c38cf22e08433b21e351f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: f3004c4224a67222bf10f47c262a03065c575cd62ab5f5a70b6630fa598a238a
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 9749d47e2eb7b84b48ef24bb6d7f595e5129f96154919b7abb3995053fb20ced
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: fa2be2458b59a6123bf561e67b3d5d850431e7d05cacb6435483d1e47eff6de5
+  - path: writeup/README.md
+    algorithm: sha256
+    value: e4ce0dfe7bbdfcb349f92af15b97be9ca5f732aa182b215307684d4a36bb498e
+licensing:
+  declared_license: MIT
+  copyright_holder: Ahmad Fauzzan Maghribi
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository
+    https://github.com/afmaghribi/my-pwnyable
+  permission_reference: The author repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: TSA-2024/What are we cooking, chef? at github.com/afmaghribi/my-pwnyable
+  url: https://github.com/afmaghribi/my-pwnyable/tree/7999bb10bfaed861be2ae1bb55399d5e90daf241/TSA-2024/What%20are%20we%20cooking,%20chef?
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the author repository of Lychnobyte (Ahmad Fauzzan Maghribi). src/flag.txt is
+  part of the shipped distribution and was copied unchanged; no flag appears in this metadata. The
+  author README notes that libc was not given to participants. The author copy's src/chall differs
+  from the binary in the Bayu Fedra collection; the author copy is preserved here.

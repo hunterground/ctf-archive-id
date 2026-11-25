@@ -1,0 +1,45 @@
+schema_version: '1.0'
+id: main
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: >
+  Single online jeopardy stage of TSA Cyber Champion 2024, published as one challenge set with
+  five categories: crypto, forensics, pwn, rev, and web.
+dates:
+  start: '2024-11-09'
+  end: '2024-11-10'
+statistics:
+  challenge_count: 20
+  participant_count: 759
+references:
+  - title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+    url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+    type: organizer_announcement
+    accessed: '2026-11-25'
+  - title: TSA Cyber Champion 2024 challenge archive of Bayu Fedra
+    url: https://github.com/bayufedra/CTF-Challenge-Archive
+    type: other
+    accessed: '2026-11-25'
+verification: corroborated
+notes: >
+  No organizer source describes a qualification, semifinal, or final stage, so the edition is
+  modelled as one round with id main and type other. The event README describes a single 15-hour
+  window on 9-10 November 2024 and the organizer announcement reports one CTF result list; no
+  separate stage is created. The source publishes two sets inside that one events tree: a
+  CHALLS-101 directory of five beginner-tier challenges, and five per-category directories with
+  fifteen further challenges. Both sets are placed in this single round because participant
+  writeups treat the 101 challenges as part of the same event and no source states that they were
+  a separate stage. Open question for review: if the organizer confirms that CHALLS-101 ran as a
+  distinct warm-up stage, those five challenges should move to a warmup round. Sequence numbers
+  follow the source order within each category, with the 101 challenge first. Category directories
+  use the archive vocabulary and original_category preserves each source label, including the
+  CHALLS-101 prefixed labels. Difficulty values are organizer points where the source challenge
+  manifest states them; the 101 challenges carry no organizer-stated value and stay null even
+  though participant writeups report 50 points each, because a scoreboard seen by a participant is
+  not an organizer-published difficulty.

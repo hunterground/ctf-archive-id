@@ -1,0 +1,104 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-web-003
+name: File Not Found v2
+slug: 003-file-not-found-v2
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: 'Mudah untuk yg bisa, sulit utk yg tdk bisa
+
+
+  `http://<host>:51669`
+
+
+  Flag di /readflag -> /root/flag.txt'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- web
+- lfi
+- apache
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: 2024-TSA-Cyber-Champion/Web/file-not-found-v2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3eaff917615e0bc6e9b386913dc555b0bf15e314ae26af251d1bc11207734660
+  - path: README.md
+    algorithm: sha256
+    value: 14a1bec462dedc0eda517430b64ff22664908587964c309898db7caee1f2d92d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 89b69c7f4fd46002833657a96a598dc1e937b681beaadc05c5dd2ad5076caa8f
+  - path: conf/default.conf
+    algorithm: sha256
+    value: c6640abf1e74cf5f4391d363392934f09047640b767357710f20b11d985c8e5e
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 5ab160fcf29b318baf644da4beb677877ec5cfe182e8b3f28fad7d5174e5550f
+  - path: flag.txt
+    algorithm: sha256
+    value: d40c4c6abf3f09ded2a4f64f8caab20f6ec8f76d6602a01e2053c7afd8ff65c3
+  - path: readflag.c
+    algorithm: sha256
+    value: 2183f46fe127fab4ed2f3b8e3da5b5da4e25f4e890fd6ff4b181b994ba7c35e6
+  - path: src/about.html
+    algorithm: sha256
+    value: 5bdb514371cc50018b4281aecd03ab0a2b6ccc0e80bd59ee112ce68b9c676dc4
+  - path: src/cdn.php
+    algorithm: sha256
+    value: cfd2e5dea87837cdf54cf025017bf1a00a6d5fd7a47fb4e56991364555c3b3ff
+  - path: src/index.html
+    algorithm: sha256
+    value: ee631109c6ce5a751253b1415d540af4448ab39d0084e7c0acbdcc6635fe0192
+  - path: src/lore.html
+    algorithm: sha256
+    value: 1db1e936b1ae5dd18d1230ff003e84ee9f898efc7844eb0f84574b252350cfcf
+  - path: src/uploads/style.css
+    algorithm: sha256
+    value: caed63b41b36a77de95e41cfe444ca74994375c8335c56f42a405c5272a46c50
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: 2024-TSA-Cyber-Champion/Web/file-not-found-v2 at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/2024-TSA-Cyber-Champion/Web/file-not-found-v2
+  type: official_repository
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the challenge author's own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries an initial value of 1000 and a TSA{...} flag; the flag is not reproduced in
+  this metadata. flag.txt is the deployment placeholder and readflag.c builds the setuid helper that
+  the service entry point executes.

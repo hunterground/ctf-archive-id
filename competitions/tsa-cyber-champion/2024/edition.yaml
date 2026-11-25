@@ -1,0 +1,51 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024
+competition_id: tsa-cyber-champion
+year: 2024
+name: TSA Cyber Champion 2024
+status: completed
+verification: corroborated
+dates:
+  start: '2024-11-09'
+  end: '2024-11-10'
+statistics:
+  participant_count: 759
+  challenge_count: 20
+references:
+  - title: BPSDM Komdigi on TSA Cyber Champion Award 2024
+    url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+    type: organizer_announcement
+    accessed: '2026-11-25'
+  - title: TSA 2024 Cyber Security competition announcement (Sains Data Terapan PENS)
+    url: https://sainsdata.pens.ac.id/kompetisi-cyber-security-2024/
+    type: other
+    accessed: '2026-11-25'
+  - title: TSA Cyber Champion 2024 challenge archive of Bayu Fedra
+    url: https://github.com/bayufedra/CTF-Challenge-Archive
+    type: other
+    accessed: '2026-11-25'
+  - title: dimasma0305/My-CTF-Challenges (TSA Cyber Champion 2024 web challenges)
+    url: https://github.com/dimasma0305/My-CTF-Challenges
+    type: official_repository
+    accessed: '2026-11-25'
+  - title: afmaghribi/my-pwnyable (TSA-2024 pwn challenges)
+    url: https://github.com/afmaghribi/my-pwnyable
+    type: other
+    accessed: '2026-11-25'
+challenge_materials_imported: true
+notes: >
+  Registration ran 5-30 October 2024 and the CTF ran online on 9-10 November 2024, which the
+  PENS announcement and the Bayu Fedra event README agree on; the event README adds a 15-hour
+  window. The Pusbang Proserti announcement reports 759 participants in 267 teams. Participant
+  accounts give other figures (238 and 455 teams), so the official organizer figure is recorded
+  and the others are not. The award ceremony at STMM Yogyakarta on 23 December 2024 is not the
+  competition end date, so edition end stays 10 November 2024. Twenty challenge directories were
+  imported from three author-side sources: the collection repository of Bayu Fedra, whose
+  CHALLS-101 set and event README this import relies on; the challenge author repository of
+  dimasma0305 (Dimas Maulana) for the three web challenges that are not beginner tier; and the
+  author repository of afmaghribi (Lychnobyte) for the three pwn challenges. participant_count is
+  the organizer's 759 and challenge_count is the twenty directories published by these sources;
+  the organizer never published an official challenge count, and one Reverse entry is still
+  marked "Coming Soon" in the event README although its build and flag are published.
+  challenge_materials_imported is true for those twenty directories only: the ppppppppp
+  attachment is an external Google Drive link and is recorded as a preservation omission.

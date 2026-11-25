@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-forensics-002
+name: eavesdropped
+slug: 002-eavesdropped
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: Recently, I discovered that a malicious actor has been using my proxy to obtain specific
+  information from a particular server. Could you help me figure out what the attacker did?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- network
+- proxy
+authors:
+- name: nagi
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-ctf-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: 2024-TSA-Cyber-Champion/Forensic/eavesdropped
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 52f0a130cdfba93ef6e0c2ff027cfc9810214ef801d37c06c2a6aae21411bc79
+  - path: releases/flows.tar.xz
+    algorithm: sha256
+    value: d15fb476e4ddf3c2db58b06e192c64a5223c8cce9f2f44f2ca29e73dfd5be1c9
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: TSA Cyber Champion 2024 challenge material by its original author, compiled in the
+    author archive of Bayu Fedra (Fedra), https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 2024-TSA-Cyber-Champion/Forensic/eavesdropped at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/2024-TSA-Cyber-Champion/Forensic/eavesdropped
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: needs_scope_review
+notes: Imported from the collection repository of Bayu Fedra. The challenge README names nagi as author
+  while the event README lists Faqih (Hanasuru) as the Forensic PIC; the archive records the challenge-level
+  author and leaves that difference unresolved. releases/flows.tar.xz is the participant attachment
+  as shipped. Difficulty is not stated, so it stays null.

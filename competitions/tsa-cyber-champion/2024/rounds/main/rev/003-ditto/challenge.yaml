@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-rev-003
+name: Ditto
+slug: 003-ditto
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: _I want you so, want you, so say it ditto_
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-ctf-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: 2024-TSA-Cyber-Champion/Reverse/Ditto
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5a3e29bcc05761214d0e54a20c4637f40c0ae69f3a880b047606c5742ce8a3b4
+  - path: release/chall
+    algorithm: sha256
+    value: 37d30a4bc5ce8542dd7ca310240b670a82e35549c66c8c1a06617f280501ebfe
+  - path: src/encrypt.py
+    algorithm: sha256
+    value: d29f5fa4b0c0a871bc7570ff74216f6535e60897a5068e9e0b4f46c97050f683
+  - path: src/gen.py
+    algorithm: sha256
+    value: 3e52eb03b6d4a48e3cde564c51c097e2fca4239f33cf057bc0ec75fe93b8db2d
+  - path: src/main
+    algorithm: sha256
+    value: c17cc4f368c6ca8f540a556c074be50bb3d0254f0877b19bed954c51fb8a1e19
+  - path: src/main.c
+    algorithm: sha256
+    value: 27ce3f97d44227de217b53f5013cdace7bd258c7d540feaa11685e5b7186e27d
+  - path: src/main_enc
+    algorithm: sha256
+    value: 37d30a4bc5ce8542dd7ca310240b670a82e35549c66c8c1a06617f280501ebfe
+  - path: src/output.txt
+    algorithm: sha256
+    value: 6e4da46d95f887675c063f6525d4ddc895220d0919c6d40d5cb9b95d88d789c0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: TSA Cyber Champion 2024 challenge material by its original author, compiled in the
+    author archive of Bayu Fedra (Fedra), https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 2024-TSA-Cyber-Champion/Reverse/Ditto at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/2024-TSA-Cyber-Champion/Reverse/Ditto
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: needs_scope_review
+notes: Imported from the collection repository of Bayu Fedra. The challenge README names aimardcr
+  as author and the event README names Aimar (TCP1P) as the Reverse PIC. Difficulty is not stated,
+  so it stays null.

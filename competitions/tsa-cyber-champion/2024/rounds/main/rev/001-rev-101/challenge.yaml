@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-rev-001
+name: RE 101
+slug: 001-rev-101
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: CHALLS-101/rev-101
+description: null
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: Fedra
+  team: null
+organization: null
+provenance:
+  archive_id: bayufedra-ctf-challenge-archive
+  source_type: git
+  repository: https://github.com/bayufedra/CTF-Challenge-Archive
+  commit: 34eda7ec45888b63a676d0a313f6f9bc2611581b
+  original_path: 2024-TSA-Cyber-Champion/CHALLS-101/rev-101
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 98a58b0cf60d743843d0e3347f3a97baf9dd3050b59a9e7b9f921362d9cb2e59
+  - path: peserta/main
+    algorithm: sha256
+    value: 93e39222762a6bd3323ea93b84abbb46703ca53cdc937444705c6ef26ad0ee95
+  - path: source/main.c
+    algorithm: sha256
+    value: c39d32e053ab8001ebeb3ff62aef663bc8e502f4de25d8a58dd30eaeba5a0949
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: TSA Cyber Champion 2024 challenge material by its original author, compiled in the
+    author archive of Bayu Fedra (Fedra), https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction
+    on 2026-11-25 records a source with no license file as MIT for imported TSA Cyber Champion material.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: 2024-TSA-Cyber-Champion/CHALLS-101/rev-101 at github.com/bayufedra/CTF-Challenge-Archive
+  url: https://github.com/bayufedra/CTF-Challenge-Archive/tree/34eda7ec45888b63a676d0a313f6f9bc2611581b/2024-TSA-Cyber-Champion/CHALLS-101/rev-101
+  type: other
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: needs_scope_review
+notes: Beginner-tier challenge from the source's CHALLS-101 set. The source README heading is 'RE
+  101 | Reverse Engineering'. Participants received peserta/main and source/ holds main.c. Difficulty
+  is not stated, so it stays null.

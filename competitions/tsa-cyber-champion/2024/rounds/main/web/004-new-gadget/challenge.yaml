@@ -1,0 +1,166 @@
+schema_version: '1.0'
+id: tsa-cyber-champion-2024-main-web-004
+name: New Gadget
+slug: 004-new-gadget
+original_name: null
+competition_id: tsa-cyber-champion
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: 'Feel free to write an article about the gadget, even if you didn''t manage to solve
+  it!
+
+  If you do, please don''t forget to mention me.
+
+
+  Thanks a lot!
+
+
+  Website: `http://<host>:9141`'
+difficulty:
+  value: 1000
+  source: organizer
+tags:
+- web
+- prototype-pollution
+- mongoose
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: 2024-TSA-Cyber-Champion/Web/new-gadget
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c48c8faa57d5fcb427ad8bff89485d7dc7a92c46ee7cb1a7ff2dc2c45aec5596
+  - path: README.md
+    algorithm: sha256
+    value: 077edd013254252a30c918f01f17f23b24b4929a88b1b2f8e2343da15c357cec
+  - path: app/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: app/.gitignore
+    algorithm: sha256
+    value: 3907818d0cd7718cfc940634793230301cb9bae7477f5eaed5eefbecbc2c04ea
+  - path: app/README.md
+    algorithm: sha256
+    value: 7846c9063cff4831c063a329a16c6d400729a4c772c74fa9da578eb2ee43f05b
+  - path: app/package-lock.json
+    algorithm: sha256
+    value: d18f964c117155b079faab054d2527e71a13cca667028c4de6eaca711d110488
+  - path: app/package.json
+    algorithm: sha256
+    value: f70c2f195813da1c50df50f4688d9c3e14a997a8b87fa34de2b6e9934739ddc7
+  - path: app/public/index.html
+    algorithm: sha256
+    value: 2577790c36c395205fc1c058300febc8e6699aa6be57f48127f96148ba93e932
+  - path: app/public/login.html
+    algorithm: sha256
+    value: 2a8999b03a3f3f335dc6d1792b8a08b6971c473577ceccf4aad9c2bafcfe34cc
+  - path: app/src/index.ts
+    algorithm: sha256
+    value: fd95ac3ae37659f95c7c78cfb9e5fd18b2daa6ebe970ac7ea74bee1801cba54b
+  - path: app/src/model.ts
+    algorithm: sha256
+    value: 899421dbcd88d9063287bc48f8f5749af80363386cc479e5644652e45016e912
+  - path: app/tsconfig.json
+    algorithm: sha256
+    value: 1f06b5c105a9f086832f2194b6df8d92bd1a4716baf5bd91f08a4fe2228781ac
+  - path: challenge.yml
+    algorithm: sha256
+    value: c8dc33e140ea526cde1d85c829a9410d8dcf606dbb0087c8c1c509c89c1860d1
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: c48c8faa57d5fcb427ad8bff89485d7dc7a92c46ee7cb1a7ff2dc2c45aec5596
+  - path: dist/app/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: dist/app/.gitignore
+    algorithm: sha256
+    value: 3907818d0cd7718cfc940634793230301cb9bae7477f5eaed5eefbecbc2c04ea
+  - path: dist/app/README.md
+    algorithm: sha256
+    value: 7846c9063cff4831c063a329a16c6d400729a4c772c74fa9da578eb2ee43f05b
+  - path: dist/app/package-lock.json
+    algorithm: sha256
+    value: d18f964c117155b079faab054d2527e71a13cca667028c4de6eaca711d110488
+  - path: dist/app/package.json
+    algorithm: sha256
+    value: f70c2f195813da1c50df50f4688d9c3e14a997a8b87fa34de2b6e9934739ddc7
+  - path: dist/app/public/index.html
+    algorithm: sha256
+    value: 2577790c36c395205fc1c058300febc8e6699aa6be57f48127f96148ba93e932
+  - path: dist/app/public/login.html
+    algorithm: sha256
+    value: 2a8999b03a3f3f335dc6d1792b8a08b6971c473577ceccf4aad9c2bafcfe34cc
+  - path: dist/app/src/index.ts
+    algorithm: sha256
+    value: fd95ac3ae37659f95c7c78cfb9e5fd18b2daa6ebe970ac7ea74bee1801cba54b
+  - path: dist/app/src/model.ts
+    algorithm: sha256
+    value: 899421dbcd88d9063287bc48f8f5749af80363386cc479e5644652e45016e912
+  - path: dist/app/tsconfig.json
+    algorithm: sha256
+    value: 1f06b5c105a9f086832f2194b6df8d92bd1a4716baf5bd91f08a4fe2228781ac
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 57b56c2761202f16ce637883fc2c0630a8fe22ff0a2479dd64313f63bc277d9b
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/loop.sh
+    algorithm: sha256
+    value: 329b18abfcbbfaa3106a37d89118dfb5fc70ac13a28bfc5df102fea6183d2980
+  - path: dist/run.sh
+    algorithm: sha256
+    value: a6b6e38edc4f26265c3b05f0e0c084c9309014a46c2d39afa7734e9ed2d7e39c
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 57b56c2761202f16ce637883fc2c0630a8fe22ff0a2479dd64313f63bc277d9b
+  - path: flag.txt
+    algorithm: sha256
+    value: b363f0fc76ed3333af09e477a9fce00ee6e4f85aa8ff59cf71316e064781fd46
+  - path: loop.sh
+    algorithm: sha256
+    value: 329b18abfcbbfaa3106a37d89118dfb5fc70ac13a28bfc5df102fea6183d2980
+  - path: run.sh
+    algorithm: sha256
+    value: a6b6e38edc4f26265c3b05f0e0c084c9309014a46c2d39afa7734e9ed2d7e39c
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: 2024-TSA-Cyber-Champion/Web/new-gadget at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/2024-TSA-Cyber-Champion/Web/new-gadget
+  type: official_repository
+  accessed: '2026-11-25'
+- title: TSA Cyber Champion Award 2024 (BPSDM Komdigi)
+  url: https://bpsdm.komdigi.go.id/berita-tsa-cyber-champion-award-2024-membangun-talenta-keamanan-siber-masa-depan-19-2143
+  type: organizer_announcement
+  accessed: '2026-11-25'
+verification: corroborated
+notes: Imported from the challenge author's own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries an initial value of 1000 and a TSA{...} flag; the flag is not reproduced in
+  this metadata. The Node service is started with run.sh and supervised by pm2 in the organizer script.
