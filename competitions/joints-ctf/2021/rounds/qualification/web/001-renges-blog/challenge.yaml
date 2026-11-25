@@ -1,0 +1,173 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-web-001
+name: Renge's Blog
+slug: 001-renges-blog
+original_name: Renge's Blog
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Renge baru mencoba belajar membuat blog dari nol, bantu renge mengecheck keamanan blognya
+difficulty:
+  value: medium-easy
+  source: organizer
+tags:
+- web
+- jwt
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Web/Renge's Blog
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f58be85f332d6c6314bcbd2710dbf313d895a75a90dd44f657ba4cb5f9332f0c
+  - path: README.md
+    algorithm: sha256
+    value: b9c1a56cedc75d9564cfda7270e733125e40f0d280b3bf7c4440aa4fbc464967
+  - path: app.js
+    algorithm: sha256
+    value: cf398236aa9f8039b183994fa354cf9377430c024572e0b34191e4b12fef35a3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 395b01626d5439c857a338ff2ade88eb5913f0a99c0b30b0dd83a280beaf610b
+  - path: package-lock.json
+    algorithm: sha256
+    value: d1fda490f356b02a5c4e5fab2f69e71c14140615a195b929d9b81ddfc21814d8
+  - path: package.json
+    algorithm: sha256
+    value: e742ed8c83f6b3bf4a75ae7e7dbaa7e73996af568c655b15ed159f188d0d6509
+  - path: bin/www
+    algorithm: sha256
+    value: 5ccc907c18612be8ffaea3cf7297e4566741e6e847087fd29bd56c5b5707854a
+  - path: public/404.html
+    algorithm: sha256
+    value: 45cb5b32660b55bf0c955e3e26135b8230e28f06815601fe535c865da412ceea
+  - path: public/500.html
+    algorithm: sha256
+    value: 285990c12d6819ab331cddaa611f3f09f02a5934757abcc9d1db361545f880c4
+  - path: public/favicon.ico
+    algorithm: sha256
+    value: 6528927be095aba98ff186f514317d9a5f17cb17fa4b5400ad44bcbb9c519370
+  - path: public/forbidden.html
+    algorithm: sha256
+    value: 1cacbf5339b298c20bcbca8767671a4bc4d93f32629098d04d8683dfdef55ade
+  - path: public/index.html
+    algorithm: sha256
+    value: 16d51a12176f2f47f19148c280c52148d07c3b88484c583ea5f0781fae574592
+  - path: public/assets/css/styles.css
+    algorithm: sha256
+    value: 6fa9f92ddedfd3f50200960e649eb9a006fb109b0bcdb45b4b0b73dad65e0319
+  - path: public/assets/img/perfil.png
+    algorithm: sha256
+    value: 97c02b58d07bb7723f43e5d48153725bd83c2d3cdeca890acc7ab140b628385b
+  - path: public/assets/img/skill.jpg
+    algorithm: sha256
+    value: 971aebc0f5b3d251d0a7a87656cea6ba2386a253109070f46a4fce761e20a74c
+  - path: public/assets/img/work1.jpg
+    algorithm: sha256
+    value: 5cfb748cba7bbb8ba239610747209a542b89695749f384c9ccd8cb261d224ec0
+  - path: public/assets/img/work2.jpg
+    algorithm: sha256
+    value: 9ce0ea9c72fd75485253764f08b08127a62b2e64365b12ec98eabf17d3ddb610
+  - path: public/assets/img/work3.jpg
+    algorithm: sha256
+    value: c7a1ef3a287b77bbb8a7d569f577a4c0970b19d1f67737dbcc3922213771fb34
+  - path: public/assets/img/work4.jpg
+    algorithm: sha256
+    value: 7353be4d8a816876e850d4bc734c010105f7f67dee870776f53c2c496e13964b
+  - path: public/assets/img/work5.jpg
+    algorithm: sha256
+    value: b21bfbf44a989ff13b23bdb442460522f1b3951d2c8cf43082d0ece117852b1a
+  - path: public/assets/img/work6.jpg
+    algorithm: sha256
+    value: 13e2b5784c752357db99cdc7ccb0c70f14e3562e5b878b36bdb7923c7725bb20
+  - path: public/assets/js/main.js
+    algorithm: sha256
+    value: 927cf9580848e4e9018edc74899c31f0455cbb4c94b2e56e36394501c592e3b1
+  - path: public/assets/sass/styles.scss
+    algorithm: sha256
+    value: 429990df5b66667993e46c91a9830c7ab45c0545f4069c6499aaeae054f7ee12
+  - path: public/javascripts/500.js
+    algorithm: sha256
+    value: 31beef28cc2308f2e1ab59ba6a4169a0a034c5f59790167b175279d7e211ddd7
+  - path: public/javascripts/auth.js
+    algorithm: sha256
+    value: 8124f942c18ca30241d90b5d70caff170fc57a2e0cc54d3d641c7555b0289837
+  - path: public/key/private.key
+    algorithm: sha256
+    value: 2c0acb85bbadcb288b5858a4316f27a0d037158e85d25a89ea3ffb18bd8237aa
+  - path: public/key/public.key
+    algorithm: sha256
+    value: d8a01ae4e5973e21185b8f107875d16232a06760c7474ef08623523d81d64964
+  - path: public/stylesheets/404.css
+    algorithm: sha256
+    value: 5ace6afc490cda06862300967263fd96fcd137cc3c021a72da08796b8f8b6571
+  - path: public/stylesheets/500.css
+    algorithm: sha256
+    value: da8cb49e2f86db48e782e58e7e5a915ae19a2efd36a5b87d21e0ae8ac63cb13a
+  - path: public/stylesheets/forbidden.css
+    algorithm: sha256
+    value: 183059e3c915cee9245282c5bb965cdbc63933b5d8d374723d298a9a2fd2c62a
+  - path: public/stylesheets/style.css
+    algorithm: sha256
+    value: 23cb5a4209c7a9384e826fe9761280c71d4ba6fe62eaeba083a29520e3dca80f
+  - path: routes/admins.js
+    algorithm: sha256
+    value: e56f88f33d0a7f6f41b07df074d7fcc88e6e925fdababac8eb4e98d168300450
+  - path: routes/flag.html
+    algorithm: sha256
+    value: 81d891c126ced57dbed73e5ee586404b826561e52155d261729e44d491dde432
+  - path: routes/index.js
+    algorithm: sha256
+    value: f5e3bed393ad10fcd7f1db331e40e10d4a7715659292723557409ee8ea8acfdb
+  - path: routes/users.js
+    algorithm: sha256
+    value: b490d897c4ba01cd926744448b86d9e97a35d0f9c545d633dd0791cdd84a38b5
+  - path: views/error.jade
+    algorithm: sha256
+    value: a786e6d89a5251bb63a874d3b85ecdf8df48626b1c72ec8c196a6205d50fe141
+  - path: views/index.jade
+    algorithm: sha256
+    value: 934da36c15742a3b4268dd8dccfe2421f971c2ce3ad13cba3d75dd14862d5103
+  - path: views/layout.jade
+    algorithm: sha256
+    value: 93d59f9241a4cb66b8ec464f99d1bbed8000292adeec825491b3abb02b4e3c7a
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/Renge's Blog at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Web/Renge's%20Blog
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. The organizer README
+  labels the difficulty ''Med-easy(mungkin)'', a tentative estimate, which is recorded here as medium-easy
+  with source organizer.'

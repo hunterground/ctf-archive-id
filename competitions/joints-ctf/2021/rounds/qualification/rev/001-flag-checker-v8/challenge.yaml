@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-rev-001
+name: Flag Checker v.8
+slug: 001-flag-checker-v8
+original_name: Flag Checker v.8
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: I'm not quite satisfied with how the previous flag checker program was written. So I rewrite
+  the entire thing and finally end up in version 8. Hope you can solve this one.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- javascript
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Reverse/Flag Checker v.8
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2ed7b150e6b4efa94033cf8448042c6e1f83bb26d67a41958ce60fabf7db59cb
+  - path: attachement/chal
+    algorithm: sha256
+    value: 20cd743a8e146c5670284491ebfbed742953e923639b4084b75e7df9ea49fa50
+  - path: source/.gitignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: source/bin.js
+    algorithm: sha256
+    value: a017c246f9344c501d728b961841b4c1cca8eb12a31e3cd1ed445966da26f7b6
+  - path: source/flag.txt
+    algorithm: sha256
+    value: fcd0e2715ec815f1c09f5712205959f714291b13a85db2d8307127b9ca1a3283
+  - path: source/index.js
+    algorithm: sha256
+    value: fb3ea0a9bd7215cf823330c423a963c6231bcb0e0196fce2d83622e3594eb6f5
+  - path: source/package-lock.json
+    algorithm: sha256
+    value: 142b32a54f2f2f85006bdf7daee051edd7226bc009272c5eb9333c3cdc9ce337
+  - path: source/package.json
+    algorithm: sha256
+    value: 1cd41f6bb4886c4678d60332dd6c4efc971df1fb2fdff7bc4fe345efc266d63e
+  - path: source/ss1.png
+    algorithm: sha256
+    value: 0553a03f1e9ae789c5a2867b6708e00b62b0830372209d5bd1e40180373e2121
+  - path: source/unobfuscated.js
+    algorithm: sha256
+    value: 23511a4e2f3ee5e3848b04ac15c6951c6f6f2d4f9d8fd888e80d951256b8b615
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Reverse/Flag Checker v.8 at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Reverse/Flag%20Checker%20v.8
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/rev/001-flag-checker-v8/solver/ per
+  archive policy and is not listed as a preservation omission.'

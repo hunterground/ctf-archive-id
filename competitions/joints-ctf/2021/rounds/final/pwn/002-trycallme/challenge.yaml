@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-pwn-002
+name: TryCallMe
+slug: 002-trycallme
+original_name: TryCallMe
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: TryCallMe
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- ret2csu
+- stack-pivot
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Pwn/TryCallMe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2212fef57655ac9c84c3a9a3f3ca567090e296cf0aaaf35ba632d92809875e22
+  - path: attachment/TryCallMe
+    algorithm: sha256
+    value: 36ab358e8f32c6d92d6cbb46d816e360bf44fbfee34c534112dc25d43929ce4e
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 08931b1183d3e10888247534da46ad1670072b9aef178065bfd3dc1c8a4e55bb
+  - path: source/TryCallMe
+    algorithm: sha256
+    value: 36ab358e8f32c6d92d6cbb46d816e360bf44fbfee34c534112dc25d43929ce4e
+  - path: source/TryCallMe.c
+    algorithm: sha256
+    value: d99a540009641418291c83208f4349acdf8bd378915bd5ebba46b16b0ce210ce
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 9d6fda9f91b2e4fff6a16eef4b1bb86b992f82e0c5e8285e8eb2af974f488c93
+  - path: source/flag.txt
+    algorithm: sha256
+    value: ffe907a51f74e5343ca444510d609b559297ad6a353ca2f22293c2d786a815a8
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Pwn/TryCallMe at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Pwn/TryCallMe
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/pwn/002-trycallme/solver/ per archive policy
+  and is not listed as a preservation omission.'

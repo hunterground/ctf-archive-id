@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: final
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+name: Final
+original_name: Final
+sequence: 3
+type: final
+delivery: online
+description: >
+  Final stage of JOINTS CTF 2021, published by the organizer as the Final directory. Seventeen
+  challenges across the source categories Crypto, Forensics, Misc, Pwn, Web, and rev.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 17
+  participant_count: null
+references:
+- title: OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Category counts: Crypto 3, Forensics 3, Misc 2, Pwn 3, Web 3, rev 3. The organizer keeps the
+  reverse-engineering directory lowercase as rev, unlike the qualification stage's Reverse. The
+  Final/rev directory also contains a README.md that is an organizer note, not a challenge; it
+  is not imported. No final date is stated in the source, so dates stay null.

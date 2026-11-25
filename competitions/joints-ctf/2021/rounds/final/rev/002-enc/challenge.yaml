@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-rev-002
+name: enc
+slug: 002-enc
+original_name: enc
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: rev
+description: Yok bisa yok
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/rev/enc
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: flag.txt
+    algorithm: sha256
+    value: ef9c19e0acb2d0d3aedaf02e2cfd4f4aabb1d3aba95c2454ff45ce364c55af08
+  - path: chall/description.txt
+    algorithm: sha256
+    value: aac82b91bec77b42f7df5b35e300ca89d4c95f1a0c8e7c2c1acd51e393e784ad
+  - path: chall/enc
+    algorithm: sha256
+    value: 9a0b5a9d8523529aee30376744690aa99b657d51ac1c35e1fc406ac788abc13e
+  - path: chall/enc.txt
+    algorithm: sha256
+    value: 8823e628a120aabf39850917692968b520c497020ecad6487f1b33276a8c64c9
+  - path: src/encoding.cpp
+    algorithm: sha256
+    value: 69c858b0ff8a79e5c82dd4677a0def0ce3a9fb28e2de0726821e787a349a6c34
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/rev/enc at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/rev/enc
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/rev/002-enc/solver/ per archive policy and
+  is not listed as a preservation omission.'

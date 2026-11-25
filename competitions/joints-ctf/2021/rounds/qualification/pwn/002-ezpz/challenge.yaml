@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-pwn-002
+name: ezpz
+slug: 002-ezpz
+original_name: ezpz
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: A simple program to get you started
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- off-by-one
+- buffer-overflow
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Pwn/ezpz
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1e426f05a4a4ae3b0c7a6db20a95c03fbf50a12418af5cbfee300b27aac2a9e2
+  - path: attachement/chal
+    algorithm: sha256
+    value: 9259e69ef8f410274a1fc21f899afa309330614c415dde4f427f09abce21bced
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 09f48019e35de2e47f327a2699c46f5480c9555d2cf0c8123ddc1cef23b6e0f4
+  - path: source/Makefile
+    algorithm: sha256
+    value: ed41edd89c6ff0ed7fc169c5ab9733a0dd34de0b7fafc612f26720f0d45e9384
+  - path: source/chal
+    algorithm: sha256
+    value: 9259e69ef8f410274a1fc21f899afa309330614c415dde4f427f09abce21bced
+  - path: source/chal.c
+    algorithm: sha256
+    value: a6c661625dda0dc79578ff557a459311f66cd66581b843ca4d547879f231f76f
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 3cc21184b37bdf5059ae57913c43328184400583ef4e7763cdb5b5643dd518fe
+  - path: source/flag.txt
+    algorithm: sha256
+    value: da5f012860a46209d9550b361a90584cf7ed35cb9ff5211e98e89f1e44d7e9ba
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Pwn/ezpz at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Pwn/ezpz
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/pwn/002-ezpz/solver/ per archive
+  policy and is not listed as a preservation omission.'

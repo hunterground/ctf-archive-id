@@ -1,0 +1,156 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-web-003
+name: uwu
+slug: 003-uwu
+original_name: uwu
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: uwu.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- nginx
+- redis
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Web/uwu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 186c8f56f669450d8db80209a59bcddfce862859fdfb52cea37d3888e195095d
+  - path: peserta/.gitignore
+    algorithm: sha256
+    value: e9ed5f3245101fced765695b6a0b39f80cb479aa0940640ee6401c7686c3d4e4
+  - path: peserta/composer.json
+    algorithm: sha256
+    value: 6f6d5e9fc5841304c0fa5205006e1c0ef84515362ee8a2109df5bba2ee868c1e
+  - path: peserta/config.php
+    algorithm: sha256
+    value: a018c901f2ff82e2db157ca71297becf8556a8ff204302472a205ac369cce831
+  - path: peserta/index.php
+    algorithm: sha256
+    value: a6f8da33d28539613249bc5800943ee23f34b37dcb882e8113dc6f025bce4be8
+  - path: peserta/init.php
+    algorithm: sha256
+    value: c9fbb09ea528775a65b45cdf1f4c3c159fd72612e8f582255749564328ccb83b
+  - path: peserta/login.php
+    algorithm: sha256
+    value: 261d75b982bad7f6a43b27f05f1ee3ed04c238adb62d0ae09280f0b34adb42eb
+  - path: peserta/nginx.conf.d
+    algorithm: sha256
+    value: a0a7be262f7bd5a1724d41ff1913c7666d258456a81e3f0dee3d9450666b7822
+  - path: peserta/proses_login.php
+    algorithm: sha256
+    value: 153a3edd5a05d3379d35b6128e646e6cece314d41b8825242e9a26f3260e29c9
+  - path: peserta/proses_register.php
+    algorithm: sha256
+    value: b35ee00db5c6f4f2a7cecb634acd6dd27309005de171f6f105d325eb16ff6f2f
+  - path: peserta/register.php
+    algorithm: sha256
+    value: fb44179d5ad47193a2943cb1eeb56b2bbb87f4e4d61728aa55a6e62b43ef79b4
+  - path: peserta/uwu.zip
+    algorithm: sha256
+    value: 8a0b59cbae4bc727d61a617f193ba42544de93b242cabacae08441c382da558f
+  - path: server/Dockerfile.app
+    algorithm: sha256
+    value: 039390f65674b027872235b99ccbe1c8472b0e83d69bb86472292f35b23a26dc
+  - path: server/Dockerfile.nginx
+    algorithm: sha256
+    value: 4e0abc365b977db03bf8f4e51dfd41edbfd1dc287b56e639f96a5967fd1d67b1
+  - path: server/Dockerfile.redis
+    algorithm: sha256
+    value: a4a490e41bf911340426d4c70f98567e564c29f651ee0d9577d94c843a46e826
+  - path: server/docker-compose.yml
+    algorithm: sha256
+    value: 5a807cf380eb4adf9683d4636fcf178df307d054a4fdc450011f5d02bcb62d5f
+  - path: server/entrypoint-redis.sh
+    algorithm: sha256
+    value: b397422a3dfb6bbae9c0ba91d1619081987c8a7565477989ee3db30b5cb63d32
+  - path: server/nginx.conf.d
+    algorithm: sha256
+    value: a0a7be262f7bd5a1724d41ff1913c7666d258456a81e3f0dee3d9450666b7822
+  - path: server/redis.conf
+    algorithm: sha256
+    value: 2e538bedfd548f9480bc51a906874407a28878be1ef91b749df11b2ca93db0db
+  - path: server/app/.env
+    algorithm: sha256
+    value: bcf9ae12e72187bb63a60fbeb1dc5ca746ef605d3fe519dcef066f979c48049c
+  - path: server/app/.gitignore
+    algorithm: sha256
+    value: a6ab086072d8c259901577e392acee1e91a21bcbf6cc38cd72e2ac9a5188a2df
+  - path: server/app/composer.json
+    algorithm: sha256
+    value: 6f6d5e9fc5841304c0fa5205006e1c0ef84515362ee8a2109df5bba2ee868c1e
+  - path: server/app/composer.lock
+    algorithm: sha256
+    value: f72316e1d6ea19b3c5b34c554813b0621b86a7e961a42cdf978abd2094585902
+  - path: server/app/config.php
+    algorithm: sha256
+    value: a018c901f2ff82e2db157ca71297becf8556a8ff204302472a205ac369cce831
+  - path: server/app/index.php
+    algorithm: sha256
+    value: 5ad037fe234de7e586c006dacb5dfd6c48bbf234af0e3236dae159f18b8c881d
+  - path: server/app/inidatabase.db
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: server/app/init.php
+    algorithm: sha256
+    value: c9fbb09ea528775a65b45cdf1f4c3c159fd72612e8f582255749564328ccb83b
+  - path: server/app/login.php
+    algorithm: sha256
+    value: 261d75b982bad7f6a43b27f05f1ee3ed04c238adb62d0ae09280f0b34adb42eb
+  - path: server/app/proses_login.php
+    algorithm: sha256
+    value: 153a3edd5a05d3379d35b6128e646e6cece314d41b8825242e9a26f3260e29c9
+  - path: server/app/proses_register.php
+    algorithm: sha256
+    value: b35ee00db5c6f4f2a7cecb634acd6dd27309005de171f6f105d325eb16ff6f2f
+  - path: server/app/register.php
+    algorithm: sha256
+    value: fb44179d5ad47193a2943cb1eeb56b2bbb87f4e4d61728aa55a6e62b43ef79b4
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Web/uwu at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Web/uwu
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/web/003-uwu/solver/ per archive policy and
+  is not listed as a preservation omission. The distribution ships its own .gitignore files that list
+  .env, and the server/app/.env file in this challenge is challenge material. Per the archive convention
+  it is tracked with git add -f so the nested ignore rule does not drop it; the .gitignore files themselves
+  are preserved unchanged.'

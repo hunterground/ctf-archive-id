@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-forensics-004
+name: Watashi no uso
+slug: 004-watashi-no-uso
+original_name: watashi no uso
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: 'To Mr. Arima Kousei
+
+
+  ![meme](https://i.imgur.com/G3u94f2.jpg)
+
+
+  --file integrity check--
+
+
+  md5sum : 44686c98fe094f7da9a6d30233ef70ae'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- forensics
+- audio-steganography
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Forensics/watashi no uso
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 21bae3fdace38826f9b06b67452dbae4375bbae392092e7d319bd8ea881fc5e6
+  - path: meme.jpg
+    algorithm: sha256
+    value: 23844cc5cc115a3384a7f4f6bf15aead8e33eba3ee7cf936f1161d8d42ff6778
+  - path: watashi_no_uso.wav
+    algorithm: sha256
+    value: 8138ac35975ba6d2f99d5263d2d395a90ffeef9d357869b26e35a9ebef6f35a8
+  - path: src/flag.jpg
+    algorithm: sha256
+    value: ba0635c64ac512a12900c859fc998a8e76ec91f175442fa2384daaf0ff6fd7cd
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 402cd6abc214d73510482853a4caef72f3b087d00aaf94307de95469458127d6
+  - path: src/hideme
+    algorithm: sha256
+    value: c444abf3ca285bbb6498032d2fccb30fda9a350eb2f3602d1c9c321e3cf0ebc1
+  - path: src/shigatsu-wa-kimi-no-uso-episode-22-37.jpg
+    algorithm: sha256
+    value: 0f855343dfd159a985f139528604cc76959158be126c85a16080ee6aced6f1be
+  - path: src/song.ogg
+    algorithm: sha256
+    value: 1d7862ea24bebc66b46d94d476ab63f5c1cb2b17eb9d8974810af114ad989224
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Forensics/watashi no uso at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Forensics/watashi%20no%20uso
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository.'

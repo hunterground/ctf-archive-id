@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: warmup
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+name: Warm Up
+original_name: warmup
+sequence: 1
+type: warmup
+delivery: online
+description: >
+  Warm-up stage of JOINTS CTF 2021. The organizer problem set publishes exactly one
+  warm-up challenge, a pwn exercise in the source directory warmup/pwn.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 1
+  participant_count: null
+references:
+- title: OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  The organizer repository keeps warmup material in a single warmup/ directory containing only
+  a pwn challenge. No warm-up date is stated in the source.

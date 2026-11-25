@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-crypto-001
+name: ReSAh
+slug: 001-resah
+original_name: ReSAh
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: Crypto
+description: Is this the end of my crypto journey :( ? let's hope not
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- rsa
+authors:
+- name: yeraisci
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Crypto/ReSAh
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d8a1c9f89e3d3ee85aba92beceb6c242a3f18753708125b8f13a0fce9ed8bdfe
+  - path: peserta/chall.py
+    algorithm: sha256
+    value: 1284d7b0760ab59309786496ef632d31cef8167b1849f9f876eeafa0d6fea343
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/Crypto/ReSAh at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Crypto/ReSAh
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/crypto/001-resah/solver/ per archive policy
+  and is not listed as a preservation omission.'

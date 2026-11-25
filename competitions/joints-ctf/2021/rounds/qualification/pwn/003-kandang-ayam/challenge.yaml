@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-pwn-003
+name: kandang ayam
+slug: 003-kandang-ayam
+original_name: kandang ayam
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Pwn
+description: Who doesn't love chicken?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- heap
+- format-string
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Pwn/kandang ayam
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 332cb1ae3b10328ad1d8c33be4a3624e4cee53c74c880abb97dfd71f1f1e2145
+  - path: attachement/chal
+    algorithm: sha256
+    value: 7bea96b46b682f0e3c11788be6e1834fd365945d267df59d835a83c7eb232af2
+  - path: attachement/libc-2.27.so
+    algorithm: sha256
+    value: cd7c1a035d24122798d97a47a10f6e2b71d58710aecfd392375f1aa9bdde164d
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: f9ecd5cf044dd2f79d16dc76e93458278faf2a9d785686d49a2a5f26e33ad107
+  - path: source/Makefile
+    algorithm: sha256
+    value: 25fe8a8ee8236cd7dd7f9f7181714e9d6a62f3e185260289a238a33c80241c7f
+  - path: source/chal
+    algorithm: sha256
+    value: 7bea96b46b682f0e3c11788be6e1834fd365945d267df59d835a83c7eb232af2
+  - path: source/chal.c
+    algorithm: sha256
+    value: c08189fbe5e2d413ae914014b2c52c130e50549acedd17e467032e7008a1aee3
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 41b699fc4cddcb0621b146d771367ba8d25c95318b973a477cb1db07378eb517
+  - path: source/exec.sh
+    algorithm: sha256
+    value: ed2cea6badcea6dea8bd317df2d8df317d21500bbb1962b0f41c2fb67975588f
+  - path: source/flag.txt
+    algorithm: sha256
+    value: cc89ab0434544d8a6a26bfb8bb9abc9dd1baf71bb0c47bb6090508b287b0f541
+  - path: source/libc-2.27.so
+    algorithm: sha256
+    value: cd7c1a035d24122798d97a47a10f6e2b71d58710aecfd392375f1aa9bdde164d
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Pwn/kandang ayam at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Pwn/kandang%20ayam
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/pwn/003-kandang-ayam/solver/ per
+  archive policy and is not listed as a preservation omission.'

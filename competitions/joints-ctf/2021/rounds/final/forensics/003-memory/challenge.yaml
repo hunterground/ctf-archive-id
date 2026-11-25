@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-forensics-003
+name: memory
+slug: 003-memory
+original_name: memory
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: 'Poke the memories in the wasteland.
+
+
+  https://drive.google.com/drive/folders/1wtbSdq5UuY-WSBhGvoeXaL_ls6Di6jJB?usp=sharing
+
+
+  md5sum: e335b0ee6b0d57f68688b1674379aaa4'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- memory-forensics
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Forensics/memory
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ac53674624a2a22fa8a33204bf58a82d7aeaacef7438b4c19c238c3f3089d46d
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/Forensics/memory at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Forensics/memory
+  type: official_repository
+  accessed: '2026-11-26'
+- title: Joints-Memory Google Drive folder linked from the memory challenge README
+  url: https://drive.google.com/drive/folders/1wtbSdq5UuY-WSBhGvoeXaL_ls6Di6jJB
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/forensics/003-memory/solver/ per archive
+  policy and is not listed as a preservation omission.'

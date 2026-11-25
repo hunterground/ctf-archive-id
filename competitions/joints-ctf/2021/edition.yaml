@@ -10,12 +10,19 @@ dates:
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 34
 references:
-- title: ITS achievement list naming Joints CTF 2021
-  url: https://www.its.ac.id/it/mahasiswa/mahasiswa-berprestasi-it/
-  type: other
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The Departemen Teknologi Informasi ITS achievement list records Joints CTF, organizer UGM, in 2021.
-  Dates were not stated.
+- title: OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  type: official_repository
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >
+  All 34 challenges come from the organizer-published problem set at
+  https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset, published by the OmahTI UGM organization
+  and maintained by the HIMAKOM UGM problem-setting team. The repository was committed between
+  February and April 2021, and its last commit is dated 25 April 2021. Challenge material is
+  grouped into warmup (1), Quals (16), and Final (17). The source states no calendar dates for
+  any stage, so edition dates stay null; a third-party post about the 2021 final does not give a
+  date either. The probset repository has no LICENSE file; per the archive maintainer instruction
+  of 2026-11-26 a source with no implicit license is treated as MIT.

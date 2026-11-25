@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: joints-ctf-2021-warmup-pwn-001
+name: the protector
+slug: 001-the-protector
+original_name: the protector
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: warmup
+category: pwn
+original_category: pwn
+description: The protector, light of the darkness. Protector akan jadi penuntunmu
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- format-string
+- buffer-overflow
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: warmup/pwn/the protector
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6a1c3c583ee41b8508aec4eacb9dcc15794ed67806a722a3049377d83ebd6adc
+  - path: attachment/main
+    algorithm: sha256
+    value: e72d08a28074abb372feeec5b64f725b7cd1aa532441552991cc6aa65a8ef532
+  - path: attachment/main.c
+    algorithm: sha256
+    value: 9b1243cf0c9f70c42db327778f3889e85a172e4e27efdf4c722c838e6e1501c8
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 8dd89d8ad5f06bd71191babc63d9340b8ac0c5b5a971870a01b266a2c3299308
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 6339fea4ee5a724bb84ff80118ae2b8cacee7b09638c1483cb0dc1e96df836ea
+  - path: source/flag.txt
+    algorithm: sha256
+    value: f681136543bd735094875fdac726d8763d2d0fc16526685e67a39d96df432806
+  - path: source/main
+    algorithm: sha256
+    value: e72d08a28074abb372feeec5b64f725b7cd1aa532441552991cc6aa65a8ef532
+  - path: source/main.c
+    algorithm: sha256
+    value: 9b1243cf0c9f70c42db327778f3889e85a172e4e27efdf4c722c838e6e1501c8
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: warmup/pwn/the protector at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/warmup/pwn/the%20protector
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/warmup/pwn/001-the-protector/solver/ per archive
+  policy and is not listed as a preservation omission.'

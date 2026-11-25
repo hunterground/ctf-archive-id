@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-web-003
+name: whitebox
+slug: 003-whitebox
+original_name: whitebox
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: The power of echo
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- web
+authors:
+- name: ZeroDiv
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Web/whitebox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f4c927c8f5fbd6140b3face9fd89893accc61994459c3736362a11f94758c376
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 450bef7425568a2794bfdd4d1eef5ddaa314f5b5792d7cdb27203a37d65b901e
+  - path: chall/docker-compose.yml
+    algorithm: sha256
+    value: 1cfa32404d46d223f4785344ce42e364709922493e468e3e2df765c250f331c0
+  - path: chall/app/index.php
+    algorithm: sha256
+    value: 4fdc6dc6c3c161113c9ada499e8e248f6ab5f4b0b0f76daccdedfc278e9650a7
+  - path: chall/flag/flag.txt
+    algorithm: sha256
+    value: 646ada787417532c3042ed168ed0e0b625f8761cdf0c8409a769740009b63f9f
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/whitebox at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Web/whitebox
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/web/003-whitebox/solver/ per archive
+  policy and is not listed as a preservation omission.'

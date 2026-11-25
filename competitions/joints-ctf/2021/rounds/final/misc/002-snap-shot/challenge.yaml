@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-misc-002
+name: Snap Shot
+slug: 002-snap-shot
+original_name: Snap Shot
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: misc
+original_category: Misc
+description: 'I was told by someone that he bought me a gift. Unfortunately, I need to have a proper access
+  to grab it
+
+
+  `nc ip port`
+
+
+  Note: The service used Paramiko SSH module instead of traditional SSH prompt'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- x11
+- privilege-escalation
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Misc/Snap Shot
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 53ecedc3d5dee38d9639ff5a6461a08c74408ed578d4c9ee364195767c80a345
+  - path: flag.txt
+    algorithm: sha256
+    value: e782221da07746c61455edacb78144c895b6c353c69b83cbafb7d74ba6011ee6
+  - path: server/docker-compose.yml
+    algorithm: sha256
+    value: ace74a69dff38b6ea70a834da9d8fecf54126dfe0a7b953c92a7464b6f08ade8
+  - path: server/service/Dockerfile
+    algorithm: sha256
+    value: b76a622db32b52433a261489b57065f636b06534bb2f33cbc67e43064b1b99c1
+  - path: server/service/docker-entrypoint.sh
+    algorithm: sha256
+    value: 7277603d5217735a189e02314d6796bce2ef3c18649eea5af6f164dede6bb267
+  - path: server/service/run.py
+    algorithm: sha256
+    value: 4c1079780db2cb486067fc7711f736af95ae521852966abe7ef3883a6701a448
+  - path: server/service/src/get_flag
+    algorithm: sha256
+    value: 14e4f7304a4042659a7a2d33e44a3066f1ec7645455500e2b566a8ea78f46ca9
+  - path: server/wrapper/Dockerfile
+    algorithm: sha256
+    value: 2175e58fdcb931009f7a484ef21a46178caa53753b70bf779ac8f3b7d6abf665
+  - path: server/wrapper/src/app.py
+    algorithm: sha256
+    value: 91116d79dfc7cc95dfb169bc31264d4adc497c8e73457f535eb81794a9eccf4f
+  - path: test/test.py
+    algorithm: sha256
+    value: a649fe09e5694968539a018df263eb489e5c35dcec40c81ed20d8f9c1a044151
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Misc/Snap Shot at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Misc/Snap%20Shot
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/misc/002-snap-shot/solver/ per archive policy
+  and is not listed as a preservation omission.'

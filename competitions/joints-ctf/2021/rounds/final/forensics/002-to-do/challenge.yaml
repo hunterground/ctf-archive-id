@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-forensics-002
+name: To Do
+slug: 002-to-do
+original_name: To Do
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: I often forgot about my daily task. Since then, I created a To Do list webservice in order
+  to list & manage my own TODO. Unfortunately, It has a big flaws, so that I decided to discontinue this
+  project.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- network-forensics
+- tls
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Forensics/To Do
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c5a3c8988524060e73f891a7dc11046a68611a638feea2b6b1d04433a2ad501e
+  - path: flag.txt
+    algorithm: sha256
+    value: 194ca824b5d39f69de142cd567f52deec3ae77494f129eedcaeb6088a26d711f
+  - path: peserta/log.tar.xz
+    algorithm: sha256
+    value: aec30817026180f4b37ccb89f4c103821a9d67cabd9d1cfdbb0a845d7a893aad
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Final/Forensics/To Do at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Forensics/To%20Do
+  type: official_repository
+  accessed: '2026-11-26'
+- title: Organizer patch gist linked from the To Do challenge README
+  url: https://gist.github.com/hanasuru/b333e3d655f6046a3aade480c284ce07
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/forensics/002-to-do/solver/ per archive policy
+  and is not listed as a preservation omission.'

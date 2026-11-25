@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-crypto-002
+name: Baby PRNG 21
+slug: 002-baby-prng-21
+original_name: Baby PRNG 21
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: Ketua OSSIS SMA Negeri Tra La La memberikan give away kepada siapa saja yang berhasil untuk
+  memecahkan kode rahasia yang telah disembunyikan. Karena Ketua OSSIS SMA Negeri Tra La La adalah orang
+  yang baik hati, dia memberikan hint untuk membantu para hekel agar tidak kesusahan saat memecahkan kode
+  rahasianya. Sebagai seorang hekel yang bijaksana, baik hati, tidak sombong dan suka menabung anda akan
+  menyelesaikan kode rahasia tersebut dengan sepenuh hati. Pecahkanlah kode rahasia itu agar bisa mendapatkan
+  give away.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- crypto
+- prng
+authors:
+- name: ZeroDiv
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Crypto/Baby PRNG 21
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2fc257797b32416a6b90e90ff122ac9896bccafa3bf1ba8e9a2ccc1d0bd911d4
+  - path: chall/chall.py
+    algorithm: sha256
+    value: f2c4e1d87d8ec076c80a27fbd3a7b6af1c6fdc458387ab4b84e2f179b52a4841
+  - path: chall/flag.pyc
+    algorithm: sha256
+    value: ad6ba43c3590e2ba371c608280b38704cf48fe138cd29040289537d7e8de23b6
+  - path: chall/secret.py
+    algorithm: sha256
+    value: 05c5afd8b71a3c778a69dfec2515324c799700368dc8210d79ae9f70149831a5
+  - path: chall/secret.pyc
+    algorithm: sha256
+    value: 570386c0fbc34701d4c83f758b95850f6325828a3164274043b1de057895541b
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Crypto/Baby PRNG 21 at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Crypto/Baby%20PRNG%2021
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/crypto/002-baby-prng-21/solver/ per
+  archive policy and is not listed as a preservation omission. The organizer README records that the challenge
+  shipped with a flag-format typo: the answers used JOINST21{...} instead of JOINTS21{...}, and participants
+  were told about it. The flag text itself is not repeated in archive metadata.'

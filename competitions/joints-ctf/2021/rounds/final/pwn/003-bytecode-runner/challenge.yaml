@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-pwn-003
+name: bytecode runner
+slug: 003-bytecode-runner
+original_name: bytecode runner
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: This program can save your custom bytecode and run it (maybe). But it still under development
+  so there're some bugs.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- heap
+- house-of-einherjar
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Pwn/bytecode runner
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a8a50cc5075f7890ad870d3f2756acc20ea8c73ddfd8d150ca169ca8cb4e6300
+  - path: attachment/bytecode_runner
+    algorithm: sha256
+    value: 2e47e2e06a9d1058407169622bfdbd1e1f21fe93ef25e3c462a64d93d0a2f916
+  - path: attachment/libc.so
+    algorithm: sha256
+    value: 09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 69918d8902178a3ff796a432c18d5ab1be510ba2ac11fd38e8589cac021185c2
+  - path: source/bytecode_runner
+    algorithm: sha256
+    value: 2e47e2e06a9d1058407169622bfdbd1e1f21fe93ef25e3c462a64d93d0a2f916
+  - path: source/bytecode_runner.c
+    algorithm: sha256
+    value: 773949c09d9c53aec8256c434109b0f2c0972219584aa6efbb3d4675ada756f7
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 02b4cf21304cab5f933ab2ee0e6d805005ceccb76f5adc1982d565b8bf5c0c4a
+  - path: source/flag.txt
+    algorithm: sha256
+    value: 572c730a8e052b6f708df64bb14a3323049a08d8aadd61664337f3a2ad9b64aa
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Pwn/bytecode runner at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Pwn/bytecode%20runner
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/pwn/003-bytecode-runner/solver/ per archive
+  policy and is not listed as a preservation omission.'

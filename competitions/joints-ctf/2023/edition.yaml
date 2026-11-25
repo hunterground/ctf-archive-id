@@ -12,10 +12,41 @@ statistics:
   participant_count: null
   challenge_count: null
 references:
-- title: ITB STIKOM Bali on JOINTS CTF 2023
-  url: https://www.stikom-bali.ac.id/id/kelompok-studi-linux-mengikuti-kegiatan-ctf-dan-programming-joints/
-  type: other
-  accessed: '2026-11-21'
+- title: Joints CTF 2023 challenges and writeups (CTF Pal)
+  url: https://ctfpal.com/writeups/ctf/joints-ctf-2023-2023-community
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: WU JOINTS 2023 Quality Seeds writeup PDF
+  url: https://encrypted.pandadevelopment.net/writeups/joints-2023-writeup.pdf
+  type: writeup
+  accessed: '2026-11-26'
+- title: UrSourceCode/ctf-writeup (2023-Joints CTF writeups)
+  url: https://github.com/UrSourceCode/ctf-writeup
+  type: writeup
+  accessed: '2026-11-26'
+- title: cipichop/CTFs (2023_JOINTS qualification and final writeups)
+  url: https://github.com/cipichop/CTFs
+  type: writeup
+  accessed: '2026-11-26'
+- title: TCP1P/TCP1P_CTF_writeup (Joints Quals 2023)
+  url: https://github.com/TCP1P/TCP1P_CTF_writeup
+  type: writeup
+  accessed: '2026-11-26'
 challenge_materials_imported: false
-notes: HIMAKOM UGM organized the CTF. Warm-up on 9 April 2023, qualification on 16 April 2023, and final
-  on 20 May 2023, online.
+notes: >
+  HIMAKOM UGM organized the CTF. Warm-up on 9 April 2023, qualification on 16 April 2023, and final
+  on 20 May 2023, online. No organizer- or author-published challenge repository was found for this
+  edition. Secondary sources only, recorded for review:
+  (1) CTF Pal lists six qualification challenges with published solutions — Decrypt, Dinosaur,
+  Easy CBC, Quals JCTF yesterday afternoons kidz, Vision, and whereIsThis — and assigns no category,
+  while writeups place them in OSINT, Forensics, Misc, Web, Pwn, and Crypto; 
+  (2) cipichop/CTFs holdsqualification (Forensics Dinosaur, Misc Mega SUS, Misc Strange Message, 
+  Forensics Spartan Ghosts, Pwn Book Store) and final (Forensics Ethereal, Forensics CustomSteg, 
+  Rev Impossible Game) writeups;
+  (3) UrSourceCode/ctf-writeup holds Web Vision, OSINT whereIsThis, Forensics Dinosaur, and Crypto
+  Easy CBC writeups; (4) a pandadevelopment.net PDF lists Osint, Forensic, MISC, Web, Binary
+  Exploitation, Reverse Engineering, and Crypto challenge names for the same qualification event.
+  These are third-party collections and writeups, not the challenge distribution, and are not
+  authoritative for categories, authors, or challenge counts. The flag format used in the 2023
+  qualification was JCTF2023{...} as reported by those writeups. Challenge count and participant
+  count are unverified.

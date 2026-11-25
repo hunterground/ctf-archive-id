@@ -1,0 +1,125 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-web-002
+name: Joints Pay
+slug: 002-joints-pay
+original_name: joints-pay
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: Ceritanya pengen punya wallet juga kayak ark\*v pay sama c\*mp\*est pay (tidak disponsori).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- xss
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Web/joints-pay
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 1f9978bbd4ceff35efa87b9ca77b948d46a35ddcb8457ca467d06d1205856ec6
+  - path: server/.gitignore
+    algorithm: sha256
+    value: 0cd064765b740a9d791f15266ee55d644b4b0cf40294754c21d5901ed9c781c3
+  - path: server/Dockerfile.app
+    algorithm: sha256
+    value: e50da426d80bf2b4180aecc16302c5e370178d1a8eed05dab2e498f5c34c3a74
+  - path: server/Dockerfile.nginx
+    algorithm: sha256
+    value: 4e0abc365b977db03bf8f4e51dfd41edbfd1dc287b56e639f96a5967fd1d67b1
+  - path: server/Dockerfile.selenium
+    algorithm: sha256
+    value: 2634656bddc0f65d8f6e52ade4080642cd9ad82a7bdf46eebea4aca58679c147
+  - path: server/docker-compose.yml
+    algorithm: sha256
+    value: 5a6cdf8effdfc4fb9790af2ed6f3ea33c104c5b7c414afeb8b780e6c24f3c383
+  - path: server/docker-compose.yml.save
+    algorithm: sha256
+    value: c2663176e92e76ff3c1e01900289682821b687d82fba8f3798bb79313aeed4dd
+  - path: server/nginx.conf.d
+    algorithm: sha256
+    value: fe17736f6daee9e0e1228cbded88f9b02d9d4ad274d3678669f04b317e88c3f8
+  - path: server/script.py
+    algorithm: sha256
+    value: 4ad9ca6fe2747b981762cbaad0c54bd21645129ac7d9743ca4787f366be8656c
+  - path: server/app/.env
+    algorithm: sha256
+    value: 54d2a1584283760148ff59f1dfd2331da703339949bfc2d7aa1858c4c528d697
+  - path: server/app/.gitignore
+    algorithm: sha256
+    value: e63b3cfa3ebd2c3ed9df99226dc31b180f2219c1c2ab32f9976cdb7e61e29186
+  - path: server/app/auth.php
+    algorithm: sha256
+    value: f56a7b1b9ee368d5ef0b7435f1f7aa131cb1e17d0f909a0b613f5b1448843b35
+  - path: server/app/bank_joints_jaya.db
+    algorithm: sha256
+    value: ea289efa7cf5bd7423e19f228a25842a8467fcef23326824dd821d2ed5eb892c
+  - path: server/app/composer.json
+    algorithm: sha256
+    value: 86de7b61fae835ad9e66d978144a4c927d72ba9218f740810d200ff15f73fd76
+  - path: server/app/composer.lock
+    algorithm: sha256
+    value: 66a9f8468a7950ad142213dfda0a2af2afa75491a8f05b65cac2f62c3339ca2a
+  - path: server/app/config.php
+    algorithm: sha256
+    value: 61991f377fa3ad2302f60e2bb6d011d99fe84f83070c6d6b2e8a087d62445053
+  - path: server/app/discord.php
+    algorithm: sha256
+    value: f71875c8bd4cce5033b548faaef4fb555bac0995ae90a3b9ccfd8395beeaf8bb
+  - path: server/app/exchange.php
+    algorithm: sha256
+    value: 3ac5ded88d38184cb02808e5d105bc49301a0886140e75cdeb9bb1cd03766acf
+  - path: server/app/index.php
+    algorithm: sha256
+    value: 523fc60d52d92b908119632beffa1863797d1c1fd9365d372455661733193a4f
+  - path: server/app/init.php
+    algorithm: sha256
+    value: b351796a7c1d35b7d83d24ad24161e97db3137ae233379d64593a3df781633b6
+  - path: server/app/s3cr3t_c0d3.php
+    algorithm: sha256
+    value: 6d1d219f28e4e0cb0da777ef0286c7fe6cd22adcaff11eb929d2dbf4dc80bc36
+  - path: server/app/send.php
+    algorithm: sha256
+    value: 38b70c23b05fcfede75476aa9ae3e25150bf150a9405180c370a69de7719ad34
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Web/joints-pay at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Web/joints-pay
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/web/002-joints-pay/solver/ per archive policy
+  and is not listed as a preservation omission.'

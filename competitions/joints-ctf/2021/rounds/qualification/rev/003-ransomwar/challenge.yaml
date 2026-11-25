@@ -1,0 +1,382 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-rev-003
+name: RansomWar
+slug: 003-ransomwar
+original_name: RansomWar
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: Kalo ada yang susah kenapa harus cari yang gampang
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- rev
+- ransomware
+authors:
+- name: ZeroDiv
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Reverse/RansomWar
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b2391ce90da7329730c27d128f2411d87a38eee6ff9aad2e5a4d459830b1e2a1
+  - path: chall/chall.py
+    algorithm: sha256
+    value: ae0a41d9dc772994f0cb298dce8684e69a4d278411c3af87ff6a8b02978637d9
+  - path: chall/chall.zip
+    algorithm: sha256
+    value: a242eb1c080b49eecae7fdd3f0629be22d440ae3e155902f75357c3638c45103
+  - path: chall/generate.py
+    algorithm: sha256
+    value: 0ecf3463d34af30b675394a9165295211a0292388fc844e18de575ef109dd1ba
+  - path: chall/listObfuscate.py
+    algorithm: sha256
+    value: ef7262bd653e7bb3100bc40e8a6ab2fd6fe3302decbe50314b7efc2676a0a876
+  - path: chall/secret.py
+    algorithm: sha256
+    value: c91e6e018eefbe19fda8d85358429d09d3bf771161a339d86f240465937aa098
+  - path: chall/secret.pyc
+    algorithm: sha256
+    value: 0599b9377b808178c565234c4ab259668d96bf2f52394f0180cd75b30550eb60
+  - path: chall/key/key0
+    algorithm: sha256
+    value: b63b7dbbee2789480456aa3c7f637cd799434ad27956314201263b1fcadca7a0
+  - path: chall/key/key1
+    algorithm: sha256
+    value: 5724e2e80c89ef7d6b13fbb6e1ba98cb379203b9cac5bcc82067cd82d860a495
+  - path: chall/key/key10
+    algorithm: sha256
+    value: 740617e4e4f92b7e6fccf2bb4f5e5ab7d9d88c62e62eaa78c233a020aff10e62
+  - path: chall/key/key11
+    algorithm: sha256
+    value: 8b8f2773ab84bce96212247253ab28a359003f302adce989e53e8e2d57dcae7a
+  - path: chall/key/key12
+    algorithm: sha256
+    value: 6afb0b42a2fd5de3308ddb70260c2beac5cc3a5280c07f6b137b251bbe1e1b8c
+  - path: chall/key/key13
+    algorithm: sha256
+    value: c04dad9f41a390f829b64d9ac33fce4b0afbb4ffa148cfaca44f973862cd3edc
+  - path: chall/key/key14
+    algorithm: sha256
+    value: da533993c30bc1f535de46e795483379a2ac611f62d20f98d2ac7588d6ab8e7c
+  - path: chall/key/key15
+    algorithm: sha256
+    value: cb78430eded3225ab693d79517273951ca2fca3dfc14abf71221d2238f7f59c4
+  - path: chall/key/key16
+    algorithm: sha256
+    value: ac9ac3e2165c10283d0a6f4ea42e289688fef6e6c10ed40cd77b13186c614189
+  - path: chall/key/key17
+    algorithm: sha256
+    value: 3e54f1a29c7b5278c978a3623b55563889841c436305b0a1711abeca1ab3e678
+  - path: chall/key/key18
+    algorithm: sha256
+    value: b8d03942f27ae4fef9fa7d168670cd6f7a216c373a6df5d65528914dcaae196a
+  - path: chall/key/key19
+    algorithm: sha256
+    value: 1f478b4cbd823867feacb1f299f243a91a912613f83250784c299764d24cd2cf
+  - path: chall/key/key2
+    algorithm: sha256
+    value: 06dda74e12ab55aebde726174ceb1d994bae3846c8a73d343893368a9183d649
+  - path: chall/key/key20
+    algorithm: sha256
+    value: ca5d00085666ae81e58e770825de10a0a5220d51e4ae7cc17e257097e3a3bfa8
+  - path: chall/key/key21
+    algorithm: sha256
+    value: 49451745d60efd8905cc99b4e53cd6aa75431ace8b1a56385fd56d46b8cb9dde
+  - path: chall/key/key22
+    algorithm: sha256
+    value: 598c9c2659a0c5367042df4b05fa1f0229f92f7d1d53d7dbc05abcfc95f8815e
+  - path: chall/key/key23
+    algorithm: sha256
+    value: 1c0f0b8aeebc4bd6bd47cfee5d95c8d9cf23bda6c8f345dc078f803e1a1b9220
+  - path: chall/key/key24
+    algorithm: sha256
+    value: 8a87a8e2be6bab09e17273cbf8339c63b79781025cb3bcc627dd95f9dc6ee408
+  - path: chall/key/key25
+    algorithm: sha256
+    value: 0c5f5cb7d464b1e0786ae97a536159f2fa377c04e3bd5a111ab54316f4154aaf
+  - path: chall/key/key26
+    algorithm: sha256
+    value: 0573cbf086bafb96371512555eb52af4d8de79ce4e3cd852e6e18370f2c4ca70
+  - path: chall/key/key27
+    algorithm: sha256
+    value: a72c469b63beb3245f803b53b682879d9540f617ec3b6f729083b9db570bfb02
+  - path: chall/key/key28
+    algorithm: sha256
+    value: c373b81ab42343116041c27121e20c38fec23257768d6aa79b11d6c41d96a59b
+  - path: chall/key/key29
+    algorithm: sha256
+    value: ae4bdfbee1eb3d11ca4d2d8fc68ee6d91cb46b7e4d51e052c3a0c8fe78b85f77
+  - path: chall/key/key3
+    algorithm: sha256
+    value: 3f7207b066b3425a3eee6b7778904ce3f2c1c095f061422037437ed5f8f23dc6
+  - path: chall/key/key30
+    algorithm: sha256
+    value: e0e17d388b7fdd2608d29484e9dd4db4c9d51f69df5fd03b474210f241a9c2d6
+  - path: chall/key/key31
+    algorithm: sha256
+    value: 3f027d3d9844286e67c26b78ee090e4465ecebb0d56e3aac9ab64df2f592949e
+  - path: chall/key/key32
+    algorithm: sha256
+    value: 9f92c86cde87343dbc723e1a323311456bdc8aa2a0b47e02c2dbf23744d9eca4
+  - path: chall/key/key33
+    algorithm: sha256
+    value: a05df323d2a2a0bd2e47e6467f72f2f4e752d290e6195358d363454ef629d4b0
+  - path: chall/key/key34
+    algorithm: sha256
+    value: 8043cbb49af27756436e024503bb95e7ec1d4ad803590569d6b908093392da18
+  - path: chall/key/key35
+    algorithm: sha256
+    value: 78bba6b9dfdf0c0cb9408e50bc39af824846f4c0e68c44dcf09ecbb51d34867c
+  - path: chall/key/key36
+    algorithm: sha256
+    value: 6819656e18d41ce8b7a05d1a35470b287a9aaf5c09a5037a029b63ce86df0a50
+  - path: chall/key/key37
+    algorithm: sha256
+    value: 49a1e986f5fea53a2436fd0cb6488b95917b08f07030f499bc92fe0d25c1ae3d
+  - path: chall/key/key38
+    algorithm: sha256
+    value: f4b8448ccb1c011a9e364f6d9b5752e837103160b62b722b18923643dfd92627
+  - path: chall/key/key39
+    algorithm: sha256
+    value: f5e079d30edae4ef8a367c443f74aca942d3796ddb716149e60ceafcd49ee47a
+  - path: chall/key/key4
+    algorithm: sha256
+    value: 30f316905e40193958f518b108c7175dea6afa3e346690d06b8b3d83cbf2adb7
+  - path: chall/key/key40
+    algorithm: sha256
+    value: 5545aaa00edc46231df6563a75ce5af52b9a12d64b4b0067e7ead2cfec1fe411
+  - path: chall/key/key41
+    algorithm: sha256
+    value: da8a1c93a454f68842cc2f9aa0f544bc7963c908f7bc1e6ed36c3666fee0eebf
+  - path: chall/key/key42
+    algorithm: sha256
+    value: 79b37f5381378e95e6d823fe0084748d08513b2eb0f0bb8f689113568d461fcb
+  - path: chall/key/key43
+    algorithm: sha256
+    value: e62145f9137851576a64d4b146931220f57919af93eeffecac53af756a548961
+  - path: chall/key/key44
+    algorithm: sha256
+    value: afcdba04d12231667fd15d4337947baf340f6d7478bd80a77b658b830f5d01f0
+  - path: chall/key/key45
+    algorithm: sha256
+    value: 929f552c299231cf6fe7fd114caa8fda8f4f7c7570f09819739359b0ff6d522f
+  - path: chall/key/key46
+    algorithm: sha256
+    value: 9d4ec901eda9cfe1abd0f7a8a08ee87dac0e887cf5e56e898763c0d7853d13b7
+  - path: chall/key/key47
+    algorithm: sha256
+    value: 1152e8766819524c4911fc7805efdb318329b29ec4d19a073548dac5a7941500
+  - path: chall/key/key48
+    algorithm: sha256
+    value: a983ecde65d7daa92aa34b88b0330b087192dbc930c3831ff6cad1dc3386e2a8
+  - path: chall/key/key49
+    algorithm: sha256
+    value: 2b1461d82b627daad0e8800a47553b1b3e85cd354aae73d8b318e60fcf350414
+  - path: chall/key/key5
+    algorithm: sha256
+    value: 3fab9121b9bc7b99fc3c84760295cdbd23a7c95fbd170abcc592c81673d752f8
+  - path: chall/key/key50
+    algorithm: sha256
+    value: 0777f099ca5ae70d4ece8256e2aebc2551f804ee46d3321c696b1849c3785510
+  - path: chall/key/key51
+    algorithm: sha256
+    value: a8079d8661eb0753f0b3f291e1f9ca12f85cd446a71487dfabe69fd342d280c3
+  - path: chall/key/key52
+    algorithm: sha256
+    value: 9fb7c8b128b37021c67fc40619e1c884f42ee88e8d92305a3c05622ce5a2f226
+  - path: chall/key/key53
+    algorithm: sha256
+    value: 872cb6c5a0d984d79162b7e5e56edb20861d667b6cad6e1f9206544694330619
+  - path: chall/key/key54
+    algorithm: sha256
+    value: 8cbc166c986868750f8e8b613e39baaa79b00e95df90ad29f4c7927808da06eb
+  - path: chall/key/key55
+    algorithm: sha256
+    value: 0561807d923ff6487ec66fbaf5c3a82e4023dd2349f86597ec58c73322f917f1
+  - path: chall/key/key56
+    algorithm: sha256
+    value: c6102dd485df2e7f22c5be2ecf6b428e02ba82623f09aa8e2c0a589f5870b4cb
+  - path: chall/key/key57
+    algorithm: sha256
+    value: 10a7afba5fa139575b9044006e63bc2f98663a587cce003d4d6a62e70eb85701
+  - path: chall/key/key58
+    algorithm: sha256
+    value: e218ef5bd5a7146650f095847ddc178efd5e81eb083913d7ac667d56d2ad6d84
+  - path: chall/key/key59
+    algorithm: sha256
+    value: 663fd9a8d0d623b4148cca63b8c64192f74e18ad85b3c7670b3b59b56e55ea22
+  - path: chall/key/key6
+    algorithm: sha256
+    value: d7ce5afbdd6f759df64b5063fbfdfaf8f67bc2c6488529b864f63eba183cdfe6
+  - path: chall/key/key60
+    algorithm: sha256
+    value: 9a2f9000be664fece85ceef24b759e2b0a40516126f34a9430d3e9d3d03bd014
+  - path: chall/key/key61
+    algorithm: sha256
+    value: 292b8b6a93377fd2ea2e4cec85a252867702bc054438c0ef1ab799a24e717828
+  - path: chall/key/key62
+    algorithm: sha256
+    value: 235e06842cc69faf213d540b0253527c157ccf36b100d96b2a0fa5ed1d619376
+  - path: chall/key/key63
+    algorithm: sha256
+    value: 91d7916ea1d2718edf4a17298b0fb85b64b1e13ce22da0f583ae4826d6efcbc2
+  - path: chall/key/key64
+    algorithm: sha256
+    value: 2567c41d17d2435769f16a0b653dcbb7c0441516c082e3e498ed2bd068df9e8b
+  - path: chall/key/key65
+    algorithm: sha256
+    value: 50ba6f76c1f8cb2e94b8715b904196fd1eaeadbdc4d55df28fc2a8e8e9aff298
+  - path: chall/key/key66
+    algorithm: sha256
+    value: 18e44b959acad9e8211549e3e44d63f3e13a12370463b23cb2860c1d01a60d93
+  - path: chall/key/key67
+    algorithm: sha256
+    value: f71183bed7229d9641d9d15147f8c40b8999a14c308faefe59fac58bc1cd8a14
+  - path: chall/key/key68
+    algorithm: sha256
+    value: 2a7c0e07249ed649255f89866809fdb9af9d72b636080c2785dc21d1a47b15c4
+  - path: chall/key/key69
+    algorithm: sha256
+    value: cb99430d067040b21dc6be75002c55512f643fd6f90f44cdfb0bddd52651daf9
+  - path: chall/key/key7
+    algorithm: sha256
+    value: d11130bf462bdd008ce5aac3768bab6e1e31480c0a1c63ec5fcc9d29a8ac9c86
+  - path: chall/key/key70
+    algorithm: sha256
+    value: 2a823b0d05b3880481cdd8a13941cd1c07e7de766e92a2fa8e1bfe586cb1bb57
+  - path: chall/key/key71
+    algorithm: sha256
+    value: e7227745ce610d4e8249f56325ab49c6fbe08360a1ad29ad1d47b0c3f7ddaa23
+  - path: chall/key/key72
+    algorithm: sha256
+    value: 7eb2e1e9c1276207de02889a9d10d249422857ce9bac97802d073eb21db6c9ee
+  - path: chall/key/key73
+    algorithm: sha256
+    value: bbca8b1e81eafaa62adb7cf95ffb9492ed00a4c93c4e57fe31d83b42239b17eb
+  - path: chall/key/key74
+    algorithm: sha256
+    value: 96a450a7930c91376f9ee56966dbf589e3f428feeee9e25aed4c235c793694d5
+  - path: chall/key/key75
+    algorithm: sha256
+    value: 11598e531c7149b669958643f1f11f73069490103f6893ce29d288ccf020f723
+  - path: chall/key/key76
+    algorithm: sha256
+    value: d14cd4d87f783254f1c1f9b351133e811d12fb1548fa34dcbc73a01d6b47fa21
+  - path: chall/key/key77
+    algorithm: sha256
+    value: bb7174e9f6ff1820c9b6dbbab8a0830c6aff520ddb6d5c7dae5738991472cc4b
+  - path: chall/key/key78
+    algorithm: sha256
+    value: 340110cb4c38c453e18c885fc1c4b8218336517949560934d28de99b61ef619e
+  - path: chall/key/key79
+    algorithm: sha256
+    value: bd2dd8ad492cd3932143bf9010b0be5be7feb961a4a8ff98673918f16584a733
+  - path: chall/key/key8
+    algorithm: sha256
+    value: d75434823c4fd77e2f29c1cb5b728400f44347f3a3f6f0a4dfc73a3892dcca1b
+  - path: chall/key/key80
+    algorithm: sha256
+    value: a4ef2a15a9507e20897d65c562b30c891c6a00d23f210d9bde17530262cd6590
+  - path: chall/key/key81
+    algorithm: sha256
+    value: 10a75dff9dc7e7268161ba1b181d69298606f9ea17f598ba0d29ee939d4792c4
+  - path: chall/key/key82
+    algorithm: sha256
+    value: 50e15572bfd73fccf536fc913d49219f16490ec046051df2f622bf24c6252bd9
+  - path: chall/key/key83
+    algorithm: sha256
+    value: e534c15cef15315ddeba63e7769f042d82f11905b0ef214af0ada8823e30b99f
+  - path: chall/key/key84
+    algorithm: sha256
+    value: 4d69e77b509f26b21ffdc68afcf346c97550f3f110b565f1bbdf19559e5c88b2
+  - path: chall/key/key85
+    algorithm: sha256
+    value: a8deca041d59ecd11e0c023e10ae9c7a7b68bd689fa93b40c5227b88877ed92d
+  - path: chall/key/key86
+    algorithm: sha256
+    value: 155ad859d407644e206c3fdaed3c28fb9670270252339dd092e6f447808155bf
+  - path: chall/key/key87
+    algorithm: sha256
+    value: 0e8c5e036a2075aa0a4cac258f829ecc16eb2d18d375b1e36b908f616c7ca9bc
+  - path: chall/key/key88
+    algorithm: sha256
+    value: 35d57911922aa5aca6521c3d6684997dc7a00970c1080cdfc66f83ceaf1d6051
+  - path: chall/key/key89
+    algorithm: sha256
+    value: 2353dde1e602c2c1ed605867cbc1a2211405b28a3ce8a1f26ed6a21aa70e937c
+  - path: chall/key/key9
+    algorithm: sha256
+    value: 53dc0f75228776e4b6fa01227792ea641b83ff37ea19994dd56b5004f3bcd9d1
+  - path: chall/key/key90
+    algorithm: sha256
+    value: 5e950b1f5371151e836ebf9009cff8869c68a83da972327bc8488bd7f9657df6
+  - path: chall/key/key91
+    algorithm: sha256
+    value: 54d48cde3bc676c1f9fcac20843b5560e725a96a0599d131453474874408bbe7
+  - path: chall/key/key92
+    algorithm: sha256
+    value: 991dd5b3b63ead63d925bbcfecfe4f5748c9f55e053f07bc7ee1f0deffdbd9a6
+  - path: chall/key/key93
+    algorithm: sha256
+    value: be891bcc792961ab21b57dc9d4d655cd385ab7234b65803576935d0957cc3308
+  - path: chall/key/key94
+    algorithm: sha256
+    value: 9c942112ef615c643efd73d46207ba72412848076202d605fe3af3697b87f317
+  - path: chall/key/key95
+    algorithm: sha256
+    value: 37e2e780ffbb5016192b27309dbd50ed335220ae0d5fdfabd2cf9c6b570ea9b9
+  - path: chall/key/key96
+    algorithm: sha256
+    value: ff811b20e84bfa9e34cf55590cbf73016428c0f33a698ce1806f1aa5d2e45cab
+  - path: chall/key/key97
+    algorithm: sha256
+    value: fff42fcf7b5de9db638f870690bf2694e4c5af7f56bccacd649719bd1e2875a3
+  - path: chall/key/key98
+    algorithm: sha256
+    value: 3f728afebc9fc49c9658522063737b66e2edfddc5e37e1dcac2f5305b5e39d72
+  - path: chall/key/key99
+    algorithm: sha256
+    value: a92986fd230eb7fb86077c63537cad4a92df8385950e95be94e326f4d86bd4bd
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Reverse/RansomWar at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Reverse/RansomWar
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/rev/003-ransomwar/solver/ per archive
+  policy and is not listed as a preservation omission.'

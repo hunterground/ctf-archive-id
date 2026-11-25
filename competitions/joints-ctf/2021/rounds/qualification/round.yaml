@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: qualification
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+name: Penyisihan
+original_name: Quals
+sequence: 2
+type: qualification
+delivery: online
+description: >
+  Qualification stage of JOINTS CTF 2021, published by the organizer as the Quals directory.
+  Sixteen challenges across the source categories Crypto, Forensics, Pwn, Reverse, and Web.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 16
+  participant_count: null
+references:
+- title: OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  The source directory is named Quals; the archive round id is qualification and the original
+  name is preserved here. Category counts: Crypto 3, Forensics 4, Pwn 3, Reverse 3, Web 3.
+  Sequence numbers follow the order the organizer repository lists each category. Source
+  directory Reverse maps to the archive category rev, and is kept as original_category. No
+  qualification date is stated in the source, so dates stay null.

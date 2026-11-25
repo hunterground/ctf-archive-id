@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-web-001
+name: Waifu Terbaik
+slug: 001-best-waifu
+original_name: best-waifu
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: There is one impostor among waifus.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- nosql-injection
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Web/best-waifu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.MD
+    algorithm: sha256
+    value: 8e388c744a875d2b9a64a79f6f850b2c4e2e39ab139aa7be5a3030ea259d7b28
+  - path: server/Dockerfile.app
+    algorithm: sha256
+    value: 5140a0430dc6f92591912af4cf231c4ce66a901eeab14f73988baf7fff040e93
+  - path: server/Dockerfile.nginx
+    algorithm: sha256
+    value: 4e0abc365b977db03bf8f4e51dfd41edbfd1dc287b56e639f96a5967fd1d67b1
+  - path: server/docker-compose.yml
+    algorithm: sha256
+    value: 6a5dfe73a78fbe877932cd3983c46d88e69d7a8e6e47815347e8d9e05e8cc2ee
+  - path: server/entrypoint.sh
+    algorithm: sha256
+    value: 499eecf791da6e16e53f2e7e52eb59d0c6afe280fe60b8a0af31ba3e46ced79e
+  - path: server/nginx.conf.d
+    algorithm: sha256
+    value: 0136496b5dd71f70917985b9dfda6069bf14842dfc56f4a8e2f0ab5b2b2809c6
+  - path: server/app/.gitignore
+    algorithm: sha256
+    value: e63b3cfa3ebd2c3ed9df99226dc31b180f2219c1c2ab32f9976cdb7e61e29186
+  - path: server/app/api.php
+    algorithm: sha256
+    value: 0223e8cbf6530dbc0067842821f8e14d0d9e68d6c8bc724abfd933d5cca2f817
+  - path: server/app/composer.json
+    algorithm: sha256
+    value: e6374bcbdef1871baa53462a8e491590108780c3087fe5346c097025504ffdf4
+  - path: server/app/composer.lock
+    algorithm: sha256
+    value: 1e98d284133c7b977303d6e70b6993895ce702bf209b355626dad12491a09c10
+  - path: server/app/config.php
+    algorithm: sha256
+    value: 8cba941eee7f9ca26b0a42bde66db54cfde116272b1cc660a6185b4511533a8c
+  - path: server/app/index.php
+    algorithm: sha256
+    value: 0c7b7d614597a8aece31b57fd6aebb14667a5d5b970aca2adb20fb7196b27d43
+  - path: server/app/init.php
+    algorithm: sha256
+    value: e37f2d0b2690c6a363d31dc2d402961a8114a0b4702c4b7738af4786131e28a8
+  - path: server/app/style.css
+    algorithm: sha256
+    value: 1fe0f81732219e9056ab191452d10beb9b8da77f542a8a38430f6ddd1080fe16
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Web/best-waifu at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Web/best-waifu
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/web/001-best-waifu/solver/ per archive policy
+  and is not listed as a preservation omission.'

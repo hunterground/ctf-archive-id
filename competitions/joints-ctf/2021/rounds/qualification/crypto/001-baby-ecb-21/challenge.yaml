@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-crypto-001
+name: Baby ECB 21
+slug: 001-baby-ecb-21
+original_name: Baby ECB 21
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Crypto
+description: Mas Suryo dan Mas Dewo berusaha membuat penelitan tentang kelemahan algoritma AES pada mode
+  ECB. Namun karena mereka putus asa, akhirnya mereka hanya membuat sistem autentikasi dengan memanfaatkan
+  algoritma enkripsi AES ECB. Bantulah Mas Suryo dan Dewo untuk menyelesaikan penelitiannya, buktikan
+  bahwa sistem autentikasi mereka bisa dijebol meskipun anda tidak mengetahui soskod.
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- crypto
+- aes-ecb
+authors:
+- name: ZeroDiv
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Crypto/Baby ECB 21
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 766e9647e41f0b9ac8e00a47cb1dcb6416edd89db232771be5e18eda13593ef0
+  - path: chall/Dockerfile
+    algorithm: sha256
+    value: 16ddd53c5523d10ba72215ea3a69a8de6b997b5b2bb2af59aa6ae403d826b942
+  - path: chall/chall.py
+    algorithm: sha256
+    value: 1766859d3c198ccbcbb5dd8917097f9492a09352eb29abfd6dcc83b2cd309c3f
+  - path: chall/docker-compose.yml
+    algorithm: sha256
+    value: 781ac316298a572f156eb248a3ed1cc043f62963f229787672bb975a125bab30
+  - path: chall/secret.py
+    algorithm: sha256
+    value: 612c4bdd3b659c5d584360b3f6970585cf229e3fdffc1e12b49d71298deafda2
+  - path: chall/secret.pyc
+    algorithm: sha256
+    value: 2b99595e8b9e761d64fc3207384a3f8361537c2bfd01258906840751cb3bbfb3
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Crypto/Baby ECB 21 at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Crypto/Baby%20ECB%2021
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/crypto/001-baby-ecb-21/solver/ per
+  archive policy and is not listed as a preservation omission.'

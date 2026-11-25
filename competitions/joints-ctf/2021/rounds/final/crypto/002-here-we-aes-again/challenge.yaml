@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-crypto-002
+name: Here We AES Again
+slug: 002-here-we-aes-again
+original_name: here_we_aes_again
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: Crypto
+description: We are bored and decide to try this mode of AES to be used for our secret agent service.
+  Please test it out.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- aes
+authors:
+- name: yeraisci
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Crypto/here_we_aes_again
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4781f30dcd2d17a6e3945ede844b143ecec19973181e85a8e71d5ed2d95382a6
+  - path: here_we_aes_again_server/Dockerfile
+    algorithm: sha256
+    value: 8de476dd699139540c4f91bdca6fc1b25428f7b8e6fbcee6526b6163f0428037
+  - path: here_we_aes_again_server/chall.py
+    algorithm: sha256
+    value: e08a774b3b552b427aa5a3518555c18bc38adad3e902cb14c5165ad623c10261
+  - path: here_we_aes_again_server/docker-compose.yml
+    algorithm: sha256
+    value: 40f705b99180c50df49a3889adf98cc631703454116096f51dfddbadd3a59de5
+  - path: here_we_aes_again_server/flag.txt
+    algorithm: sha256
+    value: 048d7e6b5fb3fa32991cb32b99b9526fc91e8a0f16d8b95be5ff0dc0ce56966a
+  - path: peserta/chall.py
+    algorithm: sha256
+    value: e08a774b3b552b427aa5a3518555c18bc38adad3e902cb14c5165ad623c10261
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Crypto/here_we_aes_again at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Crypto/here_we_aes_again
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/crypto/002-here-we-aes-again/solver/ per
+  archive policy and is not listed as a preservation omission.'

@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-misc-001
+name: Pyjail
+slug: 001-pyjail
+original_name: Pyjail
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: misc
+original_category: Misc
+description: '`nc ip port`'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- pyjail
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Misc/Pyjail
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 18ebfaf8efa6a7fafc92ba7dd15189ff0450acca687ae0d8a071d8f5217c2faa
+  - path: flag.txt
+    algorithm: sha256
+    value: 3cb43aad6d9674ce4f062493349b4c0108c6284a778fb5d49671cc0fe7cade1d
+  - path: peserta/src.zip
+    algorithm: sha256
+    value: 70eab5b2e6f1621b002ebf4680158b2e092f72434cd166c29ae6367adcf2b265
+  - path: server/Dockerfile
+    algorithm: sha256
+    value: 8da9a004665d844ffab45ea46199fd6dc0c5d7e3b8409e037a2528e3766865d8
+  - path: server/docker-compose.yml
+    algorithm: sha256
+    value: 0f6a758586cab7fd169da93c2daddf2be085cf0a18f5627f5c5d708a2d08c163
+  - path: server/flag.txt
+    algorithm: sha256
+    value: 3cb43aad6d9674ce4f062493349b4c0108c6284a778fb5d49671cc0fe7cade1d
+  - path: server/src/jail.py
+    algorithm: sha256
+    value: 51ea232a0b684e6ffc8d4d57d57d2d52374eb071fc0dc2d11f3986f90abce4c6
+  - path: server/src/enum/__init__.py
+    algorithm: sha256
+    value: 252758497799d504a9ebb8237c8db8aae89e3cfb6b94d5e15ef9bea5abfc9ee4
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Misc/Pyjail at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Misc/Pyjail
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/misc/001-pyjail/solver/ per archive policy
+  and is not listed as a preservation omission.'

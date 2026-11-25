@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-forensics-003
+name: Where is the file
+slug: 003-where-is-the-file
+original_name: Where is the file
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Polisi menangkap pengedar ℌệ𝔫𝔱ằ𝔦. Saat ingin mengambil bukti berupa harddisk milik pelaku,
+  pelaku sempat memberontak dan menyentuh komputernya selama beberapa detik. Bantulah pak polisi agar
+  dapat ~~menonton ℌệ𝔫𝔱ằ𝔦~~ menunjukkan barang bukti.
+difficulty:
+  value: medium-easy
+  source: organizer
+tags:
+- forensics
+- disk-forensics
+- raid
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Forensics/Where is the file
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 283079d9c5779701820d33dcf8b9190cf2b384aedd2e31cfa0e9297c39021b34
+  - path: disk.zip
+    algorithm: sha256
+    value: 7ef2229a1c7688defaedc3da97ee6249f86ab61b87aac97cef83bcf4c536dfde
+  - path: src/bait.png
+    algorithm: sha256
+    value: 5b20236994a725df94eea888e218e98aebeb6938b429c92cf3624c1ad42dc18b
+  - path: src/corruptor.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/disk1.img
+    algorithm: sha256
+    value: 7dc3d748181fe35558beb88d6c9d53eef6d31d4eea7fd55895be2edf513ebde0
+  - path: src/disk2.img
+    algorithm: sha256
+    value: b66998d832e1ff4ca3fd85b6fff2bf7e59f153140af8473c5f6ac0e273ca373e
+  - path: src/disk3.img
+    algorithm: sha256
+    value: 2098309e9d12189d859aa6d2d4cb90cfa17f48a751e5e7f52824b971e3b3189f
+  - path: src/disk3_brkn.img
+    algorithm: sha256
+    value: fddc0c9ad4736f28511b1f8ecb4efef4a5d04101f69c84b2b430da4acd735c3b
+  - path: src/disk4.img
+    algorithm: sha256
+    value: 900530dfe052ed39a50965971d7faa5dcf58b97e748f7423f72bb747c9f5e15e
+  - path: src/flag.png
+    algorithm: sha256
+    value: 42ee9231d70ed2cc6b0e60751d1b52890cf06add5bae6203948a806e2485c4dc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 719c2d075c6990fde41a2e65d2d0b7a0bc90b0f51af834448fc86580c8db7a96
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Forensics/Where is the file at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Forensics/Where%20is%20the%20file
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository.'

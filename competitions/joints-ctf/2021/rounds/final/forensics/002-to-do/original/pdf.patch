@@ -1,0 +1,13 @@
+diff --git a/weasyprint/pdf.py b/weasyprint/pdf.py
+index 3f5c231a..40bfac5c 100644
+--- a/weasyprint/pdf.py
++++ b/weasyprint/pdf.py
+@@ -471,7 +471,7 @@ def _write_pdf_attachment(pdf, attachment, url_fetcher):
+     return pdf.write_new_object(pdf_format(
+         '<< /Type /Filespec /F () /UF {0!P} /EF << /F {1} 0 R >> '
+         '/Desc {2!P}\n>>',
+-        filename,
++        '',
+         file_stream_id,
+         attachment.description or ''))
+ 

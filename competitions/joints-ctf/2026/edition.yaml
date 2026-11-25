@@ -12,12 +12,23 @@ statistics:
   participant_count: null
   challenge_count: null
 references:
-- title: JOINTS x INSPIRE 2026 Capture The Flag
-  url: https://jointsxinspire.com/ctf
-  type: official_website
-  accessed: '2026-11-21'
+- title: JOINTS 2026 CTF - Qualifier on TCP1P::CTF
+  url: https://tcp.1pc.tf/games/44
+  type: third_party_archive
+  accessed: '2026-11-26'
 challenge_materials_imported: false
-notes: 'Official timeline: warm-up on 28 September 2026, qualification on 29 September 2026, finalist
-  announcement on 11 October 2026, and a final technical meeting on 26 October 2026. The timeline also
-  lists 1 November without a stage label, so no end date is recorded. The edition is a collaboration of
-  HIMAKOM and HMEI UGM.'
+notes: 'Official timeline from the organizer website: warm-up on 28 September 2026, qualification (Penyisihan)
+  on 29 September 2026, finalist announcement on 11 October 2026, final technical meeting on 26 October
+  2026, and an unlabelled 1 November 2026 entry. The CTF page gives no stage label for 1 November, and
+  the separate Hackathon page of the same festival describes 1 November as its own Grand Final day, so
+  1 November is not recorded as the CTF end date and end stays null. The edition is a collaboration of
+  HIMAKOM and HMEI UGM. No organizer- or author-published challenge repository was found: the qualifier
+  was staged from a private TCP1P/joints-2026 repository, and ctf.jointsxinspire.com requires a login,
+  so no challenge files were imported. Secondary sources recorded for review only: the TCP1P::CTF event
+  page describes an online 24-hour jeopardy qualifier with 10 challenges across Web, Forensics, Crypto,
+  Pwn, and Reverse Engineering and a JOINTS{.*} flag format; it also lists a start of 28 September 2026
+  and an end that reads 26 October 2027, which conflicts with the organizer timeline, so those platform
+  dates are not used. The author page keii.malwr.es states that its owner authored JOINTS 2026 challenges
+  but names no challenge. No public 2026 final writeups were found. Challenge count stays null because
+  the platform figure of 10 covers the qualifier only and could not be corroborated from an organizer
+  publication.'

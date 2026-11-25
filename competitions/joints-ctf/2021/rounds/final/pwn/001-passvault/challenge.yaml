@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: joints-ctf-2021-final-pwn-001
+name: PassVault
+slug: 001-passvault
+original_name: PassVault
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Pwn
+description: Some "password manager" program.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- got-overwrite
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Final/Pwn/PassVault
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 30e9685da509bb7562b19a7114db53651012f2d60adf180d8ac6dc9c5ee04e2b
+  - path: attachment/PassVault
+    algorithm: sha256
+    value: d1e119f3b1e54cc6bb34d0ef45f447d3ab1b28819d35706856f52435267be2b9
+  - path: attachment/libc.so
+    algorithm: sha256
+    value: 09d4dc50d7b31bca5fbbd60efebe4ce2ce698c46753a7f643337a303c58db541
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: ab3779adcec4d5d7defb1a2be44fa98e6253d3ae1c5d143205e011b5a2a22215
+  - path: source/PassVault
+    algorithm: sha256
+    value: d1e119f3b1e54cc6bb34d0ef45f447d3ab1b28819d35706856f52435267be2b9
+  - path: source/PassVault.c
+    algorithm: sha256
+    value: 1b63bcd58335be20264a3a2c122474a25a1c21e2e507aa378cf33316fa22a5ec
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: ebca95093bfc19e1f1f26c67c0d5cb483b348d21fc28020824d93eb3de689296
+  - path: source/flag.txt
+    algorithm: sha256
+    value: a850cba889d7cd9036d77e054a74d57f12865355ad14dc3a049ef50cd8dd9d56
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Final/Pwn/PassVault at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Final/Pwn/PassVault
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/final/pwn/001-passvault/solver/ per archive policy
+  and is not listed as a preservation omission.'

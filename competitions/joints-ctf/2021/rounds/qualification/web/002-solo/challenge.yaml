@@ -1,0 +1,423 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-web-002
+name: Solo
+slug: 002-solo
+original_name: Solo
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Now that you're alone, got you lookin' for a clone now
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: yeraisci
+  team: null
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Web/Solo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6f8d342787d3dd86bef05367c195987994641fe3e4d3166adc1309962a823d07
+  - path: peserta/server.zip
+    algorithm: sha256
+    value: ff152c1c56862e517079287022f827d0487fd76bcff379bf770d8ed1e31832f5
+  - path: solo_server/Dockerfile
+    algorithm: sha256
+    value: e9db847a9232a53948757dc44ea5c4736c7509bb46186750ac44991273965f2f
+  - path: solo_server/docker-compose.yml
+    algorithm: sha256
+    value: 9e854189e629276267fc2f9d1b7047823b23c16f1d972a46ce4eb801e62ea97e
+  - path: solo_server/myapp/.browserslistrc
+    algorithm: sha256
+    value: 78ae11b40c76a29d2acfbe6de31df67a3593632482fb62ea23e648a9d1a0405e
+  - path: solo_server/myapp/.ruby-version
+    algorithm: sha256
+    value: 018e736a392bcf96a01ad119a644ebf84c8801e3ec689cc477f9b137c7d37e34
+  - path: solo_server/myapp/Gemfile
+    algorithm: sha256
+    value: 928f7bb56549669257fdcea03853ffb32fbfc6d24f35d71b278ee8216a7cde3c
+  - path: solo_server/myapp/Gemfile.lock
+    algorithm: sha256
+    value: ed451abea025c4e867120575b435a6e1589c6eca212241ececca80a0525a3752
+  - path: solo_server/myapp/README.md
+    algorithm: sha256
+    value: cb08e48b7df3451e22fb32b808eee8b7c12d330b7f04be49353715fe612fa7d7
+  - path: solo_server/myapp/Rakefile
+    algorithm: sha256
+    value: a30fbd85c291be7205153650b46a99081cfb0dcd278a69b8b66ef391957fd4ca
+  - path: solo_server/myapp/babel.config.js
+    algorithm: sha256
+    value: 39092385320dd0802588b5197dd278e31133845f2949e65e2dd022f92e1e3557
+  - path: solo_server/myapp/config.ru
+    algorithm: sha256
+    value: 4572825be9bd16bbc408ff7fc4841a5c456080cb6a00f258f898a42a7a8c53de
+  - path: solo_server/myapp/package.json
+    algorithm: sha256
+    value: 9268fba0d025e997d0218d26515aa93248e069d9508ae753b4d6632835a213dc
+  - path: solo_server/myapp/postcss.config.js
+    algorithm: sha256
+    value: fd09226cc1d7330ab0cc1a22104e95864f85865ed399fde9d0e869aade946ef6
+  - path: solo_server/myapp/yarn.lock
+    algorithm: sha256
+    value: 15fec363cbb799e375cb8aa10bf7b6a6ef92e214f77af4e2ff979f3a7baa12be
+  - path: solo_server/myapp/app/assets/config/manifest.js
+    algorithm: sha256
+    value: 85eb38b826db8ec906b5ae5f080ac0b7321cd1f8d1d438cf14504cb412ded47d
+  - path: solo_server/myapp/app/assets/images/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/app/assets/stylesheets/application.css
+    algorithm: sha256
+    value: cbcd25d1e1f63fce61113e3697288dad38e4028fe792cfa53e6accc29961557a
+  - path: solo_server/myapp/app/assets/stylesheets/pages.scss
+    algorithm: sha256
+    value: c3847c2e41454f2b4cb64e3288702e56d72bad71a9f125e5288b01744ee7aa09
+  - path: solo_server/myapp/app/assets/stylesheets/sessions.scss
+    algorithm: sha256
+    value: c9f94c464dbd0f880bbfe6027c2d89610f6a0b2867c56f6f6233e135af2cdd04
+  - path: solo_server/myapp/app/assets/stylesheets/users.scss
+    algorithm: sha256
+    value: 3438f8360acfb795c33b24e047488961b0cca492065d8f3b2b0fcef941b3557f
+  - path: solo_server/myapp/app/channels/application_cable/channel.rb
+    algorithm: sha256
+    value: 38d579eae4970bc9bb298cc8d4bfb0e4d6390d94e5d4e3068be6c8479c5551ed
+  - path: solo_server/myapp/app/channels/application_cable/connection.rb
+    algorithm: sha256
+    value: d7498ba24c43e669bdbf01d29b058514fe3c4a26d439992e54a8e56acd07a8fb
+  - path: solo_server/myapp/app/controllers/application_controller.rb
+    algorithm: sha256
+    value: b2aa4fd3c5de634e8300063247f726a5af4cda0b71351e04a8c8ca32bc925c3b
+  - path: solo_server/myapp/app/controllers/pages_controller.rb
+    algorithm: sha256
+    value: 12757e898dad1f6d98de84520e4c062f148165d47e7c43be79561494ca00e5b4
+  - path: solo_server/myapp/app/controllers/sessions_controller.rb
+    algorithm: sha256
+    value: 567682d52035fd4e9198edc23adf1af8cd3442849203b43d45d2a986d01f369c
+  - path: solo_server/myapp/app/controllers/users_controller.rb
+    algorithm: sha256
+    value: d264172cd6eff7e4866d3778725b3f6048b4b702e8be80911db8ec726b01903f
+  - path: solo_server/myapp/app/controllers/concerns/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/app/helpers/application_helper.rb
+    algorithm: sha256
+    value: f77fac5ea412dbed92c4524fe0ed180acb2b7239f84daf758da989032301f5c8
+  - path: solo_server/myapp/app/helpers/pages_helper.rb
+    algorithm: sha256
+    value: 30d2c1f5da3fc1b67b3d0372479aca27a57ad2e90178241c1f0cce92bb05d203
+  - path: solo_server/myapp/app/helpers/sessions_helper.rb
+    algorithm: sha256
+    value: c4dba2cb2c6324bd0e262d82d57f30b98c4aebb0a7502b4569da103f78ffb05f
+  - path: solo_server/myapp/app/helpers/users_helper.rb
+    algorithm: sha256
+    value: a3a234e3eedf0c6c183d825afcf2406af9af8ae8ab71693f0cdfe99b8277f75b
+  - path: solo_server/myapp/app/javascript/channels/consumer.js
+    algorithm: sha256
+    value: c08bb896cdb3d18bfd6e6260ef7c12eb6038e7b5edfecd5377a73f90107044ce
+  - path: solo_server/myapp/app/javascript/channels/index.js
+    algorithm: sha256
+    value: 4baaff58efa6e8e7bcb7603a7cbc8da72145bf2ffb071987d2bf7964984fcbe7
+  - path: solo_server/myapp/app/javascript/packs/application.js
+    algorithm: sha256
+    value: d01bbf06517185239b6ee3ebf2856daf26016b313b2055280be41ff2a6f00aad
+  - path: solo_server/myapp/app/jobs/application_job.rb
+    algorithm: sha256
+    value: d51e125007521b0f59765422cf3cf949b59b2054cdac6567a95b4a7aeaf1d722
+  - path: solo_server/myapp/app/mailers/application_mailer.rb
+    algorithm: sha256
+    value: 32b72f2b8c99726ef741f365bfafa79da8863fb4b65507e8ebcc2bc5dfe3c688
+  - path: solo_server/myapp/app/models/application_record.rb
+    algorithm: sha256
+    value: 20cec87060a568766c09d755b1ba38e7ed776d7f6030515217096f4f4777525e
+  - path: solo_server/myapp/app/models/page.rb
+    algorithm: sha256
+    value: 2583055cb4a622b5120bfd5c5dd446cb6ac402686a81b9448bb6dd428ceebfde
+  - path: solo_server/myapp/app/models/user.rb
+    algorithm: sha256
+    value: 40cc53c106d34b5a555162750d12f1a18e180324cdde97d83679571d5854009c
+  - path: solo_server/myapp/app/models/concerns/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/app/views/layouts/application.html.erb
+    algorithm: sha256
+    value: cfee884c8d4ac4911210711a21f661eac7aafda894834de3ee4507e92baf0312
+  - path: solo_server/myapp/app/views/layouts/mailer.html.erb
+    algorithm: sha256
+    value: b98faac075c83b69e9a6b8fbde96eb19f9801e38f42ab42a725501153c895acb
+  - path: solo_server/myapp/app/views/layouts/mailer.text.erb
+    algorithm: sha256
+    value: 51353f9de3a26d4b28f7db91152bf56d31cfa9e4bd3c834680772a63cd374698
+  - path: solo_server/myapp/app/views/pages/new.html.erb
+    algorithm: sha256
+    value: 89ed64cc9ecaede068978518f066e5a21c1c8c5a7cd969566fdf8bdb9bb2a6fa
+  - path: solo_server/myapp/app/views/pages/show.html.erb
+    algorithm: sha256
+    value: bccbd420dcf269ba3c0e3ad4311ef234b1f45f507eeb08738ad3d1701583f484
+  - path: solo_server/myapp/app/views/sessions/new.html.erb
+    algorithm: sha256
+    value: ea72bb64162c4a03095aab5849fb0048c1d0710e8f80adca794907fb45dbfcfb
+  - path: solo_server/myapp/app/views/users/new.html.erb
+    algorithm: sha256
+    value: c547be89732e5df1727054a9f6ae84f55640a6375798612cd1e58766d1b58ab3
+  - path: solo_server/myapp/bin/rails
+    algorithm: sha256
+    value: 466686d6fc5aad5233475803ea62e5efde20fceb95496aaf747a1accdadc3fae
+  - path: solo_server/myapp/bin/rake
+    algorithm: sha256
+    value: 436f1fbb82e7b52d0bc032ac6ac9dce49a3f3ec47b909c863783021c116c264c
+  - path: solo_server/myapp/bin/setup
+    algorithm: sha256
+    value: 5ad9cc76600c9000eb07cf355cdd8bd25c1e80bbee9103d3a9703a4c5cab952d
+  - path: solo_server/myapp/bin/webpack
+    algorithm: sha256
+    value: 8596a7be6fb99f55f110a296c75e5f3ed43a01cee5255b5fed96c9dfbb1353e6
+  - path: solo_server/myapp/bin/webpack-dev-server
+    algorithm: sha256
+    value: 001e15ce6c6d87184f20177e2f412435f59e6663faa8a4d32f8b36f0e19647fc
+  - path: solo_server/myapp/bin/yarn
+    algorithm: sha256
+    value: 55031abe261801b97f635569305fa48a38ca680b6a70dbd7f8f0aae503ea8915
+  - path: solo_server/myapp/config/application.rb
+    algorithm: sha256
+    value: b505e016083964dfd5d80e80f2b063274caacf15094145762dc5a5c6bba4e9be
+  - path: solo_server/myapp/config/boot.rb
+    algorithm: sha256
+    value: 6a6aa54b6b96a3fde6cfdc0a5c59803d363609adcb76a0063c032a60971dbc51
+  - path: solo_server/myapp/config/cable.yml
+    algorithm: sha256
+    value: eda0586439f63c35427cf2086dc0b36469f87eb9d6f3bcafffe72571cde869b2
+  - path: solo_server/myapp/config/credentials.yml.enc
+    algorithm: sha256
+    value: 9e5ed306e30e0b53b1d4bd0baaf4391b2b32cde9397183c29c43944205bd665e
+  - path: solo_server/myapp/config/database.yml
+    algorithm: sha256
+    value: 71aa41bb82599b443db399d203b73f7ca52ff697a17317c94e391f7f974fa2a2
+  - path: solo_server/myapp/config/environment.rb
+    algorithm: sha256
+    value: 8ec4d2e8b7cbf7ce55c0c7a7ac4238ad8f13728d7cc8e772b37802e3ebbdf47c
+  - path: solo_server/myapp/config/master.key
+    algorithm: sha256
+    value: f749b6f8bfb3d82bae6ec2ab2292bf3e22cb322bf992671b80738dd688668f9c
+  - path: solo_server/myapp/config/puma.rb
+    algorithm: sha256
+    value: f0e9bcb32a5e4067524aad4b7f4c1067915c67e6ec9ed57178bf4d108c15fd26
+  - path: solo_server/myapp/config/routes.rb
+    algorithm: sha256
+    value: 4a840809c3fdd9a874ae35a6fe0b5817860d7bb3b61d731bb59f10e3c2e2582f
+  - path: solo_server/myapp/config/spring.rb
+    algorithm: sha256
+    value: d9230eead11d6acf33c163518fccb90a3b96451d57a0685011020688c19e4cec
+  - path: solo_server/myapp/config/storage.yml
+    algorithm: sha256
+    value: 88082bbc96463336f95d17ed9ef787c85639f4159ddf1a525dd99261993b3222
+  - path: solo_server/myapp/config/webpacker.yml
+    algorithm: sha256
+    value: 2b6e83a5867c78bdddea0a3398ae0655eed273eee8943c6092505b205ba28ff6
+  - path: solo_server/myapp/config/environments/development.rb
+    algorithm: sha256
+    value: 7ba4420dfbfba7d767a45fb4b4fb27559f46fa656e5a4c3a7a3e0b6af855efcd
+  - path: solo_server/myapp/config/environments/production.rb
+    algorithm: sha256
+    value: 88354e66e4d666e38c55fc2b8d0a7e4cf716a297a76044952e014b0e99c31a31
+  - path: solo_server/myapp/config/environments/test.rb
+    algorithm: sha256
+    value: 0219c3ecaba12d71ea892d6a0d3e482e00c05c47f5e70c8a31b97fa754505d7e
+  - path: solo_server/myapp/config/initializers/application_controller_renderer.rb
+    algorithm: sha256
+    value: 2da60f6ea41acdb4d85b965e7cedca0ab6ae9d45d44de9c15d8eeff44f05dac0
+  - path: solo_server/myapp/config/initializers/assets.rb
+    algorithm: sha256
+    value: 5f1833d2913287fefe6fb39652b8ef85009261996469c889a116aedede4edceb
+  - path: solo_server/myapp/config/initializers/backtrace_silencers.rb
+    algorithm: sha256
+    value: 12656d43090727d98c72bed6ba153b501ae0b7fdc5f20cfd64b5ab8a8bfa87a8
+  - path: solo_server/myapp/config/initializers/content_security_policy.rb
+    algorithm: sha256
+    value: 5cb853dc64a6646231e87932698cd49736fab3ff6497ed21eb0cc1d2e6bee787
+  - path: solo_server/myapp/config/initializers/cookies_serializer.rb
+    algorithm: sha256
+    value: 94782fa044850c5e6ec02c87eab7df522e2d589d4ba8d746bbf30fe63c9da23a
+  - path: solo_server/myapp/config/initializers/filter_parameter_logging.rb
+    algorithm: sha256
+    value: eb293cbcac26012fb63489b355b7a68df2e0f5006abe79e2128752f40514aaf4
+  - path: solo_server/myapp/config/initializers/inflections.rb
+    algorithm: sha256
+    value: a2045e2ce03f29305e052a9236ff41d4c7d4d171c0fa5bf8cfbc958edd307df6
+  - path: solo_server/myapp/config/initializers/mime_types.rb
+    algorithm: sha256
+    value: 47b40f15fe7b4cb01fd6a72377cfcc2c12d4a92b2cb72dca4d66005cddcccc94
+  - path: solo_server/myapp/config/initializers/wrap_parameters.rb
+    algorithm: sha256
+    value: 7021fb9d3b221ade976a6c4574c004d906f4f61df64d914c574588cdaf04457c
+  - path: solo_server/myapp/config/locales/en.yml
+    algorithm: sha256
+    value: 2de6f1a48e24e30802cdb539f3981fde4ad365b15787577f0d86983bb6e85b22
+  - path: solo_server/myapp/config/webpack/development.js
+    algorithm: sha256
+    value: be2b7fa736ee4eb1d9c7387c0f2167b05381cdd6cd3952ac3b41f45d017660dc
+  - path: solo_server/myapp/config/webpack/environment.js
+    algorithm: sha256
+    value: fdb1aa2e6b0a204851669bc94550eeea65dffc185278148dd5af6060f455db52
+  - path: solo_server/myapp/config/webpack/production.js
+    algorithm: sha256
+    value: efbaed1480ccbdf5be93a48af73253ce6e269180b471079345f3e521ca4a9830
+  - path: solo_server/myapp/config/webpack/test.js
+    algorithm: sha256
+    value: be2b7fa736ee4eb1d9c7387c0f2167b05381cdd6cd3952ac3b41f45d017660dc
+  - path: solo_server/myapp/db/development.sqlite3
+    algorithm: sha256
+    value: f85f38f1319e4ba1ff9e2f6ee645db250d9ccd930d4ca6be1b6ddcf057919e01
+  - path: solo_server/myapp/db/production.sqlite3
+    algorithm: sha256
+    value: d64b1cc9401e75ea0b73d05d81e36995f8dc913d70939b937d0da62ab245ba55
+  - path: solo_server/myapp/db/schema.rb
+    algorithm: sha256
+    value: f249d85b7a913664b6aba650021dbe017b711075b968217076c979129d7b2032
+  - path: solo_server/myapp/db/seeds.rb
+    algorithm: sha256
+    value: d9c79337dccdc9b57ff7d70f4a4841281716421f5c7982c8564cd77c7ff3b311
+  - path: solo_server/myapp/db/migrate/20200924122406_create_users.rb
+    algorithm: sha256
+    value: ea39339ccd3e3996376f6f3895506b0ac6b5eff8701a3894837fcefd35619442
+  - path: solo_server/myapp/db/migrate/20200924131935_create_pages.rb
+    algorithm: sha256
+    value: 6275e9a5681c0dc7f2e62589ae58f332f9bf5b40c0d671fed518e9474fc13240
+  - path: solo_server/myapp/lib/assets/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/lib/tasks/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/log/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/log/development.log
+    algorithm: sha256
+    value: bd73a70b5216a1a15fc19be69ca09dc22e07ced124e38314bde50245e0cc312a
+  - path: solo_server/myapp/log/production.log
+    algorithm: sha256
+    value: 5f516f3060f3a091d121cc0ccc154f7a7899da54ce5fe44ed0f1d36144c52ab6
+  - path: solo_server/myapp/public/404.html
+    algorithm: sha256
+    value: 41e6541b07f9c3b306a517917eedb53d7c7bfa006faf6673aaad98c9d96f7023
+  - path: solo_server/myapp/public/422.html
+    algorithm: sha256
+    value: 848f8a124ddb3a76d24a7eca39f93cef89c4fba00e0cd0b2f0af37433fb88e89
+  - path: solo_server/myapp/public/500.html
+    algorithm: sha256
+    value: ef38a03155fab5fa59fe6c823f948893fe260204a87860c55522cdeb5672c959
+  - path: solo_server/myapp/public/apple-touch-icon-precomposed.png
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/public/apple-touch-icon.png
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/public/favicon.ico
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/public/robots.txt
+    algorithm: sha256
+    value: 2f15987e4606501202b9d337085439339e53a374e3d194847192c12f85ba78f8
+  - path: solo_server/myapp/storage/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/application_system_test_case.rb
+    algorithm: sha256
+    value: 5e086b39c179528d32e26b2c7a4d272ba7d63a3c5257f25528bd6f672fedd327
+  - path: solo_server/myapp/test/test_helper.rb
+    algorithm: sha256
+    value: a4f10c46f9f90c5b210c4810ddb0382778a007960c030084e5987a42318a18b3
+  - path: solo_server/myapp/test/channels/application_cable/connection_test.rb
+    algorithm: sha256
+    value: 1599d9a35251fb215cd8a95395e8654488476f2d3e2e948e3ed7a1b27656aff0
+  - path: solo_server/myapp/test/controllers/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/controllers/pages_controller_test.rb
+    algorithm: sha256
+    value: 2b911e7336303e520874cd2d0ce2afff4a072ac41b540b2a7cbf91d05ee6514b
+  - path: solo_server/myapp/test/controllers/sessions_controller_test.rb
+    algorithm: sha256
+    value: cd8bf15160ec6d12ad1ba82439c409e6ea41aa3ca4650d117bd79b6026c7443b
+  - path: solo_server/myapp/test/controllers/users_controller_test.rb
+    algorithm: sha256
+    value: af1db419d4cbc2fb65b6529800d4246be1da800122a8cb2d6571affc498a049c
+  - path: solo_server/myapp/test/fixtures/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/fixtures/pages.yml
+    algorithm: sha256
+    value: 3c47a6483451da8d5927c2b8273d74ce0017c02afeb10f80f8fa256e29eb29bd
+  - path: solo_server/myapp/test/fixtures/users.yml
+    algorithm: sha256
+    value: 211755a3f15bafc81a951bc09d9e596050fbf817917b1767924ec1f7e3a09b53
+  - path: solo_server/myapp/test/fixtures/files/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/helpers/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/integration/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/mailers/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/models/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/test/models/page_test.rb
+    algorithm: sha256
+    value: 0796b102dd54cda4a0bda08ed51889ba2e6fc6180e0a7e5cc3f8ceba05f6a8a5
+  - path: solo_server/myapp/test/models/user_test.rb
+    algorithm: sha256
+    value: eccfdd04ef1492e9732988102b44d7aa929a1dbfe111ba3fc69180f4a248530b
+  - path: solo_server/myapp/test/system/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: solo_server/myapp/vendor/.keep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/Solo at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Web/Solo
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/web/002-solo/solver/ per archive
+  policy and is not listed as a preservation omission.'

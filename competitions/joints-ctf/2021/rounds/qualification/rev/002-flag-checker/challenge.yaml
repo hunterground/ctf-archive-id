@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: joints-ctf-2021-qualification-rev-002
+name: Flag Checker
+slug: 002-flag-checker
+original_name: Flag Checker
+competition_id: joints-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse
+description: I created a ~~password~~ flag checker program. Try to understand it's implementation to get
+  my ~~password~~ flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- bruteforce
+authors: []
+organization: null
+provenance:
+  archive_id: joints-ctf-2021-probset
+  source_type: git
+  repository: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+  original_path: Quals/Reverse/Flag Checker
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8d5bf6bdb3fbe0c27c53b6eb52f8b2481d19ecdbbb3b771b2b400f1ab99cf9b1
+  - path: attachement/chal
+    algorithm: sha256
+    value: 5b83adc8863d5dcaff7b09fd3cb22040fd8ae09be79b0799839d2e734d597498
+  - path: source/Makefile
+    algorithm: sha256
+    value: 25fe8a8ee8236cd7dd7f9f7181714e9d6a62f3e185260289a238a33c80241c7f
+  - path: source/chal
+    algorithm: sha256
+    value: 5b83adc8863d5dcaff7b09fd3cb22040fd8ae09be79b0799839d2e734d597498
+  - path: source/chal.c
+    algorithm: sha256
+    value: 70ab54ddb47d2499d7f79980350132e6cd5203c1a973568ff9977e1bd0d6da9a
+licensing:
+  declared_license: MIT
+  copyright_holder: OmahTI UGM problem-setting team
+  redistribution: permitted
+  attribution_required: true
+  attribution: JOINTS CTF 2021 challenge material by the OmahTI UGM problem-setting team, published at
+    https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  permission_reference: The upstream repository has no LICENSE file. Archive maintainer instruction of
+    2026-11-26 treats a source with no implicit license as MIT, and permitted redistribution is recorded
+    on that basis.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: Quals/Reverse/Flag Checker at github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+  url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset/tree/0181ba0d8c9f94ab1273a545080e5d3369d69f55/Quals/Reverse/Flag%20Checker
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer-published JOINTS 2021 problem set. The source directory is the organizer''s
+  full challenge folder: participant handout files (peserta/), deployment source (source/ or server/),
+  README, and any published flag file are preserved as they were in the repository. Solver material was
+  moved to solvers/competitions/joints-ctf/2021/rounds/qualification/rev/002-flag-checker/solver/ per
+  archive policy and is not listed as a preservation omission.'
