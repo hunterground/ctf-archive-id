@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-forensics-004
+name: Red Velvet
+slug: 004-red-velvet
+original_name: Red Velvet
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Memory forensics challenge. Analyze a memory dump (downloaded separately) to recover the
+  flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- memory
+- volatility
+authors:
+- name: rax_3r
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: forensics/red-velvet
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 032aa0ed233b7d58b410dd2e2153b685ac46be849953a33bb237b6faae3d7bd4
+  - path: img/file_type.png
+    algorithm: sha256
+    value: f1a2bc7ade7d1407ef431ce5b3fc3d9aec7621d2d99accf073ea69ef6e6028d1
+  - path: img/finalize.png
+    algorithm: sha256
+    value: 8525d514af2f5a88300004a22094b0e63dee66da9a358c8edc7682d762de3e2a
+  - path: img/volatility1.png
+    algorithm: sha256
+    value: d06d2d9ba39266f1e2e185d5312c18c3fb650c841f917b2af5d187bbd917c507
+  - path: img/volatility2.png
+    algorithm: sha256
+    value: 05acdf46acdb3a8091cabbf6bad9c15ad9e5278b17fb9eaa9807f9690705b1d0
+  - path: img/volatility3.png
+    algorithm: sha256
+    value: 31a836d549d177afea82df2bcdd34b617ff6b722b7e947533280c7766b4fc48f
+  - path: img/volatility4.png
+    algorithm: sha256
+    value: 7b3a4a21f0289e212b1542228bb7a6d1ebad661b9ff1408ba7dd96b5469cca8d
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: forensics/red-velvet at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/forensics/red-velvet
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/forensics/red-velvet at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/forensics/red-velvet
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-web-002
+name: Juggle Juggle
+slug: 002-juggle-juggle
+original_name: Juggle Juggle
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: A PHP type juggling challenge. Bypass the authentication logic using loose PHP comparison.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- web
+- php
+- type-juggling
+authors:
+- name: Arceister
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-infra-ctf
+  source_type: git
+  repository: https://github.com/porosub/infra-ctf
+  commit: b6b983276062c03778ab0efd08595ec3ad5db406
+  original_path: Hology 4.0/Penyisihan/Web Exploitation/Juggle Juggle
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a92dff1979e4fcafdfaaa4bc927b21a4bfa8709afbd5da1f950dba2b0b057629
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 56a8dd0a4e865629c6f749bc7bbddf3a2dc8190b7162261ccbd560abb58e3024
+  - path: deploy/Dockerfile.save
+    algorithm: sha256
+    value: 4089ed54beb9b72bccb688a9673c733a4dd7fc627a55492363f0d8733bbd5d7e
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: f234bed3c523f384aa222d13c29a55ac20f64b7fb88a1fb0a5e6789f3a19ffd0
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 4d0d268ff20f942cf180062cefc517a9526fc3ead3669d42451ab35dc729ba8d
+  - path: deploy/index.php
+    algorithm: sha256
+    value: 88c3274462130f7e977720731319f763809b6a8f2b1cb370760a22ebf66ef213
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Web Exploitation/Juggle Juggle at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Web
+    Exploitation/Juggle Juggle
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi Operations), which is
+  MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that is not reproduced in
+  this metadata.

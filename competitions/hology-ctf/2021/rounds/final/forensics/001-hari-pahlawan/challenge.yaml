@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-forensics-001
+name: Hari Pahlawan
+slug: 001-hari-pahlawan
+original_name: Hari Pahlawan
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: Final round forensics challenge. XOR file parts, follow a Bluetooth pcap to a corrupted video,
+  repair it, and read the flag from image metadata.
+difficulty:
+  value: '194'
+  source: organizer
+tags:
+- forensics
+- xor
+- bluetooth
+authors:
+- name: Hann
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Forensic/Hari Pahlawan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 30bfc6155e446f35be52687301f24b6bfdf1817746653035906e1f03fe481ee1
+  - path: challenge/case.tar
+    algorithm: sha256
+    value: 071cf8de9cc12dca5c72e5aec9d03229acce2402c040aaf60c104d31de761415
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Final/Forensic/Hari Pahlawan at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Final/Forensic/Hari%20Pahlawan
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-pwn-004
+name: Onepiece
+slug: 004-onepiece
+original_name: One Piece
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Heap overflow / use-after-free challenge. Free a heap chunk and overwrite a target variable
+  to become the Pirate King.
+difficulty:
+  value: '309'
+  source: organizer
+tags:
+- pwn
+- heap
+- use-after-free
+authors:
+- name: Dolf7
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Binary Exploitation/Onepiece
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: be9f0c5471f321848ffbeabb67575b1692ae5ca1f71b543880fb0e0ae16e377f
+  - path: challenge/onepiece.zip
+    algorithm: sha256
+    value: fcbe016888b4eb4778ca77fe12e10b002e009769bd14274b29c54ef863c6a40e
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 7ee3c61fb14b5673447089c08ea8e27d461f62ddd7a9d5569d5bae37cd6a4958
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: 7f5fe7ee008561e6590e3c9353e08b63e546fa389daa8c1fec44749ba59de089
+  - path: deploy/crontab
+    algorithm: sha256
+    value: 26adb6bf3ab1278fab721013558f3cf00cb40b2c0d995b3edb9e1feb2f89768d
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 208c7c21047d92365077cbe370cdf2b7dd3021796d66b3618cf30456b3c019c2
+  - path: deploy/onepiece
+    algorithm: sha256
+    value: 037073ae0d9e9617a00cb69daee78c616937ecfde39aa08667c3a86b8552c8e0
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Binary Exploitation/Onepiece at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Binary
+    Exploitation/Onepiece
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-forensics-001
+name: basic-steg
+slug: 001-basic-steg
+original_name: basic-steg
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Steganography challenge. Mr. Steg hides something unusual inside the provided MrSteg.zip
+  material; recover the hidden flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- steganography
+- zip
+authors:
+- name: rifqihz
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: forensics/basic-steg
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: proof-of-concept.pdf
+    reason: Player proof-of-concept writeup moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: MrSteg.zip
+    algorithm: sha256
+    value: 0f5730b07f8368e28eb99ddb74f972af9eaa3c81c3dcc14be0e2d743a4af93d8
+  - path: README.md
+    algorithm: sha256
+    value: 4cf9f18775ebd568b3546a3c01fb072d12b3f1e5533b754e1064d6d3c9c16f3d
+  - path: konsep-soal.pdf
+    algorithm: sha256
+    value: 8afb45e2411001ebd2b5d4d5cc7fb8d49fc740358cf6648c3d3ba38020685071
+  - path: step-by-step.tar.gz
+    algorithm: sha256
+    value: 8eda9213fa992728fb5f3433be686b7874b3fb02874168aca1a1731e740647e8
+  - path: script/lipsum-src.txt
+    algorithm: sha256
+    value: 7c06a3e818d70de38f94de3e7a2bbe4cc4cf02d8a2cd90c8747e571187ae173a
+  - path: script/random1.py
+    algorithm: sha256
+    value: 748710bb67cbe9e79a181f4775907c17871a5059e0820534aa092c3f1fb09754
+  - path: script/random2.py
+    algorithm: sha256
+    value: a52fcd4950a5f2ce5e5dff5c274abf168b20fe21a1ae8b9fd8f924a237b1d51f
+  - path: script/random3.py
+    algorithm: sha256
+    value: b4ac8b342c5dc66d1a05afeff00f3dd90ab899ec6dfd692e1cff214769e2a7f2
+  - path: script/random4.py
+    algorithm: sha256
+    value: 3dd3e43cc0c2ce8201355e8ef6ed7307da232e37e632af46a60fa3333a274154
+  - path: script/random5.py
+    algorithm: sha256
+    value: 32c8b0e7ecfd038815999d736801df94069b34eaa241289c0d78c0351fe579f4
+  - path: script/random6.py
+    algorithm: sha256
+    value: 1bb26197fa650fb12084e2d27264c9414ccc59a0c2ce05fbb6f0cca6b56d5b33
+  - path: script/reverse-nanozip.py
+    algorithm: sha256
+    value: 7e6fbb4b38672fa1229a693124f683b79189d15020e595a7bfbc535931739c0b
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: forensics/basic-steg at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/forensics/basic-steg
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/forensics/basic-steg at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/forensics/basic-steg
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: hology-ctf-2023-qualification-web-001
+name: Holo Curl
+slug: 001-holo-curl-fix
+original_name: Holo Curl [Fix]
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: 'The Holo Agency has built a web application that allows you to fetch content from other
+  websites. Would you check it for me?
+
+
+  Connection: `http://localhost:31530`'
+difficulty:
+  value: "2.30"
+  source: organizer
+tags:
+- web
+- ssrf
+- php-fpm
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-qual-2023/Holo-Curl[Fix]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c07b0bbca19038e0300e782e79df3e820bd4f8dec276f2f22bdadd7745a7a453
+  - path: README.md
+    algorithm: sha256
+    value: b4ba9ac10ac68a8faa14e0706155bb60ff6d9143929555422d9e61eb2aae9a66
+  - path: challenge.yml
+    algorithm: sha256
+    value: 132c4c67486b58584bed85a93bb5ef7904c53a981eccf3cc8c4564902255dff8
+  - path: dist.zip
+    algorithm: sha256
+    value: 9ce954a66bd4ee66e49daba05d9fe3b54206805cb1bfcd50795663580240114f
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 59f70f2f8b38cc764c36f926a076a75b07eea9f2ade6ab49bb5e0df5a9547bc3
+  - path: flag.txt
+    algorithm: sha256
+    value: c5f7f6ef26a4b8ed4637541374103880feb8046e111fb6d18a08d87679941a73
+  - path: nginx/nginx.conf
+    algorithm: sha256
+    value: d2d4d1913e3554a9e1b7938b8876e75a2e69e6ccf464cd63f0ab0505e1e180ae
+  - path: src/start.sh
+    algorithm: sha256
+    value: 37a9e19f3ba9c7016a79b0a1ab6d9e570c7f9edfb3f16a4dff7ec6f275df127f
+  - path: src/public/index.php
+    algorithm: sha256
+    value: c6598bea1ba5f62593ad6f3c0ff9407f28342eb39a8d22eb9f86eec3d5497102
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-qual-2023/Holo-Curl[Fix] at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-qual-2023/Holo-Curl%5BFix%5D
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana), who is the
+  author of the challenge. The source challenge.yml carries a Hology6{...} flag, which is not reproduced
+  in this metadata. Solver material was moved to solvers/. The [Fix] suffix indicates the author''s
+  revised distribution of the challenge.'

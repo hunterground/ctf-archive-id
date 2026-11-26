@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-pwn-005
+name: Giveaway Time
+slug: 002-giveaway-time
+original_name: Giveaway Time
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Format string vulnerability challenge. Leak the base address from a registration id, then
+  use a format string attack to overwrite a global prize variable.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- pwn
+- format-string
+authors:
+- name: Inlandsche
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Binary Exploitation/Giveaway Time
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Deploy/Dockerfile
+    algorithm: sha256
+    value: 1600aacd69d27123ab837d5b62a31949da30564829a4493fe3635a5b8e82393e
+  - path: Deploy/cronScript.sh
+    algorithm: sha256
+    value: 27a1b57945e217ccd86e9752333f757fd9181f8e3c5b497719e6df7c9f25306c
+  - path: Deploy/crontab
+    algorithm: sha256
+    value: d26b1b4e1395e5ab238787a8bff75c022ca24d350c401e6b84b2fc70afee3fc5
+  - path: Deploy/flag.txt
+    algorithm: sha256
+    value: 83182e8b0ad5608ceb640177daa22194aca71a4d8ce6aedf73ac00f328c9ffe9
+  - path: Deploy/giveaway
+    algorithm: sha256
+    value: 4c6ed4adbbe7f4d428b4c61a8d486ccd7184c00cc7027682b261d9072c7aa979
+  - path: README.md
+    algorithm: sha256
+    value: 47925575d32110ddc73144fffcb0e57645d9834b08a6eb993447a3e18ad05fc8
+  - path: challenge/giveaway.zip
+    algorithm: sha256
+    value: 108e0cdee9f451140d5713f72ace0780d60ee0587f8a1ee322d6c717b3f2f438
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Binary Exploitation/Giveaway Time at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Binary
+    Exploitation/Giveaway Time
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

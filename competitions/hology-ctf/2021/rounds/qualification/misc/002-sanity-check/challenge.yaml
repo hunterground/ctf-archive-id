@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-misc-002
+name: Sanity Check
+slug: 002-sanity-check
+original_name: Sanity Check
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: Warm-up sanity check. The flag is embedded directly in the challenge README.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- misc
+- sanity-check
+authors: []
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Misc/Sanity Check
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9040c7dbef342db7d2c5ad535ecd356bcad921cd0b4fd68a75b811cad2123995
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Misc/Sanity Check at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Misc/Sanity%20Check
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-forensics-001
+name: Hacked
+slug: 001-hacked
+original_name: Hacked
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Forensics challenge. Recover a password from access.log timing analysis to open an encrypted
+  file and reassemble a QR code.
+difficulty:
+  value: '160'
+  source: organizer
+tags:
+- forensics
+- log-analysis
+- qrcode
+authors:
+- name: RH01
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Forensic/Hacked
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f1f4e2f871c88392cae219fbbf64c33523a3608bcedc3b6e328140fc193c532d
+  - path: challenge/Hacked.zip
+    algorithm: sha256
+    value: 217a0cc48798f553dde5be681e2161c81eaa0fb67ba07db3a0a7f64fb8e0b60c
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Forensic/Hacked at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Forensic/Hacked
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

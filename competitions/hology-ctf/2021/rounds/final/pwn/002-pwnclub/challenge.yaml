@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-pwn-002
+name: Pwnclub
+slug: 002-pwnclub
+original_name: pwnclub
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: A binary exploitation challenge. Exploit the provided pwnpwnclub object file served over
+  the network.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- pwn
+- binary
+authors:
+- name: rockwell
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Binary Exploitation/pwnclub
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Docker/Dockerfile
+    algorithm: sha256
+    value: 14b848d9c652262a9e8a11ab7bf96f8a4ddf5f1c8354b305c885fe648b1cf279
+  - path: Docker/docker-compose.yml
+    algorithm: sha256
+    value: 13ad1e8c84b6a5615ca79495498a4536e1b56e31b9d1a88e8d78a730753229da
+  - path: Docker/flag.txt
+    algorithm: sha256
+    value: 32312ba5085a227fd807858860e781fb676e707b0b4947777ccb59e4f030af5c
+  - path: Docker/service/pwnpwnclub.c
+    algorithm: sha256
+    value: 84905a7c1f9e873ea0e7a64e487ec3de4667356160086c6f2e879522c51ee8e2
+  - path: README.md
+    algorithm: sha256
+    value: 564ee5487dae054f4b6a69b9a895f15c3c9e199fa0a05c180b1c458a7f3b870a
+  - path: challenge/pwnpwnclub.zip
+    algorithm: sha256
+    value: e97958439441d88ec41e4c397ace8db5d4e8803514df69db93be75c472689d4b
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: fdbfc7b3fb01206186ffbd2bd204a42bfbfd76b34aab7e6a6bbfbb2f38af824d
+  - path: deploy/docker-compose.yml
+    algorithm: sha256
+    value: 6520f405e076ed8fd218146ca629bc2c6705df06d0986d65663ef6fcf3b65527
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 32312ba5085a227fd807858860e781fb676e707b0b4947777ccb59e4f030af5c
+  - path: deploy/pwn.zip
+    algorithm: sha256
+    value: 06450d734d5876409e8d00a7b50cc07b4c5c3808470a7ce793c54d032445227f
+  - path: deploy/pwnpwnclub.o
+    algorithm: sha256
+    value: 7625b4b0523082a1e0fc9896feddb66d941896d7ea82d340bbd5dce3a43f88e4
+  - path: deploy/service/pwnpwnclub.c
+    algorithm: sha256
+    value: 84905a7c1f9e873ea0e7a64e487ec3de4667356160086c6f2e879522c51ee8e2
+  - path: deploy/service/pwnpwnclub.o
+    algorithm: sha256
+    value: 7625b4b0523082a1e0fc9896feddb66d941896d7ea82d340bbd5dce3a43f88e4
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Final/Binary Exploitation/Pwnclub at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Final/Binary
+    Exploitation/Pwnclub
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

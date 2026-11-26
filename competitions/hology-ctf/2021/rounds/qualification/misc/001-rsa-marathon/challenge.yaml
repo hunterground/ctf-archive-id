@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-misc-001
+name: RSA-Marathon
+slug: 001-rsa-marathon
+original_name: RSA-Marathon
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: Buffer overflow and RSA hybrid challenge. Overflow the binary through a sequence of checkpoints
+  to collect RSA components, then decrypt to recover the flag.
+difficulty:
+  value: '214'
+  source: organizer
+tags:
+- misc
+- pwn
+- buffer-overflow
+- rsa
+authors:
+- name: Dolf7
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Misc/RSA-Marathon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: eedb903b13e84501d90fada4d9ebc9f6c7e6b16bcf3f8e4805cc8c39b33f5b95
+  - path: c.txt
+    algorithm: sha256
+    value: 2000f3f445e8e0e86924fe3a1f830348ba5029285a3b4f877f779994da9720fa
+  - path: challenge/RSA-Marathon.zip
+    algorithm: sha256
+    value: 895974b33df44e1a9a94527e6d8a4cc3ac03646c79d302df5f67833a89a085ee
+  - path: cronScript.sh
+    algorithm: sha256
+    value: a1048a04ac5fbd2fd01678af29e0d95f509171e21bf72d32f922e1da61df0091
+  - path: crontab
+    algorithm: sha256
+    value: bc96986784208503367968db6eaea4d18db0e35a6df8650ea48e1b5241d832d2
+  - path: e.txt
+    algorithm: sha256
+    value: 6a904df39d7d15403754cf9716fa252e72cb3eef4006f5a9be75a20c369ac838
+  - path: l.txt
+    algorithm: sha256
+    value: 4a92449b44e7b217093ba9f81d5da6218e4bea2f74e5dae1ae174bf2803111e4
+  - path: marathon_soal
+    algorithm: sha256
+    value: 1653acb8a482a184335ef1df8a151dd0cc22b671cfdbf5210bb3a45b0fa8888d
+  - path: n.txt
+    algorithm: sha256
+    value: 90ca21183e85f49f4f5cd2da0c1f12ccd797acf91d796d104210abc9704d51dc
+  - path: p.txt
+    algorithm: sha256
+    value: 347dcc82c19fcaeca731e1dc2cec4ebf3db035ab42ddf0fe1413467ab2b57abb
+  - path: s.txt
+    algorithm: sha256
+    value: f7952f111eca903298981c378d962de6784ac1d97364296ef4be5a4d5d76bc3b
+  - path: tersesat.txt
+    algorithm: sha256
+    value: 3bba452370951ea2f62f0b0a10625cacd91e77c04f01baab312409a996f2b093
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Misc/RSA-Marathon at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Misc/RSA-Marathon
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

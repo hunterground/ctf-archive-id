@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-crypto-004
+name: Patterns
+slug: 004-patterns
+original_name: Patterns
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge. Among files encrypted with perfect secrecy, identify the one containing
+  the real flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- one-time-pad
+- patterns
+authors:
+- name: Mr. Grips
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: cryptography/patterns
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: encrypt.py
+    reason: Solver/analysis script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5a16a71a246ca345b83cbca60a70a59a5662f08ddb73ba399f2df40f5adc5993
+  - path: logs.zip
+    algorithm: sha256
+    value: 0bf633a6d31a61c4424a8d1af0f971731c6c3249f2b18c0b1d6dbf9f8369e67e
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: cryptography/patterns at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/cryptography/patterns
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/cryptography/patterns at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/cryptography/patterns
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

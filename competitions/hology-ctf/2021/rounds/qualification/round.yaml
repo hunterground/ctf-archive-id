@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: qualification
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+name: Qualification
+original_name: Hology 4.0 Penyisihan
+sequence: 1
+type: qualification
+delivery: null
+description: Qualification stage of HOLOGY 4.0 (2021).
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 23
+  participant_count: null
+references:
+- title: Hology 4.0/Penyisihan at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 4.0/Penyisihan at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The organizer repository names this stage 'Hology 4.0 Penyisihan'. Twenty-three challenges were
+  imported: BOG, Giveaway Time, How, Onepiece, and Welcome (pwn); HTTPS but without S and Juggle Juggle
+  (web); RSA-Marathon, Sanity Check, and get link for the rubik's (misc); Geser lalu tap, Quasi-block
+  Cipher, Wait, That's Illegal, and kl4s1k (crypto); Hacked, input, Ms.Shyvana, silinder, and it's Rokubi
+  with g (forensics); and Customization, Mitos Jawa, tugas keamanan informasi 24102021, and xYr4 (rev).
+  The eight originally imported from porosub/infra-ctf were augmented with their challenge distribution
+  files from porosub/CTF-Hology-4.0.

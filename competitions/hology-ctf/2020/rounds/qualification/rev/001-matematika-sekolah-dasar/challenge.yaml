@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-rev-001
+name: Matematika Sekolah Dasar
+slug: 001-matematika-sekolah-dasar
+original_name: Matematika Sekolah Dasar
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Reverse engineering challenge. Understand the algorithm of a compiled math exercise program
+  (matematika-bin.tar.gz) to obtain the flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- binary
+authors:
+- name: ahm4d
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: reversing/matematika-sekolah-dasar
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0ef3166e50e855eca6fb001df91d5d15080bc9d64757c2267cfb79e8899fcc6b
+  - path: matematika-bin.tar.gz
+    algorithm: sha256
+    value: 75887b6162e7b3d6caa57df6bc5cc3b2c603e79bfa83030576d2ca914f8c512c
+  - path: src/Make
+    algorithm: sha256
+    value: 754221f69698201869e9409444ac5e0f9ba02718fc0ca22dfd8245ce26c3cc82
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e0297f6e14d6ffb2ae414f81bacc320a9fde4a4507af9f88baaac1a1b0f41c2a
+  - path: src/matematika.c
+    algorithm: sha256
+    value: 8c03d3e93a8cdabcd930a5a19450ae17d0e344ab508ae893670d8f499bb64aa3
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: reversing/matematika-sekolah-dasar at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/reversing/matematika-sekolah-dasar
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/reversing/matematika-sekolah-dasar at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/reversing/matematika-sekolah-dasar
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

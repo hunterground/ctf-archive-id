@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-forensics-003
+name: Ms.Shyvana
+slug: 003-ms-shyvana
+original_name: Ms.Shyvana
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Network forensics challenge. Analyze a pcap for a leaked credential, apply ROT13, and decode
+  the zip contents through successive encodings.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- forensics
+- pcap
+- rot13
+authors:
+- name: fgm
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Forensic/Ms.Shyvana
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4c458151a82b30ee234a0c1bfa90dd6fd8deea6f92003f3761f8f0fbb1ce5c6d
+  - path: challenge/Ms.shyvana.zip
+    algorithm: sha256
+    value: 6e560c819d06bd95cb47b69fa876d6752673d8c170436719727645127d7ee06b
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Forensic/Ms.Shyvana at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Forensic/Ms.Shyvana
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: qualification
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: Hology Qual 2023
+sequence: 1
+type: qualification
+delivery: online
+description: Qualification stage of HOLOGY 6.0 (2023).
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 3
+  participant_count: null
+references:
+- title: Hology-qual-2023 at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-qual-2023
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: The author's repository names this stage 'Hology Qual 2023'. Three web challenges were imported.

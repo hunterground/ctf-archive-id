@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-forensics-002
+name: input
+slug: 002-input
+original_name: input
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Forensics challenge. Decode a Linux framebuffer keyboard event capture (US layout) to recover
+  the typed content.
+difficulty:
+  value: '500'
+  source: organizer
+tags:
+- forensics
+- keyboard
+- evdev
+authors:
+- name: RH01
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Forensic/Input
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 68f806146f3bd5f2a8a48f52bb54422aa8a44c3490c009aeecdef137503f5bfa
+  - path: challenge/input.zip
+    algorithm: sha256
+    value: 29c22aa4755d6096e75a430192b485b29517073d51ed3c97e5e2341e7a174663
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Forensic/Input at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Forensic/Input
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

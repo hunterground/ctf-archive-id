@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-rev-002
+name: Mitos Jawa
+slug: 002-mitos-jawa
+original_name: Mitos Jawa
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Reverse engineering challenge. Brute-force a Java String hashCode with overflow handling
+  to recover the flag.
+difficulty:
+  value: '498'
+  source: organizer
+tags:
+- rev
+- hashcode
+- brute-force
+authors:
+- name: Yesver
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Reverse Engineering/Mitos Jawa
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: challenge/solve.py
+    reason: Solver script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8dc153565384b0db27e895c6dc5e3fa7bdb49f6494bfed61f7a550e33f775e7f
+  - path: challenge/MitosJawa.zip
+    algorithm: sha256
+    value: 0dccd3ce725bcc8e482d58b1d9cecd78f710ad2da3df3a79d0bd9e4eeca31bc5
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Reverse Engineering/Mitos Jawa at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Reverse%20Engineering/Mitos%20Jawa
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

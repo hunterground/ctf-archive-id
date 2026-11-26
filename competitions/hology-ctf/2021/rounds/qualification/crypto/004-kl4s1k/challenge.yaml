@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-crypto-004
+name: kl4s1k
+slug: 004-kl4s1k
+original_name: kl4s1k
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge. Use a Caesar shift of 13 to recover the OTP generator key, then a
+  Vigenere cipher to find the hidden ciphertext.
+difficulty:
+  value: '500'
+  source: organizer
+tags:
+- crypto
+- otp
+- caesar
+- vigenere
+authors:
+- name: m1nul
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Cryptography/kl4s1k
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Readme.md
+    algorithm: sha256
+    value: f0b17b7669f05ef7a1818414585276d0ae67f4cac73866544acdb2a336fac58e
+  - path: challenge/KL4S1K.zip
+    algorithm: sha256
+    value: 937de003a09eabe9931ad50ef37fb40a4559e8c9db915c6f7880fb76fcb957d9
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Cryptography/kl4s1k at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Cryptography/kl4s1k
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

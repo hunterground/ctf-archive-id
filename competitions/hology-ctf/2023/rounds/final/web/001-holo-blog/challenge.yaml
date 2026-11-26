@@ -1,0 +1,161 @@
+schema_version: '1.0'
+id: hology-ctf-2023-final-web-001
+name: Holo Blog
+slug: 001-holo-blog
+original_name: null
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: 'Just finished Hololep blog yesterday, can you check it for me?
+
+
+  Connection: `http://localhost:62033`'
+difficulty:
+  value: "3.90"
+  source: organizer
+tags:
+- web
+- ssti
+- thymeleaf
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-final-2023/Holo-Blog
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  - path: src/.gradle
+    reason: Generated Gradle build cache, excluded as a build artifact.
+  - path: src/bin
+    reason: Compiled class output, excluded as a build artifact.
+  - path: src/build
+    reason: Generated build output, excluded as a build artifact.
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: Dockerfile
+    algorithm: sha256
+    value: 29f55f35b84aad6a05169967c4805750cc09aad765df04fe3425dd9543e452a1
+  - path: README.md
+    algorithm: sha256
+    value: a9c7d326d0377792abc88b17d95b6d65303a543439aebe542af67888b6137695
+  - path: challenge.yml
+    algorithm: sha256
+    value: caa3bd9db6373cb1c32c1850ac42e36f7b009cbed4fc8d2dc1a24ddabcea3b83
+  - path: dist.zip
+    algorithm: sha256
+    value: 7d37f69db4d9a8c191e7559f8822ac07e3ec764abb959c8510fdc26d0138df24
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 061d49cfa065edca6e25adf7d09f29759f616e15c543718d855a8f1b99689b69
+  - path: flag.txt
+    algorithm: sha256
+    value: 87ce738bc467524489269fcf59ca27b29ae43bd29d823b85005bca82c3446148
+  - path: src/HELP.md
+    algorithm: sha256
+    value: 65c3a699255e1c0c1018a29f56e43a3b62a3c93f2b3b44d96144ba0f8a692d32
+  - path: src/build.gradle
+    algorithm: sha256
+    value: 01f3ba179d4545d155029ab9e7b1b28b7623105baee8cfa8b942bfc07815a3af
+  - path: src/gradlew
+    algorithm: sha256
+    value: e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad
+  - path: src/gradlew.bat
+    algorithm: sha256
+    value: 8e327fcb99d29ce0fe3ee2fec6e6a25de815a2df83a6a44a553dea89ffc92955
+  - path: src/settings.gradle
+    algorithm: sha256
+    value: 42150729ea8014f0cf60bd5bd8da5e6b5696111f85ef35cfd46bac71301ed458
+  - path: src/gradle/wrapper/gradle-wrapper.jar
+    algorithm: sha256
+    value: a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4
+  - path: src/gradle/wrapper/gradle-wrapper.properties
+    algorithm: sha256
+    value: 750a8095df99592cfd30060ef970947fda2da9e23710a51ca1f028636c2569b3
+  - path: src/src/test/java/com/blog/blog/BlogApplicationTests.java
+    algorithm: sha256
+    value: 1a563b29a2f1501a65dd94ab7f4480390c42b2f23667a52c2007248ea1cc2385
+  - path: src/src/main/resources/application.properties
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: src/src/main/resources/templates/error.html
+    algorithm: sha256
+    value: 86341f72aca1de0394439b44200da2edcb198578a551ce4afae71564bc7c1788
+  - path: src/src/main/resources/templates/lang/id/index.html
+    algorithm: sha256
+    value: ccdc9833026a479a55917ad1d64f1fb64fccbb2fbacb60ce8f57495d8025a196
+  - path: src/src/main/resources/templates/lang/en/index.html
+    algorithm: sha256
+    value: cb7dc94eabc2b582f84d95b271ca4e5cd482caf69ed39217d17291da98734c58
+  - path: src/src/main/java/com/blog/blog/BlogApplication.java
+    algorithm: sha256
+    value: 6eafb03f704ffd7c12f7a59a77cc79ebb14976d4719ccee88e091fb25a72db90
+  - path: src/src/main/java/com/blog/blog/handler/DefaultInteceptor.java
+    algorithm: sha256
+    value: 9fde6d4d25d931f01381211e13fb172e4f0e617570f71c6f5788a0728080c84b
+  - path: src/src/main/java/com/blog/blog/handler/ErrorHandlerConstrollerAdvice.java
+    algorithm: sha256
+    value: 51b49fbb741a9b919aecc4d6a73f231ee0b9b4c91231568865ba39a5d2118be5
+  - path: src/src/main/java/com/blog/blog/config/AppConfig.java
+    algorithm: sha256
+    value: 2c3bb1b735b2645f50136e85b55b9b13c6d20f7f2d5563d95e305653e83230f4
+  - path: src/src/main/java/com/blog/blog/waf/WAF.java
+    algorithm: sha256
+    value: fade9f5c9dc41f4dda523d0b95d44d1ab14d4ab52f351d9666ae7dd5fb9500c9
+  - path: src/src/main/java/com/blog/blog/db/User.java
+    algorithm: sha256
+    value: 0a21a43a7f6e6ea5cc0029fcbc057c241bbadae6ac8c5970a89be7708d96788a
+  - path: src/src/main/java/com/blog/blog/validation/IsMaliciousValidation.java
+    algorithm: sha256
+    value: 53134be51179a3b96e1446213e2d5d48aa147178d1aa2e87d3c634cf755138ce
+  - path: src/src/main/java/com/blog/blog/validation/Lang.java
+    algorithm: sha256
+    value: d0d44e70f7337b10e97ef314878b42beb1dd2acf51efaee5bec2d19d65405dee
+  - path: src/src/main/java/com/blog/blog/validation/NotMalicious.java
+    algorithm: sha256
+    value: 491e940e5e1cb8549b09c2380a0d252834c58c2c055fc049a579f29e63884025
+  - path: src/src/main/java/com/blog/blog/controler/DefaultResponseFormat.java
+    algorithm: sha256
+    value: 69455e6df689617cbf9dcab2353ae241b2f5734cf16272bcadcfc2bdeff6fd82
+  - path: src/src/main/java/com/blog/blog/controler/Public.java
+    algorithm: sha256
+    value: 8b310c9daadd94f8511edf94afb09273ab2f85aa86e624abf25c1a51d6e57479
+  - path: src/src/main/java/com/blog/blog/controler/RestPublic.java
+    algorithm: sha256
+    value: 5c3d68d42399c1cdf2c124e5d5e9c446456aa1035efc582f6cf2430a4cecc27d
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-final-2023/Holo-Blog at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-final-2023/Holo-Blog
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries a Hology6{...} flag, which is not reproduced in this metadata. Solver material
+  was moved to solvers/. The challenge README notes it had 0/12 solves in the final.'

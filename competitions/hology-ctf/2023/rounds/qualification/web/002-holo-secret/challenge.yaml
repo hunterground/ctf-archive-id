@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: hology-ctf-2023-qualification-web-002
+name: Holo Secret
+slug: 002-holo-secret
+original_name: null
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: 'Holo agency has a secret that you need to obtain. Can you get their secret for me?
+
+
+  App: `http://localhost:15907` Bot: `http://localhost:10338`'
+difficulty:
+  value: "2.20"
+  source: organizer
+tags:
+- web
+- xss
+- xsleak
+- bot
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-qual-2023/Holo-Secret
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2703779445acbc2b0ca135076c985f2fde9dcdabfcc62859b6a7c2f8f00c02ff
+  - path: challenge.yml
+    algorithm: sha256
+    value: b3540846d7071cdbd2f012975aaa58f7c35c8ce7d22aca400ca0e991fba5f265
+  - path: dist.zip
+    algorithm: sha256
+    value: 2280985cae2ce8e1d612d412af2812ce61291a23253f3f7836bdec46e1d70709
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 6f83709090fdc18e770331013a408c17f49a1525c5934afba61b3273a40e4d25
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 99542ae30f4793709ac2cbc552cc1030c9f3f50029a5444d4a62614e3cb22e03
+  - path: bot/index.js
+    algorithm: sha256
+    value: 96577a598737f7f8f30a5eb1fa57c307dba5147e7785721a4913254c56799146
+  - path: bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: fc28571718b8623db8ae7e6372d4dbb02992abb2f7dd52e5fa0508e07e8cf129
+  - path: src/app.py
+    algorithm: sha256
+    value: 0501f6a13f5a02434c814acbd368f1283d012b11d26c76e3af6c9ea7583e94b0
+  - path: src/public/css/main.css
+    algorithm: sha256
+    value: 79e62011a6a81243d32a1e3321b57d13c64fde1a0d255b6e813b0203dac6b768
+  - path: src/views/index.html
+    algorithm: sha256
+    value: 124723e3e0d0e4136de218a0979bae89c1819741871a7ec291f01b9d951c7357
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-qual-2023/Holo-Secret at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-qual-2023/Holo-Secret
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries a Hology6{...} flag, which is not reproduced in this metadata. Solver material
+  was moved to solvers/.'

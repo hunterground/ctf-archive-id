@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-osint-002
+name: time-travel
+slug: 002-time-travel
+original_name: time-travel
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: OSINT challenge. Use public records to determine where a researcher went on a specific date/time,
+  based on the kebakaran.jpg image.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- osint
+- image
+- open-source
+authors:
+- name: rifqihz
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: OSINT/time-travel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: proof-of-concept.pdf
+    reason: Player proof-of-concept writeup moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3728e643e124129e4cbbc259003ba511afcdaf9b87d602fd545e81e2af6075dd
+  - path: kebakaran.jpg
+    algorithm: sha256
+    value: cf56c52a839111201159c4e2c06b45db25c4adc9a96b72e21c6e6811c9433c96
+  - path: konsep-soal.pdf
+    algorithm: sha256
+    value: 4a54b61f210cd1951d6c5c06c0962dee0c2fef5c561ddc9618cb5bd1ef6f2a5b
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: OSINT/time-travel at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/OSINT/time-travel
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/OSINT/time-travel at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/OSINT/time-travel
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

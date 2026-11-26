@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-pwn-002
+name: Welcome
+slug: 005-welcome
+original_name: Welcome
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: A sanity-check style pwn challenge. Overwrite two variables and bypass strcmp with a null
+  byte to reach the flag.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- pwn
+- buffer-overwrite
+- strcmp
+authors:
+- name: Inlandsche
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Binary Exploitation/Welcome
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a4d178aab9f297974509f27a3077aa3133368f84ea244663de9f8ce87eb55827
+  - path: challenge/welcome.zip
+    algorithm: sha256
+    value: db1d8861d66710bcc50d32a2781a121e06738fc393c519f57010b4ade00cc22e
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: d6ac48f49bcaf53df5f1d62ad65a9d38053eb856ef596f53e9b8f5083eec22da
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: 2908919f03aa59f2a8f59b765eea8091daf833f03890cf9648204a02aab4b04f
+  - path: deploy/crontab
+    algorithm: sha256
+    value: 0f30e7491d2b54bd82f45a58b2474f8d71e06c3b746aae98b10d51c9a6fdcc35
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: 0e9839bae2c276be1395cd77799adfefa584c9df2d63f19171e58bfe51e282c2
+  - path: deploy/welcome
+    algorithm: sha256
+    value: 63fd6d19934eadc17a53558a7553a3b65b035f68107bd0a8618a9c36fa92efe1
+  - path: deploy/welcome.zip
+    algorithm: sha256
+    value: 8687f7dd8874351204da222f67b195f59940ce952095988755f39cc20bbc31e2
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Binary Exploitation/Welcome at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Binary
+    Exploitation/Welcome
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

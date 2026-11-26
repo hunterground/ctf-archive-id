@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-forensics-005
+name: it's Rokubi with g
+slug: 005-it-s-rokubi-with-g
+original_name: it's Rokubi with g
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Steganography challenge. Recover raw text hidden in an image's array using a steganography
+  algorithm, guided by the title and zip filename.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- forensics
+- steganography
+- image
+authors:
+- name: heycall9
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Penyisihan/Forensic/it's Rokubi with g
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dfdc841c52892105fa7bc20508078623658e201622158bd48e1245207f62cc89
+  - path: challenge/Lord Soba.zip
+    algorithm: sha256
+    value: b3bfaad9dd0e2aff8d4ae8d2b64c2840c0b5a88cd92a1f8e3952392f8c832a75
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Penyisihan/Forensic/it's Rokubi with g at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Penyisihan/Forensic/it's%20Rokubi%20with%20g
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

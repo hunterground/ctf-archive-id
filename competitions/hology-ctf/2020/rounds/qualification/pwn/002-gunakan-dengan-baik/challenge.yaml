@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-pwn-002
+name: gunakan-dengan-baik
+slug: 002-gunakan-dengan-baik
+original_name: gunakan-dengan-baik
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Binary exploitation challenge. Overflow a gets() buffer and return-oriented-program into
+  matching a string.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- buffer-overflow
+- rop
+authors:
+- name: ahm4d
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: binary-exploitation/gunakan-dengan-baik
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 42cc807e0c4216bf6c3e371492809ecbd34e62f82205624e67520f611aeb6710
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 23e19e2d48a6d24144c6203895e7cce16215e3248ecb3aeada65305c1619b612
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: d57e81fbc46ed540b5b77b38fee7fcd1411805906cfd57a6614e49aac8feee2e
+  - path: deploy/crontab
+    algorithm: sha256
+    value: 34fd6c5ef3e9c27f7bce8d50f326cc9368a8af6ba23492ff332bc609641ac595
+  - path: deploy/flag.txt
+    algorithm: sha256
+    value: ab534a5ac2e9131441d6e0c985809c75a79b764b70259e4a0dbd2576d4fc3112
+  - path: deploy/gunakan-dengan-baik-bin.zip
+    algorithm: sha256
+    value: 38a269a6e529bbf1996b2b2393986444e247551eb1dbfa7f2759e00f88f966af
+  - path: src/Make
+    algorithm: sha256
+    value: 2567371ed9ce80f9ae7bc0f2a87f88ec8f6f8c8e4dfffaf19a881899d1fc7f32
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e28d7af48aee59a843090d00ba8aa9c3f96976036bb66a2082e76df05cda2433
+  - path: src/gunakan-dengan-baik.c
+    algorithm: sha256
+    value: 81e5fa4953c4bc81b3a547797e2d712ed9c41b01ef56918f64383ee03b5f1230
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: binary-exploitation/gunakan-dengan-baik at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/binary-exploitation/gunakan-dengan-baik
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/binary-exploitation/gunakan-dengan-baik at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/binary-exploitation/gunakan-dengan-baik
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

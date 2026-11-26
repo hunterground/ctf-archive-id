@@ -1,0 +1,107 @@
+schema_version: '1.0'
+id: hology-ctf-2023-final-web-002
+name: Holo Vacation
+slug: 002-holo-vacation
+original_name: null
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: 'Hololive just make a vacation agent website, can you check it for me?
+
+
+  Connection: `http://localhost:27244`'
+difficulty:
+  value: "3.10"
+  source: organizer
+tags:
+- web
+- prototype-pollution
+- python
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-final-2023/Holo-Vacation
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 42b1130f282047f7606d906e28c437071e05d8f2b23b1aab8afdcd6e68e4c277
+  - path: README.md
+    algorithm: sha256
+    value: b4f7a87fac9f4ef6faa60bd6d088f42c0ffa3e4fa59b212c62278ed59186a370
+  - path: challenge.yml
+    algorithm: sha256
+    value: a53dc1fc89392af3726e098180697782b59c15315a7ab23e9996ae2c1a93423c
+  - path: dist.zip
+    algorithm: sha256
+    value: 13f9fa9c54ae455a81ebeadf9f2ea4dcb9d591a58e62195593742260afdf75da
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: d6f6e8fa7f562c45d561917e5bd41ea9057aca1debdd6cbf0d44bc4c146e28f9
+  - path: flag.txt
+    algorithm: sha256
+    value: c73f1afa3021f080439b55463cc9f7547941cf1107a9ca6514d496ee57c42994
+  - path: app/app.py
+    algorithm: sha256
+    value: 93d5661115c50ea84252a53a90109a5fe13cdc7d1b857efe56687eb1e1eb513d
+  - path: app/static/README.md
+    algorithm: sha256
+    value: 921b8e74ff06d41ed5f9eceb42b82181dddeb491ae9f5dd51fc9ac6628a91774
+  - path: app/static/ame icon.jpg
+    algorithm: sha256
+    value: 4ba89526c86fa0948908ecaa67c5cadb19e6ceaaceaa4a5f36722b8d32532290
+  - path: app/static/calli icon.jpg
+    algorithm: sha256
+    value: 3aed39dbf95835edf120d035375bcd8682ee2317ddc24747f1f212c4a9f9e5c2
+  - path: app/static/gura icon.jpg
+    algorithm: sha256
+    value: a647153b0fe27e212ec6d5d496d68a7192aa24531bde88edc7b397a43bc6c7fc
+  - path: app/static/ina icon.jpg
+    algorithm: sha256
+    value: f302057e5f65afd1ad4dfb0e9f884dd211b5a4c15c2d9d263b09fd8021251f90
+  - path: app/static/style.css
+    algorithm: sha256
+    value: 1dedbc7272dedbb29e14b845149b19d9c743b31efe681fc2529477507f755923
+  - path: app/templates/index.html
+    algorithm: sha256
+    value: 529afbe6ab520d883c303260019169463be21837f99340c366a00e37e3b8779a
+  - path: app/templates/template.html
+    algorithm: sha256
+    value: f968e76bef3e6a7d9bfa2346400af554803fac6444180886b966a81c6c4497c9
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-final-2023/Holo-Vacation at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-final-2023/Holo-Vacation
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries a Hology6{...} flag, which is not reproduced in this metadata. Solver material
+  was moved to solvers/.'

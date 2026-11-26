@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: hology-ctf-2023-qualification-web-003
+name: Holo Subtitle
+slug: 003-holo-subtitle-fix
+original_name: Holo Subtitle [Fix]
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: 'Just finished a new website for Hololep, can you test it for me?
+
+
+  Connection: `http://localhost:45194`'
+difficulty:
+  value: "2.20"
+  source: organizer
+tags:
+- web
+- ssti
+- ejs
+- rce
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-qual-2023/Holo-Subtitle[Fix]
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  - path: .vscode
+    reason: Editor settings, excluded as repository tooling rather than challenge distribution.
+  - path: src/.gitignore
+    reason: Repo tooling, excluded as repository tooling rather than challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: Dockerfile
+    algorithm: sha256
+    value: 26842bff7154a1ecc33870d8dcd1adb12090b645d0dd281bd30632e12cc245e0
+  - path: README.md
+    algorithm: sha256
+    value: 7c294af200f9a4692203397c37baf8f9d6fea3bca6e36e296224312430885504
+  - path: challenge.yml
+    algorithm: sha256
+    value: aeacd0a1449c913d4f9acb6edfb436dd42b86e747139ae598a2beafa18631444
+  - path: dist.zip
+    algorithm: sha256
+    value: 2d2fb5479757a7e3ae07d50443b96b420db196a042121a801fcc158d8399e4bf
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3bd4f6c6adb29da5f6b10566730b1859bf62fbfe5e5ae04b886f0711b8dce27d
+  - path: flag.txt
+    algorithm: sha256
+    value: fa8553ff759748818b639b93533c91b0f6624ad806fc256a3620ae2322cdacee
+  - path: src/README.md
+    algorithm: sha256
+    value: 21c41bbed97f12b1a30a09cca1f3716965b6bd6341db643d12c71f30ec1e0f3a
+  - path: src/app.js
+    algorithm: sha256
+    value: 706421932d956b6c76ad4ae264ff1c47ef8345627c92c1f242cea51ad4ab562e
+  - path: src/package.json
+    algorithm: sha256
+    value: da2d8deb94c0feb9d9361328547ea759a321b327603c9ed979a380e101e07ab5
+  - path: src/update.sh
+    algorithm: sha256
+    value: e1c9ad36af4cffb894ffd174c1e5c52bf6da9cd80bab2167ceca4f4991c8c680
+  - path: src/public/css/style.css
+    algorithm: sha256
+    value: 87b701926a17acbc8b84497dd00820bf9f1cbaaa42d5f8103f90e1ca253dc106
+  - path: src/midleware/sanitizer.js
+    algorithm: sha256
+    value: ab3ecf9b1e684ddb95e82ea0eb3bc38a73117cfb87a6ed3af405be5c642efc8e
+  - path: src/views/index.ejs
+    algorithm: sha256
+    value: b56a07283c7ab623fba01e454af9b6360254cebcb65284ab1a96cd2e2acf2324
+  - path: src/router/main.js
+    algorithm: sha256
+    value: e62dbdf8807727f20b30c9f8cb954f571b3927b428b398dafa19a84c7646cc3d
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-qual-2023/Holo-Subtitle[Fix] at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-qual-2023/Holo-Subtitle%5BFix%5D
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries a Hology6{...} flag, which is not reproduced in this metadata. Solver material
+  was moved to solvers/. The [Fix] suffix indicates the author''s revised distribution of the challenge.'

@@ -1,0 +1,155 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-web-001
+name: Go-Note
+slug: 001-go-note
+original_name: Go-Note
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: A multi-stage web challenge. Chain an IDOR to retrieve a Ci/Cd file with a private SSH key,
+  then pivot to a server cronjob, dump a sqlite backup, read environment variables, and decrypt the flag.
+difficulty:
+  value: '500'
+  source: organizer
+tags:
+- web
+- idor
+- ssrf
+- cron
+- decryption
+authors:
+- name: Just_Humanz
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Web Exploitation/Go Note
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c2b8c430c803afb0ca23e7c6e03554b009a5bb43e91c2f10e512772869fb3fb7
+  - path: api/go.mod
+    algorithm: sha256
+    value: 52977d705ad4c61334d417dbd0d2a90ab1d5251684aed781beb609354fe91834
+  - path: api/go.sum
+    algorithm: sha256
+    value: dc87a0f9f860a5b1cf5ce6bf23ea7a394de8361856c2a83e4f6cbfb9d3a4ddbf
+  - path: api/hology
+    algorithm: sha256
+    value: 09cd88da91c77535d65bb6fae05cf2983e51b3647f7367ad38fa78b1b631c7b7
+  - path: api/hology.1
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.10
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.11
+    algorithm: sha256
+    value: f6c4513f311a815a7893e44f11f9dda9566bdf064a160b117f90d0dd3e489712
+  - path: api/hology.2
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.3
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.4
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.5
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.6
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.7
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.8
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/hology.9
+    algorithm: sha256
+    value: 11e06955fb8fccd809e90f15c934b51d13e9c386753bedb795ee097a9ab10ff6
+  - path: api/main.go
+    algorithm: sha256
+    value: 3a527c00005164a7759b9dc8a9a0a2d5d6abb5ec67dfd8e263a8f3908f4947f9
+  - path: api/ssh-key/go-note
+    algorithm: sha256
+    value: c350d83158daaa204b93bc19aff9b1c783259331e25101e5f1d09100d2704150
+  - path: api/ssh-key/go-note.pub
+    algorithm: sha256
+    value: 75b74cfc5517468f71fb9efbad10b17bec7069ac19e24204d04ed41d42e00aeb
+  - path: api/struct.go
+    algorithm: sha256
+    value: 56d76b55fa78dcbd510319bbae52afa0cda0aa188a656ee9455395a14a8d03e0
+  - path: deploy_code
+    algorithm: sha256
+    value: 1289ce90e08c0db227317cb63e9aaeca52d28e93d053af0697bb9a91739c6ca3
+  - path: fe/README.md
+    algorithm: sha256
+    value: 50e4ecbc26afe9a9d35764f58fc294e372f58072146e58b124ccd5a059735111
+  - path: fe/build/build.js
+    algorithm: sha256
+    value: 4b7582085aa044cf03f9c0fae6146f34745ff28a311c5e5f71fd8743c25e315f
+  - path: fe/build/check-versions.js
+    algorithm: sha256
+    value: 98ee282d7c478976e4fd7c80d8896311093468e96f57071269364e03c8a3d0c2
+  - path: fe/build/utils.js
+    algorithm: sha256
+    value: e15d0b034c569002f71f1fb6108aac7c0b81e1593574dc52319981468fc79277
+  - path: fe/build/webpack.base.conf.js
+    algorithm: sha256
+    value: ea239eddaba0a0fcbc1075d8946ad1bd700ddfb3b176cac9a4fff8eba45c62e2
+  - path: fe/build/webpack.dev.conf.js
+    algorithm: sha256
+    value: a677cd699680afa79517bf7643d1b54914f8ac24367fd854444c2d08594265b5
+  - path: fe/build/webpack.prod.conf.js
+    algorithm: sha256
+    value: 21200a1ab73821621eb5b0c43fc7ae801f999ab8a74e4e8de05a579eda2a236f
+  - path: fe/config/dev.env.js
+    algorithm: sha256
+    value: 75bbe2fc1448887e4ed2dd9e19b0a4ab9bc1be043afc6f7ade793f2ba564581e
+  - path: fe/config/index.js
+    algorithm: sha256
+    value: bb3670790dc9f75f758eba1a4a8d4ae34b91d615476122c0990119dab7d7696e
+  - path: fe/config/prod.env.js
+    algorithm: sha256
+    value: 1b741a7ee79f2015fcc78f47e703bda79d4ea55ad0ade2f2db0ab5f2fb79f907
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Final/Web Exploitation/Go-Note at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Final/Web
+    Exploitation/Go-Note
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

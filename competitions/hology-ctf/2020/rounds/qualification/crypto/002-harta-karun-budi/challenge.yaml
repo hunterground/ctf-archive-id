@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-crypto-002
+name: Harta Karun Budi
+slug: 002-harta-karun-budi
+original_name: Harta Karun Budi
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Cryptography and image-encryption challenge. Recover an image encrypted with a custom algorithm
+  designed by the author.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- image
+- custom-cipher
+authors:
+- name: Joule
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: cryptography/Harta Karun Budi
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/script.py
+    reason: Solver script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1cc74f67fb72b7318d3c52fae0f27a5917640e7d533c1c0664e76fa27a3ba034
+  - path: harta.png
+    algorithm: sha256
+    value: b534d36bd978403688931edc05f54db4c315e9ac0511d533e27e59cb4d720d87
+  - path: img/tree.png
+    algorithm: sha256
+    value: 6852111acc339508fdc64a52ad2e59a5d8ead02c555c02c1cc5999fc89c17f6e
+  - path: src/generator.py
+    algorithm: sha256
+    value: 3b88684514881f4a672391deaf352845a1680ed64841c250ceb8a3c6f3db5698
+  - path: src/harta_enc.png
+    algorithm: sha256
+    value: 6f769358bd5d0b1e41570a31f5e2313ec76a8f6af86ee6177441bb8fba38bfba
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: cryptography/Harta Karun Budi at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/cryptography/Harta Karun Budi
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/cryptography/Harta Karun Budi at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/cryptography/Harta Karun Budi
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

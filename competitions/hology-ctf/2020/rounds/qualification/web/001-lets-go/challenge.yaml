@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-web-001
+name: Lets GO
+slug: 001-lets-go
+original_name: Lets GO
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. Catch all the flags exposed through a basic Go route.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- golang
+- route
+authors:
+- name: Yukazu
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: web-exploitation/Lets GO
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1295e1e5d8a6247bd203750bc2a7b0225e0cea8989b2c6f5553291d32f2b52f2
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 7ca8eecb54df2bfb75b5c46feab42254a9a6b0f5a692e969a143db15c80c8103
+  - path: deploy/go.mod
+    algorithm: sha256
+    value: 5e9c39c63ee14b22fbe6329efc31434cbba8f6092e511cad1f4943744404c194
+  - path: deploy/server.go
+    algorithm: sha256
+    value: 045c1731d063b7103fa201e5853ac8c61398574cef8496625b452696a2590efa
+  - path: deploy/frontend/index.html
+    algorithm: sha256
+    value: d93cb1c617d6a217e366abb73478c9ce8abb722ac5c51e151aa924846d755154
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: web-exploitation/Lets GO at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/web-exploitation/Lets GO
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/web-exploitation/Lets GO at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/web-exploitation/Lets GO
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

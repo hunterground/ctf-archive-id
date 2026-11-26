@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-osint-001
+name: liburan
+slug: 001-liburan
+original_name: liburan
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: OSINT challenge. A 'fake task' clue is hidden in a location, and the impostor's final message
+  points to a place. Find the place referenced in the liburan.jpg image.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- osint
+- image
+- geolocation
+authors:
+- name: rifqihz
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: OSINT/liburan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: proof-of-concept.pdf
+    reason: Player proof-of-concept writeup moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3b6209491da9bb13649706b509af8286a5757612d61031a7bc229db93e1ce9b4
+  - path: konsep-soal.pdf
+    algorithm: sha256
+    value: 65759a8a77b2450144af0fb4a1c59b8baa7627cf36b413431d4f0fd8c7f593cb
+  - path: liburan.jpg
+    algorithm: sha256
+    value: e4133ed5447238cfb7ea45e6288d9cf1d54bf0330f61186550385a6ecf1e20b5
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: OSINT/liburan at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/OSINT/liburan
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/OSINT/liburan at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/OSINT/liburan
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

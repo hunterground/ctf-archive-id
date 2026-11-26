@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-web-003
+name: No-OR-Submit
+slug: 003-no-or-submit
+original_name: No-OR-Submit
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. Basic SQL injection against a Node.js login service.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- sqli
+- node
+authors:
+- name: Yukazu
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: web-exploitation/No-OR-submit
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a27dde11141c79637738f33c289aa6afc529f674b853e5cb0d1da886daaa3fc6
+  - path: deploy/.gitignore
+    algorithm: sha256
+    value: f4ebf274f1695a535ababb53f1fca212405b4b5b92f86bcdcf4fa07d17a90bc1
+  - path: deploy/basicsqli.sql
+    algorithm: sha256
+    value: 6ae02fcb1056a19c7d61d2a6d119aa56ee517ffa33f18a223fb4605ba8e10b4d
+  - path: deploy/index.js
+    algorithm: sha256
+    value: 370be2cd4bf9db9541d90ad65021b86d19c836c76184ff003da5bc6d11b33bd8
+  - path: deploy/package-lock.json
+    algorithm: sha256
+    value: 5f1ab536b966607d1fc685211a4f2a7fc7645466ca242ea4298f338a694decc8
+  - path: deploy/package.json
+    algorithm: sha256
+    value: fee6b14c6950abe56152e351db7ed283e11ce1708c502a1f9f3a75a73953cf89
+  - path: deploy/frontend/index.html
+    algorithm: sha256
+    value: 3a0e291a615f6e0e2705ec6cb0431411a1a40801a7942875703b3455bf4e8e61
+  - path: deploy/db/sql.js
+    algorithm: sha256
+    value: 580cd9d240e22ca4fdf0bdbda0a15921bbde997fe257d70d43d718a4c9e1009b
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: web-exploitation/No-OR-submit at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/web-exploitation/No-OR-submit
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/web-exploitation/No-OR-submit at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/web-exploitation/No-OR-submit
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-crypto-001
+name: ECC pop quizzz
+slug: 001-ecc-pop-quizzz
+original_name: ECC pop quizzz
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Elliptic-curve cryptography quiz challenge inspired by an RSA pop-quiz. Answer a series of
+  ECC questions against the deployed service.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- ecc
+- quiz
+authors:
+- name: Joule
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: cryptography/ECC pop quizzz
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/decrypt.py
+    reason: Solver decrypt script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: eca2d370dff2c43a3ad090460ef142b6b276d52e5eed5be417c978cbf16fa435
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 089799458b9141e9588a6143ac5b38ac9f6dda1f292775bbae78f040a6898c8d
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: 4dace7d442dd5eb708f5ed5d762d6aa83e11e7bac201efbb0069c469158c01f7
+  - path: deploy/crontab
+    algorithm: sha256
+    value: 34fd6c5ef3e9c27f7bce8d50f326cc9368a8af6ba23492ff332bc609641ac595
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: 7d73d0d976e2217718f9edf3a7435f390672cae4d17cbc73f1e5b2b9bc7b1a6f
+  - path: deploy/soal-ecc.py
+    algorithm: sha256
+    value: fb9d569f552f2c1cf704a687bdba189f7ef0a45e3df6dd95e015cebab4e7a09f
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: cryptography/ECC pop quizzz at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/cryptography/ECC pop quizzz
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/cryptography/ECC pop quizzz at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/cryptography/ECC pop quizzz
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

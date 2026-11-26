@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-pwn-001
+name: Chalarm
+slug: 001-chalarm
+original_name: chalarm
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: An ARM32 binary exploitation challenge. Execute ARM shellcode against the provided qemu-hosted
+  binary.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- pwn
+- arm
+- shellcode
+authors:
+- name: Ahm4d
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Binary Exploitation/chalarm
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a3bf4639d184c1eb7ea166fc5974082bdc199431b776ba075cfffa0a9f5652fe
+  - path: challenge/chall.zip
+    algorithm: sha256
+    value: 3f6c203202c8c6da2d4a5eba396f4f1209fd50d7a320fbd6a80f344cb165c2ef
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: 2826c975f34ac8d43f75bed03053824d7e5ef1d60bb6f0d1a7b974693cf235de
+  - path: deploy/Dockerfile.old
+    algorithm: sha256
+    value: 844af23cea308d7aee683504e49e37e9fbcdcb0422d0172988304609425cfbfa
+  - path: deploy/chall
+    algorithm: sha256
+    value: 531f8534e2670b524cba4823910d49c480c58ea29c2bf24d9e693f2d06f0e10d
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: 6cd1c993caed2195b3fd5fc56b08904ff7b0e4b49dc22cb6f701e429e7870bbc
+  - path: deploy/crontab
+    algorithm: sha256
+    value: 2cd25e394fb4cbe4716fbb32529d77b954138e9ae71e34c3975b5b5aed0c6408
+  - path: deploy/flag
+    algorithm: sha256
+    value: 2212f22a6f57ce048dc1cd2f1ad5849648bfc57e5dea4452cb020bea5545662a
+  - path: deploy/require.md
+    algorithm: sha256
+    value: 9fa75d1dbe71c557f3e4a0562b21243a8c29185a19a330a3d8efa95569d233fc
+  - path: deploy/sha256
+    algorithm: sha256
+    value: 25e8e96c2dec23d51639063eb9c9f6c212cfcec21ad5bdd8ab8dccd3a36dcc7b
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Final/Binary Exploitation/Chalarm at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Final/Binary
+    Exploitation/Chalarm
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Challenge distribution files (challenge/*) were added to original/ from the organizer archive porosub/CTF-Hology-4.0
+  (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the infra deployment material from
+  porosub/infra-ctf. Challenge distribution files (challenge/*.zip) were added to original/ from the organizer
+  archive porosub/CTF-Hology-4.0 (commit 9caffefb2289e46c05a7f2c514ce8666a30d4c27), complementing the
+  infra deployment material. Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi
+  Operations), which is MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that
+  is not reproduced in this metadata.

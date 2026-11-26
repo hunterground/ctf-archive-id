@@ -2,16 +2,27 @@ schema_version: '1.0'
 id: hology-ctf-2023
 competition_id: hology-ctf
 year: 2023
-name: HOLOGY CTF 2023
-status: unknown
-verification: unverified
+name: HOLOGY 6.0 CTF
+status: completed
+verification: corroborated
 dates:
   start: null
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record. No edition year of 2023 was confirmed in the sources
-  reviewed.
+  challenge_count: 6
+references:
+- title: Hology-qual-2023 and Hology-final-2023 at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  type: official_repository
+  accessed: '2026-11-27'
+- title: devit7/CTF-Writeup-Mpiie (Hology6 CTF 2023)
+  url: https://github.com/devit7/CTF-Writeup-Mpiie
+  type: writeup
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: The 2023 mapping was previously unverified. The challenge author dimasma0305 (Dimas Maulana)
+  published a Hology Qual 2023 and a Hology Final 2023 folder; all six flags carry the Hology6{...}
+  prefix, confirming this is the HOLOGY 6.0 edition in 2023. Dates were not stated in the source.
+  challenge_count reflects the six imported web challenges only, and does not include challenges
+  authored by other organizers.

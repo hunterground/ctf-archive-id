@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: hology-ctf-2020-qualification-forensics-002
+name: meong
+slug: 002-meong
+original_name: meong
+competition_id: hology-ctf
+edition_year: 2020
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensics
+description: Forensics challenge. Analyze the Challenge.zip to find the treasure-location hint and recover
+  the flag (two city names).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- archive
+- image
+authors:
+- name: EmpalGentong
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-hology3-penyisihan-public
+  source_type: git
+  repository: https://github.com/porosub/hology3-penyisihan-public
+  commit: 0b3c98e08d5c0d010b644dcb64048ca42b7d11e0
+  original_path: forensics/meong
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Challenge.zip
+    algorithm: sha256
+    value: 293253fbddbbe1f0aca95fd509aec73bc8494144c940ee6c17e2292a2c1b76f1
+  - path: README.md
+    algorithm: sha256
+    value: fb861abfe50f174644dd7ec050bdfa0d4317daaef9cff29bb7ec0302564087b2
+  - path: images/clueTweet.png
+    algorithm: sha256
+    value: 21ac42c29af42b95d0cc3a9232b380bf8c62f1d0b8835aab05659918cd68bd50
+  - path: images/flag_1.jpeg
+    algorithm: sha256
+    value: 5e2771cac24c17a259af1e24eebc4a6f70dbd5f460e68f5a56bc2ca7adf33089
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2020 Divisi Security POROS
+  permission_reference: https://github.com/porosub/hology3-penyisihan-public/blob/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: forensics/meong at github.com/porosub/hology3-penyisihan-public
+  url: https://github.com/porosub/hology3-penyisihan-public/tree/0b3c98e08d5c0d010b644dcb64048ca42b7d11e0/forensics/meong
+  type: official_repository
+  accessed: '2026-11-27'
+- title: Hology 3.0/Penyisihan/forensics/meong at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%203.0/Penyisihan/forensics/meong
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Imported primarily from the dedicated organizer archive porosub/hology3-penyisihan-public (Arsip Soal
+  CTF Hology 3.0 Penyisihan, Divisi Security POROS), which is MIT-licensed (Copyright (c) 2020 Divisi
+  Security POROS) and whose README states the challenges are open for anyone to attempt. Its file
+  contents are byte-for-byte identical to the Hology 3.0/Penyisihan tree in porosub/infra-ctf (POROS UB,
+  Divisi Operations), which is retained as a secondary reference. HOLOGY 3.0 was inferred as 2020 by the
+  archive curator because the organizer repository documents HOLOGY 4.0 as 2021 and the editions are
+  sequential. The source README records a flag that is not reproduced in this metadata. Solver material
+  was moved to solvers/.

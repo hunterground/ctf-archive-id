@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-crypto-001
+name: Asrox
+slug: 001-asrox
+original_name: Asrox
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: Final round challenge. The organizer README is titled pwnclub but contains the Asrox crypto
+  challenge distribution; recover the flag.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- crypto
+authors:
+- name: rockwell
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Cryptography/Asrox
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0498e6d30c72ef8a50a102b2c82de4896f25e121c2278ddb11689c8c3f23940a
+  - path: challenge/ASROX.zip
+    algorithm: sha256
+    value: 2cace55a7bdc4ae761b1e445c0d5502270644961a7d3217c336728f44611c568
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Final/Cryptography/Asrox at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Final/Cryptography/Asrox
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

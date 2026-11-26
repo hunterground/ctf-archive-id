@@ -1,0 +1,128 @@
+schema_version: '1.0'
+id: hology-ctf-2023-final-web-003
+name: Holo Worker
+slug: 003-holo-worker
+original_name: null
+competition_id: hology-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: Web
+description: 'It is said this note app will send your note to "Zeta", but how? Can you check it for
+  me? This challenge requires you to test it locally using google-chrome; if it works then you can
+  send your payload to the admin bot.
+
+
+  App: `https://localhost:42613` Bot: `http://localhost:49655`'
+difficulty:
+  value: "3.30"
+  source: organizer
+tags:
+- web
+- xss
+- worker
+- indexeddb
+- bot
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: Hology-final-2023/Holo-Worker
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: dist/
+    reason: The extracted dist/ folder is redundant with the preserved dist.zip distribution archive.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 56f5b295975bde2ec29b62ea055d3e685cba2a06683c66e7f791a47035831bfb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5104a37e2e9990728352331204c08ed8c6aadd0e03c4893535326ea4adb691ff
+  - path: dist.zip
+    algorithm: sha256
+    value: d641a91579690b8c19061ae320677dc7b751eca05ed2cbd39e9fb05b048c46b6
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 43e0da4f09c90ec866c79c9efde34e098513dc09d46f8926b0967d4a799c84aa
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: f80675fbba0cf1d9ff5a598ec32cd9897f1b5d977c90259776a8c800e1f94da3
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 1f29675d73b51b696d732109c61a6fc3edfb746cabd7f4c60e3fec692023938c
+  - path: bot/index.js
+    algorithm: sha256
+    value: b980f2ed5e5e481691e19a4dfe15111373e181016400ff8d8ca57bd7b3a52e5b
+  - path: bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6a1b20ee5e74b9490ad580440ef076f825c629b8e1d25c01e16d0451dae46f25
+  - path: src/README.md
+    algorithm: sha256
+    value: 69a15d93ccff7a08579482794d93e3412c84c358810866f69818590796591992
+  - path: src/RootCA.crt
+    algorithm: sha256
+    value: 60e055dd522390773163674c1a63208a1f4eaa6be3591c6407f75a79a91b50ea
+  - path: src/RootCA.key
+    algorithm: sha256
+    value: aa435a7348751b9b4ada52969de066fd2adae759f40868cbd937a0155a2b3c7b
+  - path: src/RootCA.pem
+    algorithm: sha256
+    value: 60e055dd522390773163674c1a63208a1f4eaa6be3591c6407f75a79a91b50ea
+  - path: src/index.ts
+    algorithm: sha256
+    value: 1323fbf85b00041420b9026d32579256254ed62279c2405c6c0ee42118d7fba6
+  - path: src/package.json
+    algorithm: sha256
+    value: cfc94c36a7ad1ac38805fc5a87dd736d4708ed4c6898f8f2b264fb3a5ee6ab86
+  - path: src/tsconfig.json
+    algorithm: sha256
+    value: b12948e94a5f56fbb3924f619dcc26733e38e86c12fa83ae4b72bebc219ebd9c
+  - path: src/static/index.html
+    algorithm: sha256
+    value: 5ad00ac37b7a989ab415ff3584306237fd6511c24c25a433c22ff4e34614a463
+  - path: src/static/main.js
+    algorithm: sha256
+    value: 1c94a39994baf06c86dcf20a7f2978ef1f0b1a4644519d910ef46b151d893d16
+  - path: src/static/worker.mjs
+    algorithm: sha256
+    value: be80ac10d79d9aa32d6136dd51e69c16ceb754a2e9bbbd8fa4b60ce13ebef982
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2024 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Hology-final-2023/Holo-Worker at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/Hology-final-2023/Holo-Worker
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: 'Imported from the challenge author''s own repository (dimasma0305, Dimas Maulana). The source
+  challenge.yml carries a Hology6{...} flag, which is not reproduced in this metadata. Solver material
+  was moved to solvers/. The src directory and the distributed dist.zip contain a RootCA.key private
+  key for the challenge''s local CA; it is preserved as part of the author''s published distribution
+  and is not a real-world credential, but is noted here for review.'

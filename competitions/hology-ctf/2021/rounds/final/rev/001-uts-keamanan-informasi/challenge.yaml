@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: hology-ctf-2021-final-rev-002
+name: uts keamanan informasi
+slug: 001-uts-keamanan-informasi
+original_name: uts keamanan informasi
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: Final round reverse engineering challenge.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- rev
+authors:
+- name: rockwell
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-ctf-hology-4-0
+  source_type: git
+  repository: https://github.com/porosub/CTF-Hology-4.0
+  commit: 9caffefb2289e46c05a7f2c514ce8666a30d4c27
+  original_path: Final/Reverse Engineering/uts keamanan informasi
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 25e2a78eed256b981dc59958337a7f627c71a6e073952e083c8a86c40d7743fc
+  - path: challenge/chall.zip
+    algorithm: sha256
+    value: e5fe5b344e5325153e3842ee7820aa400c9ecb10c299222782f7e7c81a42f1ec
+licensing:
+  declared_license: null
+  copyright_holder: Divisi Security POROS
+  redistribution: permitted
+  attribution_required: true
+  attribution: porosub / Divisi Security POROS
+  permission_reference: null
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Final/Reverse Engineering/uts keamanan informasi at github.com/porosub/CTF-Hology-4.0
+  url: https://github.com/porosub/CTF-Hology-4.0/tree/9caffefb2289e46c05a7f2c514ce8666a30d4c27/Final/Reverse%20Engineering/uts%20keamanan%20informasi
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer archive porosub/CTF-Hology-4.0 (POROS UB / Divisi Security POROS),
+  which carries no LICENSE file; per archive policy an unlicensed repository by the same organizer whose
+  README states the challenges are open for anyone is treated as redistribution permitted (MIT inferred).
+  The README records a hology4 flag that is not reproduced in this metadata. Solver material was moved
+  to solvers/.

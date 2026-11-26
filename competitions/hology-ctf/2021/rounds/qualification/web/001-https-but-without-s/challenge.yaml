@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: hology-ctf-2021-qualification-web-001
+name: HTTPS but without S
+slug: 001-https-but-without-s
+original_name: HTTPS but without S
+competition_id: hology-ctf
+edition_year: 2021
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: A web challenge where the endpoint flag is obtained by inspecting the SSL certificate.
+difficulty:
+  value: '100'
+  source: organizer
+tags:
+- web
+- ssl
+- tls
+- certificate
+authors:
+- name: Arceister
+  team: null
+organization: null
+provenance:
+  archive_id: porosub-infra-ctf
+  source_type: git
+  repository: https://github.com/porosub/infra-ctf
+  commit: b6b983276062c03778ab0efd08595ec3ad5db406
+  original_path: Hology 4.0/Penyisihan/Web Exploitation/HTTPS but without S
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: deploy/PoC.md
+    reason: Player proof-of-concept writeup moved to solvers/.
+  - path: deploy/README.md
+    reason: Player deployment writeup moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f3e9baeb64d42c191db67e07d1cbeca0eecf0c85d70ca3665be1f1ce48ccd803
+  - path: deploy/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: deploy/Dockerfile
+    algorithm: sha256
+    value: c5a8b6bf7f22a3161e6f9b16f8389032123bbc8dd2199423384ead6cbeb40614
+  - path: deploy/cronScript.sh
+    algorithm: sha256
+    value: a3836ed371ee055816a6e95e5c125503522038a8636a334a4e2177d919a5146d
+  - path: deploy/index.js
+    algorithm: sha256
+    value: 2ae2c1ec232b5808395527639b8c29f3d20577aabab46b97adf145794f0ad40f
+  - path: deploy/package-lock.json
+    algorithm: sha256
+    value: 2c2951bf423abacd0bbdbc118b0fa7922b5eeace29100ef73da2475125520fdf
+  - path: deploy/package.json
+    algorithm: sha256
+    value: 7a82541c334f47404dd163b76835a457c7cf1d2a16a909aae09a187d2a33b842
+  - path: deploy/certis/alice-csr.conf
+    algorithm: sha256
+    value: a7216e1043ae00c0f7982fd8c235292dd23687b3641986edc22b12d56e68ca62
+  - path: deploy/certis/alice.csr
+    algorithm: sha256
+    value: 6b06732b8acbb7ec7f6e2ea9eefe1b8e6afba0e252a78dee0d98d16d462e11a4
+  - path: deploy/certis/cert.pem
+    algorithm: sha256
+    value: a5c302db12a952b940a0e0f09c27765b16546c2727641e0adbea0677dc7931c3
+  - path: deploy/certis/key.pem
+    algorithm: sha256
+    value: 8e1f3a0beffd463a2ac88dfa973fcf9f4639ae2eb5af3c7bbb4e1e19e28e332f
+licensing:
+  declared_license: MIT
+  copyright_holder: Divisi Operations POROS UB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2022 Divisi Operations POROS UB
+  permission_reference: https://github.com/porosub/infra-ctf/blob/b6b983276062c03778ab0efd08595ec3ad5db406/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Hology 4.0/Penyisihan/Web Exploitation/HTTPS but without S at github.com/porosub/infra-ctf
+  url: https://github.com/porosub/infra-ctf/tree/b6b983276062c03778ab0efd08595ec3ad5db406/Hology%204.0/Penyisihan/Web
+    Exploitation/HTTPS but without S
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the organizer repository porosub/infra-ctf (POROS UB, Divisi Operations), which is
+  MIT-licensed. The source README records a hology4{...} / Hology4{...} flag that is not reproduced in
+  this metadata.
