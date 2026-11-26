@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-rev-008
+name: sissyrev
+slug: 008-sissyrev
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: rev
+original_category: 'rev'
+description: >-
+  Custom block cipher over the padded password: a per-nibble substitution followed by a 32-bit permutation, applied 1337 times before comparing to a fixed hex digest.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- cipher
+- python
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: rev/sissyrev
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'chall.py'
+    algorithm: sha256
+    value: f740827b97eab7e793ccc1d44b821d54c82555ac70e5f22931a5c00e3bf7d803
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: a0cf0bf4ac4d611c12de6754d5d82c5f95afa99cff815b3f7fc00ab760e41e9f
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path rev/sissyrev. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solver.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

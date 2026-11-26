@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-crypto-006
+name: Mxor
+slug: 006-mxor
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: crypto
+original_category: 'crypto'
+description: >-
+  Repeating-key XOR over the decimal string form of the hex-encoded flag, with a five-character lowercase key; the ciphertext is printed base64-encoded.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- xor
+authors:
+- name: zakigeyan
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: crypto/Mxor
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'chall.py'
+    algorithm: sha256
+    value: 56e6ad562e9985308ef9c7b3d9c7adfa7edecfb8cefee9df37b5d01b8ee48feb
+  - path: 'flag'
+    algorithm: sha256
+    value: 33fc3b9c487e36d07ca5d3b8b5d7eb518b6b48951a7220f353785d49c2f3294f
+  - path: 'flag.enc'
+    algorithm: sha256
+    value: 0994907d7b62f8ac5d275522a919e65cb65f19535bdd0fac32b2ba082c41dc01
+  - path: 'key'
+    algorithm: sha256
+    value: 70a4bae7fd12630a78f1ff72a5d25b8f966afbfc5254f7819463a84292d8612f
+  - path: 'release/chall.py'
+    algorithm: sha256
+    value: 56e6ad562e9985308ef9c7b3d9c7adfa7edecfb8cefee9df37b5d01b8ee48feb
+  - path: 'release/flag.enc'
+    algorithm: sha256
+    value: 0994907d7b62f8ac5d275522a919e65cb65f19535bdd0fac32b2ba082c41dc01
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path crypto/Mxor. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

@@ -1,0 +1,1057 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-web-007
+name: narutowiki
+slug: 007-narutowiki
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: web
+original_category: 'web'
+description: >-
+  PHP wiki-like page that passes a page query parameter to file_get_contents() and evals the result, so a local file can be turned into executed PHP. Ships the scraped Naruto wiki pages used as the themed front end.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- php
+- lfi
+- eval
+authors:
+- name: idzharbae
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: web/narutowiki
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: 36f35748183d6e9b98a5857d8c06b2af0e29258fc3d90a90758cb57fcb338dfc
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 7975194af77247df1b2e47450f307ae02b4fd00cb0c4799f7a5c68c82d48482f
+  - path: 'pages/sudo.jpg'
+    algorithm: sha256
+    value: 402ddbb276b6e1b48f25495bd973f159f4030007a1ea40095401d5b09a3dc918
+  - path: 'source/index.html'
+    algorithm: sha256
+    value: 1ef1387a5b3544ee3413f1e1d773eb2982866ab9addfeec1a448338869090876
+  - path: 'source/index.php'
+    algorithm: sha256
+    value: 40963e579f5f22e2aa74a8f607c81c2ed5259d9feaf313972d006d12abf49bb9
+  - path: 'source/naruto.html'
+    algorithm: sha256
+    value: 4e234c9eca306168c670491cbb836b8d1cbd78e78f089dd6b92740b848bc5754
+  - path: 'source/naruto_files/118.webp'
+    algorithm: sha256
+    value: 078b8010c6d5d2c00ef317c16dc23dfb9eca0be86be0c99e1674fc9bafc79541
+  - path: 'source/naruto_files/15.png'
+    algorithm: sha256
+    value: 5a41f5e5fb82144848eb773ce63f8988670877ca0e8438d41dab564efe3a512a
+  - path: 'source/naruto_files/18.png'
+    algorithm: sha256
+    value: e02649c18f783eedd23fe20cbef04531ab1c57417960aaa659cd0e9b617caa53
+  - path: 'source/naruto_files/180.webp'
+    algorithm: sha256
+    value: 81072cd8c15c82b6b09ab83acff99ece4cd5d28362c60365824ae9963ff7ef26
+  - path: 'source/naruto_files/180_002.webp'
+    algorithm: sha256
+    value: 2403a5017228de32e462bf0dc7e601cb9a6610c7ed618ef3a21976daaab6b950
+  - path: 'source/naruto_files/18_002.png'
+    algorithm: sha256
+    value: c271f6c540905ed897581469eab837797b967a16c2849e354ab6fa23b0976fbb
+  - path: 'source/naruto_files/18_003.png'
+    algorithm: sha256
+    value: 02070535ddd7d05c1fdcaede6eb49dc58073647e23cb333aa330b8ba1788a6e9
+  - path: 'source/naruto_files/18_004.png'
+    algorithm: sha256
+    value: 80332fb2592e8cd85cae7e8ad39904116a27266198fec44952cccdf2f42faa78
+  - path: 'source/naruto_files/18_005.png'
+    algorithm: sha256
+    value: b3265eb1e226d1ae2174adf8c36d98acff7e5b0cd6fb5df00d245a6661863857
+  - path: 'source/naruto_files/30.webp'
+    algorithm: sha256
+    value: eec51dcc4430390931bb0f82582fd5d3f2b06cd30f5023f140bbfd39438e139d
+  - path: 'source/naruto_files/300.webp'
+    algorithm: sha256
+    value: de070d977c41bc2f296a02c733d714598133aeb319977661017fc7b7076a02ef
+  - path: 'source/naruto_files/30_002.webp'
+    algorithm: sha256
+    value: ddd2f037f8fe7f6951526c522aef03457dfe28ad86c4bfc8c94888eea4b5ab0a
+  - path: 'source/naruto_files/30_003.webp'
+    algorithm: sha256
+    value: a1ef9de02b2b4b568ac4ff9783dd0d7c0c2a8cf66d6dda9e054fe9209f4cdfa2
+  - path: 'source/naruto_files/30_004.webp'
+    algorithm: sha256
+    value: fab0483a869d598c70a77e8fabab5f62654960c0c81f41253dbec7619625daec
+  - path: 'source/naruto_files/50.webp'
+    algorithm: sha256
+    value: 6f77e02ccdd1cbf54baf113fa66f46f38bb444851051352c56b5f70dfa324ce4
+  - path: 'source/naruto_files/50_002.webp'
+    algorithm: sha256
+    value: 7f6aaf321ff2b6689f2c18743cba07c45154e89f3d7b6e038be6f804c18997f7
+  - path: 'source/naruto_files/53.webp'
+    algorithm: sha256
+    value: 70ff543f8cccb8ff1065a2819889506fdf75a56073d8061ddac5dcf879ba0e08
+  - path: 'source/naruto_files/53_002.webp'
+    algorithm: sha256
+    value: 67bc5e03aed272e814482bb96a2c25a2c0f597a11a1a43689eff2655dfb3b74d
+  - path: 'source/naruto_files/53_003.webp'
+    algorithm: sha256
+    value: b24ca777e9d213e7402270ee8871de1dea161875164b57bb547ee84eae74fbba
+  - path: 'source/naruto_files/53_004.webp'
+    algorithm: sha256
+    value: 4eefbaa2af3e77a04b0af18beb141eed09287e30e7fc2fe35d57a896fad50dfb
+  - path: 'source/naruto_files/53_005.webp'
+    algorithm: sha256
+    value: 92f218bb7e54bd4dd33058d054cbfc070e75643cdb79ad7589cf7daca0609e87
+  - path: 'source/naruto_files/56.webp'
+    algorithm: sha256
+    value: 9a100e425d21c86a8503a676de73ae9f8af6b86e4215e60913888b06be33e02a
+  - path: 'source/naruto_files/56_002.webp'
+    algorithm: sha256
+    value: 7482665fae6bc4cc35eca5c9621e47363f6931babf8f5753668c752ab3bbe0d6
+  - path: 'source/naruto_files/56_003.webp'
+    algorithm: sha256
+    value: 51528b0508a05b985e32fddcca757b32daa26f01984c738454576a5ae2159e5a
+  - path: 'source/naruto_files/73.webp'
+    algorithm: sha256
+    value: 4f63942394288e230c665a1facfd9886a828224ccedbed9f44b7cd431197d0e2
+  - path: 'source/naruto_files/Icon_-_Search.webp'
+    algorithm: sha256
+    value: 2d5309095c9a59280159aa8a2ddaa97de938dea1434a641742044174a407c7d5
+  - path: 'source/naruto_files/Naruto_Uzumaki.html'
+    algorithm: sha256
+    value: 4f5e86e0ee716dfa787b5b0457695120af0126745789f32b2534f803c35c5b1d
+  - path: 'source/naruto_files/Naruto_Uzumaki_002.html'
+    algorithm: sha256
+    value: 47e8d1b50555d3db2d8566a442d9118abe48bd0e91c8bfaa5399ce11cf9fc154
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/03182019-045848731-Partnership_728x90.gif'
+    algorithm: sha256
+    value: efe1d94df3b24844be042f43967a0d2b40b37600b946958bcc88c6c404eefb44
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/B22447082.7I;sttr=2045;prcl=s'
+    algorithm: sha256
+    value: 3b556d07c5120f023c2412942d70ba2b55c842dacb2710ee31386323bf61529a
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/Enqz_20U.html'
+    algorithm: sha256
+    value: 49a5799746b57bd540f3a23622888c09dc57e8836cb4ba2d1462397278226916
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/async_usersync.html'
+    algorithm: sha256
+    value: bd60241c646fb6b78a48a598b813ed7f3e93d47f09c854530d84499c61aabe02
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/async_usersync_data/async_usersync.js'
+    algorithm: sha256
+    value: 6761c3af10390e3db2f0e783296dccf9d06a014a6d66b8d1ee7ed7a3bcc94392
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/dcmads.js'
+    algorithm: sha256
+    value: 3b7ee503be8fb5865ba9cf4278326dc3ac1aed1e2ccaa5cc48f4894c6f692483
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/impl_v48.js'
+    algorithm: sha256
+    value: 5de077b4b085d52fb6fa31cdf6060de53ab3766be16023b5bb094a2ef609cd2c
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/lidar.js'
+    algorithm: sha256
+    value: f086083dd02d8aa81d11bd992c604b3c1ecf1e39bf3a12e786e7a78c11eb34ae
+  - path: 'source/naruto_files/Naruto_Uzumaki_data/trk.js'
+    algorithm: sha256
+    value: 39e4bb1136ff8bbe2457d34c90e02bafed71d7a40cb4109ef9e179fac58d61a2
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/0.079932'
+    algorithm: sha256
+    value: 696d0ca1df17d015af2d8bef208a688d1c504d6ed65b0f2d223cfc0489420a06
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a.html'
+    algorithm: sha256
+    value: b3dd98cb5398613f7066c5f32ac60d49d57d8d0970c0bc435e27064e24363e53
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/CIMA_BrandTrust.html'
+    algorithm: sha256
+    value: 294754553c12eaa2cf7966b4bbd65993e4e7710655f6e2600d0d6d64c22f38c9
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/CIMA_BrandTrust_data/DrawSVGPlugin.js'
+    algorithm: sha256
+    value: 90bdd23965b9f7b74e68ae920a3e667d946a0588824e59efd15233e9a9c2fde8
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/CIMA_BrandTrust_data/css.css'
+    algorithm: sha256
+    value: 22830cafa2fcc9d4b9bcda2c0f54c18619f3aba0dc68c1cf4f6d517513e8303b
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/CIMA_BrandTrust_data/tweenmax_1.js'
+    algorithm: sha256
+    value: 001acbb15d9c69510c0817e6dde361bff098406fad182ab3c367f86ff3da8343
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/Enqz_20U.html'
+    algorithm: sha256
+    value: 49a5799746b57bd540f3a23622888c09dc57e8836cb4ba2d1462397278226916
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/UFYwWwmt.js'
+    algorithm: sha256
+    value: 5056305b09ad6474ea540f796c79be51d6b8e96043cb3d7bc4ef774e56765f4f
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/express_html_inpage_rendering_lib_200_243.js'
+    algorithm: sha256
+    value: c4f15549517a017db740b5a284f935d76b78d5d1b2c27740a17c53acf7e6fdb8
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/a_data/lidar.js'
+    algorithm: sha256
+    value: 994f9a1b910ce69bc501e66ef8a3e90e47a3f810d74de293e1796dfdb67f6a08
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/inside.js'
+    algorithm: sha256
+    value: 460583105cf39eeaf4cb2f0000493c531a31f8078b44422e00239293e0731d2b
+  - path: 'source/naruto_files/Naruto_Uzumaki_data_002/osd_listener.js'
+    algorithm: sha256
+    value: 874ac360dbc509500b7551f32599714232ad3a933f34e311c1ba7d68b27ddbad
+  - path: 'source/naruto_files/P26086A07-C7FB-4124-A679-8AC404198BA7.js'
+    algorithm: sha256
+    value: 504aed8073e171050078adc16f40d5a611ed5b4816c9732c312aa343723f8019
+  - path: 'source/naruto_files/Qualaroo.css'
+    algorithm: sha256
+    value: d780418b0972f42c9f2b3b5bc4d24e3cfa92293f5ae9f35cb985736b8f14afbb
+  - path: 'source/naruto_files/VXc5h4Tf.js'
+    algorithm: sha256
+    value: eb17833af1b5d57e5b1c5140ac71041259f16e299fe236842f5aadec826657b8
+  - path: 'source/naruto_files/Wiki-wordmark.webp'
+    algorithm: sha256
+    value: d8fd1d0d945ba89e419bb1ee246b1e27687f7e107578d84c3c7dcc6071c60ad0
+  - path: 'source/naruto_files/a.html'
+    algorithm: sha256
+    value: 1df25d4bd4693b4d105b6aa0bbe82a9cb141b9db9e1285b4e0610ea53e378bc9
+  - path: 'source/naruto_files/a_002.html'
+    algorithm: sha256
+    value: 1df25d4bd4693b4d105b6aa0bbe82a9cb141b9db9e1285b4e0610ea53e378bc9
+  - path: 'source/naruto_files/a_003.html'
+    algorithm: sha256
+    value: 1df25d4bd4693b4d105b6aa0bbe82a9cb141b9db9e1285b4e0610ea53e378bc9
+  - path: 'source/naruto_files/abtestingoasis_blockinguniversal_analytics_jsadengine3_top_jstra'
+    algorithm: sha256
+    value: 782756dd75b61a64e035900f50aa4292d2951a72214f1a2c634e3634e4546c56
+  - path: 'source/naruto_files/amd.fbLocale,history,importScript,lo'
+    algorithm: sha256
+    value: bca1c36af8a08159b43f7ea5a0163ba661ba8af16c0d06366f3eb778bc7d6eb2
+  - path: 'source/naruto_files/amdwikia.abTest,cache,cookies,document,ge'
+    algorithm: sha256
+    value: 756b74998a3fcd71e2ee8914e1cb3108d566c7c457689e63cb06841c43d3def6
+  - path: 'source/naruto_files/analytics.js'
+    algorithm: sha256
+    value: 3e552578c7d450b023f2cd9d28f830be4335c3acc6c4ab6dadda0769f09e5f22
+  - path: 'source/naruto_files/apstag.js'
+    algorithm: sha256
+    value: 06042f6ac2063c8e23fcce2c7c64449bae470d34c4d46f97e145242158ef15f3
+  - path: 'source/naruto_files/async_usersync.html'
+    algorithm: sha256
+    value: 3118beec5ca6bc06044484c8d3094e331a8d6a9b091b6f37bf46c25b0ca25201
+  - path: 'source/naruto_files/async_usersync_002.html'
+    algorithm: sha256
+    value: dd6ad1388d1fc8489513775bfd67d8a5417bc141ee43a578edda9ba651abac96
+  - path: 'source/naruto_files/async_usersync_data/da2e6c890e6e3636.html'
+    algorithm: sha256
+    value: f150ac16378867439b87c22466681d25bc7a9203e4b21076fb7f4f69454d11e7
+  - path: 'source/naruto_files/async_usersync_data/tap.gif'
+    algorithm: sha256
+    value: ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629
+  - path: 'source/naruto_files/async_usersync_data_002/7229585415468898827.gif'
+    algorithm: sha256
+    value: 48a33ca9f42b91902d57ad8ac52e1ce32b92c8c10c732f2dbb6fe960ebfd9438
+  - path: 'source/naruto_files/async_usersync_data_002/async_usersync.js'
+    algorithm: sha256
+    value: c933d269620f092aed26c1bbb3ad414b42cec81b37e2488fce9ab3cf72d9db2f
+  - path: 'source/naruto_files/async_usersync_data_002/da2e6c890e6e3636.html'
+    algorithm: sha256
+    value: f150ac16378867439b87c22466681d25bc7a9203e4b21076fb7f4f69454d11e7
+  - path: 'source/naruto_files/async_usersync_data_002/dpixel.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/naruto_files/async_usersync_data_002/generic.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/naruto_files/async_usersync_data_002/mapuid_002.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/naruto_files/async_usersync_data_002/partner.gif'
+    algorithm: sha256
+    value: e586a84d8523747f42e510d78e141015b6424cf67d612854e892a7bcedc8ec9e
+  - path: 'source/naruto_files/async_usersync_data_002/pixel.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/naruto_files/async_usersync_data_002/pixel.png'
+    algorithm: sha256
+    value: 0b8a20373c6dd04e091902226d922b3688143a8938afb9d283d889de7b55ceb5
+  - path: 'source/naruto_files/async_usersync_data_002/sync.png'
+    algorithm: sha256
+    value: 0b8a20373c6dd04e091902226d922b3688143a8938afb9d283d889de7b55ceb5
+  - path: 'source/naruto_files/async_usersync_data_002/usersync.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/naruto_files/auth_modal_js'
+    algorithm: sha256
+    value: 8fed7e12a70de30c9f6110fb97081dba50fd03393500cd351070c26707dd2c89
+  - path: 'source/naruto_files/beacon.js'
+    algorithm: sha256
+    value: d0fd74148f4cbe78bd0e6328dc5ce5955f0a0ecdb1eb2919da4a7e596ac65912
+  - path: 'source/naruto_files/bridge3.html'
+    algorithm: sha256
+    value: 5087bea284334c8013e4487e7b0b45a06f3b26ea78c94adc95da6300d235e0e8
+  - path: 'source/naruto_files/client.js'
+    algorithm: sha256
+    value: 62f2eeec7851ae0d5e322062cf40092478236d4a4fc5a2cfd87b257739104147
+  - path: 'source/naruto_files/community_header_js'
+    algorithm: sha256
+    value: 9c27cb90f24aa4d9375eecf6b16a0b3f265686a9d2038e7678a8aa3298063283
+  - path: 'source/naruto_files/frame.html'
+    algorithm: sha256
+    value: 2f83a9f447fb2f5f9395d0ff55536e5ae3968761dbc38b12146c02ca8f99ec78
+  - path: 'source/naruto_files/gQT.es'
+    algorithm: sha256
+    value: e902ea491ee2f136700d056d989d953c446e2045b5203513811b031de2d5ed3b
+  - path: 'source/naruto_files/gallery.css'
+    algorithm: sha256
+    value: bd3b8ab1923cb41c64470b9580cf5abe1c89d500480b43ef5b762a667d4acdb6
+  - path: 'source/naruto_files/googima.txt'
+    algorithm: sha256
+    value: 3d76976e7a8f77ac90d8929a0a89d2f2da91e0e97936436762a837f23192dfa5
+  - path: 'source/naruto_files/gpt.js'
+    algorithm: sha256
+    value: 5136b389c15450f67bd254e0308a5ca3322233191046061e404c27e839356f8d
+  - path: 'source/naruto_files/ima3.js'
+    algorithm: sha256
+    value: 3bcf4c3604444d70e8cb98ba7d475d8777275d22bb1de86619cee20857fb5c93
+  - path: 'source/naruto_files/integrator.js'
+    algorithm: sha256
+    value: e6b769b35bcbdaac5df453c1d465a884f56fddd2e8bd75c1f3fd0080e3d3b256
+  - path: 'source/naruto_files/integrator_002.js'
+    algorithm: sha256
+    value: b4b7a6ac34648a3c4d87301c227cb8930b8ecf9b91ae3df8c86af75b173c6e82
+  - path: 'source/naruto_files/jquery.core,position,widget'
+    algorithm: sha256
+    value: 0f5dae328058637cf2c6b9071a499b57ae9d2bcbd3d747213529762fdad0e617
+  - path: 'source/naruto_files/jquerymediawiki'
+    algorithm: sha256
+    value: 201f7bb854da628ad2e8a3f7e38711f974cf3c30b191955f32a63e70e40f0d96
+  - path: 'source/naruto_files/jwplayer.js'
+    algorithm: sha256
+    value: 2a13223a7efdb3f215a81346f497578ae9d8e16927fda86a64c8bb9178f15990
+  - path: 'source/naruto_files/jwplayer_js'
+    algorithm: sha256
+    value: 2f4b1545302354102f7d378704147e3239d5347088767b3ae059f695bc41a7e2
+  - path: 'source/naruto_files/jwpsrv.js'
+    algorithm: sha256
+    value: 04352d348f98feddbccbc4e0dda9dbf8bb66dd6c976e906a41ee252e2a5fc4c1
+  - path: 'source/naruto_files/latest.webp'
+    algorithm: sha256
+    value: 33c2f341c72b6d4589ab5bb501c4f2fdd5bac7d31521f8d6783ff4b970d78f6d
+  - path: 'source/naruto_files/load.css'
+    algorithm: sha256
+    value: 6e8c7bc341815cd58e31b807630c9cb2746328bfe55f8fa891a97ba73b4ef2a4
+  - path: 'source/naruto_files/load.php'
+    algorithm: sha256
+    value: 8c8167c38c0bdc4d3b7d0350b42dd64fa70a43c154edaaa2fd4b177e2c289f07
+  - path: 'source/naruto_files/load_002.css'
+    algorithm: sha256
+    value: cb71ec77c55ac8e217ccb58a457abd76c12bb5e720d92ac548e595107aac388c
+  - path: 'source/naruto_files/load_002.php'
+    algorithm: sha256
+    value: ab852cc80bfc007a4e94f6817952feab5ac512d7efbd2c175c0c7bd0ac38775f
+  - path: 'source/naruto_files/load_003.css'
+    algorithm: sha256
+    value: fa60d9105d468f9e566b71d2f5511962ea4dd9d4320ad85b7b0366a16b43a735
+  - path: 'source/naruto_files/load_003.php'
+    algorithm: sha256
+    value: ecb2763ce4174e3d85dd70ff637fb5a00b05a34bc132c94bc9d02be04fdce9a5
+  - path: 'source/naruto_files/load_004.css'
+    algorithm: sha256
+    value: 5ab25dfd09fbf8f6be0126503289871c2045c0df374be9cc00a9c3f116438192
+  - path: 'source/naruto_files/load_004.php'
+    algorithm: sha256
+    value: edc5fd28353c5d26ed194f5a0c91a9708afc99b24f6227c000958f15feaf0c1d
+  - path: 'source/naruto_files/load_005.php'
+    algorithm: sha256
+    value: ff7e08cf0196395c24b4d0f42e6e9a668947992ca90f6285046d968c9a19c7f1
+  - path: 'source/naruto_files/load_006.php'
+    algorithm: sha256
+    value: a5f09ee17007a1e3de4fb6e8ed84a957ac6e0470d7c8acd2cc48b884e1acaa4e
+  - path: 'source/naruto_files/load_007.php'
+    algorithm: sha256
+    value: a32cdf500928c8e697d6e407789da082bfd6ec46c74211b1c9688fd3ea934791
+  - path: 'source/naruto_files/ls.html'
+    algorithm: sha256
+    value: 14bf351144cd898a8d7b6ac08d4ca15b2dd1e9c6473038d248c7b849a3667c22
+  - path: 'source/naruto_files/magnify-clip.png'
+    algorithm: sha256
+    value: f30424f6e105033898420e845fb9dccecfeda175b116d721fe8338c5d8545af9
+  - path: 'source/naruto_files/moatplugin.js'
+    algorithm: sha256
+    value: 0d910cc1aa24413aaeef9f2cb52c3ed8bc4a06e823fc1d2d26f75667a0233764
+  - path: 'source/naruto_files/nlsSDK600.js'
+    algorithm: sha256
+    value: bb555becf9cb272e5d13e3f54a07a06034900816f1805c4ec4df7d719d45ae17
+  - path: 'source/naruto_files/oasis_shared_core_jsoasis_shared_jsoasis_anon_jstoc_jsrecirculat'
+    algorithm: sha256
+    value: eba33135035829bd1f36717541e72030e9088c7c599c94d3ec97091a69bc163d
+  - path: 'source/naruto_files/osd.js'
+    algorithm: sha256
+    value: 9ed6308b644f91c953d318635ae4c5ea03977a40badb5c0ea94e963dd343a8dc
+  - path: 'source/naruto_files/page_header_js'
+    algorithm: sha256
+    value: 933cd98e932afa3e86311d20912fec831f4830052fed943c43e1aad5a5ee5169
+  - path: 'source/naruto_files/pd.html'
+    algorithm: sha256
+    value: d0da45bbfc43b6f18d1fd23dd6648c745da656567826b1d5823953ae63859f7d
+  - path: 'source/naruto_files/pd_data/3.html'
+    algorithm: sha256
+    value: c03d5732f9c55a68f7b8c8965278dc6eadce4bb3e610fb51d2a2dbf19e949ecb
+  - path: 'source/naruto_files/pd_data/cm.html'
+    algorithm: sha256
+    value: bb534faf546e60022d3f047ad60acca8c1b155560622de986e262698e2f6fe55
+  - path: 'source/naruto_files/pd_data/cs.html'
+    algorithm: sha256
+    value: 1e9543e8de01eb981dde3c9c62af400415a166c3952a4e141145e1b72f0b227b
+  - path: 'source/naruto_files/pd_data/dds.gif'
+    algorithm: sha256
+    value: 4e0705327480ad2323cb03d9c450ffcae4a98bf3a5382fa0c7882145ed620e49
+  - path: 'source/naruto_files/pd_data/img.html'
+    algorithm: sha256
+    value: 525b7e1269b1771c41b02652ef32a61bf8a391b58b0e2d864a6e6cc69c7fba0c
+  - path: 'source/naruto_files/pd_data/openx.html'
+    algorithm: sha256
+    value: bbcce0527f49a6a8c2eadaa4783302e1e098fea1450707d62435d9c4234b4707
+  - path: 'source/naruto_files/pd_data/openx_002.html'
+    algorithm: sha256
+    value: 36f800bc959d9ed203e6671cb83ec3a801c0dadff38756f1f034457ca7bb757d
+  - path: 'source/naruto_files/pd_data/pixel.html'
+    algorithm: sha256
+    value: 6e37b06f49c2448c926cbba8be8f7d530fa284c1c1a30224e2e4d637512b9698
+  - path: 'source/naruto_files/pd_data/send.gif'
+    algorithm: sha256
+    value: a065920df8cc4016d67c3a464be90099c9d28ffe7c9e6ee3a18f257efc58cbd7
+  - path: 'source/naruto_files/pd_data/sync_before.gif'
+    algorithm: sha256
+    value: afe0dcfca292a0fae8bce08a48c14d3e59c9d82c6052ab6d48a22ecc6c48f277
+  - path: 'source/naruto_files/portable_infobox_js'
+    algorithm: sha256
+    value: e9d78667d6d670825872a939c9dae6ba9378edd5f0eee312283ca55c73683a9b
+  - path: 'source/naruto_files/premium-rail.css'
+    algorithm: sha256
+    value: eb0dd3687238f0a8371596149766bebabb1c1f19c2cb4c4ba9bae59c5dedd618
+  - path: 'source/naruto_files/provider.js'
+    algorithm: sha256
+    value: c4f340cadf095eccb1ffe779b6629ca4600689d2b94136e92bae79f612a37361
+  - path: 'source/naruto_files/pubads_impl_2019032501.js'
+    algorithm: sha256
+    value: 54790afcdea14ea340a70c1200c4bb9669fcd83212f8cab422f961e85e74bcea
+  - path: 'source/naruto_files/pubads_impl_rendering_2019032501.js'
+    algorithm: sha256
+    value: 304c658a131d8eb0b0d233ab73fab7b88effd8845ce9eef1fc1e458100cc2ad0
+  - path: 'source/naruto_files/quant.js'
+    algorithm: sha256
+    value: 404a9b0ffbcc813e8ddbb8d8510a24a69c09079282f8083ee94f4adc5d627176
+  - path: 'source/naruto_files/related.js'
+    algorithm: sha256
+    value: bfafc0f00ecb842171bd50a5202170e141014f4d0be6897a35362707164cc796
+  - path: 'source/naruto_files/rules-p-8bG6eLqkH6Avk.js'
+    algorithm: sha256
+    value: 3a5f7ebd1ff77a1db41e3ae2eea7cd3af5e5072da2c4ac136e5164379b274096
+  - path: 'source/naruto_files/scout.js'
+    algorithm: sha256
+    value: 5e006acc25979a8ae243c78c7993962367bc3bbf87034ecde0c8d49e09d64054
+  - path: 'source/naruto_files/search_tracking_js'
+    algorithm: sha256
+    value: 38287f3abee329236663c8b82b3759dd8cf63ea648d71cf952cb127b51f0e129
+  - path: 'source/naruto_files/showad.html'
+    algorithm: sha256
+    value: e43b1556edda3a929c6726ced8a2e9b3a0c505daa2caee86b597bf14b88bb6b4
+  - path: 'source/naruto_files/showad_data/Pug.html'
+    algorithm: sha256
+    value: 1df25d4bd4693b4d105b6aa0bbe82a9cb141b9db9e1285b4e0610ea53e378bc9
+  - path: 'source/naruto_files/showad_data/PugMaster.html'
+    algorithm: sha256
+    value: 3bbd4b434d18f28edeed40e14b5c506cc41c70ce3f1b1d97c36ccc9f31ceb61e
+  - path: 'source/naruto_files/slideshow.css'
+    algorithm: sha256
+    value: 012668caf389451e6034542f220dc2c7cd99486be2dd4633d287e84a3adf9e08
+  - path: 'source/naruto_files/sync_iframe.html'
+    algorithm: sha256
+    value: abd63fadf682c1bf1fa90573c8b306b020f2d59c5469c11e761d21ac56eddc53
+  - path: 'source/naruto_files/sync_iframe_data/1d2fe213-e6b1-4a1d-9dfd-a3545316b5bd.gif'
+    algorithm: sha256
+    value: bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96
+  - path: 'source/naruto_files/sync_iframe_data/sync.gif'
+    algorithm: sha256
+    value: bb229a48bee31f5d54ca12dc9bd960c63a671f0d4be86a054c1d324a44499d96
+  - path: 'source/naruto_files/usync.html'
+    algorithm: sha256
+    value: 7f79ed765ed36f51d906db688ce88799c11968fa8df2fa5f4ece4b8a581bdfbc
+  - path: 'source/naruto_files/view'
+    algorithm: sha256
+    value: 10fc035c49e3c1c85ddf1234abb3ea9a264c19db1cf73d64266b81d6809d9abc
+  - path: 'source/naruto_files/visit_source_js'
+    algorithm: sha256
+    value: 85b766db5560c269bacaba40acfcea95a70bb2b1ba6056531d9077f0eb92a933
+  - path: 'source/naruto_files/wikia.instantGlobals,instantGlobalsOverride,abt3sting'
+    algorithm: sha256
+    value: 5c02a98ce30dd0ee7ed6799656945d3f5827ff14c3e40b4e39e8eca38cb43926
+  - path: 'source/naruto_files/wikia.php'
+    algorithm: sha256
+    value: ee9e6ab925ba2ab205d386c36f28e983ebe1fcb517fe7a7764e2723ea9d9f0fa
+  - path: 'source/naruto_files/wikia_in_your_lang_js'
+    algorithm: sha256
+    value: f186055d271de5b9b6dc96573ac9acad6473353553445ebe819ed983fdc21e1c
+  - path: 'source/naruto_files/wikia_photo_gallery_js'
+    algorithm: sha256
+    value: c812a6dc5aa400cf29f6d48e1df21c5555529d1f2781a363394b906cd94fcded
+  - path: 'source/naruto_files/wikia_photo_gallery_slideshow_js'
+    algorithm: sha256
+    value: 8c05fa785fa801ab65a49a6f0d8ea749af2a0291b520497f5b341fe4c75cd03d
+  - path: 'source/naruto_files/wikiabarIcon.png'
+    algorithm: sha256
+    value: 2eee0fe36709ae2f7a1d64b51b044e819f34ab498b18338e595bcb8b62b0a354
+  - path: 'source/naruto_files/yi.html'
+    algorithm: sha256
+    value: aa864ac1f4f4fb2e9cc84334a2e918c741e331ba613e308ee97720694a0fa2e6
+  - path: 'source/naruto_files/yi.js'
+    algorithm: sha256
+    value: 96ee2f024bdc224597efb2c85c674e4998fc02855bed14293f3baf77f0459ffb
+  - path: 'source/sasuke.html'
+    algorithm: sha256
+    value: 9b17203be302ba408ecabcd20b714ebb3b2553e4fef40f89ef39f1cb50dc8103
+  - path: 'source/sasuke_files/105.webp'
+    algorithm: sha256
+    value: 09b4d1f8a332cc783ceef78a873f9bcbc1329203d48bb534cc30d957b0d6a3e2
+  - path: 'source/sasuke_files/127.webp'
+    algorithm: sha256
+    value: 3775cb36062b3a58e543c8bb6437628170b1804917487f1d16be800041a986bd
+  - path: 'source/sasuke_files/15.png'
+    algorithm: sha256
+    value: 5a41f5e5fb82144848eb773ce63f8988670877ca0e8438d41dab564efe3a512a
+  - path: 'source/sasuke_files/18.png'
+    algorithm: sha256
+    value: 6ac7503ab5c8fadc8ba0502c40a5e9451955873952a43360a56fcf4419ba6fa0
+  - path: 'source/sasuke_files/180.webp'
+    algorithm: sha256
+    value: 8b6e270a6a5c39a6b0f3b816aeef871a4b50b4ed9c96f01546974c7cb64ae6e6
+  - path: 'source/sasuke_files/180_002.webp'
+    algorithm: sha256
+    value: 1a2fa4d1d03ac1f3ba0a6ab5276f036cbb80eb310d5ac3a6b80136f6dff482d5
+  - path: 'source/sasuke_files/180_003.webp'
+    algorithm: sha256
+    value: f1e27a94f516356772ade75edd9f11898896058b7f2552163f7b7bae90d53704
+  - path: 'source/sasuke_files/180_004.webp'
+    algorithm: sha256
+    value: c9363903f905da957aefd8123e9cf732a64799cce70e65709d1cc0f37b200280
+  - path: 'source/sasuke_files/18_002.png'
+    algorithm: sha256
+    value: e0fe0c50661685eed40da29bca9432064568c2631ada9e7e0eea3302f5235612
+  - path: 'source/sasuke_files/18_003.png'
+    algorithm: sha256
+    value: 70a70446bb963441194a0fc7ded3001863a69a6586169e3658210b25ec2106f5
+  - path: 'source/sasuke_files/18_004.png'
+    algorithm: sha256
+    value: f20b59fb5b3dce33c98ae5843b0182ff7b6be3ec7dbb2d283d0bb07571fa6bd8
+  - path: 'source/sasuke_files/18_005.png'
+    algorithm: sha256
+    value: dd8354f6574949c71225f70c97dc78c4bfed69a27865fbd0a036341458b69c6b
+  - path: 'source/sasuke_files/18_006.png'
+    algorithm: sha256
+    value: fef88f2e109095485af8d4a72ecb918ee5adcaf12dfb6cc844ea44bbcdd29d8f
+  - path: 'source/sasuke_files/18_007.png'
+    algorithm: sha256
+    value: 86cf1c2e4b133316eb53c222a7c247e9e7adcaa07b50f25e396413802a4e0ca2
+  - path: 'source/sasuke_files/18_008.png'
+    algorithm: sha256
+    value: ce1281680f5fc5d4e5afe87b67f3df2e411f716fc640286a644e452936d12643
+  - path: 'source/sasuke_files/18_009.png'
+    algorithm: sha256
+    value: bc8dcabefa19837d366ac9a4d3e42df3b338eca5e5d8b2803d5eb692b6e03ef6
+  - path: 'source/sasuke_files/18_010.png'
+    algorithm: sha256
+    value: b3265eb1e226d1ae2174adf8c36d98acff7e5b0cd6fb5df00d245a6661863857
+  - path: 'source/sasuke_files/18_011.png'
+    algorithm: sha256
+    value: 3c60af2a4e1a20e26289851ac2f9dcc498b7bd2a24105375a9cc0bca3c612cd3
+  - path: 'source/sasuke_files/18_012.png'
+    algorithm: sha256
+    value: e1127b7c7a2a77d90fd47ff4e4c47efeb6b90edf3b1229e739725eae526253b7
+  - path: 'source/sasuke_files/18_013.png'
+    algorithm: sha256
+    value: 8ae72a88db9e5989e0f36c9704aef5c096b3325466b84b8861c9d93e7e2f412e
+  - path: 'source/sasuke_files/18_014.png'
+    algorithm: sha256
+    value: 20e758bdeb5a1c2f295579bd4e1a17d7b5e6a0579d8fd315ddfc45a03c142b9f
+  - path: 'source/sasuke_files/18_015.png'
+    algorithm: sha256
+    value: fcabe498009b6f9845124923ba24b63292e63debb36c23aa2e8ab54548f59584
+  - path: 'source/sasuke_files/18_016.png'
+    algorithm: sha256
+    value: 663ea5d3c1319d6538d1f023ac4663d6581919e50c3a504bc08fe1983809bc30
+  - path: 'source/sasuke_files/18_017.png'
+    algorithm: sha256
+    value: 51982a9a60e527b172d4ab513862e5f221db077213514c78dc89d51778331ace
+  - path: 'source/sasuke_files/30.webp'
+    algorithm: sha256
+    value: fab0483a869d598c70a77e8fabab5f62654960c0c81f41253dbec7619625daec
+  - path: 'source/sasuke_files/300.webp'
+    algorithm: sha256
+    value: 6dc5f636926c9be4750e186d22d2e11bcc9d1acea34d0ffcc580c6c7c3a970e8
+  - path: 'source/sasuke_files/30_002.webp'
+    algorithm: sha256
+    value: eec51dcc4430390931bb0f82582fd5d3f2b06cd30f5023f140bbfd39438e139d
+  - path: 'source/sasuke_files/30_003.webp'
+    algorithm: sha256
+    value: ddd2f037f8fe7f6951526c522aef03457dfe28ad86c4bfc8c94888eea4b5ab0a
+  - path: 'source/sasuke_files/30_004.webp'
+    algorithm: sha256
+    value: a1ef9de02b2b4b568ac4ff9783dd0d7c0c2a8cf66d6dda9e054fe9209f4cdfa2
+  - path: 'source/sasuke_files/50.webp'
+    algorithm: sha256
+    value: 374d4ef0ba8276af3421952d69fa62686c7409d9ab1bb1edf49b533375178fcb
+  - path: 'source/sasuke_files/50_002.webp'
+    algorithm: sha256
+    value: f237662242fe653fdbb28117c0a3621e24f99f2600ddd2b96e95e475de2ad0d7
+  - path: 'source/sasuke_files/50_003.webp'
+    algorithm: sha256
+    value: 0df3d871925ee209c88bb14eb23b4b3c974dee67c104c6ae4faca08e6086a2ba
+  - path: 'source/sasuke_files/50_004.webp'
+    algorithm: sha256
+    value: 63f15e0e2181970fbacdf34fbc6c14a976c7db76a45891bb4c9e4a5f59d36728
+  - path: 'source/sasuke_files/53.webp'
+    algorithm: sha256
+    value: 70ff543f8cccb8ff1065a2819889506fdf75a56073d8061ddac5dcf879ba0e08
+  - path: 'source/sasuke_files/53_002.webp'
+    algorithm: sha256
+    value: 67bc5e03aed272e814482bb96a2c25a2c0f597a11a1a43689eff2655dfb3b74d
+  - path: 'source/sasuke_files/53_003.webp'
+    algorithm: sha256
+    value: b24ca777e9d213e7402270ee8871de1dea161875164b57bb547ee84eae74fbba
+  - path: 'source/sasuke_files/53_004.webp'
+    algorithm: sha256
+    value: 4eefbaa2af3e77a04b0af18beb141eed09287e30e7fc2fe35d57a896fad50dfb
+  - path: 'source/sasuke_files/53_005.webp'
+    algorithm: sha256
+    value: 92f218bb7e54bd4dd33058d054cbfc070e75643cdb79ad7589cf7daca0609e87
+  - path: 'source/sasuke_files/56.webp'
+    algorithm: sha256
+    value: 309667ed85eae699a5199cb1f41c643ee124eb0dfa09f7b7976f9b6506d280c4
+  - path: 'source/sasuke_files/56_002.webp'
+    algorithm: sha256
+    value: 51528b0508a05b985e32fddcca757b32daa26f01984c738454576a5ae2159e5a
+  - path: 'source/sasuke_files/56_003.webp'
+    algorithm: sha256
+    value: 44c5fa69ca9daa9703365bcc760c7df3e76ef6a01d32575f0dc7319064cc464e
+  - path: 'source/sasuke_files/63.webp'
+    algorithm: sha256
+    value: 8539a9cadc7c8288526bf1b8cfde1d6cc5e946d5d189bcd553173901792179a3
+  - path: 'source/sasuke_files/Icon_-_Search.webp'
+    algorithm: sha256
+    value: 2d5309095c9a59280159aa8a2ddaa97de938dea1434a641742044174a407c7d5
+  - path: 'source/sasuke_files/P26086A07-C7FB-4124-A679-8AC404198BA7.js'
+    algorithm: sha256
+    value: 504aed8073e171050078adc16f40d5a611ed5b4816c9732c312aa343723f8019
+  - path: 'source/sasuke_files/Qualaroo.css'
+    algorithm: sha256
+    value: d780418b0972f42c9f2b3b5bc4d24e3cfa92293f5ae9f35cb985736b8f14afbb
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/48246005-3131-4730-a092-46ef600b4c75.webp'
+    algorithm: sha256
+    value: b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/F2D67054A039C107'
+    algorithm: sha256
+    value: aa14567e20d21ac132ee53e9e4b3c88f88d87d26a51125566ee7d48a9d9f2cb3
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/CIMA_BrandTrust_data/DrawSVGPlugin.js'
+    algorithm: sha256
+    value: 90bdd23965b9f7b74e68ae920a3e667d946a0588824e59efd15233e9a9c2fde8
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/CIMA_BrandTrust_data/css.css'
+    algorithm: sha256
+    value: 22830cafa2fcc9d4b9bcda2c0f54c18619f3aba0dc68c1cf4f6d517513e8303b
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/CIMA_BrandTrust_data/tweenmax_1.js'
+    algorithm: sha256
+    value: 001acbb15d9c69510c0817e6dde361bff098406fad182ab3c367f86ff3da8343
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/UFYwWwmt.js'
+    algorithm: sha256
+    value: 5056305b09ad6474ea540f796c79be51d6b8e96043cb3d7bc4ef774e56765f4f
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/express_html_inpage_rendering_lib_200_243.js'
+    algorithm: sha256
+    value: c4f15549517a017db740b5a284f935d76b78d5d1b2c27740a17c53acf7e6fdb8
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/a_data/lidar.js'
+    algorithm: sha256
+    value: 994f9a1b910ce69bc501e66ef8a3e90e47a3f810d74de293e1796dfdb67f6a08
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/analytics.js'
+    algorithm: sha256
+    value: ef2ce19351ac76a57a18f400ecf4046eacc242af1f7b9a220548fb4a22cbab21
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/inside.js'
+    algorithm: sha256
+    value: 460583105cf39eeaf4cb2f0000493c531a31f8078b44422e00239293e0731d2b
+  - path: 'source/sasuke_files/Sasuke_Uchiha_data/main.js'
+    algorithm: sha256
+    value: 7149efa188e73ff55e6ff776d1d735c6fdd8123f662ec93352aa06beade408fa
+  - path: 'source/sasuke_files/VXc5h4Tf.js'
+    algorithm: sha256
+    value: eb17833af1b5d57e5b1c5140ac71041259f16e299fe236842f5aadec826657b8
+  - path: 'source/sasuke_files/Wiki-wordmark.webp'
+    algorithm: sha256
+    value: d8fd1d0d945ba89e419bb1ee246b1e27687f7e107578d84c3c7dcc6071c60ad0
+  - path: 'source/sasuke_files/abtestingoasis_blockinguniversal_analytics_jsadengine3_top_jstra'
+    algorithm: sha256
+    value: 782756dd75b61a64e035900f50aa4292d2951a72214f1a2c634e3634e4546c56
+  - path: 'source/sasuke_files/amd.fbLocale,history,importScript,lo'
+    algorithm: sha256
+    value: bca1c36af8a08159b43f7ea5a0163ba661ba8af16c0d06366f3eb778bc7d6eb2
+  - path: 'source/sasuke_files/amdwikia.abTest,cache,cookies,document,ge'
+    algorithm: sha256
+    value: 756b74998a3fcd71e2ee8914e1cb3108d566c7c457689e63cb06841c43d3def6
+  - path: 'source/sasuke_files/analytics.js'
+    algorithm: sha256
+    value: 3e552578c7d450b023f2cd9d28f830be4335c3acc6c4ab6dadda0769f09e5f22
+  - path: 'source/sasuke_files/apstag.js'
+    algorithm: sha256
+    value: 06042f6ac2063c8e23fcce2c7c64449bae470d34c4d46f97e145242158ef15f3
+  - path: 'source/sasuke_files/async_usersync_data/UH6TUt9n.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/sasuke_files/async_usersync_data/pixel.gif'
+    algorithm: sha256
+    value: b1442e85b03bdcaf66dc58c7abb98745dd2687d86350be9a298a1d9382ac849b
+  - path: 'source/sasuke_files/async_usersync_data_002/7229585415468898827.gif'
+    algorithm: sha256
+    value: 48a33ca9f42b91902d57ad8ac52e1ce32b92c8c10c732f2dbb6fe960ebfd9438
+  - path: 'source/sasuke_files/async_usersync_data_002/UH6TUt9n.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/sasuke_files/async_usersync_data_002/a.gif'
+    algorithm: sha256
+    value: 8337212354871836e6763a41e615916c89bac5b3f1f0adf60ba43c7c806e1015
+  - path: 'source/sasuke_files/async_usersync_data_002/a_002.gif'
+    algorithm: sha256
+    value: 6a842ea462daca2a0b5a0f5f25bcfc8e0059ac811ca6c6a1bc54e4d9119621c3
+  - path: 'source/sasuke_files/async_usersync_data_002/async_usersync.js'
+    algorithm: sha256
+    value: 9fecb98a10b022095a9d3856fe0f42f59dcb2faa60768b6022e513d372fc3e3a
+  - path: 'source/sasuke_files/async_usersync_data_002/cm.gif'
+    algorithm: sha256
+    value: 47043e4823a6c21a8881de789b4185355330b5804629d23f6b43dd93f5265292
+  - path: 'source/sasuke_files/async_usersync_data_002/px.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/sasuke_files/async_usersync_data_002/rsp.gif'
+    algorithm: sha256
+    value: 4b5b6b15c6255109e06720cce42a06d3aead8b7874423d9c52cb0303212c25ef
+  - path: 'source/sasuke_files/async_usersync_data_002/tap.gif'
+    algorithm: sha256
+    value: ef1955ae757c8b966c83248350331bd3a30f658ced11f387f8ebf05ab3368629
+  - path: 'source/sasuke_files/auth_modal_js'
+    algorithm: sha256
+    value: 8fed7e12a70de30c9f6110fb97081dba50fd03393500cd351070c26707dd2c89
+  - path: 'source/sasuke_files/beacon.js'
+    algorithm: sha256
+    value: d0fd74148f4cbe78bd0e6328dc5ce5955f0a0ecdb1eb2919da4a7e596ac65912
+  - path: 'source/sasuke_files/client.js'
+    algorithm: sha256
+    value: 62f2eeec7851ae0d5e322062cf40092478236d4a4fc5a2cfd87b257739104147
+  - path: 'source/sasuke_files/community_header_js'
+    algorithm: sha256
+    value: 9c27cb90f24aa4d9375eecf6b16a0b3f265686a9d2038e7678a8aa3298063283
+  - path: 'source/sasuke_files/container_data/css.css'
+    algorithm: sha256
+    value: 443cb58bce27e0f0579e5e5ee643f553e72493bee15a728607ae3e6b5d143ee0
+  - path: 'source/sasuke_files/container_data/css_002.css'
+    algorithm: sha256
+    value: 957f9ca686f9cd469fe49753980f995929ad40f8839008c75bf8ade07f5d9f58
+  - path: 'source/sasuke_files/container_data_002/abg_lite.js'
+    algorithm: sha256
+    value: 344cf83f3d6f8450cc6378d1e132747c1ce0add22ab28a3fa795ba652d366056
+  - path: 'source/sasuke_files/container_data_002/index_data/Enabler.js'
+    algorithm: sha256
+    value: 5f0207bbbd69497c7a37284c0b6f9bdcc9f83c574a4cda737e00a390d0ed268f
+  - path: 'source/sasuke_files/container_data_002/index_data/addata.js'
+    algorithm: sha256
+    value: 4634b94630896f1a23c5ce01f743d720847c5f4dd28fb549ed503cb2df4f8e87
+  - path: 'source/sasuke_files/container_data_002/index_data/bg-100.jpg'
+    algorithm: sha256
+    value: 418d98857ce65f377e249c038cdcbe29293c139d2aa221b29b2e4e5b5d627d3f
+  - path: 'source/sasuke_files/container_data_002/index_data/conv1.jpg'
+    algorithm: sha256
+    value: 51438c4acd59a0261b4f281e147c2ff0a1d43f184ae7e0c11534ae025254885c
+  - path: 'source/sasuke_files/container_data_002/index_data/cta-no-store_2x.png'
+    algorithm: sha256
+    value: 341de57077d36a12f59367b9343eb5a0ca91553dd85bf48c01631d26c6933f23
+  - path: 'source/sasuke_files/container_data_002/index_data/item1_2x.png'
+    algorithm: sha256
+    value: 6a575863d7a16acde76001170c80ce598fccf26f44be02dcf9a0dce507ae893d
+  - path: 'source/sasuke_files/container_data_002/index_data/item2_2x.png'
+    algorithm: sha256
+    value: 9936968081d0ef00a97f11c74dab91181345d0db20af94f31e6eb3e96165d316
+  - path: 'source/sasuke_files/container_data_002/index_data/item3_1_2x.png'
+    algorithm: sha256
+    value: 71adeed7dd14fd42f4e6a473f56454669518f7e6df41a01a47e194f488de2b33
+  - path: 'source/sasuke_files/container_data_002/index_data/item4_1_2x.png'
+    algorithm: sha256
+    value: f8a133f88cd3120be2da9c747c173af7a907497821031d8da38863ebfae766cb
+  - path: 'source/sasuke_files/container_data_002/index_data/lable_2x.png'
+    algorithm: sha256
+    value: 1b5e8c927c44a9a905e97ea70cd2df46b3fcf87ce0483a9f9c52698e609bc591
+  - path: 'source/sasuke_files/container_data_002/index_data/logo.png'
+    algorithm: sha256
+    value: e04d3366bd9ede372b6d97681dd73509aa596fec791683a0344916df8416d38a
+  - path: 'source/sasuke_files/container_data_002/index_data/name1_2x.png'
+    algorithm: sha256
+    value: 16d35c9daca6256c334d1d8342966a4cdbf08eceba3064220eb1c45a075e429c
+  - path: 'source/sasuke_files/container_data_002/index_data/name2_2x.png'
+    algorithm: sha256
+    value: 659c694f08c8d5ccaea0e006d6eeb7afe43ed8dd9431ddecf81498a0f3bdd003
+  - path: 'source/sasuke_files/container_data_002/index_data/name3_2x.png'
+    algorithm: sha256
+    value: 70835c614aa3fe73e2a634edd23e12c1953a4accfbd14bfe7214bcfe096a82eb
+  - path: 'source/sasuke_files/container_data_002/index_data/name4_2x.png'
+    algorithm: sha256
+    value: b7c4a1e866c118920cc6cc0f4ea72f048d2777d56ee887ba44ce49e23b565de8
+  - path: 'source/sasuke_files/container_data_002/index_data/promo-big.png'
+    algorithm: sha256
+    value: efea84731aedde99638f5d0dd28dffcd4fdda5b5d398c7e336711e0044c27b38
+  - path: 'source/sasuke_files/container_data_002/index_data/wooden-side.png'
+    algorithm: sha256
+    value: e4cb271c77b065da36e1b5f82bd4cb703ee6770609e6c351f30e72b919b8fe8d
+  - path: 'source/sasuke_files/container_data_002/m_qs_click_protection.js'
+    algorithm: sha256
+    value: d4de866a4f7572af22873c3dd6b3c3bf27e3f3cb1cdecaa9aae9e31365664d97
+  - path: 'source/sasuke_files/container_data_002/m_window_focus_non_hydra.js'
+    algorithm: sha256
+    value: 4dd51e6b250e15946ca0af835e0511093c82c5678115aac3055645d889a1681a
+  - path: 'source/sasuke_files/container_data_002/osd_listener.js'
+    algorithm: sha256
+    value: 874ac360dbc509500b7551f32599714232ad3a933f34e311c1ba7d68b27ddbad
+  - path: 'source/sasuke_files/gQT.es'
+    algorithm: sha256
+    value: e902ea491ee2f136700d056d989d953c446e2045b5203513811b031de2d5ed3b
+  - path: 'source/sasuke_files/gallery.css'
+    algorithm: sha256
+    value: bd3b8ab1923cb41c64470b9580cf5abe1c89d500480b43ef5b762a667d4acdb6
+  - path: 'source/sasuke_files/googima.txt'
+    algorithm: sha256
+    value: 3d76976e7a8f77ac90d8929a0a89d2f2da91e0e97936436762a837f23192dfa5
+  - path: 'source/sasuke_files/gpt.js'
+    algorithm: sha256
+    value: 5136b389c15450f67bd254e0308a5ca3322233191046061e404c27e839356f8d
+  - path: 'source/sasuke_files/ima3.js'
+    algorithm: sha256
+    value: 3bcf4c3604444d70e8cb98ba7d475d8777275d22bb1de86619cee20857fb5c93
+  - path: 'source/sasuke_files/integrator.js'
+    algorithm: sha256
+    value: 28c4dfef82cde9aa42b98ae19fbeb7b565fec628203c533f04f933293d318ec3
+  - path: 'source/sasuke_files/integrator_002.js'
+    algorithm: sha256
+    value: bc4f61f0da8191d452388f4d001d313c9901712545b5333a50f3ef0ea1f8a013
+  - path: 'source/sasuke_files/iu3_data/pr_data/ecm3_003.gif'
+    algorithm: sha256
+    value: c21e2c1246fe45a6750ae6208db2b5965ff6ed63eb80d2ecec3be9c83813428e
+  - path: 'source/sasuke_files/iu3_data/pr_data/ecm3_004.gif'
+    algorithm: sha256
+    value: c21e2c1246fe45a6750ae6208db2b5965ff6ed63eb80d2ecec3be9c83813428e
+  - path: 'source/sasuke_files/iu3_data/pr_data/multi-sync.js'
+    algorithm: sha256
+    value: f809626173382537067bd8301068f7ff69070531e9a7fd74688ff04400de2d8c
+  - path: 'source/sasuke_files/iu3_data/pr_data/user_sync_data/digitrust.js'
+    algorithm: sha256
+    value: b11ed3c6bf70e1b5e6bfd6e372960cd56f40ecca7c661bf9766cd2cadac0bdfd
+  - path: 'source/sasuke_files/iu3_data/pr_data/user_sync_data/showad_data/ecm3_002.gif'
+    algorithm: sha256
+    value: c21e2c1246fe45a6750ae6208db2b5965ff6ed63eb80d2ecec3be9c83813428e
+  - path: 'source/sasuke_files/jquery.core,position,widget'
+    algorithm: sha256
+    value: 0f5dae328058637cf2c6b9071a499b57ae9d2bcbd3d747213529762fdad0e617
+  - path: 'source/sasuke_files/jquery.tablesorter'
+    algorithm: sha256
+    value: a6f60379cb9bec5a54f5d8605bc639c898fb620d1133bbbfbc9725a804250f01
+  - path: 'source/sasuke_files/jquerymediawiki'
+    algorithm: sha256
+    value: 201f7bb854da628ad2e8a3f7e38711f974cf3c30b191955f32a63e70e40f0d96
+  - path: 'source/sasuke_files/jwplayer.js'
+    algorithm: sha256
+    value: 2a13223a7efdb3f215a81346f497578ae9d8e16927fda86a64c8bb9178f15990
+  - path: 'source/sasuke_files/jwplayer_js'
+    algorithm: sha256
+    value: 2f4b1545302354102f7d378704147e3239d5347088767b3ae059f695bc41a7e2
+  - path: 'source/sasuke_files/jwpsrv.js'
+    algorithm: sha256
+    value: 04352d348f98feddbccbc4e0dda9dbf8bb66dd6c976e906a41ee252e2a5fc4c1
+  - path: 'source/sasuke_files/latest.webp'
+    algorithm: sha256
+    value: 33c2f341c72b6d4589ab5bb501c4f2fdd5bac7d31521f8d6783ff4b970d78f6d
+  - path: 'source/sasuke_files/load.css'
+    algorithm: sha256
+    value: fa60d9105d468f9e566b71d2f5511962ea4dd9d4320ad85b7b0366a16b43a735
+  - path: 'source/sasuke_files/load.php'
+    algorithm: sha256
+    value: ecb2763ce4174e3d85dd70ff637fb5a00b05a34bc132c94bc9d02be04fdce9a5
+  - path: 'source/sasuke_files/load_002.css'
+    algorithm: sha256
+    value: 6e8c7bc341815cd58e31b807630c9cb2746328bfe55f8fa891a97ba73b4ef2a4
+  - path: 'source/sasuke_files/load_002.php'
+    algorithm: sha256
+    value: a32cdf500928c8e697d6e407789da082bfd6ec46c74211b1c9688fd3ea934791
+  - path: 'source/sasuke_files/load_003.css'
+    algorithm: sha256
+    value: cb71ec77c55ac8e217ccb58a457abd76c12bb5e720d92ac548e595107aac388c
+  - path: 'source/sasuke_files/load_003.php'
+    algorithm: sha256
+    value: a5f09ee17007a1e3de4fb6e8ed84a957ac6e0470d7c8acd2cc48b884e1acaa4e
+  - path: 'source/sasuke_files/load_004.css'
+    algorithm: sha256
+    value: 5ab25dfd09fbf8f6be0126503289871c2045c0df374be9cc00a9c3f116438192
+  - path: 'source/sasuke_files/load_004.php'
+    algorithm: sha256
+    value: 8c8167c38c0bdc4d3b7d0350b42dd64fa70a43c154edaaa2fd4b177e2c289f07
+  - path: 'source/sasuke_files/load_005.php'
+    algorithm: sha256
+    value: ab852cc80bfc007a4e94f6817952feab5ac512d7efbd2c175c0c7bd0ac38775f
+  - path: 'source/sasuke_files/load_006.php'
+    algorithm: sha256
+    value: edc5fd28353c5d26ed194f5a0c91a9708afc99b24f6227c000958f15feaf0c1d
+  - path: 'source/sasuke_files/load_007.php'
+    algorithm: sha256
+    value: ff7e08cf0196395c24b4d0f42e6e9a668947992ca90f6285046d968c9a19c7f1
+  - path: 'source/sasuke_files/magnify-clip.png'
+    algorithm: sha256
+    value: f30424f6e105033898420e845fb9dccecfeda175b116d721fe8338c5d8545af9
+  - path: 'source/sasuke_files/moatplugin.js'
+    algorithm: sha256
+    value: 0d910cc1aa24413aaeef9f2cb52c3ed8bc4a06e823fc1d2d26f75667a0233764
+  - path: 'source/sasuke_files/nlsSDK600.js'
+    algorithm: sha256
+    value: bb555becf9cb272e5d13e3f54a07a06034900816f1805c4ec4df7d719d45ae17
+  - path: 'source/sasuke_files/oasis_shared_core_jsoasis_shared_jsoasis_anon_jstoc_jsrecirculat'
+    algorithm: sha256
+    value: eba33135035829bd1f36717541e72030e9088c7c599c94d3ec97091a69bc163d
+  - path: 'source/sasuke_files/osd.js'
+    algorithm: sha256
+    value: 9ed6308b644f91c953d318635ae4c5ea03977a40badb5c0ea94e963dd343a8dc
+  - path: 'source/sasuke_files/page_header_js'
+    algorithm: sha256
+    value: 933cd98e932afa3e86311d20912fec831f4830052fed943c43e1aad5a5ee5169
+  - path: 'source/sasuke_files/pd_data/19cb1bfc173dcb98ccec.html'
+    algorithm: sha256
+    value: afa681fb5a240939b602d5726bc50d22e9521f26c6edafa8c2d5dba6f8847c1b
+  - path: 'source/sasuke_files/pd_data/78f4d4c9-9a9d-e055-d647-d09e88d5db51.gif'
+    algorithm: sha256
+    value: 48a33ca9f42b91902d57ad8ac52e1ce32b92c8c10c732f2dbb6fe960ebfd9438
+  - path: 'source/sasuke_files/pd_data/a.html'
+    algorithm: sha256
+    value: 9c048f3badfe7ff4ef3541186c3a20224909f31b9ca50acd7c40ff2f157bd275
+  - path: 'source/sasuke_files/pd_data/a_002.html'
+    algorithm: sha256
+    value: 428773b6c315108a056d43234e29820f82ee628aaa1596e2e363545bf866f4ec
+  - path: 'source/sasuke_files/pd_data/current.html'
+    algorithm: sha256
+    value: c1b71f4b3910fc2ee7c4b7b961a05314c2cbad6d9e9f9ed1db55a437c11a1cd5
+  - path: 'source/sasuke_files/pd_data/mapuser.html'
+    algorithm: sha256
+    value: 17b3914195ad4aae3f4486a351fe9172aada062dad7fcc78bca5894221a6c019
+  - path: 'source/sasuke_files/pd_data/ny75r2x0.html'
+    algorithm: sha256
+    value: e9bf14d0ed04213f53ae40248c0a2212bb31f4a277d9cf131fa146529f6225e1
+  - path: 'source/sasuke_files/pd_data/openx.html'
+    algorithm: sha256
+    value: 9ee7aa31e9661b03ce86d7e9f7528b584217d9e4bcb52b63bf849c0e2d3dea3d
+  - path: 'source/sasuke_files/pd_data/openxjp.gif'
+    algorithm: sha256
+    value: a7f28e33d6a65a4269a7f4e327a177ead60fea39cb13129a35c4b24fef84f5af
+  - path: 'source/sasuke_files/pd_data/redirect.html'
+    algorithm: sha256
+    value: 28addefb0ce83f89437edff0948f37329d23185f1e6c0ce80674eaaeef007c7e
+  - path: 'source/sasuke_files/polyfills.js'
+    algorithm: sha256
+    value: dafe549b1d4c5f50b281cfa0e37919a08339754e04399c0064323b6e01d8c582
+  - path: 'source/sasuke_files/portable_infobox_js'
+    algorithm: sha256
+    value: e9d78667d6d670825872a939c9dae6ba9378edd5f0eee312283ca55c73683a9b
+  - path: 'source/sasuke_files/premium-rail.css'
+    algorithm: sha256
+    value: eb0dd3687238f0a8371596149766bebabb1c1f19c2cb4c4ba9bae59c5dedd618
+  - path: 'source/sasuke_files/provider.js'
+    algorithm: sha256
+    value: c4f340cadf095eccb1ffe779b6629ca4600689d2b94136e92bae79f612a37361
+  - path: 'source/sasuke_files/pubads_impl_2019032501.js'
+    algorithm: sha256
+    value: 54790afcdea14ea340a70c1200c4bb9669fcd83212f8cab422f961e85e74bcea
+  - path: 'source/sasuke_files/pubads_impl_rendering_2019032501.js'
+    algorithm: sha256
+    value: 304c658a131d8eb0b0d233ab73fab7b88effd8845ce9eef1fc1e458100cc2ad0
+  - path: 'source/sasuke_files/quant.js'
+    algorithm: sha256
+    value: 404a9b0ffbcc813e8ddbb8d8510a24a69c09079282f8083ee94f4adc5d627176
+  - path: 'source/sasuke_files/related.js'
+    algorithm: sha256
+    value: bfafc0f00ecb842171bd50a5202170e141014f4d0be6897a35362707164cc796
+  - path: 'source/sasuke_files/rules-p-8bG6eLqkH6Avk.js'
+    algorithm: sha256
+    value: 3a5f7ebd1ff77a1db41e3ae2eea7cd3af5e5072da2c4ac136e5164379b274096
+  - path: 'source/sasuke_files/scout.js'
+    algorithm: sha256
+    value: 6cb4ce862a747cde35b4b19d4e549c98591bedd0167b1628b0a7703c95d95335
+  - path: 'source/sasuke_files/search_tracking_js'
+    algorithm: sha256
+    value: 38287f3abee329236663c8b82b3759dd8cf63ea648d71cf952cb127b51f0e129
+  - path: 'source/sasuke_files/showad_data/PugMaster.html'
+    algorithm: sha256
+    value: 5f32ddc5f83e8635fdde53e1418608368bff38c6b89500dde888ee23c2a68e4e
+  - path: 'source/sasuke_files/slideshow.css'
+    algorithm: sha256
+    value: 012668caf389451e6034542f220dc2c7cd99486be2dd4633d287e84a3adf9e08
+  - path: 'source/sasuke_files/view'
+    algorithm: sha256
+    value: 0133d5dbfe052bff1f2d91105667de75f1550e57d4a58a85e9874bace43fb0d8
+  - path: 'source/sasuke_files/visit_source_js'
+    algorithm: sha256
+    value: 85b766db5560c269bacaba40acfcea95a70bb2b1ba6056531d9077f0eb92a933
+  - path: 'source/sasuke_files/vttparser.js'
+    algorithm: sha256
+    value: dcaa1a488e22e8d4f5a689cc57692c2c57035087853b32c2a663a107829b0a9c
+  - path: 'source/sasuke_files/wikia.instantGlobals,instantGlobalsOverride,abt3sting'
+    algorithm: sha256
+    value: 5c02a98ce30dd0ee7ed6799656945d3f5827ff14c3e40b4e39e8eca38cb43926
+  - path: 'source/sasuke_files/wikia.php'
+    algorithm: sha256
+    value: ee9e6ab925ba2ab205d386c36f28e983ebe1fcb517fe7a7764e2723ea9d9f0fa
+  - path: 'source/sasuke_files/wikia_in_your_lang_js'
+    algorithm: sha256
+    value: f186055d271de5b9b6dc96573ac9acad6473353553445ebe819ed983fdc21e1c
+  - path: 'source/sasuke_files/wikia_photo_gallery_js'
+    algorithm: sha256
+    value: c812a6dc5aa400cf29f6d48e1df21c5555529d1f2781a363394b906cd94fcded
+  - path: 'source/sasuke_files/wikia_photo_gallery_slideshow_js'
+    algorithm: sha256
+    value: 8c05fa785fa801ab65a49a6f0d8ea749af2a0291b520497f5b341fe4c75cd03d
+  - path: 'source/sasuke_files/wikiabarIcon.png'
+    algorithm: sha256
+    value: 2eee0fe36709ae2f7a1d64b51b044e819f34ab498b18338e595bcb8b62b0a354
+  - path: 'source/sasuke_files/yi.html'
+    algorithm: sha256
+    value: bf4feb3213c9e98a9f9cd2cbec332951f97d1b94526cb5d8377203ed339c4977
+  - path: 'source/sasuke_files/yi.js'
+    algorithm: sha256
+    value: 96ee2f024bdc224597efb2c85c674e4998fc02855bed14293f3baf77f0459ffb
+  - path: 'source/sikretfail.txt'
+    algorithm: sha256
+    value: 479edcad34b8c359c15ad31389ca4c6a8e30bd2683f548926d82cc6423f751fa
+  - path: 'vhost.conf'
+    algorithm: sha256
+    value: afc4d06cbfe56ed6f784e74d0d0785285fc314aaeeb796a9a30b739d5facbbcb
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [hacktoday]
+  requirements: [docker, docker-compose]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path web/narutowiki. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title. The distribution includes a scraped Naruto wiki page set (source/naruto_files, source/sasuke_files) used as the themed front end; it is preserved as shipped. source/sikretfail.txt inside the distribution contains a flag value; it ships as part of the challenge and is untouched.

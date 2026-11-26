@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-crypto-007
+name: rsa-goes-skrrrahh
+slug: 007-rsa-goes-skrrrahh
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: crypto
+original_category: 'crypto'
+description: >-
+  RSA with a single 2048-bit modulus and an extra public hint h = (p + 0xdeadbeef) * (q + 0xdeadbeef), which is meant to make the factors recoverable from the hint.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rsa
+- math
+authors:
+- name: zakigeyan
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: crypto/rsa-goes-skrrrahh
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'enc'
+    algorithm: sha256
+    value: 6eee272cd6a40e766d7b8053f4534fee32d71b70bfd8a92a015482cd41a3fdef
+  - path: 'flag'
+    algorithm: sha256
+    value: 5b9e45cd8ebe6ac41745663407ccf7d988693efaaeec8f52ef3275815af3c219
+  - path: 'release/enc'
+    algorithm: sha256
+    value: 6eee272cd6a40e766d7b8053f4534fee32d71b70bfd8a92a015482cd41a3fdef
+  - path: 'release/rsa-goes-skrrrahh.py'
+    algorithm: sha256
+    value: 1874d25f300f353fee10bdf867f8c692ddd73106eb859e3bb919bfb183e55901
+  - path: 'rsa-goes-skrrrahh.py'
+    algorithm: sha256
+    value: 1874d25f300f353fee10bdf867f8c692ddd73106eb859e3bb919bfb183e55901
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+- title: HackToday 2019 Quals - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-quals-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+- title: HackToday 2019 Final - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-final-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path crypto/rsa-goes-skrrrahh. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The source repository records this as archived HackToday material: it was added by a commit whose message names HackToday, and its flag format and challenge name match HackToday 2019. It is kept in this competition because that is where the material is published; the HackToday lineage is recorded here rather than as a separate archive entity. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

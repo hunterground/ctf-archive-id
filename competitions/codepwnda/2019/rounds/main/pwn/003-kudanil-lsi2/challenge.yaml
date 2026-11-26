@@ -1,0 +1,104 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-pwn-003
+name: kudanil_lsi2
+slug: 003-kudanil-lsi2
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: pwn
+original_category: 'pwn'
+description: >-
+  Pseudo-3D grid game on a 20x20x20 board of objects that carry function pointers, with position handling that can be driven out of bounds.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- heap
+- function-pointer
+authors:
+- name: zeroload
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: pwn/kudanil_lsi2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: cbf8556ba9084f6c021d1c1051a314c6ba0e0f1a952bdb3b764f1d25a52b1121
+  - path: 'Readme.md'
+    algorithm: sha256
+    value: b710b3df1012dc370bdb4739dc0c28142b36209ef070a62682abe20dfcb43644
+  - path: 'challenge/flag'
+    algorithm: sha256
+    value: 60788415502881f47bafbefe41edb0b405051da6102701cc3e75435ca9bd80c7
+  - path: 'challenge/kudanil_lsi2'
+    algorithm: sha256
+    value: c076771336d94ae3c24d8ec118e72cbb060ee95182e55c17f7986fd600c975ef
+  - path: 'config/ctf.xinetd'
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: 'config/run_challenge.sh'
+    algorithm: sha256
+    value: a06a64f000034b89bb3cf6f8d54506217496a91ea94d191c122d2e70e0bdf2d2
+  - path: 'config/run_xinetd.sh'
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 235fb6e9a8bbbc9a8db23bfa2560d88d4867804017d53aab844eaf6683e54e72
+  - path: 'kudanil_lsi2'
+    algorithm: sha256
+    value: c076771336d94ae3c24d8ec118e72cbb060ee95182e55c17f7986fd600c975ef
+  - path: 'kudanil_lsi2.c'
+    algorithm: sha256
+    value: 59c1f8031e877d2b0bd57bc26405f56d05fecfc819560b41b95e4c508c8b323f
+  - path: 'src/kudanil_lsi2.c'
+    algorithm: sha256
+    value: 872f20a8273ddb70e900d03a4e8af877d2b66719fb1a8a49113a9bf0852fe94a
+  - path: 'src/peta.map'
+    algorithm: sha256
+    value: 6565891798a98f8b8065d08c7a31933f88d34295ad695939c50a1c8c638fb8a2
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [codepwnda]
+  requirements: [docker, docker-compose, xinetd]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+- title: HackToday 2019 Quals - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-quals-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+- title: HackToday 2019 Final - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-final-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path pwn/kudanil_lsi2. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The source repository records this as archived HackToday material: it was added by a commit whose message names HackToday, and its flag format and challenge name match HackToday 2019. It is kept in this competition because that is where the material is published; the HackToday lineage is recorded here rather than as a separate archive entity. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `src/solver.py`. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title. The source Readme.md states the score as 100. That is a competition score, not a difficulty level, so difficulty is left unset.

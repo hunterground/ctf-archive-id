@@ -4106,3 +4106,113 @@ repositories:
     commit messages name directly. Verification stays partially_verified because the release has no official
     event page, schedule or scoreboard, so the event framing rests on the organizer announcement plus the
     repository itself.'
+- schema_version: '1.0'
+  id: agrihack-0x08-challenges
+  name: Agrihack 0x08 challenge repository
+  source:
+    type: github
+    url: https://github.com/naufalardhani/Agrihack-0x08-chall
+    owner: naufalardhani
+    repository: Agrihack-0x08-chall
+    branch: main
+    commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+    path: null
+  competition_id: agrihack-ctf
+  edition_year: 2023
+  round_id: null
+  maintainer:
+    type: person
+    name: Naufal Ardhani (naufalardhani / UnoArroefy)
+    url: https://github.com/naufalardhani
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - solutions
+  challenge_count: 104
+  categories:
+  - crypto
+  - forensics
+  - misc
+  - pwn
+  - rev
+  - web
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: Agrihack 0x08 challenge repository (author copy)
+    url: https://github.com/naufalardhani/Agrihack-0x08-chall
+    type: official_repository
+    accessed: '2026-11-26'
+  - title: Agrihack 0x08 platform (CTFd fork, Cyber Security IPB)
+    url: https://github.com/cybersecurityipb/Agrihack-0x08-platform
+    type: official_repository
+    accessed: '2026-11-26'
+  notes: 'Challenge and solver material for Agrihack 0x08 (2023), imported at the tip of main,
+    06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91 (2023-11-25). The repository is owned by Naufal
+    Ardhani, a Cyber Security IPB author, not by the CSI organization, so it is an author-side
+    copy of the organizer distribution rather than an organization-published tree; the CSI
+    organization''s own 0x08 artifact is the CTFd platform fork. It carries an MIT LICENSE
+    (Copyright (c) 2023 Numero Uno Arroefy), preserved at
+    competitions/agrihack-ctf/2023/LICENSE. The tree is a ctfcli layout with qual/ and final/
+    rounds and six categories. Author working files (.gdb_history), author solver scripts and
+    captured exploitation traffic are mixed into the challenge directories; solvers were moved
+    to the mirrored solvers/ path and the remaining look-alikes are flagged per challenge. The
+    repository .ctf/config contained a CTFd access token and was not copied.'
+- schema_version: '1.0'
+  id: agrihack-0x09-challenges
+  name: Agrihack 0x09 challenge repository
+  source:
+    type: github
+    url: https://github.com/cybersecurityipb/Agrihack0x09
+    owner: cybersecurityipb
+    repository: Agrihack0x09
+    branch: main
+    commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+    path: null
+  competition_id: agrihack-ctf
+  edition_year: 2024
+  round_id: null
+  maintainer:
+    type: organization
+    name: Cyber Security IPB
+    url: https://github.com/cybersecurityipb
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - solutions
+  challenge_count: 14
+  categories:
+  - crypto
+  - forensics
+  - misc
+  - rev
+  - web
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: Agrihack 0x09 challenge repository (Cyber Security IPB)
+    url: https://github.com/cybersecurityipb/Agrihack0x09
+    type: official_repository
+    accessed: '2026-11-26'
+  notes: 'Organizer repository for Agrihack 0x09 (2024), imported at the tip of main,
+    0985f65fc845e8fc0af2691e20673d1b26fc9bd7 (2024-11-16). It is published by the Cyber Security
+    IPB organization and describes itself as "Repository untuk agrihack 2024". It has no LICENSE
+    file; per the archive maintainer instruction of 2026-11-26 the import records MIT as the
+    declared license, and every challenge record says so in permission_reference instead of
+    citing a license file that does not exist. Fidelity caveats: only one challenge ships a
+    challenge.yml, the qual/foren directory name has a trailing space, several category
+    directories hold only a readme, and qual/misc/email.zip is a bare archive whose member is a
+    HackToday 2023 challenge. Solver scripts were moved to the mirrored solvers/ path; .DS_Store
+    files are recorded as omissions.'

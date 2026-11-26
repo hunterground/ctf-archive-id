@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: main
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: >-
+  Single stage holding every challenge published in the codepwnda 2019 repository. The source has
+  no round structure and no separate qualification or final set, so the archive uses round id main
+  with type other.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 31
+  participant_count: null
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  The repository groups challenges only by category, with no stage directories, and no source states
+  a separate qualification or final. A curated round name would be an invented stage, so the round
+  keeps the neutral id main. Delivery is recorded as online because the platform was
+  ctf.codepwnda.id and the pwn and web challenges ship xinetd and docker deployments; no source
+  states an onsite component.

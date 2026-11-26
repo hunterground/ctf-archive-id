@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-pwn-006
+name: vmxck
+slug: 006-vmxck
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: pwn
+original_category: 'pwn'
+description: >-
+  Brainfuck-like virtual machine with 20 instances, each a program buffer and a data buffer of the same size; the data cell access is not bounds-checked, so the neighbouring chunk metadata can be rewritten.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- vm
+- heap
+- oob
+authors:
+- name: zeroload
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: pwn/vmxck
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.gdb_history'
+    algorithm: sha256
+    value: 880e41914a61eef1e79f819eb9c83c05a96cbaf01ed8c2e523ed5e4b2d1d9962
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: b6ee9e4cbe92356b9948f935cbec38a96e1fd536188b2dfe6c8a0905241f68fc
+  - path: 'config/ctf.xinetd'
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: 'config/run_challenge.sh'
+    algorithm: sha256
+    value: 98084087983ce603dc8d915e2b97c9f745ed88d7a90b1e8244d34bfdcdb56955
+  - path: 'config/run_xinetd.sh'
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 058790ef7ca1663cf8d2a618b2e9b86b5cf287d5c65a687813676d64bdbca746
+  - path: 'flag'
+    algorithm: sha256
+    value: f63ba9016fe6357209798a98085227b534dd72052c12f3c1d006ec6423a89386
+  - path: 'release/vmxck'
+    algorithm: sha256
+    value: df5a34ba339ccf64d04b7db9432942bd9215ac8b4c033b1171ce0ffa6f293a98
+  - path: 'source.c'
+    algorithm: sha256
+    value: 355e742db4ca93488dd2f828a63eba13c0d15175de2aaedd20adfda30be740c3
+  - path: 'vmxck'
+    algorithm: sha256
+    value: df5a34ba339ccf64d04b7db9432942bd9215ac8b4c033b1171ce0ffa6f293a98
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [hacktoday]
+  requirements: [docker, docker-compose, xinetd]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+- title: HackToday 2019 Quals - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-quals-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+- title: HackToday 2019 Final - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-final-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path pwn/vmxck. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The source repository records this as archived HackToday material: it was added by a commit whose message names HackToday, and its flag format and challenge name match HackToday 2019. It is kept in this competition because that is where the material is published; the HackToday lineage is recorded here rather than as a separate archive entity. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

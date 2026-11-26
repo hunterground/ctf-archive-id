@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-pwn-001
+name: cin
+slug: 001-cin
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: pwn
+original_category: 'pwn'
+description: >-
+  C++ service that reads input with cin >> into a 64-byte stack buffer inside vuln(), giving a straightforward stack buffer overflow.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- buffer-overflow
+authors:
+- name: idzharbae
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: pwn/cin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.gdb_history'
+    algorithm: sha256
+    value: dadd2075bda418b4656125dc27a5ac098a2fe3a1dc9c2d96ea73d26034fc21a1
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: 780ba3f07f69592c1d662d990b2953353f581eea5b09a56d1c142dc4b2444a72
+  - path: 'cin'
+    algorithm: sha256
+    value: 3908004563314e89e46e09cd88cc29afcbb38bb5f8bf5d3003203b2d59f4b108
+  - path: 'cin.cpp'
+    algorithm: sha256
+    value: cd8c7a936ab6a4d2c47b8315dacf341daff406370df4653d2e60b7d442edcf89
+  - path: 'config/ctf.xinetd'
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: 'config/run_challenge.sh'
+    algorithm: sha256
+    value: aa4eacee50ba8da5a53cb22d5b76de552c39632b31139923a9d3f7aedd0ea437
+  - path: 'config/run_xinetd.sh'
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: dbf2115e0175a03c9869b1d45966d2cf8728ba1c3bcb6093bf9160efc88739b8
+  - path: 'flag'
+    algorithm: sha256
+    value: d75dc4e753fa34af51f56ab1853cb09f42800b0a15e1d889252a9b01800725c4
+  - path: 'peda-session-cin.txt'
+    algorithm: sha256
+    value: 0c90ac4b9e905a2a4cd87c10e11a4cd16ce1bc90e3fd6e7e74c7064586ab4257
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [codepwnda]
+  requirements: [docker, docker-compose, xinetd]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path pwn/cin. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

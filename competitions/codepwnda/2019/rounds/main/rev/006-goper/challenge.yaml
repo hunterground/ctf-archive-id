@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-rev-006
+name: goper
+slug: 006-goper
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: rev
+original_category: 'rev'
+description: >-
+  Stripped Go binary: the flag is XORed and bit-encoded inside a Go build that has been stripped to make the recovery harder.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- go
+- stripped
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: rev/goper
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: d18962410575a4f8241950d4bae86933597b50d63306bac7e3b952b298713f44
+  - path: 'goper'
+    algorithm: sha256
+    value: 030ceba34d214ceca3ec36e9ae6e6cba7b450a9abdb4ac22881a2eb010d01f4d
+  - path: 'goper.go'
+    algorithm: sha256
+    value: ccd666fa63827011450cdf35d4a9950166c127355f5013219d32302b02dddcdc
+  - path: 'release/flag.enc'
+    algorithm: sha256
+    value: fc5fde87206ac3673ca404d437ea94c293a81b66cbdd8fe6f3eeef86ce01980a
+  - path: 'release/flag.txt'
+    algorithm: sha256
+    value: 1edf3bfa78deb30c6e49e207091df1b4385115ff0442b30a43e3dbe992da0cae
+  - path: 'release/goper'
+    algorithm: sha256
+    value: 030ceba34d214ceca3ec36e9ae6e6cba7b450a9abdb4ac22881a2eb010d01f4d
+  - path: 'test.go'
+    algorithm: sha256
+    value: 5d66acb3859c38605a451b0de0393238011b701af4e9b42a6d597e1847b4216e
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path rev/goper. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solver.py`. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

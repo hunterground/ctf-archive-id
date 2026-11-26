@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-forensics-001
+name: darkpixel
+slug: 001-darkpixel
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: forensics
+original_category: 'forenshit'
+description: >-
+  Steganography challenge distributing a PNG that hides the flag in the pixel data; the author's helper converts a braille-font render into a black-and-white bitmap.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- stego
+- image
+authors:
+- name: zakigeyan
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: forenshit/darkpixel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'braille.png'
+    algorithm: sha256
+    value: babb83207d41c10c55700ef0d9183078f03954ad69172374e1b97eb86031a659
+  - path: 'codepwnda.png'
+    algorithm: sha256
+    value: 00e000c252991ef13527626efe27e49f98bff840b9dfedb43bcd32197b8607b6
+  - path: 'flag'
+    algorithm: sha256
+    value: fa2cf36c7213a774e3b6c1a1e05041ab189fb032765ab55d95f94c5a95589610
+  - path: 'gen_mate.py'
+    algorithm: sha256
+    value: 91b69266b402bf1aab438e96134e78b8b672136f1e9adcc2e9a6f98711cb9eff
+  - path: 'good_one_mate.png'
+    algorithm: sha256
+    value: 27eb577ccf9a5711f17636c7f4fc8a4f973b1de0a2a4fc708a79d32140811b0a
+  - path: 'original.png'
+    algorithm: sha256
+    value: 575db7cb78351bac3a1c09ebade95e60485b44be5ac66bcf151d68575052b178
+  - path: 'release/darkpixel.png'
+    algorithm: sha256
+    value: 2829b76bb27493c7ac37dfd8d084b93c615b4f3e034451a86c30c12ff95e136d
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path forenshit/darkpixel. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

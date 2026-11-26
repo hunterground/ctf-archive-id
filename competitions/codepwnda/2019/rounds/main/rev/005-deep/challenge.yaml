@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-rev-005
+name: DeeP
+slug: 005-deep
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: rev
+original_category: 'rev'
+description: >-
+  Checker that maps every input character through a recursive binomial-coefficient sum; the naive recursion is deliberately slow, so the solution has to be memoized or rewritten iteratively.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- python
+- algorithm
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: rev/DeeP
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: 7b5d6523ee69fa40526d561cffbad14eeb2e7ffd51fdacf5298e6bc4a39d543c
+  - path: 'release/source.pyc'
+    algorithm: sha256
+    value: 59f8e6a5c4a923719040d9ae6e468df6b27166e761e1e21e8b79317e659eaeea
+  - path: 'source.py'
+    algorithm: sha256
+    value: 00095d636431f4d0419a98c718d0a6987a9ec26603f4b747b7daca8be27110b8
+  - path: 'source.pyc'
+    algorithm: sha256
+    value: 8627f79d621082e8736a6bd7792f8e596a2992482c918373852fd100ab1d2ed1
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path rev/DeeP. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solver.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

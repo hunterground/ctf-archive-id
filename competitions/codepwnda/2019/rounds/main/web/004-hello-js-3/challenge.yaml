@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-web-004
+name: hello-js-3
+slug: 004-hello-js-3
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: web
+original_category: 'web'
+description: >-
+  Level 3 of the eval series: the payload is rejected if it contains "require" or exceeds 30 characters, and the app helpfully prints its own package.json. Ships a small readFlag helper.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- nodejs
+- eval
+- filter-bypass
+authors:
+- name: idzharbae
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: web/hello-js-3
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: fed9836e52ead96832005ce669ece86c024f3f623f18e2db7b1519b717c81985
+  - path: 'README.md'
+    algorithm: sha256
+    value: 7edd0a59b8a69973073860d46ff8c5eb8eaaa594b89251bf297978afaa4210a9
+  - path: 'app.js'
+    algorithm: sha256
+    value: a8bd64324ff26990c821e304419226df84d6c371625fb111dcd8362e8441b145
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 49506d46749db1d8120bd5cc12e35e18a51f1abc9def9726826c54810aaebfc5
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: f36bd0fb3704f232ec12deeb3ffe2eded56077f22dc34a6b0d33a36097e4db0e
+  - path: 'package.json'
+    algorithm: sha256
+    value: 4c9d8178b6745b40572ab6e4e2c571ed482f9db40c7d1cab7d1be7eb201a4df1
+  - path: 'readFlag'
+    algorithm: sha256
+    value: 6a8b3baeff2523b6bfe09c72c47e8b7387b62969db3f947668d273cfb37362c8
+  - path: 'readFlag.c'
+    algorithm: sha256
+    value: bc5bd72ef08a585a5a2c6aa58009847d308e396c7121a952c6a8c6c3cdff558e
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [hacktoday]
+  requirements: [docker, docker-compose]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path web/hello-js-3. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

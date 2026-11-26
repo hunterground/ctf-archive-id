@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-web-001
+name: guess-the-flag
+slug: 001-guess-the-flag
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: web
+original_category: 'web'
+description: >-
+  PHP page that fetches a user-supplied URL with cURL, giving SSRF: the first flag is reached through file:// LFI and the second through a gopher payload against the local fastcgi socket. Ships two flags and a compose deployment.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- ssrf
+- lfi
+- fastcgi
+authors:
+- name: zeroload
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: web/guess-the-flag
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: 3111bdc0eb9b74b26a748d588e3ec1b47695d688f1a92a22120842e395ebb547
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 8ca8d6542b6f66c0c09158c7c457a6ba43626fe1dc8b929f99a827e08360ecd0
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: c1b134c92b0e67a9e5f6f6da0425c5526bb038ba560387a8172bb0a910edd678
+  - path: 'src/flag'
+    algorithm: sha256
+    value: d6858be8bea2583e64d5024218ca56750536db68576fefeec39f2a259d9cd5bc
+  - path: 'src/index.php'
+    algorithm: sha256
+    value: f8b4f334d2b1c4afb399de1d7139d39cd075a9c8188681d44c7b0e08447cdc2a
+  - path: 'src/your_lovely_flag2_is_here'
+    algorithm: sha256
+    value: 4500701f9d6bb4451cd4d87ac83019ffdd3e2530b3b5e2703d7ddeed18b5eb57
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [codepwnda]
+  requirements: [docker, docker-compose]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path web/guess-the-flag. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

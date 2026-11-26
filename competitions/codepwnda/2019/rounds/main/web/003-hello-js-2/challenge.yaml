@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-web-003
+name: hello-js-2
+slug: 003-hello-js-2
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: web
+original_category: 'web'
+description: >-
+  Level 2 of the eval series: the query parameter is truncated at the first semicolon before being passed to eval(), so the payload has to avoid semicolons.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- nodejs
+- eval
+- rce
+authors:
+- name: idzharbae
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: web/hello-js-2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: aac3c50f32738135a25240d3c045c40209e11bb583a13bf562c2f3c96ccf25e7
+  - path: 'README.md'
+    algorithm: sha256
+    value: 7edd0a59b8a69973073860d46ff8c5eb8eaaa594b89251bf297978afaa4210a9
+  - path: 'app.js'
+    algorithm: sha256
+    value: 6f3b7d8c9c3fbedd6b83e5f334cc83626f65bcaf3280512446dc3c3929af6f33
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 5b1b1e961aa8654ea76e22d294b9d7cb46b9d10ace1d08522875b6da6a88dded
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: 9b96854e385d0590e9457671f1b778af7450091da81d924761ae56208060acc4
+  - path: 'package.json'
+    algorithm: sha256
+    value: 4c9d8178b6745b40572ab6e4e2c571ed482f9db40c7d1cab7d1be7eb201a4df1
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [hacktoday]
+  requirements: [docker, docker-compose]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path web/hello-js-2. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-crypto-003
+name: chainfunc
+slug: 003-chainfunc
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: crypto
+original_category: 'crypto'
+description: >-
+  Interactive crypto service exposing an encrypt-message oracle built from a Fibonacci function, a BBP-style pi digit generator and a Collatz-style permutation; check-flag compares the submitted flag against an MD5 digest.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- oracle
+- hash
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: crypto/chainfunc
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: a982183a0fd91a7c3ea6c49342a1c7dfd26ed5b9a5b8d4aaf07c28c9b91018e9
+  - path: 'release/flag.enc'
+    algorithm: sha256
+    value: d7de05698eb89fccc81f0cc5b6e47414c2e2356961029a37270b1b4bee611b67
+  - path: 'release/source.py'
+    algorithm: sha256
+    value: 7105be32bf5263886f21a91ce28acf59b84727c51ffe568af55c878e144fe219
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path crypto/chainfunc. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solution/solver.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

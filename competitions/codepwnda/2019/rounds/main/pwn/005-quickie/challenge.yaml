@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-pwn-005
+name: quickie
+slug: 005-quickie
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: pwn
+original_category: 'pwn'
+description: >-
+  QuickJS challenge built from an upstream tarball plus a patch set that enables an out-of-bounds DataView access, to be turned into arbitrary read/write. Shipping includes the build patches, the release archive and the vulnerable qjs binary.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- browser
+- jit
+- oob
+authors:
+- name: zeroload
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: pwn/quickie
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '0001-enable-OOB.patch'
+    algorithm: sha256
+    value: 979078af224a530d7699a7e6dbcf763fd51f407b447797d203565ee65db7069d
+  - path: '0002-hardened-build.patch'
+    algorithm: sha256
+    value: 544873f6a87f9d359adc6997117ad392f176a9d6bdf3fcf73bb1c95dc458552a
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: bfec97a46cfb6e75544334d933efe24d9b3615413ec60cfd0d88d7edfb78161f
+  - path: 'README.md'
+    algorithm: sha256
+    value: 253ad4e2b98ae391f67c720cdc24c31de0a2c234df9ebc25c24819f5eceb648a
+  - path: 'challenge/flag'
+    algorithm: sha256
+    value: afb31a39e32798971c71af981b5838c3dd4d84b992107bb1ff797050abad9012
+  - path: 'challenge/qjs'
+    algorithm: sha256
+    value: adb2fc8b91175881a32785b7cdffa4282d5bb62e1b7fb3dd4d803ea7e5f9f714
+  - path: 'config/ctf.xinetd'
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: 'config/run_challenge.sh'
+    algorithm: sha256
+    value: 48a20d369485b79617aa0f0a23950b9f44654ce3b2d124ad7e4cb7153cf99b88
+  - path: 'config/run_xinetd.sh'
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 433fb04fd2e6f7ff62d67b8c2a4dcfd5875d8861d3a09e70391c07ba7b0b72ee
+  - path: 'quickjs-2019-09-18.tar.xz'
+    algorithm: sha256
+    value: ae4395d3f45045f920069e6c203ddb3fc3e549ce8fa3c429e696880cff010575
+  - path: 'release.zip'
+    algorithm: sha256
+    value: b5f77dffa10e85b0ec23fc67972c16dabab1661ae8156088e164e039a6387446
+  - path: 'server.py'
+    algorithm: sha256
+    value: b7d880e445c9adc562655008c48d14e3430fb3b6c703958b2674dded2b29283e
+  - path: 'test.js'
+    algorithm: sha256
+    value: f6757877659205bc7a2130a696b890267ddf7916e536be586cc5639efa981415
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [codepwnda]
+  requirements: [docker, docker-compose, xinetd]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+- title: HackToday 2019 Quals - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-quals-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+- title: HackToday 2019 Final - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-final-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path pwn/quickie. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The source repository records this as archived HackToday material: it was added by a commit whose message names HackToday, and its flag format and challenge name match HackToday 2019. It is kept in this competition because that is where the material is published; the HackToday lineage is recorded here rather than as a separate archive entity. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.js`. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

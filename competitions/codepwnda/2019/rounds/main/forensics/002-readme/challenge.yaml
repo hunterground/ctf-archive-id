@@ -1,0 +1,172 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-forensics-002
+name: readme
+slug: 002-readme
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: forensics
+original_category: 'forenshit'
+description: >-
+  Forensics challenge whose generator reads a JPEG, base32-encodes it, then concatenates one JPEG per base32 character from a shipped charset directory; the release ships only the produced README.jpg.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- stego
+- jpeg
+- base32
+authors:
+- name: zakigeyan
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: forenshit/readme
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'base32_charset/2.jpg'
+    algorithm: sha256
+    value: b3a43fdd46ecd4afa607e450cdfa570631b480897ee4411d5778a561f1e85088
+  - path: 'base32_charset/3.jpg'
+    algorithm: sha256
+    value: d2e06064fea92f7fa61fcebb257ca24a2ed37f90b18f69d818516f73312cadd7
+  - path: 'base32_charset/4.jpg'
+    algorithm: sha256
+    value: 78ce4ae2f5626315472c98c266b889ef43f128bacc31e6011713b130c490ed30
+  - path: 'base32_charset/5.jpg'
+    algorithm: sha256
+    value: 4ee2ffa9ab0920274fb651cecf3a5febd3c254296fd3cb0abe8a8b7cdb6877b1
+  - path: 'base32_charset/6.jpg'
+    algorithm: sha256
+    value: 96ebf2c696ab777ef0eda1f3489335a53587892c0c582c1cafa43430ef277322
+  - path: 'base32_charset/7.jpg'
+    algorithm: sha256
+    value: 094c4365391a097f3ec6c00b0ce14ada33f5b50f2a0993aafe6930a24929b4a9
+  - path: 'base32_charset/=.jpg'
+    algorithm: sha256
+    value: b1d7cdaaf66407c15ab3643c4943ee008af935eebcbd18c20301e51993b07429
+  - path: 'base32_charset/A.jpg'
+    algorithm: sha256
+    value: 712b70e2022fced56df7763ac6b1b092c3e9b9af6cc3045714ba77d33971b22d
+  - path: 'base32_charset/B.jpg'
+    algorithm: sha256
+    value: 6c60dff05985a7f603987159723a3aec639f81d1ce52737c2f27630b5d6cca0d
+  - path: 'base32_charset/C.jpg'
+    algorithm: sha256
+    value: 3410a998308ccf38a2c2ff39faf78c200c1d021944ba2963e9fc65a55654cccb
+  - path: 'base32_charset/D.jpg'
+    algorithm: sha256
+    value: 27f0f50bd7aa2d102d08d4d4186fc673d9627d915a3349f6b9fb85626d381f85
+  - path: 'base32_charset/E.jpg'
+    algorithm: sha256
+    value: 942c03a853f9451fa153fe2c345d7045356f761f6104738038dad0211704f31f
+  - path: 'base32_charset/F.jpg'
+    algorithm: sha256
+    value: 82e648bbc116d466a01e626452a086013cf2a0d39bf18b20d68bbcfd91e254a3
+  - path: 'base32_charset/G.jpg'
+    algorithm: sha256
+    value: eb1f5cf8e64bd0ad26bd0c354d07fedd543d5ea8f56029ec5f493eeeb1a95428
+  - path: 'base32_charset/H.jpg'
+    algorithm: sha256
+    value: 96febd417f7667c8006bb7e38ff6571f3c75319c9878a99727c4cc8b2a9e016a
+  - path: 'base32_charset/I.jpg'
+    algorithm: sha256
+    value: 8a74ba44b5d981a85a194b2a314252b5e1611f84415356ae1dbe8d239cbe1541
+  - path: 'base32_charset/J.jpg'
+    algorithm: sha256
+    value: 750c0a6050e79353257ba499ccb2423d4c685d2298b82cc7b646679af9f28dd1
+  - path: 'base32_charset/K.jpg'
+    algorithm: sha256
+    value: 612a724560b2ef00e3c7126c1305c62d43cba85a207642ad11ec54d42ab62fd9
+  - path: 'base32_charset/L.jpg'
+    algorithm: sha256
+    value: fbdcd853741970ef45a049796f53303a68a057e9fd42ec5be7734fae46430c80
+  - path: 'base32_charset/M.jpg'
+    algorithm: sha256
+    value: 3ebea33d46be746eff32637851c655ca48643454b8ce8670da544b9372f6fced
+  - path: 'base32_charset/N.jpg'
+    algorithm: sha256
+    value: 2400ccda9b73f9c29c5d500c157d99364fc5e5f3e4df8a946af4634f35371041
+  - path: 'base32_charset/O.jpg'
+    algorithm: sha256
+    value: 9d7d836669b6e8f5541a31f659001ae4a5b518c87fbbba2b8ff804a966e42094
+  - path: 'base32_charset/P.jpg'
+    algorithm: sha256
+    value: ab0ea8d7e10452892981b8832d6f957994e7564eb197c3da2de4622dd1e8c846
+  - path: 'base32_charset/Q.jpg'
+    algorithm: sha256
+    value: d4a36d9e64b1c13231e38e62407cc382a2ad9e1f5ba267dd1a96ff491a8606ae
+  - path: 'base32_charset/R.jpg'
+    algorithm: sha256
+    value: 59802d6b8722c1b81d17e41c79037750428095c1a298cecb558a1505601dfaf2
+  - path: 'base32_charset/S.jpg'
+    algorithm: sha256
+    value: eddb50154c68ccd8d4dfc46d7e62e285f6a1355bc565ba1d967c783346b83046
+  - path: 'base32_charset/T.jpg'
+    algorithm: sha256
+    value: 1e610a4c6b170fdd98dfa56fffc6e3039e4cb445cfe5646f0d1d99701cd9777b
+  - path: 'base32_charset/U.jpg'
+    algorithm: sha256
+    value: f4253755acc2fee32b588f88dd01187d72a912c7e9383ce19b88b5e92e278dd3
+  - path: 'base32_charset/V.jpg'
+    algorithm: sha256
+    value: 7aaefb3932ed8b0322ed6cd650d3af9a7134a17d985308cfd4672b0d57b0c164
+  - path: 'base32_charset/W.jpg'
+    algorithm: sha256
+    value: aa077533ae797f57d7d6fa51ca6b062320e4c23a0e3973cc56131bc8a63fb345
+  - path: 'base32_charset/X.jpg'
+    algorithm: sha256
+    value: 9164a4794f0e444136b458112628299aa268e3472ffd345c47c2c501dad4e361
+  - path: 'base32_charset/Y.jpg'
+    algorithm: sha256
+    value: 4b10a4c9e5ca85292904d0003c10cfbd0c5aeb7e624abc383598e04509dc2354
+  - path: 'base32_charset/Z.jpg'
+    algorithm: sha256
+    value: fe9cb87dbdcb344a6984b17dda9c6b221bc7429b53b3d641d8f3c7b9c0eb0142
+  - path: 'flag'
+    algorithm: sha256
+    value: 22da64984dc02e181cfb76264f2f413f01e5d3645f2ce815eb8ddd7c855358f4
+  - path: 'flag.jpg'
+    algorithm: sha256
+    value: ae725a8a0951f63457727ee0041dd0431d4e9183a38c272388a8e98dfff3becb
+  - path: 'gen.py'
+    algorithm: sha256
+    value: 02b25c739f19913d918db4bf882e895b77cd75a6c79dd1dd644bc1ed46a116b7
+  - path: 'release/readme.jpg'
+    algorithm: sha256
+    value: 726689629e65e95907ddb834c24c412a2bccf565f70eb6294f52b3c259262410
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path forenshit/readme. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

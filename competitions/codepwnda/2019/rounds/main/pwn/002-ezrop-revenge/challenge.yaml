@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-pwn-002
+name: ezrop_revenge
+slug: 002-ezrop-revenge
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: pwn
+original_category: 'pwn'
+description: >-
+  Closed stdin/stdout/stderr, statically linked 32-bit binary with a plain stack buffer overflow. The intended solution reopens a socket descriptor and writes the flag to it.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- buffer-overflow
+- rop
+- static
+authors:
+- name: zeroload
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: pwn/ezrop_revenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: '.gdb_history'
+    algorithm: sha256
+    value: e8d68498605aba6bb258e921a5985592575697468a549c4ddd1248c4464ccfc7
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: ca9f4d98fbe0e88a5eddcbe96741895ccaa7929a35083b7487b43be428774574
+  - path: 'chall'
+    algorithm: sha256
+    value: 4d4b1a11e3654d884bb2c4d71e8f6557e214bf24dfda1bcce679c68035d0e77e
+  - path: 'config/ctf.xinetd'
+    algorithm: sha256
+    value: 6610209eaf47979686917d427682bd54d0f38c7c095d1d8906c10961ccb851c9
+  - path: 'config/run_challenge.sh'
+    algorithm: sha256
+    value: aa4eacee50ba8da5a53cb22d5b76de552c39632b31139923a9d3f7aedd0ea437
+  - path: 'config/run_xinetd.sh'
+    algorithm: sha256
+    value: 31e9e58e881e449dcdd114f6216c87de884c163ba07112dcfa7f5310e67e3e9e
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: a020a46eed0c7ffe9ae1acf8bec374c61e181b3d84a1ef280f224045d911ae1c
+  - path: 'release/chall'
+    algorithm: sha256
+    value: 4d4b1a11e3654d884bb2c4d71e8f6557e214bf24dfda1bcce679c68035d0e77e
+  - path: 'release/flag'
+    algorithm: sha256
+    value: fb6fe71c9aa19b0ed64644d0db8fead78e89290dc2a7500697cf3ba6c14919b8
+  - path: 'source.c'
+    algorithm: sha256
+    value: 7c120ecc43936e39f5d354242ed4d8f17bd7bf3c54ec36a260222bb19045f3ae
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: docker-compose
+  services: [codepwnda]
+  requirements: [docker, docker-compose, xinetd]
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+- title: HackToday 2019 Quals - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-quals-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+- title: HackToday 2019 Final - pwn, by circleous
+  url: https://circleous.github.io/posts/hacktoday-2019-final-pwn/
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path pwn/ezrop_revenge. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The source repository records this as archived HackToday material: it was added by a commit whose message names HackToday, and its flag format and challenge name match HackToday 2019. It is kept in this competition because that is where the material is published; the HackToday lineage is recorded here rather than as a separate archive entity. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.py`. The distribution ships no flag file; no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

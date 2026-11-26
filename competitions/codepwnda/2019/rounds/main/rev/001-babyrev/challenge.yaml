@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-rev-001
+name: babyrev
+slug: 001-babyrev
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: rev
+original_category: 'rev'
+description: >-
+  Password checker that XORs each character with a user-supplied key plus a byte taken from argv[0], comparing against a fixed 62-entry table.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- xor
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: rev/babyrev
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'babyrev'
+    algorithm: sha256
+    value: 0b9974ccf2f14bccf7c6ed567fcdfca0a1b97e25400678230f1cae4db70bb8ed
+  - path: 'chall.c'
+    algorithm: sha256
+    value: c2a497a5387658f71ee264b98b02cea404c250dbd13d5fb5c3d3ac76017be66d
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: ba5eb6240dac1fa0ac309b4923ce9a01642aa0aaffe35c37447176c8dd66b167
+  - path: 'pass'
+    algorithm: sha256
+    value: fcea8541142fc6942b7c780413ad376a7ce670a9dddbd6b5067e33a0c85f31b9
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path rev/babyrev. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title.

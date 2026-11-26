@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  codepwnda:
+    restart: always
+    build:
+      context: ./src/
+    ports:
+      - "17100:8080"

@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: codepwnda-2019-main-crypto-002
+name: cbc-server
+slug: 002-cbc-server
+original_name: null
+competition_id: codepwnda
+edition_year: 2019
+division_id: null
+round_id: main
+category: crypto
+original_category: 'crypto'
+description: >-
+  Interactive service with an Indonesian menu (masuk, keluar, bendera) that issues an AES-CBC signature over "<username>|user" and checks a submitted signature before returning the flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- aes
+- cbc
+- oracle
+authors:
+- name: zakigeyan
+  team: null
+organization: null
+provenance:
+  archive_id: codepwnda-ctf-challenges
+  source_type: git
+  repository: https://github.com/vidner/codepwnda-ctf
+  commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+  original_path: crypto/cbc-server
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'cbc-server.py'
+    algorithm: sha256
+    value: a9e82ec4113dcc3b35de7185eae2705e9c7cab5ebb12312ade8c2dd5043ab389
+  - path: 'flag'
+    algorithm: sha256
+    value: cfec8c9d70b11de7e6a7840ea6e9c617da30a071926d70aeb1925ffa51718d03
+  - path: 'release/butuh_deploy.txt'
+    algorithm: sha256
+    value: 66947ec9ae300b5e45e5d9b5464e836e7ced2c62404cb1afdb5db87375a4d451
+  - path: 'release/cbc-server.py'
+    algorithm: sha256
+    value: a9e82ec4113dcc3b35de7185eae2705e9c7cab5ebb12312ade8c2dd5043ab389
+licensing:
+  declared_license: MIT
+  copyright_holder: Rendi Yuda Perkasa
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    codepwnda (Cyber Security IPB) challenge repository, published by Rendi Yuda Perkasa at https://github.com/vidner/codepwnda-ctf; MIT licensed.
+  permission_reference: >-
+    The repository has no separate LICENSE file; its README.md declares the MIT License,
+    Copyright (c) 2019 Rendi Yuda Perkasa, and that README is preserved verbatim at
+    competitions/codepwnda/README.md.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: codepwnda-ctf challenge repository
+  url: https://github.com/vidner/codepwnda-ctf
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  Copied from https://github.com/vidner/codepwnda-ctf at commit 7e086044b753fe555b44395b79827d2f5b89da1d, path crypto/cbc-server. Author is inferred from the commit that first added this directory in the source repository; the repository states no per-challenge attribution. Description is a curator summary of the distributed files, not organizer wording. Solver material was moved out of the distribution to the mirrored path under solvers/ and is not a preservation omission: `solve.py`. The challenge ships a flag file as part of its original distribution; it is copied unchanged and no flag value is recorded in this metadata. The display name is the source directory name, since the repository states no separate title. The source Readme/deploy note (release/butuh_deploy.txt) says the service is run as `cbc-server.py & flag`, with no container definition.
