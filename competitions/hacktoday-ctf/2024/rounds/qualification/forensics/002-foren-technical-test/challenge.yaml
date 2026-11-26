@@ -9,9 +9,8 @@ division_id: null
 round_id: qualification
 category: forensics
 original_category: FORENSICS
-description: 'A forensics challenge built on an exported disk image containing a password-protected
-
-  archive, with the password stored elsewhere on the image.'
+description: 'A forensics challenge built on a password-protected archive and a hash listing of its
+  contents, with the password stored elsewhere on the source media.'
 difficulty:
   value: null
   source: unknown
@@ -63,7 +62,15 @@ references:
 verification: corroborated
 notes: |-
   Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and
-  the KEITO writeup Forensics section. No solver scripts were present in the source.
+  the KEITO writeup Forensics section. The distribution is an AD1 disk image that carried
+  `Secret-file.zip`, a password-protected archive whose password sat in an RDP cache on the image.
+  Only the contents of that image are archived here, not the image itself.
+
+  `top-secret.docm` is a legitimate challenge file: it is the single entry inside
+  `Secret-file.zip`, the macro-enabled document the solver must extract and analyse. The archive
+  also stores it loose because the encrypted zip cannot be opened without the recovered password,
+  and the disk image that yields that password is not archived. Its size matches the zip entry's
+  declared uncompressed length of 17949 bytes exactly.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

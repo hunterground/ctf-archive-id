@@ -9,10 +9,10 @@ division_id: null
 round_id: qualification
 category: crypto
 original_category: cryptography
-description: |-
-  Welcome to Peppery Spittoon :P
+description: 'Welcome to Peppery Spittoon :P
 
-  Do ya have the token?
+
+  Do ya have the token?'
 difficulty:
   value: Medium
   source: organizer
@@ -51,9 +51,6 @@ preservation:
   - path: docker-compose.yml
     algorithm: sha256
     value: 4d7fa8fb16f29ee38c099a476c36a55f311700ea1a5eef489081b9174df6f99d
-  - path: exploit2.py
-    algorithm: sha256
-    value: be815ddcbdc15b05b9e23d426158df7dc209afa49afe3bfb184bae7a54776513
   - path: flag.txt
     algorithm: sha256
     value: ab88633ab0e3b3dd963d9c81ac0334b24530827434ed263e85af62ab3280183a
@@ -69,4 +66,6 @@ references:
   type: official_repository
   accessed: '2026-11-22'
 verification: corroborated
-notes: null
+notes: 'The repository is the organizer''s own challenge set. exploit2.py is a pwntools script
+  that connects to the deployed service, so it is a solver rather than distribution and
+  was moved to the mirrored solvers/ path.'

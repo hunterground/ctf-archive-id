@@ -32,8 +32,7 @@ licensing:
   redistribution: permitted
   attribution_required: true
   attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
-  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
-    records a source with no license file as MIT for imported HackToday material.
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25 records a source with no license file as MIT for imported HackToday material.
 preservation:
   path: original/
   original_structure: true
@@ -48,9 +47,6 @@ preservation:
   - path: GiftManager.java
     algorithm: sha256
     value: 0a74080a666fd48d04a3977c617e0ebffe28e16822785a2c8bc0fe79213e4f61
-  - path: flag.py
-    algorithm: sha256
-    value: 8f68b1dcb600bfedd2ebe30f84dfb28152145e62c33f9814f3ba3fed7859aee8
   - path: flag.txt
     algorithm: sha256
     value: d7415256a08933396a3c92a16ef84cf40fba7413cb39719202318c2dcc2e0be1
@@ -64,12 +60,21 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: |-
-  Qualification challenge. Category follows the source rev directory and both writeups Reverse
+notes: 'Qualification challenge. Category follows the source rev directory and both writeups Reverse
+
   Engineering sections. The source ships the decompiled GiftManager.java alongside the class
-  file as an author-side artifact. No solver scripts were present in the source.
+
+  file as an author-side artifact. The source also carried the write-up author''s flag.py, which
+
+  recovers the answer from the obfuscated value tables; it is a participant solver, not
+
+  distribution, and was moved to the mirrored solvers/ path.
+
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
+
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+
   the original distribution, but this copy is not an authoritative organizer source. It may be
-  cleaned up or restructured in a later pass.
+
+  cleaned up or restructured in a later pass.'

@@ -46,9 +46,6 @@ preservation:
   - path: flag.txt
     algorithm: sha256
     value: 34f72d3a6ca076c1748601971b03a15b083ca7eb5b81e3e2fc3aac14155582af
-  - path: gadgets.txt
-    algorithm: sha256
-    value: d9cce62679ff59f09c430fdbd1dc19928dd858ae122aa567d9b3074830b7e140
   - path: vuln
     algorithm: sha256
     value: 79fec736d01cc47b5861c792a7a5fa91131649b857ef651b8fd501552cbd97d1
@@ -64,9 +61,9 @@ references:
 verification: corroborated
 notes: |-
   Final round challenge. The source finals README marks it pwn and describes it as complex ROP
-  with a stack pivot. The participant exploit and their gadget dump are moved to solvers.
-  Participant solver material was moved out of the challenge distribution to solvers/ per
-  archive policy, keeping its relative path: `exploit.py`.
+  with a stack pivot. The distribution is the statically linked `vuln` binary plus its Dockerfile.
+  The participant exploit is moved to solvers/, and so is `gadgets.txt`, a ROPgadget dump the
+  solver generated while building the chain; it is analysis output, not organizer material.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

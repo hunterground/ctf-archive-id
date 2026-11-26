@@ -34,7 +34,8 @@ licensing:
   copyright_holder: null
   redistribution: permitted
   attribution_required: true
-  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License to the respective author.
+  attribution: All the problems are licensed under a Creative Commons Attribution-ShareAlike 4.0 International
+    License to the respective author.
   permission_reference: https://github.com/ctfcompfest/compfest15-final/blob/3959efee0959f2e4cc40fb87f1ab9cdfdfffaede/README.md
 preservation:
   path: original/
@@ -167,4 +168,7 @@ references:
   type: official_repository
   accessed: '2026-11-22'
 verification: corroborated
-notes: null
+notes: ' The distribution''s own original/src/editor/.gitignore carries a ''code/*'' rule, which would
+  cause Git to skip original/src/editor/code/.gitkeep on a fresh clone. That file is the only member of
+  its directory and exists to keep the directory in the distribution, so it was added to the index with
+  git add -f. The nested .gitignore was not edited, because it is part of the preserved original tree.'

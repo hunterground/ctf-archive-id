@@ -30,14 +30,15 @@ references:
   accessed: '2026-11-21'
 challenge_materials_imported: true
 notes: >
-  The organizer reports a 36-hour event and 36 challenges. A participant report places it on
-  23-24 November 2024. The public organizer repository at commit
-  3bfdf0ad92784d86408a7263a3166931f54a4177 contains 31 challenge directories and has no LICENSE
-  file. On 2026-11-21 the archive was instructed to treat this source as MIT, and the tracked
-  files from those directories were copied. On 2026-11-22 konnichiwa.zip and pf-ing/dist.rar were
-  added from the Google Drive and Mega links in those challenges. Forensic/quotes of the day remains
-  a Google Drive link and was not downloaded. The Boot2root challenges point at one TryHackMe
-  room and do not include a virtual-machine image. Boot2root sequence numbers place each machine's
-  user flag before its root flag. jonscafe/ctfs-write-ups is an author write-up
-  repository for pf-ing and my-seniors; it was not downloaded. Five challenges from the
-  organizer's count of 36 are not named in the public repository.
+  Event Overview
+  - Schedule & Scale: A 36-hour competition held November 23-24, 2024 (per participant reports), featuring 36 reported challenges.
+
+  Repository & Imported Materials
+  - Source & Licensing: Tracked files from 31 challenge directories were imported from the public organizer repository 
+    (commit 3bfdf0ad92784d86408a7263a3166931f54a4177), treated under an MIT license per maintainer instruction on November 21, 2026. 
+    Five of the 36 reported challenges are absent and unnamed in the repository.
+  - External Assets & Omissions: On November 22, 2026, konnichiwa.zip and pf-ing/dist.rar were retrieved from external Google Drive and Mega links. 
+    However, Forensic/quotes of the day remains an undownloaded Google Drive link, and an external author write-up repo 
+    (jonscafe/ctfs-write-ups for pf-ing and my-seniors) was not downloaded.
+  - Boot2root Structure: These challenges reference a single TryHackMe room without bundled VM images, with sequence numbers ordering 
+    each machine's user flag prior to its root flag.

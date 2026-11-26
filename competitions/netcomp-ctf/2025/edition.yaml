@@ -50,27 +50,27 @@ references:
   accessed: '2026-11-25'
 challenge_materials_imported: false
 notes: >
-  The event ran from early January 2025 to an onsite final at the Teaching Industry Learning Center,
-  Sekolah Vokasi UGM. The organizer's closing announcement describes two final categories, Networking
-  and Capture the Flag, and the first finals day there is corroborated as 2 February 2025 by a
-  participant's achievements page, so only that end date is recorded; the qualification window is
-  not stated by any source. A participant team reports 82 teams in the CTF qualifier, but no
-  organizer source states a participant count, so the statistic stays null. No organizer or author
-  problem set was located; unlike NETCOMP 2.0, the author archive of a NETCOMP problem setter does
-  not cover this edition. The challenges below are therefore known only from participant write-ups,
-  were not copied, and remain for review.
-  Qualification challenges documented by participant write-ups: crypto "I swear this is not a web or
-  reverse" by BerlianGabriel, a JavaScript S-box password check served as password.html; pwn Intro by
-  Linz, a C++ vtable overwrite served on port 17010; rev "good ol flag checker" by Lurifos, shipped as
-  a CPython 3.12 flagchecker.pyc; a Boot2Root category of four Hacktrace-Ranges machines by y0xhz
-  (Popo-User, Popo-Root, 232-User, 232-Root); web Eznotes, Karbitan, and Karbitan V2; and a forensic
-  X11 protocol capture by Avilia titled "xxxxxxxxxxx" (500 points, zero solves). That is eleven
-  challenges across six categories, and the total served is not established, so challenge_count stays
-  null.
-  Final challenges documented by a participant write-up: two Boot2Root machines, Infiltrate and
-  Ancient, each with a user and a root flag, in a gRPC and web-persistence setting.
-  Author names appear in the challenge descriptions that the write-ups quote, so they are recorded
-  here as reported rather than as organizer-published authorship. Some flags are quoted in these
-  write-ups; none are reproduced in this archive record. Review question: whether to import the
-  SandWithCheese participant tree, which holds material for pwn Intro and web Eznotes and Karbitan V2,
-  if redistribution can be established for participant-held copies.
+  Event Overview & Statistics
+  - Schedule & Venue: NETCOMP 3.0 ran from early January 2025 to an onsite final at the 
+    Teaching Industry Learning Center, Sekolah Vokasi UGM, beginning February 2, 2025 
+    (only the end date is recorded, as the qualifier window is unstated).
+  - Categories & Participation: The final featured Networking and Capture the Flag tracks. 
+    While a participant team reported 82 teams in the qualifier, the official participant count 
+    remains null due to the lack of organizer verification.
+
+  Documented Challenges (Write-ups Only)
+  - Because no official or author problem set was located, no challenge files were copied; 13 challenges 
+    are documented solely from participant write-ups (total challenge_count remains null, and quoted flags are omitted):
+  - Qualification (11 challenges across 6 categories):
+    - Crypto: "I swear this is not a web or reverse" (BerlianGabriel — JS S-box check)
+    - Pwn: Intro (Linz — C++ vtable overwrite)
+    - Rev: "good ol flag checker" (Lurifos — CPython 3.12 .pyc)
+    - Boot2Root: Four Hacktrace-Ranges targets by y0xhz (Popo-User, Popo-Root, 232-User, 232-Root)
+    - Web: Eznotes, Karbitan, and Karbitan V2
+    - Forensics: "xxxxxxxxxxx" (Avilia — X11 protocol capture; 500 pts, 0 solves)
+  - Final (2 Boot2Root machines): Infiltrate and Ancient (gRPC and web-persistence environments, each containing user and root flags).
+
+  Attribution & Open Review
+  - Author names are logged as "reported" rather than official, based on challenge descriptions quoted in write-ups.
+  - Pending Decision: Reviewers must determine whether to import participant-held files from the SandWithCheese collection 
+    (covering Intro, Eznotes, and Karbitan V2) if redistribution rights can be established.

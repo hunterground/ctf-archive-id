@@ -14,22 +14,6 @@ metadata:
   recurring: true
 status: active
 verification: corroborated
-notes: >-
-  The NETCOMP 2.0 page describes the cybersecurity competition as Capture the Flag and was published
-  on 7 December 2023 without competition dates. An ITS report places NETCOMP 3.0 from early January to
-  early February 2025 and describes the final as Boot2Root; the organizer closing announcement and a
-  participant achievements page place the onsite final on 2 February 2025, with 82 teams reported in
-  the qualifier by one participant team. NETCOMP 4.0 was announced on the program site on 6 November
-  2025 without a competition date, so no 2026 edition was created. The 2024 edition was later
-  corroborated as NETCOMP 2.0, whose onsite final ran on 3-4 February 2024. Only the 2024 edition has
-  imported challenge materials; NETCOMP 3.0 has no located organizer or author problem set, so its
-  eleven qualification challenges and two final machines are documented from participant write-ups
-  only. Secondary sources for NETCOMP challenge material exist outside this archive and were used only
-  to corroborate, never to copy. They are the NETCOMP 2.0 write-up by team Shelltatic, the NETCOMP 3.0
-  write-ups by teams nama yang gaje ketika dipanggil podium and Ini mas gw mau minta bntuan kali bisa
-  di bantu di solv soal ctfnya buat konversi nilai ke sks, the zenc, Wintertia, and jonscafe write-ups,
-  and the SandWithCheese write-up collection. Each is listed on the edition, round, or challenge where
-  it was used.
 references:
 - title: NETCOMP 2.0
   url: https://tri.sv.ugm.ac.id/netcomp2/
@@ -39,11 +23,15 @@ references:
   url: https://tri.sv.ugm.ac.id/netcompugm/
   type: official_website
   accessed: '2026-11-21'
-- title: ITS news on NETCOMP 3.0
-  url: https://www.its.ac.id/it/en/its-students-triumph-at-national-network-competition-3-0-dominating-the-cybersecurity-category/
-  type: other
-  accessed: '2026-11-21'
-- title: National Networking Competition 2.0 Menjadi Sorotan
-  url: https://tri.sv.ugm.ac.id/national-networking-competition-2-0-menjadi-sorotan/
-  type: organizer_announcement
-  accessed: '2026-11-25'
+notes: >-
+  Event Timeline & Editions
+
+  - NETCOMP 2.0 (2024): Announced December 7, 2023, with an onsite final held February 3-4, 2024. 
+    This is the only edition in the archive with imported challenge materials.
+  - NETCOMP 3.0 (2025): Ran from early January to an onsite Boot2Root final on February 2, 2025 (with 82 teams reported in the qualifier). 
+    Because no official problem sets were located, its 11 qualification challenges and 2 final machines are documented solely from participant write-ups.
+  - NETCOMP 4.0: Announced November 6, 2025, without scheduled dates, so no 2026 edition was created in the archive.
+
+  Sourcing & Corroboration
+  - External participant write-ups-including collections from teams Shelltatic, zenc, Wintertia, jonscafe, and SandWithCheese—were 
+    referenced strictly to corroborate challenge details without copying their content directly.

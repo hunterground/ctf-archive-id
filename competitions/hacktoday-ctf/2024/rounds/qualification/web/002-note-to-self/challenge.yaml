@@ -32,8 +32,7 @@ licensing:
   redistribution: permitted
   attribution_required: true
   attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
-  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
-    records a source with no license file as MIT for imported HackToday material.
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25 records a source with no license file as MIT for imported HackToday material.
 preservation:
   path: original/
   original_structure: true
@@ -46,9 +45,6 @@ preservation:
     reason: Generated Python bytecode cache, excluded as build output.
   checksum_verified: true
   checksums:
-  - path: flag.py
-    algorithm: sha256
-    value: eb9ebbeb3a10398640372fbe6d607d922f6c565064b4a7047f3cf6c3e20ed079
   - path: note_to_self/Dockerfile
     algorithm: sha256
     value: 1abde9437a76ffcd1b060d1a1d3d2f7e4b7309f472dfe055d211baf37839a918
@@ -73,15 +69,6 @@ preservation:
   - path: note_to_self/src/not-admin.txt
     algorithm: sha256
     value: 5ab3649bc120a2f3bbc51f3e3c8001e712e3bc924250d2f20d9ad223afa50ebb
-  - path: note_to_self/src/schemas.py
-    algorithm: sha256
-    value: 59bbb957be675c44b7c8e93180ad0f9bc99e81fda97ccc4089d7f5d0e8243097
-  - path: note_to_self/src/token.txt
-    algorithm: sha256
-    value: f48487148064c6eb0ff65df84069dad86f07f228c6a2311e2cbf954876345586
-  - path: note_to_self/src/users.txt
-    algorithm: sha256
-    value: ba30461b1383fa2d782fdff9da1b7050a6b58e51612ba711422e38831048d3c7
   - path: note_to_self/src/notes/01503650-902d-41ed-8572-16c41d2ed314
     algorithm: sha256
     value: 330f59957d5e01a75c1202d282fb30d4074ad33282a5ea178796d0f3653ae657
@@ -145,6 +132,15 @@ preservation:
   - path: note_to_self/src/notes/flag.txt
     algorithm: sha256
     value: 352ec974e40b93bddf63460701de222b01a12a4f79dd14fe1091fb53f281fa1a
+  - path: note_to_self/src/schemas.py
+    algorithm: sha256
+    value: 59bbb957be675c44b7c8e93180ad0f9bc99e81fda97ccc4089d7f5d0e8243097
+  - path: note_to_self/src/token.txt
+    algorithm: sha256
+    value: f48487148064c6eb0ff65df84069dad86f07f228c6a2311e2cbf954876345586
+  - path: note_to_self/src/users.txt
+    algorithm: sha256
+    value: ba30461b1383fa2d782fdff9da1b7050a6b58e51612ba711422e38831048d3c7
 environment:
   type: null
   services: []
@@ -155,15 +151,27 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: |-
-  Qualification challenge. This is the only 2024 challenge whose full application source,
+notes: 'Qualification challenge. This is the only 2024 challenge whose full application source,
+
   Dockerfile, and docker-compose file were located, so it is preserved verbatim. The source
+
   directory contains src/token.txt and src/users.txt, which are participant session and account
+
   artifacts from their own instance; they are not organizer credentials and are preserved so the
-  tree stays unmodified. The src/__pycache__ directory is excluded as generated build output. No
-  solver scripts were present in the source.
+
+  tree stays unmodified. The src/__pycache__ directory is excluded as generated build output. The
+
+  source also carried the write-up author''s flag.py, a requests-based exploit against the running
+
+  service; it is a participant solver, not distribution, and was moved to the mirrored solvers/
+
+  path.
+
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
+
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+
   the original distribution, but this copy is not an authoritative organizer source. It may be
-  cleaned up or restructured in a later pass.
+
+  cleaned up or restructured in a later pass.'

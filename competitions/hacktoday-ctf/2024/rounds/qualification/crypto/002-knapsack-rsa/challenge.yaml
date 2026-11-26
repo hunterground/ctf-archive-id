@@ -32,8 +32,7 @@ licensing:
   redistribution: permitted
   attribution_required: true
   attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
-  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
-    records a source with no license file as MIT for imported HackToday material.
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25 records a source with no license file as MIT for imported HackToday material.
 preservation:
   path: original/
   original_structure: true
@@ -45,9 +44,6 @@ preservation:
   - path: chall.py
     algorithm: sha256
     value: 169b279dcd0e6eead139c0d0bbdd879e0fe7102e2061d62444276811660f4191
-  - path: flag.py
-    algorithm: sha256
-    value: 232ac909f6ddf90261329dbdcc52bcdd7729eae82d8d183527603d6b52c18cdc
   - path: flag.txt
     algorithm: sha256
     value: 77ac0b003ea05fadb490ff402400a9093efec5873240752557a8ee7adf17ff3a
@@ -70,11 +66,17 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: |-
-  Qualification challenge. Category follows the source cry directory. No solver scripts were
-  present in the source.
+notes: 'Qualification challenge. Category follows the source cry directory. The source also carried the
+
+  write-up author''s flag.py, which recovers the plaintext from output.txt; it is a participant
+
+  solver, not distribution, and was moved to the mirrored solvers/ path.
+
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
+
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+
   the original distribution, but this copy is not an authoritative organizer source. It may be
-  cleaned up or restructured in a later pass.
+
+  cleaned up or restructured in a later pass.'

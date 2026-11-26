@@ -47,9 +47,6 @@ preservation:
   - path: check.py
     algorithm: sha256
     value: 14c7cf749ee1e1b2eba325a26160c700f86fa2ef43bb0a14f00ac3c83de73d2e
-  - path: files/Solusi.py
-    algorithm: sha256
-    value: 73c12be66359a95dd486cf50d1c09bb71ff6fa86c05f22d0df0d4244dd3f1d62
   - path: files/check.py
     algorithm: sha256
     value: 14c7cf749ee1e1b2eba325a26160c700f86fa2ef43bb0a14f00ac3c83de73d2e
@@ -86,4 +83,6 @@ references:
   type: official_repository
   accessed: '2026-11-22'
 verification: corroborated
-notes: null
+notes: 'The repository is the organizer''s own challenge set. files/Solusi.py is the author''s
+  pwntools solver, so it was moved to the mirrored solvers/ path; generate1.py, generate2.py
+  and check.py stay in original/ as generation material.'

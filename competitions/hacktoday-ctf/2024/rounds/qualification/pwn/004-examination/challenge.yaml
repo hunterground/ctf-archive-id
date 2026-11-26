@@ -37,7 +37,11 @@ preservation:
   original_structure: true
   modified: false
   modifications: []
-  omissions: []
+  omissions:
+  - path: flag.txt
+    reason: 'Referenced by the shipped Dockerfile (COPY flag.txt /srv/app/flag.txt) but absent
+      from both the upstream directory and the archive copy, so the service cannot be built as
+      shipped. No copy was found in any located source, and its contents are unknown.'
   checksum_verified: true
   checksums:
   - path: Dockerfile
@@ -58,8 +62,13 @@ references:
 verification: corroborated
 notes: |-
   Qualification challenge. No writeup states its category; pwn is the curator classification,
-  supported by the shipped pwn.red jail Dockerfile and non-stripped ELF binary. No solver was
-  included in the source. No solver scripts were present in the source.
+  supported by the shipped pwn.red jail Dockerfile and non-stripped ELF binary. No solver scripts
+  were present in the source.
+
+  The distribution is incomplete: the Dockerfile copies flag.txt into the jail image, but no
+  flag.txt exists in the upstream directory or in this archive copy, and none was found in any
+  other located source. The service therefore cannot be built as shipped. The omission is recorded
+  rather than filled, because the flag contents are unknown and must not be invented.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

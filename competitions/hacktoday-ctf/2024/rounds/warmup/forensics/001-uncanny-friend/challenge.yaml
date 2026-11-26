@@ -43,18 +43,6 @@ preservation:
   - path: H4H4H4H4H4H4H4H4H4H4H4H4H4H4_n0_0n3_c4n_kn0w.png
     algorithm: sha256
     value: dae2d49bfacd2d782ec1d479256f0b997b91dbe20d665a45c0f2a66a08ce08b0
-  - path: file.txt
-    algorithm: sha256
-    value: a9eb3e756d595f308ef15ef2a787d4af49c7ccb545e818ef1e3acf58a9b12e60
-  - path: fixed_2.png
-    algorithm: sha256
-    value: 479fe073e05cb56cb424cd213367f9fd5fcb185046db09a71aa6d188ebf2d041
-  - path: fixed_2_fixed.png
-    algorithm: sha256
-    value: 8d559a0d59e94b6ef0b709d02e811f8f44645121e48ad52c89eeabd1f30e26f5
-  - path: fixedfixed.jfif
-    algorithm: sha256
-    value: dcace35974bcdadf7b7dffb6187edf9881d149e4f787fb999c531974d4f10a53
   - path: please_dont_open_it.txt
     algorithm: sha256
     value: e6dc5b9056b2f3fe8c8258319c4ebc6831398d8e441f03b16eb48c79a1c53dfc
@@ -70,8 +58,16 @@ references:
 verification: corroborated
 notes: |-
   Warm-up challenge. Category is not stated by any source; forensics is the curator
-  classification from the distributed material (one PNG image and two text files). No solver
-  scripts were present in the source.
+  classification from the distributed material. The organizer distribution is the deliberately
+  corrupted 300x200 PNG `H4H4...kn0w.png` (its IHDR CRC is invalid, which is the puzzle) plus
+  the base64 payload `please_dont_open_it.txt`, which decodes to the hex dump `file.txt`.
+
+  Three further files in the upstream directory are participant solve output, not distribution,
+  and were moved to solvers/: `file.txt` (the decoded hex), `fixedfixed.jfif` (the JPEG that hex
+  produces), and `fixed_2.png` / `fixed_2_fixed.png` (the solver's repaired copies, one of which
+  uses a 300x10000 canvas). Verified by re-deriving each: base64 of `please_dont_open_it.txt`
+  reproduces `file.txt` byte for byte, and hex-decoding `file.txt` reproduces `fixedfixed.jfif`
+  byte for byte. None of it is organizer material.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

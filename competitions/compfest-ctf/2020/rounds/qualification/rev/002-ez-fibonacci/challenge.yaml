@@ -9,10 +9,10 @@ division_id: null
 round_id: qualification
 category: rev
 original_category: reverse-engineering
-description: |-
-  Welcome to the gate of the fibonacci world, warrior! You can search for whatever you want in this world. However, entering the fibonacci world is not that easy. You have to answer my questions first!
+description: 'Welcome to the gate of the fibonacci world, warrior! You can search for whatever you want in this world. However, entering the fibonacci world is not that easy. You have to answer my questions first!
 
-  The flag letters are in a fibonacci pattern later on.
+
+  The flag letters are in a fibonacci pattern later on.'
 difficulty:
   value: Medium
   source: organizer
@@ -51,9 +51,6 @@ preservation:
   - path: files/Fibonacci.py
     algorithm: sha256
     value: a1f2c68c8902574a39bf9aa8e42f6478ba69c45ff8009f58129d9f21ee661c85
-  - path: files/Solusi.py
-    algorithm: sha256
-    value: d729fa784a4ebce043924f8c976a7063abefece94254228f690b052bc9f340db
   - path: files/check.txt
     algorithm: sha256
     value: 5ba0c44e2343d1a054513353589e8635179908a54a6e94a56f091265e050b43a
@@ -66,4 +63,6 @@ references:
   type: official_repository
   accessed: '2026-11-22'
 verification: corroborated
-notes: null
+notes: 'The repository is the organizer''s own challenge set. files/Solusi.py is the author''s
+  solver against the remote service and was moved to the mirrored solvers/ path; the
+  Fibonacci generator and the check file stay in original/ as generation material.'

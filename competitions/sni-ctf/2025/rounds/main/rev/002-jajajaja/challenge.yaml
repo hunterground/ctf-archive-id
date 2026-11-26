@@ -9,10 +9,10 @@ division_id: null
 round_id: main
 category: rev
 original_category: Rev
-description: |-
-  Jajajaja
+description: 'Jajajaja
 
-  **Author: FlaB**
+
+  **Author: FlaB**'
 difficulty:
   value: 500
   source: organizer
@@ -84,13 +84,11 @@ preservation:
   - path: src/Jajajaja/src/main/java/com/flab/jajajaja/KeyValidator.java
     algorithm: sha256
     value: d761b10ed39343c3b35ba85038056df8dface831fb66966346499ee5dad00cd1
-  - path: src/solution.py
-    algorithm: sha256
-    value: 5861cba6a7bd2923bc046a4a58307c32cbbf841d834e9701b37ca00f04458c01
 references:
 - title: SNI CTF 2025 challenge repository
   url: https://github.com/serikatnewbie/sni-ctf-2025
   type: official_repository
   accessed: '2026-11-21'
 verification: corroborated
-notes: null
+notes: 'src/solution.py is a z3-based key solver shipped beside the challenge, not part of
+  the distributed release, and was moved to the mirrored solvers/ path.'

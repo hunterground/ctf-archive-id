@@ -30,21 +30,18 @@ references:
   accessed: '2026-11-25'
 challenge_materials_imported: true
 notes: >
-  This edition is the NETCOMP 2.0 program, whose activities ran from September 2023 to February
-  2024. The organizer page was published on 7 December 2023 and the closing announcement on 8
-  February 2024; a participating school reports the onsite final on 3 and 4 February 2024 at the
-  Teknologi Rekayasa Internet program, Sekolah Vokasi UGM. Only the end date is recorded because no
-  source states when qualifiers opened, and the September 2023 start belongs to the seminar, not the
-  CTF. The edition is filed under 2024 rather than 2023 because the final and the organizer's result
-  announcement fall in 2024, matching how this archive files NETCOMP 3.0 under 2025 from its
-  January-February 2025 run. The previous archive record described this year as "NETCOMP 2024" and
-  left it unverified because NETCOMP 2.0 had not been tied to a calendar year; the organizer and
-  participant sources above tie it to February 2024. The cybersecurity competition was Capture the
-  Flag with an offline Boot2Root final. Twenty-three challenges were imported: eighteen in the
-  online qualification round and five in a warm-up set. Sixteen are corroborated against an
-  independent participant collection: fifteen ship the same files byte-for-byte, including all five
-  warm-up challenges, and web Webfuscate matches on its served flag. That collection also records the
-  NETCOMP flags the warm-up set was served with. Seven challenges rest on the author archive alone:
-  pwn dynamictype and pwn, rev netcomon, forensics Learning and Packet, web File Downloader, and web
-  Static Web. Static Web also remains needs_scope_review because its flag uses the netcomp23{...}
-  prefix.
+  Event Overview & Dating
+  - NETCOMP 2.0 (2024): The overall program ran from September 2023 to February 2024, 
+    featuring an online CTF qualifier and an offline Boot2Root final held February 3-4, 2024, 
+    at Sekolah Vokasi UGM (closing announcement on February 8, 2024).
+  - Calendar Classification: Previously labeled an unverified "NETCOMP 2024," the edition is 
+    formally filed under 2024 because the final and closing announcements occurred in February 2024 
+    (the September 2023 start belonged to a seminar, and exact qualifier start dates are unrecorded).
+
+  Imported Challenges & Verification
+  - Total Imported: 23 challenges (18 online qualification, 5 warm-up).
+  - Corroborated (16 challenges): Verified against an independent participant collection—15 match byte-for-byte 
+    (including all 5 warm-up challenges, with their served flags recorded), and Webfuscate matches via its served flag.
+  - Unverified / Author-Only (7 challenges): Rely solely on the author's archive (dynamictype, pwn, netcomon, 
+    Learning, Packet, File Downloader, and Static Web). Static Web is flagged for scope review (needs_scope_review) 
+    because its flag uses a netcomp23{...} prefix.

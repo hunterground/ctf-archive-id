@@ -9,9 +9,8 @@ division_id: null
 round_id: qualification
 category: forensics
 original_category: FORENSICS
-description: 'A forensics challenge distributing a Windows memory image and a password-protected
-
-  archive holding the flag.'
+description: 'A forensics challenge whose distributed Windows memory image contained a
+  password-protected archive. The material is missing: only this metadata record is preserved.'
 difficulty:
   value: null
   source: unknown
@@ -37,20 +36,22 @@ licensing:
 preservation:
   path: original/
   original_structure: true
-  modified: false
+  modified: true
   modifications: []
-  omissions: []
-  checksum_verified: true
-  checksums:
+  omissions:
   - path: filedump.dmp
-    algorithm: sha256
-    value: 0b80bc932082f949b0ac94d84ab33c9df0ab74acf313b004d9d51d778ef7d681
-  - path: flag.zip
-    algorithm: sha256
-    value: 9a82ea791e3fc76ab229db243a966e2d6426216be4ad369f8a9e8d213753495d
+    reason: 'Participant solve output, not organizer distribution: 1988 lines of Volatility 3
+      windows.filescan text output rather than the chall.raw memory image the challenge shipped.
+      Removed on 2026-11-26 because the directory is being kept as a missing-material record.'
   - path: hash.txt
-    algorithm: sha256
-    value: 1e28dc31ef490e3a32d610c9345df4d0a069ed26e237b5ba8f13e8fab87ae4d6
+    reason: 'Participant solve output, not organizer distribution: a derived hashdump line for
+      a_647015ca753d9302823158.pdf, one credential the solver cracked. Removed on 2026-11-26.'
+  - path: flag.zip
+    reason: 'Participant solve output, not organizer distribution: an encrypted archive with an
+      undocumented password, so its contents could not be opened or verified. Removed on
+      2026-11-26.'
+  checksum_verified: true
+  checksums: []
 environment:
   type: null
   services: []
@@ -60,11 +61,24 @@ references:
   url: https://github.com/miraicantsleep/ctf-writeups/tree/01c9c8b07cc3368eff65cfe570f282f98e0d6693/2024/HackToday%20CTF%202024/quals/DumpTheSecret
   type: other
   accessed: '2026-11-25'
-verification: corroborated
+verification: unverified
 notes: |-
-  Qualification challenge. Category follows the evanaff writeup, which labels it Digital
-  Forensic, and the KEITO writeup Forensics section. The distributed image and archive are
-  participant re-uploads of organizer files. No solver scripts were present in the source.
+  Qualification challenge. Category follows the evanaff writeup, which labels it Digital Forensic,
+  and the KEITO writeup Forensics section.
+
+  This is a metadata-only record for missing material, updated on 2026-11-26. No challenge
+  distribution is archived. The real distribution, per the evanaff writeup, was a Windows Event
+  Trace Log memory image named chall.raw containing secret.rar and hint.txt. None of that exists
+  in any located source, and the Drive link the writeup cites now returns 404.
+
+  The directory previously held three files, all participant solve output rather than distribution:
+  filedump.dmp was 1988 lines of Volatility 3 windows.filescan text output (a scan report, not the
+  memory image), hash.txt was one cracked hashdump line, and flag.zip was an encrypted archive with
+  an undocumented password. All three were removed and are recorded in preservation.omissions. Their
+  removal is why preservation.modified is true.
+
+  What a future recovery needs: chall.raw, secret.rar, and hint.txt. Without them this challenge
+  cannot be presented or solved.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

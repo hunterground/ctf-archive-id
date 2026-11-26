@@ -40,9 +40,6 @@ preservation:
   - path: Makefile
     algorithm: sha256
     value: 0fc34510ba989449e7a9e17774f39f8fb0f826524432bdcbadbab01a36a35624
-  - path: checker/xpl.py
-    algorithm: sha256
-    value: 107082527098bf89edc83e56502c6967342a77dc79be99c77e7ba39ae1502bad
   - path: config/ctf.xinetd
     algorithm: sha256
     value: e6210d980b3cf01a589cf4583c6d68bd0da607f6639e8a25f3adb79c05b801f4
@@ -69,10 +66,8 @@ licensing:
   copyright_holder: null
   redistribution: permitted
   attribution_required: true
-  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu
-    Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
-  permission_reference: The collection repository declares no license file. Archive maintainer instruction
-    on 2026-11-25 records a source with no license file as MIT for imported challenge material.
+  attribution: NETCOMP challenge material by its original author, compiled in the author archive of Bayu Fedra, https://github.com/bayufedra/CTF-Challenge-Archive
+  permission_reference: The collection repository declares no license file. Archive maintainer instruction on 2026-11-25 records a source with no license file as MIT for imported challenge material.
 environment:
   type: docker-compose
   services: []
@@ -87,7 +82,4 @@ references:
   type: writeup
   accessed: '2026-11-25'
 verification: corroborated
-notes: 'This challenge has no README in the source, so description, difficulty, and author stay null.
-  src/main.c holds the note manager with a helper stack pivot. Corroborated as NETCOMP 2.0 material by
-  an independent participant collection: The released chall binary is byte-identical to the participant
-  copy, which files it as Pwn/chall.'
+notes: 'This challenge has no README in the source, so description, difficulty, and author stay null. src/main.c holds the note manager with a helper stack pivot. The checker script checker/xpl.py is the author''s exploit, not part of the released deployment, and was moved to the mirrored solvers/ path. Corroborated as NETCOMP 2.0 material by an independent participant collection: The released chall binary is byte-identical to the participant copy, which files it as Pwn/chall.'

@@ -9,10 +9,10 @@ division_id: junior
 round_id: final
 category: rev
 original_category: Rev
-description: |-
-  babysnake on the quals is taking a revenge!
+description: 'babysnake on the quals is taking a revenge!
 
-  Source POC note: breadth-first search solves the maze and the resulting path derives the key.
+
+  Source POC note: breadth-first search solves the maze and the resulting path derives the key.'
 difficulty:
   value: easy
   source: organizer
@@ -44,9 +44,6 @@ preservation:
   - path: chall-gui.py
     algorithm: sha256
     value: dae46801f472caf1a048ab780ce36ed2b94f836f35cdf71cab98e8bf65c0112d
-  - path: chall-solv.py
-    algorithm: sha256
-    value: 4364b093495f7ea3b095d51eec609408bb72cba643910b9e18ec484a8ef908d0
   - path: chall.py
     algorithm: sha256
     value: ee4ac4e68b2172de9b5c577b8b1e04c754ff6eef34db86354228d6658ceb469d
@@ -76,14 +73,11 @@ preservation:
     value: 06f06b282e7eb63e083bcc3c8b73d8ce878155095421a8afe04feaef6c133d91
 licensing:
   declared_license: MIT
-  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge
-    authors
+  copyright_holder: Senat Korps Taruna, Politeknik Siber dan Sandi Negara and the respective challenge authors
   redistribution: permitted
   attribution_required: true
   attribution: Wreck-IT 2024 challenge material by the credited authors and organizers; source https://github.com/jonscafe/wreckit-50-jr
-  permission_reference: The upstream repository has no LICENSE file; its README names k.eii, wondPing
-    and 1kazz as the authors. MIT under the archive maintainer instruction of 2026-11-25; underlying rights
-    remain with the Wreck-It 5.0 organizer and the challenge authors.
+  permission_reference: The upstream repository has no LICENSE file; its README names k.eii, wondPing and 1kazz as the authors. MIT under the archive maintainer instruction of 2026-11-25; underlying rights remain with the Wreck-It 5.0 organizer and the challenge authors.
 environment:
   type: static-attachment
   services: []
@@ -94,8 +88,8 @@ references:
   type: official_repository
   accessed: '2026-11-25'
 verification: corroborated
-notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-50-jr at commit
-  c0d1f0543f93fe822fe266cfe9f646c926dcfb0c, source path Final/Rev/babysnake-revenge. The parent repository
-  groups these under Final/ and its README lists them as the Wreck IT 5.0 Junior Category final set. Files
-  in the source that carry a flag value are preserved under original/; no flag text is copied into this
-  metadata.
+notes: Imported from the author-published repository https://github.com/jonscafe/wreckit-50-jr at commit c0d1f0543f93fe822fe266cfe9f646c926dcfb0c, source path Final/Rev/babysnake-revenge. The parent repository groups these under Final/ and its README lists them as the Wreck IT 5.0 Junior Category final set. Files in the source that carry a flag value are preserved under original/; no flag text is copied into this metadata.
+
+  chall-solv.py is the author's own solver and was moved to the mirrored solvers/ path.
+  dec.py is the author's encryption script and stays in original/ with the rest of the
+  generation material.

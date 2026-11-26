@@ -9,8 +9,7 @@ division_id: null
 round_id: final
 category: rev
 original_category: Reverse Engineering
-description: |-
-  beat this game if you're a real gamer!
+description: beat this game if you're a real gamer!
 difficulty:
   value: null
   source: unknown
@@ -51,9 +50,6 @@ preservation:
   - path: README.md
     algorithm: sha256
     value: e5951a59cac1f6d4495a898d31e846def02c59b441926bef402fe524483ddeac
-  - path: SolverGUI.java
-    algorithm: sha256
-    value: c98e9a8924da7e06c55e8a27be09c71f7a0a61cfb1bc840ce93202ddc78ea7fb
   - path: ular.exe
     algorithm: sha256
     value: c5a21b5b13cb6b3fb90a731d5d95335c5157f4526991f25bd5b1137c411008de
@@ -67,5 +63,7 @@ references:
   type: official_repository
   accessed: '2026-11-24'
 verification: corroborated
-notes: >-
-  Author inferred from the organizer repository's git history: this challenge directory is credited to tegar2804 (tegar2804), Numero Uno Arroefy (UnoArroefy) in commit authorship.
+notes: 'Author inferred from the organizer repository''s git history: this challenge directory is credited to tegar2804 (tegar2804), Numero Uno Arroefy (UnoArroefy) in commit authorship.
+
+  SolverGUI.java is a solver the author shipped beside the challenge, not part of the
+  released game, and was moved to the mirrored solvers/ path.'

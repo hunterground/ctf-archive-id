@@ -7,19 +7,31 @@ status: completed
 verification: corroborated
 dates:
   start: '2024-07-12'
-  end: '2024-09-11'
+  end: '2024-09-24'
 statistics:
   participant_count: null
-  challenge_count: 15
+  challenge_count: 27
 references:
 - title: Pedoman GEMASTIK 2024
   url: https://pusatprestasinasional.kemdikbud.go.id/uploads/lampiran/Pedoman%20GEMASTIK%202024%20-%2003-01.pdf
   type: official_website
   accessed: '2026-11-21'
+- title: Buku Saku GEMASTIK XVII Tahun 2024 - Universitas Negeri Semarang
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/uploads/lampiran/Buku%20Saku%20Gemastik%20XVII%20Tahun%202024-Universitas%20Negeri%20Semarang.pdf
+  type: official_website
+  accessed: '2026-11-26'
+- title: Pengumuman Perubahan Jadwal Gemastik 2024
+  url: https://bpti.kemendikdasmen.go.id/2024/06/11/pengumuman-perubahan-jadwal-gemastik-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
 - title: Penyisihan CTF GEMASTIK 2024 (organizer challenge repository)
   url: https://github.com/ctf-gemastik/penyisihan-2024
   type: official_repository
   accessed: '2026-11-25'
+- title: gemastik-xvii-final (final service environments by the problem setters)
+  url: https://github.com/vidner/gemastik-xvii-final
+  type: third_party_archive
+  accessed: '2026-11-26'
 - title: nopedawn/CTF (GEMASTIK-XVII-2024 writeups)
   url: https://github.com/nopedawn/CTF
   type: writeup
@@ -34,12 +46,19 @@ references:
   accessed: '2026-11-25'
 challenge_materials_imported: true
 notes: >-
-  Qualification Capture the Flag on 12-13 July 2024. Final attack-defense on 10 September 2024 and
-  write-up presentations on 11 September 2024. Only the qualification challenge set is published
-  by the organizer, so the fifteen imported challenges and the edition challenge_count are the
-  qualification count; the final attack-defense challenges are not published and are not recorded
-  here.
-  Secondary sources reviewed but not imported: nopedawn/CTF (GEMASTIK-XVII-2024, qualification and
-  final writeup PDFs), hackaforgesec/ctf-writeup (Gemastik-2024/quals, per-challenge writeups such
-  as Forensics/Baby_Structured), and Hope0351/my_CTF_collections (Final Gemastik 2024, final-round web
+  Qualification Capture the Flag on 12-13 July 2024, with a non-scoring online warm-up on 30 June 2024.
+  The final week ran 22-26 September 2024 at Universitas Negeri Semarang: the Cyber Security division
+  held a warm-up on 22 September, the attack-defense competition on 23 September (13.00-18.00 WIB), and
+  write-up presentations on 24 September 2024. The Pedoman GEMASTIK 2024 lists an earlier plan with the
+  final on 10-11 September 2024; that plan was superseded by the official Pengumuman Perubahan Jadwal
+  2024, and the BPTI news post confirms the 22-26 September dates. The edition dates here run from the
+  qualification start to the last Cyber Security activity (the write-up presentations).
+  Challenge material comes from two sources. The fifteen qualification challenges are the complete set
+  published by the organizer in ctf-gemastik/penyisihan-2024. The four warm-up and eight final challenges
+  are the Docker service environments published by the problem setters in vidner/gemastik-xvii-final.
+  The edition challenge_count of 27 is the sum of those imported sets. The 30 June online warm-up had no
+  published challenge files and is not a round in this archive. Secondary sources reviewed but not
+  imported: nopedawn/CTF (GEMASTIK-XVII-2024, qualification and final writeup PDFs),
+  hackaforgesec/ctf-writeup (Gemastik-2024/quals, per-challenge writeups such as
+  Forensics/Baby_Structured), and Hope0351/my_CTF_collections (Final Gemastik 2024, final-round web
   writeup). All three are participant writeup collections and were not used as the import source.

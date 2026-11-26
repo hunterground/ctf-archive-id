@@ -42,9 +42,6 @@ preservation:
   omissions: []
   checksum_verified: true
   checksums:
-  - path: .gdb_history
-    algorithm: sha256
-    value: 4e7ab4e2d00da7926298532bf9fc40863c9058e99c5102af6956ca769d85ec06
   - path: AtLeast
     algorithm: sha256
     value: e187a5ea386d4025bbe16a75545426cd9ae71c0448a039b9a97ec8f1841b9274
@@ -60,8 +57,10 @@ references:
 verification: corroborated
 notes: |-
   Qualification challenge. Both writeups discuss it under Reverse Engineering, and one captions
-  the binary as Rust; the event label is rev even though the technique is cryptographic. No
-  solver scripts were present in the source.
+  the binary as Rust; the event label is rev even though the technique is cryptographic. The
+  only challenge artifact is the `AtLeast` ELF binary. A `.gdb_history` in the upstream directory
+  records a solver session (`info functions`, `disas main`, `q`) and is participant material, not
+  distribution, so it was moved to solvers/.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

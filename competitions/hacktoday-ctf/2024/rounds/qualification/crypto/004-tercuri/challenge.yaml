@@ -32,8 +32,7 @@ licensing:
   redistribution: permitted
   attribution_required: true
   attribution: SandWithCheese - HackToday 2024, imported via https://github.com/SandWithCheese/ctf-writeups
-  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25
-    records a source with no license file as MIT for imported HackToday material.
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-25 records a source with no license file as MIT for imported HackToday material.
 preservation:
   path: original/
   original_structure: true
@@ -42,9 +41,6 @@ preservation:
   omissions: []
   checksum_verified: true
   checksums:
-  - path: flag.py
-    algorithm: sha256
-    value: 7316a34d870b885a8c43c6cf57a59d425289e793eaccf0a50af68b42e5af495f
   - path: nec_pairs.txt
     algorithm: sha256
     value: 180113e90a0677f0f742cdbee86f553aebd1e4381a023a3c0e13bad96763ffc4
@@ -61,13 +57,23 @@ references:
   type: other
   accessed: '2026-11-25'
 verification: corroborated
-notes: |-
-  Qualification challenge. Its author published the same challenge under the name Stolen in the
+notes: 'Qualification challenge. Its author published the same challenge under the name Stolen in the
+
   BIMASKUY Hacktoday2024 repository, which corroborates it as genuine 2024 material; this source
-  tree calls it tercuri. Category follows the source cry directory. No solver scripts were
-  present in the source.
+
+  tree calls it tercuri. Category follows the source cry directory. The source also carried the
+
+  write-up author''s flag.py, which performs the Hastad broadcast attack over the shipped
+
+  nec_pairs.txt; it is a participant solver, not distribution, and was moved to the mirrored
+
+  solvers/ path.
+
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
+
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be
+
   the original distribution, but this copy is not an authoritative organizer source. It may be
-  cleaned up or restructured in a later pass.
+
+  cleaned up or restructured in a later pass.'

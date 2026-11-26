@@ -42,18 +42,9 @@ preservation:
   omissions: []
   checksum_verified: true
   checksums:
-  - path: 01.png
-    algorithm: sha256
-    value: e47f90c9bfa4391be7c3b45b65bbfd7256c42efcaa7c39ebd52378598cc74362
-  - path: 2solp.jpg
-    algorithm: sha256
-    value: a6f51e50ac17b9ecab806f1a7b11274a92d5f9e9a8f7d55a6c6ba40d1a53acab
   - path: 4.txt
     algorithm: sha256
     value: 24aa923fa58422004ae2e81d6cd2e3030a48ff9fa49720dcc300347b7a880bf0
-  - path: DONE.png
-    algorithm: sha256
-    value: d9d22b372c94a2c1aa76deee251fae152f88a23b6c5206f7718c7119d05462b9
   - path: chall1.png
     algorithm: sha256
     value: f39f19fea43a45706363a7490641860e5cb750318f6517a46f1f67cd280d66d9
@@ -93,14 +84,12 @@ references:
 verification: corroborated
 notes: |-
   Qualification challenge. Category follows the evanaff writeup, which labels it Forensics, and
-  the KEITO writeup Forensics section. The directory mixes organizer stage artifacts with
-  participant work, because the solver wrote their own scripts to complete the stages. The
-  participant material is moved to solvers/: `solve.py`, a stage-4 extraction script, and
-  `solvesolve.py`, an IHDR CRC brute-forcer. The stage text files 4.txt and flag3.txt contain
-  partial flag fragments the solver recovered, and they are preserved as shipped because they
-  document the chain. `script.py` names an image that is not present and is treated as a shipped
-  artifact left in original/. Participant solver material was moved out of the challenge
-  distribution to solvers/ per archive policy, keeping its relative path: `solve.py`.
+  the KEITO writeup Forensics section. This is a real five-stage distribution, not a writeup
+  artifact: the stages are `chall1.png`, `chall2.jpg`, `chall3.zip`, `chall4.png`, `chall5.png`
+  and `chall5.zip`, and each unlocks the next. `script.py` is the organizer stage-4 encoder, and
+  it ships both loose and inside the password-protected `chall3.zip`, so it stays in original/.
+  `chall3.zip` carries `flag3.txt`, `chall4.png` and `script.py`; `chall5.zip` carries `chall5.png`
+  and `finish.png`. Both are password-protected, and the password travels in the preceding stage.
 
   Provenance caveat: this challenge material was obtained from a participant writeup repository
   (see provenance), not from the organizer or the challenge author. The artifacts appear to be

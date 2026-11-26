@@ -2852,7 +2852,7 @@ repositories:
   content_types:
   - challenge_materials
   - writeups
-  challenge_count: 10
+  challenge_count: 9
   categories:
   - crypto
   - misc
@@ -2869,13 +2869,18 @@ repositories:
     url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/HackToday%202024
     type: writeup
     accessed: '2026-11-25'
-  notes: 'Imported provenance source for ten 2024 qualification challenges: crypto Curve Enjoyer, Knapsack
-    RSA, Split and Splice, and tercuri; misc Komputer N4SA and yesjail; rev AtLeast and CodeRun; web Defacer
-    Enjoyer and note to self. It is the only located tree that preserves the event categories as cry,
-    mis, rev, and web directories. Pinned to the commit CTF Pal cites and the one actually copied. Generated
+  notes: 'Imported provenance source for nine 2024 qualification challenges: crypto Curve Enjoyer, Knapsack
+    RSA, Split and Splice, and tercuri; misc Komputer N4SA and yesjail; rev AtLeast and CodeRun; web note
+    to self. Defacer Enjoyer also came from this tree but was removed from the archive on 2026-11-26, because
+    the tree held only the participant captured flag, a PoC script, and a target list, with no challenge
+    application left to preserve. It remains the only located tree that preserves the event categories as
+    cry, mis, rev, and web directories. Pinned to the commit CTF Pal cites and the one actually copied. Generated
     bytecode caches under note to self were excluded and are listed in that challenge omissions. The repository
     declares no license, so the imported material is recorded as MIT per archive maintainer instruction
-    on 2026-11-25, with attribution to SandWithCheese.'
+    on 2026-11-25, with attribution to SandWithCheese. This tree is a participant write-up
+    set: the flag.py or flag.sage files that sat beside individual challenges compute or
+    decrypt the answer, so they were moved to the mirrored solvers/ paths rather than
+    archived as distribution.'
 - schema_version: '1.0'
   id: miraicantsleep-hacktoday-2024-writeups
   name: miraicantsleep ctf-writeups - HackToday CTF 2024
@@ -3163,6 +3168,63 @@ repositories:
     recorded from those files. Organizer-published solver and write-up material was moved to solvers/
     per archive policy. The template/ directory is repository tooling and was not imported.
 - schema_version: '1.0'
+  id: gemastik-ctf-2023-final-vidner
+  name: gemastik-xvi-final (GEMASTIK XVI attack-defense final services)
+  source:
+    type: github
+    url: https://github.com/vidner/gemastik-xvi-final
+    owner: vidner
+    repository: gemastik-xvi-final
+    branch: main
+    commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+    path: null
+  competition_id: gemastik-ctf
+  edition_year: 2023
+  round_id: final
+  maintainer:
+    type: person
+    name: Vidner
+    url: https://github.com/vidner
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - solutions
+  - writeups
+  challenge_count: 10
+  categories:
+  - crypto
+  - pwn
+  - web
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: gemastik-xvi-final
+    url: https://github.com/vidner/gemastik-xvi-final
+    type: third_party_archive
+    accessed: '2026-11-26'
+  notes: >-
+    Setter-published service environments for the GEMASTIK XVI (2023) Cyber Security attack-defense
+    final. The README lists ten services, marking three as warmup and seven as final, and names a
+    setter for each; the README column headed "category" records that stage, not a challenge category,
+    so the repository states no per-challenge category. Services from commit
+    f31c2c42b42371cac4789ebb849a5a7ac76c4140 were copied into the warmup and final rounds of the 2023
+    edition. The repository is MIT licensed, Copyright (c) 2023 rendi, and that license is the
+    recorded evidence for all ten challenges. The repository also ships an exploits/ directory with a
+    per-service exploit script and one combined attack-defense write-up covering all ten services;
+    those were moved to solvers/ per archive policy, with the combined write-up at
+    solvers/competitions/gemastik-ctf/2023/rounds/final/README.md. Deployment tooling outside the
+    service directories is not imported: receiver/ (flag files and the flag-checking service),
+    utils/ (bashrc and preexec.sh mounted into every container), and the root starter.py launcher.
+    The shared services/docker-compose.yml is repository tooling as a whole, but it is the only place
+    each service's ports, SSH password argument and flag mount are defined, so it was copied verbatim
+    into each challenge's original/ where the service directory does not ship its own compose file.
+- schema_version: '1.0'
   id: gemastik-ctf-2025-penyisihan
   name: Penyisihan CTF GEMASTIK 2025
   source:
@@ -3210,3 +3272,837 @@ repositories:
     maintainer instruction on 2026-11-25, material from a source with no license file is recorded as MIT,
     except the none challenge, which carries its own MIT license file and is recorded from that file.
     Organizer-published solver material was moved to solvers/ per archive policy.
+- schema_version: '1.0'
+  id: gemastik-ctf-2024-final-vidner
+  name: gemastik-xvii-final (GEMASTIK XVII attack-defense final services)
+  source:
+    type: github
+    url: https://github.com/vidner/gemastik-xvii-final
+    owner: vidner
+    repository: gemastik-xvii-final
+    branch: main
+    commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+    path: null
+  competition_id: gemastik-ctf
+  edition_year: 2024
+  round_id: final
+  maintainer:
+    type: person
+    name: Vidner
+    url: https://github.com/vidner
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  challenge_count: 12
+  categories:
+  - crypto
+  - pwn
+  - rev
+  - web
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: gemastik-xvii-final
+    url: https://github.com/vidner/gemastik-xvii-final
+    type: third_party_archive
+    accessed: '2026-11-26'
+  notes: >-
+    Setter-published Docker service environments for the GEMASTIK XVII (2024) Cyber Security
+    attack-defense final, maintained by vidner, one of the final's problem setters. The README splits the
+    services into four warmup-challenges (archived in the warmup round) and eight final-challenges
+    (archived in the final round). Challenge files from commit
+    c059ffb54637f9566a6bf001b68818f4a88719b6 were copied. The repository carries a root MIT license,
+    Copyright (c) 2024 vidner, and is recorded as the licensing evidence for all twelve challenges. The
+    README's "author" column is the only source for per-service authorship. The repository also collects
+    participant write-up links; none of those write-ups were imported. No solver material is present. The
+    four flag.txt files shipped in this repository contain the placeholder string PLACEHOLDER.
+- schema_version: '1.0'
+  id: joints-ctf-2021-probset
+  name: JOINTS 2021 CTF Probset
+  source:
+    type: github
+    url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+    owner: OmahTI-UGM
+    repository: JOINTS2021-CTF-Probset
+    branch: main
+    commit: 0181ba0d8c9f94ab1273a545080e5d3369d69f55
+    path: null
+  competition_id: joints-ctf
+  edition_year: 2021
+  round_id: null
+  maintainer:
+    type: organization
+    name: OmahTI UGM
+    url: https://github.com/OmahTI-UGM
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  challenge_count: 34
+  categories:
+  - crypto
+  - forensics
+  - misc
+  - pwn
+  - rev
+  - web
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: JOINTS 2021 CTF Probset
+    url: https://github.com/OmahTI-UGM/JOINTS2021-CTF-Probset
+    type: official_repository
+    accessed: '2026-11-26'
+  - title: OmahTI UGM organization profile
+    url: https://github.com/OmahTI-UGM
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  notes: 'Organizer-published problem set for JOINTS CTF 2021, described by the OmahTI UGM organization
+    as the official probset. It is the only primary source found for any JOINTS CTF edition; no official
+    repository exists for 2023 or 2026. The repository is a single 98-commit history from February to
+    April 2021 whose tip is commit 0181ba0d8c9f94ab1273a545080e5d3369d69f55. Its tree groups material
+    into warmup/, Quals/, and Final/, holding 1, 16, and 17 challenge directories respectively (34 total).
+    There is no LICENSE file, so the archive maintainer instruction of 2026-11-26 treating a source with
+    no implicit license as MIT is applied to the per-challenge records; the repository itself grants no
+    explicit redistribution licence. Each challenge''s top-level solver/ directory was moved to the
+    mirrored path under solvers/ and is not recorded as a preservation omission. Final/rev/README.md is
+    an organizer deployment note rather than a challenge and was not imported.
+
+    '
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-2024-diddy-s-party
+  name: liquedgit/diddy-s-party (NCW CTF 2024 Misc hard challenge)
+  source:
+    type: github
+    url: https://github.com/liquedgit/diddy-s-party
+    owner: liquedgit
+    repository: diddy-s-party
+    branch: main
+    commit: fe22f9975d71ca8cd2c403d481d7e4335129ed43
+    path: null
+  competition_id: national-cyber-week-ctf
+  edition_year: 2024
+  round_id: qualification
+  maintainer:
+    type: person
+    name: Michael Bryan Chandra
+    url: https://liquedgit.github.io/
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - solutions
+  challenge_count: 1
+  categories:
+  - misc
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: liquedgit/diddy-s-party
+    url: https://github.com/liquedgit/diddy-s-party
+    type: official_repository
+    accessed: '2026-11-26'
+  - title: Michael Bryan Chandra (liquedgit) portfolio
+    url: https://liquedgit.github.io/
+    type: other
+    accessed: '2026-11-26'
+  notes: >-
+    Author-owned source and the only primary challenge source found for any NCW edition.
+    The repository description is "CTF NCW 2024 - Misc Hard Challange (Blockchain)", it
+    has one commit dated 2024-10-02 (four days before the 6 October 2024 qualification),
+    and the author's portfolio independently names Diddy's Party as a hard smart-contract
+    challenge authored for National Cyber Week 2024. It holds Setup.sol and Locket.sol
+    plus the author's Attack.sol exploit, which was moved to the mirrored solver path in
+    this archive. The repository has no LICENSE file; Setup.sol declares SPDX "MTI" and
+    Attack.sol declares "MIT", and the archive maintainer instruction of 2026-11-26
+    records a source with no license file as MIT. Imported in this pass.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-2022-ibnurusdianto
+  name: NATIONAL-CYBER-WEEK-2022 qualification challenge dump
+  source:
+    type: github
+    url: https://github.com/ibnurusdianto/NATIONAL-CYBER-WEEK-2022
+    owner: ibnurusdianto
+    repository: NATIONAL-CYBER-WEEK-2022
+    branch: main
+    commit: 04cf3a69320d5b6ef80af5b00a7d816cfd342583
+    path: null
+  competition_id: national-cyber-week-ctf
+  edition_year: 2022
+  round_id: qualification
+  maintainer:
+    type: person
+    name: ibnurusdianto
+    url: https://github.com/ibnurusdianto
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  challenge_count: 19
+  categories:
+  - Binary Exploitation
+  - Cryptography
+  - Forensic
+  - Miscellaneous
+  - Reverse Engineering
+  - Web Exploitation
+  - Welcoming Party
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: ibnurusdianto/NATIONAL-CYBER-WEEK-2022
+    url: https://github.com/ibnurusdianto/NATIONAL-CYBER-WEEK-2022
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: Recap National Cyber Week 2022
+    url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source. A participant dump of the 2022 qualification titled "dump soal2 NCW
+    2K22" whose README cites the organizer recap. challs.json holds 19 challenges across seven source categories: Binary
+    Exploitation 3 (Force, Warm Up 1, Warm Up 2), Cryptography 3 (Cakemath, sabeb64,
+    Turmoil), Forensic 3 (BEC Chitchat, Human Trafficking Case, Downloader), Miscellaneous
+    3 (Solar System, Mr Decryptor, Mr Bin), Reverse Engineering 3 (Reinvent the Wheel,
+    Flaggy Bird V2, Count the Flag but Easier), Web Exploitation 3 (Undisclosed,
+    file&reading INC, Fast lane), and Welcoming Party 1 (Free Flag). It also preserves
+    per-challenge Discord-handle authors (0xdc9, Enryu, aseng, kisanak, ErikHen, darmads,
+    Lawson Schwantz, Shatternox, mitm, maskirovka) and points, which the organizer does not
+    publish. Several challenge files are only reachable through Google Drive folder links
+    in the descriptions and were never part of the repository, so the dump is incomplete.
+    It is also the only source that records the 2022 platform host ncw2k22.com. It is a
+    participant copy, not an organizer or author publication, and declares no license.
+    External download targets named in the challenge descriptions (none of them are files
+    in the repository): Force -- Google Drive file 190WlfB0mnLEne-VuHj75pc68XtVAqWP5
+    (archive password "inipasswordnyages"); Warm Up 1 -- Google Drive folder
+    1H21IWRf4xFMBIwz6utVCBneNDZoBnoS0; Warm Up 2 -- Google Drive folder
+    1UnlW7LEVqg6xSDpBXRQUFYy4Z_DktT6Y; Human Trafficking Case -- Google Drive file
+    1Mih6PaVFA4mvmx2Ki0ApYk7h1lEFIa7B; Downloader -- the tinyurl.com/wb9w957c short link
+    to the question sheet. Seven further challenges ship no attachment and name no download
+    (Mr Decryptor, Mr Bin, Flaggy Bird V2, Undisclosed, file&reading INC, Fast lane, Free
+    Flag), so their material is missing from the dump.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-writeups-sandwithcheese
+  name: SandWithCheese/ctf-writeups - National Cyber Week directories
+  source:
+    type: github
+    url: https://github.com/SandWithCheese/ctf-writeups
+    owner: SandWithCheese
+    repository: ctf-writeups
+    branch: main
+    commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+    path: null
+  competition_id: national-cyber-week-ctf
+  edition_year: null
+  round_id: null
+  maintainer:
+    type: person
+    name: SandWithCheese
+    url: https://github.com/SandWithCheese
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  - challenge_materials
+  challenge_count: null
+  categories:
+  - Binary Exploitation
+  - Cryptography
+  - Forensic
+  - Misc
+  - Reverse Engineering
+  - Web Exploitation
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: SandWithCheese/ctf-writeups
+    url: https://github.com/SandWithCheese/ctf-writeups
+    type: writeup
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source. The repository holds four NCW directories. "National Cyber Week 2k23" (8 challenge write-ups:
+    Binary Exploitation Le Oriental; Cryptography Not Simple, Simple, wangsaf; Misc
+    Confidential, Cute Byte Adventurer, Maximalist Pyjail; Reverse Engineering [^V^]
+    RustyFlag). "National Cyber Week 2024" (7: Binary Exploitation KaZooYa; Cryptography
+    Neo Encryption, R5A lagi 5x; Misc Shadow Hunt and Surat Cinta Untuk CSC; Reverse
+    Engineering I Kinda Get It Now; Web Exploitation Old But Gold, Maybe). "National Cyber
+    Week 2024 Final" (2: Reverse Engineering 19s, Web Exploitation Pentester Toolbox).
+    "National Cyber Week 2025" (5: Blockchain Kitty's Warmup to Chess and checkers;
+    Forensic Locker, Malware Magang, tehc; Web Exploitation last day intern). Many
+    directories ship the distributed source or binary and some ship flag files, so the
+    collection is a write-up dump rather than an organizer distribution. The 2025 web
+    write-up names xjirada as the author of last day intern. The commit recorded here is
+    the tip of the checkout at import review time.
+    Imported on 2026-11-26 after review: sixteen challenges whose directories hold both
+    distribution files and, where a statement exists, the statement text. Simple, wangsaf
+    and Maximalist Pyjail (2023); R5A lagi 5x, Neo Encryption, KaZooYa, Shadow Hunt, I
+    Kinda Get It Now and Old But Gold, Maybe (2024); Pentester Toolbox and 19s (2024
+    final); Last Day Intern, Locker, Malware Magang, tehc and Kitty's Warmup to Chess and
+    checkers (2025).
+    Flags are preserved as found inside original/. Decryptors, answer-replay scripts,
+    exploit scripts and participant write-up documents were kept out of original/, with
+    solver material mirrored under solvers/. Final-round 19s keeps only the released
+    binary; its participant .gdb_history and peda session log are recorded as omissions.
+    The licence is recorded as MIT per archive maintainer instruction of 2026-11-26.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  name: Cyber Security IPB CTF-Archive - NCWBinusCTF 2025 directory
+  source:
+    type: github
+    url: https://github.com/cybersecurityipb/CTF-Archive
+    owner: cybersecurityipb
+    repository: CTF-Archive
+    branch: main
+    commit: 78866072bfce7ab67b02466de59709d41ed5740b
+    path: NCWBinusCTF/2025
+  competition_id: national-cyber-week-ctf
+  edition_year: 2025
+  round_id: qualification
+  maintainer:
+    type: organization
+    name: Cyber Security IPB
+    url: https://github.com/cybersecurityipb
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  challenge_count: 18
+  categories:
+  - Binary Exploitation
+  - Blockchain
+  - Cryptography
+  - Forensic
+  - Mobile Exploitation
+  - Reverse Engineering
+  - Web Exploitation
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: cybersecurityipb/CTF-Archive
+    url: https://github.com/cybersecurityipb/CTF-Archive
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: Cyber Security IPB organization profile
+    url: https://github.com/cybersecurityipb
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  - title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+    url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source and the most complete NCW 2025 material found so far, published by
+    the Cyber Security IPB student community, which is the organizer's own GitHub
+    organization but is publishing here as a participant collection rather than as the
+    NCW committee. The NCWBinusCTF/2025 directory holds all eighteen qualification
+    challenges in CTFd export form: per challenge a title.txt, a description.txt and
+    description.html carrying the organizer's statement verbatim together with the
+    category, point value and Discord-handle author, plus a files/ directory with the
+    distributed attachment (either unpacked, or as the original chall.zip/dist.zip/
+    contracts.zip). That statement text is what the participant write-up trees lack, and it
+    is the only located source that fixes the 2025 point values and the authors for
+    twelve of the eighteen challenges. It contains no solver scripts, no write-ups and no
+    flags of its own; the flag files it does contain are the organizer's in-distribution
+    placeholders.
+
+    Reviewed and imported on 2026-11-26: thirteen challenges were new to the archive
+    (MicroBlog, Its not V8, Ref:rain, Chess ETH, Checkers ETH, salvage, wassup twin, echoed
+    symphony, a weirdo calculator, Thinking Space 3, Haskell's Herring, selflove, fetcher).
+    Five more are the same challenges already archived from the SandWithCheese participant
+    tree; they were not duplicated, and the IPB copy was used instead to record the
+    verbatim statement, the point value and the author on the existing records (Locker,
+    Malware Magang, tehc, Kitty's Warmup to Chess and checkers, last day intern). tehc.jpg
+    was the only additional distributed file this source carried and was added to that
+    challenge's original/.
+
+    The source declares no license. The archive maintainer instruction of 2026-11-26
+    records a source with no license file as MIT for archived NCW material, so per
+    challenge redistribution is permitted with attribution. The commit recorded here is the
+    tip of the blobless single-commit clone used for review. Attachment bundles are
+    preserved zipped exactly as published and were not repacked, so Chess ETH keeps its
+    macOS __MACOSX entries. Several statements name external Google Drive, SharePoint and
+    YouTube links that are not part of the repository and were not fetched; Locker and
+    Malware Magang ship a statement but no attachment at all.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-2025-selflove-papachick
+  name: papaChick/Interesting-CTF-Challs - Selflove (NCW CTF 2025 Quals)
+  source:
+    type: github
+    url: https://github.com/papaChick/Interesting-CTF-Challs
+    owner: papaChick
+    repository: Interesting-CTF-Challs
+    branch: main
+    commit: de6f49a853352a059a4b4bc575138970671c57a4
+    path: selflove
+  competition_id: national-cyber-week-ctf
+  edition_year: 2025
+  round_id: qualification
+  maintainer:
+    type: person
+    name: papaChick
+    url: https://github.com/papaChick
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - writeups
+  challenge_count: 1
+  categories:
+  - web
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: papaChick/Interesting-CTF-Challs - selflove
+    url: https://github.com/papaChick/Interesting-CTF-Challs/tree/main/selflove
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: '"Selflove" Upsolve Writeup, NCW CTF 2025'
+    url: https://hackmd.io/@MvoUIdi4QvOPY8m7SjFTlA/selflove-ncw-25
+    type: writeup
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source, reviewed on 2026-11-26. The repository
+    README lists Selflove as an NCW CTF 2025 Quals web challenge by tanknight, and an
+    independent participant write-up names the same author and links this directory as the
+    challenge file. The directory holds a Flask app with a Selenium report bot
+    (app.py, sigma.py, Dockerfile, requirements.txt, start.sh, templates/) plus dist.zip;
+    the README describes the intended technique as self-XSS chained with CSP and SOP
+    weaknesses, an iframe sandwich and an HTML/JS polyglot. It is a participant-hosted copy
+    of an author's release, not an organizer publication, and declares no license. It was
+    held back because no statement text accompanies it, and its duplicate copies (dist.zip
+    and the unpacked root files) needed resolving before any import.
+
+    On 2026-11-26 the statement blocker was resolved: the Cyber Security IPB community
+    archive publishes the organizer's brief for Selflove verbatim, with the 484 point value
+    and the author line. Selflove is therefore archived using that source for the statement
+    and metadata while this directory was used to confirm the service source. This
+    repository is retained as corroboration only and none of its files were copied.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-writeups-nopedawn
+  name: nopedawn/CTF - NCW CTF 2024 qualification and final write-ups
+  source:
+    type: github
+    url: https://github.com/nopedawn/CTF
+    owner: nopedawn
+    repository: CTF
+    branch: main
+    commit: d265ff1537c50949d74c74dadda4233df1b6705f
+    path: NCWCTF24
+  competition_id: national-cyber-week-ctf
+  edition_year: 2024
+  round_id: null
+  maintainer:
+    type: person
+    name: nopedawn
+    url: https://github.com/nopedawn
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  challenge_count: null
+  categories:
+  - forensics
+  - misc
+  - web
+  - crypto
+  - rev
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: nopedawn/CTF
+    url: https://github.com/nopedawn/CTF
+    type: writeup
+    accessed: '2026-11-26'
+  - title: NCW CTF QUAL 2024 writeup post
+    url: https://nopedawn.github.io/posts/ctfs/2024/ncw-ctf-qual-2024/
+    type: writeup
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source, recorded for maintainer review and not imported. The NCWCTF24/qual
+    directory holds a single 31-page team write-up PDF by team "Tiga Hacker Menabung dan
+    Rajin Membaik" (Badut, pantun dong bang, w1thre) that covers the 2024 qualification
+    challenges ZaBlender and ShopiToko (forensics), Sanity Check, Shadow Hunt, Surat Cinta
+    Untuk CSC and Blackbox Blockchain (misc), and Old But Gold, Maybe (web). The team's blog
+    post records the qualification platform host as ctf-ncw.cscbinus.com, a host that has
+    no Wayback capture. The write-up text is in Indonesian and includes flag values; do not
+    copy flags into archive metadata. It does not mention Diddy's Party.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-writeups-etern1ty
+  name: etern1ty.site NCW 2024 qualification and final write-ups
+  source:
+    type: website
+    url: https://etern1ty.site/blog/ctf-2024-ncw-2024-quals/
+    owner: null
+    repository: null
+    branch: null
+    commit: null
+    path: null
+  competition_id: national-cyber-week-ctf
+  edition_year: 2024
+  round_id: null
+  maintainer:
+    type: person
+    name: Nathan Kho Pancras (Etern1ty, team NyanSetsunaNyan)
+    url: https://etern1ty.site/
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  challenge_count: null
+  categories:
+  - crypto
+  - forensics
+  - misc
+  - rev
+  - web
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: NCW 2024 Quals write-up page
+    url: https://etern1ty.site/blog/ctf-2024-ncw-2024-quals/
+    type: writeup
+    accessed: '2026-11-26'
+  - title: NCW 2024 Final write-up page
+    url: https://etern1ty.site/blog/ctf-2024-ncw-2024-final/
+    type: writeup
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source, recorded for maintainer review and not imported. Two team write-up
+    PDFs by HCS - NyanSetsunaNyan (DJumanto, Etern1ty) linked from the author's portfolio
+    site: a 36-page qualification document (web Old But Gold, Maybe; crypto Neo
+    Encryption; rev I Kinda Get It Now; forensics ZaBlender and ShopiToko; misc Shadow
+    Hunt, Blackbox Blockchain, Surat Cinta Untuk CSC, Sanity Check) and a 22-page final
+    document (crypto A4s lagi 4x, rev 19s, and two forensics challenges with Japanese
+    titles). Both give flag values verbatim and name authors in a few places (for example
+    kangwijen for Old But Gold, Maybe and Lawson Schwantz for A4s lagi 4x), which is
+    useful author evidence but not organizer confirmation. This team placed third in the
+    2024 final as "nyan setsuna nyan" per the organizer recap. Neither PDF mentions Diddy's
+    Party, so it does not corroborate the round attribution of that challenge.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-writeups-jonscafe
+  name: jonscafe writeups - NCW CTF 2025 qualification forensics
+  source:
+    type: github
+    url: https://github.com/jonscafe/ctfs-write-ups
+    owner: jonscafe
+    repository: ctfs-write-ups
+    branch: main
+    commit: 56e338da88bb38b618e80af6c8ab445bb4ff9c11
+    path: ncw-2025-quals
+  competition_id: national-cyber-week-ctf
+  edition_year: 2025
+  round_id: qualification
+  maintainer:
+    type: person
+    name: jonscafe
+    url: https://github.com/jonscafe
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  challenge_count: null
+  categories:
+  - forensics
+  - web
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: jonscafe/ctfs-write-ups - ncw-2025-quals
+    url: https://github.com/jonscafe/ctfs-write-ups/tree/main/ncw-2025-quals
+    type: writeup
+    accessed: '2026-11-26'
+  notes: >-
+    Secondary source, recorded for maintainer review and not imported. One 16-page PDF,
+    "All forensicks + 1 web", covering the 2025 qualification forensics set (Locker and
+    related artifact questions) and one web challenge. It records a live remote address
+    used during the event and the expected answer strings for the Locker answer-checker,
+    which are challenge answers rather than flags. It is a participant write-up with no
+    declared licence.
+- schema_version: '1.0'
+  id: national-cyber-week-ctf-index-ctfpal
+  name: CTF Pal National Cyber Week index pages
+  source:
+    type: website
+    url: https://ctfpal.com/writeups/ctf/national-cyber-week-2025-2025-community
+    owner: null
+    repository: null
+    branch: null
+    commit: null
+    path: null
+  competition_id: national-cyber-week-ctf
+  edition_year: null
+  round_id: null
+  maintainer:
+    type: organization
+    name: ctfpal
+    url: https://ctfpal.com/
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  challenge_count: null
+  categories: []
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: National Cyber Week 2025 challenges and writeups
+    url: https://ctfpal.com/writeups/ctf/national-cyber-week-2025-2025-community
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: National Cyber Week 2024 challenges and writeups
+    url: https://ctfpal.com/writeups/ctf/national-cyber-week-2024-2024-community
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: National Cyber Week 2k23 challenges and writeups
+    url: https://ctfpal.com/writeups/ctf/national-cyber-week-2k23-2023-2023-community
+    type: third_party_archive
+    accessed: '2026-11-26'
+  notes: >-
+    Third-party index, recorded for maintainer review and not imported; it aggregates
+    write-ups found in public repositories rather than hosting challenge material. Its NCW
+    2025 page lists 8 challenges (five forensics: Bastardd%21%21, Belajar%20calculus,
+    Decrypt, Sesi 1, Strings; three uncategorised: Last Day Intern, FILES SUMMARY, Payload
+    Generator), which is a partial list from one collection rather than the full set. Its
+    2024 page lists only 3 (crypto Flag and R5Alagi5x, uncategorised App2), and its 2023
+    page lists 4 crypto entries inherited from file names (Brute, Client, Flag, Server).
+    Its event label for 2023 is "National Cyber Week 2k23". The pages are useful as a
+    cross-reference for names and categories but are visibly incomplete and are not
+    evidence of challenge counts.
+
+- schema_version: '1.0'
+  id: itsec-ctf-2025-summit-public
+  name: ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public - Qual and Final challenge sets
+  source:
+    type: github
+    url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+    owner: ITSEC-ASIA-ID
+    repository: 2025-ITSEC-Asia-Summit-Public
+    branch: main
+    commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+    path: null
+  competition_id: itsec-ctf
+  edition_year: 2025
+  round_id: null
+  maintainer:
+    type: organization
+    name: ITSEC ASIA ID
+    url: https://github.com/ITSEC-ASIA-ID
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  challenge_count: 42
+  categories:
+  - Binary Exploitation
+  - Blockchain
+  - Cloud
+  - Cryptography
+  - Forensic
+  - Reverse Engineering
+  - Web Exploitation
+  verification:
+    status: verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public
+    url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+    type: official_repository
+    accessed: '2026-11-26'
+  - title: ITSEC CTF 2025 wrap-up by the competition lead
+    url: https://www.linkedin.com/posts/felix-alexander-603b9b184_github-itsec-asia-id2025-itsec-asia-summit-public-activity-7371563990939983872-8kVX
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  notes: Primary source. Organizer repository under the ITSEC ASIA ID GitHub organisation; the organisation
+    description identifies it as the ITSEC ASIA Indonesia account and links itsec.asia. Only one commit
+    (3ca7cfb375cf0b262473a394e9be6bb1e188bd92, "first") is present on main. The tree holds Qual/ and Final/
+    with 29 and 13 challenges, matching the 42 archived here. The repository has no licence file; the
+    licensing block records that fact and leaves redistribution unstated, while each imported challenge
+    carries the maintainer-directed MIT record. A Final/Template-Challenge directory is organizer tooling
+    and was not imported.
+- schema_version: '1.0'
+  id: itsec-ctf-2025-participant-writeups
+  name: Participant write-ups and challenge mirrors for ITSEC CTF 2025
+  source:
+    type: github
+    url: null
+    owner: null
+    repository: null
+    branch: null
+    commit: null
+    path: null
+  competition_id: itsec-ctf
+  edition_year: 2025
+  round_id: null
+  maintainer:
+    type: unknown
+    name: null
+    url: null
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - writeups
+  challenge_count: null
+  categories: []
+  verification:
+    status: discovered
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: null
+    redistribution: unknown
+  references:
+  - title: nopedawn/CTF - ITSECCTF25 challenge archive
+    url: https://github.com/nopedawn/CTF
+    type: third_party_archive
+    accessed: '2026-11-26'
+  - title: SandWithCheese/ctf-writeups - ITSEC Summit CTF 2025 directory
+    url: https://github.com/SandWithCheese/ctf-writeups
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC ASIA QUALIFICATION 2025 WRITEUP (itoid)
+    url: https://hackmd.io/@itoid/ByURA-1_el
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC ASIA FINAL 2025 WRITEUP (itoid)
+    url: https://hackmd.io/@itoid/ByImrKYOxg
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC CTF 2025 (kos0ng, Aseng Fan Club)
+    url: https://kos0ng.gitbook.io/ctfs/write-up/2025/itsec-ctf
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC CTF 2025 Writeup (nopedawn)
+    url: https://nopedawn.github.io/posts/ctfs/2025/itsec-ctf-2025/
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC Summit CTF 2025 Blockchain Writeup (Muhammad Fachrudin Firdaus)
+    url: https://medium.com/@firdausfarul/itsec-summit-ctf-2025-blockchain-writeup-a3881ded185e
+    type: writeup
+    accessed: '2026-11-26'
+  - title: ITSEC CTF 2025 (blacowhait)
+    url: https://hackmd.io/@blacowhait/itsec-ctf-2025
+    type: writeup
+    accessed: '2026-11-26'
+  notes: Secondary sources, recorded for maintainer review and NOT used as an import source. The organizer
+    repository already carries the distributed challenge files for all 42 challenges, so participant trees
+    add no material and were not needed. These are kept as corroboration for authorship, categories and
+    solve paths only. nopedawn/CTF lists an ITSECCTF25 entry and SandWithCheese/ctf-writeups had an ITSEC
+    Summit CTF 2025 directory locally; neither was imported. The Medium write-up also links a Google Drive
+    folder of challenge archives (1foqM_6NN4LeSZ2hP4Jo07aQZ9liPfn_c), which is a participant mirror, not
+    an organizer distribution.
+- schema_version: '1.0'
+  id: codepwnda-ctf-challenges
+  name: codepwnda-ctf
+  source:
+    type: github
+    url: https://github.com/vidner/codepwnda-ctf
+    owner: vidner
+    repository: codepwnda-ctf
+    branch: master
+    commit: 7e086044b753fe555b44395b79827d2f5b89da1d
+    path: null
+  competition_id: codepwnda
+  edition_year: 2019
+  round_id: main
+  maintainer:
+    type: person
+    name: Rendi Yuda Perkasa (vidner)
+    url: https://github.com/vidner
+  access:
+    visibility: public
+    access_date: '2026-11-26'
+  content_types:
+  - challenge_materials
+  - solutions
+  challenge_count: 31
+  categories:
+  - crypto
+  - forensics
+  - pwn
+  - rev
+  - web
+  verification:
+    status: partially_verified
+    last_checked: '2026-11-26'
+  licensing:
+    declared_license: MIT
+    redistribution: permitted
+  references:
+  - title: codepwnda-ctf challenge repository
+    url: https://github.com/vidner/codepwnda-ctf
+    type: official_repository
+    accessed: '2026-11-26'
+  - title: Cyber Security IPB announcement of the codepwnda release (Usman Abdul Halim)
+    url: https://www.linkedin.com/posts/usmanahalim_codepwnda-activity-6585335428298170368-xi7n
+    type: organizer_announcement
+    accessed: '2026-11-26'
+  notes: 'Challenge and solver material for the 2019 codepwnda release, published by Rendi Yuda Perkasa
+    (vidner) with contributions from idzharbae, zakigeyan and zeroload. Imported at the tip of master,
+    7e086044b753fe555b44395b79827d2f5b89da1d (2021-02-18), which is the only commit after the 2019 challenge
+    work and only adds .gitattributes. The repository carries no separate LICENSE file; README.md declares
+    the MIT License, Copyright (c) 2019 Rendi Yuda Perkasa, and is preserved at competitions/codepwnda/README.md.
+    The tree mixes true challenge distributions with author working artifacts (.gdb_history, peda session
+    logs, an empty misc/ directory, committed flag files) and with archived HackToday material, which the
+    commit messages name directly. Verification stays partially_verified because the release has no official
+    event page, schedule or scoreboard, so the event framing rests on the organizer announcement plus the
+    repository itself.'
