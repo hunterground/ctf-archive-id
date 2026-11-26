@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: warmup
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+name: Pemanasan
+original_name: null
+sequence: 1
+type: warmup
+delivery: onsite
+description: Pre-final warming-up stage of the GEMASTIK XVII Cyber Security division, held before
+  the attack-defense final.
+dates:
+  start: '2024-09-22'
+  end: '2024-09-22'
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: Buku Saku GEMASTIK XVII Tahun 2024 - Universitas Negeri Semarang
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/uploads/lampiran/Buku%20Saku%20Gemastik%20XVII%20Tahun%202024-Universitas%20Negeri%20Semarang.pdf
+  type: official_website
+  accessed: '2026-11-26'
+- title: gemastik-xvii-final (service environments, warmup-challenges)
+  url: https://github.com/vidner/gemastik-xvii-final
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  The UNNES pocket book for GEMASTIK XVII schedules a warm-up for Divisi 2 Keamanan Siber on Sunday,
+  22 September 2024, inside the final-week programme of 22-26 September 2024. The setter repository
+  publishes exactly four services as "warmup-challenges", and those four are the challenges archived in
+  this round. No start time is recorded because the pocket book gives only a combined time block for the
+  Sunday row. The 2024 Pedoman describes a different, earlier schedule (a 30 June 2024 online warm-up
+  before the qualification); that warm-up has no published challenge files and is not this round. The
+  Pedoman's final-week dates were superseded by the official Pengumuman Perubahan Jadwal 2024, which
+  moved the final to 22-26 September 2024.

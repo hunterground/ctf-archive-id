@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-warmup-web-001
+name: more-less
+slug: 001-more-less
+original_name: more-less
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: web
+original_category: web
+description: A FastAPI file upload service that parses the uploaded document as YAML and returns the loaded
+  object. It loads with the unrestricted yaml.load Loader rather than a safe loader, so a crafted document
+  can instantiate arbitrary Python objects on the server.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- yaml deserialization
+- unrestricted loader
+- fastapi
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: more-less
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 33097ba3a0ae694a3d333d6e0ad22da1defda521afc5b95cf1d96cc5d55a889d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ae78f64fd36ed4ee39a59cac3c52d4af8240d930692f0d0efdf290b705ef7de0
+  - path: requirements.txt
+    algorithm: sha256
+    value: a6854e5adc5151a03221d35db41935df4f77ca070efddce702abd6e932312b45
+  - path: src/index.html
+    algorithm: sha256
+    value: 6013d871a7714cca75d204af650c6eb4cfcd2c39044ecc241ec99e8d50dba3b8
+  - path: src/main.py
+    algorithm: sha256
+    value: 1bc3421e14e98c091718c3de61cea700532dc66f6c067e08fd16587664c91d4c
+  - path: start.sh
+    algorithm: sha256
+    value: 1b013f970f911eb8feb06f901f10e389fd4682bb9af1f258005164d51ad61adf
+environment:
+  type: docker-compose
+  services:
+  - more-less
+  requirements:
+  - Python 3.11
+  - FastAPI
+  - PyYAML
+references:
+- title: gemastik-xvii-final - more-less
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/more-less
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVII final. The setter README lists it under warmup-challenges
+  with category web and author vidner. The source has no challenge description statement; the description
+  here summarises the shipped main.py.

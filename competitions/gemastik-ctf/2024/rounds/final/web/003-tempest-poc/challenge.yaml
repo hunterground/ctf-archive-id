@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-web-003
+name: tempest-poc
+slug: 003-tempest-poc
+original_name: tempest-poc
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: 'A vulnerability scanner proof of concept: an nginx frontend proxies only /api/public to
+  a Tornado backend, which also serves /api/private/report. The report endpoint substitutes a request
+  parameter into an HTML template before rendering it. Reach the blocked private endpoint through the
+  public surface.'
+difficulty:
+  value: hard
+  source: archive_curator
+tags:
+- ssti
+- tornado
+- nginx
+- websocket smuggling
+authors:
+- name: dummklloun
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: tempest-poc
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: backend/Dockerfile
+    algorithm: sha256
+    value: eafd67953469588bf170068cbe82f4cc78614f1b2cce950e9cd27adc0b2c2b8c
+  - path: backend/entrypoint.sh
+    algorithm: sha256
+    value: c51e52ca91cdb04bb33287ad76d703abcd6bf2b53d695d7465bfef71acaefff5
+  - path: backend/requirements.txt
+    algorithm: sha256
+    value: c844954c8028838f7e3cca25b3eadbfa0376b878572039dfb51161547827b463
+  - path: backend/src/app.py
+    algorithm: sha256
+    value: abffd983e091431be8dbcdaa9552ca56cec414fd6d566fb25c504f36b1edcc63
+  - path: backend/src/report_template.html
+    algorithm: sha256
+    value: de0a3888434b8a0bb80277dbc6a66703aa9c0d7cc5902f71db8c68a9c1adb02d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2bfabac2fc0552cb08d693d49b9fbcc7905574f2ceb48eb48344913d167af533
+  - path: frontend/Dockerfile
+    algorithm: sha256
+    value: bb4eb6ebb3672f6e91540ea1bd7b99ee3bf7f65367b5f694ec049a0b4f545f52
+  - path: frontend/index.html
+    algorithm: sha256
+    value: 842c1e2de6e49888a6b1cce99e8408d9658d7c044967b3473e9798a4c59c5a56
+  - path: frontend/nginx.conf
+    algorithm: sha256
+    value: 287dbbc7a9f10fcfe8d19f6b392ac63db708820230965911c875011787270c4e
+  - path: frontend/static/css/styles.css
+    algorithm: sha256
+    value: 16dc539dd87a2941e6b71f3673169134be5d93c458ec790ae88d7673bde476ad
+  - path: frontend/static/js/app.js
+    algorithm: sha256
+    value: 60a709786c49adbc7f30388d6a99f9bbea2bfba78d2b5cdeba3f682f6663b3fd
+environment:
+  type: docker-compose
+  services:
+  - tempest-poc
+  - frontend
+  requirements:
+  - Python 3
+  - Tornado
+  - nginx
+references:
+- title: gemastik-xvii-final - tempest-poc
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/tempest-poc
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category web and author dummklloun. The repository root has no Dockerfile for this service; its
+  compose file builds ./backend and ./frontend, and both are preserved. Source review confirms ReportHandler.get
+  replaces <REPORT_NAME> in report_template.html and renders it with tornado.template.Template, while
+  nginx only proxies ^/api/public. The participant write-up linked from the setter README is recorded
+  as a reference only.

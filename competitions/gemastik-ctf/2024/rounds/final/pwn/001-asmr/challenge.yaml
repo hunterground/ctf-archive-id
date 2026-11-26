@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-pwn-001
+name: asmr
+slug: 001-asmr
+original_name: asmr
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: pwn
+description: 'A shellcode runner that executes submitted x86-64 machine code inside a Unicorn emulator.
+  The emulator implements a small note API: create, edit, delete, view and a register dump. The note bookkeeping
+  trusts the guest-supplied index, so guest code can drive the host helpers out of bounds.'
+difficulty:
+  value: hard
+  source: archive_curator
+tags:
+- unicorn engine
+- shellcode
+- out-of-bounds
+- emulator escape
+authors:
+- name: circleous
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: asmr
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ce70357a616d842c5584f5a54ec3b8a2282a6a1d243538275aced03d5c829a79
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: c260175498e9a78172222fca0e61f05e3b92c7e7309c7c17a4a388aa1b75278e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2c37000bda01209392cdf0a64b99601c98cc39c59ffbedc9bf0490a6839d081b
+  - path: run.sh
+    algorithm: sha256
+    value: b9816367439d57cbdf841617ac680ff8060b5062995006e8c9359339bde0e678
+  - path: src/asmr.py
+    algorithm: sha256
+    value: 5329319c1f52228fb5aa96904a2b272a313969d0aa23c776423acacf4f5f0ecb
+  - path: start.sh
+    algorithm: sha256
+    value: 1bbf941a8e2e8367180ea9e227a65e10d75b30e0f7f1555d7d8544bb7e20b91f
+environment:
+  type: docker-compose
+  services:
+  - asmr
+  requirements:
+  - Python 3.11
+  - unicorn
+  - Ubuntu 24.04
+references:
+- title: gemastik-xvii-final - asmr
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/asmr
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category pwn and author circleous. The source has no challenge description statement; the description
+  here summarises the shipped asmr.py. The participant write-up linked from the setter README is recorded
+  as a reference only.

@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-warmup-rev-001
+name: go-green
+slug: 001-go-green
+original_name: go-green
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: rev
+original_category: rev
+description: A small Go donation service. It advertises $420 and a donation of at least $1337 prints the
+  flag, which is unreachable through the normal menu because the balance check rejects any donation above
+  the current balance. Recover the behaviour the menu hides and reach the flag.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- go
+- integer comparison
+- menu service
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: go-green
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 264e3d5833a11f711a3ff6f37c0d5bcb4570887eb26f8af52e2138b1dcb33316
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: c260175498e9a78172222fca0e61f05e3b92c7e7309c7c17a4a388aa1b75278e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8db2f728c650cb675a54e0d70844119f63b04a2fb7ff8383a654d59cce319e7a
+  - path: run.sh
+    algorithm: sha256
+    value: 96645db548725c2cb0e7d32c4b7dc06f3972fc1f3fbcde09a5250e9aae5dbf07
+  - path: src/main.go
+    algorithm: sha256
+    value: d3f64176b0bca283ea9c26c14934833706f229cd20ce446e9faab90b9e0a7416
+  - path: start.sh
+    algorithm: sha256
+    value: 1bbf941a8e2e8367180ea9e227a65e10d75b30e0f7f1555d7d8544bb7e20b91f
+environment:
+  type: docker-compose
+  services:
+  - go-green
+  requirements:
+  - Go
+  - xinetd
+references:
+- title: gemastik-xvii-final - go-green
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/go-green
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVII final. The setter README lists it under warmup-challenges
+  with category rev and author vidner. The source has no challenge description statement; the description
+  here summarises the shipped main.go.

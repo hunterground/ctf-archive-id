@@ -1,0 +1,256 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-pwn-002
+name: fjb
+slug: 002-fjb
+original_name: fjb
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: pwn
+original_category: web-pwn
+description: A marketplace with a React frontend, an Apache mod_lua backend and a C Lua module for session
+  tokens. Cart, catalog and checkout endpoints are exposed, and the catalog carries a hidden per-item
+  value that checkout ignores. The C module copies the claim name into a fixed-size buffer without a length
+  check.
+difficulty:
+  value: hard
+  source: archive_curator
+tags:
+- lua
+- apache mod_lua
+- stack overflow
+- business logic
+authors:
+- name: circleous
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: fjb
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d290bfe3c90cfe1a92ba6309361d99ec21dc161a75c9ed3f7deb93a8338b2d27
+  - path: .gitignore
+    algorithm: sha256
+    value: a9932e867f2026edd3330d74ec65a20f445ec8d5892153a2a6d20979f6d83080
+  - path: Dockerfile
+    algorithm: sha256
+    value: 13766242c3b14ddd7be397c304c740168c642002d691920227e00fd95624d50e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 933687dd9148c8c247fae244fb5fcb8989ca2bd16ea68901a3e3fe405e5ec8e9
+  - path: fjb.db
+    algorithm: sha256
+    value: 87bd6dadac26c4bb9d8cdd89b2c5ad0dc2c10fa5c151e5a73890d8e1693b07b4
+  - path: frontend/.gitignore
+    algorithm: sha256
+    value: fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8
+  - path: frontend/README.md
+    algorithm: sha256
+    value: 22ac249d3674c2fe6663bb77aafd74502a0103b7fac45ef395dfd09974da7561
+  - path: frontend/components.json
+    algorithm: sha256
+    value: 3d3e2cd926e7f3ea042499de0924cf167d34c7ba3ac13608cde50dcf6fdf8875
+  - path: frontend/eslint.config.js
+    algorithm: sha256
+    value: e9ae1f744dc41be83489e81cad222a0540058dcc2263170793dfcbfb0923bd55
+  - path: frontend/index.html
+    algorithm: sha256
+    value: 2ec839983fba7042c6feb83ad3586d1adcd5b3bb01c3a21b4ca938a808f9f29c
+  - path: frontend/jsconfig.json
+    algorithm: sha256
+    value: 2cf9375817887d464eec3ed3be227adcbc513e936497de89f9cc520f5f76cee8
+  - path: frontend/package.json
+    algorithm: sha256
+    value: 90f9b24aa3d0f25410c4f25a4d0bd3d53998d29ac3a707c8b0ef25a664dfea1c
+  - path: frontend/pnpm-lock.yaml
+    algorithm: sha256
+    value: f885f48bdeed834c9457eb627c01f6acc9e63f28e3570a4dd8c220ff4b495576
+  - path: frontend/postcss.config.js
+    algorithm: sha256
+    value: 190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27
+  - path: frontend/public/favicon.svg
+    algorithm: sha256
+    value: 5c61615d8a2cae65630ecc6565e0b691d57772fdcb45d6c097ff0e5fc8c9ed6f
+  - path: frontend/src/components/navigation.jsx
+    algorithm: sha256
+    value: e4baebf8c4a666b28e7f3e38aeefe8601fb57a63a90acc93b44ed04cdaf0ec26
+  - path: frontend/src/components/ui/badge.jsx
+    algorithm: sha256
+    value: 380dcda78ff8fdd80c82b89cb7dd38ffd84c355735fc8f16300ff647e15988aa
+  - path: frontend/src/components/ui/button.jsx
+    algorithm: sha256
+    value: 12adf1099f9dcbbdc08c4f8ee0d858443bb9fdfb37a241940129c049851e4faa
+  - path: frontend/src/components/ui/card.jsx
+    algorithm: sha256
+    value: 29d96812df4cfa019ccaabcfd01a166139b99f97961e22d876d551bc765b2366
+  - path: frontend/src/components/ui/dialog.jsx
+    algorithm: sha256
+    value: 6b1e30e00c3e9da92852eeeaabf7b2aeb88b2ddbc7dcd8ac5eb007c6553819cc
+  - path: frontend/src/components/ui/input.jsx
+    algorithm: sha256
+    value: 6f36e0cd956cd8ac355702c0e136916fb50006cc0cf4dea23d539edb8157b4a2
+  - path: frontend/src/components/ui/label.jsx
+    algorithm: sha256
+    value: 37c6425d2a5c798ade4e60f89f86054d703433a8977e12d796de2b5bb4e3d0b7
+  - path: frontend/src/components/ui/table.jsx
+    algorithm: sha256
+    value: 301509bb8337184f1b299cb15b8d4f8ec8f0d3bbc17a2ffdf33ff58f7eaa444e
+  - path: frontend/src/components/ui/tabs.jsx
+    algorithm: sha256
+    value: 57591bdfb3fa931b06edcf4168b6881a79785c674ad0618003d12cd656072350
+  - path: frontend/src/components/ui/textarea.jsx
+    algorithm: sha256
+    value: b2fbb350ea5955f4e0342958a81cbea7253521cfa1b12713d2adc4e6d5e0cfdc
+  - path: frontend/src/components/ui/tooltip.jsx
+    algorithm: sha256
+    value: c8769979462ad2652dfb877fec9ad504655aaee5704b272308050b2aa054e85c
+  - path: frontend/src/constants.js
+    algorithm: sha256
+    value: 0ee9bf5e173e77dc7c3002d5f167bd61a2a101b967db9d12ee57281c2ad00874
+  - path: frontend/src/hooks/useAuth.js
+    algorithm: sha256
+    value: a829d76208232ea949da7d4fb390ff83935705fde48af14b8e5d4402f4901dec
+  - path: frontend/src/index.css
+    algorithm: sha256
+    value: dc65eb442dd0e3a4c9294747f14d72500e8a5421f791b6c003453f431cc39660
+  - path: frontend/src/lib/httpClient.js
+    algorithm: sha256
+    value: 9b0caf684dc158782423400560c2ff66275c433c8929a11bfb1735e7fedac7f8
+  - path: frontend/src/lib/router.js
+    algorithm: sha256
+    value: 6dddf757e9bca0304ab687a67d07cf53d5677e9b1211ac2be17440a953c86ef7
+  - path: frontend/src/lib/utils.js
+    algorithm: sha256
+    value: 84b7f8fbaf5509e7da4e172ae8ffc63bae3b14712d3ac0bac3904997da0b4e45
+  - path: frontend/src/main.jsx
+    algorithm: sha256
+    value: 3aaf5dd9152250dd786e15b40d79b2e1a216e3e99760a422dcc5c66f4e568983
+  - path: frontend/src/pages/cart-checkout.jsx
+    algorithm: sha256
+    value: 8ca833d8e705a7c1f28560462604e68df1dea7d896f4dbd5b1c896041474d0ab
+  - path: frontend/src/pages/login-register.jsx
+    algorithm: sha256
+    value: e06549c36b66fa8b8d2e044839cf29877db49cc7a4468e27f4b6240122c0d4c8
+  - path: frontend/src/pages/marketplace-lisiting.jsx
+    algorithm: sha256
+    value: 9905687734bd6f507dfa4921e3154791622e9366c89993e65b40dd91eed17409
+  - path: frontend/src/routeTree.gen.ts
+    algorithm: sha256
+    value: a5eb4d3e80a063c903c2572de87353324d6b304c8d36c0738c7b544ec76beec1
+  - path: frontend/src/routes/__root.jsx
+    algorithm: sha256
+    value: f25ee829dff5e04a8e381222927d838642d45eb4d24f4b4ea82071a484e01d73
+  - path: frontend/src/routes/cart.jsx
+    algorithm: sha256
+    value: 2dc13434ed40942d396534629aff022efd3fab63bb94024d0c7d8611ec14ce94
+  - path: frontend/src/routes/index.lazy.jsx
+    algorithm: sha256
+    value: 48a9f73f53fe16d68cadc6a04dd242c8fbedb82e7ce1f525b61c35edd6f61372
+  - path: frontend/src/routes/login.lazy.jsx
+    algorithm: sha256
+    value: fff4555942f69a85c5197e0fe75cc21fb80846ad8a8f5af3a64a2c15d6e6ff7f
+  - path: frontend/tailwind.config.js
+    algorithm: sha256
+    value: f8b490353113bbf89deb8260e607746486901ee768c014690855990e842d7576
+  - path: frontend/vite.config.js
+    algorithm: sha256
+    value: 69a14926f78bbdecd059d8e568cddd20e06d33bddce9e8ff545acfe6efe8fab7
+  - path: httpd-foreground
+    algorithm: sha256
+    value: d147759ff364b1d363249f6cdf49b304d5e3f0616f35a91b30b6a94d00a35c1e
+  - path: httpd.conf
+    algorithm: sha256
+    value: d5b7e94593b00d1a9cd132a7be4c29ed40dcdd85068f8ea09d05e612554ec5d5
+  - path: kauth/.gitignore
+    algorithm: sha256
+    value: 34e172453ad6015961ba109c9f9017c8e7b785458874d518d37a5266242c35fc
+  - path: kauth/Makefile
+    algorithm: sha256
+    value: 57ae01c841610a7e69ff7e18fd875a6d5743a1cdc71527a183fc28510d7b12e5
+  - path: kauth/kauth-1.0-1.rockspec
+    algorithm: sha256
+    value: bef0454d166aae3ea20ec1eb9e1fead23fb29352bb357ebe29b4587fb67be212
+  - path: kauth/kauth.c
+    algorithm: sha256
+    value: 9476835684777565c365d094413970860645229c34dc797e8082addb8c305da6
+  - path: kauth/kauth.h
+    algorithm: sha256
+    value: 08c87fc57e53d2d5a44ac205ef70968ba017b54689a59e036b5d022675b113d9
+  - path: src/database.lua
+    algorithm: sha256
+    value: b451258e4617f43f7098e2367369120ae579a030bf103333609c3e1bcd184ab7
+  - path: src/handler/api.lua
+    algorithm: sha256
+    value: d1b57e2e0de1f3a2cfa06c05b19e8c502f3eb7f57d6a09209069a5878eb33664
+  - path: src/handler/cart.lua
+    algorithm: sha256
+    value: 616b61e76874e8f662e7da6aca460b1ba486def5c1f8bcb9b26a7dd009500875
+  - path: src/handler/catalog.lua
+    algorithm: sha256
+    value: 19918cdad49c23adaa2871d8549bafef87e1a4905f957e881232f78ad623bc01
+  - path: src/handler/checkout.lua
+    algorithm: sha256
+    value: 460abdb9ab3e2ccbb0f11546888743f1150c8a330aaca302436670ef7c1824cb
+  - path: src/handler/login.lua
+    algorithm: sha256
+    value: cc5fc719fa09e611ed92324b339968cfa96056dced51342681762847924d9c16
+  - path: src/handler/register.lua
+    algorithm: sha256
+    value: df0d26a2e2e7f522f5d9261e26b8e3620c4180e50eb68bb45c2750e5baa8e720
+  - path: src/handler/user.lua
+    algorithm: sha256
+    value: b2b8faf2f0433979286fad8efca27136126f3bb36a111bdd9a8bb427c99bb1c4
+  - path: src/lib/utils.lua
+    algorithm: sha256
+    value: eef0c330071f0ddd2937ef33b1f5d4056087efa81077c8f71819b7b936144c54
+  - path: src/middleware.lua
+    algorithm: sha256
+    value: 946745e202a42de1b33f34060ac45531c8ef1101c73d010b632a2dc9d3ba4a30
+  - path: src/secret.lua
+    algorithm: sha256
+    value: 73b4c28011101f7cf0a83d6d94715c781a6963a023feaf27f900dcdbc815fccb
+environment:
+  type: docker-compose
+  services:
+  - fjb
+  requirements:
+  - Node 20
+  - Apache HTTPD with mod_lua
+  - Lua
+  - libsodium
+references:
+- title: gemastik-xvii-final - fjb
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/fjb
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README labels it web-pwn
+  with author circleous; the archive category is pwn because of the C overflow in fjb/kauth/kauth.c (strcpy
+  of the token name into a 128-byte claim field), and original_category keeps the source label. Source
+  review also shows a checkout that never transfers the catalog value, so competing teams also exploited
+  the logic. The shipped fjb/fjb.db is an empty schema-only SQLite database and is preserved. fjb/src/secret.lua
+  contains the fixed 32-byte HMAC key shipped with the distribution; it is original challenge material
+  and is preserved unmodified, not a live credential.

@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-crypto-003
+name: ticketer
+slug: 003-ticketer
+original_name: ticketer
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: crypto
+description: A ticketing service whose refunds are authorised by a proof-of-knowledge identification protocol.
+  You start with $10, the FLAG ticket costs $100, and refunding a ticket credits its value. Find the weakness
+  in the proof of knowledge or the refund accounting to buy the FLAG ticket.
+difficulty:
+  value: medium
+  source: archive_curator
+tags:
+- proof of knowledge
+- zero-knowledge
+- refund logic
+authors:
+- name: merricx
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: ticketer
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 707adaf637ec8da58a4a28ac49ad888e174720898693d856b2e9295f50e31298
+  - path: README.md
+    algorithm: sha256
+    value: 8ce5d3492f1a5311562548f243089e9e159435e38310faf78420f2f92fe8f4b4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8992179c3fc4b53c85e0b780a0bea781e167f747948bb4dd6bf525ee98f7d27e
+  - path: flag.txt
+    algorithm: sha256
+    value: 83acce8cff053ecb1dd5f36bf2fad7bc51ee4720e1d17b0c43afa1b029264ec3
+  - path: src/main.py
+    algorithm: sha256
+    value: e9be9a20ffa4796c49843bb2599184856285fffbd812760df57e5f35448f5dc0
+  - path: src/pok.py
+    algorithm: sha256
+    value: 525d8b5913891f81e2152bb0512a8f9336080f1571ec3d6f0f91450853a1bfcc
+  - path: start.sh
+    algorithm: sha256
+    value: 5ecc70498c3383ca9b2cd644e0067d4bf32bacd885bb9b2883a522cd8bb9f820
+environment:
+  type: docker-compose
+  services:
+  - ticketer
+  requirements:
+  - Python 3.11
+  - Ubuntu 24.04
+references:
+- title: gemastik-xvii-final - ticketer
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/ticketer
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category crypto and author merricx. The shipped original/flag.txt contains the placeholder string
+  PLACEHOLDER, which is the distribution value and is preserved verbatim. The shipped README describes
+  the service as a ticketing system with Proof of Knowledge identification protocol. main.py also accepts
+  the flag itself as a menu input that resets the balance, which is a setter debug path and is preserved
+  unmodified.

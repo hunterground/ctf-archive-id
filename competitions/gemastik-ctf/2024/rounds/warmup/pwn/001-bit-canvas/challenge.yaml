@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-warmup-pwn-001
+name: bit-canvas
+slug: 001-bit-canvas
+original_name: bit-canvas
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: pwn
+original_category: pwn
+description: A menu-driven bit canvas service. The resize option sets the bitmap width without reallocating
+  the 16-entry canvas array, so drawing past the original bounds corrupts adjacent stack memory. The service
+  exposes a stack canary read through the debug output and a password check that compares the entered
+  value against the flag file. Find the memory corruption that reaches the flag.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- stack overflow
+- out-of-bounds write
+- menu service
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: bit-canvas
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 64ebf728be2d209fa61c06d5b1bbab3df157e81dd3392a5c3718cc431185895d
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: c260175498e9a78172222fca0e61f05e3b92c7e7309c7c17a4a388aa1b75278e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4027dcd94d9d6d2cc98fb6c9a69004ec67cf5a34374fd0e59e6bf2eaed8fbbcd
+  - path: run.sh
+    algorithm: sha256
+    value: 96645db548725c2cb0e7d32c4b7dc06f3972fc1f3fbcde09a5250e9aae5dbf07
+  - path: src/main.c
+    algorithm: sha256
+    value: 50e00cf75e67d24312fab7b36b18f63891625a290fb21ca2c1bb92b5ddad42e2
+  - path: start.sh
+    algorithm: sha256
+    value: 1bbf941a8e2e8367180ea9e227a65e10d75b30e0f7f1555d7d8544bb7e20b91f
+environment:
+  type: docker-compose
+  services:
+  - bit-canvas
+  requirements:
+  - Ubuntu 22.04
+  - gcc
+  - xinetd
+references:
+- title: gemastik-xvii-final - bit-canvas
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/bit-canvas
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVII final. The setter README lists it under warmup-challenges
+  with category pwn and author vidner. The source has no challenge description statement; the description
+  here summarises the shipped main.c. original/flag.txt is not part of this distribution; the binary reads
+  /flag.txt and the compose file mounts no flag, so no flag file is preserved. The forwarded container
+  ports are 20000/20022; the archive does not record them as connection info because the tournament instances
+  are gone.

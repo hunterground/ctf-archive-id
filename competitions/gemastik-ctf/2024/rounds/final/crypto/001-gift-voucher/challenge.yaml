@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-crypto-001
+name: gift-voucher
+slug: 001-gift-voucher
+original_name: gift-voucher
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: crypto
+description: A voucher shop using a per-connection 1024-bit RSA key. Vouchers are raw PKCS#1 v1.5 style
+  signatures over a message built from a fixed prefix, random padding and a SHA-256 digest of the account
+  name, and the shop will sign a limited number of them. Exploit the scheme and the private key exposure
+  to mint vouchers worth enough to buy the flag.
+difficulty:
+  value: medium
+  source: archive_curator
+tags:
+- rsa
+- pkcs#1 v1.5
+- signature forgery
+authors:
+- name: deomkicer
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: gift-voucher
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: d8f6b832543aebe42564a5e09192c7cbd3bf8fc4c6ed3aaf2f8cd8fb367d45ef
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b112eb35e5c1f6a8f99beef6b8425afb0a4aa3be8144eb2e23442715c128bd6b
+  - path: flag.txt
+    algorithm: sha256
+    value: 83acce8cff053ecb1dd5f36bf2fad7bc51ee4720e1d17b0c43afa1b029264ec3
+  - path: src/main.py
+    algorithm: sha256
+    value: 420a532a8d719730fb03261f5b47f3494e8d77319ebec5ab141ced2f0b85405d
+  - path: start.sh
+    algorithm: sha256
+    value: 5ecc70498c3383ca9b2cd644e0067d4bf32bacd885bb9b2883a522cd8bb9f820
+environment:
+  type: docker-compose
+  services:
+  - gift-voucher
+  requirements:
+  - Python 3.11
+  - PyCryptodome
+references:
+- title: gemastik-xvii-final - gift-voucher
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/gift-voucher
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category crypto and author deomkicer. The shipped original/flag.txt contains the placeholder string
+  PLACEHOLDER, which is the distribution value and is preserved verbatim. The source has no challenge
+  description statement; the description here summarises the shipped main.py.

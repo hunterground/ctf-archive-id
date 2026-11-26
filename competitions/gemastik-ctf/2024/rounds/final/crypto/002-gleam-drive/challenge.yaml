@@ -1,0 +1,126 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-crypto-002
+name: gleam-drive
+slug: 002-gleam-drive
+original_name: gleam-drive
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: web-crypto
+description: A file drive written in Gleam. The session and share tokens are AES-128 in ECB mode over
+  a JSON document, keyed from a file that falls back to a constant when absent, and the share token records
+  the absolute path to the recipient's file. Reach another user's flag file through token manipulation.
+difficulty:
+  value: medium-hard
+  source: archive_curator
+tags:
+- aes-ecb
+- token forgery
+- gleam
+- path traversal
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: gleam-drive
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 6dd888cb264c49441ceab8d9a17061dbc5b58e4dcc320057904c03f32f53603b
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5d959543ed7ed6404baaf638e97c1c552d2a1d7ee468b1ba1021cae4ca50cfd8
+  - path: README.md
+    algorithm: sha256
+    value: 3c3a37afc569a571d19457f9a33d76b76266a19afd73387161149dce47990514
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 07b7e37b0421d79a5643bef30ae80397f462707861c8ad9ad8a171f995f86c19
+  - path: gleam.toml
+    algorithm: sha256
+    value: afb46a52578d43bcd3ae9a163f1312ec67869d0a095eeae16a3d1250d135dd6b
+  - path: manifest.toml
+    algorithm: sha256
+    value: c0832d84bc7eae25549736d5946b54a401a33c2131e140b0763726480c77cf89
+  - path: src/app/config.gleam
+    algorithm: sha256
+    value: db479c5aa998d28fa2cdb52be1454177a4a7b2ca9022cdd5c9652a5af96bff41
+  - path: src/app/crypto.gleam
+    algorithm: sha256
+    value: fe5b259331b8705a559079b2067d719e8ac11c8093fad3c55cf21ea27158f8e1
+  - path: src/app/model.gleam
+    algorithm: sha256
+    value: 8eb9f642d0b77daed9fa952af88c70b75e10451d41471aff23382a3b7c7b2f8a
+  - path: src/app/repository.gleam
+    algorithm: sha256
+    value: 8166a7cd8d2b85493aa80df9acd6b3aa5026b9ccdf220062a917fc73be4aeadc
+  - path: src/app/router.gleam
+    algorithm: sha256
+    value: 0e8a653c9a52d91e8b1efa90a4a6557a566f13699e62bfdf1b10bebeb4dc4c23
+  - path: src/app/service.gleam
+    algorithm: sha256
+    value: a6463106b7972dc66e578bf66e6c96aa94982bf539b492bc797d0e9c4f170ac3
+  - path: src/app/util.gleam
+    algorithm: sha256
+    value: 3e52c29753b7c30b7cfac82b9d01bf33beb937b1921a0b4dc00b869bfa2a33f7
+  - path: src/app/view.gleam
+    algorithm: sha256
+    value: 4a16022c54febaaeb79e103e4a9226cac8b6c0c95663b68abe15c54727d10b63
+  - path: src/app/web.gleam
+    algorithm: sha256
+    value: 0bfce4d0d0e650e27e34cf1154710f992cb2292406d09ab808e3fd5a53cae15f
+  - path: src/crypto_ffi.erl
+    algorithm: sha256
+    value: fb72b5c19cf0e4eb15abca1288245824c7f945e3eda3d96e0defff817ee87ab0
+  - path: src/gdrive.gleam
+    algorithm: sha256
+    value: 866a73f186cc3b7448a08ff8ceff978913e5a508aae8702fc2f569cb6e260723
+  - path: start.sh
+    algorithm: sha256
+    value: d6b84e8f22336e9776622d857dc4cbac6083ddcc3dc3e707fabd3b67f50698c3
+  - path: test/gdrive_test.gleam
+    algorithm: sha256
+    value: 0cf9a1830b04997757a6f739869bed9220a55e40ca4d71c4e599691430bbe001
+environment:
+  type: docker-compose
+  services:
+  - gleam-drive
+  requirements:
+  - Gleam
+  - Erlang/OTP
+  - Alpine
+references:
+- title: gemastik-xvii-final - gleam-drive
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/gleam-drive
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README labels it web-crypto
+  with author vidner; the archive category is crypto because the intended break is the AES-ECB token scheme,
+  and original_category keeps the source label. Source review confirms src/crypto_ffi.erl calls aes_128_ecb
+  and src/app/config.gleam falls back to the constant change-me-please when .aes-key is absent. The source
+  has no challenge description statement; the description here summarises the shipped Gleam source.

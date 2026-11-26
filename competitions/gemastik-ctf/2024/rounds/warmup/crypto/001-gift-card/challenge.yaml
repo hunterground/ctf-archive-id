@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-warmup-crypto-001
+name: gift-card
+slug: 001-gift-card
+original_name: gift-card
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: crypto
+original_category: crypto
+description: A gift shop that issues and redeems gift cards. You start with $100 and the flag costs $420.
+  A gift card is 16 bytes whose sum must satisfy a modulus check derived from the account name, so valid
+  cards can be forged without buying them. Collect enough balance and buy the flag.
+difficulty:
+  value: easy-medium
+  source: archive_curator
+tags:
+- signature forgery
+- checksum bypass
+authors:
+- name: deomkicer
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: gift-card
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: ffce76bb688355524e52c7d85489cef6c5acd188a33e0392248daa53d168e75a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d0857b30c0b3b4391ee592f76ec866fe43211d64b81a83a9e919412f16e1f0bf
+  - path: flag.txt
+    algorithm: sha256
+    value: 83acce8cff053ecb1dd5f36bf2fad7bc51ee4720e1d17b0c43afa1b029264ec3
+  - path: src/main.py
+    algorithm: sha256
+    value: 9fa732251e32980640c699d13287eed12b4593c6c76572da6fe1e6bf7b44f542
+  - path: start.sh
+    algorithm: sha256
+    value: 5ecc70498c3383ca9b2cd644e0067d4bf32bacd885bb9b2883a522cd8bb9f820
+environment:
+  type: docker-compose
+  services:
+  - gift-card
+  requirements:
+  - Python 3.11
+references:
+- title: gemastik-xvii-final - gift-card
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/gift-card
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVII final. The setter README lists it under warmup-challenges
+  with category crypto and author deomkicer. The shipped original/flag.txt contains the placeholder string
+  PLACEHOLDER, which is the distribution value and is preserved verbatim.

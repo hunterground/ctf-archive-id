@@ -1,0 +1,194 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-web-002
+name: kode-viewer
+slug: 002-kode-viewer
+original_name: kode-viewer
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: A paste service for code snippets, with a NestJS backend on Redis. Each paste is stored under
+  a key assembled from the owner email, name, language and visibility. Sessions and pastes share the key
+  space, and the search endpoint interpolates the pattern into a Redis key glob, so one object can be
+  reached as another.
+difficulty:
+  value: medium
+  source: archive_curator
+tags:
+- redis
+- key injection
+- nest
+- wildcard injection
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: kode-viewer
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .eslintrc.js
+    algorithm: sha256
+    value: 38272720f4961ed28d233b9d8ab67d0199b60a08901a9a94ae97dd95efe72c09
+  - path: .gitignore
+    algorithm: sha256
+    value: 96d99526521e54144dc1f378becc167edb6ba62f97f1ce76ac600c80157e34d3
+  - path: .prettierrc
+    algorithm: sha256
+    value: fd8ec9f75b7f8e40ae62d490431aa0dcee9af62c3710a0a27216ff2967ca0ef7
+  - path: Dockerfile
+    algorithm: sha256
+    value: dd7e92e609c719e1288bd0312e0ae56fe941646f47de43d827469692d21ffe20
+  - path: README.md
+    algorithm: sha256
+    value: d3a66012b01a75f74892e70b5e7fa5bfbee4195af9ff69820cdf4c1b0485c08a
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 07f0bb66aeba637de0c4c80eed21a158331ce67b8b1681bbf2c4ae217cb3b090
+  - path: nest-cli.json
+    algorithm: sha256
+    value: bcb15e3049ff5d131762d2bfe3a6f917c3c64c83ac772467a4073975cd423b5b
+  - path: package-lock.json
+    algorithm: sha256
+    value: ead57b14729ed82c046a2f09917884e23fb003508347a76ddfc0e0d4455f6541
+  - path: package.json
+    algorithm: sha256
+    value: 4313fc90aff187d13e56fcec8588141d8dc5f36132bcb10639641f58f9f0b510
+  - path: public/favicon.ico
+    algorithm: sha256
+    value: 885cd90245c1cd1fa68c7719aee444a9d3d2e8b9d25e9814fadc826f926e8727
+  - path: public/favicon.svg
+    algorithm: sha256
+    value: 96a28f4ad1d399854ef4dd8fac08c42e598e606d3eec14376680951319f4d807
+  - path: src/app.module.ts
+    algorithm: sha256
+    value: b88bb88e4725c2ab671d86da4c4779e3922d28b772c4e916b188da213de256e4
+  - path: src/auth/auth.controller.ts
+    algorithm: sha256
+    value: 7c069818a989cdb907f1761d91617db212137256de809c71f6b3ee61010ce9bf
+  - path: src/auth/auth.dto.ts
+    algorithm: sha256
+    value: 77a4085eda0c1974d5f91ce4c2c124383b6b6cddb886a7275bcbc678b4bc26ac
+  - path: src/auth/auth.filter.ts
+    algorithm: sha256
+    value: 5fe2a2994f71975b6f1b59f6511692a84aac6b1e60414537b8d4172a8a69eca3
+  - path: src/auth/auth.guard.ts
+    algorithm: sha256
+    value: 171d4fc21adf698d9d07b3c0bd79e6d6b2626e9aebaf1d19b66187e16d578f30
+  - path: src/auth/auth.model.ts
+    algorithm: sha256
+    value: 69f219458a5761a31855e21898fdb2475b03c0ab433ce541d297dac7599fcb2a
+  - path: src/auth/auth.module.ts
+    algorithm: sha256
+    value: 9da22e4771fac124483256cc93f7795cdffc0dd78585d96cabfdf9133f59d6cb
+  - path: src/auth/auth.service.ts
+    algorithm: sha256
+    value: 3c1425e69aae38dce7c6028ea38725b4ba34887106eb9029405f82ee227638c4
+  - path: src/kode/kode.controller.ts
+    algorithm: sha256
+    value: d98e3bf33e98b47a77b161857e8e28ad0cbeab2c7a738567f763d77247011549
+  - path: src/kode/kode.dto.ts
+    algorithm: sha256
+    value: 3a23b4137ac6deb00ff83c9d9cf8945c01516b7bfd28774b165f9b535101a3c9
+  - path: src/kode/kode.module.ts
+    algorithm: sha256
+    value: 120b3a801f5a1e4cbf53437de4511d2f0c9a0ab4541b130dd5f269b29860184f
+  - path: src/kode/kode.service.ts
+    algorithm: sha256
+    value: 1f47c94209a2ad4742620b447401f9dac6e46fc0fbc6e8fca4c1e35f1cd59bb1
+  - path: src/kv/kv.service.ts
+    algorithm: sha256
+    value: 25ae09526900ec0b3bdb16eb257da8981dc07260e1facb841db020883aa3294a
+  - path: src/main.ts
+    algorithm: sha256
+    value: 325de71fac2a19694136fc3e2e19729ae576dce6ffa5cdd2df321408a1c35a2b
+  - path: src/view/view.controller.ts
+    algorithm: sha256
+    value: 6ee296229be9866ecf6f57c87e54dbdd1bbe8ea89483c6432a98cdcdafd3f68e
+  - path: src/view/view.module.ts
+    algorithm: sha256
+    value: 83557a6a880679dcb12135fe1bd340616a5cea39fb2d6e5fcbb99f0e1968fbac
+  - path: start.sh
+    algorithm: sha256
+    value: cbd75de50a0a442601fa2c46ec07fcb771f9522f22f2bbbf24c3536580ee3906
+  - path: test/app.e2e-spec.ts
+    algorithm: sha256
+    value: a02dfdc143eeec47c36db06fcb91c36ba1c8c9377c720b831a86ddc2701fcf8d
+  - path: test/jest-e2e.json
+    algorithm: sha256
+    value: 8263868744540f44fb89e142ba721cd92f64918b6b97b115f1f672dba5a1d2bc
+  - path: tsconfig.build.json
+    algorithm: sha256
+    value: 3a016b4ee9713cd16295128bad42e6077e5ecd8c2ed225caa7d1e0e3f1c7f03f
+  - path: tsconfig.json
+    algorithm: sha256
+    value: ee4e1f77e1436f198cd1be4fadf7052682fb86d32d513696955917cd21f4635e
+  - path: views/create.hbs
+    algorithm: sha256
+    value: 9872ceec86b631bcebec195b83896319acc0e9c68c11dca9d7943d3583c6002a
+  - path: views/error.hbs
+    algorithm: sha256
+    value: b80d976fc818cd1b3a1a31f686ae37ced82b17b0fe75910a345886236e056cb9
+  - path: views/index.hbs
+    algorithm: sha256
+    value: 92231b78689a24718e60872f370a3abcfd2fa8f677f44762c3bb792ca4b78488
+  - path: views/kode.hbs
+    algorithm: sha256
+    value: 2440351823d11ab6f5d019eb0b0ae47602162daa2efba46eb71f350f62c004df
+  - path: views/login.hbs
+    algorithm: sha256
+    value: d4e7879ca08bd2d3cb828c87f2269c9b55c0ea47968780e481b548ebad393d3e
+  - path: views/partials/header.hbs
+    algorithm: sha256
+    value: 6a5f21a3b08ecdb4b379c0cc1892985fb776757ddbd3c94a471d05b1f210ce32
+  - path: views/partials/navbar.hbs
+    algorithm: sha256
+    value: d4e32b0aeee086d0a98010d50b7b39b1274119250dd51c4decb60542f2ca2184
+  - path: views/register.hbs
+    algorithm: sha256
+    value: b089d530382a32f3bc94b84c12df11fcc8b52a6a39160423d0159843b7636252
+  - path: views/search.hbs
+    algorithm: sha256
+    value: a9c420e7a31a19e885743130de33c61d77708d0f78ed59e8344f3305d921ce3f
+environment:
+  type: docker-compose
+  services:
+  - kode-viewer
+  - redis
+  requirements:
+  - Node
+  - NestJS
+  - Redis
+references:
+- title: gemastik-xvii-final - kode-viewer
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/kode-viewer
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category web and author vidner. Source review shows kode.service.ts building keys as kode-<email>-<name>-<lang>-<kind>
+  and find() passing the user pattern into a *_<pattern>*-public Redis query. The repository README at
+  kode-viewer/README.md is the unmodified Nest starter boilerplate and is preserved. The compose file
+  mounts ./redis-data, which does not exist in the distribution.

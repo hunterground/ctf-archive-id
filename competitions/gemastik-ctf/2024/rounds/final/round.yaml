@@ -1,0 +1,46 @@
+schema_version: '1.0'
+id: final
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: null
+sequence: 2
+type: final
+delivery: onsite
+description: Attack-defense final of the GEMASTIK XVII Cyber Security division, followed by a
+  write-up presentation stage.
+dates:
+  start: '2024-09-23'
+  end: '2024-09-23'
+statistics:
+  challenge_count: 8
+  participant_count: null
+references:
+- title: Pedoman GEMASTIK 2024
+  url: https://pusatprestasinasional.kemendikbud.go.id/uploads/lampiran/Pedoman%20GEMASTIK%202024%20-%2003-01.pdf
+  type: official_website
+  accessed: '2026-11-26'
+- title: Buku Saku GEMASTIK XVII Tahun 2024 - Universitas Negeri Semarang
+  url: https://pusatprestasinasional.kemendikdasmen.go.id/uploads/lampiran/Buku%20Saku%20Gemastik%20XVII%20Tahun%202024-Universitas%20Negeri%20Semarang.pdf
+  type: official_website
+  accessed: '2026-11-26'
+- title: Pengumuman Perubahan Jadwal Gemastik 2024
+  url: https://bpti.kemendikdasmen.go.id/2024/06/11/pengumuman-perubahan-jadwal-gemastik-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: gemastik-xvii-final (service environments, final-challenges)
+  url: https://github.com/vidner/gemastik-xvii-final
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  The UNNES pocket book schedules the Divisi 2 Keamanan Siber competition on Monday, 23 September 2024
+  from 13.00 to 18.00 WIB, with write-up drafting 19.00-04.00 and write-up presentations on 24 September
+  2024. The Pedoman GEMASTIK 2024 states an earlier plan (competition 10 September 2024, presentations
+  11 September 2024); that plan was superseded by the official Pengumuman Perubahan Jadwal 2024, which
+  moved the final week to 22-26 September 2024, and the BPTI news post confirms the event ran 22-26
+  September 2024. The round date recorded here follows the pocket book and the schedule-change
+  announcement. The eight services under "final-challenges" in the setter repository are the challenges
+  archived in this round. The 2024 Pedoman describes the final as attack-defense; the archived services
+  are the attack-defense service environments.

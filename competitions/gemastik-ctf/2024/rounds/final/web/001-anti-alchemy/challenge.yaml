@@ -1,0 +1,122 @@
+schema_version: '1.0'
+id: gemastik-ctf-2024-final-web-001
+name: anti-alchemy
+slug: 001-anti-alchemy
+original_name: anti-alchemy
+competition_id: gemastik-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: A vulnerability database dashboard backed by PostgreSQL, reached over SSH. A custom query
+  builder escapes quote characters but accepts nested objects as filter values, so the generated query
+  can be broken out of. Use the injection to authenticate as admin and read the flag.
+difficulty:
+  value: medium-hard
+  source: archive_curator
+tags:
+- sql injection
+- query builder
+- postgresql
+- flask
+authors:
+- name: deomkicer
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2024-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvii-final
+  commit: c059ffb54637f9566a6bf001b68818f4a88719b6
+  original_path: anti-alchemy
+licensing:
+  declared_license: MIT
+  copyright_holder: vidner
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvii-final - GEMASTIK XVII 2024 Keamanan Siber final service, imported
+    via https://github.com/vidner/gemastik-xvii-final
+  permission_reference: 'Repository LICENSE at commit c059ffb54637f9566a6bf001b68818f4a88719b6: MIT License,
+    Copyright (c) 2024 vidner. The repository README states it publishes the Docker environments for the
+    GEMASTIK XVII attack-defense final services.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e5c3d25b3d5a3517aa0997be86620f90b18a4b7ae8f91abe4549110b14d9f96c
+  - path: db/dump.sql
+    algorithm: sha256
+    value: cac9fe4522033952644c9143e927e1df380e1f2fee910d17c327d6fcfb4ea0fe
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 952b698123d188d15e8d2da2249f345dd4310a10504de22f819a15cfac94435c
+  - path: entrypoint.sh
+    algorithm: sha256
+    value: ac64209dc8f478cb26b93f74c5c5612e315b5b95d05fcd9d3ff55eb20320615c
+  - path: flag.txt
+    algorithm: sha256
+    value: 83acce8cff053ecb1dd5f36bf2fad7bc51ee4720e1d17b0c43afa1b029264ec3
+  - path: requirements.txt
+    algorithm: sha256
+    value: ea4eff9deecee9c5310b6ad988671856938ecbd16d50d5dae3a90c7c0275b6df
+  - path: src/antialchemy.py
+    algorithm: sha256
+    value: abdabbf3e5b73bfc30a58f6b07f97faee0f0145d124326c7436aa0fb2bb213cb
+  - path: src/app.py
+    algorithm: sha256
+    value: f4aaed82b49344026a6f72f760d8830196956663cb5a9a10ec145cfeddebc149
+  - path: src/helper.py
+    algorithm: sha256
+    value: d49a96c1f5275c929821599ab41b6dbf093f1e9a8224c4a27c4714bf6f656123
+  - path: src/misc/check_users.py
+    algorithm: sha256
+    value: 95a02f69bc52f73e12028deed632c0ed7408fabeda109f7a447634057fdc041d
+  - path: src/misc/init_users.py
+    algorithm: sha256
+    value: a8348997008cfcfe3e2d151e68ee750d76610aee412e05d2f7c3d326d4c6e977
+  - path: src/static/dashboard.min.css
+    algorithm: sha256
+    value: 9f377f5dcfed243017e99f46e4c77df9c076dd8d75224182b36cea30c2de7294
+  - path: src/static/dashboard.min.js
+    algorithm: sha256
+    value: 9cd7625f73102804fb3dfe6ee956be246c709028b4ea1fdc7c0fafaedd931ea5
+  - path: src/static/login.min.css
+    algorithm: sha256
+    value: 4e01638c92a45cfe6be7a39a842b373f62d2f3ca4ddd542bcf4da678be2da551
+  - path: src/static/login.min.js
+    algorithm: sha256
+    value: 24f110c0d0eac9cb5a99ca2a91c179fab3ceee48269cf5bbd8fdb7abdbbdc578
+  - path: src/templates/dashboard.html
+    algorithm: sha256
+    value: 03737c191ea1fc8425b1983e45cdc2f7f1d135b96c4dd6e46dfc0ecd8b4a6866
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: 38449e5b3011e1bc1d57848efad7136a63f9737dfe20b7bdc1bbfeb4cf06c07d
+environment:
+  type: docker-compose
+  services:
+  - anti-alchemy
+  - anti-alchemy-db
+  requirements:
+  - Python 3.11
+  - Flask
+  - PostgreSQL 16
+  - Gunicorn
+  - OpenSSH
+references:
+- title: gemastik-xvii-final - anti-alchemy
+  url: https://github.com/vidner/gemastik-xvii-final/tree/c059ffb54637f9566a6bf001b68818f4a88719b6/anti-alchemy
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVII final. The setter README lists it under final-challenges
+  with category web and author deomkicer. The compose file seeds PostgreSQL from db/dump.sql and passes
+  fixed development credentials through the environment; those strings are original challenge material
+  and are preserved. The shipped original/flag.txt contains the placeholder string PLACEHOLDER.
