@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: ukex-micro-ctf
+name: UKEX Micro CTF
+country: ID
+organizer:
+  name: UKM Cyber Security ITS (UCS)
+  website: https://ucs.or.id/
+website: null
+description: >-
+  Capture The Flag booth activity run by UKM Cyber Security ITS (UCS), the cyber security student
+  activity unit of Institut Teknologi Sepuluh Nopember, during the UKM Expo ITS 2025 orientation
+  fair. The published challenge set is a single-stage, jeopardy-format mini CTF with cryptography,
+  digital forensics, and web exploitation categories.
+metadata:
+  established_year: 2025
+  recurring: null
+  formats:
+  - jeopardy
+status: unknown
+verification: corroborated
+references:
+- title: ukex-micro-ctf-2025 challenge repository
+  url: https://github.com/ucsits/ukex-micro-ctf-2025
+  type: official_repository
+  accessed: '2026-11-27'
+- title: UKM Cyber Security ITS organization site
+  url: https://ucs.or.id/
+  type: official_website
+  accessed: '2026-11-27'
+- title: Gerigi x UKM Expo ITS 2025 (ITS News)
+  url: https://www.its.ac.id/news/gerigi-x-ukm-expo-its-2025-ukir-semangat-berkarya-mahasiswa-baru/
+  type: other
+  accessed: '2026-11-27'
+- title: ITS academic calendar 2025/2026 change decision listing UKM Expo 18-21 August 2025
+  url: https://www.its.ac.id/academicmed/wp-content/uploads/sites/156/2025/08/SK-Rektor_Kalender-Akademik-2025.pdf
+  type: other
+  accessed: '2026-11-27'
+notes: >-
+  Identity
+  - Event: The organizer repository describes itself as the "Collection of challenges for UKM EXPO
+    2025 Micro CTF competition at UCS Booth". The recorded name keeps the repository wording; no
+    separate wordmark or event website for the CTF itself was found.
+  - Host Event: UKM Expo ITS is the student activity unit fair held alongside Gerigi ITS, the ITS new
+    student orientation programme. UCS ran the CTF as its booth activity inside that fair, which is
+    why the CTF has no standalone schedule of its own. The fair is not modelled as a competition here;
+    this record covers only the CTF.
+  - Organizer: UKM Cyber Security ITS (UCS) is a research-category special-field student activity
+    unit of Institut Teknologi Sepuluh Nopember, Surabaya. The challenge repository is published by
+    the ucsits GitHub organization, which is the same entity.
+  - Not The Same Event: Do not confuse this with the UCS "MiniCTF Seleksi Masuk Komunitas" recruitment
+    selection held in August 2025, which is a separate repository (ucsits/2025-08-minictf-ucs) and a
+    separate internal event.
+
+  Scope And Open Questions
+  - Only 2025 Is Known: The 2025 set is the only edition with a published challenge source. Whether
+    the booth CTF ran in earlier UKM Expo years is not established, so established_year records the
+    first known edition and recurring stays null.
+  - Lifecycle: The 2025 booth activity has finished, but whether UKEX Micro CTF recurs is unknown, so
+    the competition status is unknown rather than active or inactive.
+  - Licensing: The repository publishes an MIT LICENSE (Copyright (c) 2025 UKM Cyber Security ITS)
+    that covers the repository contents. It is preserved at
+    competitions/ukex-micro-ctf/2025/rounds/main/LICENSE and cited per challenge.
+
+  Secondary Sources
+  - None Imported: No third-party challenge collection, mirror, or writeup archive of this event was
+    found, and nothing outside the organizer repository was used. Searches covered GitHub
+    repositories, the CTF Pal 2025 event index, and general web search; the CTF Pal index does not
+    list UKEX Micro CTF at all.
+  - Forks Are Not Secondary: The public forks of the organizer repository
+    (Etern1tyDark/ukex-micro-ctf-2025, miraicantsleep/ukex-micro-ctf-2025, sch24r/ukex-micro-ctf-2025)
+    belong to the challenge authors and add no solver material, so they are derivatives of the
+    primary source rather than independent archives and are not recorded as sources.
+  - Unrelated Event: The UCS MiniCTF recruitment selection (ucsits/2025-08-minictf-ucs) is a separate
+    event published by the same organization and is not a source for this competition.

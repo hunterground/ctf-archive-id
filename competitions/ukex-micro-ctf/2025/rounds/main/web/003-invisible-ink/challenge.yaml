@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: ukex-micro-ctf-2025-main-web-003
+name: 'invisible ink'
+slug: 003-invisible-ink
+original_name: null
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: This pen does not work, i think.
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- html-inspection
+authors:
+- name: thehxnz
+  team: null
+organization: null
+provenance:
+  archive_id: ukex-micro-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/ucsits/ukex-micro-ctf
+  commit: ee555de6ad3b39e6e2823460d19437c4893b801c
+  original_path: 'web/invisible ink'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f0c80aeed50bfd534f85b9ca9c01aad4f0ed6b044d415862f1a41e1768a2be22
+  - path: source/invisible ink/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: source/invisible ink/Dockerfile
+    algorithm: sha256
+    value: 26f85f9b4e0b84763e1b1dbbd63f8343be3384c954c345efd6a4dcc50d22ef18
+  - path: source/invisible ink/app/index.html
+    algorithm: sha256
+    value: 949069bc0d52f7077b496df8e342d84bf23ce2567957deef35bbe04eff9cc35f
+  - path: source/invisible ink/docker-compose.yml
+    algorithm: sha256
+    value: 7cc2ed54fe7471c4f4d1e80929ed382acc725eedb3aee781a3a961d7887f1bf8
+  - path: source/invisible ink/run.sh
+    algorithm: sha256
+    value: c78af6824cc0b759545046180eef16479d4bc484b64679d77c07263e149cadde
+licensing:
+  declared_license: MIT
+  copyright_holder: UKM Cyber Security ITS
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'invisible ink by thehxnz, UKM Cyber Security ITS (UCS), UKEX Micro CTF 2025.'
+  permission_reference: https://github.com/ucsits/ukex-micro-ctf/blob/ee555de6ad3b39e6e2823460d19437c4893b801c/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/invisible ink in ucsits/ukex-micro-ctf-2025
+  url: https://github.com/ucsits/ukex-micro-ctf/tree/ee555de6ad3b39e6e2823460d19437c4893b801c/web/invisible%20ink
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  A static html page served by php:8.2-apache whose only challenge content is a base64 value in a
+  visibility-hidden, zero-opacity element in app/index.html. docker-compose.yml exposes port 5004
+  and run.sh serves the directory with python3 -m http.server for local use. source/invisible ink/
+  also contains an empty .gitkeep placeholder, preserved as published.

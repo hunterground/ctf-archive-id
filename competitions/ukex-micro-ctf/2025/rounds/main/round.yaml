@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: main
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: onsite
+description: >-
+  Single-stage jeopardy challenge set run at the UCS booth during UKM Expo ITS 2025. The repository
+  publishes no qualifier, final, or division split.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 12
+  participant_count: null
+references:
+- title: ukex-micro-ctf-2025 challenge repository
+  url: https://github.com/ucsits/ukex-micro-ctf-2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Twelve challenges across crypto (4), forensic (4), and web (4). The repository has no stage
+  metadata, so the round id is main and the type is other. Delivery is onsite because the repository
+  says the set was run at the UCS booth inside UKM Expo ITS 2025, a campus orientation fair; the ITS
+  News report and the ITS academic calendar both place that fair on 18-21 August 2025, and the
+  repository commits fall inside that window. No challenge-specific schedule was published, so dates
+  are null. Challenge sequence numbers are alphabetical by source directory name inside each
+  category, because the repository does not state an official order. The repository LICENSE is
+  preserved in this directory.

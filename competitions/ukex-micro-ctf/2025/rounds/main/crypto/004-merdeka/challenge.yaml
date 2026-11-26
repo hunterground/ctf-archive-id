@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: ukex-micro-ctf-2025-main-crypto-004
+name: 'merdeka'
+slug: 004-merdeka
+original_name: null
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: 17 agustus tahun 45
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- transposition
+authors:
+- name: Etern1ty
+  team: null
+organization: null
+provenance:
+  archive_id: ukex-micro-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/ucsits/ukex-micro-ctf
+  commit: ee555de6ad3b39e6e2823460d19437c4893b801c
+  original_path: 'crypto/merdeka'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9391d2b64df2131ce411e589a930e38cc3de91350be5302877e95696f8284807
+  - path: release/README.md
+    algorithm: sha256
+    value: 496ef4457ecca290472453f2265cc51fdee7ae4e2905c5b8cd6c5d518d77df54
+  - path: release/enc_flag.txt
+    algorithm: sha256
+    value: 19323217c88648e7423da5113b5076062bd2bd19db1211d124974259fa691347
+  - path: release/test_input.txt
+    algorithm: sha256
+    value: cee24b99ed4600b36b35d489f5ff74670955ca9cd0fa36f5d5d1a52a3f690ad3
+  - path: release/test_output.txt
+    algorithm: sha256
+    value: e9e514ef28c3779659d4961f6db7d783745369f79e052c6e3cf1c26a3f1df7e8
+  - path: source/merdeka/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: UKM Cyber Security ITS
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'merdeka by Etern1ty, UKM Cyber Security ITS (UCS), UKEX Micro CTF 2025.'
+  permission_reference: https://github.com/ucsits/ukex-micro-ctf/blob/ee555de6ad3b39e6e2823460d19437c4893b801c/LICENSE
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: crypto/merdeka in ucsits/ukex-micro-ctf-2025
+  url: https://github.com/ucsits/ukex-micro-ctf/tree/ee555de6ad3b39e6e2823460d19437c4893b801c/crypto/merdeka
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  release/ ships README.md plus a plaintext/ciphertext pair (test_input.txt, test_output.txt) and
+  enc_flag.txt, which is the participant distribution. source/ contains only an empty .gitkeep
+  placeholder. The cipher is a columnar transposition: test_output.txt is test_input.txt rewritten
+  in a fixed column order, and enc_flag.txt applies the same permutation to a paragraph where the
+  flag characters are embedded in reverse order. The file is preserved unchanged and the embedded
+  flag is not copied into metadata.

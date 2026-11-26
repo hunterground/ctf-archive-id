@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: ukex-micro-ctf-2025-main-crypto-002
+name: 'is this crypto or rev'
+slug: 002-is-this-crypto-or-rev
+original_name: null
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: tinggal dikurangin
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- byte-shift
+authors:
+- name: mirai
+  team: null
+organization: null
+provenance:
+  archive_id: ukex-micro-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/ucsits/ukex-micro-ctf
+  commit: ee555de6ad3b39e6e2823460d19437c4893b801c
+  original_path: 'crypto/is this crypto or rev'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7b7e6e4302db59c3ee3d9910e8e0862ffb679b968be148ac41f43265135475e8
+  - path: poc/flag.enc
+    algorithm: sha256
+    value: 57f33dd2d2f86e0f233ff5e62698b8ed5948043cea714ade16de0298629b85c3
+  - path: release/chall.py
+    algorithm: sha256
+    value: 26060a5ffecabe7a703a63aff74d32f06b97bab73dc1dc65b96c97c898286d1f
+  - path: release/flag.enc
+    algorithm: sha256
+    value: 57f33dd2d2f86e0f233ff5e62698b8ed5948043cea714ade16de0298629b85c3
+  - path: source/chall.py
+    algorithm: sha256
+    value: 48b8880e267397e09a3137372065184054d36cdeaf515d9b4b3139f2658b7dde
+licensing:
+  declared_license: MIT
+  copyright_holder: UKM Cyber Security ITS
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'is this crypto or rev by mirai, UKM Cyber Security ITS (UCS), UKEX Micro CTF 2025.'
+  permission_reference: https://github.com/ucsits/ukex-micro-ctf/blob/ee555de6ad3b39e6e2823460d19437c4893b801c/LICENSE
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: crypto/is this crypto or rev in ucsits/ukex-micro-ctf-2025
+  url: https://github.com/ucsits/ukex-micro-ctf/tree/ee555de6ad3b39e6e2823460d19437c4893b801c/crypto/is%20this%20crypto%20or%20rev
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Category: Published under crypto and kept there even though the name and the decrypt step in
+  chall.py point at reverse engineering. Poc Directory: The repository README requires a poc/
+  directory per challenge, but poc/flag.enc here is byte-identical to release/flag.enc, a copy of
+  the participant attachment rather than a solver, so it stays in original/. Flag Exposure:
+  source/chall.py embeds the real flag while release/chall.py redacts it; both are preserved as
+  distributed and the flag is not copied into metadata.

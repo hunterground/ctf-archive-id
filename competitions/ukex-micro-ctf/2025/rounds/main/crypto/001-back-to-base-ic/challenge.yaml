@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: ukex-micro-ctf-2025-main-crypto-001
+name: 'Back to Base-ic'
+slug: 001-back-to-base-ic
+original_name: null
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: crypto
+description: >-
+  Lets get back to basic, shall we?
+
+  VlVOVGUyMWhjMkZyWDJGd1lWOW9ZWEpwWDJsdWFWOWphR1ZtUDE5aVlYTmxOalJmWkhWaFgydGhiR2xmWlc1amIyUmxYMk5vWldZdVgzZHZkMzA9
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- base64
+authors:
+- name: 0xhonque
+  team: null
+organization: null
+provenance:
+  archive_id: ukex-micro-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/ucsits/ukex-micro-ctf
+  commit: ee555de6ad3b39e6e2823460d19437c4893b801c
+  original_path: 'crypto/Back to Base-ic'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dff595b119dd1ce4dc91c902fb568806d3374ff366118d877825ab0664399927
+  - path: source/merdeka/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: UKM Cyber Security ITS
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Back to Base-ic by 0xhonque, UKM Cyber Security ITS (UCS), UKEX Micro CTF 2025.'
+  permission_reference: https://github.com/ucsits/ukex-micro-ctf/blob/ee555de6ad3b39e6e2823460d19437c4893b801c/LICENSE
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: crypto/Back to Base-ic in ucsits/ukex-micro-ctf-2025
+  url: https://github.com/ucsits/ukex-micro-ctf/tree/ee555de6ad3b39e6e2823460d19437c4893b801c/crypto/Back%20to%20Base-ic
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Name Discrepancy: The source directory is Back to Base-ic but its README heading says merdeka,
+  which is the name of the unrelated crypto/merdeka challenge by Etern1ty in the same repository.
+  The heading is a copy-paste leftover rather than a second title, so name records the directory
+  name and original_name stays null instead of claiming merdeka. Only a README and an empty source/
+  placeholder were published; the base64 prompt value in the README is reproduced verbatim.

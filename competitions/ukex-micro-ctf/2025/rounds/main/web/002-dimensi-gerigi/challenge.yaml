@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: ukex-micro-ctf-2025-main-web-002
+name: 'Dimensi Gerigi'
+slug: 002-dimensi-gerigi
+original_name: null
+competition_id: ukex-micro-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: web
+original_category: web
+description: Portal rahasia menuju dimensi GEREX 2025
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- cookie-tampering
+authors:
+- name: rootkids
+  team: null
+organization: null
+provenance:
+  archive_id: ukex-micro-ctf-2025-challenges
+  source_type: git
+  repository: https://github.com/ucsits/ukex-micro-ctf
+  commit: ee555de6ad3b39e6e2823460d19437c4893b801c
+  original_path: 'web/dimensi-gerigi'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 34ab600c25a5d01091afdeeab37614b93c1a7a793a03184e844e636bc45ee2a2
+  - path: source/dimensi-gerigi/Dockerfile
+    algorithm: sha256
+    value: 22f82938e9bd824a9dfc1111f2438fcfe0a42f44662f1e430d5e15e3c27ca09d
+  - path: source/dimensi-gerigi/app/index.php
+    algorithm: sha256
+    value: d925e22ce2d9296554f74e80eb0b876af2fddb02fc8b010a2eab10766e730110
+  - path: source/dimensi-gerigi/app/login.php
+    algorithm: sha256
+    value: a78793e62cde54d702f2808f49f52ac8caede5119921f3ec1397efd95109459c
+  - path: source/dimensi-gerigi/docker-compose.yaml
+    algorithm: sha256
+    value: 8ee1caa7864b5d1ef447584dd97ddf4937dde94a4d4615cca69560db4ce846e8
+  - path: source/dimensi-gerigi/run.sh
+    algorithm: sha256
+    value: bc3224c04ba166581eec8959a260f7321ba4cce11f46b22b7b7934336c7e5746
+licensing:
+  declared_license: MIT
+  copyright_holder: UKM Cyber Security ITS
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Dimensi Gerigi by rootkids, UKM Cyber Security ITS (UCS), UKEX Micro CTF 2025.'
+  permission_reference: https://github.com/ucsits/ukex-micro-ctf/blob/ee555de6ad3b39e6e2823460d19437c4893b801c/LICENSE
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: web/dimensi-gerigi in ucsits/ukex-micro-ctf-2025
+  url: https://github.com/ucsits/ukex-micro-ctf/tree/ee555de6ad3b39e6e2823460d19437c4893b801c/web/dimensi-gerigi
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The service ships a docker-compose.yaml exposing port 5002 and a run.sh that serves app/ with
+  php -S for local use; both are preserved. login.php hardcodes the credentials gerex2025 /
+  UCSisTHEbestUKM!!! and, on success, sets $_SESSION['loggedin'] plus a user cookie whose value is
+  SobatMahakarya. index.php then renders the flag only when that cookie equals Aro, so the
+  credential alone is not enough and the participant has to tamper the cookie value. Both the
+  credentials and the flag sit in the shipped source and are preserved there rather than copied
+  into metadata.
