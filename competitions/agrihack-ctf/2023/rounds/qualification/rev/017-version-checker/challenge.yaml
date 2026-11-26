@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-017
+name: Version Checker
+slug: 017-version-checker
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'So my friend just downloaded an application but its outdated, it says version v2.0 required to use the app but my friend is too lazy to update the app, he asked me to bypass the version checker. I just noticed that the application was coded with C#, it should be easy to reverse a C# based application, but sadly when i tried to reverse it, the application is obfuscated and i couldnt see what is actually going on, but i found a little hint, the code shown as pseudocode. Help me analyze the code and bypass the version checker.
+
+
+  ![](https://cdn.discordapp.com/attachments/1025767334901727363/1165904674818379796/image.png?ex=65488c57&is=65361757&hm=1190e3e9c8b6a5366b8cca04a756dd2ce7d8267274bfb621fde703d9a51eb522&)
+
+
+  Note: `matiin anti virusnya dulu, gak tau kenapa kedetek sebagai virus sehabis diobfuscate`'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/Version Checker
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Version Checker - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: BypassMe.zip
+    algorithm: sha256
+    value: 7cca8607a54505986bd88910538d19025f26b0683aaa2e0e7ac0ddd2cea68ca9
+  - path: challenge.yml
+    algorithm: sha256
+    value: 99a18dd4f681019ea1971d4266e45785b61d00d0d888ada13a44cad7a8b5b4bf
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

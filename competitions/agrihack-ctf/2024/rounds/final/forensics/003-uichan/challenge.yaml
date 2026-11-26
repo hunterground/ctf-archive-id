@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-final-forensics-003
+name: uichan
+slug: 003-uichan
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: foren
+description: lsb tapi bukan di lsb? terus apa pula itu biru-biru?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: bunyamin88
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: final/foren/uichan
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: uichan - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2d6ca9e642511a3ce2ad930fecde1432f70837589ed20524f13ce183474253c4
+  - path: challuichan.png
+    algorithm: sha256
+    value: e0b22c3b1e4df2ee6d0ea459df2e56a1a409a91bebab4ea3234f92d740830e2e
+  - path: flag.txt
+    algorithm: sha256
+    value: 6af616e47f8733fe4f4cf85ca5892dc60c4eb1e7cbf13a884d6c9f5bb001193b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Authorship is recovered from git commit authorship for this challenge (bunyamin88 <118448925+bunyamin88@users.noreply.github.com>); the source provides no challenge.yml author field and no README author line.

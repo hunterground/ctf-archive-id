@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-crypto-004
+name: their secret
+slug: 004-their-secret
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: "Diketahui bahwa Alice dan Bob sedang melakukan pertukaran rahasia menggunakan protokol Diffie-Hellman. Shared secret yang mereka miliki kemudian akan digunakan Alice sebagai key AES untuk meng-encrypt flag. \n\nKamu berhasil meng-intercept percakapan mereka dan dapat mengubah pesan yang mereka kirim sesuka hati. Bagaimana kamu bisa mendapatkan flagnya?"
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/cry/their-secret
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: their secret - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5583ef554ff7062249c424628bb4c6f92f489965714b7bf0613c60a2e8fe8bae
+  - path: README.md
+    algorithm: sha256
+    value: b6eff1c33a9a761479ca284f24186f71d4fd62f0444a71ec4b58584ebc9e7e0f
+  - path: challenge.yml
+    algorithm: sha256
+    value: ce0a1e2d7359ff30051c71a878e7bfdc55c59c4f9715130fd2f8a39d08aadbb2
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 04f73c132eea29ba922f34c5a9cfb3192f4f1e3d8d6e3046ac4a60bb61a2ebb5
+  - path: encrypt.py
+    algorithm: sha256
+    value: 76929f712419d835afc0ec11adf4b4686837216fee3f5b02ce81f28d900af243
+  - path: secret.py
+    algorithm: sha256
+    value: 7b2723a682d9e8050138e2c82d6d8f39ad8a4361331ea366bcc7276ed6630221
+  - path: server.py
+    algorithm: sha256
+    value: 55924b9e203aad81ffb4694f7361dd46cf1abcd14747d7146398ffbe98e9ccb3
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solve.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

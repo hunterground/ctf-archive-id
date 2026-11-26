@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-014
+name: Merry-Go
+slug: 014-merry-go
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: I swear i saved an image file, but why did it become a text file?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: glitchgoo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/Merry-Go
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Merry-Go - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Merry.txt
+    algorithm: sha256
+    value: de25880d17fab0ea8aaceb7ac0d82a5bee4403484d9a52a414034c7c64b87fde
+  - path: README.md
+    algorithm: sha256
+    value: b8833cef23d4e82a740cde219997486caf9e4203571a8f22e86dc2308c637306
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5ca04d6fff9bfc9d8192b28e4fb4767dd10a3b73d66180fd8239bb8262b29efd
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

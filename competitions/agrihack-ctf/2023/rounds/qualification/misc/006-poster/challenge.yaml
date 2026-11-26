@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-006
+name: poster
+slug: 006-poster
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: pembuat poster telah menyelipkan "sesuatu" di dalam poster agrihack. carilah apa yang dimaksud dengan "sesuatu" tersebut.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Burhanez
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/poster
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: poster - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: a0b23c5beff749bf9915f1e12079a75fa15d8d49ffd29fd71722c60fd70d861f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-007
+name: hiu kawat v2
+slug: 007-hiu-kawat-v2
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: You're the person in charge of managing the computer systems in the company. The boss starts to suspect that two employees are up to something fishy. The boss can't catch them messaging, but the suspicion is, they're swapping more than just words. The mystery grows when there’s a slight increase in network activity during break times. This suggests that the employees might be using a hidden method to communicate over the company’s network.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: kelapacuyy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/hiu kawat v2
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: hiu kawat v2 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 192cb8c05e209d0b09608842f9df3e4423ff7d8f000a1841ba93cdfe998445cb
+  - path: capt2.pcapng
+    algorithm: sha256
+    value: a0eff911161ebc94dd8ba64b4414ef87c0c2acafc2e368895b63e6a6f38221f8
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1e84f21c9d775f120a909c90f2f32c25fb0c70eee0f72f8f83ac44ae70e1966a
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

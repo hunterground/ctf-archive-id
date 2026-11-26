@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-006
+name: hiu kawat v1
+slug: 006-hiu-kawat-v1
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: Let's do network analysis! I’ve been capturing network packet data to see if anyone is careless enough to send their passwords over non-secure protocols.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: kelapacuyy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/hiu kawat v1
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: hiu kawat v1 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 387a342c220305794576199d44083c8f788f62d5672b08e23fc42957dce39de0
+  - path: capt1.pcapng
+    algorithm: sha256
+    value: f0206e0d23aa4036c7ebacfe68b80b74d3a2bf409866b92d57eace9e0a020039
+  - path: challenge.yml
+    algorithm: sha256
+    value: d4a87000c909d309a612c87cd1644d63ec6803ecc171fd2c4e0429c4c15aa2f3
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

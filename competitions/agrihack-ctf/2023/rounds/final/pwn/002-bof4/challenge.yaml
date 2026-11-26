@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-pwn-002
+name: bof4
+slug: 002-bof4
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: 'Nyimpen string 8 karakter di dalam buffer 8 byte cukup kan?
+
+  (cara pertama untuk ngeleak sesuatu)'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/pwn/bof4
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: bof4 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0673cc6450e1e52ebbe89e31aeccc5cf343534cab0b6f855f70177a6a079cf09
+  - path: challenge.yml
+    algorithm: sha256
+    value: d942df09b173e9343648736dd8aec919d4ebfb8eee059bcfa5753e49bac4d4df
+  - path: dist/bof4
+    algorithm: sha256
+    value: 3979870266604fd4f52685c72fe4913ae0ec8adac1343308fe5b2046b9219202
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 9bb19ee4d3a5bf3fe6dfd189c9c1451417f3d4664eaa50c16e6d41cc02786e22
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: ef94eb500964ba649c037578cd55ca8ee52502d3b3f958b5b21e96aea43002d8
+  - path: src/bof4
+    algorithm: sha256
+    value: 3979870266604fd4f52685c72fe4913ae0ec8adac1343308fe5b2046b9219202
+  - path: src/bof4.c
+    algorithm: sha256
+    value: ba355b05e13135702acc4125dcd8806013bb27fc1ebd39f3a7e4f07ffeac99ab
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d564b08286331b7c1cea340d43e021d134232c2ceea4b164549c7253f3a25930
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

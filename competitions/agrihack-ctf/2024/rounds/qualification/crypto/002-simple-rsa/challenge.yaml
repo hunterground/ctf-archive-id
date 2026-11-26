@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-qualification-crypto-002
+name: Simple RSA
+slug: 002-simple-rsa
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cry
+description: Cuma rsa biasa kok
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: qual/cry/Simple RSA
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Simple RSA - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5acb67c596f0798681b717da9c05da26191e80f6f6b90d3f5078029e6cf40e90
+  - path: chall.py
+    algorithm: sha256
+    value: db373dfdbbde1341237b8d3fb5216601fafec505aab8623e1a3d3615ff080a4d
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.
+
+
+  Authorship is recovered from git commit authorship for this challenge (asburg <159863484+asburg@users.noreply.github.com>); the source provides no challenge.yml author field and no README author line.'

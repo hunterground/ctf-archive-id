@@ -1,0 +1,127 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-002
+name: Bukan SQL
+slug: 002-bukansql
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Web Exploitation
+description: "I just created a website for one of my client RuneSoftwareDev, but before i launching it publicly, i found some vulneribility in the website. Can you help me to find out the flag? \n\nLink: [Source code of index.js](https://pastebin.com/raw/6ZQ1uvLG)"
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/BukanSQL
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Bukan SQL - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: BukanSQL/Dockerfile
+    algorithm: sha256
+    value: 735b775de6a0d56aca4a64bca5716a1cdc5ecebcf9eb45b7034d7733526448dc
+  - path: BukanSQL/docker-compose.yml
+    algorithm: sha256
+    value: 590d247978f63ba2eb62386d311fb2ca0eab6b9e88715f6456ba257a3b2395f4
+  - path: BukanSQL/package-lock.json
+    algorithm: sha256
+    value: 4760833e031ec281ee484f857205372da98b93f412a4f088d70db2ba3804bbfb
+  - path: BukanSQL/package.json
+    algorithm: sha256
+    value: 0d3d84bfc905bce48137a40b341553988f0396d557f7447589a3eddf979ea2f5
+  - path: BukanSQL/public/css/style.css
+    algorithm: sha256
+    value: fc8295a15ae5ccf674ac246cc64db93fdf631a408e1e515e8fa02cc56029382d
+  - path: BukanSQL/public/img/Rune-Interface.png
+    algorithm: sha256
+    value: 95d137900e4a42198d1d3f638540d524d20e33877f043456bf64fcde931e1472
+  - path: BukanSQL/public/img/Rune.png
+    algorithm: sha256
+    value: 836ac0de27810f85eb2f85bc20547cea8c62547f8e219560c67aac45cf6d44f1
+  - path: BukanSQL/public/img/logo.png
+    algorithm: sha256
+    value: 43cbf4783f1794145706f51f73af44fa508f75fb4e7fc15f57f079f0635be2eb
+  - path: BukanSQL/src/index.js
+    algorithm: sha256
+    value: 5edf9c6a24478d0ad47e122cd544eb86d0a91b60c31ccb6de13ea3452cac540d
+  - path: BukanSQL/src/input.css
+    algorithm: sha256
+    value: 02883064ccb90a30df25f421cc39e65e327058d40f655ee389e08e9e78b7f67e
+  - path: BukanSQL/src/mongodb.js
+    algorithm: sha256
+    value: 82a6895b9d7600aa46d9c32378216e42791c1ef29bd03259bf8012eef04bbe46
+  - path: BukanSQL/tailwind.config.js
+    algorithm: sha256
+    value: 22cac9a4f554c48f5da59b1afbc189d13721e2f06597e4ecfa980216b6118cdb
+  - path: BukanSQL/views/account-manager.ejs
+    algorithm: sha256
+    value: 37202d5476ae2a2280dbc85dd8b34d9abfb8d1600b005d725c4b91d2851c58dd
+  - path: BukanSQL/views/admin.ejs
+    algorithm: sha256
+    value: bf5c84a43d95f73d3cfafea7d63fd3ee2af1e13949917285624a6602700d47a7
+  - path: BukanSQL/views/dashboard-scripts.ejs
+    algorithm: sha256
+    value: de0e7ffeafa67936ac2932a93b8325999fb21658ed72f5aa1c92a25817ff6481
+  - path: BukanSQL/views/edit-script.ejs
+    algorithm: sha256
+    value: 0a03578b1a1f60ac400a79f4462eda368fdab582ab6aceb4f4e7cc9d2d303c52
+  - path: BukanSQL/views/edit-user.ejs
+    algorithm: sha256
+    value: 146f06721233cfc6c7289a5ac46d3d56019de7849e62ff82b7773674f65e4776
+  - path: BukanSQL/views/index.ejs
+    algorithm: sha256
+    value: b6d1ad3b47f01610ebb34c3ac94437a1102be597035f761fbe8e0f7295896318
+  - path: BukanSQL/views/login.ejs
+    algorithm: sha256
+    value: 51e312e032ca34878db36d72a23961133bb4f14f03bd5a473352e0792c951127
+  - path: BukanSQL/views/new-script.ejs
+    algorithm: sha256
+    value: 3cd14a1e043b03e44250211254a69d96ef2cbde2e24d00d7b7d91fc146bb7ab6
+  - path: BukanSQL/views/register.ejs
+    algorithm: sha256
+    value: 5d25db88cd8469bb39439aa068fe00e41a703c764c08607df47e8e3b9886c9a5
+  - path: BukanSQL/views/scripts-admin.ejs
+    algorithm: sha256
+    value: 875f8eaf90a42f905f19a9c5ea518a221ff4d6246f7c81a3ba20abd97af8b921
+  - path: BukanSQL/views/scripts.ejs
+    algorithm: sha256
+    value: 49f60122df7bab5db5adf2cd8228dca9281c7f8a7b932b3fb017651baeee57cc
+  - path: BukanSQL/views/user-scripts-edit.ejs
+    algorithm: sha256
+    value: bf2c3fca7b896e55b43cea3540b511a82b8afedd905d18b64e0e5fde0266e42b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 923c88bbb59460d010517df597c7652c0a8235899200a9ac36a8a413e55277b9
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: The source challenge.yml labels the category "Web Exploitation" even though the tree files the challenge under rev/. The archive follows the source tree placement (rev) and keeps the original label in original_category. The description also links a Pastebin copy of the server source.

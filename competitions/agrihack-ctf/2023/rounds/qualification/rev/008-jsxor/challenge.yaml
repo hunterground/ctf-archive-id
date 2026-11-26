@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-008
+name: jsxor
+slug: 008-jsxor
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: xor in JavaScript
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/jsxor
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: jsxor - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8c4d5f7d5f3b8024046c1bc285010afef0cb772a2f0566869a6223968edd9fa0
+  - path: chall/checker.js
+    algorithm: sha256
+    value: a5695a831312a72d44e6f5f804997decaf84cbdd29d1e7898efe092c24dee3e7
+  - path: chall/favicon.ico
+    algorithm: sha256
+    value: 33d6d9ae9a25e437f7b658b8c0955aa222bc091df7ed6adc8249897c3086cc5c
+  - path: chall/index.html
+    algorithm: sha256
+    value: 78d7a81b497192ba5df04d00888370b5e2e8f43d69de0c890d038e084ba0b8bb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7f7248dd189099da80c145ece746e63fa94b6a5529455a51b9221b0348cce13f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: da9fc806aef755b10cb55403ab795a7c6c47a89ece8d14e636785b0ea3822f55
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

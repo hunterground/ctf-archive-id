@@ -1,0 +1,53 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-qualification-misc-001
+name: email
+slug: 001-email
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: An email service challenge distributed as a bare zip archive. The archive member is named email-kompani and its README describes a mail-sending service with a filter that must be bypassed.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors: []
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: qual/misc/email.zip
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: email - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: email.zip
+    algorithm: sha256
+    value: 3ce4325e43d1e2185d9f8d6cf64bd72492427c535136702fcb22ebc8e0f48a31
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: needs_scope_review
+notes: 'The organizer repository ships a bare qual/misc/email.zip with no challenge.yml and no per-challenge directory, so there is no Agrihack title for it. The zip member is a HackToday 2023 challenge: its flag uses the hacktoday{} format and the same material is already archived at competitions/hacktoday-ctf/2023/rounds/final/misc/002-email-kompani. It is preserved here as an opaque zip exactly as distributed, and whether the organizer intended it as an Agrihack 0x09 challenge is unresolved.'

@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-005
+name: netcat
+slug: 005-netcat
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: 'Cuma nc dapat flag.
+
+
+  cara install     : sudo apt-get install netcat (ubuntu)
+
+
+  cara menggunakan : nc <ip> <port>'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/netcat
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: netcat - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 08c191210902a1a23c62661b17717caebb0ae5a43418803aa83fcea163ec76ab
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0bed028fe3b1c5eeefaded8c32f1898385645743184eca5616a5baac043115bd
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 58c523001306a5435211b26c376f322565df9d041343086ddd93d43f951e26e2
+  - path: server.py
+    algorithm: sha256
+    value: 535149538c9e7a5745728d452a7e67014f411d9aa78cd94a2240cab05c35cc90
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

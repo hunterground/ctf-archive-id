@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-forensics-001
+name: hiu kawat v3
+slug: 001-hiu-kawat-v3
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: An employee has reported that their laptop is not working properly. We’ve collected all possible evidence from the potentially affected laptop and noticed an abnormal amount of USB traffic. Can you figure out what information might have been exposed?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: kelapacuyy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/foren/hiu kawat v3
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: hiu kawat v3 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 10c318f27440a47abbd68a520b9a2d00290c564fad4a0aa0215ae842a5dc8642
+  - path: capt3.pcapng
+    algorithm: sha256
+    value: 6862a69dc49bc01f04ed6c0b2b652d7cf27d6677be563605071413faeeb1990c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5ea24f656aa5f34fe1023947a4b4465f7d0ba7b81a717be7d736858c7a300fa9
+  - path: out.txt
+    algorithm: sha256
+    value: 59ffc4c94d1437ed8173117e835a13ef92733ce1f61ebb8958d2a642f79d7e07
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

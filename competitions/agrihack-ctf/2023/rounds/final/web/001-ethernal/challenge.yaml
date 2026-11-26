@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-web-001
+name: Ethernal
+slug: 001-ethernal
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: 'A web challenge with two services: a PHP page that checks whether a supplied host or IP is reachable, and an internal Flask service that returns the flag. The PHP page blacklists 10.10, 10.10.0.5, 127.0.0.1 and 127.0, and the flag service sits on an internal Docker network address (10.10.0.5), so the blacklist has to be bypassed to reach it.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Naufal Ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/web/Ethernal
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Ethernal - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3697cac3083f19e94b3d4dc2b8036fed8adc410436b38fe9b85a8dd7b086e95f
+  - path: down.sh
+    algorithm: sha256
+    value: c0f28c68d633740980fba8459c4e575319458961379f50ba3280b7a0729773c9
+  - path: ethernal/Dockerfile
+    algorithm: sha256
+    value: 57a6394552aa5707ca8b8f24064d030e9c109d6eba1dec5a32d034ee610b155c
+  - path: ethernal/src/index.php
+    algorithm: sha256
+    value: e8b954e89870724d69ebc2408c7e1829820d4abea195de75c4bf9000c54fcaa4
+  - path: flag/Dockerfile
+    algorithm: sha256
+    value: 0fa8a3351a1847a48caf5f58b731d243f67af1aca12b281b4d117cdf266da9ec
+  - path: flag/src/app.py
+    algorithm: sha256
+    value: 91f25f0b7a17b13923a919e7c9efd65bc98200b695ac5baa1fa3bfa1bf0a69dd
+  - path: flag/src/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: run.sh
+    algorithm: sha256
+    value: 0089682dbdc43774f548b8ee11e1af4d3ad133d39e80b749428bc5d3e370c1ea
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Authorship is recovered from git commit authorship for this challenge (Naufal Ardhani <naufalardhani89@gmail.com>); the source provides no challenge.yml author field and no README author line.
+
+
+  The source provides no description for this challenge; the description here was written by the archive curator from the distributed files and is not organizer text.'

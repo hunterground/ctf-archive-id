@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-002
+name: babypng
+slug: 002-babypng
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: Let's explore the characteristics of a png image. They say png images consists of chunks. I wonder what the first and last chunks are.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/babypng
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: babypng - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 145fbe116ff4d0048a4c500453bd70d6c5c2c941adf877e171feabc0f9980ebe
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3f2efde21a3fcf80fa7bdfa5de6c0f6334f8d3484976c9043f8024e6affd9d9d
+  - path: dist/babypng.png
+    algorithm: sha256
+    value: 42e38fee5277fdcaaf22aa70cb69a83100cbbb198bc0bbe552b09cb3baf0f68f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: The distributed attachment was fetched from the challenge.yml Google Drive link https://drive.google.com/file/d/1NfP0YK8HYN_pRWjoWGjvGiPc52JOzL7O/view?usp=sharing on 2026-11-26 and its SHA-256 matched the archived copy.

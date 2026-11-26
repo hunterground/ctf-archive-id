@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-014
+name: MATSM
+slug: 014-matsm
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'I just learned x86 asm instruction, now i can do subtraction, addition, multiplication, and even bit shifting. this is my notes after taking the course
+
+
+  Read 101.txt for flag format'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/matsm
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: MATSM - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 101.txt
+    algorithm: sha256
+    value: d3942e96984f18352a6e9d71a45dfff66799fb53f80066cfb88fab8607ea8d41
+  - path: README.md
+    algorithm: sha256
+    value: 70e80cba678991a6fb11f0eed1c3b09acf34fa337f93790b08ed971d8b794818
+  - path: chall.asm
+    algorithm: sha256
+    value: e433f85739229339e8905340c3fdebb7aff52a03c26fcc0291cd00ec2a69f96b
+  - path: challenge.yml
+    algorithm: sha256
+    value: d467a9ca803156ef58aeb6a0dfa05d0a2040c8c1ccf378b3752459fdc3d90ddb
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

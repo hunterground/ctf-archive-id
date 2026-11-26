@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-final-crypto-001
+name: es campur
+slug: 001-es-campur
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: es campur > es teler
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: final/cry/es campur
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: es campur - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: bcfc3f75becdc422ecfc4744e17df73ffe5f8b4284e1fd65233f2defa57838ba
+  - path: README.md
+    algorithm: sha256
+    value: 93102a077db79a087c30561486c0f355e4d63e18953d2b38fba4c78e370fc234
+  - path: chall.py
+    algorithm: sha256
+    value: 2fb363502cfc2cb11524471e3812cd3089868871b6f4f4c11a8bac919e6974b8
+  - path: challenge.yml
+    algorithm: sha256
+    value: 49b3cc0f8e1ec27ad401172dbe664ac006a54deebfe2632567f850c1d542a422
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2aacc6ae9447149ba4d1accb018f0fc30c00622eb97ada8525b002ca65d8e21a
+  - path: flag.txt
+    algorithm: sha256
+    value: 1c4a12db07b934b4b3b6960c6bf8aaa3457433a862eacb0997fe916981182128
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-001
+name: Admin Suka Kueeeeh
+slug: 001-admin-suka-kueeeh
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'Aku baru aja belajar backend karena dosen ku menyuruh membuat sebuah web aplikasi maka saya membuat login system simpel.
+
+  Btw aku sangat suka kueh, kalian juga suka kueh? Kalo suka kueh, kalian bisa mendapatkan flag dari aku.'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/Admin Suka Kueeeh
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Admin Suka Kueeeeh - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: AdminSukaKueh/Dockerfile
+    algorithm: sha256
+    value: 735b775de6a0d56aca4a64bca5716a1cdc5ecebcf9eb45b7034d7733526448dc
+  - path: AdminSukaKueh/docker-compose.yml
+    algorithm: sha256
+    value: 06f1150a35f5a95f2b75143e8e2b4e622b4dae00f62197ec7e39ee66ee001557
+  - path: AdminSukaKueh/package-lock.json
+    algorithm: sha256
+    value: 7570bbc76d7d57e8a5bc63487933f59ee577193875e7194e1b75491197dd7d48
+  - path: AdminSukaKueh/package.json
+    algorithm: sha256
+    value: 449f2005cdffda37ff116911f2b8a92881ec1ba839d2652e90c8b690f61026bc
+  - path: AdminSukaKueh/public/stylesheets/style.css
+    algorithm: sha256
+    value: 50a8fb8650fdaa9b13e07781d5309949d8cfc6c16be87c03da6b046546537f58
+  - path: AdminSukaKueh/src/index.js
+    algorithm: sha256
+    value: 77bdada2117dea60f4f2e0aac859fef1a377c496c6e42871ace2dd94a4fed378
+  - path: AdminSukaKueh/src/mongodb.js
+    algorithm: sha256
+    value: 8e9df90424d97ebe4c1e3908244803452a91b88990b5e181b725b6a666e2a0a2
+  - path: AdminSukaKueh/views/index.ejs
+    algorithm: sha256
+    value: ecf3f527b73c93a2a0f743ec355235e1ec3860202651bcf596fd073f3ce07626
+  - path: AdminSukaKueh/views/login.ejs
+    algorithm: sha256
+    value: b8e20f84ffcaad425015ca1fec93aef3111d63d64e491bb2be5afddec1c42c2d
+  - path: AdminSukaKueh/views/register.ejs
+    algorithm: sha256
+    value: 961252af7a7fe8f217b78acb7be87d490daabe5a76cb02e186b17f77fb35f413
+  - path: challenge.yml
+    algorithm: sha256
+    value: bca8ce8fffce23ae2721f911d74aa6bdd72f7854e409b6e0b480b60b18337599
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

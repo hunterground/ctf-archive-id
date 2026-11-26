@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-009
+name: Mate Ui-chan
+slug: 009-mate-ui-chan
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: HhhWWwwaaawwh huhuhhuhuhu what happen to my ui-chan. i can't look at her picture anymore hwhaaaaaaawhwwwwww
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Burhanez
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/Mate Ui-chan
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Mate Ui-chan - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5c58c49f9c5e97d3de7c3ed428a27e58015c0c42e5158024dc3a2d3a30c335bb
+  - path: ui-chan
+    algorithm: sha256
+    value: 4c97c515ac04fa73f40c7d1b7acaa2a34b7ca149ad6b1a99c6d4ab829ddd7b6f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

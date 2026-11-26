@@ -1,0 +1,109 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-web-003
+name: SV-IPB
+slug: 003-sv-ipb
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: web
+description: 'A PHP web challenge built on an XXE vulnerability: process.php parses the raw request body with DOMDocument and LIBXML_NOENT | LIBXML_DTDLOAD, then echoes the parsed username. The distribution ships a PHP/Apache image, a small front-end, and an author solver that combines XXE with the expect:// wrapper to reach remote code execution.'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Naufal Ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/web/SV-IPB
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: SV-IPB - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f59465977bc1e8cc3f4724b3a7b2bccdebdaeeb931a872ce383f9a7cf2016e46
+  - path: Vagrantfile
+    algorithm: sha256
+    value: e5b206b937d4985b15c89523341e08fb41a3fdf2992bd5ad13beb3a03c7f8b6c
+  - path: agrihack/reference
+    algorithm: sha256
+    value: 272ed54955927cf2c5ef54901a0e5b3c5a67f03084befc871ef052e0b1e2a5d3
+  - path: agrihack/request_rceeee
+    algorithm: sha256
+    value: 2ec0bbad95aef12e1c3f1da01b324f1dd442d528930c1b15bedf011c36c1850b
+  - path: agrihack/response_rceee
+    algorithm: sha256
+    value: 02890c418781800f769e756c929fdf4a19fd27d0a3f9d8bec127cf29bdf77d2e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 57928f1273daf52335c8041c755a07249c7548fed2ba9e9b9c76786770968770
+  - path: flag
+    algorithm: sha256
+    value: f5910c4055d38c84e720a916d72e2c82aca36b88e8a8b6ab48f397ebecf4e542
+  - path: httpd-foreground
+    algorithm: sha256
+    value: c197f2b57bbfc4406a8b5c54f4a8a964d78fb4ae73b0859a3c2cac15ca2c4960
+  - path: src/css/style.css
+    algorithm: sha256
+    value: b75820101cd0be108f084d1b64d7f6f205069acd12053bde65598bf7a965379d
+  - path: src/img/createAccountButton.png
+    algorithm: sha256
+    value: d7601c07804dae89613edeef7e52403bc9a798b62a2b547e9e973cd93323b08d
+  - path: src/img/inputSprite.png
+    algorithm: sha256
+    value: bbd61ad1f31c4bd9050037fee90aa3f0920750f1597bc52fe7fd6ecdac5ff6d5
+  - path: src/img/logo.png
+    algorithm: sha256
+    value: 3965208a4ea93872a23d06697d958fc030c7ebb2dfdbf37f4a6a936a48054770
+  - path: src/index.html
+    algorithm: sha256
+    value: 1d65dc7dec0b9fe44ed8e3c30a3c2956cb703b2e90a145dcc927f9acaa885b9e
+  - path: src/js/jquery.min.js
+    algorithm: sha256
+    value: 2cec78f739fbddfed852cd7934d2530e7cc4c8f14b38673b03ba5fb880ad4cc7
+  - path: src/process.php
+    algorithm: sha256
+    value: 2b634ac5aa3a854a9e17a5e9008c5de9e9f0fbebc0dbb4d0a7c928ccd6454ad6
+  - path: xxe_shell.py
+    algorithm: sha256
+    value: 309fa01edff676870c00d35c2925d615c50a58dd20a6671da09db4846c9a9624
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Byte-identical to the SV-IPB directory published in the 2024 organizer repository, apart from .DS_Store files. xxe_shell.py and agrihack/request_rceeee / agrihack/response_rceee are author exploit tooling and captured traffic rather than release artefacts; their names do not match the archive solver-file rule, so they are preserved in original/ and flagged here for review.
+
+
+  Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.
+
+
+  Authorship is recovered from git commit authorship for this challenge (Naufal Ardhani <naufalardhani89@gmail.com>); the source provides no challenge.yml author field and no README author line.
+
+
+  The source provides no description for this challenge; the description here was written by the archive curator from the distributed files and is not organizer text.'

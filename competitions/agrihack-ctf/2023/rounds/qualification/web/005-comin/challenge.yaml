@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-005
+name: comin
+slug: 005-comin
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: is it safe to ping your ip?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/comin
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: comin - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c4a56655d1c57cb1e992835cb67776442e002f781d562b348c830fcd24ef7448
+  - path: Readme.md
+    algorithm: sha256
+    value: 6ed59a92dd0bcac732a08b573df8da94edb255f9e952feb87b6393f4deae971b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 48b9c3237c1a6a51c2554563a2315d483f8ff165bce1f75d797fe74d523aad13
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0675a9b19f116a4e332317d8cf96e182e847a2b91a88397253b96445be46035f
+  - path: flag
+    algorithm: sha256
+    value: cd94a224d1b13101365875683f4855504f98b587e947904ff68b13ede3c709a2
+  - path: src/index.php
+    algorithm: sha256
+    value: d39078c629d07b21ce5d593ed64849f2fef0c202d3d66c092fcd2c1a50350697
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

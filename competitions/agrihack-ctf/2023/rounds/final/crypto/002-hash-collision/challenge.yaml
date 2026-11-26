@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-crypto-002
+name: 'Hash: Collision'
+slug: 002-hash-collision
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: Aku baru saja membuat sebuah aplikasi yang akan memberikan flag pada user selama user itu telah terdaftar dalam sistem. Di sini aku berikan saja database username dan password mereka hehe. Selama sudah di-hash, password mereka akan aman... kan?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/cry/hash-collision
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Hash: Collision - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.'
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 63be74aa57f324f9300cacae083ead3357ecff68f91c82832b93e131a4d3f4f5
+  - path: README.md
+    algorithm: sha256
+    value: 7e294bbda4ee77415bd2be0edab34d411ba87e18ad25af9b64fb0a0bd3e63362
+  - path: challenge.yml
+    algorithm: sha256
+    value: e2960488537b12405728a5749484c928445ec0af904d05fefd8a57c5d696c078
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: d1bfa4a7b7e024b19f8d977c5d41a6eb44de4b27e8cf0af2fd067b0cdd5c7fe4
+  - path: secret.py
+    algorithm: sha256
+    value: 44b92ee27603178304ddbb7cd308579743c768e824118822164417212491052d
+  - path: server.py
+    algorithm: sha256
+    value: 33995420abe05b5c7de97f5f06cf8d4f3927cb2d4320619a38bef96a3e551c46
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solve.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

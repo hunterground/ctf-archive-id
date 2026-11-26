@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-012
+name: Mate Ui-chan 4
+slug: 012-mate-ui-chan-4
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: the way she stare me DOWN make my spine chill
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Burhanez
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/Mate Ui-chan 4
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Mate Ui-chan 4 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1g7qexGRGtHgAQeN2MvKijsMBywWTTNwA/view?usp=sharing
+    reason: Attachment is hosted on Google Drive instead of the repository. The link answered HTTP 200 on 2026-11-26 and was not downloaded, so the file is not yet part of this archive.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4ad58eab50dc81ddbf9dd75d9dbba2009fe3444829dea477f8e878ccea6fd363
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-012
+name: time to sleep
+slug: 012-time-to-sleep
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'import request if its time to turu then give me flag
+
+  <br>
+
+  Reff: https://requests.readthedocs.io/en/latest/'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: arai
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/time_to_sleep
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: time to sleep - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: release_peserta.php
+    reason: The source challenge.yml lists ./release_peserta.php as a distributed file, but that name is absent from the repository. The repository ships release_index.php instead, which was copied verbatim under its own name.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 833965f18b90b3cdd89ad18aa211e454e05c48df35259dcf695a546e2e26b338
+  - path: README.md
+    algorithm: sha256
+    value: a4eadcca85e4a6b34417aa20877582e56f25a6c0663903e47f2c3a65167138d6
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3afafd6afecea3c2cf114def7b2e482a68f03948042835010cbfaa2e87f7efb7
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: e2c676dac3efc65435a9a5a481ba334d9626669cda3d2350aaec0dee3b4fe40a
+  - path: release_index.php
+    algorithm: sha256
+    value: 65536e1584636b363bf4b4f00e13c5af94948b368be79034597a5ebd2139eb95
+  - path: src/index.php
+    algorithm: sha256
+    value: 65536e1584636b363bf4b4f00e13c5af94948b368be79034597a5ebd2139eb95
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

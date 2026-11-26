@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-008
+name: Loginspek
+slug: 008-loginspek
+original_name: Version Checker
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'Mr. **Robot** trying to get his revenge to a hacker website and need to login as an admin, but seems like there is no backend? well we dont know. Thats why Mr. **Robot** asked John the **Inspector** to help him to get the flag.
+
+
+  Link: [link to the site](https://loginspek.netlify.app/)'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/Loginspek
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Loginspek - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 069b4e6cef35cc1f4850dec33478643f8a7e5eb6fb84903b68b1bf85c1638449
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'The source challenge.yml sets name: "Version Checker", which duplicates the reverse-engineering challenge of the same name and is a copy-paste error: the source directory, the description and the linked site are all Loginspek. The archive records the display name as Loginspek and the source spelling in original_name. Only challenge.yml is distributed; the challenge itself was a static site at loginspek.netlify.app, now no longer part of the repository. The flag is published in challenge.yml.'

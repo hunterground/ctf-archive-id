@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-011
+name: ssti1
+slug: 011-ssti1
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: rceeeeeeeeeeee
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/ssti1
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: ssti1 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f8c9f8516edc5aea4039d81eca9ef10a690426a30ffeef9c77058299c4ad5188
+  - path: challenge.yml
+    algorithm: sha256
+    value: b8b442d323563faefa2ad35515f82cbbffc775a7b1c7161e476b3d25e66a4288
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 73e86aa963badf85de857ecdafda258bf24b8d2fc10d5783085f4074381331aa
+  - path: flag
+    algorithm: sha256
+    value: 48cfa53dc0b76f5a5782c865e92fc54a93afc1191ca570c0e1e404ff657a2eb4
+  - path: src/app.py
+    algorithm: sha256
+    value: a8b0543c8496fdac0dbeb89df82f4b650ea313fec4f8db9143033fcc47bd354d
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: fcfcddb4613dcec546202d85cf6fe7860d4a3d03c7600ded4c9c2397d82e3f56
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

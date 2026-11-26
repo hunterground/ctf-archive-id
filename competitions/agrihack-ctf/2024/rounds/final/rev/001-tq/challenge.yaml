@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-final-rev-001
+name: TQ
+slug: 001-tq
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: rev
+original_category: rev
+description: Tzursa sering lupa, jadi ia membuat apps ini untuk mempermudah hidupnya
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Anro-128
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: final/rev/TQ
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: TQ - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: TQ.apk
+    algorithm: sha256
+    value: 9f6bfce6834545684abc1d1bd5dfd21c7030c0260c27119178d8043c51e211fb
+  - path: readme.md
+    algorithm: sha256
+    value: cc480e98acdd3ceddb6e413575333dccfe3366034173d0ab70641c5309d3cc17
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Authorship is recovered from git commit authorship for this challenge (Anro-128 <syaratugas21@gmail.com>); the source provides no challenge.yml author field and no README author line.

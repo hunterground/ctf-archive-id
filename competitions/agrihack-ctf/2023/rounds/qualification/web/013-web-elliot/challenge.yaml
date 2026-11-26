@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-013
+name: web_elliot
+slug: 013-web-elliot
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: web
+description: A static web challenge on an nginx image whose index page presents a Mr. Robot theme. The distribution includes robots.txt, which disallows a single hashed HTML filename that contains the flag.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: UnoArroefy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/web_elliot
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: web_elliot - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: aaeb69ab0d955900f84237d2cee76425991355ae87f943ff8188bef407b1990f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: a0a5d8c9432bbad0940460dff43c7a956bd494c088e3028658f5fb5a5c0719b5
+  - path: src/3cfe9d1883c5819dd5fdcc3c57fa7a892db0c56c.html
+    algorithm: sha256
+    value: 97c70c8e5656c56b9f6b490e3f3fd35285b3aa7e1b7501f397b5d19b09473728
+  - path: src/index.html
+    algorithm: sha256
+    value: 2788f6514bfc7770e9badf091233aec30bbc7204ac937981faa497bcaf8a3de2
+  - path: src/robots.txt
+    algorithm: sha256
+    value: 6f2b4744a9d6d33dc30532c0694304a1e6d6c5ef431c46d6ae9a67d8d2f9a02b
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Authorship is recovered from git commit authorship for this challenge (UnoArroefy <numroua@gmail.com>); the source provides no challenge.yml author field and no README author line.
+
+
+  The source provides no description for this challenge; the description here was written by the archive curator from the distributed files and is not organizer text.'

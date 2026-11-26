@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-006
+name: Final Boss 2
+slug: 006-final-boss-2
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: "Welcome to the \"The Final Boss 2\" challenge, an epic encounter where you, \nthe valiant player, face off against a formidable adversary in an intense battle \nfor victory. Armed with limited ammunition and a courageous spirit, you must engage \nin a life-or-death struggle against the Boss who threatens the land. Defeating this \nBoss will earn you the coveted flag and, of course, eternal glory. Defeat the boss\nwith your gun and your brain."
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/Final Boss 2
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Final Boss 2 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: FinalBoss2.exe
+    algorithm: sha256
+    value: 0191e0b358ede5b4f99889fd3c51da66222e46bf476ebbd7e3afa5a646c280a9
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4e2c4e705892011f107b79ef09cd0c05c0d112019dee6fc7f1685e3f335adff9
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

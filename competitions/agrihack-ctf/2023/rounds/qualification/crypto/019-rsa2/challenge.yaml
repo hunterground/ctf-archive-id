@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-019
+name: RSA2
+slug: 019-rsa2
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: "Kamu adalah seorang idola. Sebagai idola di kirimi pesan oleh banyak fans sudah menjadi hal biasa. \nPara fans selalu mengirim pesan lebih dari sekali sehingga membuatmu kesal. \nSialnya lagi hari ini kamu mendapat kabar buruk bahwa pacarmu sedang diculik.\nPenculik akan mengirimkan pesan lewat \"pesan para penggemar\" dimana para fans juga mengirim pesan kepadamu. \nCarilah nama orang yang menculik lewat \"pesan para penggemar\". \n\nFlag Format: agrihack{nama_penculik}"
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: bimskuy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/RSA2
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: RSA2 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 037cf4bf772a1610f3ef98b7fb6f1ac735236289449556561a367a5c4509c059
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9ebdaddcae9b651783f68bd52079947e1a8ad240d4df826e7cfae7aa8126af53
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4a3a96062e0843e6705dee019b114aba3268688e8f3283c78e7d00fe304b8366
+  - path: fans.txt
+    algorithm: sha256
+    value: 0b98a1370f262c5ff2de631848ddfc7ed06ad4880c5bbecf75cc4dcc4666aa90
+  - path: penculik.txt
+    algorithm: sha256
+    value: 32d5b3deae2ac6696c17357d57b528e18f9d2014276bf98ff02fde5728e014e8
+  - path: server.py
+    algorithm: sha256
+    value: 0591b8d6ac60b2f1cd3ba2928e3629eef0a018c927cd30233fa19a9c0da3f061
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

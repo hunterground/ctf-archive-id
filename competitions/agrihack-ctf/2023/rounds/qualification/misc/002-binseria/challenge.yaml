@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-002
+name: binseria
+slug: 002-binseria
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: 'bin bin apa yang bersinar?? bintang
+
+
+  flag adalah hadiah dari mode easy'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/binseria
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: binseria - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 08c191210902a1a23c62661b17717caebb0ae5a43418803aa83fcea163ec76ab
+  - path: challenge.yml
+    algorithm: sha256
+    value: fc23eb98e2daa9d0750e5c4e789d5ad0aab601efd2fbd127e9367d1fe7d4449f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: db1e712d45174ebef77704457cd2e8008310459bb3ecdbd4eb9ff17a2117d9fd
+  - path: server.py
+    algorithm: sha256
+    value: 1979aa13964b4b71e8c77ad5a8c6e6907433eb565a09623a0480ec3ce4c0a4d2
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-002
+name: agriinformatics
+slug: 002-agriinformatics
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: injeksi
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/agriinformatics
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: agriinformatics - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: f7e7d8de15f99da7d59ecf54527c353ddba5ce279fb8850ed7f927e18ae8f006
+  - path: agriinformatics.zip
+    algorithm: sha256
+    value: 141e57a96b6f0de8c8d8cb0b5659debbddf71d15bca765280a4b79a7ae3b0661
+  - path: app.py
+    algorithm: sha256
+    value: 71b230d9a1b7089939ecb02e2bbfd85d876bbaf7113dd1c93b90ca8869ef2f3a
+  - path: challenge.yml
+    algorithm: sha256
+    value: 060131c3b6476ae60fa2edf21cfa81254450b11e6169e020df6f211bea3d319c
+  - path: database.db
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 107714aa836683df71f462f7c08395ec4bcc2aaa942961dcf36f7615de141382
+  - path: init_db.py
+    algorithm: sha256
+    value: 38933245839fe8b1b5519b258ea392efcf0ed7041fed7d381f40fec9e4248bf4
+  - path: templates/index.html
+    algorithm: sha256
+    value: 84fbff80c5467dd0c2539fae5c04c367ebdf7da22ccb01804bfeb863bbfac256
+  - path: uwsgi.ini
+    algorithm: sha256
+    value: 767952172cd5f683c326865e2c661079ee472bf79d4b88934b7bf70c0112781e
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

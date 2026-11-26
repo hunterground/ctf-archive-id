@@ -1,0 +1,35 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Mate Ui-chan 4"
+author: "Burhanez"
+category: Forensic
+description: |
+    **Author**: `Burhanez`
+
+    the way she stare me DOWN make my spine chill
+value: 0
+type: dynamic
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: https://drive.google.com/file/d/1g7qexGRGtHgAQeN2MvKijsMBywWTTNwA/view?usp=sharing
+
+# Flags specify answers that your challenge use. You should generally provide
+# at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries
+flags:
+    - agrihack{H3ighT_M0d1FicaTi0n_W1th_H3X}
+
+# The state of the challenge.
+# This is visible by default. It takes two values: hidden, visible.
+state: hidden
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+version: "0.1"

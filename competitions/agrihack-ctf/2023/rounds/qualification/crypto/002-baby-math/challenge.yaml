@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-002
+name: Baby Math
+slug: 002-baby-math
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'Saya membuat algoritma kombinasi beberapa encoding, apakah kalian bisa membuatkan saya sebuah script untuk mendecode flag nya?
+
+  Pahami algoritmanya dan buatkan script untuk mengembalikan flag menjadi semula. Flag berada di output.txt, saya harap anda tidak menggunakan AI untuk
+
+  menyelesaikan soal ini, biar lebih menantang dan bisa menambah ilmu kalian. Nanti saat bikin solvernya untuk mendapatkan flagnya
+
+  hasil decode nya harus lowercase, bisa menggunakan fungsi lower() pada python.'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/Baby Math
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Baby Math - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: 05ced247b12d9a87aee0be3d9ee2216e7147922318f0ba0580cc01bf2c7773b0
+  - path: challenge.yml
+    algorithm: sha256
+    value: b4246fe5daa186578a7364235910befe95e07a39fb53a44f9718437ef806485f
+  - path: output.txt
+    algorithm: sha256
+    value: 8b1864452270939da9806efa8e258b99f8395b0db8bf11e668439949823bb85e
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

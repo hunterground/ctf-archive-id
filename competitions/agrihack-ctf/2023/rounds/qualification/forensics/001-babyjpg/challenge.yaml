@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-001
+name: babyjpg
+slug: 001-babyjpg
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: Let's explore the characteristics of a jpg image. I wonder how I can change the size of this image.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/babyjpg
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: babyjpg - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 10c9d1fb7cfb899dd501c4a561dd846e39e0a9ecc32bde597b0bc445abd75ec8
+  - path: challenge.yml
+    algorithm: sha256
+    value: dbf5207ca23384e7dfb358b4a36f08c7842b8de386a0d00ac5b6dcd6aa28486a
+  - path: dist/babyjpg.jpg
+    algorithm: sha256
+    value: 047c628e92037d53bf431989a4c48f25de044b6ba8ef4ab9e1e7a4c2fe1d7cec
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

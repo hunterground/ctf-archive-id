@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-pwn-004
+name: bof2
+slug: 004-bof2
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: no more input more than the buffer size
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/pwn/bof2
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: bof2 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 46550ec30fbd5fc181e154a58332c7120a18a358563b1e87c23121aaf111a711
+  - path: bof2
+    algorithm: sha256
+    value: f147021b84ff670be6cb023668f25ad83483b4759000b5bd2906bb270b891f78
+  - path: challenge.yml
+    algorithm: sha256
+    value: 03e05b7a39bf8787ea9fc03ef887ec9a9d7e8847a0054e793a894ef161844ed3
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 69e4f3733a9eb465894b8eda1d3c03fd7f652e9088aac6117acc245b34211707
+  - path: flag.txt
+    algorithm: sha256
+    value: 3047b2fcd6350ee2b1dcb5f72d3f6099fc1a7123017be2f95ff1433415822859
+  - path: main.c
+    algorithm: sha256
+    value: afa7ca680560d14f7eb79fefa621af48de9a13c826cc22ee8c7e8694e9ada057
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (.gdb_history) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-forensics-003
+name: Zantos Attack
+slug: 003-zantos-attack
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: 'Lord Zantos adalah seorang hacker handal, suatu hari dia mencoba meretas komputerku dan meninggalkan beberapa jejak. Untungnya aku berhasil mendump memory komputerku sebelum benar-benar diambil alih olehnya. Bantu aku menemukan file yang dia taruh di komputerku.
+
+  P.S. sepertinya dia melakukan aksinya melalui command prompt
+
+  password attachment = pliskerjainsoalini'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: kelapacuyy
+  team: null
+- name: glitchgoo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/foren/Zantos Attack
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Zantos Attack - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://filetransfer.io/data-package/NPIjFz3U#link
+    reason: Attachment is hosted on filetransfer.io. The link returned HTTP 410 (expired) on 2026-11-26, so the file is no longer retrievable from the source.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d9f268ece13467c18011be12caf5533c379ff6888da460432a4d93350ebda23c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 21e119568652c804b253a6b0744fad12e3903ac26e7bf65f76d88e4635d412ec
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

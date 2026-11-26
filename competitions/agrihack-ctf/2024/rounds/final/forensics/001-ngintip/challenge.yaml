@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-final-forensics-001
+name: ngintip
+slug: 001-ngintip
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: foren
+description: pengen tau dia gambar apa, tapi gak dibolehin. jadi entah gimana saya bisa extract dump memory nya. terus gimana sekarang?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: bunyamin88
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: final/foren/ngintip
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: ngintip - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1aqZuvMQUKltFcEbi7WLUz2_yTS_6wrG8/view?usp=sharing
+    reason: Attachment is hosted on Google Drive instead of the repository. It is a roughly 263 MB zip holding a single 2 GiB chall/chall.raw memory image. A probe download on 2026-11-27 was incomplete (2,025,127,936 of 2,147,483,648 bytes extracted, so the archive is truncated), it was therefore not added, and the full attachment remains to be downloaded and verified.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 593c5c251f18098b65742ab4534c01c76b821accdae4cd183762509aacc132ff
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Authorship is recovered from git commit authorship for this challenge (bunyamin88 <118448925+bunyamin88@users.noreply.github.com>); the source provides no challenge.yml author field and no README author line.
+
+
+  The attachment was never in the repository; the directory holds only this README. The Google Drive package is a roughly 263 MB zip containing a 2 GiB chall/chall.raw memory image, so the challenge is a memory-forensics task. A probe download on 2026-11-27 did not complete, so the file is not included.'

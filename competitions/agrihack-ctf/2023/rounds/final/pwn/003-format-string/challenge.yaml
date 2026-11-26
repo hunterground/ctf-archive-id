@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-pwn-003
+name: format string
+slug: 003-format-string
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: 'Pernah dengar format string vulnerability?
+
+  (cara ke-2 untuk ngeleak sesuatu)'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/pwn/format string
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: format string - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cf75c951d0611e12e4d074a8467a371d77891bacd693cfcad65fde3dda08b0e0
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6be79df6299f2e9e2a56bb46fdfce6962d205443d993f103f9b59ab1d4048c88
+  - path: dist/format_string
+    algorithm: sha256
+    value: 6dbfd239e07f846426dcb99754b6142524f27f54bf9af1aee7f0a9a0799ff8e5
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 3d245a31eb6e6ef96becba6e7c65ed4e44d3e2f64a5b246e4608cb4048c4538f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1b80e4ad58f3f335d8050f76cce2be9d3c1c8b235294f19b5bb72397f7942a67
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 28b45a8a5af543f80bc60743a764336ae87c61a9a4147da88da9138cd9a9bd55
+  - path: src/format_string
+    algorithm: sha256
+    value: 6dbfd239e07f846426dcb99754b6142524f27f54bf9af1aee7f0a9a0799ff8e5
+  - path: src/format_string.c
+    algorithm: sha256
+    value: 11e53f9d1b1ff9e5f5900a6b7794a0f260a61f8f57586b772fc57866b46d4a57
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-rev-003
+name: Rustono machine
+slug: 003-rustono-machine
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: rev
+description: A reverse-engineering challenge built around a compiled Rust binary (main) released together with its Rust source (main.rs). The source README records only the flag and no description.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: UnoArroefy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/rev/rustono-machine
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Rustono machine - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: dfdabf47dd322afb3022852bec3d93a9f453c7095630ef0de83f624f22f6365b
+  - path: main
+    algorithm: sha256
+    value: d44d9eaecb6b98380865174504e133cfaa349ac3239eeaa065744325cda9df75
+  - path: main.rs
+    algorithm: sha256
+    value: 4c398fdc0da3460688af132893d129a6d7f101ed2eb9b21241f266b7935f6940
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Authorship is recovered from git commit authorship for this challenge (UnoArroefy <numroua@gmail.com>); the source provides no challenge.yml author field and no README author line.
+
+
+  The source provides no description for this challenge; the description here was written by the archive curator from the distributed files and is not organizer text.'

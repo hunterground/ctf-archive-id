@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-007
+name: invertir el cifrado
+slug: 007-invertir-el-cifrado
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: wrap the secret string you found with flag format agrihack{<String Uppercase>}
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/invertir el cifrado
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: invertir el cifrado - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall
+    algorithm: sha256
+    value: 99c809b8e0fc6310a0429edeee3fdd54abd36a6b4d2cb1f504704e64d0585297
+  - path: challenge.yml
+    algorithm: sha256
+    value: d1d1d8d80bc2de807756733713811136004f07cf96f3b8761a6c7fc4a0522f91
+  - path: main.c
+    algorithm: sha256
+    value: b765b291e76e4ae6f1352532d69cebf164ea79018b4280bc507eada7dbe16e5b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (.gdb_history) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

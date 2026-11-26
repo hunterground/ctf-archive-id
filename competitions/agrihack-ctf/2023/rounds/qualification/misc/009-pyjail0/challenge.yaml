@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-009
+name: pyjail0
+slug: 009-pyjail0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: pyjail series
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/pyjail0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pyjail0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7af18a75b747b088bb57f5d82538debb6594bb242e18200493b083142c5589d9
+  - path: chall.py
+    algorithm: sha256
+    value: d5f83619127d6a0bd92e225a8930005555720bc40cf1d76f89ed7f725636326d
+  - path: challenge.yml
+    algorithm: sha256
+    value: dcdfb188fd5339ce01ebd425bab20c8659e768f1d46d7b8ee6519d5d021e60e1
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 62e4e68f26e51b30d6db22543b29e986ec1c3bc5dae387da27f151b85d267234
+  - path: flag.txt
+    algorithm: sha256
+    value: edc1f12a879af8a28d9e9d0369ab0534d443266a4f66325e60a68d2013e3a9f4
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

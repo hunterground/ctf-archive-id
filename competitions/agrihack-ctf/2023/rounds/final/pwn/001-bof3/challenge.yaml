@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-pwn-001
+name: bof3
+slug: 001-bof3
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: Overflow dikit ga ngaruh. Lu gabakalan bisa nebak bytes randomku xixixi.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/pwn/bof3
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: bof3 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 50284e1be36a25077d7cc89cf3e4f8e5e850ce362fd33dbf165951b4b6a3cf5c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 32e81172cb512a7199681827ff13ffd434a85f3429a4dd88343844c08244cbe6
+  - path: dist/bof3
+    algorithm: sha256
+    value: 9cd40c6aaefa85850531dc030f996ab6b8856c6bb1d67656079019c1ead4dea8
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 0038f581ecbd24f00d47885b6ced3f532b328059fba4afd52c5c4d71acb71be9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6c83dc24590f3bc3a8d42efd7f9335b5db7b1e2a84a99bb2e1bc95d75c8c8e75
+  - path: src/bof3
+    algorithm: sha256
+    value: 9cd40c6aaefa85850531dc030f996ab6b8856c6bb1d67656079019c1ead4dea8
+  - path: src/bof3.c
+    algorithm: sha256
+    value: 59e1cfc9032b0cf7f2fe06e2a7687ecd3126701de2a132756c8aea9fd0647a79
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 829297f781af046329e16ef2b29b969258fdeea68bd6b261e4d73955083633c4
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-007
+name: pwntools0
+slug: 007-pwntools0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: Series Belajar Pwntools
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/pwntools0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pwntools0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 10b395be7fe0a9de0812013e97e5b75b9aa4f7ed2bed429b8bda563d7f9921c7
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6db8715c7a8c5937b4ddf11c8447ec8e3305e75b90488c62f18a18c7e8d8491f
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 8367b2961b8a1a07d8d4338d5ceea9cb1c21e88d58cef1cdb3adbca1144c7444
+  - path: server.py
+    algorithm: sha256
+    value: 0d861ceec702a2eb79825b961207dccece914c6498c252d8d1da628f892283b7
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (sol.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

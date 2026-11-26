@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-pwn-003
+name: bof1
+slug: 003-bof1
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: what bof can do??
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/pwn/bof1
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: bof1 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: a1153e787af65e86fad15df7bae6ca61b65268729be3816b6cdba39b2a74c596
+  - path: bof1
+    algorithm: sha256
+    value: 922edda9390bd96da0764574f9812ac7b5f074c55db0ce630fddff2a57ad5d82
+  - path: challenge.yml
+    algorithm: sha256
+    value: 76c2beac6be4a7c6e654616542b7889f926dad7b0151081733cdfd8b2a319d8b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 32bf25006d731d60cb364f0e9e10eb5fa8f4fcf4d689f0caca3955580e2abfdf
+  - path: flag.txt
+    algorithm: sha256
+    value: f9d28d27ab8908969dc0587441603fda8496348bcd582c0385e0c958f32bd231
+  - path: main.c
+    algorithm: sha256
+    value: 222d84d9c24cda569fdb1c458adbed1372c349d5113e05133e1e56628a188a73
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

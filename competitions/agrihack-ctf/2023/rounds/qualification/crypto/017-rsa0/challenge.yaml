@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-017
+name: RSA0
+slug: 017-rsa0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'Selamat datang di RSA. Bingung terhadap challenge?
+
+  Mungkin ini dapat membantu
+
+  https://id.wikipedia.org/wiki/RSA'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: bimskuy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/RSA0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: RSA0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chal.py
+    algorithm: sha256
+    value: ae614e0dd293ec9ab2de1498feb6095128606c4de321719926a58d4b60f36169
+  - path: challenge.yml
+    algorithm: sha256
+    value: cb90d8360d1ec92539d517aa6209fc1342e5aac8bd6d7ec3c5fa1fc343bf43c4
+  - path: output.txt
+    algorithm: sha256
+    value: 18c29aa960e8b8c5fa7b371212ce3b6a9d63acdc889858d6e56df153a360dd9f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

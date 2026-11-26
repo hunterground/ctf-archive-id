@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023
+competition_id: agrihack-ctf
+year: 2023
+name: Agrihack 0x08
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 104
+references:
+- title: Agrihack 0x08 challenge repository (author copy, naufalardhani)
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: official_repository
+  accessed: '2026-11-26'
+- title: Agrihack-0x08-platform (CTFd fork, Cyber Security IPB)
+  url: https://github.com/cybersecurityipb/Agrihack-0x08-platform
+  type: official_repository
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >-
+  Imported from the author-owned repository naufalardhani/Agrihack-0x08-chall at commit
+  06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91 (2023-11-25, the tip of main). The repository holds
+  qual/ and final/ trees with categories cry, foren, misc, pwn, rev and web, which the archive
+  normalizes to crypto, forensics, misc, pwn, rev and web. 104 challenge directories were imported:
+  84 in the qualification round and 20 in the final round.
+
+  No edition dates are recorded. The challenge repository was created in October 2023 and its
+  last commit is 2023-11-25, so the edition clearly ran in 2023, but no official schedule for
+  the qualification or final stage was located.
+
+  The repository root README documents the flag format ^agrihack{[ -~]+}$, the service port
+  mapping (web 15000, crypto 16000, forensics 17000, reverse 18000, pwn 19000, misc 20000,
+  within 15000-25000), and links a Google Sheets scoreboard that was not consulted. Its MIT
+  LICENSE, Copyright (c) 2023 Numero Uno Arroefy, is preserved at
+  competitions/agrihack-ctf/2023/LICENSE and is recorded on every imported challenge.
+
+  Fidelity: the tree is a ctfcli layout, and most challenges ship challenge.yml with author,
+  description, dynamic scoring (extra.initial 500) and the flag. Where challenge.yml is absent
+  (web_elliot, brute, easy snake, rustono-machine, Ethernal, SV-IPB, ezcatcher), the name,
+  description and author were recovered from README files and commit history. Eight attachment
+  sets are hosted only outside the repository on Google Drive, and one final forensics
+  attachment was on filetransfer.io; these are recorded as omissions on the affected challenges.
+
+  Solver material: 19 files matching the archive solver-file rule (solve.py, solver.py, sol.py,
+  and three .gdb_history debugging leftovers) were moved to the mirrored solvers/ path. Files
+  that look like author tooling but do not match the rule (SV-IPB's xxe_shell.py and captured
+  request/response files) stayed in original/ and are flagged in the challenge notes.
+
+  Excluded from original/: .DS_Store files and __pycache__ bytecode, each recorded as a
+  preservation omission. The repository .ctf/config file is not part of any challenge
+  distribution and was not copied; it contained a CTFd access token that is not reproduced here.
+
+  Category anomalies kept as authored: rev/BukanSQL declares category "Web Exploitation" in its
+  challenge.yml while living under rev/, and web/Loginspek declares the name "Version Checker".
+  Both are documented in the challenge records rather than silently corrected.

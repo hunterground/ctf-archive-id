@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-pwn-005
+name: ret2win 2
+slug: 005-ret2win-2
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: Waduh... Sekarang harus manggil fungsi itu tapi dengan argumen-argumen yang sesuai...
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/pwn/ret2win 2
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: ret2win 2 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fd10c92eb843a79fb16d31a3b55e837b6e15e9941afdc1dee95d6d4955130072
+  - path: challenge.yml
+    algorithm: sha256
+    value: 776e33e56f10ec6291cf77a877133068d9027bbe3bb2d146d71cdef971f3754a
+  - path: dist/ret2win
+    algorithm: sha256
+    value: 13763f297136982a504cd5c04982dd21062bd2cf53d4e51494517bb104118eb2
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: dac614a333277817aa0d794f7f085bab4fdd68bd75b50f5b8021389617ce7582
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 646d670d15a4b318296678e8973e8019bd59ea253af445907267130e65392401
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 28feec113a44b664b076892e43e6866cc156929df23675741dc5c58d42537fa9
+  - path: src/ret2win
+    algorithm: sha256
+    value: 13763f297136982a504cd5c04982dd21062bd2cf53d4e51494517bb104118eb2
+  - path: src/ret2win.c
+    algorithm: sha256
+    value: 6ebdfec93b01a8f6b7795da58a577079b5e6543d8994ed8fd347d75907744399
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

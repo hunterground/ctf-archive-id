@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-015
+name: pyxor
+slug: 015-pyxor
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: xor in python, but it's actually pyc
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/pyxor
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pyxor - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: d4a8875f185e8cf274486ea2c798f60c37ad7438100abcd14ebd6a6123fc4fc5
+  - path: chall.pyc
+    algorithm: sha256
+    value: ddc374d09d0b3d373b485dab6a53642ea3fdc58e9f988076b3957c2b42802052
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3befff2068c418bd4e5911e577f651d93bd5e17418dd90cff719b8a52142a60b
+  - path: flag.txt
+    algorithm: sha256
+    value: 06ef7a90a9d97989b37256d12ea145b7426d14dc7c0521fe244ac022948e19a8
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

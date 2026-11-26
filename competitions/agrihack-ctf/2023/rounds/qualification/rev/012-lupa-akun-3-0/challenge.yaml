@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-012
+name: Lupa Akun 3.0
+slug: 012-lupa-akun-3-0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'Karena Tzursa sadar lupa akun sendiri itu ribet, maka setelah mengubah akunnya ia berusaha sekuat tenaga untuk mengingat akunnya.
+
+  Namun apalah daya, ia tetap LUPA..'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Anro
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/lupa akun 3.0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Lupa Akun 3.0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9c2b393ac62f21baf1396e029cc30d59ac664a4fa9bb8a8778f6e01900e46c06
+  - path: lupa akun 3.0 .c
+    algorithm: sha256
+    value: 4dc3dc3baa1774125bf84925ca9d5caef41e4c84f9696bc06560bee3a33a3785
+  - path: lupaakun3.0
+    algorithm: sha256
+    value: 0b4790efe4d5b0623676dfc0f2b6bda2c7773d8f458babb878ff6902acc062d3
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

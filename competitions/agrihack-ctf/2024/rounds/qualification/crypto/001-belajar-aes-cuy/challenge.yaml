@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-qualification-crypto-001
+name: Belajar AES cuy
+slug: 001-belajar-aes-cuy
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: cry
+description: cuma pengenalan aes doang
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: qual/cry/Belajar AES cuy
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Belajar AES cuy - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 467a18061a05045f42d6c2af86b5f990679faa87db1ebd43d3d99fcc703e2972
+  - path: chall.py
+    algorithm: sha256
+    value: dc7ecde5421aa1287b2606e418a5345a1e4790870d5324642e82afedb02495c2
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.
+
+
+  Authorship is recovered from git commit authorship for this challenge (asburg <159863484+asburg@users.noreply.github.com>); the source provides no challenge.yml author field and no README author line.'

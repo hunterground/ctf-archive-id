@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-011
+name: Lupa Akun 2.0
+slug: 011-lupa-akun-2-0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'Untuk alasan keamanan, Setelah mendapatkan akunnya kembali,
+
+  Tzursa lagi-lagi mengubah akunnya. Tentu anda sudah tau apa yang akan terjadi..
+
+  Ya Tzursa LUPA lagi akun yang ia buat.'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Anro
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/lupa akun 2.0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Lupa Akun 2.0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 94be1f9f6f265b77adc15a77ad9a3f081f10db5f4f6a7f3dc67e84b2b7e65dc8
+  - path: lupa akun 2.0 .c
+    algorithm: sha256
+    value: 2cc36b968ee9f662977926c0b83def98aae2911635e374aca89181d8c687de72
+  - path: lupaakun2.0
+    algorithm: sha256
+    value: 33ce49985a0574d22c32fcabb22da0eb34bae6c463a1abae163167c1b0c4a29a
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

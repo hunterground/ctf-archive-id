@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-misc-008
+name: pwntools1
+slug: 008-pwntools1
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: MISC
+description: Average pwntools game
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/misc/pwntools1
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pwntools1 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 08c191210902a1a23c62661b17717caebb0ae5a43418803aa83fcea163ec76ab
+  - path: challenge.yml
+    algorithm: sha256
+    value: ffdd8fb5f7ff986e5359378da579bef35a460943deb14cb14f9845908955b133
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: f5b31edc0f40df5b1ef9659395274b6aac392e907c50d5732ec42977bf92083b
+  - path: server.py
+    algorithm: sha256
+    value: 04286da4e7e7560d6fe68f64ad90bae5381cdb8adcb05c14a1c703674aa0f5ff
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (sol.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

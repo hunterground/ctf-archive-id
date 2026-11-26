@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-001
+name: Admin Login
+slug: 001-admin-login
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'A developer has created a login system for the admin panel through an application with the C# programming language. But the developer is still a beginner, so he doesn''t know how to secure the application from reverse engineering. Can you find the flag?
+
+  Algorithm of the login system in pseudocode:
+
+  ![](https://cdn.discordapp.com/attachments/1025767334901727363/1167257297731469452/image.png?ex=654d7812&is=653b0312&hm=67ee842a62207df4e0493ab02c6d9411a663e28b74f9220525dc69f4824744f7&)
+
+
+  Note: `matiin anti virusnya dulu, gak tau kenapa kedetek sebagai virus sehabis diobfuscate`'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/Admin Login
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Admin Login - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: BypassMe2.zip
+    algorithm: sha256
+    value: 3003e72375af114831fea3217c1919c8bc2d3c36e9b56e474c10a4af9160d377
+  - path: challenge.yml
+    algorithm: sha256
+    value: 833ceb6a3e92e407cf26697fff814210520ce4b853ff141e07deacbe1ead53a1
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-008
+name: in the wires
+slug: 008-in-the-wires
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: 'Saat aku sedang praktikum di labkom, aku iseng2 mencoba menghubungi komputer teman, karena semua komputer di labkom ada dalam satu network yang sama. Rupanya, cara berkomunikasi seperti ini tidak aman dan isi pesannya dapat dilihat oleh siapapun yang menggunakan network labkom (file di bawah adalah hasil tangkapan packet2 yang dikirim di dalam network labkom pada saat itu).
+
+
+  Hint: file `*.pcapng` dapat dianalisis menggunakan tool `Wireshark`. Selamat belajar! ;)'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/in-the-wires
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: in the wires - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: aff7b1b2d7b2615a48500b86ea59a1af567ca78644a848935a9e70f182ef2afb
+  - path: capture.pcapng
+    algorithm: sha256
+    value: 1d335c7e49866907d05df390d026c614be0844b7186e3ff86a0a20910425c727
+  - path: challenge.yml
+    algorithm: sha256
+    value: 129aef6412d0f8a3c02b069b8cc7b3cd37254d7eb2b545bae33b92b52788b71f
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

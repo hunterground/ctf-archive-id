@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-003
+name: apachi
+slug: 003-apachi
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: reconnaissance power
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/apachi
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: apachi - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 8fde0e965c50fc5f17033cea6560e442bdd1783284a5cf2a98efddfbd99a6e08
+  - path: challenge.yml
+    algorithm: sha256
+    value: d58da04619280a2ebd99644f8d0f658d59a3fc4b6dadac93bc6cf0c40094e62b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 436bc1a9d79474fc5f5a2f7e5cff0b8b0ffa8175e8dad90441b25147cc21f339
+  - path: flag
+    algorithm: sha256
+    value: be224f0d7ecdf553b8bdb1a908051056285b6be281d5cf05e6c340677874f9a1
+  - path: vulnerable-httpd.conf
+    algorithm: sha256
+    value: fedc0d50d60b8bf7ecf5e68522891da07c4051560ef46e7d358c425a467b48cf
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

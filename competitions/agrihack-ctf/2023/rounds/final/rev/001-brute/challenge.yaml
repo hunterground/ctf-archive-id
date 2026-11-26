@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-rev-001
+name: brute
+slug: 001-brute
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: rev
+description: I just encrypt my flag with this program. I wonder can someone get it back?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/rev/brute
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: brute - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 24c3356737fa14ea06ae3907b5100fff0e618ded7e2f990195599d3da6923b4d
+  - path: brute.py
+    algorithm: sha256
+    value: 85d2bd703880f6e32ed8476a94d4436308b6b92cb41b763fa252578797763d65
+  - path: brute.pyc
+    algorithm: sha256
+    value: 4a86e9a8dfbb8f367adcca10e2f6a48efe8c95bcecb9d8bfecaf795a921949c1
+  - path: flag.enc
+    algorithm: sha256
+    value: 708b77868b2346d10002941724bfd7f0eb80fb0c4c1ef38d9aefea7de0342f18
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Author solver material (solver.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.
+
+
+  Authorship is recovered from git commit authorship for this challenge (tegar2804 <muhammadtegar2804@gmail.com>); the source provides no challenge.yml author field and no README author line.'

@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-004
+name: Codebin-JS
+slug: 004-codebin-js
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'CodeBin is a mini pastebin-like web application that allows users to post and share their code snippets with others who have registered on the site. It provides a platform for developers to easily share and discover code examples, collaborate, and learn from each other. A hacker named Paul just found the website is having vulnerability that allow users to access the admin page. He told the developer about this but he don''t want to tell the way. The developer hired a pentester to find out how to get access as admin to the page, help the developer to find out!
+
+  Note: There is a vulnerability in the login where you are able to make something to be comes true.
+
+
+  Link: [Source code of index.js](https://pastebin.com/raw/Jv45423q)'
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Encrypted
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/Codebin-JS
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Codebin-JS - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Codebin-JS/Dockerfile
+    algorithm: sha256
+    value: d202fd6217f3064bf11862207ec6674d3bcf05ae0354f5c241b34714cfba90cd
+  - path: Codebin-JS/README.md
+    algorithm: sha256
+    value: e28020067a49a8416a848168161b4ba00eef4623e25ef7dafbf369cbcf6b355f
+  - path: Codebin-JS/docker-compose.yml
+    algorithm: sha256
+    value: 3425f7f69ffa84605d00125867153fff75b2215f622d60f236eb0888020f5380
+  - path: Codebin-JS/package-lock.json
+    algorithm: sha256
+    value: 203dcb1e3a59a8a4c78f5fc74deab09ef9a5ad7e7178dc47efca0f649d524ba0
+  - path: Codebin-JS/package.json
+    algorithm: sha256
+    value: f6e2bd152627c1c9dbeb772b878a6cc4eb20c0e436d5f32a756225e6ec0f0a3c
+  - path: Codebin-JS/public/css/home.css
+    algorithm: sha256
+    value: 6b6fd264d868330c3ab42014da4f561577d8f9521f91aafac0688e18e8185f26
+  - path: Codebin-JS/public/css/login.css
+    algorithm: sha256
+    value: 30e9535eaf8a451c1174f102038111e6c01a14d30a49653a49c916b319185586
+  - path: Codebin-JS/public/css/prism.css
+    algorithm: sha256
+    value: 86bf3e7f1941f76b5c5676c9dadeb48a5bc3ab062a29a11c99169ab041c46f90
+  - path: Codebin-JS/public/js/prism.js
+    algorithm: sha256
+    value: 31f1e2fa955ed65c9b6f2972ba535bff662f754d4d44f3d3d8f2b788a2895f05
+  - path: Codebin-JS/src/index.js
+    algorithm: sha256
+    value: a68decaa3dc374d9a20a13c1cc58f7dc50e6d9f8c9a6871de29673b368142118
+  - path: Codebin-JS/src/mongo.js
+    algorithm: sha256
+    value: 76340d2a9ef123edd7d1f4fea5fc4440fbf6eab3cebb829506763bf1c7edaf77
+  - path: Codebin-JS/tempelates/edit.hbs
+    algorithm: sha256
+    value: 05b57c70262a73bf23ce0dab22d9dc6b3ec879ce36ecc68d55ec40057b02dd99
+  - path: Codebin-JS/tempelates/home.hbs
+    algorithm: sha256
+    value: db9615346f19ad4ac153f1786bc74b1ab6f571a86d108e619e1510b55ce1bdcd
+  - path: Codebin-JS/tempelates/login.hbs
+    algorithm: sha256
+    value: f8713de295f46837311f7ea5f937acc1089940560fa87472087b5e56408b9759
+  - path: Codebin-JS/tempelates/signup.hbs
+    algorithm: sha256
+    value: abb2ebf16e65399eb549feb196373cb44d9b5e882ec028978393de58fc233795
+  - path: challenge.yml
+    algorithm: sha256
+    value: 418de2abc46e0f9d5a7c17be5e5efdc9813225e1beeac12e029eb58ccff33498
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

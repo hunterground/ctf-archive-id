@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-013
+name: pplusqplus
+slug: 013-pplusqplus
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: author kurang ngerti crypto jadi jangan tanya aneh", mending ngerjain pwn / rev
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/pplusqplus
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pplusqplus - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: ec1b27c49ecbae26099bd8ea8ef49c1a79912ce600317e543b347849a7f340b2
+  - path: challenge.yml
+    algorithm: sha256
+    value: 75575a25fbd2ef4ef9e962608778d5f91547d3dda0996c97515234a6396cbec2
+  - path: flag.txt
+    algorithm: sha256
+    value: 0668f2b573b6cd71acdcb9594732fd3162374799974c5518cec22890a548ef0e
+  - path: output.txt
+    algorithm: sha256
+    value: 6407b12c31df3e839947a530528c710196550a4699b67d6398da78f6c8f276aa
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (sol.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

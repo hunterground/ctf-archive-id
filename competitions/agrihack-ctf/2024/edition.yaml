@@ -1,0 +1,49 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024
+competition_id: agrihack-ctf
+year: 2024
+name: Agrihack 0x09
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 14
+references:
+- title: Agrihack 0x09 challenge repository (Cyber Security IPB)
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >-
+  Imported from the organizer repository cybersecurityipb/Agrihack0x09 at commit
+  0985f65fc845e8fc0af2691e20673d1b26fc9bd7 (2024-11-16, the tip of main). The repository is
+  published by the Cyber Security IPB organization and describes itself as "Repository untuk
+  agrihack 2024". It holds qual/ and final/ trees; the qual/foren directory name carries a
+  trailing space in the source and is preserved verbatim in original_path. 14 records were
+  imported, 13 challenge directories plus one loose zip: 6 in the qualification round and 8 in
+  the final round.
+
+  The source is notably thinner than the 2023 edition: the qual tree has crypto, forensics and
+  misc only (no pwn, rev or web), and the final tree has crypto, forensics, rev and web. Several
+  categories exist as empty directories with just a readme, which is why no qualification pwn,
+  rev or web challenge is recorded. It is not established whether Agrihack 0x09 ran fewer
+  challenges or whether the rest were never published.
+
+  Only final/cry/es campur ships a challenge.yml; for every other challenge the name, author and
+  description come from the README and, where the README is silent, from commit authorship. Two
+  final SV-IPB directories are byte-identical between the 2023 and 2024 repositories.
+
+  No license file exists in the repository. Every 2024 record follows the archive maintainer
+  instruction of 2026-11-26 that treats a source with no license as MIT, and its
+  permission_reference states that explicitly rather than citing a license file.
+
+  Outstanding material: final/foren/ngintip publishes its attachment only as a Google Drive link
+  (recorded as an omission), and qual/misc is a bare email.zip whose member is actually a
+  HackToday 2023 challenge, archived here as an opaque zip with verification needs_scope_review.
+
+  Solver files matching the archive rule (solve.py, solve1.py, solve2.py, solver.py, dist.py is
+  a generator and stayed put) were moved to the mirrored solvers/ path. .DS_Store files are
+  recorded as omissions. No edition schedule was located, so dates stay null.

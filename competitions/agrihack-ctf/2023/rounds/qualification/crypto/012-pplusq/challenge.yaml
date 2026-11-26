@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-012
+name: pplusq
+slug: 012-pplusq
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: malas membuat deskripsi
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/pplusq
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: pplusq - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.py
+    algorithm: sha256
+    value: b30e36d46abc6dedac472fdefcbcfdfc8d196eaf15b4e845cec4ecffed1185b6
+  - path: challenge.yml
+    algorithm: sha256
+    value: d71ae1b24e5b4f6035b61403278581f5f537c83fa0a88b44e949d146cf83c80b
+  - path: flag.txt
+    algorithm: sha256
+    value: 1ea8cf603dd7487ddf4e6f136eca67c059442f9c88ba9f5f9bc01ed80dd8984c
+  - path: output.txt
+    algorithm: sha256
+    value: 7857688ff93657bb69631bd70b86cb99f251f7bdec9b320cf89beef20d8c17dc
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

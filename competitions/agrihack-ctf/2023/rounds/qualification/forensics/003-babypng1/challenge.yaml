@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-forensics-003
+name: babypng1
+slug: 003-babypng1
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: I heard there's something special at the end of each chunk.
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/foren/babypng1
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: babypng1 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ed757a51f18b10e5778d98e51de8ad3c06e3fec939ee4161223afb8d1c7aecc4
+  - path: challenge.yml
+    algorithm: sha256
+    value: ec032b638ade06a4e00ebead48d3ef010dfdafb45c752648c57b67510493544a
+  - path: dist/babypng1.png
+    algorithm: sha256
+    value: c60359a28d2a7e04645f78cfe8f568bb242df34da6c7a27e4447173f3ff8da61
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: The distributed attachment was fetched from the challenge.yml Google Drive link https://drive.google.com/file/d/1WmEt81EYDkWhd1zAiIC4XHeSOhZLl6Zv/view?usp=sharing on 2026-11-26 and its SHA-256 matched the archived copy.

@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-crypto-003
+name: Judge
+slug: 003-judge
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: "Anda adalah seorang hakim yang sedang mencari pelaku kejahatan. \nAnda mendengar banyak pendapat dari berbagai sudut pandang dengan pendapat yang sama di pengadilan. \nDi lokasi kejadian diketahui pelaku kejahatan hanyalah seorang diri. \nkarena terdapat beberapa tersangka, tangkaplah salah satu tersangka yang melakukan kejahatan.\n\nFlag Format: agrihack{nama_pelaku}"
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: bimskuy
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/cry/Judge
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Judge - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 935d488d1295c37e8423eed45d64e0f8dacc2bdad98c83b5c8cce379a6b32adc
+  - path: challenge.yml
+    algorithm: sha256
+    value: aaa399d00d1d369bd373310f830e781e577a404d5a369982014d6f0d0b2f89a8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 338216c2408cdb4311917fd96ef8c3cfba5bf5cf815208a94d3ab2f657a25eb4
+  - path: server.py
+    algorithm: sha256
+    value: 49e522c328e509570366f617e6b0a34b0e849b1ddf50f70462b074ce139a6708
+  - path: tersangka.txt
+    algorithm: sha256
+    value: b0903c5820f930b45d6b96db9afa536b29da2c1a78fbb8b9b42ce28cb35a354d
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

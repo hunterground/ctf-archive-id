@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-010
+name: ssti0
+slug: 010-ssti0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: flask config
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/ssti0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: ssti0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 684b720abad1c7d1d954942dd03b7e65263ce62ca7deecdab5bc154b8356a96a
+  - path: challenge.yml
+    algorithm: sha256
+    value: febda2a4121c5ba33c80c78333db5f0ee93626ebb8d976b775ee51c3b81a132e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: b59963d9fbf624adcd6d4833a322c2ea708582a8a7d6955ab615228e1716c129
+  - path: src/app.py
+    algorithm: sha256
+    value: 4423b0c4ca5df682d42705d9d237aaa1e752500b70d4919b467076ec19b7ace2
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 87d173ba32a0a66e8533b92741c1a92f714d24a8bf33485801b509404bc7b8a0
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

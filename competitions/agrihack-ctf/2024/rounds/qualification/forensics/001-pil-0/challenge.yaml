@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-qualification-forensics-001
+name: PIL 0
+slug: 001-pil-0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: foren
+description: Geser Pixel
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: qual/foren /PIL 0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: PIL 0 - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ed28e84b347cb4c7ba3e971c366d1b4d276d1aa237c977cc1f8058e95d44907e
+  - path: chall.py
+    algorithm: sha256
+    value: 172ddd8e836c04453b822263f7b9a7aa04d8df161f51bef169517b9655e41881
+  - path: new.png
+    algorithm: sha256
+    value: 7805618dce7f1b4b6455b2873291dd7f4a7139d8bdc87c700284f85fabc23161
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'The source category directory is named ''foren '' and carries a trailing space; original_path preserves it exactly.
+
+
+  Authorship is recovered from git commit authorship for this challenge (asburg <159863484+asburg@users.noreply.github.com>); the source provides no challenge.yml author field and no README author line.'

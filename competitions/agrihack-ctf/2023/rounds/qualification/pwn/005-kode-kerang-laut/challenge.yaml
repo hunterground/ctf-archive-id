@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-pwn-005
+name: Kode Kerang Laut
+slug: 005-kode-kerang-laut
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: the stack is executable so we can do shellcode, but what is shellcode??
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/pwn/Kode Kerang Laut
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Kode Kerang Laut - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3000b073d156efe2f4ee8bfdc6148b8e180385757788dc6fb8f9e5f6711ecbc2
+  - path: chall
+    algorithm: sha256
+    value: 8739bc7568522bb0c77cdf2e8c0b89c27f4cbcbcb7088d185be9abc635b58548
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1497b7cba71f3bc2c084d195534c0634c021680f63d7b52247ecaf7c33182fdf
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 158c13556ace305e6bcff6130b405dac680f591336ad204dcfb5b2fb09b980ed
+  - path: flag.txt
+    algorithm: sha256
+    value: 6a4592f45eb35be93cabdf222a57045ec7041f564585cc55cb7eba02bd175558
+  - path: main.c
+    algorithm: sha256
+    value: c88ea176d4fa5c03aace0502211954c54d87d2940929cbf0175d3949eaae49e0
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

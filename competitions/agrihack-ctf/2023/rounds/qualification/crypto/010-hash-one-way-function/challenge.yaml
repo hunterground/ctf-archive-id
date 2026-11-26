@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-010
+name: 'Hash: One-way Function'
+slug: 010-hash-one-way-function
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Untuk challenge ini aku telah membuat banyak flag tapi bingung mau pilih yang mana. Yasudahlah, aku pilih random saja~. Dari value hash yang diberikan, bisakah kamu mengetahui flag mana yang kupilih??
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: 'qual/cry/Hash: One-way Function'
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: 'Hash: One-way Function - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.'
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ae7c2f752409b43f9409773b4bfe4c811221a85289b00dc19696d5f69bdb4318
+  - path: chall.py
+    algorithm: sha256
+    value: 94f32acf1c4bd37741b5179ec2461fe198896fa5765e53f94950c596850cdae4
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6f1a8c08f241111ebf40e02c434153012d25df518822de04e98ac189720f9899
+  - path: flags.txt
+    algorithm: sha256
+    value: 4d3a31cb9061390eddab13cc9ba29218dd2afe662a1942d16158b844e1772799
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Author solver material (solve.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge's preservation checksums.

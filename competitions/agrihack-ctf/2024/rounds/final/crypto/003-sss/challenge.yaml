@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: agrihack-ctf-2024-final-crypto-003
+name: SSS
+slug: 003-sss
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: cry
+description: '"Note that the mapping is injective... according to `@yqroo`, this is the easiest challenge, definitely worth a try!"'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ji4xuu
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x09-challenges
+  source_type: git
+  repository: https://github.com/cybersecurityipb/Agrihack0x09
+  commit: 0985f65fc845e8fc0af2691e20673d1b26fc9bd7
+  original_path: final/cry/SSS
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: SSS - Agrihack 0x09 (2024), Cyber Security IPB. Imported from https://github.com/cybersecurityipb/Agrihack0x09.
+  permission_reference: The source repository declares no license file. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for this import.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: e2a3b0b72a65c80acc5b53dac15cdbb726f2d954eac3c28b0edc4c25937bb8a9
+  - path: SS.py
+    algorithm: sha256
+    value: 91ca67b77eb9b8bbc5700caec1918fdffcb6dc06700e7217f52248058bae6b31
+  - path: Split_and_Splice.txt
+    algorithm: sha256
+    value: 808de104467ecf9b25b6073fa38ccceec2c60e24d4d5edb977fd4c34414f7324
+  - path: enc.txt
+    algorithm: sha256
+    value: ce897d2566bc228ada4251b3b4de4d73145e9e6dab0f4e28406b59feaade4399
+  - path: file.txt
+    algorithm: sha256
+    value: acf8784a34cd3018485fb164f7fda2aee6037e8d0d814c7a1c8f438148b04a9e
+  - path: nomor2
+    algorithm: sha256
+    value: 7b60a1d90c1e687b49e136c000f976d00374ef75b881da7ef4cfbf6779c302be
+  - path: secret.txt
+    algorithm: sha256
+    value: d569baf357b340e781d85e708b67a9aac127056f001fd253b6566fda299c32a9
+  - path: source.py
+    algorithm: sha256
+    value: decc9b52d20784ebfc12ac5c2b6e78c1c3ce2edd539cae01a88e2cb96c39d04b
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x09 challenge repository
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Files outside the documented attachment list (SS.py, file.txt, nomor2, secret.txt) are author working artefacts left in the repository. SS.py is the second-stage generator, nomor2 duplicates Split_and_Splice.txt but for a trailing newline, and secret.txt carries the plaintext flag. All are preserved verbatim rather than pruned.
+
+
+  Author solver material (solve1.py, solve2.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.'

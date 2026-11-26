@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-crypto-001
+name: AEz
+slug: 001-aez
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Soal AES paling ez key nya udah dikasih tinggal decrypt doang 😱😱😱
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/cry/aez
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: AEz - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0eaaadb9a1fa4c579e582d328b32a9aaef34283cfd3b69c9271d3ebcafec4035
+  - path: chall.py
+    algorithm: sha256
+    value: 3bd985bfef074ca95baf574e4a49a595b9ddf745527d46ca9038703227a806ac
+  - path: challenge.yml
+    algorithm: sha256
+    value: 17b2c7f89593ed1a872f0ae8776f06af73e8ebc96a5095d3b53e7ab8231a9026
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'The distributed chall.py carries a placeholder flag (agrihack{xxx...}); the real flag was never published in the repository.
+
+
+  Author solver material (solve.py) was moved out of original/ to the mirrored solvers/ path, so it is not part of this challenge''s preservation checksums.'

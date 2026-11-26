@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-web-006
+name: lfi
+slug: 006-lfi
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: read /flag
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/web/lfi
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: lfi - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: a7a242e1274a2f9584cf0c53671d00a85b1b7e9c4b44bef295fbf515b9a4e002
+  - path: README.md
+    algorithm: sha256
+    value: 1e4ba79939c647b7a24654eca9c005a24b77c96edf552979499bd4997e06e241
+  - path: challenge.yml
+    algorithm: sha256
+    value: f5a8eaef43d66487351ff6e90cb5a9d3c43dd20ac217c9cffbee2b71367396be
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 808e2f32e4359d79ba95514b0ba2f40e1611394712fe18f2cb5fab55b84a290d
+  - path: flag.txt
+    algorithm: sha256
+    value: 2412466d3d221641b24301715cf0baf0bc57ee62ab07e57475737ccf16b1e099
+  - path: src/header.php
+    algorithm: sha256
+    value: 928a245fb2c6d0bd22925ed520d1aaae25e8aeb25ffa46d56ce5e7296386f659
+  - path: src/index.php
+    algorithm: sha256
+    value: 71171370c7d901648b1854d72e4c2c67005a335e0fc3f80f52907a9ded291e75
+  - path: src/language.php
+    algorithm: sha256
+    value: ca99cee4ed043f5cb7a99c0f14d149070db32cb887946c076ca1cce1cc1782c2
+  - path: src/pageview.php
+    algorithm: sha256
+    value: 1668d9a398b5c5bbefd5b482677039c273ca90f979510b0bbd8f56b745dbac79
+  - path: src/purpose.php
+    algorithm: sha256
+    value: 35c42b515dce3051f2e975ceb43097847df12d7e610e50f58bde5922a4ff1d3e
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: agrihack-ctf
+name: Agrihack
+country: ID
+organizer:
+  name: Cyber Security IPB (CSI), Himpunan Mahasiswa Ilmu Komputer (Himalkom) IPB University
+  website: https://github.com/cybersecurityipb
+website: null
+description: >-
+  Agrihack is the cybersecurity Capture The Flag competition run by Cyber Security IPB (CSI),
+  the cybersecurity student community of Himalkom IPB University. It is part of Agrinformatics,
+  the Himalkom IPB program that hosts selection competitions for the university's student tech
+  communities, and it doubles as CSI's recruitment selection for IPB University students.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: Agrihack 0x08 challenge repository (author copy, naufalardhani)
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: official_repository
+  accessed: '2026-11-26'
+- title: Agrihack 0x09 challenge repository (Cyber Security IPB)
+  url: https://github.com/cybersecurityipb/Agrihack0x09
+  type: official_repository
+  accessed: '2026-11-26'
+- title: Cyber Security IPB GitHub organization
+  url: https://github.com/cybersecurityipb
+  type: official_website
+  accessed: '2026-11-26'
+- title: 'CTF Agrihack: Early Challenge (Agrihack 0x07, Naufal Ardhani)'
+  url: https://naufalardhani.medium.com/cyber-security-ipb-agrihack-early-challenge-82ae02d8ab92
+  type: writeup
+  accessed: '2026-11-26'
+- title: AGRIHACK 0x0A CTF - Cyber Security IPB Selection (Faiz Aidil Baihaqi)
+  url: https://www.linkedin.com/posts/faiz-aidil-baihaqi-a03573324_cybersecurity-ctf-agrihack-activity-7438250115364061184-JS4o
+  type: writeup
+  accessed: '2026-11-26'
+- title: Ilkomunity - student community index (Agrihack description)
+  url: https://ilkomunity.github.io/
+  type: other
+  accessed: '2026-11-26'
+notes: >-
+  Edition numbering is hexadecimal: the archive holds 0x08 (2023) and 0x09 (2024), and public
+  writeups attest 0x07 (2022) and 0x0A (2025). Edision numbers are preserved in the edition
+  names; directory years stay four-digit because the archive requires a year directory. The
+  first edition is not established: 0x07 being "the 7th Agrihack" implies earlier editions, but
+  no year for them has been verified, so established_year stays null. The 0x0A account describes
+  Agrinformatics as the parent Himalkom IPB program with CSI as one of its selection tracks, and
+  puts the qualification at 30 September - 1 November 2025 with a final on 8 November 2025,
+  matching the qual/final structure seen in the 2023 and 2024 sources.
+
+  Catalogs: the 2023 source is a public repository under an Agrihack author's personal handle
+  (naufalardhani) rather than the CSI organization; the CSI organization also hosts
+  Agrihack-0x08-platform, a CTFd fork, but no 2023 challenge repository of its own. A
+  cybersecurityipb/Agrihack-0x08-chall URL appears in search indexes but returns HTTP 404 on
+  2026-11-26, so it is not cited as a live source. The 2024 source is published directly by the
+  CSI organization. The 2023 record stays at verification corroborated because its provenance is
+  an author copy, not an organization-published tree.
+
+  Licensing: the 2023 repository carries an MIT LICENSE naming Numero Uno Arroefy, and each
+  imported 2023 challenge records it. The 2024 repository has no license file at all, so every
+  imported 2024 challenge follows the archive maintainer instruction of 2026-11-26 that treats a
+  source with no license as MIT, and its permission_reference says so explicitly.
+
+  Secondary sources noted but not imported: ilhamAdil/WriteUp-Agrihack-2020 (2020 participant
+  writeup), ValenYanto/agrihack0x0b-ctfd (a CTFd instance for 0x0B, license Apache-2.0), the
+  0x07 early-challenge writeup and the 0x0A writeup listed above, and cybersecurityipb/CTF-Archive
+  (CSI's own collection of solvers and writeups). None of these supplied challenge files to this
+  archive.
+
+  Outstanding downloads: several 2023 forensics attachments are published only as Google Drive
+  links, and one final forensics attachment was hosted on filetransfer.io. See the individual
+  challenge records and missing.txt.

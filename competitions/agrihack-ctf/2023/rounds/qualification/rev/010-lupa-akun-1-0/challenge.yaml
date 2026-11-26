@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-qualification-rev-010
+name: Lupa Akun 1.0
+slug: 010-lupa-akun-1-0
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Waduh setelah ia mengganti passwordnya, sekarang Tzursa lupa lagi akun yang dibuatnya!!
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: Anro
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: qual/rev/lupa akun 1.0
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: Lupa Akun 1.0 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8f3975a3cb9a564402872792e877a23774317e7532d4c8e7223104fb906094c4
+  - path: lupa akun 1.0 .c
+    algorithm: sha256
+    value: 80c424c89a2b90a3a68f8bff7439d3951697965a95c6582ba3b046dc10968803
+  - path: lupaakun1.0
+    algorithm: sha256
+    value: 51cafff7d47bcf8db597ff5e4dd518278382676fcea1db8e4ba71f08dfba6b1e
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

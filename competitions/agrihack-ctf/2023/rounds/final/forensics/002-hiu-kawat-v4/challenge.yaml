@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-forensics-002
+name: hiu kawat v4
+slug: 002-hiu-kawat-v4
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: A report came in of someone suspicious downloading confidential files from our server. I don't have access to the servers, so I tried intercepting the connection but I can't read anything.... Maybe this key that my co-worker gave me could help...?
+difficulty:
+  value: 500
+  source: organizer
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/foren/hiu kawat v4
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: hiu kawat v4 - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 50184889915cd7913b4cd86a768cdb1f1c53ef9f24c9bdbef4e1aaed0f54f722
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3acb2613fd367b9c0e0b0d588d4820e39e3c7df604b31454dd42cce2e969e089
+  - path: dist/chall.pcapng
+    algorithm: sha256
+    value: 8cb54886e4aeb08cae450e657b9de3fe60903ba9911dc89153093b405203f7ba
+  - path: dist/server.key
+    algorithm: sha256
+    value: 66e070104ea8f9aa5b721f8ef5f32c51ac88cee4b3e186e0ed9f436a2d1d1fcc
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: null

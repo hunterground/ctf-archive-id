@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: agrihack-ctf-2023-final-rev-002
+name: easy snake
+slug: 002-easy-snake
+original_name: null
+competition_id: agrihack-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: rev
+original_category: rev
+description: 'does this game have an ending?
+
+
+  install java SE 19 untuk menjalankan game
+
+
+  tutorial:
+
+  - [Ubuntu 22.04](https://www.rosehosting.com/blog/how-to-install-java-se-19-on-ubuntu-22-04/)
+
+  - [Windows 11](https://javacodepoint.com/download-jdk-19-and-install-on-windows-11-64-bit/)'
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: tegar2804
+  team: null
+organization: null
+provenance:
+  archive_id: agrihack-0x08-challenges
+  source_type: git
+  repository: https://github.com/naufalardhani/Agrihack-0x08-chall
+  commit: 06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91
+  original_path: final/rev/easy snake
+licensing:
+  declared_license: MIT
+  copyright_holder: Numero Uno Arroefy
+  redistribution: permitted
+  attribution_required: true
+  attribution: easy snake - Agrihack 0x08 (2023), Cyber Security IPB. Imported from https://github.com/naufalardhani/Agrihack-0x08-chall.
+  permission_reference: 'MIT LICENSE at the repository root: https://github.com/naufalardhani/Agrihack-0x08-chall/blob/06e4b0e5d04e749f5a8b9f5eea2a1954655dfd91/LICENSE'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 95d89bcd898cdc5b47363373b661580ee03ecbff7874fc37551265c69aca04ef
+  - path: src/com/images/Ular.png
+    algorithm: sha256
+    value: 9e2d0b3c408722e26fdf5d560e9d69c78ab7d7084da9ffa1add06cdd2be1d646
+  - path: src/com/ular/Coordinate.class
+    algorithm: sha256
+    value: 6cd0fdcb6ef677aec5d0ce32ba8cbe846d69887e7363a5926ad07baad0e2f227
+  - path: src/com/ular/Drawable.class
+    algorithm: sha256
+    value: cd4139b0515e4d6b706f0cab512197e711aaa2ef3380c18bd153ac355a368869
+  - path: src/com/ular/Fruit.class
+    algorithm: sha256
+    value: cddf99d058115768896fdeaf15075be88bc3775843212a5625ef1b02c92dc866
+  - path: src/com/ular/GUI.class
+    algorithm: sha256
+    value: b031c86a54d2b58495a0733b272b1bced420259b1502403d22041ab02abc8cf0
+  - path: src/com/ular/GameLogic.class
+    algorithm: sha256
+    value: 4995dd21239c4463432478a4019ec7b5913cd560c56a147574a0f58e74110148
+  - path: src/com/ular/Snake.class
+    algorithm: sha256
+    value: d4fcaec99a2d4dba32f11aa5919f53416de341423f57fc7075630f906da7123a
+  - path: ular.jar
+    algorithm: sha256
+    value: fa896a3d17d0ebe26b9c18c18dc4f79cbaa6a951ecbc94f3af488c8fb5dd44e2
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Agrihack 0x08 challenge repository
+  url: https://github.com/naufalardhani/Agrihack-0x08-chall
+  type: other
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Authorship is recovered from git commit authorship for this challenge (tegar2804 <muhammadtegar2804@gmail.com>); the source provides no challenge.yml author field and no README author line.
