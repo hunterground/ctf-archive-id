@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-crypto-001
+name: hehe
+slug: 001-hehe
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: >-
+  Homomorphic Encryption (HE) is a form of encryption that allows computations to be performed on encrypted data without first having to decrypt it. This challenge is a simple implementation of HE where you just need to get the flag from the server by implementing a BFVRNS scheme using Python's openFHE library.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Cryptography/hehe
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: bf21d1fd431d9222a299bd76b7cee5659ff2c44e0b532da9f68fdc2b7e3cf2b4
+  - path: README.md
+    algorithm: sha256
+    value: 1e4c878e2d04a597189609977a40ed5f6d6efcf0bfa907eba6e4699a255dd4fe
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ac2807012e92766216f110b218d160729ded954605a137edfa5d13b7b5e33a3a
+  - path: secret.py
+    algorithm: sha256
+    value: 931827a56c098aca98bb12fc26d0d6618b32522b28c214935939ad9840e7f3ab
+  - path: server.py
+    algorithm: sha256
+    value: b086b611dddb531021a73afa1720692398deaade8b9a927c668c0e1ab594c291
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: hehe - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  solve.py was moved to the mirrored solvers/ path as author solver material.

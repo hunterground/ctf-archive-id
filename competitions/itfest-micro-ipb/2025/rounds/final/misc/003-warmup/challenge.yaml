@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-misc-003
+name: WarmUp
+slug: 003-warmup
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: misc
+original_category: Miscellaneous
+description: >-
+  http://103.160.212.3:24377
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ZafiN
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Miscellaneous/WarmUp
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 628586f30caddbbc3fc4784d96e6302520b982e359aacf9b858e32e2a2908256
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2bfc6ef8e9c23c5fcd416fdfce4244922d2796a4ab424a014a1d3ab75884548f
+  - path: README.md
+    algorithm: sha256
+    value: be36d7e167044fc49045bb2c87a173562ef5f91731751be2216f949f9272ff79
+  - path: chall.zip
+    algorithm: sha256
+    value: bad19d5e29ed6693a5b351d6dd25f209661a8f759a337204afda29c788766408
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 6efaec57eb6fd580a06868309bfa16eba4dc36c2687c3125f09faaf9bad8be47
+  - path: contracts/SimpleBank.sol
+    algorithm: sha256
+    value: d8cadfd71d4509e314e6ee88964e0e04c08435d0234b4ecda19c413076576316
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 2635ceae3bed120efcb4f1e71522e5e77737ac205f5a33d8670adb08a0a3be8a
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: dc7609344dc4b94bdfb01bfa2bd84ec4f3d11fac05663cdc8796c6dd83b7b783
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: WarmUp - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The organizer README heads this challenge FreeFlag, the same heading used by the neighbouring BadGov directory, and the shipped .env carries an ITFEST25 flag. The directory name WarmUp is kept as the challenge name because it is the only distinguishing label in the source.

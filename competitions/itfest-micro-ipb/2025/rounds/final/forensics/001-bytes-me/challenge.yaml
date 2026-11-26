@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-forensics-001
+name: "Bytes Me!"
+slug: 001-bytes-me
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Digital Forensic
+description: >-
+  I was experimenting with a new steganography technique using Python. To be safe, I saved my code as a screenshot. But strangely, the image file can no longer be opened. As if something is hidden... or maybe too visible? Figure out what happened and uncover the technique I was learning.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: "Final/Digital Forensic/Bytes Me!"
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: corrupted.png
+    algorithm: sha256
+    value: 19b9164e4a85795532ce15a0657a6c81d73c6f308e373b4a92234f56cf7624d2
+  - path: extract_lsb.py
+    algorithm: sha256
+    value: fcc1a2b9121977e32abad2059cc53ac8d0545750f8fe33083f81567d572ec044
+  - path: lsb.png
+    algorithm: sha256
+    value: e926440a6b74b5b65983138e3c7f49452ef68b24e70a3cc315363de67c57635a
+  - path: readme.md
+    algorithm: sha256
+    value: a5b306240ea5735fd951a2f7064ca3e3c2fb70a11098d52a5bf79c29e0609b0e
+  - path: restore_length.py
+    algorithm: sha256
+    value: 3e10f8f5a0593c1fd9e293046eaffd1460d86a7f6ccad7e50d108a39008ab707
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: "Bytes Me! - IT FEST Micro IPB 2025, Cyber Security IPB."
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  restore_length.py and extract_lsb.py are the scripts the README tells participants to use while solving, published as part of the challenge handout, so they stay in the distribution.

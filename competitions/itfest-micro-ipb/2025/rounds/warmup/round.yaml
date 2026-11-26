@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: warmup
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+name: Warm Up
+original_name: null
+sequence: 1
+type: warmup
+delivery: online
+description: >-
+  Warm-up stage released ahead of the online qualification, with one introductory challenge in each of the six categories.
+dates:
+  start: '2025-07-23'
+  end: '2025-07-23'
+statistics:
+  challenge_count: 6
+  participant_count: null
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Six challenges, one per category, held in the repository warm up directory. The source presents it as a warm-up rather than a scored round, so round id warmup and type warmup are used. Each source challenge keeps its own README beside the material in the category directory instead of a per-challenge folder.

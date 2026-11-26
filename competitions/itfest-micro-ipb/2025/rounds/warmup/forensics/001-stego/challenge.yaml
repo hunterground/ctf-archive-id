@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-warmup-forensics-001
+name: Stego
+slug: 001-stego
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: warmup
+category: forensics
+original_category: Digital Forensic
+description: >-
+  I hid a secret message in this image file, can you find it?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: warm up/Digital Forensic
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: readme.md
+    algorithm: sha256
+    value: 6f8b43ec4aaae663ccded040061c8642b603d6b11e7295dad075046b73be23d8
+  - path: stego/chall.jpg
+    algorithm: sha256
+    value: 982bdac9bd488bf3dba261f730ab6b2331f61ff7fd2aaa95b91dba53fab0010e
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Stego - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The README also carries a revised Google Drive attachment link that the organizer added after the fact; the repository ships chall.jpg and no copy of that revision.

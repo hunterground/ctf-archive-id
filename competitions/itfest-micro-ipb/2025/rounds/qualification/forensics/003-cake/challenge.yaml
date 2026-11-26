@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-forensics-003
+name: cake
+slug: 003-cake
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: >-
+  man just do your basic forensic stuff, i don't really care
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Digital Forensic/cake
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7cbd96cb19060fb5a72373e3cd93d3a277a68ea0d4e1dbdfdff6d30ca851d1ab
+  - path: README.txt
+    algorithm: sha256
+    value: 9f888520afd2759299cbb58202a7174d623627571fd6bef58990c5a14b726368
+  - path: chall.png
+    algorithm: sha256
+    value: 70864ce5ae46738f6982c99bf26dfd323cb9bc515233026eb20ad98035238958
+  - path: whatisdis.py
+    algorithm: sha256
+    value: 766a16fb165e0e5596b1cc02c7e004ea32af633d88836420181900aad99e064d
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: cake - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  whatisdis.py is part of the archived attachment chain that participants carve out of chall.png, so it stays in the distribution.

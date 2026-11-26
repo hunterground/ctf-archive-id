@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-rev-001
+name: Capsule
+slug: 001-capsule
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Radhit minta tahu bulat tapi dianya di semarang bzir
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Durrr
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Reverse Engineering/Capsule
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a208afb63a3799e31ba24c49b064d2f36df50b94cd94663179c26f663b32af58
+  - path: challenge
+    algorithm: sha256
+    value: 11b128d5cfa433cf2fa8dc4db88d252682bf55fb477ebf7a870da6d876c9e3e1
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Capsule - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The README names the release as Chall while the shipped binary is named challenge.

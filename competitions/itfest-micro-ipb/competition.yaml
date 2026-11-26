@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: itfest-micro-ipb
+name: IT FEST Micro IPB
+country: ID
+organizer:
+  name: Himavo Micro IT Community, Sekolah Vokasi IPB University
+  website: https://micro-orm.ipb.ac.id/
+website: https://itfestmicroipb.com/
+description: >-
+  Information technology festival of Sekolah Vokasi IPB University, run by the Himavo Micro IT
+  Community student association. Its programme combines a Capture The Flag competition with a
+  software development competition and a poster competition, and the 2025 CTF ran an online
+  qualification followed by an onsite final.
+metadata:
+  established_year: 2024
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: ITFest Micro IPB
+  url: https://itfestmicroipb.com/
+  type: official_website
+  accessed: '2026-11-27'
+- title: Himavo Micro IT Community
+  url: https://micro-orm.ipb.ac.id/
+  type: official_website
+  accessed: '2026-11-27'
+- title: IT FEST 2025 announcement with the CTF timeline
+  url: https://www.infolombait.com/2025/06/it-fest-2025.html
+  type: organizer_announcement
+  accessed: '2026-11-27'
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+notes: >-
+  Identity
+  - Distinct Event: IT FEST Micro IPB is organized by the Himavo Micro IT Community, the student
+    association of Sekolah Vokasi IPB University. It is not the IFEST CTF organized by HIMATIF FMIPA
+    Universitas Padjadjaran that this archive already holds under ifest-ctf. The two share an
+    abbreviation and nothing else, and stay separate competitions.
+  - Name Variants: Public material writes the event as IT FEST 2025, ITFest Micro IPB, and ITFEST IPB
+    interchangeably, while the repository README only says "Repo soal microCTF 2025". The recorded name
+    keeps the official wordmark form.
+
+  Publisher & Lineage
+  - Publisher Not Organizer: The challenge repository is published by the Cyber Security IPB GitHub
+    organization, the same publisher as the HackToday and Agrihack repositories in this archive, and its
+    members wrote these challenges. The competition itself belongs to the Himavo Micro IT Community.
+
+  Scope & Open Questions
+  - Established Year: An IT Fest Micro IPB 2024 is attested, but only for its hackathon and seminar
+    tracks. No 2024 CTF is attested, so no 2024 edition directory was created.
+  - Only 2025 Is Archived: The 2025 edition is the only one with an organizer challenge source.
+  - Licensing: No license file is published. Every imported challenge records redistribution as
+    permitted under the standing archive maintainer instruction for license-less sources.

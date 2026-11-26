@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-warmup-pwn-001
+name: Bof
+slug: 001-bof
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: warmup
+category: pwn
+original_category: PWN
+description: >-
+  Can you figure out a way to bypass it?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: warm up/PWN
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall
+    algorithm: sha256
+    value: 5becfe0a3fa6ed1ec1ce0ecacd3c752acc15a1c5879817d4bfb16b04780da768
+  - path: chall.c
+    algorithm: sha256
+    value: c8457064e582461e19bf97bb930d8c3b9818fe6547dade896c588e50286d0d28
+  - path: flag.txt
+    algorithm: sha256
+    value: 7fa4b1655a1f6d5ccc5a3ef6f9066e284b2602a22914bb2c5ed8f15db6ea71f0
+  - path: readme.md
+    algorithm: sha256
+    value: 6901269216973becb2197fa74d1d3c1312be4140617014e686a7d49abcd21158
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Bof - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  solver.py was moved to the mirrored solvers/ path as author solver material.

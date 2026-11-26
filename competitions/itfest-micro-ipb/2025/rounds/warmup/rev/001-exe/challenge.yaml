@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-warmup-rev-001
+name: Exe
+slug: 001-exe
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: warmup
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Let's learn and warm up basic reverse engineering first
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: warm up/Reverse Engineering
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.exe
+    algorithm: sha256
+    value: 2c100cd7784af12dd2b7f925aeed8aea15b71e0520526129f93b602296460f2b
+  - path: readme.md
+    algorithm: sha256
+    value: 5ba96231df9f10f9000fca56064e98f08a2e8e3332627f7cdd778722dc656556
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Exe - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  chall.exe is a PyInstaller-packed Windows executable. solver.py was moved to the mirrored solvers/ path as author solver material.

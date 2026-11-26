@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-rev-002
+name: dameyo
+slug: 002-dameyo
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: >-
+  dame dane dame yo, gatau bang, maaf kalo kurang.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Reverse Engineering/dameyo
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: readme.md
+    algorithm: sha256
+    value: 8ccc0b94706f84b3425f444aa7941adbc9f8f2a4a0f39383eb7a624227ddaace
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: dameyo - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The source directory holds only a README: the challenge binary was never published in the repository, so this records a challenge whose artifact is missing upstream rather than a complete distribution. Its README heading also reads Login, copied from the neighbouring challenge.

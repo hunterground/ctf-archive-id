@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-pwn-001
+name: Terpaksa
+slug: 001-terpaksa
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: PWN
+description: >-
+  sumpah bang gw terpaksa, there's no time, and i haven't be able to make a solve script, maybe you want to try?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/PWN/terpaksa
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 87be5bfce67706847afa7a6b1d042d56d95771fe6ab8b092c2ae3179707e5059
+  - path: README.md
+    algorithm: sha256
+    value: 656281cca1d4735381079d32615646d89b0269c21935df88dc762b05cb331328
+  - path: chall
+    algorithm: sha256
+    value: b950eb01b983b25d117e513175bca17803fc88d3f8d9a528cbc5499adfd5096a
+  - path: compose.yml
+    algorithm: sha256
+    value: 928ba3f5fb45e075fc48904167faa0a137d3f64e8d1ea70191226e250075bc19
+  - path: flag.txt
+    algorithm: sha256
+    value: 7464280649aa0a358218b7fcfe993309d0e7d0276bc9ccadd3c69269520edf06
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Terpaksa - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Although this challenge sits in the IT FEST 2025 final round, its shipped flag.txt uses the hacktoday{...} prefix. The mixed prefix is recorded rather than corrected, because originals are not edited.

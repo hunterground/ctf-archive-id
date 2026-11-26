@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-crypto-001
+name: berisik
+slug: 001-berisik
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: >-
+  Klasik, old but gold
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ji4xuu
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Cryptography/berisik
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 478ed8ae8a3fff528d0eb3c14ee702e03285ffb385505b69c83a90b1cfa577c3
+  - path: chall.py
+    algorithm: sha256
+    value: 484d9846be7fbccc745596d781c7df22f054e53a523f1e7ee27ff188efb84036
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: berisik - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The attachment list names chall.py, which is the source file shipped in this directory.

@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-pwn-001
+name: My First Ever....
+slug: 001-my-first-ever
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: >-
+  Just a simple pwn challenge
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: zran
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/PWN/My First Ever....
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fa63478886277c85c15ce4cda610afecc8324a36b30cffcc29f7cd446f4c12ef
+  - path: handouts/chall.zip
+    algorithm: sha256
+    value: 7feba25bb8d5cf6f47b69382338ed4ea8435e18f689733bbc6764ef2f483a3e8
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: af15003ad7f197768652b7ca8083b492c5c2a818a65c2f8b4fd0f27bd56812b2
+  - path: source/chall
+    algorithm: sha256
+    value: c216fd49ecbb8e3bcc8f43f93bec139a509aa3ef0ee3fa26b36e9e7a3d63d137
+  - path: source/chall.c
+    algorithm: sha256
+    value: 388cf7f29ded6fa4aba01c9e4290f3ae162b8db568c1969c8a58e96079854673
+  - path: source/docker-compose.yml
+    algorithm: sha256
+    value: 83ec3bc22dd7cc54ddc0a96dfa2804f8caf8944bbd8ee6031536fe16c795adab
+  - path: source/flag.txt
+    algorithm: sha256
+    value: ae06d182879bfb30340fcfc9c2dac7ca462b80cfde3f59b9a0fdb67aecfd7b37
+  - path: source/xinetd.conf
+    algorithm: sha256
+    value: ae99530efc0a595a2b783e821d60764d5054d261a2b7960633e7f9d5acc43b85
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: My First Ever.... - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The source directory name ends in an ellipsis; the slug is 001-my-first-ever.

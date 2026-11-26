@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-rev-001
+name: Login
+slug: 001-login
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: >-
+  I could've sworn I just logged in yesterday... but now I've forgotten again. Can you help me get my credentials back?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Reverse Engineering/Login
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall
+    algorithm: sha256
+    value: 4de0b93c44ea49b4e2651640f8e52a0f231d85210b44cfb2683201f6dd15a5da
+  - path: readme.md
+    algorithm: sha256
+    value: 5cc7cae76af1f4b99fd260854c0e76e9634d91c5b1954e77403572a3035ecbc3
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Login - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  solver.py was moved to the mirrored solvers/ path as author solver material.

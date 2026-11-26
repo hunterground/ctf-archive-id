@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-web-002
+name: micro PDF
+slug: 002-micro-pdf
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: >-
+  check out my brand new micro pdf header adder.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: agoyy
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Web Exploitation/micro PDF
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f21ed596581d162c5908a2754a9bd531e9742216d15a505320b643f97611f029
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: e3b8418e21b74fcd4aa5ae8e60e56da248912d1f7dc822da665b9435d070f337
+  - path: dist/composer.json
+    algorithm: sha256
+    value: 905ada88653e9b9e01a206804f47be766503144f6ec2e51a342a04ec01db4a21
+  - path: dist/composer.lock
+    algorithm: sha256
+    value: 160888fc21ff4ca5bc07aa94c9cdb42ea406048f3e9f683d3662c642be17adb0
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: f7828ccb6d4fb1e4b7e15f9639bc0bc90a284b39637cc6e362bc8c461c87bc15
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: f00773a9487db116daffc501fcb627a50f6795a464f52f6389d22a795e7a7c52
+  - path: dist/index.php
+    algorithm: sha256
+    value: 8090a4ae2092286961a2e794df0a12737c5a46ff7b1a632b5ec6b497aff23a66
+  - path: dist/nginx.conf
+    algorithm: sha256
+    value: 2978cc01614fda7c5f3d92acffcfbcbb06850e0766ab221d0fe41e43166c171e
+  - path: dist/process.php
+    algorithm: sha256
+    value: aff52c09179af9e1a9499e7f225bdfff52bf4ed053ec159e152635a1fa3e83a9
+  - path: sent/chall.zip
+    algorithm: sha256
+    value: d5e94f01682a316d29e5b46a6413ead430442d9a0f2b1d7d77c769a409ad887e
+  - path: solver.png
+    algorithm: sha256
+    value: 266f839b02814e38527e088031e582d09f7e9d999b818472613e3efd07735715
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: micro PDF - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The README heading reads hehe while the challenge and directory are named micro PDF. solver.png is a screenshot of a solve rather than a script, so it stays in the distribution.

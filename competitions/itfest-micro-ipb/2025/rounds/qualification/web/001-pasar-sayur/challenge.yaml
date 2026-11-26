@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-web-001
+name: Pasar Sayur
+slug: 001-pasar-sayur
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: >-
+  Pak Budi baru saja membuka toko sayuran online pertamanya bernama Pasar Sayur Segar. Sebagai developer junior yang dipekerjakan, website ini memiliki beberapa masalah keamanan. Bisakah Anda membantu menemukan flag yang tersembunyi?
+difficulty:
+  value: Medium
+  source: organizer
+tags: []
+authors:
+- name: ardhani
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Web Exploitation/Pasar Sayur
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 6ac4695dad9912634661a1a39727a24e31f2d58e94d753c270e1479873cc6f28
+  - path: Readme.md
+    algorithm: sha256
+    value: 12f26fcc7189cadbb4244da893bd08d1a4c279ddc556aa445e6be6ce1fa5753a
+  - path: app/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: app/app.py
+    algorithm: sha256
+    value: 6fc6ca18c3adc031c4bc041347a5f2f2517db980f03a21757decc36f8847eff0
+  - path: app/requirements.txt
+    algorithm: sha256
+    value: d914a42d52883be2d93c48ff450497f9f7e9ff0cccfab1aeb4c085c381216f57
+  - path: app/static/css/style.css
+    algorithm: sha256
+    value: bc165be125f4a0172c0ac6ccbc96d74d1093af0cb0c2bef6c96c97b9a7794eaa
+  - path: app/templates/admin.html
+    algorithm: sha256
+    value: a32364e76735c5f9dec3a300375764a7e18b6eaae17e255f17f71f27316d77b9
+  - path: app/templates/base.html
+    algorithm: sha256
+    value: cf602259e11f26e340eae8bf497c296c58fd2c323feaab6c035ad8d6197bcfd5
+  - path: app/templates/blocked.html
+    algorithm: sha256
+    value: 1e28e46cd3252318922a309ccba30588ffd99cfb8df1dcb9f269afe276910d30
+  - path: app/templates/cart.html
+    algorithm: sha256
+    value: 4c31b126d2ebe305fd6b9e093f8b64aabee174eb7b24d7c9b430e03be73e5799
+  - path: app/templates/index.html
+    algorithm: sha256
+    value: 8928b6b3e8514ef83cbe4274becc93f676bcdeb47244c56aaa065551f2f7a221
+  - path: app/templates/search_results.html
+    algorithm: sha256
+    value: 8e2202b9dece604542588f4541b4b6ca1766392c793b54bd68857e690e3645aa
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 41dce7d7ea0e534be7380639779c30a5518b7562ddd4a51bc6b4982ed48969be
+  - path: flag.txt
+    algorithm: sha256
+    value: 01c5201ab4de2b17f59b837b7ac848c43d9c5f4efc2e83cc5d9343eafa1b3c41
+  - path: manage_docker.sh
+    algorithm: sha256
+    value: 4f08217bd14e5fd8db255c8f08888465cfc93b873d58c39e235cf1cb33367b8d
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Pasar Sayur - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The organizer Readme.md states a difficulty of Medium and an unspecified point value. manage_docker.sh is deployment tooling shipped with the challenge and is preserved.

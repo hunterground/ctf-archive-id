@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-forensics-002
+name: maelstrom
+slug: 002-maelstrom
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Digital Forensic
+description: >-
+  John has captured a stream of confidential information and mailed it to his colleague... But that's as far as we know.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Digital Forensic/maelstrom
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 319f5170dc06a21a3fa1525f7ede1015ea4f08be1e982ec97e723f178113a46a
+  - path: maelstrom.pcapng
+    algorithm: sha256
+    value: 6435606f7027abd8e3603b23c28ff1d7f58bcbe09d9a232022fb46a897a041e1
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: maelstrom - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The README embeds a full solution that reuses the qualification challenge loser; it is preserved verbatim as organizer-published material.

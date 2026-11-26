@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-forensics-002
+name: bad-pdf
+slug: 002-bad-pdf
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: >-
+  I just downloaded a paper for my AI research, but it looks suspicious. Can you check if it is malicious or not for me?
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: k1nomi
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Digital Forensic/bad pdf
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 061dc2808bbfbafafdc3bb323b18294867242898f8a86178a9439fb14cb30550
+  - path: paper.pdf
+    algorithm: sha256
+    value: 565603778f283d0711b6bfe6a5e0395bb88dbe9a193bad63d6fa5db2f9341ff8
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: bad-pdf - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The README heads this challenge bad-pdf while the source directory is bad pdf.

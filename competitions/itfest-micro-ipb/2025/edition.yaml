@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025
+competition_id: itfest-micro-ipb
+year: 2025
+name: IT Fest 2025
+status: completed
+verification: corroborated
+dates:
+  start: '2025-07-24'
+  end: '2025-08-23'
+statistics:
+  participant_count: null
+  challenge_count: 28
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+- title: IT FEST 2025 announcement with the CTF timeline
+  url: https://www.infolombait.com/2025/06/it-fest-2025.html
+  type: organizer_announcement
+  accessed: '2026-11-27'
+- title: Tim PETIR BINUS University Meraih Juara di ITFEST Competition Kategori CTF
+  url: https://socs.binus.ac.id/2025/09/25/tim-petir-binus-university-meraih-juara-di-itfest-competition-kategori-ctf/
+  type: other
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >-
+  Round Structure
+  - Source and Breakdown: 28 challenges were imported from cybersecurityipb/micro2025 (commit 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c)
+    across three source directories, mapped to three rounds: warm up (6), qualification (12), and
+    final (10). Category totals are crypto (5), forensics (6), misc (5), pwn (3), rev (6), and web (3).
+  - Dates: The published timeline places the warm-up and technical meeting on 2025-07-23, the online
+    qualification on 2025-07-24, and the onsite final on 2025-08-23. The edition range starts at the
+    qualification date because the warm-up is a preparatory publication rather than a scored round.
+
+  Preservation & Artifact Handling
+  - Solver Material: Five author solve scripts were moved out of the distributions to the mirrored
+    solvers/ paths. Author scripts whose filenames do not carry a solver-script name stay in place, as do
+    participant helper scripts and the TCP1P scaffold starter code shipped with the blockchain challenge;
+    each affected challenge records the case.
+  - Submodules: The repository .gitmodules declares forge-std and openzeppelin-contracts under the
+    AuditTime lib/ directory. Neither is present in the committed tree, and both are recorded as
+    omissions on that challenge.
+  - Final Web Category: Final/Web Exploitation holds only a readme.md and no challenge, so the final round
+    has no web category directory.
+  - Flags: Several originals ship flag files, .env files, and READMEs stating the flag. They are preserved
+    as part of the original distribution and never copied into metadata.
+  - Missing Artifact: qual/Reverse Engineering/dameyo contains only a README upstream; nothing was
+    substituted for the absent binary.
+  - Licensing: The repository publishes no license file, so every challenge records redistribution as
+    permitted under the standing archive maintainer instruction for license-less sources.
+
+  Duplicate Candidates
+  - comin: warm up/Web Exploitation reuses the Agrihack 0x08 challenge already archived as
+    agrihack-ctf-2023-qualification-web-005, and ships a stale CtfD challenge.yml carrying the old
+    agrihack flag. It is imported as the IT FEST 2025 publication with that lineage recorded.
+  - AuditTime: final/misc/AuditTime carries contracts identical to the HackToday 2025 qualification
+    challenge archived as hacktoday-ctf-2025-qualification-misc-001, differing only in flag and service
+    port. It is imported with that lineage recorded.

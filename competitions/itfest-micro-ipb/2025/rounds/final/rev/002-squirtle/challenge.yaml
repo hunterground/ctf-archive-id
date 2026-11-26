@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-rev-002
+name: Squirtle
+slug: 002-squirtle
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: >-
+  my friend told me to try his new AR app, but i dont trust him since he fools me twice yesterday.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Durrr
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Reverse Engineering/Squirtle
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f9eb1f7f15fe2e918d1bc0bd044fbd9c81638176af4ebafa8004e062b72efce9
+  - path: Squirtle-v0.apk
+    algorithm: sha256
+    value: 024b6a4292549ed7cb36e7ec5a18f5cc050eb9cb9d8a6da2a44b987b67c14f9b
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Squirtle - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The release is an Android APK. At 76 MiB it is the largest file in this import and stays under the 100 MiB per-blob limit.

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-final-misc-002
+name: BadGov
+slug: 002-badgov
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: final
+category: misc
+original_category: Miscellaneous
+description: >-
+  http://103.160.212.3:24378
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: ZafiN
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: Final/Miscellaneous/BadGov
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: d35f722f22b9878b9ea61cf900ab5dc0d0dac040d780aaf811d23d73fddf3924
+  - path: Dockerfile
+    algorithm: sha256
+    value: 2bfc6ef8e9c23c5fcd416fdfce4244922d2796a4ab424a014a1d3ab75884548f
+  - path: README.md
+    algorithm: sha256
+    value: a739b1a4f7953e1175017890144475f0dc35ee3abed84fdd82efbc820b85f322
+  - path: chall.zip
+    algorithm: sha256
+    value: 814e1076a931cdcf1dd618561484be7b7128631f462c0f38508d9d5490cd599a
+  - path: contracts/Gov.sol
+    algorithm: sha256
+    value: 7b36c3c93774a187b7f02cd2377261a6e5aa066d0a7bd08457c8666c80601216
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 9e6e29f79a710d87fc950f36374d46d4c907289446f2dab69daeaacadb2f3798
+  - path: contracts/SimpleBank.sol
+    algorithm: sha256
+    value: df356be6e43beaf61dda8dcaca3b50e7f48b34b8056c2f96beaec73b1660dbdc
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: ba0ada6a6781945cc44a46af172d8fd50007ad08890eddad67ad6e939c8dd2c5
+  - path: deploy/requirements.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: dc7609344dc4b94bdfb01bfa2bd84ec4f3d11fac05663cdc8796c6dd83b7b783
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: BadGov - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  The organizer README heads this challenge FreeFlag, the same heading used by the neighbouring WarmUp directory. chall.zip is the participant release archive shipped beside the full deployment tree.

@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-misc-001
+name: melodi
+slug: 001-melodi
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: misc
+original_category: Miscellaneous
+description: >-
+  pengen buat musik buat dia yang menunggu aku jauh disana... P.S : wrap up dengan format flag ITFEST25{...}
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: asburg
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Miscellaneous/melodi
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1baf091c0c10630e7bf8240ed19c4d208a1883f9562d07f74fdda0a0643c658c
+  - path: flag.py
+    algorithm: sha256
+    value: 0bcff31039a76597d9c52e6445c1ef7817a6f155a4a3384e40aae5a481447dcf
+  - path: melodi.zip
+    algorithm: sha256
+    value: 13dee94f69211b4c2a11511fb740e84b756dd8a1099219cc07656133b328c3d0
+  - path: midi.py
+    algorithm: sha256
+    value: 8879c988b6b5430a80ad857507cb5165dcc9ac425b6010b8681b7340a5f68859
+  - path: notes.txt
+    algorithm: sha256
+    value: 355b3691661d08d7530efc67e69f8c5cb76da02841e49af1e4afb64a4065a5b8
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: melodi - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  flag.py and midi.py are the author solve scripts, but neither filename matches the archive solver-script pattern, so both stay in the distribution under the preservation policy.

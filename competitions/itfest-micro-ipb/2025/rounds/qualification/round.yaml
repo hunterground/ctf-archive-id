@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: qualification
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+name: Qualification
+original_name: null
+sequence: 2
+type: qualification
+delivery: online
+description: >-
+  Online qualification stage of IT Fest 2025.
+dates:
+  start: '2025-07-24'
+  end: '2025-07-24'
+statistics:
+  challenge_count: 12
+  participant_count: null
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Twelve challenges in the repository qual directory, held online on 2025-07-24.

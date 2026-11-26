@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-warmup-web-001
+name: "Inject Me!"
+slug: 001-inject-me
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: warmup
+category: web
+original_category: Web Exploitation
+description: >-
+  Can you help me test my website? I think it's safe... but maybe you can inject some commands. Just take it slow cause I'm a bit scared of injections.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: warm up/Web Exploitation
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: c4a56655d1c57cb1e992835cb67776442e002f781d562b348c830fcd24ef7448
+  - path: challenge.yml
+    algorithm: sha256
+    value: 48b9c3237c1a6a51c2554563a2315d483f8ff165bce1f75d797fe74d523aad13
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 0675a9b19f116a4e332317d8cf96e182e847a2b91a88397253b96445be46035f
+  - path: flag
+    algorithm: sha256
+    value: 673ca729a42b11cb9c69908cbf7a78f800d02cfac34cda44bfdf4e8f57733a2b
+  - path: readme.md
+    algorithm: sha256
+    value: 5cb7b50b9b03095b3adb53be86efd2dd7ffd881791d2b20ffc322890ecb5c04c
+  - path: src/index.php
+    algorithm: sha256
+    value: 846413584f1c5c03bbef930d8c1fe7118e265c95c4fba391a8a291897b968eed
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: "Inject Me! - IT FEST Micro IPB 2025, Cyber Security IPB."
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  This directory mixes two generations of organizer files. README.md and the flag file describe the IT FEST 2025 challenge Inject Me!, while challenge.yml is a stale CtfD config left from Agrihack 0x08 that still names the challenge comin, credits ardhani, and carries the old agrihack{...} flag. Both are preserved verbatim and the archive takes the challenge name from the current README. The PHP application is the same one archived as agrihack-ctf-2023-qualification-web-005 (comin), restyled.

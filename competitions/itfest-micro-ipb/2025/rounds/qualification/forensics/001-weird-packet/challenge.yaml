@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itfest-micro-ipb-2025-qualification-forensics-001
+name: Weird Packet
+slug: 001-weird-packet
+original_name: null
+competition_id: itfest-micro-ipb
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: >-
+  Hmm, this looks weird! This PCAP file contains data from a strange device. Each packet is hiding something. Take a look, troubleshoot, and find out.
+difficulty:
+  value: null
+  source: unknown
+tags: []
+authors:
+- name: Nikoo
+  team: null
+organization: null
+provenance:
+  archive_id: micro2025
+  source_type: git
+  repository: https://github.com/cybersecurityipb/micro2025
+  commit: 7127bc9aa0b2a8a4fe6702aed0e8aa7ca2da0f5c
+  original_path: qual/Digital Forensic/Weird Packet
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.pcap
+    algorithm: sha256
+    value: f32dbfe537ea35240d1718aa68e52701ca27ef8cd94e77eacc4363f972d16c60
+  - path: keyboard.py
+    algorithm: sha256
+    value: c10c60881b78f691006ad6d1fb7a74218d0c86edb15d74ae1afd86ef69d8b72b
+  - path: mouse.py
+    algorithm: sha256
+    value: be8a9f383396e019502ce05174a7bd60852c1c4c4f7aa1b69e25b56d455b7673
+  - path: readme.md
+    algorithm: sha256
+    value: fec36b9a66450288f7a17b9c43584e312ff1bf3def3af4c68cfd20dd13ff61c4
+licensing:
+  declared_license: MIT
+  copyright_holder: Cyber Security IPB
+  redistribution: permitted
+  attribution_required: true
+  attribution: Weird Packet - IT FEST Micro IPB 2025, Cyber Security IPB.
+  permission_reference: >-
+    The upstream repository publishes no license file. Redistribution is recorded as permitted
+    under the standing archive maintainer instruction of 2026-11-22 that treats a source without a
+    license file as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: micro2025 challenge repository
+  url: https://github.com/cybersecurityipb/micro2025
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  keyboard.py and mouse.py are participant helper scripts that the README tells solvers to write or adapt, not author solutions to this challenge, so they stay in the distribution.
