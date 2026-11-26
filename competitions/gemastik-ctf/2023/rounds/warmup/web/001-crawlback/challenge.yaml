@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-warmup-web-001
+name: crawlback
+slug: 001-crawlback
+original_name: crawlback
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: web
+original_category: null
+description: A PHP page that fetches a user-supplied URL with cURL and saves the response into the backups
+  directory under a random name. The URL is passed straight to CURLOPT_URL with no scheme or host restriction,
+  so the service will follow non-HTTP schemes.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- ssrf
+- curl
+- php
+- local file read
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/crawlback
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 4af60b2bff514b1556a5eafa25db2f8b01336bea9862a01480a846f8eb0e1ed8
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 59e3565cbb1c98c479dcbceb96ce15291c9ad537f15294bb8b6a5fc406f464f0
+  - path: src/crawlback.php
+    algorithm: sha256
+    value: 84b0b2865612f21d7c474cbfdc448ee94cc3bcca29e805fe6b40603f8f730d55
+  - path: src/index.html
+    algorithm: sha256
+    value: 14425720bf873ee2d11ce7299151c2c45f260e9b8999d40fa9dc6889541fb450
+  - path: start.sh
+    algorithm: sha256
+    value: 349a080df0116e7255fc143f8d02a9d6685043eb2bdd1f31f964bcdd356baa10
+environment:
+  type: docker-compose
+  services:
+  - crawlback
+  requirements:
+  - PHP
+  - cURL
+references:
+- title: gemastik-xvi-final - services/crawlback
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/crawlback
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVI attack-defense final. The setter README lists it with author
+  vidner and stage warmup; the repository gives no challenge category, so the archive category is a best-fit
+  classification from the shipped crawlback.php. The setter exploit requests file:///flag.txt through
+  the crawler, confirming the intended primitive. The service directory ships its own docker-compose.yml,
+  which is preserved unchanged at original/docker-compose.yml; the shared services/docker-compose.yml
+  is not additionally copied here.

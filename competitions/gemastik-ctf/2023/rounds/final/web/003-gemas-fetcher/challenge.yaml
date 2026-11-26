@@ -1,0 +1,3001 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-final-web-003
+name: gemas-fetcher
+slug: 003-gemas-fetcher
+original_name: gemas-fetcher
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: A website that fetches a user-supplied URL server-side using curl, wget and the Python urllib.request
+  module. Before fetching, the URL is validated and its scheme checked with urllib.parse.urlparse, rejecting
+  the file and ftp schemes. A leading whitespace character makes urlparse report no scheme, so the check
+  can be bypassed.
+difficulty:
+  value: medium
+  source: archive_curator
+tags:
+- ssrf
+- urlparse bypass
+- cve-2023-24329
+- python
+- file read
+authors:
+- name: ganezo
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/gemas-fetcher
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e8c3380f5ac1b21faa4a7bc7c0839f69c46405791164b3f454cb123f467cb0c6
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ae99c74fa58095da8aa657b3a471093f5f103b84ca1d6e3670acfcac1dc72f8e
+  - path: src/UI/assets/css/custom.css
+    algorithm: sha256
+    value: 7ce8290ee40e2af1cff150168a9f1182a3b4dad0cf90d7f7895107ddf007e95d
+  - path: src/UI/assets/css/email.css
+    algorithm: sha256
+    value: 6f6c14e23838101fe448525680d79c38cc12fc10e820608647096e61151275d4
+  - path: src/UI/assets/css/emailReset.css
+    algorithm: sha256
+    value: ebc337169b375885d4d90290706abf7b28a1cf0255a32c8b0859035999800f14
+  - path: src/UI/assets/css/emailVerification.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/forgotPassword.css
+    algorithm: sha256
+    value: bae97cb8f646a2959ee4e476bf12c6df5c97bb944c5f50933e81542a7727f898
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-brands.css
+    algorithm: sha256
+    value: 5c25196bb5092f7c98d4a5c6a71c87b5a6d6dd0978d05ab8ee12726c1a8b6e6a
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-brands.min.css
+    algorithm: sha256
+    value: d8190d83d7771bf8199a44ec8b47bcecbab1a9c88fc80f5c7295089ed063c6b5
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-regular.css
+    algorithm: sha256
+    value: e9c80fa2d8480e52b7f71931596db7f79d1c54cac6df195b36b4e0b9a6f40949
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-regular.min.css
+    algorithm: sha256
+    value: b2007dcf01196b68f0edb65d42ab995daacf389cbf27952d9bb8dce38d6f2020
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-solid.css
+    algorithm: sha256
+    value: d92e3934fe40fa2060b4e8891aa02b7962c062034df00fae419f1697998e984f
+  - path: src/UI/assets/css/icons/font-awesome/css/fa-solid.min.css
+    algorithm: sha256
+    value: c09e0062c8f31ac6f72183febe76fe283cf447fefb9dfc0d07936b639c102679
+  - path: src/UI/assets/css/icons/font-awesome/css/fontawesome-all.css
+    algorithm: sha256
+    value: 847dfe19ea4595e35ee10101a171024a5e1884061a392adc7fd0e1cc8ac290ff
+  - path: src/UI/assets/css/icons/font-awesome/css/fontawesome-all.min.css
+    algorithm: sha256
+    value: 62c4897a2d3f54072d2d3cfe3768fee1f0588e954296136e76b8a735e90e6d59
+  - path: src/UI/assets/css/icons/font-awesome/css/fontawesome.css
+    algorithm: sha256
+    value: c07b38c80c99f4d8497bc6d6512134e0fd77fae3d78217ed27d1b804330aa6e6
+  - path: src/UI/assets/css/icons/font-awesome/css/fontawesome.min.css
+    algorithm: sha256
+    value: 51d4635874d764b9fe6613cde8c562c93d90bd76f76af129473d2d4d3aba2b9d
+  - path: src/UI/assets/css/icons/font-awesome/less/_animated.less
+    algorithm: sha256
+    value: f446ada66a6b4bf8aa0f8fe758ac102681c51c72dc5435ddf130925047986914
+  - path: src/UI/assets/css/icons/font-awesome/less/_bordered-pulled.less
+    algorithm: sha256
+    value: 17804b4461241a065431915a4ec37dce0cf965369fc8beccdea6669a38312357
+  - path: src/UI/assets/css/icons/font-awesome/less/_core.less
+    algorithm: sha256
+    value: 8db7df626745bee55aad044ea8f43c23744fb485e8370f23dcce1a2d1e439a1f
+  - path: src/UI/assets/css/icons/font-awesome/less/_fixed-width.less
+    algorithm: sha256
+    value: 4ba4fa8dadadacb454b0bc48f367caa9f35ad3a1b579cd03cda1ff6cca16eaee
+  - path: src/UI/assets/css/icons/font-awesome/less/_icons.less
+    algorithm: sha256
+    value: bdac0c7873637eff98fc0358d2c96109aa58c06da1f9f647ff34317844c403e8
+  - path: src/UI/assets/css/icons/font-awesome/less/_larger.less
+    algorithm: sha256
+    value: 00319aa2ba58e8604536e16b1613aa63c9854d8cfb09e60caad00b0795c0393d
+  - path: src/UI/assets/css/icons/font-awesome/less/_list.less
+    algorithm: sha256
+    value: 44f15f89884733884c4350a4ba5a0450715c5b4621d86936d8cf5528988f1ceb
+  - path: src/UI/assets/css/icons/font-awesome/less/_mixins.less
+    algorithm: sha256
+    value: cbd9b11cdc97963f8effb3c398ecb076bf7d81d3ef72acbb841741488bb592db
+  - path: src/UI/assets/css/icons/font-awesome/less/_rotated-flipped.less
+    algorithm: sha256
+    value: 659f1b1ee7844924b9a31cf5797143c12e7b1433210344cbb8d1bd35c788af5a
+  - path: src/UI/assets/css/icons/font-awesome/less/_screen-reader.less
+    algorithm: sha256
+    value: 4e5596feeae316f16d0cc57593c372d82fe0d033343f53acaaeaf1c1c7634e68
+  - path: src/UI/assets/css/icons/font-awesome/less/_stacked.less
+    algorithm: sha256
+    value: d2d2994de6955f4ea1095305737abcbe7b2f5b20283cdfb0d72da8377a66ec97
+  - path: src/UI/assets/css/icons/font-awesome/less/_variables.less
+    algorithm: sha256
+    value: f3d68b39d1f3c57da32c2451c083a13ea6f62a5b00006914f35d6039a7e55572
+  - path: src/UI/assets/css/icons/font-awesome/less/fa-brands.less
+    algorithm: sha256
+    value: 96c9e008ae751b11b5031f5bfdd7d5dd0313a9b92b0c72a61ce869de51d3728c
+  - path: src/UI/assets/css/icons/font-awesome/less/fa-regular.less
+    algorithm: sha256
+    value: aa10c95217ae045d14813ab69c2ea1448c1c3663671fb043518d7d67ab5a8342
+  - path: src/UI/assets/css/icons/font-awesome/less/fa-solid.less
+    algorithm: sha256
+    value: 5d5f605627ef12919c2eaffaa7587e8705b908f779751a5a7b78492681b11fc9
+  - path: src/UI/assets/css/icons/font-awesome/less/fontawesome.less
+    algorithm: sha256
+    value: f9c8c9567add6813813ca7621f882dc1c9daa9a58bc6be5bc1135c7216992574
+  - path: src/UI/assets/css/icons/font-awesome/scss/_animated.scss
+    algorithm: sha256
+    value: 77d54abae78936ce6d9cfe5725834ce09b44be1c8845eff25d6ee00c161126df
+  - path: src/UI/assets/css/icons/font-awesome/scss/_bordered-pulled.scss
+    algorithm: sha256
+    value: 9124436c19a63bdd0c6d14426e64176164c0aad1382b586ad946c4f9440fb3a5
+  - path: src/UI/assets/css/icons/font-awesome/scss/_core.scss
+    algorithm: sha256
+    value: 90f1e230d3ee090610a42084bad1d57cf1b5ed718fd53674f50fbbedee4e1cf8
+  - path: src/UI/assets/css/icons/font-awesome/scss/_fixed-width.scss
+    algorithm: sha256
+    value: d53138ed84da5bb1aac5c0992eca75728e6f7faed98e88baacf0d9c2c66bb49a
+  - path: src/UI/assets/css/icons/font-awesome/scss/_icons.scss
+    algorithm: sha256
+    value: 0be7790258c2f89f90d629292ab0409b22f569038bbb2a7d37c5e01c6e87a391
+  - path: src/UI/assets/css/icons/font-awesome/scss/_larger.scss
+    algorithm: sha256
+    value: 8e349fcb28056dfab5653530e97ece7353648e793d78daab6b41d8fc50b9d73a
+  - path: src/UI/assets/css/icons/font-awesome/scss/_list.scss
+    algorithm: sha256
+    value: 0cdc541051b137134f08d85553d91c327d6cb262b8cd89a4d56e105142e63600
+  - path: src/UI/assets/css/icons/font-awesome/scss/_mixins.scss
+    algorithm: sha256
+    value: 6465f97b73dcf0d02f3bd98b598af60eff59e4d148969e07f85960fe5ca2d313
+  - path: src/UI/assets/css/icons/font-awesome/scss/_rotated-flipped.scss
+    algorithm: sha256
+    value: 33ac91c848cd96d8cedec1b5c8e3420e8a859b3cbe1a1b3077046d4029168995
+  - path: src/UI/assets/css/icons/font-awesome/scss/_screen-reader.scss
+    algorithm: sha256
+    value: d4f1eb6a5989af71bd6d2588dc2263210ab2098f4ad8dcc50a7b7bb30fc071e0
+  - path: src/UI/assets/css/icons/font-awesome/scss/_stacked.scss
+    algorithm: sha256
+    value: 8c3dbe8391dd57a78c85ae8b930ba8e749d8ddf912bc1f0e3c1809fdf723cd65
+  - path: src/UI/assets/css/icons/font-awesome/scss/_variables.scss
+    algorithm: sha256
+    value: facbfcd5e2e2912e212832d842955209d73f3b0086f7b8d1afb661f0e899845b
+  - path: src/UI/assets/css/icons/font-awesome/scss/fa-brands.scss
+    algorithm: sha256
+    value: 3ab99f42ed23ed34c6cd1b77e79b9a1371630055e6fd85199b0a0bfdfd4c0418
+  - path: src/UI/assets/css/icons/font-awesome/scss/fa-regular.scss
+    algorithm: sha256
+    value: 662d8c856ac1bee42ede86c47e33c43d0942cde6d4034a067a6e958f59595f9b
+  - path: src/UI/assets/css/icons/font-awesome/scss/fa-solid.scss
+    algorithm: sha256
+    value: 37ebdad6a1f8b103ad01b3912ec64640e462aaf2a87877170dbcbbd1fb828763
+  - path: src/UI/assets/css/icons/font-awesome/scss/fontawesome.scss
+    algorithm: sha256
+    value: a161a7de86c5c358d0882b54e8e12014b1173a51258165637e7bcd81c1f8b86a
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-brands-400.eot
+    algorithm: sha256
+    value: b9c345f4fa1349aea117ed753492783a632513f2dd75dc86942cfbc630c84d05
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-brands-400.svg
+    algorithm: sha256
+    value: 7ca6855ab8311a5faced07aad5cc2f32f2b3e061865a8456867e2840262975d7
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-brands-400.ttf
+    algorithm: sha256
+    value: 8c507886294992429a98e9382dd1557ef1e7d4a45d6a7bbffa9771e839190c23
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-brands-400.woff
+    algorithm: sha256
+    value: a25479bdac618c6b4f32a3f60bedee6b4fe759db1500c790eab5f94fdeb59f92
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-brands-400.woff2
+    algorithm: sha256
+    value: 9ae2326c389ddbc93a2636b121456333152931549bd5bd16a5cd2ee24e601c16
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-regular-400.eot
+    algorithm: sha256
+    value: 33a8657a09af038500733bdaf969d8928b48475f26020cc35ca7193a53fcbedc
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-regular-400.svg
+    algorithm: sha256
+    value: 01429b1152fcb0cb2f5d5b41a030715de4f27124cbe3b3f5a301f3a4d75ca878
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-regular-400.ttf
+    algorithm: sha256
+    value: c25d1ee715f6ca69202404165aa0942709ff14d1bd99f9df5b124522d42077ef
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-regular-400.woff
+    algorithm: sha256
+    value: e4d56ba6fcd7b99e7e83ee13aa2cecbf6391bc9965d18f43a13bec2957ecd851
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-regular-400.woff2
+    algorithm: sha256
+    value: b2bb708d78f9ce7490251f676f8f8f6dadc7e8d7e4b3d1ab560a4c1130b0c460
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-solid-900.eot
+    algorithm: sha256
+    value: 31bb4aa00b5293474c3d74e67a316442a8de04a5331edb3e9e11349b7355fcec
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-solid-900.svg
+    algorithm: sha256
+    value: d1b1b2c6d5f6b434eee18cdc06c34e09fbab8b2719f1f824726d4d0c526df951
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-solid-900.ttf
+    algorithm: sha256
+    value: 7cf25b1d45ac4436b575e86dcafdd37efc5faeab3bdad3144a9af3b7eae4b48f
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-solid-900.woff
+    algorithm: sha256
+    value: e20ab4de8913d1e569c3016c5c5aecfd6589f2bff211c387f2d0422d9123ae2f
+  - path: src/UI/assets/css/icons/font-awesome/webfonts/fa-solid-900.woff2
+    algorithm: sha256
+    value: 08f7874f8336b47e49d9719c38cea16cdea6362962f5001db3f2d0bb47332357
+  - path: src/UI/assets/css/icons/material-design-iconic-font/css/material-design-iconic-font.css
+    algorithm: sha256
+    value: f4df7bb5cfb7418b04bf71e1bd9a9b7d445fb39f41020b8220de7ca7fa905256
+  - path: src/UI/assets/css/icons/material-design-iconic-font/css/material-design-iconic-font.min.css
+    algorithm: sha256
+    value: f82205acb5df2ccc0f3f37c6d75ae056f81d8b098eed61179d59e6ddbcef3597
+  - path: src/UI/assets/css/icons/material-design-iconic-font/css/materialdesignicons.min.css
+    algorithm: sha256
+    value: fdcf84411fe9448aed02d7c68257d088fef2a96cb16f63b94f9fbcc2b624b3c8
+  - path: src/UI/assets/css/icons/material-design-iconic-font/css/materialdesignicons.min.css.map
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot
+    algorithm: sha256
+    value: fb37e1e79a43463400e850747a5c32e0b116a7b2bba3335a600e12fd4bd9d47a
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg
+    algorithm: sha256
+    value: dcb3de1ca419903bcee5322ca91f2895b9c6482919423e0cce263d62bbe171ea
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf
+    algorithm: sha256
+    value: 18a45be2ecb66ce217c3bbccf219f8bdc05dc76d61a6e63673186efd1c7cda1a
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff
+    algorithm: sha256
+    value: 7c74c136895350e927bf69fe9fcb9f33fe9fae6340709d6ec4f8cb838a9470a3
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2
+    algorithm: sha256
+    value: e8eea96e29a7c0a72612ab85ca3229979666467a28349642c2176e7189a1a39c
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot
+    algorithm: sha256
+    value: 6b3532b27c5426cacf7a79b9c190d9e1d91de31e97dcd0916528a413d11e1c19
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg
+    algorithm: sha256
+    value: 27a62f539758ec60c60415bb48b7bb090ed569e4e096014b601b90522af93757
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf
+    algorithm: sha256
+    value: 8715f57c1bbb714438c8b2dc0cedc4db65a37488fc39e23d4fe4c9eb9747dd17
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff
+    algorithm: sha256
+    value: 9204d732b3aee325cb38b45b6a28340a37e5a23c442624498544516d71f6788f
+  - path: src/UI/assets/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2
+    algorithm: sha256
+    value: 4ce10e24ee02c9e4e08f79885f0c5f955a266cf41eee5fa11c0404101d19feae
+  - path: src/UI/assets/css/icons/themify-icons/fonts/themify.eot
+    algorithm: sha256
+    value: dff415daec911b65dca5be02071a1825b75508ff158de5b8d85976957db931cb
+  - path: src/UI/assets/css/icons/themify-icons/fonts/themify.svg
+    algorithm: sha256
+    value: 2e2421027bbae2dddf9dd7f0374ad7eb9c3d75fbfa12eb64d32100d377eecf8c
+  - path: src/UI/assets/css/icons/themify-icons/fonts/themify.ttf
+    algorithm: sha256
+    value: 350663a4665e00072c68a87ad3fa0be47b8a91424127f5f3e09f664197295f01
+  - path: src/UI/assets/css/icons/themify-icons/fonts/themify.woff
+    algorithm: sha256
+    value: 0db5c5a1475eb7a3e5028983ea1e642d1b2c00faff6a250a37502b0f3832a4a7
+  - path: src/UI/assets/css/icons/themify-icons/ie7/ie7.css
+    algorithm: sha256
+    value: f9d20d0a75478737c8b114e53d213a5acd192924a19470733b8527ff2b62c3a3
+  - path: src/UI/assets/css/icons/themify-icons/ie7/ie7.js
+    algorithm: sha256
+    value: fbb0aeb4c0ee0d1c46be0df45fc2125ba803132efd16b9c1e403bc666a188b59
+  - path: src/UI/assets/css/icons/themify-icons/themify-icons.css
+    algorithm: sha256
+    value: 31f79b00718944ec9b7c7893844e636433bf36a69a50aa13327634660768ffab
+  - path: src/UI/assets/css/icons/themify-icons/themify-icons.less
+    algorithm: sha256
+    value: c59694c22c6203ab3fe9e2983d0c2827ba1df2fdc3e2cb1832c93417ade1a939
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons-core.css
+    algorithm: sha256
+    value: 80489cec09c020c72affc43f4c86e0f902ae472bee3fee294ee5a1d287fdef9d
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons-variables.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons-wind.css
+    algorithm: sha256
+    value: 65776cf0a6f8a6b8b3431169d41fb673828cb9e33ababa36b795720172fb1db8
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons-wind.min.css
+    algorithm: sha256
+    value: 65776cf0a6f8a6b8b3431169d41fb673828cb9e33ababa36b795720172fb1db8
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons.css
+    algorithm: sha256
+    value: f47e793c723478e995993f5317d1640136b119d1ae3c3932ef9e24629e0db6ca
+  - path: src/UI/assets/css/icons/weather-icons/css/weather-icons.min.css
+    algorithm: sha256
+    value: 9d9963ba0c97ea82e30cca16602d58656501e06a6ec45ed6244f16e5911712cb
+  - path: src/UI/assets/css/icons/weather-icons/fonts/weathericons-regular-webfont.eot
+    algorithm: sha256
+    value: 3afed4f78c201830d945410a7e27a9feb483282555b2870aafc99d2db65f4c2c
+  - path: src/UI/assets/css/icons/weather-icons/fonts/weathericons-regular-webfont.svg
+    algorithm: sha256
+    value: 6832c6004ed47a6832b67681382d3e3b0674449ee8135fa4863a5a435c51adfb
+  - path: src/UI/assets/css/icons/weather-icons/fonts/weathericons-regular-webfont.ttf
+    algorithm: sha256
+    value: 176bda6661f213dde47c2114d76e476ec8ca9aae07dd54f9550d2d28fe02b4fd
+  - path: src/UI/assets/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff
+    algorithm: sha256
+    value: d4e90136fa6f4b26d5613c85b84f823af1d7b34fc3d2e3549740b3aea510caad
+  - path: src/UI/assets/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff2
+    algorithm: sha256
+    value: 9327647771c09df82095dba3591c77cca41a9cedca948ae01e7fb70c690dcbd5
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-beaufort.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-day.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-direction.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-misc.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-moon.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-neutral.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-night.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-time.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/css/variables-wind-names.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-beaufort.less
+    algorithm: sha256
+    value: 3bb357ad15e0d8324ccdd6d310a4f579bd233913d873a98b750909b6e84501fd
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-day.less
+    algorithm: sha256
+    value: 95c5015608c085efa8f76adff97e991418bc32c4dc9ec1cbf35b707d084b1c39
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-direction.less
+    algorithm: sha256
+    value: 2f7fc16623e3a1e7636e288a61fe03a228e3837351fce8c74c36a458e5c152b8
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-misc.less
+    algorithm: sha256
+    value: cfc5ec8e27b3bd3ab8330c74cbf6b43e5595b26fdfd77de9241dc971ccc37be8
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-moon-aliases.less
+    algorithm: sha256
+    value: a14068bac4f809bd2f62b93aa890f38ee5f1ffc81da625c67aad960029746583
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-moon.less
+    algorithm: sha256
+    value: 3878e0bc4ff746cae614f5408d010c72afc44f7b6614f67dee17535d5c8e84cd
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-neutral.less
+    algorithm: sha256
+    value: a8b0955c148118be9868aa4b132361d83ed335c41d5c845e5dd461c6150329bd
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-night.less
+    algorithm: sha256
+    value: ed739d3c048bf8b76d138e78450286094435c30382695ac05a3afe5203c5b7fd
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-time.less
+    algorithm: sha256
+    value: dfddca2882f009410eb4b859e2a854779cb568b054d03ff6dd4165ddde1431e0
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-wind-aliases.less
+    algorithm: sha256
+    value: 294bf8d7204a318914bf44181adea1d698de233ed28bd311a10df59234c66f26
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-wind-degrees.less
+    algorithm: sha256
+    value: c43e3db0d1326138dabe176fa0a96ab1524e29094e2b8f23b84df499a1c6bcd9
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-classes/classes-wind.less
+    algorithm: sha256
+    value: 708017aeb2a4b89c2cdf41bdcd231b5ff4bedc4b04c8363c538c2e381dae4f92
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-beaufort.less
+    algorithm: sha256
+    value: 7ba2bd0c1dff2edadc45eabb7fe692f82c7a2f796ce0a9346de8e310fdac1627
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-day.less
+    algorithm: sha256
+    value: f50d1c90977b4bbcaa8c9d10d643dfa02e6111d54ce7c423b0a168d5af6567ec
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-direction.less
+    algorithm: sha256
+    value: 9843e2d23a2fda88a5d29486fc3ec3d2558d9d4852427bfba40995047acde8a9
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-misc.less
+    algorithm: sha256
+    value: 2aa8c6ea2f20f650a499cba8a1f9110084610418cb9d3b3403cdc74925710706
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-moon.less
+    algorithm: sha256
+    value: 613a3bcb3156c8b452e7acaf20ea06b1e8e56a3fa31fe9e02af743e811aca874
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-neutral.less
+    algorithm: sha256
+    value: b129a95a5076887cb0dbe26b70e7f3a64eb7897e04b987a52abf4f79f3cf405d
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-night.less
+    algorithm: sha256
+    value: d12714802494b017b341fc8c6b34f85a9bc0f32f5e52dc5b0c7e9f234339caee
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-time.less
+    algorithm: sha256
+    value: 8aeba57992933e26c0f44a1c1a4611c4bbfbd14d06995973160123a117531c24
+  - path: src/UI/assets/css/icons/weather-icons/less/icon-variables/variables-wind-names.less
+    algorithm: sha256
+    value: 14daff8ae31da3a71904093d9cfd41e4c11d622c70766ab206e2102ad9251dcc
+  - path: src/UI/assets/css/icons/weather-icons/less/mappings/wi-forecast-io.less
+    algorithm: sha256
+    value: 43fab15277d37a426e454ce5250dd60b184b9098b588f570efb22884f120f571
+  - path: src/UI/assets/css/icons/weather-icons/less/mappings/wi-owm.less
+    algorithm: sha256
+    value: 0f4e48c6070cc6f0be1d0d826f7233b1394fb8aed3f4905bf17bd8aaad44ed52
+  - path: src/UI/assets/css/icons/weather-icons/less/mappings/wi-wmo4680.less
+    algorithm: sha256
+    value: 31d6171cccd3435cb842ccbd385b9704ea200cb2c046a7724c0b7608409eab75
+  - path: src/UI/assets/css/icons/weather-icons/less/mappings/wi-yahoo.less
+    algorithm: sha256
+    value: 31c3df078c9874bcf1528e7dd0f84b12bc5ee5a3d86577d276317910b6f31e9b
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons-classes.less
+    algorithm: sha256
+    value: 4101f03d45b94af57803fd68d59b37cbb4f944a5093bd84a0ec2a7ecf57d5f21
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons-core.less
+    algorithm: sha256
+    value: 253175e5a142d1a3c4aed7eb93bbb75c821ac32a95b8816adc16f60b38fcc9d3
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons-variables.less
+    algorithm: sha256
+    value: 715ee1351a8008a4295ee569c7082aba321cb4d64c418840bad5b73374593bef
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons-wind.less
+    algorithm: sha256
+    value: 58b3d05d75e3293b8e1e39de98527ae043b82ee27a6a938bee7f29b4d31eceb9
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons-wind.min.less
+    algorithm: sha256
+    value: 58b3d05d75e3293b8e1e39de98527ae043b82ee27a6a938bee7f29b4d31eceb9
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons.less
+    algorithm: sha256
+    value: c648db9c05bf23087bf56675339b6a8161bfa5676a4ad5a28859924516cdbb1a
+  - path: src/UI/assets/css/icons/weather-icons/less/weather-icons.min.less
+    algorithm: sha256
+    value: 6e675d0493f752f48f2000004da3185ec4ef3176e6df49985552d7d064aec27a
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-beaufort.scss
+    algorithm: sha256
+    value: 1a126bdfab4674b550d20cbc0f32589aa33647463f8638f528fd3dad1ccd8478
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-day.scss
+    algorithm: sha256
+    value: ee12cc94fd17ba0f062deb67c27c1e8f9da21a6a2e9dc292fdd8f8238e0c0017
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-direction.scss
+    algorithm: sha256
+    value: 192154709b3e653477be2ccd818974332d9c952fce9685df342ac046688c5956
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-misc.scss
+    algorithm: sha256
+    value: b69c4517d375369935f73ad3680b5cac9720a187b24817ee4f00a0e4a1031bf9
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss
+    algorithm: sha256
+    value: dee75ba99b14e631d72b12bd010030e9073ce1851134d9b6b73a5cfd73345227
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-moon.scss
+    algorithm: sha256
+    value: 3ed9d8fd73a1a5005fcb371a8f3f061f1dd2f71cb10fc1488c010c924029729f
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-neutral.scss
+    algorithm: sha256
+    value: 2388bb12bc67d41589a1bf2b81a6450274b38b9b5a4fba3e1e72b59441a279ba
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-night.scss
+    algorithm: sha256
+    value: 00d509048c307694b4bada8fb042c8cae118c94c840e845339c0f860ff431d36
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-time.scss
+    algorithm: sha256
+    value: 76c6757ce93a4388d398cd2c0547d9b06dbfee02db7528d356d4b65dad4be5a4
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-wind-aliases.scss
+    algorithm: sha256
+    value: ec34edc15b5835c84dbd904f72d678d1a47dc24e1021751c5c9087bdef283b4b
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-wind-degrees.scss
+    algorithm: sha256
+    value: 2629936e384e264c34bbf9dbbc49fd17e994b5dce3ef39936b3bae2a5afcd498
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-classes/classes-wind.scss
+    algorithm: sha256
+    value: 794e0b295cd6475b4e148c0df9580143197778d047c244612b60a2bb651ab5b4
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-beaufort.scss
+    algorithm: sha256
+    value: a3cea6928accf93a5a6ef0b0adacd62e0c3914532187a1c94668936e326c358a
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-day.scss
+    algorithm: sha256
+    value: 7aace95282894ab64031fcc034418236b3095df9829f71a2d9b64312cc040bb5
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-direction.scss
+    algorithm: sha256
+    value: 922528e00c2ff0ccca961defde6c691f905a9443373a64e6ce6f896a8042235f
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-misc.scss
+    algorithm: sha256
+    value: 99957493b4d4e04bef547ed40525066ba74e131fc5c928d37d5825546637bcfb
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-moon.scss
+    algorithm: sha256
+    value: 69dff5d5d5d6aee6232f2c97f9be120e99ff10650dfed40e3a9a188a4af89d0d
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-neutral.scss
+    algorithm: sha256
+    value: 85fd1454a84c0b0e33ce110335e4ba2c54b082b308aa3677e0e2fd2b30e71835
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-night.scss
+    algorithm: sha256
+    value: fe421993863f4fc47d614048cfd666844bd71b1364deb225eb36299729b9d255
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-time.scss
+    algorithm: sha256
+    value: 9f7de84ab8513c5262a96878fc34ab237663fb92167dc5fb3e3bc503bbde227f
+  - path: src/UI/assets/css/icons/weather-icons/sass/icon-variables/variables-wind-names.scss
+    algorithm: sha256
+    value: 793ef23c383f06ced4dcb04b166426e1f8ecdc0b41146ac3ab7c860640792f41
+  - path: src/UI/assets/css/icons/weather-icons/sass/mappings/wi-forecast-io.scss
+    algorithm: sha256
+    value: f5980ecc558a18c25f7d469677f3eb76fa653ec16d0b99ae1321831931a5a15e
+  - path: src/UI/assets/css/icons/weather-icons/sass/mappings/wi-owm.scss
+    algorithm: sha256
+    value: ff5838d219c44c01c6a11d25fc071c00e70a9190978c5bbeea7d346aca38303b
+  - path: src/UI/assets/css/icons/weather-icons/sass/mappings/wi-wmo4680.scss
+    algorithm: sha256
+    value: 902117cb0c8380b97d068b65286d8799ae83957d8aa55d866513b16e81abd23c
+  - path: src/UI/assets/css/icons/weather-icons/sass/mappings/wi-yahoo.scss
+    algorithm: sha256
+    value: eaefd19501a81e47a9a5237a82f4ba1be85bf4769186023636d20a5effbb53da
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons-classes.scss
+    algorithm: sha256
+    value: e85d8aafb0d7b8dcbf5049d6adbaae4f0b27b36faf1d0a5895152354e2d50918
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons-core.scss
+    algorithm: sha256
+    value: 5b568d01973aa654bce3b2d099e8cb702797670f271a04f9642c49438e8c8e70
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons-variables.scss
+    algorithm: sha256
+    value: afe8fbf1ee27d4ae7254ff0f42b06672f15979f297008bde34a28b3e30937b87
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons-wind.min.scss
+    algorithm: sha256
+    value: 0d505956c2a58ea5370c6318fe54dcca92a31499c2fcb680e38f632c6e2a6ab9
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons-wind.scss
+    algorithm: sha256
+    value: 0d505956c2a58ea5370c6318fe54dcca92a31499c2fcb680e38f632c6e2a6ab9
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons.min.scss
+    algorithm: sha256
+    value: 22734a145839972adc55a74ec4e93f7c7c0377413eaa45b6afc3132f190bc6be
+  - path: src/UI/assets/css/icons/weather-icons/sass/weather-icons.scss
+    algorithm: sha256
+    value: 8c7cffd848549b28d3899ece35069f891c3d69f86a50db81b4bedc7defa0dbcc
+  - path: src/UI/assets/css/login.css
+    algorithm: sha256
+    value: 4a050da60e04794519a0dd825834c92867442d42494660154e74669347794570
+  - path: src/UI/assets/css/materialdesignicons.min.css.map
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/css/newPassword.css
+    algorithm: sha256
+    value: 09053669f4815b46311fe2b65792b337bf55ff35c75804280250c2f53cdfcf10
+  - path: src/UI/assets/css/owl.carousel.min.css
+    algorithm: sha256
+    value: 062368677bcefd9495e8b320e0cf22c4faca9f1bc04666efeb9cd5307cd591a4
+  - path: src/UI/assets/css/owl.theme.default.min.css
+    algorithm: sha256
+    value: 505fff817f37d43899275853aa6d6f4f3644b6abe2c420ad9cd6caab1ef147cb
+  - path: src/UI/assets/css/progressbar.css
+    algorithm: sha256
+    value: 2be3c47458509681bf7741d2133b54a9c263eddb651d5770e4fd5ef9294abcb3
+  - path: src/UI/assets/css/signup.css
+    algorithm: sha256
+    value: 330ebd6977b18f76f84499f4adb3570dcc325cbd937aaeb99cbafd3262833a47
+  - path: src/UI/assets/css/style.css
+    algorithm: sha256
+    value: 93916fda9dc4d4ff5cc2a534a4aa28fd5059b7f35d119daf43f47c996929cf0e
+  - path: src/UI/assets/css/style.min.css
+    algorithm: sha256
+    value: d6a3c3dbc487306fc0d15436d36bd47e62a7d730a0804e1ac1fd330c899fa2ec
+  - path: src/UI/assets/css/stylev2.css
+    algorithm: sha256
+    value: 5866982bf9b8dd5255da5f69ee367054bd9c45ec2ab389f5600d0bdc61dd5692
+  - path: src/UI/assets/css/terms_and_condition.css
+    algorithm: sha256
+    value: 173c7083e53843cf042a659ab4ef5059b281dfd812bfb7367cf1fcaa0cff1351
+  - path: src/UI/assets/css/toastr.min.css
+    algorithm: sha256
+    value: 84ca3e8a523eec4cdbaf6cb0b0bb08728c33db96a20c0a62800211b3104ccbe3
+  - path: src/UI/assets/css/verifyEmail.css
+    algorithm: sha256
+    value: cea2f81223ea7a9cb0302a919232a4eeb0c5d00c3c5144029622410290634b31
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.bootstrap.css
+    algorithm: sha256
+    value: 764696ac3e435b8b76521da64556ce6956f1e9c36af227408dc92f4a839c21d6
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.bootstrap.min.css
+    algorithm: sha256
+    value: 8d43531a474a3eb71ffe09637d0aeed4e445431958f48d2bf1b2aedba243e398
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.bootstrap4.css
+    algorithm: sha256
+    value: 75a9b77ed25f8f05e607a96e33b8a1e4dc49bf5fd5368c23c4b5e448dbdbe83d
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.bootstrap4.min.css
+    algorithm: sha256
+    value: b4ec08d5a11ec2db2ca55fa26d4b6c0e5ebcc2f32d5266ad6a8ac01b7a13f6b1
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.foundation.css
+    algorithm: sha256
+    value: 08be284f81cccdcd15fe836c8fa7d03413d6c0c50dd950b402e68f7a5e3144ea
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.foundation.min.css
+    algorithm: sha256
+    value: 23d5d69e9e0ad6429e7b20c606e1916dd205e5d54c7dc2039589609d4fe8c200
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.jqueryui.css
+    algorithm: sha256
+    value: 356f55c3d1b1bcdb028eed2f3783449eb4ddd051e5fc6d0e6e4499763f3e7488
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.jqueryui.min.css
+    algorithm: sha256
+    value: 1932c93781ec01dc5f2132ab76a5febc430a175fb06db224526f92c78f4bd6ef
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.semanticui.css
+    algorithm: sha256
+    value: 556d93a0c5bf081162aad809487c4e16d764173ee88e09d2c1a1d5f7e2d519c9
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/dataTables.semanticui.min.css
+    algorithm: sha256
+    value: 03c49a92cba608d34d1604cefbc58cc93b8202048ca5216f76681e6faf8d5724
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/jquery.dataTables.css
+    algorithm: sha256
+    value: bd59682b4c88ed5b7f4b0234a5753306e5d50753e1727ac59eb9a75cf4e726d6
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/css/jquery.dataTables.min.css
+    algorithm: sha256
+    value: f4efd3e4b3ca3fdf440d1d6449293309fe3e7593bcc6b4d8d53a567955487e4e
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/images/sort_asc.png
+    algorithm: sha256
+    value: 595704c3f3cf4cb65c7d9c8508a99e7480e150095473faed31a07c21b13389b8
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/images/sort_asc_disabled.png
+    algorithm: sha256
+    value: a65b8f4f84d6427a81c360282fc5394d51bf99dada5f159e6aa0fce3c396825c
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/images/sort_both.png
+    algorithm: sha256
+    value: 3e016c23ae51417382b640ae2d19eb48047532c37ad53894bd185586559ccffb
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/images/sort_desc.png
+    algorithm: sha256
+    value: d08ed0e21f187dd309030d465224da8085119a15a17d616ba0e477bb50c6f10d
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/images/sort_desc_disabled.png
+    algorithm: sha256
+    value: 6c0f0c1b21ef6807057afc8ddc1a925d1dbd21cb11e9270ec84ff4ac40d9a3fa
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.bootstrap.js
+    algorithm: sha256
+    value: dca5b08df2a752c521a354da5e50c0b2fb57351136d0c7a2c7c96d08785fdc3d
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.bootstrap.min.js
+    algorithm: sha256
+    value: 689ae4252c3d7515f8a251c6a2f6bdc438bc160a1755e86a5d1bb15e627f3278
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.bootstrap4.js
+    algorithm: sha256
+    value: 98873169e9df80abd9d390e00178665d087b1c2f3a6c5b025621b46f0bc3c4aa
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.bootstrap4.min.js
+    algorithm: sha256
+    value: d68c007a1f5b75670a6b4f7f29f922240682dcf147d4d0530c7395f01a3bc59c
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.foundation.js
+    algorithm: sha256
+    value: 060b469458e50f1e807ee047c5a284b05e7c02e2630c9c74eb718ab06814d36c
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.foundation.min.js
+    algorithm: sha256
+    value: be9c2eeb4c76ef472418de2da3bd2e40cc28e3262767cbede0d5079ae175c4d5
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.jqueryui.js
+    algorithm: sha256
+    value: 90dc9dc1c2b07a7ee7aa2af110bab11d4b11650bd8c01e77b03e4ba58eab976c
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.jqueryui.min.js
+    algorithm: sha256
+    value: d79b0be37a02747eaf16ef4b39d4cb6f6d55872f2512fbb5573f06c2884615c8
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.semanticui.js
+    algorithm: sha256
+    value: f00efec5e6d678500599fa9987894ddaa090875dbd815a42833c05db12646dac
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/dataTables.semanticui.min.js
+    algorithm: sha256
+    value: 091e9577a9bdbf856e09f27ca4f285c3698448c3ae7dab475355fc3f8037385d
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/jquery.dataTables.js
+    algorithm: sha256
+    value: d074035317d5458d6acce8cae389d89df65660f3e033d0f81b297276e95cbf8e
+  - path: src/UI/assets/extra-libs/DataTables/DataTables-1.10.16/js/jquery.dataTables.min.js
+    algorithm: sha256
+    value: c9ffca389c62eb07a086392044ac140b2941d39c7653541c209d4b671e9786d4
+  - path: src/UI/assets/extra-libs/DataTables/datatables.css
+    algorithm: sha256
+    value: c807da43355d28fd33225e4a77dbd4a324df23620b07c6f425d28cdf31f61922
+  - path: src/UI/assets/extra-libs/DataTables/datatables.js
+    algorithm: sha256
+    value: 3a40b8840e006d039b20c8a1628511223775c721d8e54d39e4a0442027f0e55b
+  - path: src/UI/assets/extra-libs/DataTables/datatables.min.css
+    algorithm: sha256
+    value: d7ccc7fb572accc369b4f5b52f2ada75451b00d3999c7aab01f2b65457502322
+  - path: src/UI/assets/extra-libs/DataTables/datatables.min.js
+    algorithm: sha256
+    value: bd04ff7ffdb9d153a517d36dfc910ef0ab301ed4f0a15e80ffb4fc1eef83937e
+  - path: src/UI/assets/extra-libs/calendar/calendar.css
+    algorithm: sha256
+    value: 4267289ab9a5f6041dbef77a188a3e82dbace693489320304b7d1dbfc8e78330
+  - path: src/UI/assets/extra-libs/gritter/jquery.gritter.css
+    algorithm: sha256
+    value: c481d9b1b517c8fd628244ad87c41fed5c602e003101b8e017628a56fff8cd16
+  - path: src/UI/assets/extra-libs/gritter/jquery.gritter.min.js
+    algorithm: sha256
+    value: 802a043b94d19833ce4aa912fff8afd566dae3b6700e6e5f7157477fd9707563
+  - path: src/UI/assets/extra-libs/multicheck/datatable-checkbox-init.js
+    algorithm: sha256
+    value: 2bbc437fcd89dfd1e07a4d999e09041ef259b39d4f1252db1d20b5e1a806bd56
+  - path: src/UI/assets/extra-libs/multicheck/jquery.multicheck.js
+    algorithm: sha256
+    value: 616b26a32ae700a386505178a6b92e9f9aaea4967e7103cc3d5031496da85bc0
+  - path: src/UI/assets/extra-libs/multicheck/multicheck.css
+    algorithm: sha256
+    value: ccc21ad22122cd1e1d0122022c6264b63f6aa9ce2b5c196aaaae5ae3811e7d18
+  - path: src/UI/assets/extra-libs/sparkline/sparkline.js
+    algorithm: sha256
+    value: 6a28a0750aa061146fcbed44822105d8ab1a4f6f302087416c938698ae4372df
+  - path: src/UI/assets/images/favicon.png
+    algorithm: sha256
+    value: 009fb67332cde4de9e27b7fd1396bf26a07ce416c0604f0a93da87175890c72e
+  - path: src/UI/assets/images/login/login-banner.png
+    algorithm: sha256
+    value: 403a42b41581139f86af8974649b8371c1e4f8a87bf1db9d434029345ba887d8
+  - path: src/UI/assets/images/logo.png
+    algorithm: sha256
+    value: 009fb67332cde4de9e27b7fd1396bf26a07ce416c0604f0a93da87175890c72e
+  - path: src/UI/assets/images/users/1.jpg
+    algorithm: sha256
+    value: dcfe7dffda93ab1e6f635c1ecf6024f9f07fcb0c6f4aaa9600456953b8f58a90
+  - path: src/UI/assets/js/app-style-switcher.js
+    algorithm: sha256
+    value: c29978b7c6f346d5d324666cbdb471fd301ea0a77919166d7dd29bec2f329e1e
+  - path: src/UI/assets/js/custom-sweetalert.js
+    algorithm: sha256
+    value: 8b28f3a446d768d9c24fa14ef141e988baf04bfffd28aa566e09e5f54f792ff3
+  - path: src/UI/assets/js/custom.js
+    algorithm: sha256
+    value: 6256f1e5b791f197fb6c9a971d8e175129ef98a28bf3b3e59eb20f9d5f94ceb7
+  - path: src/UI/assets/js/custom.min.js
+    algorithm: sha256
+    value: 46b994680a96107851f7254a63c948019043ae34dffc6817fb6499ebcef35eff
+  - path: src/UI/assets/js/jquery-min.js
+    algorithm: sha256
+    value: de4b3c3d1dc2506b6693f0f98884e1dc074cda9d66cab39b7b48a115fdfc4c0f
+  - path: src/UI/assets/js/jquery-ui.min.js
+    algorithm: sha256
+    value: 21cacca8e9eb98f1f32702b4176685f2f941af51ab5bc7cf88ccb5435a1bb080
+  - path: src/UI/assets/js/jquery.ui.touch-punch-improved.js
+    algorithm: sha256
+    value: 9084f790bf00de773ef4851e263234414316e1a8c50cfcbc39af6d5bdbdec267
+  - path: src/UI/assets/js/owl.carousel.min.js
+    algorithm: sha256
+    value: 4e0781bdd2cbb5db04da3b5e059eeca34e325fabb893bee7457b5babf5b7c029
+  - path: src/UI/assets/js/pages/calendar/cal-init.js
+    algorithm: sha256
+    value: f6514e8f7129e7ef7060e288378b1666138c8014a738bf95eb11b73354f73ade
+  - path: src/UI/assets/js/pages/chart/chart-init.js
+    algorithm: sha256
+    value: 6b4240af69dc923c4942aeb5c65b88bd80a42aa7cd143a96a85f4078502a82a5
+  - path: src/UI/assets/js/pages/chart/chart-page-init.js
+    algorithm: sha256
+    value: 015eab86c4c6b0b0f1d5dbc3d67f34421c3976b12b934521e3b1bb31fd553473
+  - path: src/UI/assets/js/pages/dashboards/dashboard1.js
+    algorithm: sha256
+    value: c7e2197f50f3886939e1b09dd6de98095ea04e6f5a10c9afaf73153691106f31
+  - path: src/UI/assets/js/pages/maps/map-google.init.js
+    algorithm: sha256
+    value: 18bd247baa7bc49cc1ee9d987b24b4ef99dd43a982174564828b6eb301daa944
+  - path: src/UI/assets/js/pages/mask/mask.init.js
+    algorithm: sha256
+    value: 751aa2412a958f5cd5515728178b281a4a4407b6b09d89c29a142b727ff73c68
+  - path: src/UI/assets/js/pages/sparkline/jquery.charts-sparkline.js
+    algorithm: sha256
+    value: 6001d99b43aa2ac175511e4f091c13dc31da986a97416ba908cbafcf92688305
+  - path: src/UI/assets/js/progressbar.js
+    algorithm: sha256
+    value: 5fbaaa6bcf522403b63fa45bfd0d22e2f3b5ef2c76f03fedda69177988a1f338
+  - path: src/UI/assets/js/sidebarmenu.js
+    algorithm: sha256
+    value: 35db40ed9587cf0f4914dc7c451954cc685b3892b2b696540ae5ffde3a1ad4e9
+  - path: src/UI/assets/js/signup.js
+    algorithm: sha256
+    value: b11adf4a8bbdeac0b67416ea7856e9b3c5695cc377f5f3cea2bc3f622cdf72bd
+  - path: src/UI/assets/js/sweetalert2.js
+    algorithm: sha256
+    value: 762bf223f0ddb5cdaf2e3b53d5d69c00720753cb3c7ca0c1d9497fce5ddfbc5c
+  - path: src/UI/assets/js/toastr.min.js
+    algorithm: sha256
+    value: f2bb0e8511764611ff0081b549ff188c326c7376bf86e28513782b0a48f9c7aa
+  - path: src/UI/assets/js/waves.js
+    algorithm: sha256
+    value: 3e7694476cefec5d25e6e94636aa321c79e0f1a71d2fbe514849c6bbc23ba249
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css
+    algorithm: sha256
+    value: 9118ea53e6d1925338b8ddfcefca41abf64257a42ff0b751d5f659a1cb200c98
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css
+    algorithm: sha256
+    value: cfc1dc1d3fe37a4c9873a9af302940d5b0936ba225978b1a3568576e4b089c60
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css
+    algorithm: sha256
+    value: b24b07fec68f1ac2c820fde30d74e14fbe8f5c380a9f526568ee6518e85c21ab
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css
+    algorithm: sha256
+    value: 4204383108b85a72b545d272bf42a7234f377867eff897b6db68f899bfe7b0a3
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js
+    algorithm: sha256
+    value: 2f0b180158232c0e21980cadad6f623d07dade880048ab9e8fb3c44b5181d0c8
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker-en-CA.min.js
+    algorithm: sha256
+    value: 88d7af014a3989a5e599c880990ca16a2b98b630bec0d57ef667b843832155a0
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar-tn.min.js
+    algorithm: sha256
+    value: e4edbe6626f99e36377a0e31cd682ad30daf8ad1e5670d88b36b6aa6b1e58175
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js
+    algorithm: sha256
+    value: bc3f566026d7e8a1e44c82f05db41c3b37a48369bd9b4f0ca1072d6e2b846585
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js
+    algorithm: sha256
+    value: 3769b315f3bb67c1c00dba648a23629b876bdae69c974a78a2950efbea69fb51
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js
+    algorithm: sha256
+    value: 2cf635470d48da4c65cd84c0ed5eb8f5b9ce3435379d25b98331d1896db3f7d4
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bn.min.js
+    algorithm: sha256
+    value: 2d6539c95381b6744603d34fc9b534cdb01cbcb29b175a1f0900ee7ad84cfdd2
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.br.min.js
+    algorithm: sha256
+    value: d6b9779d1bdfe623555f9d7a3d0b1cb85e6b1ce8234b44a6f873efa38b056a08
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js
+    algorithm: sha256
+    value: 1aa3000d5ff8f197e2331e749fe565968253a76d5d12b7db0e1ddc1b1d9b4917
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ca.min.js
+    algorithm: sha256
+    value: 4cf8d805d5ab6fb301019b382b84058de84eb806135281e77d584b3d745d9725
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cs.min.js
+    algorithm: sha256
+    value: a5b5bbba5b7c41c0e58a68fe250a65aec0a27aa0af43ff151abed9753b9ebfc7
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cy.min.js
+    algorithm: sha256
+    value: 81b6015bbc4c5b161ed24d13e4b620590e493722dff420630acc1679e9576c7c
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.da.min.js
+    algorithm: sha256
+    value: a95d43e040c1388e32c0cfc6cd900f1e71c147235730253ba8073475e2e91c3a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js
+    algorithm: sha256
+    value: 31183415d0c3aaf42443754850c642677f4ce8ee34929a0862a086536ad1cb11
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.el.min.js
+    algorithm: sha256
+    value: 0d8106513eac1e3b12ce4429a00a1cc512dceb01fd3c4723b3d00983e2a1ce0c
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-AU.min.js
+    algorithm: sha256
+    value: 4523224b228c2c04ecabe21eff0267d1079eb1b336f753cc57359cbd28aba4a9
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-CA.min.js
+    algorithm: sha256
+    value: 4ec9db635f69c4fbf861bc62d3b73876c79b04bece4931eae07b972e4a59d2db
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-GB.min.js
+    algorithm: sha256
+    value: cd654bbfdae375201455686da8951d195d4ee4e357a5730426c3a4a7b076819e
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-IE.min.js
+    algorithm: sha256
+    value: c6fbb6270fa9a060006e36a8ad2ae453af4b774f89f7f949b4789f80aa67e2d6
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-NZ.min.js
+    algorithm: sha256
+    value: 57d3f3f496f32a0250b88cc47bc9917ac12c6ffb59342196b8b9669723915fd7
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-ZA.min.js
+    algorithm: sha256
+    value: a6045120a3ba1e2d2fbab5c87de17eb3bba440c4a4b97314d47269ea0f9fa9a3
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eo.min.js
+    algorithm: sha256
+    value: e17f6cf02c53be65fefd50fe081eca19f723dd4e2d602d876ce513f4f8282e0d
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js
+    algorithm: sha256
+    value: 2b91beeea574b63b872f42e58425344ea40a47eed0c13f0c7c451ed948299916
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.et.min.js
+    algorithm: sha256
+    value: 0e4f7bea4a4d352bd65bb2502d946b571494657b060967c58fe994215c661693
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eu.min.js
+    algorithm: sha256
+    value: e1ec8a5aa4e4783cced5b349bdc5b6866995868f67d9d9dffd277e53fdb19d3a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fa.min.js
+    algorithm: sha256
+    value: 24e40109ba51e8c8c1209defd1194f413c7982e4a916f397a1604000426a17c2
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fi.min.js
+    algorithm: sha256
+    value: 1d2bbbbf5ea34d7c44422f6057be6299753503f2ed974f87212c3b1f3d284ddc
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fo.min.js
+    algorithm: sha256
+    value: 386f302d9f6f8ee668b901fb7b0eaa13b62f7bd452bdbbfa9669084183df1112
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr-CH.min.js
+    algorithm: sha256
+    value: 085eab6e0c48bbcbd2e638f667d421d506c6e51934f3f6ade3a753a836305ddf
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr.min.js
+    algorithm: sha256
+    value: 21189b4eeaad0efdae51437fd224eb867aefbf280d733c514406cf8026ecf8b1
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.gl.min.js
+    algorithm: sha256
+    value: 6d14b61864e25bde4651d6e9301ef30ad4fe72152e3ec4767bd0dbf11ebbfa6b
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.he.min.js
+    algorithm: sha256
+    value: fdecb70cc05725198cd18acb149e56d6230eda239b8edea395dd5843b10fe353
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hi.min.js
+    algorithm: sha256
+    value: 62db099971f7077f5df5393b5bfc8d95977dd7b7e79124f765fb8af09423beaf
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hr.min.js
+    algorithm: sha256
+    value: 83c37b51f57eb502265bc8e6e9bf90dc8616980a74808f340a1ae3d5f90d9cc7
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hu.min.js
+    algorithm: sha256
+    value: f69ebe694aeb97ac7253ef7f634f59642a44d9206b606cb112e473100db96a2a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hy.min.js
+    algorithm: sha256
+    value: 15ee7598e7958c48105e54b2ea49101cf26069f29c3710746d72e904f4a7aa4a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min.js
+    algorithm: sha256
+    value: 34d30d5bb774386a223b846aa0a49d2c272bfb413aae0bb586ace96248790483
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.is.min.js
+    algorithm: sha256
+    value: 153056aa7289787fc7ab4e4925fd1048bfb6d5786f7a75028963c5e67a2749da
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it-CH.min.js
+    algorithm: sha256
+    value: 6fea19a180da3b2b85eb07065d2505c0500caf72b4743c17bab06ce54c482a72
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it.min.js
+    algorithm: sha256
+    value: 435598b7cf4f40eab2feb770b7cb59974a28c0b8934d1525019caa5410d21b66
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ja.min.js
+    algorithm: sha256
+    value: 217d7cd9adb7862404eb9fa460e343d59217d95a65d1c1dbf7a83d9c9aaaa96d
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ka.min.js
+    algorithm: sha256
+    value: e2ecbafc29bfa80dc02ccc6957871db284990f06d7977e69b5f808d25b7974b1
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kh.min.js
+    algorithm: sha256
+    value: 4985f5e915c143f6526b53e34e2ba50947826ef6a4f6d9a8999d0a50fe48a5c7
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kk.min.js
+    algorithm: sha256
+    value: ad3c0e1dd4bfba0dd668edc61d8c85dc1c3bd309c250f924948a6ceea7ba327b
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.km.min.js
+    algorithm: sha256
+    value: 9b04d5b9ed6afde9cedcc75d58922c8aab1ca26d2836836f9cd18bf6fc81ea8c
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ko.min.js
+    algorithm: sha256
+    value: b73dde6e97f5518db024e7d8004628fe2204956966f8934fedc386b65a120163
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kr.min.js
+    algorithm: sha256
+    value: 1d4c26a2f0a170855c721d47d78a074d26894e84528dcefa31ce28d2895df546
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lt.min.js
+    algorithm: sha256
+    value: 7de02b56a859738d5058c7389ca0c9998bda7f4144a388f91bad18598974355c
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lv.min.js
+    algorithm: sha256
+    value: a469cea05dee22cffce1d37d2be678e64836da480fb8093eb21d13ecd87fb957
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.me.min.js
+    algorithm: sha256
+    value: aa27423db076b15f23768e1f88526b4429d39d1ce0747edb0822a60500a0525e
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mk.min.js
+    algorithm: sha256
+    value: 5b08b5ae87d53c276e129e946a5cce291597769335ac7cb019c68270ca2bf537
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mn.min.js
+    algorithm: sha256
+    value: 3a37b8a249d4df5133d3f63d4fbc7c1bd93ad589e0a787057893098ca9d2c02b
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ms.min.js
+    algorithm: sha256
+    value: 0596b9079335fbb03499dd33f6a3d351f26b9d8eafc920e70b7aa0cce218b760
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl-BE.min.js
+    algorithm: sha256
+    value: b2e8dd08e837b29f4deb7bf4efc0cc9de492fe5a68abcb9fce96b33660e8ad0e
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl.min.js
+    algorithm: sha256
+    value: 5deaf3439b1aa870cfc0e4a3ebbbc6d9e1f306aa8cbc5966fe79c21fc2366461
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.no.min.js
+    algorithm: sha256
+    value: 739333b52b37a5189df6680d7bf82b441a650c62b4f32c3e315d3eda19d3b7f4
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.oc.min.js
+    algorithm: sha256
+    value: 62f1a9429e7ab32bb9319efbdc1e6c58309b371d68f31c32b6d3f141e896d84f
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pl.min.js
+    algorithm: sha256
+    value: e1b2080ed6abc0e4214a137a484d19e7cee87df4e6e7ead3569dcd8f5e41cd11
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js
+    algorithm: sha256
+    value: 40de8a0d4fbd0c827ff4cd329d041fc3f3bdd1e7f4517b9c1a02a7d0b6d4b6ae
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt.min.js
+    algorithm: sha256
+    value: 3225a3ee2b733778fdab4859b169664fbbfbf0b4000ceb90aefecc60577b9172
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ro.min.js
+    algorithm: sha256
+    value: 6b7c25208293e20a195e7a5cbef9e0c7a150efaa6806900ae0cc66ef8a7a7139
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs-latin.min.js
+    algorithm: sha256
+    value: 695d64f1da727c6a9088e25b57afac7e4406e8e284195e8b7598cb81d48f39c2
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs.min.js
+    algorithm: sha256
+    value: c20d6c18a2e8f44f6227ef15a8569e5faf0e545f70a7b8e0471076ab105c070e
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js
+    algorithm: sha256
+    value: 8860d4c27d883d2ce59cb9557827b7338648c50c635280d87443baa01670fc6a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.si.min.js
+    algorithm: sha256
+    value: 568b891645c03f74c27aad4345ba2face1edb857b3023ddde6ec8790d1476a84
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sk.min.js
+    algorithm: sha256
+    value: 0b3f5d0ad33633dc20603a5f2d8f9e7320138bf51cc455160fed0db4f9bf778a
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sl.min.js
+    algorithm: sha256
+    value: d8bbd006d1ab998eec50a3e2807ea824b6998e100db693766a2d68d53ea52952
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sq.min.js
+    algorithm: sha256
+    value: eae39f48ae753b3fb5e57a3b73ad2a9c3fc7803ebfccff6da53b53721bbcf58f
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr-latin.min.js
+    algorithm: sha256
+    value: 3fd022b5db28110d71e94badfc5e691ad3c0b37794f60f064e794aa6c08212e1
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr.min.js
+    algorithm: sha256
+    value: 9b5a80293774449f573f8336855ae640b6e762014dca5648a939abc8a294d2ba
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sv.min.js
+    algorithm: sha256
+    value: 3f6d05040fc29037d111f5e3e3d7c3039cc33b491376687d325b3e2fdc62a47c
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sw.min.js
+    algorithm: sha256
+    value: 5cafe7e9c1d215b8c9378272a3fc0e067d08461d54099a0432b8cc7167b5fb08
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ta.min.js
+    algorithm: sha256
+    value: 798f2eab1b7421a626d25dff8eb04507ab417b01815b5702100847bdfaa50878
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tg.min.js
+    algorithm: sha256
+    value: d3d71839338b2ee3087b2102a807cbda9a7f4328f1018779acdf30c23ad2a6e8
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js
+    algorithm: sha256
+    value: c29b557f0da70d7174fc2d8af7ddeb93ef39b27e2fd69afa7f57e790c1b831f9
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tk.min.js
+    algorithm: sha256
+    value: c09c12730bce594fdff472392bef650c02d3f4c133e8f511c24f2fc900030abb
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tr.min.js
+    algorithm: sha256
+    value: 04217d7ef6e198dfc8f5ccfe5d47ad9ab0080f15d0dbb0a63869ebe183b30664
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uk.min.js
+    algorithm: sha256
+    value: 809fac07e9ae43238a853371fd7bed6975e412bf3c157492df1320b5547757e1
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-cyrl.min.js
+    algorithm: sha256
+    value: d4725859589e980eac3d34e3ebb281a42ebb1149c7566bf911c10c7b35db0161
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uz-latn.min.js
+    algorithm: sha256
+    value: 2886c3259ede7f3a678131d74265bcfca97aa40c84567494b7b67ccdb0475283
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js
+    algorithm: sha256
+    value: 4e732f79fe80c53f5f83a98dad3b190a03c3914e20e44c81fadbbaea82c02385
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js
+    algorithm: sha256
+    value: 4d67aee9b0a451f18fbddb1bb9757d6cd0a536a64147f595740e8af0a1554900
+  - path: src/UI/assets/libs/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js
+    algorithm: sha256
+    value: 1a613e1dd614aa635939cce659813558768de519640655eb30d7815892b1dc39
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.css
+    algorithm: sha256
+    value: fa8fb3835f52fdff239c6f4783e48c97f085b64a276c40d0625b0808142153de
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.css.map
+    algorithm: sha256
+    value: da45e1a557645a60c06dfa95e61ccb494ec6e0e5922ef6d8f883688535d4941a
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css
+    algorithm: sha256
+    value: fa05f478ec29045fb23ebf7826a7e9ec525b05670bfdb1fc25f7269fc246d8d3
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css.map
+    algorithm: sha256
+    value: 552b6fc736533af2201a7ef992d63e089727fc0d88d1b1c84a56cfd20b3a438d
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.rtl.css
+    algorithm: sha256
+    value: 17a6ae3e016f18812363099c581a60568939bdf4906467ea6b79648041c90ab7
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.rtl.css.map
+    algorithm: sha256
+    value: 0b175e0a6b154a7c073cce941e3728f3829133ca9302427525f5c25e9aa8cde0
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+    algorithm: sha256
+    value: bec66f48d15c96c387ecf50d2e104107a5f8e4bf3b9727724568f47b06534647
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map
+    algorithm: sha256
+    value: 08b63c5e70e89151ed273089234f01afe157a3385253213a6336791224e5109e
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.css
+    algorithm: sha256
+    value: 4c3393cc5e4097930260a45d9a04c1a8bf3b0643120c7e125af1c3cdd16546b1
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.css.map
+    algorithm: sha256
+    value: ca52fbc6e7448004509aa6b97a39be1c40ee3b05e13714251695aaca3dbda4d8
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css
+    algorithm: sha256
+    value: 05c355bbf68dcd59f50ac2850445fa4bb5370150d6a603c480eaa20734a35788
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css.map
+    algorithm: sha256
+    value: d1562899b47ab4a37a0a56a78964cef85b1063e29f04fecf2f3791bf3483bd99
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.rtl.css
+    algorithm: sha256
+    value: 5a65c57fab7e8f102fbf39c0888db59756ec0474b826ded261a487c45310e00c
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.rtl.css.map
+    algorithm: sha256
+    value: 75e138f55cab6d309faa12203829de6a91c948b7c7b13fdf10490cf1aa91b841
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+    algorithm: sha256
+    value: 113aab4c7d4bc757bdf0150106c5e632fc021363b73104d7381a58bfd00430ae
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map
+    algorithm: sha256
+    value: 24547fb23fff0e6ecdd0ac60b8ba6f07e3ffa74aed5cac2dcbfd683d084711d4
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.css
+    algorithm: sha256
+    value: 8c38cba666d88b6946b8ce68ff8c30b0db6f5eeff328f9f01e72e448ae1f74c4
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.css.map
+    algorithm: sha256
+    value: 226516fde222a790451b53cd505c5f797dfd260ddb8ee4e0e0b40e6ae4cafc48
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.min.css
+    algorithm: sha256
+    value: 8740fa53f0c9fdab546bf18ca00d84dd230251dabdcefaef6d5446d7cfe1dc01
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.min.css.map
+    algorithm: sha256
+    value: 3e9d5719161cbc74f1ac8c6e7486b9070c50ca3302ba16c1f09ddecd4e9493f6
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.rtl.css
+    algorithm: sha256
+    value: 9404102e12b64d1d4a9b277774988fdff751dc4ab7e094e885acb05d0008daa0
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.rtl.css.map
+    algorithm: sha256
+    value: 59c8a4c53a85d527ca634af83b05bce4a0bd6dfe0bbde25dfa3cb56675d794b8
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+    algorithm: sha256
+    value: cb187c7b4022b62857700c7fbea6d98ae216f8a0c203bc246241ad592073bfe0
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map
+    algorithm: sha256
+    value: d8b74e710db7fef4df279a3c61a6d7c30ce2757d4012a66038f6159845215e7b
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.css
+    algorithm: sha256
+    value: 852059bf5eceae541fb77a8512e352b0c5f26e3b9f27eb91c47a73e88244767c
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.css.map
+    algorithm: sha256
+    value: e3d805fa8f258505afbeac3b356db7977fb86b812403b40d11e4358c6d332357
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.min.css
+    algorithm: sha256
+    value: 6a669adda63d8e1d09a6455d7dc95bb126f27aa483d10f0b54ce14c303fa466f
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.min.css.map
+    algorithm: sha256
+    value: 907fdc5d5ea3bf6de43add9285f2af433d214c8dd60296fc48422a11f9539d6c
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.rtl.css
+    algorithm: sha256
+    value: a02d0cf104d191419322747bdd134ee4bccadd515dee048e528e27b416767fe2
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.rtl.css.map
+    algorithm: sha256
+    value: 0132eaa9000e603be5b08f18e7149bdbbb4bf50b023bfc752308b288cc079c8c
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.rtl.min.css
+    algorithm: sha256
+    value: 4af1e04118a5b53d828daa5b91f9647128ed28f85a2bed364b8db542a2873810
+  - path: src/UI/assets/libs/bootstrap/dist/css/bootstrap.rtl.min.css.map
+    algorithm: sha256
+    value: a49724ef5c08080d3e5a28555e2d88611599ee6488e54a13aca2ed541354e8eb
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.bundle.js
+    algorithm: sha256
+    value: 46b44668a6a143301d12ab081019b9d48f3a7188a7f2cf6ec995c171a3bcd90d
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.bundle.js.map
+    algorithm: sha256
+    value: 978f666be4fc820f274747a062a655c4ef594266d2a5f67bc72cdea827e1b044
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js
+    algorithm: sha256
+    value: 6fd9a7b3f4692ff54d61155781bee462c88e2989d00b40e2d7e3fe425cac736e
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js.map
+    algorithm: sha256
+    value: a2359d18ba672bbcc2d351d314a542a1a7c00c21cdf4467e99597a6a4bbe9788
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.esm.js
+    algorithm: sha256
+    value: 2cbc5a1149fb451f01d77f775053a12cbd9759d917fe153ca5f86a35a025fb3d
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.esm.js.map
+    algorithm: sha256
+    value: 01257d3ef4182ed291d321645386da18558566c007615f7dadc6f34b00e0a151
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.esm.min.js
+    algorithm: sha256
+    value: 6fc41fafcb8aa8833f776f3f89e6d609b60cc38b652e37c0032b804c62288d74
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.esm.min.js.map
+    algorithm: sha256
+    value: 998ada13335624a7ec8c650bfe18fc77b89cc0c8e43015f5ac12a34db17bdd56
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.js
+    algorithm: sha256
+    value: 6fe4aaeefa2567ef0698411e7e3b5d7657cbc5a42ad55d6c05cf48daa939d9b0
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.js.map
+    algorithm: sha256
+    value: 417f88ac8658e7abc2d04513b224595087bcffe41d31234cf780116a85bc5977
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.min.js
+    algorithm: sha256
+    value: da5a8e7b12eb38994c867304d3325b93b8b7cb4002499e9e9547c010a1420f2a
+  - path: src/UI/assets/libs/bootstrap/dist/js/bootstrap.min.js.map
+    algorithm: sha256
+    value: caa92ecba5f9ed9453ca723b7fe6e117658c912e38fbe3ed0622dcad794f58ee
+  - path: src/UI/assets/libs/chart/chart.js
+    algorithm: sha256
+    value: 71c03189b46c0d7f1d3e9e88b41a8e7a22b5808b5ee06d44d4980b42d308e6c2
+  - path: src/UI/assets/libs/chart/excanvas.min.js
+    algorithm: sha256
+    value: 79caea34115d2de801ad4c11743fb73b950358b12cc9c759eca844813422b89d
+  - path: src/UI/assets/libs/chart/jquery.flot.min.js
+    algorithm: sha256
+    value: cff5ae37f47a4f82645d3f2467d190dab85b4c4ce871399c9ed4b3c1066a514f
+  - path: src/UI/assets/libs/chart/jquery.flot.pie.min.js
+    algorithm: sha256
+    value: 7a6940f984aa37d5cfdb2633636e2923c9631c6cbffe1bcc8795a022a99fc2e3
+  - path: src/UI/assets/libs/chart/jquery.flot.resize.min.js
+    algorithm: sha256
+    value: 15fbf53a7e12b8c0fc0717ec0f33287ca795c6aa9b557ff1a3db4185a1a0e33e
+  - path: src/UI/assets/libs/chart/jquery.peity.min.js
+    algorithm: sha256
+    value: b66d204f7e1aca5442dbab53b9aaa564113771b2c7903d98b9114370ccf27876
+  - path: src/UI/assets/libs/chart/jquery.ui.custom.js
+    algorithm: sha256
+    value: a89f4f2b41867a660095bf53117eb54b6ab6df36c3941d71636e4f7e8dcafc41
+  - path: src/UI/assets/libs/chart/matrix.charts.js
+    algorithm: sha256
+    value: be0b0b1307ca4922b533fa37d3447157f5b7018884d84ccc34edd660b9c7b3e4
+  - path: src/UI/assets/libs/chart/matrix.dashboard.js
+    algorithm: sha256
+    value: faea47b9de81eee19c1595369c073b28f8ce59367d64c1e281da17e124741951
+  - path: src/UI/assets/libs/chart/matrix.interface.js
+    algorithm: sha256
+    value: 46cc28e5423840cb95813218aebc44c4ce729562a42e0b79b4b5ace99c8616e8
+  - path: src/UI/assets/libs/chart/turning-series.js
+    algorithm: sha256
+    value: 9c4d6e8f4c485209daa5e687c0e7cd97b47d864c72b9e62898ea35a0e324feaa
+  - path: src/UI/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css
+    algorithm: sha256
+    value: 75a9b77ed25f8f05e607a96e33b8a1e4dc49bf5fd5368c23c4b5e448dbdbe83d
+  - path: src/UI/assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.js
+    algorithm: sha256
+    value: 98873169e9df80abd9d390e00178665d087b1c2f3a6c5b025621b46f0bc3c4aa
+  - path: src/UI/assets/libs/datatables/license.txt
+    algorithm: sha256
+    value: b276bfea9f88e4ef83a01eed324f374aa1043e7aa9111c1e05414c99823fb0cf
+  - path: src/UI/assets/libs/datatables/media/css/jquery.dataTables.min.css
+    algorithm: sha256
+    value: 70b94d0ed6b8aeed9a4be328d61f54112e19a97fa4458c9e231b3611e1882e4e
+  - path: src/UI/assets/libs/datatables/media/images/Sorting icons.psd
+    algorithm: sha256
+    value: d3b4f6d2ee33519a88877cceac2ff21625d217c355c4882ef23abbbbef15e1a1
+  - path: src/UI/assets/libs/datatables/media/images/favicon.ico
+    algorithm: sha256
+    value: 6e1bbb9a62636471771c683fc0589a487f74296503c9e4b6d2d92e7fda3faff6
+  - path: src/UI/assets/libs/datatables/media/images/sort_asc.png
+    algorithm: sha256
+    value: 595704c3f3cf4cb65c7d9c8508a99e7480e150095473faed31a07c21b13389b8
+  - path: src/UI/assets/libs/datatables/media/images/sort_asc_disabled.png
+    algorithm: sha256
+    value: a65b8f4f84d6427a81c360282fc5394d51bf99dada5f159e6aa0fce3c396825c
+  - path: src/UI/assets/libs/datatables/media/images/sort_both.png
+    algorithm: sha256
+    value: 3e016c23ae51417382b640ae2d19eb48047532c37ad53894bd185586559ccffb
+  - path: src/UI/assets/libs/datatables/media/images/sort_desc.png
+    algorithm: sha256
+    value: d08ed0e21f187dd309030d465224da8085119a15a17d616ba0e477bb50c6f10d
+  - path: src/UI/assets/libs/datatables/media/images/sort_desc_disabled.png
+    algorithm: sha256
+    value: 6c0f0c1b21ef6807057afc8ddc1a925d1dbd21cb11e9270ec84ff4ac40d9a3fa
+  - path: src/UI/assets/libs/datatables/media/js/jquery.dataTables.min.js
+    algorithm: sha256
+    value: 27f66380bc7d3cc362c70d1553d5f497503a3e6145ad5df5ab61dfded297faaf
+  - path: src/UI/assets/libs/flot.tooltip/.bower.json
+    algorithm: sha256
+    value: 7f735aab51d758a71456c9b39a402eda5b5fcc325ab09eda7b5e421ed385a847
+  - path: src/UI/assets/libs/flot.tooltip/bower.json
+    algorithm: sha256
+    value: b1ca93cf9e6907477e630f51fc3d23b2a944af539a00adfc3c27dc522147aefb
+  - path: src/UI/assets/libs/flot.tooltip/js/excanvas.min.js
+    algorithm: sha256
+    value: f98cb332c803a746862b762c94e95379b2407d1a87af8c69299590a4e9473781
+  - path: src/UI/assets/libs/flot.tooltip/js/jquery.flot.js
+    algorithm: sha256
+    value: c2c956b15faf7c6ce2b8c073ce1ba91687fed7ca5fbb3e0e420aaebc37106c5b
+  - path: src/UI/assets/libs/flot.tooltip/js/jquery.flot.tooltip.js
+    algorithm: sha256
+    value: a182887984f677d65b65fa25c20b6f66c5de30a89f523fa98d1e54838bc79f6c
+  - path: src/UI/assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js
+    algorithm: sha256
+    value: f9d1f50e4327b63261343014d2545ada4d2d39904d0cbe0e68cbb0d7e5415427
+  - path: src/UI/assets/libs/flot.tooltip/js/jquery.flot.tooltip.source.js
+    algorithm: sha256
+    value: 9ccbb4667f1b076c054c0b41742096c016321284fbef64b32d7ddef6087900cb
+  - path: src/UI/assets/libs/flot/.bower.json
+    algorithm: sha256
+    value: f4f9c2ec5910101ef7d68cefa6137499df8080202ff3f2dad570135bca1d8e9c
+  - path: src/UI/assets/libs/flot/.gitignore
+    algorithm: sha256
+    value: 53009cf56321800c5d6860e371a168a127cc1010e2925e6df3fc8d61e6f1a4a3
+  - path: src/UI/assets/libs/flot/.travis.yml
+    algorithm: sha256
+    value: 3263a7f4d5d1c476fc77a5769d21253b4236e9dbdccbbc0103ef12242f24da34
+  - path: src/UI/assets/libs/flot/API.md
+    algorithm: sha256
+    value: b59deabeebc069b63517165f91c3242886defc5ea16d8168c4349bf5268ccfe6
+  - path: src/UI/assets/libs/flot/CONTRIBUTING.md
+    algorithm: sha256
+    value: a0867a0cbf8aa381133a08c5ca0f970341300577f565377bf66496fbb718c96d
+  - path: src/UI/assets/libs/flot/FAQ.md
+    algorithm: sha256
+    value: 07d077c9a2f12e5fee984f457274e256215958db6d5241feb29821bc4d2711f2
+  - path: src/UI/assets/libs/flot/LICENSE.txt
+    algorithm: sha256
+    value: dd32421fa4b2ecc3fa7c6d831d395fb02d9304583504639a32e1c18660cff33f
+  - path: src/UI/assets/libs/flot/Makefile
+    algorithm: sha256
+    value: 43fbbfa80efcde32c8252e731ed346fea2077f188cfd65e0108e8cb6a9cc0314
+  - path: src/UI/assets/libs/flot/NEWS.md
+    algorithm: sha256
+    value: 420e6113ec7442e86619ad428ca2f6b5e427fb093d6a332c8479cb1564be1bcd
+  - path: src/UI/assets/libs/flot/PLUGINS.md
+    algorithm: sha256
+    value: ee2ad6f02a6017ffa18306ca85ea791510888cadc228e2faa7e1f3285a0fa65f
+  - path: src/UI/assets/libs/flot/README.md
+    algorithm: sha256
+    value: c90adf92f9edd131c9b465d2689394dfba8d2646dbc856e3ae022bd8162bf3ae
+  - path: src/UI/assets/libs/flot/component.json
+    algorithm: sha256
+    value: 54e21dffb380eabe812ee1e12cd5e49feac33f652b69054d5dcbde9a58e3dcc2
+  - path: src/UI/assets/libs/flot/css/float-chart.css
+    algorithm: sha256
+    value: 04c992ee9156fc2d3ecb4e2ff311e29b573f7d03933e5b663c2966c9e1a5064d
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth-1.json
+    algorithm: sha256
+    value: 496bbf26357cb3fd3f88377c3ba5ff89f2e484bd93c24c4522b4efc571aee6ff
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth-2.json
+    algorithm: sha256
+    value: db3436cce6f608f3971a4954b083f071451397b83651d32518df6dd70ec5073f
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth-3.json
+    algorithm: sha256
+    value: 953768cc753d551bb2ee46f21d528e0af8cfb2404f1e6eacd5d6b1f6f2b8f943
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth-4.json
+    algorithm: sha256
+    value: 2ea25a0781d1cc52f4e524f71f7b1b682bf924f691cdd250512516afc3d953c7
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth-5.json
+    algorithm: sha256
+    value: db2867b25722a6ea3cab28ac525c2d0e67434a87360fa2e3627d1ebad1916294
+  - path: src/UI/assets/libs/flot/examples/ajax/data-eu-gdp-growth.json
+    algorithm: sha256
+    value: db2867b25722a6ea3cab28ac525c2d0e67434a87360fa2e3627d1ebad1916294
+  - path: src/UI/assets/libs/flot/examples/ajax/data-japan-gdp-growth.json
+    algorithm: sha256
+    value: 4ef9bf6682cb611d3ce0d40e2f59f8801375dac952e8d2b96a084eade63feede
+  - path: src/UI/assets/libs/flot/examples/ajax/data-usa-gdp-growth.json
+    algorithm: sha256
+    value: 90796e1e4227a41cfe5841646da2ea1e4a98f11d6c5e6c10bd86d471c4280768
+  - path: src/UI/assets/libs/flot/examples/ajax/index.html
+    algorithm: sha256
+    value: ed0f678466b8bcce509b79a0e04b236a0018447e995d9b1958153b8eea4c1169
+  - path: src/UI/assets/libs/flot/examples/annotating/index.html
+    algorithm: sha256
+    value: 0317b93ed51c1f40aecd3df52103a2815f87ccc18d2ffa1da27672b5a58b9644
+  - path: src/UI/assets/libs/flot/examples/axes-interacting/index.html
+    algorithm: sha256
+    value: bdcaf837d510a3165ccd06366a5a50858e53fa13c22cacb6efe098a285f13443
+  - path: src/UI/assets/libs/flot/examples/axes-multiple/index.html
+    algorithm: sha256
+    value: 20196474735cfc49901ad13154de7492ca0afec4fc81a115b21a30318b53690a
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/date.js
+    algorithm: sha256
+    value: 719eb810979d35b0f2369ca023b19c54d19d751280a6e90931fd9e27cbbf363a
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/index.html
+    algorithm: sha256
+    value: 1433bbf60c239231645cfb40c7cda549474c207bd46ab72f90fa36cedb0a2dc6
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/africa
+    algorithm: sha256
+    value: 52ac8813aae91786bf7248711b9fa70e944382ab239668f6bd26053ee29aaa7a
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/antarctica
+    algorithm: sha256
+    value: aab82db6b4e6fa1267013a1771fe9d090958b3e6b9e4b28ae85fe7459adafd11
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/asia
+    algorithm: sha256
+    value: 99eebe22e4689fa747219519944744e0720983b7802904c6ebd2b63fe82c1076
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/australasia
+    algorithm: sha256
+    value: ec9e80c5b73ca71a9825ecfb8b80a4c5707116cc332ab4b765f6214d10af1bb3
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/backward
+    algorithm: sha256
+    value: 0c66bdf40c724966cc50438e9715532785cdb3e211f926af26b02d4c7f5923fa
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/etcetera
+    algorithm: sha256
+    value: 256f8965b589254bc589e4f1b7115ad36cb229d79aa3f7aeae83eafb5be7e8eb
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/europe
+    algorithm: sha256
+    value: a07ec2e7cc155e3fc378fec787edc11b57e3212cfea3c4d2e2c5924ddad02ab0
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/factory
+    algorithm: sha256
+    value: b44123be21269763268d7ef408352f7b4b9607046a3a28fa36c3fe3c97c28c9e
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/iso3166.tab
+    algorithm: sha256
+    value: 715211e73f8fb5aca179884933851b15547fba7909b6a96bfbc386c68477741f
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/leapseconds
+    algorithm: sha256
+    value: e5077637acad73ad82303ffb12eae9ef0f4977db676d3a9e70403c3ba43d654c
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/northamerica
+    algorithm: sha256
+    value: fad0d7a09ef9de333c630aa35227f1358e773bac7a6866be1b066e3de6d89323
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/pacificnew
+    algorithm: sha256
+    value: 65637ab76e54ee136f7ed671fc439666aa24ff91803c81f7673ce27a85dd38ef
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/solar87
+    algorithm: sha256
+    value: cc2bfe39aa701bf60639708ea7ade9e55e239c0418035c81ddaa9f2be07b85c8
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/solar88
+    algorithm: sha256
+    value: e049c78d8f228bca450f2b2f5f40bf844da7e15db7d8aa55a6905c736399621a
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/solar89
+    algorithm: sha256
+    value: b879bb002e95545dbf55fe16353daf93f3758a010c688cda93996f714ab32157
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/southamerica
+    algorithm: sha256
+    value: d69c618fc129e1aa0c9c1e12a348cfb2b3c98adaf163656c5c2b0b9e6d555179
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/systemv
+    algorithm: sha256
+    value: 1dcdccf7c4fa1b67e8f19f8dd1855ffc0e2128e51c0ea93cf37b1d5e2bbaa0ef
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/yearistype.sh
+    algorithm: sha256
+    value: 3afaafc17381d6af58400a5378d634e1ed83da4e726c5703674d331446171613
+  - path: src/UI/assets/libs/flot/examples/axes-time-zones/tz/zone.tab
+    algorithm: sha256
+    value: e4c5e3c0314480d96fdf5bdbdec0cd285ce53ad568dd8e4bf15e8273200b9f1b
+  - path: src/UI/assets/libs/flot/examples/axes-time/index.html
+    algorithm: sha256
+    value: 2cbcd8ecb21baee86d68adeb9beeed6616610c52716431fd2364352af63b98f1
+  - path: src/UI/assets/libs/flot/examples/background.png
+    algorithm: sha256
+    value: 51a96b3e3d58c08ccc87fb7d7a41954802c5e8a11559ffec79209254268a72cb
+  - path: src/UI/assets/libs/flot/examples/basic-options/index.html
+    algorithm: sha256
+    value: 7ca9a7911362117dc642c1a337075b35e794d254164562f09a097ccf4f6b8db9
+  - path: src/UI/assets/libs/flot/examples/basic-usage/index.html
+    algorithm: sha256
+    value: a2a5a5b190b87ad2e3502286aa376f1a2785b5566f88e26576798578ca023a5e
+  - path: src/UI/assets/libs/flot/examples/canvas/index.html
+    algorithm: sha256
+    value: 2264631da3a5a8b859b3d62a1e48ce9c7d5e77f0ba97f49ffaafdeb27764d6c6
+  - path: src/UI/assets/libs/flot/examples/categories/index.html
+    algorithm: sha256
+    value: 625cc61f3f719f0fb96cf2078dff0468cf76acd70eaee88ec152670f7cd905b3
+  - path: src/UI/assets/libs/flot/examples/examples.css
+    algorithm: sha256
+    value: d6802f8a6f2b2ebaa1ca9af6ed6c6d11ca54b24a0bf3c7ce647f6988950e4ccb
+  - path: src/UI/assets/libs/flot/examples/image/hs-2004-27-a-large-web.jpg
+    algorithm: sha256
+    value: 41ae9efe794dc582895fff11a2b4774939c6a61729dba8ee40d4dd74e096cb25
+  - path: src/UI/assets/libs/flot/examples/image/index.html
+    algorithm: sha256
+    value: e5f7dc8b7de05be5b9c43e887a1e6684c086b09f1ce464078362b87a4a2935f6
+  - path: src/UI/assets/libs/flot/examples/index.html
+    algorithm: sha256
+    value: 55f96cbe89b92e3064a7fae670a6ece1092f4ebba4059682745068c18b52396e
+  - path: src/UI/assets/libs/flot/examples/interacting/index.html
+    algorithm: sha256
+    value: aaedd54341589d9292f9847dfa79224d61b7bb9facba60a83b358887c64a5bdd
+  - path: src/UI/assets/libs/flot/examples/navigate/arrow-down.gif
+    algorithm: sha256
+    value: 2d2322bbaa72dfa5dbcffc75e313fe3741e119ccb6c92d375a411b196bcc4212
+  - path: src/UI/assets/libs/flot/examples/navigate/arrow-left.gif
+    algorithm: sha256
+    value: dad4e5ef2abad5411dfe55ee97c22217fffb684a323052db92d169e303c76c94
+  - path: src/UI/assets/libs/flot/examples/navigate/arrow-right.gif
+    algorithm: sha256
+    value: 52ba0ca467d7b5e8c1282819d843b9aefbe8c0b33363d6ab8656868cbd24c317
+  - path: src/UI/assets/libs/flot/examples/navigate/arrow-up.gif
+    algorithm: sha256
+    value: dfaf938e53d89fda4111681b7d4fed880efb2049057de72883337792ac1fa92f
+  - path: src/UI/assets/libs/flot/examples/navigate/index.html
+    algorithm: sha256
+    value: 6756de53fa401ae6ad4b4a4adbd7ee151435be4b973f98b5ac3cba0b6182887d
+  - path: src/UI/assets/libs/flot/examples/percentiles/index.html
+    algorithm: sha256
+    value: 4bdc93016c150c1ccbbdf0fcf54bd1e7c2ff0cf92e70e3fd8aa7c97ed5b2f8ec
+  - path: src/UI/assets/libs/flot/examples/realtime/index.html
+    algorithm: sha256
+    value: 1aa9cd8f5a0b0815f203a2dd496e212b5be86752c8b8b708727a59e0a07fc5a2
+  - path: src/UI/assets/libs/flot/examples/resize/index.html
+    algorithm: sha256
+    value: e5ef0566ea0c1326df15dbc995730f08d0592f5f70563ffa08fc472bfffd5bee
+  - path: src/UI/assets/libs/flot/examples/selection/index.html
+    algorithm: sha256
+    value: 603d1df35423efbae357a575e17e7e6377b7e2774df931684dc14dd6e4119f00
+  - path: src/UI/assets/libs/flot/examples/series-errorbars/index.html
+    algorithm: sha256
+    value: beea08b8878fd762a038688d28ca71dcc14ef6422a0872b559f8228c9bb6044e
+  - path: src/UI/assets/libs/flot/examples/series-pie/index.html
+    algorithm: sha256
+    value: 79f17bed614b9e74e2597e127dd17afc15731256f4221229ebcdde3f2525c8ac
+  - path: src/UI/assets/libs/flot/examples/series-toggle/index.html
+    algorithm: sha256
+    value: 602f51cf9b231f8cfd06945a69937ae7634041b6fe964fb59a752b0d89728afe
+  - path: src/UI/assets/libs/flot/examples/series-types/index.html
+    algorithm: sha256
+    value: 08bf05236658d084ed8598f699e27ac9854f504157605a02036dee6fa1c1a312
+  - path: src/UI/assets/libs/flot/examples/shared/jquery-ui/jquery-ui.min.css
+    algorithm: sha256
+    value: 7955af6cdea63b6e97b1a17be64b559eb2b76f0e320ec13139cb58415a6f5e5f
+  - path: src/UI/assets/libs/flot/examples/stacking/index.html
+    algorithm: sha256
+    value: 7ca837de648bd6b5368db7a6d4f8b9281c5860f78eb9a704c77aa54067584a5e
+  - path: src/UI/assets/libs/flot/examples/symbols/index.html
+    algorithm: sha256
+    value: c56b38e471d4ef99837160f304cf29045b0115b9244a3f25c5d41e56c4a6324e
+  - path: src/UI/assets/libs/flot/examples/threshold/index.html
+    algorithm: sha256
+    value: fcba4d40c1141459f92fa2cf135f163a93422b41ebaa6c34632c2d979ec221e2
+  - path: src/UI/assets/libs/flot/examples/tracking/index.html
+    algorithm: sha256
+    value: 57e6d916dc227b38531d12c00146f4db2910cc61330854488e3f012b6fb65471
+  - path: src/UI/assets/libs/flot/examples/visitors/index.html
+    algorithm: sha256
+    value: 22b429fca6e9a5b02de9c70e96578efecf9fe6d9f8f77a9d352aec0ae559f60f
+  - path: src/UI/assets/libs/flot/examples/zooming/index.html
+    algorithm: sha256
+    value: 00efa4abe15d92692330890646002548b23a83edc663e5cf906f4cce165a4656
+  - path: src/UI/assets/libs/flot/excanvas.js
+    algorithm: sha256
+    value: 9801ffaab9cced74dc1a24baf38082591c7f784a9209f47dc409339f3a2c33a7
+  - path: src/UI/assets/libs/flot/excanvas.min.js
+    algorithm: sha256
+    value: 6201dbbd9beb94d8a241a0debf2cc2e6efc07ec69f4d1f116984e21b459ee569
+  - path: src/UI/assets/libs/flot/flot.jquery.json
+    algorithm: sha256
+    value: 7d73c760005311ba16dbe7a098d2a9f0681f7f48ed81f7d77834235d35952213
+  - path: src/UI/assets/libs/flot/jquery.colorhelpers.js
+    algorithm: sha256
+    value: 0b790655388fcb92ff96f7c9f88da0d2bb8405cf51c5037be9ddff6f023e7854
+  - path: src/UI/assets/libs/flot/jquery.flot.canvas.js
+    algorithm: sha256
+    value: 511dc9a49f546136c43bd1effa1fe763b72a0b02763dd86859c0742ec2e7cde5
+  - path: src/UI/assets/libs/flot/jquery.flot.categories.js
+    algorithm: sha256
+    value: ff88af7875dfc0a91bde29ee605ab3a8b3b064d1b3b8e43d513f0c446419ca03
+  - path: src/UI/assets/libs/flot/jquery.flot.crosshair.js
+    algorithm: sha256
+    value: c4e5b8e97bdc0590e2ad27cbbea2fd4b53883d19c26670c643d3051a0d37eb7d
+  - path: src/UI/assets/libs/flot/jquery.flot.errorbars.js
+    algorithm: sha256
+    value: 9c4ae3e96879567bf2d13d4f79c68102ebb353f73780998168a9bfef25b710d9
+  - path: src/UI/assets/libs/flot/jquery.flot.fillbetween.js
+    algorithm: sha256
+    value: dbf3c53774b967c4066dfe322409b151b4482a7aee4a6a569204cfd1a8ea488d
+  - path: src/UI/assets/libs/flot/jquery.flot.image.js
+    algorithm: sha256
+    value: b067e1dadfed4dfbdc529436d4053e60590e35623da25be2f50cd33759a47063
+  - path: src/UI/assets/libs/flot/jquery.flot.js
+    algorithm: sha256
+    value: 20d8421f2c30fbeec4b708db485a7894502e99680594cf9e30f445424133770f
+  - path: src/UI/assets/libs/flot/jquery.flot.navigate.js
+    algorithm: sha256
+    value: 59bc57fb2325c64a5f339c820d0d642a911a728f63c49d80a088c56a8409570d
+  - path: src/UI/assets/libs/flot/jquery.flot.pie.js
+    algorithm: sha256
+    value: 6ea6ad521715884397ed29df4cc58f7c33af94b77c6804dc531d0f27c5bd220f
+  - path: src/UI/assets/libs/flot/jquery.flot.resize.js
+    algorithm: sha256
+    value: 7eb7769ba3cc65254b89feb7c91d7064b421e75bc72a9536f950a505ab2f5c4d
+  - path: src/UI/assets/libs/flot/jquery.flot.selection.js
+    algorithm: sha256
+    value: 725324871385d52ce300cb6b9d60fa6f12d386b85b3b91db13820e6b838ad9ba
+  - path: src/UI/assets/libs/flot/jquery.flot.stack.js
+    algorithm: sha256
+    value: 6c3e56d342b2e5f650e64ba37d98d45b3ff2ddc610350542a5f6349b72af115b
+  - path: src/UI/assets/libs/flot/jquery.flot.symbol.js
+    algorithm: sha256
+    value: 39581d9ca01864c5f1df6e2f838754aeb67f3196e65b256d818f4ceed1b0bf7e
+  - path: src/UI/assets/libs/flot/jquery.flot.threshold.js
+    algorithm: sha256
+    value: 866219e110312bbd5d8907c7b6a6aa90ca01871bf4c3c0a9ee34c0f3e609e5fc
+  - path: src/UI/assets/libs/flot/jquery.flot.time.js
+    algorithm: sha256
+    value: 84cc76a7f36d6c851c58e9a211dcd2db4e13683b61967df6399a7ff1b3f80e05
+  - path: src/UI/assets/libs/flot/jquery.js
+    algorithm: sha256
+    value: 8905b2e768f4da97c020fe53ede933a729f2c9f623f6c6be45c3f25319c7f547
+  - path: src/UI/assets/libs/flot/package.json
+    algorithm: sha256
+    value: 2c719f221c20e92f516d768f652ffeaa21154154492ac6c322c3ab80253c9477
+  - path: src/UI/assets/libs/fullcalendar/dist/fullcalendar.min.css
+    algorithm: sha256
+    value: 0ed6f0959a447ad8284025379f7c1e7e70919ec3f525bf7fb6a25921a5210a2d
+  - path: src/UI/assets/libs/fullcalendar/dist/fullcalendar.min.js
+    algorithm: sha256
+    value: e8112a81abbe4d52a4b0b0c6f25e40ce92ccfeccea54b0e4a5dd1485ccb9f66e
+  - path: src/UI/assets/libs/fullcalendar/dist/fullcalendar.print.min.css
+    algorithm: sha256
+    value: 4d33e6e465f93cdf08249cd8d66ed5f24a98db6031a7f93f1a02548b50cdaa40
+  - path: src/UI/assets/libs/fullcalendar/dist/gcal.min.js
+    algorithm: sha256
+    value: 8d182fc1ddc8761b8f9543037d949b9906bdb1e92a6effd706230078ab4b794c
+  - path: src/UI/assets/libs/fullcalendar/dist/locale-all.js
+    algorithm: sha256
+    value: 854d93526046bd53acce36d84940c7bd0110d1c71079aba4b21400ff7acf8208
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/af.js
+    algorithm: sha256
+    value: c63936ac7a42df9c8174741cfa479a8eed88ed4e515d0b6b7fc8ceee72eecbd1
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-dz.js
+    algorithm: sha256
+    value: aa12ae7a833e668e10b701d7f31f2e8ea3838f17a865f6823ce71b253c5fff0b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-kw.js
+    algorithm: sha256
+    value: d401fba130559ee31be340b2e5375cbffc7c931833f84ff3a431dd7620ab400a
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-ly.js
+    algorithm: sha256
+    value: f0e2d5026d7b3ef709cc19d290c859a409718e8b22d342d1730120bed90fde7a
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-ma.js
+    algorithm: sha256
+    value: 0e38f17ea91ef01d3357b21fac9609b1420c67a19e496bd7421cecf351d74a85
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-sa.js
+    algorithm: sha256
+    value: 89f8e9e5242750bdf18aa183c3805cc6fd45f4e432ad70ad5433bfe8bac100cd
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar-tn.js
+    algorithm: sha256
+    value: a5673cd6023ac480ddad78481aa63e0f919bc112d5f38148cc92782a9d527ca4
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ar.js
+    algorithm: sha256
+    value: e8fb65b900446e5509ba301a2eed7293eee1df212343b933beeb814d396dfcd9
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/bg.js
+    algorithm: sha256
+    value: 53570a08c69239fee8f6e34f2e15816794d0214ff954defd008f12fc3d0783a4
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/bs.js
+    algorithm: sha256
+    value: 6d9ec704558219bf2389029d0c6585abcfdfe98bffd43329fced585ed7a8a8c4
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ca.js
+    algorithm: sha256
+    value: 05194fc6c443920e30b9ffe8084e5b4d03cf2e8973cad210bf82ac01edae8631
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/cs.js
+    algorithm: sha256
+    value: f9b6730ce265432a5d638e8950a6c79235898ddbdc5aca433c95f896a7969905
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/da.js
+    algorithm: sha256
+    value: 14a47b9bcf753e0333998bcf464f434e72a7051c89a8fc5b6b53b99e9bec36c1
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/de-at.js
+    algorithm: sha256
+    value: 56664021249636f79ad153e73b9a1f0f99d800a43c06f83e30113f6cb5b05cae
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/de-ch.js
+    algorithm: sha256
+    value: 5cd551cd770cb81952f6ccd04c43a753bb4dc62186e408041bc1c0cf9ac14288
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/de.js
+    algorithm: sha256
+    value: 35240cb0e9ac1ebb123cf663f7c166c290530078f69d668d3a6c84cb874e6ca5
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/el.js
+    algorithm: sha256
+    value: ed979eae9c2531e3990f3072af8849d3884c263338d0c1ad2795763222b63dad
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/en-au.js
+    algorithm: sha256
+    value: 8fd12269413e1ea5f6b82e29a30609a85663a4dff13fe9ebdd3c9d26760a229b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/en-ca.js
+    algorithm: sha256
+    value: 7438b369e0e8ef37540f0e9307dc4e31e27da251418e01e32f5adf36ef925f82
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/en-gb.js
+    algorithm: sha256
+    value: fd9df63cfb2b7ca584c9fd817022ae07988dc2f66e18be97732167f5e7f50480
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/en-ie.js
+    algorithm: sha256
+    value: 99da8001fd98458d6908ff8e25d9cdce5c0249cf9b16fa16f2c52e838f22f7d4
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/en-nz.js
+    algorithm: sha256
+    value: bd180d1b411caf2a31bd4f285eca84c74a3a7edd8fcf44185726636e9b61fc8b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/es-do.js
+    algorithm: sha256
+    value: 97e27d3e238ea995d01640c8c02be7775a2625c17c2808aa987aafbb4cbd5500
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/es-us.js
+    algorithm: sha256
+    value: 7e69c867f7a20718cbcf2e88ba449aac6e1371191d34ad9061537d32e83464a0
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/es.js
+    algorithm: sha256
+    value: e7b96cd8d73501eb5adbb7a5ccf99fc3ac0bb0e5bf731a450720101722b3d1ce
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/et.js
+    algorithm: sha256
+    value: 7006735a31a1ceaa3d05ce63e9e8a6edb9a69f8dc77cac3843ad675bf0183f2b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/eu.js
+    algorithm: sha256
+    value: 09d8c87eb6fd6112fd4eb51e3e1fd4716fa4991ae97de9e3ae79ef3d9ca4878e
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/fa.js
+    algorithm: sha256
+    value: 273be3d3905417cd333acd2ebd207005bc40d872b1276e1ae20ac6b61341349c
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/fi.js
+    algorithm: sha256
+    value: ac99d0cd48db70259b09f1d499f8d9ae6a4456aaed2ad2420c8e998e4c6a6a12
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/fr-ca.js
+    algorithm: sha256
+    value: a8bff2e674fb2c5b88a21cabadf966ae6586fc108b5dedc3f86f52301d758177
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/fr-ch.js
+    algorithm: sha256
+    value: e8bde5cd6fbd7776897a0f312f2e2daa4b7c2f30b395470a6f25b3a7f6e6cdf8
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/fr.js
+    algorithm: sha256
+    value: fd041e483b9f9e83d7f9ade681a1a3b6386ebde8c96219fc8e4a21c3e9cdeab3
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/gl.js
+    algorithm: sha256
+    value: d6fd44cbf5e9c34e7d0f0b8645206959ce75164a1719b71c79b3855592b7365f
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/he.js
+    algorithm: sha256
+    value: 4f460970c2faee8f3ef10e6ae51afab16966a4f000a4361a3fe07858d6ea5f8a
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/hi.js
+    algorithm: sha256
+    value: 1cf7b4af9d3048743c2b00bc379627a86312b012d48a4ec96b8ecd2f6d0de73a
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/hr.js
+    algorithm: sha256
+    value: 20bf1a674007b9fb3fc31e22d6d251ed4aa07b9b3dd6b31add836f36f7c59ea7
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/hu.js
+    algorithm: sha256
+    value: 16de1ccb0ac38223f4c63ba3c15debfaeaca7ee2be5236d6cd46c5fa20599b56
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/id.js
+    algorithm: sha256
+    value: ccaaad6c0e52caa83397ead3703fbd1a3ea357c1d9cea237e68117ffdf344d65
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/is.js
+    algorithm: sha256
+    value: 0e78a198f30ffaccf95e6f0d66a562b7c1cf63223a6dd0a546601a89101d015d
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/it.js
+    algorithm: sha256
+    value: 6360fcc534e54ab0537233ca28e781b34cf1769f6bba900842241991bc5501fa
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ja.js
+    algorithm: sha256
+    value: 748253c5b8e4a0e8034612b28cfc6ac985d5b6bdcec1f7f0f1d4910a18c8570e
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ka.js
+    algorithm: sha256
+    value: 8d0becdcd229cc9857ad8b24b622a97d1be0a61e00dfd74000fac8d0e8c24240
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/kk.js
+    algorithm: sha256
+    value: 53324baf3c84208aec77642508b37b919eba064e00e6b063d643349b011db689
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ko.js
+    algorithm: sha256
+    value: 474b07dd472a0a55a9ce7ab048f71cd2051c90a89a65bac4ef1eb745014cf584
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/lb.js
+    algorithm: sha256
+    value: 4017f099ab4137154414ef7cae41370a40fe3621b68b5128bbfd33b6ebfe036c
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/lt.js
+    algorithm: sha256
+    value: 8748b3adaab70f7b9dbc2306b35caabb819f456d77ac5b3ad3a27021f1420b2d
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/lv.js
+    algorithm: sha256
+    value: 245173f62df10f8b883816ea6c51dbd39494cc8db36627d7d5f3f4c229b2d1ae
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/mk.js
+    algorithm: sha256
+    value: 5058728f68888ecb508f2e17b2a3de1fb2628c0831ca3af070f427312a2ef2b3
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ms-my.js
+    algorithm: sha256
+    value: 58db0ba2ccfd792042d384a0de59567849516a1ad6df5aceef8d47f3ff74347b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ms.js
+    algorithm: sha256
+    value: 99dd2c31bbf747d33809228614837ce2a1f92baea49a269343458220bc1d9a4b
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/nb.js
+    algorithm: sha256
+    value: 4ad7cca73521b9723fbf0504eafbf8ed491d399c814188be48b007a4e1330bbb
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/nl-be.js
+    algorithm: sha256
+    value: 59aa2fdd034ef3ac35766ba32cc586260dad3492f01daec2eafbcfe44233a994
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/nl.js
+    algorithm: sha256
+    value: 2c08c4e0a76c51d7d9e3232457e50c45b1ea1327f2bed09e2320faa916214ed4
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/nn.js
+    algorithm: sha256
+    value: 66a65843a7a6abac15070cb051dae3b1a5eecb0244e03e92f87eb9e4efbfd2b9
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/pl.js
+    algorithm: sha256
+    value: 6c88b74883bfd8f4dcb83f1ae854de274b37d2ca01a8bc919e54f2ec287d0f5e
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/pt-br.js
+    algorithm: sha256
+    value: ada6dcc5e4792751db5fb116d3ef314ac80c23d24e6df774e4a18fad84a103bb
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/pt.js
+    algorithm: sha256
+    value: a5e2105b9d2215a6fc7189638aa7eb5e5a49b75e428947b8d4e539a97179e632
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ro.js
+    algorithm: sha256
+    value: c05effff7db4d089482c1a1a2c6fe957e1498cdcba4173a1a581c60bb8c100ac
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/ru.js
+    algorithm: sha256
+    value: 708242d8d3052758f328990b7b8f59f7a470d133d3e0db8769e59425993e81b3
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sk.js
+    algorithm: sha256
+    value: 6d238975a9f60847d456f3a380156387d60e4a597f1bff30f4d682a98022fdf0
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sl.js
+    algorithm: sha256
+    value: 49b51ecd0edf9d0adc7c150e807742def13a9cff65f5e4cb7ba38cef257745bc
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sq.js
+    algorithm: sha256
+    value: c394fa27a1ac46b2b17c0793214ad984c5c4494c8b15d89ea002fe0c82a81e23
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sr-cyrl.js
+    algorithm: sha256
+    value: 9a13ac1a14abfe504614f521a3a0f045e4ba6e383fcb5b4bb07c32c52c42b760
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sr.js
+    algorithm: sha256
+    value: b2c4ac49dd330c772f39d335612e0e133354b40f53fd49cd6ce33d3e2664830c
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/sv.js
+    algorithm: sha256
+    value: d62d9982b354c6228da53d443feb84d12b4e51414bccd901e174c801166dceeb
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/th.js
+    algorithm: sha256
+    value: 7085e7aab4723a8a377891b88de587564b14dfc1c204da486fbcfdfb20582508
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/tr.js
+    algorithm: sha256
+    value: 81ed5a01c594f3a202e7a0d2071f128d12847b917bad41f657132d7d104fddc9
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/uk.js
+    algorithm: sha256
+    value: ba9b1fe4b8d0f6fa411d44b5ea1f41e6e600608064d4acf3c2442577b22449be
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/vi.js
+    algorithm: sha256
+    value: 20dbd2f562a32437e6db151875cd7255e842ea3eab7bfd639842564fa09b23b8
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/zh-cn.js
+    algorithm: sha256
+    value: 5c3c98f3b695cfe449ebd76fbec0ecf6b5abb92d72fae41e01991c188796db36
+  - path: src/UI/assets/libs/fullcalendar/dist/locale/zh-tw.js
+    algorithm: sha256
+    value: 60f43a1a24a166fc6fce0d40c395faf402d91d60544bb14e396dd75e4ca0bb71
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/bindings/inputmask.binding.js
+    algorithm: sha256
+    value: 34c5acfc4ec586120fadf62b7b05077db9901783e5ac7f676c679f1bd5abfc79
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.js
+    algorithm: sha256
+    value: 75d7962258fef917120e32b1b27af152f8fb9bf301fe325f09c2d353d4af5f3c
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.js
+    algorithm: sha256
+    value: bfcc1875716ef971ce4a1656f2373539766c67bfb20e96c7d2b4cdd515b1f58a
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js
+    algorithm: sha256
+    value: 0ed719b8ddd7ec819deeae38532fb0de3aec59d51ab967e3fab2a65f9cfc37e3
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/global/document.js
+    algorithm: sha256
+    value: 183492e9f6f188027dd796abc7d02c402f7c5a474fc061e01dbb718e2de3d933
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/global/window.js
+    algorithm: sha256
+    value: 66c8da894c0ccb0820b3a335ede680c76cf58fc8ed789c41685fec831dce8036
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.date.extensions.js
+    algorithm: sha256
+    value: 2df5f229579aad6b86ff5725cf8384ca1175238965f4a9671a4b0df3c8b31af4
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.extensions.js
+    algorithm: sha256
+    value: 3e4d8f661e2a1f02adf53f9ca01481ed1e33c725bfd61ee49f084fb3da615e6f
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.js
+    algorithm: sha256
+    value: 908f5b46860876738ac0c95c6e370320a4eb29a7800b8ba0898f75374b0ecd0d
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.numeric.extensions.js
+    algorithm: sha256
+    value: 6395fe18f20f811d9351c2189209412e7b06ff1c7da29327cb80c6b59920c56c
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.phone.extensions.js
+    algorithm: sha256
+    value: 000be30e068175df8fa1e3054545cc7c40dde2603a3b9f3000e8002c603bd757
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/inputmask.regex.extensions.js
+    algorithm: sha256
+    value: 3a2263849189b27e9f8bad4b026cb9a03e2f241b99d674a2a8e81c4a384b8f6c
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/jquery.inputmask.js
+    algorithm: sha256
+    value: 9799cc30c6f6e2d4d48a9f8c218aae224a82f44b248e377193fc1332019d50c4
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/phone-codes/phone-be.js
+    algorithm: sha256
+    value: 2f9f4b493f73e85bae79422f7336864096dcf29d67e6ab08f5d509f2d36545f8
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/phone-codes/phone-nl.js
+    algorithm: sha256
+    value: 481699283c4294f1895e0f98e3edf9ec906d0de48007144b29df7e99dd8fa6bb
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/phone-codes/phone-ru.js
+    algorithm: sha256
+    value: 71f4edbca3ec2ee8f48c4ea1c1942891232f9bb92d8e9401f2166e971f7de4cb
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/phone-codes/phone-uk.js
+    algorithm: sha256
+    value: 3c5477f453eb6a3d28547bfdad821cf2d8ecb555e43a19f3271220da77928683
+  - path: src/UI/assets/libs/inputmask/dist/inputmask/phone-codes/phone.js
+    algorithm: sha256
+    value: 5d1d24a5e7f3769adb5e920e7aaf666d4d3bfd5ac569c3619f59860bc376cb00
+  - path: src/UI/assets/libs/inputmask/dist/jquery.inputmask.bundle.js
+    algorithm: sha256
+    value: b0b7d29394cea6c1ba9aaf2c79b5d829e6022e06aaa044aa8e9a88d556a3ca95
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/bindings/inputmask.binding.min.js
+    algorithm: sha256
+    value: 62c2d50c29aabebf7d9b6eb7841c32429c9f3a7fd5c4131eb16a82e3a71a4e9b
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jqlite.min.js
+    algorithm: sha256
+    value: 5f9b72ede7eb5968765abc1085479f61212bcb4248b3bdbcfdb9db6d5fdaa091
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.jquery.min.js
+    algorithm: sha256
+    value: 58817ca546732e9e94d9c18a7983a58c5328ddba32670b7ca6c7aa25e1473fca
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/dependencyLibs/inputmask.dependencyLib.min.js
+    algorithm: sha256
+    value: 0bf245e728a70d0fda2fc0ec59d2b8e5d0cc147ea8286c80a0beafa574d68bdc
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/global/document.min.js
+    algorithm: sha256
+    value: 1b4e37dd773def53d57e2b47c2d39b8bbfd249b9fa7c9e98b055494671cc306b
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/global/window.min.js
+    algorithm: sha256
+    value: 2d26ff368ddf23e8e3ff621f319988a2fd782d67fc77808fa32ae142260ee676
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.date.extensions.min.js
+    algorithm: sha256
+    value: d3e6e9f4c969080d52a66d8a09ce47ee955875a26d0a574bf3258f1d044a00df
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.extensions.min.js
+    algorithm: sha256
+    value: af3ec3c18e9334036d81da6369732628e7a1337681da69152d112d7c807d3d2d
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.min.js
+    algorithm: sha256
+    value: 5ac70ee50702de41f670719fbc16cb5ecb68e382319d9f49e0221489b9997544
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.numeric.extensions.min.js
+    algorithm: sha256
+    value: a7c565da0960d492097bb515467061575bbd10d83db4d2edc1c7aebff6d368ed
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.phone.extensions.min.js
+    algorithm: sha256
+    value: 70cf4df9efa38b053cfb4c89b7f84a879263d5025a0e58856cf70caee331c3a9
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/inputmask.regex.extensions.min.js
+    algorithm: sha256
+    value: 26c4c67a910808a140dcef17f5463108c56e8a7cacc1c39174c848663d356738
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/jquery.inputmask.min.js
+    algorithm: sha256
+    value: ed18a20e13b798e70f074416fe17259fd7660efbd8c83b1c4e71c6ba5427b7d8
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/phone-codes/phone-be.min.js
+    algorithm: sha256
+    value: 69e9ec175fb2e8cc82c08b5963054fc4c56620746bfbba7caff33520631e19e9
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/phone-codes/phone-nl.min.js
+    algorithm: sha256
+    value: 0004c5417bffdba44a0cc2fe5f05f0bc3b55e6ad986a5681d7ae5502ee0bcf54
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/phone-codes/phone-ru.min.js
+    algorithm: sha256
+    value: 636af5f7c3331b2a8a34833f050dd255351b1ebe31761f9323476ec6f8002b09
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/phone-codes/phone-uk.min.js
+    algorithm: sha256
+    value: 953f56d845e6c2e9912ecc283cf3a382e946e1d6427f3e85fd7f76c5634fbef9
+  - path: src/UI/assets/libs/inputmask/dist/min/inputmask/phone-codes/phone.min.js
+    algorithm: sha256
+    value: a0ac11708d290933505d13182baf4ba586cb7f58f8752433443ae603d30a779f
+  - path: src/UI/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js
+    algorithm: sha256
+    value: 27ae58a4912636cf838b4f090af3a66babe740ec03ea0f055d5c7b18ce41eace
+  - path: src/UI/assets/libs/jquery-asColor/LICENSE
+    algorithm: sha256
+    value: ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9
+  - path: src/UI/assets/libs/jquery-asColor/README.md
+    algorithm: sha256
+    value: 37215e3c431b3477e6631e9ae4c3f2dd4367285cdcd4d4323f122dd47d41babd
+  - path: src/UI/assets/libs/jquery-asColor/dist/jquery-asColor.es.js
+    algorithm: sha256
+    value: fc231f9cc17ff3b442b25713b49f641ae98a4796e35a00fc8bbc3b9a78545631
+  - path: src/UI/assets/libs/jquery-asColor/dist/jquery-asColor.js
+    algorithm: sha256
+    value: c76403a39bf37681e954ed697d157b0e59262c079e573a48f3c6c53b3a3d7c59
+  - path: src/UI/assets/libs/jquery-asColor/dist/jquery-asColor.min.js
+    algorithm: sha256
+    value: ddb82ce0a40f424783cc6eff862c0e7cc1fba5558e43afeb1baea069c9e68017
+  - path: src/UI/assets/libs/jquery-asColor/dist/jquery-asColor.min.js.map
+    algorithm: sha256
+    value: b9f919a3fb15ca05601ae03d1c34d4c5f0cb60e047a6574780d8ae549ab914b4
+  - path: src/UI/assets/libs/jquery-asColor/package.json
+    algorithm: sha256
+    value: 26066739f191181ffff6149e3c3caf4bb913d7bfec4a198f42042338dd1cbcd0
+  - path: src/UI/assets/libs/jquery-asColor/src/asColor.js
+    algorithm: sha256
+    value: 8cf5817dc751324c2c959d2ca9428dba47ccc0c053965ff0c284cc6caefec8e4
+  - path: src/UI/assets/libs/jquery-asColor/src/colorStrings.js
+    algorithm: sha256
+    value: a27de7313ee905c247c8308904909896aa4e1cb086261f10e422d6c17be6bb8e
+  - path: src/UI/assets/libs/jquery-asColor/src/converter.js
+    algorithm: sha256
+    value: 028a616db1fa041d0988ff70d6852e353bef0a618c62eee4de14434a73088e2b
+  - path: src/UI/assets/libs/jquery-asColor/src/defaults.js
+    algorithm: sha256
+    value: c5a8dfaa080b67b4061b923eb6bd4e4d64f6fa3d0bfa1f4982605f36a47c23bf
+  - path: src/UI/assets/libs/jquery-asColor/src/info.js
+    algorithm: sha256
+    value: 3fa858e2a664a003c3eb02f7975eafb34fe09170104f736a9aad037c3a52d7ac
+  - path: src/UI/assets/libs/jquery-asColor/src/main.js
+    algorithm: sha256
+    value: 040496bab013fde362ba6e6aeeab0c2d59523818c2c6271e8c9b6b048b1521f5
+  - path: src/UI/assets/libs/jquery-asColor/src/names.js
+    algorithm: sha256
+    value: a48d4e331e6511d8daf4ac345cb05ffff2ee4a510881e015f3ece51a72065aa0
+  - path: src/UI/assets/libs/jquery-asColor/src/util.js
+    algorithm: sha256
+    value: d523bad091977a44063147bc85235480ee50079472d1329d9ebca553cd3038fd
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/css/asColorPicker.min.css
+    algorithm: sha256
+    value: 007a7ef869464c14644e6b5936f67f93128da5aec25567d0e368b577d5e91797
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/images/alpha.png
+    algorithm: sha256
+    value: 66df1b7f4b612b968b668b959172adfe48a540a8c5d708aabe1a4646c78f473f
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/images/hue.png
+    algorithm: sha256
+    value: 24157c0fa3fbabd92d8cef85d9a153490e53994bc1990a8f8a4ebe6293e26f47
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/images/saturation.png
+    algorithm: sha256
+    value: c81bedc3eebfe070829c6a77dc3145e29117ded97061cd57d060f8e75bdfa1ed
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/images/transparent.png
+    algorithm: sha256
+    value: 488737b6b23f0c99c1483ec76bb142088d9150472a6f64582d9e9802ae8df189
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.es.js
+    algorithm: sha256
+    value: 49547a9c7fe2bfc3d438d4082c3cf39c57525ce18ece3e38ea20bbb9c0348869
+  - path: src/UI/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.min.js
+    algorithm: sha256
+    value: ff31c4c950bfacf1d94831b342a646260a5b54a492f16c2035de8e14fae434fb
+  - path: src/UI/assets/libs/jquery-asGradient/LICENSE
+    algorithm: sha256
+    value: ea7d049c7705dc13afc202dd18e1827f3484f8212fd3fa7b82fc4a0c363432c9
+  - path: src/UI/assets/libs/jquery-asGradient/README.md
+    algorithm: sha256
+    value: 98e5ed8fe22e538335fef2f118a087cebb0a50dddbe4fe2185df6068147c3940
+  - path: src/UI/assets/libs/jquery-asGradient/dist/jquery-asGradient.es.js
+    algorithm: sha256
+    value: 07a0063f1a429cbac86a63c5509afafbd6f7d6880281d3a89ba5bebd33031ef1
+  - path: src/UI/assets/libs/jquery-asGradient/dist/jquery-asGradient.js
+    algorithm: sha256
+    value: 09b95d7d4a4e209d14d6f5aedf7faf24ddd06a41b60e6e1ecec63f223d66a792
+  - path: src/UI/assets/libs/jquery-asGradient/dist/jquery-asGradient.min.js
+    algorithm: sha256
+    value: 2b80526a9917d6d5fee52c98d84e3f1e6e6d6aa1883d7a1c27cb5bca25bb0b13
+  - path: src/UI/assets/libs/jquery-asGradient/dist/jquery-asGradient.min.js.map
+    algorithm: sha256
+    value: cb9d73cee60d668a306c43bc127a9a7275ec47e91267456989b8d57a041916cb
+  - path: src/UI/assets/libs/jquery-asGradient/package.json
+    algorithm: sha256
+    value: 95e6395c032f1781dfed3c77abe44b61586c2aa9ccc09d36c3efa7717c9c5cac
+  - path: src/UI/assets/libs/jquery-asGradient/src/asGradient.js
+    algorithm: sha256
+    value: 2315f04f64ece8c2620b48918a3500a031d94e9021fe57b1feeaf5067edf7f78
+  - path: src/UI/assets/libs/jquery-asGradient/src/colorStop.js
+    algorithm: sha256
+    value: acfaa7d0da8da557e3358b4dd42f86667200631fa965defef637cb23681bdef1
+  - path: src/UI/assets/libs/jquery-asGradient/src/defaults.js
+    algorithm: sha256
+    value: 8c8206c6e76e25345f5ade98115a3d9ee532e770f4e17c69fd0c55797a588233
+  - path: src/UI/assets/libs/jquery-asGradient/src/gradientString.js
+    algorithm: sha256
+    value: f6c03efa69f1783c9bbc8c86ec4dcec43e8d0a0bf387bfb28b598acf6037e75e
+  - path: src/UI/assets/libs/jquery-asGradient/src/gradientTypes.js
+    algorithm: sha256
+    value: fd8ba0b3b02403a9578bdc48d20b258612e2cd9613c1aed30995b94b741d5887
+  - path: src/UI/assets/libs/jquery-asGradient/src/info.js
+    algorithm: sha256
+    value: 318a4cf66f614097af9c25547c3016b9e7abe482fd5c89eb2e275b34f2ad9f8f
+  - path: src/UI/assets/libs/jquery-asGradient/src/keywordAngleMap.js
+    algorithm: sha256
+    value: b7cd5d02696a435497cc72eff89797090d481a6b48a9e41a0c3cac3621b5f884
+  - path: src/UI/assets/libs/jquery-asGradient/src/main.js
+    algorithm: sha256
+    value: d506ae5d090224088146cf37bc494d58230b9733416a65d039a37aa00df03300
+  - path: src/UI/assets/libs/jquery-asGradient/src/regExpStrings.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/UI/assets/libs/jquery-asGradient/src/util.js
+    algorithm: sha256
+    value: a8b2538c0c8339c0ce1aa918dc3ee171e94c0c0eebbd44b752e5e25dd4bf9312
+  - path: src/UI/assets/libs/jquery-minicolors/component.json
+    algorithm: sha256
+    value: 1be363ab87c5d42dd8e0b1c5c98692aea2499098fdc0c6f575d76bff480d7a0a
+  - path: src/UI/assets/libs/jquery-minicolors/index.html
+    algorithm: sha256
+    value: 918bf822b057cabdeaf4538bb6f334242166150c2811a10bbb9979bf11880eb5
+  - path: src/UI/assets/libs/jquery-minicolors/jquery.minicolors.css
+    algorithm: sha256
+    value: cef538a615e78b3d6dad79c7e5bce8bc97a22a914675c86cc063c1bad444fdaa
+  - path: src/UI/assets/libs/jquery-minicolors/jquery.minicolors.min.js
+    algorithm: sha256
+    value: 8c5fddec86140744bfa836605c7a3567bcfc3368868202f831a6a6a9e7bb15da
+  - path: src/UI/assets/libs/jquery-minicolors/jquery.minicolors.png
+    algorithm: sha256
+    value: a70bb7e086d845e9fa52b74ad102c26e1c879d425c997eda656039ca4a95496c
+  - path: src/UI/assets/libs/jquery-minicolors/without-bootstrap.html
+    algorithm: sha256
+    value: 1150fa222d6e9d107b56d15976643ef55cf61e6a542ceedcaf50d2cd7d083bce
+  - path: src/UI/assets/libs/jquery-steps/LICENSE.txt
+    algorithm: sha256
+    value: 8e479edc72857576d3d1677059e7c33cfed0d5a1f833104837947c55f655742e
+  - path: src/UI/assets/libs/jquery-steps/build/jQuery.Steps.1.1.0.nupkg
+    algorithm: sha256
+    value: db44ccc58896fef96f9fbffa0e9ebda5beb78f0ecc85d71b058602171eced69a
+  - path: src/UI/assets/libs/jquery-steps/build/jquery.steps-1.1.0.zip
+    algorithm: sha256
+    value: 923de25134fdd66e3e165c791351abf3de96df72603d41478d583eb1e2c55f54
+  - path: src/UI/assets/libs/jquery-steps/build/jquery.steps.min.js
+    algorithm: sha256
+    value: 95a14a4473ff130eb29f3cc02e135978505655e3c931b6c3726dedd4f558f843
+  - path: src/UI/assets/libs/jquery-steps/jquery.steps.css
+    algorithm: sha256
+    value: 2d930270064ff25bd0da3e77cafe9f6986f766cee3510bbf5dd7b0a8bd8ca07c
+  - path: src/UI/assets/libs/jquery-steps/nuget/NuGet.exe
+    algorithm: sha256
+    value: 1426798078a54af52c49c9c8711602dbcafdd983ed4890dd445269d35b21905d
+  - path: src/UI/assets/libs/jquery-steps/nuget/jQuery.Steps.nuspec
+    algorithm: sha256
+    value: 4bf62bf8f6a2d8733bc7760e9aaccc0c35733e7a0196619a1bfdcf48be04db69
+  - path: src/UI/assets/libs/jquery-steps/steps.css
+    algorithm: sha256
+    value: b2e939477ae23b3ddd4372f039eeeca4757a3e9aa8715d07b211823f4b421eab
+  - path: src/UI/assets/libs/jquery-steps/steps.jquery.json
+    algorithm: sha256
+    value: e9160e335ec4f246e327da3da292c2b59514b020e72b7c48d59c01be3f777a7a
+  - path: src/UI/assets/libs/jquery-validation/dist/additional-methods.js
+    algorithm: sha256
+    value: a8b0e97fd52b9aced1eab9c04ab8c7cf7f167507cebd23a64e02c37f3412cc84
+  - path: src/UI/assets/libs/jquery-validation/dist/jquery.validate.min.js
+    algorithm: sha256
+    value: 788b4b14ec9f43877f386cc49c67218b664c545f048468334b493b7d238f89f4
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ar.js
+    algorithm: sha256
+    value: a5ebbc1cdbf46e77be6f1145fe4840823cedf409d56902fdd60ec129655de2da
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_az.js
+    algorithm: sha256
+    value: a4a89d67b8e20a09d980027ade212c10b97ea0c62eca89485d038c391c066582
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_bg.js
+    algorithm: sha256
+    value: 2b179b28375845ccf1ebc0abd6bb08eabf3a676bc70874c0b0678dd7c6599bd9
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_bn_BD.js
+    algorithm: sha256
+    value: f9696e99183a68b4ee0e0cbbb7069b4524a179f880c01177bca3f008aefb2e56
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ca.js
+    algorithm: sha256
+    value: fc39d7c34277bf98111a9e1850443d6fa19e7215f406614303127b10511e1565
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_cs.js
+    algorithm: sha256
+    value: 744d4683399ae488bf4064f39be40707810968164b50242ee42e601ea304a536
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_da.js
+    algorithm: sha256
+    value: d075ba1d8feb722ea0804ad103c54483b6f34e479f62494bdf87ae2c58587c49
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_de.js
+    algorithm: sha256
+    value: 195363fa17e1e54d7cb8b812648afccb3a44548decf849b80261f2f45b650d75
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_el.js
+    algorithm: sha256
+    value: e2ed9f627f9035b7747978b1fe50ed2e01985eebb44cbebfa624412fea601f01
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_es.js
+    algorithm: sha256
+    value: d5feacb15b6645f037092b155cef187f4ad0699a98b7c1bfc9af4e4fa812820d
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_es_AR.js
+    algorithm: sha256
+    value: f0330081d31a9aa20dee0467080cb95c0f9d891e1cd95166d7a250a1657e5bde
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_es_PE.js
+    algorithm: sha256
+    value: fd16a031402a06f3a61f1ae3ed7ecdc1af5ac1a2124f15a6f57483438d532861
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_et.js
+    algorithm: sha256
+    value: c23564ebb5996556671213aeb47f28b7687603fa12b39b0b76cceecfeddbb593
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_eu.js
+    algorithm: sha256
+    value: 5a711bd249efbf2ae71361e2e51519b851be868aa89a3820e5f2bd06fcf0ae03
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_fa.js
+    algorithm: sha256
+    value: dabda35ca14be0be48b463cd7208f46bb5c33a54ca34176c206f3685126b06e7
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_fi.js
+    algorithm: sha256
+    value: ce0c3fcb14b7ecb532d30b9d3f326eaf457d7a2ebc3f1c47eee4dca8c3595c0d
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_fr.js
+    algorithm: sha256
+    value: 6dffae67cc048defb4c2a28704231a3ae4025865de6b26a1d07ccc2c0011cb22
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ge.js
+    algorithm: sha256
+    value: b52407f6601b52731aad66b481f84fb26c7af58024ea661c8ca0498dff3ab689
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_gl.js
+    algorithm: sha256
+    value: 78281b2e0e17e1f9fa8add875e7f8b386bbd00567139cd2af17788983342defd
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_he.js
+    algorithm: sha256
+    value: 1ab1724eccba92413bb014d97d1fcfc0f1e7d3c668a0d20daa30057d00bfd398
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_hr.js
+    algorithm: sha256
+    value: 7151cf6d923d3f5c67665b4b55cc31ffec8e30c7033efa80c9bd805bd1ce7485
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_hu.js
+    algorithm: sha256
+    value: 6919a21f46ec1247671504b7abf7a768356547d0a7b32225bc1a5bc400db2179
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_hy_AM.js
+    algorithm: sha256
+    value: 53c57feae4605bd9cb1b21f6f6fc1afe22be688bca58151f9eaeddc574f2f219
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_id.js
+    algorithm: sha256
+    value: f83ff812bdd667e39712a2dd937d44dd3e53037d9b2ea04d087eb2ca1ae2d2fb
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_is.js
+    algorithm: sha256
+    value: b09f31d1e845706175bf1b42a15e6a4aadf7e70ba556e8f3be497c8d10a31d7f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_it.js
+    algorithm: sha256
+    value: d7c9994b74ea3cc1967a4268535d1db98977d73f3c0525e278d3bc71b5683029
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ja.js
+    algorithm: sha256
+    value: 490ce4c66dfd7b34c48469027119fb1eb2110584b543e52ac18ccf63597592e9
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ka.js
+    algorithm: sha256
+    value: 83e330b456dbdc20b9fd59e8c7ca72bd871fc6aea4fb255744f0958bdc16024f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_kk.js
+    algorithm: sha256
+    value: c7997d4fc2866cb80d1e24a91b5c5115e65330e546f9936d593b48e74f75c207
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ko.js
+    algorithm: sha256
+    value: fcdc6fb00c358525f617c987bdfb3d6652591a289b7b9e0de5e7afd3de519693
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_lt.js
+    algorithm: sha256
+    value: 5fe7a76cdf8fe4a4ec5203a1ced5cc1ac92a10b5ce6b39c85e63c1b89dafe8fa
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_lv.js
+    algorithm: sha256
+    value: f3dae9765d06dd96e4bf466b1001ee5d173603d02d11d29c1db3e4b8180d7c4f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_mk.js
+    algorithm: sha256
+    value: 768370e446ea58d1911cf9f16a9ca2048ae292783ca7d0ded7f49bd716cec099
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_my.js
+    algorithm: sha256
+    value: 09be65c9fe1b7cff125666d475e9fc7a616afc93e5808e9df187342b1d1f685f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_nl.js
+    algorithm: sha256
+    value: e17a2ca95061ab32e5aeb53cc70058c9cd69dd582919a1ceb551f5d5cb454489
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_no.js
+    algorithm: sha256
+    value: dcde6224c7fb4743e31c5939b674f2d8a2e03b459ff24fc088ac58281f976a01
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_pl.js
+    algorithm: sha256
+    value: 92a3b8e1dadf1a507db3e4190f7688f72c3641c6b4f7578f56fdc7ce7045415d
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_pt_BR.js
+    algorithm: sha256
+    value: d5c5b06d2330e94a8ad895f9615cd53f9ee782df6d01e8ffbe22a2d582d6ec99
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_pt_PT.js
+    algorithm: sha256
+    value: f04fa4a522cdc9e76e2d695ff6fc45498eefcfe4ae7e2d9ea2c4d1fe553d73ab
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ro.js
+    algorithm: sha256
+    value: 4a2a2f06ead8387b5e900da417546672abc7239eb989ce1019459cb09980052a
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ru.js
+    algorithm: sha256
+    value: d0ac153265a8fe70bf7ab06d2061acdac2e8a20edec2acebedafdd87874d43b1
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sd.js
+    algorithm: sha256
+    value: 08aec90e7dcda898f02b713c5f7976fe8969f2695999884c97963675cbcb492b
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_si.js
+    algorithm: sha256
+    value: d33bcd3312f0d625fdea884f3a30be36387207bb9de802619a4fc6ca0c66dd66
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sk.js
+    algorithm: sha256
+    value: 2a375b62845588af90bfd8b91e9ce6bc0af0142c2d0898a882c6fecbdf73426d
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sl.js
+    algorithm: sha256
+    value: e2e043c9bea07a2cc427aa633c86ab1ecddfd11f5c59b762612ed4e8783c727b
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sr.js
+    algorithm: sha256
+    value: 3ca55d960272aa2e18244ed639107850f57f9d188aca4092ae6a91086b6dcfbb
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sr_lat.js
+    algorithm: sha256
+    value: 82b2d2341a65e66d3ed0068c29ff97dd76a2d61d1a8c06691dea585bd0b9453a
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_sv.js
+    algorithm: sha256
+    value: d62b3c61958a030ac817c62f7ca8e87d3188988fdd9ddc59767dff94b9ffaa3f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_th.js
+    algorithm: sha256
+    value: ee8be963367a04b4c5a035cfa3fc084042a34700b480b127dcd73714a4fce6b3
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_tj.js
+    algorithm: sha256
+    value: e4dfc0af607ee01ffd339695bcf1fab3e7de17369c141da40a20449c733b5775
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_tr.js
+    algorithm: sha256
+    value: 568cde88d28d4bfd9e5f4ecd0de2814e8e893b2569bd4aa563064bae21b8f50f
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_uk.js
+    algorithm: sha256
+    value: 6b3dac0d9849446df459fda66b696ad7f2424b4249628c149f49c0c07c059bec
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_ur.js
+    algorithm: sha256
+    value: 0e729ec35899371ed4a35757b2af8826e34887470e3fec46a52f494a85a71fa8
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_vi.js
+    algorithm: sha256
+    value: dc33464e5d4db04fd3d9e29b65d426abd4e2c1bbefee3b7f3d9192632eeef857
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_zh.js
+    algorithm: sha256
+    value: d3ad2d2f95805c6ddf9400a53b0671e167cbdf8ab14ddca81e3fd76aa8e13008
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/messages_zh_TW.js
+    algorithm: sha256
+    value: f43286e7b7b8838f0927059c23e2a2c8a68281442e7c99358372f89d42cdd2e6
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/methods_de.js
+    algorithm: sha256
+    value: a310012884894e1280876623b27b26a428db7b9b0d9ea05325c0afb25980f36c
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/methods_es_CL.js
+    algorithm: sha256
+    value: a6a522c0f964b71ae26b0a371b6afc31625bdb1dbfc7bfcf5bb5d25384dc4f12
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/methods_fi.js
+    algorithm: sha256
+    value: a615da76c659728972bd15ca5df6945e27cc949d242dd7a36ba3feb0c78bfabc
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/methods_nl.js
+    algorithm: sha256
+    value: 523a5a78a19a54decdf7f1c56b66596d4ce2d8a286916b4d36d42f8346b43e4b
+  - path: src/UI/assets/libs/jquery-validation/dist/localization/methods_pt.js
+    algorithm: sha256
+    value: b3ec50d2ff68461216b6b64d912ed3be0d180bbb91377b6f7ce0f95d55d6c55c
+  - path: src/UI/assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js
+    algorithm: sha256
+    value: fe19922d238c1259e1a19dc5150cc7ac5f81416146241626936598517ddd0127
+  - path: src/UI/assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.source.js
+    algorithm: sha256
+    value: 076e1d94211a7908dd21654161755d5f5e2cfa8a366ef60eab6c5e631d4d2032
+  - path: src/UI/assets/libs/jquery/dist/core.js
+    algorithm: sha256
+    value: 414d9b68955450198f1b249bea0fb6758e10531294baec3ede2157fe1c751539
+  - path: src/UI/assets/libs/jquery/dist/jquery.min.js
+    algorithm: sha256
+    value: 4fe68fa216176e6d1f4580e924bafecc9f519984ecc06b1a840a08b0d88c95de
+  - path: src/UI/assets/libs/jquery/dist/jquery.slim.min.js
+    algorithm: sha256
+    value: c3f2b5e1cf5eb3ef97a07cc831a3260341ba11af67763bc05ef3e9e55dba8c1f
+  - path: src/UI/assets/libs/magnific-popup/animation.css
+    algorithm: sha256
+    value: 985ac1005f937a028433351d681c659d09a2d00736313f19383d0ac740a6422d
+  - path: src/UI/assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js
+    algorithm: sha256
+    value: b0a45cd5aed66e27bd8ee861d0e3b782c8e79849bde32f90f078b9f2451a36f2
+  - path: src/UI/assets/libs/magnific-popup/dist/magnific-popup.css
+    algorithm: sha256
+    value: 1155981e8193622f58553eed0bba2fa43512af362a3d54dedef64c46970bb371
+  - path: src/UI/assets/libs/magnific-popup/meg.init.js
+    algorithm: sha256
+    value: 54603bdf6d1cac32735da8018efa4ff7fe1f23b2bb13a76912801dc5d1d9149a
+  - path: src/UI/assets/libs/moment/ender.js
+    algorithm: sha256
+    value: 5f12bbf8cd366175e7f021e40334910d39f85d8602fbf16a5a70b00fe83af292
+  - path: src/UI/assets/libs/moment/locale/af.js
+    algorithm: sha256
+    value: 52724a50f7b9e189a91524d75ac18d62d7d7b466987ce7b097ad155d505c5097
+  - path: src/UI/assets/libs/moment/locale/ar-dz.js
+    algorithm: sha256
+    value: e73b416e754adaf64fede86bffe2d92d74b79504285154d34e516cf69f2dded2
+  - path: src/UI/assets/libs/moment/locale/ar-kw.js
+    algorithm: sha256
+    value: 8c013f0406442219d7da5aaa140a60bee07090eff246710172403d59bfd294dc
+  - path: src/UI/assets/libs/moment/locale/ar-ly.js
+    algorithm: sha256
+    value: 3710a2db84099827a68d11207b2b53a2192318dd04f2cfe2109de3838e7b739c
+  - path: src/UI/assets/libs/moment/locale/ar-ma.js
+    algorithm: sha256
+    value: a034c121c9f5634bf6c38cf6af7baf83247749055a0d0a298a34027710559b95
+  - path: src/UI/assets/libs/moment/locale/ar-sa.js
+    algorithm: sha256
+    value: 6905929e0b9d2fccb60e2fa8ca51cd09b2fd23ab8aae03fe0d75516882e2c92e
+  - path: src/UI/assets/libs/moment/locale/ar-tn.js
+    algorithm: sha256
+    value: 19b2fcb0aa31efc6d2559c533ee4681181a86de86026fdbd5c8955617e7e30d3
+  - path: src/UI/assets/libs/moment/locale/ar.js
+    algorithm: sha256
+    value: 2071c42ffb1976fede50aec5712b84b0e94d75d5cf18ee2f965c88913bdfa6e1
+  - path: src/UI/assets/libs/moment/locale/az.js
+    algorithm: sha256
+    value: 64fcb33fc389f07a5f702938d3ef98d432fede4a7f4d05ff118905c3196127ed
+  - path: src/UI/assets/libs/moment/locale/be.js
+    algorithm: sha256
+    value: 6ae9fdb1c89d930700b579aeefca1fc4aa1ab9a26f73ad25d1e655b12eba59cc
+  - path: src/UI/assets/libs/moment/locale/bg.js
+    algorithm: sha256
+    value: f7d59645824d9cb39bde26cf81fb69c02c898461a3c07a59e845533cc1207b87
+  - path: src/UI/assets/libs/moment/locale/bm.js
+    algorithm: sha256
+    value: f058c9655e19b785360681c5b4988ac64485a9100c28b6ab9d9bb2245adad1be
+  - path: src/UI/assets/libs/moment/locale/bn.js
+    algorithm: sha256
+    value: 8eaea24dd06eebb1e4b9e3ee9640c4ebece6e3cc0cfccc27f3a609ffd3363ce4
+  - path: src/UI/assets/libs/moment/locale/bo.js
+    algorithm: sha256
+    value: 719833c43e0f742aa2520947ad5e9a2443a67cdbc7243e153ebb11f70077525e
+  - path: src/UI/assets/libs/moment/locale/br.js
+    algorithm: sha256
+    value: 2f0ecd8023c272b044b6463112890b27c5f64eb21feccaf7e0c77a825102b3a6
+  - path: src/UI/assets/libs/moment/locale/bs.js
+    algorithm: sha256
+    value: 7a8a06a68c71aac5cbb0dfe9c17c1aba764286fc16d8783a2b2884b946f19f2e
+  - path: src/UI/assets/libs/moment/locale/ca.js
+    algorithm: sha256
+    value: 905be2d3e8c067edefee01572635b74200ff2ea764c59d4d18518c9b58737da7
+  - path: src/UI/assets/libs/moment/locale/cs.js
+    algorithm: sha256
+    value: ccba1e705de77222ee5c0dff1a202a3ab36e5823d0df459df1d16ae71c81c30c
+  - path: src/UI/assets/libs/moment/locale/cv.js
+    algorithm: sha256
+    value: 8155e9350a8581233b017dff7e3a159fd21145af61bf507b1bdc46c0307dda23
+  - path: src/UI/assets/libs/moment/locale/cy.js
+    algorithm: sha256
+    value: cf2f924a6afbb019299a4dad6559de6e8b1c9cad3b7a76f0f35cf3d76b83d91a
+  - path: src/UI/assets/libs/moment/locale/da.js
+    algorithm: sha256
+    value: 08b509152676ce2c0f02971195c60d60100c218e50d73d03fde726f1cf164a2c
+  - path: src/UI/assets/libs/moment/locale/de-at.js
+    algorithm: sha256
+    value: ed1aeb26f653224213c944928f19c172afc4db2f1b501f7b2c93cd07b306ce6b
+  - path: src/UI/assets/libs/moment/locale/de-ch.js
+    algorithm: sha256
+    value: 3fb161d116488e684107d9962ffd1408f0ecbd862e0bc43e91354194f6ae4d27
+  - path: src/UI/assets/libs/moment/locale/de.js
+    algorithm: sha256
+    value: 42eb9c61dfe8a68dfd12d8e66627b3a1ba545bc6a7b7a198bda9d0feceac389a
+  - path: src/UI/assets/libs/moment/locale/dv.js
+    algorithm: sha256
+    value: e7f5b216f34b0e9b238d8b7998033f080a763495dbd8d923f665506e640b9297
+  - path: src/UI/assets/libs/moment/locale/el.js
+    algorithm: sha256
+    value: f31611d1d4abd9ab1d054eddc39da4d46e6f3fc8e5f3dcf2b272242d84bcb9a9
+  - path: src/UI/assets/libs/moment/locale/en-au.js
+    algorithm: sha256
+    value: c9ddb8aaa458778b3414d6dd3c6a07f2053010f9c8d365cff9afc0d6e74a3e42
+  - path: src/UI/assets/libs/moment/locale/en-ca.js
+    algorithm: sha256
+    value: ff197ca6ce85ad5c790205a669d4699b45bfb2d03346cd0026ab855ea7aee55d
+  - path: src/UI/assets/libs/moment/locale/en-gb.js
+    algorithm: sha256
+    value: 33a7f2098d3a8a3c8ba4162b13f9966318763659c6bc1b1e0d6c49cc839d90f4
+  - path: src/UI/assets/libs/moment/locale/en-ie.js
+    algorithm: sha256
+    value: 8d881f0dc73a9f8b7dc7702931aeccc70e465b751e057151b1eaf3126dd1b11d
+  - path: src/UI/assets/libs/moment/locale/en-il.js
+    algorithm: sha256
+    value: fc6ff2fbb6777c3632e8d8deb9601a75d56faea764c8008556abedf17eb6691b
+  - path: src/UI/assets/libs/moment/locale/en-nz.js
+    algorithm: sha256
+    value: bb6c92c49036a45d63552a6f3e456244e447aa8a73daffafeed151e1394a2c52
+  - path: src/UI/assets/libs/moment/locale/eo.js
+    algorithm: sha256
+    value: 8a7cf7561f479798491501d5ed4093ed0104b9e80c68fae0197e66733d58567d
+  - path: src/UI/assets/libs/moment/locale/es-do.js
+    algorithm: sha256
+    value: f019717507b47c098cdc9b1ed39d3c29a3fc8507249ef0eb5372933d0d77e45c
+  - path: src/UI/assets/libs/moment/locale/es-us.js
+    algorithm: sha256
+    value: 4d8c05924c1ff530acb62b6e019547ba5fb38ba2dcee465165fe66764f7fd29e
+  - path: src/UI/assets/libs/moment/locale/es.js
+    algorithm: sha256
+    value: 9b1adb22a8c48e5a2b7034724075f5a530429b2a773c474f71b2dccb309094bf
+  - path: src/UI/assets/libs/moment/locale/et.js
+    algorithm: sha256
+    value: 797d70fe13901063130f5fbefd50c12f18e1e4fcc6c955d18364b8d87ae3593e
+  - path: src/UI/assets/libs/moment/locale/eu.js
+    algorithm: sha256
+    value: a1c349d62ca150fea407b751a0bfd4e2dea0c665e9f42e2b114611b03b21c639
+  - path: src/UI/assets/libs/moment/locale/fa.js
+    algorithm: sha256
+    value: 50696ba87eabd14508be7ff6023e2624340de9521d796ce3a42c3d46975f5f94
+  - path: src/UI/assets/libs/moment/locale/fi.js
+    algorithm: sha256
+    value: 2afe67cc157dfdef7c598e5f5281411429bf7e2ad106207ce088c81e8989a434
+  - path: src/UI/assets/libs/moment/locale/fo.js
+    algorithm: sha256
+    value: dcaa2d49e55b06a1e8c951d1866ba78c3aaf001949580f65d9b0b67eb74841ba
+  - path: src/UI/assets/libs/moment/locale/fr-ca.js
+    algorithm: sha256
+    value: 06dc4306f5de120e351919b89bd49d62d761e437edc69658a9d8c5cc13475c99
+  - path: src/UI/assets/libs/moment/locale/fr-ch.js
+    algorithm: sha256
+    value: d7159b69f4612161da8ae02169024fda793d60a76f0e2bb7d6a091ab2b93ad17
+  - path: src/UI/assets/libs/moment/locale/fr.js
+    algorithm: sha256
+    value: 5e415cab656c3b1f9245d903fe4bf6c0c665bad37dc7a296146b7eb0f974b72f
+  - path: src/UI/assets/libs/moment/locale/fy.js
+    algorithm: sha256
+    value: c6aa23d0df85df130d4b00a38e9ccd409293eaf483d64554189feb1b7a9ac8fc
+  - path: src/UI/assets/libs/moment/locale/gd.js
+    algorithm: sha256
+    value: 1250f3def2b4d8abf8b6227e6f52aeb0610ca4ca3aa99fac7c3db54b3e7bf3a1
+  - path: src/UI/assets/libs/moment/locale/gl.js
+    algorithm: sha256
+    value: affebbce62e1caa342a95156402d0e09889151c3608189eb4a36a980ae266dfb
+  - path: src/UI/assets/libs/moment/locale/gom-latn.js
+    algorithm: sha256
+    value: 251662a644deeffeb46019f313e9bb3d6e9facc6f96875ce68dd9616aae7dac2
+  - path: src/UI/assets/libs/moment/locale/gu.js
+    algorithm: sha256
+    value: 415883b77db58933830f367335646c2812956bdc88effaed4bd429cfb12a0195
+  - path: src/UI/assets/libs/moment/locale/he.js
+    algorithm: sha256
+    value: 599bdbd2b4be63bd2396c79ad0fcde9002ad8f805f5ca3a47a224567c0a1bbc2
+  - path: src/UI/assets/libs/moment/locale/hi.js
+    algorithm: sha256
+    value: e4bc0d848b3fa1066957582ed35c4094210be248e7edbb9d997ca3d1f838ebb4
+  - path: src/UI/assets/libs/moment/locale/hr.js
+    algorithm: sha256
+    value: 86e8ad3d89557e9fe29eab48fcaffe75e68c9fa396ec102a341370a28311f214
+  - path: src/UI/assets/libs/moment/locale/hu.js
+    algorithm: sha256
+    value: 82a3421727b3ba70ba34513a9f7e06f23c08c581b76b2ea6060161e5a3e91e69
+  - path: src/UI/assets/libs/moment/locale/hy-am.js
+    algorithm: sha256
+    value: dfcbfecfa2baab1c91047b7017625a3acaecbc69e7d3d1484e1c2cb9d1f1101c
+  - path: src/UI/assets/libs/moment/locale/id.js
+    algorithm: sha256
+    value: 3c7ce4eb7670f20e7a0fe590b0cabcf75499e7d51f292c858d43fe76bf0730e0
+  - path: src/UI/assets/libs/moment/locale/is.js
+    algorithm: sha256
+    value: 3bf5743b65819828613720d6814b45da06c08db135ed4d303159b841201425e8
+  - path: src/UI/assets/libs/moment/locale/it.js
+    algorithm: sha256
+    value: 1437d4b9215b27fe580f1209a0fece38b0dd91995edd1e798d04b2a2d2f9b5cb
+  - path: src/UI/assets/libs/moment/locale/ja.js
+    algorithm: sha256
+    value: 16bf6ce6ca69bdbf38535d8acaac7f6e700f06f89039da8aed44ec013ba4464b
+  - path: src/UI/assets/libs/moment/locale/jv.js
+    algorithm: sha256
+    value: aef424dfe12081a2c72ddc6e279def373dbe84691e0c1378607b28c354510ccf
+  - path: src/UI/assets/libs/moment/locale/ka.js
+    algorithm: sha256
+    value: b25e42d6532f3d4c9ec892552768e821b94f7dcaa7c9b95c7c6b63c4efbb2ee1
+  - path: src/UI/assets/libs/moment/locale/kk.js
+    algorithm: sha256
+    value: f96740309828c6c246c9ac6af4cad12bd84f497adeaa145969b6aaf55405c07c
+  - path: src/UI/assets/libs/moment/locale/km.js
+    algorithm: sha256
+    value: 27b7df80c1893c43eb123625ce25b719d9b61f4245864918dc58d07e6ec98686
+  - path: src/UI/assets/libs/moment/locale/kn.js
+    algorithm: sha256
+    value: 423bf8a461c6aae86dab8c679fed631100dec351240cc24387c0d0546907d3b0
+  - path: src/UI/assets/libs/moment/locale/ko.js
+    algorithm: sha256
+    value: 57e25ad6139e52a47818807930635f27197e3dc5d14457ab35dfc914f717630d
+  - path: src/UI/assets/libs/moment/locale/ky.js
+    algorithm: sha256
+    value: 7a18f66e41e13f08ad233d8cf454112be34522f5c2214ba6e28c5669f9028cf7
+  - path: src/UI/assets/libs/moment/locale/lb.js
+    algorithm: sha256
+    value: f718d7f1103ff007d045d6df9d7a824fe7cd8ebecc1559c2fb96d377330d2b88
+  - path: src/UI/assets/libs/moment/locale/lo.js
+    algorithm: sha256
+    value: 71ce20582e6fbbe81242d205973e9936d1bcf423908b5c9eff3fb4f249285ec4
+  - path: src/UI/assets/libs/moment/locale/lt.js
+    algorithm: sha256
+    value: cd5801409190f75c81e50516e0ec3862fb5d291825b37f48033fc3c8e4bd2d1f
+  - path: src/UI/assets/libs/moment/locale/lv.js
+    algorithm: sha256
+    value: c5948c29439b314883bfea16098970086692522b9a8ed926459b41f5a55512d8
+  - path: src/UI/assets/libs/moment/locale/me.js
+    algorithm: sha256
+    value: d71af1924627ba70be62a3d1d92eb14d92068844f50bce080d8b4b8d0de222ee
+  - path: src/UI/assets/libs/moment/locale/mi.js
+    algorithm: sha256
+    value: be6094c0f3d703489fdb9154e78bcfd9e4e921fb4003baca860d9293da3522ca
+  - path: src/UI/assets/libs/moment/locale/mk.js
+    algorithm: sha256
+    value: ba72b01eeaeff4dd9f458ba373cbb280dd536247b9e578dbb75d7cf5a77eecb9
+  - path: src/UI/assets/libs/moment/locale/ml.js
+    algorithm: sha256
+    value: 580867ef280c4107c3783364a2e1e6ea0d6f7be2d154e5041a826f34c647650d
+  - path: src/UI/assets/libs/moment/locale/mn.js
+    algorithm: sha256
+    value: e703e5773502a00ffe7d0ba67b2e81e58cf869668fe29495b021bff300d80f87
+  - path: src/UI/assets/libs/moment/locale/mr.js
+    algorithm: sha256
+    value: 348fe3fa68a39047546ffce0b34549fd855e50aaf0503270a57636a945cc86f8
+  - path: src/UI/assets/libs/moment/locale/ms-my.js
+    algorithm: sha256
+    value: 7634386b917ed02a87e336248e99ccb6a3aca4b9b4761f4a9973cf7b5644f954
+  - path: src/UI/assets/libs/moment/locale/ms.js
+    algorithm: sha256
+    value: 3d5a347dea939a775dabde61a9728ce94aa9f5ee42fcbffdaaf3f4025cc3dc44
+  - path: src/UI/assets/libs/moment/locale/mt.js
+    algorithm: sha256
+    value: a940d5392524ad94e1788d3b9a94496ba5731c9f8b998fdda0b3925264493304
+  - path: src/UI/assets/libs/moment/locale/my.js
+    algorithm: sha256
+    value: 0879cbd6f4ada4b7617c972be96d6a0786ab9a0b5e266769357ffef1c0c6ee5b
+  - path: src/UI/assets/libs/moment/locale/nb.js
+    algorithm: sha256
+    value: e311a44a347babf7048744a481e5ed96aed8852d788d3d82f1826785bf754724
+  - path: src/UI/assets/libs/moment/locale/ne.js
+    algorithm: sha256
+    value: 0f9246234d9519aaccaea914f9d2a9d573ceca6d3d14944e0a146b31a579fbe9
+  - path: src/UI/assets/libs/moment/locale/nl-be.js
+    algorithm: sha256
+    value: 4809794cc7ad718c59c6bd501c16c9a1c444fa7050aac7e571e128128604356c
+  - path: src/UI/assets/libs/moment/locale/nl.js
+    algorithm: sha256
+    value: 682a3a175148c63eeb4ff11dd253696f7ba691ffd0781453c5b78d6d7de192cb
+  - path: src/UI/assets/libs/moment/locale/nn.js
+    algorithm: sha256
+    value: 96ffa3ad507d48470f97e24ba2613765bbeae54f06c93ec8f692d9752ca22f96
+  - path: src/UI/assets/libs/moment/locale/pa-in.js
+    algorithm: sha256
+    value: 4763bd41c367ecab2844ca877c82901df149bbbfbfdb53ad372a63bc5af6da31
+  - path: src/UI/assets/libs/moment/locale/pl.js
+    algorithm: sha256
+    value: 54612158182d4f061b1b9d5002cb7e14d1ff3790d7d295f6484f68291461a99b
+  - path: src/UI/assets/libs/moment/locale/pt-br.js
+    algorithm: sha256
+    value: af6c9a18eada567294cd1f4376d50be193393ada97da5a2b6018b1231ee26e91
+  - path: src/UI/assets/libs/moment/locale/pt.js
+    algorithm: sha256
+    value: 562913ab0ae5a5b2515231ff46dedfc63c76ec9581699d3d613d1788bcf25489
+  - path: src/UI/assets/libs/moment/locale/ro.js
+    algorithm: sha256
+    value: f38f80d80c584f642deec92b7491b88b24b9ca21d2603eb9714c112947151489
+  - path: src/UI/assets/libs/moment/locale/ru.js
+    algorithm: sha256
+    value: 402b0ba6b3ca0a77e41d527f14f4c7d0da31b4ded3b1299be19e026a7f613ab8
+  - path: src/UI/assets/libs/moment/locale/sd.js
+    algorithm: sha256
+    value: 678e6a95f21d0792b7c6c442c804b815f70f09f2dac366b659655244b75e8065
+  - path: src/UI/assets/libs/moment/locale/se.js
+    algorithm: sha256
+    value: acd11634ef9b4e89f7a7609b188186a168cdd039a22ec090295171e4e26abb1f
+  - path: src/UI/assets/libs/moment/locale/si.js
+    algorithm: sha256
+    value: cc6b6124dad667b0d6b804562023188d0c89d9fdd361f671e53a49cf41f5d3a4
+  - path: src/UI/assets/libs/moment/locale/sk.js
+    algorithm: sha256
+    value: 8337f7942bdac9d821f51f85e6fe0de096038eae1462b7cca7816bb0c51800de
+  - path: src/UI/assets/libs/moment/locale/sl.js
+    algorithm: sha256
+    value: 0ba1f659ce2a44ab04b3b21c43f37d54403e78d39b49669d83d38b3314c57aa0
+  - path: src/UI/assets/libs/moment/locale/sq.js
+    algorithm: sha256
+    value: 15771110be16ff244812d3a6186c3b02714b04404cad906072ff2e16fe756794
+  - path: src/UI/assets/libs/moment/locale/sr-cyrl.js
+    algorithm: sha256
+    value: 86a8854faee1bb9ef8ac14ce5030a30dd794cc6a76ced588e4583fb8114e260b
+  - path: src/UI/assets/libs/moment/locale/sr.js
+    algorithm: sha256
+    value: ff77a7f2e73680a99c4e58caeb3466ac7b9db0ff5e02dbb63a628ba1ba8285a6
+  - path: src/UI/assets/libs/moment/locale/ss.js
+    algorithm: sha256
+    value: 86897997c76df6d85e72d0c247ae1455057aa7b08b00d7658d674cc8fb2ecc6b
+  - path: src/UI/assets/libs/moment/locale/sv.js
+    algorithm: sha256
+    value: 64d3cf68657c39c0f78d8aebb4e4e3bb086a08e4c2296adcbcd46ccd98b2aca8
+  - path: src/UI/assets/libs/moment/locale/sw.js
+    algorithm: sha256
+    value: 14b51203a61ee9fbd779b4aa2be5c24497e3486936d622970b98f4e841132f8d
+  - path: src/UI/assets/libs/moment/locale/ta.js
+    algorithm: sha256
+    value: b003d38789a92fb3a7ae0065938abd8578377602f2c5c19869a5d6f154dbbef0
+  - path: src/UI/assets/libs/moment/locale/te.js
+    algorithm: sha256
+    value: 71a580b117007647b7dce40e132df6165de6ed42b9139e00935efb1381e70b37
+  - path: src/UI/assets/libs/moment/locale/tet.js
+    algorithm: sha256
+    value: 00aa23206f0f169228397dd76e4efa39f4e813767f6662b0b809e30a00d3150d
+  - path: src/UI/assets/libs/moment/locale/tg.js
+    algorithm: sha256
+    value: d824aace4b1b39c053ab90f36206dcf1f3ba41e7d7d4a3d013c1201159ffc784
+  - path: src/UI/assets/libs/moment/locale/th.js
+    algorithm: sha256
+    value: 95d89ff57ccb174caf6f7ee69a90577b2c235ba4aa90260eecb09a3e0dd0e916
+  - path: src/UI/assets/libs/moment/locale/tl-ph.js
+    algorithm: sha256
+    value: a000f19b9b652f3421e47df6a9d71b0f0227ad411b8f08f720aa6ecfdf5cd9e7
+  - path: src/UI/assets/libs/moment/locale/tlh.js
+    algorithm: sha256
+    value: 43f1dd209f389201d60cdc1d72309a85a0f16eb8e04568b4abf577b40de017e1
+  - path: src/UI/assets/libs/moment/locale/tr.js
+    algorithm: sha256
+    value: 2d8050cf095da07981f6a50e3165180cb6ccb0fb7e3c70be95325e34e5d57cee
+  - path: src/UI/assets/libs/moment/locale/tzl.js
+    algorithm: sha256
+    value: d28d10abf215391603b67b600385fbaad66af52149833f042ba2f0df39de5b54
+  - path: src/UI/assets/libs/moment/locale/tzm-latn.js
+    algorithm: sha256
+    value: 79f43e67b8b976fbec706fa0aca062358eae41036136d6a99fd620e3365ff686
+  - path: src/UI/assets/libs/moment/locale/tzm.js
+    algorithm: sha256
+    value: d3a8a265f155a71127e50102448f1b72d06b85c4774d7619417eff018869df7c
+  - path: src/UI/assets/libs/moment/locale/ug-cn.js
+    algorithm: sha256
+    value: 702446b486de0d641689ed9ecf43e15ccf591279f87b790243d3b60f7dff67b8
+  - path: src/UI/assets/libs/moment/locale/uk.js
+    algorithm: sha256
+    value: 8868167ade343ef665f30c8d2b9176cb788463b7c1262fb94af66e5ef194362a
+  - path: src/UI/assets/libs/moment/locale/ur.js
+    algorithm: sha256
+    value: 8d923c9355cc33c8b905a41f560fd296bf846c14a238ebdf43a2f8d8710c7c9b
+  - path: src/UI/assets/libs/moment/locale/uz-latn.js
+    algorithm: sha256
+    value: fbf13c7f0071dffc8f36bbfbb7c6342892f0d9467cf5c032f419a431a95d1809
+  - path: src/UI/assets/libs/moment/locale/uz.js
+    algorithm: sha256
+    value: f3cc04f8e20fd0380d9f4ffbe642caf78133875d0c00c0a550a6e09e3beef285
+  - path: src/UI/assets/libs/moment/locale/vi.js
+    algorithm: sha256
+    value: 34394b70858b148042012056de6dcab9c8aeb917029ce4e63674c75dcc8dc551
+  - path: src/UI/assets/libs/moment/locale/x-pseudo.js
+    algorithm: sha256
+    value: 59242fb139f39c24d1397b2fea235e0b88b67dbbe0744dbf0ddd993c3e129a1d
+  - path: src/UI/assets/libs/moment/locale/yo.js
+    algorithm: sha256
+    value: 6ca0727b8e7c5a50d2ee4c36f4377f98a40262d2a68f3a094130ecde0decf820
+  - path: src/UI/assets/libs/moment/locale/zh-cn.js
+    algorithm: sha256
+    value: f8553670f2995a413627947df09604db1a76406919be31f7787c2862136ac872
+  - path: src/UI/assets/libs/moment/locale/zh-hk.js
+    algorithm: sha256
+    value: 6e9b3acaeb780976dc6e684622160ba26b6b43684316f5e48e95e79760c466d8
+  - path: src/UI/assets/libs/moment/locale/zh-tw.js
+    algorithm: sha256
+    value: 7badd39f569e410f0e66bc58581fce7155ebaa48cbd5d0383ab7b60470c41696
+  - path: src/UI/assets/libs/moment/min/locales.min.js
+    algorithm: sha256
+    value: a1c8e40563bc5a9404f7b4368255c906cffed7b392fd2ce84d2c3d5ea42456c3
+  - path: src/UI/assets/libs/moment/min/moment-with-locales.min.js
+    algorithm: sha256
+    value: 672916df45010975a43c6b15c953dd26552b71ef7f3dac206021338a7038a675
+  - path: src/UI/assets/libs/moment/min/moment.min.js
+    algorithm: sha256
+    value: 2f74b7103124df51dc2c0e42e93da8bc7bce703f34f9f82a6820edd81022f76a
+  - path: src/UI/assets/libs/moment/moment.js
+    algorithm: sha256
+    value: 4edce72c16d26ef2febd879c4a91c84f8e600c5fd12c45204a209b9d1aaf1ad8
+  - path: src/UI/assets/libs/moment/package.js
+    algorithm: sha256
+    value: d2b73739606886e86462fe78382c06d38ce81618d98090af900a64e90c54b39e
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/css/perfect-scrollbar.min.css
+    algorithm: sha256
+    value: 7440e89e747b3be0c0b728b3a302a9aa10948293a39c54c8b8ff39b58c557b33
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js
+    algorithm: sha256
+    value: a24e67de7b6682ef8ae6119db0ad458f8634c94c95fbbe603f96a6eeebb94dce
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.min.js
+    algorithm: sha256
+    value: 44d7c72d8368fd558b0b6b6d539f5aee0bb7c2208d735fc2ac793f3503ff71f6
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.common.js
+    algorithm: sha256
+    value: 22fb88a4b1790b997c38c7c9cc9c255394e6b1ab9628f9ca98f48566544a43a2
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.esm.js
+    algorithm: sha256
+    value: 62ddb81d45d7db86d4a7cff9b66c000865c6f6674a9d28f23c8eccc05cc59234
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js
+    algorithm: sha256
+    value: f18f9d0554f0a26d14c2431997aa988e4f5c4baac3378899395f5fd230e3f84f
+  - path: src/UI/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.min.js
+    algorithm: sha256
+    value: a4adb8e1b5e99bff79fe713b8c164efa04a7f4859e953cad87162cb9af3ce83f
+  - path: src/UI/assets/libs/popper.js/dist/esm/popper-utils.min.js
+    algorithm: sha256
+    value: e5f2f162ed0e207a22acbda1f113df22e811e69a7d99d7bc4fe09b9370b9ae44
+  - path: src/UI/assets/libs/popper.js/dist/esm/popper.min.js
+    algorithm: sha256
+    value: bd5badc8355eb3b95092b298344a96b7157048bd039b1c1aae41d52d1125cca5
+  - path: src/UI/assets/libs/popper.js/dist/popper-utils.min.js
+    algorithm: sha256
+    value: aeb1bdb86874cbc0c60f8bcd8bff7e39f4e44cfcfe8b40e9600de101536284a6
+  - path: src/UI/assets/libs/popper.js/dist/popper.min.js
+    algorithm: sha256
+    value: 4bb9e75fdc4c06b4c0521b16efa24ede0c4b9c81fd01788731813e5489832716
+  - path: src/UI/assets/libs/popper.js/dist/umd/popper-utils.min.js
+    algorithm: sha256
+    value: c81c91157700f0a1b8a23e0727c51bd6b01b8ee7ecb1711239b5a1b169497ced
+  - path: src/UI/assets/libs/popper.js/dist/umd/popper.min.js
+    algorithm: sha256
+    value: e290dc4993b9ae7d34440db26be412b4bc4547a48ff635750d400164665d7fa6
+  - path: src/UI/assets/libs/quill/dist/quill.bubble.css
+    algorithm: sha256
+    value: e8e966fbbe4848dabf3c2b7e2c899a78659fef4ff742420da8fe38cd5c219238
+  - path: src/UI/assets/libs/quill/dist/quill.core.css
+    algorithm: sha256
+    value: eddf53780bf28a315f65a6846feeb4ca82e62e06a74b9462152f4d87ad8d3bc4
+  - path: src/UI/assets/libs/quill/dist/quill.core.js
+    algorithm: sha256
+    value: 6d4b501df20b89117fb88294e8bd85813b254ff6a10184949a28def97f294c0b
+  - path: src/UI/assets/libs/quill/dist/quill.min.js
+    algorithm: sha256
+    value: a5e9aba8f9ccc079d87b63fe4345c597c5f05c748b039d9382ece26e29c6082d
+  - path: src/UI/assets/libs/quill/dist/quill.snow.css
+    algorithm: sha256
+    value: 12a6dd6c6b592fc64a6885713fd2534ed80e140d6c17743a77cc168332f492f6
+  - path: src/UI/assets/libs/select2/dist/css/select2.min.css
+    algorithm: sha256
+    value: ad8d018af2638e0a390d6976a17b689b1238621b46300701a9a671ca79b532df
+  - path: src/UI/assets/libs/select2/dist/js/i18n/af.js
+    algorithm: sha256
+    value: 7533de868329899c0a60cd1cc523161899c544894a1229b24fdff149f7450787
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ar.js
+    algorithm: sha256
+    value: b6aa7f1d04b9c83d32af2ed73e49cf75f5adc65d93ba569b45f2decc9d1f9398
+  - path: src/UI/assets/libs/select2/dist/js/i18n/az.js
+    algorithm: sha256
+    value: e428471bd1f8bc38b71b362925de84533a114e99621419a3936d032803c5589b
+  - path: src/UI/assets/libs/select2/dist/js/i18n/bg.js
+    algorithm: sha256
+    value: 94c39ba88312e65250bd67f9943be1726d9423457035d61887165952411cbe4c
+  - path: src/UI/assets/libs/select2/dist/js/i18n/bs.js
+    algorithm: sha256
+    value: b57827e82a1ad5029a1f52281b76d544868f85064f0f171cc9e68fd2c76cf99a
+  - path: src/UI/assets/libs/select2/dist/js/i18n/build.txt
+    algorithm: sha256
+    value: 673a365d96d718b5934f511ba1e6e5ba7cd0e6cd615300d9e35c402b2831e8be
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ca.js
+    algorithm: sha256
+    value: 9311695bcd65dab15a5b164050d3363a2e79cc704f0eaa79da8d3f77912d2277
+  - path: src/UI/assets/libs/select2/dist/js/i18n/cs.js
+    algorithm: sha256
+    value: e6412220430c71df319a943cde9c031dc8c95296ded0365ee8f9a4b48688fa1d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/da.js
+    algorithm: sha256
+    value: 75404bc6d2e5b2af53678a98fa88095366e5c3cc5cbaa41dd85d28be9f96da08
+  - path: src/UI/assets/libs/select2/dist/js/i18n/de.js
+    algorithm: sha256
+    value: 2cf687921f2b74cde0ff0de9b791baa6abd12cf41ba41add8983bb9138fff8d4
+  - path: src/UI/assets/libs/select2/dist/js/i18n/dsb.js
+    algorithm: sha256
+    value: 3dfc77aa2b5b32031fc895a2181d6f3e36b1497901aeb7820a0ad67d152e1e6f
+  - path: src/UI/assets/libs/select2/dist/js/i18n/el.js
+    algorithm: sha256
+    value: 479bba21c9575e74957a49b08cbf60945f25b159333cbebce5a33010d373e8d6
+  - path: src/UI/assets/libs/select2/dist/js/i18n/en.js
+    algorithm: sha256
+    value: 9ba361deb90a7d6c1d7c9403aaa46bd87055ad86e0d3f110e1f9b55bf5dba499
+  - path: src/UI/assets/libs/select2/dist/js/i18n/es.js
+    algorithm: sha256
+    value: 90f7f5ad7474db1a066c6c0a7718caf92a548569a64c4307eebf668e86e22230
+  - path: src/UI/assets/libs/select2/dist/js/i18n/et.js
+    algorithm: sha256
+    value: d9e6d826e0d6966399bc33e48f6fa2972d3015e355fd15b35ad79ccb820c3faa
+  - path: src/UI/assets/libs/select2/dist/js/i18n/eu.js
+    algorithm: sha256
+    value: b2d161646b686ffd696e1835386faa414d4bbd1b7767e595ee241e080480f53c
+  - path: src/UI/assets/libs/select2/dist/js/i18n/fa.js
+    algorithm: sha256
+    value: 03d4a19c769fe413a99a9a21b8d72404c8d5af115319c9fe65ead1df20fcf83c
+  - path: src/UI/assets/libs/select2/dist/js/i18n/fi.js
+    algorithm: sha256
+    value: 01266d4d0bed6cde39a3d9cf198ee7460b0cbf9f5c61b2cd10f9f81860ba3bab
+  - path: src/UI/assets/libs/select2/dist/js/i18n/fr.js
+    algorithm: sha256
+    value: 2377e29969b02bb7b0ef773e65319dbcfb40080d3390cdb27b48a0812e012df6
+  - path: src/UI/assets/libs/select2/dist/js/i18n/gl.js
+    algorithm: sha256
+    value: b5d714bc0b2a15680e6a0b0f116b9a32806db13429a5e8f4b4255f970776f531
+  - path: src/UI/assets/libs/select2/dist/js/i18n/he.js
+    algorithm: sha256
+    value: 97a54952aed6c1f3add130fabb2c0615df94a4312f08fae04ec792e949cfbc72
+  - path: src/UI/assets/libs/select2/dist/js/i18n/hi.js
+    algorithm: sha256
+    value: 0a008b76a005f1bc14f7a1fae059c001457f353b5597a65bd7e85fa95a4deaac
+  - path: src/UI/assets/libs/select2/dist/js/i18n/hr.js
+    algorithm: sha256
+    value: 4829c1c5429e64f290e5718bdd10aa58a9f52cc5da04fad059855dc24a4da7d6
+  - path: src/UI/assets/libs/select2/dist/js/i18n/hsb.js
+    algorithm: sha256
+    value: ee88e92cbe535443431665aa647974bd1e0940db323df95d2543604465c01130
+  - path: src/UI/assets/libs/select2/dist/js/i18n/hu.js
+    algorithm: sha256
+    value: ee523f7330c4e98a3293b4395afef5d8a8843896dc4b423d498b58c56c879d2b
+  - path: src/UI/assets/libs/select2/dist/js/i18n/hy.js
+    algorithm: sha256
+    value: aa1d6ccdcd132ebd57f7aee279e7a7d4304367fdf227c55b512278b950776617
+  - path: src/UI/assets/libs/select2/dist/js/i18n/id.js
+    algorithm: sha256
+    value: dd37c4b346c19233737879ef7a8cc8cb811511f7ac1ac6739f8d244e85986f8a
+  - path: src/UI/assets/libs/select2/dist/js/i18n/is.js
+    algorithm: sha256
+    value: f8ea90d096dc452774154c618283aa0258d47d1ee5169c55e0e3775e5b515067
+  - path: src/UI/assets/libs/select2/dist/js/i18n/it.js
+    algorithm: sha256
+    value: 791f2d3ae4880c4a2f910b78a31737ce73724751b0ffa768b24e0bdba6c7312d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ja.js
+    algorithm: sha256
+    value: b6060f02405887adb19c7c3b3923c833ff41dfa2e2d5e10e1077959c940b7092
+  - path: src/UI/assets/libs/select2/dist/js/i18n/km.js
+    algorithm: sha256
+    value: f19f37ef08d0904606fa13d3da2b5309843a2916357683e07209bbfc369a2236
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ko.js
+    algorithm: sha256
+    value: e946cb26183cd53486fb86b97e060921a383187fbf2e98b4de35318fe02ea780
+  - path: src/UI/assets/libs/select2/dist/js/i18n/lt.js
+    algorithm: sha256
+    value: 5b5c746892402e9776861dbc95ac620e5193096a3bfb3ae6cd165095f2ad5ce8
+  - path: src/UI/assets/libs/select2/dist/js/i18n/lv.js
+    algorithm: sha256
+    value: f75d76aad289e7733ee2fa86e1df0635ac75bc653adc1c5c3676802da06612a8
+  - path: src/UI/assets/libs/select2/dist/js/i18n/mk.js
+    algorithm: sha256
+    value: 1f6e83ddfa0590582c1445f460b22506d94043a91d4b6d3f409b5224527d4e1d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ms.js
+    algorithm: sha256
+    value: 4b6f26e6fb7e27600bc0867dbae65a4fa327cf6124b5da42b881871f3e69e526
+  - path: src/UI/assets/libs/select2/dist/js/i18n/nb.js
+    algorithm: sha256
+    value: d9767f9a28e0112c92407165bfe496f5f0600b2b6ddf7993305fcaae573e74f9
+  - path: src/UI/assets/libs/select2/dist/js/i18n/nl.js
+    algorithm: sha256
+    value: 5b09b7d68faae40bb78bb811a70aabae8815c9b9861af763808f34667678a1d7
+  - path: src/UI/assets/libs/select2/dist/js/i18n/pl.js
+    algorithm: sha256
+    value: 438583aa1efeeaf593151266fcc034c206752ca4c06d755b12994578be7688ed
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ps.js
+    algorithm: sha256
+    value: c86cf8b415e4508b2634c5d1dc267d027f72b96147fac7b4f63cf9880a840497
+  - path: src/UI/assets/libs/select2/dist/js/i18n/pt-BR.js
+    algorithm: sha256
+    value: be68f235f84af18b26dbb42f227ef886d2c556c307cbb453b3e792e956ecf4aa
+  - path: src/UI/assets/libs/select2/dist/js/i18n/pt.js
+    algorithm: sha256
+    value: b937ada6940c48ca5263e584f3f0c5ed53a103f0a396a1ce857022d38c2b30f8
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ro.js
+    algorithm: sha256
+    value: e87055ecde9c0ba44d46d39d8dbcb872fdff772e2ae1fa08b29d6e6930dc8e5b
+  - path: src/UI/assets/libs/select2/dist/js/i18n/ru.js
+    algorithm: sha256
+    value: 7f5b7907796e5433ea0f0b08f0f658d77610bdffa8cb98e572bce7ff9586da7d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/sk.js
+    algorithm: sha256
+    value: fa90c194e5fcca4d1ff5178c23fb47bbde5d815de6a5301b2247b7dc676d00bc
+  - path: src/UI/assets/libs/select2/dist/js/i18n/sl.js
+    algorithm: sha256
+    value: 61eef0e1724d927a803b2e8351e4361cb9b658a80487757aa6f6ac3d73c1f26e
+  - path: src/UI/assets/libs/select2/dist/js/i18n/sr-Cyrl.js
+    algorithm: sha256
+    value: 60763c7edfce16741a9f72ae565dc1cd759dfbad0792a25db43c75909bef51b5
+  - path: src/UI/assets/libs/select2/dist/js/i18n/sr.js
+    algorithm: sha256
+    value: 3a93d644e696abfb333785fa03ecc22d77de7d8778e583468b10271f8ed06b4d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/sv.js
+    algorithm: sha256
+    value: 8ee15dd804b8ce82e0e8407e57692a67a04422b7cf9da7da1a8c42214ee4bc4e
+  - path: src/UI/assets/libs/select2/dist/js/i18n/th.js
+    algorithm: sha256
+    value: 6716dea25393fde88142fac7d022e86260564d2c9df45ce1939e62ab063412fa
+  - path: src/UI/assets/libs/select2/dist/js/i18n/tk.js
+    algorithm: sha256
+    value: 20eb60d289d7985c206c9a6866e9c948cdeaf23374251f8713c3c7036fc1462d
+  - path: src/UI/assets/libs/select2/dist/js/i18n/tr.js
+    algorithm: sha256
+    value: 913a458d9ea7f285af3ecd2b48801ac13d6a86be80163feca3809e23e1f196b3
+  - path: src/UI/assets/libs/select2/dist/js/i18n/uk.js
+    algorithm: sha256
+    value: a10601999e847c330f00d8f8acc9cdec79b7db2287152f459057c1d4f46903f4
+  - path: src/UI/assets/libs/select2/dist/js/i18n/vi.js
+    algorithm: sha256
+    value: fadf8d8e8e0692ddc76e6ad42a5b0f7bcaeb08456b2f83cae1665a28af55e00f
+  - path: src/UI/assets/libs/select2/dist/js/i18n/zh-CN.js
+    algorithm: sha256
+    value: a6aacc86e4e7bbd07c783a47909be2021f2e3a810d1518389f67098f0da418e5
+  - path: src/UI/assets/libs/select2/dist/js/i18n/zh-TW.js
+    algorithm: sha256
+    value: 13f6c8da597018805a8f138e31ba3b593d237ef42b87ad862d41b514de79b304
+  - path: src/UI/assets/libs/select2/dist/js/select2.full.min.js
+    algorithm: sha256
+    value: 9ff15425ca7bdb0f367ee5613ee729d7dc8108295f7e3d646100408f81e33c84
+  - path: src/UI/assets/libs/select2/dist/js/select2.min.js
+    algorithm: sha256
+    value: d7dd05bfc68901dbb2c883a7bd65698c29b3917d61f0e12d1966dca14d5056c0
+  - path: src/UI/assets/libs/sweetalert/sweetalert2.min.css
+    algorithm: sha256
+    value: f6c8cf28f0d8411fc3266372bf08eb6f8e62992df7c558e0392f672dc5af49a7
+  - path: src/UI/assets/libs/sweetalert/sweetalert2.min.js
+    algorithm: sha256
+    value: 52733f2447913f087577916cf558d4a79b9199480007a9884ca7042613621c2a
+  - path: src/UI/assets/libs/toastr/build/toastr.min.css
+    algorithm: sha256
+    value: 47dd690f8f315bea076e92581a7e7147443bb4c847e313ab5a7d50a8c44836d0
+  - path: src/UI/assets/libs/toastr/build/toastr.min.js
+    algorithm: sha256
+    value: 7e1b9710da3eeaba504001b69d5c385c43d0a9c0cc48292e0ca15312a811af8a
+  - path: src/UI/assets/libs/toastr/toastr-icon.png
+    algorithm: sha256
+    value: b13200b61531d6bcec504b0df7ef26289fd88c85c353c71ac36b54c2651119e2
+  - path: src/UI/assets/libs/toastr/toastr.js
+    algorithm: sha256
+    value: a88c724b3ae940f53459cab379f28d57e8967a62d3c9eb7ab73a61e950b3e558
+  - path: src/UI/views/auth/login_page.html
+    algorithm: sha256
+    value: 91a3d63a270069198d54d7e2d587cefba166117b009062c1e87f974ba89289bb
+  - path: src/UI/views/auth/register_page.html
+    algorithm: sha256
+    value: 57e7e9eedc7abb28480865a13092a0e825788396793693224aa021ba72066288
+  - path: src/UI/views/dashboard/index.html
+    algorithm: sha256
+    value: 1a476d7a95a5a0644a383a28807b1d6080c6a31e812a0863b9b5c1a5bbaa2f88
+  - path: src/UI/views/layout/base.html
+    algorithm: sha256
+    value: a5fd55eca08796e74aa90a8275640558b88d1e27ea52cfa19958ed5803b69c0d
+  - path: src/blacksheep_messages/__init__.py
+    algorithm: sha256
+    value: 95bb84661bb8393c770b92f252eab96b127c015e84371cf84c85b55c61558b33
+  - path: src/controllers/BaseController.py
+    algorithm: sha256
+    value: 249504eeb154d55c282b0024530a066861bbcf5128a35b29d509a3726662b245
+  - path: src/controllers/__init__.py
+    algorithm: sha256
+    value: 8df19cde6dd3d0e5ae575ffd188cf277c659c61947457608a88156c7a947e142
+  - path: src/controllers/auth.py
+    algorithm: sha256
+    value: 706d8318c2e0ec5963a54b5d5ca6a10d1de72487a1e7ba24efb780aa360bc6c7
+  - path: src/controllers/dashboard.py
+    algorithm: sha256
+    value: 65123a4cb5c4094a9090ebdf75e5be44d1686b6ee83f166c02602d148b077d4d
+  - path: src/gemastik/__init__.py
+    algorithm: sha256
+    value: cdb156a67be77d91d7e49b75b7682f516278a00cfe15225cb7bcd0d128f86b8f
+  - path: src/models/__init__.py
+    algorithm: sha256
+    value: 2f5550973ce0541c08cb0216d9003101016e8c8dbc2fc89f08279ecc7c30aaa3
+  - path: src/models/db.py
+    algorithm: sha256
+    value: f957138dd8126efeb21bf8ee7d06499f230d6b6efb4179b7370e8b8bdfa5a8fb
+  - path: src/models/users.py
+    algorithm: sha256
+    value: dd531d4e89fa086f519bbcc5c5ed0e681f23ba31f878bcabff4b3c0564f9a5bd
+  - path: src/server.py
+    algorithm: sha256
+    value: ed5efbc551f84e58a659cb460439eb1934b4246c6ece937139ce2fc77dd72bcc
+  - path: start.sh
+    algorithm: sha256
+    value: 60eecf9aabc1ea942cd75c91cb498fc469249cd80699ad36d835e96d4f1df223
+environment:
+  type: docker-compose
+  services:
+  - gemas-fetcher
+  - mongodb
+  requirements:
+  - Python 3
+  - MongoDB 4.4
+references:
+- title: gemastik-xvi-final - services/gemas-fetcher
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/gemas-fetcher
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVI final. The setter README lists it with author
+  ganezo and stage final; the repository gives no challenge category, so the archive category is a best-fit
+  classification. The setter write-up attributes the bypass to CVE-2023-24329 and notes that only urllib.request
+  followed a URL with leading whitespace, out of the three fetch methods. The write-up states it was solved
+  by 9 of 20 teams. Nearly all of this service's 30 MB is a vendored frontend library tree under src/UI/assets/libs,
+  which is part of the distribution and is preserved in full. The shared compose sets a MongoDB URI and
+  root password as environment values; those strings ship with the repository and are preserved as original
+  challenge material. The service is deployed by the repository's shared services/docker-compose.yml,
+  which is copied verbatim into original/ together with the service directory. That shared file also defines
+  the other nine services, warm-up and final; the section for this service gives its ports, SSH password
+  argument, flag mount from receiver/flags/, and the utils/bashrc and utils/preexec.sh mounts. Those shared
+  files are repository tooling and are not copied, so the paths in this compose file that point at ../receiver
+  or ../utils do not resolve inside original/.

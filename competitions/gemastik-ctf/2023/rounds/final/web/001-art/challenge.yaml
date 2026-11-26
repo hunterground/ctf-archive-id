@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-final-web-001
+name: art
+slug: 001-art
+original_name: art
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: A small Ruby web application that renders text as ASCII art through an external asciified
+  API. The route /art/:word builds a Slim template string by concatenating the path parameter directly,
+  so a crafted value is evaluated as Slim template code.
+difficulty:
+  value: easy-medium
+  source: archive_curator
+tags:
+- ssti
+- slim
+- ruby
+- server-side template injection
+authors:
+- name: vidner
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/art
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e4170d17cbb914bdc01413b42d96949d4dd205f127aee76f21e13773f5d42db2
+  - path: Gemfile
+    algorithm: sha256
+    value: b64e18913cc0e60a16e6f5709b5694f0a9e5f74946e8494db795b32bc20dd129
+  - path: app.rb
+    algorithm: sha256
+    value: 7730e983ea7e5239edddafe9b8e93645d1249fcf708d21bc836a4ae23c1e618d
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 4649c395cc9f47ecd10cd0966c3673a6aec6b39bb40a5e3cba846491bd17affb
+  - path: start.sh
+    algorithm: sha256
+    value: 85561cdcca6aa59169f92a97fb4fbc6d84b17a2c519c253e47d3103a7e4b49dc
+environment:
+  type: docker-compose
+  services:
+  - art
+  requirements:
+  - Ruby
+  - Sinatra
+  - Slim
+references:
+- title: gemastik-xvi-final - services/art
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/art
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVI final. The setter README lists it with author
+  vidner and stage final; the repository gives no challenge category, so the archive category is a best-fit
+  classification from the shipped app.rb. The setter write-up quotes the concatenation in the get '/art/:word'
+  route and recommends a Slim template parameter or string interpolation. The write-up states it was solved
+  by 18 of 20 teams, the most-solved service. The service directory ships its own docker-compose.yml,
+  which is preserved unchanged.

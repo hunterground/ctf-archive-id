@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-warmup-pwn-001
+name: back-to-basic
+slug: 001-back-to-basic
+original_name: back-to-basic
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: pwn
+original_category: null
+description: A small x86-64 service that reads a line into a 64-byte stack buffer with fgets and then
+  prints a fixed message. The read length exceeds the buffer, so a long line overwrites the saved return
+  address. The binary is a non-PIE executable with puts available, so the GOT can be leaked and libc reached.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- stack buffer overflow
+- ret2libc
+- non-pie
+- xinetd
+authors:
+- name: dummklloun
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/back-to-basic
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 304be30cfbc6488155920d27ad6de6ed299297f714fcd2d0fa6ca2550eb9a52e
+  - path: ctf.xinetd
+    algorithm: sha256
+    value: a14209918e2534621f0c8734780e35d99706445158ddc36a910fef35be91c9dc
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ae99c74fa58095da8aa657b3a471093f5f103b84ca1d6e3670acfcac1dc72f8e
+  - path: src/main.c
+    algorithm: sha256
+    value: 6a81bfedb617e522c954cb139e5375baac0ca42da473c1d1642e2b57b649efd6
+  - path: start.sh
+    algorithm: sha256
+    value: bc095208ebbab6ede06d8a9c2923fc982c9bfb7a56f0d10072e77c922626897c
+environment:
+  type: docker-compose
+  services:
+  - back-to-basic
+  requirements:
+  - xinetd
+  - gcc
+references:
+- title: gemastik-xvi-final - services/back-to-basic
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/back-to-basic
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVI attack-defense final. The setter README lists it with author
+  dummklloun and stage warmup; the repository gives no challenge category, so the archive category is
+  a best-fit classification from the shipped main.c. Back-to-basic was one of the three warm-up services.
+  The setter exploit reads a libc offset from a leaked puts address and then jumps to system, which matches
+  the source. The service is deployed by the repository's shared services/docker-compose.yml, which is
+  copied verbatim into original/ together with the service directory. That shared file also defines the
+  other nine services, warm-up and final; the section for this service gives its ports, SSH password argument,
+  flag mount from receiver/flags/, and the utils/bashrc and utils/preexec.sh mounts. Those shared files
+  are repository tooling and are not copied, so the paths in this compose file that point at ../receiver
+  or ../utils do not resolve inside original/.

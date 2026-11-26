@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-warmup-web-002
+name: s3
+slug: 002-s3
+original_name: s3
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: warmup
+category: web
+original_category: null
+description: A file upload and download service. Uploads reject filenames containing '..' or 'flag', and
+  downloads reject '..' as well. The upload path is built with os.path.join against the literal uploads
+  directory, while the download path passes the filename through the same join without preventing an absolute
+  path from replacing the base directory.
+difficulty:
+  value: easy
+  source: archive_curator
+tags:
+- path traversal
+- absolute path
+- flask
+- upload
+authors:
+- name: deomkicer
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/s3
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 5ae9dc9fd8c8e85fe555a4ac471a37ce3c4c47e7b59ed085379cdf8cead944ef
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: aefe57c6b096338475df071bbbf84731cfe277a3a3e3223f6c6d53a3f7164436
+  - path: flag.txt
+    algorithm: sha256
+    value: 83acce8cff053ecb1dd5f36bf2fad7bc51ee4720e1d17b0c43afa1b029264ec3
+  - path: src/main.py
+    algorithm: sha256
+    value: b42969ce76f75abbf9586e896615a9970a58cf8126840f2296db4c4a03c501fa
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: c0862201e27e10f591cc0e3fb8d1dd4f6a4af2559d04a71fb0cb142d59b2f6b7
+  - path: src/start.sh
+    algorithm: sha256
+    value: 0f55254035107acdc993003326ce847b9592cb99f597e57f4c24be88be5ceea6
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: b49617b20e2470c9cd9c8a1c85bad1ba25cc275dc1cb8f95f4fb08f389df6f08
+environment:
+  type: docker-compose
+  services:
+  - s3
+  requirements:
+  - Python 3
+  - Flask
+references:
+- title: gemastik-xvi-final - services/s3
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/s3
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Warm-up service from the GEMASTIK XVI attack-defense final. The setter README lists it with author
+  deomkicer and stage warmup; the repository gives no challenge category, so the archive category is a
+  best-fit classification from the shipped main.py. The setter exploit passes filename=/flag.txt to the
+  download endpoint, which works because os.path.join discards the base when the second argument is absolute.
+  The service directory ships its own docker-compose.yml, which is preserved unchanged.

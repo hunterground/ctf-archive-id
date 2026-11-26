@@ -1,0 +1,159 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-final-web-002
+name: gemas-notes
+slug: 002-gemas-notes
+original_name: gemas-notes
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: web
+original_category: null
+description: 'A notes service split into two microservices: a Python validation service that checks submitted
+  JSON, and a Go notes service that performs the create, read, update and delete operations against MySQL.
+  The two JSON parsers disagree about which value wins when a key is repeated, so a document can validate
+  under one reading and execute under another.'
+difficulty:
+  value: hard
+  source: archive_curator
+tags:
+- sqli
+- parser differential
+- duplicate json keys
+- go
+- mysql
+- microservices
+authors:
+- name: dummklloun
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/gemas-notes
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ae99c74fa58095da8aa657b3a471093f5f103b84ca1d6e3670acfcac1dc72f8e
+  - path: release/gemas-notes.zip
+    algorithm: sha256
+    value: 1d7846ec7cf36b05004db71615c6ce6c3e6c4ca04832f5610c8ca5ca7b1b02cc
+  - path: src/db/init.sql
+    algorithm: sha256
+    value: 041bb528f44c4513fa1a1ce7947b57561f0d1a1fb5ab70556cf9d9797f72d0a5
+  - path: src/note-service/Dockerfile
+    algorithm: sha256
+    value: 8c83fcb02180b956e171b888f14545cfcff382c5ff52f771a46b8cd3347bee22
+  - path: src/note-service/src/config/default.json
+    algorithm: sha256
+    value: 637c80a8a5b27c760970cdb2a30ac3a650f4c7074d57098cd805245a52816789
+  - path: src/note-service/src/controllers/notes/notes.go
+    algorithm: sha256
+    value: 842f91c96006ae6cc0875084347ffdca550c50c977c41cba7cd17f2697cdc530
+  - path: src/note-service/src/controllers/user/user.go
+    algorithm: sha256
+    value: ec85dfd2c516ef7d721f8d0fa2fdaf0f2bb3a44c8468c0b02e8259ac13746155
+  - path: src/note-service/src/go.mod
+    algorithm: sha256
+    value: da5cfafa05d2e7f9dadead2c87db9a34ce9e6c066ebcee677208188e5accd9dc
+  - path: src/note-service/src/go.sum
+    algorithm: sha256
+    value: e4e540489165e2250371fa7975f57f92f9629421e7205cc3ebe54cfe470108b1
+  - path: src/note-service/src/logs/backend.log
+    algorithm: sha256
+    value: 8bef5adf1e2058e9e922c11b316ce14dc67c1c65feb07f1b8a3f7cd0d9627384
+  - path: src/note-service/src/main.go
+    algorithm: sha256
+    value: 635fe4f3fbf81ad6f4ac5fb2dbd48389940e3283318dc8cb5d3336e452622ce1
+  - path: src/note-service/src/models/notes/notes.go
+    algorithm: sha256
+    value: 437d4ae8e73f481efdfc4d3b1e5024a2a347eb821d79eb111f617f5fd66aa98b
+  - path: src/note-service/src/models/user/user.go
+    algorithm: sha256
+    value: 10b8e487fbcf779fd698b319d946331f549954537c4edffb55c48f45cf917715
+  - path: src/note-service/src/repository/notes/notes.go
+    algorithm: sha256
+    value: d418d40c30db73722ac7444ce164c271f62c8dd3fc416c9bfecb96ff0e64ac8a
+  - path: src/note-service/src/repository/user/user.go
+    algorithm: sha256
+    value: 9ac8af398cc3e3b7af41cc07c797548447dee0f2298168fff9227f7a9a98a5aa
+  - path: src/note-service/src/run.sh
+    algorithm: sha256
+    value: cd91f6267b5d8b8c4a7ade67996ca84a1c964f89930c524e7052440efb4b7b8d
+  - path: src/note-service/src/start.sh
+    algorithm: sha256
+    value: fc41ccb051844a631753afed90bfc89d15093a92de8c73a9a63f26a3996c091e
+  - path: src/note-service/src/utils/db/db.go
+    algorithm: sha256
+    value: f68b01f8220c5e1b6e76ec6348eb54546604d8cc27c5a8c636d505a6fd83952f
+  - path: src/note-service/src/utils/helper/helper.go
+    algorithm: sha256
+    value: 0dbf203a34f7bda0edfaaa6185e60888075a758a1ce9ac8499ba0112c817ae6c
+  - path: src/note-service/src/utils/middleware/middleware.go
+    algorithm: sha256
+    value: a2e4f417646c05b04e9ebd85449a374b6ae3ac7201028de2fa1ca51f39e020c4
+  - path: src/note-service/src/utils/session/session.go
+    algorithm: sha256
+    value: 414715fb26c82ec96d6d08b4cdc075d4a95470b18e37cc2418e553ea82d1f2a0
+  - path: src/validation-service/Dockerfile
+    algorithm: sha256
+    value: 420aa9576b35434655a662bb12797b78b81e7e64dcab3c1cfc20f1a49688d50d
+  - path: src/validation-service/src/database.py
+    algorithm: sha256
+    value: d0be1df79311980a1f217b18ebed1ce50b723602a28d95d0996cef17480266c5
+  - path: src/validation-service/src/main.py
+    algorithm: sha256
+    value: f515ed8b611c547487d6b28ceecd9e726e426cf6aade33e796983a21249ca18f
+  - path: src/validation-service/src/requirements.txt
+    algorithm: sha256
+    value: 87a5a341761a94ac24204fbda715c8aec9e7d21fa5bd7d7e6ef0346f179c321f
+  - path: src/validation-service/src/validation.py
+    algorithm: sha256
+    value: 37fef97a2401727600171390fcc2ee9f91a41ca72d36b8cb66917e6015b03759
+environment:
+  type: docker-compose
+  services:
+  - gemas-notes
+  - validation-service
+  - database
+  requirements:
+  - Go
+  - Python 3
+  - MySQL 8
+references:
+- title: gemastik-xvi-final - services/gemas-notes
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/gemas-notes
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVI final. The setter README lists it with author
+  dummklloun and stage final; the repository gives no challenge category, so the archive category is a
+  best-fit classification. The setter write-up explains that the Go service's jsonparser takes the first
+  duplicate key while the Python jsonschema validation takes the last, and that the differential bypasses
+  validation to reach a blind SQL injection on /notes/count. It records that defense was only possible
+  over SSH. The write-up states it was solved by 0 of 20 teams. The distribution includes release/gemas-notes.zip
+  and a note-service backend.log, both preserved verbatim. The service is deployed by the repository's
+  shared services/docker-compose.yml, which is copied verbatim into original/ together with the service
+  directory. That shared file also defines the other nine services, warm-up and final; the section for
+  this service gives its ports, SSH password argument, flag mount from receiver/flags/, and the utils/bashrc
+  and utils/preexec.sh mounts. Those shared files are repository tooling and are not copied, so the paths
+  in this compose file that point at ../receiver or ../utils do not resolve inside original/.

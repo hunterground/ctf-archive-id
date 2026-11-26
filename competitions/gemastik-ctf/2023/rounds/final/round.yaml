@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: final
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: null
+sequence: 3
+type: final
+delivery: onsite
+description: Attack-defense final of the GEMASTIK XVI Cyber Security division, followed by a write-up
+  presentation stage.
+dates:
+  start: '2023-09-14'
+  end: '2023-09-14'
+statistics:
+  challenge_count: 7
+  participant_count: null
+references:
+- title: Pedoman GEMASTIK 2023 (XVI)
+  url: https://kemahasiswaan.ub.ac.id/wp-content/uploads/2023/04/Pedoman-GEMASTIK-2023-v.pdf
+  type: official_website
+  accessed: '2026-11-26'
+- title: gemastik-xvi-final (service environments, final services)
+  url: https://github.com/vidner/gemastik-xvi-final
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >-
+  The GEMASTIK 2023 guidebook states that the Cyber Security final has two stages, an attack-defense
+  competition and a presentation, and dates the attack-defense stage to 14 September 2023 from 08.30
+  to 17.30 WIB, with the write-up presentation on 15 September 2023. The setter repository publishes
+  seven of the ten services with stage "final", and those seven are the challenges archived in this
+  round. The guidebook describes the format as teams patching a system with a planted vulnerability and
+  then capturing opponents' flags while defending their own. The setter write-up records the number of
+  teams that solved each service out of 20 finalists; that figure is recorded in the individual
+  challenge notes and not as a participant count, because it counts solving teams rather than entrants.

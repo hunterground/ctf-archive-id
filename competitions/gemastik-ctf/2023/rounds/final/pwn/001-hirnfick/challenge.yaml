@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: gemastik-ctf-2023-final-pwn-001
+name: hirnfick
+slug: 001-hirnfick
+original_name: hirnfick
+competition_id: gemastik-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+category: pwn
+original_category: null
+description: A web service that runs user-supplied Brainfuck code. The interpreter is a C program with
+  a 1024-byte data array and a 1024-byte code array and no bounds check on the data pointer, so a Brainfuck
+  program can read and write outside the array. Participants received only the compiled binary, not its
+  source.
+difficulty:
+  value: medium-hard
+  source: archive_curator
+tags:
+- out-of-bounds access
+- brainfuck
+- got overwrite
+- remote code execution
+authors:
+- name: circleous
+  team: null
+organization: null
+provenance:
+  archive_id: gemastik-ctf-2023-final-vidner
+  source_type: git
+  repository: https://github.com/vidner/gemastik-xvi-final
+  commit: f31c2c42b42371cac4789ebb849a5a7ac76c4140
+  original_path: services/hirnfick
+licensing:
+  declared_license: MIT
+  copyright_holder: rendi
+  redistribution: permitted
+  attribution_required: true
+  attribution: vidner/gemastik-xvi-final - GEMASTIK XVI 2023 Keamanan Siber final service, imported via
+    https://github.com/vidner/gemastik-xvi-final
+  permission_reference: 'Repository LICENSE at commit f31c2c42b42371cac4789ebb849a5a7ac76c4140: MIT License,
+    Copyright (c) 2023 rendi. The repository README publishes the services for the GEMASTIK XVI final
+    and lists each service with its setter and stage.'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 08c903ea8e4716937cfa466b8f08a8c2da8d3a9c38ecfccd0f80bc7ac0b202f4
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 62d4018c608115a3c697e12a3e74a156be52967bccdae81bf0a4d76add4587c9
+  - path: flag.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/hirnfick
+    algorithm: sha256
+    value: e70c225b5af8544a5cdea6824947a6332b658c9f918b1a7d1cbb71f4aaf2aca5
+  - path: src/hirnfick.c
+    algorithm: sha256
+    value: caa9c8acc04c22fd8e68f0db8e36d47e9b6dfb52fe6a0a004917bcf55183b4e7
+  - path: src/index.html
+    algorithm: sha256
+    value: b2f3e7828460fd711cd7f977c4df35795b192c2bef67c604538c639776b570ac
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 66e9371c062c7bc79c241b01b0ac3c3bcf3a46445a91acdc1f1350c8af90421c
+  - path: src/server.py
+    algorithm: sha256
+    value: 651d6e7f7b0395e5edb3a70ed6ffd5029decf588ba5fb123ea3baa6892c7fbe2
+  - path: src/start.sh
+    algorithm: sha256
+    value: ab8a8892cb878a3d6b6a0b9601fd9582e62281ad7042f58cc5eaa9f4a750f6cc
+environment:
+  type: docker-compose
+  services:
+  - hirnfick
+  requirements:
+  - Python 3
+  - gcc
+references:
+- title: gemastik-xvi-final - services/hirnfick
+  url: https://github.com/vidner/gemastik-xvi-final/tree/f31c2c42b42371cac4789ebb849a5a7ac76c4140/services/hirnfick
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Attack-defense final service from the GEMASTIK XVI final. The setter README lists it with author
+  circleous and stage final; the repository gives no challenge category, so the archive category is a
+  best-fit classification. The setter write-up describes a debug flag adjacent to the data array and a
+  global offset table overwrite that turns puts into system; it records that participants received no
+  source but the compiled binary, and that the SLA check ran Brainfuck input and output cases from Wikipedia
+  and copy.sh. The write-up states it was solved by 4 of 20 teams. The compiled original/src/hirnfick
+  binary and its hirnfick.c source are both shipped in the repository. The service directory ships its
+  own docker-compose.yml, which is preserved unchanged.
