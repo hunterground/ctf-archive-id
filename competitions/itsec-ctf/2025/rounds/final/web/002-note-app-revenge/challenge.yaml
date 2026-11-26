@@ -1,0 +1,136 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-web-002
+name: note app revenge(?)
+slug: 002-note-app-revenge
+original_name: note app revenge(?)
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: 'i hope this is more challengin for you, but i guess this is not that hard after all.
+
+
+  http://52.77.234.0:50002/'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- bot
+authors:
+- name: kiseki
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Web Exploitation/note app revenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .DS_Store
+    reason: macOS filesystem metadata, not part of the challenge distribution.
+  - path: dist/.DS_Store
+    reason: macOS filesystem metadata, not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 43bb60212192fc21ac17c077bed3cf2551635ba8ce92fc6fb99f40afca3fd050
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8c21fc6baf7ef4b15b529280784fff913a0899ec46a5a86c4bf661d738831d07
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: e761619b0b7e9a82f31908f0ee5b4aa282e66f90eb42cc0259e0b781f0dcce55
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1f2cf5c303c4a76814ad04594b501354248a1c64c8f3fa71e144d6126eccff2d
+  - path: src/app/__init__.py
+    algorithm: sha256
+    value: 28fbed288c43f8bc9beae0739cb11c92883f49288c89f0091632ae56b6325da0
+  - path: src/app/auth.py
+    algorithm: sha256
+    value: bf252a4ee7f75d72bc35a37678ddf3ef01984414e3cd6c11b537d9702eb93b89
+  - path: src/app/bot.py
+    algorithm: sha256
+    value: a1670e2953d75e128f19c01ec641eb32d98a5e47208894e62325819831ba5a7d
+  - path: src/app/models.py
+    algorithm: sha256
+    value: 9c34a79d1b83feb0af5e09622e8eff233d5409a226536a0f4703289495753f4c
+  - path: src/app/notes.py
+    algorithm: sha256
+    value: 829972fe4ce56c7c8d9e51a616ee061f988f7cbef1c5776abcc0e2899258316f
+  - path: src/app/static/css/style.css
+    algorithm: sha256
+    value: 933e1ca5ce12318977f373d59bc051f4689a81bd11ebfae597b393a12b56d7b9
+  - path: src/app/static/js/options.js
+    algorithm: sha256
+    value: 404e90f8bf38b5b32f577fb646661ba9317cd1ed88b8069277faedef08bb16a7
+  - path: src/app/templates/auth/login.html
+    algorithm: sha256
+    value: aa949206dd1702f9e5db854d2860d318d7527723037a741a50b90089a6d43453
+  - path: src/app/templates/auth/register.html
+    algorithm: sha256
+    value: add3c3ca15074ff690c8ae1dad16151d3dd308cf2fe1d4c8b4ee8989c2de681c
+  - path: src/app/templates/base.html
+    algorithm: sha256
+    value: 636d1253cf88dd7b4b2fc7d6ea67ffcc588d5e841749ae68635977cadd56242d
+  - path: src/app/templates/notes/create.html
+    algorithm: sha256
+    value: 2ee741f00fd4f0affd4e484bb613afb46f02a55ed55b99932fc150480d71b824
+  - path: src/app/templates/notes/dashboard.html
+    algorithm: sha256
+    value: 4b1ffddc631106bdc54ca7bb7d3dc7fa8dff9065c82ee73a778d190412395b71
+  - path: src/app/templates/notes/edit.html
+    algorithm: sha256
+    value: a890d7b2227c8880e466083d559e530dbadd0c9eae0ba9629d32c54735f0d193
+  - path: src/app/templates/notes/view.html
+    algorithm: sha256
+    value: 9c38ca9dca496f9e1486cdc64a3215b0c9d2826805593ce9a10cc78be9db1d85
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: b5551936cfc518a2567245071dca236d454a7da3ea1839d0f9a78d5f75438cd8
+  - path: src/main.py
+    algorithm: sha256
+    value: 455c872412106e536fd4fb77c76e8a5d3ed022f8c258cb242fbb376c0c3a8691
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 7bd3d5c3f7e9a8f2593a2ac846f495a43c1d9a18f6fcbbacc801af372b8afc26
+  - path: src/start.sh
+    algorithm: sha256
+    value: 36763319e8ca050b3fc0686dd696c28a3f395c0251a268132d1e0714ba6475e6
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by kiseki and published by PT ITSEC Asia Tbk at
+    https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - web
+  - bot
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The follow-up to note app biasa. The source carries
+  a .DS_Store in the challenge root and another in dist/; both were removed and recorded as preservation
+  omissions. Difficulty is the organizer's own tag (hard); the task value is a fixed 1000 dynamic score
+  and is not a difficulty signal.

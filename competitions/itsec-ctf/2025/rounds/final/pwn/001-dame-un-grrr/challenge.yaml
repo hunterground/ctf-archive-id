@@ -1,0 +1,107 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-pwn-001
+name: dame un grrr
+slug: 001-dame-un-grrr
+original_name: dame un grrr
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: 'Dame un grrr (¿un qué?)
+
+  Un grrr (¿un qué, un qué?)
+
+  Un grrr (¿un qué?)
+
+  Un grrr
+
+
+  Connection: nc 52.77.234.0 11101'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- kernel
+- qemu
+authors:
+- name: Enryu
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Binary Exploitation/dame_un_grrr
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3dbd424639171170cb9e0cadee07813b40d909d3e33f2a9fe98477923a32b468
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4308dea26a79b308c981f25f27857ca5bf78d44de170cb502aba06f96f9f891c
+  - path: dist/chall.tar.gz
+    algorithm: sha256
+    value: 2569d3a54fc46c771f7d843efb133b10f214e115f2e83036ae1e15ef9e886ecc
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0abfdefd60ad30d972fc88237ffae47b07268ad02fdf97c2514263e479d9ff41
+  - path: src/app/Image
+    algorithm: sha256
+    value: 151723cd778c75a5110a44a244cfac0afaeb68931bfe7b5330f79502f4140332
+  - path: src/app/initramfs.cpio.gz
+    algorithm: sha256
+    value: f08e98ac3552ad1d3f3beda129faaba4c1d2577cbf757d81217bdf975671bcb4
+  - path: src/app/run.sh
+    algorithm: sha256
+    value: 094406f34936680157e5470a7af95c7555d0ec0490f02cabe9a767856a1bd76c
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: f99c3ab9e7f4fb58a19a5cbb7fb47fc59b482bd9d212351dd8f04fd7da6999ca
+  - path: src/init.sh
+    algorithm: sha256
+    value: 7e677fb60afcf5f946cbcc876053e102084f8c5a21467220694c71560e296aa9
+  - path: src/pow.sh
+    algorithm: sha256
+    value: f56c46c468f068a0c677e64643d9c15410672545352837db0bc18734c3ff0d18
+  - path: src/pwn.xinetd
+    algorithm: sha256
+    value: 4b86ae56893e3c3ea1acf98094dafda5ae7decc398bd53a0cf6a3c57d3f80094
+  - path: src/start.sh
+    algorithm: sha256
+    value: 36763319e8ca050b3fc0686dd696c28a3f395c0251a268132d1e0714ba6475e6
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Enryu and published by PT ITSEC Asia Tbk at
+    https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - qemu
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Linux kernel QEMU pwn challenge: the distribution
+  is the kernel image and initramfs with the run scripts and xinetd service file. Difficulty is the organizer''s
+  own tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

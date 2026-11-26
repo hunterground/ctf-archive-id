@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-forensics-002
+name: Operation - Baby Steps
+slug: 002-operation-baby-steps
+original_name: Operation - Baby Steps
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: 'On August 1st, 2025, a security incident occurred affecting one of the company’s internal
+  environments. The Incident Response (IR) team conducted an initial assessment and acquired several critical
+  artifacts from the impacted systems.
+
+
+  The company does not currently employ a Security Operations Center (SOC), so no monitoring alerts or
+  centralized logs were available. However, an internal support ticket was submitted by a member of the
+  development team, reporting unusual behavior on their Windows desktop, the system had become extremely
+  slow, and several important files were no longer accessible due to encryption.
+
+
+  As part of the Digital Forensics team, you have been assigned to investigate the incident using the
+  artifacts collected by the IR team.
+
+
+  > Conduct all forensic artifact analysis in a tightly controlled sandboxed environment to isolate potential
+  threats, preserve system integrity, and ensure reliable results.
+
+
+  Attachment: https://drive.google.com/drive/folders/1yNxdd6T9ZmhWZAs91F4rBmCCjjet7bXj?usp=drive_link
+
+  SHA-256: 40F4829CCB2A97DA712B18AED11080B9C194842FB04FE4D4447A9F6FC8E12B58
+
+  Pass: u2cgQ6Q3dV&&$udD52QcYM2ZT5tJFvGvk===$$#%
+
+
+  Connection: nc 13.250.98.246 34850'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- ransomware
+- windows
+authors:
+- name: Brandy & Rizal
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Forensic/Operation - Baby Steps
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/drive/folders/1yNxdd6T9ZmhWZAs91F4rBmCCjjet7bXj?usp=drive_link
+    reason: Forensic evidence hosted as a Google Drive folder by the organizer; not part of the upstream
+      git tree. The folder returned HTTP 200 on 2026-11-26 and was not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4e3be521fa259db7778352d93e493dc320ca64df0a57ef6d5c3ebed1dbba0c43
+  - path: challenge.yml
+    algorithm: sha256
+    value: eab1e4776105c4288a3dc33a50c270997aa1145ca47bb29a00cd47116c415c8a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2b72a01ee11095d6561d1c231d6327b3ff2d470df6614f7bbdb00cf509458300
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 0f5f08195c22b4943ee715d600a8b67a3f1a50ded28280edc4c6cd4ab896a41a
+  - path: src/main.py
+    algorithm: sha256
+    value: c4ee37b6fb32c199e1071a13e7bedbd14950b47232d07b3746f28ac72321a9b1
+  - path: src/start.sh
+    algorithm: sha256
+    value: e5126652261a2a13af7791a25af708ce48b638ebec2dc8c460b25f8a796df970
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Brandy & Rizal and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A forensics challenge whose evidence is hosted externally
+  as a Drive folder. The source file tree here is the answer-validator service only; the evidence archive
+  is recorded as a preservation omission. The organizer hosted the evidence outside the repository. The
+  external attachment is listed in preservation.omissions and needs to be downloaded separately. Difficulty
+  is the organizer's own tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty
+  signal.

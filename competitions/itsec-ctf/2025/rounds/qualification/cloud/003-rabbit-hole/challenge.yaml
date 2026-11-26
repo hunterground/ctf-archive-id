@@ -1,0 +1,134 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-cloud-003
+name: Rabbit Hole
+slug: 003-rabbit-hole
+original_name: Rabbit Hole
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: cloud
+original_category: Cloud
+description: 'My friend is obsessed with JoJo''s Bizarre Adventure, so he built a themed website and asked
+  me to deploy it.  Problem is... I kinda used my dad''s AWS account without telling him 😅.
+
+
+  Can you take a look around <a href="http://18.138.234.126:3000/">the website</a> and see if there''s
+  anything sensitive exposed?
+
+
+  Flag Format: ITSEC{.*}'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- web
+- aws
+- ssrf
+- nextjs
+authors:
+- name: kangwijen & Djumanto
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Cloud/rabbit-hole
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c6cefb5bd2e9a22248bce7b4e870cdf2f0cc016d6029c6f5a3b93cf2a9e058c4
+  - path: challenge.yml
+    algorithm: sha256
+    value: eecc47395934d25d1f38afd3f19aff9ce39ca7890b6888fd9a446a672b6fcb85
+  - path: src/1.png
+    algorithm: sha256
+    value: 992f2eb0f4173c93ea26dfae4e4eec5a584e6b331044ccfda1ade610e2a17117
+  - path: src/10.png
+    algorithm: sha256
+    value: b3787407a03b76c338fa0d503f52339e7552177591b5f9ab05a429c455b9dd87
+  - path: src/11.png
+    algorithm: sha256
+    value: 3ecbdb89148825396f9cc1ac78f141a3e189623173ee716cd9b581fb269de14f
+  - path: src/12.png
+    algorithm: sha256
+    value: de6f78f0dd76571571c32046e05913a16028a35fc8185e30d9d7da1142a75e19
+  - path: src/13.png
+    algorithm: sha256
+    value: 52cda2bce6fffb2eea33cb01c5a70beada4e936be86c1674bf42b84d4eacbe93
+  - path: src/14.png
+    algorithm: sha256
+    value: afa9e2db60c9724200aa42e27a8b359178ce25c3ab94cd86fe2e53bc5bd278f4
+  - path: src/15.png
+    algorithm: sha256
+    value: c2bb037d77c5f6f9eec63f86b2c56a16023b7d58264ae75d4e7c796c62f3e9bc
+  - path: src/16.png
+    algorithm: sha256
+    value: 26e2a428b088111a356d4860358a072af16aff01a1260de727ecf8a81aa4ce21
+  - path: src/17.png
+    algorithm: sha256
+    value: 839d239965eb726b5519f619a26525a91d31f8692ddaa2656a95935720ef32b6
+  - path: src/18.png
+    algorithm: sha256
+    value: 7b2bf4956b241d70109409f751f2699afe80a27a351ecffa6193e36aa71f4726
+  - path: src/19.png
+    algorithm: sha256
+    value: 255bd54b9784e4d73645067f45d07cddd576282ffcc49d5d505aac2e7c6c9276
+  - path: src/2.png
+    algorithm: sha256
+    value: d15257e2842bf7eb374acc7c09d50e6ae2dfce2b28fe6031c63db6d7e6c12b1a
+  - path: src/3.png
+    algorithm: sha256
+    value: c27734afe328fea0be5a8b421a995c55809c91dd6fcd25e14b0a565b8e174d2b
+  - path: src/4.png
+    algorithm: sha256
+    value: 9653650da812516fdf4ce30b8a2ff2b2b2ce51ad4bf10aecbecf95dcd88045ae
+  - path: src/5.png
+    algorithm: sha256
+    value: 2d55fe608df02803019c517303e79f1a0727c349f0f506e9d68cb3732e287ca8
+  - path: src/6.png
+    algorithm: sha256
+    value: f3ff5d77d58661de7c84f990eaf9368bb9c1456ae19a8d1f7738ecdda33d3b22
+  - path: src/7.png
+    algorithm: sha256
+    value: c0c6510b8a801968dc55a82ae89e4c55d96c13ee79f28f4ecc28ff9fbdef74d6
+  - path: src/8.png
+    algorithm: sha256
+    value: 6205d9756be1fdbb4d3fee4bf1f0634e038f2ec54a831a17cabf833d0d228ff0
+  - path: src/9.png
+    algorithm: sha256
+    value: 2d59109d705a75b0283def4529916715780384ca0b0e24c2915691178f45b5c1
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by kangwijen & Djumanto and published by PT ITSEC
+    Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services: []
+  requirements:
+  - aws
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A cloud challenge documented as a README with screenshots;
+  the description points at the live EC2-hosted site. Difficulty is the organizer's own tag (hard); the
+  task value is a fixed 1000 dynamic score and is not a difficulty signal.

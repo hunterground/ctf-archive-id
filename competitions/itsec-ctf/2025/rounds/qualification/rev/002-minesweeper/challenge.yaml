@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-rev-002
+name: Minesweeper
+slug: 002-minesweeper
+original_name: Minesweeper
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Minesweeper
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- windows
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Reverse Engineering/Minesweeper
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bca832df8e3c609f13017bbe73211165e01dcee35bb62f3d1a44a378917e04c4
+  - path: challenge.yml
+    algorithm: sha256
+    value: 65c1601d224566523ac5bbb105b3346da149d22be7c935ae17b928aa51146ec4
+  - path: dist/Minesweeper.exe
+    algorithm: sha256
+    value: e18eb555563335d4599a062a8e964fee1005ff1c9ef6cf01be4088d85b52054b
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements:
+  - windows
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Windows reverse engineering challenge distributed
+  as a single executable. The source also carries sol.py, which is solver material kept under solvers/.
+  Solver material was moved out of the distribution to the mirrored path under solvers/, per archive policy;
+  the move is not a preservation omission. Moved: `src/sol.py`. Difficulty is the organizer''s own tag
+  (medium); the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

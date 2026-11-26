@@ -1,0 +1,132 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-web-001
+name: Damn, I Love PHP!
+slug: 001-damn-i-love-php
+original_name: Damn, I Love PHP!
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: It is believed that if you use PHP, you will get a yellow lambo 🤑🤑
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- php
+- bot
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Web Exploitation/Damn, I Love PHP!
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5a16f029881ef85bdc3723763ba09ed6c5d8af41dbe7813344e3721225e0d962
+  - path: challenge.yml
+    algorithm: sha256
+    value: d3448f4c517cf8f818d8979aae94254474810d35b53d92fef2273e2fc4ca4e5b
+  - path: dist/dist-damn-i-love-php.zip
+    algorithm: sha256
+    value: 1f4ef29f0f18142223eda4674d787bd9e63831dbd1d898917d6fd6bf85c2e3c7
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 75aefb10e9026fab86fcd43c1899faf0b9bad00e2a78a9d863d0caf3dd740374
+  - path: src/internal/Dockerfile
+    algorithm: sha256
+    value: 9792b5396ab5471f11916d43a6f08643ce8b3bd94af039174e53c820a7a1c621
+  - path: src/internal/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: src/internal/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: src/internal/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: src/internal/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: src/internal/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: src/internal/proxy.conf
+    algorithm: sha256
+    value: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: src/internal/src/index.php
+    algorithm: sha256
+    value: b83cffe6c033a9fd25cb7c8fba853380e64c8073b01e6258b6e9bafdd570fe80
+  - path: src/internal/src/ping.php
+    algorithm: sha256
+    value: b45e9911ce08ff155cf1810ccd5ba398d88f48cf45bf50194cb5f0cef3dd111b
+  - path: src/internal/src/style.css
+    algorithm: sha256
+    value: b299ffdc4dee120ed81133be39909f86d5a25e1fa4fbf4b224ae9a225bb1b2f6
+  - path: src/public/Dockerfile
+    algorithm: sha256
+    value: 083558fc6e186054f0d196a1e8aa463135fa243c6336d124627ca489f87fcf89
+  - path: src/public/includes/actions.php
+    algorithm: sha256
+    value: 43116062b55a338bcd57cb2756df480ba8d8922ab1bd949a833eef43d6624383
+  - path: src/public/includes/db.php
+    algorithm: sha256
+    value: ef2d8bae29e53b28b2400306926a4c03d8b6bf8c56abe635d0b47c2d6706d777
+  - path: src/public/includes/footer.php
+    algorithm: sha256
+    value: 5cbb2d86f467a02f5f3d21643f76e68e6b78c998d2dd6eb6383e7473781c58fa
+  - path: src/public/includes/functions.php
+    algorithm: sha256
+    value: 55dda9a96825d97e76f439004b5ebc295b07b846f625180ab1ff67132a0a3d1b
+  - path: src/public/includes/header.php
+    algorithm: sha256
+    value: acb8ccb48bcec4c4e0ae5ef22ea225349cb0a0ef52e9024cc36e54cd4bfcd5f1
+  - path: src/public/public/bootstrap.min.css
+    algorithm: sha256
+    value: 3c8f27e6009ccfd710a905e6dcf12d0ee3c6f2ac7da05b0572d3e0d12e736fc8
+  - path: src/public/public/index.php
+    algorithm: sha256
+    value: 15ed570d19c5ffa547b71245d6fe004b3c89721e4bec7c73bd8e54e77877da7a
+  - path: src/start.sh
+    algorithm: sha256
+    value: 7f8162d4bb67f48417a993e40564aa3424e351c7770034da990ca30481a54fae
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by daffainfo and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - web
+  - bot
+  requirements:
+  - php
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A web challenge with a bot service; the source has
+  separate public and internal service trees behind one compose file. Difficulty is the organizer's own
+  tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty signal.

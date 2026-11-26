@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-pwn-004
+name: Wind
+slug: 004-wind
+original_name: Wind
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: 'Description blabla
+
+
+  To access the challenge server, you must submit a support ticket requesting the author to bring the
+  machine online. Once the instance is activated, it will be available for a strict duration of 5 minutes.
+
+
+  Before activation, the requester must provide a screenshot demonstrating that the exploit was able to
+  get shell access.
+
+
+  Please note:
+
+  The challenge instance will shut down at 21:00 PM. No further access will be granted beyond this time.
+
+  Be sure to use the available window to take any necessary screenshots promptly for making the writeup.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- windows
+authors:
+- name: Enryu
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Binary Exploitation/Wind
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3dbd424639171170cb9e0cadee07813b40d909d3e33f2a9fe98477923a32b468
+  - path: challenge.yml
+    algorithm: sha256
+    value: 18adc3a267b1de82c6f9858164bb497227c133fa8332964032d684d04964cd79
+  - path: dist/chall.tar.gz
+    algorithm: sha256
+    value: 6c8bc6d5378f52e55c87fd35edc6758ae18322d4aa6385420cc278c696d867c5
+  - path: src/chall.exe
+    algorithm: sha256
+    value: 21b42acc72f0dcb08b349fd7529e549a835471a2301b636de72d572375270401
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d1658f2e222ce96d0897a0daacdd430be022dad1d842ff9214471aa37611f63f
+  - path: src/run-chall.ps1
+    algorithm: sha256
+    value: cac62125c69752002109fee98d8e128cc6550e028e50ea36008cf528c13569f4
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Enryu and published by PT ITSEC Asia Tbk at
+    https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services:
+  - tcp
+  requirements:
+  - windows
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Windows pwn challenge released with an on-demand
+  instance: the organizer description says the machine is brought online only after a support ticket,
+  runs for five minutes, and shuts down at 21:00. Solver material was moved out of the distribution to
+  the mirrored path under solvers/, per archive policy; the move is not a preservation omission. Moved:
+  `dev/solve.py`. Difficulty is the organizer''s own tag (medium); the task value is a fixed 1000 dynamic
+  score and is not a difficulty signal.'

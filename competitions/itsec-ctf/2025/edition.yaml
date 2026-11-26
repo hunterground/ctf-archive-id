@@ -10,18 +10,21 @@ dates:
   end: '2025-08-10'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 42
 references:
 - title: ITSEC Cybersecurity Summit 2025
   url: https://itsec.asia/blog/7-things-youll-only-find-at-itsec-cybersecurity-summit-2025
   type: official_website
   accessed: '2026-11-21'
-- title: PT ITSEC Asia Tbk announcement of ITSEC CTF Competition 2025
-  url: https://www.linkedin.com/posts/itsec-asia_itsec-ctf-competition-activity-7330812836991979520-hYgC
-  type: organizer_announcement
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Qualification on 1-3 August 2025. Finalists announced on 7 August 2025. Grand final on 9-10 August
-  2025. The summit itself was 26-28 August 2025 at The Ritz-Carlton Jakarta, Pacific Place. The organizer
-  describes attack-and-defence scenarios and a prize pool of IDR 30,000,000. The competition format was
-  not given as a jeopardy or attack-defense label.
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >
+  Qualification on 1-3 August 2025. Finalists announced on 7 August 2025. Grand final on 9-10 August
+  2025. The summit itself was 26-28 August 2025 at The Ritz-Carlton Jakarta, Pacific Place.
+
+  All 42 challenges are imported from the organizer's public repository
+  (ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public) at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92:
+  29 qualification and 13 final. The repository root has no licence file.

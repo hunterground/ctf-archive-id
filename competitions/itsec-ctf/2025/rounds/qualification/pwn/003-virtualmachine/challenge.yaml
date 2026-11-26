@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-pwn-003
+name: VirtualMachine
+slug: 003-virtualmachine
+original_name: VirtualMachine
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: 'Hi! I''m an undergraduate student who never took the OS and Computer Organization course.
+  However I''m very interested in building my own machine. Can you check the security of my custom (very
+  scuffed) virtual machine that is made specifically for (maybe) secure dynamic allocations?
+
+  Deployed on Windows OS Version 10.0.26100 N/A Build 26100
+
+
+  Connection: ncat.exe 18.138.240.200 9001'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- windows
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Binary Exploitation/VirtualMachine
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8a8ec85c755ab1ea7de332b1bfca8983b34b9fc5cb49698471b17219003ed369
+  - path: challenge.yml
+    algorithm: sha256
+    value: 365b129fb7d4d0edcd85a07e8eddc96dcb5aad8682f04d13e64a8831e83b3de8
+  - path: dist/VirtualMachine.zip
+    algorithm: sha256
+    value: c2752aca3f7fd35ccf858fc64de4ba1fd2205d264bed1eb7ccacd07e0fc7bf44
+  - path: src/VirtualMachine.sln
+    algorithm: sha256
+    value: 45b678ebb719ba61e32f771b179a2a309b94ac134f9baf61e2c665030cd896c0
+  - path: src/VirtualMachine/VirtualMachine.cpp
+    algorithm: sha256
+    value: 619a210b59f5f1ff816f4edaf21452ede94aac41f8effefebd0a00d5ac2df0ce
+  - path: src/VirtualMachine/VirtualMachine.h
+    algorithm: sha256
+    value: f3624f2964caf0e4cad04a9fbe055e4477dba19081585d51174ed97b77d17877
+  - path: src/VirtualMachine/VirtualMachine.vcxproj
+    algorithm: sha256
+    value: b963a695c077e0dade8b3dabb426780e0c98e7963631d5f1447af0c07e623bd4
+  - path: src/VirtualMachine/VirtualMachine.vcxproj.filters
+    algorithm: sha256
+    value: 5abfd22c89ae67432110ecb547168607c0ba0d750ca85ca46261379662caa5eb
+  - path: src/VirtualMachine/VirtualMachine.vcxproj.user
+    algorithm: sha256
+    value: c06a75b13f855a94d46616796e024c52b499f8f92cf00ccb571ddbc6ff574676
+  - path: src/VirtualMachine/common.h
+    algorithm: sha256
+    value: b47273935a964bbbd58d05e351ee4af6a9cbdb57171c908125b1fd90d7bf0d7e
+  - path: src/VirtualMachine/main.cpp
+    algorithm: sha256
+    value: 8ce6541058b0bc14b4c868b455dcc1ae2690176812f4e461dc3efa0b0aef3c59
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services:
+  - tcp
+  requirements:
+  - windows
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Windows-targeted pwn challenge. The source is
+  a Visual Studio solution and the connection string names ncat.exe, so the intended client environment
+  is Windows. Solver material was moved out of the distribution to the mirrored path under solvers/, per
+  archive policy; the move is not a preservation omission. Moved: `exp/exp.py`. Difficulty is the organizer''s
+  own tag (hard); the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

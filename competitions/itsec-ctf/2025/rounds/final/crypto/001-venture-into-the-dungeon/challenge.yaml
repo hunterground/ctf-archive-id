@@ -1,0 +1,120 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-crypto-001
+name: Venture Into the Dungeon
+slug: 001-venture-into-the-dungeon
+original_name: Venture Into the Dungeon
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: 'The dungeon''s entrance groans open as the party pushes aside the moss-covered stone door.
+  A breath of stale, cool air rushes out, carrying with it the scent of forgotten battles and dust. The
+  flicker of your torches catches faint carvings on the walls-warnings in an old tongue about "the toll
+  of secrets" and "the weight of sloth."
+
+
+  Slumped against the wall is a man in tattered leather armor, a rusty sword leaning beside him. His hair
+  is a tangled mess, his eyes half-closed, and his breathing slow, almost exaggerated. When you approach,
+  he doesn''t greet you, he just mutters something that sounds like,
+
+  "**...wake me up when the dungeon''s cleared...**", it seems that only a certain command will wake this
+  man up.
+
+
+  Opposite him stands a hunched figure draped in robes the color of ash, a hood obscuring their face.
+  The only thing visible is a pale grin beneath the shadows. When you greet them, their voice rasps out,
+
+  "Information... yes, I have much. But words are weighty things, adventurers. **Payment must match the
+  value.**"
+
+
+  Both figures clearly hold pieces of the puzzle. The lazy man might prove to be a powerful ally once
+  roused, and the secret-keeper might reveal crucial truths about the dungeon''s traps and treasures,
+  but neither will cooperate easily.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- rsa
+- parity-oracle
+authors:
+- name: EternalBeats
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Cryptography/venture-into-the-dungeon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8c90e7ea61c25d176b28f3bf1fbdea0445d8da972a03460425297fbd2fd50b02
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6506af66b7b608da8c730a06328d81063d0f5f1d0195fb5b64de8567a207ebf1
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 20b4316e48df224926ab6a6f0cb640171ae5b51bb88e398b42e15b8e24c7a584
+  - path: dist/secrets.py
+    algorithm: sha256
+    value: cb5bcba81b7421601529a16eae56f579975ad496f2c0da0014e7c19975bfdcf4
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9e17f1d3ff70b1f3a96509ebdb89ab7e71b4c8f3079fb0a2a243dc28e7c8599f
+  - path: src/chall.py
+    algorithm: sha256
+    value: 20b4316e48df224926ab6a6f0cb640171ae5b51bb88e398b42e15b8e24c7a584
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b2c4717f46305ceeb247f0921a6f82dc29ef1782154b3f7ecc94556671613915
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: a5fbc6dec654bff703f593789bc2501c742f85f26cd392b86c220011b7c9b93c
+  - path: src/run.sh
+    algorithm: sha256
+    value: 08db2672941833a667d9006f465e4d752dda95121aa1b033fb220da780b852ca
+  - path: src/secrets.py
+    algorithm: sha256
+    value: 2cf38e7850b3821d4199961ccb1db61eb9ebc5823b76af5572f71771f9bd2a49
+  - path: src/start.sh
+    algorithm: sha256
+    value: bb9989a9c3ab581f5258a758d7187707e14c328909c2168dede3b92ce008c4a0
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by EternalBeats and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The distribution is a single chall.py service. The
+  author''s solve.py is solver material and is kept under solvers/. Solver material was moved out of the
+  distribution to the mirrored path under solvers/, per archive policy; the move is not a preservation
+  omission. Moved: `src/solve.py`. Difficulty is the organizer''s own tag (medium); the task value is
+  a fixed 1000 dynamic score and is not a difficulty signal.'

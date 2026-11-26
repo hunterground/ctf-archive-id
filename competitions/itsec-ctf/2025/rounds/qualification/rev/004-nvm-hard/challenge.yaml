@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-rev-004
+name: nvm-hard
+slug: 004-nvm-hard
+original_name: nvm-hard
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: nvm its hard
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- vm
+- windows
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Reverse Engineering/nvm-hard
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8711d6c1d2d31e675936b6595bf4d032f42aba509b234616e5f6fcb8384048c4
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1c651ea32084cd04d8ed81b83f2cff93adc1bff7df1278c6819c15a5a7beb512
+  - path: dist/hard.vm.bin
+    algorithm: sha256
+    value: 6eebb50a78a518ca2dfd18fad9ef265320e7c2f4a1854a6c5cdd03e2137b0512
+  - path: dist/nvm.exe
+    algorithm: sha256
+    value: 29657a34d1ab7645992fe7ebbb1fe727138c1e99ece6ec3972c5427210aaa713
+  - path: src/hard.vm
+    algorithm: sha256
+    value: f43ee9b0b4cfa14d8c858a3ca2810132713343cb5d02cb710dad9da52cc0306d
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements:
+  - windows
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A reverse engineering challenge distributed as a
+  Windows executable and a VM bytecode file. The z3 key solver sv.py is solver material and is kept under
+  solvers/. Solver material was moved out of the distribution to the mirrored path under solvers/, per
+  archive policy; the move is not a preservation omission. Moved: `src/sv.py`. Difficulty is the organizer''s
+  own tag (hard); the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

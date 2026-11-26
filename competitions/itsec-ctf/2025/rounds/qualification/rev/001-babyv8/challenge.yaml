@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-rev-001
+name: BabyV8
+slug: 001-babyv8
+original_name: BabyV8
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: 'I feel like V8 is not always that hard if there''s something for you to play with due to
+  my silly mistake disclosing something too much.
+
+  You can solve this easily or in hardcore mode. It''s your call~
+
+
+  If you think you got it correctly but you got no flag, perhaps you need either to type it manually instead
+  of "copy-pasting" it :)'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- v8
+- javascript
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Reverse Engineering/BabyV8
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f75c923146037bae4f93356fe0e7400596652f2f63bfed14434e0b029cba1408
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0ded9d846d491d855b2063cb58172fc2d35c3ef24ff01cfd06d47a93235b3614
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 09c00ffe43a018ff3c3d6bf26b269bc89bf2c156b78bf2c2adab0a02150317cd
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by aseng and published by PT ITSEC Asia Tbk at
+    https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A reverse engineering challenge distributed as a
+  single zip with no local service. Difficulty is the organizer's own tag (easy); the task value is a
+  fixed 1000 dynamic score and is not a difficulty signal.

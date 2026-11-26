@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-forensics-003
+name: HMICast
+slug: 003-hmicast
+original_name: HMICast
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: 'Several important data has been acquired from an employee''s device as an evidence. Dig
+  into the evidence to expose the stealthy actions that went unnoticed.
+
+
+  Attachment: https://drive.google.com/file/d/1w22r2EQCgCOQmM-GhsdvT5jc1tfHePZ4/view?usp=sharing
+
+
+  Password: vJcCvAN7TZIJn9dQ
+
+
+  Notes: This challenge contains real malicious process. Please execute on a safe and controlled environment.
+  We are not responsible for any damages or losses resulting from the use or misuse of this challenge.
+
+
+  Connection: nc 13.250.98.246 14437'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- android
+- malware
+authors:
+- name: BlackBear
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Forensic/hmicast
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1w22r2EQCgCOQmM-GhsdvT5jc1tfHePZ4/view?usp=sharing
+    reason: Android device dump hosted on Google Drive by the organizer; not part of the upstream git
+      tree. The link returned HTTP 200 on 2026-11-26 and was not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1e487be41753706bcf5dfd5c54d106bc04b7a73dbab6d06cf3d819a13bf841eb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6d6fab2e1d90ddf0021532e86297968fb7ab132f585dcaa74ddfbd106ef58e1e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 6d23931f1d5d881c4e212706028f6abe122fdadb503cc069fac2b060d716e95a
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: a4b0491ac27fa92bfedc4bad58967670f14fd5d2052b97f09ab41778431b43fd
+  - path: src/start.sh
+    algorithm: sha256
+    value: 36763319e8ca050b3fc0686dd696c28a3f395c0251a268132d1e0714ba6475e6
+  - path: src/verify.py
+    algorithm: sha256
+    value: 2fd052ef8b2da6f20f82abe6977696ef32804372b265d3986f9429b1e60127e8
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by BlackBear and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A forensics challenge whose evidence is hosted externally.
+  The source file tree here is the answer-validator service only; the evidence archive is recorded as
+  a preservation omission. The organizer hosted the evidence outside the repository. The external attachment
+  is listed in preservation.omissions and needs to be downloaded separately. Difficulty is the organizer's
+  own tag (hard); the task value is a fixed 1000 dynamic score and is not a difficulty signal.

@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-cloud-002
+name: Intro to Kubernetes Security
+slug: 002-intro-to-kubernetes-security
+original_name: Intro to Kubernetes Security
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: cloud
+original_category: Cloud
+description: "cluster-name: exciting-electro-ant\nregion: ap-southeast-1\npod-name: player-pod\nNamespace:\
+  \ <make a ticket to get your private namespace>  \n\nFlag Format: ITSEC{.*}"
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- kubernetes
+authors:
+- name: Synchx & kangwijen
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Cloud/intro-to-kubernetes-security
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0f9bb4ca11e0e2c7a05435593fdd8a887c909243560dff8af9dc665bb5f8d7d1
+  - path: challenge.yml
+    algorithm: sha256
+    value: e5d50b68f7d001473430cb79c74f4bdd97284d85b339e7ecb81e8edb1c6cdcbf
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Synchx & kangwijen and published by PT ITSEC
+    Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services: []
+  requirements:
+  - kubernetes
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Kubernetes cloud challenge with no shipped files
+  beyond the organizer README; the description gives the cluster name, region and pod name. Difficulty
+  is the organizer's own tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty
+  signal.

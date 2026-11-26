@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-cloud-001
+name: cumulus
+slug: 001-cumulus
+original_name: cumulus
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: cloud
+original_category: Cloud
+description: "CloudTech is a new startup that just launched its company landing page to attract investors\
+  \ and showcase its vision. The site is simple and static, hosted entirely on AWS. With a tight deadline,\
+  \ the team rushed the deployment and may have overlooked some security best practices. Your task is\
+  \ to investigate the website and check if there are any misconfigurations or vulnerabilities. \n\n<a\
+  \ href=\"https://d16nohi04dvwd6.cloudfront.net\">CloudTech Landing Page</a>\n\nFlag Format: ITSEC{.*}"
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+- aws
+- s3
+authors:
+- name: kangwijen
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Cloud/cumulus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 50692489acf591be571d66d9218ac3d302bf165aaf85371aa2f635b09f4e4e19
+  - path: challenge.yml
+    algorithm: sha256
+    value: 35099beeeaa4e5f01166f512938679cbb955a4e2a56c0e88c8fbbffe48cfc319
+  - path: src/1.png
+    algorithm: sha256
+    value: ec54ad20632c5ecd297d8be6c9778d3b1b475169c33b099a39e89aaa4eb82dca
+  - path: src/2.png
+    algorithm: sha256
+    value: db391e05bc915d1636fbc32472eeddf12e30c77296374da38fb9405a74b327f4
+  - path: src/3.png
+    algorithm: sha256
+    value: 36c9a56ff8cfccd4fb173b2eb0dc8582fdcae395659ab0ac7f1818920e04aaba
+  - path: src/4.png
+    algorithm: sha256
+    value: 6ecd9697e7afcaf5b27296f5239826f70490bc9211b2fbfa1d50c4ce46b2b9f8
+  - path: src/5.png
+    algorithm: sha256
+    value: 61c9388dd80ca8b671497fd067e51de4dc0fe4bf836aa239ded38daa375c2f43
+  - path: src/6.png
+    algorithm: sha256
+    value: bd573bf3dc4c40ed400739b1d988f83b26494815e5c6bbbe8a7e65da594709ee
+  - path: src/7.png
+    algorithm: sha256
+    value: 2ef46e60e6b38c00796685f63339e742238bab39d347e052731c63a004ebf683
+  - path: src/8.png
+    algorithm: sha256
+    value: e928ed1809310b718777e70a74bf56a7ba09b0dcd052d2c28cd692e500fdf693
+  - path: src/9.png
+    algorithm: sha256
+    value: f42f0241a5bce81e4ef71d39f050ff0999ee12c157b3b730ecf5895b50b8dad5
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by kangwijen and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services: []
+  requirements:
+  - aws
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A cloud challenge with no local service. The source
+  holds only the organizer README and its screenshots; the description points at a live CloudFront distribution.
+  Difficulty is the organizer's own tag (baby); the task value is a fixed 1000 dynamic score and is not
+  a difficulty signal.

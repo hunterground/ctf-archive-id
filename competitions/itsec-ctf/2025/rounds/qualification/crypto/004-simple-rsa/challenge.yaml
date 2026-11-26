@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-crypto-004
+name: Simple RSA
+slug: 004-simple-rsa
+original_name: Simple RSA
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'Most teams skip crypto chals if they look complicated or just blindly dump them into ChatGPT.
+
+  That’s why I made this super simple RSA chal with just 1 text file!
+
+  Now there’s no more reason to skip crypto or ask ChatGPT for help :)'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- rsa
+authors:
+- name: BerlianGabriel
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Cryptography/simple-rsa
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 799b634cd1f825621cb37b1336b60873088d024015b07a02fcaaea4c697e5029
+  - path: challenge.yml
+    algorithm: sha256
+    value: fb8a39aa10376cb298d7f1bfcb954bc96cdea23b98cb170a5d3ca0a28a40555a
+  - path: dist/simple-rsa.txt
+    algorithm: sha256
+    value: f1f4a526b85a78532aa0252d642f3178e2d1c8f9eb8ebcf9832c5571b28d2f2d
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by BerlianGabriel and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A static crypto challenge: one text file of RSA
+  parameters plus the author''s solve.py, which is solver material kept under solvers/. Solver material
+  was moved out of the distribution to the mirrored path under solvers/, per archive policy; the move
+  is not a preservation omission. Moved: `src/solve.py`. Difficulty is the organizer''s own tag (hard);
+  the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

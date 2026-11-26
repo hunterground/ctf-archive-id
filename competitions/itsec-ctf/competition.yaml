@@ -7,22 +7,33 @@ organizer:
   website: https://itsec.asia/
 website: https://itsec.asia/
 description: Capture The Flag competition organized by PT ITSEC Asia Tbk as part of the ITSEC Cybersecurity
-  Summit. The 2025 organizer pages call it ITSEC CTF Competition.
+  Summit. The 2025 organizer pages call it ITSEC CTF Competition. The 2025 edition was an online
+  qualification followed by a grand final, run as a jeopardy challenge set across Binary
+  Exploitation, Blockchain, Cloud, Cryptography, Digital Forensics, Reverse Engineering and Web
+  Exploitation.
 metadata:
   established_year: 2025
   recurring: null
-status: unknown
+  formats:
+  - jeopardy
+status: active
 verification: corroborated
 references:
 - title: ITSEC Cybersecurity Summit 2025
   url: https://itsec.asia/blog/7-things-youll-only-find-at-itsec-cybersecurity-summit-2025
   type: official_website
   accessed: '2026-11-21'
-- title: PT ITSEC Asia Tbk announcement of ITSEC CTF Competition 2025
-  url: https://www.linkedin.com/posts/itsec-asia_itsec-ctf-competition-activity-7330812836991979520-hYgC
-  type: organizer_announcement
-  accessed: '2026-11-21'
-notes: This is the PT ITSEC Asia competition. It is separate from ITTSEC CTF, which is organized by Institut
-  Teknologi Tangerang Selatan and recorded as ittsec-ctf. The 2025 summit page describes the CTF as a new
-  addition, and no earlier or later ITSEC Asia CTF edition was found. CTFtime entries under the name ITSEC
-  ASIA are the company competing in other events, not editions of this competition.
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+notes: >
+  This is the PT ITSEC Asia competition. The 2025 summit page describes the CTF as a new
+  addition, and no earlier or later ITSEC Asia CTF edition was found.
+
+  The 2025 edition is the first recorded edition and the only one archived. Its challenge set is
+  published by the organizer in ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public under final directory
+  names Qual and Final, and every 2025 challenge in this archive comes from that repository. The
+  competition lead's wrap-up post describes the set as jeopardy-style, which is the basis for
+  formats. `recurring` is left null because the organizer has not stated whether a later edition is
+  planned.

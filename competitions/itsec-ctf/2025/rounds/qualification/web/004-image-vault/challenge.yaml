@@ -1,0 +1,159 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-web-004
+name: Image Vault
+slug: 004-image-vault
+original_name: Image Vault
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'We''ve launched a new Image Vault service, but it''s invite-only for now. I hope this helps
+  keep your images safe from hackers.
+
+
+  <a href="https://13.250.98.246:1337/">https://13.250.98.246:1337/</a>'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- ssrf
+authors:
+- name: abejads
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Web Exploitation/image-vault
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2ae4811a5d174752a48085bfad8462cc106d8f9414fe11b1af95e420663cbe05
+  - path: challenge.yml
+    algorithm: sha256
+    value: 91f9f990f3ec3b3d99b56bb6c631a5ef9549d9b6a9a2dcb5763277eef4f9d89a
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 5ac60e3e07726d6158fcea3151e623a6db5f323076421b5aa458348fdf90f2e8
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 7471b3f47dce3fe97210fbff1ce2dc024ef8f6f7c4447cf89839ad74ac7242d2
+  - path: src/build_docker.sh
+    algorithm: sha256
+    value: d8fa5d01f7277ad464fd2fdcbd6b8755ac7d8146cdad094dcf2d74671e44f9a4
+  - path: src/challenge/conf/supervisord.conf
+    algorithm: sha256
+    value: a517bfb3461323a368a6871db4e2ab11b5e2a134a2053d8c4269c05bc4e794d3
+  - path: src/challenge/src/application/app.py
+    algorithm: sha256
+    value: 82b8cd0dc598d7a6cb76407bd8b3ce8eb18133c026b4364301b6be0e5222593e
+  - path: src/challenge/src/application/config.py
+    algorithm: sha256
+    value: a544a0dbddba150f6878b169f8202ff64d452df5f469af9c37cab26baca879ce
+  - path: src/challenge/src/application/routes/api.py
+    algorithm: sha256
+    value: 29eea6f4dfe0908534395b7722a48cd6d940ae5f5ce78c412430493a8038f6e0
+  - path: src/challenge/src/application/routes/web.py
+    algorithm: sha256
+    value: 69c35b0059acbac178357b911ef3f45f2d7a19e0f0f65f9343cdce04e719387e
+  - path: src/challenge/src/application/static/css/style.css
+    algorithm: sha256
+    value: 410b59b48c23bd5e3adda33971ddbed3a6bf38a105f6eb972f6d53e498c657a0
+  - path: src/challenge/src/application/static/js/invite.js
+    algorithm: sha256
+    value: 0dca943bab0695e7fccbb439b0800737870d1ccbe87d4794bb66283951a6011b
+  - path: src/challenge/src/application/static/js/script.js
+    algorithm: sha256
+    value: 57fb1dccfd1d25a466f0131cd3b085809b2bd4a6798f882d1bee913ae6486ea4
+  - path: src/challenge/src/application/static/js/upload.js
+    algorithm: sha256
+    value: 2f0bcfcee63a384341020bed4ccd175848fb1c227b36b1df6a988803be539c4e
+  - path: src/challenge/src/application/static/uploads/.placeholder
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge/src/application/templates/base.html
+    algorithm: sha256
+    value: 6910706ecdf1b5f4ff3227ad9595acc4245e5f1c930af3720e25a9480adabe47
+  - path: src/challenge/src/application/templates/flag.html
+    algorithm: sha256
+    value: d41b1bfd4755710eb8f55fc9838da069247f3070bff7bd1cd1c2b1f0d0061524
+  - path: src/challenge/src/application/templates/home.html
+    algorithm: sha256
+    value: 77e0318efafe7e3a4490a12180c1483c8dbfd7a9414cb4cd263aea477b7868d7
+  - path: src/challenge/src/application/templates/index.html
+    algorithm: sha256
+    value: 741e496fdd7246f063e4ff76d8d2ff085594b18935d3f58956e2cd0458861222
+  - path: src/challenge/src/application/templates/invite.html
+    algorithm: sha256
+    value: 237f53f3b4ac6483cc5770be50c91c8a76c1679bfac1a97239de4eb3d38843a8
+  - path: src/challenge/src/application/templates/login.html
+    algorithm: sha256
+    value: 881cbb332e860c05a1d2c6bc11b95bbcbd16946de5a4d53ec49218388450fa19
+  - path: src/challenge/src/application/templates/register.html
+    algorithm: sha256
+    value: ebc981931f101c73db8a9aa4c0b24d236d1b77109177d6bebfc535275d61e50c
+  - path: src/challenge/src/application/templates/report.html
+    algorithm: sha256
+    value: 691fe9c6e1ba3d29233961d714f8f34484cafd384520113da25fdcc1fc4344ce
+  - path: src/challenge/src/application/templates/upload.html
+    algorithm: sha256
+    value: e285fae1bed9bf54bf1617fd1486b4cb348f69cea6b226f73561d69908d50a71
+  - path: src/challenge/src/application/util/bot.py
+    algorithm: sha256
+    value: c976fe348f279e9137b051e360c30eb21e6dcf6feca8b5921996d1e8d0df189a
+  - path: src/challenge/src/application/util/database.py
+    algorithm: sha256
+    value: d5aeea26928a36ec6b7ec9a20dac953411d2f099021f51e5c4474768724067fb
+  - path: src/challenge/src/requirements.txt
+    algorithm: sha256
+    value: de1ed94243530ba8bf00462ed476c5fe2278855dd420028ef3a0a595fd94f505
+  - path: src/challenge/src/run.py
+    algorithm: sha256
+    value: 792d4759958ab0912d063c7929ea59d0f04bfa4c02c277791893bb805602aa49
+  - path: src/challenge/src/ssl/cert.pem
+    algorithm: sha256
+    value: aad47e7343f5335f48d2eb4cf317ed74898818bb8fba8c1664c320f25b592dc5
+  - path: src/challenge/src/ssl/key.pem
+    algorithm: sha256
+    value: 88104042640ff339dd6ab5461f19c2f9f7eee8c956e08e681e18038b1a1caab9
+  - path: src/entrypoint.sh
+    algorithm: sha256
+    value: 3bcd3e1e16b5a4c1977a23239a836043d0e588d7f743d03e47285e5d3f6d3932
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by abejads and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - web
+  - bot
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A web challenge shipped as an application tree with
+  a supervisor configuration and a bot utility inside the application package. Difficulty is the organizer's
+  own tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty signal.

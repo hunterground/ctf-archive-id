@@ -1,0 +1,550 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-blockchain-001
+name: Hope
+slug: 001-hope
+original_name: Hope
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: blockchain
+original_category: Blockchain
+description: 'Notice that "Hope" is a luxury?
+
+  Some already have it, some... can FORCE it.
+
+
+  Connection: nc {ip_chall} 51002'
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+- uups
+- proxy
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Blockchain/False Hope
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b90a5e029b1754cb67e7700ab05d78e02f64d0d96cc7c0c6836f662aaa555782
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6346fb9c0f0eaac54b24aa8e416e4dab3f312f88b2990dd9c051088fa6bd7c23
+  - path: dist/blockchain_false_hope.zip
+    algorithm: sha256
+    value: 5729556926888ebe3379c48ab362318d54a40e26bb0381da206ceeb48cee71da
+  - path: src/challenge-eth/.env
+    algorithm: sha256
+    value: 8e6e54a3f270a1c5c649e4a628fe9944cd1fde083710c3727786157e3e48bc83
+  - path: src/challenge-eth/Dockerfile
+    algorithm: sha256
+    value: 6a7647cd6473388ab45a3d4bb124fa51aaf4e1da9dd29b6fd1a3c262c36a03fb
+  - path: src/challenge-eth/contracts/ERC1967/Address.sol
+    algorithm: sha256
+    value: 2395099726e6c215641a5857a74f663987f37a3ad8a2932a9f3d8ee27fb11dd4
+  - path: src/challenge-eth/contracts/ERC1967/ERC1967Proxy.sol
+    algorithm: sha256
+    value: d92e9e5bbea0dd27ee6da6e7673326de7cbaf4d3157a8e3646fbfb583ee4a2ab
+  - path: src/challenge-eth/contracts/ERC1967/ERC1967Utils.sol
+    algorithm: sha256
+    value: 5c8240917d07ffa018f7a31097f21f831da703ef652ce99f84e424b5e6feb661
+  - path: src/challenge-eth/contracts/ERC1967/Errors.sol
+    algorithm: sha256
+    value: 0704b9d6c032cca8512a3bc3f30f49f86f1f03102d2896a3d23e794b82efea66
+  - path: src/challenge-eth/contracts/ERC1967/IBeacon.sol
+    algorithm: sha256
+    value: 422eabc0e645e24c3a52898f6255b349323b013544a3ebdc4b2d3f7fc5bb7e9e
+  - path: src/challenge-eth/contracts/ERC1967/IERC1967.sol
+    algorithm: sha256
+    value: 886b093d8f7c41f73af42b8e183314b3654531a9d5e11f07c41a5a7f11d3e006
+  - path: src/challenge-eth/contracts/ERC1967/Proxy.sol
+    algorithm: sha256
+    value: 5f5081378d4bc82b814b0d64990b7f7b9c69697593b73a3341f4a269940ba540
+  - path: src/challenge-eth/contracts/ERC1967/StorageSlot.sol
+    algorithm: sha256
+    value: 75704538dcb223239280c6726d9a31cf769a7816718517c997fc7d63bdb70778
+  - path: src/challenge-eth/contracts/FalseHope.sol
+    algorithm: sha256
+    value: 76bda21bd5bed37c9afb0c5a165c3f2ef19ba156951136fce9558d9fc5cef2c5
+  - path: src/challenge-eth/contracts/Hope.sol
+    algorithm: sha256
+    value: b8e2677bd9001aaaf4009ee06447b6c1c5fd3a15a7841ae12b6d29e4665a76da
+  - path: src/challenge-eth/contracts/HopeBeacon.sol
+    algorithm: sha256
+    value: 8ce8f5a759303d54f735fc566e30e22075e13a9e36b32859e23b6f60119b437f
+  - path: src/challenge-eth/contracts/Setup.sol
+    algorithm: sha256
+    value: 64deaa9f5485f768dc5354e72fdea290e12fe5e4ce179d9fe1691127f83fb6d9
+  - path: src/challenge-eth/contracts/openzeppelin-contracts-upgradeable/ContextUpgradeable.sol
+    algorithm: sha256
+    value: d6046a2d25f8562c802bef80b00066dd7b2d2d3cd0508872c6ce2ebb9bf70f77
+  - path: src/challenge-eth/contracts/openzeppelin-contracts-upgradeable/Initializable.sol
+    algorithm: sha256
+    value: a8b7eafa0fdc7cb5a644c8c61a8e4c51e031d5e1e6f268f72dbe18b768ead56e
+  - path: src/challenge-eth/contracts/openzeppelin-contracts-upgradeable/OwnableUpgradeable.sol
+    algorithm: sha256
+    value: 7303331dfcea5bb2f32fa644849f03ac2db2ca356fd559a83e801edc9ce38ae3
+  - path: src/challenge-eth/contracts/openzeppelin-contracts-upgradeable/UUPSUpgradeable.sol
+    algorithm: sha256
+    value: 365db961b4e5650338f5c10581f13853b4cd8fb2396e278b09fe1a45a2b1a4d9
+  - path: src/challenge-eth/contracts/openzeppelin-contracts-upgradeable/draft-IERC1822.sol
+    algorithm: sha256
+    value: 71190a8ee26dab908d3dad703ccfff09ebfc5850f2f405463e21df21a8643bbc
+  - path: src/challenge-eth/deploy/chal.py
+    algorithm: sha256
+    value: 399cca86bcf80c5d4a1efa2f8593a898a9ebc77fbe7befcec9ba11522dc9a201
+  - path: src/challenge-eth/docker-compose.yml
+    algorithm: sha256
+    value: aba7d2bd7b65098c36d5175df277dc31345100a9de8353b01b84a79dce13cbe8
+  - path: src/images/build.sh
+    algorithm: sha256
+    value: 3d3101d5fd4ebc5cddd81c85827494688b00d28cc2c29d1f1055142f345bded5
+  - path: src/images/challenge-base/Dockerfile
+    algorithm: sha256
+    value: f01ab9d7179efc6dfd275bcabe2b42560de936c4bc21faf8e394ae54fc45fd40
+  - path: src/images/challenge-base/entrypoint.sh
+    algorithm: sha256
+    value: fccdf3b64984ee9c4fbfc24cb970be34765b488479b5749b7f885f3c6a6a6e7b
+  - path: src/images/challenge-base/requirements.txt
+    algorithm: sha256
+    value: 02ada8d83ccb32798bec4d06b1b93829d2354ad1b74006959646e458d826c9a2
+  - path: src/images/challenge/96-start-launcher
+    algorithm: sha256
+    value: 0ea19159a5d56f4c6c6d03f1b1b452f52d361d763b45e0df42d5b90813370140
+  - path: src/images/challenge/Dockerfile.cairo
+    algorithm: sha256
+    value: fafcf6681d64f7165d68bf603515a4b64e58ac684ad531d2a90460c5f557c4f2
+  - path: src/images/challenge/Dockerfile.eth
+    algorithm: sha256
+    value: 9f9ebfbfd1b8cbc59a13000e50e93e4161135226f20d94203e8e6d092e119230
+  - path: src/images/challenge/Dockerfile.solana
+    algorithm: sha256
+    value: 91fb84962828d4e6ff02f82bdadca420cfa25ced709589a334731399dc068841
+  - path: src/images/challenge/README.md
+    algorithm: sha256
+    value: f68698683d11890436fe3cc5932118eec50dedec7ab3a2ad3fe00cc048f9c6e5
+  - path: src/images/challenge/exploit/migrations/deploy.ts
+    algorithm: sha256
+    value: 8484b6acd1cd6c4e5aef44b4058279e6e290a43015f9cf04ec4b4e7dac70df49
+  - path: src/images/challenge/pyproject.toml
+    algorithm: sha256
+    value: 076d986fd78323c0780d20c4aab88620ee538f41e971b4734d77d7f09e22c828
+  - path: src/images/challenge/solana-deps/.gitignore
+    algorithm: sha256
+    value: ad6f8bcd7c643a248b957522637f49ff03366d1eb0b11d84619dcfe08245dc2e
+  - path: src/images/challenge/solana-deps/.prettierignore
+    algorithm: sha256
+    value: 5e0368022141f5120d220f47ae5134cd3153b13ca523ed0f61915bc312ec7db9
+  - path: src/images/challenge/solana-deps/Anchor.toml
+    algorithm: sha256
+    value: fe2d82b09a4c6bb3fe421fb33f7676de503cc5ba5f8291b24d8e6eb27fe28139
+  - path: src/images/challenge/solana-deps/Cargo.toml
+    algorithm: sha256
+    value: dbd714c64166d92c8550badcd0964293191a945a0de4a756d1d69486e772c57f
+  - path: src/images/challenge/solana-deps/package.json
+    algorithm: sha256
+    value: 51aa4935f4eca5cc345d93a50816a9f0f3c0fd3d73683653ea2c75f0035759a3
+  - path: src/images/challenge/solana-deps/programs/exploit/Cargo.toml
+    algorithm: sha256
+    value: ea5077b601098bc1e7ac90d2231c539750b43fc3e708514dd06247627f6a19df
+  - path: src/images/challenge/solana-deps/programs/exploit/Xargo.toml
+    algorithm: sha256
+    value: 815f2dfb6197712a703a8e1f75b03c6991721e9eb7c40dfaec8b0b49da4aa629
+  - path: src/images/challenge/solana-deps/programs/exploit/src/lib.rs
+    algorithm: sha256
+    value: d593f62b0fbb3200b47c0076fa30d3681c66de5a6192f61b02bd559d1e5d7393
+  - path: src/images/challenge/solana-deps/tests/exploit.ts
+    algorithm: sha256
+    value: fe631a1d55ba7a6682c0b353ba888e1393c2cfc54fae6e5d35bd113380517439
+  - path: src/images/challenge/solana-deps/tsconfig.json
+    algorithm: sha256
+    value: bd0f2c29bd00ea49b24b102057d2dda078f9dea09ef193ac0335af99df5149f4
+  - path: src/images/challenge/solana-deps/yarn.lock
+    algorithm: sha256
+    value: beae9b7bf3fab9003d335e81bcf24e2d6db91203b3062f3d212b1ed0ab4f77ee
+  - path: src/images/challenge/src/sandbox/__init__.py
+    algorithm: sha256
+    value: 1daa4cd42115cd22f3df14c13ba2853a1f719d285aec24325132ba5a409c3d07
+  - path: src/images/challenge/src/sandbox/blockchain_manager.py
+    algorithm: sha256
+    value: 259b558e9343746cf3e53a26e065fbaf1cca5b468b6144c4f9acec737eeb8f83
+  - path: src/images/challenge/src/sandbox/env.py
+    algorithm: sha256
+    value: a19d653f5509e217b57e66134f08f8249e11cbf60cf5a2fbb54875773a48d633
+  - path: src/images/challenge/src/sandbox/frontend/404.html
+    algorithm: sha256
+    value: 820774993167588347530f2ab578d7ca4d26b725d56b6032fb71d84123500993
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/BinfxjU64cwAGl1vxG6b8/_buildManifest.js
+    algorithm: sha256
+    value: 3dd08c591eb61e9e22a41fd14593ab64fd199ed1a87804a7fdbaa317cd10a6b8
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/BinfxjU64cwAGl1vxG6b8/_ssgManifest.js
+    algorithm: sha256
+    value: 678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/4bd1b696-4b0f7518a463c96c.js
+    algorithm: sha256
+    value: edc79350569ca04b7c9fbf98dd224f0c4e734280222744466e32fc54d413a5e6
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/586-408ac7771ca68613.js
+    algorithm: sha256
+    value: 2fa53522dc3626913762f8a844ac2aae129816f300824cd810f541f0569bc75f
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/684-9f376c0e2a3ae45e.js
+    algorithm: sha256
+    value: d6c53ef8e509da108e29ba8ce78c81160f1f74c74c400f8e1cf1e7a8e967b37e
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/app/_not-found/page-b63df5a8d3225455.js
+    algorithm: sha256
+    value: d990a17ab3bfed797a42a14c0b73889ab5af3a19f2d267f2f9109dc0a465f631
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/app/layout-aeb584f04f6167cf.js
+    algorithm: sha256
+    value: cbf3c79163e8d216c20cd7eada7297d01a1ebca5f5b08562281782971c1b5ff0
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/app/page-2d7f8381cd809512.js
+    algorithm: sha256
+    value: 872bfc816e6264151691ff4ebc34d3bdf1cb19532e8ace3061a2c294e54963b7
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/framework-f593a28cde54158e.js
+    algorithm: sha256
+    value: 6d2cff735f96450aeb3cae0a15c99404335fc008a4e3fb71e50fecb00a488be9
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/main-app-630d94b1236b1ce6.js
+    algorithm: sha256
+    value: 344723466e6fcef22750efe873379da551ab3ce16977bc496e498d3f3aa60b49
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/main-db0e8fa5ad50d0ca.js
+    algorithm: sha256
+    value: 1ba2171e201490ed7bcf4e21d7966f227c5a8b28d33aacfddf9770fd65b2f018
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/pages/_app-da15c11dea942c36.js
+    algorithm: sha256
+    value: e36997faa106b742cd1400148ce85c33bd701ea6473bfc5014ce771b958f8927
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/pages/_error-cc3f077a18ea1793.js
+    algorithm: sha256
+    value: 0ce82c72cd58b795e7234d4d54becd129445f94dcce3d996aee603fe06f3c8d3
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/polyfills-42372ed130431b0a.js
+    algorithm: sha256
+    value: 0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/chunks/webpack-a56d5616ff820125.js
+    algorithm: sha256
+    value: 9a88053b5672c51e0972797bdf3c72bbfc04ef83b778298143c67359e715fe24
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/css/c21741c89396b322.css
+    algorithm: sha256
+    value: dbe4abc35d8ce5d3d1c2d857021075dbbcf592088e70bcf6b1f5819b52777163
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/26a46d62cd723877-s.woff2
+    algorithm: sha256
+    value: 94e5c823e72e71cc20f4bfa29b0434f2260040965d9d066c0e7cb5dc99ffd6c3
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/55c55f0601d81cf3-s.woff2
+    algorithm: sha256
+    value: ce129476f4299b215b55b1eed2fc4324b46bdb2641e11d59e2481b744a47d114
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/581909926a08bbc8-s.woff2
+    algorithm: sha256
+    value: eac5cbaf2fd167d707e1ecf2e68e2af232be9cfc952574164417f32a594c5efc
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/6d93bde91c0c2823-s.woff2
+    algorithm: sha256
+    value: 32e52496a256089f279c61501aefbb4380f792c93f01ec7a6e735678fd62b3f1
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/97e0cb1ae144a2a9-s.woff2
+    algorithm: sha256
+    value: 3d2330061b4d9a5a521789331ece51a755fda6535edb26d7409b710528b3cd0d
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/a34f9d1faa5f3315-s.p.woff2
+    algorithm: sha256
+    value: c88db2401bef7e1203e0933cc5525a0f81863bfd076756db12acea5596f089ec
+  - path: src/images/challenge/src/sandbox/frontend/_next/static/media/df0a9ae256c0569c-s.woff2
+    algorithm: sha256
+    value: 8db00ff46c67b22cda8bed865acf7077651cac8d2841d5b40980556b48961931
+  - path: src/images/challenge/src/sandbox/frontend/index.html
+    algorithm: sha256
+    value: d2a2d15c613a0e28582443150d0bf28ec749c0c422ad63075e074df6abf33406
+  - path: src/images/challenge/src/sandbox/frontend/index.txt
+    algorithm: sha256
+    value: 1bc27d72613e58328d9b6c172c90d4c43a886e30239b606d19ce178b7beeb718
+  - path: src/images/challenge/src/sandbox/frontend/placeholder-logo.png
+    algorithm: sha256
+    value: f69904843a317ebf9606f73ffeff29753bdffe9796706308ecd1966a4b8b1fcf
+  - path: src/images/challenge/src/sandbox/frontend/placeholder-logo.svg
+    algorithm: sha256
+    value: 19a9e968f4656d52a4c249b4056117ad109370ba9da51cdc630ddded74cec73b
+  - path: src/images/challenge/src/sandbox/frontend/placeholder-user.jpg
+    algorithm: sha256
+    value: f31f308b3361e89c50c9572e877e6c763f85f35e325b5c6a571e9903d779b5dc
+  - path: src/images/challenge/src/sandbox/frontend/placeholder.jpg
+    algorithm: sha256
+    value: 02f2628ee3e0413d4c848784810bd36592a33984572c91623a0ae6bdbc8d85e9
+  - path: src/images/challenge/src/sandbox/frontend/placeholder.svg
+    algorithm: sha256
+    value: 64badf7aabda0b9630b87020ffb6095cb858ccbcf66b355c2aa08b1063954d3b
+  - path: src/images/challenge/src/sandbox/helper.py
+    algorithm: sha256
+    value: 0b528d1336c85f3bb4b0ce8eed400e9952818e0a53f5bfcf0322a6e03198c211
+  - path: src/images/challenge/src/sandbox/launcher.py
+    algorithm: sha256
+    value: 03b89d912d36e883cfcaf60f3d40fdf06e13e1816d8b1c7176e93a3e8c46a422
+  - path: src/images/challenge/src/sandbox/ppow.py
+    algorithm: sha256
+    value: f4cd81bf44f8addc32429d38394572ea1bba9e620221ff446dc809dadd4aece3
+  - path: src/images/challenge/src/sandbox/requirements.txt
+    algorithm: sha256
+    value: e22d528c6f7935606cdd94a77a8972bc33fea0accc0a54a0cc8af8e068a8e818
+  - path: src/images/challenge/src/sandbox/solana_helper.py
+    algorithm: sha256
+    value: 837ad7647d3859692ac5ff2a4794a1d79eda16f039a4899d33fb340bdf4da553
+  - path: src/images/challenge/src/sandbox/type.py
+    algorithm: sha256
+    value: 9bc26c725ec7f253e69534b141c6786be67b36f9cfeab19ba43eb18ceaf08459
+  - path: src/images/challenge/src/ui/.gitignore
+    algorithm: sha256
+    value: b2cc815c63108dd2667ca97838e46b138886ddaa8564b3a143c7e60f48d8580a
+  - path: src/images/challenge/src/ui/app/globals.css
+    algorithm: sha256
+    value: 2e37710a792ef63a2d2283e2ea2bac81a64d766bc91cb53d98dbf133462b6627
+  - path: src/images/challenge/src/ui/app/layout.tsx
+    algorithm: sha256
+    value: 36501a1700b522380ff9df1f787a0be9705ad09c3b77aea71155a298b8ab3b10
+  - path: src/images/challenge/src/ui/app/page.tsx
+    algorithm: sha256
+    value: fe15eb012c5f49bf8df14cf8a6bfea5ce044e7c5833b214d3c0451a9109eaff1
+  - path: src/images/challenge/src/ui/components.json
+    algorithm: sha256
+    value: 1fe240f38a947a22d79d8b8afd880a3e1938eb34b905ccba2602aa269f16d388
+  - path: src/images/challenge/src/ui/components/theme-provider.tsx
+    algorithm: sha256
+    value: 7c1edcfa7a0614bfc279aeb8ce3e60e0642b1c24a6ff3d4d03d3e256efc95b20
+  - path: src/images/challenge/src/ui/components/theme-toggle.tsx
+    algorithm: sha256
+    value: 7f44c9f4a32eafca0e47d11b8e4955518130d78a13eb25f1828e7abcdce27e07
+  - path: src/images/challenge/src/ui/components/ui/accordion.tsx
+    algorithm: sha256
+    value: 1cc98c2ab5106d8d476f1da4aa8dd535198a8113513b2c918938ea76d90bbbc9
+  - path: src/images/challenge/src/ui/components/ui/alert-dialog.tsx
+    algorithm: sha256
+    value: 2ede53a17b342a8265b924563f08d352dc7358a91585b0332b3d4a055b692407
+  - path: src/images/challenge/src/ui/components/ui/alert.tsx
+    algorithm: sha256
+    value: ed78a053a9db783f48d5dfab7398b630f87c17ed2e237b6f30a3eb153675960c
+  - path: src/images/challenge/src/ui/components/ui/aspect-ratio.tsx
+    algorithm: sha256
+    value: 589c299c27e2ad99c2e96c9a90e6ad49051cf99fc88f0c42a13465177379186f
+  - path: src/images/challenge/src/ui/components/ui/avatar.tsx
+    algorithm: sha256
+    value: e78b35ed76c67d8ff50603fbe0dfa4fe600097bd860d89e65beea3e16683dad8
+  - path: src/images/challenge/src/ui/components/ui/badge.tsx
+    algorithm: sha256
+    value: db977d821af56ae3fb7952182d9c0a076a10c75c38bc2d2b000827e720423d32
+  - path: src/images/challenge/src/ui/components/ui/breadcrumb.tsx
+    algorithm: sha256
+    value: c3d3dcb0d82fc5e91d8830bac7fead905686fe876f1f42c3ed872bb0a6b6584e
+  - path: src/images/challenge/src/ui/components/ui/button.tsx
+    algorithm: sha256
+    value: 415ccc47cf69a2a87db699cc6da7f1fdcb799a1f40dab3a6220d91ac8da8abbe
+  - path: src/images/challenge/src/ui/components/ui/calendar.tsx
+    algorithm: sha256
+    value: 7626e43c40fbf82f96292c1ca8d8cb9ced31f257d83c9b0fe48694ec04d127b6
+  - path: src/images/challenge/src/ui/components/ui/card.tsx
+    algorithm: sha256
+    value: 69afcf9c8e58ca6c3acf43c5b1ec9186bb6c88952f0ff49345dd2666f93d5480
+  - path: src/images/challenge/src/ui/components/ui/carousel.tsx
+    algorithm: sha256
+    value: 69686986376cbc02a5f907b1ca8a7a759808c4e8df1200517c57ec749e8484cd
+  - path: src/images/challenge/src/ui/components/ui/chart.tsx
+    algorithm: sha256
+    value: 62ebd887366a84fc1c5f05fe1a2cb539db1869a73c9008e2cd74e1462075a4a3
+  - path: src/images/challenge/src/ui/components/ui/checkbox.tsx
+    algorithm: sha256
+    value: 870e9819040c04fe40dd869b1076f908c63661fae5c627d657d759e4532c2334
+  - path: src/images/challenge/src/ui/components/ui/collapsible.tsx
+    algorithm: sha256
+    value: f4cdd104de29928bfcd40b865c7d08eed9157a537fbb8b5e6d0921f02b63cc04
+  - path: src/images/challenge/src/ui/components/ui/command.tsx
+    algorithm: sha256
+    value: a19d8fdb1d4a6c02c071e1f35afab99b2e759c5cd04ded8c2bfd6ad84dfb8962
+  - path: src/images/challenge/src/ui/components/ui/context-menu.tsx
+    algorithm: sha256
+    value: 42db115335540179d04c5ef013399c4ef09789ffc87e340b8a9ad0a6d1c08ca9
+  - path: src/images/challenge/src/ui/components/ui/dialog.tsx
+    algorithm: sha256
+    value: bb67c322bfde96ee051ae32c0760c65a1dea25146472d3bcaba5c21040ddeb7b
+  - path: src/images/challenge/src/ui/components/ui/drawer.tsx
+    algorithm: sha256
+    value: 774316527ddc577fc54012a0c898ebcf7cf8f11152126e550828b53004a5b70c
+  - path: src/images/challenge/src/ui/components/ui/dropdown-menu.tsx
+    algorithm: sha256
+    value: ca0802c2e73d06aaca91242e6c2edb5451168c37770d2675bf98245d6f7f2517
+  - path: src/images/challenge/src/ui/components/ui/form.tsx
+    algorithm: sha256
+    value: 9a0acdbdf33f9ed3c450bba8e52ddd6e379f4c8b9881b95839bb62b2d0a83879
+  - path: src/images/challenge/src/ui/components/ui/hover-card.tsx
+    algorithm: sha256
+    value: c6d7e532ba61870b182feffa9bcf468c385c99784123dbb50ae13d2282bd58ea
+  - path: src/images/challenge/src/ui/components/ui/input-otp.tsx
+    algorithm: sha256
+    value: 6bd87d79f93679b469b00eda027a7a37d841ad76ca40fa45d5b4639805e50aca
+  - path: src/images/challenge/src/ui/components/ui/input.tsx
+    algorithm: sha256
+    value: b326e2af874b14aa2ac18096ddbec512c6258f3fafc20ba6c8262818d48e6a5b
+  - path: src/images/challenge/src/ui/components/ui/label.tsx
+    algorithm: sha256
+    value: 2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a
+  - path: src/images/challenge/src/ui/components/ui/menubar.tsx
+    algorithm: sha256
+    value: 2e9ff10dead52ac74fe7863932edd31edcfeb7c637c7da4b82886ce73ec4b078
+  - path: src/images/challenge/src/ui/components/ui/navigation-menu.tsx
+    algorithm: sha256
+    value: c07f503f41162b190bef100ba0ad31a8eaa9c790f3f782ba7df220e26f23b93a
+  - path: src/images/challenge/src/ui/components/ui/pagination.tsx
+    algorithm: sha256
+    value: 6d66283fc04f3901772f15f3108bda732efc75ce878e0d8ecf8f9fc3b0c63c26
+  - path: src/images/challenge/src/ui/components/ui/popover.tsx
+    algorithm: sha256
+    value: 8a10fdf10a500f709581fb49690c3a86c82d07db969266ee47bcad6f0c2782e5
+  - path: src/images/challenge/src/ui/components/ui/progress.tsx
+    algorithm: sha256
+    value: 8c036da4baed076de68d27719929dc98151a81b51456bfa6a2488d835303b1d7
+  - path: src/images/challenge/src/ui/components/ui/radio-group.tsx
+    algorithm: sha256
+    value: 4e0515412cad83083f8b13e0f8f6bbdd4dd74d4156601f969a353a822de66a50
+  - path: src/images/challenge/src/ui/components/ui/resizable.tsx
+    algorithm: sha256
+    value: 70d1e35a5fb0897af7063cdd841d8ed636e1c332ef7ea6469f0f175a5a93dddf
+  - path: src/images/challenge/src/ui/components/ui/scroll-area.tsx
+    algorithm: sha256
+    value: edbaecbc4f5cb6e16ecb39d3678d81b26e1a968dfc273dbb77821de3c8626377
+  - path: src/images/challenge/src/ui/components/ui/select.tsx
+    algorithm: sha256
+    value: 1aba9cfb792bfa02b0fc8764dfd524d23e2191367863545963940034f61526ee
+  - path: src/images/challenge/src/ui/components/ui/separator.tsx
+    algorithm: sha256
+    value: 995c54f1c5c688f712a675fe35d55bcada2b31dba561dcc71553a1ad601e59ec
+  - path: src/images/challenge/src/ui/components/ui/sheet.tsx
+    algorithm: sha256
+    value: 9051eb9d885a18c0521c63c945480effcfca29282d2a342cb3ce7f9d080c6d38
+  - path: src/images/challenge/src/ui/components/ui/sidebar.tsx
+    algorithm: sha256
+    value: 72aeae5c68c361fce30abd8926dd056e2a7351b16b9223347e1fa68610be3a69
+  - path: src/images/challenge/src/ui/components/ui/skeleton.tsx
+    algorithm: sha256
+    value: a72a9d8fc1c1999b5411a33391c5e70048863c5865629077280e943ca85689a8
+  - path: src/images/challenge/src/ui/components/ui/slider.tsx
+    algorithm: sha256
+    value: 48bd0ba32cc7f341ecca995374be73111da2f761694cfcf91dbf8d4d9e632c06
+  - path: src/images/challenge/src/ui/components/ui/sonner.tsx
+    algorithm: sha256
+    value: 771ab8637d27384c3ed030ba3be01a07b90c791c294eae06646250f8e81bc49e
+  - path: src/images/challenge/src/ui/components/ui/switch.tsx
+    algorithm: sha256
+    value: 2cb63bb07b23867e89b026d82bd7817448511d4c547ec1f251d80f9edb4f4dfc
+  - path: src/images/challenge/src/ui/components/ui/table.tsx
+    algorithm: sha256
+    value: 1da243956282c040db49d5718d2f0093a705fbbdfa3a25f51c1a31a069c45093
+  - path: src/images/challenge/src/ui/components/ui/tabs.tsx
+    algorithm: sha256
+    value: 0a16955983c96c27e2a315ac3c930f624ff28f41a2815aa17151aa3bc574ebba
+  - path: src/images/challenge/src/ui/components/ui/textarea.tsx
+    algorithm: sha256
+    value: aaf46918c590c2bf59e2afb7904dfd8e69317e12ee34ff93ed2746dd06cc994a
+  - path: src/images/challenge/src/ui/components/ui/toast.tsx
+    algorithm: sha256
+    value: 45f9af4bf527ecf86501fedcf1559b8338f9ad923e7ec817ba590a006a4a610d
+  - path: src/images/challenge/src/ui/components/ui/toaster.tsx
+    algorithm: sha256
+    value: 05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f
+  - path: src/images/challenge/src/ui/components/ui/toggle-group.tsx
+    algorithm: sha256
+    value: dba95ead40d163af6959198ded9853a2cc9282b2cb534980f99937a65edf4e2d
+  - path: src/images/challenge/src/ui/components/ui/toggle.tsx
+    algorithm: sha256
+    value: 10783ad8d10a3405551a84e13d86dc2cb8f7b87005508e07445eab8b34d77032
+  - path: src/images/challenge/src/ui/components/ui/tooltip.tsx
+    algorithm: sha256
+    value: e4c39a17833122e02fbe896914e466bf101ea7173dc3d8f18a0201414c74fffc
+  - path: src/images/challenge/src/ui/components/ui/use-mobile.tsx
+    algorithm: sha256
+    value: ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b
+  - path: src/images/challenge/src/ui/components/ui/use-toast.ts
+    algorithm: sha256
+    value: 03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed
+  - path: src/images/challenge/src/ui/hooks/use-mobile.tsx
+    algorithm: sha256
+    value: c3e7481e53c583a28a5c68f962e6cd87f53c4f3b8ffbe9de88806e0374e075f1
+  - path: src/images/challenge/src/ui/hooks/use-toast.ts
+    algorithm: sha256
+    value: 03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed
+  - path: src/images/challenge/src/ui/lib/utils.ts
+    algorithm: sha256
+    value: 7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d
+  - path: src/images/challenge/src/ui/next.config.mjs
+    algorithm: sha256
+    value: ec68a2ea91e51be92457fe93a7c395e22aef398e0bbae6801d9afb8243c738c3
+  - path: src/images/challenge/src/ui/package-lock.json
+    algorithm: sha256
+    value: e3ff38e7dfed512ad1346a93578a5b9fa0827cf418774a9f4a980e535d941f25
+  - path: src/images/challenge/src/ui/package.json
+    algorithm: sha256
+    value: 4aed53f89bf67ddf0112844e4ef523254d468fc6c0afa207a584d9ca3a76ea33
+  - path: src/images/challenge/src/ui/pnpm-lock.yaml
+    algorithm: sha256
+    value: 82ec0ef5f42a03e9ec68bb84a85223e87c046ffc3efb38ff34a96228e02f5199
+  - path: src/images/challenge/src/ui/postcss.config.mjs
+    algorithm: sha256
+    value: ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646
+  - path: src/images/challenge/src/ui/public/placeholder-logo.png
+    algorithm: sha256
+    value: f69904843a317ebf9606f73ffeff29753bdffe9796706308ecd1966a4b8b1fcf
+  - path: src/images/challenge/src/ui/public/placeholder-logo.svg
+    algorithm: sha256
+    value: 19a9e968f4656d52a4c249b4056117ad109370ba9da51cdc630ddded74cec73b
+  - path: src/images/challenge/src/ui/public/placeholder-user.jpg
+    algorithm: sha256
+    value: f31f308b3361e89c50c9572e877e6c763f85f35e325b5c6a571e9903d779b5dc
+  - path: src/images/challenge/src/ui/public/placeholder.jpg
+    algorithm: sha256
+    value: 02f2628ee3e0413d4c848784810bd36592a33984572c91623a0ae6bdbc8d85e9
+  - path: src/images/challenge/src/ui/public/placeholder.svg
+    algorithm: sha256
+    value: 64badf7aabda0b9630b87020ffb6095cb858ccbcf66b355c2aa08b1063954d3b
+  - path: src/images/challenge/src/ui/styles/globals.css
+    algorithm: sha256
+    value: 65b5fa2721b8289af3a68bfc0101218dda6403c4bf6de522e3ec528bb47de6d2
+  - path: src/images/challenge/src/ui/tailwind.config.ts
+    algorithm: sha256
+    value: 58c78ffd25a3691a3a24f05a91a7f07b734e1e36068f743c81d630987a91250c
+  - path: src/images/challenge/src/ui/tsconfig.json
+    algorithm: sha256
+    value: 50522e3b10d408c6ee79fe48de9918459ac5a9693dab2b97ee88e37cb070bb63
+  - path: src/images/push.sh
+    algorithm: sha256
+    value: c203f1c15414b2cd384abdb499208bab88d79b94151f2bdf6cecb3eba16b3cf2
+  - path: src/start_manual.sh
+    algorithm: sha256
+    value: 1e0d95a841b49b48e8a8fc29447f1203a43e449bbb1664c2767484ac02bf6318
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  - json-rpc
+  requirements:
+  - anvil
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The source directory is named False Hope while the
+  organizer challenge name is Hope. The distribution is an Ethereum sandbox: the contracts, a deploy script
+  and the shared eth_sandbox launcher. Difficulty is the organizer''s own tag (baby); the task value is
+  a fixed 1000 dynamic score and is not a difficulty signal.'

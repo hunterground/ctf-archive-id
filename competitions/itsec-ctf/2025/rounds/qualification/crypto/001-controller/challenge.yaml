@@ -1,0 +1,106 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-crypto-001
+name: Controller
+slug: 001-controller
+original_name: Controller
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'Some search, never finding a way
+
+  Before long, they waste away
+
+  I found you, something told me to stay
+
+
+  Flag Format: ITSEC{.*}'
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+- cbc-mac
+authors:
+- name: Jakwan Bagung
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Cryptography/controller
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3570b4aa33396e44d38e82dbbae36ab60a67b70a3cbd6053f625ae1790691437
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9d2c91a0d32d69396902fe3b7deaefda0c8befee20cc8a9044a1ba41c5850322
+  - path: desc.txt
+    algorithm: sha256
+    value: 99e0de03ac111ea221a9e02dc9b6ee1a2bda7d78c137b0a6caf7aca776aaec50
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 4f9480cd96f5d724cb5c1c664ec9489faeba33c054f5377b061604caf4af26a7
+  - path: dist/secret.py
+    algorithm: sha256
+    value: 02d59f25c25e11727db268258274c8282efad88657d651aae6d05999a5a245a9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9e17f1d3ff70b1f3a96509ebdb89ab7e71b4c8f3079fb0a2a243dc28e7c8599f
+  - path: src/chall.py
+    algorithm: sha256
+    value: 4f9480cd96f5d724cb5c1c664ec9489faeba33c054f5377b061604caf4af26a7
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b4a828c90c59c509bf70ffb808b8516d43c1d1b1a50a6da7484dea54bf56e140
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: a5fbc6dec654bff703f593789bc2501c742f85f26cd392b86c220011b7c9b93c
+  - path: src/run.sh
+    algorithm: sha256
+    value: 59ae25f6dc19b6f0f7ba72dc454dbc9b7f4f0078f217a60ecc85ab1accecd661
+  - path: src/secret.py
+    algorithm: sha256
+    value: e0d70e0721755d365367aa8ba3d5d1bef9812d503b88754d0cb52858c5ce1b02
+  - path: src/start.sh
+    algorithm: sha256
+    value: bb9989a9c3ab581f5258a758d7187707e14c328909c2168dede3b92ce008c4a0
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Jakwan Bagung and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The distribution is a single chall.py service. The
+  author''s solve.py is solver material and is kept under solvers/. Solver material was moved out of the
+  distribution to the mirrored path under solvers/, per archive policy; the move is not a preservation
+  omission. Moved: `src/solve.py`. Difficulty is the organizer''s own tag (baby); the task value is a
+  fixed 1000 dynamic score and is not a difficulty signal.'

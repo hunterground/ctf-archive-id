@@ -1,0 +1,120 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-cloud-001
+name: Flag Is the Only Ending for This Challenge
+slug: 001-flag-is-the-only-ending
+original_name: Flag Is the Only Ending for This Challenge
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: cloud
+original_category: Cloud
+description: 'I''ve possessed the role of an observer in a cloud-based surveillance system...
+
+  ...in a CTF challenge, no less.
+
+
+  But of course, the difficulty is hard mode!
+
+  No matter what I try, the data slips through my fingers every time.
+
+
+  Before the "real user" logs in and resets everything,
+
+  I have to find where the camera''s images are sent... and retrieve the flag.
+
+
+  "Let''s just cut off the dead ends right away."
+
+
+  A camera that captures everything, then forgets.
+
+  A system that smiles politely, but never tells you where it puts things.
+
+  Data that flickers into existence... only to vanish moments later.
+
+  And somewhere in all this: a flag that was never meant for you.
+
+
+  "I didn''t know my role until now.
+
+  From now on, I''ll stay quiet...
+
+  a ghost in the system, unseen and unheard."
+
+
+  ...But why does access get easier the more I dig in?
+
+
+  The mad survival story of a CTF player trapped in front of a computer...
+
+  searching for the one ending that matters — the flag.
+
+
+  [Written by Kakaopage](https://page.kakao.com/content/54845189)
+
+
+  Objective: Take a picture with the camera, retrieve it, make a ticket, and get the flag.
+
+
+  Flag Format: ITSEC{.*}'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- hard(ware)
+- iot
+- reverse
+- aws
+- camera
+authors:
+- name: kangwijen
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Cloud/flag-is-the-only
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2e53daa08c3acab4556be5344437c7238f3228029b86d3051fb04f01a39a2902
+  - path: challenge.yml
+    algorithm: sha256
+    value: c993e30681528ab5c61787d5bcc79e93bef81df7fa960dcd24173844f7479f2a
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: c821fff876651bc97eb3a92bed4613d950862c0b8498a6e09c56b14772ad8cb4
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by kangwijen and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: remote
+  services: []
+  requirements:
+  - aws
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A cloud/IoT challenge distributed as a single zip
+  with no local service; the organizer description frames it as camera-image retrieval. The organizer
+  ships no difficulty tag for this challenge, so difficulty is left unknown.

@@ -1,0 +1,122 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-pwn-001
+name: Kemu
+slug: 001-kemu
+original_name: Kemu
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: 'Description blabla
+
+
+  Connection: nc 18.142.183.255 11101'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- kernel
+- qemu
+authors:
+- name: EnRyu
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Binary Exploitation/Kemu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3dbd424639171170cb9e0cadee07813b40d909d3e33f2a9fe98477923a32b468
+  - path: challenge.yml
+    algorithm: sha256
+    value: 22903ca6a27e925e975672400c7e23d4c46624ef52a07dab91514824d71ececa
+  - path: dist/chall.tar.gz
+    algorithm: sha256
+    value: 4a876b5cb0930be1ac19755793d0d7d973962702b3b501151c64ddf0c16071b9
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 2b2bbc5f26415313f8f4fc466cfac80161ac223b7e27f2143eb684923d19e0b1
+  - path: src/app/bzImage
+    algorithm: sha256
+    value: 60b267314d348366b560e7216b92d69025ba1b4157501176ea95405018f4d92e
+  - path: src/app/qemu-system-x86_64
+    algorithm: sha256
+    value: f8fb19855fe178f60750df604a1e5adbb58431fbf2105aecd1145160a89617d0
+  - path: src/app/roms/bios-256k.bin
+    algorithm: sha256
+    value: f1d4f396011197eb989029659cde250751cc711c336b8fbbe6f77cfe0dc5dcd8
+  - path: src/app/roms/efi-virtio.rom
+    algorithm: sha256
+    value: 26be36901db7f8181c306cc62bd74891d8646528965a78e40cceadba5dd7c8e7
+  - path: src/app/roms/kvmvapic.bin
+    algorithm: sha256
+    value: cdf057a71b07e3b52b19cbe210bdefa59250d01a9810b960f7fe1f98eed95a27
+  - path: src/app/roms/linuxboot_dma.bin
+    algorithm: sha256
+    value: 9c49e255340c78fc12e54ed043462bca02fb7fca29b7cfab62ff88a5344b6950
+  - path: src/app/roms/vgabios-stdvga.bin
+    algorithm: sha256
+    value: 651513519f9e0d5b99d3b051a8f5c68db69e987339b59a441d371068c34c146b
+  - path: src/app/rootfs.cpio.gz
+    algorithm: sha256
+    value: 12236fcb92792a1663d4ca653beb975a506594942393f859a898a2301274ebbb
+  - path: src/app/run.sh
+    algorithm: sha256
+    value: ed402d4433ef2b76f328bd013c8c2fbfb0badb4b345adae1dc7c2b708e345470
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 5b4aada0e8be25d0b6acf8c60427d313418af22c20b674d4fcfcd87b4e320d5d
+  - path: src/init.sh
+    algorithm: sha256
+    value: 7e677fb60afcf5f946cbcc876053e102084f8c5a21467220694c71560e296aa9
+  - path: src/pow.sh
+    algorithm: sha256
+    value: b06ba0ba6e6cdfcdcf4f07c8a508caf59ed2260566db77fb4398b54fbfd24ef8
+  - path: src/pwn.xinetd
+    algorithm: sha256
+    value: 3cb91a203312fecea0445a90f1d2504ffff9051bad28ddaf569209cb47d9db43
+  - path: src/start.sh
+    algorithm: sha256
+    value: 36763319e8ca050b3fc0686dd696c28a3f395c0251a268132d1e0714ba6475e6
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by EnRyu and published by PT ITSEC Asia Tbk at
+    https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - qemu
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The source is a Linux kernel QEMU environment: the
+  run script, a xinetd service file and the kernel/rootfs images. The author''s exploit and exploit.c
+  sit in dev/. Solver material was moved out of the distribution to the mirrored path under solvers/,
+  per archive policy; the move is not a preservation omission. Moved: `dev/exploit`, `dev/exploit.c`.
+  Difficulty is the organizer''s own tag (easy); the task value is a fixed 1000 dynamic score and is not
+  a difficulty signal.'

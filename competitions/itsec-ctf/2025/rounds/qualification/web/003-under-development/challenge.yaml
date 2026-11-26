@@ -1,0 +1,133 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-web-003
+name: Under Development
+slug: 003-under-development
+original_name: Under Development
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'My Boss decided to make a new website for our store since we keep getting hate reviews from
+  past website
+
+  i don''t know why he decided to do that
+
+
+  Note: HIDDEN_INFO will always been an 8 digit numbers
+
+
+  <a href="http://13.250.98.246:5578/">bot</a>
+
+  <a href="http://13.250.98.246:5579/">Remote Service</a>'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- jwt
+- bot
+authors:
+- name: DJumanto
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Web Exploitation/Under Development
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 63a142ca00e43b549e582505767d3e6e2e9f5e69e54bd81c41e5ce5e2b14c97d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7473a21ea32de52cd13b6ed95285c7e20ff9af6cfc2a57c63574f6f8df0edafc
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: aa9f83f739146462c7a579e31054012982d5eca945e6b42fb6477dcf61ca0e50
+  - path: src/app/.env
+    algorithm: sha256
+    value: 1070a06eede2642caa69364cd74199db744b5f4f129a1ce2b8570f49d0d5775a
+  - path: src/app/Dockerfile
+    algorithm: sha256
+    value: 474f6c152cb732cdd816692fd5fc612c96a73062be604b9704c1fed5ebaac961
+  - path: src/app/app.py
+    algorithm: sha256
+    value: 6554ea47564bc4649116243674615672b3781545f5120d6efd27dcab88447a41
+  - path: src/app/requirements.txt
+    algorithm: sha256
+    value: 80738cac05f79ba355bd693ee44186604a905ef420f31547a9e982b57ecb65af
+  - path: src/app/templates/customer-message.html
+    algorithm: sha256
+    value: 4dd1df0a4a9a4021c347b636f76b367251bf2350963573793a104247ebdcef2e
+  - path: src/app/templates/login.html
+    algorithm: sha256
+    value: f5647d2a01a786db047541f2c7bb6bdbc922f2bac0cc62a9d2de04ae23bcc476
+  - path: src/app/templates/register.html
+    algorithm: sha256
+    value: e227adf8bf79af131484aa41de4024cf5fb0ca6bde585598f2d9b5f6a94e3443
+  - path: src/app/templates/send-message.html
+    algorithm: sha256
+    value: 46f7f61dab1d03ccd80dd97816e3ed5cd5d418923b05b49c087c08c2ac6bf270
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: f1a9a09b226cf8e98a4286200c5d9ebd5c28924707ac3317947f8ecf06ab167b
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: fc7ad3f4f4851ab09f8286fb3fb2ecc5e3b623cf85f0068f40088723700156cb
+  - path: src/bot/jwtUtil.js
+    algorithm: sha256
+    value: 351d38f66364d91e82c94082140f1928ccf026c5565e4f0e3f3302d552077e74
+  - path: src/bot/main.js
+    algorithm: sha256
+    value: 12758761ea2f7590f0975ef5586d457e07e78c5d78461f1252368600e9f56165
+  - path: src/bot/package-lock.json
+    algorithm: sha256
+    value: b402c7788a695ff47eb2ca22a5dd6ede7b379b4870386d9b898662ec4ac0c16f
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: 784df18b857315aa4e6c014b5e185a5165e1831e9e942a53161d9cbf0bdc4392
+  - path: src/database/init.sql
+    algorithm: sha256
+    value: 6862a1ec9361b9e566495cab558909e550cffe3a73ff0ae27aeddb77ea478123
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 0d42184fd7aec90872b520b45425ce1e2b0de931e0b58b70a3286e646e87932d
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by DJumanto and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - web
+  - bot
+  - database
+  requirements:
+  - python
+  - node
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A web challenge with an application service, a bot
+  service and a database initialisation script. Difficulty is the organizer's own tag (easy); the task
+  value is a fixed 1000 dynamic score and is not a difficulty signal.

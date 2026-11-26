@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-forensics-001
+name: Hacked V2
+slug: 001-hacked-v2
+original_name: Hacked V2
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: 'Looks like I got hacked again lmao, please help me analyze this forensic artifact
+
+
+  > Always perform analysis of forensic artifacts in a sandboxed environment
+
+
+  Attachment: https://drive.google.com/file/d/1aZBCWouH6qbq06J4pzJf3ts4CCtx8wgX/view?usp=sharing
+
+
+  SHA-256: FF8797593853E2590F5B6482BA7869689D573939C628DFB9AC50FAFA99B68548
+
+  Password: e946c138987dd89a9d29d139ef0eb4fc
+
+
+  Connection: nc 52.77.234.0 32883'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- windows
+- malware
+authors:
+- name: daffainfo
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Forensic/Hacked V2
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: https://drive.google.com/file/d/1aZBCWouH6qbq06J4pzJf3ts4CCtx8wgX/view?usp=sharing
+    reason: Forensic evidence archive hosted on Google Drive by the organizer; not part of the upstream
+      git tree. The link returned HTTP 200 on 2026-11-26 and was not downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f80f4925d3a79c41dde9f38634a4a0ab2c9b31f5e03c067e71f75cd9305c5610
+  - path: challenge.yml
+    algorithm: sha256
+    value: e6d42236e4ac3e710fb46724b9a5551a036ee6ad44ccf8c59df259424fbf6339
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b9b90ca3ba0cb44dec056aaf141aade48bf9f2b91f490ba1778c4ef3f2da1af0
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 0c1c5f69ebc05793e031c9dea3be1ee3bcebafe6e6e5ba167e457ac91d0f2f1f
+  - path: src/main.py
+    algorithm: sha256
+    value: 300addda84a6acf513e596ccf93fa8c67a75ead93ee02c39b83f4131f493e04f
+  - path: src/start.sh
+    algorithm: sha256
+    value: 7f8162d4bb67f48417a993e40564aa3424e351c7770034da990ca30481a54fae
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by daffainfo and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A forensics challenge whose evidence is hosted externally.
+  The source file tree here is the answer-validator service only; the evidence archive is recorded as
+  a preservation omission. The organizer hosted the evidence outside the repository. The external attachment
+  is listed in preservation.omissions and needs to be downloaded separately. Difficulty is the organizer's
+  own tag (hard); the task value is a fixed 1000 dynamic score and is not a difficulty signal.

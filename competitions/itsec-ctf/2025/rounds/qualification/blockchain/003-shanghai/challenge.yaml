@@ -1,0 +1,128 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-blockchain-003
+name: Shanghai
+slug: 003-shanghai
+original_name: Shanghai
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: blockchain
+original_category: Blockchain
+description: '忐忑著地等待你來
+
+  流光把人拋
+
+
+  Connection: nc 54.254.152.24 31337'
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- create2
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Blockchain/Shanghai
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8a8ec85c755ab1ea7de332b1bfca8983b34b9fc5cb49698471b17219003ed369
+  - path: challenge.yml
+    algorithm: sha256
+    value: 691af32d3b484a93bbc154bb4c5630cd75c9eb4f07dcf38c0a467da2f9a50003
+  - path: dist/shanghai.zip
+    algorithm: sha256
+    value: e5e91dc80beebf37b9f895a6683f9bb1d0b81261a1a72552cc3ca259139c7bee
+  - path: src/00-create-xinetd-service
+    algorithm: sha256
+    value: 8a13d7357e17bb1e1233d09d0ed012f4dc27bcfcfc77372e654e0b1d01e0b513
+  - path: src/98-start-gunicorn
+    algorithm: sha256
+    value: 91a7b7efdf26bf3ac779286c6df85e3f7cc7befe47fbed894388bdae095be721
+  - path: src/99-start-xinetd
+    algorithm: sha256
+    value: f6f20e8c99423c1661c974942217e00ba42e8177733495e467ab3834104625ab
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 69f4213260a3a019ff32f9929e7bd3c06911f590a8e27bc8bbf83d915df0896d
+  - path: src/contracts/Setup.sol
+    algorithm: sha256
+    value: 74d2ba37786d762ad4a779c063ba78a2d95734c46ad0431013985813d692dfa9
+  - path: src/contracts/foundry.toml
+    algorithm: sha256
+    value: 80b621f6c09d373498efdcdf23293745c96896375f6c9a7d5c7ca5554aaa10d7
+  - path: src/deploy.sh
+    algorithm: sha256
+    value: 1c67b1a3d9587d879d134e09f010761e614f0d457fa3b2d115652f4305c6cb3e
+  - path: src/deploy/chal.py
+    algorithm: sha256
+    value: 53b4457a927d15e9282887d2b67de9bc6d163106fc847d33aa35225269ddfbb0
+  - path: src/entrypoint.sh
+    algorithm: sha256
+    value: cdeac57c1b2c43333a063ef16bcabc1dfa34825727523cf5d3d4457ce629ae50
+  - path: src/eth_sandbox/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/eth_sandbox/auth.py
+    algorithm: sha256
+    value: f6e3141ec071060dc78f971f606a577aace1a3189d69afd8a8ab8857021b2549
+  - path: src/eth_sandbox/launcher.py
+    algorithm: sha256
+    value: 97f26632314797e8d905b14a4a4eba9d629dc76837f0d83c5d8f63c5211aa012
+  - path: src/eth_sandbox/server.py
+    algorithm: sha256
+    value: 3a313e0e8a030d553aa099f640a860c03e915d2790eb8156670fbcd5e81ec480
+  - path: src/foundry.toml
+    algorithm: sha256
+    value: 80b621f6c09d373498efdcdf23293745c96896375f6c9a7d5c7ca5554aaa10d7
+  - path: src/handler.sh
+    algorithm: sha256
+    value: 368b5ef86de5ac54e4fd373c8e1a8be3ea8b0f770a8d40b0da806f05232a8da6
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b8c08902260aecc8e53eca5742fa15064899b0ed99c78d3dfcbbb98eb6aeed46
+  - path: src/solve-pow.py
+    algorithm: sha256
+    value: 89ae77edf6c80d8ce1e07fe893ea439619801d0f2c489b61372d26cc3cea7a77
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  - json-rpc
+  requirements:
+  - anvil
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. An Ethereum sandbox distribution built around CREATE2
+  address prediction. The author''s solve/ directory and solve.md walkthrough are solver material and
+  are kept under solvers/. Solver material was moved out of the distribution to the mirrored path under
+  solvers/, per archive policy; the move is not a preservation omission. Moved: `solve/Create2Factory.sol`,
+  `solve/CreateFactory.sol`, `solve/One.sol`, `solve/Two.sol`, `solve/solve.md`. Difficulty is the organizer''s
+  own tag (easy); the task value is a fixed 1000 dynamic score and is not a difficulty signal.'

@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-pwn-002
+name: dame un que
+slug: 002-dame-un-que
+original_name: dame un que
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: 'Sorry it had to be windows again, but I read too much STARLABS writeups recently and I just
+  can''t help myself.
+
+
+  There''s no connection, once you have managed to exploit it locally, feel free to open a ticket and
+  send your exploit and the author will validate it manually.
+
+
+  The challenge will be ran againts Windows 24H2, the same environment with the distributed VM attachment
+  yesterday. It runs with Low Integrity Level and no Antivirus enabled, there''s no flag, your objective
+  is to escalate privilege to Administrator or NT/Authority System.'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- windows
+- kernel
+- driver
+authors:
+- name: HyggeHalcyon
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Binary Exploitation/dame_un_que
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5a242f4912739977745098ad6204f6c628b58ad22820753e2eff1a5b0283ecef
+  - path: challenge.yml
+    algorithm: sha256
+    value: e7db320d4a5ce26f16092b4baa1bc0bf9cd684b736ca7cbae06fd2d0cf054855
+  - path: dist/driver.zip
+    algorithm: sha256
+    value: 00a3b3f42faafa96cee96c56f27435cb55a5ac6475fec05f4d9322d7e057e090
+  - path: src/Driver.sln
+    algorithm: sha256
+    value: 4c7b590cb924074266bcc1d7ec48934246e8a26b816b6f00cc9059b1193f8ecb
+  - path: src/Driver/Driver.c
+    algorithm: sha256
+    value: 9642d0dc056de3cf0fcb685b28606c0c737f66cab89d19f209668e256f1c82e3
+  - path: src/Driver/Driver.h
+    algorithm: sha256
+    value: aa0449ff8e09747801ba118a3524bd7815a04f844188f3b87d9235722414db7e
+  - path: src/Driver/Driver.inf
+    algorithm: sha256
+    value: 88745b13cf1ded9b328805581a8695778a5cc2f53a9d5b7b741a4db5d8b5f888
+  - path: src/Driver/Driver.vcxproj
+    algorithm: sha256
+    value: 99c2084b60c72cc898ea292298c2f2488bb2b090ba95681482625d70c7ef057e
+  - path: src/Driver/Driver.vcxproj.filters
+    algorithm: sha256
+    value: ea3b01f5421d30379cecc6a4d218c560971a3cf526802199cb22584886e97a6a
+  - path: src/Driver/Golshi.c
+    algorithm: sha256
+    value: a5f8ea1039978e422b8a251b4ad3c5347753de7192bd37573dc96fa700634a2c
+  - path: src/Driver/Golshi.h
+    algorithm: sha256
+    value: 1b0c19489f412cbaa8f3bdec3144c4f8e3b6211cf5d77676b99bacbb4d99f68a
+  - path: tmp.txt
+    algorithm: sha256
+    value: 438c3188bb28d0c62d411997ca1fbfe58bea29312f2e264e408b78bc09e2fbfe
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by HyggeHalcyon and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements:
+  - windows
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A Windows kernel driver challenge with no remote
+  service; the organizer validates submissions manually. The source keeps the driver project and the author''s
+  Visual Studio exploit project, which is solver material kept under solvers/. Solver material was moved
+  out of the distribution to the mirrored path under solvers/, per archive policy; the move is not a preservation
+  omission. Moved: `src/Exploit/Exploit.cpp`, `src/Exploit/Exploit.vcxproj`, `src/Exploit/Exploit.vcxproj.filters`,
+  `src/Exploit/Exploit.vcxproj.user`, `src/Exploit/Golshi.h`, `src/Exploit/Helper.cpp`, `src/Exploit/Wnf.h`.
+  The organizer ships no difficulty tag for this challenge, so difficulty is left unknown.'

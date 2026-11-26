@@ -1,0 +1,46 @@
+schema_version: '1.0'
+id: final
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+name: Grand Final
+original_name: Final
+sequence: 2
+type: final
+delivery: unknown
+description: >
+  Grand final on 9-10 August 2025, 09:00 to 19:00 WIB each day, for the teams that advanced from the
+  qualification round. Finalists were announced on 7 August 2025. The organizer repository publishes
+  this stage under the directory name Final.
+dates:
+  start: '2025-08-09'
+  end: '2025-08-10'
+statistics:
+  challenge_count: 13
+  participant_count: null
+references:
+- title: PT ITSEC Asia Tbk announcement of ITSEC CTF Competition 2025
+  url: https://www.linkedin.com/posts/itsec-asia_itsec-ctf-competition-activity-7330812836991979520-hYgC
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: Serikat Newbie Indonesia announcement of the ITSEC Summit 2025 CTF result (round times and categories)
+  url: https://www.linkedin.com/posts/serikatnewbie-id_we-are-proud-to-share-that-team-sni-flareito-activity-7381151566743080960-1Pom
+  type: writeup
+  accessed: '2026-11-26'
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  13 challenges across seven categories: Binary Exploitation (2), Blockchain (2), Cloud (2),
+  Cryptography (1), Digital Forensics (2), Reverse Engineering (2) and Web Exploitation (2). One of
+  them, "Damn, I Love PHP!", is the same challenge as the qualification one re-run with a different
+  service address, and the source keeps it in both stage directories.
+
+  Delivery is left unknown. The organizer announcement gives only the final dates and the finalists
+  announcement date, and the sources located during this pass do not state whether the finalists
+  played remotely or in person. The summit itself ran 26-28 August 2025 at The Ritz-Carlton Jakarta,
+  Pacific Place, which is after the final, so the summit venue is not evidence of the final's
+  delivery. The 09:00-19:00 WIB window each day comes from the first-place team's announcement. The
+  organizer does not publish the number of finalist teams, so participant_count is null.

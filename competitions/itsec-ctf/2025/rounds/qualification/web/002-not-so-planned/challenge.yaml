@@ -1,0 +1,271 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-web-002
+name: Not So Planned
+slug: 002-not-so-planned
+original_name: Not So Planned
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: 'I''m planning to get married at 25 years old,
+
+  so I make this app which help me remeber things,
+
+  also caching is cool, so i will always remember the first step.
+
+
+  spawner: http://13.250.98.246:5598
+
+  backend: http://13.250.98.246:5599'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- electron
+- cache
+authors:
+- name: DJumanto
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Web Exploitation/Not So Planned
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c91e002fbfe25342ddfe6f06207c8242edc4162f2334a5b0b0e9722410a220e9
+  - path: challenge.yml
+    algorithm: sha256
+    value: 22dadb448877ad2acf0ff9b10bd9f4779ac30945f973a66cb440c6bc1fd17640
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 767542a5e0a7b5fd9b08cde3837e0175fcfce3a4cad2dc19b63bb2b3f64e50d0
+  - path: src/backend/.dockerignore
+    algorithm: sha256
+    value: dba27c31aad935787bb275c3e5e4e957708f15386de599eff1db476022cd7e4c
+  - path: src/backend/.env
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 788b517c111865848476a56d297f456229fd1f0341d91180f6c7ed9813212eb8
+  - path: src/backend/app.js
+    algorithm: sha256
+    value: 1a97840aab3c6f55598396c5aa6277330d9574bf2faf3e4becb131ac63514043
+  - path: src/backend/package-lock.json
+    algorithm: sha256
+    value: 03156734d9089bf851495afccd3e53d0a9f515c9015017d741ab0ce19f1d9056
+  - path: src/backend/package.json
+    algorithm: sha256
+    value: 23563976a3b8e2449b7c6fc57cfbe46c9fdf6c1663f7c80963364cc1edea082e
+  - path: src/backend/planner.db
+    algorithm: sha256
+    value: a23fb0e84d177833b7cab81cd1a51dffc00d64231b8bf83ac826669f215bee2f
+  - path: src/client/.dockerignore
+    algorithm: sha256
+    value: f1a9a09b226cf8e98a4286200c5d9ebd5c28924707ac3317947f8ecf06ab167b
+  - path: src/client/.gitignore
+    algorithm: sha256
+    value: 762bc4d5d724846e39c924f0720cbab6b40b681b96ab26f4cf149f05aa1a8d38
+  - path: src/client/Dockerfile
+    algorithm: sha256
+    value: a6740a3b6b16a14346083a9a017cdffe64e464d705d90fe90e45e2e41117ba3e
+  - path: src/client/README.md
+    algorithm: sha256
+    value: 12fb6aef14b0f93d7bd8f61f2aacfcaf4624ebda25249b4339afc0b7ae1dd7a1
+  - path: src/client/app.png
+    algorithm: sha256
+    value: 9ecc91d3d992ca794cafc512b0a2cbfdfc8ccd84808b67908b8e46771106363d
+  - path: src/client/config.json
+    algorithm: sha256
+    value: 6e348286767afcddcffd0fec9990a170114531cc5d7d029cfd4d082c56e17683
+  - path: src/client/electron-builder.json
+    algorithm: sha256
+    value: 1ee1425fece9a70a6ba85f1494e88766279ff459de82562e8a13048b5dbf7413
+  - path: src/client/eslint.config.js
+    algorithm: sha256
+    value: 7a39f6bf29b2b84a243df3330c218b9688114594081bd1280a32ffaa4766d023
+  - path: src/client/index.html
+    algorithm: sha256
+    value: 7c9e3ab14b80f1d66cc43c03129e8e8d3a4cc48001ab5558054c56b13d187660
+  - path: src/client/package-lock.json
+    algorithm: sha256
+    value: dad80eb83add5e0419a590edbaee548cc3d125464106201df396f56222a0ea60
+  - path: src/client/package.json
+    algorithm: sha256
+    value: 6a5c266d21e741ca43f9320ec5a34823c812a8be338ddea369cbf1142fd4f35e
+  - path: src/client/public/icons/add.png
+    algorithm: sha256
+    value: 5e67c22453e79815a0817253591b88d7c6b4ed477c18b7448498d938ffaf04d0
+  - path: src/client/public/icons/edit.png
+    algorithm: sha256
+    value: 2a8c71faa240bbd1d6cca0cefcb5778bffa31d7cdf1372342aa935ac10b44f51
+  - path: src/client/public/icons/list.png
+    algorithm: sha256
+    value: 6619b5d48cffa0b0408a11bc7300e1238534bad62be6ecb6b466c2e33b58d983
+  - path: src/client/public/icons/search.png
+    algorithm: sha256
+    value: fde6105fd2f5402e3f7da43675b705e86831fa9d8f4cc4b6e3a94f58338f9c90
+  - path: src/client/public/vite.svg
+    algorithm: sha256
+    value: 4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb
+  - path: src/client/src/electron/PlanCached.ts
+    algorithm: sha256
+    value: 61d24f53022a64b55134aa22f7de203ebb5c425cabe61e915a918299f3cfe7ba
+  - path: src/client/src/electron/main.ts
+    algorithm: sha256
+    value: 5090c47fb0521ded0fe0a13bf7c929729fc374e13a7d1b737d081620ac367e57
+  - path: src/client/src/electron/preload.cts
+    algorithm: sha256
+    value: ad13380a8334062707fce5aaa51ca822a4b144baf2382216b55f5685e780471f
+  - path: src/client/src/electron/tsconfig.json
+    algorithm: sha256
+    value: 992a979c34a8a73cd3778788bf36cf90e8c61def7d2266e085aebf2130af0669
+  - path: src/client/src/ui/App.css
+    algorithm: sha256
+    value: d7e260461e1e314e78c8983971b27f1432065b85dfa1bf8ed2bcbadefde9b12e
+  - path: src/client/src/ui/App.tsx
+    algorithm: sha256
+    value: 864993fc9881315f9ae2e40ad4250c843b1897f46c303711d2eae0b3b85e9ebc
+  - path: src/client/src/ui/InitConf.ts
+    algorithm: sha256
+    value: eff1ae17427c62130e13bab33e27efeb731d89fb591a083575b3a84d32275845
+  - path: src/client/src/ui/assets/background.jpg
+    algorithm: sha256
+    value: 019f4074cb1ee85bf6ebd3ad812249196fb01fd437398b11a67cefed2150677f
+  - path: src/client/src/ui/assets/icons/add.png
+    algorithm: sha256
+    value: 5e67c22453e79815a0817253591b88d7c6b4ed477c18b7448498d938ffaf04d0
+  - path: src/client/src/ui/assets/icons/edit.png
+    algorithm: sha256
+    value: 2a8c71faa240bbd1d6cca0cefcb5778bffa31d7cdf1372342aa935ac10b44f51
+  - path: src/client/src/ui/assets/icons/list.png
+    algorithm: sha256
+    value: 6619b5d48cffa0b0408a11bc7300e1238534bad62be6ecb6b466c2e33b58d983
+  - path: src/client/src/ui/assets/icons/search.png
+    algorithm: sha256
+    value: fde6105fd2f5402e3f7da43675b705e86831fa9d8f4cc4b6e3a94f58338f9c90
+  - path: src/client/src/ui/assets/react.svg
+    algorithm: sha256
+    value: 35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5
+  - path: src/client/src/ui/components/Sidebar.tsx
+    algorithm: sha256
+    value: b10d1d35b82a600e5c2f849c58049d287bdaf87953199e403706236a16433fba
+  - path: src/client/src/ui/const/menu.json
+    algorithm: sha256
+    value: c441650f334559531c0e75626df8b38218ce100683c9c412f1c67d077e826c0b
+  - path: src/client/src/ui/index.css
+    algorithm: sha256
+    value: c8329ec090718ab1acd15003e09876e5690f5bb6c1847751dc44d70e0e521ecc
+  - path: src/client/src/ui/main.tsx
+    algorithm: sha256
+    value: 1a049efe3f6e8f0a07b5ec07da33df735b80cdeae9039937836c70e2933fa6e0
+  - path: src/client/src/ui/pages/CreatePlan.tsx
+    algorithm: sha256
+    value: 2aff41edb5c5b7ea792115ef7e9712bcf22fad05b10373d5c483da7ae0a5b8d3
+  - path: src/client/src/ui/pages/PlanList.tsx
+    algorithm: sha256
+    value: 76929d8d06c85f37e6bd01998c1497b940c1a77780d640940744de49ff6702ad
+  - path: src/client/src/ui/pages/SearchPlan.tsx
+    algorithm: sha256
+    value: 7dbc87a6fe3376f53b518ac444741b1ed551292b766ee2508d24e893a61482f7
+  - path: src/client/src/ui/pages/ViewPlan.tsx
+    algorithm: sha256
+    value: 9b1162fd69c68b2c5ad9eca138f869a250e90f2ae40579109187d1bd03c95b6f
+  - path: src/client/src/ui/vite-env.d.ts
+    algorithm: sha256
+    value: 65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5
+  - path: src/client/tsconfig.app.json
+    algorithm: sha256
+    value: f5c3e1c17a94fe801653a879b07ee837ef13f76b1ab1362285ca9d56a38ee9e9
+  - path: src/client/tsconfig.json
+    algorithm: sha256
+    value: 770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808
+  - path: src/client/tsconfig.node.json
+    algorithm: sha256
+    value: dbece770acebd1448ab84fbdae194dc23670ee2e91ebcb1b534cace99cd0bea6
+  - path: src/client/types.d.ts
+    algorithm: sha256
+    value: 11683eccbea64a44c8879cf76ca0fa50cabe518f45fd47a405a70668d0248fc2
+  - path: src/client/vite.config.ts
+    algorithm: sha256
+    value: fbdd078acc973a79981f7b767605b389ce2478497c45c5dce023f877749c82ab
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 14286fe5645b24525d81aa5b6d929a5d1b2f0eb9d2184f4ee551d03048e4548e
+  - path: src/pre-process.sh
+    algorithm: sha256
+    value: 2f3494c8c47298bb90c8c6fecbe594d9b4cd6d3c9b72f027ca3d0d6aa4619c62
+  - path: src/spawner/.gitignore
+    algorithm: sha256
+    value: e033fb6ca986e7b57245c4400933b04ccdb92e3cf78a8e6d28c760cf47d07d76
+  - path: src/spawner/Dockerfile
+    algorithm: sha256
+    value: d2979eaecd6ac437888b4446c4da1ae2263ff700ded72a2695efb1df62a7d28f
+  - path: src/spawner/bot/.gitignore
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/spawner/bot/Dockerfile
+    algorithm: sha256
+    value: 44e611b184d41416d104b5c04514e29aa2aaaa665be6d741432052ee30789de4
+  - path: src/spawner/bot/readflag
+    algorithm: sha256
+    value: 1dad7919fde9f97c50a751af142899e51923bd9346e0c7f7a873c6a7690c7b17
+  - path: src/spawner/bot/run.sh
+    algorithm: sha256
+    value: e405b80d02f49c4bfb6db4ce1c6798125cc713dbcb08d03922975bd8e1e800b4
+  - path: src/spawner/www/app.js
+    algorithm: sha256
+    value: ba954b291a57bce1a4cd5143a56eb72bdc48e2836699f4b7857e318e92b3e0a1
+  - path: src/spawner/www/package.json
+    algorithm: sha256
+    value: 1afb2f4ed6dc1bfed6fb3cfc7f31a7ab1e1831cf2435701e40eb9bac69302364
+  - path: src/spawner/www/run.sh
+    algorithm: sha256
+    value: fa147f0ea70879b0e41e3525cf14e3d101f2531f8b2f204845749c9ec9469723
+  - path: src/spawner/www/yarn.lock
+    algorithm: sha256
+    value: 90c75a613e638c35728c67f70fed23272c7f398e57308efaf24aa283d186830f
+  - path: src/start.sh
+    algorithm: sha256
+    value: 68a08869f26f19e2b0c3e72213d0df09ab62a2a0207a98b0937f1752b8772f34
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by DJumanto and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - web
+  - bot
+  requirements:
+  - node
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A web challenge with an Electron client, a backend
+  and a spawner bot. The client directory ships its own .gitignore, preserved as challenge material. Difficulty
+  is the organizer's own tag (medium); the task value is a fixed 1000 dynamic score and is not a difficulty
+  signal.

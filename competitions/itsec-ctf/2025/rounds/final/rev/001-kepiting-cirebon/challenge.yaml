@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-rev-001
+name: Kepiting Cirebon
+slug: 001-kepiting-cirebon
+original_name: Kepiting Cirebon
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: Doksli kepiting cirebon
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- android
+- apk
+authors:
+- name: AnYujin
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Reverse Engineering/Kepiting Cirebon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3dbd424639171170cb9e0cadee07813b40d909d3e33f2a9fe98477923a32b468
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5929cd3f917c2a7a97e01e0ed95c28f5cdbe2414657fc381849c4475a17f4048
+  - path: src/kepitingcirebon.apk
+    algorithm: sha256
+    value: f0134789e8ce042b6de648ced378a88ab1d228172c2befb124cb5687ff292e0a
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by AnYujin and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements:
+  - android
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. A mobile reverse engineering challenge distributed
+  as one APK. The organizer manifest points at src/kepitingcirebon.apk rather than a dist/ directory.
+  Difficulty is the organizer's own tag (medium); the task value is a fixed 1000 dynamic score and is
+  not a difficulty signal.

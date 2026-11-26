@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-final-blockchain-002
+name: Chovid99 Prize
+slug: 002-chovid99-prize
+original_name: Chovid99 Prize
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: blockchain
+original_category: Blockchain
+description: 'Hadiah untuk kamu yang sudah setia belajar blockchain.
+
+
+  Jangan lupa follow IG @cylabus dan TikTok @cylabus.id'
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- gas
+authors:
+- name: Chovid99
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Final/Blockchain/ChovidPrize
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8961619a4cdef923a424ebb82261a86d675745877b8585d07ad493bc466cfa08
+  - path: dist/blockchain_chovid99_prize.zip
+    algorithm: sha256
+    value: 8d723a83b1649bd2b6bb5fbe01cdced62071ca26025b928b9b6a4c5bfdea3b34
+  - path: src/challenge-eth/.env
+    algorithm: sha256
+    value: d25b2d0803ae318a30ee66d8175d7acc5a1bac80b63becd15ceafd2219779763
+  - path: src/challenge-eth/Dockerfile
+    algorithm: sha256
+    value: 3748c11d960233ffb9bc037153b9b083173e6fc9727596d0e6e35246c34a00ac
+  - path: src/challenge-eth/contracts/ChovidPrize.sol
+    algorithm: sha256
+    value: 2aa06b2558d487c139a68f94af8f3e4d1f0870c98e14934320da23b1a325b2ce
+  - path: src/challenge-eth/contracts/Setup.sol
+    algorithm: sha256
+    value: dad66b5db88e282c5eed0a9658cd0c2da53c28adb70fc7f5b375833ea990a7ee
+  - path: src/challenge-eth/deploy/chal.py
+    algorithm: sha256
+    value: 2366151501411edc21f291eeecaf3fffb3cfe231f2b83b5b71336ea93f72b477
+  - path: src/challenge-eth/docker-compose.yml
+    algorithm: sha256
+    value: c8d059dfe6a8c45f5d8ab0757c42c3e5e16e2cd0b89742630bf9c280b304f016
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Chovid99 and published by PT ITSEC Asia Tbk
+    at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  - json-rpc
+  requirements:
+  - anvil
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: Imported from the organizer's public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. An Ethereum sandbox distribution with the contracts,
+  deploy script and an .env holding the sandbox port and flag. Difficulty is the organizer's own tag (hard);
+  the task value is a fixed 1000 dynamic score and is not a difficulty signal.

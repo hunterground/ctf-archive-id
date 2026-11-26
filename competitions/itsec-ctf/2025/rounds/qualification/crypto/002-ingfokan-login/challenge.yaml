@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-crypto-002
+name: Ingfokan Login
+slug: 002-ingfokan-login
+original_name: Ingfokan Login
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: 'winfo parti 5 compe road to immo beton keras siap tabrak n1ka dan juragan raps
+
+
+  Flag Format: ITSEC{.*}'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- aes
+- protocol
+authors:
+- name: Jakwan Bagung
+  team: null
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Cryptography/ingfokan login
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7a3a8211f4956fea6b69444c79ef85d73ce4c14fa3fef5f3af9e396bb01d2d90
+  - path: challenge.yml
+    algorithm: sha256
+    value: 785f280da3eb724db415f7afc32fc8455006ab138f4214b8235a190316814dc3
+  - path: desc.txt
+    algorithm: sha256
+    value: 009de7c8756ce30b2694c5d00850a4fc265c7b020961c36d804635256f9bea92
+  - path: dist/chall.py
+    algorithm: sha256
+    value: dc2bc2c961579fc23d09468f5a8dd94f370975a522060c378e84c2ae80a4870a
+  - path: dist/secret.py
+    algorithm: sha256
+    value: 1ebffd79eb8e11c1be3204e304383f2c21ad2b49dc8d00400378235aa13f0b34
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9e17f1d3ff70b1f3a96509ebdb89ab7e71b4c8f3079fb0a2a243dc28e7c8599f
+  - path: src/chall.py
+    algorithm: sha256
+    value: dc2bc2c961579fc23d09468f5a8dd94f370975a522060c378e84c2ae80a4870a
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 54c0622299a459f058e653e6947ac7bb0e2a052919ec407988947ee867a217f1
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: a5fbc6dec654bff703f593789bc2501c742f85f26cd392b86c220011b7c9b93c
+  - path: src/run.sh
+    algorithm: sha256
+    value: ccdd28c9c0b07e5bd5b1dc11e1e79f2b01322e94f73f27b27e171bc25a8a0b3d
+  - path: src/secret.py
+    algorithm: sha256
+    value: 8fc9557307c4eaef3dae564d87d23c34429a5a8936561bd8aa06236fe8b5c949
+  - path: src/start.sh
+    algorithm: sha256
+    value: bb9989a9c3ab581f5258a758d7187707e14c328909c2168dede3b92ce008c4a0
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by Jakwan Bagung and published by PT ITSEC Asia
+    Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - python
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The distribution is a single chall.py service. The
+  author''s solve.py is solver material and is kept under solvers/. Solver material was moved out of the
+  distribution to the mirrored path under solvers/, per archive policy; the move is not a preservation
+  omission. Moved: `src/solve.py`. Difficulty is the organizer''s own tag (medium); the task value is
+  a fixed 1000 dynamic score and is not a difficulty signal.'

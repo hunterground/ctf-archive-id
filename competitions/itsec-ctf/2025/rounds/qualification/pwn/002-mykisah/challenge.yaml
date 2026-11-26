@@ -1,0 +1,115 @@
+schema_version: '1.0'
+id: itsec-ctf-2025-qualification-pwn-002
+name: MyKisah
+slug: 002-mykisah
+original_name: MyKisah
+competition_id: itsec-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: 'Despite being adjacent to one another, Chidori Public High School and the all-girls Kikyo
+  Private Academy seem to exist in two different worlds. While the latter boasts an immaculate reputation
+  and favors students from wealthy backgrounds, the former is a nest for dim-witted delinquents. Everyone
+  at Kikyo harbors a deep hatred for their Chidori neighbors.
+
+
+  Sixteen-year-old Rintarou Tsumugi is a student at Chidori whose intimidating face leads people to avoid
+  him. Rintarou pays no mind to this, as he is content with his group of friends. However, there is something
+  he has not told them yet: sometimes, he helps out at his family''s cake shop.
+
+
+  One day at work, Rintarou sees a customer at a table, but she runs off before he can talk to her. The
+  next day, he receives an apology from the girl, Kaoruko Waguri, who explains that she did not run away
+  because of his appearance and that she believes Rintarou is a kind-hearted person. Although he is not
+  used to Kaoruko''s bright personality, Rintarou looks forward to forming a friendship with her. There
+  is just one obstacle that stands in his way: Kaoruko is a Kikyo student!
+
+
+  [Written by MAL Rewrite](https://myanimelist.net/anime/59845/Kaoru_Hana_wa_Rin_to_Saku)
+
+
+  Connection: nc 13.250.98.246 40003'
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- baby
+- heap
+authors: []
+organization: null
+provenance:
+  archive_id: itsec-ctf-2025-summit-public
+  source_type: git
+  repository: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  commit: 3ca7cfb375cf0b262473a394e9be6bb1e188bd92
+  original_path: Qual/Binary Exploitation/MyKisah
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 05047beca6469b5a448eef72ac404085acbc0a95b4a683e3c701e9617523158a
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4918eec362154f0f8b4e3cbc770633d5cf9b9b7d8b0353d3d28c6c2b1deb3a95
+  - path: dist/MyKisah.zip
+    algorithm: sha256
+    value: 6ee1735da4e4530b146cf2b9f685116098006ef1fbc83c4b198d63d9d41a392a
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9fe397489cb198d88ac1089b4c8ee54e45790e74e39fcd5843fbcae3f625a88e
+  - path: src/MyKisah
+    algorithm: sha256
+    value: 5bb15c5973562553951fe4dc04776086bd79d4d397b49def5df43cd902352202
+  - path: src/build.sh
+    algorithm: sha256
+    value: 3e5f074a5a4afe6c24760bb4898b6651c523a22382b49c2b4d54a3bf7be21263
+  - path: src/chall.c
+    algorithm: sha256
+    value: f26a39ff2dfbdbab09f9a15bc0c3d91c9ebcaaf317d34ffd76be21c62b9628f1
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b738548f04b87ea9a9daf4618ee8c320c13f8011dce19e866de5a8c95e683c9b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: ac6c384a4292de30c34141bda5c0cb1b5fd656602f95b8d02dfbbec8ef084bf0
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 35611512d50a8a878e1c2989685dbbf11c1ca53394825fca5f7debaf18add552
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 6813de4f45796f58134ca3f06b3179344ddfea192cad73ea0af35375b1b66e76
+licensing:
+  declared_license: MIT
+  copyright_holder: PT ITSEC Asia Tbk
+  redistribution: permitted
+  attribution_required: true
+  attribution: ITSEC Summit CTF 2025 challenge authored by its organizer-listed author and published by
+    PT ITSEC Asia Tbk at https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  permission_reference: The source repository ships no licence file. Per the archive maintainer instruction
+    of 2026-11-26, a challenge with no explicit licence is recorded as MIT.
+environment:
+  type: docker-compose
+  services:
+  - tcp
+  requirements:
+  - glibc
+references:
+- title: ITSEC ASIA ID - 2025 ITSEC Asia Summit Public (organizer challenge repository)
+  url: https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public
+  type: official_repository
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Imported from the organizer''s public challenge repository (https://github.com/ITSEC-ASIA-ID/2025-ITSEC-Asia-Summit-Public)
+  at commit 3ca7cfb375cf0b262473a394e9be6bb1e188bd92. The compiled binary ships next to the loader and
+  libc it was built against, so it can be run against the intended runtime. Solver material was moved
+  out of the distribution to the mirrored path under solvers/, per archive policy; the move is not a preservation
+  omission. Moved: `src/exploit.py`. Difficulty is the organizer''s own tag (baby); the task value is
+  a fixed 1000 dynamic score and is not a difficulty signal.'
