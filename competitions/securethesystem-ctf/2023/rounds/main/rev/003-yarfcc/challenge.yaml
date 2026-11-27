@@ -1,0 +1,77 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-rev-003
+name: YARFCC
+slug: 003-yarfcc
+original_name: YARFCC
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: rev
+original_category: Reverse Engineering
+
+description: |-
+  **Author**: `izin bertanya`
+
+  Yet Another Reversing Flag Checker Challenge
+difficulty:
+  value: 100
+  source: organizer
+
+tags: []
+
+authors:
+- name: izin bertanya
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Reverse Engineering/yarfcc
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solve.py
+    reason: Author solver script, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: d840f47ebb07b3bbb545771d02108702c3f21683ff58a9df1453c6183fd42e49
+  - path: yarfcc
+    sha256: 73ec9f5c950489fc3ed2623f0e302cabd448aafbbcf502355bde7091d7a9963c
+  - path: yarfcc.exe
+    sha256: 73ec9f5c950489fc3ed2623f0e302cabd448aafbbcf502355bde7091d7a9963c
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A flag-checker reverse-engineering challenge. The distribution holds yarfcc and yarfcc.exe
+  binaries. The top-level author solver script solve.py is moved to solvers/.

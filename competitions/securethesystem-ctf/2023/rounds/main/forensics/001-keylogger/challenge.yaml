@@ -1,0 +1,78 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-forensics-001
+name: keylogger
+slug: 001-keylogger
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: forensics
+original_category: forensics
+
+description: |-
+  So, here's the thing. I just came to the Internet caffee (warnet) and after several
+  minutes using the computer, I found a strange process running in the backround. Then
+  I found out it was a keylogger. Luckily I can stop the process and don't let the
+  attacker get this keylogger file. Because i just logged in to my server before.
+
+  flag = STS23{<my server password>}
+difficulty:
+  value: 100
+  source: organizer
+
+tags: []
+
+authors:
+- name: kyruuu
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Forensic/keylogger
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: d95f3e6461bad3c8ad95bf021bdfe622e3213ab15d9b6901b7e6377c5f25a0e4
+  - path: peserta/log.pcapng
+    sha256: c1fb86d2053b1614289a47e40266fec84090d0e0267e677b7a6291eecb8201b9
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A network-capture forensics challenge. The packet capture peserta/log.pcapng is the
+  participant distribution. The author writeup and solver are moved to solvers/.

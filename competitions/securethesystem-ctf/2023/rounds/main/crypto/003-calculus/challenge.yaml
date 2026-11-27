@@ -1,0 +1,77 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-crypto-003
+name: calculus
+slug: 003-calculus
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: crypto
+original_category: Cryptography
+
+description: Cryptography is always related to math, so I think you need to learn algebra to solve this problem. Good luck!
+difficulty:
+  value: 100
+  source: organizer
+
+tags: []
+
+authors:
+- name: kyruuu
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Cryptography/calculus
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: 09d4410e2a7c2beeb736fc2a6a2e603492d3e348934eb14b8a83d84a8376628f
+  - path: peserta/output.txt
+    sha256: 273932abed9504d5b0c1a83543b7fb9232bb1a1677c2d48fa9169d79630c89d3
+  - path: peserta/secret.py
+    sha256: 98a96bb83955259e9f7e04cfd7d73a95c47556fc1579dc267d75552590b5859b
+  - path: peserta/soal.py
+    sha256: e0106c76217f006d75ed6d485776817991320a28d5f43dda106e2a44ab6c34fe
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  An algebra/equation-solving crypto challenge. Participant files are soal.py, secret.py
+  and output.txt under peserta/. The author solver and README in writeup/ are moved to
+  solvers/.

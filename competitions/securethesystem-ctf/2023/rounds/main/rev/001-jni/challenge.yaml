@@ -1,0 +1,80 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-rev-001
+name: JNI
+slug: 001-jni
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: rev
+original_category: Reverse Engineering
+
+description: |-
+  **Author**: `aimardcr`
+
+  ctf gaseru tanpa reversing apk kalo probsetnya aimar.
+difficulty:
+  value: 1
+  source: organizer
+
+tags: []
+
+authors:
+- name: aimardcr
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Reverse Engineering/JNI
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: JNI.apk
+    sha256: 663119375ce6007e9281e08d87da8456568f922aff8cec0e64c3a1cd08106201
+  - path: challenge.yml
+    sha256: 82191ec637be3baca40fb9d8f042dc7c62bc27dc6f7504263beac301b6b1f233
+  - path: flag.txt
+    sha256: 5988491d3ae90aaf74579ddfcc4bca870b5ba4f48062078ec1207a2b7c9a6244
+  - path: gen.py
+    sha256: 16927f8481e9c6c3d1232f730d2edeaa0ca39cca3a3be275529171dbcb253597
+  - path: libjni.so
+    sha256: 040bb6368528bbd70491c9b35005027fe53775c77964668be9a466ae45e16d97
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  An Android APK reverse-engineering challenge. The distribution holds JNI.apk, libjni.so,
+  gen.py, and flag.txt. No solver script is present in the source. Difficulty value is the
+  organizer's `value` field from challenge.yml.

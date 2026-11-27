@@ -1,0 +1,37 @@
+schema_version: "1.0"
+
+id: main
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+
+name: Main
+original_name: null
+
+sequence: 1
+type: other
+delivery: null
+
+description: null
+
+dates:
+  start: null
+  end: null
+
+statistics:
+  challenge_count: 16
+  participant_count: null
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  The organizer repository publishes one challenge set for this edition and does not
+  describe a qualifier or final, so the round id is main and type is other. Challenge
+  sequence numbers are alphabetical by source directory name within each category.
+  Difficulty values are the organizer's `value` field from each challenge.yml. The
+  repository-level MIT LICENSE is preserved at this round root.

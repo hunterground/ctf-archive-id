@@ -1,0 +1,131 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-web-002
+name: Bun
+slug: 002-bun
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: web
+original_category: Web
+
+description: |-
+  **Author**: `Dimas`
+
+  Have you heard about 'Bun,' the latest JavaScript compiler on the block? Being a newcomer,
+  there might be vulnerabilities waiting to be discovered, don't you think? I'm seeking your
+  expertise to assist me in hacking into this Bun application of mine. Your skills could unveil
+  potential weaknesses in this cutting-edge JavaScript compiler.
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- RCE
+- Debug Mode
+- Bun Hacking
+- web
+
+authors:
+- name: Dimas
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Web/Bun
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: fddb7679d48ab78977a7c258bd27ccee1b724ba5f20f9bf7298b27be379f24b3
+  - path: challenge.yml
+    sha256: 422b3ff904c2961a1bfef07a7ab84ddd7ab0f4305d15f61155e949191d9f0ffe
+  - path: dist.zip
+    sha256: ba5cd9339bbed3a2ec8a134d076cc9b045c4e977caebf64142d92c9302eaa0c0
+  - path: dist/Dockerfile
+    sha256: fddb7679d48ab78977a7c258bd27ccee1b724ba5f20f9bf7298b27be379f24b3
+  - path: dist/docker-compose.yaml
+    sha256: 64b0489fc9317662de29b2599a0a845a0aa2ca87719640c023163087dbb9dcda
+  - path: dist/dockerun.sh
+    sha256: 96e3c609771f3b3c037b6c87c31e543e43903d8ccbdf62de2fa580f4412b7e6f
+  - path: dist/flag.txt
+    sha256: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/src/.dockerignore
+    sha256: d472cf54538e97c102225f08c0e0eceffc7e029fffcd32cc75406d1af9e9594c
+  - path: dist/src/.gitignore
+    sha256: 2205213c02f5a05a7a1bf3e1ac4398a190d59b7656140c625e061fa4af83d35e
+  - path: dist/src/README.md
+    sha256: 216b67e77c0f31e9b3883167d51f4ad471067e560ae2f98a52c465e941bef0bb
+  - path: dist/src/bun.lockb
+    sha256: 807a85b06dcfb4f64407abecbee565884c394109dd1f267627eb725460facb6f
+  - path: dist/src/index.tsx
+    sha256: c9f6bfe97431ff7db88eddffbc9b0f4f81931261a8a936537be383ed7ee46663
+  - path: dist/src/package.json
+    sha256: 1dafed60698a57be01c1a6f1ae98a8b5207879299eb1dc9ff76e3e0d9a84cbe1
+  - path: dist/src/tsconfig.json
+    sha256: 50456d3bfd6e7841ab7bf26a727debd955fc62ebc885da87020d72e08944e03b
+  - path: dist/src/utils/hacker.js
+    sha256: 23a93d86363246bb1742d9add55848a783c02f1dfa10a7f9d02a208051d5622f
+  - path: docker-compose.yaml
+    sha256: c29cd2b400ef11391dbb0117b6b96b0103b877118b159d1154bc5dbd5a355467
+  - path: dockerun.sh
+    sha256: 96e3c609771f3b3c037b6c87c31e543e43903d8ccbdf62de2fa580f4412b7e6f
+  - path: flag.txt
+    sha256: 54e38e86fa1d75edbd055076e059bc2a679c13e1b88a9afb1f39e9edec0e0628
+  - path: src/.dockerignore
+    sha256: d472cf54538e97c102225f08c0e0eceffc7e029fffcd32cc75406d1af9e9594c
+  - path: src/.gitignore
+    sha256: 2205213c02f5a05a7a1bf3e1ac4398a190d59b7656140c625e061fa4af83d35e
+  - path: src/README.md
+    sha256: 216b67e77c0f31e9b3883167d51f4ad471067e560ae2f98a52c465e941bef0bb
+  - path: src/bun.lockb
+    sha256: 807a85b06dcfb4f64407abecbee565884c394109dd1f267627eb725460facb6f
+  - path: src/index.tsx
+    sha256: c9f6bfe97431ff7db88eddffbc9b0f4f81931261a8a936537be383ed7ee46663
+  - path: src/package.json
+    sha256: 1dafed60698a57be01c1a6f1ae98a8b5207879299eb1dc9ff76e3e0d9a84cbe1
+  - path: src/tsconfig.json
+    sha256: 50456d3bfd6e7841ab7bf26a727debd955fc62ebc885da87020d72e08944e03b
+  - path: src/utils/hacker.js
+    sha256: 23a93d86363246bb1742d9add55848a783c02f1dfa10a7f9d02a208051d5622f
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: http
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A web challenge targeting the Bun JavaScript compiler (debug-mode functionality / RCE).
+  Source, dist, dist.zip, and flag.txt are preserved. The author writeup (solve.py, subl) is
+  moved to solvers/.

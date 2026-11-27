@@ -1,0 +1,195 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-web-004
+name: UREL-EX2S
+slug: 004-urel-ex2s
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: web
+original_category: Web
+
+description: |-
+  **Author**: `Dimas`
+
+  Have you heard the exciting news? The little princess has just created a website for fellow
+  GT fans to connect and chat! Before the official launch, we want to ensure a secure experience
+  for everyone. Could you help us by testing it for potential XSS vulnerabilities? We want to
+  make sure her fans don't encounter any issues with data security, especially from those pesky
+  Android robots.
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- XSS
+- web
+
+authors:
+- name: Dimas
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Web/UREL-EX2S
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/solve.txt
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: 59e976abe8549cf0bc358783b9597ceba8c36882ff59357827c76c1f04c00474
+  - path: bot/Dockerfile
+    sha256: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: bot/bot.js
+    sha256: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: bot/index.js
+    sha256: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: bot/package.json
+    sha256: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: bot/views/index.ejs
+    sha256: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge.yml
+    sha256: 98395d3bf6b0088277ef2b7b9468ed7f2fc1d0c6b7a15bef064bd07ed2b4e740
+  - path: demo/.gitignore
+    sha256: 795029e58e368bb91c71cb3adb971491562622d4b1684604f278cdbfb8fec238
+  - path: demo/build.gradle
+    sha256: 33757d0b74efadbe390ee2cf5352a830dcb4211f91479b023b14bb66d642a474
+  - path: demo/build/libs/demo-0.0.1-SNAPSHOT.jar
+    sha256: 12591f623ea614cc85e0a8a418ad44c57a2e7941b62896e0af299ae581c5eff6
+  - path: demo/gradlew
+    sha256: e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad
+  - path: demo/gradlew.bat
+    sha256: 18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa
+  - path: demo/settings.gradle
+    sha256: 771d271da088677716c9a48f26d8c12a7f94f01574c93fc1a2fa2dee80fcf2fa
+  - path: demo/src/main/java/com/example/demo/DemoApplication.java
+    sha256: 60df55e39bcea2df31929ed2c4cc65c57d1ebdfe2b71be306d72c52d8524f7b1
+  - path: demo/src/main/java/com/example/demo/common/ContentSecurityPolicyConfiguration.java
+    sha256: 10ae8de1c4ae6f26da377b32b8dc652a007cf2ca983391f69d77b66beba13706
+  - path: demo/src/main/java/com/example/demo/controller/Pages.java
+    sha256: bece28637d88653815b4183b54b4e9abde056bf85cdd01e0bae7497e52dfcada
+  - path: demo/src/main/resources/application.yaml
+    sha256: e283c9566b6e3824347a43670a1748dd94502d3ec61b4aff5c6aa5e2d313c59e
+  - path: demo/src/main/resources/static/2c8e04df5b0a67cadda0b78f4848ee28d901ee581028bcaea5c2adf861b7b145
+    sha256: ea7ef4ab960eed52f146ac2826d74bb689eb0e162e7d1f4103bc308ebf0cbed1
+  - path: demo/src/main/resources/static/730x270-LOGO.png
+    sha256: d50f9e7ad8c05bb07218cea773b4bdc594afdfae49dc28eff6f884ba2f8f8b08
+  - path: demo/src/main/resources/static/img_char1.png
+    sha256: aee9aef00cb4df383a3f55e3f86fbe17acc7d51e7ca859c171fabe780ccc1410
+  - path: demo/src/main/resources/templates/blog.html
+    sha256: 8226df449db3aa3cb06a8e9566af51efb4a2ce1fcc2d3c7698c5f5d23567c347
+  - path: demo/src/main/webapp/WEB-INF/jsp/error.jsp
+    sha256: bbbdc73a7459ad759f822fbaea79062cac956ff00e3dec753cce3f059da35bb3
+  - path: demo/src/main/webapp/WEB-INF/jsp/login.jsp
+    sha256: 195224f8dbc03ad93cb23a510c97c8f51ce3d4e1af57e94da6e47b95bce398ba
+  - path: demo/src/main/webapp/WEB-INF/jsp/main.jsp
+    sha256: daf0555dc1fc6af3950b86c08280422176310e653fd3e2da73a68b1a7b66c1be
+  - path: demo/src/main/webapp/WEB-INF/jsp/parts/footer.jsp
+    sha256: 013042503d253ba4f2210eaec13e3c4a27cb99feffe71c959015617f54b356d6
+  - path: demo/src/main/webapp/WEB-INF/jsp/parts/header.jsp
+    sha256: 092b349883c09dd1dd0e2e64e1d2317d1db4083621b19a860abd6f8a396482a6
+  - path: demo/src/test/java/com/example/demo/DemoApplicationTests.java
+    sha256: 4668d2d21c2a543733d618e6addc1cf5f980bbe529ef1eed221f6bbfe1e61186
+  - path: demo/tailwind.config.js
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist.zip
+    sha256: 43c8e369c433fda283c334947548be340ad35547d761ed1af6a4c31bed82cf02
+  - path: dist/Dockerfile
+    sha256: 59e976abe8549cf0bc358783b9597ceba8c36882ff59357827c76c1f04c00474
+  - path: dist/bot/Dockerfile
+    sha256: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: dist/bot/bot.js
+    sha256: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: dist/bot/index.js
+    sha256: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: dist/bot/package.json
+    sha256: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: dist/bot/views/index.ejs
+    sha256: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/demo/.gitignore
+    sha256: 795029e58e368bb91c71cb3adb971491562622d4b1684604f278cdbfb8fec238
+  - path: dist/demo/build.gradle
+    sha256: 33757d0b74efadbe390ee2cf5352a830dcb4211f91479b023b14bb66d642a474
+  - path: dist/demo/gradlew
+    sha256: e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad
+  - path: dist/demo/gradlew.bat
+    sha256: 18774a0ac0203f6893bf1db3291a0d77f06cd1b4dca2a43b51e7009da3e28cfa
+  - path: dist/demo/settings.gradle
+    sha256: 771d271da088677716c9a48f26d8c12a7f94f01574c93fc1a2fa2dee80fcf2fa
+  - path: dist/demo/src/main/java/com/example/demo/DemoApplication.java
+    sha256: 60df55e39bcea2df31929ed2c4cc65c57d1ebdfe2b71be306d72c52d8524f7b1
+  - path: dist/demo/src/main/java/com/example/demo/common/ContentSecurityPolicyConfiguration.java
+    sha256: 10ae8de1c4ae6f26da377b32b8dc652a007cf2ca983391f69d77b66beba13706
+  - path: dist/demo/src/main/java/com/example/demo/controller/Pages.java
+    sha256: bece28637d88653815b4183b54b4e9abde056bf85cdd01e0bae7497e52dfcada
+  - path: dist/demo/src/main/resources/application.yaml
+    sha256: e283c9566b6e3824347a43670a1748dd94502d3ec61b4aff5c6aa5e2d313c59e
+  - path: dist/demo/src/main/resources/static/2c8e04df5b0a67cadda0b78f4848ee28d901ee581028bcaea5c2adf861b7b145
+    sha256: ea7ef4ab960eed52f146ac2826d74bb689eb0e162e7d1f4103bc308ebf0cbed1
+  - path: dist/demo/src/main/resources/static/730x270-LOGO.png
+    sha256: d50f9e7ad8c05bb07218cea773b4bdc594afdfae49dc28eff6f884ba2f8f8b08
+  - path: dist/demo/src/main/resources/static/img_char1.png
+    sha256: aee9aef00cb4df383a3f55e3f86fbe17acc7d51e7ca859c171fabe780ccc1410
+  - path: dist/demo/src/main/resources/templates/blog.html
+    sha256: 8226df449db3aa3cb06a8e9566af51efb4a2ce1fcc2d3c7698c5f5d23567c347
+  - path: dist/demo/src/main/webapp/WEB-INF/jsp/error.jsp
+    sha256: bbbdc73a7459ad759f822fbaea79062cac956ff00e3dec753cce3f059da35bb3
+  - path: dist/demo/src/main/webapp/WEB-INF/jsp/login.jsp
+    sha256: 195224f8dbc03ad93cb23a510c97c8f51ce3d4e1af57e94da6e47b95bce398ba
+  - path: dist/demo/src/main/webapp/WEB-INF/jsp/main.jsp
+    sha256: daf0555dc1fc6af3950b86c08280422176310e653fd3e2da73a68b1a7b66c1be
+  - path: dist/demo/src/main/webapp/WEB-INF/jsp/parts/footer.jsp
+    sha256: 013042503d253ba4f2210eaec13e3c4a27cb99feffe71c959015617f54b356d6
+  - path: dist/demo/src/main/webapp/WEB-INF/jsp/parts/header.jsp
+    sha256: 092b349883c09dd1dd0e2e64e1d2317d1db4083621b19a860abd6f8a396482a6
+  - path: dist/demo/src/test/java/com/example/demo/DemoApplicationTests.java
+    sha256: 4668d2d21c2a543733d618e6addc1cf5f980bbe529ef1eed221f6bbfe1e61186
+  - path: dist/demo/tailwind.config.js
+    sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/docker-compose.yaml
+    sha256: 19c8e2605a953acb454eada9b2a1de9829ad1d1ff0910ee185a7db5e9339388e
+  - path: dist/proxy.conf
+    sha256: 0c70f50295fa9309b8a74f38318205f8d155d37ba779fbfeda9327ae3d030e08
+  - path: docker-compose.yaml
+    sha256: 01519e7ac81852b82ff33a8a3542d345809e00ebdc16f2c66dbbb9b740ea0acd
+  - path: proxy.conf
+    sha256: dbce97954a959dd70236d56a319fc5ccde7ed8383800ff01a8b7fff5c880b378
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: http
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  An XSS web challenge (a Spring Boot demo app plus a bot). Source, dist, bot, demo, and
+  dist.zip are preserved. The author solver writeup/solve.txt is moved to solvers/.

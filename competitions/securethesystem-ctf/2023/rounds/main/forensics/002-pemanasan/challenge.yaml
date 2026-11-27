@@ -1,0 +1,72 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-forensics-002
+name: pemanasan
+slug: 002-pemanasan
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: forensics
+original_category: forensics
+
+description: Is that a `qrcode`? why is it so big?
+difficulty:
+  value: 100
+  source: organizer
+
+tags: []
+
+authors:
+- name: kyruuu
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Forensic/pemanasan
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: cb30574b0ad8d0433551cf37765a2e63a335aede6bf3f32ebf4a994e20a90711
+  - path: peserta/pemanasan.rar
+    sha256: 9ddcad36f2c1392218a3271ead891b1967f07554f7a3826496fd59579a3a1077
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A large-QR image forensics challenge. The participant distribution is
+  peserta/pemanasan.rar. The author writeup is moved to solvers/.

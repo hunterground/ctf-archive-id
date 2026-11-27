@@ -1,0 +1,158 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-web-003
+name: Notes Manager
+slug: 003-notes-manager
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: web
+original_category: Web
+
+description: |-
+  **Author**: `aimardcr`
+
+  You are a penetration tester hired by a small company who got their website hacked recently.
+  They said the hacker somehow got administrative privilege to the website, but there were no
+  logs indicated that an our main admin account was used in other IP Address else than our
+  administrator IP Address. Can you help this company to find the vulnerabilities so that they
+  can patch it ASAP?
+difficulty:
+  value: 1
+  source: organizer
+
+tags: []
+
+authors:
+- name: aimardcr
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Web/Notes Manager
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/__pycache__/
+    reason: Python cache artifacts, not part of the challenge distribution.
+  - path: src/.vscode/
+    reason: Editor settings, not part of the challenge distribution.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: b6eb3c5ec8fed75506a8b486c98e99b8d953db4ad2d686f59872da47932c519e
+  - path: src/.dockerignore
+    sha256: b734388ba2ae5583f620e3f0a401e0e7ae9358173ee998a0d9e696c2a3b87173
+  - path: src/.env
+    sha256: 74b814b7f14ce0716e11cef491c1ef653984b429e2e38fc6a20ab0ad697638db
+  - path: src/.flaskenv
+    sha256: 41a0f1ff8a7af8f827fc9cd0a88790d7d3d5b1a108e39d27d2af6837abd5aba2
+  - path: src/Dockerfile
+    sha256: 129cd13d965d471d6345e15f99087b36d70275ed27645c801050156309ff4857
+  - path: src/app.py
+    sha256: 3f26910f04ea8b0969f40277eae0eada2cb6a570a2c8b6c731e75025fc100a90
+  - path: src/assets/css/adminlte.css
+    sha256: f99d5cef704447ff68fa6b47e64eef3c6e91ad51ce1f0e3d006d561e81b8b34a
+  - path: src/assets/css/adminlte.css.map
+    sha256: d3bff73307478993c730be74a60729b93773d3a2e649f78321894fa0d030fa8c
+  - path: src/assets/css/adminlte.min.css
+    sha256: ae1534a2c9540d6ad60f14d8e09c48d9ad8e751b46ed849fdefe737116dcc921
+  - path: src/assets/css/adminlte.min.css.map
+    sha256: f91ee5d5f985715d3ea281e4d9a72a7e74290d32b36a2dddc3694f440bdffbb8
+  - path: src/assets/js/adminlte.js
+    sha256: c872388958d4ae5ca26435e85741d7901dd2e6cb125b91b9cea857a2429559b4
+  - path: src/assets/js/adminlte.js.map
+    sha256: f4289d891e0f4f1679870fc44646267c62fc41f2254fae523edff9ced913bfe4
+  - path: src/assets/js/adminlte.min.js
+    sha256: bb6ca87a6d87b4e0900a7b29ddf3bdb23e6452b2feee13807e6f1eb35f00163c
+  - path: src/assets/js/adminlte.min.js.map
+    sha256: 326f0f47f16ce7d47a117d2ed93903a41e792d69f850f8989327d7f847bfc253
+  - path: src/assets/js/bootstrap-switch.js
+    sha256: 2fbd40285f2d9c120569ed50ecc5eb9fd142ed9c7fdbad43adcc8361f6fcffac
+  - path: src/assets/js/bootstrap-switch.min.js
+    sha256: 15de6362d8669c403bb4c1b3ae3ad6dbfb00bafb46ebbf46723e1d11c1b170bc
+  - path: src/docker-compose.yml
+    sha256: dcd8d16103d020d9085c23aad26e6fd0e5d0107827948c3e5ef7196afaf575e3
+  - path: src/files/loader/mlbb/1.0/arm64-v8a/libAkSoundEngine.bytes
+    sha256: 2f39c39ba31f53776dd53b06e8a76bdc0202a9b67b88928239af4bc20b8a3610
+  - path: src/files/loader/mlbb/1.0/armeabi-v7a/libAkSoundEngine.bytes
+    sha256: 1d48f419af9edd217cf247f85a0ebaed473129a1714e46654b90bf300704a83b
+  - path: src/files/loader/mlbb/1.1/arm64-v8a/libAkSoundEngine.bytes
+    sha256: 2f461b8b8705f7b4ce63e8bcc1610e870bb25508c2300b9c36a6def87150016b
+  - path: src/files/loader/mlbb/1.1/armeabi-v7a/libAkSoundEngine.bytes
+    sha256: 298be739ea52fdcd7c6b50231e7a71b5356432bc9422b776d6121f47b3a4fa8d
+  - path: src/files/loader/mlbb/1.2/arm64-v8a/libAkSoundEngine.bytes
+    sha256: e9cd3ccb0a527d5545225aa8896a0fe7371f33183415268500eedb172fd666bc
+  - path: src/files/loader/mlbb/1.2/armeabi-v7a/libAkSoundEngine.bytes
+    sha256: cd6f24e8bb5b7298acadf68399b63fa2507e0f5791a2a02416409fa7c189d5bf
+  - path: src/files/loader/mlbb/1.3/arm64-v8a/libAkSoundEngine.bytes
+    sha256: b4d46513663c523a1d2d0467a8f5bcd234de750d17ecc02b6a28257d918f1677
+  - path: src/files/loader/mlbb/1.3/armeabi-v7a/libAkSoundEngine.bytes
+    sha256: 560fb96305bffc27aa31f060a66fe702748f03d6eb3297dc65dd17bdad59e7c0
+  - path: src/files/loader/mlbb/version.ini
+    sha256: 9c193c604ad7de942961af97b39ff541f2e611fdf0b93a3044e16dfbd808f41b
+  - path: src/models/Note.py
+    sha256: aca16cbda4b975c27e6d668df09ecfaa50f57324d5de99dd218eef188779f811
+  - path: src/models/User.py
+    sha256: fe6a14f4e587f40226b011b30dc92283959b91f2e8db6cccfe908b7f896d2ea5
+  - path: src/query.sql
+    sha256: 4ac23266227cdc0291ee336b18d1b9e065e8fc7176aa2e4686bd1b88276d1441
+  - path: src/requirements.txt
+    sha256: 69c947f938e0e491695d18175e9cfa13b981ef9ff41981e32c47fa0962c3882c
+  - path: src/routes/notes.py
+    sha256: 1e123ed459a59e2e5c705185054266e82e44a9b3ad68a0dadc537b57e1e7e271
+  - path: src/setting.py
+    sha256: 9e2833808bc12f318a82431aef5e50866d7f10bbebb32f30e442a27b5aae50e9
+  - path: src/views/dashboard.html
+    sha256: 70028f627a43b8ba45ac7054089b708bee59bdcc2824699ed557bc6738ddbd3b
+  - path: src/views/login.html
+    sha256: a6ae486214ad7ede5124acc6e4fcd488e317e4fe92f53546554f057d87451c87
+  - path: src/views/notes/create.html
+    sha256: fd24a420f269ee2ff9aed8057f129c108910fc31b56c0af4cc22e5546b79fdd6
+  - path: src/views/notes/index.html
+    sha256: e2c826ba2a62d2b572b3eaf64073d1f3a6bbea6d597046d4fcfa7b52dd9072ca
+  - path: src/views/notes/view.html
+    sha256: 781a5699c5441062edf0c1a5fb7cf7ac39c676db3b05ed6bf45f9ef639089c15
+  - path: src/views/register.html
+    sha256: 9a80896352ee896c017cf00cf8025556589b43a378afe82bb7f9ddbf4c60b638
+  - path: src/views/setting.html
+    sha256: 3145e84d808ceff0f38c25c33c00ae34c680a241afb309ef24e9543d47e7e372
+  - path: src/views/template.html
+    sha256: f34181930b3a0fad35f78b85a9ae05b605584a18e1d17548326d594708742bd2
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: http
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A black-box web challenge (Flask app for managing notes with a reseller/device storefront).
+  Only the src/ tree is distributed; no solver script is present. Python __pycache__ and
+  .vscode editor settings were excluded from original/ per archive policy.

@@ -1,0 +1,157 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-web-001
+name: Blue Monday
+slug: 001-blue-monday
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: web
+original_category: Web
+
+description: |-
+  **Author**: `Dimas`
+
+  Blue Monday, Red Sunday...
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- XSS
+- web
+
+authors:
+- name: Dimas
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Web/Blue Monday
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/solver.txt
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: 1915d35c125b9a51c17e027cda8e8eb3ce677833ff271a04f5ebe6e70b71cf81
+  - path: bot/Dockerfile
+    sha256: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: bot/bot.js
+    sha256: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: bot/index.js
+    sha256: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: bot/package.json
+    sha256: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: bot/views/index.ejs
+    sha256: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: challenge.yml
+    sha256: 759868c6af57f642a7dafe84b6e36eb3f9474444608b40df3fc818c83e20432a
+  - path: dist.zip
+    sha256: ca590e1aa3e96311c22c903825eeba8238331f01442232e319eaaaf7b25fdd86
+  - path: dist/Dockerfile
+    sha256: 1915d35c125b9a51c17e027cda8e8eb3ce677833ff271a04f5ebe6e70b71cf81
+  - path: dist/bot/Dockerfile
+    sha256: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: dist/bot/bot.js
+    sha256: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: dist/bot/index.js
+    sha256: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: dist/bot/package.json
+    sha256: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: dist/bot/views/index.ejs
+    sha256: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/docker-compose.yml
+    sha256: 0877f1cc386db83b752f4b8a5f68d9002607303ab2e8a920fc4b01765d31694f
+  - path: dist/proxy.conf
+    sha256: 6a72d2d90ca62cbd10c279823b8116951804217cc00ab50bff1907c932ce931c
+  - path: dist/src/custom_fs.go
+    sha256: e4f57193328e56632feece5ad0963396e41e2b2780d0aa22fbe763234ebeba51
+  - path: dist/src/go.mod
+    sha256: 2e4d3f43950e5a5bec12030adccb44aecbc720421c637e0def0fb1f4a2cce593
+  - path: dist/src/go.sum
+    sha256: 2d2298315e5f23b12f9b2fa9d99e91a5117b83eaf28771ffcb9b79e23826c428
+  - path: dist/src/main.go
+    sha256: b8f3d7aaba1452b2dac875502c668eb66a175492d4fbf078ee7d41931c01ecf0
+  - path: dist/src/public/script.js
+    sha256: 71b4fc5b674ad990c83dc0c528c20ebea25b1753a99a9afe5054680b7711bec4
+  - path: dist/src/run
+    sha256: 9551e3317a91806aa5f9b5d2b4fdb5b9c94f7a0e42f97a301e8ac8773b11f054
+  - path: dist/src/serve.go
+    sha256: 32da259cb37b7c204adef4b22b62143118554d47a1eda34f4f365ea0138ea126
+  - path: dist/src/tag_list.go
+    sha256: 30e29acc4c9d993da46ae8daf3b6ce95b2aa86745c7a48f5ea8ad3ddfd53812d
+  - path: dist/src/view/about.xhtml
+    sha256: 2f584b26d797b41570c4b855108dc02d176b21973a8706e6ffc67b8f5b3e651d
+  - path: dist/src/view/index.xhtml
+    sha256: 6edefb623ae61d225f98ec5efd6bb2ca737c12510dd85349214803faf2cca911
+  - path: dist/src/view/note.xhtml
+    sha256: b5f8e51cea1c38fec2feb0687d32dc447ef153216b6a199056e0a18c0fa4554e
+  - path: dist/src/view/note_id.xhtml
+    sha256: cf6c1a0d14fce9f92f76ce5eb246252c0a15590555c901e85641151d91b408df
+  - path: docker-compose.yml
+    sha256: a2b7c372e4049785186c4df87ea58c1ca6bfed1843baceec4ad9ac140857b136
+  - path: proxy.conf
+    sha256: 6a72d2d90ca62cbd10c279823b8116951804217cc00ab50bff1907c932ce931c
+  - path: src/custom_fs.go
+    sha256: e4f57193328e56632feece5ad0963396e41e2b2780d0aa22fbe763234ebeba51
+  - path: src/go.mod
+    sha256: 2e4d3f43950e5a5bec12030adccb44aecbc720421c637e0def0fb1f4a2cce593
+  - path: src/go.sum
+    sha256: 2d2298315e5f23b12f9b2fa9d99e91a5117b83eaf28771ffcb9b79e23826c428
+  - path: src/main.go
+    sha256: b8f3d7aaba1452b2dac875502c668eb66a175492d4fbf078ee7d41931c01ecf0
+  - path: src/public/script.js
+    sha256: 71b4fc5b674ad990c83dc0c528c20ebea25b1753a99a9afe5054680b7711bec4
+  - path: src/run
+    sha256: 9551e3317a91806aa5f9b5d2b4fdb5b9c94f7a0e42f97a301e8ac8773b11f054
+  - path: src/serve.go
+    sha256: 32da259cb37b7c204adef4b22b62143118554d47a1eda34f4f365ea0138ea126
+  - path: src/tag_list.go
+    sha256: 30e29acc4c9d993da46ae8daf3b6ce95b2aa86745c7a48f5ea8ad3ddfd53812d
+  - path: src/view/about.xhtml
+    sha256: 2f584b26d797b41570c4b855108dc02d176b21973a8706e6ffc67b8f5b3e651d
+  - path: src/view/index.xhtml
+    sha256: 6edefb623ae61d225f98ec5efd6bb2ca737c12510dd85349214803faf2cca911
+  - path: src/view/note.xhtml
+    sha256: b5f8e51cea1c38fec2feb0687d32dc447ef153216b6a199056e0a18c0fa4554e
+  - path: src/view/note_id.xhtml
+    sha256: cf6c1a0d14fce9f92f76ce5eb246252c0a15590555c901e85641151d91b408df
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: http
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  An XSS web challenge (Go application with an xhtml viewer and a bot). Source, dist, bot,
+  and dist.zip are preserved. The author solver writeup/solver.txt is moved to solvers/.

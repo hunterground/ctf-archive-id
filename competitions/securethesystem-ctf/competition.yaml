@@ -1,0 +1,28 @@
+schema_version: "1.0"
+id: securethesystem-ctf
+name: SecureTheSystem CTF
+country: ID
+organizer:
+  name: TCP1P
+  website: https://tcp1p.team/
+website: null
+description: Capture The Flag competition organized by TCP1P, an Indonesian CTF community.
+metadata:
+  established_year: 2023
+  recurring: null
+  formats:
+    - jeopardy
+status: unknown
+verification: corroborated
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+notes: >-
+  SecureTheSystem is a CTF organized by TCP1P, the same Indonesian CTF community that
+  runs the TCP1P CTF annual series (recorded separately as tcp1p-ctf). The 2023 challenge
+  repository under the TCP1P organization carries the flag format STS23{.*}, establishing
+  the 2023 edition. The repository's internal challenge-authoring SOP and criteria (SOP.md,
+  Kriteria.md) name the problemsetters (Dimas, aimardcr, Rafi, Zaki). No separate edition
+  recurrence evidence was found; recurring is left null.

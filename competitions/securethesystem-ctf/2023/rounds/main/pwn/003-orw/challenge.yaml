@@ -1,0 +1,88 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-pwn-003
+name: orw
+slug: 003-orw
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: pwn
+original_category: pwn
+
+description: |-
+  **Author**: `izin bertanya`
+
+  ~~Open~~ Only Read Write.
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- pwn
+
+authors:
+- name: izin bertanya
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: PWN/orw
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solution/solve.py
+    reason: Author solver script, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: e00c3998a991069eb258f60314f3f8b9fd0004e2f22cbebf48205db0488bcb1f
+  - path: challenge.yml
+    sha256: fbf16b8cdef12891f3050cf31b6518e418d6d0f270e69be1e76156777dca193e
+  - path: challenge/Makefile
+    sha256: fa2600e39928a91dfb6c02717eb7f80a2fc3578601307a4d697381eb199b973e
+  - path: challenge/libc.so.6
+    sha256: c90ddd9fb7b824452cd35d69e99b85c18021e90dbe6420e1803169e2ba9c82dd
+  - path: challenge/main.c
+    sha256: 59c8c67fb05099b0f5364e5a1f8dabd3244238fdd13e9e0515591ea11b2ee995
+  - path: challenge/orw
+    sha256: eb5fd59336ab2deb532c342003a717ed61142def884f45e5617eb1eb8dcf0414
+  - path: docker-compose.yml
+    sha256: 0e3e0cbc1a2ea0764b70e44cf77d1eb87b4432d46cfaa25876dcec3dbde66d51
+  - path: orw.zip
+    sha256: d015f314f34ff644f4cfec1eac32e1c1e25e91735728de14bdb53f6c8055b0e0
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A pwn challenge (connection nc {hostname} 11337). The challenge/ directory holds the
+  binary and source; solution/solve.py is moved to solvers/.

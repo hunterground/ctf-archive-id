@@ -1,0 +1,87 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-pwn-002
+name: 💀💀
+slug: 002-double-skull
+original_name: 💀💀
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: pwn
+original_category: pwn
+
+description: |-
+  **Author**: `izin bertanya`
+
+  last time in TCP1PCTF I dropped a kernel chall, but apparently no one solved with intended solution. Pls this time solve it with intended one :prayge:
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- kernel
+
+authors:
+- name: izin bertanya
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: PWN/double skull
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solution/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: 8f3faf0b63baff1e66dfd6e61f2535fbb9394256a1d6edc99d331990de05aa64
+  - path: challenge.yml
+    sha256: 4173742d952c17b70a39277be241fe980e92167b2a3c5a78445746ef9f7649e6
+  - path: challenge/bzImage
+    sha256: 1bb53c022f2e58cf65f67b3b9f3cb63faab532899630604bb23d46b4b1ae924d
+  - path: challenge/initramfs.cpio.gz
+    sha256: 7ac22cc947d9ac32c30560789df149b157cced331de2777475efdc50a1b1c501
+  - path: challenge/run.sh
+    sha256: 5fcc88d49a4d425bcbf8c61230c119e849475cd771aab2de0c0b9d3356dc04c5
+  - path: docker-compose.yml
+    sha256: ca876ba8637bdf3c7c9508bbd80433414b24e75796c78f9c01617dd8ccadaffa
+  - path: skull.zip
+    sha256: 5dcedc25b8e088d75c74f00612a855c6912d275c54d3cd2e25930ce063177b1f
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A Linux kernel pwn challenge (connection nc {hostname} 31337). The challenge/ directory
+  holds the kernel image and initramfs; solution/ is moved to solvers/. The original display
+  name is the skull emoji pair, stored as original_name.

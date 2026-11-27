@@ -1,0 +1,37 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023
+competition_id: securethesystem-ctf
+
+year: 2023
+name: SecureTheSystem 2023
+
+status: completed
+verification: corroborated
+
+dates:
+  start: null
+  end: null
+
+statistics:
+  participant_count: null
+  challenge_count: 16
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+challenge_materials_imported: true
+
+notes: >-
+  SecureTheSystem 2023, imported from the organizer's own repository at the TCP1P GitHub
+  organization (github.com/TCP1P/SecureTheSystem2023), the primary source. The flag format
+  STS23{} corroborates the 2023 edition. The repository describes no qualifier or final
+  stage, so the round id is main. Sixteen challenges are published across crypto,
+  forensics, pwn, rev, and web. The repository carries a repository-level MIT LICENSE
+  (Copyright (c) 2023 TCP1P), preserved at the round root, so redistribution is permitted.
+  Challenge sequence numbers are alphabetical by source directory name within each
+  category. The repository's top-level tooling (.ctf/, Makefile, SOP.md, Kriteria.md) and
+  README were not copied into challenge directories.

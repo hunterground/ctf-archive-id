@@ -1,0 +1,87 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-rev-002
+name: Maze
+slug: 002-maze
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: rev
+original_category: Reverse Engineering
+
+description: |-
+  **Author**: `aimardcr`
+
+  bingung mau bikin chall apa, jadi yaudah have fun aja main ni game.
+  btw wrong moves = wrong flag, even if u finished the game.
+difficulty:
+  value: 1
+  source: organizer
+
+tags: []
+
+authors:
+- name: aimardcr
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Reverse Engineering/Maze
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: app.py
+    sha256: a3028beb21a5faba6ee3dca3e59afce77b7894b44deb049a77be20fe273d0bf3
+  - path: challenge.yml
+    sha256: 52dbd63383508732457283c0920272e5bc11c8a65e4d0f889ad8b2a011307844
+  - path: flag.txt
+    sha256: 9a00afb6ff70d5ea56416def356988ca78339028b6016620f08a590c9e88d62b
+  - path: generate_matrix.py
+    sha256: eecd14a985bf16690d5a2cf87ed49531ae0744716dc192600cea78bc06e0b304
+  - path: generate_moves.py
+    sha256: 8f105c987a4cbcd7ea32df82801804005064285598de727c7d87dd97ff26ac89
+  - path: level-solve.png
+    sha256: 05f8250dbb9569b5ec9d66f70cc6756e113a5446260e07506ad5cb63efd917ff
+  - path: level.png
+    sha256: b20a0e09659459f808460b198842bfbf1532a2b8676857973f6afdcacb0c6c56
+  - path: moves.py
+    sha256: 7e0026dd919d450ae9219b1af0680f254a49158d08d8310c5d8d26f8937915ce
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A maze-solving reverse-engineering challenge. The distribution holds app.py, level images,
+  moves.py, and the generator scripts. No solver script is present in the source. Difficulty
+  value is the organizer's `value` field from challenge.yml.

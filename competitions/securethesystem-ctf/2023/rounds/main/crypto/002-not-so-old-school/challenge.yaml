@@ -1,0 +1,80 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-crypto-002
+name: Not So Old School
+slug: 002-not-so-old-school
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: crypto
+original_category: Cryptography
+
+description: |-
+  **Author**: `aimardcr`
+
+  A simple service to encrypt/decrypt your message, let's hope it's safe enough!
+difficulty:
+  value: 1
+  source: organizer
+
+tags: []
+
+authors:
+- name: aimardcr
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Cryptography/Not So Old School
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: 3c232c3477d3d0c774430f30ecf8f6b41d15e559b665e45f72dfa706945fbdd0
+  - path: app.py
+    sha256: 0cb9c477f17ab146e443fe511af318d09d8162f8b7bc3d5f75266713128f5b18
+  - path: challenge.yml
+    sha256: 49fedc3cc8462e224be2d600ec28e0d73dc601ff436c6a40140f47e57ec5188f
+  - path: docker-compose.yml
+    sha256: ac9ac7105e0f5aa6c55776d7e389169a16c9b46df259fc5dbb5ee04a31727ee9
+  - path: flag.txt
+    sha256: 18015079b7f4ac36a1fb71403fbbab8c855c81f97ecc79675246685df6fd6161
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A service to encrypt/decrypt messages (static key reuse). The source carries app.py,
+  Dockerfile, docker-compose.yml, and flag.txt. No solver script is present in the
+  source. Difficulty value is the organizer's `value` field from challenge.yml.

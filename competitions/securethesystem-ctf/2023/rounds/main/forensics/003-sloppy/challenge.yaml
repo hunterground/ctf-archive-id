@@ -1,0 +1,86 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-forensics-003
+name: sloppy
+slug: 003-sloppy
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: forensics
+original_category: forensics
+
+description: |-
+  So, I found an USB in my class, I took it and I put it in my laptop. Then I found
+  interesting anime (the anime is in mp4) and rar file and I copied it on my laptop.
+  When i tried to open the file it showed pop up that my computer has been comprimized
+  and my laptop restared after 1 minutes and I immediately remove all file that've been
+  copied to my computer. As an engineer i always capture usb traffic using wireshark.
+  Please help me to figure out what's happening in my laptop.
+
+  [download](https://drive.google.com/file/d/1JFQ2p1tRGp_s1rrHWX6glHP2r4nftjR7/view?usp=sharing)
+
+  wrap your flag with STS23{<value>}
+difficulty:
+  value: 100
+  source: organizer
+
+tags: []
+
+authors:
+- name: kyruuu
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: Forensic/sloppy
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: writeup/
+    reason: Author solver material, moved to solvers/ per archive policy.
+  - path: <attachment not present>
+    reason: The challenge attachment is published only as an external Google Drive link in
+      the challenge.yml description; the repository carries only challenge.yml and writeup.
+      Recorded in missing.txt as an outstanding download.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    sha256: 1d2dc5cbb2f57d31244c21a10df5689e367d2d0b1ae6d8a58d99620fd2e12b5c
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A USB-traffic forensics challenge. The repository carries only challenge.yml and the
+  writeup; the pcap/mp4 attachment is served only from an external Google Drive link in
+  the challenge.yml description and must be downloaded separately. The author writeup is
+  moved to solvers/.

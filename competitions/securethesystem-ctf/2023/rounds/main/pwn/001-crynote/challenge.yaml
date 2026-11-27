@@ -1,0 +1,91 @@
+schema_version: "1.0"
+
+id: securethesystem-ctf-2023-main-pwn-001
+name: crynote
+slug: 001-crynote
+original_name: null
+
+competition_id: securethesystem-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+
+category: pwn
+original_category: pwn
+
+description: |-
+  **Author**: `izin bertanya`
+
+  tingkat kesetresan kuliah:
+  semester 3: prepare mancing (survey joran)
+  semester 4-6: full mancing
+  semester 7+: nyelem dalem empang
+difficulty:
+  value: 100
+  source: organizer
+
+tags:
+- pwn
+
+authors:
+- name: izin bertanya
+  team: null
+organization: null
+
+provenance:
+  archive_id: securethesystem-2023-challenges
+  source_type: git
+  repository: https://github.com/TCP1P/SecureTheSystem2023
+  commit: 6f3d89aae2628a37bb978706f1ec19ba039599aa
+  original_path: PWN/crynote
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: solution/solve.py
+    reason: Author solver script, moved to solvers/ per archive policy.
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    sha256: 36c47df1976de708231cfca5f278fabf3854dfddff80cc8825d472cd299a30fb
+  - path: challenge.yml
+    sha256: 78e1d9ba6ea08f168005aab3c4318115f3768a168875ccfeae05d11198b5f66d
+  - path: challenge/Makefile
+    sha256: 81a8723c5c8ff483b9ed10194dd4cc29e445f7be96aa9dedd016c73282d2f43d
+  - path: challenge/crynote
+    sha256: 4c03938a3b2e88df1e85c851008b8d023b327f02e14ef710e60aba76c8fdd387
+  - path: challenge/libc.so.6
+    sha256: 2e15e345ccba1e1e8bf3bc58938d13eb7ccc17044942f0376cd5bc771f429b79
+  - path: challenge/main.c
+    sha256: 6a4bcbab6142bd7bb03a30217880935f68ba7c69f11d58e84b8916a8872e1628
+  - path: crynote.zip
+    sha256: f2813b629baee7bfe5c6b0462ff58d9070ae971f53f7a62eef8b690a519b7003
+  - path: docker-compose.yml
+    sha256: 7a0fa173663172e4f7234e7bf6839d8374f3b0180c52a1ff1880bfc9f1602e00
+
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 TCP1P
+  permission_reference: https://github.com/TCP1P/SecureTheSystem2023/blob/6f3d89aae2628a37bb978706f1ec19ba039599aa/LICENSE
+
+environment:
+  type: null
+  services: []
+  requirements: []
+
+references:
+- title: TCP1P SecureTheSystem2023 challenge repository
+  url: https://github.com/TCP1P/SecureTheSystem2023
+  type: official_repository
+  accessed: '2026-11-28'
+
+verification: corroborated
+notes: >-
+  A heap pwn challenge (connection nc {hostname} 21337). The challenge/ directory holds the
+  binary and source; solution/solve.py is moved to solvers/.
