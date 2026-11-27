@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: final
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+name: Final
+original_name: Finals
+sequence: 2
+type: final
+delivery: onsite
+description: >-
+  Final stage of the Techcomfest 2026 CTF, held onsite at Politeknik Negeri Semarang.
+dates:
+  start: '2026-01-20'
+  end: null
+statistics:
+  challenge_count: 4
+  participant_count: null
+references:
+- title: Finals at TECHCOMPFEST-CTF-2026-Finals
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/efa89445bfdbbc85897074f95be393d611005b13
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Four final challenge records imported from the finals tree of the problemsetter repository
+  TCP1P/TECHCOMPFEST-CTF-2026-Finals, the onsite final at Politeknik Negeri Semarang. The
+  repository README states a CTF start of 2026-01-20T23:00:00+08:00 and the repository commits are
+  dated 2026-01-21, consistent with an onsite final that began on 20 January 2026; the end date is
+  not established.

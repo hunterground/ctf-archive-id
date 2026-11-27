@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-forensics-002
+name: 'mosquito'
+slug: 002-mosquito
+original_name: 'mosquito'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  <img src="https://ctf.korpstar-poltekssn.org/files/979abb386398633229b89dd5b20622cc/desc.png" alt="desc" />
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: 'keii'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Forensics/mosquito'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 75bdeab8789a4ae5676e7dbe5f8213b2f9c4c9b008de6ef309ce8f4dfd5a989d
+  - path: 'dist/mosquito.pcap'
+    algorithm: sha256
+    value: 3864827a53ae9380bf1386574ccbd7557e832441ac90c5e43cdea7d0a6b4fa9f
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Forensics/mosquito at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Forensics/mosquito
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

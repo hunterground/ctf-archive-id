@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-web-002
+name: 'calon-mantune-bapakmu'
+slug: 002-calon-mantune-bapakmu
+original_name: 'calon-mantune-bapakmu'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  Not stated in the source.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: null
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Web/calon-mantune-bapakmu'
+preservation:
+  original_structure: false
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Web/calon-mantune-bapakmu at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Web/calon-mantune-bapakmu
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. No challenge material is archived: the source entry is a
+  git submodule gitlink whose content is not retrievable. Metadata-only record. The source entry
+  Web/calon-mantune-bapakmu is a git submodule gitlink (commit
+  77db9213b4b952484fc5630f6e11a434d5782d91) with no .gitmodules entry, and that commit object is
+  not present in the repository, so no challenge content can be retrieved. Name and category come
+  from the directory path; no author or description is recorded because no challenge metadata
+  exists. Approved as a metadata-only record by the archive owner.

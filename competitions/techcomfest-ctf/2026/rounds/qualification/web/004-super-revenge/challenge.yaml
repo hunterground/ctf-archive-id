@@ -1,0 +1,797 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-web-004
+name: 'super-revenge'
+slug: 004-super-revenge
+original_name: 'super-revenge'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  yea, another note challenge. but this time it has super thing you need todo to obtain the flag. because it has super strict csp, super strict authentication and super strict api-call. Welcome to super notes
+
+  https://{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'repl'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Web/super revenge'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: 'dist/src/frontend/.vscode/'
+    reason: 'Editor settings or cache, not part of the challenge distribution (AGENTS.md Phase D rule 4).'
+  - path: 'src/frontend/.vscode/'
+    reason: 'Editor settings or cache, not part of the challenge distribution (AGENTS.md Phase D rule 4).'
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: 767c23770edc6ee28da99c2f0ab962135c06851bdb5bae1753255902d5e8f1a5
+  - path: 'dist/src.zip'
+    algorithm: sha256
+    value: b27e13650d684d07838dc72f2d743518523e7f3de74e13cca943453b37d5a72d
+  - path: 'dist/src/docker-compose.yaml'
+    algorithm: sha256
+    value: 83a22407978809248f437a74eb442b4dd1b641d76a1633df449566147891b2d8
+  - path: 'dist/src/bot/.gitignore'
+    algorithm: sha256
+    value: 63610193c9fbe71aebfe72ebace60aaf6697f46db20e98a7fbf4b6e4383bea21
+  - path: 'dist/src/bot/Dockerfile'
+    algorithm: sha256
+    value: 57280ce03f30417902330884874217d2d114ba406444c67ea31e15984a9ba3b9
+  - path: 'dist/src/bot/README.md'
+    algorithm: sha256
+    value: 449c61fe12971116f8b3f6c389c21e367395ae826e5467b34dd6c53d34a70479
+  - path: 'dist/src/bot/bun.lockb'
+    algorithm: sha256
+    value: b05305a223fc8c466ea7a83b8f2c2ce488eb53d8b22c1aa503f8aa911d08ce54
+  - path: 'dist/src/bot/package.json'
+    algorithm: sha256
+    value: 35ed88df87789b30402f1a9272a45b01e420c4124685fa44aead074344ec2673
+  - path: 'dist/src/bot/server.ts'
+    algorithm: sha256
+    value: 061e2410bcad9edd8b4156df3cc6fbc481af93c05dd734a31c8f63d3bad89d19
+  - path: 'dist/src/bot/tsconfig.json'
+    algorithm: sha256
+    value: 86efafadde8dc1b339643a9ec3153332c6ccf1f4cff3561d16bd199f45b2878e
+  - path: 'dist/src/bot/app/config.ts'
+    algorithm: sha256
+    value: b5f40f3bd5abf37b7ccfb5c93c3fd607e716e35e06a35735d15fae0d4361e1ee
+  - path: 'dist/src/bot/app/controllers/dashboard.controller.ts'
+    algorithm: sha256
+    value: 7536cfca0cda5d3ce73a78622e266dac8519ed6c19d8fb616ffa14780ab687e9
+  - path: 'dist/src/bot/app/controllers/index.controller.ts'
+    algorithm: sha256
+    value: 3265b528f8bede25a4642f98d9334dfb5fd60b5bcdf79010b2aaa6b0f2e4aee7
+  - path: 'dist/src/bot/app/middlewares/csp.ts'
+    algorithm: sha256
+    value: bac32b13047c1cc39c6a66a178c44a8358b828a96c16312599d1dbcafcd9518a
+  - path: 'dist/src/bot/app/middlewares/csrf.ts'
+    algorithm: sha256
+    value: a9d669cc7a8735d76395dec9d1e4aced689ad9be5dddef0bc2eab99b5c9aa2fa
+  - path: 'dist/src/bot/app/middlewares/localOnly.ts'
+    algorithm: sha256
+    value: 99ecb4d34b12c20270d70621537946a4f0b5bb4a9881ca7d54c4cd9f3953f2b4
+  - path: 'dist/src/bot/app/public/static/bg.jpg'
+    algorithm: sha256
+    value: e781a05c0c4e5cd5c0ca28697c9c4e7ad34df71a3a10b86a9625303798585a7c
+  - path: 'dist/src/bot/app/public/static/bg2.jpg'
+    algorithm: sha256
+    value: e11ea05bb009a928bf80e43d88e8574ac4769523cacc64e27cc812b7d5ba0127
+  - path: 'dist/src/bot/app/public/static/bootstrap.min.css'
+    algorithm: sha256
+    value: d13bf57acd0a78e410f0278dfd35f1138b5c6abcf9a3162f0b5021e52bd4ee5a
+  - path: 'dist/src/bot/app/public/static/click.mp3'
+    algorithm: sha256
+    value: ea83db07bb64d2874233314a130ca03186df4a35ca4b9c55f58745321c2086a4
+  - path: 'dist/src/bot/app/public/static/index.js'
+    algorithm: sha256
+    value: 00d7122cfbec2e350117e9f2316ab987bad7fb1932aaf7265588866806168cfe
+  - path: 'dist/src/bot/app/public/static/style.css'
+    algorithm: sha256
+    value: ebeb02ad25b5aa2b6e2863f10ab61e0567cc1a8a23e3536edd2dfaf24f090e46
+  - path: 'dist/src/bot/app/routes/index.route.ts'
+    algorithm: sha256
+    value: 398b0b005d51b023c71035f4fcc57f0edb26b88aa1f3799bb38db693424d6c33
+  - path: 'dist/src/bot/app/services/bot.service.ts'
+    algorithm: sha256
+    value: 63ea9a318d39badb8c570b1e5cabb5403d1e2af9d99f11427d626329f7189677
+  - path: 'dist/src/bot/app/services/sanitizer.service.ts'
+    algorithm: sha256
+    value: 4fe92f240a7c4093ee79df6300214fac65afdf3f7ea956205e82ad248341025b
+  - path: 'dist/src/bot/app/types/express.d.ts'
+    algorithm: sha256
+    value: 3ecec46ee0095a1df3d30c9769a6dee1db6699cb2a9a1d0c64a334069c1d5bb0
+  - path: 'dist/src/bot/app/utils/hash.ts'
+    algorithm: sha256
+    value: e43e4f54030718d46e77f4351e5329cc28b261cf446d946337b37a91f9e78442
+  - path: 'dist/src/bot/app/utils/jwt.ts'
+    algorithm: sha256
+    value: 55a68a325f06ded6e8888193efffb009d58b43458af974f08eac8269e7b4243c
+  - path: 'dist/src/bot/app/utils/setup.ts'
+    algorithm: sha256
+    value: 0bc79fac2563c01449628a5defcb64f2c369745e4fd41e388484cb74d98a59da
+  - path: 'dist/src/bot/app/views/index.ejs'
+    algorithm: sha256
+    value: 443d7a22519301d75cb69b3ef00b9b4c5c0a38b3fd546430a3a5a5d6c46d8745
+  - path: 'dist/src/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'dist/src/frontend/.gitignore'
+    algorithm: sha256
+    value: 12dc4676e70590a75488b85502453e80ceb15c200ea5eee70d69458719c7a44c
+  - path: 'dist/src/frontend/Dockerfile'
+    algorithm: sha256
+    value: ad9645fe27cdba1480b8565071e6a6c398e314a504d012a681444aead344c671
+  - path: 'dist/src/frontend/README.md'
+    algorithm: sha256
+    value: 84c5ef3beed0c8684863ae5c468e2265f365e2d4bec6ee35654521760a973fd7
+  - path: 'dist/src/frontend/astro.config.mjs'
+    algorithm: sha256
+    value: 3f55abd11475e7faa98fb4e24007605bd1dc73f25327de6921206f3c87abb780
+  - path: 'dist/src/frontend/package-lock.json'
+    algorithm: sha256
+    value: 1569530c5bbf8c56e4c1711c0079d8750e95aa9374190a7883eaa1030e292a77
+  - path: 'dist/src/frontend/package.json'
+    algorithm: sha256
+    value: ef25faab4f5cc6017fe4bc9f7d49c98350f757ce64f581dd2eec8d05223f5368
+  - path: 'dist/src/frontend/tsconfig.json'
+    algorithm: sha256
+    value: 9563cef985ee6405d12c3e8e942c6f01fbebd8f94398169cccb563c6823eded4
+  - path: 'dist/src/frontend/public/favicon.svg'
+    algorithm: sha256
+    value: 2d7a310283d6f9cc753210d83224cd6db6348cb82a5536348884e5831d46203f
+  - path: 'dist/src/frontend/public/fonts/atkinson-bold.woff'
+    algorithm: sha256
+    value: f0de8ccb0af6e50fd1b51d50d5032c6824adc0f1b435345919fca1d9b72b3623
+  - path: 'dist/src/frontend/public/fonts/atkinson-regular.woff'
+    algorithm: sha256
+    value: b51d2e16226a56e304ab9ba67d22f504afc5bdceab1caefe386063a26ee4bc0b
+  - path: 'dist/src/frontend/public/scripts/comments-form.js'
+    algorithm: sha256
+    value: a63acad3e0109514b28de500cb373db592ce56934541030a9ea82da808a7b8ca
+  - path: 'dist/src/frontend/public/scripts/signin.js'
+    algorithm: sha256
+    value: a5ebc06e74dac262d0e41f55922002ce1208e5cf97040fd77a2782d2a61bd3dd
+  - path: 'dist/src/frontend/public/scripts/signup.js'
+    algorithm: sha256
+    value: fb3174bc195f02227686b742abf542776baf9ae69fca0086b790bcb36d9a8458
+  - path: 'dist/src/frontend/src/consts.ts'
+    algorithm: sha256
+    value: 5899ff8f9729c000ef63e741f30a050fa99372aeced32a64d24fde4620a44e4b
+  - path: 'dist/src/frontend/src/content.config.ts'
+    algorithm: sha256
+    value: 679728386f637e68e0a3279673bf41b2a7b31f8a15aceff83e2d98fd1d7b40a4
+  - path: 'dist/src/frontend/src/middleware.ts'
+    algorithm: sha256
+    value: 8f0cfd882ef27f112375f5b4ae972a0c70236030e55adf1d26cfc5e98250a8d7
+  - path: 'dist/src/frontend/src/utils.ts'
+    algorithm: sha256
+    value: e82e45bb7aafb137056939675e6684ceb644d5e77d765b5e01d0525b2e7816ba
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-1.jpg'
+    algorithm: sha256
+    value: 06a35a9434dc3bb33e2b5b7d0ba08454fbd7724e6a4017c5e609b3fe749a943c
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-2.jpg'
+    algorithm: sha256
+    value: 583b4e1d0faef6330cc1e9cb635bdd2233f8a771c756faa60c06c70f620d71c1
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-3.jpg'
+    algorithm: sha256
+    value: d5a59b41248c203b8128cffb672ffac3e4771ca29451d6f856b09d52a5248c5a
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-4.jpg'
+    algorithm: sha256
+    value: e0f9cc7783a492107b62fa155b504aee292001828ea86f2df59148cecd79f4b1
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-5.jpg'
+    algorithm: sha256
+    value: 9e674b8cfe3e5e64b0c6c14bc46666f44755ee04888b7d6d3c31bcb54ba32d72
+  - path: 'dist/src/frontend/src/assets/blog-placeholder-about.jpg'
+    algorithm: sha256
+    value: f05b2dbff18b181e3cdd494f1370b8e0c8e13a5c34400b0c5d181af7d45029f9
+  - path: 'dist/src/frontend/src/components/BaseHead.astro'
+    algorithm: sha256
+    value: fc71a4638066e600fda246eb36b09d4258449b9935ea86337e40d6d3b32f5a1c
+  - path: 'dist/src/frontend/src/components/Footer.astro'
+    algorithm: sha256
+    value: 0533bad67537951f9321a32856e5f6432324cdcf732d2176e753c6e2b43ab4b3
+  - path: 'dist/src/frontend/src/components/FormattedDate.astro'
+    algorithm: sha256
+    value: 838c6ce776916ef1c5c3ebf63df387fe348c973a67f1fd82bc9de6f24e56a5fd
+  - path: 'dist/src/frontend/src/components/Header.astro'
+    algorithm: sha256
+    value: dd297cfd559c13c3db4f8f4bd92413188b8f854489120b1130126ee9f73f9ca4
+  - path: 'dist/src/frontend/src/components/HeaderLink.astro'
+    algorithm: sha256
+    value: 8dfa53ab4d14d5d1f10cfc638830e56750e0a94c23b820fe0a3c685f411f6ac1
+  - path: 'dist/src/frontend/src/layouts/Comments.astro'
+    algorithm: sha256
+    value: 93c8f347a92670527870e7ec91dc06920531742976611ef3e17cf4b4cc857b4e
+  - path: 'dist/src/frontend/src/layouts/Notes.astro'
+    algorithm: sha256
+    value: 393e01c05323b7e903d564e9cd0c3e0bd4d496f573fb79e00ddf1213f7fab2d6
+  - path: 'dist/src/frontend/src/pages/about.astro'
+    algorithm: sha256
+    value: 2835bc7e2047aa02b3267308167fef73b21f844d48a5bfd2ddf74cf30cc8fdc1
+  - path: 'dist/src/frontend/src/pages/index.astro'
+    algorithm: sha256
+    value: 8e33caed100c2b9e79dfed4604f43694a50e14e3884ea0635bd60c8496785b43
+  - path: 'dist/src/frontend/src/pages/rss.xml.js'
+    algorithm: sha256
+    value: e9e664174a1426248d232eac9f1685daeec526d2230bebfe119ec6f5778eb19f
+  - path: 'dist/src/frontend/src/pages/api/comment.ts'
+    algorithm: sha256
+    value: 3cef8204db7f2b37f39751a074899cf0981863b75242ec0f94daa8790b208199
+  - path: 'dist/src/frontend/src/pages/api/control-check.ts'
+    algorithm: sha256
+    value: 4898f5037f3131419c5dd423b0ee2c90e7c408891ce8830d8560bfa121824119
+  - path: 'dist/src/frontend/src/pages/api/signin.ts'
+    algorithm: sha256
+    value: 5546e4622a95fb00f207e9d43fd2ef12555d6035bee72b7a26af044889c3336d
+  - path: 'dist/src/frontend/src/pages/api/signup.ts'
+    algorithm: sha256
+    value: 45c485197cf6d8d6e7d4c7f4031cf68a04ba288f558ac9db10e590b8cb60ccd4
+  - path: 'dist/src/frontend/src/pages/api/notes/create.ts'
+    algorithm: sha256
+    value: 52b74e9c8c42b178a01f8033db330faa9486bb12fc6b4a533dcfef4085307890
+  - path: 'dist/src/frontend/src/pages/notes/[...slug].astro'
+    algorithm: sha256
+    value: 890d8fc4e309ceb5c6c3d7a279c583360657807e31dabc63876c55c7f434032e
+  - path: 'dist/src/frontend/src/pages/notes/index.astro'
+    algorithm: sha256
+    value: 2ad8b99fb7f9766ed8900532606704a4cb73c8edac0a7a251b8ceb6d5aa06b13
+  - path: 'dist/src/frontend/src/pages/notes/new/index.astro'
+    algorithm: sha256
+    value: a39bad0b9036cb62c8765306280b01a47ae7c0d7b62442476b043d7f9b08b6fb
+  - path: 'dist/src/frontend/src/pages/signin/index.astro'
+    algorithm: sha256
+    value: f2b4f622ecb69d2e36a57ac704dae33714db28cc0bf828b2bddf356b7613fe03
+  - path: 'dist/src/frontend/src/pages/signup/index.astro'
+    algorithm: sha256
+    value: 4d0ecf7d8b77b3860ac79585ef6268a5c7a53cbd7f42e07ad860595c1530e11e
+  - path: 'dist/src/frontend/src/styles/global.css'
+    algorithm: sha256
+    value: 28e56d77c1b015961d8408e87d3b7e1d47fc1d1890c7a573a0bed9e5b271ec28
+  - path: 'dist/src/mission-control-system/.air.toml'
+    algorithm: sha256
+    value: 146df55280c7467538d1f287e816720a11361a87fe0e859d09bdab3ce16aa439
+  - path: 'dist/src/mission-control-system/.env.example'
+    algorithm: sha256
+    value: e7c4f1a5c1b33e807e48721d57fae4fb64e87f7bc99a76857abfb5dbb61d9087
+  - path: 'dist/src/mission-control-system/.gitignore'
+    algorithm: sha256
+    value: d96419ef4724e1ae837650ccbce6464889446c95cb4b5d7c027213c30edf11a4
+  - path: 'dist/src/mission-control-system/Dockerfile'
+    algorithm: sha256
+    value: 4577d3efe4054f6566295a34d215f1ab46937b9a52ab1a9bd25b2bbf665a62a3
+  - path: 'dist/src/mission-control-system/LICENSE'
+    algorithm: sha256
+    value: 17fcb6113d23657f4c854336c2d29f8d60e7c27461cf77400feef1d9468bc06e
+  - path: 'dist/src/mission-control-system/dev.sh'
+    algorithm: sha256
+    value: 79c46c35a9a5ca4dff44856de5b4fb319eb9b7f6480317d9019df0192be1cf7f
+  - path: 'dist/src/mission-control-system/go.mod'
+    algorithm: sha256
+    value: 1cbc442dbb6f9554557af66189a83a6742e032f5c4ec1c132f4725b9c6573340
+  - path: 'dist/src/mission-control-system/go.sum'
+    algorithm: sha256
+    value: a9304cf7e1f1275fdcc3a0bf576fbe8eeaf7f407731b9ce74a314bdbd3ab2702
+  - path: 'dist/src/mission-control-system/main.go'
+    algorithm: sha256
+    value: 583ee333f94958e76a36e91f9b2bda2efb0a1c36243d2016b2c62a412741901b
+  - path: 'dist/src/mission-control-system/readMe.md'
+    algorithm: sha256
+    value: f39563db3bf0da5d7c96f829297628b2ee8c2a33e666a97c4c8fb905c33e6bba
+  - path: 'dist/src/mission-control-system/api/handlers/auth.handler.go'
+    algorithm: sha256
+    value: 697ddba79932aa2b819d78bdffe0154db670619d9cd42a336236fd2b7dc919ee
+  - path: 'dist/src/mission-control-system/api/handlers/base.handler.go'
+    algorithm: sha256
+    value: b8f59240af3522d24140b87d60b31c70e2cf61709d5569b31998279427d1e3da
+  - path: 'dist/src/mission-control-system/api/handlers/comments.handler.go'
+    algorithm: sha256
+    value: ada66f9a77e9d67cab10de0a383b5d20cf037dab2ef94e487aa1afbe38395021
+  - path: 'dist/src/mission-control-system/api/handlers/notes.handler.go'
+    algorithm: sha256
+    value: 0e1411e662030425955d5d440192d750b923dd5e17269385a202908c4066a948
+  - path: 'dist/src/mission-control-system/api/middleware/admin.middleware.go'
+    algorithm: sha256
+    value: e9525da5cc072dc2e0b7ed7bf11b8d5cc2d3fcf8b4a2d7b3d29ddbe63b4f6b33
+  - path: 'dist/src/mission-control-system/api/middleware/auth.middleware.go'
+    algorithm: sha256
+    value: 95bb723614bfa9c30d299d343c64c719eb38735ed9a940e9f0e4522bdfc5b5ec
+  - path: 'dist/src/mission-control-system/api/routes/admin.route.go'
+    algorithm: sha256
+    value: d4243c3437408a5b7d7abb7c94c614f8bec9de0ce05832e9c5b7d7c535c9ad39
+  - path: 'dist/src/mission-control-system/api/routes/auth.route.go'
+    algorithm: sha256
+    value: 3d8efbcc36d7121c932c3269f8ed683e0e8f632239ef98bc183bd34d754828f9
+  - path: 'dist/src/mission-control-system/api/routes/comment.route.go'
+    algorithm: sha256
+    value: b42d0324f8ec8cf9ddcbad244d22195f893856f1a702fdaa416ed15f8fa08c9b
+  - path: 'dist/src/mission-control-system/api/routes/middleware.go'
+    algorithm: sha256
+    value: 3264aaaf4027d6a14bcb3d84e5d0df2988ae58d4fc4d55c6d51c3608c93c8002
+  - path: 'dist/src/mission-control-system/api/routes/note.route.go'
+    algorithm: sha256
+    value: 4532484a1863ae192cae6fef8b8c349ca13e561970c0a8880c2f369f621aebe9
+  - path: 'dist/src/mission-control-system/api/routes/route.go'
+    algorithm: sha256
+    value: b04a217b971dbc19ba1b5db5762bc94362f9e31de04d0bd154c3cc65864ab81c
+  - path: 'dist/src/mission-control-system/config/config.go'
+    algorithm: sha256
+    value: 0401c0b57994f8d4e53911ad5ae2deafa2e9132a9a0a53854b829b5fa01d6f4e
+  - path: 'dist/src/mission-control-system/database/postgres.go'
+    algorithm: sha256
+    value: 7326d68a4c76f9dccc7e1ce92ff552fcd3e84925c2b4b68517baedf7c53832a0
+  - path: 'dist/src/mission-control-system/docs/docs.go'
+    algorithm: sha256
+    value: 99d2a3a53f3de80310e36608e3f904232949cb8f3b7a4efe83c19eb4f85e6f84
+  - path: 'dist/src/mission-control-system/docs/swagger.json'
+    algorithm: sha256
+    value: b0f4de8b6e4549fa6b00dc6674ff823f657d5defedbc09d57aa74d94c41f9aa3
+  - path: 'dist/src/mission-control-system/docs/swagger.yaml'
+    algorithm: sha256
+    value: c5dea0c4958fc72a6f694c7a0715b445fc020158bdeba56b7d1db68b228b64f0
+  - path: 'dist/src/mission-control-system/internal/dtos/comment.dto.go'
+    algorithm: sha256
+    value: 54229c2922eec70039f138e0fa1ec97549af4d761d72139a03c4e0208b02297d
+  - path: 'dist/src/mission-control-system/internal/dtos/note.dto.go'
+    algorithm: sha256
+    value: 201903bf3f16c51a54b5f195f356c0ea54cbd7b11c8a46a47c457efa55e626d6
+  - path: 'dist/src/mission-control-system/internal/dtos/register.dto.go'
+    algorithm: sha256
+    value: 96d9404c22a921018927cb6fc7d5f2bf7d7927bed757a96797987e7a41d6a73f
+  - path: 'dist/src/mission-control-system/internal/dtos/structured_response.dto.go'
+    algorithm: sha256
+    value: 9dda728b8fa7b53798bacd7d46f90bd257f7da40e9843391e183815000730885
+  - path: 'dist/src/mission-control-system/internal/dtos/user.dto.go'
+    algorithm: sha256
+    value: 53a5c4d72ed2f79adad241f056f53ad12c85fa8149071ab3774ebc88055d6b9b
+  - path: 'dist/src/mission-control-system/internal/logger/logger.go'
+    algorithm: sha256
+    value: 43744e1d6d7ffaff6cc34661f30ef571210a95d6126a691cff198227233d6c28
+  - path: 'dist/src/mission-control-system/internal/models/comment.go'
+    algorithm: sha256
+    value: 2474e54a3e400e74cb50679e4e58615bfa9e469773c93d7b4f8109bfd24b8ba6
+  - path: 'dist/src/mission-control-system/internal/models/note.go'
+    algorithm: sha256
+    value: 9cebef0ec04cc6b4f2fe4af6bcf9d711291cabbfd98ac7a095b1102459efacab
+  - path: 'dist/src/mission-control-system/internal/models/role.go'
+    algorithm: sha256
+    value: eb62b9102c83501b5a875dceb196d1256eeda4ed66a1f728a7e13ba0ddc5b5cc
+  - path: 'dist/src/mission-control-system/internal/models/user.go'
+    algorithm: sha256
+    value: 41e83e59f0ecb630bca930e10ddc6d6410405115e66a0688640d57994a8b0e38
+  - path: 'dist/src/mission-control-system/internal/repositories/auth.repository.go'
+    algorithm: sha256
+    value: ae37a851e32ac78a168c83a4153b4200cc683b09792badcdbc1af8791c037baf
+  - path: 'dist/src/mission-control-system/internal/repositories/comment.repository.go'
+    algorithm: sha256
+    value: b435a74ec1f7c31f4ef00427056d5719b85fd353b70cf5cda6c4739beb8f824e
+  - path: 'dist/src/mission-control-system/internal/repositories/note.repository.go'
+    algorithm: sha256
+    value: 9bbaa47b22ad5455b9784f685678237eb345bb64c7604e1be773f33c81cba145
+  - path: 'dist/src/mission-control-system/internal/services/auth.service.go'
+    algorithm: sha256
+    value: 010f58f0144d1927bac5604d21e2e3dc43aa0eb2696090d35e082ef64f8c9d9b
+  - path: 'dist/src/mission-control-system/internal/services/comment.service.go'
+    algorithm: sha256
+    value: c283391711692d4fb6e431bb0e2b234e20ea6195173d2878837d8c33c061d870
+  - path: 'dist/src/mission-control-system/internal/services/note.service.go'
+    algorithm: sha256
+    value: d8e581582b9877f27a4b7e9cb7747b03771092d681565060dc0b5c995cbb9bc2
+  - path: 'dist/src/mission-control-system/internal/utils/jwt.go'
+    algorithm: sha256
+    value: cacc675db5015c52863cc207b4fd08f9528549dc320a359e6b1a6431820ebd2b
+  - path: 'dist/src/nginx/Dockerfile'
+    algorithm: sha256
+    value: 713d100b17abce6620f3347b8e9efdd0b5341354623487e7e5dfbc5e5c885273
+  - path: 'dist/src/nginx/proxy.conf'
+    algorithm: sha256
+    value: 449a1744d036e1350d15a87153929e003eb10f2c2edae1f64108d9aa98de1e58
+  - path: 'src/docker-compose.yaml'
+    algorithm: sha256
+    value: da2a02467a6cccea634b96c222ed4f7c5ea620c3c0e637686c3b3679306d32b8
+  - path: 'src/bot/.gitignore'
+    algorithm: sha256
+    value: 63610193c9fbe71aebfe72ebace60aaf6697f46db20e98a7fbf4b6e4383bea21
+  - path: 'src/bot/Dockerfile'
+    algorithm: sha256
+    value: 57280ce03f30417902330884874217d2d114ba406444c67ea31e15984a9ba3b9
+  - path: 'src/bot/README.md'
+    algorithm: sha256
+    value: 449c61fe12971116f8b3f6c389c21e367395ae826e5467b34dd6c53d34a70479
+  - path: 'src/bot/bun.lockb'
+    algorithm: sha256
+    value: b05305a223fc8c466ea7a83b8f2c2ce488eb53d8b22c1aa503f8aa911d08ce54
+  - path: 'src/bot/package.json'
+    algorithm: sha256
+    value: 35ed88df87789b30402f1a9272a45b01e420c4124685fa44aead074344ec2673
+  - path: 'src/bot/server.ts'
+    algorithm: sha256
+    value: 061e2410bcad9edd8b4156df3cc6fbc481af93c05dd734a31c8f63d3bad89d19
+  - path: 'src/bot/tsconfig.json'
+    algorithm: sha256
+    value: 86efafadde8dc1b339643a9ec3153332c6ccf1f4cff3561d16bd199f45b2878e
+  - path: 'src/bot/app/config.ts'
+    algorithm: sha256
+    value: b5f40f3bd5abf37b7ccfb5c93c3fd607e716e35e06a35735d15fae0d4361e1ee
+  - path: 'src/bot/app/controllers/dashboard.controller.ts'
+    algorithm: sha256
+    value: 7536cfca0cda5d3ce73a78622e266dac8519ed6c19d8fb616ffa14780ab687e9
+  - path: 'src/bot/app/controllers/index.controller.ts'
+    algorithm: sha256
+    value: 3265b528f8bede25a4642f98d9334dfb5fd60b5bcdf79010b2aaa6b0f2e4aee7
+  - path: 'src/bot/app/middlewares/csp.ts'
+    algorithm: sha256
+    value: bac32b13047c1cc39c6a66a178c44a8358b828a96c16312599d1dbcafcd9518a
+  - path: 'src/bot/app/middlewares/csrf.ts'
+    algorithm: sha256
+    value: a9d669cc7a8735d76395dec9d1e4aced689ad9be5dddef0bc2eab99b5c9aa2fa
+  - path: 'src/bot/app/middlewares/localOnly.ts'
+    algorithm: sha256
+    value: 99ecb4d34b12c20270d70621537946a4f0b5bb4a9881ca7d54c4cd9f3953f2b4
+  - path: 'src/bot/app/public/static/bg.jpg'
+    algorithm: sha256
+    value: e781a05c0c4e5cd5c0ca28697c9c4e7ad34df71a3a10b86a9625303798585a7c
+  - path: 'src/bot/app/public/static/bg2.jpg'
+    algorithm: sha256
+    value: e11ea05bb009a928bf80e43d88e8574ac4769523cacc64e27cc812b7d5ba0127
+  - path: 'src/bot/app/public/static/bootstrap.min.css'
+    algorithm: sha256
+    value: d13bf57acd0a78e410f0278dfd35f1138b5c6abcf9a3162f0b5021e52bd4ee5a
+  - path: 'src/bot/app/public/static/click.mp3'
+    algorithm: sha256
+    value: ea83db07bb64d2874233314a130ca03186df4a35ca4b9c55f58745321c2086a4
+  - path: 'src/bot/app/public/static/index.js'
+    algorithm: sha256
+    value: 00d7122cfbec2e350117e9f2316ab987bad7fb1932aaf7265588866806168cfe
+  - path: 'src/bot/app/public/static/style.css'
+    algorithm: sha256
+    value: ebeb02ad25b5aa2b6e2863f10ab61e0567cc1a8a23e3536edd2dfaf24f090e46
+  - path: 'src/bot/app/routes/index.route.ts'
+    algorithm: sha256
+    value: 398b0b005d51b023c71035f4fcc57f0edb26b88aa1f3799bb38db693424d6c33
+  - path: 'src/bot/app/services/bot.service.ts'
+    algorithm: sha256
+    value: 63ea9a318d39badb8c570b1e5cabb5403d1e2af9d99f11427d626329f7189677
+  - path: 'src/bot/app/services/sanitizer.service.ts'
+    algorithm: sha256
+    value: 4fe92f240a7c4093ee79df6300214fac65afdf3f7ea956205e82ad248341025b
+  - path: 'src/bot/app/types/express.d.ts'
+    algorithm: sha256
+    value: 3ecec46ee0095a1df3d30c9769a6dee1db6699cb2a9a1d0c64a334069c1d5bb0
+  - path: 'src/bot/app/utils/hash.ts'
+    algorithm: sha256
+    value: e43e4f54030718d46e77f4351e5329cc28b261cf446d946337b37a91f9e78442
+  - path: 'src/bot/app/utils/jwt.ts'
+    algorithm: sha256
+    value: 55a68a325f06ded6e8888193efffb009d58b43458af974f08eac8269e7b4243c
+  - path: 'src/bot/app/utils/setup.ts'
+    algorithm: sha256
+    value: 0bc79fac2563c01449628a5defcb64f2c369745e4fd41e388484cb74d98a59da
+  - path: 'src/bot/app/views/index.ejs'
+    algorithm: sha256
+    value: 443d7a22519301d75cb69b3ef00b9b4c5c0a38b3fd546430a3a5a5d6c46d8745
+  - path: 'src/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'src/frontend/.env'
+    algorithm: sha256
+    value: 150d5c1571693ca67437175e0a33ecde3af3d2010f57e2d1f5f7be2e03e356c3
+  - path: 'src/frontend/.gitignore'
+    algorithm: sha256
+    value: fca1cfd28c23e4bd2652855893b8891ac7b032f885885031c67322aef335bfb4
+  - path: 'src/frontend/Dockerfile'
+    algorithm: sha256
+    value: ad9645fe27cdba1480b8565071e6a6c398e314a504d012a681444aead344c671
+  - path: 'src/frontend/README.md'
+    algorithm: sha256
+    value: 84c5ef3beed0c8684863ae5c468e2265f365e2d4bec6ee35654521760a973fd7
+  - path: 'src/frontend/astro.config.mjs'
+    algorithm: sha256
+    value: 098d870e40630c28530f52243e357a7d71502be0dc2a094756e6a03516488cb7
+  - path: 'src/frontend/package-lock.json'
+    algorithm: sha256
+    value: 1569530c5bbf8c56e4c1711c0079d8750e95aa9374190a7883eaa1030e292a77
+  - path: 'src/frontend/package.json'
+    algorithm: sha256
+    value: ef25faab4f5cc6017fe4bc9f7d49c98350f757ce64f581dd2eec8d05223f5368
+  - path: 'src/frontend/tsconfig.json'
+    algorithm: sha256
+    value: 9563cef985ee6405d12c3e8e942c6f01fbebd8f94398169cccb563c6823eded4
+  - path: 'src/frontend/public/favicon.svg'
+    algorithm: sha256
+    value: 2d7a310283d6f9cc753210d83224cd6db6348cb82a5536348884e5831d46203f
+  - path: 'src/frontend/public/fonts/atkinson-bold.woff'
+    algorithm: sha256
+    value: f0de8ccb0af6e50fd1b51d50d5032c6824adc0f1b435345919fca1d9b72b3623
+  - path: 'src/frontend/public/fonts/atkinson-regular.woff'
+    algorithm: sha256
+    value: b51d2e16226a56e304ab9ba67d22f504afc5bdceab1caefe386063a26ee4bc0b
+  - path: 'src/frontend/public/scripts/comments-form.js'
+    algorithm: sha256
+    value: a63acad3e0109514b28de500cb373db592ce56934541030a9ea82da808a7b8ca
+  - path: 'src/frontend/public/scripts/signin.js'
+    algorithm: sha256
+    value: a5ebc06e74dac262d0e41f55922002ce1208e5cf97040fd77a2782d2a61bd3dd
+  - path: 'src/frontend/public/scripts/signup.js'
+    algorithm: sha256
+    value: fb3174bc195f02227686b742abf542776baf9ae69fca0086b790bcb36d9a8458
+  - path: 'src/frontend/src/consts.ts'
+    algorithm: sha256
+    value: 5899ff8f9729c000ef63e741f30a050fa99372aeced32a64d24fde4620a44e4b
+  - path: 'src/frontend/src/content.config.ts'
+    algorithm: sha256
+    value: 679728386f637e68e0a3279673bf41b2a7b31f8a15aceff83e2d98fd1d7b40a4
+  - path: 'src/frontend/src/middleware.ts'
+    algorithm: sha256
+    value: 8f0cfd882ef27f112375f5b4ae972a0c70236030e55adf1d26cfc5e98250a8d7
+  - path: 'src/frontend/src/utils.ts'
+    algorithm: sha256
+    value: e82e45bb7aafb137056939675e6684ceb644d5e77d765b5e01d0525b2e7816ba
+  - path: 'src/frontend/src/assets/blog-placeholder-1.jpg'
+    algorithm: sha256
+    value: 06a35a9434dc3bb33e2b5b7d0ba08454fbd7724e6a4017c5e609b3fe749a943c
+  - path: 'src/frontend/src/assets/blog-placeholder-2.jpg'
+    algorithm: sha256
+    value: 583b4e1d0faef6330cc1e9cb635bdd2233f8a771c756faa60c06c70f620d71c1
+  - path: 'src/frontend/src/assets/blog-placeholder-3.jpg'
+    algorithm: sha256
+    value: d5a59b41248c203b8128cffb672ffac3e4771ca29451d6f856b09d52a5248c5a
+  - path: 'src/frontend/src/assets/blog-placeholder-4.jpg'
+    algorithm: sha256
+    value: e0f9cc7783a492107b62fa155b504aee292001828ea86f2df59148cecd79f4b1
+  - path: 'src/frontend/src/assets/blog-placeholder-5.jpg'
+    algorithm: sha256
+    value: 9e674b8cfe3e5e64b0c6c14bc46666f44755ee04888b7d6d3c31bcb54ba32d72
+  - path: 'src/frontend/src/assets/blog-placeholder-about.jpg'
+    algorithm: sha256
+    value: f05b2dbff18b181e3cdd494f1370b8e0c8e13a5c34400b0c5d181af7d45029f9
+  - path: 'src/frontend/src/components/BaseHead.astro'
+    algorithm: sha256
+    value: fc71a4638066e600fda246eb36b09d4258449b9935ea86337e40d6d3b32f5a1c
+  - path: 'src/frontend/src/components/Footer.astro'
+    algorithm: sha256
+    value: 0533bad67537951f9321a32856e5f6432324cdcf732d2176e753c6e2b43ab4b3
+  - path: 'src/frontend/src/components/FormattedDate.astro'
+    algorithm: sha256
+    value: 838c6ce776916ef1c5c3ebf63df387fe348c973a67f1fd82bc9de6f24e56a5fd
+  - path: 'src/frontend/src/components/Header.astro'
+    algorithm: sha256
+    value: dd297cfd559c13c3db4f8f4bd92413188b8f854489120b1130126ee9f73f9ca4
+  - path: 'src/frontend/src/components/HeaderLink.astro'
+    algorithm: sha256
+    value: 8dfa53ab4d14d5d1f10cfc638830e56750e0a94c23b820fe0a3c685f411f6ac1
+  - path: 'src/frontend/src/layouts/Comments.astro'
+    algorithm: sha256
+    value: 93c8f347a92670527870e7ec91dc06920531742976611ef3e17cf4b4cc857b4e
+  - path: 'src/frontend/src/layouts/Notes.astro'
+    algorithm: sha256
+    value: 393e01c05323b7e903d564e9cd0c3e0bd4d496f573fb79e00ddf1213f7fab2d6
+  - path: 'src/frontend/src/pages/about.astro'
+    algorithm: sha256
+    value: 2835bc7e2047aa02b3267308167fef73b21f844d48a5bfd2ddf74cf30cc8fdc1
+  - path: 'src/frontend/src/pages/index.astro'
+    algorithm: sha256
+    value: 8e33caed100c2b9e79dfed4604f43694a50e14e3884ea0635bd60c8496785b43
+  - path: 'src/frontend/src/pages/rss.xml.js'
+    algorithm: sha256
+    value: e9e664174a1426248d232eac9f1685daeec526d2230bebfe119ec6f5778eb19f
+  - path: 'src/frontend/src/pages/api/comment.ts'
+    algorithm: sha256
+    value: 3cef8204db7f2b37f39751a074899cf0981863b75242ec0f94daa8790b208199
+  - path: 'src/frontend/src/pages/api/control-check.ts'
+    algorithm: sha256
+    value: 4898f5037f3131419c5dd423b0ee2c90e7c408891ce8830d8560bfa121824119
+  - path: 'src/frontend/src/pages/api/signin.ts'
+    algorithm: sha256
+    value: 5546e4622a95fb00f207e9d43fd2ef12555d6035bee72b7a26af044889c3336d
+  - path: 'src/frontend/src/pages/api/signup.ts'
+    algorithm: sha256
+    value: 45c485197cf6d8d6e7d4c7f4031cf68a04ba288f558ac9db10e590b8cb60ccd4
+  - path: 'src/frontend/src/pages/api/notes/create.ts'
+    algorithm: sha256
+    value: 52b74e9c8c42b178a01f8033db330faa9486bb12fc6b4a533dcfef4085307890
+  - path: 'src/frontend/src/pages/notes/[...slug].astro'
+    algorithm: sha256
+    value: 890d8fc4e309ceb5c6c3d7a279c583360657807e31dabc63876c55c7f434032e
+  - path: 'src/frontend/src/pages/notes/index.astro'
+    algorithm: sha256
+    value: 2ad8b99fb7f9766ed8900532606704a4cb73c8edac0a7a251b8ceb6d5aa06b13
+  - path: 'src/frontend/src/pages/notes/new/index.astro'
+    algorithm: sha256
+    value: a39bad0b9036cb62c8765306280b01a47ae7c0d7b62442476b043d7f9b08b6fb
+  - path: 'src/frontend/src/pages/signin/index.astro'
+    algorithm: sha256
+    value: f2b4f622ecb69d2e36a57ac704dae33714db28cc0bf828b2bddf356b7613fe03
+  - path: 'src/frontend/src/pages/signup/index.astro'
+    algorithm: sha256
+    value: 4d0ecf7d8b77b3860ac79585ef6268a5c7a53cbd7f42e07ad860595c1530e11e
+  - path: 'src/frontend/src/styles/global.css'
+    algorithm: sha256
+    value: 28e56d77c1b015961d8408e87d3b7e1d47fc1d1890c7a573a0bed9e5b271ec28
+  - path: 'src/mission-control-system/.air.toml'
+    algorithm: sha256
+    value: 146df55280c7467538d1f287e816720a11361a87fe0e859d09bdab3ce16aa439
+  - path: 'src/mission-control-system/.env'
+    algorithm: sha256
+    value: 4b8587207e3e398fed8d4d7d019917044a0498605c28e3dbab8d07ae09528049
+  - path: 'src/mission-control-system/.env.example'
+    algorithm: sha256
+    value: e7c4f1a5c1b33e807e48721d57fae4fb64e87f7bc99a76857abfb5dbb61d9087
+  - path: 'src/mission-control-system/.gitignore'
+    algorithm: sha256
+    value: 0b3248da7c4711106608d3d2abfd3f9b2b7036027e0cfd6a35da356acee867d7
+  - path: 'src/mission-control-system/Dockerfile'
+    algorithm: sha256
+    value: 4577d3efe4054f6566295a34d215f1ab46937b9a52ab1a9bd25b2bbf665a62a3
+  - path: 'src/mission-control-system/LICENSE'
+    algorithm: sha256
+    value: 17fcb6113d23657f4c854336c2d29f8d60e7c27461cf77400feef1d9468bc06e
+  - path: 'src/mission-control-system/dev.sh'
+    algorithm: sha256
+    value: 79c46c35a9a5ca4dff44856de5b4fb319eb9b7f6480317d9019df0192be1cf7f
+  - path: 'src/mission-control-system/go.mod'
+    algorithm: sha256
+    value: 1cbc442dbb6f9554557af66189a83a6742e032f5c4ec1c132f4725b9c6573340
+  - path: 'src/mission-control-system/go.sum'
+    algorithm: sha256
+    value: a9304cf7e1f1275fdcc3a0bf576fbe8eeaf7f407731b9ce74a314bdbd3ab2702
+  - path: 'src/mission-control-system/main.go'
+    algorithm: sha256
+    value: 583ee333f94958e76a36e91f9b2bda2efb0a1c36243d2016b2c62a412741901b
+  - path: 'src/mission-control-system/readMe.md'
+    algorithm: sha256
+    value: 135ef0212c895ff1f934dab514857ed3e8948690105d3ca0c0271f2ad3d56be4
+  - path: 'src/mission-control-system/api/handlers/auth.handler.go'
+    algorithm: sha256
+    value: 697ddba79932aa2b819d78bdffe0154db670619d9cd42a336236fd2b7dc919ee
+  - path: 'src/mission-control-system/api/handlers/base.handler.go'
+    algorithm: sha256
+    value: b8f59240af3522d24140b87d60b31c70e2cf61709d5569b31998279427d1e3da
+  - path: 'src/mission-control-system/api/handlers/comments.handler.go'
+    algorithm: sha256
+    value: ada66f9a77e9d67cab10de0a383b5d20cf037dab2ef94e487aa1afbe38395021
+  - path: 'src/mission-control-system/api/handlers/notes.handler.go'
+    algorithm: sha256
+    value: 0e1411e662030425955d5d440192d750b923dd5e17269385a202908c4066a948
+  - path: 'src/mission-control-system/api/middleware/admin.middleware.go'
+    algorithm: sha256
+    value: e9525da5cc072dc2e0b7ed7bf11b8d5cc2d3fcf8b4a2d7b3d29ddbe63b4f6b33
+  - path: 'src/mission-control-system/api/middleware/auth.middleware.go'
+    algorithm: sha256
+    value: 95bb723614bfa9c30d299d343c64c719eb38735ed9a940e9f0e4522bdfc5b5ec
+  - path: 'src/mission-control-system/api/routes/admin.route.go'
+    algorithm: sha256
+    value: d4243c3437408a5b7d7abb7c94c614f8bec9de0ce05832e9c5b7d7c535c9ad39
+  - path: 'src/mission-control-system/api/routes/auth.route.go'
+    algorithm: sha256
+    value: 3d8efbcc36d7121c932c3269f8ed683e0e8f632239ef98bc183bd34d754828f9
+  - path: 'src/mission-control-system/api/routes/comment.route.go'
+    algorithm: sha256
+    value: b42d0324f8ec8cf9ddcbad244d22195f893856f1a702fdaa416ed15f8fa08c9b
+  - path: 'src/mission-control-system/api/routes/middleware.go'
+    algorithm: sha256
+    value: 3264aaaf4027d6a14bcb3d84e5d0df2988ae58d4fc4d55c6d51c3608c93c8002
+  - path: 'src/mission-control-system/api/routes/note.route.go'
+    algorithm: sha256
+    value: 4532484a1863ae192cae6fef8b8c349ca13e561970c0a8880c2f369f621aebe9
+  - path: 'src/mission-control-system/api/routes/route.go'
+    algorithm: sha256
+    value: b04a217b971dbc19ba1b5db5762bc94362f9e31de04d0bd154c3cc65864ab81c
+  - path: 'src/mission-control-system/config/config.go'
+    algorithm: sha256
+    value: 0401c0b57994f8d4e53911ad5ae2deafa2e9132a9a0a53854b829b5fa01d6f4e
+  - path: 'src/mission-control-system/database/postgres.go'
+    algorithm: sha256
+    value: 7326d68a4c76f9dccc7e1ce92ff552fcd3e84925c2b4b68517baedf7c53832a0
+  - path: 'src/mission-control-system/docs/docs.go'
+    algorithm: sha256
+    value: 99d2a3a53f3de80310e36608e3f904232949cb8f3b7a4efe83c19eb4f85e6f84
+  - path: 'src/mission-control-system/docs/pres.png'
+    algorithm: sha256
+    value: 629d74a1cd918acc2270cab3facda0404247d3259920eedb796becb6ae997539
+  - path: 'src/mission-control-system/docs/swagger.json'
+    algorithm: sha256
+    value: b0f4de8b6e4549fa6b00dc6674ff823f657d5defedbc09d57aa74d94c41f9aa3
+  - path: 'src/mission-control-system/docs/swagger.yaml'
+    algorithm: sha256
+    value: c5dea0c4958fc72a6f694c7a0715b445fc020158bdeba56b7d1db68b228b64f0
+  - path: 'src/mission-control-system/internal/dtos/comment.dto.go'
+    algorithm: sha256
+    value: 54229c2922eec70039f138e0fa1ec97549af4d761d72139a03c4e0208b02297d
+  - path: 'src/mission-control-system/internal/dtos/note.dto.go'
+    algorithm: sha256
+    value: 201903bf3f16c51a54b5f195f356c0ea54cbd7b11c8a46a47c457efa55e626d6
+  - path: 'src/mission-control-system/internal/dtos/register.dto.go'
+    algorithm: sha256
+    value: 96d9404c22a921018927cb6fc7d5f2bf7d7927bed757a96797987e7a41d6a73f
+  - path: 'src/mission-control-system/internal/dtos/structured_response.dto.go'
+    algorithm: sha256
+    value: 9dda728b8fa7b53798bacd7d46f90bd257f7da40e9843391e183815000730885
+  - path: 'src/mission-control-system/internal/dtos/user.dto.go'
+    algorithm: sha256
+    value: 53a5c4d72ed2f79adad241f056f53ad12c85fa8149071ab3774ebc88055d6b9b
+  - path: 'src/mission-control-system/internal/logger/logger.go'
+    algorithm: sha256
+    value: 43744e1d6d7ffaff6cc34661f30ef571210a95d6126a691cff198227233d6c28
+  - path: 'src/mission-control-system/internal/models/comment.go'
+    algorithm: sha256
+    value: 2474e54a3e400e74cb50679e4e58615bfa9e469773c93d7b4f8109bfd24b8ba6
+  - path: 'src/mission-control-system/internal/models/note.go'
+    algorithm: sha256
+    value: 9cebef0ec04cc6b4f2fe4af6bcf9d711291cabbfd98ac7a095b1102459efacab
+  - path: 'src/mission-control-system/internal/models/role.go'
+    algorithm: sha256
+    value: eb62b9102c83501b5a875dceb196d1256eeda4ed66a1f728a7e13ba0ddc5b5cc
+  - path: 'src/mission-control-system/internal/models/user.go'
+    algorithm: sha256
+    value: 41e83e59f0ecb630bca930e10ddc6d6410405115e66a0688640d57994a8b0e38
+  - path: 'src/mission-control-system/internal/repositories/auth.repository.go'
+    algorithm: sha256
+    value: ae37a851e32ac78a168c83a4153b4200cc683b09792badcdbc1af8791c037baf
+  - path: 'src/mission-control-system/internal/repositories/comment.repository.go'
+    algorithm: sha256
+    value: b435a74ec1f7c31f4ef00427056d5719b85fd353b70cf5cda6c4739beb8f824e
+  - path: 'src/mission-control-system/internal/repositories/note.repository.go'
+    algorithm: sha256
+    value: 9bbaa47b22ad5455b9784f685678237eb345bb64c7604e1be773f33c81cba145
+  - path: 'src/mission-control-system/internal/services/auth.service.go'
+    algorithm: sha256
+    value: 010f58f0144d1927bac5604d21e2e3dc43aa0eb2696090d35e082ef64f8c9d9b
+  - path: 'src/mission-control-system/internal/services/comment.service.go'
+    algorithm: sha256
+    value: c283391711692d4fb6e431bb0e2b234e20ea6195173d2878837d8c33c061d870
+  - path: 'src/mission-control-system/internal/services/note.service.go'
+    algorithm: sha256
+    value: d8e581582b9877f27a4b7e9cb7747b03771092d681565060dc0b5c995cbb9bc2
+  - path: 'src/mission-control-system/internal/utils/jwt.go'
+    algorithm: sha256
+    value: cacc675db5015c52863cc207b4fd08f9528549dc320a359e6b1a6431820ebd2b
+  - path: 'src/nginx/Dockerfile'
+    algorithm: sha256
+    value: 713d100b17abce6620f3347b8e9efdd0b5341354623487e7e5dfbc5e5c885273
+  - path: 'src/nginx/proxy.conf'
+    algorithm: sha256
+    value: 449a1744d036e1350d15a87153929e003eb10f2c2edae1f64108d9aa98de1e58
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Web/super revenge at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Web/super%20revenge
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is. The
+  directory name is "super revenge" and the source challenge name is super-revenge. Both src/ and
+  dist/src/ embed the frontend with its .vscode/ editor settings; those are excluded and recorded
+  as omissions. dist/src.zip is the participant attachment and is preserved unmodified.

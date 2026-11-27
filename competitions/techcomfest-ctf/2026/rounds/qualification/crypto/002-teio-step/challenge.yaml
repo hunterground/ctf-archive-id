@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-crypto-002
+name: 'teio-step'
+slug: 002-teio-step
+original_name: 'teio-step'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: 'Crypto'
+description: |-
+  uma pyoi uma pyoi uma pyoi uma pyoi
+
+  https://{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'azuketto'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Crypto/teio-step'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 7d105192c38c320a8f87f89252e3547a69448db8474747bfc7dfeee51ec6ed76
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: c3cbe99c205a6f7cac976f962d42c9b5e7d581efb9482dd9f822f50e35c0c6f2
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 703e6ed2b4d0619fe5c29d74342a0ed6759c464f73a306517d9bcf84899427b0
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: c3cbe99c205a6f7cac976f962d42c9b5e7d581efb9482dd9f822f50e35c0c6f2
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: d3e50fb4e74e5c4fc0d2f830f592136b69b2fd6840223cf95ad3608ee5f16c32
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 8d780296cdac26dfc07f2c87733a278b1639a6839d89c1c3c2c56169aed1fa36
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: 0e4274576818d02ec73519f06ecdcef1a5158f72f3724a6cd7179f57bd207961
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Crypto/teio-step at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Crypto/teio-step
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

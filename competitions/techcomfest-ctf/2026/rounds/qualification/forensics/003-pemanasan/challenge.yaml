@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-forensics-003
+name: 'pemanasan'
+slug: 003-pemanasan
+original_name: 'pemanasan'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  "Cisco Packet Tracer adalah perangkat lunak simulasi jaringan gratis dari Cisco Systems yang memungkinkan pengguna membuat, mengonfigurasi, dan menguji topologi jaringan virtual secara interaktif, berguna untuk belajar konsep jaringan, persiapan sertifikasi (seperti CCNA), serta simulasi skenario jaringan kompleks tanpa perlu perangkat keras fisik yang mahal. Alat ini menyediakan visualisasi pergerakan data dan antarmuka drag-and-drop untuk membangun jaringan dengan router, switch, PC, server, dan perangkat lain, menjadikannya media pembelajaran praktis yang populer di kalangan pelajar dan profesional IT."
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: 'crypiktemep'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Forensics/pemanasan'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: e39f3e9869ddca3501828da2ac88f0c253ce2a5493989737db3211d6a5ba4547
+  - path: 'dist/LAB 6 - EtherChannel.pkz'
+    algorithm: sha256
+    value: d54bbc1af4841ab2440af5d239e58af5b0eb5452427dae74edc5815c3842259d
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Forensics/pemanasan at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Forensics/pemanasan
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.
+  Author in the source challenge.yml is "crypiktemep". The challenge ships a Cisco Packet Tracer
+  activity file (LAB 6 - EtherChannel.pkz) rather than the pcap-style artifacts usual for the
+  category.

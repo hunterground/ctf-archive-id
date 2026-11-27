@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-crypto-002
+name: 'Ez Encryption'
+slug: 002-ez-encryption
+original_name: 'Ez Encryption'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: 'Crypto'
+description: |-
+  Trust me you don't need to know math to solve this ;)
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'BerlianGabriel'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Crypto/ez-encryption
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.MD'
+    algorithm: sha256
+    value: f080032598b0314d70b33099b0680e97e89da2857c8463c9e748450ac21c2fd8
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 2913c2776c560a68335416982078613dfe08f1525e5d9b3fb3336770b33a274e
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: 046a394c59b1e64c21ed7d1a028941d93e9937ff04bb9cf06bf44f5d959a4cc9
+  - path: 'dist/out.txt'
+    algorithm: sha256
+    value: 524116d22f565684c948c0bcbebf4554728a3760a5178807b21870948569ad5e
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: 9e1a613c0472e942c16253b36aca21c1371ea3e7ebbf7620d38fe50365eae9f8
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Finals/Crypto/ez-encryption at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Crypto/ez-encryption
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

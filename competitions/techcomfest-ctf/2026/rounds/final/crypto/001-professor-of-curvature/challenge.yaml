@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-final-crypto-001
+name: 'professor-of-curvature'
+slug: 001-professor-of-curvature
+original_name: 'professor-of-curvature'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: crypto
+original_category: 'Crypto'
+description: |-
+  harikitteeeeee ikouuuuuU!!!!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'azuketto'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-finals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals
+  commit: efa89445bfdbbc85897074f95be393d611005b13
+  original_path: 'Finals/Crypto/professor-of-curvature'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: cc6d0f347a50a939a7b125136e7d9041fc88b6f3202ee77a0abd02ac548b9b08
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: 23613895788b5b95c344f0dd058c950827e7e944295d5babe73547328df8ee79
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: b8debe9ca80ea6149b63be106d4d8f3ac7b21bfabea15c4e93fb86df17f3af07
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: d4cad76d8377f3d124bf35f93e3765ce875b8a24e5fac3aaaddb29d4ea66b367
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: ac3a8edfec25e225fb4e9fbe8e0ca649a25a2d80e913975805309cb102070bfe
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 792d31516c9a1b3241dcae46a33924f9e513802ce6f766d11f25c6fbb2e23be6
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: 66632d2c99b3df73dd814f9b5c973aa233787a8d7fb90b0aebfb607d32cd52c7
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 87f6d62d9b4f173a8bcdaba85a40ecb404dff0283c15d380db1683a7d9c24994
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Finals/Crypto/professor-of-curvature at TECHCOMPFEST-CTF-2026-Finals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/efa89445bfdbbc85897074f95be393d611005b13/Finals/Crypto/professor-of-curvature
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

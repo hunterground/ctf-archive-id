@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: qualification
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+name: Qualification
+original_name: Quals
+sequence: 2
+type: qualification
+delivery: online
+description: Qualification stage of Techcomfest 2024 CTF, held on 28 December 2023.
+dates:
+  start: '2023-12-28'
+  end: '2023-12-28'
+statistics:
+  challenge_count: 6
+  participant_count: null
+references:
+- title: TECHCOMFEST-2024/Quals at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Quals
+  type: official_repository
+  accessed: '2026-11-27'
+- title: CTFtime / TECHCOMFEST 2024
+  url: https://ctftime.org/ctf/1019/
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Six qualification challenges imported from the Quals directory of the author repository. Date is
+  inferred from the parallel Techcomfest 2025 schedule; the source does not state a date. CTFtime
+  describes the 2024 competition as jeopardy with a qualification and an onsite final.

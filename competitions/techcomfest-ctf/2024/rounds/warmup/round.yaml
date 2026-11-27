@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: warmup
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+name: Warm-up
+original_name: Warmup
+sequence: 1
+type: warmup
+delivery: online
+description: Warm-up round of Techcomfest 2024 CTF, held on 21 December 2023.
+dates:
+  start: '2023-12-21'
+  end: '2023-12-21'
+statistics:
+  challenge_count: 3
+  participant_count: null
+references:
+- title: TECHCOMFEST-2024/Warmup at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Warmup
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Three warm-up challenges imported from the Warmup directory of the author repository. Date is inferred
+  from the parallel Techcomfest 2025 schedule; the source does not state a date.

@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-rev-001
+name: 'Akane'
+slug: 001-akane
+original_name: 'Akane'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: 'Reverse'
+description: |-
+  https://github.com/aimardcr/Akane
+
+  https://gzcli.{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'aimardcr'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Reverse/Akane'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 5699896b5dbced642c782c8f619abc04bc6838a2bfa95be7023cc8238b8cf302
+  - path: 'dist/main'
+    algorithm: sha256
+    value: 7cf2a5c69229fbfe420d7be9d6e4f2d84d6df8e8ff7aeed0d07b120975e9f2de
+  - path: 'src/.dockerignore'
+    algorithm: sha256
+    value: 7e4878a61873a662386db70b18babbce6ca2109caee218eeb50111cbaed43d63
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: c386f970636325ccd9cd70136577d71a7371a2bf179bce94f3f6948fbd1f77a9
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: 01ff0e09291e06b62e89fdd58212cdf0c9bd6249768cc39b6925da21038f15e4
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 776abe9c5c9bf0b9638d2927e5141cddb9351d15f795727e1abb10747a4883d6
+  - path: 'src/main'
+    algorithm: sha256
+    value: 7cf2a5c69229fbfe420d7be9d6e4f2d84d6df8e8ff7aeed0d07b120975e9f2de
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Reverse/Akane at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Reverse/Akane
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

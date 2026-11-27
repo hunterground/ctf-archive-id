@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-final-rev-001
+name: 'Textual'
+slug: 001-textual
+original_name: 'Textual'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: 'Reverse'
+description: |-
+  I just made a simple chat app using Textual! I hope you like it!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'marc'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-finals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals
+  commit: efa89445bfdbbc85897074f95be393d611005b13
+  original_path: 'Finals/Reverse/textual'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 5a17d45f484856d466043397e196adcad7f69ac27d3e5e8d2184533452cf3fdf
+  - path: 'dist/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'dist/dist.tar.gz'
+    algorithm: sha256
+    value: 6a9685511381a9661ad12309f5e70eb00708e9487c0c0acd17f8996461aaaf5d
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: c56aa9287fc073b55c02e7c6b7d553e7a6a9be64a338899bfe4921f41bff3c15
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Finals/Reverse/textual at TECHCOMPFEST-CTF-2026-Finals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals/tree/efa89445bfdbbc85897074f95be393d611005b13/Finals/Reverse/textual
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is. The
+  src/flag.txt contains the placeholder flag{testing}, not the real flag; it is preserved as
+  distributed. The participant attachment is dist/dist.tar.gz.

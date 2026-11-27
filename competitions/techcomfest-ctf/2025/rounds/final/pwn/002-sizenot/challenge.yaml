@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-pwn-002
+name: 'sizenot'
+slug: 002-sizenot
+original_name: 'sizenot'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: 'Pwn'
+description: |-
+  heapnote kesukaan para player pwn terutama msfir
+
+  Connect: nc {{ .host }} 10011
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'rui'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Pwn/sizenot
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: e9859d76a7774c6adbdaf506cd21c8d1974b285dbee03b3bccc77a0b647a8812
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: bd015dd6f92ed8d4fe73e1ceca4489155740749ec4e203bb0d849abe0af44d8b
+  - path: 'dist.zip'
+    algorithm: sha256
+    value: 02c2892eb29d5b31909260272bfa96d3d2a7edca4c44ed123d2544188f0d5f27
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 4a89d824d11304caa96476808f0ddef2db975bbcaa22a7460f7e1776434259f0
+  - path: 'flag.txt'
+    algorithm: sha256
+    value: daf56b574ef64edb6d699e695090bf0248409e49e7980ce7860dacee39bc7aa0
+  - path: 'chall/main'
+    algorithm: sha256
+    value: 51e9d3a5450d6215f2639d20a0e286438eae4c653b5f6eb102a9d6da542fc1ee
+  - path: 'chall/main.c'
+    algorithm: sha256
+    value: 05a6d354c1c8d374bcbb8eba1f82f85ae33d877f97fecd7b0644304a569e9ef1
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Finals/Pwn/sizenot at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Pwn/sizenot
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

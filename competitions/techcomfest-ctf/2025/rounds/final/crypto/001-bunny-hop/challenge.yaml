@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-crypto-001
+name: 'Bunny Hop'
+slug: 001-bunny-hop
+original_name: 'Bunny Hop'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: 'Crypto'
+description: |-
+  Time to script some bhops
+
+  Connect: nc {{ .host }} 8010
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'azuketto'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Crypto/bunny-hop
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 31eb7e921aa52ee045ac5f87d13835a27fcf81f654c3d97f82f64fdb01d362e9
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: d9ea434578c6979c4a7e31d272417472b9680cf8b97eb215119567d2209bc5dd
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 5942c64531499b147b4468a6c14078d6d3759713519856ef88b321cf6c29e479
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: d9ea434578c6979c4a7e31d272417472b9680cf8b97eb215119567d2209bc5dd
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: bd71a0e50b1994199ffdc085dd2717276fb531d7c9c1d4332d956a730ef6289b
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 092fb1a230129e2ba8fbd3233ef49d5f1494ce6c6f71b6ac85b22045032f64ef
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: c49384d33d68249eb18e2a285c2aa4ef8d8953b2d490d6a592531411ae3e7484
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Finals/Crypto/bunny-hop at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Crypto/bunny-hop
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

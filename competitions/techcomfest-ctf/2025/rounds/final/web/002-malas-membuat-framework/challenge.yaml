@@ -1,0 +1,142 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-web-002
+name: 'Malas Membuat Framework'
+slug: 002-malas-membuat-framework
+original_name: 'Malas Membuat Framework'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: 'Web'
+description: |-
+  Malas membuat framework, akhirnya menggunakan yang anti mainstream.
+
+  Server: http://{{ .host }}:62894
+
+  Bot   : http://{{ .host }}:50078
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'dimas'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Web/Malas Membuat Framework
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 65b0be3f030572fde58dd70077df88c929dc18b3f9da452c27eff0aabb97303a
+  - path: 'dist/.env'
+    algorithm: sha256
+    value: 5a2636ed7c3e4a6430498a19b17a5a938644668df39181c24e3ead561cc34649
+  - path: 'dist/Dockerfile'
+    algorithm: sha256
+    value: 3e0845dd1edce9353ce5150a032c48a4f8eaaea0a4fb188fdd666c1a05cb4fd9
+  - path: 'dist/compose.yml'
+    algorithm: sha256
+    value: 06154d07ff0331cb5d9c16a940d70bbd085d3283e0106142c2af8301c77f35f9
+  - path: 'dist/index.html'
+    algorithm: sha256
+    value: 2e2e928c24d2cd23d29eafeab68ae3196d0359b6a8fd84d06fdd077cf60d953c
+  - path: 'dist/main.go'
+    algorithm: sha256
+    value: ffae82f1eeceb68c55a6020461bdf549723b3dba25fc6174e01b7d007a434569
+  - path: 'dist/proxy.py'
+    algorithm: sha256
+    value: 79e07057ffc23070fe6d12745713da075f1d44333d7a100f06877175ba35f20a
+  - path: 'dist/bot/.dockerignore'
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: 'dist/bot/Dockerfile'
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: 'dist/bot/bot.js'
+    algorithm: sha256
+    value: a55e20148148158a9ce043469f990ccd31f9426108dba38caabaf527746d14d1
+  - path: 'dist/bot/index.js'
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: 'dist/bot/package.json'
+    algorithm: sha256
+    value: 445adc2108bb75b300382585902460e44d48710a0f280b39d8844971b003c4b7
+  - path: 'dist/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'dist/bot/views/index.ejs'
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: 'src/.env'
+    algorithm: sha256
+    value: 7c9c9d4f658bfac66f62a440003c3ce9a2d034a0de57ec6fb3a8695a89d70741
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 3e0845dd1edce9353ce5150a032c48a4f8eaaea0a4fb188fdd666c1a05cb4fd9
+  - path: 'src/compose.yml'
+    algorithm: sha256
+    value: 06154d07ff0331cb5d9c16a940d70bbd085d3283e0106142c2af8301c77f35f9
+  - path: 'src/index.html'
+    algorithm: sha256
+    value: 2e2e928c24d2cd23d29eafeab68ae3196d0359b6a8fd84d06fdd077cf60d953c
+  - path: 'src/main.go'
+    algorithm: sha256
+    value: ffae82f1eeceb68c55a6020461bdf549723b3dba25fc6174e01b7d007a434569
+  - path: 'src/proxy.py'
+    algorithm: sha256
+    value: 79e07057ffc23070fe6d12745713da075f1d44333d7a100f06877175ba35f20a
+  - path: 'src/bot/.dockerignore'
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: 'src/bot/Dockerfile'
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: 'src/bot/bot.js'
+    algorithm: sha256
+    value: a55e20148148158a9ce043469f990ccd31f9426108dba38caabaf527746d14d1
+  - path: 'src/bot/index.js'
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: 'src/bot/package.json'
+    algorithm: sha256
+    value: 445adc2108bb75b300382585902460e44d48710a0f280b39d8844971b003c4b7
+  - path: 'src/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'src/bot/views/index.ejs'
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Finals/Web/Malas Membuat Framework at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Web/Malas%20Membuat%20Framework
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

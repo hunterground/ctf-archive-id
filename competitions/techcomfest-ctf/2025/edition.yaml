@@ -10,12 +10,32 @@ dates:
   end: '2025-01-20'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 25
 references:
 - title: Techcomfest 2025
   url: https://techcomfest.ukmpcc.org/
   type: official_website
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: CTF warm-up on 21 December 2024, qualification on 28 December 2024, and onsite final on 20 January
+- title: TCP1P/TECHCOMPFEST-2025-PUBLIC (problemsetter repository)
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  type: official_repository
+  accessed: '2026-11-27'
+- title: SandWithCheese/ctf-writeups - FINAL CTF TECHCOMFEST 2025 (secondary source, not imported)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/FINAL%20CTF%20TECHCOMFEST%202025
+  type: third_party_archive
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >-
+  CTF warm-up on 21 December 2024, qualification on 28 December 2024, and onsite final on 20 January
   2025 at Politeknik Negeri Semarang. The edition year follows the event name Techcomfest 2025.
+  All 25 challenges in the problemsetter repository TCP1P/TECHCOMPFEST-2025-PUBLIC (MIT, "Copyright
+  (c) 2025 TCP1P") were imported from commit 5d0690211f8477d6afb0309753057f0b407144c9: 17 in the
+  qualification round (crypto 3, forensics 3, pwn 4, rev 3, web 4) and 8 in the final round
+  (crypto 2, pwn 2, rev 2, web 2). The repository README states a CTF start of 20 December 2024,
+  which is used as the qualification date. Difficulty is unstated for every challenge, so it is
+  recorded as unknown rather than calculated. Two source anomalies are documented in the challenge
+  notes: Forensics/pemanasan carries a TCF2024-prefixed flag, and the repository root contains no
+  challenge-count document, so counts here are directory counts. A player writeup repository,
+  SandWithCheese/ctf-writeups, holds a "FINAL CTF TECHCOMFEST 2025" tree with dist copies of the final
+  challenges (Crypto "Ez Encryption"; Web "Crew DB" and "Malas Membuat Framework"); it is a secondary
+  source and was not used, since the authoritative problemsetter repository covers the same challenges.

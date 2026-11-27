@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-rev-002
+name: 'Secure Server 2.0'
+slug: 002-secure-server-2-0
+original_name: 'Secure Server 2.0'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: 'Reverse'
+description: |-
+  I just deployed my web using an open-source server, this time my git command was broken, so I just downloaded the source from the russian forum I found.
+  Nothing could ever go wrong again, right?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'aimardcr'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Reverse/Secure Server 2.0
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: fc4d00f0fd1a440a45d9ebd22d333f0e0cdafc6d1f56970a38bcee2f00240faa
+  - path: 'chall/Dockerfile'
+    algorithm: sha256
+    value: cd508b1cb143204a8afedcc17719608327443798800457506a19400d6201dc7a
+  - path: 'chall/flag.txt'
+    algorithm: sha256
+    value: dbc59e48c14948bcceabe73bbaa97153d0b04f281b1ea3949a15c89fcacd8e2a
+  - path: 'chall/src/main'
+    algorithm: sha256
+    value: ebe218a04a2ef01b5f149b29d2e2f30acfd4323b50d238d91d2a5e1f25e9e06f
+  - path: 'chall/src/static/nino.png'
+    algorithm: sha256
+    value: 8b97cd46b0aa0b60b17da293cd4da3f2f43607b2b0e67b26fb13d5d89ab31713
+  - path: 'chall/src/templates/index.html'
+    algorithm: sha256
+    value: a0179f4fa705ad44d42eb2230a78947bb1add12ead036a8dcae9f27db8aef504
+  - path: 'chall/src/templates/upload.html'
+    algorithm: sha256
+    value: d9f445b2473b5f720ee307b93e2ecc3a0d2a88fbf265fbb2fb326a3f49180dec
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Finals/Reverse/Secure Server 2.0 at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Reverse/Secure%20Server%202.0
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

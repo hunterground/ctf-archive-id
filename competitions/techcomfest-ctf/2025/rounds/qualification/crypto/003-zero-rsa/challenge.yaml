@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-crypto-003
+name: 'Zero knowledge RSA?'
+slug: 003-zero-rsa
+original_name: 'Zero knowledge RSA?'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: 'Crypto'
+description: |-
+  Is this how you do zero knowledge? Just hide every parameter?
+
+  Connect: nc {{ .host }} 8010
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'azuketto'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Crypto/zero-rsa
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 166749c5c22929b9587f8b45c5df5561aa512d0fde225bf64f2d4915d55b303d
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: 810e314c813a0bd5f1359805504f8ec0fc827d23141bb0a966f79457869c9d60
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 5942c64531499b147b4468a6c14078d6d3759713519856ef88b321cf6c29e479
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: 810e314c813a0bd5f1359805504f8ec0fc827d23141bb0a966f79457869c9d60
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: fc1968bf18ab2570b793b7ab811a47da4dc6f22e0b267e735a8296dfa790ddaa
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 963f11bc565f996dee6d15b78d0ce65474909ccb9a47de1625fe9ee33d5dd060
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: 658ca39a5a972267ab30af5f50fdce633a083a6b95f891981bfa2dc7fa0e7aca
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 03c10b706047a0be03531cb8f96fcd0c6f7a67f18575a30a10ae96691652bb26
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Crypto/zero-rsa at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Crypto/zero-rsa
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

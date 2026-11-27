@@ -10,7 +10,7 @@ dates:
   end: '2026-01-20'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 21
 references:
 - title: Techcomfest CTF
   url: https://www.techcomfest.com/competition/ctf
@@ -20,6 +20,23 @@ references:
   url: https://katadata.co.id/info/699d64d140697/techcomfest-2026-digelar-pcc-polines-wadahi-generasi-muda-di-ajang-kompetisi-it
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: CTF warm-up and qualification on 21-27 December 2025. Final on 20 January 2026 at Politeknik Negeri
-  Semarang.
+- title: TCP1P/TECHCOMPFEST-CTF-2026-Quals (problemsetter repository)
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  type: official_repository
+  accessed: '2026-11-28'
+- title: TCP1P/TECHCOMPFEST-CTF-2026-Finals (problemsetter repository)
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Finals
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: >-
+  Repository & Imported Materials
+
+  - Sources & Breakdown: 21 challenges were imported from two confirmed TCP1P repositories:
+    - Quals (TCP1P/TECHCOMPFEST-CTF-2026-Quals, commit 4dec18a5...): 17 challenges (Pwn 4, Reverse 4, Web 4, Forensics 3, Crypto 2).
+    - Finals (TCP1P/TECHCOMPFEST-CTF-2026-Finals, commit efa89445...): 4 challenges (Crypto 1, Pwn 1, Reverse 1, Web 1).
+    - Completeness & Licensing: 20 records contain preserved challenge files, while the qualification Web challenge calon-mantune-bapakmu is recorded as metadata-only due to a broken git submodule lacking a .gitmodules entry and an unretrievable commit object. Neither repository includes a LICENSE file, so both are recorded under an MIT license per archive maintainer instruction (matching the 2024 and 2025 repositories).
+
+  Schedule & Date Verification
+  - Finals (Corroborated): The finals README states a start time of January 20, 2026 (2026-01-20T23:00:00+08:00), aligning with repository commits on January 21, 2026, for an onsite final.
+  - Quals (Unverified): Previously recorded edition dates remain unchanged, though qualification dates are left null pending confirmation due to conflicting evidence—the quals README cites a start date of November 27, 2025, whereas the repository's challenge commits fall on December 27–28, 2025 (with a commit on January 21, 2026).

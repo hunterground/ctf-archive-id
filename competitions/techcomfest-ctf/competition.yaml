@@ -28,8 +28,20 @@ references:
   url: https://ctftime.org/ctf/1019/
   type: third_party_archive
   accessed: '2026-11-21'
-notes: Official spelling on the event sites is Techcomfest. The archive directory was previously techcompfest-ctf
-  and the identifier was already techcomfest-ctf; the directory is now techcomfest-ctf. TECHOMFEST at
-  Universitas Negeri Semarang is a different event and stays a candidate. CTFtime describes the 2024 competition
-  as jeopardy with a qualification and an onsite final. The 2025 and 2026 sites document a CTF category
-  without repeating that format label.
+- title: TECHCOMFEST 2023 (UKM PCC, Politeknik Negeri Semarang)
+  url: https://ab.polines.ac.id/en/techcomfest-2023/
+  type: official_website
+  accessed: '2026-11-27'
+notes: >-
+  Event Identity & Naming
+  - Unified Event: Spelling variations across official sites, CTFtime, and Politeknik Negeri Semarang agendas
+    (Techcomfest, Techomfest, and TECHOCOMFEST) all refer to the same event organized by UKM Polytechnic Computer Club (later written as UKM PCC). 
+    A prior candidate lead treating TECHOMFEST as a separate event is resolved, while TechnoFair remains a distinct competition.
+
+  Competition History & Structure
+  - 2020-2021: Did not include Capture the Flag competitions.
+  - 2022: Featured three main tracks (Networking, Software Development, Short Movie) alongside 
+    a single archived CTF challenge (Yet Another Python SSTI Challenge).
+  - 2023-2026: Established as a recurring CTF (with the 2023 final held January 21, 2023, at Politeknik Negeri Semarang 
+    for 53 teams, and the 2024 edition documented on CTFtime as a Jeopardy qualifier with an onsite final). 
+    The TCP1P team served as the recurring problemsetter across all four editions.

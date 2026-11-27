@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: qualification
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+name: Qualification
+original_name: Quals
+sequence: 1
+type: qualification
+delivery: online
+description: >-
+  Qualification stage of the Techcomfest 2026 CTF, held online.
+dates:
+  start: '2025-11-27'
+  end: null
+statistics:
+  challenge_count: 17
+  participant_count: null
+references:
+- title: Quals at TECHCOMPFEST-CTF-2026-Quals
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Seventeen qualification challenge records imported from the quals tree of the problemsetter
+  repository TCP1P/TECHCOMPFEST-CTF-2026-Quals. The repository README states a CTF start of
+  2025-11-27T23:00:00+08:00, and that value is recorded above, but it is not corroborated: the
+  repository's challenge commits are dated 2025-12-27 and 2025-12-28 and its only commit is dated
+  2026-01-21, so 2025-11-27 is unreconciled and may be a typo. The end date is not stated.
+  Sixteen records carry preserved materials; Web/calon-mantune-bapakmu is a metadata-only record
+  because the source is a broken git submodule (gitlink with no .gitmodules and the referenced
+  commit is unreachable), approved by the archive owner.

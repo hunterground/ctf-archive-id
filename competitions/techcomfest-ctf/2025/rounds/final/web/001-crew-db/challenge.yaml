@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-web-001
+name: 'Crew DB'
+slug: 001-crew-db
+original_name: 'Crew DB'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: 'Web'
+description: |-
+  The Professor for the ultimate digital heist, you must access his Cyber Heist Crew Database to uncover the roles and expertise of each specialist on his team. Break through the system's defenses to gather intel and get one step closer to the vault.
+
+  Connect: http://{{.host}}:10012
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'daffainfo'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Web/Crew DB
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 762d4855a8a637064eb5fa5f8c7888db0438f66c48ad1873b65b01850025e8c6
+  - path: 'dist/Dockerfile'
+    algorithm: sha256
+    value: 9a45ccba162ac6801f1fe7d0be9ed87805884c883c3e128bcbb4505fce5fe685
+  - path: 'dist/docker-compose.yml'
+    algorithm: sha256
+    value: 8358777fcdd18b29024224e79817ba74dc4410d523206498252127edeb0798eb
+  - path: 'dist/requirements.txt'
+    algorithm: sha256
+    value: fa4a8d8b9a2b91c3d252d21ec3c85f06fd8675f966bab7e8ba2cd5f39afac0db
+  - path: 'dist/application/app.py'
+    algorithm: sha256
+    value: e081dbe103aab4aa0a2c7029845edd2aa5d56439a5a598230587f01535b227aa
+  - path: 'dist/application/templates/index.html'
+    algorithm: sha256
+    value: c8b30c8686824e41b07104fa98ecd9996ac9ae31d2e40d5db8e27d4b638bbcfe
+  - path: 'dist/database/init.sql'
+    algorithm: sha256
+    value: 4b3cf7262042152a8ba399b7ed025876b2523bf69e90a06f977c05b67353d1a7
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 9a45ccba162ac6801f1fe7d0be9ed87805884c883c3e128bcbb4505fce5fe685
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: 134411e06e0f5b136da25c01d5a6cd2b48f360feb1c4acde37ac0a8cdf39b86a
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: fa4a8d8b9a2b91c3d252d21ec3c85f06fd8675f966bab7e8ba2cd5f39afac0db
+  - path: 'src/application/app.py'
+    algorithm: sha256
+    value: e081dbe103aab4aa0a2c7029845edd2aa5d56439a5a598230587f01535b227aa
+  - path: 'src/application/templates/index.html'
+    algorithm: sha256
+    value: c8b30c8686824e41b07104fa98ecd9996ac9ae31d2e40d5db8e27d4b638bbcfe
+  - path: 'src/database/init.sql'
+    algorithm: sha256
+    value: 9eb63d2601e6a91c02be6ffcf7753f2439f361929eadfedca48624dae2e91135
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Finals/Web/Crew DB at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Web/Crew%20DB
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

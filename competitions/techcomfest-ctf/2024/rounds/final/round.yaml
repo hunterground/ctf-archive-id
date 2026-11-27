@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: final
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: Final
+sequence: 3
+type: final
+delivery: onsite
+description: Onsite final stage of Techcomfest 2024 CTF at Politeknik Negeri Semarang.
+dates:
+  start: '2024-01-20'
+  end: '2024-01-20'
+statistics:
+  challenge_count: 1
+  participant_count: null
+references:
+- title: TECHCOMFEST-2024/Final at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Final
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: One onsite final challenge imported from the Final directory of the author repository. Date and
+  onsite delivery are inferred from the parallel Techcomfest 2025 schedule (onsite final on 20 January);
+  the source does not state a date.

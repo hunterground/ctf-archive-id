@@ -1,0 +1,133 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-qualification-web-005
+name: yo nda tau
+slug: 005-yo-nda-tau
+original_name: yo nda tau
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Node.js web challenge. A vm-context escape is reachable through an unvalidated "run"
+  parameter; a gadget from a different context imports child_process and executes a shell command.
+difficulty:
+  value: "2.50"
+  source: archive_curator
+tags:
+- web
+- nodejs
+- vm-escape
+- rce
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/yo-nda-tau
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: Dockerfile
+    algorithm: sha256
+    value: 71bc6f53c3d9ae6fb38c758ba00c35111ea502364c9e7aceba861bc5e69c4303
+  - path: README.md
+    algorithm: sha256
+    value: 7d5feb28e9faf945960d5e16fd771a3d1de7b059dac04252221a485a4d7c6807
+  - path: challenge.yml
+    algorithm: sha256
+    value: f7b3b9918f6bbcb306ef6a8d274aa18a7a55548fd76e0ef3b0f1aad6a274660d
+  - path: dist.zip
+    algorithm: sha256
+    value: 41a9067dd5a819939eaccc2d316b077856939c7300cda8530d781eccb3a46a46
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ced5bca8ff17473bbe69e9d761ade3049a51a57e38a9e2eac8a066f9ec9fffd9
+  - path: flag.txt
+    algorithm: sha256
+    value: 16570d119a3ce1e48b3ac0629ad9abdbcde8964d86feec66cfa4e14dd7fa1134
+  - path: proxy.conf
+    algorithm: sha256
+    value: 83f5380f77bff1f8d17890c577cb9c00a34d25303945338e219ea2987f7f8647
+  - path: start.sh
+    algorithm: sha256
+    value: db108bac32347984b4aa6d97ac7aa15703771e34a4c6a2507a4c6f221350b79f
+  - path: dist/.dockerignore
+    algorithm: sha256
+    value: d9f3d40d4706025769defe0782b6a4954d1e4be637d828d50ba8ca89ab2512b9
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 71bc6f53c3d9ae6fb38c758ba00c35111ea502364c9e7aceba861bc5e69c4303
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: c23b494a4139144566582efbd51985b23ca3f88bbcb567312c194556d64624d4
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/proxy.conf
+    algorithm: sha256
+    value: 83f5380f77bff1f8d17890c577cb9c00a34d25303945338e219ea2987f7f8647
+  - path: dist/src/.gitignore
+    algorithm: sha256
+    value: 2205213c02f5a05a7a1bf3e1ac4398a190d59b7656140c625e061fa4af83d35e
+  - path: dist/src/README.md
+    algorithm: sha256
+    value: b1469997388bdacb1f0699118853b8024b270a2147200d013377393989140451
+  - path: dist/src/index.html
+    algorithm: sha256
+    value: e2ca870000451e4dba7e8f0a84e9fc2e42f635446d62dba1d876e5f0a7e3d488
+  - path: dist/src/index.js
+    algorithm: sha256
+    value: 626d85942809e4a453d115ffdec647cd8da5a70b3156864bcf3d6e378ef3ed6d
+  - path: dist/src/package.json
+    algorithm: sha256
+    value: 7972a8d527b8e9fcd2bbae8e819d96ad6d91763686890ff22e09f372ad4c41d0
+  - path: src/.gitignore
+    algorithm: sha256
+    value: 2205213c02f5a05a7a1bf3e1ac4398a190d59b7656140c625e061fa4af83d35e
+  - path: src/README.md
+    algorithm: sha256
+    value: b1469997388bdacb1f0699118853b8024b270a2147200d013377393989140451
+  - path: src/index.html
+    algorithm: sha256
+    value: e2ca870000451e4dba7e8f0a84e9fc2e42f635446d62dba1d876e5f0a7e3d488
+  - path: src/index.js
+    algorithm: sha256
+    value: 626d85942809e4a453d115ffdec647cd8da5a70b3156864bcf3d6e378ef3ed6d
+  - path: src/package.json
+    algorithm: sha256
+    value: 7972a8d527b8e9fcd2bbae8e819d96ad6d91763686890ff22e09f372ad4c41d0
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services:
+  - web
+  requirements: []
+references:
+- title: Quals/Web/yo-nda-tau at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/yo-nda-tau
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml records a flag, not reproduced in this metadata. The
+  top-level flag.txt holds the real flag and dist/flag.txt a fake placeholder, both archived as-is.
+  Difficulty (2.50/5.00, medium) is from the README difficulty calculator.

@@ -1,0 +1,40 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024
+competition_id: techcomfest-ctf
+year: 2024
+name: Techcomfest 2024 CTF
+status: completed
+verification: corroborated
+dates:
+  start: '2023-12-21'
+  end: '2024-01-20'
+statistics:
+  participant_count: null
+  challenge_count: 10
+references:
+- title: CTFtime / TECHCOMFEST
+  url: https://ctftime.org/ctf/1019/
+  type: third_party_archive
+  accessed: '2026-11-27'
+- title: TECHCOMFEST-2024 at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024
+  type: official_repository
+  accessed: '2026-11-27'
+- title: TCP1P/TECHCOMFEST2024 (problemsetter repository)
+  url: https://github.com/TCP1P/TECHCOMFEST2024
+  type: official_repository
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >-
+  Ten challenges were imported from the TECHCOMFEST-2024 directory of the author repository
+  dimasma0305/My-CTF-Challenges (Dimas Maulana, MIT-licensed). The source organises challenges into
+  Warmup, Quals, and Final stages, mapped to warmup, qualification, and final rounds respectively. The
+  CTFtime listing describes the 2024 competition as jeopardy with a qualification and an onsite final.
+  Warm-up and qualification dates are inferred from the parallel Techcomfest 2025 schedule (21 December
+  warm-up, 28 December qualification, 20 January onsite final); start/end above are the inferred bounds.
+  The warm-up web challenges Your Name and Your Name Revenge carry TCF2023{...} flags in the source,
+  suggesting they were reused from the prior year; this is recorded in their challenge notes.
+  A problemsetter repository, TCP1P/TECHCOMFEST2024, is also confirmed. It contains 30 challenges
+  across the three rounds, including categories not imported here from the author repository
+  (Cryptography and Reverse Engineering in Warmup and Quals, plus the whole Final round except the Web
+  challenge challenge-kepepet). Importing those remaining challenges is an open follow-up.

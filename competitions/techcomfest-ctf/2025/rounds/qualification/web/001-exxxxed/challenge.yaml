@@ -1,0 +1,144 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-web-001
+name: 'Exxxxed'
+slug: 001-exxxxed
+original_name: 'Exxxxed'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  is it secure?
+
+  note: `there's a flag in admin cookie`
+
+  Bot: http://{{ .host }}:4546/report/
+
+  Web: http://{{ .host }}:4546
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'Dimas'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Web/exxxxed
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'LICENSE'
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: 'README.md'
+    algorithm: sha256
+    value: 694f500cf2399da4f74dfc0f116e4ecef23214ab52bfe2dbafdb78c09ffc24ad
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 70ff0a5cacc75b9ca0dbce3f5cce0e371054b1e126da9ec5dcf600d6434eae6e
+  - path: 'docker-compose.yaml'
+    algorithm: sha256
+    value: 51e9715ce96b88ea0979f2136900170a2776206231c0d9b1520a33eac8903353
+  - path: 'proxy.conf'
+    algorithm: sha256
+    value: 3354edf05277ef3c324dbf88ca62cfaff33120803e23493a98447eb835850c31
+  - path: 'assets/bothome.png'
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: 'assets/deploy-wdocker.png'
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: 'bot/Dockerfile'
+    algorithm: sha256
+    value: f8202d91a4601f949cf26ef5a5098c7b4a08a0ac049698d16c9262772a6aed2f
+  - path: 'bot/bot.js'
+    algorithm: sha256
+    value: 9194d1e3688366096704dd24c678fb7322299fc92165f0fcd9052295bbcf6cc0
+  - path: 'bot/index.js'
+    algorithm: sha256
+    value: 3c25913ce181e577bd519575aa04636487c9fd0b82fc598871eab2bd90bf73bf
+  - path: 'bot/package.json'
+    algorithm: sha256
+    value: 158c0a0e72b7be083a563c714f84b98d5fe5d4280cd7ec81a30a94469d5a2b03
+  - path: 'bot/views/index.ejs'
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: 'src/index.html'
+    algorithm: sha256
+    value: 686b8a268166a631c2709059418b8c218e2a9d3c76897f1be94362ccdcb6f9c9
+  - path: 'src/package-lock.json'
+    algorithm: sha256
+    value: 4c35b62811d73761e31d4403691394c471a007519ddeeca2325f5f8a8170be9c
+  - path: 'src/package.json'
+    algorithm: sha256
+    value: 801cb33637cf76969e6f3c2dc0fcf3405a5019cb8ec99f8777dab3af0d4b49de
+  - path: 'src/node_modules/.package-lock.json'
+    algorithm: sha256
+    value: a94feeaf7c126dbeb54e77dd8f161eda2af688a042ada63d2185c4d490d2e22a
+  - path: 'src/node_modules/dompurify/LICENSE'
+    algorithm: sha256
+    value: 7de658e2401fe36e2a3965a5a11a560d2fffe768194849718a4b58c75bf84bda
+  - path: 'src/node_modules/dompurify/README.md'
+    algorithm: sha256
+    value: 93901d8885bddb31b2ec56374e235e76e182e38f90c239928aa7222fec6b80cb
+  - path: 'src/node_modules/dompurify/package.json'
+    algorithm: sha256
+    value: 3d6a2e292f9a795ef8d39f3db7693f0b1ae1d694cf4683e8a3a42184ac712c14
+  - path: 'src/node_modules/dompurify/dist/purify.cjs.js'
+    algorithm: sha256
+    value: 96709611de97a39ec34009d44fb5cda6bb6b08a0bfb44c01d7eedfa59471f624
+  - path: 'src/node_modules/dompurify/dist/purify.cjs.js.map'
+    algorithm: sha256
+    value: 7d12f417a8a283b0bf94e56a03552a3459288072d8ae4bd9c79cb504d489eff1
+  - path: 'src/node_modules/dompurify/dist/purify.es.mjs'
+    algorithm: sha256
+    value: 4d270cf0301365b5c608b3950588697d7e206e729108096de7786d76a4bdba67
+  - path: 'src/node_modules/dompurify/dist/purify.es.mjs.map'
+    algorithm: sha256
+    value: eca92f1e9dd7f5056eb540109e51bc882315e2325e1d1b20802e320683b67539
+  - path: 'src/node_modules/dompurify/dist/purify.js'
+    algorithm: sha256
+    value: eb07cf0213169c1851d5fa8554d785dabdb70d9fa0e4776fdd3475d03c53d2b7
+  - path: 'src/node_modules/dompurify/dist/purify.js.map'
+    algorithm: sha256
+    value: 76b375a05bb061bb007e7793b5b9c095adf53cd138f69bce35d6434bd7845bdb
+  - path: 'src/node_modules/dompurify/dist/purify.min.js'
+    algorithm: sha256
+    value: 20b0b3840a73da51d3a66c51f073e3ed6da1042b3741c5861c1b7a36693dc928
+  - path: 'src/node_modules/dompurify/dist/purify.min.js.map'
+    algorithm: sha256
+    value: f0bfc01c16eba3d6d9235aac5193925810d24908c30b018844bd3b409ab81c8d
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/exxxxed at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Web/exxxxed
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

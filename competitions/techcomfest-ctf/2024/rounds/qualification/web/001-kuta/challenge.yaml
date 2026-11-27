@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-qualification-web-001
+name: Kuta
+slug: 001-kuta
+original_name: Kuta
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: Web challenge built around the Qute browser. A simple command injection in the Qute browser
+  integration yields arbitrary command execution and the flag.
+difficulty:
+  value: "2.30"
+  source: archive_curator
+tags:
+- web
+- command-injection
+- qutebrowser
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/kuta
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e9b391b3fe06c2bb749e1feefd06b1036492418389dbd09d48005448b6fbf940
+  - path: README.md
+    algorithm: sha256
+    value: 14a1bec462dedc0eda517430b64ff22664908587964c309898db7caee1f2d92d
+  - path: challenge.yml
+    algorithm: sha256
+    value: ab33789b4ac92ae0765bbb514e00cb1be3d58e6588507adddadd2fecd54f051c
+  - path: dist.zip
+    algorithm: sha256
+    value: 82c1010b5afed77e47990333ff5eef9b5ae74fed2fc583c584ade49051556b1b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3c5ef4d93c3c3bbd806e080d75a731393390a07512d6647e620b615d79ee3c3a
+  - path: flag.txt
+    algorithm: sha256
+    value: fc6eddf6f8c1bd43c0bb1e0993fb1d95f6d7968a5dbf0713dffc6b6d8797edf2
+  - path: tailwind.config.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: app/server.py
+    algorithm: sha256
+    value: b3207b39d1e6e0bf36efe77064bf8a5ff14ed7d2a355c9dbcf65eaf8cc35bbb7
+  - path: app/templates/index.html
+    algorithm: sha256
+    value: 320a3022a72a8cb3081bc92dcc23844772b247ac6e36e53e8fdc5fa6f9a74264
+  - path: app/templates/template.html
+    algorithm: sha256
+    value: e25f11629b07059b3e7452eb983a95048381c452d536fd26b90e6b08234f7edc
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: e9b391b3fe06c2bb749e1feefd06b1036492418389dbd09d48005448b6fbf940
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 3c5ef4d93c3c3bbd806e080d75a731393390a07512d6647e620b615d79ee3c3a
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/tailwind.config.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: dist/app/server.py
+    algorithm: sha256
+    value: b3207b39d1e6e0bf36efe77064bf8a5ff14ed7d2a355c9dbcf65eaf8cc35bbb7
+  - path: dist/app/templates/index.html
+    algorithm: sha256
+    value: 320a3022a72a8cb3081bc92dcc23844772b247ac6e36e53e8fdc5fa6f9a74264
+  - path: dist/app/templates/template.html
+    algorithm: sha256
+    value: e25f11629b07059b3e7452eb983a95048381c452d536fd26b90e6b08234f7edc
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services:
+  - web
+  requirements: []
+references:
+- title: Quals/Web/kuta at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/kuta
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml records a flag, which is not reproduced in this metadata.
+  A flag.txt is present in the source distribution (both top level and dist/); it is archived as-is.
+  Difficulty (2.30/5.00, easy) is from the README difficulty calculator.

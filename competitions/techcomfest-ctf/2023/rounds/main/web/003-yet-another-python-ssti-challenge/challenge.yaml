@@ -1,0 +1,104 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2023-main-web-003
+name: 'Yet Another Python SSTI Challenge'
+slug: 003-yet-another-python-ssti-challenge
+original_name: 'Yet Another Python SSTI Challenge'
+competition_id: techcomfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: 'Web'
+description: |-
+  Yet anothe python SSTI challenge... can you hack it for me?
+difficulty:
+  value: "3.10"
+  source: archive_curator
+tags:
+- web
+authors:
+- name: null
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/Techcompfest-2022/Yet Another Python SSTI Challenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: 'chall/src/__pycache__/'
+    reason: Editor settings or interpreter cache, not part of the challenge distribution (AGENTS.md Phase D rule 4).
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: d35229b5d3bd85d1ee2b5a2fb8ccbe69847818d829e90c848d5ec61ded264745
+  - path: 'attachment/chall/Dockerfile'
+    algorithm: sha256
+    value: 322c1426b31a136676f2fe757bbd5164755d8f227bad02915ac8f7ce6362a492
+  - path: 'attachment/chall/docker-compose.yml'
+    algorithm: sha256
+    value: 33761ea062d5464acbe7764b07a920a7504d53da3a09a5bd1c3058a2d82945e2
+  - path: 'attachment/chall/src/app.py'
+    algorithm: sha256
+    value: 7b394ec65cef6f2b15a4b2b4b0dcf007a1088d11db3ab33fd813ab0b441f5875
+  - path: 'attachment/chall/src/flag_redacted.txt'
+    algorithm: sha256
+    value: 1de10716f84a0398e65c019a9b7bc2eaadc079bb4526c49b7502a37fcfceb4bc
+  - path: 'attachment/chall/src/index.html'
+    algorithm: sha256
+    value: a13119c7a797ad260b64b581f02982b22b00dbc7d76048a3cc42f8a7cf0dc2f8
+  - path: 'attachment/chall/src/requirements.txt'
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: 'chall/Dockerfile'
+    algorithm: sha256
+    value: 322c1426b31a136676f2fe757bbd5164755d8f227bad02915ac8f7ce6362a492
+  - path: 'chall/docker-compose.yml'
+    algorithm: sha256
+    value: 33761ea062d5464acbe7764b07a920a7504d53da3a09a5bd1c3058a2d82945e2
+  - path: 'chall/src/app.py'
+    algorithm: sha256
+    value: ecf1cab759e9a69df5e0413d385069c4f018800663743a257146d720c0117e83
+  - path: 'chall/src/flag_my_secret_flag_( T - T ).txt'
+    algorithm: sha256
+    value: 4e00e6c5c6393ade73428a43f9adba674dc56817f6cda8df3fbccf92614472d6
+  - path: 'chall/src/index.html'
+    algorithm: sha256
+    value: a13119c7a797ad260b64b581f02982b22b00dbc7d76048a3cc42f8a7cf0dc2f8
+  - path: 'chall/src/requirements.txt'
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Techcompfest-2022/Yet Another Python SSTI Challenge at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/Techcompfest-2022/Yet%20Another%20Python%20SSTI%20Challenge
+  type: official_repository
+  accessed: '2026-11-27'
+verification: needs_scope_review
+notes: >-
+  Author challenge archived from the Techcompfest-2022 directory of dimasma0305/My-CTF-Challenges.
+  The edition year and event identity are uncertain: the source directory is named for 2022, but
+  this challenge and one other in the tree carry TECHCOMPFEST2023{...} flags, and official records
+  state that the 2022 Techcomfest ran Networking, Software Development and Short Movie
+  competitions with the 2023 event held on 21 January 2023. It is therefore recorded under the
+  2023 edition pending maintainer confirmation. The source README records a flag, which is not
+  reproduced here; flag files in the distribution are archived as-is. Difficulty is the rating the
+  author published in the README, computed with their own ctf-challenge-difficulty-calculator
+  site.

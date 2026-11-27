@@ -1,0 +1,219 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-web-003
+name: 'Solid Blog'
+slug: 003-solid-blog
+original_name: 'Solid Blog'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  Komunitas kami baru membangun website, yang pastinya sangat secure karena ada WAF nya. Namun hal ini ga bisa jadi acuan si.Tolong yang admin kasi tau kalo masi ada bug dengan report ke endpoint `/report/` e.g `http://domain:port/report/`.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: '53buahapel'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Web/solid-blog
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: b3b00edd9fa1b3eb9310c82346b9f6cbc4eeccb13fe6823077ef57f7183b7193
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 5e81aed44117e5e44c222492da555c08fdebad16c099060d0758d6d7b0e674b0
+  - path: 'dist/Dockerfile'
+    algorithm: sha256
+    value: 748c82b354875acd9857d42dbd6fc6249017a3ebe6d250126a6210715a6dd8d4
+  - path: 'dist/docker-compose.yml'
+    algorithm: sha256
+    value: e94f4b776075179b97ac27f47100285ebce7a9c9e294a5f2c748be26f9c354b9
+  - path: 'dist/admin-bot/.gitignore'
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: 'dist/admin-bot/LICENSE'
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: 'dist/admin-bot/README.md'
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: 'dist/admin-bot/package-lock.json'
+    algorithm: sha256
+    value: 2ad69ddd2e44d3459f5081a44036c6748ff430e369a2b32fe8eaa8e5345d3442
+  - path: 'dist/admin-bot/package.json'
+    algorithm: sha256
+    value: 41e5eaa8ebd1b0446292e1e8e1ae0cc1679f353407539c49359938fb154c9370
+  - path: 'dist/admin-bot/assets/bothome.png'
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: 'dist/admin-bot/assets/deploy-wdocker.png'
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: 'dist/admin-bot/bot/.dockerignore'
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: 'dist/admin-bot/bot/Dockerfile'
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: 'dist/admin-bot/bot/bot.js'
+    algorithm: sha256
+    value: c81d1c1cc04358173be85d8ea964b0ab7051884e9310ace019c44b006172a15d
+  - path: 'dist/admin-bot/bot/index.js'
+    algorithm: sha256
+    value: c34018324aed4097c88cdbb16301c4cf41d3c2c6a2aca2e43df079431dcbbd5d
+  - path: 'dist/admin-bot/bot/package.json'
+    algorithm: sha256
+    value: 445adc2108bb75b300382585902460e44d48710a0f280b39d8844971b003c4b7
+  - path: 'dist/admin-bot/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'dist/admin-bot/bot/views/index.ejs'
+    algorithm: sha256
+    value: d2458ca3b97c0240486d35d1bcce532252d8c65f2ea33d8dc4f027827619c465
+  - path: 'dist/admin-bot/src/index.html'
+    algorithm: sha256
+    value: 68a921ee6bb4fcb0ade211769d6bb74f801588e9e08e46609ec3cc351600933e
+  - path: 'dist/app/about.php'
+    algorithm: sha256
+    value: 90bc0368af751f631fb0f41f9396c48323b7539a7342aca1d847dffd4b14eb6f
+  - path: 'dist/app/admin.php'
+    algorithm: sha256
+    value: 55c893a80c0a2c3ab38da5d8a3a6a8928e08aa534c424bef1d1815cd07127024
+  - path: 'dist/app/admin_login.php'
+    algorithm: sha256
+    value: 4290ab6273cba13b64f4fb30e08804ada0de176cc104bb50b967baa6a8b2627f
+  - path: 'dist/app/admin_logout.php'
+    algorithm: sha256
+    value: d525ad92fd75deaae4569d48f0c5371b596f3ba2954f9201b0fde2db7368f420
+  - path: 'dist/app/index.php'
+    algorithm: sha256
+    value: 453502ce24ddd5652ba620b22bdac633659b09c2e195cdb1fda84397993503d2
+  - path: 'dist/app/koneksi.php'
+    algorithm: sha256
+    value: 1ce02e7c6ae02a09c6ee12fa82e5c80cb1ca0e55adbd39262d864e04d6c33097
+  - path: 'dist/app/post.php'
+    algorithm: sha256
+    value: b07747d993d46ec3869fc6de22027fee88eb16ec4ae2033ab5c986b606659120
+  - path: 'dist/app/search.php'
+    algorithm: sha256
+    value: ce46d199b5efdbc6cc9be8b629dcc60c3fcd6c04652d0f31347ca20db8bc8280
+  - path: 'dist/nginx/default.conf'
+    algorithm: sha256
+    value: 7d8d7bd15acf4893fc3982b4f0257197e4fcee7a27d79d0f3d86c238754dc45b
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: a40cebfe4c8217983791f589af7b5d2a7d0d009bac1e33fbb18a4b138d941a28
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: 261c077a35a8310129eb8071c838da148d339cfdf5db4f795d951364137ce4e7
+  - path: 'src/admin-bot/.gitignore'
+    algorithm: sha256
+    value: df1e93a842d9549e511d07ff43afa8c6272ec4b433c58e749a95e873cf14aa7f
+  - path: 'src/admin-bot/LICENSE'
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: 'src/admin-bot/README.md'
+    algorithm: sha256
+    value: c8c955d983fea12278b1b9303d699d37a90fda69324a65f2da42690a726c16d5
+  - path: 'src/admin-bot/package-lock.json'
+    algorithm: sha256
+    value: 2ad69ddd2e44d3459f5081a44036c6748ff430e369a2b32fe8eaa8e5345d3442
+  - path: 'src/admin-bot/package.json'
+    algorithm: sha256
+    value: 41e5eaa8ebd1b0446292e1e8e1ae0cc1679f353407539c49359938fb154c9370
+  - path: 'src/admin-bot/assets/bothome.png'
+    algorithm: sha256
+    value: eeb15d9ee24b433c1fa99bf74d4f10918fcd47209b082c60d0f081d1ceffdc8b
+  - path: 'src/admin-bot/assets/deploy-wdocker.png'
+    algorithm: sha256
+    value: 4069e4cf8d5d76bd90cee348917d48f01b44c8f528e96a8318f67eb0eb350986
+  - path: 'src/admin-bot/bot/.dockerignore'
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: 'src/admin-bot/bot/Dockerfile'
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: 'src/admin-bot/bot/bot.js'
+    algorithm: sha256
+    value: c81d1c1cc04358173be85d8ea964b0ab7051884e9310ace019c44b006172a15d
+  - path: 'src/admin-bot/bot/index.js'
+    algorithm: sha256
+    value: c34018324aed4097c88cdbb16301c4cf41d3c2c6a2aca2e43df079431dcbbd5d
+  - path: 'src/admin-bot/bot/package.json'
+    algorithm: sha256
+    value: 445adc2108bb75b300382585902460e44d48710a0f280b39d8844971b003c4b7
+  - path: 'src/admin-bot/bot/extensions/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'src/admin-bot/bot/views/index.ejs'
+    algorithm: sha256
+    value: d2458ca3b97c0240486d35d1bcce532252d8c65f2ea33d8dc4f027827619c465
+  - path: 'src/admin-bot/src/index.html'
+    algorithm: sha256
+    value: 68a921ee6bb4fcb0ade211769d6bb74f801588e9e08e46609ec3cc351600933e
+  - path: 'src/app/about.php'
+    algorithm: sha256
+    value: 90bc0368af751f631fb0f41f9396c48323b7539a7342aca1d847dffd4b14eb6f
+  - path: 'src/app/admin.php'
+    algorithm: sha256
+    value: 55c893a80c0a2c3ab38da5d8a3a6a8928e08aa534c424bef1d1815cd07127024
+  - path: 'src/app/admin_login.php'
+    algorithm: sha256
+    value: 4290ab6273cba13b64f4fb30e08804ada0de176cc104bb50b967baa6a8b2627f
+  - path: 'src/app/admin_logout.php'
+    algorithm: sha256
+    value: d525ad92fd75deaae4569d48f0c5371b596f3ba2954f9201b0fde2db7368f420
+  - path: 'src/app/index.php'
+    algorithm: sha256
+    value: 453502ce24ddd5652ba620b22bdac633659b09c2e195cdb1fda84397993503d2
+  - path: 'src/app/koneksi.php'
+    algorithm: sha256
+    value: 1ce02e7c6ae02a09c6ee12fa82e5c80cb1ca0e55adbd39262d864e04d6c33097
+  - path: 'src/app/post.php'
+    algorithm: sha256
+    value: b07747d993d46ec3869fc6de22027fee88eb16ec4ae2033ab5c986b606659120
+  - path: 'src/app/search.php'
+    algorithm: sha256
+    value: ce46d199b5efdbc6cc9be8b629dcc60c3fcd6c04652d0f31347ca20db8bc8280
+  - path: 'src/nginx/default.conf'
+    algorithm: sha256
+    value: 7d8d7bd15acf4893fc3982b4f0257197e4fcee7a27d79d0f3d86c238754dc45b
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/solid-blog at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Web/solid-blog
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

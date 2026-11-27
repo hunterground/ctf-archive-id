@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: qualification
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+name: Qualification
+original_name: Quals
+sequence: 2
+type: qualification
+delivery: online
+description: Qualification stage of Techcomfest 2025 CTF, held online on 20 December 2024.
+dates:
+  start: '2024-12-20'
+  end: '2024-12-20'
+statistics:
+  challenge_count: 17
+  participant_count: null
+references:
+- title: Quals at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Seventeen qualification challenges imported from the quals tree of the problemsetter repository
+  TCP1P/TECHCOMPFEST-2025-PUBLIC (MIT). The repository README states a CTF start date of 20
+  December 2024, which is used here; the exact end date is not stated.

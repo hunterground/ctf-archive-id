@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-rev-001
+name: 'Secure Login'
+slug: 001-secure-login
+original_name: 'Secure Login'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: 'Reverse'
+description: |-
+  Is it really secure?
+
+  Flag: TCF{`sha256(username+password)`}
+  For example:
+  - Username: admin
+  - Password: Admin#1234
+  - SHA256 (adminAdmin#1234): 09d4ebc297f76d7a59b5f077dc6edb99787187e9d18a60f62243eda87fdeede5
+  - Flag: TCF{09d4ebc297f76d7a59b5f077dc6edb99787187e9d18a60f62243eda87fdeede5}
+
+  URL: http://localhost:8081/
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'aimardcr'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Reverse/Secure Login
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 104e4571dfb92be254698cfca24a94803046323c86bea235288d6d92015ac31f
+  - path: 'chall/Dockerfile'
+    algorithm: sha256
+    value: dd7c03d01e180c54bee7a0162066e44b541a4d6bc46f6662279f657c7f4d62d1
+  - path: 'chall/docker-compose.yml'
+    algorithm: sha256
+    value: 66621bcc4bca557df0020697b237b1a658265ea63c7606fdc429910cf5a9749a
+  - path: 'chall/main.c'
+    algorithm: sha256
+    value: 8533ba8c54d0c44b180077732078dd8f089154c8f7c008cdd1164a251f8ae27a
+  - path: 'chall/src/index.html'
+    algorithm: sha256
+    value: 977e6f753b16a1354454244098d24a1b8de3c9356a65eb3ef021c6aff19b1a26
+  - path: 'chall/src/main.js'
+    algorithm: sha256
+    value: 60b34f0fe7f59114007501d54832425d295e8ff3c72e7730385b62c2a0b78936
+  - path: 'chall/src/main.wasm'
+    algorithm: sha256
+    value: dc147de3572163d691a1cc0e27ae45cd423499dc9a3f7368558e4d0a02fd082d
+  - path: 'dist/README.md'
+    algorithm: sha256
+    value: 3dbb665ecf257a77390cf52c5afbae8f552fbc8587e0b7d9093c463cda74a260
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Reverse/Secure Login at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Reverse/Secure%20Login
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

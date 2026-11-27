@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-forensics-003
+name: 'winrarPRO'
+slug: 003-winrarpro
+original_name: 'winrarPRO'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  I just found this winrarPRO from the internet, but i think there is something suspicious about it. Can you check it for me?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: '53buahapel'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Forensics/winrarPRO
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: b09654d7fcb744d8fdacba541cad738d6da593c957ccc6330be43acf80ef059d
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: 2a1bbe74d8c84b08cd2836ee2bbdcdd0fbfdab7037944e5a053db21dae3b3a01
+  - path: 'dist/winrarPRO.rar'
+    algorithm: sha256
+    value: fb49d3e4068ff00a73f36eddbc0eb4f776742c4d2d81c093de7a9410dac8f5e7
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Forensics/winrarPRO at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Forensics/winrarPRO
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

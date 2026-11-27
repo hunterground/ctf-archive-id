@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-crypto-001
+name: '4j'
+slug: 001-4j
+original_name: '4j'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: 'Crypto'
+description: |-
+  Let's be real here, crypto lacks imagination
+
+  Connect: nc {{ .host }} 8011
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'azuketto'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Crypto/4j
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 7fac668159c37c33b4fc3603004aa9c729376529f859caf9269db24ac81b9a36
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: ee785997bbf208e7b5b27b0af7274d10a9870aaf6da2eabc88c5c63d2287610d
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 5942c64531499b147b4468a6c14078d6d3759713519856ef88b321cf6c29e479
+  - path: 'src/chall.py'
+    algorithm: sha256
+    value: ee785997bbf208e7b5b27b0af7274d10a9870aaf6da2eabc88c5c63d2287610d
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: fe1b879aba50c26482ed22f5ee9c850957353fefb2d5969d76dc3bc01855862a
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 01f9f6e66385e59ce6117d078becff1504cdc9eb247c087e77e8854c23660239
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: ff16b2db98748aeb2875037873a220ad18f9d34b09b1259bfc70e731dbb79876
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 6403f1e495831eddb268e3f204cd0eb9abd069e7beef885461dfe483ae9201b6
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Crypto/4j at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Crypto/4j
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

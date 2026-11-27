@@ -1,0 +1,80 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-pwn-002
+name: 'Cosmic Gate'
+slug: 002-cosmic-gate
+original_name: 'Cosmic Gate'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'Pwn'
+description: |-
+  <div style="position:relative; text-align:center; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; line-height:1.55; max-width:720px; margin:0 auto;">    <img      src="https://endfield.wiki.gg/images/thumb/Cosmic_Gate.png/1200px-Cosmic_Gate.png"      alt="Cosmic Gate"      style="display:block; width:100%; height:auto; border-radius:18px;"    />    <div style="position:absolute; inset:0; border-radius:18px; z-index:2; display:flex; align-items:center; justify-content:center; padding:18px; background:rgba(0,0,0,.55); border:1px solid rgba(255,255,255,.18); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); color:rgba(255,255,255,.94); text-shadow:0 2px 10px rgba(0,0,0,.9); box-shadow:0 12px 40px rgba(0,0,0,.45);">      <div style="max-width:640px; width:92%;">        <div style="margin-top:8px;">          <span style="opacity:.92;">in ancient civilization,</span>          <span style="font-weight:700;">Terra</span>          <span style="opacity:.92;">was the first</span>        </div>        <div style="margin-top:6px;">          <span style="opacity:.92;">within</span>          <span style="font-weight:700;">Civilight Eterna</span>          <span style="opacity:.92;">they predict</span>          <span style="font-weight:700;">Talos-II</span>          <span style="opacity:.92;">as the second beacon of hope</span>        </div>        <div style="margin-top:4px; opacity:.92;">          The two worlds were once connected, as the history ever told        </div>        <div style="margin-top:100px;">          <span style="opacity:.92;">https://gzcli.{{.host}}/{{.slug}}</span>        </div>      </div>    </div>  </div>
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'm3rr'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Pwn/cosmic_gate'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 45096aad4a6ea491b69f80e416df0b396da7558a09d9f9c75f1ac41b5f338bc7
+  - path: 'dist/.gitkeep'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'dist/cosmic_gate.zip'
+    algorithm: sha256
+    value: 67f4b924419d451f5768bd9a8b6d1ba4a3e8fe8597a838968f140a1b6f56b39e
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: a0d9b8e6ebb36b351005cb9979e175cf5bdc77c03e4ae640d49aa92b6995930f
+  - path: 'src/cosmic_gate'
+    algorithm: sha256
+    value: 06957256c3bc9aaf18fad27c9ec923c0b97085978c8dc9a96f35a6937ed48804
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: f5b1478387be73aed1fd7eb8c3dd2eb1137747d306c0e8a30efceb297ebe0542
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: e2bd7155fe313c96d15dfe2afbe345e4046ed4c530b47c7e3b390deb475e3e74
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Pwn/cosmic_gate at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Pwn/cosmic_gate
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

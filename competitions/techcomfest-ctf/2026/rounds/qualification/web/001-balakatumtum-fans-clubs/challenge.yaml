@@ -1,0 +1,142 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-web-001
+name: 'Balakatumtum Fans Clubs'
+slug: 001-balakatumtum-fans-clubs
+original_name: 'Balakatumtum Fans Clubs'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  Be freaky!
+
+  https://gzcli.{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'dimas'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Web/balakatumtum-fans-clubs'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: dfa0e2d1b9d05372fbee8553eb5b4b290a206ae6a53a0fa1eedff8acaddacff1
+  - path: 'src/default.conf'
+    algorithm: sha256
+    value: 7c0c2ae42d2fc772fb0fec4eaf8ffec273df395b177066a2be9acb097f518498
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: ece76c8f0d8f235330299b0ec0915ffc2de22b6fd395ff8b4694031f1e65e338
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: c8f134fc360385753d9dad62e9b2e68bab17a2d7a02cd04fe316d94141e30536
+  - path: 'src/nginx-custom.conf'
+    algorithm: sha256
+    value: d10fb115d61b83f16acdef8fb57b75fcc4ac52c0464ed924ffe2f9572ad0f08b
+  - path: 'src/app/.dockerignore'
+    algorithm: sha256
+    value: 225f69888e96b4bdd2c187c2d6dc2c85446bebe1130d5dd93420fa69fd6633f3
+  - path: 'src/app/.gitignore'
+    algorithm: sha256
+    value: 207e265ff4901f9ad9f96d8ce08530e04f9fc600815472a66d0a446096d654cd
+  - path: 'src/app/Dockerfile'
+    algorithm: sha256
+    value: 5ca52a8496bca138b01a9755a1356b831495a9bc1923c75117bad899a50c30e9
+  - path: 'src/app/README.md'
+    algorithm: sha256
+    value: 60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f
+  - path: 'src/app/dockerd'
+    algorithm: sha256
+    value: 8c4e15580be86dbd253d9d9efc99f8abc2e4fd440cb2b1fed9e62db734036aad
+  - path: 'src/app/dockerd-daemon'
+    algorithm: sha256
+    value: 354786bac66720ed2a5e471673a381ad127bfa0503b3ec8146df2f49dd8a24ef
+  - path: 'src/app/eslint.config.mjs'
+    algorithm: sha256
+    value: 870f1adccecf3051cbcd9fd307cef51d7633cf510979c181a81f4b1797273493
+  - path: 'src/app/next.config.ts'
+    algorithm: sha256
+    value: b5146142b51153082c0d1374fc831f388d50dccd70a1267a08ac55d54059a616
+  - path: 'src/app/package-lock.json'
+    algorithm: sha256
+    value: 78c7bfb11c83064110a5ac3e2b39d078a1250299898f1a5e80cf6aeb1c7fa916
+  - path: 'src/app/package.json'
+    algorithm: sha256
+    value: e6df2403de30c04ac44a9f8256a4a8e45de9860f208b3df161dc0eb920c076a8
+  - path: 'src/app/postcss.config.mjs'
+    algorithm: sha256
+    value: dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde
+  - path: 'src/app/tsconfig.json'
+    algorithm: sha256
+    value: be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3
+  - path: 'src/app/app/favicon.ico'
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: 'src/app/app/globals.css'
+    algorithm: sha256
+    value: 769edf77bd0d101a2d26e6c5656defba8cd885ff37d92279fa293a2756fe5651
+  - path: 'src/app/app/layout.tsx'
+    algorithm: sha256
+    value: e65025ca7842d1b3ec1fcb41768f974cfbb9c5ca85abb2fb2ace6dfa4ac4f860
+  - path: 'src/app/app/page.tsx'
+    algorithm: sha256
+    value: 17336fa01942827c9424da75de4a14efc00116674f19ab298952361b6f95b18e
+  - path: 'src/app/public/file.svg'
+    algorithm: sha256
+    value: 2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4
+  - path: 'src/app/public/globe.svg'
+    algorithm: sha256
+    value: b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf
+  - path: 'src/app/public/next.svg'
+    algorithm: sha256
+    value: 55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc
+  - path: 'src/app/public/tongue.png'
+    algorithm: sha256
+    value: 5f1809875aa7c3162b1e3140e78c8375c1eecad80da253ea5d68d56673a86808
+  - path: 'src/app/public/vercel.svg'
+    algorithm: sha256
+    value: f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4
+  - path: 'src/app/public/window.svg'
+    algorithm: sha256
+    value: 644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Web/balakatumtum-fans-clubs at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Web/balakatumtum-fans-clubs
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

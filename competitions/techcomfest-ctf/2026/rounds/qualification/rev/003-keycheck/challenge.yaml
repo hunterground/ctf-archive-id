@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-rev-003
+name: 'keycheck'
+slug: 003-keycheck
+original_name: 'keycheck'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: 'Reverse'
+description: |-
+  think about it, how can people crack Windows XP license so easily?
+
+  http://gzcli.{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'crypiktemep'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Reverse/keycheck'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: b5d308c950c54ce0ba1bac9544af3e11cbb1b24049fcd3d8f5348f87bce5f897
+  - path: 'dist/keycheck'
+    algorithm: sha256
+    value: 7ce64045a774a02c364687bf680094bff54015e384059cb69d5b5b4c6bc3f8f2
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: c8a395c5ba64d58e3d10733965c4ae68d598105ec54f8ba359fb7ba11b5269e4
+  - path: 'src/docker-compose.techcompfest_ctf_2026_quals_reverse_keycheck.tmp.yml243880487'
+    algorithm: sha256
+    value: d57f459d6198d390d6f4fbce21654b8eacd59aeb7eb0ab905929c5f213d4254a
+  - path: 'src/docker-compose.yaml'
+    algorithm: sha256
+    value: ba1ea442a0e9f02b0343106b465c6886fd8cd08d06732697fe57d305cf856b15
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: ab70e6f9855f72d0065a4a3f8e282243d6f638dd3dda3cf15a3afddca0a792dc
+  - path: 'src/keycheck'
+    algorithm: sha256
+    value: 7ce64045a774a02c364687bf680094bff54015e384059cb69d5b5b4c6bc3f8f2
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Reverse/keycheck at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Reverse/keycheck
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is. The
+  src/ tree contains a stale docker-compose temp file written by the deployment tool
+  (docker-compose.*.tmp.yml*); it is kept because it is tracked in the source repository but is
+  not used by the challenge.

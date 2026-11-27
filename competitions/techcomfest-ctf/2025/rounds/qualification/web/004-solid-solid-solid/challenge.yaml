@@ -1,0 +1,112 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-web-004
+name: 'Solid Solid Solid" ~ mentor'
+slug: 004-solid-solid-solid
+original_name: 'Solid Solid Solid" ~ mentor'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  dimas: Apa ya bagusnya buat UI buat challengenya? waifu dah pernah, karbit dah pernah, hololive dah pernah. apa coba yang kurang
+
+  mentor: Furry
+
+  mentor: Solid solid solid
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'dimas'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Web/solid-solid-solid
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: 6a1811efb551acd616816e057a24afb92e577ccf426fe2bfcbb5762270063df8
+  - path: 'dist/Dockerfile'
+    algorithm: sha256
+    value: 65913c789ed8b963abe0ab11e16cb9f8ba159a869d2d882f2f2440dc62a3ec18
+  - path: 'dist/app.py'
+    algorithm: sha256
+    value: b393b01a74e6bda4d6598ef7e529b64c5303e020b1310c68fc6f0c1c209a69ed
+  - path: 'dist/compose.yml'
+    algorithm: sha256
+    value: c6f3bcaae1c96785bce4436ca1d5a9a49e4e5e4f36ddd5e634ced43a1e30ebc7
+  - path: 'dist/doksli.png'
+    algorithm: sha256
+    value: 249f1f152e280598af604973cbb7be53b28ea2b9ef61c4304a159044a4e53d74
+  - path: 'dist/fid.png'
+    algorithm: sha256
+    value: 14258c8aa2f7daaf883278ce22cf222462266e4b4a276961c6f35f3166df11da
+  - path: 'dist/flag.txt'
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: 'dist/index.html'
+    algorithm: sha256
+    value: fd1975be2a195fcecdab20e9c4b0a5f6eada3f027c03ac05234b7bbf974d5d69
+  - path: 'dist/run.sh'
+    algorithm: sha256
+    value: 2db2090afe89f41ec737b99ff4da5dc0911981dc5a6afbb4f1595849d22196bf
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 65913c789ed8b963abe0ab11e16cb9f8ba159a869d2d882f2f2440dc62a3ec18
+  - path: 'src/app.py'
+    algorithm: sha256
+    value: b393b01a74e6bda4d6598ef7e529b64c5303e020b1310c68fc6f0c1c209a69ed
+  - path: 'src/compose.yml'
+    algorithm: sha256
+    value: c6f3bcaae1c96785bce4436ca1d5a9a49e4e5e4f36ddd5e634ced43a1e30ebc7
+  - path: 'src/doksli.png'
+    algorithm: sha256
+    value: 249f1f152e280598af604973cbb7be53b28ea2b9ef61c4304a159044a4e53d74
+  - path: 'src/fid.png'
+    algorithm: sha256
+    value: 14258c8aa2f7daaf883278ce22cf222462266e4b4a276961c6f35f3166df11da
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 2f916e656beedfd8a4cdac936079c17e8f5cb150088bf55a1140a30980ea81bf
+  - path: 'src/index.html'
+    algorithm: sha256
+    value: fd1975be2a195fcecdab20e9c4b0a5f6eada3f027c03ac05234b7bbf974d5d69
+  - path: 'src/run.sh'
+    algorithm: sha256
+    value: 2db2090afe89f41ec737b99ff4da5dc0911981dc5a6afbb4f1595849d22196bf
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/solid-solid-solid at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Web/solid-solid-solid
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-crypto-002
+name: 'Yowai Kagi'
+slug: 002-yowai-kagi
+original_name: 'Yowai Kagi'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: 'Crypto'
+description: |-
+  Terinspirasi dari Compfest 15 Hackerclass ;)
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: 'BosToken'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Crypto/yowai-kagi
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: cf0f4aed9e73390fc783821db47a1084b034e3ad1e91716ca44d8305e4c3e96a
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: c01fd9ec1b3fad19a4bc7af6b5c55e971ad40b87a6eec97d6416a2955778cc68
+  - path: 'dist/chall.py'
+    algorithm: sha256
+    value: c2a832c9a2a31d33d13ec59b0ef8f5dc98616e3e9f130fe18f1a68dc64b4de18
+  - path: 'dist/output.txt'
+    algorithm: sha256
+    value: 0e7cd0f9825e0108e0eaf1925c2b2955b818a56eec6dd76cf258f612e0185b4c
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Crypto/yowai-kagi at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Crypto/yowai-kagi
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

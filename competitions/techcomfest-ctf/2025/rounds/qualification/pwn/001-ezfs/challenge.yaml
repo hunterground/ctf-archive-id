@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-pwn-001
+name: 'ezfs'
+slug: 001-ezfs
+original_name: 'ezfs'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'Pwn'
+description: |-
+  this might be the dumbest pwn that i've ever made
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'rui'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Pwn/ezfs
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: fc001828dd3b02428ddeaf1913cfde5e12448555b63cf2e7201707427c239ad9
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: de13350d239c9f777db47cf90dfdba3ceab535e2ffde02845104360b2d41c183
+  - path: 'dist.zip'
+    algorithm: sha256
+    value: bfce9abaae2757aedb36623d44dff859a970dfe119c4685df30b98be40073827
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: f7804a86865f1ca98254d26e297b816f3ecfd36fd4e8770b28393ad25607c7e5
+  - path: 'chall/alomani.patch'
+    algorithm: sha256
+    value: ad54a844eebb8799bc37d4cbb6312f39bd1119ccea33e4bb7365d78325ac59a1
+  - path: 'chall/bzImage'
+    algorithm: sha256
+    value: 4bf08fcf0b0a0b3c5c9363d670893f1173386ccf2210b847827b945e87e673b2
+  - path: 'chall/flag.txt'
+    algorithm: sha256
+    value: 0c3e2897d18816098c5f09cc29e568e0dbbd4fdc529ffef28fe0d12734c4a1e9
+  - path: 'chall/rootfs.cpio.gz'
+    algorithm: sha256
+    value: 4808668796c8aeae887f040421215e6539755f3eb57946ab877d76b89d107fb5
+  - path: 'chall/run.sh'
+    algorithm: sha256
+    value: 0afd1a4e26cd0fcb555688b2c3d4b8e7b59307f77b47eea4d15f20ed66501331
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Pwn/ezfs at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Pwn/ezfs
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

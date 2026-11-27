@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: final
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+name: Final
+original_name: Finals
+sequence: 3
+type: final
+delivery: onsite
+description: Onsite final stage of Techcomfest 2025 CTF at Politeknik Negeri Semarang.
+dates:
+  start: '2025-01-20'
+  end: '2025-01-20'
+statistics:
+  challenge_count: 8
+  participant_count: null
+references:
+- title: Finals at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Eight final challenges imported from the finals tree of the problemsetter repository
+  TCP1P/TECHCOMPFEST-2025-PUBLIC (MIT). The source README is an unfilled template and states no
+  date; the onsite final date follows the edition record and the BINUS report that the Techcomfest
+  2025 final was held on 20 January 2025.

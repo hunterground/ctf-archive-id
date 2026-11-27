@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-rev-003
+name: 'Mini Rev'
+slug: 003-mini-rev
+original_name: 'Mini Rev'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: 'Reverse'
+description: |-
+  First C++ reverse engineering challenge :P
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'Dimas Maulana'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Reverse/mini-rev
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: b9962a0640dc6793e3316e1318521bde4d7d570ec5a523cd0c905a0ec7d4e47d
+  - path: 'main.cpp'
+    algorithm: sha256
+    value: 001ac1ac6bb6e45be2afb518d5474e0194789d0a9bd88fe52add010b814addd0
+  - path: 'dist/enc.txt'
+    algorithm: sha256
+    value: d1ad95c12763b04c0968bfd91430817a0c056beb4d249896d7cfcf715bb5869b
+  - path: 'dist/main'
+    algorithm: sha256
+    value: 102e460c20e74bf13f2f08aa4faf488604d53c28e293082945e39a8d7014a9fd
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Reverse/mini-rev at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Reverse/mini-rev
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

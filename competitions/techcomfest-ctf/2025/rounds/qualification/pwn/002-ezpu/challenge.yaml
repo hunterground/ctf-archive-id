@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-pwn-002
+name: 'ezpu'
+slug: 002-ezpu
+original_name: 'ezpu'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'Pwn'
+description: |-
+  new cpu instruction??? nah man its just backdoor
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'rui'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Pwn/ezpu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: 'chall/.gdb_history'
+    reason: Local debugger command history left in the author working tree, not part of the challenge distribution (AGENTS.md Phase D rule 4).
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: 2089049d66a80221db98183e2a21b563c0df272db549f625e614a90f790bf3e3
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 860980ce357c2561175a62e3c4f4b065fbd823d37d6878215c170898340f4f34
+  - path: 'dist.zip'
+    algorithm: sha256
+    value: ae3a177108ac3e38ebcc8b0a601a55818acdb6bd3dfc554d537094432a4c0ace
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: a1127c7c30a02af82a702f983a684aecbc5e0d99041a62b99ef796bc574ea86d
+  - path: 'chall/anomali.patch'
+    algorithm: sha256
+    value: 6e486cd29cd9a063aaa5e09feeeeaa41fec124f979a29e204673adc9c9929fed
+  - path: 'chall/bzImage'
+    algorithm: sha256
+    value: 2fe00b8c465e5c7db0fdd0338e2e7033417765a61be77c0722a739c95cfae3dd
+  - path: 'chall/qemu-system-x86_64'
+    algorithm: sha256
+    value: fd3d6acdaa81b0e82346b18acf3db1c683ce717d300265a7cbe669bcd022688b
+  - path: 'chall/rootfs.cpio.gz'
+    algorithm: sha256
+    value: 165c3a5993df7da14c5f2fc8a04f45aff522c4aef9c1be5c1940469d64a2918e
+  - path: 'chall/run.sh'
+    algorithm: sha256
+    value: c4cd5704aa23af82c56ea80a32e34b543c9f75c72dd4b7cb73d78bffa329705c
+  - path: 'chall/bios/bios-256k.bin'
+    algorithm: sha256
+    value: 2b864f5b202625b03bdf152322c7ecabcde1413e62bd0987970bded9cc915184
+  - path: 'chall/bios/efi-e1000.rom'
+    algorithm: sha256
+    value: f37222fcdf0481bfbaf7a16d9aaf740aeb41d3d24c187801eb6e9a628cec0fc8
+  - path: 'chall/bios/kvmvapic.bin'
+    algorithm: sha256
+    value: cdf057a71b07e3b52b19cbe210bdefa59250d01a9810b960f7fe1f98eed95a27
+  - path: 'chall/bios/linuxboot_dma.bin'
+    algorithm: sha256
+    value: 9c49e255340c78fc12e54ed043462bca02fb7fca29b7cfab62ff88a5344b6950
+  - path: 'chall/bios/vgabios-stdvga.bin'
+    algorithm: sha256
+    value: e13dafa0bd55d3d8632f278d87272122db18cbd5675307002c28636d597e2d1e
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Pwn/ezpu at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Pwn/ezpu
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

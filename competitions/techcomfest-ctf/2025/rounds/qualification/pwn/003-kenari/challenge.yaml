@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-pwn-003
+name: 'kenari'
+slug: 003-kenari
+original_name: 'kenari'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'Pwn'
+description: |-
+  Not stated in the source.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'rui'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Pwn/kenari
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: 'server/.gdb_history'
+    reason: Local debugger command history left in the author working tree, not part of the challenge distribution (AGENTS.md Phase D rule 4).
+  checksum_verified: true
+  checksums:
+  - path: 'server/Dockerfile'
+    algorithm: sha256
+    value: 4f557d15bef0afd6516f3df8f3bd8c2d77c851ece1866fa72d417ec198a4d19c
+  - path: 'server/docker-compose.yml'
+    algorithm: sha256
+    value: a60caaf3ef5f7475d20cf2c270359ddd999eb491e0a220a624ad76df4f983ac2
+  - path: 'server/files/flag.txt'
+    algorithm: sha256
+    value: 8fb43c5912e11b8804554bba3dc8112f37962c8c4514d439c3bd802614c91f89
+  - path: 'server/files/kenari'
+    algorithm: sha256
+    value: 956c14791b965c30fc41ffb3b4558ee14cfe08b1028b3661a913cb8927f0dcec
+  - path: 'src/kenari'
+    algorithm: sha256
+    value: 956c14791b965c30fc41ffb3b4558ee14cfe08b1028b3661a913cb8927f0dcec
+  - path: 'src/kenari.c'
+    algorithm: sha256
+    value: 75c520a5852abf0d1001cfa50d99a171ed5c937bcf265eaee786e90ffc83b65a
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Pwn/kenari at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Pwn/kenari
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source directory has no challenge.yml, so name and
+  category come from the directory layout. The author is inferred from the other Pwn challenges in
+  the same round by rui and is unverified. The directory ships expl.py, a working exploit against
+  src/kenari.

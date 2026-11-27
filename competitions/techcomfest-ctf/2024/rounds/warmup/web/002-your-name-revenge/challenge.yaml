@@ -1,0 +1,123 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-warmup-web-002
+name: Your Name Revenge
+slug: 002-your-name-revenge
+original_name: Your Name Revenge
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: web
+original_category: Web
+description: Reflected XSS warm-up challenge, a follow-up to Your Name. The name input is reflected and
+  script execution in the admin bot's session yields the flag.
+difficulty:
+  value: "2.30"
+  source: archive_curator
+tags:
+- web
+- xss
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Warmup/Web/Your-Name-Revenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: README.md
+    algorithm: sha256
+    value: 14a1bec462dedc0eda517430b64ff22664908587964c309898db7caee1f2d92d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 89d52a9c2b3ab065d532bc7ea3dc75254e6e8bb6f259e92f97c4b69fd55fbe3d
+  - path: dist.zip
+    algorithm: sha256
+    value: a557b7bb0b12d985ccf2c9301c41cf3b35fc7d28899d2e05e66e9f97f7a02858
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: 1d4721aa34b7d532c0872c114d2430b5daf7aeb122eafdb2be1e1b0772614933
+  - path: proxy.conf
+    algorithm: sha256
+    value: 80a4dbec9aba7ddfeb1d55f524391540a4cc61f5efd4b4cd04fa6049cca119f4
+  - path: bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/LICENSE
+    algorithm: sha256
+    value: 77317957ecccaab7e1f2fdace916477e09b75c999f6d240806eabf5501ce0ae8
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: 34ddd91a97c6dc87605c06b1ffacda199df1d4aa33fd8ea2c06d47e2d2ce978c
+  - path: dist/proxy.conf
+    algorithm: sha256
+    value: 80a4dbec9aba7ddfeb1d55f524391540a4cc61f5efd4b4cd04fa6049cca119f4
+  - path: dist/bot/Dockerfile
+    algorithm: sha256
+    value: 6fa2c44f713ee5e23ba54f0a91e13e54122374e11c7976b47ee5148047e7760d
+  - path: dist/bot/bot.js
+    algorithm: sha256
+    value: 2753d2fc7409ddc04b4a0fdb2182ccf5608bcdc5b8eb5ccdb964bcdcfd469c57
+  - path: dist/bot/index.js
+    algorithm: sha256
+    value: fe313cdcc600bcdb0f5f2b6a86439ccb102c2374c840d8a3367658574a746e7d
+  - path: dist/bot/package.json
+    algorithm: sha256
+    value: 9554e5a4b3832da1947c348c57116af829adbf6325c508deb069d7820df2b738
+  - path: dist/bot/views/index.ejs
+    algorithm: sha256
+    value: a1064ac3870a9c885053c24d0abf1769c04889101e6aecc4d796eb1811b42da0
+  - path: dist/src/index.php
+    algorithm: sha256
+    value: 1e04acfe0de757588959ca8dc672c31dee9f6a61ff1d28d2b4f2e545687ef85a
+  - path: src/index.php
+    algorithm: sha256
+    value: 1e04acfe0de757588959ca8dc672c31dee9f6a61ff1d28d2b4f2e545687ef85a
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Warmup/Web/Your-Name-Revenge/LICENSE
+environment:
+  type: docker
+  services:
+  - web
+  - bot
+  requirements: []
+references:
+- title: Warmup/Web/Your-Name-Revenge at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Warmup/Web/Your-Name-Revenge
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml records a flag with the TCF2023{...} prefix, suggesting the
+  warm-up pair was reused from Techcomfest 2023; the flag is not reproduced in this metadata. Difficulty
+  (2.30/5.00, easy) is taken from the README difficulty calculator.

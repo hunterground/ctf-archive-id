@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-forensics-001
+name: 'minami'
+slug: 001-minami
+original_name: 'minami'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  my image is full of logic, my wife is full of love
+  but its kinda broken, help me
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: 'keii'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Forensics/minami'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: dd50ad69028c89df18129e0d0ce444e97175200e1b8a9a3821410729a162de79
+  - path: 'dist/minami.ad1'
+    algorithm: sha256
+    value: 8dce27a829d48d96e70a349a18d771c3366dd988c427378f0d8e60b25b90f3e9
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Forensics/minami at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Forensics/minami
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is.

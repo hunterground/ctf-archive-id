@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "professor-of-curvature"
+author: "azuketto"
+description: |
+  harikitteeeeee ikouuuuuU!!!!
+
+type: "DynamicContainer"
+value: 1000
+
+container:
+  flagTemplate: "TCF{https://youtu.be/0JcPvIuSRf0?si=LMIui_BGtle02vOz?[TEAM_HASH]}"
+  containerImage: "{{.slug}}:latest"
+  memoryLimit: 512
+  cpuCount: 3
+  storageLimit: 512
+  exposePort: 8010
+  enableTrafficCapture: false
+
+provide: "./dist"
+
+scripts:
+  start: cd src && docker build -t {{.slug}} .

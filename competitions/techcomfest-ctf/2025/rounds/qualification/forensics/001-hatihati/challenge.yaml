@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-forensics-001
+name: 'HatiHati'
+slug: 001-hatihati
+original_name: 'HatiHati'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  Bruh, someone just hacked my website >:(, help me answer these questions
+
+  Connect: http://{{.host}}:32128
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: 'daffainfo'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Forensics/HatiHati
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: 1adad7ea1d20f62a740a2f67798a1e0bab9f654460d47c143d8cb7b12e746531
+  - path: 'dist/access.log'
+    algorithm: sha256
+    value: 4f364c44ca74ef13b6278889ec51fd6bd70d8aad6f54754cb55fbcbf154ab8fb
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 2d4d07243b3379030cd2a5a53b16ee3ce9d5f98d3cf3e314c1df28cda065fc8a
+  - path: 'src/docker-compose.yaml'
+    algorithm: sha256
+    value: 2bba72d12bc2297154f52c9c97d410f8355614256501cd0b510e81e9bdc4665e
+  - path: 'src/main.py'
+    algorithm: sha256
+    value: 0cda2cd6ccf81d84d751488ac3386ee8d17222a7fb27e367690699f0161b0dd6
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Forensics/HatiHati at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Forensics/HatiHati
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

@@ -1,0 +1,174 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2023-main-web-002
+name: 'Red Lua'
+slug: 002-red-lua
+original_name: 'Red Lua'
+competition_id: techcomfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: 'Web'
+description: |-
+  Hello fellow hackers! this is my server i created 8 months ago, can you check the security and get my flag in my redis server?
+difficulty:
+  value: "2.90"
+  source: archive_curator
+tags:
+- web
+authors:
+- name: null
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/Techcompfest-2022/Red Lua
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: 1e1dd2b21525a05891470a73130fd77f047bff7a412bfcde51b3499c9281386b
+  - path: 'attachment/src/app.py'
+    algorithm: sha256
+    value: 2591c9f4c1c4b65cb6f38354f71b6de32c2997ea317fb97d1ffbd88518217784
+  - path: 'attachment/src/config.py'
+    algorithm: sha256
+    value: 7448bbc49355574ce4c78187387498346c7b7b734ef27fda95b85291bc7eaaae
+  - path: 'attachment/src/makefile'
+    algorithm: sha256
+    value: 1db526d7c4d1df03478803e04c3f59c82f9726effb664ff5eaa62ce9785418f7
+  - path: 'attachment/src/requirements.txt'
+    algorithm: sha256
+    value: ba5c4594e00ee6fa748fa3ed07ae8f006584abb7512ca69e67488c834d45f61c
+  - path: 'attachment/src/decorator/__init__.py'
+    algorithm: sha256
+    value: cb59ebda91b4cb0d28450357e90d0322595a934da1c5bd60b4d825bac0aa7884
+  - path: 'attachment/src/decorator/__register.py'
+    algorithm: sha256
+    value: 7090b94be2fb1ac1f191108a75ec6ae790de8c6c35f15b0be88bbde795efd5c3
+  - path: 'attachment/src/decorator/__token.py'
+    algorithm: sha256
+    value: 190b295d1895846561130328d00bc22256e6fac4378fc370f8035bccb7feca20
+  - path: 'attachment/src/feedback/feedback.txt'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'attachment/src/router/__init__.py'
+    algorithm: sha256
+    value: 91791604ba569267c57d17aff5e583c7eb7092ded6aec5047c1630cc8d0e3507
+  - path: 'attachment/src/router/admin.py'
+    algorithm: sha256
+    value: 590a93d2dff4ef8b6e56499f86a559f1549153ffa37fef8e38a2cd6b5d6da68d
+  - path: 'attachment/src/router/feedback.py'
+    algorithm: sha256
+    value: 0b449d8e3fc05374a22d3cab44c5eb6cc99466b3eb2fa0fec9682e43aa4b7609
+  - path: 'attachment/src/router/index.py'
+    algorithm: sha256
+    value: 7679b8fb972a6865894a2eaa2cb5b2da3920047ca8d79deffbb64a385abf956a
+  - path: 'attachment/src/router/login.py'
+    algorithm: sha256
+    value: 96e7e95935cd7c53239e4dbd7aae716106c79db8bd5c2da87d165bd8b55da32f
+  - path: 'attachment/src/templates/feedback.html'
+    algorithm: sha256
+    value: 47b161925e381473e19ea4688224f01458221cf193d9f5f72beafeab4e3909d7
+  - path: 'attachment/src/templates/index.html'
+    algorithm: sha256
+    value: 24734c534cccd67555f4553fb095a5c68f9ba658f4649ef8e6e458afe91c135a
+  - path: 'chall/docker-compose.yml'
+    algorithm: sha256
+    value: b59ef05a406bb293eab73b24e065a535c00494be50a8d074d67e4b4ca70227fa
+  - path: 'chall/makefile'
+    algorithm: sha256
+    value: 2d85e149a4f38bf07b4b6648558749b10f5fa3b4087e6d7af36900babd77b65e
+  - path: 'chall/redis/Dockerfile'
+    algorithm: sha256
+    value: 2d149e54f1095f48671c357970025a261c5d31eb5402f71c4ef3d54451ecc972
+  - path: 'chall/redis/flag.txt'
+    algorithm: sha256
+    value: efa366634fef66cc334c36135abf763740e6f50f2e33eea98880a26817c9d13e
+  - path: 'chall/src/Dockerfile'
+    algorithm: sha256
+    value: 9c966307f3b642c8007f00a49df33e633700e1a0883d718f84041ade6ec90635
+  - path: 'chall/src/README.md'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'chall/src/app.py'
+    algorithm: sha256
+    value: 2591c9f4c1c4b65cb6f38354f71b6de32c2997ea317fb97d1ffbd88518217784
+  - path: 'chall/src/config.py'
+    algorithm: sha256
+    value: 7448bbc49355574ce4c78187387498346c7b7b734ef27fda95b85291bc7eaaae
+  - path: 'chall/src/makefile'
+    algorithm: sha256
+    value: 1db526d7c4d1df03478803e04c3f59c82f9726effb664ff5eaa62ce9785418f7
+  - path: 'chall/src/requirements.txt'
+    algorithm: sha256
+    value: ba5c4594e00ee6fa748fa3ed07ae8f006584abb7512ca69e67488c834d45f61c
+  - path: 'chall/src/decorator/__init__.py'
+    algorithm: sha256
+    value: cb59ebda91b4cb0d28450357e90d0322595a934da1c5bd60b4d825bac0aa7884
+  - path: 'chall/src/decorator/__register.py'
+    algorithm: sha256
+    value: 7090b94be2fb1ac1f191108a75ec6ae790de8c6c35f15b0be88bbde795efd5c3
+  - path: 'chall/src/decorator/__token.py'
+    algorithm: sha256
+    value: 190b295d1895846561130328d00bc22256e6fac4378fc370f8035bccb7feca20
+  - path: 'chall/src/feedback/feedback.txt'
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: 'chall/src/router/__init__.py'
+    algorithm: sha256
+    value: 91791604ba569267c57d17aff5e583c7eb7092ded6aec5047c1630cc8d0e3507
+  - path: 'chall/src/router/admin.py'
+    algorithm: sha256
+    value: 590a93d2dff4ef8b6e56499f86a559f1549153ffa37fef8e38a2cd6b5d6da68d
+  - path: 'chall/src/router/feedback.py'
+    algorithm: sha256
+    value: 0b449d8e3fc05374a22d3cab44c5eb6cc99466b3eb2fa0fec9682e43aa4b7609
+  - path: 'chall/src/router/index.py'
+    algorithm: sha256
+    value: 7679b8fb972a6865894a2eaa2cb5b2da3920047ca8d79deffbb64a385abf956a
+  - path: 'chall/src/router/login.py'
+    algorithm: sha256
+    value: 96e7e95935cd7c53239e4dbd7aae716106c79db8bd5c2da87d165bd8b55da32f
+  - path: 'chall/src/templates/feedback.html'
+    algorithm: sha256
+    value: 47b161925e381473e19ea4688224f01458221cf193d9f5f72beafeab4e3909d7
+  - path: 'chall/src/templates/index.html'
+    algorithm: sha256
+    value: 24734c534cccd67555f4553fb095a5c68f9ba658f4649ef8e6e458afe91c135a
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Techcompfest-2022/Red Lua at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/Techcompfest-2022/Red%20Lua
+  type: official_repository
+  accessed: '2026-11-27'
+verification: needs_scope_review
+notes: >-
+  Author challenge archived from the Techcompfest-2022 directory of dimasma0305/My-CTF-Challenges.
+  The edition year and event identity are uncertain: the source directory is named for 2022, but
+  this challenge and one other in the tree carry TECHCOMPFEST2023{...} flags, and official records
+  state that the 2022 Techcomfest ran Networking, Software Development and Short Movie
+  competitions with the 2023 event held on 21 January 2023. It is therefore recorded under the
+  2023 edition pending maintainer confirmation. The source README records a flag, which is not
+  reproduced here; flag files in the distribution are archived as-is. Difficulty is the rating the
+  author published in the README, computed with their own ctf-challenge-difficulty-calculator
+  site.

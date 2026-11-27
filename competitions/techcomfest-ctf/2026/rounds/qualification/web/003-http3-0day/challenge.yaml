@@ -1,0 +1,907 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-web-003
+name: 'http3 0day'
+slug: 003-http3-0day
+original_name: 'http3 0day'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  This was an easy challenge isn't?, you don't even need the source code to solve it. Here's the binary instead. Good luck! but it doesnt matter anyway because it is 10/10 same.
+
+  http://gzcli.{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'rep'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Web/http3 0day'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: a508018cb87d569d97d9b35383fdb0b022fe825ebf859404c40c8cf059c888e1
+  - path: 'dist/server'
+    algorithm: sha256
+    value: 982e56931d138e5ea49a3f55d8562107e60f0e827c37d67855626b478fa3f209
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: aacade6c2a04cd4509f0c5bafede6a9b1a87e78e7a936a46db0345a798746dcd
+  - path: 'src/docker-compose.yaml'
+    algorithm: sha256
+    value: fa0361178ac149b3b3b4c81443237d9ebb3a7385a2da10ae20c3d106782af08a
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 20cb1fd72a3c8d6a63d04f8985c701c5b838172b27e8663bd58bc99e2d72298e
+  - path: 'src/launch_chrome.sh'
+    algorithm: sha256
+    value: 4e8531187ca4ab33828a09a4dd7de9d807abd4f396790ec524fd8a403268ea2b
+  - path: 'src/server'
+    algorithm: sha256
+    value: 982e56931d138e5ea49a3f55d8562107e60f0e827c37d67855626b478fa3f209
+  - path: 'src/dist/server'
+    algorithm: sha256
+    value: 982e56931d138e5ea49a3f55d8562107e60f0e827c37d67855626b478fa3f209
+  - path: 'src/h3/.gitignore'
+    algorithm: sha256
+    value: ba66ca152a840d8cb7335b12dcc91a32b89054a5b2337d8fcfdf81b7abd015b0
+  - path: 'src/h3/CONTRIBUTING.md'
+    algorithm: sha256
+    value: 08bae268e45f833143012350489f70468ab97c22b5ccdbe9eb8e239626015e65
+  - path: 'src/h3/Cargo.toml'
+    algorithm: sha256
+    value: 976b2197927b013f6a5ea6d269b3e13d09a7f432dac18f889fe7418cc7a12b72
+  - path: 'src/h3/LICENSE'
+    algorithm: sha256
+    value: a0d039cdafe68f363893abddb5e4d50dbe6f8b56611e2650aaab4237103285f1
+  - path: 'src/h3/README.md'
+    algorithm: sha256
+    value: aac9c202fd002283c3728cae5d2877dd057818e8f4f1c0d7930be78a1b01081a
+  - path: 'src/h3/changelog-h3-datagram.md'
+    algorithm: sha256
+    value: e9bf8ee710f5d2dc79bd52b445aed6b22b88326520ab7e56bb1501198487ce5b
+  - path: 'src/h3/changelog-h3-quinn.md'
+    algorithm: sha256
+    value: 05ac04fa93e26a0a636ab8355df2871887449a337382ceeb4546721790514c13
+  - path: 'src/h3/changelog-h3-webtransport.md'
+    algorithm: sha256
+    value: 5424b8816f8d64eda917f4ac8d2dc8bf147dbb05f2c1f3bcc48c696e0ba78ac6
+  - path: 'src/h3/changelog-h3.md'
+    algorithm: sha256
+    value: 585f91c4d7ace0e88f2c7ddb4edc04e9ca5076b61bfd847670bac63172693508
+  - path: 'src/h3/.duvet/.gitignore'
+    algorithm: sha256
+    value: aed49addfb09fcdc7ea34c1d3295e7cffe6a5a8bdf1333831251d1121702ac07
+  - path: 'src/h3/.duvet/config.toml'
+    algorithm: sha256
+    value: 38107ed635a33027f8dcf49c60eada229f32736bd21e6a886b356a1b692469b3
+  - path: 'src/h3/.duvet/snapshot.txt'
+    algorithm: sha256
+    value: f39e5db7754cde214c6f5f94905b65c0e515aa6e788c5b029440158294f2f3ff
+  - path: 'src/h3/.duvet/exceptions/rfc9114/10.4.toml'
+    algorithm: sha256
+    value: 1abb7605e4bd4ed9f42b2a70c06e4f74e9f322e1ba632cc6c39287bdfdc67385
+  - path: 'src/h3/.duvet/exceptions/rfc9114/10.6.toml'
+    algorithm: sha256
+    value: 2780b4abc90e2ad7681b75dff434ee1ea35210dd6bac0ffb2b6aa3f9a066e9bf
+  - path: 'src/h3/.duvet/exceptions/rfc9114/11.2.1.toml'
+    algorithm: sha256
+    value: 7df9b685275d8c1f739f76b24e60f25106b402efd59638e78ad3f2b43601ba42
+  - path: 'src/h3/.duvet/exceptions/rfc9114/11.2.2.toml'
+    algorithm: sha256
+    value: ac5d88e01b39459407698fbe67896cec8e74390e844dc1a0ccaf798604d0fa54
+  - path: 'src/h3/.duvet/exceptions/rfc9114/11.2.3.toml'
+    algorithm: sha256
+    value: f1e8fcc083d52986bd5b92f5c164d3b9a7d8bb3ff713f75262162cded2bc81ff
+  - path: 'src/h3/.duvet/exceptions/rfc9114/11.2.4.toml'
+    algorithm: sha256
+    value: b60b2d3c2fdb7bfd5fe3b06754331669f202fe3b64d115a56f4095a53997119e
+  - path: 'src/h3/.duvet/exceptions/rfc9114/3.1.1.toml'
+    algorithm: sha256
+    value: 2b9be7d9128d6f4de0b01461521c17ed749c43fe8a632d719b88ec32f7e1e9a3
+  - path: 'src/h3/.duvet/exceptions/rfc9114/3.1.2.toml'
+    algorithm: sha256
+    value: ada027be510c56c20ab9d6b4ed952c7be7df4eba8f448da48783401562c70dce
+  - path: 'src/h3/.duvet/exceptions/rfc9114/3.1.toml'
+    algorithm: sha256
+    value: 95a9be796394c5bb9c24d89377428411d5348841db4f74a77d4395b4bbe35a08
+  - path: 'src/h3/.duvet/exceptions/rfc9114/3.2.toml'
+    algorithm: sha256
+    value: e29d25b19881104b7f23d371e0b93ccbbd9219686044248eb44246516b52eb73
+  - path: 'src/h3/.duvet/exceptions/rfc9114/3.3.toml'
+    algorithm: sha256
+    value: 7d8ad82c956fb0e43dce72ea39674e04b110d9ec90a41c3deb01d7d6b9b3b405
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.1.1.toml'
+    algorithm: sha256
+    value: 1c3a6c3ff3abf8662c30f8bd8be379eb99bc05f7de23c22a79bb2def4120cebf
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.1.2.toml'
+    algorithm: sha256
+    value: fb0b37b91d1f0eed6b4c58bbc4255c94cead3fa4c0ae61ad35fd9cf2110b8cb5
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.1.toml'
+    algorithm: sha256
+    value: 92087a46879952e02b1ccfa252a8a819e22bdf038346c4a1f1a42869258c0a90
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.2.toml'
+    algorithm: sha256
+    value: 12aa157b64e32744748dd4d978fc0b8f20b70e975127de1af5d9231c29d51605
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.3.1.toml'
+    algorithm: sha256
+    value: 598d6cf49b3b064f144a9343e4ec7b0283e55ece59d4c4332e35b4f029b42298
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.4.toml'
+    algorithm: sha256
+    value: 6b33bcac5f62a36188ec7ca43dc53d4a8ea2e8b9609ea378bbde14ed19b13356
+  - path: 'src/h3/.duvet/exceptions/rfc9114/4.6.toml'
+    algorithm: sha256
+    value: 861d063f8ea558f6d99d1cee2401a7749a9d5bdf853b996a1d7415f390c058d0
+  - path: 'src/h3/.duvet/exceptions/rfc9114/5.1.toml'
+    algorithm: sha256
+    value: d28f53de371d0e1da1154276238d40cd448aef2b721a9dcd16557e6445502b87
+  - path: 'src/h3/.duvet/exceptions/rfc9114/5.2.toml'
+    algorithm: sha256
+    value: 6a86682a8f7e8d17834a3507ad820dd1b6e0c7331164f591e3613d11c78ee004
+  - path: 'src/h3/.duvet/exceptions/rfc9114/5.4.toml'
+    algorithm: sha256
+    value: e11f39c35eef9f84e47a53a34621c4a189a0b3082da8899c39a006513c83bea3
+  - path: 'src/h3/.duvet/exceptions/rfc9114/6.2.1.toml'
+    algorithm: sha256
+    value: 2698641fc9f373643acdbd78f832bfed859468c309359d4bdd3e394d9ce223af
+  - path: 'src/h3/.duvet/exceptions/rfc9114/6.2.toml'
+    algorithm: sha256
+    value: 8c395451e235d54c9f7a88fe1a2256be0c08d858e80808a42c186a7848dbbd19
+  - path: 'src/h3/.duvet/exceptions/rfc9114/9.toml'
+    algorithm: sha256
+    value: 59a599da3aef96efa149568db0fa8806fd3ab909a9d8f0543f11711ff876d2ed
+  - path: 'src/h3/.duvet/specifications/www.rfc-editor.org/rfc/rfc9114.txt'
+    algorithm: sha256
+    value: 6b84555c88eeebcf5d2b2e1d9d7b58630abc97ab877b2cf62dee4cd635db34e4
+  - path: 'src/h3/.duvet/todos/rfc9114/10.5.1.toml'
+    algorithm: sha256
+    value: aeb8797fc2b189275f579089350ad78c96fcb1cf2b4b003d9ecbffa7d414b795
+  - path: 'src/h3/.duvet/todos/rfc9114/10.5.toml'
+    algorithm: sha256
+    value: dfe3a567ad00d81f953421cdd00395be7052e173a66a91612c7e967acecca2c2
+  - path: 'src/h3/.duvet/todos/rfc9114/10.8.toml'
+    algorithm: sha256
+    value: 84a260d958ea54e302c9c2aaf425d452141587bc60c2235aee2e20dd0cdb47fa
+  - path: 'src/h3/.duvet/todos/rfc9114/10.9.toml'
+    algorithm: sha256
+    value: e577f13e20ace3e59fa2835d147693980694d6c0d7e49bf104ff9aa4636834eb
+  - path: 'src/h3/.duvet/todos/rfc9114/4.1.1.toml'
+    algorithm: sha256
+    value: 2c3757b6cf1e5e96690cb9612e6ed53a572a9a548d4947a10b7e437901363834
+  - path: 'src/h3/.duvet/todos/rfc9114/4.1.2.toml'
+    algorithm: sha256
+    value: b815aab46b689b57194c9478770e5a5132c669c40620050180a9a76db0a4b486
+  - path: 'src/h3/.duvet/todos/rfc9114/4.1.toml'
+    algorithm: sha256
+    value: 1d52104517b94650688445cab74fd32ba347133ad0002c424e62b95095f041c4
+  - path: 'src/h3/.duvet/todos/rfc9114/4.2.1.toml'
+    algorithm: sha256
+    value: a19076663a87d97f60c8eb33bbefc17fd1d2648df25c3f1f59b363385daedfdf
+  - path: 'src/h3/.duvet/todos/rfc9114/4.2.toml'
+    algorithm: sha256
+    value: 8238231d3c6e954655726c8c60165b4417eeea148747601123ec68012cad6833
+  - path: 'src/h3/.duvet/todos/rfc9114/4.3.1.toml'
+    algorithm: sha256
+    value: f1a721871fcc21a71045bf559aa9d564c163a553782b4edc001976d51fa1c0f0
+  - path: 'src/h3/.duvet/todos/rfc9114/4.3.toml'
+    algorithm: sha256
+    value: 2fa9127407f20b8e4e334be82b031cd304ec4c5a48de64ab1843b3c801e1579a
+  - path: 'src/h3/.duvet/todos/rfc9114/4.4.toml'
+    algorithm: sha256
+    value: 77f2d83eb8a95428c0394513809973b09cff4f39ed7ae7c59f21fc85fbaf3ded
+  - path: 'src/h3/.duvet/todos/rfc9114/4.6.toml'
+    algorithm: sha256
+    value: 8f67ad1e0a7bb4fedba5658a3d40f1190416649da2cd844fcb28b5869813e4da
+  - path: 'src/h3/.duvet/todos/rfc9114/5.1.toml'
+    algorithm: sha256
+    value: 01d62fa211990621d87f520ece4e62bb73957a5c662db39e08126ea6fc581cdc
+  - path: 'src/h3/.duvet/todos/rfc9114/5.2.toml'
+    algorithm: sha256
+    value: 5c2095eb95d6a9c6202f21f11ac979acb5d35e605fc208526f610ada202894d5
+  - path: 'src/h3/.duvet/todos/rfc9114/5.3.toml'
+    algorithm: sha256
+    value: 62afad174dc4e218aa6c5646b706af35d315344a06c5264a08d69e44cf0d5e8f
+  - path: 'src/h3/.duvet/todos/rfc9114/6.2.2.toml'
+    algorithm: sha256
+    value: d0aa4371446822ae8a2e2df1ccdb5c9329f058c7d564a0e09c896fa6af4ba3fd
+  - path: 'src/h3/.duvet/todos/rfc9114/6.2.toml'
+    algorithm: sha256
+    value: fd78cd403d702c1938232f333224eae61bc5f50156aaca22a021c1c5e0b9f345
+  - path: 'src/h3/.duvet/todos/rfc9114/7.1.toml'
+    algorithm: sha256
+    value: a8cf8f29db68f7cc4b16883c9b2b9cc5ac1006f97ceb00a74525874ec78d1326
+  - path: 'src/h3/.duvet/todos/rfc9114/7.2.3.toml'
+    algorithm: sha256
+    value: 98a77c4e3040b46ce297c498fc2083ac72a80a128c336035606bcd3393a8b58a
+  - path: 'src/h3/.duvet/todos/rfc9114/7.2.4.2.toml'
+    algorithm: sha256
+    value: 9863ac91d48b550b71ef8dff9899ddbc787f3d71973ba1a21658e6784b990d4f
+  - path: 'src/h3/.duvet/todos/rfc9114/7.2.5.toml'
+    algorithm: sha256
+    value: 05ad268157949f18939b7db5f9120aa7da1d69102a6ec2830cfc726549f2427e
+  - path: 'src/h3/.duvet/todos/rfc9114/7.2.7.toml'
+    algorithm: sha256
+    value: 059a21c64f1b647017538d31da712dcd741befdf9b8545f02df7180d21ac6d46
+  - path: 'src/h3/.duvet/todos/rfc9114/7.2.8.toml'
+    algorithm: sha256
+    value: 763cf884852602175242845429401bf4ab92204f3d36d45ecb73b959e96c55e8
+  - path: 'src/h3/.duvet/todos/rfc9114/8.1.toml'
+    algorithm: sha256
+    value: e8d05be10150a87f97ecde3e0bc7fc542a735f59ffe6e31091c65b517dd1c9f6
+  - path: 'src/h3/.duvet/todos/rfc9114/8.toml'
+    algorithm: sha256
+    value: 471a27904030f8655f7581f2d79c337d91a3a2b02eb2206d3b45edd4ef6d4983
+  - path: 'src/h3/.duvet/todos/rfc9114/9.toml'
+    algorithm: sha256
+    value: 22182066837df7bf5c221dba5900e00cfae3ab2869e0067f510c983f572f9853
+  - path: 'src/h3/.github/actions/compliance/action.yml'
+    algorithm: sha256
+    value: 12f6c6d3503303f0ed48266d6ce9de3d8b94a6dd8e10ce8df8d8c43651aec87e
+  - path: 'src/h3/.github/workflows/CI.yml'
+    algorithm: sha256
+    value: ee9595bf1b09152dcfd95ae286ae1853be264a7d99f8e5ec3bd890a480e12443
+  - path: 'src/h3/ci/example_test.sh'
+    algorithm: sha256
+    value: 4869dfe86a4ff999342dda77a44349da3a89317f1b4dd3b849c74528cef898d0
+  - path: 'src/h3/ci/h3spec.sh'
+    algorithm: sha256
+    value: b32a4248471f591e494eb383dc52159037f19369300bc6394611a0ff099c6b86
+  - path: 'src/h3/ci/compliance/report.sh'
+    algorithm: sha256
+    value: a0c564118924a6f9095b08f3c8c7ee602d062bd1228178f7a5258ce0aeb58ba2
+  - path: 'src/h3/content/root/index.html'
+    algorithm: sha256
+    value: 05cfbcb4624d629cdbf419d594a72c7632e9272d424484665f04c79d9d63a701
+  - path: 'src/h3/docs/PROPOSAL.md'
+    algorithm: sha256
+    value: e76d85048c0d864ac5bddac465358f6f3ba2b629a7b2d5defd74d97633a8447d
+  - path: 'src/h3/docs/PUBLISH.md'
+    algorithm: sha256
+    value: 35bcd9ccbbf5fa25a4d55d6ad7f65fbea9faa123a38b739cf20e5da6c5b7c520
+  - path: 'src/h3/examples/Cargo.toml'
+    algorithm: sha256
+    value: 58a2765d6de2f57955ac59946e98490cfd01bcc5e7daca2e8ca0ffa8cbc54cb5
+  - path: 'src/h3/examples/ca.cert'
+    algorithm: sha256
+    value: 805689761b226c3a33decd293fe62ced8d2a6dc66d62e6f99702cb8097e81a79
+  - path: 'src/h3/examples/client.rs'
+    algorithm: sha256
+    value: 02dc102f959664b8274461f27381b86c9b318e1d8f530c7f2cd8e09bbde42f36
+  - path: 'src/h3/examples/launch_chrome.sh'
+    algorithm: sha256
+    value: 4022a7b192e0f17037098c334439a66786e933aa1832f47f844e1391575ee9e3
+  - path: 'src/h3/examples/readme.md'
+    algorithm: sha256
+    value: 2c7e21934ec17fb27d12f3ec118142d0c9e21fa80531100e369f169fd827eed0
+  - path: 'src/h3/examples/server.cert'
+    algorithm: sha256
+    value: 403a05dc7c4c7291e759293538ce9dd345db7faac68e7a901213fb04f760f50b
+  - path: 'src/h3/examples/server.key'
+    algorithm: sha256
+    value: 106f5f4fefbee1d5a593e178ddbaeee6f8ffece244734b3607a2836f9e7195d2
+  - path: 'src/h3/examples/server.rs'
+    algorithm: sha256
+    value: 23763afc2bb3a7393d1b74cbf5f9efa96c1c8903e9f622d2bea09955da1bcb45
+  - path: 'src/h3/examples/webtransport_server.rs'
+    algorithm: sha256
+    value: e89aaacbdc569139b196a71bb40f6c041c0ec7d8e85df2479f0dff5b8f1fe66f
+  - path: 'src/h3/fuzz/.gitignore'
+    algorithm: sha256
+    value: d8d6ac4234ec1a859cdd9d75a0be36b7b0d8e40736d2c6bd1f3270ec69d1a94f
+  - path: 'src/h3/fuzz/Cargo.toml'
+    algorithm: sha256
+    value: 767c2566fd33225ff82ce449b4e5f6386ffc487556b2304010e640fc17add072
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/05dbe5663b80045fadf7b034f8e2aff60f3a7650'
+    algorithm: sha256
+    value: 3e429631897b9704290a419975532235d8125a2a36a9c06b427102ed267e79dc
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/06be154b8785e183da98f1097de03378dec4c040'
+    algorithm: sha256
+    value: 397f544caccd0d0467025e700635c1ad2d7798b6eae65c6584e74bb8bf0c7738
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/074a556fe49e356f482237e7dada61ca88205d09'
+    algorithm: sha256
+    value: 4228b61d27fd3563d8e5a9f24b9365f70b3ddb286c5f94601a570e32b89d5772
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/07d07581ce26c5ba9bdb1f4e6fa2ec9a83348e91'
+    algorithm: sha256
+    value: 782f21ea760467785d2a303347566d25a9d68cc616d0cd702ba0a3a501795c49
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/07f8f275a05b0dff9b81e0957a1e4bd250c11bb4'
+    algorithm: sha256
+    value: 4c354897a8fb00e6d79d83c76df6c9b1c6987d5712b9ee8ed4341ce07bb59181
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/0bd87ad361966694c1e37b5f35265cba9c55649d'
+    algorithm: sha256
+    value: dfe8fe46b6a9a2b9e236b49b68044aec48ad198d50bae0b6cf465b8b0062d20a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/0f46533384ece35d94a9fba6b2200817256f583b'
+    algorithm: sha256
+    value: b7e86e97c97a98549688f4cbb8f1f5b95e23047b46c9f8e0fef822002a4c5d05
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/0f4d4798761e3b22377802a4f65d671cc599f5bc'
+    algorithm: sha256
+    value: d8c39643054af46129e207eabeef97a89854463ea88835f4dbc60d7fd3be1a5b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/1154e21f9b2c9ce472a65d1413d087df6139c9fa'
+    algorithm: sha256
+    value: 681a878155f2b34f756d7bd7678e07be7d2a3ccff5c9c21f9a6276f22790574a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/1830d1813ca62bf30d01a78f9d9769f0c42c70b1'
+    algorithm: sha256
+    value: b760931d101834aa4efb577382bdfbb7a11358c7ad15f045e83873dfdd419596
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/1a93a3c22977c30760b53e4df4c533dabdf75304'
+    algorithm: sha256
+    value: 89becb88c46d5a7db041eb5811fc1de475129c62e66a51ada526a4cd5ed33ee3
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/1e4cc1d0b2a8a3ece5d8d9d68663dec6931eda33'
+    algorithm: sha256
+    value: 5e39306527e09501def43804a8e0a64b5b1ecb91a7782425b86a6649a03a7834
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/2621e19d935ef85e86ac6820ea7255d3df9c6cd4'
+    algorithm: sha256
+    value: 5abe7cb8d31c3f7d529493cdf6e1cb901e505866f71b3930972ece0ff1b1062e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/2695fb64cfb30ad72f32f5864e85f426349b74dc'
+    algorithm: sha256
+    value: 54b4c4a0386fb1d7f6ddcc6f3897db9bdcfdb6ba31d587131cb50eff6c57ada7
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/28442a0d140eebb7598457fbacd7e819f11fc887'
+    algorithm: sha256
+    value: 33a22181ecb05c7ab5becc16301a632e1b3a62c79195b1425d94ed2a91c4353d
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/2bf809711fe7ff3b06d578a99c2be1291d515dbc'
+    algorithm: sha256
+    value: 03952ac38aa640f610a8df9a3e44d659f65f1b45ea01e5057d7e6ae8567ed190
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/2f1b1a27fc52ed945783a7469c5315bf1e13722c'
+    algorithm: sha256
+    value: 1f4959639f5ab0b8123a89762fb8e7b0802b0e0abed1068251d47b55c4dbd3cc
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/2f9a1f7945c755ec45c034c6ca8f2643fa037411'
+    algorithm: sha256
+    value: 644ad79d89d37fb84635860e9e8f3be60c4b40cf8bc82649f55bbc4a41a6f7aa
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/303a18ef9307249358253e03a1ac0c714da4af70'
+    algorithm: sha256
+    value: 320039a1765edd00677d87ac71a5b1c0f76b561f9da3f4fe6a9cb3aad96c0151
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/3309e8a207dc835833cfd254b744ec0696342f27'
+    algorithm: sha256
+    value: 17aed3e0d36d68880a6ecd42fe1949243f34f6aa921b2da0bc9b6d194683ed2f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/33a243d628d76748d5436665a16e21c3c46cb814'
+    algorithm: sha256
+    value: 109ac82d319cf61cc9b2d1e446c2af3dbb88ed1179250f792ebdeb911dabec9f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/34090d70dcdbee300109ee70d64a0bf627701027'
+    algorithm: sha256
+    value: 996057aa5ee4144ee7b71576474d1258846174077386c5cd313e1a4a3480991b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/34b5239a7f2185fbc73557c22b433e5850b4badc'
+    algorithm: sha256
+    value: 85b50279eb64158fc07b1fa0f593de21b4e12afe602ec94e7f6bcbbf1ee7d96c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/3a7885343257c4daad268f5b1934a826a1c53c68'
+    algorithm: sha256
+    value: ebe88f140c652a1185fb71dbbcc1ea3196c20ee208ae99eb73342797aaf269c2
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/3dcca884e398b0b3f0482c026b352b84ed7c716d'
+    algorithm: sha256
+    value: 8b1af66b24a739414aafa466757939e2df442ce8fdd5faf6e8a34103e969d49f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/3e023e5df0d59d64f42ab9f5ad89ecd2a0ab38b7'
+    algorithm: sha256
+    value: 2546c73861c24b33928bbb75186ba3c5841770ce26ee63fc841c6c39ca7690cd
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/4072a44b17469f11cf1119579e549d95adb60695'
+    algorithm: sha256
+    value: 09819a49563c2555176349b129104ffd6a34d80046294120e651807ea2f364f7
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/428d56e4bdcd603e9a420d42cd9d87fd3698ef0d'
+    algorithm: sha256
+    value: 18facc576e0e36ec18353e9734f730072f794cba82d830a0ef4d29bd572e8aff
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/44cd247a1f3480ba331dcfe7540e4cbfc9548a20'
+    algorithm: sha256
+    value: 808bfca2208c72538b150f1d259f6ac61ef32dccf9ad933646d8724344effbef
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/46e5b0e24d7c4cdd47d2c3fc815f4c3d8ef6549e'
+    algorithm: sha256
+    value: 3aa5605c018dc459c0ebb9b5571c74a723ea8b3ee92be378d9d6d332502d3ceb
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/4819d7fc9f7d485cfe09402dfc85d71005980934'
+    algorithm: sha256
+    value: 0c2d22cbb3c331148dd94db3e61e34575c9ff6a829769ee80c09900907f855df
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/4b04f909eb2b5a2d652931368e0aab127bdc096e'
+    algorithm: sha256
+    value: d3a97f5f746bc7170f6fdea7a2c39262852102488aa146fb11909dec64393115
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/52538a80094f7b62948fd31e68fd17a315d8dc91'
+    algorithm: sha256
+    value: bceef655b5a034911f1c3718ce056531b45ef03b4c7b1f15629e867294011a7d
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/5555abc46f500aede6ee215e75dd4e4ff75cc729'
+    algorithm: sha256
+    value: 266e2449dabdbaf1ab361c9f0cfa27ca2292e1ef263ecb9fb996910444930428
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/56c9fcd9bf53e0a04c76186133b07344590bacaf'
+    algorithm: sha256
+    value: c70970ab026d211408eeec14ff2d79fa2e6ca4f7464856fb0dff67ac2a15c8be
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/57287827583cbb5a52b5fd74b1af2a299ceadb44'
+    algorithm: sha256
+    value: b69fca4a68d418c8e682e6495c95337ce2a97e8964361209a96c442dcca0804e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/59b354e1be703f8532d12f9a57cdcb673f037dcc'
+    algorithm: sha256
+    value: a3625fef592c4e60bdb894760934ab44d7076c03adde0a3f27f23f89f2a525b8
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/5ec10d338c397a4dde72c0bc45999b92c43e795c'
+    algorithm: sha256
+    value: b41c02b4dde6e33542c251a59f08d374e2e7c2bacaedb1e5869279960de67722
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/65cc90263dec0020ceabc727d33aa587e57fc175'
+    algorithm: sha256
+    value: a39c28b283be82be09a64ed16eca831cf6343a77ad6cf8308f3bc7bf0b58e5d9
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/668824f36ef6ef3ccb5e7db28669f62c29de4aba'
+    algorithm: sha256
+    value: e2f0546aafec4d3e39af4ecc1b55bbe6d40c19d3db0a3eb83513dcded3a91e22
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/67749a2911c910c1e6b350047f1ecb614096a6d3'
+    algorithm: sha256
+    value: 7911592b37f4d5937424f1e2a4af6054b3fb2c106bab92c75276c1c5f643328a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/678d273418f58ac643b42aa5fbf6f4686c02faec'
+    algorithm: sha256
+    value: 8a54dd19ebd9e7eeeea56f4ff08ea8afcda61a5008f52e6d6d2998a766862a0c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/68dcb6bfce4a84a58ea17326523b925fb371354e'
+    algorithm: sha256
+    value: b0cd31991ee0169392bd519ae012f44b9efaf276f5e66138387441fd7c59ee1e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/6af47c5e032c79fa9b557a8e24ff84461a2362bd'
+    algorithm: sha256
+    value: 0386ec3d70808da6e80ef352a8241ae11c2da8ebb5281e9570dc3108a13efe3b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/6b580d9ce83327dbd0f52ac3949cb7c273ea3822'
+    algorithm: sha256
+    value: a14bc1e9444b5a620427b40072c6f61f835191728011edb6981a3b93487098fd
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/6d09033d9cabf4be617ebcd83cd8170e7f91720a'
+    algorithm: sha256
+    value: e431baeff883bd3fb648c5ccf7a536afb267c45ca4b490542526ae833e34a658
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/7084c77693211dd27cce1a604873f5c92f9ca55f'
+    algorithm: sha256
+    value: c6550fd95072a8bb0496a2789e7b968916ffb6bd532b77dbf3a06fc5fa25f080
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/712dd1f53e53b3174e0f54b851151a958dc1c240'
+    algorithm: sha256
+    value: a72d4d4714ad5a0bdedc83e90a3e7020d07502692f9bfb3d44cabad00d87bf47
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/7243e3a79a0d4bc52f44207652eed4d0aea41c52'
+    algorithm: sha256
+    value: 9f21b5efb86effe2101e6dff1f2f0907b716b2eb16aa505308bec146f14aabff
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/736e9a66d196ef004702bc6ace3c2af3cdd4717d'
+    algorithm: sha256
+    value: ab17140ec0d9e1955e436f55f40cf847713c498189e2796633645c072584d2aa
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/73b74736664ad85828ce1be2e29fb4a68d24402b'
+    algorithm: sha256
+    value: 50868f20258bbc9cce0da2719e8654c108733dd2f663b8737c574ec0ead93eb3
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/74513fa7e55a9396e1841ec4ac84f7fad0c57e16'
+    algorithm: sha256
+    value: 870caf00dcfeba295af07de8dccfc12c369eb4f632cd9b35718447520ea9516b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/773b297817ea5921527a25da52ed2192a90beb71'
+    algorithm: sha256
+    value: d7423904ca09eb970d6c8b48de074688b79479bc3c8e2fded88c6c0fe9544bec
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/787bef1f01133454c80c267bded9d23a84b7b8a2'
+    algorithm: sha256
+    value: 76899ee4225960a310e849c57362697a39e46f3b96ff3d9d996cc173ea9c626f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/7d95bdd8514904a55a7b6a9a7a16d721f685b2cf'
+    algorithm: sha256
+    value: db8296d1e06320fd9283fb2f6547eb6605ba799a956f26c31a5fcbab314f3458
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8220668e727165c01e984415f8221183f2f1e2a6'
+    algorithm: sha256
+    value: f37d0afd60ea18844060c347ad0bd4ef302563b88b350465b0ceb25bc6ec9c54
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/83125cc87a7b47bc7f6d49185ceb9585f409bead'
+    algorithm: sha256
+    value: f0055891f09fff4839b344a4af5e0482696cab0e0bf307455661ba4056c787ee
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/83c74a72be602c1af64f40c3d1307b9201e36265'
+    algorithm: sha256
+    value: a6bb535d5a4f3116e46934b24ecd7b835a22285a6b7daaed1d14854941f5a47a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/83f3d8f8ceb5732d961c42894a61e4c6fbb4745c'
+    algorithm: sha256
+    value: 6a757cf426422af608c6487dc4ce010a57045cd8a16bbf222cafee9ca8ff0dde
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/84046e7e673b9e88133a7de460f28789be0ddd20'
+    algorithm: sha256
+    value: 1f4eb0c9bcc9684e1c90a46d4ed097c14cec1abcf71a7cf589a1a6cb7f2bae4d
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/859366bbd30ea84562c37faf4af3ba3b4bbed3a2'
+    algorithm: sha256
+    value: 02659f15f1373835b3d05b32cc67efd24cf3bb4a4fa699d0cec61a8ebbbd6396
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/861aedaea120f9f80f64a36e6467e780e88fa493'
+    algorithm: sha256
+    value: ff014d5a8e9aa00e5bf53915fa1826b1e9346cc2a682a5084948487e9bfcdfbd
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8642759cf26e9020195e726fdf607fbe011439d0'
+    algorithm: sha256
+    value: 5bb50545d701c1641e468aed2faf9d51dbc4640f6bed05a04ffad92a867be70d
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/86875bb9309fe67a067775f61b78bf1d2c298997'
+    algorithm: sha256
+    value: 42efd37c4d06ac3898990e740a9457f1acce64a362483c4d4450d62b637e842b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/887fb4e7d2eff0a43f7c061a38f2c0010921dfd3'
+    algorithm: sha256
+    value: 75f4c581e8e60290c80285cba8f44f2787b0389fed589bb1f49b8cdb31194bf7
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/88f3c8e6e819aa83da1ce48353b2bddaad759fb9'
+    algorithm: sha256
+    value: decfde4dc4bc615056ca4c3a3bb5af1fee1724eb760ea1510dae32ea0a76c02f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8b3f361ff3add0f0b5181d1b4565ef97ed36c8eb'
+    algorithm: sha256
+    value: c22a3bd578405b178f5652bd90b30beddd4ffd6c21db37a0f40f288ee09d536a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8bb0f17ae2d716c42c83c225c38e07cb0bef16e0'
+    algorithm: sha256
+    value: 9eb6198e6b117c0975fb16c55caee1abbf5e03172ec0fdd514663848e6724614
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8c2975ae46264fd229593fbc72dbcc36739a1eac'
+    algorithm: sha256
+    value: f8b687b0d1c19f1e6548337e7dd9872578a992e8cd8cbb3001af3ac693b75885
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/8e9774faccd71983c83a67dd04459f6ff68bde52'
+    algorithm: sha256
+    value: a7365cad794b2a6f3b562d4715a20a1a473dbff445d9ebfc544a66af698b0d49
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/93c4cb3f2193b404a2cd713434a5c4cc563151ba'
+    algorithm: sha256
+    value: 4af579073f52f13250c9ffb7a37cf17d4c318f6ae5c898c12805c4da0a44563f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/94108451f94018cbaed1f4913759c9af14c6969f'
+    algorithm: sha256
+    value: 9b8432a1431020279a2db41c7e0b052a2bffc69f1674c1ab38034bc8b3724580
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9a78211436f6d425ec38f5c4e02270801f3524f8'
+    algorithm: sha256
+    value: c3641f8544d7c02f3580b07c0f9887f0c6a27ff5ab1d4a3e29caf197cfc299ae
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9ccda137ee54ee862b657df458f4aabb495162ac'
+    algorithm: sha256
+    value: 17bcbc1b75d6ff29b885b50d668781c21731e720c6685726d25253c09fada812
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9cfceef0f039fd5cc7e7fe72dfbe33e87521ed33'
+    algorithm: sha256
+    value: 950c74fb519f95f40d52d2dd2595f23a8fdf2a3294ce2ed6d3effcd2cb3bcb7a
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9e274418d86f267e9a4bf459aded615c27c589c6'
+    algorithm: sha256
+    value: 22c2e0c89c114f5b8b076d06b5120e277c652d96adafad155004dfe8a351464c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9f6e8a6a28994cc6479049e7d9dca7c779415327'
+    algorithm: sha256
+    value: a8a9497b4d2efb13168346918bb09c0ac8dc85c9f6459f5cbfa0dc3fee550515
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/9fc493a78af9e8289b24df2d690b822d4007a3fc'
+    algorithm: sha256
+    value: f18401c0507c599d688689d675a3509ba9e1602a958779a9af1bd707e47dad75
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/a1fca3a494b9d842105041e09b52dcddd59a3d51'
+    algorithm: sha256
+    value: 098a815198480ff90ef52e1d4a1875af51c03174c322250ede42138d713644a6
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/a40494f65e76f66b47c337e75431f4010f74f493'
+    algorithm: sha256
+    value: fdcb2e0942c828d65cb0d5c99c923a3eba0d7c91f81b04761155711f288df730
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/a7c00395b2d0f3b7fe9ee068d25d44e1cedf1301'
+    algorithm: sha256
+    value: 7d6fe525300fbac4179b2d57c89de00ba7d19b68aa2e26a0f9296efa5ab9bbab
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/ac9231da4082430afe8f4d40127814c613648d8e'
+    algorithm: sha256
+    value: 2b4c342f5433ebe591a1da77e013d1b72475562d48578dca8b84bac6651c3cb9
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b0c12ea324dd2592ef7d07757407f5983106ab24'
+    algorithm: sha256
+    value: dd47b1659ace2d2dc0eaccdcfdc8c902ffe850468aa890841e73ff3f221d336e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b1958cd1032c91560273c9a71847ab9a83e5f172'
+    algorithm: sha256
+    value: ff7dd4c1726c61f7334bd7bcc4505f77e2014f29d4d656e6dc50b923cf3da8c6
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b2edab71f2e01fe860bb15244358814af71c6347'
+    algorithm: sha256
+    value: a5531c2d05266a3d99a8a85fa9960265b3f58a887cf6dc049cacd3f6b6ab7807
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b5c8135971f910d7a6fcd089d7891c6a21dc6614'
+    algorithm: sha256
+    value: ef8012b9695065848a64d84796c82a21d7250f9e9cc8859f6cc799b980f5f71e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b7b4a18d25e44aa7591979c3057df957d6a735b1'
+    algorithm: sha256
+    value: b36d386be9fea96064ebae0cd9741c0d7c6d38e28e2ac5ea631a9e5bb0774ac9
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/b88002381964743d7670b9c81f5511b3fc15da71'
+    algorithm: sha256
+    value: f7bd00118c0942a991393d71b0d6f5fba543ed4f45ecea5d39b4c3dd37d27fb3
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/c2bd9cb907c2ded45e927bfd17d08a50b7633c40'
+    algorithm: sha256
+    value: 699392044299fa37e7c22d4407741c692188403098465b28eceb5bea1e873ff1
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/c52edfbc6af730b35a9b8f512c158e97ae4f704b'
+    algorithm: sha256
+    value: 4667313673d51b461ed389d67a777db5441aaef6f8fcaa7586c27fa133766a80
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/c67db1bd691a24d326b748d707c4dc0e4878b3e0'
+    algorithm: sha256
+    value: 147574b5ea2de0e23ec6d3d457939e52a5fec7df85c26469946b3f29195fe1ea
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/cb327960c3f79523c7759e992eff326bf2f4ef8b'
+    algorithm: sha256
+    value: bbb1aaa591f86498115ad9e2346dd028f279ed8ecb2b6d238a6141e277f1857e
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/d011c59a517c0daa0143e1c766d8b87a41a7fa12'
+    algorithm: sha256
+    value: 867ccc2dae8beee2aeb50f67e4635eb73d652dd4b740b9141c1e03598ccdd82b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/d02fe69a3d62e25014d44e2d7517754ca7d8afa8'
+    algorithm: sha256
+    value: 9f370fbe95deef0114b858f97e57648a75e5069c9de3f9a22345dfb45e4128df
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/d0d5b0b2490054fdd6c1ea835c0161c071bb67f5'
+    algorithm: sha256
+    value: 7b930d7ca478f6f92899ec0207a8687f119eaad0d72557ad821367d11d6aebb9
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/d4a41b3f6c0d26fc93c21cac1abe64588da8fb1f'
+    algorithm: sha256
+    value: bdd183aa4af9a1828ad2f2b44da503429cbda76c04e17cfb7ed6882c936fe9be
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/d7dcf33f17a0b7d6cdb1d7103fdb31113ce69384'
+    algorithm: sha256
+    value: 13288d7cb09ef359e0cc267f8e6be2c78ba4894c1a79d80a856927adcdb14cd8
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/da1de687a1475889ce25381ed7eb7393b7a8d58d'
+    algorithm: sha256
+    value: 30ed39b794645aa5d9c4aea77354f894d6e84789db8a55802898c69300ff9afa
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/dbf5a58cf0cfbf387674323820191e9837860174'
+    algorithm: sha256
+    value: bfb27ea9b963d0ab453619aebc2e26fbc5fb6e70e0e41deb55f90334f9b103ba
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/dbf812d2b0d8d3be48f5ce91255b15b168383534'
+    algorithm: sha256
+    value: e7d78dc18b4bbc23390916db0ebd569ac903a9717059c9b803936d1507cca0bd
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/de77a4fb39028332b50b8eac039f92a08f83b168'
+    algorithm: sha256
+    value: 51e0fdabb02d384aafa26dcc2a5779f8fa680891c9f6e5a83a5350d545d719d5
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/eaeca33ae6a5414285bb521349377907f9c2afbd'
+    algorithm: sha256
+    value: 20620f3b9e68c6f545c61ea288a1877f6ffd6471491e5fe51379ea07250e4951
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/ecc9928ced516610601d3474c4191fdf74d0df13'
+    algorithm: sha256
+    value: 909bfb6679807aefb93b961134ea9403a1371df786c433a57cbf680930d84236
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/eeba87f83dd1f064c070fcc76fb96d7555fa065b'
+    algorithm: sha256
+    value: 886bb13f4d70170482b7fc26d186c1d9b948bfa2be9cc89ce3c24e7decf4223c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/efbbba15b60e877915efdb6c403bb8a9f19e70dc'
+    algorithm: sha256
+    value: 7a8144404203ae4fda6cd14ff3b283f88d11e14fd0ee3f7a777db8615e78fa9c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f07d5fc54ab668426f71ea031653863c66904f0a'
+    algorithm: sha256
+    value: a8107e4d54d435a6cad23052ad8f08d2aa2412488e1c112607e1f5a4f6f3c3a3
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f494f5c76076f8b6061dcdea7ce26803c77967aa'
+    algorithm: sha256
+    value: 408471e38fedce792bc053cd64b11a6b718c99079dc13b7f585e2be03f0f6acc
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f4a01768090d97a8011fd742282fa5b06d0e85c8'
+    algorithm: sha256
+    value: 9547ccfe58bd53f830588dafeb10445b0f749cf65d1b71f11cf4246af3285de4
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f63fbdde088cd5eb595003148fc1f5c09f0d311a'
+    algorithm: sha256
+    value: 95edfca2871840d8edac7c0f90ba97db35f7bf3eca979de5b6c87b2884a92016
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f6858e75a3db428d4b81c5ff9f7c6d56f88425fe'
+    algorithm: sha256
+    value: 639e3c201fea16a2c5f83e86905528a063c54096f189f365a46a04089674d95c
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f6ca834d5ac1e3b6985b7b8f0177ea2512c0f932'
+    algorithm: sha256
+    value: c603e1419e139b9a42988a9c1b2c9b376bb9eac5a24f2f99247bc8fc70e75f5b
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f73ac24bb74c8d2089da2935b83c32d98c963f03'
+    algorithm: sha256
+    value: 6b6ff0cedc77b7acfa91de5f7426b5eb9fb3517c8298679c9774b73bffbcb150
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/f80149c2a396ceca659facb32f808272b5852108'
+    algorithm: sha256
+    value: d4507c665952d8059971c7aea0b0fb854a7fff8ca2068da5b0ddb313950ccda8
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/fa4c33f649fcab2701b0b655a879ada2b0dc364c'
+    algorithm: sha256
+    value: 3c831fe94c8ba620e8c0f87495e59c34dc2de67a7a2bdc99ac4cab8b98154f9f
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/fc8599c0c21d9d6e301e0ed82b16aeb389d204f7'
+    algorithm: sha256
+    value: f6b3162f3cbafc2871c9855cb9eb24c0e71bddccaa42f1cae3739678809185b8
+  - path: 'src/h3/fuzz/corpus/fuzz_varint/fd54567dce80d6a21fc95ff0e3602fad8267b73c'
+    algorithm: sha256
+    value: 044eac0d9c40592419743bfdf83e4584353eb76b22d1916e364d331838534876
+  - path: 'src/h3/fuzz/fuzz_targets/fuzz_varint.rs'
+    algorithm: sha256
+    value: 22e3ad2f76ef8ea3fda41d3c20b1f19af19fba899ca5d7c67ac101417d9c1314
+  - path: 'src/h3/h3/Cargo.toml'
+    algorithm: sha256
+    value: a9029e4b068fe5c49b478ed433a64f491929bfdb3fd1310c7bca7bf4c8658821
+  - path: 'src/h3/h3/LICENSE'
+    algorithm: sha256
+    value: a0d039cdafe68f363893abddb5e4d50dbe6f8b56611e2650aaab4237103285f1
+  - path: 'src/h3/h3/src/buf.rs'
+    algorithm: sha256
+    value: 6382f175639d37ada25af720178f7dc702ce8f288c90933de283f1a8ae2517c9
+  - path: 'src/h3/h3/src/config.rs'
+    algorithm: sha256
+    value: 699304e5831c56ab08a19e2818f1a8fbd8e971422043aa8bd62c365a1195716c
+  - path: 'src/h3/h3/src/connection.rs'
+    algorithm: sha256
+    value: dbb637cb4a07b75807b8841e3dbbafb647f6069cd517dff80a555d32a517b708
+  - path: 'src/h3/h3/src/ext.rs'
+    algorithm: sha256
+    value: 348cc90d3ef066b2ce652a044814d06e501ffc278578c9b8266feb66d86ce297
+  - path: 'src/h3/h3/src/frame.rs'
+    algorithm: sha256
+    value: f84b32b8bc0cc6a981994eb4f6ef5bdd16876ff4f550612f37b46b64f76324b8
+  - path: 'src/h3/h3/src/lib.rs'
+    algorithm: sha256
+    value: 56d0df148d9386a514e297184ed43d5fbd98999743672f7fca9f970e8cd8601a
+  - path: 'src/h3/h3/src/quic.rs'
+    algorithm: sha256
+    value: b07a142090c485d3ec3c2572215225d3ff7ba45f5f2a5a6d3ac4126432aec2f6
+  - path: 'src/h3/h3/src/shared_state.rs'
+    algorithm: sha256
+    value: de2d0e9bbd00ae57a383595af2bc7f8c7e78d69f3b09dc8704483d23ad61ee0b
+  - path: 'src/h3/h3/src/stream.rs'
+    algorithm: sha256
+    value: 25d409f7902269d050b80b117de16b22bd88212aa9d7f53dbb6815f7f4b65735
+  - path: 'src/h3/h3/src/client/builder.rs'
+    algorithm: sha256
+    value: 1a26960516ca14f032235db1cc0b305ecb87ec20da31fb7b08d354ab7b889a0a
+  - path: 'src/h3/h3/src/client/connection.rs'
+    algorithm: sha256
+    value: d327697c09c73d6e15e1e5575ccd58967c7b7e59ebd84d2510de799357ba4511
+  - path: 'src/h3/h3/src/client/mod.rs'
+    algorithm: sha256
+    value: 2177e92d0ee744d141fdabdb3b836911def2bb5799951649ed3e40589cb4258c
+  - path: 'src/h3/h3/src/client/stream.rs'
+    algorithm: sha256
+    value: 1cf3e561270f6aaab0c2b91245315fbdfb1ef28b57d2cca2a11bc2da88c13d41
+  - path: 'src/h3/h3/src/error/codes.rs'
+    algorithm: sha256
+    value: e08c4f9672fa4ab517becae729091aa4e775f5c1566a9bfffe6360f14b8f2e0c
+  - path: 'src/h3/h3/src/error/connection_error_creators.rs'
+    algorithm: sha256
+    value: f8c36e8ca3fc5f262111863241c54760b4ba47fa26d44a587950d00d8ca2682f
+  - path: 'src/h3/h3/src/error/error.rs'
+    algorithm: sha256
+    value: 7f54d7c1af56b5ca76dd8f64c19304c992e22429a687d502eaef7a2a2fee4764
+  - path: 'src/h3/h3/src/error/internal_error.rs'
+    algorithm: sha256
+    value: 033797576d348023798c39052c28fb0511fa643ec35e85bc77471bbefc54465e
+  - path: 'src/h3/h3/src/error/mod.rs'
+    algorithm: sha256
+    value: 22580c223dc9abf36a238bc1b21d7493e63e24eaba3411c13e3295c504c40c64
+  - path: 'src/h3/h3/src/proto/coding.rs'
+    algorithm: sha256
+    value: 4aeba7ac74e07d184d5c0cdebefdca7f4eb46b967f98c4afcc185edbb95c9e83
+  - path: 'src/h3/h3/src/proto/frame.rs'
+    algorithm: sha256
+    value: 901ae303cf26a9e18218fea4fe1a03d57c00d1eb1a8922797eec1bd446a5977a
+  - path: 'src/h3/h3/src/proto/headers.rs'
+    algorithm: sha256
+    value: e005264ce7008035d74fd4dcde80ff7bd3d1a6df73f976b1e868eb27c1891d3b
+  - path: 'src/h3/h3/src/proto/mod.rs'
+    algorithm: sha256
+    value: 5c55cf7c13e63912b3a8eddfb702f953d2ee492737cea426f67d0e04b06f5997
+  - path: 'src/h3/h3/src/proto/push.rs'
+    algorithm: sha256
+    value: 85254acacdabbe135a59536397d5ff672e48ff08bc76317a472f9643ef4898c5
+  - path: 'src/h3/h3/src/proto/stream.rs'
+    algorithm: sha256
+    value: b1c348c1c9d6bc7abae43fdbba782ba0d22a41072a16c9c11894f7201295357b
+  - path: 'src/h3/h3/src/proto/varint.rs'
+    algorithm: sha256
+    value: d9d6c1316eb8c6b07bdab533619dec583b334347888afd6869e2f8500b7e74ad
+  - path: 'src/h3/h3/src/qpack/block.rs'
+    algorithm: sha256
+    value: 98dbdbc51aea958789a002301955c1cebebcf21efe0d79920c586806de69e1f5
+  - path: 'src/h3/h3/src/qpack/decoder.rs'
+    algorithm: sha256
+    value: 2952d7dae7cb8f8a651d2ad3452f4226220dedba03f50d152a0b9a909ca366c5
+  - path: 'src/h3/h3/src/qpack/dynamic.rs'
+    algorithm: sha256
+    value: 49de7c44a209855c41cb8d8f83e03da123b1ed6fad759f9951e551af70e1f728
+  - path: 'src/h3/h3/src/qpack/encoder.rs'
+    algorithm: sha256
+    value: 735d1ec2803dc34882210a780a8f43d1161a447e80bcad1bf440b047e0ece18a
+  - path: 'src/h3/h3/src/qpack/field.rs'
+    algorithm: sha256
+    value: 642075675cca0e19aa11028cc6c5c6c0e4602e7a1998e83d246677ac8419eec1
+  - path: 'src/h3/h3/src/qpack/mod.rs'
+    algorithm: sha256
+    value: b4ee490fb928af3cfdcd044029fefa7abaa49ec1eb9af9228100f071cd64d03e
+  - path: 'src/h3/h3/src/qpack/parse_error.rs'
+    algorithm: sha256
+    value: 274429c26380f4f2081ab3048be8609e3f343cb83ea14f7e68525909c5f2fd5b
+  - path: 'src/h3/h3/src/qpack/prefix_int.rs'
+    algorithm: sha256
+    value: 5c052f8711d3e934f279793c571ded9f04496039ead548eb73158357ca903ee0
+  - path: 'src/h3/h3/src/qpack/static_.rs'
+    algorithm: sha256
+    value: bb40eeb1de008eb0755039079b7f45a4e02ca4f5c296bfa91f5436075d6e3caa
+  - path: 'src/h3/h3/src/qpack/stream.rs'
+    algorithm: sha256
+    value: b5b11997d3c0c2708012ff95a5ba8351185ee8fbd6b84991db5dce5316272f1e
+  - path: 'src/h3/h3/src/qpack/tests.rs'
+    algorithm: sha256
+    value: 6d8b2594f7e509cb21a6803c21db9a094cf5b061850aa7ea4a9a6ef45cc061ff
+  - path: 'src/h3/h3/src/qpack/vas.rs'
+    algorithm: sha256
+    value: f2bcdeff2338bd8b7e6302565b050a8abc199efe5b63051d672e8d891dbc57e9
+  - path: 'src/h3/h3/src/qpack/prefix_string/bitwin.rs'
+    algorithm: sha256
+    value: 1f9f59809058b4c6fd4384682c99f07a0b1c1320a8fdfd6c0306f44078d4a48c
+  - path: 'src/h3/h3/src/qpack/prefix_string/decode.rs'
+    algorithm: sha256
+    value: 262d3ef42ef5c6e45de373f805dc712c9258fed6fab5a10121e61c8d39c5e85d
+  - path: 'src/h3/h3/src/qpack/prefix_string/encode.rs'
+    algorithm: sha256
+    value: 2e88e28f230a54bbdc82f51119071fc1538ca8ddcaddda1b9e804de70b8ecf9d
+  - path: 'src/h3/h3/src/qpack/prefix_string/mod.rs'
+    algorithm: sha256
+    value: 3ca139c03d74ec9ef2e0b32da69c53cd8a9c62717888e4cde50bbe575664d61b
+  - path: 'src/h3/h3/src/server/builder.rs'
+    algorithm: sha256
+    value: 55c3cee0196a35fdafad43fb5eef292d4d095729cf765623191ddf423a9b42de
+  - path: 'src/h3/h3/src/server/connection.rs'
+    algorithm: sha256
+    value: 99fd53da8bb7f2b9abb4240877ee26def80daa79a6f509f5e643b98565c908f8
+  - path: 'src/h3/h3/src/server/mod.rs'
+    algorithm: sha256
+    value: 60aff373f3de2fa842fd97b15a1b9c4dced9c97818ef2bcdf186637a10d7bb26
+  - path: 'src/h3/h3/src/server/request.rs'
+    algorithm: sha256
+    value: 2ca51abc3af74ecbbacabb86ee8c7cdc4dd175ce20c705819ece163c518881cf
+  - path: 'src/h3/h3/src/server/stream.rs'
+    algorithm: sha256
+    value: 1b643b12402ab394827cf5476765f2f3dbcac2b804544a1383f0f22989843437
+  - path: 'src/h3/h3/src/tests/connection.rs'
+    algorithm: sha256
+    value: 65d3167146ac81d9090af08515fb1fd48d98f2c06a0998a8295629892631989c
+  - path: 'src/h3/h3/src/tests/mod.rs'
+    algorithm: sha256
+    value: c5781515cde1ab122fa2f9f509f225d8597dcd5d6a4a48124f1d56e698dcd774
+  - path: 'src/h3/h3/src/tests/request.rs'
+    algorithm: sha256
+    value: dc38e6b7d941644a8024289c165fa879a0bc8a859c8a1f0067d57a4053e5d2cf
+  - path: 'src/h3/h3/src/webtransport/mod.rs'
+    algorithm: sha256
+    value: f949117f4c335c064cbafd4c855f92002948d64d2f74b61d850625e37bd3be07
+  - path: 'src/h3/h3/src/webtransport/session_id.rs'
+    algorithm: sha256
+    value: c3a03ed9e78fc494b54985d65f05581c268c6e629d206ac0dc5cb9d7358be76d
+  - path: 'src/h3/h3-datagram/Cargo.toml'
+    algorithm: sha256
+    value: edcf3209237cb2d8a3fc59e67d6a9ff73e2298d783a5ef031ccc41e52db8ccc9
+  - path: 'src/h3/h3-datagram/LICENSE'
+    algorithm: sha256
+    value: a0d039cdafe68f363893abddb5e4d50dbe6f8b56611e2650aaab4237103285f1
+  - path: 'src/h3/h3-datagram/readme.md'
+    algorithm: sha256
+    value: 9c111fda9d105075c4b22f6237a47c30530f231471de47e01d7090dd6b343b35
+  - path: 'src/h3/h3-datagram/src/client.rs'
+    algorithm: sha256
+    value: be5d07b7f8db846d4460af4264e5ab4c8f0380b66e7d5d1684ff26cf6cc71e0f
+  - path: 'src/h3/h3-datagram/src/datagram.rs'
+    algorithm: sha256
+    value: f1920d639174b7feb8c961b441f22c7f6eaac435cff794335048198b7511d15c
+  - path: 'src/h3/h3-datagram/src/datagram_handler.rs'
+    algorithm: sha256
+    value: 8f80f3dca6b97baaf0528a3cb0b6a08fa8bfa1ac7dec94bcf5feace6b534e461
+  - path: 'src/h3/h3-datagram/src/lib.rs'
+    algorithm: sha256
+    value: 49193191d6e723dd75e8c7e20028f20a100f94c4110bfc33f14881cea77fbc77
+  - path: 'src/h3/h3-datagram/src/quic_traits.rs'
+    algorithm: sha256
+    value: 9887f85d6f5df64495c905feeb1f01d53db2d1697d2bf421a94c54b11bf35f36
+  - path: 'src/h3/h3-datagram/src/server.rs'
+    algorithm: sha256
+    value: 3cef517609fed3636bf664af11fddff10ca6ef2930bb23fb519bff4d142d2f23
+  - path: 'src/h3/h3-quinn/Cargo.toml'
+    algorithm: sha256
+    value: c10f2a1609b7697c8689714692d7a2eda678b702eb2a16fc523531bd0ac01bc5
+  - path: 'src/h3/h3-quinn/LICENSE'
+    algorithm: sha256
+    value: a0d039cdafe68f363893abddb5e4d50dbe6f8b56611e2650aaab4237103285f1
+  - path: 'src/h3/h3-quinn/README.md'
+    algorithm: sha256
+    value: de39e24c89386f75c36156710331b96831b84a25cb637ab831adef04d6fa623a
+  - path: 'src/h3/h3-quinn/src/datagram.rs'
+    algorithm: sha256
+    value: 70b5d22abd099d8f62cab97fc10cbb7ec96f662a2823a599de96dff3b1c617eb
+  - path: 'src/h3/h3-quinn/src/lib.rs'
+    algorithm: sha256
+    value: 8fa0ceeebb18023b7f7c37ff6a96ae39e6e021530262b3de97de425911b608c0
+  - path: 'src/h3/h3-webtransport/Cargo.toml'
+    algorithm: sha256
+    value: ec9f40ee724bddf1668e16f7088736d435a3a1052d24561cc1466c1141dc0b7c
+  - path: 'src/h3/h3-webtransport/LICENSE'
+    algorithm: sha256
+    value: a0d039cdafe68f363893abddb5e4d50dbe6f8b56611e2650aaab4237103285f1
+  - path: 'src/h3/h3-webtransport/readme.md'
+    algorithm: sha256
+    value: aadf990c4aadb13ef79b9adf6def59ee5dd0a825ecb7e7fe1f08f6156635b4e3
+  - path: 'src/h3/h3-webtransport/src/lib.rs'
+    algorithm: sha256
+    value: e89c50b7175d43d7c14b5a0fd9b67baddb82865ff4b834f82881e31c0067d60a
+  - path: 'src/h3/h3-webtransport/src/server.rs'
+    algorithm: sha256
+    value: f0531c62729fdd02c4b9eb31e2815ec2493825820f8eaee62b5c2b51d576692d
+  - path: 'src/h3/h3-webtransport/src/stream.rs'
+    algorithm: sha256
+    value: 1cd467e860092a5384e8a18e17783c7ca54b80087c0b5a18fbf40998b99c34f2
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Web/http3 0day at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Web/http3%200day
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is. The
+  src/h3 tree vendors the upstream h3 crate including its .duvet/ tooling directory and relative
+  LICENSE symlinks, preserved as distributed. src/solver.py is the author solver. The challenge
+  deliberately ships a binary under dist/ and the same binary under src/, both preserved as-is.

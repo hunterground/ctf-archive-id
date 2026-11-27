@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2026-qualification-pwn-004
+name: 'one-more-light'
+slug: 004-one-more-light
+original_name: 'one-more-light'
+competition_id: techcomfest-ctf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: 'Pwn'
+description: |-
+  oh you think you can just solve this?
+
+  http://gzcli.{{.host}}/{{.slug}}
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'crypiktemep'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2026-quals
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals
+  commit: 4dec18a5eed508ac09170bd85b36455c32d3de6f
+  original_path: 'Quals/Pwn/one_more_light'
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: cf92d522fe703039a8b7234a04ce5a51ad64eaf89a897016cddab6ddb5580082
+  - path: 'dist/vuln'
+    algorithm: sha256
+    value: 4c624c284b3e35d4bea6db3e2425a155ffb44fd56f92c0f670f7b49f15173ab4
+  - path: 'src/0hhh_wow_how_u_do_that.txt'
+    algorithm: sha256
+    value: 6466ffc9dab919d02c4e918059de369cf595bd97883b1aaf3235683df13484d0
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 19c6496849119cb3385a4ee9773c3b2758c82dd871fdd8cc63829c8a35a89daa
+  - path: 'src/docker-compose.techcompfest_ctf_2026_quals_pwn_onemorelight.tmp.yml2538493465'
+    algorithm: sha256
+    value: 55e45685023997560c95d6c16053319c01dfa498146706da9995023370322f2d
+  - path: 'src/docker-compose.yaml'
+    algorithm: sha256
+    value: 255454117b660f89c24fca28ad5b494b3f9fd82f9ab344ef781538c42c76104f
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 72aa0cdbfe5e1eaa65fe8f24b70c602a81c7db7516b8144df21326501cbbeb8e
+  - path: 'src/vuln'
+    algorithm: sha256
+    value: 4c624c284b3e35d4bea6db3e2425a155ffb44fd56f92c0f670f7b49f15173ab4
+  - path: 'src/vuln.c'
+    algorithm: sha256
+    value: 95cec3635f65b5d001d55d7f14d128dfdca94c7efce486dc5401ec750f2244de
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2026 TCP1P
+  permission_reference: null
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: 'Quals/Pwn/one_more_light at TECHCOMPFEST-CTF-2026-Quals'
+  url: https://github.com/TCP1P/TECHCOMPFEST-CTF-2026-Quals/tree/4dec18a5eed508ac09170bd85b36455c32d3de6f/Quals/Pwn/one_more_light
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The upstream repository carries no license file; MIT is
+  recorded for these materials by decision of the archive owner, consistent with the sibling 2024
+  and 2025 problemsetter repositories. The source challenge.yml records a flag value that is not
+  reproduced in this metadata; files containing flags in the distribution are archived as-is. The
+  directory name is one_more_light and the source challenge name is one-more-light. The src/ tree
+  contains stale docker-compose temp files written by the deployment tool
+  (docker-compose.*.tmp.yml*); they are kept because they are tracked in the source repository,
+  but they are not used by the challenge.

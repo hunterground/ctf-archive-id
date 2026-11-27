@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-qualification-web-004
+name: pressword
+slug: 004-pressword
+original_name: pressword
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: WordPress web challenge. A custom plugin exposes a PHP unserialize sink on WordPress 6.4.0+,
+  and a gadget chain (phpggc WordPress/RCE2) reaches remote code execution to read the flag.
+difficulty:
+  value: "2.50"
+  source: archive_curator
+tags:
+- web
+- wordpress
+- php
+- deserialization
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/pressword
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services:
+  - web
+  requirements: []
+references:
+- title: Quals/Web/pressword at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/pressword
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml records a flag, not reproduced in this metadata. The
+  original/ tree contains a full WordPress core checkout plus the custom malc plugin under src/ and the
+  packaged copy under dist/ (about 5,949 files); per-file checksums were therefore not enumerated and
+  checksum_verified is false. The top-level flag.txt holds the real flag and dist/flag.txt a fake
+  placeholder, both archived as-is. Difficulty (2.50/5.00, medium) is from the README difficulty
+  calculator.

@@ -1,0 +1,234 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2023-main-web-001
+name: 'Go-Menasai'
+slug: 001-go-menasai
+original_name: 'Go-Menasai'
+competition_id: techcomfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: 'Web'
+description: |-
+  Hello, my friend! Welcome to GoLand! I hope you can become our first beta tester for this web application.
+difficulty:
+  value: "2.30"
+  source: archive_curator
+tags:
+- web
+authors:
+- name: null
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/Techcompfest-2022/Go-Menasai
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: 1967eb5b81558fbb1814ea9ba5d3efb25086318d6cccd86d5c7aa0d97bc38565
+  - path: 'attachment/readflag.c'
+    algorithm: sha256
+    value: dd5e9c9cfb4a11f65bb07c1bd4fd9f433e1b38edd256cb2e0834db04fb129143
+  - path: 'attachment/simple_web_app/LICENSE'
+    algorithm: sha256
+    value: 8a8c909f3140f16251545ebeaa72e9285cfd0c737acc60bad635c967ec3630fc
+  - path: 'attachment/simple_web_app/go.mod'
+    algorithm: sha256
+    value: 1d9cabdef7ebea53fa9fb8b9537e6eeff15864c13e794496f810899540592c60
+  - path: 'attachment/simple_web_app/go.sum'
+    algorithm: sha256
+    value: 95f1ae1325d02349342271a313c8c1ee56b8cc8ded01fc46dbbdc865dcc211f5
+  - path: 'attachment/simple_web_app/main.go'
+    algorithm: sha256
+    value: e793be639512c1a4620d166c88188297aa65d3b687bdfa2cb01316f237ed3f55
+  - path: 'attachment/simple_web_app/setup.go'
+    algorithm: sha256
+    value: d8b38ebaa68d4ec0466f88edd42178efc3f90cd1278365b4ad826b8f597e95e0
+  - path: 'attachment/simple_web_app/helpers/hash.go'
+    algorithm: sha256
+    value: 86805cba9efa4461aaed660a194dc3e24b6b30133f280fa78ebb2d05e99f4ef1
+  - path: 'attachment/simple_web_app/model/admin.go'
+    algorithm: sha256
+    value: 6730a52b900f3fc2e5855e6fef5cad1dedaae934c0a1aa86b4925159e47ad0d8
+  - path: 'attachment/simple_web_app/model/book.go'
+    algorithm: sha256
+    value: 15ce2ca790e9d3298dd4ad4820e63c46932cd6b2b100ed3470abbba0d0dae958
+  - path: 'attachment/simple_web_app/model/database.go'
+    algorithm: sha256
+    value: 74d2473fb270d0be22aba7b89a1808efcbfd2a767a1a4ae8616ca0d3c05fcf62
+  - path: 'attachment/simple_web_app/model/user.go'
+    algorithm: sha256
+    value: 1d052c881de613ea7672b7305e9f4baa088da35e8c161de5ec3849ffe075b7ce
+  - path: 'attachment/simple_web_app/router/router.go'
+    algorithm: sha256
+    value: c2e419ea6a119748654e0bfddc6fb271ae39df80e413590eed5e5750598fe065
+  - path: 'attachment/simple_web_app/router/api/adminPanel.go'
+    algorithm: sha256
+    value: a813428e750d7ff4a7910f7100482729fb4f6079ea8915c55c8bd7710a92fb3a
+  - path: 'attachment/simple_web_app/router/api/login.go'
+    algorithm: sha256
+    value: 8f289f05b2df071c771bb52ae69e31b87a819974607b0a91d9b8116792250977
+  - path: 'attachment/simple_web_app/router/api/logout.go'
+    algorithm: sha256
+    value: d6d78960197ac567f389d3e16b7ae27f086d83ff4e3786f5df9b747f306812bf
+  - path: 'attachment/simple_web_app/router/api/register.go'
+    algorithm: sha256
+    value: af33693638eae72dd8fa250b459fa6244b1bfd7f035c3f0731f870231f7e4886
+  - path: 'attachment/simple_web_app/router/api/upload.go'
+    algorithm: sha256
+    value: 9261aa837b68d6a8fbf1786ba00377566420a11dba7f5c8cb27a5f859ae74e64
+  - path: 'attachment/simple_web_app/router/home/home.go'
+    algorithm: sha256
+    value: 29d33b6b9016eaba7356cfdc032474849be540da0479ae0a41feb9a77d2049aa
+  - path: 'attachment/simple_web_app/router/home/login.go'
+    algorithm: sha256
+    value: b16ec760351506b4b0eb7b9edb1e827da7665ce0cf2708451068e2619b442c93
+  - path: 'attachment/simple_web_app/router/home/register.go'
+    algorithm: sha256
+    value: a823244b189de1454b96e462f1aec07aa1ed737ff08c85b48eb6e5cfe3f56367
+  - path: 'attachment/simple_web_app/templates/header.html'
+    algorithm: sha256
+    value: 0e02ccab628c17ed754a3dcfb50842857d7a5bb197d2fa77976edaaf6f0bea6b
+  - path: 'attachment/simple_web_app/templates/home.html'
+    algorithm: sha256
+    value: 0531203df1b3c860f6749a31f3c928e57a2da35ad79fa29b0f93d4ec7d192934
+  - path: 'attachment/simple_web_app/templates/login.html'
+    algorithm: sha256
+    value: 1565a54fcceb545ef42bf0c01c8b42820a4e3b895f3e3549f6b6ff1554ab5d9b
+  - path: 'attachment/simple_web_app/templates/register.html'
+    algorithm: sha256
+    value: 237cf49e6f0a19eccdb428c8af25baa502493e16d3ed37f7463b45c05054325b
+  - path: 'attachment/simple_web_app/upload/admin/README.md'
+    algorithm: sha256
+    value: 937a3c92be436f3a6622060cc76207f5a1d439c5673019c5338611f35c1eaaa5
+  - path: 'attachment/simple_web_app/upload/user/README.md'
+    algorithm: sha256
+    value: 937a3c92be436f3a6622060cc76207f5a1d439c5673019c5338611f35c1eaaa5
+  - path: 'chall/Dockerfile'
+    algorithm: sha256
+    value: 8d0d90da096366b99ea37e0239aa70b14c00bf3bacbbf5f45f4441ac92136607
+  - path: 'chall/Makefile'
+    algorithm: sha256
+    value: 12dea8d18cc266da28a02f93d1fc927b0e4f3d22a5a1b3db7dd3333f729b7136
+  - path: 'chall/docker-compose.yml'
+    algorithm: sha256
+    value: 08aa5500482fabfd6351f89a81b72f9571826b9297fb8b8a8bca38c8cdd9297d
+  - path: 'chall/flag.txt'
+    algorithm: sha256
+    value: 15123276cf10ea5debc44685117e2e13b19714567c27e63e402f5d8c3efea1ea
+  - path: 'chall/readflag.c'
+    algorithm: sha256
+    value: dd5e9c9cfb4a11f65bb07c1bd4fd9f433e1b38edd256cb2e0834db04fb129143
+  - path: 'chall/src/LICENSE'
+    algorithm: sha256
+    value: 8a8c909f3140f16251545ebeaa72e9285cfd0c737acc60bad635c967ec3630fc
+  - path: 'chall/src/go.mod'
+    algorithm: sha256
+    value: ca8f596ca03fa0cd5258e41ce2f85c9787ab19318f0311dc43f3edb209ea9b89
+  - path: 'chall/src/go.sum'
+    algorithm: sha256
+    value: f4e04d395c94ba052c20f1b74421400090e3328752a92d5683bdc72eb0089408
+  - path: 'chall/src/main.go'
+    algorithm: sha256
+    value: 7fb8ade61a84504ac4336411df0b2e6abdbf0beb7a16407350419423987ae463
+  - path: 'chall/src/setup.go'
+    algorithm: sha256
+    value: e839110d41050d311fde410f5a0541041d680ae860f7bef7323ec3e3c0970411
+  - path: 'chall/src/helpers/hash.go'
+    algorithm: sha256
+    value: 86805cba9efa4461aaed660a194dc3e24b6b30133f280fa78ebb2d05e99f4ef1
+  - path: 'chall/src/model/admin.go'
+    algorithm: sha256
+    value: 6730a52b900f3fc2e5855e6fef5cad1dedaae934c0a1aa86b4925159e47ad0d8
+  - path: 'chall/src/model/book.go'
+    algorithm: sha256
+    value: 15ce2ca790e9d3298dd4ad4820e63c46932cd6b2b100ed3470abbba0d0dae958
+  - path: 'chall/src/model/database.go'
+    algorithm: sha256
+    value: de114ca2d279e06cb96ea4652f008487e7924dcb2964809e7c5800ec697e92cd
+  - path: 'chall/src/model/user.go'
+    algorithm: sha256
+    value: a31249e5cfce9249d0cc530f3fd5682755a840e588586cb204b4bbb7bffbb763
+  - path: 'chall/src/router/router.go'
+    algorithm: sha256
+    value: 2c07eacc524b7002670de87a4a85de7cabe5240ce3d5c28662397639e42739a5
+  - path: 'chall/src/router/api/adminPanel.go'
+    algorithm: sha256
+    value: a813428e750d7ff4a7910f7100482729fb4f6079ea8915c55c8bd7710a92fb3a
+  - path: 'chall/src/router/api/login.go'
+    algorithm: sha256
+    value: 019c3660498995a94557409a5ec4610bdeb20c1588aa571c0dc981816e9cc293
+  - path: 'chall/src/router/api/logout.go'
+    algorithm: sha256
+    value: d6d78960197ac567f389d3e16b7ae27f086d83ff4e3786f5df9b747f306812bf
+  - path: 'chall/src/router/api/register.go'
+    algorithm: sha256
+    value: aed3956a4a5bf03723f35c2eb2bbf7025d5f0b3bbc882c950e0651a9d49fb07c
+  - path: 'chall/src/router/api/upload.go'
+    algorithm: sha256
+    value: 9261aa837b68d6a8fbf1786ba00377566420a11dba7f5c8cb27a5f859ae74e64
+  - path: 'chall/src/router/home/home.go'
+    algorithm: sha256
+    value: 9d39988dd265711f20c1cdd64f4971705fbdf539ffedbc3095894ec189edb506
+  - path: 'chall/src/router/home/login.go'
+    algorithm: sha256
+    value: b16ec760351506b4b0eb7b9edb1e827da7665ce0cf2708451068e2619b442c93
+  - path: 'chall/src/router/home/register.go'
+    algorithm: sha256
+    value: a823244b189de1454b96e462f1aec07aa1ed737ff08c85b48eb6e5cfe3f56367
+  - path: 'chall/src/templates/header.html'
+    algorithm: sha256
+    value: 0e02ccab628c17ed754a3dcfb50842857d7a5bb197d2fa77976edaaf6f0bea6b
+  - path: 'chall/src/templates/home.html'
+    algorithm: sha256
+    value: 0531203df1b3c860f6749a31f3c928e57a2da35ad79fa29b0f93d4ec7d192934
+  - path: 'chall/src/templates/login.html'
+    algorithm: sha256
+    value: 1565a54fcceb545ef42bf0c01c8b42820a4e3b895f3e3549f6b6ff1554ab5d9b
+  - path: 'chall/src/templates/register.html'
+    algorithm: sha256
+    value: 237cf49e6f0a19eccdb428c8af25baa502493e16d3ed37f7463b45c05054325b
+  - path: 'chall/src/upload/admin/README.md'
+    algorithm: sha256
+    value: 937a3c92be436f3a6622060cc76207f5a1d439c5673019c5338611f35c1eaaa5
+  - path: 'chall/src/upload/user/README.md'
+    algorithm: sha256
+    value: 937a3c92be436f3a6622060cc76207f5a1d439c5673019c5338611f35c1eaaa5
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Techcompfest-2022/Go-Menasai at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/Techcompfest-2022/Go-Menasai
+  type: official_repository
+  accessed: '2026-11-27'
+verification: needs_scope_review
+notes: >-
+  Author challenge archived from the Techcompfest-2022 directory of dimasma0305/My-CTF-Challenges.
+  The edition year and event identity are uncertain: the source directory is named for 2022, but
+  this challenge and one other in the tree carry TECHCOMPFEST2023{...} flags, and official records
+  state that the 2022 Techcomfest ran Networking, Software Development and Short Movie
+  competitions with the 2023 event held on 21 January 2023. It is therefore recorded under the
+  2023 edition pending maintainer confirmation. The source README records a flag, which is not
+  reproduced here; flag files in the distribution are archived as-is. Difficulty is the rating the
+  author published in the README, computed with their own ctf-challenge-difficulty-calculator
+  site.

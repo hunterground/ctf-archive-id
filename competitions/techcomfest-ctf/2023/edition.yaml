@@ -1,0 +1,34 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2023
+competition_id: techcomfest-ctf
+year: 2023
+name: Techcomfest 2023 CTF
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: '2023-01-21'
+statistics:
+  participant_count: 53
+  challenge_count: 3
+references:
+- title: TECHCOMFEST 2023 (UKM PCC, Politeknik Negeri Semarang)
+  url: https://ab.polines.ac.id/en/techcomfest-2023/
+  type: official_website
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >-
+  The official POLINES article for TECHCOMFEST 2023 records a Capture The Flag competition alongside
+  Web Design and Infographics, attended by 53 teams from high schools and universities across
+  Indonesia, with the final stage held on 21 January 2023 in the Applied Masters building at
+  Politeknik Negeri Semarang. Participant award records place the event in January 2023. The start
+  date of any earlier online stage is not stated and is left null. Three web challenges are archived
+  under the 2023 main round from the Techcompfest-2022 directory of dimasma0305/My-CTF-Challenges,
+  but their attribution to this edition is NOT established: the source directory is named for 2022,
+  official records describe the 2022 Techcomfest as running Networking, Software Development and
+  Short Movie competitions, and two of the three challenges carry TECHCOMPFEST2023{...} flags while
+  the third uses a TCP1P{...} flag. The edition and challenge records are marked needs_scope_review
+  pending maintainer confirmation. The remaining challenges of this edition are not located: the
+  TCP1P repository that now serves the 2024 event was previously published under the slug
+  TCP1P/TECHCOMPFEST-2023 and GitHub redirects that URL to the 2024 repository, which holds only 2024
+  work.

@@ -1,0 +1,18 @@
+name: "3ampwn"
+author: "rui"
+description: |
+  "sijachwuiauhsdhwajhdajshdacuueb" - my brain
+
+  http://gzcli.{{.host}}/{{.slug}}
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "TCF{maybe_this_one_more_tuff_compared_to_another_heap}"
+
+provide: "./dist/dist.zip"
+
+dashboard:
+  type: compose
+  config: ./docker-compose.yaml

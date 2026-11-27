@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-pwn-001
+name: 'My Little Pony: Friendship is Magic'
+slug: 001-ponyos
+original_name: 'My Little Pony: Friendship is Magic'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: 'Pwn'
+description: |-
+  gw yang pinkie pie https://www.ponyos.org/
+
+  Connect: nc {{ .host }} 13371
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: 'rui'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Pwn/ponyos
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'Dockerfile'
+    algorithm: sha256
+    value: 170bbb004fc81c478a60b8aa34c7def3ec21e22d542225c63c0282de5dd19466
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: b236188f4f23184032468c2891bcef19360d40ec49297e4b3e4fd26b4b0b02b7
+  - path: 'dist.zip'
+    algorithm: sha256
+    value: f101613895f107c4943b132ada1d09078f7101f1301e35f73a8a5c18f24a6de6
+  - path: 'docker-compose.yml'
+    algorithm: sha256
+    value: 7ed973fb3c1a3396021de6cef6813779de1a9fc6732b06ea095fceadd709ae65
+  - path: 'chall/build.sh'
+    algorithm: sha256
+    value: 6fd5e98ef2e4c01f2546a477ffd0726a02b310b1cd89ed63b8d7ab751f5a5ff9
+  - path: 'chall/flag.txt'
+    algorithm: sha256
+    value: c940609753d2f99b2a69513a7c25ec6aa3ac7a98d81d2ab5df60910f4292ff22
+  - path: 'chall/kernel'
+    algorithm: sha256
+    value: 0b37a59b5bf7ed8f70b9d64afb89c4f79da1710ef8cc19c4444fbac8c2e33a78
+  - path: 'chall/ponyos.iso'
+    algorithm: sha256
+    value: c270260abdf096b4a9486ed4c80449750fec1ca10ebc816e4cc8f3855db29a9a
+  - path: 'chall/ramdisk.igz'
+    algorithm: sha256
+    value: 989bccc370f0aa5aaff6c2858437c35fac20444f4fa70160e59332733c6faa99
+  - path: 'chall/run.sh'
+    algorithm: sha256
+    value: 3796ba97bd2ac9a6b73111990c2eb33751747bbb1cc72e233b6f19d705503268
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Finals/Pwn/ponyos at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Pwn/ponyos
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

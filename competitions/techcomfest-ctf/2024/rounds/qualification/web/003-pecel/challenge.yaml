@@ -1,0 +1,174 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-qualification-web-003
+name: pecel
+slug: 003-pecel
+original_name: pecel
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web
+description: PHP web challenge. The application exposes a peclcmd.php path that reaches a PHP RCE
+  primitive (peclcmd run-tests trick), yielding command execution and the flag.
+difficulty:
+  value: "2.80"
+  source: archive_curator
+tags:
+- web
+- php
+- rce
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/pecel
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: .vscode/
+    reason: Editor settings, not part of the challenge distribution (AGENTS.md Phase D rule 4).
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 918cd92ca9c0fa9f2ca23b87ab0a410c6bedb914da2a280747c096128f8724e9
+  - path: Dockerfile.nginx
+    algorithm: sha256
+    value: 3d51f50079db197b11c37b8ee6473d1cf1cb16fd677c24b8496f104ceb1bd29f
+  - path: README.md
+    algorithm: sha256
+    value: 8b280b0268ea14dab62914682aed73c685f3049dda61f05333f61b3116be8513
+  - path: challenge.yml
+    algorithm: sha256
+    value: aa8780f764442c754a897c505dfe941a0e4276ce610f8015a4981473c39689ee
+  - path: dist.zip
+    algorithm: sha256
+    value: 9bd4ae17bc73ff6d02615c1331b5ce1e514020770a66c9f4e2b375134005131c
+  - path: docker-compose.yaml
+    algorithm: sha256
+    value: e4cd8d56c318fbc2f8a5001c1c82f9450b4dc62f208abadb8c59697baf8a6dc9
+  - path: flag.txt
+    algorithm: sha256
+    value: f63cea40d0bf0fd1778c6023d61bfea49e17c1391417426859453b7a4615eeef
+  - path: nginx.conf
+    algorithm: sha256
+    value: 1dd109885994d2ff29cc0c13800f7b6411b1da491a0d990c471f63c0e3b22bda
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 918cd92ca9c0fa9f2ca23b87ab0a410c6bedb914da2a280747c096128f8724e9
+  - path: dist/Dockerfile.nginx
+    algorithm: sha256
+    value: 3d51f50079db197b11c37b8ee6473d1cf1cb16fd677c24b8496f104ceb1bd29f
+  - path: dist/docker-compose.yaml
+    algorithm: sha256
+    value: e4cd8d56c318fbc2f8a5001c1c82f9450b4dc62f208abadb8c59697baf8a6dc9
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 4dbbd9f68f3d2a32fbf39210bcda88f07fb38fccc9fb5f96e42a35f1f6ac3405
+  - path: dist/nginx.conf
+    algorithm: sha256
+    value: 1dd109885994d2ff29cc0c13800f7b6411b1da491a0d990c471f63c0e3b22bda
+  - path: dist/mikutap/README.md
+    algorithm: sha256
+    value: 1b9970e5db9ec5ac5efb95a5ea76a29b5c009d2a12c08929ec594fb877f8a73b
+  - path: dist/mikutap/favicon.png
+    algorithm: sha256
+    value: 38424db219bf063e4bfc83b7c63db401160521a18999485702a80db6fe1c6dc7
+  - path: dist/mikutap/index.php
+    algorithm: sha256
+    value: f07486f5bdc0998abd17eec6beadd306ac3bd7a4f567e45d85ce6b080f8b9fef
+  - path: dist/mikutap/readflag.c
+    algorithm: sha256
+    value: 7e13624bbc5e0f8fab71b615c3ed04d7fe2967f04b988e2a086c786b1c28fcab
+  - path: dist/mikutap/css/mikutap.css
+    algorithm: sha256
+    value: 616b3ebd0c605ca4681b94427d7a2d39e8a0606030ac607034b78940e548d06a
+  - path: dist/mikutap/data/main/main.json
+    algorithm: sha256
+    value: 337e25b5ad668476367b8319409b0ce4987612726f72f87ebc516e47598d874f
+  - path: dist/mikutap/data/track/track.json
+    algorithm: sha256
+    value: 593a5616435d050f839608e14a57de0353a407b8dc957020315ed0520c5feb5b
+  - path: dist/mikutap/js/mikutap.min.js
+    algorithm: sha256
+    value: 4c246f052fb3ac7228b51f4d9a91b2d3e33bd923ac085c1cb41776e76880c32a
+  - path: dist/mikutap/shared/css/common-1.css
+    algorithm: sha256
+    value: cc9d4d27c962f27087a8937189f23298fee4f1ed76e42aa4ade5c57517a61b32
+  - path: dist/mikutap/shared/css/index-1.css
+    algorithm: sha256
+    value: d164147ac7493dac3d0e80186b8b0c617d3719d04d529cd77127bf7098ad71dc
+  - path: dist/mikutap/shared/js/common-2.min.js
+    algorithm: sha256
+    value: a47669696661bb7225bab76c0caac21943d6448cc924eb43cb5a00e677ac5349
+  - path: dist/mikutap/shared/sp/css/common.css
+    algorithm: sha256
+    value: fe4dd220baa22af66cdd82e65f0e1612ccd51fee78d9972c2a705ef9c10ff7f5
+  - path: mikutap/README.md
+    algorithm: sha256
+    value: 1b9970e5db9ec5ac5efb95a5ea76a29b5c009d2a12c08929ec594fb877f8a73b
+  - path: mikutap/favicon.png
+    algorithm: sha256
+    value: 38424db219bf063e4bfc83b7c63db401160521a18999485702a80db6fe1c6dc7
+  - path: mikutap/index.php
+    algorithm: sha256
+    value: f07486f5bdc0998abd17eec6beadd306ac3bd7a4f567e45d85ce6b080f8b9fef
+  - path: mikutap/readflag.c
+    algorithm: sha256
+    value: a5d002203963d03a3099e0ba4225e5f960ac4f9b60b0c32381815f8114363b37
+  - path: mikutap/css/mikutap.css
+    algorithm: sha256
+    value: 616b3ebd0c605ca4681b94427d7a2d39e8a0606030ac607034b78940e548d06a
+  - path: mikutap/data/main/main.json
+    algorithm: sha256
+    value: 337e25b5ad668476367b8319409b0ce4987612726f72f87ebc516e47598d874f
+  - path: mikutap/data/track/track.json
+    algorithm: sha256
+    value: 593a5616435d050f839608e14a57de0353a407b8dc957020315ed0520c5feb5b
+  - path: mikutap/js/mikutap.min.js
+    algorithm: sha256
+    value: 4c246f052fb3ac7228b51f4d9a91b2d3e33bd923ac085c1cb41776e76880c32a
+  - path: mikutap/shared/css/common-1.css
+    algorithm: sha256
+    value: cc9d4d27c962f27087a8937189f23298fee4f1ed76e42aa4ade5c57517a61b32
+  - path: mikutap/shared/css/index-1.css
+    algorithm: sha256
+    value: d164147ac7493dac3d0e80186b8b0c617d3719d04d529cd77127bf7098ad71dc
+  - path: mikutap/shared/js/common-2.min.js
+    algorithm: sha256
+    value: a47669696661bb7225bab76c0caac21943d6448cc924eb43cb5a00e677ac5349
+  - path: mikutap/shared/sp/css/common.css
+    algorithm: sha256
+    value: fe4dd220baa22af66cdd82e65f0e1612ccd51fee78d9972c2a705ef9c10ff7f5
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services:
+  - web
+  requirements: []
+references:
+- title: Quals/Web/pecel at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Quals/Web/pecel
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml records a flag, not reproduced in this metadata. The
+  top-level flag.txt holds the real flag and dist/flag.txt holds a fake placeholder, both archived as-is.
+  The .vscode/ editor settings directory was omitted from the archive. Difficulty (2.80/5.00, medium) is
+  from the README difficulty calculator.

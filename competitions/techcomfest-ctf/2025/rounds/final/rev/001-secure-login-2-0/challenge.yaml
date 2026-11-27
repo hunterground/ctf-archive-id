@@ -1,0 +1,176 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-final-rev-001
+name: 'Secure Login 2.0'
+slug: 001-secure-login-2-0
+original_name: 'Secure Login 2.0'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: 'Reverse'
+description: |-
+  Login with `admin:admin` to get the flag, but it's not that easy this time.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- reverse-engineering
+authors:
+- name: 'aimardcr'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Finals/Reverse/Secure Login 2.0
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: 'src/front/.vscode/'
+    reason: Editor settings or cache, not part of the challenge distribution (AGENTS.md Phase D rule 4).
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 97faa9dcfd4f9320a7f0ba86dfc0d7297614e2aa1825ce248dd9973316a24f44
+  - path: 'chall/secure-login-20_0.1.0_x64_en-US.msi'
+    algorithm: sha256
+    value: f9915d066821a283db231cbd380724df062e884c2daff90ba9907aec87ca984d
+  - path: 'src/back/.gitignore'
+    algorithm: sha256
+    value: ba6ff48382db2487cd11e8b3dcaeb68c2748cb2da84420e9c55d3829c4abfab0
+  - path: 'src/back/README.md'
+    algorithm: sha256
+    value: 08465fb0e4848600a1dbeba71406b10cc7fe4839fb75703bcabdac28ab0e64bc
+  - path: 'src/back/bun.lockb'
+    algorithm: sha256
+    value: 575048b9cfa38242aa3a0003ccdae10ad3e3f12b4e9e0fc20b4a872c571fe23f
+  - path: 'src/back/index.js'
+    algorithm: sha256
+    value: 86bc7572d1a0ddc3c5b455d09e39b0b5ab5f61699fd89a2719c6367cab9c624a
+  - path: 'src/back/jsconfig.json'
+    algorithm: sha256
+    value: 86efafadde8dc1b339643a9ec3153332c6ccf1f4cff3561d16bd199f45b2878e
+  - path: 'src/back/package.json'
+    algorithm: sha256
+    value: c5212467fddc9641ab6cc905babbac5349dc50bd6e1e1dbee500a859ce8d6638
+  - path: 'src/front/.gitignore'
+    algorithm: sha256
+    value: fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8
+  - path: 'src/front/README.md'
+    algorithm: sha256
+    value: c468e6a7d21b2ae0fe76d86fd7afbdb1e5623601ebf5f31389cdb926a39133ad
+  - path: 'src/front/bun.lockb'
+    algorithm: sha256
+    value: 384ce8eeba47a265664fcf8c2a040d355e46908a8665f1ff03291af476956fb7
+  - path: 'src/front/package.json'
+    algorithm: sha256
+    value: 5883916d2a84ae940063844ac9208819011fd0031004e2ac6b41995bcd2304cf
+  - path: 'src/front/src/index.html'
+    algorithm: sha256
+    value: c157ec5cbfb302d5e8856a38339afc277417e6c4f04266b80b4e1d393407e789
+  - path: 'src/front/src/assets/js/app-deobfs.js'
+    algorithm: sha256
+    value: d2c07885a5170d2dba5a067e120c7703ddf6bbb7bac990f625c8be90c0074019
+  - path: 'src/front/src/assets/js/app.js'
+    algorithm: sha256
+    value: 240d0cae6f24050e987887da0a5a54be7f30b02fc048d63bccd66647348e1e9d
+  - path: 'src/front/src-tauri/.gitignore'
+    algorithm: sha256
+    value: 88707cda7ba4226eda3ffa91d8284f1a0d12b827f06fb9bc48425cc0d4af04af
+  - path: 'src/front/src-tauri/Cargo.lock'
+    algorithm: sha256
+    value: 344d9389f5b209fb4649f4d6e1e84286b42f1d49ab3859bea4ab18743aa76095
+  - path: 'src/front/src-tauri/Cargo.toml'
+    algorithm: sha256
+    value: b49131c86ddf0d426075325c111e67138e1dec04930a56e301a2a73874ed45e8
+  - path: 'src/front/src-tauri/build.rs'
+    algorithm: sha256
+    value: 487059eaf8a947b80f20a9aacac038a5047b2ad69d2401b827376c67d6fe847f
+  - path: 'src/front/src-tauri/tauri.conf.json'
+    algorithm: sha256
+    value: 0a3e780a92a81d586a77f137e678801e9f575f646c7c9e90a495dce64a5ce1b6
+  - path: 'src/front/src-tauri/capabilities/default.json'
+    algorithm: sha256
+    value: 50e6561a0c5480e8f19379bb0f745c4ac48b8114a7127e614ecec24640cd74c0
+  - path: 'src/front/src-tauri/icons/128x128.png'
+    algorithm: sha256
+    value: 19b4fec485db7df51a691fcce72a3dd6f983e754fc4262da7154e4a4c688f69e
+  - path: 'src/front/src-tauri/icons/128x128@2x.png'
+    algorithm: sha256
+    value: 6c7660390d65217fe8de0892862254f47aee77e0af7096c75b8bfe168c5403f7
+  - path: 'src/front/src-tauri/icons/32x32.png'
+    algorithm: sha256
+    value: 1c6782dc65c8111c12cbc1882a0fea5e71ab8e51b18da2ce9580f5c88860ed02
+  - path: 'src/front/src-tauri/icons/Square107x107Logo.png'
+    algorithm: sha256
+    value: 54f7a0f58c96a4b023c1edc4b53fc443e27dace50e345f6936fa29bc20f785ca
+  - path: 'src/front/src-tauri/icons/Square142x142Logo.png'
+    algorithm: sha256
+    value: fec1e2080ca73cd4c4a123b23b1cd364059a8a8efeba3076e21dfefed390693b
+  - path: 'src/front/src-tauri/icons/Square150x150Logo.png'
+    algorithm: sha256
+    value: 65fb570cb0e61ffce02ad67784cb200a0bf058400300980a46fa0d0c8f43a77a
+  - path: 'src/front/src-tauri/icons/Square284x284Logo.png'
+    algorithm: sha256
+    value: ea0b7c5d4b1d1ab9c91d2f7c9b069c8dfbf4557b0649a5777d47332cde610262
+  - path: 'src/front/src-tauri/icons/Square30x30Logo.png'
+    algorithm: sha256
+    value: cc72279c41b4ed343e8db7e7541ceef7b6b23edaa83d4e7338421dfcb8d63c33
+  - path: 'src/front/src-tauri/icons/Square310x310Logo.png'
+    algorithm: sha256
+    value: 9733a89c539115de3c49bd06720bfc99639d9a918f5df48a810e267cf3554119
+  - path: 'src/front/src-tauri/icons/Square44x44Logo.png'
+    algorithm: sha256
+    value: 10be9840e58fb018eb9029601d42008e16c0c9cfa66b8f9467fee94f600160d4
+  - path: 'src/front/src-tauri/icons/Square71x71Logo.png'
+    algorithm: sha256
+    value: 2937fc83324cd9a1fddcfefd5927c791af31996a6840bfb3e2f1d578ad4129de
+  - path: 'src/front/src-tauri/icons/Square89x89Logo.png'
+    algorithm: sha256
+    value: 12aed0e7ee06cb631427dc9da72c0c7ecf03857fbc4884d0c31f78314feb6c7f
+  - path: 'src/front/src-tauri/icons/StoreLogo.png'
+    algorithm: sha256
+    value: 91a54024dd47230991546088f2e75d3e3199b3ccc9fe40f3f6b7d3bf1cbf7776
+  - path: 'src/front/src-tauri/icons/icon.icns'
+    algorithm: sha256
+    value: 3dc10493b7de48a61de58f768f8a5708d3a44a068c148cedf0502b9b9b71ba5d
+  - path: 'src/front/src-tauri/icons/icon.ico'
+    algorithm: sha256
+    value: 392206b573a809997f3ff16fe68f456a52e931c372107eade9572b329bbe3321
+  - path: 'src/front/src-tauri/icons/icon.png'
+    algorithm: sha256
+    value: 273cd669e07c455ad1c7c095890a37984652157cee73128a867300067dfb80e7
+  - path: 'src/front/src-tauri/src/lib.rs'
+    algorithm: sha256
+    value: 812e38cc25796a83cca864d62fcde29bb5d490916e94e86ab0e72051be2a38d5
+  - path: 'src/front/src-tauri/src/main.rs'
+    algorithm: sha256
+    value: d10138687eec245acf8b9471f84bb5348ce0c04cda7303b655078b0ed8c8e96d
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Finals/Reverse/Secure Login 2.0 at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Finals/Reverse/Secure%20Login%202.0
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

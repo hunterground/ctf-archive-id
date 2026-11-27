@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-web-002
+name: 'PDF Generator'
+slug: 002-pdf-generator
+original_name: 'PDF Generator'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: 'Web'
+description: |-
+  Aku membuat sebuah web sederhana untuk membuat file PDF. Namun, aku agak khawatir jika terdapat bug, karena aku membuat web ini dalam 1 hari saja.
+
+  Connect: http://{{.host}}:10012
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: 'daffainfo'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Web/pdf-generator
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'challenge.yaml'
+    algorithm: sha256
+    value: d2a92b50708d939ce545312f72ca2d08fd6ca2d42b65a4a1fc04e6d4d90f3d29
+  - path: 'dist/Dockerfile'
+    algorithm: sha256
+    value: 8fcce159e92964f7402d14ecabef782dada56d10d4a217d6e3ed8b73f1bb49d8
+  - path: 'dist/docker-compose.yml'
+    algorithm: sha256
+    value: acfbea417175cda568755ac55dbaedb38c6a32060dc4915beea23c46e960254b
+  - path: 'dist/flag.txt'
+    algorithm: sha256
+    value: f7cad2f1f5b960b988478ffccfd28cbec8198017dc4d4a6eff5fb6ae2fc19a79
+  - path: 'dist/requirements.txt'
+    algorithm: sha256
+    value: 4cbb02e5a2d1e5159979a2288ae832f235044c334208c7caf8fe96e2b365bd34
+  - path: 'dist/application/app.py'
+    algorithm: sha256
+    value: 22fb6113c30cf57c4db2c8fa7c257dd5381b6a6bd3118f53f6d62a4af77a2f6c
+  - path: 'dist/application/templates/index.html'
+    algorithm: sha256
+    value: 84978881eb8e0f18db576a13061483e5ca2768f053f60282433c1df314c610d3
+  - path: 'src/Dockerfile'
+    algorithm: sha256
+    value: 8fcce159e92964f7402d14ecabef782dada56d10d4a217d6e3ed8b73f1bb49d8
+  - path: 'src/docker-compose.yml'
+    algorithm: sha256
+    value: acfbea417175cda568755ac55dbaedb38c6a32060dc4915beea23c46e960254b
+  - path: 'src/flag.txt'
+    algorithm: sha256
+    value: 2351659cd4f92d73938e90f0b5521d4c470a8bfbc79d32531a72a03d332bac69
+  - path: 'src/requirements.txt'
+    algorithm: sha256
+    value: 4cbb02e5a2d1e5159979a2288ae832f235044c334208c7caf8fe96e2b365bd34
+  - path: 'src/application/app.py'
+    algorithm: sha256
+    value: 8cfece8010bac92c2a0905a3b97b223bea18d93eb052b913581b7c45a833974e
+  - path: 'src/application/templates/index.html'
+    algorithm: sha256
+    value: 84978881eb8e0f18db576a13061483e5ca2768f053f60282433c1df314c610d3
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: Quals/Web/pdf-generator at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Web/pdf-generator
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.

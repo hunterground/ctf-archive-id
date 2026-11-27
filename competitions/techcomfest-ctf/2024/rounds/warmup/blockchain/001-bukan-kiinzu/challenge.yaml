@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2024-warmup-blockchain-001
+name: bukan-kiinzu
+slug: 001-bukan-kiinzu
+original_name: bukan-kiinzu
+competition_id: techcomfest-ctf
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: blockchain
+original_category: Blockchain
+description: Smart-contract warm-up. The Chall contract implements a gambling game whose token balance
+  can be inflated by predicting the pseudo-random number derived from blockhash and calling start()
+  repeatedly; solving sets is_win.
+difficulty:
+  value: "2.00"
+  source: archive_curator
+tags:
+- blockchain
+- web3
+- solidity
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: dimasma0305-my-ctf-challenges
+  source_type: git
+  repository: https://github.com/dimasma0305/My-CTF-Challenges
+  commit: 4873f89cbd243cf7edc324ad56e919dadfa33ecd
+  original_path: My-CTF-Challenges/TECHCOMFEST-2024/Warmup/Blockchain/bukan-kiinzu
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .env
+    algorithm: sha256
+    value: 106f9ef2ea43e1f53c38473caabd2d6c188a4f45564873b958d4b53abab3385a
+  - path: Dockerfile
+    algorithm: sha256
+    value: ac465bb77509c912fc8ef8d8d64b6b42d1571bc91097dc3713a2adaed9404fb3
+  - path: README.md
+    algorithm: sha256
+    value: ca6b6b8c7624d5219e758f326e88d56d418a9ec0c1efe97d265b6012bc9b3380
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1f23e60553ef674c4d8cb7d6b98140e50fe7bc71cced24a1c0d19c9162238fe1
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 712f1b5b51ab688fa22f7efbdeca9aedff5c888cf6b75390c1d86551d17056ce
+  - path: contracts/Chall.sol
+    algorithm: sha256
+    value: f272e56ed68663313c10ef08c4a722a072742420791b745f09cf081c18e75589
+  - path: contracts/Setup.sol
+    algorithm: sha256
+    value: 5562e6836b774877b2e7170ec3dc8798d656b01b327eea86c1b1098d81a0d2e4
+  - path: deploy/chal.py
+    algorithm: sha256
+    value: 75c5940d5ec40e77e9aa402ed2e6768f01f097c8c6231702415bc0a8988d949b
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2023 Dimas Maulana
+  permission_reference: https://github.com/dimasma0305/My-CTF-Challenges/blob/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/LICENSE
+environment:
+  type: docker
+  services:
+  - blockchain
+  requirements: []
+references:
+- title: Warmup/Blockchain/bukan-kiinzu at github.com/dimasma0305/My-CTF-Challenges
+  url: https://github.com/dimasma0305/My-CTF-Challenges/tree/4873f89cbd243cf7edc324ad56e919dadfa33ecd/My-CTF-Challenges/TECHCOMFEST-2024/Warmup/Blockchain/bukan-kiinzu
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Author challenge. The source challenge.yml marks the challenge state hidden and records a UUID-style
+  flag, which is not reproduced in this metadata. The contracts are labelled SPDX UNLICENSED and MIT in
+  the source; the surrounding repository LICENSE (MIT, Copyright (c) 2023 Dimas Maulana) is used for
+  redistribution. Difficulty (2.00/5.00, easy) is from the README difficulty calculator.

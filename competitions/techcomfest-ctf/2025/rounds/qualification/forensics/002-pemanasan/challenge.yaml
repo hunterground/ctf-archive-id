@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: techcomfest-ctf-2025-qualification-forensics-002
+name: 'pemanasan'
+slug: 002-pemanasan
+original_name: 'pemanasan'
+competition_id: techcomfest-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensics'
+description: |-
+  I just create handmade pdf. Well i also made flag checker inside pdf file. Cool right? 😎
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: 'fire'
+  team: null
+organization: null
+provenance:
+  archive_id: tcp1p-techcompfest-2025-public
+  source_type: git
+  repository: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC
+  commit: 5d0690211f8477d6afb0309753057f0b407144c9
+  original_path: Quals/Forensics/pemanasan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 'README.md'
+    algorithm: sha256
+    value: 30a4d4cd79c7236082d0718737aa5fdf4d8461b4d643ff0547e6a90240a7766f
+  - path: 'challenge.yml'
+    algorithm: sha256
+    value: 0d5b4de2b79776b41257c91234b6e5ca1d89e8388250bb683d7f0dd4c52d920d
+  - path: 'peserta/flag_protected.pdf'
+    algorithm: sha256
+    value: d2a4002ed8eef02324ed6ac7a9e315d370321ed721a0cef10864e6b23708ce92
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Copyright (c) 2025 TCP1P
+  permission_reference: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/blob/5d0690211f8477d6afb0309753057f0b407144c9/LICENSE
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: Quals/Forensics/pemanasan at TCP1P/TECHCOMPFEST-2025-PUBLIC
+  url: https://github.com/TCP1P/TECHCOMPFEST-2025-PUBLIC/tree/5d0690211f8477d6afb0309753057f0b407144c9/Quals/Forensics/pemanasan
+  type: official_repository
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >-
+  Publisher (problemsetter) challenge, archived from the TCP1P repository for the event organised
+  by UKM PCC, Politeknik Negeri Semarang. The source challenge.yml records a flag value that is
+  not reproduced in this metadata; any flag.txt or .env in the distribution is archived as-is.
+  This challenge carries a TCF2024-prefixed flag in its source despite being published in the 2025
+  repository, whose qualification round opened on 20 December 2024; the flag prefix is recorded as
+  an anomaly in the source and left unmodified.
