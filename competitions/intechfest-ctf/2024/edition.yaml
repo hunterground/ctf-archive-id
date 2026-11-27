@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024
+competition_id: intechfest-ctf
+year: 2024
+name: IntechFest 2024 PNBCTF
+status: completed
+verification: corroborated
+dates:
+  start: '2024-09-07'
+  end: '2024-09-08'
+statistics:
+  participant_count: null
+  challenge_count: 31
+references:
+- title: CTF IntechFest 2024 event configuration (challenge repository conf.yaml)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/blob/main/conf.yaml
+  type: third_party_archive
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: 'The 2024 event ran 7-8 September 2024 per the event configuration committed in the public challenge
+  repository. The repository is hosted under the ctf-itb GitHub organization and released under an MIT
+  license, copyright TCP1P, which published the official IntechFest CTF 2024 challenge set as a community
+  mirror. IntechFest is the main program of UKM Computer Club, Politeknik Negeri Bali, and PNBCTF is one
+  of its contest tracks (with PNBDC and PNBWDC). No organizer-hosted challenge repository was found, so
+  the challenge materials were imported from the TCP1P community mirror at commit 57c11998f39401f155bdd3949150bc543ea150ed.
+  The 31 challenges span eight categories: Crypto (4), Forensics (4), Misc (5), Mobile (4), OSINT (2),
+  Pwn (4), Reverse Engineering (4) and Web (4).'

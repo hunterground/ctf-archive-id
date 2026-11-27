@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-pwn-001
+name: web-cembly
+slug: 001-web-cembly
+original_name: web-cembly
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: >
+  A WebAssembly (C compiled to wasm) application served through nginx with an admin bot.
+  Exploiting the wasm application reaches the bot's flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- webassembly
+- wasm
+- browser
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: pwn/web-cembly
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - app:80
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/pwn/web-cembly
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. The challenge ships nginx, a node bot, the wasm
+  source and a src.zip archive; all were preserved under original/. No author is stated in the
+  source. The flag embedded in the bot environment is not reproduced in metadata.

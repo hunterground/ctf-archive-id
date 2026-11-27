@@ -1,0 +1,10 @@
+version: '1'
+name: 'SHAW'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: 'SHAW'
+    read_only: true
+    ports:
+      - 8035:8010

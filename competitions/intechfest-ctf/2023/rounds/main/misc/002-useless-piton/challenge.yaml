@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-misc-002
+name: useless-piton
+slug: 002-useless-piton
+original_name: useless-piton
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: >
+  A Python jail that filters the submitted expression with a blacklist and then execs it with
+  empty __builtins__. The filter can be bypassed without directly using the blacklisted tokens.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- python-jail
+- sandbox-escape
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: misc/useless-piton
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - jail:25776
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/misc/useless-piton
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. No author is stated in the source. Flags are not
+  reproduced in metadata.

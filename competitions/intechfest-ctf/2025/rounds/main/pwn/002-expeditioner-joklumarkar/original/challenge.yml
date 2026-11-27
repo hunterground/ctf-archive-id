@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Expeditioner's Jǫklumarkar"
+author: "m3rr"
+description: |
+  <i>
+    The mountains have been crossed, and the expeditioners' tracks left all over the endless icefield.<br>
+    <a href="https://arknights.wiki.gg/wiki/Sami_(Feranmut)" title="Sami (Feranmut)">The split earth</a> talks to you, questions you, promises you.<br>
+    The quest for knowledge has no end, and misfortune is only the beginning.<br>
+  </i>
+
+  not every journey has it's end and thus the expeditioners' leave their last footprint as a name in the snow, j0klum4rkar
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{venture on her own seeking the unknown and unveil it's secret, Magallan learn more about Sami}"
+
+provide: "https://drive.google.com/file/d/17TV9GcWITOwasTxauqAl9cAPT8VgTR1L/view"

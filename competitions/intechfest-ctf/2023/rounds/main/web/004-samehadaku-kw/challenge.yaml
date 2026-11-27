@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-web-004
+name: Samehadaku KW
+slug: 004-samehadaku-kw
+original_name: Samehadaku KW
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: >
+  A Flask anime-streaming site with zip and tar archive uploads. Exploitation chains a user-side
+  zip slip for arbitrary file read (leaking SECRET_KEY from /proc/self/environ to forge a JWT),
+  an admin-side tar slip with a filename-restriction bypass for arbitrary file write, and YAML
+  deserialization to reach code execution.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- flask
+- zip-slip
+- tar-slip
+- jwt
+- yaml-deserialization
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: web/Samehadaku KW
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - server:80
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/web/Samehadaku%20KW
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. No challenge author is stated in the source. The
+  flag is not reproduced in metadata.

@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024-main-web-002
+name: Imposible
+slug: 002-imposible
+original_name: Imposible
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: It's even possible to solve this challenge? I don't think so.
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- web
+- golang
+- race-condition
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  commit: 57c11998f39401f155bdd3949150bc543ea150ed
+  original_path: Web/Imposible
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  permission_reference: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+environment:
+  type: container
+  services:
+  - server:8080
+  requirements: []
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/tree/57c11998f39401f155bdd3949150bc543ea150ed/Web/Imposible
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2024 challenge
+  set. Difficulty is the point value (1000) recorded in the challenge.yml, assigned
+  by the archive curator because the source is a community mirror rather than an organizer
+  publication. The dynamic flag template is not reproduced in metadata. The src/ source
+  tree, Dockerfile, docker-compose.yaml and init.sh are preserved; the poc/ folder
+  retains its README.md while poc/solve.go was moved to solvers/.

@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "ExistentialCrisis Revenge"
+author: "repl"
+description: |
+
+  - http://research.r3plican.dev:1337
+  - http://research.r3plican.dev:1336
+  <iframe style="width: 100%; height: 45vh; border: none;" src="https://www.youtube.com/embed/Osk6gX6R_bA?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  Version 2 was never solved by anyone, but here comes the Revenge just a little tweak.
+
+  
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{Deathcreated_timetogrow_thethingthat_itwouldkill.}"
+
+hints:
+  - "bisa di coba di local dlu, solver ku di remote -+ 2 jam an ( kalo gk optimal ) kalo optimal -+ 30 menit an. statistik mungkin cukup berguna buat optimalkan solver. "
+  - "you can just use bunch of text to do  sttf in dashboard anchor emoji > img lazy true to extract username and for password you can do some niche stuff like redraw timing to leak cross origin ( there are 2 way to solve. using client side like that or use 1 exploit to do without all that necessary stuff )"
+  - "You can use a TOCTOU attack to bypass the browser extension. Alternatively, if you dig deeper into the DNS layer, you could fully exploit it without relying on leaks (fr, 1shot). no need for STTF or any XS-Leaks but that requires more research, and there's no documentation/paper/writeup in that area yet. So, which method did you use?"
+
+provide: "./dist/atttachment.zip"
+
+# scripts:
+#     start: cd src && docker compose -p {{.slug}} up --build -d
+#     stop: cd src && docker compose -p {{.slug}} down --volumes

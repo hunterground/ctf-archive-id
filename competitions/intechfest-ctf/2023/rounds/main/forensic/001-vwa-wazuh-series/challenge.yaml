@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-forensic-001
+name: VWA + Wazuh (Mini Lab SOC)
+slug: 001-vwa-wazuh-series
+original_name: VWA+Wazuh (Mini Lab SOC)
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: forensic
+original_category: Forensic
+description: >
+  A self-contained mini SOC lab built around Wazuh. Four intentionally vulnerable web apps
+  (SQL injection, SSTI, LFI, PHP arbitrary file upload) run behind a proxy alongside Wazuh
+  indexer/dashboard/manager and a Kali attacker container. The challenge concerns detecting
+  and analysing the simulated attacks with Wazuh.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensic
+- soc
+- wazuh
+- log-analysis
+authors:
+- name: Dimas Maulana
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: forensic/VWA-Wazuh(Series)
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: Dimas Maulana
+  redistribution: permitted
+  attribution_required: true
+  attribution: MIT License, Copyright (c) 2023 Dimas Maulana (LICENSE retained in original/).
+  permission_reference: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/blob/6ae32dce2df841de27d2ed1198180a48f669e6e3/forensic/VWA-Wazuh(Series)/LICENSE
+environment:
+  type: container
+  services:
+  - wazuh-dashboard:5601
+  - apps-proxy:80
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/forensic/VWA-Wazuh(Series)
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. The directory is a full lab distribution that
+  bundles the vulnerable services, the Wazuh stack, and the Kali attacker tooling (including
+  exploit scripts under kali-linux/exploit), so it was preserved whole under original/.
+  Flags embedded in the deployment are not reproduced in metadata.

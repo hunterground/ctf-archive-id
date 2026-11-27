@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CTFify CLI Web Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'navigation.html' %}
+    <div class="main-content">
+        <h1>CTFify Command Runner</h1>
+        <form method="POST" id="ctf-form">
+            <div class="input-container">
+                <input type="text" name="ctf_args" placeholder="🎀 Enter CTFify arguments (e.g. create my_challenge)" size="50">
+                <button type="submit">Run 🚀</button>
+            </div>
+        </form>
+        <div class="loader"></div>
+        {% if current_user.is_authenticated %}
+        <p class="directory-note">✨ Your workspace: ctf_workspaces/{{ current_user.workspace_token }}</p>
+        {% endif %}
+        <div id="result-container">
+            {% if result %}
+            <pre class="{% if 'Error' in result %}error{% else %}success{% endif %}">{{ result }}</pre>
+            {% endif %}
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html> 

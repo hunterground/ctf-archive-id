@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-web-002
+name: Intechfest Game Design Competition
+slug: 002-intechfest-game-design-competition
+original_name: Intechfest Game Design Competition
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: >
+  A Rust (Rocket + Handlebars) web application themed as a game design competition. Three
+  bugs chain together: an HBS file upload leading to template injection, an arbitrary file read
+  through a custom include helper, and command execution via wget/rustc to reach the flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- rust
+- rocket
+- handlebars
+- ssti
+- file-upload
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: web/Intechfest Game Design Competition
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - gdc-web:80
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/web/Intechfest%20Game%20Design%20Competition
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. The solution README credits mas @InersIn for the
+  wget --preserve-permissions technique. No challenge author is stated in the source. The flag
+  is not reproduced in metadata.

@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: main
+competition_id: intechfest-ctf
+edition_year: 2025
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: >
+  Single-stage Capture The Flag of IntechFest 2025 (PNBCTF), running 6-7 September 2025. The community
+  challenge repository publishes one undivided challenge set and does not describe a qualifier or final,
+  so this round id is main.
+dates:
+  start: '2025-09-06'
+  end: '2025-09-07'
+statistics:
+  challenge_count: 19
+  participant_count: null
+references:
+- title: INTECHFEST-2025-Public (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-2025-Public
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community challenge repository (INTECHFEST-2025-Public) at commit
+  f29a1b7240b5685fe29fdbcc46dcad90faf31e36. The repository is released under an MIT license, copyright
+  TCP1P. Sequence numbers are alphabetical by slug within each category. Difficulty values are the point
+  values in each challenge.yml (1000 per challenge). Three challenges (Forensics/interesting,
+  Forensics/shiunji-ouka, Pwn/expeditioner-joklumarkar) reference Google Drive attachments that were not
+  present in the git tree and were not downloaded; those challenges have no original attachment material
+  beyond their challenge.yml. Two Forensics challenges (prankster, trickster) list Mega mirrors but their
+  challenge.zip distributions are present in the repo.

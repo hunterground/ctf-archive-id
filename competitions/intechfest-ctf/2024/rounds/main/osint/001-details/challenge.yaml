@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024-main-osint-001
+name: Details
+slug: 001-details
+original_name: Details
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: osint
+original_category: OSINT
+description: 'You were just enjoying watching your favorite VTubers, while suddenly
+  the FBI breached into your room because they have found out that you have an outstanding
+  still in Open Source Intelligence. They need your help to recover an image that
+  is taken by a threat actor... Can you analyze the image further? Some might say
+  it''s full of paradise. Notes: Enter the name of the place (without space) you have
+  found based on the image wrapped with INTECHFEST{}.'
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- osint
+- image-metadata
+authors:
+- name: aimardcr
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  commit: 57c11998f39401f155bdd3949150bc543ea150ed
+  original_path: Osint/Details
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  permission_reference: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+environment:
+  type: static
+  services: []
+  requirements: []
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/tree/57c11998f39401f155bdd3949150bc543ea150ed/Osint/Details
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2024 challenge
+  set. Difficulty is the point value (1000) recorded in the challenge.yml, assigned
+  by the archive curator because the source is a community mirror rather than an organizer
+  publication. The distributed artifact is a raw image file (IMG_2681_jpg 4.dng);
+  the flag is not reproduced in metadata.

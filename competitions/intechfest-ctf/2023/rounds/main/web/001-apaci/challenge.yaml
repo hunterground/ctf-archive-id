@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-web-001
+name: APACI
+slug: 001-apaci
+original_name: APACI
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: >
+  A CodeIgniter 4 backend with an admin bot. The challenge spans a PHP object injection
+  gadget chain through the KnpSnappy PDF renderer and an SSRF path to the internal bot.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- php
+- codeigniter
+- deserialization
+- ssrf
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: web/APACI
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: Kenjis, ucan-lab (infra scaffolding); challenge authors unnamed
+  redistribution: permitted
+  attribution_required: true
+  attribution: MIT License retained in original/ for the docker scaffolding (kenjis/docker-codeigniter-apache
+    and ucan-lab/docker-laravel-apache). Challenge material itself carries no separate license
+    and is treated as MIT per the archive's convention.
+  permission_reference: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/blob/6ae32dce2df841de27d2ed1198180a48f669e6e3/web/APACI/src/apaci/LICENSE
+environment:
+  type: container
+  services:
+  - apaci:80
+  - db:3306
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/web/APACI
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. The upstream src/apaci/Solver.zip is solver material
+  but kept in original/ because it is not a solver-script filename; the solution/ directory was
+  moved to solvers/. No author is stated in the source. The flag file and mount path are not
+  reproduced in metadata.

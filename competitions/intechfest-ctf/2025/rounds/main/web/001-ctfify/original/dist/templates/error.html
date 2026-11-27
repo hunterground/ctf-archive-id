@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'navigation.html' %}
+    <div class="main-content">
+        <div class="auth-container">
+            <h1>{{ error_code }} - {{ error_message }} 🌸</h1>
+            <p>{{ error_description }}</p>
+            {% if error_code == 500 %}
+                <p>Please contact the administrator.</p>
+            {% else %}
+                <p>Go back to <a href="{{ url_for('index') }}">home</a>.</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html> 

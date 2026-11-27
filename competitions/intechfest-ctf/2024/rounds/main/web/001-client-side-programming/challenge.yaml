@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024-main-web-001
+name: Client Side Programming
+slug: 001-client-side-programming
+original_name: Client Side Programming
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web
+description: 'Did you know i just make some interesting xor image application with
+  golang and nextjs. Idk if there''s an vulnerability, but i''ll hope you find it
+  ASAP, because i need to submit it to NASA. URL: https://{{ .host }}:5435.'
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- web
+- golang
+- nextjs
+authors:
+- name: Dimas
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  commit: 57c11998f39401f155bdd3949150bc543ea150ed
+  original_path: Web/Client Side Programming
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  permission_reference: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+environment:
+  type: container
+  services:
+  - server:5435
+  requirements: []
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/tree/57c11998f39401f155bdd3949150bc543ea150ed/Web/Client%20Side%20Programming
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2024 challenge
+  set. Difficulty is the point value (1000) recorded in the challenge.yml, assigned
+  by the archive curator because the source is a community mirror rather than an organizer
+  publication. The flag is not reproduced in metadata. The challenge root contains
+  the full author working tree (bot/, dev/, imagefmt/, ui/) plus the provided dist/
+  folder; both were preserved. The solver/ directory was moved to solvers/.

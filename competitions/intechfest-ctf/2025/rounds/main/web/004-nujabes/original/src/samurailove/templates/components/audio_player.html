@@ -1,0 +1,29 @@
+<!-- Audio Player -->
+<div class="fixed bottom-0 left-0 right-0 bg-gray-900 p-4 shadow-lg z-50">
+  <div class="flex items-center justify-between max-w-3xl mx-auto">
+    <div class="flex items-center space-x-4">
+      <img
+        id="audio-thumb"
+        src="/static/img/placeholder.jpg"
+        alt=""
+        class="w-12 h-12 object-cover rounded"
+      />
+      <div>
+        <h4 id="audio-title" class="text-lg font-semibold text-white"></h4>
+        <p id="audio-artist" class="text-sm text-gray-400"></p>
+      </div>
+    </div>
+    <div class="flex items-center space-x-4">
+      <button id="play-pause" class="text-white text-xl"></button>
+      <input
+        type="range"
+        id="progress"
+        class="w-48"
+        value="0"
+        min="0"
+        max="100"
+      />
+    </div>
+  </div>
+  <audio id="audio-player" src=""></audio>
+</div>

@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+package music.v1;
+
+option go_package = "backend/proto;proto";
+
+message TrackRequest {
+	string id = 1; // Identifier of the track, e.g., filename like "kawaikute-gomen.mp3"
+	string listener_name = 2; // Optional listener display name
+}
+
+message Track {
+	string id = 1; // Identifier (e.g., filename)
+	string name = 2; // Human-friendly name
+	int64 size_bytes = 3; // File size in bytes
+}
+
+message ListTracksRequest {}
+
+message ListTracksResponse {
+	repeated Track tracks = 1;
+}
+
+message AudioChunk {
+	bytes data = 1; // Raw audio bytes
+	int64 offset = 2; // Byte offset from start of file
+}
+
+message ListenerCountRequest {}
+
+message ListenerCountResponse {
+	int64 count = 1;
+}
+
+message Listener {
+	string id = 1;
+	int64 since_unix_ms = 2;
+	string name = 3; // Display name
+}
+
+message GetListenersRequest {}
+
+message GetListenersResponse {
+	repeated Listener listeners = 1;
+}
+
+service MusicService {
+	rpc ListTracks(ListTracksRequest) returns (ListTracksResponse);
+	rpc StreamTrack(TrackRequest) returns (stream AudioChunk);
+	rpc GetListenerCount(ListenerCountRequest) returns (ListenerCountResponse);
+	rpc GetListeners(GetListenersRequest) returns (GetListenersResponse);
+}
+
+

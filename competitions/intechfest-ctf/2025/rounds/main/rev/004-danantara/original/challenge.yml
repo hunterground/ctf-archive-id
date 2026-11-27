@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "danantara"
+author: "yqroo"
+description: |
+  danantara kau dan aku
+  danantara ctf dan aku
+  danantara rev dan aku
+  danantara format flag sisipkan string rahasiamu
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{KamuGG!!Bang_Fr!}"
+
+provide: "./dist"

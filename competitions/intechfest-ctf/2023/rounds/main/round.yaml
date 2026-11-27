@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: main
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: >
+  Single-stage Capture The Flag of IntechFest 2023 (PNBCTF). The community challenge
+  repository publishes one undivided challenge set and does not describe a qualifier or
+  final, so this round id is main. Only the challenges whose material was committed to
+  the public repository are recorded here.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 9
+  participant_count: null
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror at commit 6ae32dce2df841de27d2ed1198180a48f669e6e3.
+  The repository is a skeletal publication: 19 of its 28 challenge directories contain only
+  empty .gitkeep placeholders and no challenge files, so they were not imported. Only the
+  nine challenges with committed material are recorded. Event dates were not stated in the
+  repository and remain null.

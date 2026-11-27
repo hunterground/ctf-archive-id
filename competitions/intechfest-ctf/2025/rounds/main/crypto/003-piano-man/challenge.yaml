@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: intechfest-ctf-2025-main-crypto-003
+name: piano man
+slug: 003-piano-man
+original_name: piano man
+competition_id: intechfest-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: dahlah but slightly harder, now that more that 1 person solved it
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- crypto
+authors:
+- name: azuketto
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-2025-Public
+  commit: f29a1b7240b5685fe29fdbcc46dcad90faf31e36
+  original_path: Crypto/piano man
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/TCP1P/INTECHFEST-2025-Public
+  permission_reference: https://github.com/TCP1P/INTECHFEST-2025-Public
+environment:
+  type: static
+  services: []
+  requirements: []
+references:
+- title: INTECHFEST-2025-Public (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-2025-Public/tree/f29a1b7240b5685fe29fdbcc46dcad90faf31e36/piano
+    man
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2025 challenge set. Difficulty is
+  the point value (1000) recorded in the challenge.yml, assigned by the archive curator because the source
+  is a community mirror rather than an organizer publication. The flag is not reproduced in metadata.

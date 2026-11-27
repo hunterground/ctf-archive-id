@@ -10,12 +10,21 @@ dates:
   end: '2025-09-07'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 19
 references:
 - title: HIMA IF Telkom University competition notes, August-September 2025
   url: https://himaiftelkom.com/informasi-lomba-agustus-september-2025/
   type: other
   accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: The cited calendar attributes the CTF to UKM Computer Club Politeknik Negeri Bali and gives 6-7
-  September 2025 as the competition dates. The organizer guidebook itself was not opened.
+- title: INTECHFEST-2025-Public (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-2025-Public
+  type: third_party_archive
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >
+  The cited calendar attributes the CTF to UKM Computer Club Politeknik Negeri Bali and gives 6-7
+  September 2025 as the competition dates. The challenge repository README confirms a 6 September 2025 CTF
+  start with an 8 September challenge-submission deadline. The 19 challenges were imported from the TCP1P
+  community mirror (INTECHFEST-2025-Public) at commit f29a1b7240b5685fe29fdbcc46dcad90faf31e36. The
+  repository carries an MIT license, copyright TCP1P. Three challenge attachments are hosted on Google
+  Drive and were not present in the repository.

@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-misc-001
+name: no-connection
+slug: 001-no-connection
+original_name: no-connection
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: misc
+original_category: Misc
+description: >
+  "Can you connect to mongodb and get the flag?" The challenge combines FTP SSRF and request
+  redirection using a PASV request to reach an internal MongoDB instance.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- ssrf
+- ftp
+- mongodb
+authors:
+- name: dimas
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: misc/no-connection
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - app:7716
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/misc/no-connection
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. Author taken from the challenge README. Flags are
+  not reproduced in metadata.

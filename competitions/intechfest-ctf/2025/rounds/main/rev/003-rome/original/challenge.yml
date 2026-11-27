@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Rome"
+author: "yqroo"
+description: |
+  All roads lead to Rome
+  Apparently, just one road succeeds.
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{do_u_think_it's_a-maze-ing?:pp}"
+
+hints:
+  - "Have you found `win` function? Have you tried debugging the program with flag format input? To make it easier, you could solve one block (x node) at a time sequentially, because for the last node in each block there’s some move/direction shuffling happening, isn’t there?"
+  - "charset: INTECHFEST\\{[a-z_'\\-:\\?]+\\}"
+
+provide: "./dist"

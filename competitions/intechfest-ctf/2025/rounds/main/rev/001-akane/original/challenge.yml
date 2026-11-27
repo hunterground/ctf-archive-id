@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Akane"
+author: "aimardcr"
+description: |
+  <img src="https://i.pinimg.com/originals/c4/6b/4d/c46b4da20a8068b68fcee13f989b5afa.gif" alt="Akane" />
+  
+  Note: Flag is in the environment variable.
+
+type: "StaticContainer"
+value: 1000
+
+flags:
+  - "INTECHFEST{aku-baru-tau-kalo-oob-di-argv-bisa-ngeleak-env-kwaokwaokawokawo}"
+
+provide: "./dist"
+
+
+container:
+    containerImage: "{{.slug}}:latest"
+    memoryLimit: 512
+    cpuCount: 2
+    storageLimit: 512
+    containerExposePort: 5000
+    enableTrafficCapture: false
+
+scripts:
+    start: cd src && docker build -t {{.slug}} .

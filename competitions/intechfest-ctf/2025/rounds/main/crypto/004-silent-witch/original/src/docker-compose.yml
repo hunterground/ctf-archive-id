@@ -1,0 +1,10 @@
+version: '1'
+name: 'silent-witch'
+services:
+  read-around:
+    build: .
+    restart: on-failure
+    container_name: 'silent-witch'
+    read_only: true
+    ports:
+      - 8058:8010

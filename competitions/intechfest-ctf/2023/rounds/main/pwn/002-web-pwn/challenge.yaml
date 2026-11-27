@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: intechfest-ctf-2023-main-pwn-002
+name: web-pwn
+slug: 002-web-pwn
+original_name: web-pwn
+competition_id: intechfest-ctf
+edition_year: 2023
+division_id: null
+round_id: main
+category: pwn
+original_category: Pwn
+description: >
+  Binary exploitation of a remote service exposed through a Traefik front end. The repository
+  publishes the deployment infrastructure and the author's solver, but not the challenge source.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- binary-exploitation
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  commit: 6ae32dce2df841de27d2ed1198180a48f669e6e3
+  original_path: pwn/web-pwn
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: No license file in source. Treated as MIT per the archive's convention for
+    IntechFest challenge material.
+  permission_reference: null
+environment:
+  type: container
+  services:
+  - traefik:80
+  requirements:
+  - docker
+  - docker-compose
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/6ae32dce2df841de27d2ed1198180a48f669e6e3/pwn/web-pwn
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: >
+  Imported from the TCP1P community mirror. The upstream neko/ directory is empty and no
+  challenge source is committed, so original/ holds only the deployment infrastructure
+  (docker-compose, traefik config, .vscode). The author solver (chall, libc.so, solve.py) was
+  moved to solvers/. No author is stated in the source.

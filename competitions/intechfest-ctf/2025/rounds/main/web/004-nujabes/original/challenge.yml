@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Nujabes"
+author: "repl"
+description: |
+
+  <iframe style="width: 100%; height: 45vh; border: none;" src="https://www.youtube.com/embed/LC7-opq4Gik?autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  jUst soME bAsIC Next-generation web technology featuring Nujabes.
+  An HTTP/3 stack with a b4sIC browser extension. quite compelling, isn't it?
+  Deep Dive into firefox maybe usefull for this challenge. 
+  
+  - http://research.r3plican.dev:2931
+
+type: "StaticAttachment"
+value: 1000
+
+hints:
+  - "Try to use Firefox, and read about HTTP/3 and QUIC whatwg spec."
+
+flags:
+  - "INTECHFEST{w31RD_F1r33F0X_B3haviouR_0r_whatwg}"
+hints:
+  - "(me sending my solver.py to chatgpt) explain this solver as tldr
+   answer: here’s the super-short TL;DR:
+   * It’s an end-to-end exploit runner that weaponizes a site’s **/report** feature and a permissive **HTTP/3 (QUIC)** upload flow to exfiltrate a local file from the target box.
+   * **BaseAPI** (httpx) talks to the target: grabs a CSRF token, hits `/report`, and scrapes a dynamic filename from `/`.
+   * **HTTP3** (custom QUIC client) does three things: “poke” the H3 service, **flip the server’s upload directory**, then **upload an HTML payload** (extensionless) that browsers treat as HTML; the payload’s placeholders are patched to point at the desired local path (`LEAKED`) and your webhook (`HOOK`).
+   * A tiny **Flask hook server** (module `hook`) is started locally to host lure pages and receive stolen content; it also exposes flags like `grabbed`, `user_catch`, and a `forged` cookie value.
+   * Orchestration flow:
+
+    1. start the hook server → 2) submit a report to your hook page to lure the privileged “bot” browser → 3) use H3 to plant the crafted file and adjust server paths → 4) wait until a victim hits the lure (so you get a usable cookie in `hook.forged`) → 5) with that cookie, submit another `/report` pointing to a **file://** URL on the server so the bot reads it and **sendBeacon**s the contents back to your webhook.
+   * A small cleanup helper (`log_task_error`) restores the payload file to its placeholder form after use and logs the report response.
+
+   That’s it: one thread runs the webhook, the async tasks herd CSRF/report/H3 steps, and the loop waits for a caught user to pivot into file-read → exfil."
+  
+provide: "./dist/dist.zip"
+
+# scripts:
+#     start: cd src && pm2 start "./run.sh {{.slug}} start" --name {{.slug}}
+#     stop: cd src && pm2 stop {{.slug}} && docker compose -p {{.slug}} down --volumes

@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024-main-crypto-002
+name: CRC32plus
+slug: 002-crc32plus
+original_name: CRC32plus
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: 'Pure crc32 is weak, that''s why I tweaked it a little bit to make it
+  more secure and then called it crc32plus. Note: The timeout is changed to 90s.'
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- crypto
+- crc32
+authors:
+- name: deomkicer
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  commit: 57c11998f39401f155bdd3949150bc543ea150ed
+  original_path: Crypto/CRC32plus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  permission_reference: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+environment:
+  type: container
+  services:
+  - server:5000
+  requirements: []
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/tree/57c11998f39401f155bdd3949150bc543ea150ed/Crypto/CRC32plus
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2024 challenge
+  set. Difficulty is the point value (1000) recorded in the challenge.yml, assigned
+  by the archive curator because the source is a community mirror rather than an organizer
+  publication. The dynamic flag template is not reproduced in metadata.

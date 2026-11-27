@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "ESPFree"
+author: "m3rr"
+description: |
+  Eat (eat your pancreas)
+  Sleep (eepy sleepy)
+  Pwn (prank em john!)
+  Free (full metal alchemists episode 4, timestamp 8:53)
+  
+  <a href="https://ibb.co.com/nMs8chvx"><img src="https://i.ibb.co.com/tpMPsytV/20250831-0041-Code-Shirt-Layout-remix-01k3y0zannepstvm7xvkcdmqhp.png" alt="20250831-0041-Code-Shirt-Layout-remix-01k3y0zannepstvm7xvkcdmqhp" border="0" /></a>
+
+  nc {{ .host }} 1337
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{y0u_just_solved_modern_version_of_33c3ctf-ESPR_then_3sc4lat3_to_sh3llz_like_CVE-2020-13160}"
+
+scripts:
+    start: cd src && docker compose -p {{.slug}} up --build -d
+    stop: cd src && docker compose -p {{.slug}} down --volumes

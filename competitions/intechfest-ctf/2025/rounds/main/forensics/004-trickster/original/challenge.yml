@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "trickster"
+author: "musafir"
+description: |
+  Last week my friend (he is Chizuru's Fiancée) tell me about tools who give us like a hacker, and he tell me if i using this tool i can get beautiful Fiancée like Chizuru! so i run given command he give, but it didnt show anything, he just say maybe its not compatible with my system.
+
+  And he tell me, dont forget check your personal folder, what? 
+
+  mirror: https://mega.nz/file/R9BnEBaJ#TIt7qzqL5pujIvuIrL7DBdC-VS0zIXQbKWx-828_xqU
+  password: notinfectedofc
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{actually_i_wanna_add_pyArmor_but_its_broken_8217da}"
+
+provide: "./dist"

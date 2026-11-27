@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: intechfest-ctf-2025-main-forensics-001
+name: interesting
+slug: 001-interesting
+original_name: interesting
+competition_id: intechfest-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: Forensics challenge; see challenge.yml for the full prompt about deleting suspicious files.
+  Attachment hosted on Google Drive (not in repository).
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- forensics
+authors:
+- name: keii
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-2025-Public
+  commit: f29a1b7240b5685fe29fdbcc46dcad90faf31e36
+  original_path: Forensics/interesting
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/TCP1P/INTECHFEST-2025-Public
+  permission_reference: https://github.com/TCP1P/INTECHFEST-2025-Public
+environment:
+  type: static
+  services: []
+  requirements: []
+references:
+- title: Google Drive attachment (challenge distribution)
+  url: https://drive.google.com/file/d/1_hLFEUsJzX8PndwJr8NPYIWt8xXC8wEb/view?usp=sharing
+  type: third_party_archive
+  accessed: '2026-11-27'
+- title: INTECHFEST-2025-Public (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-2025-Public/tree/f29a1b7240b5685fe29fdbcc46dcad90faf31e36/interesting
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2025 challenge set. Difficulty is
+  the point value (1000) recorded in the challenge.yml, assigned by the archive curator because the source
+  is a community mirror rather than an organizer publication. The flag is not reproduced in metadata.
+  The player attachment is hosted on Google Drive and was not present in the repository; it was not downloaded.

@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "SHAW"
+author: "azuketto"
+description: |
+  NO PREORDERS
+
+  https://store.steampowered.com/app/1030300/Hollow_Knight_Silksong/
+
+  nc {{ .host }} 8035
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{ONLY_$20???_TAKE_MY_MONEY_14d6fd37a038cedd}"
+
+provide: "./dist"
+
+scripts:
+  start: cd ./src && docker compose up --build -d
+  stop: cd ./src && docker compose down --volumes

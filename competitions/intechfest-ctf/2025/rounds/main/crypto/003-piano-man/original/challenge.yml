@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "piano man"
+author: "azuketto"
+description: |
+  dahlah but slightly harder, now that more that 1 person solved it
+
+  https://music.youtube.com/search?q=piano+man
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{now_we_do_actual_lll_optimization_701ab393ac52b878}"
+
+provide: "./dist"

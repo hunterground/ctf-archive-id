@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "shiunji ouka"
+author: "keii"
+description: |
+  I kinda wanted to try out a project my friend made (he is Chizuru's fiancé),
+  so I downloaded it into my machine and followed the project guide exactly.
+  But out of nowhere, I couldn’t open one of my important document files.
+  WTF is happening?
+
+  password : `73c1818c4ee40dcc567fb5457f3ff9199714ee7272df573a59ae40113064b889`
+
+type: "StaticAttachment"
+value: 1000
+
+provide: "https://drive.google.com/file/d/1_NQBSTmxrlTlKRmCQdAtAqNiLVe9ZRW-/view?usp=sharing"
+
+flags:
+  - "INTECHFEST{easy_shellc0de_ransomw4re!_00ef83dbcc}"

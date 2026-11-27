@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: intechfest-ctf-2025-main-rev-003
+name: Rome
+slug: 003-rome
+original_name: Rome
+competition_id: intechfest-ctf
+edition_year: 2025
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse
+description: All roads lead to Rome. Apparently, just one road succeeds.
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- reverse
+authors:
+- name: yqroo
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/TCP1P/INTECHFEST-2025-Public
+  commit: f29a1b7240b5685fe29fdbcc46dcad90faf31e36
+  original_path: Reverse/Rome
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/TCP1P/INTECHFEST-2025-Public
+  permission_reference: https://github.com/TCP1P/INTECHFEST-2025-Public
+environment:
+  type: static
+  services: []
+  requirements: []
+references:
+- title: INTECHFEST-2025-Public (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-2025-Public/tree/f29a1b7240b5685fe29fdbcc46dcad90faf31e36/Rome
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2025 challenge set. Difficulty is
+  the point value (1000) recorded in the challenge.yml, assigned by the archive curator because the source
+  is a community mirror rather than an organizer publication. The flag is not reproduced in metadata.

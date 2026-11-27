@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Fla(g)ppy Bird"
+author: "aimardcr"
+description: |
+  Flag? Just get 13371337 points!
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{Y3t_An0th3r_G4me_H4ck1ng_Ch4ll3nge}"
+  - "INTECHFEST{Y3T_AN0TH3R_G4ME_H4CK1NG_CH4LL3NGE}"
+
+hints:
+  - "Not only the global-metadata.dat is encrypted, but it's header fields (Il2CppGlobalMetadataHeader) is also shuffled, making it impossible for you to recover the original header unless you reverse it for days."
+  - "There should be a way for you to dump without needing the global-metadata.dat, maybe dynamically?"
+
+provide: "./dist"

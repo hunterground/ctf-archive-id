@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "prankster"
+author: "musafir"
+description: |
+  Yesterday my friend (he is Chizuru's Fiancée) give me an installer and told me to run it, it seems suspicious but i trust him so much, so i did it without thinking twice about the installer. 
+
+  and yes, nothing happen, but my friend (he is Chizuru's Fiancée) suddenly know about a story I wrote in secret! HOW how did he know?!!
+
+  mirror: https://mega.nz/file/0pQEwbBR#KFfkiS5ExyEoyXdTIyi5Fx6ny5D7ec2M8ftsNOhriqk
+  password: notinfectedofc
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{created_by_aiof_course_392adc02}"
+
+provide: "./dist"

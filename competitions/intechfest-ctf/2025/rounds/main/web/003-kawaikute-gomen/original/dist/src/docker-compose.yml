@@ -1,0 +1,58 @@
+version: "3.9"
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: kawaikute-gomen-backend:latest
+    container_name: kawaikute-gomen-backend
+    expose:
+      - "50051"
+    environment:
+      - FLAG=fake{flag}
+    networks:
+      - appnet
+    restart: unless-stopped      # <--- Add this line
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: kawaikute-gomen-frontend:latest
+    container_name: kawaikute-gomen-frontend
+    depends_on:
+      - backend
+    environment:
+      - BACKEND_ADDR=backend:50051
+      - PROTO_PATH=/app/backend/proto/music.proto
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./backend/proto:/app/backend/proto:ro
+      - type: tmpfs
+        target: /dev/shm
+        read_only: true
+      - type: tmpfs
+        target: /tmp
+        read_only: true
+      - type: tmpfs
+        target: /home/
+        read_only: true
+      - type: tmpfs
+        target: /dev/mqueue
+        read_only: true
+      - type: tmpfs
+        target: /var/tmp
+        read_only: true
+    networks:
+      - appnet
+    restart: unless-stopped      # <--- Add this line
+
+networks:
+  appnet:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.5.0.0/16
+          gateway: 172.5.0.1

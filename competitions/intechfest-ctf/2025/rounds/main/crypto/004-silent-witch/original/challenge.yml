@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "bocchi the witch"
+author: "azuketto"
+description: |
+  numbers numbers numbers
+
+  https://myanimelist.net/manga/142171/Silent_Witch__Chinmoku_no_Majo_no_Kakushigoto
+  
+  {{ .host }} 8058
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{why_am_i_still_creating_challs_I_wanna_read_novels_be09a5d6e2ed328a}"
+
+provide: "./dist"
+
+scripts:
+  start: cd ./src && docker compose up --build --detach
+  stop: cd ./src && docker compose down --volumes

@@ -2,15 +2,27 @@ schema_version: '1.0'
 id: intechfest-ctf-2023
 competition_id: intechfest-ctf
 year: 2023
-name: IntechFest CTF 2023
-status: unknown
-verification: unverified
+name: IntechFest 2023 PNBCTF
+status: completed
+verification: corroborated
 dates:
   start: null
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record.
+  challenge_count: 9
+references:
+- title: INTECHFEST-CTF-2023-Challenges (community challenge repository)
+  url: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges
+  type: third_party_archive
+  accessed: '2026-11-27'
+challenge_materials_imported: true
+notes: >
+  Imported from the TCP1P community mirror of the IntechFest CTF 2023 challenge set at
+  commit 6ae32dce2df841de27d2ed1198180a48f669e6e3. The repository is a skeleton: of its 28
+  challenge directories, 19 (Cryptography x4, Mobile x4, Reverse Engineering x4, Forensic x2,
+  Misc x2, Pwn x2, OSINT x1) contain only empty .gitkeep placeholders with no committed
+  challenge files. Only the nine challenges that carry real material were imported (Forensic 1,
+  Misc 2, Pwn 2, Web 4). The repository carries per-challenge MIT licenses for the Wazuh,
+  APACI and NOTEIFY challenges; other challenges have no explicit license and are treated per
+  the archive's MIT convention. Event dates are not stated in the source and remain null.

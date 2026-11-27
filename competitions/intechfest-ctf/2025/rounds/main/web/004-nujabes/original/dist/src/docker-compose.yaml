@@ -1,0 +1,107 @@
+version: "3.9"
+
+x-deploy-priority: &deploy_priority
+  restart_policy:
+    condition: on-failure
+  resources:
+    limits:
+      cpus: "2.0"
+      memory: 2G
+    reservations:
+      cpus: "2.0"
+      memory: 2G
+  update_config:
+    parallelism: 1
+    order: start-first
+
+x-deploy-common: &deploy_common
+  restart_policy:
+    condition: on-failure
+  resources:
+    limits:
+      cpus: "1.0" 
+      memory: 256M
+    reservations:
+      cpus: "0.50"
+      memory: 128M
+  update_config:
+    parallelism: 1
+    order: start-first
+
+
+services:
+  proxy:
+    build:
+      context: .
+      dockerfile: .docker/nginx/Dockerfile
+    deploy: *deploy_common
+    ports:
+      - target: 1889
+        published: 2931
+        protocol: tcp
+        mode: host
+    volumes:
+      - ./samurailove:/var/www/html:ro
+      - ./.docker/log:/var/log/nginx
+      - ./.docker/nginx/proxy.conf:/etc/nginx/conf.d/default.conf:ro
+    networks: [internal]
+    depends_on: [bot, samurailove]
+    ulimits:
+      nofile: { soft: 1024, hard: 2048 }
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:1889/"]
+      interval: 2s
+      timeout: 3s
+      retries: 3
+      start_period: 0s
+
+  samurailove:
+    build:
+      context: .
+      dockerfile: .docker/samurai/Dockerfile
+    deploy: *deploy_common
+    ports:
+      - target: 4433
+        published: 4433
+        protocol: tcp
+        mode: host
+      - target: 4433
+        published: 4433
+        protocol: udp
+        mode: host
+    environment:
+      - FLAG=HINTS{fakehint:_this_env_willbe_the_hint_not_therealflag}
+    volumes:
+      - ./.docker/log:/var/log/samurailove
+    networks: [internal]
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+
+  bot:
+    build:
+      context: .
+      dockerfile: .docker/bot/Dockerfile
+    deploy: *deploy_priority
+    volumes:
+      - ./samurailove:/var/www/html:ro
+      - ./.docker/log:/var/log/bot
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    environment:
+      - PORT=1337
+      - DISPLAY=${DISPLAY}
+    networks: [internal]
+    ulimits:
+      nofile: { soft: 1024, hard: 2048 }
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  internal: {}

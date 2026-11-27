@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: main
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+name: Main
+original_name: null
+sequence: 1
+type: other
+delivery: online
+description: 'Single-stage Capture The Flag of IntechFest 2024 (PNBCTF), running 7-8 September 2024. The
+  community challenge repository publishes one undivided challenge set and does not describe a qualifier
+  or final, so this round id is main.
+
+  '
+dates:
+  start: '2024-09-07'
+  end: '2024-09-08'
+statistics:
+  challenge_count: 31
+  participant_count: null
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror (ctf-itb organization) at commit 57c11998f39401f155bdd3949150bc543ea150ed.
+  The repository is released under an MIT license, copyright TCP1P. Sequence numbers are alphabetical
+  by slug within each category. Difficulty values are the point values in each challenge.yml (1000 per
+  challenge). The repository's root-level platform infrastructure (bot/, mobile-poc-tester/, conf.yaml,
+  docker-compose.yml, Makefile, intechfest.png and similar) was not imported into any challenge directory.

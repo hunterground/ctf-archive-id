@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: intechfest-ctf-2024-main-crypto-001
+name: Alin
+slug: 001-alin
+original_name: Alin
+competition_id: intechfest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Crypto
+description: Just implement one of my class subject.
+difficulty:
+  value: 1000
+  source: archive_curator
+tags:
+- crypto
+- matrix
+authors:
+- name: rui
+  team: null
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  commit: 57c11998f39401f155bdd3949150bc543ea150ed
+  original_path: Crypto/Alin
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+licensing:
+  declared_license: MIT
+  copyright_holder: TCP1P
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+  permission_reference: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public
+environment:
+  type: static
+  services: []
+  requirements: []
+references:
+- title: INTECHFEST-CTF-2024-Challenges-Public (community challenge repository)
+  url: https://github.com/ctf-itb/intechfest-ctf-2024-challenges-public/tree/57c11998f39401f155bdd3949150bc543ea150ed/Crypto/Alin
+  type: third_party_archive
+  accessed: '2026-11-27'
+verification: corroborated
+notes: Imported from the TCP1P community mirror of the IntechFest CTF 2024 challenge
+  set. Difficulty is the point value (1000) recorded in the challenge.yml, assigned
+  by the archive curator because the source is a community mirror rather than an organizer
+  publication. The flag is not reproduced in metadata.

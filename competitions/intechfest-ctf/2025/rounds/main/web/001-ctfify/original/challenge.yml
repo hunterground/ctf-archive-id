@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/ctfify/refs/heads/master/function/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "CTFify CLI Web Interface"
+author: "dimasc.tf"
+description: |
+  A web interface for CTFify CLI.
+
+  http://{{.host}}:5000
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "INTECHFEST{dub189112oidsaocxzmlWDS-2EVNI132119ENDnainnaniqfin}"
+
+provide: "./dist/"
+
+scripts:
+    start: cd src && docker compose -p {{.slug}} up --build -d
+    stop: cd src && docker compose -p {{.slug}} down --volumes
