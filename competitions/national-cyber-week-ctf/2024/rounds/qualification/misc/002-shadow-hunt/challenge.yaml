@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-misc-002
+name: Shadow Hunt
+slug: 002-shadow-hunt
+original_name: Shadow Hunt
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |
+  The distribution carries its own statement in instructions.txt:
+  
+    One of our top agents has gone rogue and fled to an unknown location.
+    Despite his skills, he can't escape our omniscient radar. We've gathered
+    crucial information and clues about his possible destination.
+  
+    The image is the destination of the rogue agent.
+    The metal pole with chains you see has a height of 325 pixels, and its shadow
+    is 125 pixels long.
+    The image was taken on 1 August 2022, 02:07:34 UTC.
+  
+    Your task, should you choose to accept it, is to find the destination country
+    the rogue agent has fled to.
+    Best of luck, agent.
+    This message will self-destruct in 10 seconds.
+  
+  clue.png is the referenced photograph.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- osint
+- geolocation
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2024/Misc/Shadow Hunt
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Shadow Hunt from National Cyber Week CTF 2024 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: National Cyber Week 2024/Misc/Shadow Hunt/clue.png
+    algorithm: sha256
+    value: 178420e1c6851e25c734a085c58cd15dfc33d2a9fde04a1485e3f80925f250fd
+  - path: National Cyber Week 2024/Misc/Shadow Hunt/instructions.txt
+    algorithm: sha256
+    value: 889dcaeda63dcdfe4ae7cd79d87f1fae4461a0d70cc1b440506de2e2fecccddd
+environment:
+  type: none
+  services: []
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Misc/Shadow%20Hunt
+  type: writeup
+  accessed: '2026-11-26'
+- title: Cyber - National Cyber Week 2024 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge. instructions.txt is the organizer's statement text as
+  preserved in the participant tree, and is copied verbatim alongside clue.png.
+  No solver scripts were present in the source.

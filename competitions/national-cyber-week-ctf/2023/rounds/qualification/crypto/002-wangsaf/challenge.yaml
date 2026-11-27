@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2023-qualification-crypto-002
+name: wangsaf
+slug: 002-wangsaf
+original_name: wangsaf
+competition_id: national-cyber-week-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: "Original statement, as recorded by a participating team's write-up:\n\n  biarkan dia memasak\n\n  nc 103.145.226.206 1965\n  Mirror: nc 103.145.226.209 1965\n\n  Author: kisanakkkkk\n\nThe distribution is a small Python chat stack: client.py and server.py agree a\nkey with Diffie-Hellman and then exchange AES-protected messages, while\nattacker.py is the relay the shipped service already runs in the middle. The\nplayer tampers with the relayed parameters and public keys to become the shared\nsecret holder and ask the server for the flag.\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- diffie-hellman
+- mitm
+authors:
+- name: kisanakkkkk
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2k23/Cryptography/wangsaf
+licensing:
+  declared_license: MIT
+  copyright_holder: kisanakkkkk
+  redistribution: permitted
+  attribution_required: true
+  attribution: wangsaf from National Cyber Week CTF 2023 qualification, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: dist/client.py
+    algorithm: sha256
+    value: e61bbae7971fbda35773527e5cfe77f30cb0e7906468c05c2a3b4205b0a218f6
+  - path: dist/client_messages.py
+    algorithm: sha256
+    value: 054d6bafa24d3c2a1ce1c89fedb84ac281698d36d19a29d9f1dcb49093a642a3
+  - path: dist/server.py
+    algorithm: sha256
+    value: 7a179b2412cf89ac7eab81a860d176797f79b65a45aca17dff48f7c38c1cda69
+  - path: dist/server_messages.py
+    algorithm: sha256
+    value: 178fdeacf4aaa0e029058385506ac1f38e216fa9a25b70b9e5dc90ba8484df68
+environment:
+  type: python
+  services:
+  - nc
+  requirements:
+  - pycryptodome
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202k23/Cryptography/wangsaf
+  type: writeup
+  accessed: '2026-11-26'
+- title: wangsaf (320 pts), k1nomi write-up
+  url: https://k1nomi.gitbook.io/ctfs/competitions/2023/ncw23/wangsaf-320-pts
+  type: writeup
+  accessed: '2026-11-26'
+- title: National Cyber Week 2k23 CTF Writeup [QUALS]
+  url: https://hackmd.io/@wondPing/S1lsfbEOVp
+  type: writeup
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2023 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge, 320 points. The author handle and the statement are
+
+  recorded by k1nomi''s write-up of the same challenge.
+
+  The source tree groups the distributed client and server under dist/ and also carries
+
+  dist/attacker.py, a man-in-the-middle client that tampers with messages between the two
+
+  sockets. It is the write-up author''s solver, not part of the distribution, and was moved
+
+  to the mirrored solvers/ path.
+
+  '

@@ -1,0 +1,35 @@
+schema_version: '1.0'
+id: qualification
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+name: Qualification
+original_name: Babak Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online qualification ("babak penyisihan") on Sunday, 6 October 2024, 09:00-19:00 WIB,
+  one day after the blockchain-themed workshop. The organizer recap states 55 registered
+  teams of three members each and that 15 teams advanced to the final.
+dates:
+  start: '2024-10-06'
+  end: '2024-10-06'
+statistics:
+  challenge_count: null
+  participant_count: 55
+references:
+- title: Cyber - National Cyber Week 2024
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: National Cyber Week 2024 official site (archived 2024-12-15)
+  url: https://web.archive.org/web/20241215230447/https://ncw.cscbinus.com/
+  type: official_website
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  The archived official site gives the competition platform host as the CTF entry point
+  and describes the CTF as an online qualification followed by an offline final, teams of
+  up to three. The organizer recap is the source for the dates and counts. One
+  author-published challenge, Diddy's Party, is archived in this round.

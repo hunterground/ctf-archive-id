@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: qualification
+competition_id: national-cyber-week-ctf
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: Babak Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online qualification stage ("babak penyisihan") held on Sunday, 19 November 2023.
+  The organizer recap reports 62 teams from universities across several provinces and
+  says the stage selected the top 15 teams for the final.
+dates:
+  start: '2023-11-19'
+  end: '2023-11-19'
+statistics:
+  challenge_count: null
+  participant_count: 62
+references:
+- title: Recap National Cyber Week 2023
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: National Cyber Week 2k23 CTF Writeup [QUALS]
+  url: https://hackmd.io/@wondPing/S1lsfbEOVp
+  type: writeup
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  The edition theme was "Catch Me If You Can". No organizer or author challenge
+  repository was found. Three challenges in this round (Simple, wangsaf, Maximalist
+  Pyjail) are archived from the participant write-up tree registered in
+  archives/repositories.yaml; the statement text on each of them is either quoted from a
+  participant index or reconstructed, because that tree keeps the distribution files but
+  not the organizer brief.

@@ -1,0 +1,214 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-forensics-001
+name: Locker
+slug: 001-locker
+original_name: Locker
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: "The participant tree this record was first built from preserves no verbatim statement; the\
+  \ organizer's statement was later recovered from the Cyber Security IPB archive and is quoted at the\
+  \ end of this field. The distribution is a Windows\nransomware incident set: several PE32+ executables\
+  \ (laptopBaru.exe, sher.exe,\ntes.exe, chuongdoung.exe and \"Project Program array pdg.exe\") and an\
+  \ exported/\ndirectory holding the victim's decoy documents, images, archives and the\nransom note that\
+  \ labels the operation \"Arrenaru Locker\" with a victim ID,\ndirectory, timestamp and contact channels.\n\
+  \nThe challenge is a question-and-answer investigation: the participant had to\nanswer fifteen questions\
+  \ about the incident, in order, against a remote answer\nvalidator (nc). The answers are not recorded\
+  \ here.\n\n  The Cyber Security IPB community archive republishes the organizer's statement verbatim,\
+  \ which fixes the point value and the author:\n\n  Brian made a fatal mistake yesterday. He clicked\
+  \ on something he shouldn't have.\n  Now, the fate of his data rests in your hands. Analyze the captured\
+  \ pcap and binary files,\n  then answer the questions to retrieve the Flag.\n\n  https://drive.google.com/drive/folders/1N3A2ApuPpaEW7iD6HqUFJ2kSFbXhyQW4?usp=sharing\n\
+  \n  pass: c3Vrc2VzIGRhbiBzZWxhbWF0IGJlcmp1YW5n\n\n  Author: Arenaru\n\n  Category: Forensic | Points:\
+  \ 100 | Author: Arenaru\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- ransomware
+- windows
+authors:
+- name: Arenaru
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2025/Forensic/Locker
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Locker from National Cyber Week CTF 2025 qualification, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Project%20Program%20array%20pdg.exe
+    algorithm: sha256
+    value: f2c254c442691e060f75a9adc1b7bb9a3973b9954bbecb9df32491e64b7e5244
+  - path: chuongdoung.exe
+    algorithm: sha256
+    value: a153d59a98200b035fcc4fbee153e4b3f75358221fb006358f704e574af02993
+  - path: exported/%2f
+    algorithm: sha256
+    value: 726480c5aa86ce4d36be548dfc4c36a63696f1c829f0faba6a8e8e97f3ceb3bb
+  - path: exported/%2f(1)
+    algorithm: sha256
+    value: b8932bc54fa8257e4d47c0d8fab3da4fa3b5ef373738ba56791adccc0b3ecf41
+  - path: exported/%2f(2)
+    algorithm: sha256
+    value: 9db63badfe22ae317bb182ea4389178c45c2c003cced7362b283e97effbc348f
+  - path: exported/1%20%282%29.png
+    algorithm: sha256
+    value: 4c80345393ee3e646f55ecebac5e6bfff5018fd8e905450b3e9677555312e7ce
+  - path: exported/1.jpg
+    algorithm: sha256
+    value: 0e20e141bcd08fa6a1d5e3247822d9a5f65650ef61005006263441ba8c1bfe8d
+  - path: exported/1.png
+    algorithm: sha256
+    value: a093d436d56f71f6c41b79aaf1e59318f520e3ff30585b567a2bc7c4a4ad4415
+  - path: exported/1_export.svg
+    algorithm: sha256
+    value: 910b2976c8d7384155b4d4679cca2b06a4d1f5bb7971603aee4bbbff3fdf9b51
+  - path: exported/Gistara%20Grizelle.docx
+    algorithm: sha256
+    value: ae2f8e4aa1088c0c88c89ee7a3c0efb3ec1d3852e24bd8045e29e3b051f82242
+  - path: exported/ICN
+    algorithm: sha256
+    value: dd559540c58c24554206ae5aa6886f1435e94e87cb079ab4da45c51007bc08bd
+  - path: exported/ICN(1)
+    algorithm: sha256
+    value: dd559540c58c24554206ae5aa6886f1435e94e87cb079ab4da45c51007bc08bd
+  - path: exported/ICPC
+    algorithm: sha256
+    value: e634612041f46c852aae69b2d67040e65a75b0894d620e3903685acbd484b409
+  - path: exported/ICPC(1)
+    algorithm: sha256
+    value: e634612041f46c852aae69b2d67040e65a75b0894d620e3903685acbd484b409
+  - path: exported/ICPC(2)
+    algorithm: sha256
+    value: e634612041f46c852aae69b2d67040e65a75b0894d620e3903685acbd484b409
+  - path: exported/KISI%20KISI%20SEJARAH%20ANJAY.docx
+    algorithm: sha256
+    value: 74f6a1ab46678a85a294799fee65554320e2b9992822dba4d82658875e8515fa
+  - path: exported/Project%20Program%20array%20pdg.exe
+    algorithm: sha256
+    value: f2c254c442691e060f75a9adc1b7bb9a3973b9954bbecb9df32491e64b7e5244
+  - path: exported/README.txt
+    algorithm: sha256
+    value: e6ff56d2622103e9aeaba3fdd5d40c3c7ee9ede6e3dacc371f5826f14f7dcfb0
+  - path: exported/Selamat%20datang%20di%20MemoKeep%20SETUJU%20DAN%20LANJUTKAN.png
+    algorithm: sha256
+    value: 4d11fc0520b96399a23b0f768cd89c454c5e175bb4a7c127e216602757164387
+  - path: exported/Work
+    algorithm: sha256
+    value: e097e0b094a84b7f831c666cc6f0c7c9ee833bc559201cb31c8b6c315fb2a053
+  - path: exported/anjing.jpg
+    algorithm: sha256
+    value: 68ad2eba1f6600a72be0b2f38e1d24948067e7a6488f4dd1a727574f4a19f2a0
+  - path: exported/anonymous.jpg
+    algorithm: sha256
+    value: 2adc21a45460d18cb151ced4834028623106d5855d27525d0a116ebc74b1ff98
+  - path: exported/bastardd%21%21.pdf
+    algorithm: sha256
+    value: 4a973a21da36aab1d4f070e79aa11b26294b2182a71b6ae9b158f2dcebcdb28f
+  - path: exported/battlegrounds.png
+    algorithm: sha256
+    value: abe6a064c969c65d6d142bbb374d9b4468e77b3a60074ade1fbc76d507b556eb
+  - path: exported/belajar%20calculus.pdf
+    algorithm: sha256
+    value: 62ef417840bd6654805d70b5c150b0fc85a4471f5844218f52aeb3ddc8ab8a68
+  - path: exported/chuongdoung.exe
+    algorithm: sha256
+    value: a153d59a98200b035fcc4fbee153e4b3f75358221fb006358f704e574af02993
+  - path: exported/hacker.jpg
+    algorithm: sha256
+    value: e9d7fb0368cb95990ba4048561c2aaadf849b09ada85a4fb0b7edbaeaddf5fed
+  - path: exported/happy%20birthday%205.py
+    algorithm: sha256
+    value: b33454a11d0be9843b18bc0b624f5485235a2d52ce81b1ee59730cd807d2becc
+  - path: exported/laptopBaru.exe
+    algorithm: sha256
+    value: 2f99da6c6733700a3aaa2505149625feda5c44ee2d526e5eaf6d00b3b3e17342
+  - path: exported/secret
+    algorithm: sha256
+    value: 42f51aea94eebcaa2d064f26b067e4904319f7aa5ab81c19fa9491eef58888c5
+  - path: exported/secret(1)
+    algorithm: sha256
+    value: f524afa327c9ab21cf4c57e7246131209b5370480b9b1eafa526d866ae382074
+  - path: exported/sher.exe
+    algorithm: sha256
+    value: 409ef469cec5c9308f323d2e7d8faa8a01d33f997075615489c959ed0ef4a1ce
+  - path: exported/shinhaein2.jpg
+    algorithm: sha256
+    value: 5a3f59de1aea154710730dadd6205c854a21f37e8fc1ce391190bec3f92f7b12
+  - path: exported/shinhaeinlagi.png
+    algorithm: sha256
+    value: d943537729a58fb3f563b3d8549812a04b346713ab90a1ace688e1fa6b026f5b
+  - path: exported/tes.exe
+    algorithm: sha256
+    value: ee819c5aa4edbffb0c54ec403ea6e5ec4e3bd71fbc25c9d8943453d6896ba526
+  - path: flag.txt
+    algorithm: sha256
+    value: c49727e16cd7ff2828c94cc73afbc90be8e06ba479e05c0c24deec23230d1361
+  - path: laptopBaru.exe
+    algorithm: sha256
+    value: 2f99da6c6733700a3aaa2505149625feda5c44ee2d526e5eaf6d00b3b3e17342
+  - path: sher.exe
+    algorithm: sha256
+    value: 409ef469cec5c9308f323d2e7d8faa8a01d33f997075615489c959ed0ef4a1ce
+  - path: tes.exe
+    algorithm: sha256
+    value: ee819c5aa4edbffb0c54ec403ea6e5ec4e3bd71fbc25c9d8943453d6896ba526
+environment:
+  type: windows
+  services:
+  - nc
+  requirements: []
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202025/Forensic/Locker
+  type: writeup
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Locker)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Forensic/004_Locker
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge. The participant tree also holds flag.py, a
+
+  pwntools script that replays the fifteen answers to the validator, which was
+
+  moved to solvers/; flag.txt is preserved as found. The question list itself is
+
+  not preserved in this archive.
+
+  Solver scripts found alongside the distribution were moved to the mirrored
+
+  path under solvers/ per archive policy; that move is not recorded as a
+
+  preservation omission.
+
+
+  The Cyber Security IPB community archive corroborates this challenge: it publishes the same organizer
+  statement, fixes the point value at 100 and names the author as Arenaru. It ships no attachment for
+  this challenge, so original/ is unchanged.
+
+  '

@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-pwn-001
+name: MicroBlog
+slug: 001-microblog
+original_name: MicroBlog
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: "The source republishes the organizer's statement verbatim:\n\n  My cousin always said, crab\
+  \ is better than seafood. Isn't crab a seafood?\n\n  Hint : https://drive.google.com/drive/folders/1bvON-YC_vBjOQc1QAXb2FhuTr8iR74Qo?usp=sharing\n\
+  \n  Author: Lyo\n\n  Category: Binary Exploitation | Points: 436\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- c
+- heap
+- microblog
+authors:
+- name: Lyo
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Binary Exploitation/011_MicroBlog
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: MicroBlog from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: c92a475ca941be51bc69270b21081af76e88dd3d764c093f924e38bf7ddc402f
+  - path: description.txt
+    algorithm: sha256
+    value: a6bbdfc6c1b41bc84813a5612d4a1e30398821ee186ad3858e46b2c0b6a7bde9
+  - path: files/chall.zip
+    algorithm: sha256
+    value: e3407a08fa5133a882e5eacc87bc660b3be4840c6f12af8b2dd587f706a9bb71
+  - path: title.txt
+    algorithm: sha256
+    value: 09f3cbf4cf3f6ad1ced2e253e1a1bbc5bf9c8531e067656538eda78461086423
+environment:
+  type: pwn
+  services:
+  - microblog
+  requirements:
+  - docker
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 MicroBlog)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Binary%20Exploitation/011_MicroBlog
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 436 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Binary Exploitation under the canonical pwn directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. The attachment is a self-contained
+  Dockerfile plus the 379 KB chall binary; no service source is published, only the compiled target. The
+  statement''s hint is an external Google Drive folder that is not part of the repository.
+
+  '

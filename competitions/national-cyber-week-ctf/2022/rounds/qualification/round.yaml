@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: qualification
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+name: Qualification
+original_name: Babak Kualifikasi
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online qualification stage. The organizer recap states that the CTF had a
+  qualification round (babak kualifikasi) held online and a final round held onsite at
+  the BINUS Anggrek campus in Kemanggisan, and that 42 teams from various universities
+  took part in the qualification.
+dates:
+  start: '2022-11-05'
+  end: '2022-11-05'
+statistics:
+  challenge_count: null
+  participant_count: 42
+references:
+- title: Recap National Cyber Week 2022
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Qualification held on 5 November 2022. The recap reports the 42-team figure for the
+  qualification and does not state a challenge count. No organizer or author challenge
+  repository was found for this edition.

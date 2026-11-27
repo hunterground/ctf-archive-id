@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-rev-002
+name: Haskell's Herring
+slug: 002-haskells-herring
+original_name: Haskell's Herring
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: "The source republishes the organizer's statement verbatim:\n\n  Maybe the real\n  treasure\n\
+  \   challenge was the\n  friends\n   built-in functions we learned along the way.\n\n  Author: ringoshiro\n\
+  \n  Category: Reverse Engineering | Points: 100\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- haskell
+- linux
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Reverse Engineering/018_Haskell's Herring
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Haskell's Herring from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: 3f54a0b7651c514145f49d82ad4b7c551ee76adebb7fe59f39fdf4b4c3d99fd7
+  - path: description.txt
+    algorithm: sha256
+    value: ddca79a9aed934bc8539d0c213e8df246a5822b5ff8565fd2a869d3ee5d0ca8f
+  - path: files/chall
+    algorithm: sha256
+    value: f10f7f02f7d8a6ee697939021794b5b9b5079e82262b3d686dfd70a635c0bc7f
+  - path: title.txt
+    algorithm: sha256
+    value: 3b725bd4928b0ed376edcddf90d89dfb21692e9736d5ee41349264c8b2686425
+environment:
+  type: rev
+  services: []
+  requirements:
+  - ghc
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Haskell's Herring)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Reverse%20Engineering/018_Haskell's%20Herring
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 100 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Reverse Engineering under the canonical rev directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. Non-stripped x86-64 ELF that keeps
+  its Haskell symbol table, which is what the title''s ''built-in functions'' hint refers to.
+
+  '

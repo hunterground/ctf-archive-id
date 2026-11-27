@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-web-002
+name: selflove
+slug: 002-selflove
+original_name: selflove
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: "The source republishes the organizer's statement verbatim:\n\n  You must love yourself before\
+  \ you can truly love others.\n\n\n\n  author: tanknight\n\n\n  https://31.97.187.222:40111/\n\n  Category:\
+  \ Web Exploitation | Points: 484\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- flask
+- ssti
+- ssrf
+authors:
+- name: tanknight
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Web Exploitation/005_selflove
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: selflove from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: 19f7325390d2eef20ad2c6739b8db511e802a1b0242e269cc3d591b89d3151c8
+  - path: description.txt
+    algorithm: sha256
+    value: 8508dbeefb18160fe7408e7fa486c5d411b4176e21cf0cb3a5cab7e56a736abd
+  - path: files/selflove.zip
+    algorithm: sha256
+    value: 40582a3643150e39b8420cab31cb07c8ef93ce4c651de8bd67fe04bd98355794
+  - path: title.txt
+    algorithm: sha256
+    value: 918a16c85fe81c0a0e9ab93de2350ebe6f49b063db5bfd04c81a024ae8ee7e41
+environment:
+  type: docker
+  services:
+  - web
+  requirements:
+  - docker
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 selflove)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Web%20Exploitation/005_selflove
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 484 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Web Exploitation under the canonical web directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. The full service source (sigma.py,
+  app.py, templates, Dockerfile) that the participant tree did not carry. The repository also ships start.sh,
+  the organizer''s launch wrapper, which is preserved with the distribution.
+
+  '

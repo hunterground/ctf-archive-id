@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: final
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+name: Final
+original_name: Babak Final
+sequence: 2
+type: final
+delivery: onsite
+description: >
+  Onsite final at Ruang 800, BINUS Anggrek, on Saturday 6 December 2025. The top 10
+  teams from the qualification first played a jeopardy session in the morning; the four
+  highest-scoring teams then advanced to a three-hour IoT Hacking stage.
+dates:
+  start: '2025-12-06'
+  end: '2025-12-06'
+statistics:
+  challenge_count: null
+  participant_count: 10
+references:
+- title: NATIONAL CYBER WEEK 2025 (organizer recap)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  The organizer recap describes the final as a morning jeopardy session with the 10
+  qualified teams followed by an IoT Hacking stage for the top 4, and calls NCW 2025 the
+  first Indonesian CTF to hold an IoT-hacking final. The participant_count recorded here
+  is the number of teams entering the final, not the four that reached the IoT stage.
+  Podium: "plis ada kategori blockcen, soalnya fahrul mau tampil di ncw 2025" (1),
+  "Manarul Ilmi Enjoyer" (2), "Sotong Almost saD" (3). No challenge material was found.

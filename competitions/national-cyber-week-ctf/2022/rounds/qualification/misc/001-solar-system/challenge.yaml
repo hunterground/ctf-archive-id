@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2022-qualification-misc-001
+name: 'Solar System'
+slug: 001-solar-system
+original_name: 'Solar System'
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: misc
+original_category: 'Miscellaneous'
+description: |
+  Original statement (from the 2022 qualification challenge dump):
+  
+    In 2202 Human race finally fullfil their dream to live in space. But there
+    are 3 things that stand out, namely, ISS (International Space Station), Bank
+    of Flagzonia and a Space Artifact. and and um, by the way, have you visited
+    all planets in the Milky Way?
+  
+    Hints: Static Analysis will only get you that far, why not try to deploy it
+    and run it? / some function require tooooooo much gas fee to deploy and
+    execute, there must be a way to decrease it right? right?
+  
+  The distribution is SOLAR_SYSTEM.zip, a Solidity contract (SOLAR.sol) with an
+  accompanying Space_Artifacts.json state file and a Reminder.txt.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- blockchain
+- solidity
+- smart-contract
+authors: []
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2022-ibnurusdianto
+  source_type: git
+  repository: https://github.com/ibnurusdianto/national-cyber-week-2022
+  commit: 04cf3a69320d5b6ef80af5b00a7d816cfd342583
+  original_path: 'Miscellaneous/Solar System'
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2022 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Solar System by an unnamed NCW 2022 author for National Cyber Week CTF 2022,
+    imported via https://github.com/ibnurusdianto/national-cyber-week-2022
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: SOLAR_SYSTEM.zip
+    algorithm: sha256
+    value: 3d89cdc7aa6f5d2a9b583d32db09fe2d7eedaaca6d84ea76abb8afd336732524
+environment:
+  type: smart-contract
+  services: []
+  requirements: [solidity]
+references:
+- title: ibnurusdianto/national-cyber-week-2022 (2022 qualification challenge dump)
+  url: https://github.com/ibnurusdianto/national-cyber-week-2022/tree/04cf3a69320d5b6ef80af5b00a7d816cfd342583/Miscellaneous/Solar%20System
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2022 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  NCW 2022 qualification challenge, worth 500 points with 0 solving
+  team(s) in the dump's scoreboard snapshot.
+
+  Provenance caveat: this material was obtained from a participant-collected dump of the
+  2022 qualification platform (see provenance), not from the organizer or the challenge
+  author. The dump's challs.json records the original statement, attachments and scoreboard
+  values, and the copied files match the attachments it lists, but this copy is not an
+  authoritative organizer source.
+
+  Only the challenge attachment(s) were copied. The dump's README.md wrapper and its
+  challs.json were not, since they are collection metadata rather than challenge
+  distribution. No solver was present in the source.

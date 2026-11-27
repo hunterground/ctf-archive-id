@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: final
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+name: Final
+original_name: Babak Final
+sequence: 2
+type: final
+delivery: onsite
+description: >
+  Offline final at BINUS Kampus Syahdan, Ruang M2CD, on 16 November 2024, 13:00-16:20
+  WIB, for the 15 teams that advanced from the qualification.
+dates:
+  start: '2024-11-16'
+  end: '2024-11-16'
+statistics:
+  challenge_count: 2
+  participant_count: 15
+references:
+- title: Cyber - National Cyber Week 2024
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Date, venue and time window are from the organizer recap. Podium: SNI cabang siburian
+  (1), time heals (2), nyan setsuna nyan (3). Two final challenges are archived from a
+  participant write-up tree that preserved the distributed material: Pentester Toolbox
+  (web), which keeps its full server-side handoff, and 19s (rev), for which only the
+  released binary survived. Neither ships the organizer statement, so both descriptions
+  are factual readings of the shipped code or binary. challenge_count counts the
+  archived challenges, not the number played.

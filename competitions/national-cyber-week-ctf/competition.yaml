@@ -6,8 +6,11 @@ organizer:
   name: Cyber Security Community, BINUS University
   website: https://student-activity.binus.ac.id/csc/
 website: https://ncw.cscbinus.org/
-description: Capture The Flag competition in National Cyber Week, the cybersecurity event of the BINUS
-  Cyber Security Community.
+description: >
+  Capture The Flag competition of National Cyber Week (NCW), the annual national
+  cybersecurity programme of the Cyber Security Community (CSC), a student activity unit
+  of BINUS University. Editions are organised as an online qualification followed by an
+  onsite final, alongside a workshop.
 metadata:
   established_year: null
   recurring: true
@@ -16,15 +19,39 @@ metadata:
 status: active
 verification: corroborated
 references:
-- title: National Cyber Week 2025
+- title: Recap National Cyber Week 2022
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2023
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: Cyber - National Cyber Week 2024
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025
   url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
   type: organizer_announcement
-  accessed: '2026-11-21'
-- title: National Cyber Week 2026 registration
-  url: https://ncw.cscbinus.org/login
+  accessed: '2026-11-26'
+- title: National Cyber Week 2026 site
+  url: https://ncw.cscbinus.org/
   type: official_website
-  accessed: '2026-11-21'
-notes: The 2025 organizer report describes a jeopardy qualification and an IoT-hacking final. Editions
-  2022 and 2024 were already in the archive record and were not corroborated. A 2023 edition is also still
-  unverified. NCW 2026 has an open registration site and a workshop date of 18 December 2026; the CTF
-  date was not stated.
+  accessed: '2026-11-26'
+notes: >
+  Editions & Schedule
+
+  - 2022-2025: Each edition is corroborated by an organizer recap on the CSC BINUS website and followed 
+    a qualification-to-final structure. The 2024 event site (ncw.cscbinus.com) is the only edition 
+    preserved via the Wayback Machine.
+  - 2026: Registration is live with a scheduled workshop on December 18, 2026, but no CTF dates are stated yet, 
+    so no 2026 rounds are recorded.
+
+  Challenge Archive & Scope
+
+  - Imported vs. Pending Materials: Only a single author-published 2024 challenge (Diddy's Party) is currently archived. 
+    All other located 2022-2025 materials are participant-side and logged in archives/repositories.yaml for maintainer 
+    review rather than imported.
+  - Scope Exclusion: The separate "CSC CTF Contest" organized by the community's research divisions is treated as a 
+    distinct event and excluded from this record.

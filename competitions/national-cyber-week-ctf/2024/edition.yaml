@@ -3,14 +3,37 @@ id: national-cyber-week-ctf-2024
 competition_id: national-cyber-week-ctf
 year: 2024
 name: National Cyber Week CTF 2024
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2024-10-06'
+  end: '2024-11-16'
 statistics:
-  participant_count: null
+  participant_count: 55
   challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record.
+references:
+- title: Cyber - National Cyber Week 2024 (organizer recap)
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: National Cyber Week 2024 official site (archived 2024-12-15)
+  url: https://web.archive.org/web/20241215230447/https://ncw.cscbinus.com/
+  type: official_website
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >
+  Organizer recap: a workshop "Guardian Of The Chain: Safeguarding Blockchain Security" by
+  Nicholas Rianto Putra (Ottersec) on Saturday 5 October 2024, then an online qualification
+  on Sunday 6 October 2024, 09:00-19:00 WIB, with 55 registered teams of three, and an
+  offline final on 16 November 2024, 13:00-16:20 WIB, at BINUS Kampus Syahdan Ruang M2CD
+  with 15 teams. participant_count is the qualification team figure. The archived official
+  site gives ncw.cscbinus.com as the edition site and describes the same two-stage format.
+
+  Ten challenges are archived: eight from the qualification and two from the final.
+  Diddy's Party (misc) comes from the author's own repository. R5A lagi 5x and Neo
+  Encryption (crypto), KaZooYa (pwn), Shadow Hunt (misc), I Kinda Get It Now (rev) and
+  Old But Gold, Maybe (web) come from a participant write-up tree that preserved the
+  distributed files, as do the two final challenges Pentester Toolbox (web) and 19s
+  (rev). The remaining participant collections covering this edition are registered in
+  archives/repositories.yaml for maintainer review and were not imported. Podium: SNI
+  cabang siburian (1), time heals (2), nyan setsuna nyan (3).

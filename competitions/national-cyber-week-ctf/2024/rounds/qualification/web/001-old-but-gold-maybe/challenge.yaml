@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-web-001
+name: Old But Gold, Maybe
+slug: 001-old-but-gold-maybe
+original_name: Old But Gold, Maybe
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: |
+  The source preserves no verbatim statement. The distribution is dist/, a Flask
+  song-database application (app.py, app2.py, Jinja templates, a Dockerfile,
+  docker-compose.yml, start.sh and requirements.txt) backed by
+  database/song_data.xml.
+  
+  The application parses the XML song database with lxml and serves lookups by
+  song id through a page titled "Song Database", which is the surface the
+  challenge is built around.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- xxe
+- flask
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2024/Web Exploitation/Old But Gold, Maybe
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Old But Gold, Maybe from National Cyber Week CTF 2024 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 955dd19e572bd31284107e08e84fe640626972119fa742d05a7e037550d02d0d
+  - path: dist/app.py
+    algorithm: sha256
+    value: 38b65acf3f5b4fc25adb85efe72a489fa14b7aa7b4f74e06e8ce254b9e3175e4
+  - path: dist/app2.py
+    algorithm: sha256
+    value: 4b67aa41be8cd25e209c0667d603e1cc3a5d0bbfdc867a01a07b5c374975de34
+  - path: dist/database/song_data.xml
+    algorithm: sha256
+    value: 217e97fbbf94f5b9d9ca4361a24c5a1ac33a312bd35c9ca1084f7abc2eda935f
+  - path: dist/docker-compose.yml
+    algorithm: sha256
+    value: 8db1d21d2d6cd4b42e774f6b692b3024ca2467ba1a87946dd87d3a537aacfe09
+  - path: dist/requirements.txt
+    algorithm: sha256
+    value: 0aeff85523cc6d83de41511f7e6e5d5d7de495a70bec36a35a87e44ec198ed3a
+  - path: dist/start.sh
+    algorithm: sha256
+    value: 3d1452c52a48c45ff2e9aa5639e3bb49859da0b5a3d815e6042142c418d6cbaf
+  - path: dist/templates/index.html
+    algorithm: sha256
+    value: 168f90094af23f7fcf161db61ee8bcb475aa1b9a938eec36f85c14e817430c71
+environment:
+  type: docker
+  services: [web]
+  requirements: [docker]
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Web%20Exploitation/Old%20But%20Gold,%20Maybe
+  type: writeup
+  accessed: '2026-11-26'
+- title: Cyber - National Cyber Week 2024 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge. The whole dist/ packaging was copied as found so the
+  service can still be rebuilt. flag.py in the challenge root is the
+  participant's exploit script, not part of the distribution, and was moved to
+  solvers/.
+  Solver scripts found alongside the distribution were moved to the mirrored
+  path under solvers/ per archive policy; that move is not recorded as a
+  preservation omission.

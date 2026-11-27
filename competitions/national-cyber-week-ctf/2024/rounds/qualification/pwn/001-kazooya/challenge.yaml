@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-pwn-001
+name: KaZooYa
+slug: 001-kazooya
+original_name: KaZooYa
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: |
+  The source preserves no verbatim statement. The distribution is the compiled
+  `chall` service binary together with the Dockerfile that wrapped it in xinetd
+  for remote play.
+  
+  The Dockerfile is shipped as found but is incomplete: it copies chall.cpp,
+  Makefile, run.sh, xinetd.conf, startchall.sh and flag.txt, none of which are
+  present in the source tree. Only the built binary is actually available, so the
+  challenge has to be solved against the binary rather than rebuilt.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- elf
+- xinetd
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2024/Binary Exploitation/KaZooYa
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    KaZooYa from National Cyber Week CTF 2024 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: National Cyber Week 2024/Binary Exploitation/KaZooYa/Dockerfile
+    algorithm: sha256
+    value: dc619dd75774e7fdabccbda184f6f89bf7e38c05f404357b001e32f80191b59e
+  - path: National Cyber Week 2024/Binary Exploitation/KaZooYa/chall
+    algorithm: sha256
+    value: 6b273e14817e6860b5a67c00ef7afb8f65562661b5f6c7a30ff6aaa28653013c
+environment:
+  type: native
+  services: [nc]
+  requirements: [linux-x86-64, pwntools]
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Binary%20Exploitation/KaZooYa
+  type: writeup
+  accessed: '2026-11-26'
+- title: Cyber - National Cyber Week 2024 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge. The preserved Dockerfile references source files that
+  the participant never captured; that gap is recorded here instead of being
+  repaired, and no file was edited. The binary is the artifact the challenge
+  actually distributed.
+  No solver scripts were present in the source.

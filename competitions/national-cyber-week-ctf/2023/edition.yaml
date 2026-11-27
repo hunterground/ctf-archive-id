@@ -3,14 +3,25 @@ id: national-cyber-week-ctf-2023
 competition_id: national-cyber-week-ctf
 year: 2023
 name: National Cyber Week CTF 2023
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2023-11-19'
+  end: '2023-12-03'
 statistics:
-  participant_count: null
+  participant_count: 62
   challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record.
+references:
+- title: Recap National Cyber Week 2023
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >
+  Organizer recap: theme "Catch Me If You Can"; online qualification on Sunday 19
+  November 2023 with 62 teams from universities in several provinces, selecting 15 teams;
+  onsite final at BINUS Anggrek Kemanggisan on Sunday 3 December 2023. No organizer or
+  author challenge repository was found. Three qualification challenges (Simple, wangsaf,
+  Maximalist Pyjail) are archived from a participant write-up tree; the remaining
+  participant write-ups are registered in archives/repositories.yaml for maintainer
+  review and were not imported.

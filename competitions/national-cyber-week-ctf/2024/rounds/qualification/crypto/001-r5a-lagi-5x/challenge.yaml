@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-crypto-001
+name: R5A lagi 5x
+slug: 001-r5a-lagi-5x
+original_name: R5A lagi 5x
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  The source preserves no verbatim statement. The distribution is R5Alagi5x.py,
+  which builds a 1024-bit prime, folds five successive primes into it with
+  repeated shift and increment steps, and encrypts
+  w**5 + x**4 + y**3 + z**2 + flag under e = 65537. output.txt carries e, n and c.
+  
+  The modulus is deliberately structured so that the five prime factors can be
+  recovered, after which the additive w**5 + x**4 + y**3 + z**2 term has to be
+  stripped before the flag can be read. The script ships the placeholder
+  FLAG = b'NCW24{fake_flag}'.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- rsa
+- small-roots
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2024/Cryptography/R5A lagi 5x
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    R5A lagi 5x from National Cyber Week CTF 2024 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: National Cyber Week 2024/Cryptography/R5A lagi 5x/R5Alagi5x.py
+    algorithm: sha256
+    value: e3219a9d398db024aa1958e6bbf16a689603bbc15782242fe03a3aab1d140f64
+  - path: National Cyber Week 2024/Cryptography/R5A lagi 5x/output.txt
+    algorithm: sha256
+    value: 937aff6f257e9d54d7c816739379ae4bc21accbba07d8b3b35fcb214c6ae3d47
+environment:
+  type: python
+  services: []
+  requirements: [pycryptodome]
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Cryptography/R5A%20lagi%205x
+  type: writeup
+  accessed: '2026-11-26'
+- title: Cyber - National Cyber Week 2024 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge. The source tree holds only the generator script and
+  its captured output, with no organizer text and no solver, so the description
+  is a factual reading of the shipped code.
+  No solver scripts were present in the source.

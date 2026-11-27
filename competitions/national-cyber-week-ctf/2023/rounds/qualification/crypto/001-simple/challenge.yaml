@@ -1,0 +1,90 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2023-qualification-crypto-001
+name: Simple
+slug: 001-simple
+original_name: Simple
+competition_id: national-cyber-week-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: |
+  The source preserves no verbatim statement. The distribution is simple.py, an
+  AES-CBC guessing service whose encryption routine body has been replaced by a
+  comment block, and whose key is a static plainkey concatenated with eight
+  repetitions of a two-byte os.urandom suffix. The key material is then itself
+  wrapped by a second AES step whose mode the solver has to recover.
+  
+    Quote from the 2023 qualification statement, as recorded by two independent
+    participant write-ups: a program asks the player to guess a code encrypted
+    with AES-CBC under plainkey + os.urandom(2)*8, and plainkey was itself
+    encrypted with an AES mode the player must identify.
+  
+  Corroborating write-ups: hackmd.io/@wondPing/S1lsfbEOVp and the IPB write-up
+  WU_NCW23_anak_kemaren_sore.pdf. The challenge is worth 220 points.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- aes
+- brute-force
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2k23/Cryptography/Simple
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2023 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Simple from National Cyber Week CTF 2023 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: simple.py
+    algorithm: sha256
+    value: eceada39dcc5f643b4a0437d39e58af2e3c87c1d08ce74599203a5c3b21038ca
+environment:
+  type: python
+  services: [nc]
+  requirements: [pycryptodome, pwntools]
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202k23/Cryptography/Simple
+  type: writeup
+  accessed: '2026-11-26'
+- title: National Cyber Week 2k23 CTF Writeup [QUALS]
+  url: https://hackmd.io/@wondPing/S1lsfbEOVp
+  type: writeup
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2023 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge, 220 points. The source tree holds only the script and
+  the participant's two solver scripts, so the statement above is a paraphrase
+  reconstructed from participant write-ups rather than the organizer's text.
+  Solver scripts found alongside the distribution were moved to the mirrored
+  path under solvers/ per archive policy; that move is not recorded as a
+  preservation omission. Flags are preserved as found; decryptors and
+  answer-replay scripts are not distribution material and remain outside original/.

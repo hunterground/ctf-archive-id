@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-pwn-003
+name: Ref:rain (for 7th Heaven)
+slug: 003-refrain-for-7th-heaven
+original_name: Ref:rain (for 7th Heaven)
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: "The source republishes the organizer's statement verbatim:\n\n  :(\n\n\n\n             \
+  \ PRiSM system ran into a problem and needs to restart. We're\n\n              just collecting fragments\
+  \ and errors, and then we'll restart\n\n              for you.\n\n\n\n\n              You need the key\
+  \ to access emotions:\n\n\n  PRiSM_INITIALIZATION[KALEIDXSCOPE]_FAILED\n\n\n\n\n\n              Problems\
+  \ with the prism system should be restarted. We collect fragments and errors. Then automatically\n \
+  \             Start again. (\n  0\n  % complete)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  Hint 1 : The binary\
+  \ is compiled with musl libc to be able to run it please install the libraries with \"sudo apt instal\
+  \ musl musl-tools\".\n  Hint 2 : Saya sarankan untuk membaca ini untuk mencari inspirasi:\n  https://elixir.bootlin.com/musl/v1.2.5/source/src/malloc/mallocng/free.c#L101\n\
+  \  https://elixir.bootlin.com/musl/v1.2.5/source/src/malloc/mallocng/malloc.c#L299\n\n\n  Author: MikiMiku\n\
+  \n  Category: Binary Exploitation | Points: 500\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- musl
+- heap
+- mallocng
+authors:
+- name: MikiMiku
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Binary Exploitation/013_Ref_rain (for 7th Heaven)
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Ref:rain (for 7th Heaven) from National Cyber Week CTF 2025 qualification, imported via
+    https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: ee09735587fb7d2ef33c181599aa941bb24cbcba250e968686d2f0dcb479ee19
+  - path: description.txt
+    algorithm: sha256
+    value: 5479bd19de48d1df9ed61800d049b3473073050b5b4f6836d765d261764dae24
+  - path: files/dist.zip
+    algorithm: sha256
+    value: 5ae44ad8206607ec33fe7ecf67978b871ec985437258cadb697c319e25b08610
+  - path: title.txt
+    algorithm: sha256
+    value: 384390a6e9c81a1558a57296d6121139f2d6351f3f8cfe1e731d20400cf60172
+environment:
+  type: pwn
+  services:
+  - refrain
+  requirements:
+  - docker
+  - musl-tools
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Ref:rain (for 7th Heaven))
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Binary%20Exploitation/013_Ref_rain%20(for%207th%20Heaven)
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 500 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Binary Exploitation under the canonical pwn directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. Statically linked musl binary shipped
+  with its Dockerfile. dist.zip''s flag.txt is preserved as found and contains NCW{PRiSM-fake-flag-error},
+  the organizer''s placeholder rather than a live flag.
+
+  '

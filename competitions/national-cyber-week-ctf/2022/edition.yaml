@@ -3,14 +3,30 @@ id: national-cyber-week-ctf-2022
 competition_id: national-cyber-week-ctf
 year: 2022
 name: National Cyber Week CTF 2022
-status: unknown
-verification: unverified
+status: completed
+verification: corroborated
 dates:
-  start: null
-  end: null
+  start: '2022-11-05'
+  end: '2022-11-12'
 statistics:
-  participant_count: null
+  participant_count: 42
   challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record.
+references:
+- title: Recap National Cyber Week 2022
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: ibnurusdianto/NATIONAL-CYBER-WEEK-2022
+  url: https://github.com/ibnurusdianto/NATIONAL-CYBER-WEEK-2022
+  type: third_party_archive
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: >
+  Organizer recap: qualification online on 5 November 2022 with 42 teams from various
+  universities, final onsite at BINUS Anggrek Kemanggisan on 12 November 2022 with the
+  15 qualifying teams. The edition's official platform site was ncw2k22.com as recorded by
+  the 2022 qualification challenge dump; that host is no longer archived and its status
+  was not verified. No organizer or author challenge repository was found. Seven
+  qualification challenges are archived from a participant-collected dump of the 2022
+  platform. The remaining dumps and write-ups are registered in
+  archives/repositories.yaml for maintainer review and were not imported.

@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-blockchain-001
+name: Kitty's Warmup to Chess and checkers
+slug: 001-kitty-warmup
+original_name: Kitty's Warmup to Chess and checkers
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: blockchain
+original_category: Blockchain
+description: "The participant tree this record was first built from preserves no verbatim statement; the\
+  \ organizer's statement was later recovered from the Cyber Security IPB archive and is quoted at the\
+  \ end of this field. The distribution is a three-file\nSolidity set: Setup.sol deploys a Token with\
+  \ 1e30 supply and a KittyWarmup\ncontract funded with 1e27 tokens, then seeds the player with 100 points\
+  \ and\ndeclares the challenge solved once the player holds at least twice the target\npoints' worth\
+  \ of tokens. Token.sol and KittyWarmup.sol carry the accounting.\n\nSetup.sol is annotated SPDX-License-Identifier:\
+  \ UNLICENSED, which is preserved\nas found and is not an archive redistribution statement.\n\n  The\
+  \ Cyber Security IPB community archive republishes the organizer's statement verbatim, which fixes the\
+  \ point value and the author:\n\n  an easy introductional warm up to chess and checkers\n\n  author:\
+  \ eyes\n\n\n  http://31.97.187.222:48212/\n\n  Category: Blockchain | Points: 100 | Author: eyes\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- blockchain
+- solidity
+- smart-contract
+authors:
+- name: eyes
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2025/Blockchain/Kitty's Warmup to Chess and checkers
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Kitty's Warmup to Chess and checkers from National Cyber Week CTF 2025 qualification, imported
+    via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: National Cyber Week 2025/Blockchain/Kitty's Warmup to Chess and checkers/KittyWarmup.sol
+    algorithm: sha256
+    value: 9681322f4c580a9ac6c402748a43a356315a73dbea6c0993eafd528687a46afc
+  - path: National Cyber Week 2025/Blockchain/Kitty's Warmup to Chess and checkers/Setup.sol
+    algorithm: sha256
+    value: fe14545c157e136b2f4ee71aa0da04a0a096a655b6f670c8ecc47f469cd9362d
+  - path: National Cyber Week 2025/Blockchain/Kitty's Warmup to Chess and checkers/Token.sol
+    algorithm: sha256
+    value: 9c92c92ad01aeecc0b0356e2079bf45a138065d2720944c65bce5b712ace43e8
+environment:
+  type: smart-contract
+  services: []
+  requirements:
+  - solidity
+  - foundry
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202025/Blockchain/Kitty's%20Warmup%20to%20Chess%20and%20checkers
+  type: writeup
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Kitty's Warmup to Chess and checkers)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Blockchain/010_Kitty's%20Warmup%20to%20Chess%20and%20checkers
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge. The source holds only the three contracts, with no
+
+  organizer text and no solver, so the description is a factual reading of the
+
+  shipped code.
+
+  No solver scripts were present in the source.
+
+
+  The Cyber Security IPB community archive corroborates this challenge: it publishes the same organizer
+  statement, fixes the point value at 100 and names the author as eyes. It ships no attachment for this
+  challenge, so original/ is unchanged.
+
+  '

@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-crypto-001
+name: salvage
+slug: 001-salvage
+original_name: salvage
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: "The source republishes the organizer's statement verbatim:\n\n  Trying to salvage whatever\
+  \ I'm trying to cook\n\n  author: Wrth\n\n  Category: Cryptography | Points: 100\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- elliptic-curve
+- aes-cbc
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Cryptography/014_salvage
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: salvage from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: 552bf696669ee44058a6671ae0939cf5a4e1c04163777085ef6c52c13fc035bb
+  - path: description.txt
+    algorithm: sha256
+    value: e659d353ebe2ad9f42517d542f522d7bc390e9f36209311c122ab9416f0ffc69
+  - path: files/chall.py
+    algorithm: sha256
+    value: d74271e1f0e7c442b5c18716625bd328c3c333617e8bf863d75a5b06156f945b
+  - path: files/output.txt
+    algorithm: sha256
+    value: 07d0025f3623b438823a62d0e13186d1eb966e621f2cc14a44cd6e7ee566d75e
+  - path: title.txt
+    algorithm: sha256
+    value: edac68937845d408a42c4e1973eff8cd756310eeaef6c95709b9fde16a060d73
+environment:
+  type: crypto
+  services: []
+  requirements:
+  - sage
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 salvage)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Cryptography/014_salvage
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 100 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Cryptography under the canonical crypto directory but keeps the upstream
+  label in original_category. Attachment bundles stay zipped exactly as published, so their internal bytes
+  match the source even where they contain macOS resource forks. chall.py builds a curve over the reals
+  with mpmath at 1000 digits and encrypts the flag with AES-CBC under a key interpreted as the scalar
+  multiple, so the task is to recover the scalar from the published point. The files are shipped unpacked
+  rather than zipped.
+
+  '

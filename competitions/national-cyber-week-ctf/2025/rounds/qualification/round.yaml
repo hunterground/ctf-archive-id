@@ -1,0 +1,50 @@
+schema_version: '1.0'
+id: qualification
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+name: Qualification
+original_name: Babak Penyisihan
+sequence: 1
+type: qualification
+delivery: online
+description: >
+  Online jeopardy qualification on 23 November 2025, followed by the organizer's 5 December
+  workshop and the 6 December onsite final. The organizer does not publish an entrant count
+  for the qualification, so participant_count is null.
+dates:
+  start: '2025-11-23'
+  end: '2025-11-23'
+statistics:
+  challenge_count: 18
+  participant_count: null
+references:
+- title: NATIONAL CYBER WEEK 2025 (organizer recap)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive - NCWBinusCTF 2025
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Eighteen challenges are archived for this round across seven categories: Binary
+  Exploitation 3, Blockchain 3, Cryptography 3, Forensic 3, Mobile Exploitation 1, Reverse
+  Engineering 2 and Web Exploitation 3. The set is complete against the Cyber Security IPB
+  archive, whose NCWBinusCTF/2025 directory numbers its eighteen challenge folders 001
+  through 018 without a gap, and every one of those folders is represented here.
+
+  Two sources were used. The Cyber Security IPB community archive supplies the organizer's
+  statement verbatim for all eighteen, together with the point value and the named author,
+  and the distributed attachments for fifteen of them. The SandWithCheese participant
+  write-up tree supplies the larger derived forensics artefacts (the Locker and Malware
+  Magang evidence sets and the tehc triage output) that the IPB source does not carry.
+  Where both sources cover a challenge they were reconciled into a single record rather
+  than imported twice; the IPB copy was preferred for metadata because it carries the
+  statement, and only tehc.jpg was added from it.
+
+  Three challenges publish a statement but no attachment in either source: Locker and
+  Malware Magang name an external Google Drive or SharePoint link, and tehc ships only the
+  teaser image while the AD1 image is an external link. Those external targets were not
+  fetched and the omissions are recorded per challenge.

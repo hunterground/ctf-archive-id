@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2022-qualification-crypto-002
+name: 'sabeb64'
+slug: 002-sabeb64
+original_name: 'sabeb64'
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: crypto
+original_category: 'Cryptography'
+description: |
+  Original statement (from the 2022 qualification challenge dump):
+  
+    Jamet and Mamang are 2 scientists who want to study everything about
+    cryptography. They intended to make a cryptographic tool, but there is
+    something strange about the encoder they have made. The problem is, the
+    encoder has already been used before the decoder was even designed. plus,
+    Jamet accidentally spilled coffee on the source code, so now we can't see
+    the encoding function. Can you solve it for them?
+  
+    tips: analyze the output and compare with the og ;)
+  
+    Chall: nc 103.167.136.75 9988
+    Backup: nc 103.167.136.123 9988
+  
+    Author: kisanak#5303
+  
+  The distribution is sabeb.py with the encoding function body replaced by a
+  coffee-spill comment block, plus a netcat service that prints encoded output.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- encoding
+- python
+authors:
+- name: "kisanak#5303"
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2022-ibnurusdianto
+  source_type: git
+  repository: https://github.com/ibnurusdianto/national-cyber-week-2022
+  commit: 04cf3a69320d5b6ef80af5b00a7d816cfd342583
+  original_path: 'Cryptography/sabeb64'
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2022 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    sabeb64 by kisanak#5303 for National Cyber Week CTF 2022,
+    imported via https://github.com/ibnurusdianto/national-cyber-week-2022
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: sabeb.py
+    algorithm: sha256
+    value: de3217e491ecd5583c2c55a0b3f1f5d2a7834111d7fd509481c49ca4f4393a09
+environment:
+  type: python
+  services: [nc]
+  requirements: []
+references:
+- title: ibnurusdianto/national-cyber-week-2022 (2022 qualification challenge dump)
+  url: https://github.com/ibnurusdianto/national-cyber-week-2022/tree/04cf3a69320d5b6ef80af5b00a7d816cfd342583/Cryptography/sabeb64
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2022 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  NCW 2022 qualification challenge, worth 331 points with 14 solving
+  team(s) in the dump's scoreboard snapshot.
+
+  Provenance caveat: this material was obtained from a participant-collected dump of the
+  2022 qualification platform (see provenance), not from the organizer or the challenge
+  author. The dump's challs.json records the original statement, attachments and scoreboard
+  values, and the copied files match the attachments it lists, but this copy is not an
+  authoritative organizer source.
+
+  Only the challenge attachment(s) were copied. The dump's README.md wrapper and its
+  challs.json were not, since they are collection metadata rather than challenge
+  distribution. No solver was present in the source.

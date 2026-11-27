@@ -1,0 +1,175 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-forensics-003
+name: tehc
+slug: 003-tehc
+original_name: tehc
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: "The participant tree this record was first built from preserves no verbatim statement; the\
+  \ organizer's statement was later recovered from the Cyber Security IPB archive and is quoted at the\
+  \ end of this field. The distribution is a Windows\nendpoint triage set built around an AD1 image: bodyfile.txt,\
+  \ fls.txt,\ntimeline.csv and timeline.txt output, *\\_tree.txt filesystem listings, a\nplaces.sqlite\
+  \ browser database, an autorun.bat, several suspects executables\n(WinDiag.exe, anydesk.exe, rmcast.sys,\
+  \ recovered_rtwlanu.sys), config files and\nthe shortcut pointing at the AD1 image itself.\n\nThe challenge\
+  \ is an artefact-triage investigation answered against the provided\noutput, and the participant's solver\
+  \ recovers a flag string from a table of\nencoded fragments.\n\n  The Cyber Security IPB community archive\
+  \ republishes the organizer's statement verbatim, which fixes the point value and the author:\n\n  My\
+  \ wifi stopped working, so I contacted MacroHard Support for help and they sent a technician. He keeps\
+  \ saying he's \"the greatest technician that's ever lived\", but the problem is still not fixed. In\
+  \ fact, he caused extra problems for me after his \"support\". Is he even a real tech support?? What\
+  \ the hell did he do to my pc \U0001F621\n\n  drive: https://drive.google.com/file/d/1jm-XStUoklCNKecSuEtcR11ZT6EuhhB6/view?usp=drive_link\n\
+  \  pass: a2VyamFpbiB3b2kgbWFsYWggZGVjb2RlIHBhc3N3b3JkIPCfmKE=\n\n  note: image unrelated\n\n  author:\
+  \ f1ndm3\n\n  Category: Forensic | Points: 472 | Author: f1ndm3\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- disk-image
+- timeline
+- windows
+authors:
+- name: f1ndm3
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2025/Forensic/tehc 👍
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: tehc from National Cyber Week CTF 2025 qualification, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: 343b86bd810b4c21f865ee769ea7322ae301bcd592986bda9683cc2c4badb8a1
+  - path: BTDevManager.log
+    algorithm: sha256
+    value: 3806eeab4554fb52f07adf51c91f4074b06fadd739692386d57500e9a93ec509
+  - path: MpCmdRun.log
+    algorithm: sha256
+    value: c923f62cfef952b220747c04932b74a2ec16753026c276fbfc6c0c3c64306a74
+  - path: WinDiag.exe
+    algorithm: sha256
+    value: f5971575cb3a6286d790384ce73d1ef762500dae360054a9bde019c6cdeb988d
+  - path: WinDiag.exe.lnk
+    algorithm: sha256
+    value: ede7b5ed03d10b5dc1df62373253b76e04811aa2f535b6fc13a65a8e4cca9cde
+  - path: all_tree.txt
+    algorithm: sha256
+    value: ad2e62d24d8a4766fe5b010e417c4de1ba5cfd1777afcbd122373341beebda10
+  - path: anydesk.exe
+    algorithm: sha256
+    value: d37491db75ac56025ae82f98851a5720e11db56186468588c46d4d4781b5d949
+  - path: autorun.bat
+    algorithm: sha256
+    value: acda9fedbb115fe7167c4a4512a2a2ff53f5d1a09d7d56bf0bed177e639869e6
+  - path: bodyfile.txt
+    algorithm: sha256
+    value: 5e0ec64ab39cc4be8b020a5b8c6640a557fe49989fd254162eee2cbda530f615
+  - path: device-id.cache
+    algorithm: sha256
+    value: ff9343764f2cea2204cff41a3d69bd18d9d6cd86b8f51ae3ee070eaa8c8dda8b
+  - path: f1ndm3_tree.txt
+    algorithm: sha256
+    value: 26edeeb3a697ce76e12f5eb71532e69abab50deb637a3b5b1f9d30d872417c3a
+  - path: fls.txt
+    algorithm: sha256
+    value: 664a62e8475bd40bbdb992e7420995a65c909eb64503d57be02814620f01db39
+  - path: fs_tree.txt
+    algorithm: sha256
+    value: ad2e62d24d8a4766fe5b010e417c4de1ba5cfd1777afcbd122373341beebda10
+  - path: inetpub_tree.txt
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: places.sqlite
+    algorithm: sha256
+    value: be2f718399e3a4be10fe75a914e72fec76a7ee7facdd500fca32541f10228d06
+  - path: recovered_rtwlanu.sys
+    algorithm: sha256
+    value: 6a6788ad2838415c97d7d701379b4bf12d68875d7d57cd99bb39d342a64ea790
+  - path: rmcast.sys
+    algorithm: sha256
+    value: 281f5582bac574b76951a4ea9f1effd329ea22035ea0bf0ab0309dee8b91b219
+  - path: rtwlanu.sys.lnk
+    algorithm: sha256
+    value: 0e9eef3443327a7cf69aa683b39d29da756b415453986bf9372e03c850ed0810
+  - path: service.conf
+    algorithm: sha256
+    value: 68886b8ae3c1b8e9a82d8282a63b3172b48f6c3607cba6e16751e8c067284960
+  - path: tehc.ad1.lnk
+    algorithm: sha256
+    value: e35132fe3484d60450b2ddb6123ee0ec08f8af2ad8776447597c3870cf1d21ff
+  - path: tehc.ad1.txt.lnk
+    algorithm: sha256
+    value: 19153e6ea8ce92648edde8a0549305fd6e141d86f802d1fb2367e06fd3baf8dd
+  - path: tehc.jpg
+    algorithm: sha256
+    value: a2ec084c0ec4b25659995c19cfa96b2efd526d2a397c26761f9ffb82ef529a06
+  - path: timeline.csv
+    algorithm: sha256
+    value: df4566af1754179a5fe34d8f4ac90fd333947c23c4a5a67004e5921ac4788498
+  - path: timeline.txt
+    algorithm: sha256
+    value: 1e85504acd81fe6d93ec44f674a0311f70f89fca0821907a3b932e4e6727dce0
+  - path: user.conf
+    algorithm: sha256
+    value: 403adedf388616939355f12a78d8d718a932e3994c0fd7ff6700be63bc30fb72
+  - path: users_tree.txt
+    algorithm: sha256
+    value: 025ef4ea29301f8f4e5ec6532dcc17b5bc3843e3c3313c31190d670931b7cf1b
+environment:
+  type: windows
+  services: []
+  requirements:
+  - sleuthkit
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202025/Forensic/tehc%20%F0%9F%91%8D
+  type: writeup
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive (NCW 2025 tehc 👍)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Forensic/002_tehc%20👍
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge. The directory name as published contains a non-ASCII
+
+  emoji, so the archive directory uses the ASCII slug 003-tehc; provenance
+
+  retains the original path. flag.py is the participant''s solver and was not
+
+  copied. The AD1 image the shortcuts point at is not present in the source tree;
+
+  only the derived artefacts and answers that were actually published are here.
+
+  No solver scripts were present in the source.
+
+
+  The Cyber Security IPB community archive corroborates this challenge: it publishes the same organizer
+  statement, fixes the point value at 472 and names the author as f1ndm3. It also ships tehc.jpg, which
+  was added to original/.
+
+  '

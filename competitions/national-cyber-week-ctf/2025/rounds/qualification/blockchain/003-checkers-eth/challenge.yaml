@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-blockchain-003
+name: Checkers ETH
+slug: 003-checkers-eth
+original_name: Checkers ETH
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: blockchain
+original_category: Blockchain
+description: "The source republishes the organizer's statement verbatim:\n\n  as3ng's favorite sequel\
+  \ to chess eth\n\n  author: Axl\n\n\n  http://31.97.187.222:48335/\n\n  Category: Blockchain | Points:\
+  \ 100\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- blockchain
+- solidity
+- defi
+authors:
+- name: Axl
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Blockchain/009_Checkers ETH
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Checkers ETH from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: 91fb1906650ba9a33648e0fef3c8ed9c7aa6e12d621c93e44c0bcc1ab35a963c
+  - path: description.txt
+    algorithm: sha256
+    value: 5ab70cbee1b8b4eb6d83f508609d9e53c9213b61c8230d99b660e565e85bed4d
+  - path: files/contracts.zip
+    algorithm: sha256
+    value: 96af43cc4843730328c3f946284d7819dd5fd5696eb19fc2c24b3bb65f259fb1
+  - path: title.txt
+    algorithm: sha256
+    value: 702b2099ea07771270e937855f275dada44dbb96d6f1eeb0f8ca2c1a01726e62
+environment:
+  type: smart-contract
+  services: []
+  requirements:
+  - solidity
+  - foundry
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Checkers ETH)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Blockchain/009_Checkers%20ETH
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 100 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Blockchain under the canonical blockchain directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. Two exchanges, a router and wrapped-token
+  contracts, shipped flat (no resource-fork entries) inside contracts.zip.
+
+  '

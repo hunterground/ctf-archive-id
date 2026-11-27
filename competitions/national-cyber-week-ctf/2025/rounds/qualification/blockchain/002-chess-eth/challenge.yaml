@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-blockchain-002
+name: Chess ETH
+slug: 002-chess-eth
+original_name: Chess ETH
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: blockchain
+original_category: Blockchain
+description: "The source republishes the organizer's statement verbatim:\n\n  do you want to play as3ng's\
+  \ favorite game?\n\n  author: bwe\n\n\n  http://31.97.187.222:48336/\n\n  Category: Blockchain | Points:\
+  \ 500\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- blockchain
+- solidity
+- defi
+- oracle
+authors:
+- name: bwe
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Blockchain/008_Chess ETH
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Chess ETH from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: bbe2fcf4e1d4b2d2f21044b9b9e991d8e8b7b9393c298a42735a96421513e059
+  - path: description.txt
+    algorithm: sha256
+    value: 8b598f02491e3f36db77b706b40271f2dcce9520a66ce7517eb973752038368d
+  - path: files/contracts.zip
+    algorithm: sha256
+    value: f7919fad5e22e6e02de2adf698231be047a427953a80ac59eac7b573b1b92bc0
+  - path: title.txt
+    algorithm: sha256
+    value: ba2245edb39f0e1ec0890e0ef9b699cc2df99c5a0ee1cee5594c2831c3dd16d6
+environment:
+  type: smart-contract
+  services: []
+  requirements:
+  - solidity
+  - foundry
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Chess ETH)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Blockchain/008_Chess%20ETH
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 500 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Blockchain under the canonical blockchain directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. Full contracts tree, including
+  the Chainlink VRF oracle shim the game uses, so the challenge can be rebuilt. contracts.zip also carries
+  macOS __MACOSX resource-fork entries, which are preserved unmodified inside the zip rather than extracted
+  and stripped.
+
+  '

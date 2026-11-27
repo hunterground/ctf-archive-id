@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2022-qualification-forensics-001
+name: 'BEC Chitchat'
+slug: 001-bec-chitchat
+original_name: 'BEC Chitchat'
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: forensics
+original_category: 'Forensic'
+description: |
+  Original statement (from the 2022 qualification challenge dump):
+  
+    "A few days ago, I went to a store wanting to buy groceries, but the store
+    was closed. Then, in front of the store I saw a banner with an email
+    referring to the owner of the store. I contacted the email several times and
+    I received a reply message from the email along with a brochure. Long story
+    short, I go back home and opened the brochure from my computer and my
+    computer got hacked, and I only realized after a few days later."
+  
+    As a Forensic Expert, you are given a document to analyze these evidences:
+  
+    1. What's the name of suspected person(attacker) that send the malicious
+       brochure? (FULLNAME all lower case)
+    2. What is the attacker's phone number? [Format = +62..........]
+    3. What is the Address(FQDN) that is close to the source email(sender)?
+    4. What is the Address(IPv6 Address) that is close to the destination
+       email(receiver)?
+  
+    The flag is all the answers concatenated with underscore:
+    NCW22{answer1_answer2_answer3_answer4}
+  
+    Validation service: nc 103.167.136.75 1111 / nc 103.167.136.123 1111
+  
+  The distribution is Evidence.zip, which contains a single Outlook OST mailbox
+  image (Evidence 51.ost).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- email
+- ost
+authors: []
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2022-ibnurusdianto
+  source_type: git
+  repository: https://github.com/ibnurusdianto/national-cyber-week-2022
+  commit: 04cf3a69320d5b6ef80af5b00a7d816cfd342583
+  original_path: 'Forensic/BEC Chitchat'
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2022 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    BEC Chitchat by an unnamed NCW 2022 author for National Cyber Week CTF 2022,
+    imported via https://github.com/ibnurusdianto/national-cyber-week-2022
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Evidence.zip
+    algorithm: sha256
+    value: a3cdedd0e8f9edeb94434057507408f7a164ce099692992f279b325942618789
+environment:
+  type: archive
+  services: [nc]
+  requirements: []
+references:
+- title: ibnurusdianto/national-cyber-week-2022 (2022 qualification challenge dump)
+  url: https://github.com/ibnurusdianto/national-cyber-week-2022/tree/04cf3a69320d5b6ef80af5b00a7d816cfd342583/Forensic/BEC%20Chitchat
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2022 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  NCW 2022 qualification challenge, worth 331 points with 12 solving
+  team(s) in the dump's scoreboard snapshot.
+
+  Provenance caveat: this material was obtained from a participant-collected dump of the
+  2022 qualification platform (see provenance), not from the organizer or the challenge
+  author. The dump's challs.json records the original statement, attachments and scoreboard
+  values, and the copied files match the attachments it lists, but this copy is not an
+  authoritative organizer source.
+
+  Only the challenge attachment(s) were copied. The dump's README.md wrapper and its
+  challs.json were not, since they are collection metadata rather than challenge
+  distribution. No solver was present in the source.

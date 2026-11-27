@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2023-qualification-misc-001
+name: Maximalist Pyjail
+slug: 001-maximalist-pyjail
+original_name: Maximalist Pyjail
+competition_id: national-cyber-week-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: |
+  The source preserves no verbatim statement. The distribution is a Python
+  service with a register/login/session layer and a feedback feature that writes
+  attacker-controlled data into a per-session directory, shipped with its
+  Dockerfile and docker-compose file.
+  
+    Quote from the 2023 qualification statement index recorded by an IPB
+    write-up: Maximalist Pyjail is listed under Misc at 500 points and was
+    solved after the event.
+  
+  Corroborating write-up: WU_NCW23_anak_kemaren_sore.pdf.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- misc
+- pyjail
+- python
+authors:
+- name: unknown
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2k23/Misc/Maximalist Pyjail
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2023 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Maximalist Pyjail from National Cyber Week CTF 2023 qualification,
+    imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: pyjail/Dockerfile
+    algorithm: sha256
+    value: fd2cae57c0baa32cf825dabf56581cee1c59641a18cfc42fe1bc96d2e161ce7b
+  - path: pyjail/docker-compose.yml
+    algorithm: sha256
+    value: f4a00676818abe97cf7cad79c005c90a091760c38789413503f0db85fd50d1f9
+  - path: pyjail/flag.txt
+    algorithm: sha256
+    value: a7c9e8a6ab717581ef561a5999dc62192139ee19cb00a7652a9f9ec84d7f690a
+
+environment:
+  type: docker
+  services: [nc]
+  requirements: [docker]
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202k23/Misc/Maximalist%20Pyjail
+  type: writeup
+  accessed: '2026-11-26'
+- title: WU_NCW23 write-up, IPB team (qualification 19 November 2023)
+  url: https://www.collegesidekick.com/study-docs/1288440
+  type: writeup
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2023 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  Qualification challenge, 500 points. The shipped flag.txt is preserved as found in pyjail/. The statement above is a
+  paraphrase, because the
+  source tree keeps the service but not the organizer text.
+  No solver scripts were present in the source.

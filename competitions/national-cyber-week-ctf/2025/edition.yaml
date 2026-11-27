@@ -10,12 +10,40 @@ dates:
   end: '2025-12-06'
 statistics:
   participant_count: null
-  challenge_count: null
+  challenge_count: 18
 references:
-- title: National Cyber Week 2025
+- title: NATIONAL CYBER WEEK 2025 (organizer recap)
   url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
   type: organizer_announcement
-  accessed: '2026-11-21'
-challenge_materials_imported: false
-notes: Qualification on 23 November 2025. Final on 6 December 2025 at BINUS Anggrek, after a jeopardy
-  session and an IoT-hacking stage.
+  accessed: '2026-11-26'
+- title: '"Selflove" Upsolve Writeup, NCW CTF 2025'
+  url: https://hackmd.io/@MvoUIdi4QvOPY8m7SjFTlA/selflove-ncw-25
+  type: writeup
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive - NCWBinusCTF 2025
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025
+  type: third_party_archive
+  accessed: '2026-11-26'
+challenge_materials_imported: true
+notes: >
+  Online jeopardy qualification on 23 November 2025, workshop on 5 December 2025 at
+  Ruang M2CD, BINUS Syahdan ("Web Penetration Testing Methodology" by Bayu Aji and
+  "Offensive Adversarial AI for Red Teaming" by Felix Alexander and Clario Adorabell
+  Johan), and the onsite final on 6 December 2025 at Ruang 800, BINUS Anggrek, with a
+  morning jeopardy session for 10 teams and a three-hour IoT Hacking stage for the top 4.
+  The organizer does not publish a qualification entrant count, so participant_count is
+  null. No organizer or author challenge repository, and no final-round challenge
+  material, was found.
+
+  All eighteen qualification challenges are archived (Binary Exploitation 3, Blockchain
+  3, Cryptography 3, Forensic 3, Mobile Exploitation 1, Reverse Engineering 2, Web
+  Exploitation 3). The Cyber Security IPB community archive publishes each challenge's
+  organizer statement verbatim with its point value, named author and distributed
+  attachment, which earlier participant write-up trees did not carry; that source is the
+  basis for all eighteen records. The SandWithCheese participant tree supplied the larger
+  derived forensics artefacts (Locker, Malware Magang, tehc) that the statement archive
+  does not host. Challenges carried by both sources were reconciled into one record each
+  rather than imported twice. The previously held-back Selflove was archived once the IPB
+  source supplied its statement. Remaining participant write-ups are registered in
+  archives/repositories.yaml; external Google Drive and SharePoint attachments named in
+  three statements were not fetched.

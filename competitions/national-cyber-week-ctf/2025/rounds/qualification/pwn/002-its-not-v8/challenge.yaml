@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-pwn-002
+name: Its not V8
+slug: 002-its-not-v8
+original_name: Its not V8
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: "The source republishes the organizer's statement verbatim:\n\n  For real its not v8 guys.\
+  \ Please don't skip this challenges just because this binary name is d8 \U0001F97A\n\n\n\n  Go watch\
+  \ now\n  https://youtu.be/Uyrv2F6wI-E?si=sOW10Xujboe0rIV9\n  XD\n\n  Author: Hazy\n\n  Category: Binary\
+  \ Exploitation | Points: 475\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- jit
+- seccomp
+authors:
+- name: Hazy
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2025-cybersecurityipb-ctf-archive
+  source_type: git
+  repository: https://github.com/cybersecurityipb/CTF-Archive
+  commit: 78866072bfce7ab67b02466de59709d41ed5740b
+  original_path: NCWBinusCTF/2025/Binary Exploitation/012_Its not V8
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2025 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Its not V8 from National Cyber Week CTF 2025 qualification, imported via https://github.com/cybersecurityipb/CTF-Archive
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: description.html
+    algorithm: sha256
+    value: 3dcd7773a6387b2fa7527822db922cd36990a8ff77526b54372737b296e88284
+  - path: description.txt
+    algorithm: sha256
+    value: 20104ace56df82b3a41b0b510073730bd528086c8973c8c48626bfe7d3d511c0
+  - path: files/dist.zip
+    algorithm: sha256
+    value: 5e9cb386142b6a47a3985fd79a14dc9205c9ab595de8a38defa80e61ede1c483
+  - path: title.txt
+    algorithm: sha256
+    value: 630f37992f0b90591c11bce4d7fb775920cfeb075410ee493195c60c0baa0528
+environment:
+  type: pwn
+  services:
+  - d8
+  requirements:
+  - docker
+references:
+- title: cybersecurityipb/CTF-Archive (NCW 2025 Its not V8)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Binary%20Exploitation/012_Its%20not%20V8
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 475 points. The statement, original category label, point value,
+  named author and attachment set all come from the Cyber Security IPB community archive, which republishes
+  the organizer''s brief verbatim in a title.txt/description.txt/files layout rather than the author''s
+  original tree. The archive records Binary Exploitation under the canonical pwn directory but keeps the
+  upstream label in original_category. Attachment bundles stay zipped exactly as published, so their internal
+  bytes match the source even where they contain macOS resource forks. d8 is a purpose-built C++ harness
+  (d8.cpp) that installs a seccomp filter before running the payload; it is not the V8 shell of the same
+  name. The bundle also ships ynetd and a docker-compose.yaml.
+
+  '

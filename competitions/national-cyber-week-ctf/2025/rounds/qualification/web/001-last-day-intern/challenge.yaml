@@ -1,0 +1,155 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2025-qualification-web-001
+name: Last Day Intern
+slug: 001-last-day-intern
+original_name: Last Day Intern
+competition_id: national-cyber-week-ctf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: "The distribution carries its own statement in the author's README:\n\n  I really hate my\
+  \ internship. They didn't pay me well and made me work under\n  pressure, so I slipped a hidden feature\
+  \ into their system. Hopefully someone\n  takes advantage of it, hahaha.\n\n  Category: Web Exploitation\
+  \ | Difficulty: Easy | Points: 500\n  Author: xjirada\n\n  Objective: Find and exploit the \"hidden\
+  \ feature\" left by the disgruntled\n  intern to capture the flag.\n\nThe distribution is penjarav2/,\
+  \ the vulnerable Flask application with its\nDockerfile, docker-compose.yml, templates and static assets.\
+  \ Its fetch endpoint\ntakes a user-supplied URL and can be steered at internal paths.\n\n  The Cyber\
+  \ Security IPB community archive republishes the organizer's statement verbatim, which fixes the point\
+  \ value and the author:\n\n  I really hate my internship. They didn’t pay me well and made me work under\
+  \ pressure, so I slipped a hidden feature into their system. Hopefully someone takes advantage of it,\
+  \ hahaha.\n\n  author: xjirada\n\n\n  http://31.97.187.222:9989/\n\n  Category: Web Exploitation | Points:\
+  \ 200 | Author: xjirada\n"
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- ssrf
+- flask
+authors:
+- name: xjirada
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  source_type: git
+  repository: https://github.com/SandWithCheese/ctf-writeups
+  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
+  original_path: National Cyber Week 2025/Web Exploitation/last day intern
+licensing:
+  declared_license: MIT
+  copyright_holder: xjirada
+  redistribution: permitted
+  attribution_required: true
+  attribution: Last Day Intern from National Cyber Week CTF 2025 qualification, imported via https://github.com/SandWithCheese/ctf-writeups
+  permission_reference: The source repository declares no license. Archive maintainer instruction on 2026-11-26
+    records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: penjarav2/Dockerfile
+    algorithm: sha256
+    value: 0661c6eb06d004a13ddeecbc9a0304c49f1d08f84624fc11b78c9d6f41499e67
+  - path: penjarav2/app.py
+    algorithm: sha256
+    value: deb4075a675e8e42c47642cdd877f867f11d43799bb74357a0e79c1308471f6c
+  - path: penjarav2/bukan_flag.txt
+    algorithm: sha256
+    value: 47a7d330e044e363c8ec5b6f97ec9c65c1a761477a332a061013ee7658e5393f
+  - path: penjarav2/docker-compose.yml
+    algorithm: sha256
+    value: 7dff2711b997e8eafcd6a6c78819adadd81af3efa5180a6c825337318008bbed
+  - path: penjarav2/instance/users.sqlite
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: penjarav2/requirements.txt
+    algorithm: sha256
+    value: 72da926d6ce6ee262d66d9b563ade80cc4b128333f51298f788b575dbcc1a9b1
+  - path: penjarav2/static/img/meme.png
+    algorithm: sha256
+    value: c186440acf6f853c3fcc875aba891bc5b23554af1f80514d019b0a53f8f8cea0
+  - path: penjarav2/static/style.css
+    algorithm: sha256
+    value: c793d5f3dece611443c85d749da8ee17769f8de1cc0ef54288fb606522a811b5
+  - path: penjarav2/templates/admin_internal.html
+    algorithm: sha256
+    value: 7f67331156cb67bebd3f628b1f4d0d2d8341c8cff67d4620f6f344e7fcf9d580
+  - path: penjarav2/templates/base.html
+    algorithm: sha256
+    value: 7493610e1ceca318d945fe9dcb8a190688110a42bdea2ea714234ddaf983f9a9
+  - path: penjarav2/templates/dashboard.html
+    algorithm: sha256
+    value: b23f01df5d9850333fc5209bc854134d04a6adb3798bdda4d5e3a7c6a43ec475
+  - path: penjarav2/templates/fetch.html
+    algorithm: sha256
+    value: 6c72e30b76205054ae631614ccc56555d7de821cbe2c81585dfc386fb9cf5c96
+  - path: penjarav2/templates/index.html
+    algorithm: sha256
+    value: a43dd7af1b2605839c24a653142a7cbcc10a84ef39773beaa21ab7490423bac6
+  - path: penjarav2/templates/login.html
+    algorithm: sha256
+    value: feb4017fc98556286ddfe146c2403f5f3649db819c2929076e46fda9e5a1d458
+  - path: penjarav2/templates/register.html
+    algorithm: sha256
+    value: 965b9e3aad16bbcca9ac66e38c4948d6fc8a524921ae15e55e21e3e1384f8061
+  - path: penjarav2/templates/secret.html
+    algorithm: sha256
+    value: 9013e2f468985399f32c909daceb822f30c7d6e764aec1456f5aceff79117ee4
+environment:
+  type: docker
+  services:
+  - web
+  requirements:
+  - docker
+references:
+- title: SandWithCheese/ctf-writeups (participant write-up tree)
+  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202025/Web%20Exploitation/last%20day%20intern
+  type: writeup
+  accessed: '2026-11-26'
+- title: Last Day Intern participant write-up index
+  url: https://ctfpal.com/writeups/ctf/national-cyber-week-2025-2025-community
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: NATIONAL CYBER WEEK 2025 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2025/12/national-cyber-week-2025/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+- title: cybersecurityipb/CTF-Archive (NCW 2025 last day intern)
+  url: https://github.com/cybersecurityipb/CTF-Archive/tree/78866072bfce7ab67b02466de59709d41ed5740b/NCWBinusCTF/2025/Web%20Exploitation/006_last%20day%20intern
+  type: third_party_archive
+  accessed: '2026-11-26'
+verification: corroborated
+notes: 'Qualification challenge worth 500 points, rated Easy by its author. The public
+
+  copy is a participant''s pen-testing write-up set: README.md, WRITEUP.md,
+
+  SOLUTION.md, ATTACK_FLOW.txt, FILES_SUMMARY.md, exploit.py and
+
+  payload_generator.py are the participant''s own documents, so only the
+
+  penjarav2/ application tree was copied. bukan_flag.txt is preserved as found
+
+  even though its name suggests a decoy. xjirada is named as the author both in that README and in
+
+  the k1nomi write-up index.
+
+
+  The participant''s own solver material (README.md, WRITEUP.md, SOLUTION.md, ATTACK_FLOW.txt,
+
+  FILES_SUMMARY.md, exploit.py and payload_generator.py) was not part of the distribution and
+
+  was not copied into original/.
+
+
+  The Cyber Security IPB community archive corroborates this challenge: it publishes the same organizer
+  statement, fixes the point value at 200 and names the author as xjirada. It ships no attachment for
+  this challenge, so original/ is unchanged.
+
+  '

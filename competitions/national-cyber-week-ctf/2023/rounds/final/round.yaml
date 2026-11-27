@@ -1,0 +1,29 @@
+schema_version: '1.0'
+id: final
+competition_id: national-cyber-week-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: Babak Final
+sequence: 2
+type: final
+delivery: onsite
+description: >
+  Onsite final at BINUS Anggrek campus, Kemanggisan, on Sunday, 3 December 2023, for
+  the 15 teams that advanced from the qualification.
+dates:
+  start: '2023-12-03'
+  end: '2023-12-03'
+statistics:
+  challenge_count: null
+  participant_count: 15
+references:
+- title: Recap National Cyber Week 2023
+  url: https://student-activity.binus.ac.id/csc/2023/12/recap-national-cyber-week-2023/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Final date and venue are stated by the organizer recap. Winner determination combined
+  solved-challenge count with write-up submission. Podium: TCP1P (1220), is_admin=true
+  (1212), sehad (768). No final challenge material was found.

@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: final
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+name: Final
+original_name: Babak Final
+sequence: 2
+type: final
+delivery: onsite
+description: >
+  Onsite final stage at BINUS Anggrek campus, Kemanggisan, for the 15 teams that
+  advanced from the qualification. The organizer recap says the solved challenge
+  categories in the final were split evenly across binary exploitation, reverse
+  engineering, and web exploitation.
+dates:
+  start: '2022-11-12'
+  end: '2022-11-12'
+statistics:
+  challenge_count: null
+  participant_count: 15
+references:
+- title: Recap National Cyber Week 2022
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: >
+  Final held on 12 November 2022, attended by 15 qualifying teams. Scoring combined
+  solved challenges with submitted write-ups. The recap's category statement describes
+  what finalists solved, not the full final challenge set, so no category counts are
+  recorded. Podium: Boys Who Cry (1600), Alakadarnya (1036), Anak kemaren sore (972).

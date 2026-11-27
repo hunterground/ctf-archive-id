@@ -1,0 +1,88 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2022-qualification-rev-001
+name: 'Count the Flag but Easier'
+slug: 001-count-the-flag-but-easier
+original_name: 'Count the Flag but Easier'
+competition_id: national-cyber-week-ctf
+edition_year: 2022
+division_id: null
+round_id: qualification
+category: rev
+original_category: 'Reverse Engineering'
+description: |
+  Original statement (from the 2022 qualification challenge dump):
+  
+    Mikael is still struggling to find his way so the author makes an easier
+    way. Help him to get the value! Example if the value is 100 then write in the
+    answer NCW22{100}.
+  
+    Author: Lawson Schwantz #3021
+  
+  The distribution is countheflagbuteasier.txt, a listing of an x86-64 `fungsi`
+  routine that folds several constants through imul, lea, sal and sub; the answer
+  is the value the routine computes.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- assembly
+authors:
+- name: "Lawson Schwantz #3021"
+  team: null
+organization: null
+provenance:
+  archive_id: national-cyber-week-ctf-2022-ibnurusdianto
+  source_type: git
+  repository: https://github.com/ibnurusdianto/national-cyber-week-2022
+  commit: 04cf3a69320d5b6ef80af5b00a7d816cfd342583
+  original_path: 'Reverse Engineering/Count the Flag but Easier'
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2022 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Count the Flag but Easier by Lawson Schwantz #3021 for National Cyber Week CTF 2022,
+    imported via https://github.com/ibnurusdianto/national-cyber-week-2022
+  permission_reference: >-
+    The source repository declares no license. Archive maintainer instruction on
+    2026-11-26 records a source with no license file as MIT for archived NCW material.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: countheflagbuteasier.txt
+    algorithm: sha256
+    value: e614e5047b263c180f646bb802bfb6f3fccda50ecfe0a2dd5830f71b050d242d
+environment:
+  type: assembly
+  services: []
+  requirements: []
+references:
+- title: ibnurusdianto/national-cyber-week-2022 (2022 qualification challenge dump)
+  url: https://github.com/ibnurusdianto/national-cyber-week-2022/tree/04cf3a69320d5b6ef80af5b00a7d816cfd342583/Reverse%20Engineering/Count%20the%20Flag%20but%20Easier
+  type: third_party_archive
+  accessed: '2026-11-26'
+- title: Recap National Cyber Week 2022 (organizer announcement)
+  url: https://student-activity.binus.ac.id/csc/2022/11/national-cyber-week-2022/
+  type: organizer_announcement
+  accessed: '2026-11-26'
+verification: corroborated
+notes: |
+  NCW 2022 qualification challenge, worth 331 points with 11 solving
+  team(s) in the dump's scoreboard snapshot.
+
+  Provenance caveat: this material was obtained from a participant-collected dump of the
+  2022 qualification platform (see provenance), not from the organizer or the challenge
+  author. The dump's challs.json records the original statement, attachments and scoreboard
+  values, and the copied files match the attachments it lists, but this copy is not an
+  authoritative organizer source.
+
+  Only the challenge attachment(s) were copied. The dump's README.md wrapper and its
+  challs.json were not, since they are collection metadata rather than challenge
+  distribution. No solver was present in the source.
