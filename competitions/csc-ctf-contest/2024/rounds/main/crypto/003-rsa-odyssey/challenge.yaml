@@ -1,0 +1,83 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-crypto-003
+name: RSA Odyssey
+slug: 003-rsa-odyssey
+original_name: RSA Odyssey
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: Welcome to the RSA Odyssey
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: d4n
+  team: null
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Cryptography/rsa-odyssey
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 67bb0a8bbe1f6bbffd00357098fdcc223524761f4dcc2dfe000e629a6465359c
+  - path: chal.py
+    algorithm: sha256
+    value: ad0fa0e1fefaea439e9b626987606a1e01dc2f3f00a2a5cc23daf8da2b290c72
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 6fd9b7d4396c9579c3488f9468160382478332af16ab296b1c75f7bcb5a8bbf4
+  - path: output.txt
+    algorithm: sha256
+    value: 5eee679d95bf52e45bd069f14f05506bfe9d68bdeb7e223b8c60cda127eabf5d
+  - path: src/chal.py
+    algorithm: sha256
+    value: ad0fa0e1fefaea439e9b626987606a1e01dc2f3f00a2a5cc23daf8da2b290c72
+  - path: src/flag.txt
+    algorithm: sha256
+    value: c4988bec2ab22c455709c7f5e303e36f0544d5923a853f1bbcf921245145d446
+  - path: src/output.txt
+    algorithm: sha256
+    value: 5eee679d95bf52e45bd069f14f05506bfe9d68bdeb7e223b8c60cda127eabf5d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Cryptography/rsa-odyssey
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Cryptography/rsa-odyssey
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

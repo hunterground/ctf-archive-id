@@ -1,0 +1,28 @@
+schema_version: '1.0'
+id: warmup
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+name: Warm Up
+original_name: warmup
+sequence: 1
+type: warmup
+delivery: online
+description: Warm-up stage of the 2026 edition, published from the organizer repository's warmup
+  tree with six introductory challenges across all six categories.
+dates:
+  start: '2026-04-14'
+  end: null
+statistics:
+  challenge_count: 6
+  participant_count: null
+references:
+- title: csc-research-binus/csc-ctf-contest-2026
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The warmup tree enters the repository on 14 April 2026, and organizer commits on the same
+  day are titled "launch warmup session" and "successful warmup launch", which is the evidence for
+  a separate warm-up stage. All six challenges carry state hidden in their challenge.yml. The organizer
+  recap for the main contest does not name them, and no closing date is recorded, so end is null.

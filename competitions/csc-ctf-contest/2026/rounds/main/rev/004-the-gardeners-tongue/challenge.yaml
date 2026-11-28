@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-rev-004
+name: The Gardener's Tongue
+slug: 004-the-gardeners-tongue
+original_name: The Gardener's Tongue
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  My gardener talks differently from everyone else — she has her own special language that only she understands. \
+  My mom told me to deliver these seeds to her, but she won't accept them unless I speak her way first.
+  Can you help me figure out how she talks?
+
+  author: midn8
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- rev
+authors:
+- name: midn8
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Reverse Engineering/The Gardener's Tongue
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3107ac895f6de02d538335bf87e2293014aec8867f2f29c9f9708ec8c36395ff
+  - path: dist/source.zip
+    algorithm: sha256
+    value: 5df0f4decebc0486b96ff9e458d1b996ab015f3ca9410f0270bf36925b3da23c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Reverse Engineering/The Gardener's Tongue
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Reverse%20Engineering/The%20Gardener's%20Tongue
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 479 points under dynamic scoring.

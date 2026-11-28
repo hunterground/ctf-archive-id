@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-warmup-crypto-001
+name: data breach
+slug: 001-data-breach
+original_name: data breach
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: crypto
+original_category: warmup/Cryptography
+description: |-
+  Recently the light brokers leaked ayamsunib's password
+  my friend lyo's password hash got leaked is there any way
+  to crack this hash online? Help me I really want to get his account!
+
+  Flag format : CSC{password}
+
+  Author: Auric
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- warmup
+authors:
+- name: Auric
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: warmup/Cryptography/data-breach
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: b7a4e184048ae86dce0074d7028a93a0c2a8cb47085ef04440725f2e06db1f95
+  - path: dist/users.txt
+    algorithm: sha256
+    value: 64bae4ba21a588c2d50fbbb37b92016d7ae994c74d4f2384671cd470133f90ce
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - warmup/Cryptography/data-breach
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/warmup/Cryptography/data-breach
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer definition marks the challenge state as hidden, consistent with the warm-up
+  stage that was opened before the main contest.

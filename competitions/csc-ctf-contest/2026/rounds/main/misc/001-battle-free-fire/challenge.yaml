@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-misc-001
+name: Battle Free Fire
+slug: 001-battle-free-fire
+original_name: Battle Free Fire
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: misc
+original_category: Miscellaneous
+description: |-
+  Aku sedang bermain game tembak tembakan, waktu di lobby jaringan aku ngelag banget guys jadi nya aku coba reconnecting deh sampai berhasil...
+  Setelah in game, aku kaget kok gada siapa siapa ya ? aku kayaknya kepisah deh...
+
+  FORMAT : CSC{NamaTempatAkuSekarang}
+
+  author: yaaoware
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- misc
+authors:
+- name: yaaoware
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Miscellaneous/Battle-Free-Fire
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6480527b835d1fcec8e16568405f6f12f704132e3c4c3a5bab7944db29e3c726
+  - path: challenge.yml.example
+    algorithm: sha256
+    value: d7d412a7646a7757f4337f9dc68790fe52456abd385d396a5582ecadbb2337ee
+  - path: source.png
+    algorithm: sha256
+    value: 178ed263e3c6bfec0c1f81e40ae5a6f257149e58664a7659f067579e1de76ce5
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Miscellaneous/Battle-Free-Fire
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Miscellaneous/Battle-Free-Fire
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring. The directory
+  also carries a copy of the repository challenge template (challenge.yml.example), preserved as
+  distributed.

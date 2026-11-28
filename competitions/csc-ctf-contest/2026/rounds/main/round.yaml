@@ -1,0 +1,32 @@
+schema_version: '1.0'
+id: main
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+name: Main
+original_name: null
+sequence: 2
+type: other
+delivery: online
+description: 'Main CTF Contest of the 2026 edition, held online on Saturday 9 May 2026 across six
+  categories: Binary Exploitation, Cryptography, Forensic, Miscellaneous, Reverse Engineering and
+  Web Exploitation.'
+dates:
+  start: '2026-05-09'
+  end: '2026-05-09'
+statistics:
+  challenge_count: 24
+  participant_count: null
+references:
+- title: CSC CTF Contest 2026 (organizer recap)
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: csc-research-binus/csc-ctf-contest-2026
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: A single online contest scored with dynamic points, so the round id is main and the type is
+  other. All 24 main challenges are archived; the repository's separate warmup tree is recorded in
+  the warmup round.

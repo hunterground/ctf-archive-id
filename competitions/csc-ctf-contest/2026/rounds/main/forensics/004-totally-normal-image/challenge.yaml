@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-forensics-004
+name: Totally Normal Image
+slug: 004-totally-normal-image
+original_name: Totally Normal Image
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  Gambar ini terlihat biasa saja.
+  Tapi apakah kamu yakin tidak ada sesuatu yang tersembunyi di dalamnya?
+
+  author: "Erlangga"
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+authors:
+- name: Erlangga
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Forensic/Totally-Normal-Image
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: CB.jpg
+    algorithm: sha256
+    value: 49f35d9d3d25826b3e2e109231aa8c55f502ec247f8ec6eb9c48d26ee798abe4
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6a9c024de609d229a00a8fea454e9c2e57ef04bc074d6f6bb492579ff08f7d2a
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Forensic/Totally-Normal-Image
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Forensic/Totally-Normal-Image
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring.

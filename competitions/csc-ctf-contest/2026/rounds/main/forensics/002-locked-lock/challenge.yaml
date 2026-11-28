@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-forensics-002
+name: Locked Lock
+slug: 002-locked-lock
+original_name: Locked Lock
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  si Adit ini anak ambis yang dapet beasiswa dari SunibBank. Tapi ada syaratnya,
+  dia wajib bikin esai soal kepemimpinan minimal 500 kata, trus dikumpulin dalam
+  format .zip. Masalahnya, si Adit mentok, tulisannya ngga nyampe 500 kata.
+  Akhirnya dia minta tolong temennya, John. Si John ngebantuin sampe filenya beres
+  dikompres jadi .zip. Tapi pas mau dicek lagi, Adit curiga "ini si John nambahin
+  apaan yak ampe jadi 500 kata". Pas mau dibuka, ternyata zipnya dipassword!!?
+  Si John cuman bilang "Kuncinya ada di dalem file itu sendiri".
+
+  author: dorayaku
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- Forensic
+authors:
+- name: dorayaku
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Forensic/LockedLock
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: 29029029.zip
+    algorithm: sha256
+    value: da581aae1cb21c908ec46f5f3cc1dd28896b984eebefb087da68b2fad1a9d41d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0448b33c7625920639ca7aaa573abe688e859b3b6f714db7960b98ce8d56a607
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Forensic/LockedLock
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Forensic/LockedLock
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 176 points under dynamic scoring.

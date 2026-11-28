@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-pwn-003
+name: sawit
+slug: 003-sawit
+original_name: sawit
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  gacor king
+
+  <br>
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/i2JQMDgNOa8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  author: eld
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- pwn
+authors:
+- name: eld
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Binary Exploitation/sawit
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 73000b0899854a9121b2c4ad15697ffa2f071c712f74ec579e12e05ecb4465d4
+  - path: chall
+    algorithm: sha256
+    value: f0b894dd03cd684290dc395904d7aa124e1b48a66e2793fe58cebad4e5a1f4fb
+  - path: chall.c
+    algorithm: sha256
+    value: 39150143cc08b1db68c5b6ef2cf331a3f87684df79b80295f8dfdcc32d07362c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 05870c5130a8b6df7e7e1b01c69858ff68849218d92a9e5626d8be37e37bc8e6
+  - path: dist.zip
+    algorithm: sha256
+    value: 0b4e8dc9608f8bcde28a2d32ddb282f9b1f2ca2a86d4f47346ab64a5dae2f956
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 3510325b6637119a9e98fe506fcd82b8534a1b51a8c859d7243967d5e68d949c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Binary Exploitation/sawit
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Binary%20Exploitation/sawit
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring. The organizer
+  challenge definition records the service at `nc jujucloud.ddns.net 50004`. The endpoint is historical
+  and not depended on.

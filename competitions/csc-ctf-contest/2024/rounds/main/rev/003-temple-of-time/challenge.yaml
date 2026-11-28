@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-rev-003
+name: Temple of Time ⌛
+slug: 003-temple-of-time
+original_name: Temple of Time ⌛
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  I have to go 🏃‍♂️
+
+  `nc 103.185.44.248 1338`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Reverse Engineering/temple-of-time
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8c635fcf8e5c780ee6a6863fde57e9153e4eb8e660d9727ae3800f8874c9f44c
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 87826ba6290d7ab851ef9204f11134e5cae15698740d76dfe72c3d29be77841f
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: bee3238d5296f0035b76cb363912b9cbbfb5dabd85162a9b9a16a908ee28581c
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: ec3b2d18505637cb553a7012eb185edbe7bfd998a265e7589ba982729c8936f6
+  - path: src/run.sh
+    algorithm: sha256
+    value: c6dc7803be0e7fecc17e70e0d63a7a7eb7fe68910835cc605dcb8eadd6b5e7b4
+  - path: src/start.sh
+    algorithm: sha256
+    value: b55c86bf742fa8a4d196bf177890e1107d3fa5141563b0dd9f9af37d3109e743
+  - path: src/temple
+    algorithm: sha256
+    value: 990731df74dcf55a74e127e4c513a0657d7537fb3d5584b2470d3a3642997204
+  - path: src/temple_of_time.c
+    algorithm: sha256
+    value: 711e5c335918b6522038182f72dba727b308f477bda8d1db3b1aa2c45c3d26c6
+  - path: temple
+    algorithm: sha256
+    value: e9a945c611ea41b5659a149abf4d282a1d618b41b5c927d770034dd8b56943ab
+  - path: temple_of_time.c
+    algorithm: sha256
+    value: 533334ebd7a15809f4d8d8e5efadca62c8bac2ccb9ee33cd226acff7591f557a
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Reverse Engineering/temple-of-time
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Reverse%20Engineering/temple-of-time
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: Author writeup collection (mud.gitbook.io)
+  url: https://mud.gitbook.io/ctf-writeup/
+  type: writeup
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 1338. The source README
+  points to the author writeup at https://mud.gitbook.io/ctf-writeup/. Category follows the organizer
+  directory the challenge was filed under; the source label is preserved in original_category. The
+  source states no difficulty, so difficulty is left unknown.

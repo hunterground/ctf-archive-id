@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-warmup-rev-002
+name: Seeds to all the trees
+slug: 002-seeds-to-all-the-trees
+original_name: Seeds to all the trees
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: rev
+original_category: Warm Up
+description: Tree!!!!!!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- warmup
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Warm Up/seeds-to-all-the-tress
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: ce76599452f9bc5bc3ec4871b84cc38da68cd70e2fab9e5a44589a65c295eb38
+  - path: trees
+    algorithm: sha256
+    value: 83467c8211b89c4515423eaa2d51b32af263abe05b84d6f5dcd818e45a17f155
+  - path: trees.c
+    algorithm: sha256
+    value: 1af9cb803ffb94260e24d416ee7c40e81210628d111a05c4e89f1388eb3ad614
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Warm Up/seeds-to-all-the-tress
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Warm%20Up/seeds-to-all-the-tress
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

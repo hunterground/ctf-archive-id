@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-crypto-001
+name: Flashtime⚡
+slug: 001-flashtime
+original_name: Flashtime⚡
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Are you fast enough Flash?
+
+  `nc 103.185.44.248 13339`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Cryptography/flashtime
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 10c9944983126561223515dbc6a0cde489539833f51522c0cf003cbda4e9e086
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 4688f505add2a0097ac5010ee5aeddd84f749c2d6048fac8b5ec909d91a8a517
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e80b8574a0078955870ff03b4e6350bc91f0b65a8e69c11486ec6e536517f4fc
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 12ff55d526c8325a5b8f0c05876abeff517fe060b82146b08754c0ec2d13735f
+  - path: src/flashtime.py
+    algorithm: sha256
+    value: 4a15cd90ba4ec2c4430593e69fe50d9f85e845ce54cc60915fabb2cb97ffef00
+  - path: src/run_in_pty.sh
+    algorithm: sha256
+    value: bd7f6f8abfa8e1a49e9a47691823f1be4b4e96b11bc797cd82c50ad82eae6957
+  - path: src/start.sh
+    algorithm: sha256
+    value: 0eaa774256d2b0cfd2dda3c73faffb32c85d560e365118359cd70b786e1679e2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Cryptography/flashtime
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Cryptography/flashtime
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 13339. Category follows
+  the organizer directory the challenge was filed under; the source label is preserved in original_category.
+  The source states no difficulty, so difficulty is left unknown.

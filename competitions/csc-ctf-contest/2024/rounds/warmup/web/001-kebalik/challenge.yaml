@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-warmup-web-001
+name: kebalik
+slug: 001-kebalik
+original_name: kebalik
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: web
+original_category: Warm Up
+description: |-
+  Aduhh ini napa kebalik cuk???
+
+  <a href="http://103.185.44.248:5005/">http://103.185.44.248:5005/</a>
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- warmup
+authors:
+- name: bwe
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Warm Up/web-exploitation-kebalik
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 7bb165d04583182ff8e40f22a465aadd147fcc9ea10819ad326679f1b676a2ec
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2924da2d91b06e159913f9f6f0b6ed4fb2bb989563efd519a6c17e5b0b2f45a7
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 663b010f4f8ceab58653101a6cf01657a9119aa44f6ba9e3432efd93783d01b5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: f2e51720dd58a24449bf7fbf455d542bec02f139e91834f7cfc0b8416d0e5d23
+  - path: src/index.js
+    algorithm: sha256
+    value: ecc6e3f1a0cd32147c87376b09a443618ec43087778d5616af24d3f1c3dd5a71
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: be6edae0607c116549b0c866432d17676254cc001c3d874d54699c1051a85d60
+  - path: src/package.json
+    algorithm: sha256
+    value: 6d952de147b8cbd718a5690b35818acee40f13e2d43a0b529b9508ab642c4cb2
+  - path: src/public/happy.jpg
+    algorithm: sha256
+    value: 12787f4503c19d93c92e9b7da31d6251f5175255ec1d59cc0fbcc129970c6f68
+  - path: src/public/patrick.jpg
+    algorithm: sha256
+    value: 78515e49df8d496650624fdd3346eb64db34afc9b01543a51917de065ed920b4
+  - path: src/public/sad.jpg
+    algorithm: sha256
+    value: 8460df2e680b2911e9bec04cd082b158fd3651fae78fe2d31ef3d16fa1befc3f
+  - path: src/start.sh
+    algorithm: sha256
+    value: 56376320616e5f0732a734d77c064314a713ec25c0a9a6994f0779b4d2edab0c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Warm Up/web-exploitation-kebalik
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Warm%20Up/web-exploitation-kebalik
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at http://103.185.44.248:5005/. Category
+  follows the organizer directory the challenge was filed under; the source label is preserved in
+  original_category. The source states no difficulty, so difficulty is left unknown.

@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-forensics-002
+name: sussy bytes
+slug: 002-sussy-bytes
+original_name: sussy bytes
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: whot da hail happen to ma audio file?? help fix plez
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Forensics/sussy-bytes
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d801a081c2706c74d59bd3e8037ef257a862881e1f7fb12ba5b6cef25749e03d
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 08141dd9999ca08b4552766396f666b990c12b1d4d26ff4b9b086c25c068505d
+  - path: src/no_longer_sus.mp3
+    algorithm: sha256
+    value: d41668944eff1003cfa8b6f1652f398e4c639a7affc14dec3727eed66389dc07
+  - path: src/sus.mp3
+    algorithm: sha256
+    value: d5ef94837d7e3e0cace8c66dc9d9d65cd092c81148e32760d6d21dc512162799
+  - path: sus.mp3
+    algorithm: sha256
+    value: d5ef94837d7e3e0cace8c66dc9d9d65cd092c81148e32760d6d21dc512162799
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Forensics/sussy-bytes
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Forensics/sussy-bytes
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

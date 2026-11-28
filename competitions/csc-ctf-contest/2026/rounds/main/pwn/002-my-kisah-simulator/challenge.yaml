@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-pwn-002
+name: my_kisah_simulator
+slug: 002-my-kisah-simulator
+original_name: my_kisah_simulator
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  capek bet dahh buat soal mending nyari my kisah
+
+  author: imkun
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- pwn
+authors:
+- name: imkun
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Binary Exploitation/my_kisah_simulator
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 7951d31e7d8e27bbbbdfc57ee1477f519af10c2dce01a46c46bfeffba2b42c88
+  - path: challenge.yml
+    algorithm: sha256
+    value: b0ba7aa952cb0df408a452c36a515d3e7eba1da3f71068a8354473c9a42b8f2e
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: cded49f42adcaf6077eee0d4980627aea1dea2f323690c617393b6d866b8bb79
+  - path: dist/my_kisah_simulator
+    algorithm: sha256
+    value: ee23edcdddd1b72b9de00bdd9cb7492cc393b1137114eb972c373f99c550144e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c21931a3419c38b1376a26adcdfb1e8d4bea2a675ac08b76a5078e3894a125a2
+  - path: flag.txt
+    algorithm: sha256
+    value: a14e466e725698c1d7c1bd3df2da21483d2b7ec2a48589d54e452ef5ad5ca36f
+  - path: heap.c
+    algorithm: sha256
+    value: 75ffff6d26474a9997636cc577d10667eef52c5631abb612b0a7983d70c80ebe
+  - path: my_kisah_simulator
+    algorithm: sha256
+    value: ee23edcdddd1b72b9de00bdd9cb7492cc393b1137114eb972c373f99c550144e
+  - path: run.sh
+    algorithm: sha256
+    value: 455584d33d49de5ef218590651083057a89ec5a5c73a7652e514ff5101c35314
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Binary Exploitation/my_kisah_simulator
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Binary%20Exploitation/my_kisah_simulator
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 499 points under dynamic scoring. The organizer
+  challenge definition records the service at `nc jujucloud.ddns.net 50007`. The endpoint is historical
+  and not depended on.

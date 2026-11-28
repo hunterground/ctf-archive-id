@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-crypto-002
+name: Optimus Prime™
+slug: 002-optimus-prime
+original_name: Optimus Prime™
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  Prime formula + prime knowledge = Flag 😋
+
+  `nc 103.185.44.248 1347`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Cryptography/optimus-prime
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d09746e4621b5640906723570f37e72c444705037ff4751e32d6d22cfbf0fdb2
+  - path: challenge.yaml
+    algorithm: sha256
+    value: fb103650ad555d4b30c47305cecc79ea1e7aa6e8ea54959648b4731561261416
+  - path: optimus.py
+    algorithm: sha256
+    value: 91d307e0ca1d070b14bc27574f93dad48302cc39feceabf39e15917c21c2d1af
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5b8936b8bb4ed06e5943e4daeb8fb10968dad972dcffe0edf718155900a5b6fc
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: f828d379cad14dced26ead3362d748380f83c40d81a5dee77f1575d2b10420f8
+  - path: src/optimus.py
+    algorithm: sha256
+    value: a6840ce352b0901a124851d8ca9f21b063758e6a854786103f442523ef302549
+  - path: src/run.sh
+    algorithm: sha256
+    value: 68bfdc10ac3725cff924d9c78e539df4d2e115a02ab1e02045b0cf207282c351
+  - path: src/start.sh
+    algorithm: sha256
+    value: b55c86bf742fa8a4d196bf177890e1107d3fa5141563b0dd9f9af37d3109e743
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Cryptography/optimus-prime
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Cryptography/optimus-prime
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: Author writeup collection (mud.gitbook.io)
+  url: https://mud.gitbook.io/ctf-writeup/
+  type: writeup
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 1347. The source README
+  points to the author writeup at https://mud.gitbook.io/ctf-writeup/. Category follows the organizer
+  directory the challenge was filed under; the source label is preserved in original_category. The
+  source states no difficulty, so difficulty is left unknown.

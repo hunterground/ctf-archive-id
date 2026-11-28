@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-warmup-web-001
+name: ehehe
+slug: 001-ehehe
+original_name: ehehe
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: web
+original_category: warmup/Web Exploitation
+description: |-
+  Males bikin skenario panjang-panjang,
+  authornya lagi pusing ngurusin server
+  Intinya web ini nyimpen rahasia, Cari aja sendiri
+  Gausah pake tools aneh-aneh apalagi di-bruteforce, kasian docker-nya
+
+   Author : eld
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- warmup
+authors:
+- name: eld
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: warmup/Web Exploitation/challenge
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e222770bde250b5dd4508de5a4509bb51a0b2efef8d477c9838ab4a64fffdf52
+  - path: challenge.yml
+    algorithm: sha256
+    value: d32577915ddbb883fe006402fefe27a3467955d46cd3c532e737e1f1352ba9ba
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 7ecb088a842adbda09fd3166d0adb5002d85bfd4a949b06481b779c36e52d6d3
+  - path: src/index.html
+    algorithm: sha256
+    value: c374ca15a9a3dad5f82b3d4a39f5b3a5c23462f8780c0867e44a92a4861621f1
+  - path: src/robots.txt
+    algorithm: sha256
+    value: 493bda81ad7c37755090b00af943fc7c92c3ea53f7dd4f4db3ca9d658fd8c8c2
+  - path: src/secret/index.html
+    algorithm: sha256
+    value: d1c73a9f1077ade785a03db8c58a0038d907e29c86e25d7bbd6904b928439083
+  - path: src/secret2/index.html
+    algorithm: sha256
+    value: 4caf3ceeeebb74603f7e0f7a06f04817eeface856609917397b0518b14f731a9
+  - path: src/secret67/index.html
+    algorithm: sha256
+    value: ba3d959997f84cf72ac342dbe17f69381bd713155d78d6de6c2e13ff2e2d926d
+  - path: src/secretss/index.html
+    algorithm: sha256
+    value: cfdad242724fdf0b586cd059543c0c5872a727d8207e2428ac4c488d38089a1f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - warmup/Web Exploitation/challenge
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/warmup/Web%20Exploitation/challenge
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer challenge definition records the service at `jujucloud.ddns.net:60001`. The
+  endpoint is historical and not depended on. The organizer definition marks the challenge state
+  as hidden, consistent with the warm-up stage that was opened before the main contest.

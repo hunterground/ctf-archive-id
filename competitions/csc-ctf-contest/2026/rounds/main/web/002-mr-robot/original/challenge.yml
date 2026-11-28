@@ -1,0 +1,30 @@
+name: "Mr. Robot"
+author: "bob"
+category: "Web Exploitation"
+description: |
+  Mr. Robot sering banget lupaan orangnya, dia dan istrinya ada bikin website, dan website itu berisi pesan istrinya sebelum meninggal. Tapi dia lupa username dan passwordnya. Bisa bantu Mr. Robot buat login ke website tersebut?
+  
+  [http://jujucloud.ddns.net:50002](http://jujucloud.ddns.net:50002)
+
+  author: bob
+connection_info: http://jujucloud.ddns.net:50002
+# JANGAN DI UBAH
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: visible
+# JANGAN DI UBAH
+
+flags:
+  - content: "CSC{disallow-page-robots-txt}"
+    type: static
+
+tags:
+  - medium
+
+files: []
+
+hints: []

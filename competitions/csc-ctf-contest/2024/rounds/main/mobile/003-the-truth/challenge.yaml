@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-mobile-003
+name: The Truth
+slug: 003-the-truth
+original_name: The Truth
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: A long time ago I met an old man who give me this app. The old man said "In the depths,
+  the secrets of the soul are whispered, waiting to be discovered by those who dare to delve."
+difficulty:
+  value: null
+  source: unknown
+tags:
+- mobile
+authors:
+- name: ptr
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Mobile/the-truth
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 62ef7a7a0292758aaf4d8fd4fb372f0e1fa920b088f92d9f1404629751c42c8c
+  - path: TheTruth v3.0.apk
+    algorithm: sha256
+    value: 4d63b32c024258cc32d3d5828e34031277fc6799fe0dc6b42a5c1ab36ebd2c94
+  - path: challenge.yaml
+    algorithm: sha256
+    value: f628da854b5521aac78e642f4ed4371198a6b0485ddeb7f6dabe5cd1130bdbc1
+  - path: src/TheTruth v3.0.apk
+    algorithm: sha256
+    value: 4d63b32c024258cc32d3d5828e34031277fc6799fe0dc6b42a5c1ab36ebd2c94
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e27a7e98a2902a5277d7eb77cc77dac793209e43b916851ce0d8ea3b57bdba28
+  - path: src/native-lib.cpp
+    algorithm: sha256
+    value: df91aa0b8231c054c84a812cd4ee88f6868a048c0faddd19def17ea3c427cb3f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Mobile/the-truth
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Mobile/the-truth
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

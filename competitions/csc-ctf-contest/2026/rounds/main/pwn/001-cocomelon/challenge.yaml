@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-pwn-001
+name: cocomelon
+slug: 001-cocomelon
+original_name: cocomelon
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Yeayyy! Ayo nyanyi bareng JJ! Kaka tau ga lirik lagunya sepanjang apa?
+
+  Tapi hati-hati yaaa, di dalam lagunya ada burung canary peliharaan JJ yang suka gigit kalau lagunya kepanjangan! Bisa ga kaka bantuin JJ ngelewatin burung canary-nya
+
+  Author: Fuli
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- pwn
+authors:
+- name: Fuli
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Binary Exploitation/cocomelon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4d9743df953451bdb9c81891d4c242772b547b246f5f334e76634f9fb21cf694
+  - path: dist/canary.txt
+    algorithm: sha256
+    value: 2880be0082714c8cfcbbb8f2005dbd55789ca97cae25970055776177ee7e33c7
+  - path: dist/chall
+    algorithm: sha256
+    value: cfee3f64abfc7a0c3894dabe334b8deb474c13fec4862641ef4a18d40080e1df
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 278a1fcb4b09f64800034ce30f391811276b699a2cef4f90c931450b64c0b52e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1173cddd3ef94654857914c9e968cf8571541f2d6f23306bf0f8ad919c40e117
+  - path: src/canary.txt
+    algorithm: sha256
+    value: 2880be0082714c8cfcbbb8f2005dbd55789ca97cae25970055776177ee7e33c7
+  - path: src/chall
+    algorithm: sha256
+    value: cfee3f64abfc7a0c3894dabe334b8deb474c13fec4862641ef4a18d40080e1df
+  - path: src/chall.c
+    algorithm: sha256
+    value: c8617f5953d2d1fb2512b09052186e64110e80f4e8bca8094a297ca739c199bf
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 733c67ae7c7b2ebd28b0d39e2017a52fa12d075f22ce2ab1b12a3efb8134560d
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 0933431e8dfee1784ce8cda0da0a9ac1fe0a4912152a1fabb6f387ba8a12704f
+  - path: src/run.sh
+    algorithm: sha256
+    value: 7cc92a8f8d5e0b73923f2bc513706b61f9b46f65c96265266b032f886cce14dd
+  - path: src/start.sh
+    algorithm: sha256
+    value: 516038b81c42ec6fa6c25ba20d0baa1a86514fc8b95417fc30ee6b1ec68f3c5e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Binary Exploitation/cocomelon
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Binary%20Exploitation/cocomelon
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 479 points under dynamic scoring. The organizer
+  challenge definition records the service at `nc jujucloud.ddns.net 50005`. The endpoint is historical
+  and not depended on.

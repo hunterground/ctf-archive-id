@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-rev-002
+name: Mesin Kebalik
+slug: 002-mesin-kebalik
+original_name: Mesin Kebalik
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Sebuah file binary yang tampaknya meminta input berupa "Admin Key". Namun, tujuan utama dari challenge ini adalah untuk menganalisis binary tersebut menggunakan teknik reverse engineering untuk menemukan flag yang tersembunyi di dalamnya.
+
+  author: Piwww
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- rev
+authors:
+- name: Piwww
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Reverse Engineering/Mesin_Kebalik
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 2a1780a3c50f30f54d5636be91cb027dfdc7e6b7fce451817bd95af58388e84f
+  - path: dist/chall.exe
+    algorithm: sha256
+    value: cd22779f8fe6ea113007e697d7a49fa1e5c0427ba6c6c2001bd938ddc9d2ff8c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Reverse Engineering/Mesin_Kebalik
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Reverse%20Engineering/Mesin_Kebalik
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring.

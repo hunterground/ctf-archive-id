@@ -1,0 +1,28 @@
+name: "challenge_name"
+author: "author_name"
+category: Miscellaneous # Set matching category
+description: |
+  Challenge description goes here.
+
+# DO NOT MODIFY
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: visible
+# DO NOT MODIFY
+
+flags:
+  - content: "CSC{flag}"
+    type: static
+tags:
+  - easy # Set challenge difficulty
+files: []
+
+# If challenge has attachments, uncomment and specify file paths:
+# files:
+#   - dist/attachment.zip
+
+hints: [] # Leave empty unless approved

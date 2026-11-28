@@ -1,0 +1,107 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-web-001
+name: CSC Bank
+slug: 001-csc-bank
+original_name: CSC Bank
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  Something is wrong with this bank account. Could you help out?
+
+  [http://jujucloud.ddns.net:50001](http://jujucloud.ddns.net:50001)
+
+
+  author = lixdy
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- web
+authors:
+- name: lixdy
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Web Exploitation/CSC-Bank
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: app/Dockerfile
+    algorithm: sha256
+    value: 70c353cf648ee29b7a945caa2a1cc2b6d5189105d8ec69126bce3c0373eb0ba2
+  - path: app/app.py
+    algorithm: sha256
+    value: 5545ddc525964384f944554e7b158de939fcf4b7479f1323e4eeac8894b21b01
+  - path: app/requirements.txt
+    algorithm: sha256
+    value: 1a8d822907aa86ad025df2e8dd8226e92d5fbc9ac4a05a5f73a10f19ff96348b
+  - path: app/templates/base.html
+    algorithm: sha256
+    value: 8d71530ab5a8fa9cd02ffeab8dba0948fcda6a36cd21b5e53f4fde96e44d11fe
+  - path: app/templates/dashboard.html
+    algorithm: sha256
+    value: 978a946241ca6bec8aced7b7eb653db88af438c1e141947925b313881af830bc
+  - path: app/templates/error.html
+    algorithm: sha256
+    value: 8390bd2ac0cb30ca4b6622895ff782ccd01e9dc10da077ffc99634acb930c348
+  - path: app/templates/index.html
+    algorithm: sha256
+    value: b315ced1130efe93838f0e6b026802e1deb04c9eff3c738fd8e013763c89f4cd
+  - path: app/templates/login.html
+    algorithm: sha256
+    value: 75797e97518436e233adebd952ec923a7588f1f10f1f2328b2afd21b5d798624
+  - path: app/templates/register.html
+    algorithm: sha256
+    value: cf61095b245479cc6ffc2211ccdb2d2ceb53e0ac2a568e4e3cd5b679f495144f
+  - path: app/templates/transactions.html
+    algorithm: sha256
+    value: b4cf20745aabbe5df16f56437256556ad988f3d7c802e7c743783f96993299a2
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6b29f8528ba8e0cc3e269d72bcdfe410860a4c5a284baa1bfb72dc17c1be25a2
+  - path: challenge.yml.example
+    algorithm: sha256
+    value: d7d412a7646a7757f4337f9dc68790fe52456abd385d396a5582ecadbb2337ee
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 96f3e367fa1521bd2868e32a4cba4fbe1f3684345b758d04f3db437533b80028
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Web Exploitation/CSC-Bank
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Web%20Exploitation/CSC-Bank
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 484 points under dynamic scoring. The organizer
+  challenge definition records the service at `http://jujucloud.ddns.net:50001`. The endpoint is
+  historical and not depended on. The directory also carries a copy of the repository challenge template
+  (challenge.yml.example), preserved as distributed.

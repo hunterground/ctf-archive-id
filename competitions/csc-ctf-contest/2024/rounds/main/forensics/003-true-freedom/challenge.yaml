@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-forensics-003
+name: true freedom
+slug: 003-true-freedom
+original_name: true freedom
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: MAKE AMERICA GREAT AGAIN
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: Steven
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Forensics/true-freedom
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 80b1936930c761ca2118806c608b3d2053620f21fe8f520de594e1b1ba42f097
+  - path: chaewonn.png
+    algorithm: sha256
+    value: 1c976b86b7edf438ca7434017c6e95fcb5720f69d4930a8c5ec3531f7963100c
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 3093343b941258a9c366ce72af03123375f04c1d917d526c0b7920d381f42933
+  - path: src/chaewonn.png
+    algorithm: sha256
+    value: 1c976b86b7edf438ca7434017c6e95fcb5720f69d4930a8c5ec3531f7963100c
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Forensics/true-freedom
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Forensics/true-freedom
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

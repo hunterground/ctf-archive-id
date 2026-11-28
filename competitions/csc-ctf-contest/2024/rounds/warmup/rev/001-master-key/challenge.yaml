@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-warmup-rev-001
+name: Master Key
+slug: 001-master-key
+original_name: Master Key
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: rev
+original_category: Warm Up
+description: good luck on finding the master key!
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- warmup
+authors:
+- name: cipichop
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Warm Up/rev-master-key
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d00f60cb9fbbe4cbc389033c7ecaa0788bf381233b9d88cd0956f02e13390a25
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 334e02439a4b6d6b607711ae6f6caafa5548e4a6811bb812d2f2df7f8525086a
+  - path: master-key.zip
+    algorithm: sha256
+    value: 44957bb8cdf240783a120cf993a43eb06116402a81f3f2b91bb03ff0bb11235e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Warm Up/rev-master-key
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Warm%20Up/rev-master-key
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

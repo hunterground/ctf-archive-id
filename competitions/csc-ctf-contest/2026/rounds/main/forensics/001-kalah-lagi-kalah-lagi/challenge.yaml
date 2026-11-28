@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-forensics-001
+name: kalah-lagi, kalah-lagi
+slug: 001-kalah-lagi-kalah-lagi
+original_name: kalah-lagi, kalah-lagi
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  Ini team kalah mulu dah, heran deh liatnya
+
+  author: ramothy
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+authors:
+- name: ramothy
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Forensic/kalah-lagi, kalah-lagi
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: chall.zip
+    algorithm: sha256
+    value: a9d72c56256e8dc1c5a2167262e69a442c3f53f3953e4980434ea25f34448503
+  - path: challenge.yml
+    algorithm: sha256
+    value: c1c5f2adab9d978e977de7a60924931147ff29520ebf7a85ecea55d426249139
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Forensic/kalah-lagi, kalah-lagi
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Forensic/kalah-lagi,%20kalah-lagi
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 464 points under dynamic scoring.

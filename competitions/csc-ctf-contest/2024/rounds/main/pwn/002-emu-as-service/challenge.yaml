@@ -1,0 +1,115 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-pwn-002
+name: emu as service
+slug: 002-emu-as-service
+original_name: emu as service
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  honestly it's strange that we have to go through all these steps to get the famous "Ot0R!Emu" secrets.
+  she made prod and demo version and both of them have some kind of key for protection, too bad im only manage to steal the demo version :(
+  so rn your goal is to hacked into emu otori service and obtain the secret of society message!
+  the demo version had prebuilt-in keys so don't worry to much ;)
+
+  `nc 103.185.44.248 1337`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: m3rrow
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Binary Exploitation/emu-as-service
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cec65a3ff0f8aaa114c905625778a89dec02f8093fe589aea8ab99bb4842ca3b
+  - path: chall_demo
+    algorithm: sha256
+    value: 628dd3545460a63bf558ca4c07f89e62265f26a9a9d814fe9c41eeb705c947d4
+  - path: chall_demo.zip
+    algorithm: sha256
+    value: 8c4f4082a362d7c1e4feaf02d1911c5f1e398affc7018274b58b6c7583589cd9
+  - path: challenge.yaml
+    algorithm: sha256
+    value: b8363bec2e82d5235072f307dbaa233bf1683664b0212207a468dbef493278bf
+  - path: secret_message.txt
+    algorithm: sha256
+    value: e64e9be92ebf95b7a63fae0e0ae0efc0fe876160cdde37a2846117115b7c23cd
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 142a837df9c25df1c595c3e18a1cc63dffd16ad6f224ae79308210a46fcc50ad
+  - path: src/chall
+    algorithm: sha256
+    value: 884d38948d30ae402aaaaa2eeb7d8be785ff8cee2950b10c632c8641b6081501
+  - path: src/chall.c
+    algorithm: sha256
+    value: 22aa7cda1ba81692cab6b27918c2cdf5579e488fc2065daeb351f20a9c90be34
+  - path: src/chall_demo.c
+    algorithm: sha256
+    value: a8f524f81b7048324646ef7b4eacab86c13f1b8becd53e67442e9ceca1353b14
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 72f4877fb739bb029b929ddf154d97a0c51eae9be277066b0683cd92c3f5c194
+  - path: src/emu_giv_u_flag.jpg
+    algorithm: sha256
+    value: ae94cc3536ed271e933a396e5f08a58d2324a60abdbe65f59b2ad9e241c4df11
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 87d7dc0c3ea99d0ca5dd8d37b85304a88bcfb3edc8b3543e402b384171beba1e
+  - path: src/how-to-set-me.txt
+    algorithm: sha256
+    value: d2c48a68f820286000e22852efbdac82e93c23658829e2660bd195b634a96b38
+  - path: src/run.sh
+    algorithm: sha256
+    value: bad6774802b35785f5ad345dae06c19ea7258ff4f4f2f09f9708c6f11c88fe43
+  - path: src/start.sh
+    algorithm: sha256
+    value: 53075a72b6f13bf770143e1c3750d8f0f582afbb9aafeab15fecd47f68b6089b
+  - path: src/template_docker.zip
+    algorithm: sha256
+    value: 0d97fb8e32f67e0b2278c5ab6dfcb1eb76c15c2a9ddefe684af450ca21ab562e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Binary Exploitation/emu-as-service
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Binary%20Exploitation/emu-as-service
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 1337. Category follows
+  the organizer directory the challenge was filed under; the source label is preserved in original_category.
+  The source states no difficulty, so difficulty is left unknown.

@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: main
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+name: Main
+original_name: null
+sequence: 2
+type: other
+delivery: online
+description: 'Main CTF Contest of the 2024 edition, held online on 23 June 2024 across six categories:
+  Binary Exploitation, Cryptography, Forensics, Mobile, Reverse Engineering and Web Exploitation.'
+dates:
+  start: '2024-06-23'
+  end: '2024-06-23'
+statistics:
+  challenge_count: 18
+  participant_count: 47
+references:
+- title: 'CTF Contest: Cybersecurity Skills in the Digital Age (organizer recap)'
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: csc-research-development/ctf-contest-archive
+  url: https://github.com/csc-research-development/ctf-contest-archive
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The 2024 edition is a single online contest with no divisions, so the round id is main and
+  the type is other rather than qualification or final. The challenge count covers the 18 challenges
+  in the six main categories; the source's Warm Up tier is recorded in the separate warmup round.

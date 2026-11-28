@@ -1,0 +1,55 @@
+schema_version: '1.0'
+id: csc-ctf-contest
+name: CSC CTF Contest
+country: ID
+organizer:
+  name: Cyber Security Community (CSC), BINUS University
+  website: https://student-activity.binus.ac.id/csc/
+website: https://csc.tf/
+description: Capture The Flag competition run by the Cyber Security Community (CSC), the cybersecurity
+  student activity unit of BINUS University, as a recurring internal contest for its members and
+  BINUS students. Editions are organized by the community's research and development divisions and
+  are distinct from the community's National Cyber Week CTF.
+metadata:
+  established_year: null
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: corroborated
+references:
+- title: CTF Contest CSC 2023
+  url: https://student-activity.binus.ac.id/csc/2023/08/ctf-contest-csc-2023/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: 'CTF Contest: Cybersecurity Skills in the Digital Age (2024)'
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2025
+  url: https://student-activity.binus.ac.id/csc/2025/06/csc-ctf-contest-2025/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: CSC CTF event site
+  url: https://csc.tf/
+  type: official_website
+  accessed: '2026-11-28'
+notes: |-
+  Event Identity
+  - Distinct event: This is the community's own internal CTF Contest, separate from the National Cyber Week (NCW) CTF that the same community organizes. The NCW record already excludes these editions, and this record is not a division of NCW.
+  - Organizer: CSC BINUS announces and recaps each edition on its student-activity site. The editions here were built by the community's research divisions, which own the challenge repositories (csc-research-development for the 2024 archive, csc-research-binus for 2026).
+  - Naming: The organizer writes both "CTF Contest" and "CSC CTF Contest" for the same series; the repository and recap titles are preserved in the references.
+
+  Editions And Sources
+  - 2023: Announced with a warm-up on 20 July 2023 and the main contest on 21 July 2023, six categories, 3-4 challenges each, and a writeup requirement. No challenge material was located, so no 2023 edition record or directory exists yet.
+  - 2024: Online on 23 June 2024, 10:00-21:00, 47 participants. Fully archived from the organizer repository csc-research-development/ctf-contest-archive, which is byte-identical to the working checkout; the set is 18 main challenges plus 5 warm-up challenges.
+  - 2025: Main contest on 1 June 2025. The recap names challenges including data breach, mikumiki, Misc Warmup, Reverse Warmup and Skidil Invasion, which also exist in the 2026 repository; no 2025 organizer repository was found, so no 2025 edition is recorded and the reuse is not asserted as a fact about either edition.
+  - 2026: Online on Saturday 9 May 2026, with a warm-up stage committed from 14 April 2026. Fully archived from the organizer repository csc-research-binus/csc-ctf-contest-2026, 24 main challenges plus 6 warm-up challenges.
+
+  Scope And Licensing
+  - The two organizer repositories carry no LICENSE file. Per archive curation policy and maintainer instruction, unlicensed source material is treated as MIT and redistribution is recorded as permitted with attribution to the named challenge authors.
+  - Only challenge material is archived. Repository CI/deployment automation (GitHub Actions workflows, the docker up/down helper scripts, and the category challenge.yml.example templates at repository root) is repository tooling, not challenge distribution. A challenge.yml.example that was committed inside an individual challenge directory is kept with that challenge instead.

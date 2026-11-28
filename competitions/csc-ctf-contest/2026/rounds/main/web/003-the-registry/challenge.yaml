@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-web-003
+name: The Registry
+slug: 003-the-registry
+original_name: The Registry
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  "Yo, di sini ada lampu! Aslab lagi butuh asisten baru, daftar buruannnn.
+  BTW, di web pendaftarannya ada 'Golden Ticket' biar lu langsung auto-pass
+  jadi aslab tanpa tes, tapi ya lu harussss usaha dikit buat nemuinnya. obok2 kink!"
+
+  [http://jujucloud.ddns.net:50003](http://jujucloud.ddns.net:50003)
+
+  author: diX
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+authors:
+- name: diX
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Web Exploitation/Registry
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 16e330df622a0dd293ad849939f1fe1ddc6109da96ef7e1a6b14cc93b08891d9
+  - path: dist/source.zip
+    algorithm: sha256
+    value: 000cc35889a8460836bd2da7841495c8f59ffcb3b5f1a6452995a065189b8f3e
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: ce2146ecc168e078c43fa2a81bbc06703d6f6f487a3d785015ee2b24e28f45d5
+  - path: source/Dockerfile
+    algorithm: sha256
+    value: 5b5f364e2498448eb7f438453e9cfb72da75cb5efab6452b94b6da0c672378ea
+  - path: source/app.py
+    algorithm: sha256
+    value: 78c71e2e7dd3c123f39f718516081f7a0811746e9985250f1387fba3100e2769
+  - path: source/flag.txt
+    algorithm: sha256
+    value: 7c97d4def2d6da2a3488cdb453dbb350eec984c13c0ddd60333aefe356e0123b
+  - path: source/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: source/templates/index.html
+    algorithm: sha256
+    value: 4ccbccccc6324e8b3a57da81a598dd7bc30b4152d5bab70bbe1c522703f8f19b
+  - path: source/templates/preview.html
+    algorithm: sha256
+    value: c0ccc9305e4166dfc9036aa5144459831b7f4058909cd28cd8d043efcaaf8ac8
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Web Exploitation/Registry
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Web%20Exploitation/Registry
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 413 points under dynamic scoring. The organizer
+  challenge definition records the service at `http://jujucloud.ddns.net:50003`. The endpoint is
+  historical and not depended on.

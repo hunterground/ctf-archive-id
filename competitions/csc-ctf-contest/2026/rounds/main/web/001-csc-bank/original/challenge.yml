@@ -1,0 +1,34 @@
+name: "CSC Bank"
+author: "lixdy"
+category: Web Exploitation
+description: |
+  Something is wrong with this bank account. Could you help out?
+
+  [http://jujucloud.ddns.net:50001](http://jujucloud.ddns.net:50001)
+
+
+  author = lixdy
+  
+connection_info: http://jujucloud.ddns.net:50001 
+# JANGAN DI UBAH
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: visible
+# JANGAN DI UBAH
+
+flags:
+  - content: "CSC{c0nt0h_p3rt4m4_s0a1_s4y4_m4klumi_y4a_h3h3}"
+    type: static
+tags:
+  - Hard
+files: []
+
+#kalo ada file ganti jadi
+# files :
+# - nama file
+
+hints: [] #hints gausah di isi

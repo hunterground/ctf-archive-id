@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-pwn-001
+name: Armor Shop
+slug: 001-armor-shop
+original_name: Armor Shop
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  I don't have enough gems, maybe by blowing up the shop I can buy a lot of things
+
+  `nc 103.185.44.248 1380`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Binary Exploitation/armor-shop
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: acc3b108007c4224fc1e24246bdd6dc305ca954334e4119596459b3ed741a589
+  - path: armor
+    algorithm: sha256
+    value: ba9211d32905ee89878c4b99b0fc3a3d3b43e92c710ca1302f721bcf42c09294
+  - path: armor_shop.c
+    algorithm: sha256
+    value: ab9a27ce13aac35ce1d864dc8c78ac46f03bceefc0b62e584fd3a0994b7f8538
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 641b969364eaa19e50d180ccec22b10eb2944efafee7b9bdf99276790d85dc4b
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 1df7a2de28f12e29aee12aa16bce0a8fb260cf38ccc4fd5e9b32540e51a60903
+  - path: src/armor
+    algorithm: sha256
+    value: 678bdcf6233a5e53c15f1cff494ad103819ea0343ba6b40a081b8fe714df62b6
+  - path: src/armor_shop.c
+    algorithm: sha256
+    value: a26716c8960ce55037f6edc10c0dcb4f7cb2bb8c8aedc87d9a833963d88141f7
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 0ea34e250f1d8f690d92ddcb64075b1dc81a3bc5f0cd1d7033513939d21d88fb
+  - path: src/run.sh
+    algorithm: sha256
+    value: 62a3ad7c32c030f4828d5b2e26cff785900380ee028d912166104eb111c9596c
+  - path: src/start.sh
+    algorithm: sha256
+    value: b55c86bf742fa8a4d196bf177890e1107d3fa5141563b0dd9f9af37d3109e743
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Binary Exploitation/armor-shop
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Binary%20Exploitation/armor-shop
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: Author writeup collection (mud.gitbook.io)
+  url: https://mud.gitbook.io/ctf-writeup/
+  type: writeup
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 1380. The source README
+  points to the author writeup at https://mud.gitbook.io/ctf-writeup/. Category follows the organizer
+  directory the challenge was filed under; the source label is preserved in original_category. The
+  source states no difficulty, so difficulty is left unknown.

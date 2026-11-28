@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-forensics-001
+name: FREE FLAG!!!
+slug: 001-free-flag
+original_name: FREE FLAG!!!
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensics
+description: Oh no! Austin stole the flag and ran away! I asked him to return the flag, but he only
+  gave me this image...
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: shane
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Forensics/free-flag
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 11edfcc287d0b6c3b2e771b97d494ceaac62231721df6422c73f475f5646ef12
+  - path: challenge.yaml
+    algorithm: sha256
+    value: f6d03f74c36db88e1a9d8cbb9c6b1ffe25853706905489f8a72265335f09eeae
+  - path: image.png
+    algorithm: sha256
+    value: f436892de4f6eedce9879f6a402458aab067755ef4ec935a7b325de3573ddf14
+  - path: src/Image - Copy.zip
+    algorithm: sha256
+    value: 674080e152b85fd149c22fdeff860a73c88885ef16a1cbc56489b8841d1f1e1b
+  - path: src/Image/flag.png
+    algorithm: sha256
+    value: 497a32e5a4c0d67946c33e618838b884d44d4dd78fa8ce57b49b937583df517d
+  - path: src/Image/important.png
+    algorithm: sha256
+    value: 1cb60e3289a7f5e4984d6c6a2381ce69d9f6ad3a2f79111ed5d5602cdb4a6f1e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Forensics/free-flag
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Forensics/free-flag
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

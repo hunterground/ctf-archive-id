@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-rev-001
+name: Find Key
+slug: 001-find-key
+original_name: Find Key
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  Doninic Totero wants to save his family.
+  But he must find the secret key to open the door where his family at.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: Wrth
+  team: null
+- name: Kevin Ahmad
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Reverse Engineering/find-key
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 343d52ae89f6b5d3091e55926e1585f9223a3f766e98f2e31c88915296460fa8
+  - path: chal
+    algorithm: sha256
+    value: 3c4cb0565b5d3afd8772f0a8320e539494ec33e20f8ccdb8e94add5f841fe359
+  - path: challenge.yaml
+    algorithm: sha256
+    value: ef60c119bc008c5e9fc7eea49c738de4fba4a46952ba27aa46193f71519ac903
+  - path: src/chal
+    algorithm: sha256
+    value: 3c4cb0565b5d3afd8772f0a8320e539494ec33e20f8ccdb8e94add5f841fe359
+  - path: src/chal.c
+    algorithm: sha256
+    value: b211059b45f0a9385dd2b978989362c630b3f270c332a0ac02b3794d5d3f8617
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Reverse Engineering/find-key
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Reverse%20Engineering/find-key
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

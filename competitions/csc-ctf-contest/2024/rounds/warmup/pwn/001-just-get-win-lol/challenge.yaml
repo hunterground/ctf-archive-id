@@ -1,0 +1,95 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-warmup-pwn-001
+name: Just Get Win LOL
+slug: 001-just-get-win-lol
+original_name: Just Get Win LOL
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: pwn
+original_category: Warm Up
+description: |-
+  GET WINNNNNNNN 😁!!!!!!
+
+  `nc 103.185.44.248 1439`
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- warmup
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Warm Up/just-get-win-lol
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 954922aa5f16ba3d88b5def96ae339e9d6b08869f2baf9bccce4f1808f57e894
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e59a850d7c48e478bce8c446f530be10c1b4e9ac45de166f5904f16693d4f9a1
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: da1b657b2741a13cad0c06473397904f76fe2eaf5345346e7dff312ec19a2a98
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 17171c0505c7871c239401b253e064858bf097664794278771df5c4fd9de3eae
+  - path: src/run.sh
+    algorithm: sha256
+    value: 9ab60e5d39435c0122c60a9c8c6d9a7c8a7ae715c78fbe3012920c476abb6ccb
+  - path: src/start.sh
+    algorithm: sha256
+    value: b55c86bf742fa8a4d196bf177890e1107d3fa5141563b0dd9f9af37d3109e743
+  - path: src/win
+    algorithm: sha256
+    value: d96374b09f508bbfa3a7bc52758a01def15592017b5685653a76f729286d49e1
+  - path: src/win.c
+    algorithm: sha256
+    value: 453ac7bdceba9f62499b3be98d47611f4cce7f98a88e43e8477f6699a16f10bc
+  - path: win
+    algorithm: sha256
+    value: d96374b09f508bbfa3a7bc52758a01def15592017b5685653a76f729286d49e1
+  - path: win.c
+    algorithm: sha256
+    value: 453ac7bdceba9f62499b3be98d47611f4cce7f98a88e43e8477f6699a16f10bc
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Warm Up/just-get-win-lol
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Warm%20Up/just-get-win-lol
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at nc 103.185.44.248 1439. Category follows
+  the organizer directory the challenge was filed under; the source label is preserved in original_category.
+  The source states no difficulty, so difficulty is left unknown.

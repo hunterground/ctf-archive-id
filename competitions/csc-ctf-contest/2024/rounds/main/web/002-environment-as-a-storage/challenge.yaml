@@ -1,0 +1,166 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-web-002
+name: Environment As A Storage
+slug: 002-environment-as-a-storage
+original_name: Environment As A Storage
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  i used to work on this project when i was 12 yo but lost the interest cause of some annoying bug that i forgot XD
+
+  <a href="http://103.185.44.248:7777/">http://103.185.44.248:7777/</a>
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: DariuZ
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Web Exploitation/environment-as-a-storage
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1dc20de548c4880a880c4abfc30e14033c537543ac86e540d9729e86c7825cae
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 620ecd9831d0705351bdc225ac08665c30bb25a3e2728e41a13d460a3ce716aa
+  - path: dontgetlost.zip
+    algorithm: sha256
+    value: 18fd7189c9155026975b8fb9c2f9dea1368983d9befb94e7fd75e2092e94e352
+  - path: dontgetlost/Controller/index.php
+    algorithm: sha256
+    value: e954ba7dc6cf4f6a47bb3d940d8bcb394037a18b176c025bd74fc596aa61aa98
+  - path: dontgetlost/Controller/toRegis.php
+    algorithm: sha256
+    value: e581f1dabf415693ddd11fd01201e5e3ff6eab43dab08450dbff416968eea33d
+  - path: dontgetlost/Cookied.php
+    algorithm: sha256
+    value: 334533eefcd3e48b2feeb326733ba30f8a3d30436ccf0184a53647a6050f065c
+  - path: dontgetlost/Inject.php
+    algorithm: sha256
+    value: 796e0580a4662b5cd329622484f809e0591216f1e17b095f8a8a22a04640bc82
+  - path: dontgetlost/Router/Router.php
+    algorithm: sha256
+    value: bc63b1fc997225a0afdcd9073a0a8d76f94d93fd530ccac4175b4e7ff373bff5
+  - path: dontgetlost/Views/index.view.php
+    algorithm: sha256
+    value: 71bcabee75ac08709825d2ac1a37d55046826713af8acea495583b9db490e5df
+  - path: dontgetlost/Views/partials/head.php
+    algorithm: sha256
+    value: dc3496ee39c18a42bcc271138c67980870f3b80142a55df2f528e5d5cdf33270
+  - path: dontgetlost/Views/partials/nav.php
+    algorithm: sha256
+    value: 5edde8efe5b8e63155de3baf151339c6ed3bfa7a2dea568beb21ae9c9e9f3493
+  - path: dontgetlost/Views/regis.view.php
+    algorithm: sha256
+    value: 4d9afb5bf79e4465edd7606b8bc9bccc8a7b01794e140c1af8cbc64211844e08
+  - path: dontgetlost/checkCOOKIE.php
+    algorithm: sha256
+    value: 9b6bed9be202644826382f9aefd5f3d69a729b55f65c45f77eeb186124eba9d1
+  - path: dontgetlost/docker-compose.yaml
+    algorithm: sha256
+    value: fd1164634b96e74bdb7c2c179f0aff2b243617442f97fb644b0894227a371398
+  - path: dontgetlost/dockerfile
+    algorithm: sha256
+    value: ed4145902b59ef15cdc0e6b0043aad5dadc1445c4229ffc606a49c6e670d64af
+  - path: dontgetlost/flag.txt
+    algorithm: sha256
+    value: 3452eb40a56d7a0ce014dcbb926268887a8cb957f426648ab225bdde8b472e03
+  - path: dontgetlost/function.php
+    algorithm: sha256
+    value: 7d0d856f709e6ca48289428a8886919c1d4b038b09b2b05ca038fdfbaf47055a
+  - path: dontgetlost/index.php
+    algorithm: sha256
+    value: 4674615611f067b3f464b22ea331f2808c442f4bfa432c8d7e562ec3dd0d77f9
+  - path: src/Controller/index.php
+    algorithm: sha256
+    value: e954ba7dc6cf4f6a47bb3d940d8bcb394037a18b176c025bd74fc596aa61aa98
+  - path: src/Controller/toRegis.php
+    algorithm: sha256
+    value: e581f1dabf415693ddd11fd01201e5e3ff6eab43dab08450dbff416968eea33d
+  - path: src/Cookied.php
+    algorithm: sha256
+    value: 334533eefcd3e48b2feeb326733ba30f8a3d30436ccf0184a53647a6050f065c
+  - path: src/Inject.php
+    algorithm: sha256
+    value: 796e0580a4662b5cd329622484f809e0591216f1e17b095f8a8a22a04640bc82
+  - path: src/Router/Router.php
+    algorithm: sha256
+    value: bc63b1fc997225a0afdcd9073a0a8d76f94d93fd530ccac4175b4e7ff373bff5
+  - path: src/Views/index.view.php
+    algorithm: sha256
+    value: 71bcabee75ac08709825d2ac1a37d55046826713af8acea495583b9db490e5df
+  - path: src/Views/partials/head.php
+    algorithm: sha256
+    value: dc3496ee39c18a42bcc271138c67980870f3b80142a55df2f528e5d5cdf33270
+  - path: src/Views/partials/nav.php
+    algorithm: sha256
+    value: 5edde8efe5b8e63155de3baf151339c6ed3bfa7a2dea568beb21ae9c9e9f3493
+  - path: src/Views/regis.view.php
+    algorithm: sha256
+    value: 4d9afb5bf79e4465edd7606b8bc9bccc8a7b01794e140c1af8cbc64211844e08
+  - path: src/checkCOOKIE.php
+    algorithm: sha256
+    value: 9b6bed9be202644826382f9aefd5f3d69a729b55f65c45f77eeb186124eba9d1
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: fd1164634b96e74bdb7c2c179f0aff2b243617442f97fb644b0894227a371398
+  - path: src/dockerfile
+    algorithm: sha256
+    value: ed4145902b59ef15cdc0e6b0043aad5dadc1445c4229ffc606a49c6e670d64af
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 28e57ce56ec83e5590ac9aa3594faea7a7c95d9c8ab539001f5880f10b9f915c
+  - path: src/function.php
+    algorithm: sha256
+    value: 7d0d856f709e6ca48289428a8886919c1d4b038b09b2b05ca038fdfbaf47055a
+  - path: src/index.php
+    algorithm: sha256
+    value: b2f2401fa90b5431cd256ad769d3588d9c2a92984eb2462bacd5f80451e720a5
+  - path: src/start.sh
+    algorithm: sha256
+    value: 0eaa774256d2b0cfd2dda3c73faffb32c85d560e365118359cd70b786e1679e2
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Web Exploitation/environment-as-a-storage
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Web%20Exploitation/environment-as-a-storage
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at http://103.185.44.248:7777/. Category
+  follows the organizer directory the challenge was filed under; the source label is preserved in
+  original_category. The source states no difficulty, so difficulty is left unknown.

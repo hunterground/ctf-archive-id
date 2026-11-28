@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-crypto-001
+name: Hardest Encryption
+slug: 001-hardest-encryption
+original_name: Hardest Encryption
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: |-
+  I want to make the hardest encryption in this world by doing multiple encryption. why no one done this yet?
+
+  author: "Reichata"
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- crypto
+authors:
+- name: Reichata
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Cryptography/Hardest Encryption
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 39b43d30fa3bfbcd628fe1aa1bb3d7bc018706d86fbbb5fdd52e94e6d11efa14
+  - path: dist/encrypted_flag.txt
+    algorithm: sha256
+    value: 76877b9cdcb0450eed6b185e9b566c78d8008d9ddbe089e549f2f45646d46ac2
+  - path: dist/encryption.py
+    algorithm: sha256
+    value: 32c9d28f193e144cf3e439e57dcf1e6dc04e53a96d915c9ab723e2e2eda71bc0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Cryptography/Hardest Encryption
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Cryptography/Hardest%20Encryption
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring.

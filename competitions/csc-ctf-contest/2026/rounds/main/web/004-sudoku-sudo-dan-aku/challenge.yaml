@@ -1,0 +1,99 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-web-004
+name: Sudoku Sudo dan Aku
+slug: 004-sudoku-sudo-dan-aku
+original_name: Sudoku Sudo dan Aku
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  Gatau dah ini pokoknya game sudoku, cobain main sendiri aja siapa tau nagih
+
+  [http://jujucloud.ddns.net:50008](http://jujucloud.ddns.net:50008)
+
+  author: Roy
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+authors:
+- name: Roy Guami Lasjordien
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Web Exploitation/sudoku-sudo-dan-aku
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6f3233ff49508998710d8f10dd18cc473af0dc4803f855f78ad3af73df8c467c
+  - path: sudoku/challenge/README.md
+    algorithm: sha256
+    value: 095f34d23fcf4831801f4fc48663cc01be58670f9eb55b29ac1d7ee6b6538778
+  - path: sudoku/challenge/challenge.yaml
+    algorithm: sha256
+    value: 621afdd8b59cb107033a7a091dec31a654f75356979d4e32b6aae04071de1a43
+  - path: sudoku/docker-compose.yml
+    algorithm: sha256
+    value: 0415e3fd9b51a12df6a8c9ec2b4c9ee8ebd8bd1daf47beed1370e00dc23153d6
+  - path: sudoku/flag.txt
+    algorithm: sha256
+    value: 881ef07958b9c406a056430ba16ad08c4340b7fc4e63cbe0e73acb5a3c3a6b86
+  - path: sudoku/src/app/Dockerfile
+    algorithm: sha256
+    value: 4726a743d95e30eee4cf514b6a9ec3b0f6de09c6beb5e6153c3fb3623821cd5f
+  - path: sudoku/src/app/css/style.css
+    algorithm: sha256
+    value: 2193e05ff93cfb91726fd3b1287d486c7b736184c40f46e787b78d5b8645fa47
+  - path: sudoku/src/app/index.html
+    algorithm: sha256
+    value: 2e9cf14e7f982b6938a2a4283de78a3067abf8604e2e34959cdd50b97016346b
+  - path: sudoku/src/app/js/k2m8r4.js
+    algorithm: sha256
+    value: 49955dc29df1b22ba6187cc00b6b2e0d67e167fa4f250279d05834934f7f10be
+  - path: sudoku/src/app/js/q7v1x9.js
+    algorithm: sha256
+    value: 9cacd578aa7c55d1e00cdec0320e5aa1a1fa5ff6f38a43a0807b361c0f6e4519
+  - path: sudoku/src/app/js/z4p6n1.js
+    algorithm: sha256
+    value: ef3a200ff10afdfb0243e8d0a39e39ade9eedd27322a354e35dadef122297ec8
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Web Exploitation/sudoku-sudo-dan-aku
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Web%20Exploitation/sudoku-sudo-dan-aku
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring. The organizer
+  challenge definition records the service at `http://jujucloud.ddns.net:50008`. The endpoint is
+  historical and not depended on.

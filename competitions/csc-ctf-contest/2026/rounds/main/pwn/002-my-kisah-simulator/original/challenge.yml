@@ -1,0 +1,33 @@
+name: "my_kisah_simulator"
+author: "imkun"
+category: Binary Exploitation
+description: |
+  capek bet dahh buat soal mending nyari my kisah
+
+  author: imkun
+
+connection_info: nc jujucloud.ddns.net 50007
+# JANGAN DI UBAH
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: visible
+# JANGAN DI UBAH
+
+flags:
+  - content: "CSC{when_yahhh_my_kisah_aghhhhhhhhhhhhhhhhhhhhhhh}"
+    type: static
+tags:
+  - Hard
+files:  
+  - dist/my_kisah_simulator
+  - dist/flag.txt
+
+#kalo ada file ganti jadi
+# files :
+# - nama file
+
+hints: [] #hints gausah di isi

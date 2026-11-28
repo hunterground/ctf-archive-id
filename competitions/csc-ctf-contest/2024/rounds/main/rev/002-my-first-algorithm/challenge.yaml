@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-rev-002
+name: My First Algorithm
+slug: 002-my-first-algorithm
+original_name: My First Algorithm
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: This was my first time using Python, and I attempted to create some algorithms. I hope
+  there are no vulnerabilities.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+authors:
+- name: 0xV
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Reverse Engineering/my-first-algorithm
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: MyFirstAlgorithm.py
+    algorithm: sha256
+    value: 0a3e7587c4ba0049216821d7d367cfd46723f229efe1774b78039d5be4412d99
+  - path: README.md
+    algorithm: sha256
+    value: d6e25222cee69c2c338fb369fac00d0e74bbe368ff467dffc833b11fdabf12ae
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 020d483e7760cd9da2a864e9d963c0ea3a6a8738e6cab96509b4312b33132f33
+  - path: src/chall.py
+    algorithm: sha256
+    value: 0a3e7587c4ba0049216821d7d367cfd46723f229efe1774b78039d5be4412d99
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9affee0630d833469dc9c22463ff25fc0adba1ae97ef1fc7cb669d120001b4ee
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Reverse Engineering/my-first-algorithm
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Reverse%20Engineering/my-first-algorithm
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

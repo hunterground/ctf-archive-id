@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024
+competition_id: csc-ctf-contest
+year: 2024
+name: CTF Contest 2024
+status: completed
+verification: corroborated
+dates:
+  start: '2024-06-23'
+  end: '2024-06-23'
+statistics:
+  participant_count: 47
+  challenge_count: 23
+references:
+- title: 'CTF Contest: Cybersecurity Skills in the Digital Age (organizer recap)'
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: csc-research-development/ctf-contest-archive
+  url: https://github.com/csc-research-development/ctf-contest-archive
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: |-
+  Online on 23 June 2024, 10:00-21:00, with 47 players according to the organizer recap. The page is dated 29 August 2024 and does not name the contest edition explicitly; the year comes from the page and from the organizer repository that carries the challenges.
+
+  Twenty-three challenges are archived from commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4 of csc-research-development/ctf-contest-archive: 18 in six categories (Binary Exploitation 3, Cryptography 3, Forensics 3, Mobile 3, Reverse Engineering 3, Web Exploitation 3) and 5 in the source's Warm Up tier, recorded as a separate warmup round.
+
+  The recap only states the overall categories and hours, not per-challenge points or difficulty, so difficulty is unknown for every 2024 challenge. The recap does not mention a separate warm-up session, so the warmup round here reflects the organizer's Warm Up directory, not an announced stage.
+
+  The repository declares no license; per archive curation policy it is treated as MIT. Twelve solver artefacts from challenge src/ directories were moved to the mirrored solvers/ paths.

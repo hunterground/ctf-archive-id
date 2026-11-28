@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-warmup-crypto-001
+name: Path of Nihility
+slug: 001-path-of-nihility
+original_name: Path of Nihility
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: warmup
+category: crypto
+original_category: Warm Up
+description: Acheron? Is that you?
+difficulty:
+  value: null
+  source: unknown
+tags:
+- crypto
+- warmup
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Warm Up/cryptography-path-of-nihility
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5812f91208abb16605d6b76d7f58a89ae5b6d9ffc88cd70f7e7360122f42e5ff
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 3fc05bdc77e50f43272bd4c000713fd90e802b7f8a6aa4140113c824f5399aaa
+  - path: goodluck.txt
+    algorithm: sha256
+    value: f51a3e94b3507f36017622bb20937a5e3c8e55cd903c65c8df6b9386fd81eff9
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Warm Up/cryptography-path-of-nihility
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Warm%20Up/cryptography-path-of-nihility
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

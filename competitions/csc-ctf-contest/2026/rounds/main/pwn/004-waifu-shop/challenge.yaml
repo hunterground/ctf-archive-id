@@ -1,0 +1,97 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-pwn-004
+name: Waifu shop
+slug: 004-waifu-shop
+original_name: Waifu shop
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: |-
+  Welcome to the most exclusive Waifu Shop in town. They say the security access is tight and the prices are astronomical. But who would have thought, doing a little bad math could make you the richest customer around...
+
+  Author: Fuli
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- pwn
+authors:
+- name: Fuli
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Binary Exploitation/waifushop
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 18e66ad6214dddd26329a80a38f26f9ae2f879f6b8105608c3af3120e9ceb755
+  - path: dist/chall
+    algorithm: sha256
+    value: 8ec61c61a5adc73c1a53394d574a576d43ae08b3e431f5022bfcae835546eee4
+  - path: dist/chall.c
+    algorithm: sha256
+    value: b3e9e9e2a8a16d31342f4cb270d52c364dfbc7665883c43edb5ed32078d186af
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 6341f6f2736fe7ae6a10ed517a32bfb4456563e1b9fce7afc11946fc65c55db4
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 78c66a7acbce9976c1f0b73b465fb8f2de6c836fc7abb4e111a1175914db247d
+  - path: src/chall
+    algorithm: sha256
+    value: 8ec61c61a5adc73c1a53394d574a576d43ae08b3e431f5022bfcae835546eee4
+  - path: src/chall.c
+    algorithm: sha256
+    value: b3e9e9e2a8a16d31342f4cb270d52c364dfbc7665883c43edb5ed32078d186af
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b78c804de9c68aee5e29beb4e4ccc0abc125b03f5c64668dfb0f9b27626c2fc7
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 261276ea424064421a9f7f13d9f10b012507e3b5a668ed3f9ca4e37943fb9e92
+  - path: src/run.sh
+    algorithm: sha256
+    value: 7cc92a8f8d5e0b73923f2bc513706b61f9b46f65c96265266b032f886cce14dd
+  - path: src/start.sh
+    algorithm: sha256
+    value: 516038b81c42ec6fa6c25ba20d0baa1a86514fc8b95417fc30ee6b1ec68f3c5e
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Binary Exploitation/waifushop
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Binary%20Exploitation/waifushop
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 372 points under dynamic scoring. The organizer
+  challenge definition records the service at `nc jujucloud.ddns.net 50006`. The endpoint is historical
+  and not depended on.

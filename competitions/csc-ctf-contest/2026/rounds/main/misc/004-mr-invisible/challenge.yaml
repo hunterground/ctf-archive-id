@@ -1,0 +1,70 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-misc-004
+name: Mr. Invisible
+slug: 004-mr-invisible
+original_name: Mr. Invisible
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: misc
+original_category: Miscellaneous
+description: |-
+  We managed to download a backup folder from a developer at a rival firm.
+  He's known for being paranoid thinking way out of the box when hiding something.
+  See if you can find what he’s hiding..
+
+  author: heiriko
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- misc
+authors:
+- name: heiriko
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Miscellaneous/Mr-Invisible
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: f7270c43fff8b12b6778d6d583dff1784eeadec93b019d28354c70e3d9f0bf1a
+  - path: dist/Problem.7z
+    algorithm: sha256
+    value: 4a94371bdc6d4428ff813b7d73553789d0730951b021ea72d4fe8b3f248a5b20
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Miscellaneous/Mr-Invisible
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Miscellaneous/Mr-Invisible
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 100 points under dynamic scoring.

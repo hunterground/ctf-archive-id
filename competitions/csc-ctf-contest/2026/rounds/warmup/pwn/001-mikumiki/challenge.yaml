@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-warmup-pwn-001
+name: mikumiki
+slug: 001-mikumiki
+original_name: mikumiki
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: warmup
+category: pwn
+original_category: warmup/Binary Exploitation
+description: |-
+  kawanku mikumiki punya aplikasi katanya ini aman banget,
+  cuman kemarin aku dapat leak sourcenya keren juga ya
+  emangnya beneran gabisa rusak?
+
+  Author: Auric
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- warmup
+authors:
+- name: Auric
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: warmup/Binary Exploitation/mikumikiss
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f8f14cec68fd619269817c004c34d12131e43ef095077cdb82b36477f970a508
+  - path: challenge.yml
+    algorithm: sha256
+    value: b24e8f14cf273708d2e9688b31003079ba1b4248df7dc5cf09d58949bc14df3a
+  - path: dist/leak.c
+    algorithm: sha256
+    value: a36d51d5215c09da27de3c02e0cf954c6de8c411d21e897abbffc1210ce26e53
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 988644e490b3d31265bc857d94002201f1c27077775c60f810418c19906b13e0
+  - path: src/chall.c
+    algorithm: sha256
+    value: 1ec0b3eb817d4d4698d707bf0589e1a3246003fabc7b8cb8aed5be0d8e6dbf2a
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c0b7be157d30775168c032cce9380664a527a5e24f08ffb2ad5615dc527ea99d
+  - path: src/run.sh
+    algorithm: sha256
+    value: 047b375d15c8060105a1837481137fa35667dbdb1edddaf31e8da024ed70abfd
+  - path: src/start.sh
+    algorithm: sha256
+    value: 613da0644f7a8ba8be4239184c6072d2560c6fd970e121e0ac04a6e8e77c45cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - warmup/Binary Exploitation/mikumikiss
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/warmup/Binary%20Exploitation/mikumikiss
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer challenge definition records the service at `nc jujucloud.ddns.net 60002`. The
+  endpoint is historical and not depended on. The organizer definition marks the challenge state
+  as hidden, consistent with the warm-up stage that was opened before the main contest.

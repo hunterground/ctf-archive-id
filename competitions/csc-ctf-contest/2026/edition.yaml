@@ -1,0 +1,31 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026
+competition_id: csc-ctf-contest
+year: 2026
+name: CSC CTF Contest 2026
+status: completed
+verification: corroborated
+dates:
+  start: '2026-05-09'
+  end: '2026-05-09'
+statistics:
+  participant_count: null
+  challenge_count: 30
+references:
+- title: CSC CTF Contest 2026 (organizer recap)
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: csc-research-binus/csc-ctf-contest-2026
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: |-
+  Online on Saturday 9 May 2026 according to the organizer recap, which lists every challenge and its final point value. It does not state a participant count, so that field is null.
+
+  Thirty challenges are archived from commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e of csc-research-binus/csc-ctf-contest-2026: 24 in six categories (Binary Exploitation 4, Cryptography 4, Forensic 4, Miscellaneous 4, Reverse Engineering 4, Web Exploitation 4) and 6 in the repository's warmup tree, recorded as a separate warmup round. The warmup challenges are state hidden in the organizer definitions and the tree was committed from 14 April 2026 with commit messages naming a warmup session, which is the basis for treating it as its own stage.
+
+  Difficulty for the main challenges comes from the organizer's lowercase difficulty tag in each challenge.yml (easy/medium/hard). The warmup challenges are tagged only "warmup", so their difficulty is unknown.
+
+  The repository declares no license; per archive curation policy it is treated as MIT. The five organizer challenge-image tags and the vendored node_modules tree of Mr. Robot are preserved as distributed. No solver artefacts are present in this repository.

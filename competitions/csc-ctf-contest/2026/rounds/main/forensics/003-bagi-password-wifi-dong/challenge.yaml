@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-forensics-003
+name: bagi password wifi dong
+slug: 003-bagi-password-wifi-dong
+original_name: bagi password wifi dong
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: |-
+  jadi kemarin temenku abis ke rumah saudaranya. Mau numpang internetan gratis tapi malah disuruh cari sendiri passwordnya,
+  akhirnya sekalian dicoba deh ambil historynya. Eh tapi kok ada file yang dikunci dan passwordnya disembunyikan pake code angka dan huruf. untung kodenya berhasil diambil, Coba deh bantuin cari isinya apa.
+
+  Format flag : CSCCTF{...}
+
+  author: "IndraSM"
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- forensics
+authors:
+- name: IndraSM
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Forensic/mintapasswordwifidong
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: bc27c34d94d9c00913e68327b3a92f8512b5e79c53076ace429a7860d1173775
+  - path: permisipaket.pcapng
+    algorithm: sha256
+    value: 4a687421de5d607f1757515a92fc087033a070df5a441751e735476573ca54d3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Forensic/mintapasswordwifidong
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Forensic/mintapasswordwifidong
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 436 points under dynamic scoring. The organizer
+  statement uses a CSCCTF{...} flag format for this challenge.

@@ -1,0 +1,37 @@
+name: "The Registry"
+author: "diX"
+category: Web Exploitation
+description: |
+  "Yo, di sini ada lampu! Aslab lagi butuh asisten baru, daftar buruannnn. 
+  BTW, di web pendaftarannya ada 'Golden Ticket' biar lu langsung auto-pass 
+  jadi aslab tanpa tes, tapi ya lu harussss usaha dikit buat nemuinnya. obok2 kink!"
+
+  [http://jujucloud.ddns.net:50003](http://jujucloud.ddns.net:50003)
+  
+  author: diX
+
+connection_info: http://jujucloud.ddns.net:50003
+
+# JANGAN DI UBAH
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: visible
+# JANGAN DI UBAH
+
+flags:
+  - content: "CSC{selamatt_kamu_!ditolak_jadi_aslab6767676767}"
+    type: static
+tags:
+  - Medium
+files: 
+  - dist/source.zip
+
+#kalo ada file ganti jadi
+# files :
+# - nama file
+
+hints: [] #hints gausah di isi

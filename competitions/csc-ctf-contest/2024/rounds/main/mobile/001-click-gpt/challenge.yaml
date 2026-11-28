@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-mobile-001
+name: ClickGPT
+slug: 001-click-gpt
+original_name: ClickGPT
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: A beginner software developer trying to create his first [mobile game](https://drive.google.com/file/d/10qNjFI9b48oxCx-2IJXC7YZb58fjF2Si/view?usp=sharing)
+difficulty:
+  value: null
+  source: unknown
+tags:
+- mobile
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Mobile/click-gpt
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: APK distributed only as a Google Drive link
+    reason: The statement links the mobile game APK from Google Drive (https://drive.google.com/file/d/10qNjFI9b48oxCx-2IJXC7YZb58fjF2Si/view?usp=sharing).
+      No APK is present in the organizer repository, so nothing was copied for it.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b0a1a4d978e9b2d61ca5f5093628889c59dc2e3acbe342ad64db9ca7ada8c037
+  - path: challenge.yaml
+    algorithm: sha256
+    value: d02a72dba7de95642d6eaa90ce2d8dc314be895d5178139f5658e5b7db8b9e05
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Mobile/click-gpt
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Mobile/click-gpt
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: Author writeup collection (mud.gitbook.io)
+  url: https://mud.gitbook.io/ctf-writeup/
+  type: writeup
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The APK players were given is only a Google Drive link in the statement, so this record preserves
+  the statement and README but not a distribution binary; see preservation.omissions. The source
+  README points to the author writeup at https://mud.gitbook.io/ctf-writeup/. Category follows the
+  organizer directory the challenge was filed under; the source label is preserved in original_category.
+  The source states no difficulty, so difficulty is left unknown.

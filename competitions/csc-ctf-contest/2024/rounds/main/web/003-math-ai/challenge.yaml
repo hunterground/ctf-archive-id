@@ -1,0 +1,115 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-web-003
+name: Math AI
+slug: 003-math-ai
+original_name: Math AI
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  Tanyakan kepada saya apapun tentang MATH. karena aku super secure Javascript Math AI 😎
+
+   <a href="http://103.185.44.248:13347/">http://103.185.44.248:13347/</a>
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: Zhaxstronaut
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Web Exploitation/math-ai
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 1e0015d2b5572c7a67d691c68599601f09c49e5b2e2c63eb17936d2c035d26a3
+  - path: readme.md
+    algorithm: sha256
+    value: f3322e4fec65f0dbd1e239da1af3b89ead1f7786890b3c1e5d048fa837f4578e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 52f8c58f99ccbbcd1c6ba8d68cb783bf317e04d86081154d80daf703b5ce0766
+  - path: src/challenge/helpers/calculatorHelper.js
+    algorithm: sha256
+    value: 96d73929496ebf66fa4fd413a86a500dda1dbb36e209100e81018cc92bde2802
+  - path: src/challenge/index.js
+    algorithm: sha256
+    value: a7d3fe374f10cd7e47d2b78aac04a153b9f6a5cb3b30d6089f2307c93d93ea4d
+  - path: src/challenge/package-lock.json
+    algorithm: sha256
+    value: b883df16c1fd3548b1aa10fcd4351c2796c197c35a4ff1295d4cdfb05b2b02f5
+  - path: src/challenge/package.json
+    algorithm: sha256
+    value: f331e8db28fb5151ee4f249a599424276fc8b1a6bf1f86b49c2dc49232599b3b
+  - path: src/challenge/routes/index.js
+    algorithm: sha256
+    value: d4ce3484f143ae921b465f3d8342d303596e3e7a3f7be4d88b9f14c8dc15e4bc
+  - path: src/challenge/static/css/main.css
+    algorithm: sha256
+    value: 0df19fe7a6d1dc667e6b3a478c89bb926480df88ae3262752b3e92eb15f673cd
+  - path: src/challenge/static/favicon.png
+    algorithm: sha256
+    value: d60bd59aec6e540bb93f7ac1f08886cc323c76e5d3bf70d4e7ed4ef8c7a26870
+  - path: src/challenge/static/js/main.js
+    algorithm: sha256
+    value: f6774db8410f581f184dff0c93d452050f2ab510b42c9c0f572de72b1475ddc2
+  - path: src/challenge/views/index.html
+    algorithm: sha256
+    value: 09c403436bf8b84ac586aa88acec33e941a7f8bf3d76fdf7a6fd59880b410478
+  - path: src/challenge/yarn.lock
+    algorithm: sha256
+    value: d020e5492ff4cba452f797c1e877ae817c1a6f889efd6b4195428222539e1b3a
+  - path: src/config/supervisord.conf
+    algorithm: sha256
+    value: 8f08133b101dfd2a3693fec3ba2b152c1112f6a4b8cc955fb7bd2539024525fd
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9b1c74b95b1d7e87739aa376b506a8732380b609083bb407e7d7bc3f02e84547
+  - path: src/start.sh
+    algorithm: sha256
+    value: 34863153f067ddbf8501ded7855c329471a6942cc844cd16057ae4b3ffec7419
+  - path: supervisord.conf
+    algorithm: sha256
+    value: 8f08133b101dfd2a3693fec3ba2b152c1112f6a4b8cc955fb7bd2539024525fd
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Web Exploitation/math-ai
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Web%20Exploitation/math-ai
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at http://103.185.44.248:13347/. Category
+  follows the organizer directory the challenge was filed under; the source label is preserved in
+  original_category. The source states no difficulty, so difficulty is left unknown.

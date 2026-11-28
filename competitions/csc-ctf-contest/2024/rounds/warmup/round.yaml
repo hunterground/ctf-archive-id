@@ -1,0 +1,30 @@
+schema_version: '1.0'
+id: warmup
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+name: Warm Up
+original_name: Warm Up
+sequence: 1
+type: warmup
+delivery: online
+description: Warm-up tier of the 2024 edition, recorded from the organizer repository's Warm Up directory.
+  Five beginner challenges across cryptography, binary exploitation, reverse engineering and web
+  exploitation.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 5
+  participant_count: null
+references:
+- title: csc-research-development/ctf-contest-archive
+  url: https://github.com/csc-research-development/ctf-contest-archive
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer repository files five challenges under a Warm Up directory, which is what this
+  round records. The 2024 recap does not describe a separate warm-up session or give its date, so
+  the dates are null and the stage is not asserted beyond the source grouping. The comparable 2023
+  recap does describe a warm-up held a day before the main contest, and the 2026 repository has its
+  own warmup tree.

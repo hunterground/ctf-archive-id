@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2026-main-rev-003
+name: my mbg
+slug: 003-my-mbg
+original_name: my mbg
+competition_id: csc-ctf-contest
+edition_year: 2026
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: |-
+  the calculator program is leaked? lets see if there is something sketchy with the anggaran.
+
+  author: senz
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- rev
+authors:
+- name: senz
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2026-challenges
+  source_type: git
+  repository: https://github.com/csc-research-binus/csc-ctf-contest-2026
+  commit: d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e
+  original_path: Reverse Engineering/my mbg
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: dcfb6c84cf8947496367797b36fee5fca19e81bf09f2567684584d36d6abe2bf
+  - path: dist/calc.lua
+    algorithm: sha256
+    value: a70d40df944eb4a2e709b591d955dcc43e870f9adc951d33e47f1fc8dbd3e8d1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-binus/csc-ctf-contest-2026 at commit d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-binus/csc-ctf-contest-2026 - Reverse Engineering/my mbg
+  url: https://github.com/csc-research-binus/csc-ctf-contest-2026/tree/d870cfd2b0e4a011b4d68efdfde34c23dcd6ad3e/Reverse%20Engineering/my%20mbg
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2026 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2026/05/csc-ctf-contest-2026/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer recap lists this challenge at 472 points under dynamic scoring.

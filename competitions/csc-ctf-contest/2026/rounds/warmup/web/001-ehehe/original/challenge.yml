@@ -1,0 +1,35 @@
+name: "ehehe"
+author: "eld"
+category: Web Exploitation
+description: |
+  Males bikin skenario panjang-panjang, 
+  authornya lagi pusing ngurusin server
+  Intinya web ini nyimpen rahasia, Cari aja sendiri
+  Gausah pake tools aneh-aneh apalagi di-bruteforce, kasian docker-nya
+
+   Author : eld
+
+connection_info: "jujucloud.ddns.net:60001"
+
+# JANGAN DI UBAH
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+state: hidden
+# JANGAN DI UBAH
+
+flags:
+  - content: "CSC{gacorkang6969_c2VjcmV0Njc/Cg}"
+    type: static
+
+tags:
+  - Warmup
+
+files: []
+
+hints: []
+
+#well well well

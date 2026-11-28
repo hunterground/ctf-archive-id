@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-mobile-002
+name: secret c0de
+slug: 002-secret-code
+original_name: secret c0de
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: mobile
+original_category: Mobile
+description: I have build my own application to store my secret code. No one know where i put my
+  secret code and no one can access my secret.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- mobile
+authors:
+- name: ptr
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Mobile/secret-code
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1524638818fea1478a6a58bd6b947f041c3f8ae21f36a3e46eb4550932767f08
+  - path: SecretCode v1.1.apk
+    algorithm: sha256
+    value: 5c57b1a79affcee33d8557a59d0dd9520e9ed1d091ad4fc6bbceb85653839336
+  - path: challenge.yaml
+    algorithm: sha256
+    value: 245c96259b13c96e31412100266558fe39300580f4d981c35ca98da6969df059
+  - path: src/SecretCode v1.1.apk
+    algorithm: sha256
+    value: 5c57b1a79affcee33d8557a59d0dd9520e9ed1d091ad4fc6bbceb85653839336
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8bccef18bc0e867d962a425dd8ef01d28b9c0bae6291543ffc7ee2a105871772
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: static-attachment
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Mobile/secret-code
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Mobile/secret-code
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Category follows the organizer directory the challenge was filed under; the source label is
+  preserved in original_category. The source states no difficulty, so difficulty is left unknown.

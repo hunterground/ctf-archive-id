@@ -1,0 +1,187 @@
+schema_version: '1.0'
+id: csc-ctf-contest-2024-main-web-001
+name: Coin Hunt
+slug: 001-coin-hunt
+original_name: Coin Hunt
+competition_id: csc-ctf-contest
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: |-
+  I heard that this trading platform has an easter egg, help me find it plzz...
+
+  <a href="http://103.185.44.248:5002/">http://103.185.44.248:5002/</a>
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+authors:
+- name: bwe
+  team: null
+organization: null
+provenance:
+  archive_id: csc-ctf-contest-2024-challenges
+  source_type: git
+  repository: https://github.com/csc-research-development/ctf-contest-archive
+  commit: 2bf33b5098317f97d1a3098a93a09c1e2758d8d4
+  original_path: CSC CTF Contest 2024/Web Exploitation/coin-hunt
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3d335fb6b8981dfeb923c9c404736cc808953474b815cf414a5829089731e355
+  - path: challenge.yml
+    algorithm: sha256
+    value: cf960606f5261e9f26e974f6353238b40a3df2c64bb6d32ae9196c0b7256a62c
+  - path: dist.zip
+    algorithm: sha256
+    value: dd7843324511dfdf872f5323165bbcf77b4e9597e33946036b6d4a7779b24a35
+  - path: src/app.py
+    algorithm: sha256
+    value: 7e8d3bcd2f3a7cbd92ad3e2c219692d888d0c5cfd219dd111a2865d3c5fb4a07
+  - path: src/chall/Dockerfile
+    algorithm: sha256
+    value: 87bc7116a47e3380aae81905f8ed2490d773f87102cd0dbc33cacdbeec708808
+  - path: src/chall/docker-compose.yml
+    algorithm: sha256
+    value: 145c457ba87923cd5cae1481dfce00d6f47c9139e26d27ba7310c522ce304703
+  - path: src/chall/index.js
+    algorithm: sha256
+    value: b71afcecd20fd72d0bd79741ca3f14c773581b47535fcc6693e07e970a9b4658
+  - path: src/chall/package-lock.json
+    algorithm: sha256
+    value: fec43bc9a4fa64931469168e4b4f5b4696f4a065af95d6fd38ecf06cc878e695
+  - path: src/chall/package.json
+    algorithm: sha256
+    value: 56b317a975648d6d80290239d4e15f68eba53e925e35917e220b5e423a26d621
+  - path: src/chall/save-report.js
+    algorithm: sha256
+    value: 5422e10447a2701de01b97322e6c2ecff57753a6e0b8ff79b7d8093af6370684
+  - path: src/chall/secret.txt
+    algorithm: sha256
+    value: 18bcbff334eb29af7913aa77e87cc62fd93071861987fb46a46b90dcb780e0a3
+  - path: src/chall/start.sh
+    algorithm: sha256
+    value: 246728fd00f604275e528a1f6b2ed52c5d6c6bdec3cd25bc58cd55ca4fa1c063
+  - path: src/chall/stop.sh
+    algorithm: sha256
+    value: d02faf69f063967880d73bc78913dd6cc89eda51b6d2246c6fa8f64ef582a004
+  - path: src/chall/utils/errors.js
+    algorithm: sha256
+    value: f604d99a2ac8097dd1433346b833dd3c2ef737c2a1644b4869443e83a5dd0861
+  - path: src/chall/utils/trading-view.js
+    algorithm: sha256
+    value: 99617d86d92e91422058f589adc516025e54b760e7ffceb19f4c2a80639cebba
+  - path: src/chall/views/index.ejs
+    algorithm: sha256
+    value: 7d508ef64ea808693dfe2f293a47fbc14e5ee73af640e2e34c0720e405251130
+  - path: src/chall/views/partials/head.ejs
+    algorithm: sha256
+    value: a7578b31ba269b0c695393678145559d24ca3cc2f853fc6d50b04ac73c1f19d8
+  - path: src/chall/views/partials/navbar.ejs
+    algorithm: sha256
+    value: c3ae50727ba70f91b90da4558ff9910a5e4c77d6e63ca5aeb98c248203a7c1d9
+  - path: src/chall/views/shop.ejs
+    algorithm: sha256
+    value: d91b5db446626e08782a07e01e8bf41150523fd8b7cfb4a999c92bcc856d003b
+  - path: src/dist/Dockerfile
+    algorithm: sha256
+    value: 87bc7116a47e3380aae81905f8ed2490d773f87102cd0dbc33cacdbeec708808
+  - path: src/dist/docker-compose.yml
+    algorithm: sha256
+    value: 1f475d8550a3d46e69ce8fcc053f5448ea89a992cdc65d47fc71ec90f81fca36
+  - path: src/dist/index.js
+    algorithm: sha256
+    value: ae30fab30c68174a245b1ca0a692a8aaabdbce871993bb3f095203c221b0be4d
+  - path: src/dist/package-lock.json
+    algorithm: sha256
+    value: fec43bc9a4fa64931469168e4b4f5b4696f4a065af95d6fd38ecf06cc878e695
+  - path: src/dist/package.json
+    algorithm: sha256
+    value: 56b317a975648d6d80290239d4e15f68eba53e925e35917e220b5e423a26d621
+  - path: src/dist/save-report.js
+    algorithm: sha256
+    value: 5422e10447a2701de01b97322e6c2ecff57753a6e0b8ff79b7d8093af6370684
+  - path: src/dist/secret.txt
+    algorithm: sha256
+    value: faa3720f9b8e84ac1ddea056922e37c43c88861daf83dfa967d4af11068417e8
+  - path: src/dist/utils/errors.js
+    algorithm: sha256
+    value: f604d99a2ac8097dd1433346b833dd3c2ef737c2a1644b4869443e83a5dd0861
+  - path: src/dist/utils/trading-view.js
+    algorithm: sha256
+    value: 99617d86d92e91422058f589adc516025e54b760e7ffceb19f4c2a80639cebba
+  - path: src/dist/views/index.ejs
+    algorithm: sha256
+    value: 7d508ef64ea808693dfe2f293a47fbc14e5ee73af640e2e34c0720e405251130
+  - path: src/dist/views/partials/head.ejs
+    algorithm: sha256
+    value: a7578b31ba269b0c695393678145559d24ca3cc2f853fc6d50b04ac73c1f19d8
+  - path: src/dist/views/partials/navbar.ejs
+    algorithm: sha256
+    value: c3ae50727ba70f91b90da4558ff9910a5e4c77d6e63ca5aeb98c248203a7c1d9
+  - path: src/dist/views/shop.ejs
+    algorithm: sha256
+    value: d91b5db446626e08782a07e01e8bf41150523fd8b7cfb4a999c92bcc856d003b
+  - path: src/lib/__init__.py
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/lib/constants.py
+    algorithm: sha256
+    value: 5feaed229d73a33a1bbedc4ae7dca434fe4ec7cc7513d0f3a6970c3bb8d3325d
+  - path: src/lib/instance.py
+    algorithm: sha256
+    value: 4386d1cc0169f1912522a67752f677b501784fc456a5a319c0b1f31f5dcc0d11
+  - path: src/lib/storage.py
+    algorithm: sha256
+    value: b03e4f39a2f06cdde89d0d1af9099b4760fd0d5cfe5dbfd39daaf468eea09280
+  - path: src/lib/utils.py
+    algorithm: sha256
+    value: 4983b5d24563c768864eb5e7b3a2f94c3cc7e543e2761bf733a69003b1dc95ab
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 238e472e3e6ea8969a959af4bec6b543960e096a34486bf5452aa4541da9c649
+  - path: src/start.sh
+    algorithm: sha256
+    value: f7c987ad9c6e20a6b78d43a87ff92ed01d16caeb327b647a78788f3848925bde
+  - path: src/static/script.js
+    algorithm: sha256
+    value: 3aa7e3a0dfb98bb1a3f851524db779dc329f1f50d9f65897656e86a7ceaa2b0b
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: e57489bd0ea9e242ec419d9bfe6bef1d89f9884ce83aace7e2105f2f88a06331
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: CSC CTF Contest challenge material by its named author, published in the organizer
+    repository https://github.com/csc-research-development/ctf-contest-archive at commit 2bf33b5098317f97d1a3098a93a09c1e2758d8d4.
+  permission_reference: The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+environment:
+  type: docker-compose
+  services: []
+  requirements: []
+references:
+- title: csc-research-development/ctf-contest-archive - Web Exploitation/coin-hunt
+  url: https://github.com/csc-research-development/ctf-contest-archive/tree/2bf33b5098317f97d1a3098a93a09c1e2758d8d4/Web%20Exploitation/coin-hunt
+  type: official_repository
+  accessed: '2026-11-28'
+- title: CSC CTF Contest 2024 organizer recap
+  url: https://student-activity.binus.ac.id/csc/2024/08/ctf-contest-cybersecurity-skills-in-the-digital-age/
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: corroborated
+notes: The organizer statement recorded the live service at http://103.185.44.248:5002/. Category
+  follows the organizer directory the challenge was filed under; the source label is preserved in
+  original_category. The source states no difficulty, so difficulty is left unknown.
