@@ -9,33 +9,26 @@ division_id: null
 round_id: qualification
 category: crypto
 original_category: Cryptography
-description: |
-  The source preserves no verbatim statement. The distribution is a Sage script
-  that takes the flag as an integer m, picks two 512-bit primes p and q, and
-  publishes the third power of the 2x2 matrix [[m, p], [q, m+3]] together with
-  e = 3 and n = p*q. output.txt carries C, e and n.
-  
-  Because the matrix entries leak p and q through the two off-diagonal terms, the
-  modulus factors directly; taking an integer cube root of the matching diagonal
-  entry then recovers m.
+description: >
+  The organizer description, kept verbatim, asks "Do you believe in ~~fate~~ RSA, Neo?"
+  The distribution is chall.sage and output.txt, an RSA-based challenge solved by
+  recovering the plaintext from the captured ciphertext.
 difficulty:
-  value: null
-  source: unknown
+  value: easy
+  source: organizer
 tags:
 - crypto
 - rsa
-- matrix
-- sage
 authors:
-- name: unknown
+- name: chronopad
   team: null
 organization: null
 provenance:
-  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  archive_id: petir-ctf-archive
   source_type: git
-  repository: https://github.com/SandWithCheese/ctf-writeups
-  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
-  original_path: National Cyber Week 2024/Cryptography/Neo Encryption
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Cryptography/neo-encryption
 licensing:
   declared_license: MIT
   copyright_holder: National Cyber Week 2024 challenge author
@@ -43,45 +36,29 @@ licensing:
   attribution_required: true
   attribution: >-
     Neo Encryption from National Cyber Week CTF 2024 qualification,
-    imported via https://github.com/SandWithCheese/ctf-writeups
+    imported via the PETIR CTF Archive
   permission_reference: >-
-    The source repository declares no license. Archive maintainer instruction on
-    2026-11-26 records a source with no license file as MIT for archived NCW material.
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
 preservation:
   path: original/
   original_structure: true
   modified: false
   modifications: []
   omissions: []
-  checksum_verified: true
-  checksums:
-  - path: National Cyber Week 2024/Cryptography/Neo Encryption/chall.sage
-    algorithm: sha256
-    value: e3bec2669d12a36d0381580532e9a7621ad9a05cfac1e6af6b2eb89726eeafe0
-  - path: flag.txt
-    algorithm: sha256
-    value: 291e5ee7bbc621760f4d76a509a8778103c31823ca9adc01e89e727095e6d465
-
+  checksum_verified: false
+  checksums: []
 environment:
-  type: sage
+  type: python
   services: []
   requirements: [sagemath]
 references:
-- title: SandWithCheese/ctf-writeups (participant write-up tree)
-  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Cryptography/Neo%20Encryption
-  type: writeup
-  accessed: '2026-11-26'
-- title: Cyber - National Cyber Week 2024 (organizer announcement)
-  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
-  type: organizer_announcement
-  accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Cryptography/neo-encryption
+  type: official_repository
+  accessed: '2026-11-28'
 verification: corroborated
 notes: |
-  Qualification challenge. chall.sage.py is Sage's generated translation of
-  chall.sage and is treated as generated output rather than a second original, so
-  it was not copied; flag.py is the participant's solver and is under solvers/.
-  The shipped flag.txt is preserved as found.
-  Solver scripts found alongside the distribution were moved to the mirrored
-  path under solvers/ per archive policy; that move is not recorded as a
-  preservation omission. Flags are preserved as found; decryptors and answer-replay
-  scripts are not distribution material and remain outside original/.
+  Qualification crypto challenge. The distribution is chall.sage and output.txt. The
+  source src/solve.sage was moved to the mirrored solvers/ path and is not part of the
+  distribution.

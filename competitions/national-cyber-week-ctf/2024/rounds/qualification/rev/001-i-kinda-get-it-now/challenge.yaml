@@ -9,30 +9,24 @@ division_id: null
 round_id: qualification
 category: rev
 original_category: Reverse Engineering
-description: |
-  The source preserves no verbatim statement. The distribution is
-  `i_kinda_get_it_now`, a stripped 64-bit x86-64 ELF, plus output.txt with the
-  program's printed output.
-  
-  The binary applies a chain of reversible byte transforms (substitution,
-  rotation and modular inverse steps) to a buffer and compares it with a constant
-  table, so inverting and reordering those steps recovers the input.
+description: >
+  A sequel to "I'm Confused." The organizer text, kept verbatim, says it "Should be
+  pretty easy right?" The distribution is the i_kinda_get_it_now binary and output.txt.
 difficulty:
-  value: null
-  source: unknown
+  value: easy
+  source: organizer
 tags:
 - rev
-- elf
 authors:
-- name: unknown
+- name: ringoshiro
   team: null
 organization: null
 provenance:
-  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  archive_id: petir-ctf-archive
   source_type: git
-  repository: https://github.com/SandWithCheese/ctf-writeups
-  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
-  original_path: National Cyber Week 2024/Reverse Engineering/I Kinda Get It Now
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Reverse Engineering/i-kinda-get-it-now
 licensing:
   declared_license: MIT
   copyright_holder: National Cyber Week 2024 challenge author
@@ -40,43 +34,29 @@ licensing:
   attribution_required: true
   attribution: >-
     I Kinda Get It Now from National Cyber Week CTF 2024 qualification,
-    imported via https://github.com/SandWithCheese/ctf-writeups
+    imported via the PETIR CTF Archive
   permission_reference: >-
-    The source repository declares no license. Archive maintainer instruction on
-    2026-11-26 records a source with no license file as MIT for archived NCW material.
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
 preservation:
   path: original/
   original_structure: true
   modified: false
   modifications: []
   omissions: []
-  checksum_verified: true
-  checksums:
-  - path: National Cyber Week 2024/Reverse Engineering/I Kinda Get It Now/i_kinda_get_it_now
-    algorithm: sha256
-    value: 599da057a2929c8e1091e5d2fe97939adfef97c755db7ee37ad2df5217f1092c
-  - path: flag.txt
-    algorithm: sha256
-    value: b99518176e3e0f4fb17914969f9e0c6efb7d827b0c4626ad973523915a9ca2ee
-
+  checksum_verified: false
+  checksums: []
 environment:
-  type: native
+  type: rev
   services: []
-  requirements: [linux-x86-64]
+  requirements: []
 references:
-- title: SandWithCheese/ctf-writeups (participant write-up tree)
-  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024/Reverse%20Engineering/I%20Kinda%20Get%20It%20Now
-  type: writeup
-  accessed: '2026-11-26'
-- title: Cyber - National Cyber Week 2024 (organizer announcement)
-  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
-  type: organizer_announcement
-  accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Reverse%20Engineering/i-kinda-get-it-now
+  type: official_repository
+  accessed: '2026-11-28'
 verification: corroborated
 notes: |
-  Qualification challenge. The participant tree also holds the challenge's
-  source (flag.c), a locally rebuilt a.out, gdb and peda session logs, and a
-  flag.txt. The stripped binary, its output and the flag file are preserved;
-  a.out and the debugger session logs are participant artifacts and were not
-  copied.
-  No solver scripts were present in the source.
+  Qualification reverse challenge. The distribution is the i_kinda_get_it_now binary and
+  output.txt. The source src/i_kinda_get_it_now_solver.c was moved to the mirrored
+  solvers/ path and is not part of the distribution.

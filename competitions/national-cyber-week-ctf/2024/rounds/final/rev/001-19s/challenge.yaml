@@ -9,80 +9,53 @@ division_id: null
 round_id: final
 category: rev
 original_category: Reverse Engineering
-description: |
-  The source preserves no verbatim statement; the participant tree holds only the
-  released binary. chall_70 is a 64-bit Linux PIE executable, not stripped and
-  built with debug information, compiled from a CHICKEN Scheme source (test.scm)
-  against libchicken.so.11.
-
-  The embedded symbols retain the Scheme procedure names and source line
-  references, including an nth helper and an "Out-of-bound (OOB) bug ?!!" message,
-  which point at the input handling the challenge is built around.
+description: >
+  The organizer text, kept verbatim, is a warmup final reverse challenge bringing back
+  "the 1970s." The distribution is the chall_70 binary (the released handoff).
 difficulty:
-  value: null
-  source: unknown
+  value: medium
+  source: organizer
 tags:
 - rev
-- reverse-engineering
-- scheme
 authors:
-- name: unknown
+- name: aseng
   team: null
 organization: null
 provenance:
-  archive_id: national-cyber-week-ctf-writeups-sandwithcheese
+  archive_id: petir-ctf-archive
   source_type: git
-  repository: https://github.com/SandWithCheese/ctf-writeups
-  commit: 27e5a75cb919561873038162d2f387e05d1b6b09
-  original_path: National Cyber Week 2024 Final/Reverse Engineering/19s
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-final/Reverse Engineering/19s
 licensing:
   declared_license: MIT
   copyright_holder: National Cyber Week 2024 challenge author
   redistribution: permitted
   attribution_required: true
   attribution: >-
-    19s from National Cyber Week CTF 2024 final, imported via
-    https://github.com/SandWithCheese/ctf-writeups
+    19s from National Cyber Week CTF 2024 final,
+    imported via the PETIR CTF Archive
   permission_reference: >-
-    The source repository declares no license. Archive maintainer instruction on
-    2026-11-26 records a source with no license file as MIT for archived NCW material.
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
 preservation:
   path: original/
   original_structure: true
   modified: false
   modifications: []
-  omissions:
-  - path: .gdb_history
-    reason: >-
-      Participant debugger command history from the write-up author, not part of
-      the released challenge distribution.
-  - path: peda-session-chall_70.txt
-    reason: >-
-      GDB/peda session log produced by the write-up author while solving, not part
-      of the released challenge distribution.
-  checksum_verified: true
-  checksums:
-  - path: chall_70
-    algorithm: sha256
-    value: 649b176b147a5c5ee5e748d3d4311391c25602f3150f81dda57161e11e447176
+  omissions: []
+  checksum_verified: false
+  checksums: []
 environment:
-  type: binary
+  type: rev
   services: []
-  requirements: [libchicken.so.11]
+  requirements: []
 references:
-- title: SandWithCheese/ctf-writeups (participant write-up tree)
-  url: https://github.com/SandWithCheese/ctf-writeups/tree/27e5a75cb919561873038162d2f387e05d1b6b09/National%20Cyber%20Week%202024%20Final/Reverse%20Engineering/19s
-  type: writeup
-  accessed: '2026-11-26'
-- title: Cyber - National Cyber Week 2024 (organizer announcement)
-  url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
-  type: organizer_announcement
-  accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-final/Reverse%20Engineering/19s
+  type: official_repository
+  accessed: '2026-11-28'
 verification: corroborated
 notes: |
-  Final-round challenge. The participant tree ships only the released binary; the
-  statement was not preserved. The two player-side artifacts stored beside it are
-  listed under preservation.omissions rather than copied.
-
-  chall_70 is a dynamically linked Linux binary that requires libchicken.so.11 to
-  run, which is not part of a default system image.
+  Final reverse challenge. The distribution is the chall_70 binary. The source ships no
+  solver script.

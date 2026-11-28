@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-pwn-003
+name: veight
+slug: 003-veight
+original_name: veight
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: >
+  The goal is to run "/readflag" on the remote. The distributed attachment is
+  public/chall.zip. The organizer description is kept verbatim.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+- binary-exploitation
+- v8
+authors:
+- name: Enryu
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Binary Exploitation/veight
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    veight from National Cyber Week CTF 2024 qualification,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: pwn
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Binary%20Exploitation/veight
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Qualification pwn challenge (V8 JavaScript engine exploitation). The distribution is
+  public/chall.zip. The source src/solve.js was moved to the mirrored solvers/ path and
+  is not part of the distribution.

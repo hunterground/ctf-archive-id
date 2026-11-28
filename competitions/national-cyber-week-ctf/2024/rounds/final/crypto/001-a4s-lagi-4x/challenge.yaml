@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-final-crypto-001
+name: A4s lagi 4x
+slug: 001-a4s-lagi-4x
+original_name: A4s lagi 4x
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: >
+  The organizer text, kept verbatim, says "kemarin R5A lagi, skarang A4S lagi" (yesterday
+  R5A, now A4S) with a note hoping there is no misconfiguration again like IFEST. The
+  distribution is A4s4x.py and output.txt.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- crypto
+authors:
+- name: Lawson Schwantz
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-final/Cryptography/A4S4x
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    A4s lagi 4x from National Cyber Week CTF 2024 final,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: python
+  services: []
+  requirements: [sagemath]
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-final/Cryptography/A4S4x
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Final crypto challenge. The distribution is A4s4x.py and output.txt. The source ships
+  no solver script.

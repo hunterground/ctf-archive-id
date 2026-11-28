@@ -15,19 +15,24 @@ dates:
   start: '2024-11-16'
   end: '2024-11-16'
 statistics:
-  challenge_count: 2
+  challenge_count: 8
   participant_count: 15
 references:
 - title: Cyber - National Cyber Week 2024
   url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
   type: organizer_announcement
   accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-final
+  type: official_repository
+  accessed: '2026-11-28'
 verification: corroborated
 notes: >
   Date, venue and time window are from the organizer recap. Podium: SNI cabang siburian
-  (1), time heals (2), nyan setsuna nyan (3). Two final challenges are archived from a
-  participant write-up tree that preserved the distributed material: Pentester Toolbox
-  (web), which keeps its full server-side handoff, and 19s (rev), for which only the
-  released binary survived. Neither ships the organizer statement, so both descriptions
-  are factual readings of the shipped code or binary. challenge_count counts the
-  archived challenges, not the number played.
+  (1), time heals (2), nyan setsuna nyan (3). Eight challenges are archived in this round
+  from the PETIR CTF Archive (PETIRsec/ctf-archive), which is the primary source: A4s
+  lagi 4x and GCDeez (crypto); cloudsec2 and winsandbox (forensics); 19s and Evil Bitsy
+  Problem (rev); and Pentester Toolbox and Spicy Storage (web). The two winsandbox and
+  cloudsec2 challenges are remote forensic services whose distributed evidence is
+  supplied on connection, so only the distribution scaffolding is archived.
+  challenge_count counts the archived challenges, not the number played.

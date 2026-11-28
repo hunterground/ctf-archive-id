@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-rev-003
+name: Sideload
+slug: 003-sideload
+original_name: Sideload
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: >
+  The organizer text, kept verbatim, asks "I thought complexity equals to better
+  security, can you proof me wrong?" The distribution is an Android APK (app-debug.apk),
+  a sideloading reverse challenge.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- rev
+- android
+authors:
+- name: Marc
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Reverse Engineering/sideload
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Sideload from National Cyber Week CTF 2024 qualification,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: rev
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Reverse%20Engineering/sideload
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Qualification reverse/mobile challenge. The distribution is the Android APK
+  app-debug.apk. The source ships no solver script.

@@ -16,7 +16,7 @@ dates:
   start: '2024-10-06'
   end: '2024-10-06'
 statistics:
-  challenge_count: null
+  challenge_count: 19
   participant_count: 55
 references:
 - title: Cyber - National Cyber Week 2024
@@ -27,9 +27,19 @@ references:
   url: https://web.archive.org/web/20241215230447/https://ncw.cscbinus.com/
   type: official_website
   accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual
+  type: official_repository
+  accessed: '2026-11-28'
 verification: corroborated
 notes: >
   The archived official site gives the competition platform host as the CTF entry point
   and describes the CTF as an online qualification followed by an offline final, teams of
-  up to three. The organizer recap is the source for the dates and counts. One
-  author-published challenge, Diddy's Party, is archived in this round.
+  up to three. The organizer recap is the source for the dates and counts. Nineteen
+  challenges are archived in this round from the PETIR CTF Archive (PETIRsec/ctf-archive),
+  which is the primary source: gandalf, KaZooYa, veight (pwn); R5A lagi 5x, Neo Encryption,
+  Tak Ada Rotan (crypto); Multiplex, ShopiToko, ZaBlender (forensics); Surat Cinta Untuk
+  CSC, Blackbox Blockchain, Diddy's Party, Shadow Hunt (misc); I Kinda Get It Now, SDP,
+  Sideload (rev); and bengsky's submission, Old But Gold Maybe, This is Cursor Era No
+  VSCode (web). Multiplex's evidence is an external MEGA attachment that is not copied into
+  the archive. Six solver scripts were moved to the mirrored solvers/ paths.

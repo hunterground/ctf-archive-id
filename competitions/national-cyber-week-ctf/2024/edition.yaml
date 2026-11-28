@@ -10,7 +10,7 @@ dates:
   end: '2024-11-16'
 statistics:
   participant_count: 55
-  challenge_count: null
+  challenge_count: 27
 references:
 - title: Cyber - National Cyber Week 2024 (organizer recap)
   url: https://student-activity.binus.ac.id/csc/2024/11/national-cyber-week-2024/
@@ -20,6 +20,10 @@ references:
   url: https://web.archive.org/web/20241215230447/https://ncw.cscbinus.com/
   type: official_website
   accessed: '2026-11-26'
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024
+  type: official_repository
+  accessed: '2026-11-28'
 challenge_materials_imported: true
 notes: >
   Organizer recap: a workshop "Guardian Of The Chain: Safeguarding Blockchain Security" by
@@ -29,11 +33,8 @@ notes: >
   with 15 teams. participant_count is the qualification team figure. The archived official
   site gives ncw.cscbinus.com as the edition site and describes the same two-stage format.
 
-  Ten challenges are archived: eight from the qualification and two from the final.
-  Diddy's Party (misc) comes from the author's own repository. R5A lagi 5x and Neo
-  Encryption (crypto), KaZooYa (pwn), Shadow Hunt (misc), I Kinda Get It Now (rev) and
-  Old But Gold, Maybe (web) come from a participant write-up tree that preserved the
-  distributed files, as do the two final challenges Pentester Toolbox (web) and 19s
-  (rev). The remaining participant collections covering this edition are registered in
-  archives/repositories.yaml for maintainer review and were not imported. Podium: SNI
+  Twenty-seven challenges are archived: nineteen from the qualification and eight from the
+  final, all imported from the PETIR CTF Archive (PETIRsec/ctf-archive) at commit
+  056ebe3bda4644fcd3d148dc16c34baa92457ffd, which is now the primary source for this edition
+  and supersedes the earlier imports from author and participant repositories. Podium: SNI
   cabang siburian (1), time heals (2), nyan setsuna nyan (3).

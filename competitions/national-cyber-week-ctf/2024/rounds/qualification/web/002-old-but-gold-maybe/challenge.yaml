@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-web-002
+name: Old But Gold, Maybe
+slug: 002-old-but-gold-maybe
+original_name: Old But Gold, Maybe
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: >
+  The organizer text, kept verbatim, says "My pop used to run a website and now I
+  inherited it. Unfortunately I'm too lazy to port the database to a newer tech..."
+  The distribution is dist/dist.zip, a web application with a legacy database.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+authors: []
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Web Exploitation/old-but-gold-maybe
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Old But Gold, Maybe from National Cyber Week CTF 2024 qualification,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: web
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Web%20Exploitation/old-but-gold-maybe
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Qualification web challenge. The distribution is dist/dist.zip. The source ships no
+  solver script.

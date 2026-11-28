@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-final-forensics-002
+name: 意外运行恶意应用程序
+slug: 002-winsandbox
+original_name: 意外运行恶意应用程序
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensic
+description: >
+  The Chinese title translates roughly to "Unexpectedly running a malicious
+  application," a Windows-sandbox themed forensic challenge. The organizer notes an
+  archive password (ncwgogo). The distribution is description.txt plus a remote service;
+  the organizer description only says to check the attached file.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- forensics
+- windows
+authors:
+- name: cipichop
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-final/Forensic/winsandbox
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    winsandbox from National Cyber Week CTF 2024 final,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: forensics
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-final/Forensic/winsandbox
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Final forensics (Windows sandbox) challenge. The distribution is description.txt plus a
+  remote service. The source ships no solver script.

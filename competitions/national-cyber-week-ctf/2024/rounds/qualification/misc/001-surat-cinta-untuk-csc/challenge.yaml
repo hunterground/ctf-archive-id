@@ -1,0 +1,63 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-misc-001
+name: Surat Cinta Untuk CSC
+slug: 001-surat-cinta-untuk-csc
+original_name: Surat Cinta Untuk CSC
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: >
+  A love-letter themed OSINT challenge: the organizer text, kept verbatim, laments that
+  all of one's love has been spent searching for the flag. The distribution is the image
+  "surat cinta untuk CSC.png".
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- misc
+- osint
+authors:
+- name: Lawson Schwantz
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Misc/SuratCintaCSC
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Surat Cinta Untuk CSC from National Cyber Week CTF 2024 qualification,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: misc
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Misc/SuratCintaCSC
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Qualification OSINT/misc challenge. The distribution is the image
+  "surat cinta untuk CSC.png". The source ships no solver script.

@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: national-cyber-week-ctf-2024-qualification-crypto-003
+name: Tak Ada Rotan
+slug: 003-tak-ada-rotan
+original_name: Tak Ada Rotan
+competition_id: national-cyber-week-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: >
+  The organizer description, kept verbatim, is "??? pun jadi" — a play on the
+  Indonesian proverb "tak ada rotan, akar pun jadi" ("no rattan, a root will do").
+  The distribution is chall.sage and output.txt.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- crypto
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ncw-2024/ncw-2024-qual/Cryptography/tak-ada-rotan
+licensing:
+  declared_license: MIT
+  copyright_holder: National Cyber Week 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Tak Ada Rotan from National Cyber Week CTF 2024 qualification,
+    imported via the PETIR CTF Archive
+  permission_reference: >-
+    The source repository declares no license; per archive curation policy for
+    unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: false
+  checksums: []
+environment:
+  type: python
+  services: []
+  requirements: [sagemath]
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ncw-2024/ncw-2024-qual/Cryptography/tak-ada-rotan
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: |
+  Qualification crypto challenge. The distribution is chall.sage and output.txt. The
+  source ships no solver script.
