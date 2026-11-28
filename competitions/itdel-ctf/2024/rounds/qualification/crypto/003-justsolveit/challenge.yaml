@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-crypto-003
+name: JustSolveIT
+slug: 003-justsolveit
+original_name: JustSolveIT
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTO
+description: A scripting/math challenge with a set of linear equations to solve.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- scripting
+- matrix
+- linear-equation
+authors:
+- name: wondping
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-justsolveit
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: CRYPTO/JustSolveIT
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 0785ef0ad97d62cfea42be20fc6d5b0f5f1236547c58682ede7fcad8a571679e
+  - path: README.md
+    algorithm: sha256
+    value: 1b38b10035ab06404f8e2ed215a03e06a1c571e8da60782dddb8daa5b4a1a423
+  - path: chall.py
+    algorithm: sha256
+    value: fc9e25ae28c6b2d1af38f5c10ebdbd7503a36692d13dae8030d0498b89a18380
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 39938c9327d1fca667ffbe64ee0c8a314ea4803d35ed3543cac3cfddcf168604
+  - path: secret.py
+    algorithm: sha256
+    value: 4fbc4b8eef30c08138424262a94dbc6d31d8863c0cd2de222f6bb33e78ea9fc4
+  - path: dist/chall.py
+    algorithm: sha256
+    value: fc9e25ae28c6b2d1af38f5c10ebdbd7503a36692d13dae8030d0498b89a18380
+licensing:
+  declared_license: MIT
+  copyright_holder: wondping
+  redistribution: permitted
+  attribution_required: true
+  attribution: JustSolveIT by wondping for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

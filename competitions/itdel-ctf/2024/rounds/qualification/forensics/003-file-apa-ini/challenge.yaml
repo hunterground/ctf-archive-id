@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-forensics-003
+name: File apa ini
+slug: 003-file-apa-ini
+original_name: File apa ini?
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSIC
+description: A file that will not open as expected; identify and repair the file type.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+authors:
+- name: hombing
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-file-apa-ini
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: FORENSIC/File apa ini
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: File apa ini.pptx
+    algorithm: sha256
+    value: 439a9a31d84060f843069263b0b96aab89c6bf4f26aae87f32d15b315ef4f743
+  - path: README.md
+    algorithm: sha256
+    value: 53a6810d5c836c7b578dd1739034b53549d7a89eef2b042e6423bea7c29f2dd7
+licensing:
+  declared_license: MIT
+  copyright_holder: hombing
+  redistribution: permitted
+  attribution_required: true
+  attribution: File apa ini by hombing for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

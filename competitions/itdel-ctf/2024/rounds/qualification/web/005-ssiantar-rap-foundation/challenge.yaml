@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-web-005
+name: SSiantarRapFoundation
+slug: 005-ssiantar-rap-foundation
+original_name: SSiantarRapFoundation
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: WEB
+description: A web challenge (SSRF crawler) that fetches a URL and returns a base64-encoded flag.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- web
+- ssrf
+authors:
+- name: Martua Raja Doli Pangaribuan
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-ssiantar-rap-foundation
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: WEB/SSiantarRapFoundation
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3ab95360a387e4d09f8a3a0be08ee0aa4892c510153df86b999425f4a56e3934
+  - path: README.md
+    algorithm: sha256
+    value: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 2f20d6b8efe8ae9463553eed1409dc9cf3f190399df8f39056f1869d45f58a04
+  - path: src/index.php
+    algorithm: sha256
+    value: 3168861f571bad89182462e6a402ab1361a055f3745c4dc72a4c4892221b8230
+licensing:
+  declared_license: MIT
+  copyright_holder: Martua Raja Doli Pangaribuan
+  redistribution: permitted
+  attribution_required: true
+  attribution: SSiantarRapFoundation by Martua Raja Doli Pangaribuan for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: >
+  The upstream WEB/SSiantarRapFoundation has an empty README with no author metadata.
+  Author is attributed to Martua Raja Doli Pangaribuan from the git history of the
+  repository, which lists him as the committer for every commit touching this directory.

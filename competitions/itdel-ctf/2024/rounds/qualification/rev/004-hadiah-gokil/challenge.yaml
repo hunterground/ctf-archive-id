@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-rev-004
+name: Hadiah Gokil
+slug: 004-hadiah-gokil
+original_name: Hadiah Gokil
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REV
+description: 'A reverse engineering + web challenge: deobfuscate app.js to recover the ID of the 1000th registrant.'
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- web
+- javascript-obfuscation
+authors:
+- name: .jagungrebus
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-hadiah-gokil
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: REV/hadiahgokil
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: b5d87ce4fd1b72f7efd6073f907aa833b3d3c45b6a3af696b21801af1cdfb058
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 071a622daebf4daa9d04d28c73fbada4c735f3203b3425aca7010dbecb8376a3
+  - path: readme.md
+    algorithm: sha256
+    value: 4793cf318f100a5de82b9ab5eb9252c0cc1a782f335fa9fd73c0b2f1d46fff71
+  - path: readme.pdf
+    algorithm: sha256
+    value: 4ecb432987176c589a3412470dba607ae21afc975cf610ff1f0f3a60d572a078
+  - path: source.js
+    algorithm: sha256
+    value: bf725ce7870adc3353cd46f5428c52cbe52d0effe42791962b2a01689ed88fa9
+  - path: tes.py
+    algorithm: sha256
+    value: a623657fd12e0dc0aab2306885c1939cfd85d31d34dde1843d5111803096b1ec
+  - path: public/app.js
+    algorithm: sha256
+    value: 561620c023fb8a8069ab4a2dba699731c99997837063e999b90a0456664ad5c2
+  - path: public/index.html
+    algorithm: sha256
+    value: e3cfec04da5dcf01eefe2783ce14e31476f627192400773ae0977e95c32e07a9
+licensing:
+  declared_license: MIT
+  copyright_holder: .jagungrebus
+  redistribution: permitted
+  attribution_required: true
+  attribution: Hadiah Gokil by .jagungrebus for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

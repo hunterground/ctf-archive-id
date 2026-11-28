@@ -1,0 +1,75 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-web-001
+name: Anywhere Door
+slug: 001-anywhere-door
+original_name: Anywhere Door
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: web
+original_category: WEB
+description: 'A path traversal challenge: ''Pintu Kemana Saja'' (Anywhere Door), the Doraemon reference.'
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- path-traversal
+authors:
+- name: VascoZ
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-anywhere-door
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: WEB/Anywhere Door
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e0f4120e8d9a8c250b9bf4a955624011df50e22e1db83835ddadd2edd4586f04
+  - path: README.md
+    algorithm: sha256
+    value: ad335d2504a2ace1e4651776cb2de9d638a13d5bd320fa78659340aa5b75f083
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 58f59989522b3c330499a1a69056d1eae93ca9fbda020de33bab0fbbf3dd32ad
+  - path: nginx.conf
+    algorithm: sha256
+    value: 3649da2e17dd6b40d6cfd6b4d7ab1d121aa04953ce2240dc0f5088ddf5078807
+  - path: dist/nginx.conf
+    algorithm: sha256
+    value: c8ed3abe32e537d6a7b69c6394b0a3fb46ca60595ac6f6cfeb7b25b897c40b2b
+  - path: html/flag.txt
+    algorithm: sha256
+    value: 1130663e39c966473369f9fc2a3d5d30a81378b9b0dc27c5e77eacdd212bfa3b
+  - path: html/flag/index.html
+    algorithm: sha256
+    value: 50f9aa3d49c03e8c00d0e4fc25e8e5520ffcc949360241e114ef20a64d9b13b3
+licensing:
+  declared_license: MIT
+  copyright_holder: VascoZ
+  redistribution: permitted
+  attribution_required: true
+  attribution: Anywhere Door by VascoZ for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

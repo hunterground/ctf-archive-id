@@ -1,0 +1,60 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-forensics-005
+name: Identitas File
+slug: 005-identitas-file
+original_name: Identitas File
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSIC
+description: Find the hidden identity/metadata of an image file (PNG).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- metadata
+authors:
+- name: hombing
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-identitas-file
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: FORENSIC/Identitas File
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Institut Teknologi Del.png
+    algorithm: sha256
+    value: 271eaf59e480cafa612ae0661019549f4558a92de36c326849a329a452646859
+  - path: README.md
+    algorithm: sha256
+    value: 00af1da02acde467e9c9428987731a3e02bcf55b9bf3105931408f49f328a20c
+licensing:
+  declared_license: MIT
+  copyright_holder: hombing
+  redistribution: permitted
+  attribution_required: true
+  attribution: Identitas File by hombing for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

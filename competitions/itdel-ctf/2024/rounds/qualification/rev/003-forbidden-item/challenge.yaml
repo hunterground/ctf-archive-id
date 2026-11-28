@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-rev-003
+name: Forbidden Item
+slug: 003-forbidden-item
+original_name: Forbidden Item
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REV
+description: A reverse engineering challenge (Windows PE) that asks 'Can you hack it?'.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- windows-pe
+authors:
+- name: .jagungrebus
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-forbidden-item
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: REV/forbiddenitem
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 06c5880ff698a31b0cb27153390ef5d1a920e7554899ff426cfcb201a1be7ae2
+  - path: README.pdf
+    algorithm: sha256
+    value: 7c5a7790fb99820332be12725a35e642371caa92f99f7a38d78f486113e698a5
+  - path: chall.cpp
+    algorithm: sha256
+    value: 5c6961e9b062b810b407aa12b9cb6704c66208d82d3815e8f6154808d7f4e098
+  - path: dist/a.exe
+    algorithm: sha256
+    value: 113e2094655a2a728afb6b2870b5a325d95a595135aeb79afb988f4b1001b953
+  - path: dist/encrypted.bin
+    algorithm: sha256
+    value: 8f306b7f70bfc05eec68a8b600ae4e633bf2e367cf915887f891c35cc47153db
+licensing:
+  declared_license: MIT
+  copyright_holder: .jagungrebus
+  redistribution: permitted
+  attribution_required: true
+  attribution: Forbidden Item by .jagungrebus for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

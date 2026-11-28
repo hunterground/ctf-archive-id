@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-forensics-001
+name: baby first dfir
+slug: 001-baby-first-dfir
+original_name: baby first dfir
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSIC
+description: An introductory digital forensics challenge using a Windows App Compat Artifact (.ad1 image).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- dfir
+- windows-app-compat
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-baby-first-dfir
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: FORENSIC/baby first dfir
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 38f3ef1d9b60047caf7224e9f02ff44d1476e6811d041083b0d7f7a8af5eac61
+  - path: chall.ad1
+    algorithm: sha256
+    value: 1761601de0af3428d21c8b66094a5fed0b9147d6765c17fb3f75fbca39d2f797
+licensing:
+  declared_license: MIT
+  copyright_holder: k.eii
+  redistribution: permitted
+  attribution_required: true
+  attribution: baby first dfir by k.eii for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

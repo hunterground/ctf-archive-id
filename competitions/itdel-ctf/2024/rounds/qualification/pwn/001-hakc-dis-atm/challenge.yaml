@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-pwn-001
+name: hakc dis atm
+slug: 001-hakc-dis-atm
+original_name: hakc dis atm
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: pwn
+original_category: PWN
+description: A binary exploitation challenge involving an ATM program in C.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- pwn
+authors:
+- name: hanz0x17
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-hakc-dis-atm
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: PWN/hakc-dis-atm
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 3e7307a89fa02629498a7bbe6291f1abead9aa4952d6fcf413eff476c86b39b0
+  - path: README.md
+    algorithm: sha256
+    value: 0ea7a579fd3b17b50edb5447a08528650d167f0261402620c896ef48ebf0154b
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: c6897bca8153d894817e3488da4a7315b37bf9b810d09ddd2a2b64688b452945
+  - path: dist/atm.c
+    algorithm: sha256
+    value: 1c58cf2cff8f46a57fbef90b4adf1d362d960605685663adf952a39ce6994903
+  - path: src/chall.c
+    algorithm: sha256
+    value: 0c48e640fff1c970dc63394bdc6d16b825ae565419a3ab24f7fb84f936e62a22
+  - path: src/sanity.sh
+    algorithm: sha256
+    value: 980e32327d0eb1d9427b53bae93b3e361bdf67e1bd413b3d5c2d088863893a96
+  - path: src/start.sh
+    algorithm: sha256
+    value: db87795ec2efb7ed9cc98e6986b051443281589d10e33b702ea7c6cde4433555
+licensing:
+  declared_license: MIT
+  copyright_holder: hanz0x17
+  redistribution: permitted
+  attribution_required: true
+  attribution: hakc dis atm by hanz0x17 for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

@@ -1,0 +1,61 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-crypto-006
+name: Vigenee
+slug: 006-vigenee
+original_name: Vigenee
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: crypto
+original_category: CRYPTO
+description: A Vigenere cipher challenge with key 'message'; the flag is in uppercase.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- vigenere
+- reuse-key
+- small-key
+authors:
+- name: wondping
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-vigenee
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: CRYPTO/Vigenee
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a7124a0d211d27bf299d50548a592178ef04527112394d0286f70e966c588cad
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 8db40ef11a6a88b8539e20939e0df8da38b7812203d5e6fd08654912ef7a3f26
+licensing:
+  declared_license: MIT
+  copyright_holder: wondping
+  redistribution: permitted
+  attribution_required: true
+  attribution: Vigenee by wondping for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-rev-005
+name: is snake can move backwards
+slug: 005-is-snake-can-move-backwards
+original_name: is snake can move backwards
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REV
+description: A reverse engineering challenge asking whether a snake can move backwards (Python-compiled binary).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- python
+authors:
+- name: aodreamer
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-is-snake-can-move-backwards
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: REV/is snake can move backwards
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f8cb4f6c5661dbaebd85c271d06337af88219cc05eb4cda74f1ecf62cdcd5f59
+  - path: dist/main
+    algorithm: sha256
+    value: effdbd030ddb1617b3a3557d75033bdbf0c6741cf3685e04731319932c7a1398
+  - path: src/compile.py
+    algorithm: sha256
+    value: 89453163d9b8538d6d287c767d237a6e7cca3dea3f9f9de68701908f08920614
+  - path: src/main.py
+    algorithm: sha256
+    value: 17b7c577b3a8f603b4559e098f047e6c265f6933a5574c1b7f1a49316ffac894
+  - path: src/note.txt
+    algorithm: sha256
+    value: 5df9c26add2262f135141927c0fecda733b30072a2ccb9821b44d70d143c52ff
+licensing:
+  declared_license: MIT
+  copyright_holder: aodreamer
+  redistribution: permitted
+  attribution_required: true
+  attribution: is snake can move backwards by aodreamer for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-rev-001
+name: ezr3v
+slug: 001-ezr3v
+original_name: ezr3v
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REV
+description: A baby reverse-engineering challenge (Windows PE) solvable with Ghidra or IDA.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- xorecrypt
+- windows-pe
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-ezr3v
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: REV/ezr3v
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cdc91b06084b3a0e2fd34f0fe3ff0eee29a84da6b5636271d3ce8cb86299a635
+  - path: checker
+    algorithm: sha256
+    value: edd9c1e6055b815d5a5ea1bbc75e4f088c12b5141efac34a26560edf7329f344
+  - path: checker.c
+    algorithm: sha256
+    value: c63dc41d42e2170fd4ebf3fc96954fd120a66d6ac50bd50e698b85c824bbdb25
+  - path: checker.exe
+    algorithm: sha256
+    value: 60bc80ecab84cad8e746c529d1974bfaab5a2c257874ad78620157d16c92b587
+  - path: checker.exe.i64
+    algorithm: sha256
+    value: b6736e161138f61dc8b4882eeffcff035db4c106683254c83ee56b3cb9d2c246
+  - path: genenc.c
+    algorithm: sha256
+    value: 31d32d397f54452f7686d44c8ee6745403e63fa41fe20067663bc5b52785f99c
+  - path: genenc.exe
+    algorithm: sha256
+    value: 90b238822dfabdd0f478c9a87660bffe5fe326a541cf68a3caf5ac0a05deedf9
+licensing:
+  declared_license: MIT
+  copyright_holder: k.eii
+  redistribution: permitted
+  attribution_required: true
+  attribution: ezr3v by k.eii for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

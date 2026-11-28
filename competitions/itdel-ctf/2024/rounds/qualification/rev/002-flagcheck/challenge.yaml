@@ -1,0 +1,69 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-rev-002
+name: Flagcheck
+slug: 002-flagcheck
+original_name: Flagchecker
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: rev
+original_category: REV
+description: A simple flag-check reverse engineering challenge (Windows PE).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- rev
+- windows-pe
+authors:
+- name: .jagungrebus
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-flagcheck
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: REV/flagcheck
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: fcaae5258d1739dded3bfe6a1c89afe49b8522143998b79c3885ad9bd65d1c2b
+  - path: README.pdf
+    algorithm: sha256
+    value: 7fda74164a2eecf23990caa93d22e25209e2119cf040efc95347d58c22d83721
+  - path: source.c
+    algorithm: sha256
+    value: 7200f6ba53ed731fe3de55a944759f17e6c178bd60cec848f0a0a61c7f752fa1
+  - path: tes.py
+    algorithm: sha256
+    value: 7dac956f443e93475c7ef2c2a1c21e573720a4d20eeb98a48d027ebecdef3d62
+  - path: dist/chall
+    algorithm: sha256
+    value: f69ade9f7fff4116ed132812328e5531f984978984f3f286e31d02217ac428a5
+licensing:
+  declared_license: MIT
+  copyright_holder: .jagungrebus
+  redistribution: permitted
+  attribution_required: true
+  attribution: Flagcheck by .jagungrebus for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

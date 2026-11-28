@@ -1,0 +1,64 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-forensics-002
+name: ezf1x
+slug: 002-ezf1x
+original_name: ezf1x
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: forensics
+original_category: FORENSIC
+description: A corrupted image file to repair (fix header, IHDR, and IDAT chunks).
+difficulty:
+  value: null
+  source: unknown
+tags:
+- forensics
+- hex-fixing
+- png
+authors:
+- name: k.eii
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-ezf1x
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: FORENSIC/ezf1x
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 48c320cd845edb42f102d8fbb6eb4b0ca52f12dcc8ca840654de23ccf6bc04b3
+  - path: dist
+    algorithm: sha256
+    value: 6b98095bb72eba0763e9c4721541aaf94f24d5406c5211e12012dd5afaa2e699
+  - path: flag.png
+    algorithm: sha256
+    value: 0410be77ac368936416937a73483827c65235195935a0d4cff531537bd949e26
+licensing:
+  declared_license: MIT
+  copyright_holder: k.eii
+  redistribution: permitted
+  attribution_required: true
+  attribution: ezf1x by k.eii for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.

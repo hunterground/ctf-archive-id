@@ -1,0 +1,42 @@
+schema_version: '1.0'
+id: itdel-ctf
+name: IT Del CTF
+country: ID
+organizer:
+  name: Institut Teknologi Del
+  website: https://www.del.ac.id/
+website: null
+description: >
+  IT Del CTF (ITDEL CTF) is an annual national cyber security competition organized
+  by IT Del (Institut Teknologi Del), an Indonesian institution in North Sumatra.
+  The 2024 preliminary stage followed the Jeopardy style, with teams competing
+  across a variety of challenge categories (web, rev, pwn, osint, crypto, forensics).
+metadata:
+  established_year: 2024
+  recurring: true
+  formats:
+  - jeopardy
+status: active
+verification: needs_scope_review
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+- title: IT Del news, September 2024
+  url: https://www.del.ac.id/?m=202409
+  type: organizer_announcement
+  accessed: '2026-11-21'
+notes: >
+  Primary evidence is the IT Del CTF challenge repository (by challenge author
+  jonscafe/k.eii alongside the other named authors), whose README states: "ITDEL CTF
+  is an annual national cyber security competition organized by ITDEL in Indonesia.
+  On 2024, ITDEL For the preliminary stage, the competition format follows the Jeopardy
+  style, where teams compete in various categories of challenges."
+
+  Scope note: IT Del's September 2024 news describes an internal Capture the Flag
+  workshop for the IT Del community with Poltek SSN and Huawei. It is not yet confirmed
+  whether that internal workshop and the national CTF are the same event or two distinct
+  ones. This competition record reflects the national CTF evidenced by the challenge
+  repository. Established year and recurring status come from the repository README's
+  "annual" wording; no pre-2024 edition evidence was located.

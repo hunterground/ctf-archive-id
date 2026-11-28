@@ -1,0 +1,57 @@
+schema_version: '1.0'
+id: itdel-ctf-2024-qualification-osint-002
+name: gitosint
+slug: 002-gitosint
+original_name: git osint
+competition_id: itdel-ctf
+edition_year: 2024
+division_id: null
+round_id: qualification
+category: osint
+original_category: OSINT
+description: An OSINT challenge to investigate a Git account to find a hidden clue.
+difficulty:
+  value: null
+  source: unknown
+tags:
+- osint
+- git
+authors:
+- name: hanz0x17
+  team: null
+organization: null
+provenance:
+  archive_id: itdel-ctf-2024-gitosint
+  source_type: git
+  repository: https://github.com/jonscafe/itdel-ctf
+  commit: 31a86b68875f0d799aea7e24cf05c20331abe7bc
+  original_path: OSINT/gitosint
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c6fccfc5300ab49bfe3e870de913b867934b505e240109f979975789c905d1e6
+licensing:
+  declared_license: MIT
+  copyright_holder: hanz0x17
+  redistribution: permitted
+  attribution_required: true
+  attribution: gitosint by hanz0x17 for IT Del CTF 2024, https://github.com/jonscafe/itdel-ctf
+  permission_reference: The upstream repository has no LICENSE file; per the archive maintainer instruction of 2026-11-26 a source with no license file is recorded as MIT.
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: IT Del CTF challenge repository
+  url: https://github.com/jonscafe/itdel-ctf
+  type: official_repository
+  accessed: '2026-11-28'
+verification: needs_scope_review
+notes: Author attribution from the challenge README in the upstream repository. Copyright holder is the named challenge author.
