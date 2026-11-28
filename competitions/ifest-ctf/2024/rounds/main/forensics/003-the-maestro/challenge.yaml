@@ -1,0 +1,84 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-forensics-003
+name: The Maestro
+slug: 003-the-maestro
+original_name: The Maestro
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: 'The organizer description, kept verbatim, casts the Maestro as a mad pianist who has
+
+  gone mad and needs investigating, with an objective to find the secret. The README
+
+  explains this is musical steganography: after understanding the provided code and the
+
+  reference paper, the participant writes code to extract the hidden message from
+
+  maestro.mid to get the flag. The distribution is chall.zip.
+
+  '
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- forensics
+- steganography
+- audio
+- medium
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Forensic/the-maestro
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: The Maestro from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2d4d12f7113fe47673eaeec09c0af069615bcd65055979159f5f2deefbca11db
+  - path: chall.zip
+    algorithm: sha256
+    value: d48f053f52ff3f262a2b021c550f64975b401fd4f5a9b766b3212aa3462b70a5
+  - path: challenge.yml
+    algorithm: sha256
+    value: 452fd33aa92030adbbdec5ca652b924729769e3a79366adf3970f0115f2fcd15
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 9e626bf28ac32b6f3bfe5757137405feb7d827af6cde786942237efebf21bd92
+environment:
+  type: forensics
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Forensic/the-maestro
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Forensics challenge. The distribution is chall.zip. The src/ server files (flag.txt) are
+
+  preserved in original/. The solver script src/solver.py was moved to the mirrored solvers/
+
+  path.
+
+  '

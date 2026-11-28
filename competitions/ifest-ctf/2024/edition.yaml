@@ -4,13 +4,25 @@ competition_id: ifest-ctf
 year: 2024
 name: IFEST CTF 2024
 status: unknown
-verification: unverified
+verification: corroborated
 dates:
   start: null
   end: null
 statistics:
   participant_count: null
-  challenge_count: null
-references: []
-challenge_materials_imported: false
-notes: Carried from the previous archive record. This pass did not open an organizer page for 2024.
+  challenge_count: 18
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: >
+  Eighteen IFEST CTF 2024 challenges are archived in a single main round from the PETIR CTF
+  Archive (PETIRsec/ctf-archive), which ships the 2024 challenges as a flat category set
+  (Cryptography 4, Reverse Engineering 3, Web Exploitation 4, Binary Exploitation 3, Forensic 4)
+  with no round or division split, so the round is modeled as single-stage. The source
+  repository declares no license; per archive curation policy licensing is treated as MIT.
+  The reverse challenge LinkedOut distributes no binary and points to an external Google
+  Drive attachment recorded in missing.txt rather than copied. Ten solver scripts found in
+  challenge src/ directories were moved to the mirrored solvers/ paths.

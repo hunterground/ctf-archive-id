@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-crypto-002
+name: Enkripsi Terpelit
+slug: 002-enkripsi-terpelit
+original_name: Enkripsi Terpelit
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: 'The organizer description, kept verbatim, laments that the encryption may only be run
+
+  twice ("only two encryptions allowed"). It is a "two dimensional CRT" challenge: the
+
+  participant has two chances to read an encrypted secret and must guess its contents within
+
+  35 seconds using two-dimensional CRT theory. The distribution is enkripsiterpelit.py, and
+
+  the challenge was served over netcat at 157.230.38.61:1043.
+
+  '
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- crypto
+- crt
+- medium
+authors:
+- name: LS
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Cryptography/EnkripsiTerpelit
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Enkripsi Terpelit from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3f03d7d0637fdb19b8c19bc97c2afe206c3ad5ec16222929c4d48583842f806c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 41c91728c4e822736b335da9d3e522ca0ac15d9133f8eab4506041928cc8136d
+  - path: enkripsiterpelit.py
+    algorithm: sha256
+    value: e6acf63c49dd52038c3b410253b266ae61f9977e8f9aa472fa4a313fd224eaa8
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5147dd618f94d9f3aa6ac1d622aef95acab1ebf123f589b57df4b561796b4d73
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: b7f49cb90baa1a1e346c6976e9cfb15d8fd2e4768dc9fe639d872838f01d4e2a
+  - path: src/flag.txt
+    algorithm: sha256
+    value: eac00645b4f66242f6c1fef514f09b28de6fbebacfbf0a83f8a5253b9583eb87
+  - path: src/serper.py
+    algorithm: sha256
+    value: e6acf63c49dd52038c3b410253b266ae61f9977e8f9aa472fa4a313fd224eaa8
+  - path: src/start.sh
+    algorithm: sha256
+    value: 0eaa774256d2b0cfd2dda3c73faffb32c85d560e365118359cd70b786e1679e2
+environment:
+  type: sage
+  services: []
+  requirements:
+  - sagemath
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Cryptography/EnkripsiTerpelit
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Crypto challenge. The distribution is enkripsiterpelit.py. The src/ deployment tree
+
+  (Dockerfile, docker-compose.yaml, flag.txt, serper.py, start.sh) is preserved in
+
+  original/. The solver script src/solv.sage was moved to the mirrored solvers/ path.
+
+  '

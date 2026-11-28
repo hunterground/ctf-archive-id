@@ -1,0 +1,108 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-pwn-003
+name: Elementals
+slug: 003-elementals
+original_name: Elementals
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: 'The organizer description, kept verbatim, labels the challenge "Forces of Nature". The
+
+  distribution is chall.tar.gz, served over netcat at 157.230.38.61:16942.
+
+  '
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- pwn
+- medium
+authors:
+- name: Xovert
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Binary Exploitation/elementals
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Elementals from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f7c3b9b670b5b2c4d4cb4d161c43f1dfbe39afb21deb1b0f259da099dd95f164
+  - path: chall.tar.gz
+    algorithm: sha256
+    value: 479e9de138d0202e8004274777a2b5657da0e9af6fd52f1cb4bb17ba04455b42
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4b64cd34f0ff7cf583111cc4b5612fe7ca687c4dd7165933227db39a9566f63d
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: be6e9800d6d2c50ab4bc6b9be22f722a23169ec27ce0d2042a67fd1fab96554a
+  - path: src/Makefile
+    algorithm: sha256
+    value: 8b4bba1cf7ec57fffa6c2053d9b58167a89e7644fe4c11d152c52334ca0b48ad
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 7685cb54f3568133b861d12c77ff305ca5b1f5169f63e1e70719226938b392f4
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 4aef1a8e5740147f2e16249e937b3472800f2c660f3c6107113aaf154f8ec806
+  - path: src/lib/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 6d8337d3d1648ed3f42eccdc90044505bd19b042c496d05c4c4cd3dfdddd9b24
+  - path: src/lib/libc.so.6
+    algorithm: sha256
+    value: 88024463c275711c29f6ac2920a5d3174349d8802720e2df1656637c18d8efba
+  - path: src/run.sh
+    algorithm: sha256
+    value: 200e42e0828a1c110013d07cd173970747bfc7160ebd4e5a494bc4a3fbe64fcb
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+  - path: src/startchall.sh
+    algorithm: sha256
+    value: 13d5dc129bbb5990456f94040ad3c8e012eb5bf05e70512c54f623a8e457a58c
+  - path: src/xinetd
+    algorithm: sha256
+    value: 13f81111e29cae886dd8ed57ca947385a00bcecc5f4e8868663b4540ed14c9db
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 0a24604ab89494b103e254e76a8f03778290a81f9556f90b95fc4c36bb68b70d
+environment:
+  type: pwn
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Binary Exploitation/elementals
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Pwn challenge. The distribution is chall.tar.gz. The src/ deployment tree (Dockerfile,
+
+  Makefile, docker-compose.yaml, flag.txt, lib/, run.sh, start.sh, startchall.sh, xinetd) is
+
+  preserved in original/. The solver script src/solve.py was moved to the mirrored solvers/
+
+  path.
+
+  '

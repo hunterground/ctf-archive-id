@@ -1,0 +1,98 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-rev-002
+name: Time Traveler's Dilemma
+slug: 002-time-travelers-dilemma
+original_name: Time Traveler's Dilemma
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: 'The organizer description, kept verbatim, asks for help with little time left. The README
+
+  explains this is time travel debugging: the participant imports the given
+
+  session.chunked.pycrunch-trace into the pytrace web app, collects the answers to the
+
+  questions, and feeds them to the service to get the flag. The distribution is questions.txt
+
+  and session.chunked.pycrunch-trace, served over netcat at 157.230.38.61:14041.
+
+  '
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- rev
+- pytrace
+- easy
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Reverse Engineering/time-travelers-dilemma
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Time Traveler's Dilemma from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: c793a9963f4900a469305f89bcc851ee4b7deb70c736b94ba75c742e4796e1a5
+  - path: challenge.yml
+    algorithm: sha256
+    value: e73c9540806a86e3a580df104dbcc97f9b750b16931280807127acafbbc13a38
+  - path: questions.txt
+    algorithm: sha256
+    value: d2c73127818f2f4eee279aded24dbb2181ebbe970740f39fde7f8b823ae94583
+  - path: session.chunked.pycrunch-trace
+    algorithm: sha256
+    value: d0597eeaee1bb468a3f68be27dc06dde56bbea55a9303d1eff09b55c1c4a0cac
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 573582d99e645c102aa5feee3b3c3372ece84213d265a09325616d783b198ad9
+  - path: src/chall.py
+    algorithm: sha256
+    value: c6084f084345146e854f071c6723bbb57957460e0f97261942007e6ac0c79905
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: a1f11de0ad6b6cd8285fd07e0b6ebcf45effd1fd21b9a965666492f5c5d9d90c
+  - path: src/qna.py
+    algorithm: sha256
+    value: 0cdd7eefe570ca920c85c48b36ad2bbbc8ca7cfd7baa919529021fe602995217
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+environment:
+  type: pytrace
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Reverse Engineering/time-travelers-dilemma
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Reverse challenge. The distribution is questions.txt and session.chunked.pycrunch-trace.
+
+  The src/ deployment tree (Dockerfile, chall.py, docker-compose.yaml, qna.py, start.sh) is
+
+  preserved in original/. No solver script ships in the source.
+
+  '

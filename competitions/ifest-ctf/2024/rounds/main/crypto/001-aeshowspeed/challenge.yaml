@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-crypto-001
+name: Aeshowspeed
+slug: 001-aeshowspeed
+original_name: Aeshowspeed
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: 'The organizer description, kept verbatim, is a hint that "yesterday Aeshowspeed came to
+
+  Indonesia" (a play on the recent AES-encryption live demonstration). The distribution is
+
+  aeshowspeed.py and flag.png.enc, an AES-CBC image encryption: the participant knows the
+
+  key and IV used by the encryptor and only needs to turn the script into a decryptor to
+
+  recover the flag image.
+
+  '
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- crypto
+- aes
+- baby
+authors:
+- name: LS
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Cryptography/Aeshowspeed
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Aeshowspeed from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a1e754107461688c3dde12b17899670392dd8cf25eb72f7ab016d9d4ffa4035a
+  - path: aeshowspeed.py
+    algorithm: sha256
+    value: 701b9cee40c949020db61cf8b133032035946c57e0b29b685ca814c4d7a2b5ba
+  - path: challenge.yml
+    algorithm: sha256
+    value: 44078ff8eb5b7abe54cb169e926f7b93b777c20bcc0fe915478722769f28b321
+  - path: flag.png.enc
+    algorithm: sha256
+    value: 58f6f7a70b08e102fe494e16d691c018aa3cc5ed2b778b05167e2a6a707c875d
+  - path: src/flag.png
+    algorithm: sha256
+    value: 8ea9d3fa1e5b12a62c490c952a610d39895446d43f195541e64d9c286119be31
+environment:
+  type: python
+  services: []
+  requirements:
+  - pycryptodome
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Cryptography/Aeshowspeed
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Crypto challenge. The distribution is aeshowspeed.py and flag.png.enc. The solver script
+
+  src/solv.py was moved to the mirrored solvers/ path.
+
+  '

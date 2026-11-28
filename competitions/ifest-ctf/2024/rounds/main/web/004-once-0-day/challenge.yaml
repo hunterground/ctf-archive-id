@@ -1,0 +1,2376 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-web-004
+name: Once was 0day
+slug: 004-once-0-day
+original_name: Once was 0day
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: 'The organizer description, kept verbatim, asks how hard it is to hack a WordPress site.
+
+  The README documents two chained vulnerabilities: an unauthorized user-registration bypass
+
+  in the mstore-api plugin and a remote code execution in the woocommerce-products-filter
+
+  (HUSKY) plugin, leading to a webshell. The distribution is challenges.zip, served at
+
+  157.230.38.61:3311.
+
+  '
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- web
+- wordpress
+- rce
+- hard
+authors:
+- name: beluga
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Web Exploitation/once-0-day
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Once was 0day from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: original/src/challenge-custom/woocommerce-products-filter/.svn
+    reason: Subversion working-copy metadata is SCM tooling, not challenge content.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 53da2a0d3ee12e5d68c8824c698cd37c11f2454a77ac58535ab40531b9d9f8eb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8b2b93bae6ff6ee4dde84d498e0b2d5db665a3828f6d32cc9f4ffb491aeb688a
+  - path: challenges.zip
+    algorithm: sha256
+    value: b31d2b7b0dc8b0b353e4aabf79e3699d2d5866a7f7c56c659041d58153c97ccc
+  - path: src/.env
+    algorithm: sha256
+    value: 2f70b5a52df604549b56c3916e65aa49903c0b622295eb479a51cebd081fbc13
+  - path: src/.htaccess
+    algorithm: sha256
+    value: c5aca1ec8307cf57c391b49489ab797002d298de9b331dbb301832ecaf713f65
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 0f0d703f302f206541a7ffb56791e46dba4d8a1ae83bc1550368eef90598c2c0
+  - path: src/challenge-custom/flag.txt
+    algorithm: sha256
+    value: 68a84f1057f8535623a391f8eb554dae933178020c688dbe5d4e58fdcc346ed4
+  - path: src/challenge-custom/woocommerce-products-filter/classes/alert.php
+    algorithm: sha256
+    value: 688a00f6f508f82498223a6f744c6a5e5c3690e1a7aa3e12174a9b79d291dc0b
+  - path: src/challenge-custom/woocommerce-products-filter/classes/counter.php
+    algorithm: sha256
+    value: 2b124acd6a0db447b7274e329707522736b9668381bc0acf9100557ba3cbfb8e
+  - path: src/challenge-custom/woocommerce-products-filter/classes/cron.php
+    algorithm: sha256
+    value: 95a8381bb107227c31f3e06360b0dc3a954319e5a5bf2a10cc25d5fc1e037ac1
+  - path: src/challenge-custom/woocommerce-products-filter/classes/ext.php
+    algorithm: sha256
+    value: 58e59bb812d463587f7eae17f095bf72ee60ad6e040d1eebea3057925e16451c
+  - path: src/challenge-custom/woocommerce-products-filter/classes/helper.php
+    algorithm: sha256
+    value: 962e1330ec8b3ba378fcb119b82d1b688fd5a8e104dcfa39168414ab889eeee7
+  - path: src/challenge-custom/woocommerce-products-filter/classes/hooks.php
+    algorithm: sha256
+    value: 3c2923f44a5ac4adc5ca0a184885ce98201b3f4e0fcb09cafa87793dadd9394b
+  - path: src/challenge-custom/woocommerce-products-filter/classes/rate_alert.php
+    algorithm: sha256
+    value: 110f796e786294cf05061308c62af6c1f2b4a5f624e902507a084d53748137dc
+  - path: src/challenge-custom/woocommerce-products-filter/classes/request.php
+    algorithm: sha256
+    value: 9fd2830036a6e91f33a8fa47c9020860e84b764bc0083e8e84e195a7f5be1857
+  - path: src/challenge-custom/woocommerce-products-filter/classes/storage.php
+    algorithm: sha256
+    value: bd4801e9e25a9489155f7e96858dc53c13ee37fc26122f923506baaa0ad0a212
+  - path: src/challenge-custom/woocommerce-products-filter/classes/widgets.php
+    algorithm: sha256
+    value: a24e41fa35dff1bd688b9954262f081cf2e912673515e3664685cf7b36e4797b
+  - path: src/challenge-custom/woocommerce-products-filter/css/fontello.css
+    algorithm: sha256
+    value: cef4878ad7c62058e2ee62204bae0ec7ca2489431b43d2de8f9584f89b315591
+  - path: src/challenge-custom/woocommerce-products-filter/css/front.css
+    algorithm: sha256
+    value: e480cecddeed5ed228425c553bf6d0fe3df6573f0609e51c86f68760aa92fb6e
+  - path: src/challenge-custom/woocommerce-products-filter/css/plainoverlay.css
+    algorithm: sha256
+    value: ad34b9c83c74db06706cb06fadbeb5d400b39dec173657a9933d51f363ce96e0
+  - path: src/challenge-custom/woocommerce-products-filter/css/plugin_options.css
+    algorithm: sha256
+    value: d0dbc4a230622d2b3cc9328896ea305cfaefab4f66c9419abda9ca2640d563aa
+  - path: src/challenge-custom/woocommerce-products-filter/css/shortcode_skins/example.css
+    algorithm: sha256
+    value: 87fb59093ffdfbefbd957bbfb3c4da45a7477aae42ef73b0da44b6abf083a322
+  - path: src/challenge-custom/woocommerce-products-filter/css/shortcode_skins/vertical1.css
+    algorithm: sha256
+    value: 19db2c3fb991c2d9bee3bdd83aef1a9736536626d6cc73fa35ac7792e402b852
+  - path: src/challenge-custom/woocommerce-products-filter/css/switcher.css
+    algorithm: sha256
+    value: 5a5f1b12c22b8e6462ae9822cbd42e2640f4e8ed8b9382db6bffa1c876da347b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/classes/woof_type_acf_filter.php
+    algorithm: sha256
+    value: d1596c9bcd7401ab9eb11195f0fc904d0c54eacf7fb6a5950a94df77596c4fdb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/radio/index.php
+    algorithm: sha256
+    value: 33f5f3b65348e4fcfdd308273f7808e1ef9fb4184fb848e40eca10f901bb4621
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/radio/views/additional_options.php
+    algorithm: sha256
+    value: 1b8fa7650bd5cbdd2ba0db194b5eb049088c0649d831c7d0a55f10d87e2c3d13
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/radio/views/woof.php
+    algorithm: sha256
+    value: 6418937fb5d5b1759cca6967fdc56b5a3772e91944b2041586b554d8775250cb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/select/css/select.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/select/index.php
+    algorithm: sha256
+    value: b46571a1c29a4eda2290b2ec7fc6c56f86b33c0da6ca5c1f5395b239fe3cc3ca
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/select/js/select.js
+    algorithm: sha256
+    value: 663fdf7b5c5a9d59101407f46c6775514f8057b1f1732dfe0b06a6d6bf414309
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/select/views/additional_options.php
+    algorithm: sha256
+    value: 1b8fa7650bd5cbdd2ba0db194b5eb049088c0649d831c7d0a55f10d87e2c3d13
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/select/views/woof.php
+    algorithm: sha256
+    value: 4805edf09a9aaae4477ffffe6f47634f73210f8ec8941812c2b006aceca8685d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/true_false/index.php
+    algorithm: sha256
+    value: 37ac2c552eb05567fd317fcbc2b055e80f971cc250e978f85e894c433c5c6d3f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/true_false/js/select.js.new
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/true_false/js/true_false.js
+    algorithm: sha256
+    value: e6681f0f84577cb0933d56509e27d6501b416e7f17a72f8a6bfdff4d7e4fb9de
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/true_false/views/additional_options.php
+    algorithm: sha256
+    value: 739cec5b136e31808b40751277f54dc7e6d922243f9baec00e55e21d0fca09bc
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/html_types/true_false/views/woof.php
+    algorithm: sha256
+    value: 3b7d6632dd8a572849d444003ec6b4e821641aa84a1f5339e1e9ed6789c0b952
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/index.php
+    algorithm: sha256
+    value: 5887519955003f5389a072d1bc9ebe200c3aa921a5884911c0135e8db75b70b0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/acf_filter/info.dat
+    algorithm: sha256
+    value: f450accde1ec307113e0a596d9a96b37e23997dad399991805bf67f8fd1c8c33
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/css/by_author.css
+    algorithm: sha256
+    value: 01b17e190f4e0faecd59f2a30b4760b083a27b5546ba0672c6586d7c99531dd5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/img/eye-icon1.png
+    algorithm: sha256
+    value: db7ae46da1056d72e43d8813442928cc4b30926e62ecbb67df31676cd641cec8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: 7d1203a20cca8df784874914faebba641c69c522a4457f536f8964b56e50c198
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/index.php
+    algorithm: sha256
+    value: a23c69908cf291d497b2d71a6896c22d657254977118ff79b7c3cdc7420e1249
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/info.dat
+    algorithm: sha256
+    value: 4736f915af1ab0adf1f018bb2a665776960c6a1e82b7bc79876811cfe193a6b8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/js/by_author.js
+    algorithm: sha256
+    value: 7e49ef92280fcd1425aaa93b2d454ffafbe894995c023cf1f3c3a969a9248643
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/views/options.php
+    algorithm: sha256
+    value: 7b4b2fad86625cee1c0ffc51a76d407332e7f01b73301807d0381c468dbe6b3a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/views/shortcodes/woof_author_filter.php
+    algorithm: sha256
+    value: 539135ca1b069696b95638833a5ff3b5d30d8cec901979d8afe4affb9f43d66f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_author/views/woof.php
+    algorithm: sha256
+    value: 653c42f72640891fc52af4ffee4cafdfc9e099596bc5c169d463ee7c542833c9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/css/by_backorder.css
+    algorithm: sha256
+    value: 9d8e3c866b27ba9af5f4b00bd787bf10f693cd06dc04f00c73427a7eb4c68421
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/index.php
+    algorithm: sha256
+    value: 5fc6b972585575993209fe30ea3b43c4b2579cf364858eabf0344e65448dc236
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/info.dat
+    algorithm: sha256
+    value: c5163022d42754f874a07fb4e1d577f3e90cf5b85e1b8493f65ddff61280f7c1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/js/by_backorder.js
+    algorithm: sha256
+    value: 5801070d8e1ab0f1f47faff1f910b334530a4fc6df06e18f9160e09466468c69
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/views/options.php
+    algorithm: sha256
+    value: 89384a1b65156cf8b2c5b575f7cde133935c42fd663d6f99197f4eb173730a11
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_backorder/views/woof.php
+    algorithm: sha256
+    value: 7c67796b6e557b1b36a6449c4b908017ae4a1a3700ebb8d95ea19b90a1070af2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/css/by_featured.css
+    algorithm: sha256
+    value: c277fe3b68ad507ba99939f981baac6ade7850fabdaaff0ace5334c5a8268700
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/index.php
+    algorithm: sha256
+    value: d652a4bf0db60fce25464e17a272117c062e6804c434cf905c4fc7f3798a26a0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/info.dat
+    algorithm: sha256
+    value: 5bdf80cf655912bf1bf5dae0801f0511324e43f18402a083d43f7e0ec40a9ed4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/js/by_featured.js
+    algorithm: sha256
+    value: f15a0a1fb2ad83c38fbcf38f2b96dff9f75a11f715a2e8fc689c76977df4932a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/views/options.php
+    algorithm: sha256
+    value: 6f744aa4791b61bdf46bd143604095ccddb9ccac64a82c8e4b8a6ee6cefc406b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_featured/views/woof.php
+    algorithm: sha256
+    value: 1c745d56b08052e3eb8f2aff0733cd20fb7ab579474cd96694a87d16f5039386
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/css/by_instock.css
+    algorithm: sha256
+    value: c277fe3b68ad507ba99939f981baac6ade7850fabdaaff0ace5334c5a8268700
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/index.php
+    algorithm: sha256
+    value: a1770cb6ab9cc3f23dfb10725185b95f74e6e1b83fa02b27bd6d40e0a3ff8b19
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/info.dat
+    algorithm: sha256
+    value: 294b16e2d9e50ad6c97d8ad87ec729cbe7df850dd4e0ab6d769dc7721f1ead6b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/js/by_instock.js
+    algorithm: sha256
+    value: 8bb0ce11df71eecc948bd3dadef1bf098b12be9d1f7be3fe3ea5795c99ea6252
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/views/options.php
+    algorithm: sha256
+    value: 6bee9f4b0d440d6fd9726335578f4ef51b81d2f6130a75c7a2f8183cc31cc281
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_instock/views/woof.php
+    algorithm: sha256
+    value: 5dd7b842d5b7acd3bcb2ee39fab052f13779da8cc25224c759eb35a181dd2aaa
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/css/by_onsales.css
+    algorithm: sha256
+    value: 46c9eb24d0df1f5ebcc4885f9b7eedc7de9998fd9052116b25a5f0fd2a90bc97
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/index.php
+    algorithm: sha256
+    value: 228b8e54a653cace2a0a258e28628a7c29a63de5a5bf5738e788f55350fdb71b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/info.dat
+    algorithm: sha256
+    value: 5a14a0e00ec02b2a1836fec0a14a0a4963a5f48d9243bfa984310d6d74c8ca01
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/js/by_onsales.js
+    algorithm: sha256
+    value: 7e82f1ae4788ba072ccfad29d58331d252169b4d4c73f6c2e65b02eac691bcab
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/views/options.php
+    algorithm: sha256
+    value: 4ab18b68e4eeda3a2e795a06aa75134d17e4b8122eba457ce5ab99a9c954fda2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_onsales/views/woof.php
+    algorithm: sha256
+    value: 21aab29fb42660dc704257ac49cc7f68c9ccbd243ff0f5d8204adf5091486164
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/css/by_rating.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/index.php
+    algorithm: sha256
+    value: 754493054648fec893f4eec027cc8d9c2379da9c8238bc50ec0d7f8185db2c07
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/info.dat
+    algorithm: sha256
+    value: 0a340fb1074b59d4caa61b6005a46e40a763cbb531c5e206c1ea79d6bef0e4d4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/js/by_rating.js
+    algorithm: sha256
+    value: 3b8dc2514d01051251948711b9d813273f336ef65d9356fa0076486395905af8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/views/options.php
+    algorithm: sha256
+    value: 2756e6b47c8078b66c670397fee8a11fa20a15ce05a38a41e58fe6f1d5401267
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_rating/views/woof.php
+    algorithm: sha256
+    value: 6dd3a9606b5709a407d13ec21439f5252641c733153b431d43eccbc67f665a1f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/css/by_sku.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/img/eye-icon1.png
+    algorithm: sha256
+    value: db7ae46da1056d72e43d8813442928cc4b30926e62ecbb67df31676cd641cec8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: ca407c86748841e1783088de718a43ba2e95f9f7b06002dc5b239cadd8892329
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/index.php
+    algorithm: sha256
+    value: d5eb3d4348c63f5afcf7a6e5f36fced2bb3229ac91e97d2d6b0a87062cab71fa
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/info.dat
+    algorithm: sha256
+    value: 54680a9d99fb3c6184e13c348bfea13e46d503006de9a6518944b167d4542028
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/js/by_sku.js
+    algorithm: sha256
+    value: 253c1be71d594408d467d3a640a6e6922613d62702000b752cb52c141598a1f3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/views/options.php
+    algorithm: sha256
+    value: d53c9c3209200f97a75631a72323ed00fffbca72b67ccad66969ba802db97c5b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/views/shortcodes/woof_sku_filter.php
+    algorithm: sha256
+    value: 9cf591cf3c81f31839487c8dfd5a766b745b4f5b2b891973773767d9242277f2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_sku/views/woof.php
+    algorithm: sha256
+    value: 3808e25b9f8d35a1f1a096525a4a3d894fda37e083eb7ff0f5f0156d1ba471e1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/css/front.css
+    algorithm: sha256
+    value: 849d84cfb71a66ab93451b40ddbe4419a6034d7c90b0cf15d6ef9d5a4117f26e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/img/ajax-loader.gif
+    algorithm: sha256
+    value: 1eb9e7880f723999a4ed63eece6a6e4d4976833d3c16dc18b4ace3971728ab0d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: 7d1203a20cca8df784874914faebba641c69c522a4457f536f8964b56e50c198
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/js/front.js
+    algorithm: sha256
+    value: 801a0b74f7ac02ce428ec077fbe8f922b099d64aab9e1679881447d4463f9bcd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/assets/js/husky.js
+    algorithm: sha256
+    value: 72c57660b9fbabc8b71107824a80c9f84056740fc5b912ad305114638e60587c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/cache/by_title.json
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/classes/cache.php
+    algorithm: sha256
+    value: e2b221d3203414814b5be3aaa21ba1c7afba11e86c7e8f39c711099823052429
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/css/by_text.css
+    algorithm: sha256
+    value: 12a9b308e3120c692808e6173df78098de6e05e17d3446966c2e4b5647524223
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/img/eye-icon1.png
+    algorithm: sha256
+    value: db7ae46da1056d72e43d8813442928cc4b30926e62ecbb67df31676cd641cec8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/img/loader.gif
+    algorithm: sha256
+    value: e18478837ee3eeab6db0f81aeef94a80605e0be3d65b4566dfac7cda86114467
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/index.php
+    algorithm: sha256
+    value: 044e9703761f8faedcd896ab68d2278a4812c93b42621498a092847753637225
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/info.dat
+    algorithm: sha256
+    value: 08f52512be43ddd263e06fec3fc40c9c44b6d41fd6d244c4d3d205662cdd7652
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/js/by_text.js
+    algorithm: sha256
+    value: 6f614a744a86ffc74e0951593c67313d1ede533fc37a1bfcb756810c34d35c21
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/views/options.php
+    algorithm: sha256
+    value: 98ec0e4ca79034873a0899fc86e80afb2aee09de56fa8dd6d4fc41d5e805fabe
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/views/shortcodes/woof_text_filter.php
+    algorithm: sha256
+    value: 4edb1f39f52dc21649ea28bc8c2d69ab18f1af03004089ceed80ea6f526e6366
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/views/templates/default.php
+    algorithm: sha256
+    value: 287eb965b5150fc83daa1ea9293fc7c2432a142472ddb82a30b104482d723641
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/views/templates/test1.php
+    algorithm: sha256
+    value: c10e3045ca300fda8e19a0fadcacc93becbf8197c873421e646d60d25593122e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text/views/woof.php
+    algorithm: sha256
+    value: 431a0b62fc0231ae3f033149a54800e78990246161a2cb45ff37942734a3deaf
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/cache/by_title.json
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/css/by_text_2.css
+    algorithm: sha256
+    value: 0fc75c688e2466c3366d901329b78e12536d6feea5a3fa497bec6166535ff653
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/img/eye-icon1.png
+    algorithm: sha256
+    value: db7ae46da1056d72e43d8813442928cc4b30926e62ecbb67df31676cd641cec8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/img/loader.gif
+    algorithm: sha256
+    value: e18478837ee3eeab6db0f81aeef94a80605e0be3d65b4566dfac7cda86114467
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: 7d1203a20cca8df784874914faebba641c69c522a4457f536f8964b56e50c198
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/index.php
+    algorithm: sha256
+    value: f14d76b92c2554e62b09bf79fc7ae2141b823619b360a41fee819b541f928d0a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/info.dat
+    algorithm: sha256
+    value: dcbe83ed0eef663451e15986e1f4f143e4dc41f156ee32faddbfdc5e1966a089
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/js/by_text_2.js
+    algorithm: sha256
+    value: 6f614a744a86ffc74e0951593c67313d1ede533fc37a1bfcb756810c34d35c21
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/views/options.php
+    algorithm: sha256
+    value: 4592667f5fcf5062f9dc0cf87fd46b743a0207bf0a2695ce5316d8eb1077293f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/views/shortcodes/woof_text_filter.php
+    algorithm: sha256
+    value: 7ad17f2c6da917fa9406d6745800bbf5ac9382d297b44e6396295dd394847a57
+  - path: src/challenge-custom/woocommerce-products-filter/ext/by_text_2/views/woof.php
+    algorithm: sha256
+    value: c71ffcd99beafc5707d4a193cff9ffe1fae1036d622bd9e19e582fdf072d5627
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/css/admin.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/css/html_types/color.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/img/checked4.png
+    algorithm: sha256
+    value: 9a8e1a3fc5d5d326189ddd97ca6bd073be032e6d3da7692209642d9e193204cd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/img/checked_for_white.png
+    algorithm: sha256
+    value: f68b94c1cb3cab16955b4d0801ea0bbdd7651a6b15ffc99448aca4c210e3dcb8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/index.php
+    algorithm: sha256
+    value: 6ca48f318f48258b540c8826c94e6100af36bb8628bf87b0ae15b785b3a64838
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/info.dat
+    algorithm: sha256
+    value: 2e9faa15962122c3238e065b245778f2d409b9be9fc6c3e0afdb3a7beab8ed6c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/js/html_types/color.js
+    algorithm: sha256
+    value: e668cba559a50e5ff001e1d4e527627462306b8891f1fbeb18aebe0885d8f16f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/js/html_types/plugin_options.js
+    algorithm: sha256
+    value: 253c1be71d594408d467d3a640a6e6922613d62702000b752cb52c141598a1f3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/color/views/woof.php
+    algorithm: sha256
+    value: 9b6ba9fa9d0b5bd89d1a78bfa4a35700f48f9bce50775b4b26eee455b482867d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/conditionals/css/conditionals.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/conditionals/index.php
+    algorithm: sha256
+    value: f83cfdfa52d7f0d49d28e0fcccc71a6a33b966956eb926d22c1785aefc9af718
+  - path: src/challenge-custom/woocommerce-products-filter/ext/conditionals/info.dat
+    algorithm: sha256
+    value: e5a2ca4b1e354b65f565e32dfcab67f5ab688870f99e52c61a6cdff49bd74fe0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/conditionals/js/conditionals.js
+    algorithm: sha256
+    value: d79ddc31b1ba1fc57bd4e80bbfc3cef2cfc9360bfa644c04d569b6c04b5e617a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/conditionals/views/tabs_content.php
+    algorithm: sha256
+    value: 45da86013486ab0a33b7865f2f209b24df1ff0e790af8e644cfa54f5aaeee271
+  - path: src/challenge-custom/woocommerce-products-filter/ext/export_import/css/export_import.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/export_import/index.php
+    algorithm: sha256
+    value: 9721913645ecb514549f4029cdb0e3e486287494aaade34a0d7327a426f47e25
+  - path: src/challenge-custom/woocommerce-products-filter/ext/export_import/info.dat
+    algorithm: sha256
+    value: 6f04b1005f4e8ae94919da9100683abf90b4b3c6c309c3599b8b6a47a4dd249c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/export_import/js/admin.js
+    algorithm: sha256
+    value: e8cf1631f0a404272749da5f60d9245f3197ac6f1e6b5bb9d7dba2b895efe9ad
+  - path: src/challenge-custom/woocommerce-products-filter/ext/export_import/views/tabs_content.php
+    algorithm: sha256
+    value: 0417e79d5b5fd5a0df881d361c07d33a64e85d55524ec2f9c4cc012bb1409a4b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/additional.php
+    algorithm: sha256
+    value: 037e22e6e8a9e3d75a39043b8048e0cfc5117e3786d4ee753a9da3ff09af2f81
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/options-layout.php
+    algorithm: sha256
+    value: fb954c2c25b182513c00181ed08eb06c188aebec51b5e5b35ff2cc9631363c10
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/options-sections-layout.php
+    algorithm: sha256
+    value: 1d1fc71b3fe898920e53cc2f70c6d1be504cfcac28fbc976f496725a081cdd71
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/options-sections.php
+    algorithm: sha256
+    value: 6c209a95c94a9166708efb852c6ae0a0591894812f5225da8a46f70c6be14e33
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/options.php
+    algorithm: sha256
+    value: 455d68dec8c9622f8335486dfa121907dae9f4e32676509c3341612ad1466147
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/classes/viewtypes.php
+    algorithm: sha256
+    value: 6b15b1bf32c1cfe5b3075770c699be781c83033803a09fd33d874c80c90639e1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/css/front-builder.css
+    algorithm: sha256
+    value: e94773408d55b6f06377098ac017277f595b7d4c960d3c857f50f20e5c88fe4f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/css/popup-23.css
+    algorithm: sha256
+    value: a13f04fb92e5022adae45b1a7fa7070a06cdcf1285fe670be2b6c19453ebbbdd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/css/switcher.css
+    algorithm: sha256
+    value: 9774b668a507a0deeafbc76b7e848a55d291c4f15ced10682b4ee76720c6f0a2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/css/table.css
+    algorithm: sha256
+    value: 5e3e8a0aa7d36398c9d353cf445197f997656b52740853d7efe7a7d81b1a13fe
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/css/tabs.css
+    algorithm: sha256
+    value: 273c28f449a055e26a35f5b6745b7ed85a6e348cf5b471ae66f3e11bbf0ca6aa
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/demo/demo.php
+    algorithm: sha256
+    value: fedb318c5e5201e37c788a1f2174c688d69eb45717f41718f71bf0b9531018b3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/arrow.svg
+    algorithm: sha256
+    value: d08cb6ecf47fbda114e1128e258c38d757a01bc226da96799e66e738bc20bdfb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/back.svg
+    algorithm: sha256
+    value: a6654a5400ab44df54a58693e417e1d36cadd6a1e38fde81b5887ba5e990e1d0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/cog.svg
+    algorithm: sha256
+    value: ca155bfc821689106d7a820bd12b3b1260f65ad681b0927aaa7a757f79d50dee
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/cog2.svg
+    algorithm: sha256
+    value: e59f114a4e0e5969b983f7c0965cd328c05a99d82788ec25281069e6a1be5a6c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/cross.svg
+    algorithm: sha256
+    value: 7bab77e17eedb0befe7df4c8c97be56848e3af763f36aaa02d25e491b122b16a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/husky.svg
+    algorithm: sha256
+    value: 63808e9e03a08ed2fc3378fc102afc30a3580d422a715fbb09eb14669afb498a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/options.gif
+    algorithm: sha256
+    value: e3134e0c8fb75ee2d635999fe92bbd7ae994f567037f1c7125b5ccedda8a2f63
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/sd-no.svg
+    algorithm: sha256
+    value: 4ec39f147ae398003463c6cc1d78cd2fc39cf1dee1802a9a672c9d4087f6f55a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/img/sd.svg
+    algorithm: sha256
+    value: fa0e2abcdfe6f4443b20bf9d822acca5a5bb20f36d9a98479c1d911fe98faa45
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/index.php
+    algorithm: sha256
+    value: 5256af6201abd32068f0b712f441236a25ee229d47af6bf9ed7f732a05858c50
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/info.dat
+    algorithm: sha256
+    value: ed2d117528d88d710cbe26a5f10712239a4813ae5322ec5e3bbfe4b7290669b4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/boot.js
+    algorithm: sha256
+    value: 37cc57d073e34b4dbeabeb42d0c071d473ac0b0556b36f1d78d71d5dac041a72
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/builder.js
+    algorithm: sha256
+    value: f7be8b60942ab7358c13ffe639338dfe9e8a03aaaba8eebcde78bfff1779d4ab
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/helper.js
+    algorithm: sha256
+    value: 93e6f2592c1ce211bde1c1579f3b0474b6fc660f45c97bb5816c0ffb556998e8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/list.js
+    algorithm: sha256
+    value: 766692852cb331257d861771f67596aed13debf1d576355975b3b29881774e91
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/options.js
+    algorithm: sha256
+    value: b5e1735cb4f6987cebdae9d0d70b7a75ce26d9c488b1902c98b5e4c2356bb75d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/popup-23.js
+    algorithm: sha256
+    value: 2211d5462eb2a17f5d3b7019c4c49e54d7f978861a3cd9837435d806c7dc04cb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/section-options.js
+    algorithm: sha256
+    value: 65a38585fcc2d9b06c9a419fee605aa3956db24cb89773e045f7763714b87ba4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/selector.js
+    algorithm: sha256
+    value: 10513e677373753def3c9c285b1b07b8e75ef97d025e9a2aa2e07ad31ebfdcb0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/checkbox.js
+    algorithm: sha256
+    value: 3443fa76d08e21baba9b0a56b328670280cbb57dce8a9f0426299dcc5adbe861
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/color.js
+    algorithm: sha256
+    value: 6a246e66ab1dfe2b239f4e9d45c248d960664a5b90afe7abc9bee8e8600f95a8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/element.js
+    algorithm: sha256
+    value: ff71b7eb94b21cfa50f2ec673231c3e4f1fac68d942c0bc13376c78dadf2ec35
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/image.js
+    algorithm: sha256
+    value: d97a80d0a6ad3b66864682e180e897f1ebb5d1e31fa71a24ef2ee7545a6bbe65
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/input.js
+    algorithm: sha256
+    value: 0b7d858e17fe63cf059119b7f8c2e52474821a9a85abeeadc78b5e701726ffba
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/link.js
+    algorithm: sha256
+    value: 43f8c3686cb11a106254e2da45bb8c375dc9beb3e86e5b74c54aa3ddf973a7f8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/ranger.js
+    algorithm: sha256
+    value: 90f12ebb957868608f82d79c547658223d842d0f6bfe6930ec9f7bbc45c78b03
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/select.js
+    algorithm: sha256
+    value: faed5b6e5f72567c394d8ef45a4cb9a118b28fa2b1e8c2ea5861004e25d19cf6
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/switcher.js
+    algorithm: sha256
+    value: 30ab733becfcae07c79fb58491069731002c5a3d680db11b72897a12bc21293f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/ae/textarea.js
+    algorithm: sha256
+    value: b6081181832af8888f84b45077cdee57ab5c0aa00696794c78ceedb26af740fe
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/cell.js
+    algorithm: sha256
+    value: 4b6b75fbe6d79251ac0c65f0341e68238a0ccc544d316a554f2bf0d1e53f8da3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/row.js
+    algorithm: sha256
+    value: 03e1df5014d581078119d650e4d566224c21fd054c910513fb8fc4592ffa48f4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/builder/table/table.js
+    algorithm: sha256
+    value: 3506b37893de2c829d54fabe5708173be0d4a319e92fd1ee48862b7151bdd5a3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/js/front-builder.js
+    algorithm: sha256
+    value: 23d9044a911402440fc7dfaa6b175d5514220369d3e8d6ef9e9c013846ded5a6
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/layout_options.php
+    algorithm: sha256
+    value: 9b1bb181a40478ce601544f39ba5046421e0a66db907dbfcf15097bbe45b44ce
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/options.php
+    algorithm: sha256
+    value: 08ae2e4d84b30ebbc37ee5e353262841b7429bd11eeb7107da2b04121dedc312
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_author.php
+    algorithm: sha256
+    value: 8677c0d13fe42eb5f697ff8c1155b4d24823770a5da7805bcefd0b731835c255
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_backorder.php
+    algorithm: sha256
+    value: 6d87a1137adf0de621513dac13dbffba42c15ade759a1da7cf0b940e3d33410e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_featured.php
+    algorithm: sha256
+    value: 970555ce8aa714ae0bbca9371f5052c07d70b110e28bcf9e481c290c574b2673
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_instock.php
+    algorithm: sha256
+    value: 005ab273b5b9dbe6111b4c8aa43e0e88b06272a3228b55fa133f301e6a637912
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_onsales.php
+    algorithm: sha256
+    value: 970555ce8aa714ae0bbca9371f5052c07d70b110e28bcf9e481c290c574b2673
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_price.php
+    algorithm: sha256
+    value: 4a7490a3d278bea6bd22f7ab2399e86229f13bdb40b2bf6fed03c579949c6379
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_rating.php
+    algorithm: sha256
+    value: 27ac96abf4be463fa42c8132881cf1b68adef6d99df39769a9f678ee2767eb88
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_sku.php
+    algorithm: sha256
+    value: 7ed541c0e5f60896ce5a6ba348a74a1ecae5753ab96106817556a233466af74d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/by_text.php
+    algorithm: sha256
+    value: 4870ad6095dc66710f6a205dbc7066444780b50ba209faae9a4c81ca49eb8899
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/default.php
+    algorithm: sha256
+    value: e0477f58b7607e08ab1656c945607f5dd6116263cbfd34ed80aec72161170391
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/checkbox.php
+    algorithm: sha256
+    value: 38232d70d06ca6eee4ded068faa6e09d53fd13c6b9838d0ed653fdc355ae9cac
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/datepicker.php
+    algorithm: sha256
+    value: 3cbab5d94a31c107485fd66c050659d30121183a76161f4981533fe27788cafa
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/mselect.php
+    algorithm: sha256
+    value: f08f467ac3d694e7d341099257176e5ecdffe42b152ff1a3189525a24d6b4945
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/select.php
+    algorithm: sha256
+    value: b14f658d8dbff3f94eb9732ebf66b0e29a9c6748f7630f58583c1bb6d7622606
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/slider.php
+    algorithm: sha256
+    value: c47c20d70fb0822f654784f531a428d0ee310c2ad6f8ed565c631b8423c522b5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/meta/textinput.php
+    algorithm: sha256
+    value: 6a18c49ae6ddebda310b0548e8b902915b2e9e933768d821e33a5877a859f012
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/products_messenger.php
+    algorithm: sha256
+    value: e84ce006c59543eb636888639c42840bf0fde7b56ad75c4ee4856f25de877b4f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/query_save.php
+    algorithm: sha256
+    value: e84ce006c59543eb636888639c42840bf0fde7b56ad75c4ee4856f25de877b4f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections/taxonomies.php
+    algorithm: sha256
+    value: d89d9c3111617d9bfb1b06f7e2c3b5d68e0a898d39450069c39ed1e8cdee5ec5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/options/sections_layout_options.php
+    algorithm: sha256
+    value: f8d6b6bb2b6bf30b0d201b87ffb33a8f5aaa548ffdcab6ba29d68070f19b33f1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/views/global_options.php
+    algorithm: sha256
+    value: cd333d120d3dd55db9fc7579a276ba9152961c989a84bb16ca60bb3961aa052c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/front_builder/views/shortcodes/woof_front_builder.php
+    algorithm: sha256
+    value: 925294ade4cce456312c55a34871bb50182fba39a7352d568631bad50b3e5ab8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/css/admin.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/css/html_types/image.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/index.php
+    algorithm: sha256
+    value: b1f830b11ffb058bcb5ccbb0019f73b32db0f9b6c1aeab4c1d9311fc805274d5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/info.dat
+    algorithm: sha256
+    value: 14e67d7df2506c804f88b881e2ae1e92e94b4266b2fec42db2f648414037ac5f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/js/html_types/image.js
+    algorithm: sha256
+    value: e668cba559a50e5ff001e1d4e527627462306b8891f1fbeb18aebe0885d8f16f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/js/html_types/plugin_options.js
+    algorithm: sha256
+    value: e668cba559a50e5ff001e1d4e527627462306b8891f1fbeb18aebe0885d8f16f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/image/views/woof.php
+    algorithm: sha256
+    value: 9b6ba9fa9d0b5bd89d1a78bfa4a35700f48f9bce50775b4b26eee455b482867d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/label/css/html_types/label.css
+    algorithm: sha256
+    value: 093b42292c864ba77aa5523a73ec87d2690d387ffe7f721bd679860c45902727
+  - path: src/challenge-custom/woocommerce-products-filter/ext/label/index.php
+    algorithm: sha256
+    value: cbdad3c82e14a3bc96baf2949c67331d7b3489e66c02c4e56a8df485480c77a9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/label/info.dat
+    algorithm: sha256
+    value: 6bee32ad3cf8c5bd4ba8a8fcabb20d847776e2efad73145754fe87667500aa2f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/label/js/html_types/label.js
+    algorithm: sha256
+    value: fc9696ac68e0c65fdb2ad0c19aecd8ada9db29176add61bc840c48328797c884
+  - path: src/challenge-custom/woocommerce-products-filter/ext/label/views/woof.php
+    algorithm: sha256
+    value: 5bc975eb639be083e3ac46fe566cef245d2634665cc40ac7578d99b18f775a1d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/classes/woof_pds_cpt.php
+    algorithm: sha256
+    value: 508434cc2fa0aec1a3f6ed4d9914e18c853b20089f676d3488cb37ada5bad06a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/classes/woof_type_meta_filter.php
+    algorithm: sha256
+    value: 18556f1b91f41a337450207345555e8ab9633f376559f9a3af55ac549d022987
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/checkbox/index.php
+    algorithm: sha256
+    value: 52f9846a0da97ab4b465ee736bcd881d43e20a6580ea887cb4c354c60ba8ec17
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/checkbox/js/checkbox.js
+    algorithm: sha256
+    value: 93a33aeaa14ceefb72f062bef5fdbe5237bde70cdb0295cad72c090805e3a189
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/checkbox/views/additional_options.php
+    algorithm: sha256
+    value: 538599e49891c38b2be9458c96ea31b3f3dc9f100f91aab5ac7b26d212e06988
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/checkbox/views/woof.php
+    algorithm: sha256
+    value: 78513db22a515789804904c617ed95645a1b9bf83e7a0c2d57446c6bae72806f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/datepicker/css/datepicker.css
+    algorithm: sha256
+    value: 641cfa197d716ca99c8ad765a84f3340fb4ed7608b2a9bed1c89b8105d3375ae
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/datepicker/index.php
+    algorithm: sha256
+    value: c27cd856ea3d367559f6081486e0dd797a78886ef73c6036e148717a8eecfccc
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/datepicker/js/datepicker.js
+    algorithm: sha256
+    value: 18bad3664e3b545fab2350feee08c3d50db8431235042be33a368d2ac24601ae
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/datepicker/views/additional_options.php
+    algorithm: sha256
+    value: b9454be4c86f8651a9c72c7dab33c6e0c843ecc4092cc029293bfd14f892719b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/datepicker/views/woof.php
+    algorithm: sha256
+    value: ca448599a7de825d418b5e07b954603451366a02ecb8b9d1874cf1e50fd5e178
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/mselect/css/mselect.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/mselect/index.php
+    algorithm: sha256
+    value: bb30753d71c6f9c14ae5c82f161d6bd91183b39970ad544401e0bce6f7cceae8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/mselect/js/mselect.js
+    algorithm: sha256
+    value: 2270b90e845daab710dd429606afb470234a9db4071af39de534956b0ee8e95e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/mselect/views/additional_options.php
+    algorithm: sha256
+    value: 014635c24c6ed85d09bdd0904b39795a58174d6ed7ceae9af3d74591ec0de001
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/mselect/views/woof.php
+    algorithm: sha256
+    value: cb09d6408942a7aeea0fa1c63dd79c56f396bca49240119af0093511cb43d887
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/select/css/select.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/select/index.php
+    algorithm: sha256
+    value: a7f6a1aefd1473d4fed6880f5bf7934bc8d8e2a96be03f3c64a6e0e043b26fe7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/select/js/select.js
+    algorithm: sha256
+    value: 0818cc02e7266a293344d57bd1f82432c28839a36c67d3f3e75479bad6cfaf50
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/select/views/additional_options.php
+    algorithm: sha256
+    value: 74c6f69d2557919aeaf09258e01ee390c5ac05a2cd4c19afe9515e9e912bd4e5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/select/views/woof.php
+    algorithm: sha256
+    value: b4ea1aee42fce527ff3e35806be5fcf98cdab8800962694b82dcc96f45002163
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/slider/css/slider.css
+    algorithm: sha256
+    value: a386f8a3f077cfe48824814e03e48d49d3924ce6a87d3764f500922df24c8591
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/slider/index.php
+    algorithm: sha256
+    value: a4be9074f6a1aff8e2408de61a4be2179cc9952346d5ad6576008700f8a2153f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/slider/js/slider.js
+    algorithm: sha256
+    value: 2121a4c1e4c6f2df93c0ef0974b9a042fc03676e10c02cc2d1c6c2715d4446cb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/slider/views/additional_options.php
+    algorithm: sha256
+    value: 5d5f9b40a911c9eda319ae98e8f8dc8cfa501ee727d80d27bf18fd90f62c0f7d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/slider/views/woof.php
+    algorithm: sha256
+    value: fcd7441098cf6cda42c681504da90f3e03ebcc822c66ce8e405d12155dbcc69a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/css/textinput.css
+    algorithm: sha256
+    value: e06e213d6a4618c66678b4dc3187abf6b508fc192c5c29ac3a8705e849e91240
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: 7d1203a20cca8df784874914faebba641c69c522a4457f536f8964b56e50c198
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/index.php
+    algorithm: sha256
+    value: bc10418994b10592fed17f7866e8048cb4c208a0b021aa87f8fc0f690c397bda
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/js/textinput.js
+    algorithm: sha256
+    value: e4ba4c6e33f7e67619386127a838795cdaf165e5c85742a4719782a97f6029b8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/views/additional_options.php
+    algorithm: sha256
+    value: e5a56ddb52f0f3d17947e37695c180a14fcf36f5f0f748d4360b41e30843eb7c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/html_types/textinput/views/woof.php
+    algorithm: sha256
+    value: 62f45be0854b6c56d832f632ae0b0243dcaa64eee21435abd356422098094781
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/index.php
+    algorithm: sha256
+    value: 321461e39850664c5e007a4d8e474d8e8d7d1b2e6c0ace4fae21cc1d62f4d4a7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/info.dat
+    algorithm: sha256
+    value: 0d9c4c9407b1cd59747c15dbeec24462873c8539b6ce2a9a1474f969cd0192ad
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/js/admin.js
+    algorithm: sha256
+    value: 737b01935bb17a1b7c9c8113b2490d2d72c0d9576bfea117c1c9a1b44bf79ead
+  - path: src/challenge-custom/woocommerce-products-filter/ext/meta_filter/views/tabs_content.php
+    algorithm: sha256
+    value: 56315a7a1c70bdbac5885045670a8ffd7ca650ce044b1d7a34847f6ca5b3900c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/css/products_messenger.css
+    algorithm: sha256
+    value: 3b3f87b34738903c582a0f11e907d0e945c5aca516ba96050fcafe955a303ad3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/img/feedback.png
+    algorithm: sha256
+    value: af1593ea83e4fe499cad930ffaede442d2e64a65e630982e6cbbe7dc1b678b60
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/img/info.svg
+    algorithm: sha256
+    value: 0f63c3418411ab3f5e531540ea0d1cc27454f2393da7d7bfd3a2b7453b5ec826
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/index.php
+    algorithm: sha256
+    value: 00b65d960dd4c8ca98f0853e25708fe13a1bd52c07b58ceeb99df805c1e9b85d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/info.dat
+    algorithm: sha256
+    value: bc9e586d32e2b0904169967dea3b09a2621433994a8e9abadcd8b3ae52aecaa9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/js/products_messenger.js
+    algorithm: sha256
+    value: 565cc0f6b7b5fa558ee71d28c51e1e0328522e03c2190379b494828a63296540
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/email_template.php
+    algorithm: sha256
+    value: 4708cdf7c1afb783b715bede3499b3f7a5c1e7871e937292489f3142c37d4743
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/item_list_subscr.php
+    algorithm: sha256
+    value: 4a29eebe613cae9d64c3df0743af482c16d85c94245a1ec4425372552cec5d9f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/options.php
+    algorithm: sha256
+    value: 3b28eadd2775024a4cc3def4e60de0a143ccba38fe12c3d25ee6d59c429166d7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/shortcodes/woof_products_messenger.php
+    algorithm: sha256
+    value: cd4fa085448c898ba9762ae732b3354e15caa56d457fce45c30714b8d616bc37
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/unsubscr_template.php
+    algorithm: sha256
+    value: 29a566a93cd0fbcdceb3310d7df673d594e81fb13950419adec9aae2c33102c5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/products_messenger/views/woof.php
+    algorithm: sha256
+    value: b98d79702cc535f93a3b38d8447cf38b16b147afb21df133b963bfda16e960bc
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/css/query_save.css
+    algorithm: sha256
+    value: 664d070144d6e5f2f523891340742d89d1dedf15d5f0e53453b8f6dc92a3ecc2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/img/info.svg
+    algorithm: sha256
+    value: 0f63c3418411ab3f5e531540ea0d1cc27454f2393da7d7bfd3a2b7453b5ec826
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/img/save_query.png
+    algorithm: sha256
+    value: c9d944714045fcf1056ac231afa58eb4e9802ed2776e91c1e2d32c2495830afd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/index.php
+    algorithm: sha256
+    value: 983cb78bac808d59fb9c96e443615178800107524cfee2e0bf5fa40f84ae8750
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/info.dat
+    algorithm: sha256
+    value: 3d98938caf3e527c77ecb2e46d6d05340704d50c7ec4964375342fa67bfdbee4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/js/query_save.js
+    algorithm: sha256
+    value: 645adfbc1a7d05e0ec4483615c4612b3011fd93364a5ac16f5e2ee9ee09b2bc7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/views/item_list_query.php
+    algorithm: sha256
+    value: 416b5bc6c73c327987910905a683c32bfd5de94379cbcbf34ed7fc993c6c6997
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/views/notice.php
+    algorithm: sha256
+    value: 265a163e2e7a3c851dda483320a544a944615c144661e634f035a2e0c481d063
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/views/options.php
+    algorithm: sha256
+    value: 2bad25aedf71e06b6f955f97c9067c473ca7086f9e2b0b8b1642cac9e4726414
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/views/shortcodes/woof_save_query.php
+    algorithm: sha256
+    value: 9f322b1b1fcd347c35ec6632267393936fe96385cd902bc0403de4eaac414324
+  - path: src/challenge-custom/woocommerce-products-filter/ext/query_save/views/woof.php
+    algorithm: sha256
+    value: f4a4a5e8d71b460fd9476e2e7c0f760955a24d6a9bc33f2919e09f4ba57436a0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/css/admin.css
+    algorithm: sha256
+    value: eef4b8c0d138f48c5794f7fed243a26ca7beebf3ecf3c25a903f48581044db9b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/css/quick_search.css
+    algorithm: sha256
+    value: e05898d46696cd63b11c807d05759ce7ef44156135d194bc46f923713f50f7b3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/index.php
+    algorithm: sha256
+    value: fb26424b38e722dad96e21b9d1813ed3f1b19fd0b97bc9d510ebd7be36c9cb93
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/info.dat
+    algorithm: sha256
+    value: f4c1d73b88e1d408e23232ec63a130f060c59efd7c4c37580ace2c6d546be8ec
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/js/admin.js
+    algorithm: sha256
+    value: d9cf6b0bdaeaad1dacc978153ac8d92deb6ac49a63ddd2e7c0486a9c612efcb5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/js/alasql/alasql.js
+    algorithm: sha256
+    value: 73aa1ffaac7e2ba7649b1b3a96a4ee721c28fd66efb57557fd5b593aaa6fd71f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/js/alasql/alasql.min.js
+    algorithm: sha256
+    value: 5125b56202afc18c1911ce218f67b552c14d0be47f005ccb86aa973e7c80f02e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/js/quick_search.js
+    algorithm: sha256
+    value: db91baad3e5bc6b887164cefacf9cb0e0a424e59091676965a4bf2c8ab24a943
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/shortcodes/woof_quick_search.php
+    algorithm: sha256
+    value: 7fb10cfa62eca67bf4b7b0051760c85cc26627a3c5f08342b748b236f940cadd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/shortcodes/woof_quick_search_results.php
+    algorithm: sha256
+    value: a96050746ff59956c890b8526e6564d4a3c4d588ca3af15b6ec504ae8e12d77e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/sort_html.php
+    algorithm: sha256
+    value: ecd3b9740f1b7795c6c61d2845e786d52e9ed45f7ba46d3ff1f412111a97f929
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/sort_select_html.php
+    algorithm: sha256
+    value: 4179d688cfad5224714fc9cf3efcba331c2ddb7e8f74bd9a51f693d7cc8986fd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/tabs_content.php
+    algorithm: sha256
+    value: db6b6604b747c2060d3b9a770ea42bd2bacae5d2f8ebc71c4f39b132436bc973
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_1/css/grid_1.css
+    algorithm: sha256
+    value: cf9c8909cc4b2648d97ceab8a16fc62977f68ba22a2aa5b76244214dedf06d7f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_1/js/grid_1.js
+    algorithm: sha256
+    value: 904db3235ad5cd9004189160b95bb01356d874c916be33222b071318d00ee4c7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_1/output.php
+    algorithm: sha256
+    value: e119f30da22a3149f462176d62d8c9702ac29a61cd5dd46479a45478d4bbed24
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_2/css/grid_2.css
+    algorithm: sha256
+    value: 511e935f80aa14bb1c30ad7bec22cf590586b776cd10e7e3833e91db478e7e3a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_2/js/grid_2.js
+    algorithm: sha256
+    value: de0ea4577c2df92748fef90b692498075630695d042cf538e89975735f1f83f9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/grid_2/output.php
+    algorithm: sha256
+    value: 1f3ed1b6f8ddea85ca346e8e886f57a0b65b702cc14d9d86986538df8e336a4c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_1/css/list_1.css
+    algorithm: sha256
+    value: 7f3701876e46170f9c8b8dc87ac39ae6900bbf596ed79e095fbc766e8c0197d5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_1/js/list_1.js
+    algorithm: sha256
+    value: 6d936381ed6bb4be29c303dab986daeb0b6f69b0f0d3c77397606d34b0cd56ef
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_1/output.php
+    algorithm: sha256
+    value: bc3723cde841f0c16a9ba4947e123226fd9e54c95bc025c090bf2a2d68adcc4d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_2/css/list_2.css
+    algorithm: sha256
+    value: b6f2a2dea9b61fd7502a44f8146b0ed5c9711a1e5cf64af047a95f344f0ed0b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_2/js/list_2.js
+    algorithm: sha256
+    value: f4833a26113ee540e93dcda6f7eb51d39a831599b4e2e7b34fcf1eaab95ff096
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_2/output.php
+    algorithm: sha256
+    value: 685d4a494f3215977ae0fc3a050ae4c8f9b8d82c92f937f35f3644a65f397a46
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_3/css/list_3.css
+    algorithm: sha256
+    value: df8b551ba45ff0f9cf9169244e885b93ae0a4087d918b389eedea75328f80862
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_3/js/list_3.js
+    algorithm: sha256
+    value: abff419e32d6fb40a3c6675ab3599ae388a1bb29b6ab89c1492ba8a490875d3b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/quick_search/views/templates/list_3/output.php
+    algorithm: sha256
+    value: 7d83decdd76ebb06bbe236cd7ed8f2fc540735215ca3151250596e4885ead364
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/css/sections.css
+    algorithm: sha256
+    value: 8d6080790e705e0358d3c6432e001a0176271751db01d5762408dcb51c204ca7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/index.php
+    algorithm: sha256
+    value: 9b997ccb3baf42b1cf925706f76ea5eb76bcf710ab23562c4fa4be630fe30915
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/info.dat
+    algorithm: sha256
+    value: 1e0ea98c175da754c13b7a5b75932d89dcc1e32044c7bca9ce184dbd96dba96e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/js/admin.js
+    algorithm: sha256
+    value: 81c54dbebb18837497c3d66e345cbe67a5b82484205a03068fb52a3c7bb018f4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/js/sections.js
+    algorithm: sha256
+    value: 04b5cab80da9a419dce16568577127e4b1ca536a26174604bc21752dda15df1f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/views/sections/end.php
+    algorithm: sha256
+    value: 3c21a291dd096b0624455f2cca35f97462d13b34f4a3b97f0e0f41afcbb8a7a1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/views/sections/start.php
+    algorithm: sha256
+    value: d5f72e28ab8024e1c485c84087c3af8b43e567c9a2183b35297919335607323e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/sections/views/tabs_content.php
+    algorithm: sha256
+    value: f08fe1a4763824e37d61aa49f7a6fd6782b2f34e708de98bae4db63dc18be6d2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_hierarchy/css/html_types/select_hierarchy.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_hierarchy/index.php
+    algorithm: sha256
+    value: c14164825456f300c27a14c339a8f973c23e7629e54ea16d957322418319cc45
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_hierarchy/info.dat
+    algorithm: sha256
+    value: 91e764e9390c166ab4585344da54af60a0caa0f44c5a40124a339a45f4969d37
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_hierarchy/js/html_types/select_hierarchy.js
+    algorithm: sha256
+    value: 253c1be71d594408d467d3a640a6e6922613d62702000b752cb52c141598a1f3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_hierarchy/views/woof.php
+    algorithm: sha256
+    value: 9b6ba9fa9d0b5bd89d1a78bfa4a35700f48f9bce50775b4b26eee455b482867d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/css/html_types/select_radio_check.css
+    algorithm: sha256
+    value: 3627b01b44ad8b0e399f94e27359db86e430b5f758e4550bd1004f442f81106f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/img/delete.png
+    algorithm: sha256
+    value: ccc84aaac6cdfe48a2677adf483c4a0760a20cf0b60fea4bd52738855ce6dfc3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/img/down.png
+    algorithm: sha256
+    value: 1766e868805d003db643b066b07c6b02090689993fa6617bf5b143ba6ee37796
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/img/down.svg
+    algorithm: sha256
+    value: 4df2a448990121ebf79f625ae190455bfc852daf71141211a36e7e89c14ab163
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/img/up.png
+    algorithm: sha256
+    value: 8ed22e37c283232da339943359661e428ab73adae830220440ef53871b4efa18
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/img/up.svg
+    algorithm: sha256
+    value: 06f5da134baf1667d7a3c176ca05d9b5528dc3d0c870a42b6af37e27ad3df134
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/index.php
+    algorithm: sha256
+    value: 4d94c2e6bcbd21df939eb70370948b7fd1313b63844b3a2e99d1fa74d3f0fc11
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/info.dat
+    algorithm: sha256
+    value: bb06696ad1e880770ba89b8850fef6cb299dcd32f42cda510148b3c15291d162
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/js/html_types/select_radio_check.js
+    algorithm: sha256
+    value: 6f3b9b9d3a4135403ea7ca8653eb9a1c45ba16512b40eb10059771e7657a82ae
+  - path: src/challenge-custom/woocommerce-products-filter/ext/select_radio_check/views/woof.php
+    algorithm: sha256
+    value: ca729e0253997bb1eb95811a909739424678a5532ebf90146e2b67e9fded1bb2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/css/admin.css
+    algorithm: sha256
+    value: cb1fb65e4ba579aaa14e839e383508f99666dc7c59358bfa05b9dc15021fc65e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/css/jquery.tabSlideOut.css
+    algorithm: sha256
+    value: 4d50088d466159dbb1240ebd1a983673ab75426977eb9d63c8d7e25f9c13dd1a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/css/slideout.css
+    algorithm: sha256
+    value: 8aacad087d6d338667655502f346c0aae32844e0caad7effb655dbea3ef3351c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/img/filter-old.png
+    algorithm: sha256
+    value: 60743276dddea22561fcc3289a4b417c4365dbd84f7263a32eb49a5fddffeece
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/img/filter.png
+    algorithm: sha256
+    value: f2c63a47b4fec9c1ba217536354ed51a5830ac5c53ff683cee4a59d8025afc5b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/index.php
+    algorithm: sha256
+    value: c74a4f833d806b2799233ca1d2c92e751c32d1d06305e83de58c34751fdfc6a2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/info.dat
+    algorithm: sha256
+    value: 443f7a706eeb2d99ac4ab784330c570bb80cb0436ef9d06ea2ca9abaa5284c6d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/js/admin.js
+    algorithm: sha256
+    value: e97f60ae3fb1838d4f0d1e90aa243b9072ad23b5f9e6eff06ddec93c14a753ad
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/js/jquery.tabSlideOut.js
+    algorithm: sha256
+    value: f21f1c492f42a12b1f35102e725f5bad8824689062416ba2de81611fbdac4ae0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/js/slideout.js
+    algorithm: sha256
+    value: 3b906ead1b859ef04fbdabe751fea683bdeb287559d8ebb7f97c7c7993a64a00
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/views/shortcodes/woof_slideout.php
+    algorithm: sha256
+    value: 82d9d4b104cb3e373746fb9ce747d1399f8e6724028763d350468aed4a9fbed3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slideout/views/tabs_content.php
+    algorithm: sha256
+    value: 803d2c8363febed70fab6d28a51934595e65ecfc58b929e77602983f950a1305
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slider/css/html_types/slider.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slider/index.php
+    algorithm: sha256
+    value: 33f2fcb910386abd6c56673b7cde8b0d647b8b2c943943afd2e1ec25d772cee5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slider/info.dat
+    algorithm: sha256
+    value: 1d52f7a76fbf9b0af6f75a9fc0ebde3da51489a3d0d75a39f8d49a5c70819c43
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slider/js/html_types/slider.js
+    algorithm: sha256
+    value: e668cba559a50e5ff001e1d4e527627462306b8891f1fbeb18aebe0885d8f16f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/slider/views/woof.php
+    algorithm: sha256
+    value: 9b6ba9fa9d0b5bd89d1a78bfa4a35700f48f9bce50775b4b26eee455b482867d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/classes/color.php
+    algorithm: sha256
+    value: df267627c86e520db43c3e63ecf4aa1f81ae787cc6e076409be771f443e8815e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/classes/presets.php
+    algorithm: sha256
+    value: 80134983af082cdf1d3cc0f225fd7b6d7a424d3152d3e53f9d592b4873052635
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/admin.css
+    algorithm: sha256
+    value: 65f26f994b4563d8fa51324b815dcf10f4c8e7c7fcc230fd324ca8d5334c6c44
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/elements/checkbox.css
+    algorithm: sha256
+    value: 051e54f3529e73a270df3eec7b5141a20241aef20e1146a564e635e5b99ca1c6
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/elements/color.css
+    algorithm: sha256
+    value: f56b11f2c3245eb95100fa1b5a7e8102f6d760353962624f0896c77c66423284
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/elements/radio.css
+    algorithm: sha256
+    value: 42a3e44e8259e2cee8f5853d133faadcdc8c4d0d6a871eda9c9c7462c799cfd1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/elements/switcher.css
+    algorithm: sha256
+    value: 687a6513b3d91eea53ec2ca5f6431ee6c8beb7e6ae53d9259de7673de1c7d6c9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/front.css
+    algorithm: sha256
+    value: af757130511c89fbd953546e53ce3d3dfa9f21c674b81f77b72d0ebfae872533
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/growl.css
+    algorithm: sha256
+    value: 61c35975873e74111ba5a3e605e7ac721e0007abbfe26eb0fedbf37d59eb8871
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/popup.css
+    algorithm: sha256
+    value: 984936096ddb4d96346464ec9bae46dc12c16dc0c23404b0767c92ad4cd49147
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/ranger.css
+    algorithm: sha256
+    value: f56794383656662de258bfbf9ddeefcf421a343701d3fbe1a700e902c41bdaba
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/switcher.css
+    algorithm: sha256
+    value: 16aa64c4207247bc66d76839489725c0a2e0999af59c683b5c8127ef0fc45245
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/table.css
+    algorithm: sha256
+    value: 3bec3c92b5cfe83e35b51b41c12dcb24101b4db775da7eb82f167d98163fa77f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/css/tooltip.css
+    algorithm: sha256
+    value: a85627770160e545326d46b1e2fd9fa91b1b8aee846e3982820e99f5178106c4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/data/checkbox.php
+    algorithm: sha256
+    value: 94d2bbf7f245a98d21aa7a503d5baa0083f86a837fb322ef60acfdabae355987
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/data/color.php
+    algorithm: sha256
+    value: bab0e9599136d28f1192d6ae0f4d9a647cf8fe69b50f6248010c4f157f3ba766
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/data/radio.php
+    algorithm: sha256
+    value: fb91429cd4d6dfb30cb482fc829ccbc511fd2d9e55b83ed554de631b599303fd
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/data/switcher.php
+    algorithm: sha256
+    value: 1f0e3f54ef8c7c843f57809874cb8af481a41ed2a22952a299224e7eb943d34a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/img/info.svg
+    algorithm: sha256
+    value: e4047972838129873189b899c7fe775b06dfc1153db815bdd235c802bf09c1ec
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/index.php
+    algorithm: sha256
+    value: b6bfcdcd391d35c254efd2a94b00095ed53f87610b5d62b26d6a626ff653388d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/info.dat
+    algorithm: sha256
+    value: f0400d48dd1a7a2ae7a36e03abd974c73650b38a68716f2bb5085cf5c60203c4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/admin.js
+    algorithm: sha256
+    value: 21dcb43b43072c5fe3b0a552e82bafa2a2d8796831d604e44b5dc25b1108e930
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/boot.js
+    algorithm: sha256
+    value: 6ac058a10bdf7e6a75782336e83b92f7d42226edffa148ac34bad48586a4c4c8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/color-navigation.js
+    algorithm: sha256
+    value: 4d9b059d73f24291dc296af214df9ddef44ee3572cfae28c031f944ace8db3d1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/color.js
+    algorithm: sha256
+    value: 1917c6ca38bf18723c36e442a5ccc0eb38b05b2e57bc06b8a2c28fdbf0342800
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/front.js
+    algorithm: sha256
+    value: 899a84bb7610dc2bda5355dbaa4c63a9aba7116e7e8b0836df04f36384787325
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/helper.js
+    algorithm: sha256
+    value: a6902befe3f817f201102e0167951abf17f3e9d9b556242107e99b30603a323f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/ie/checkbox.js
+    algorithm: sha256
+    value: a943a6322c6a9cdf421a431dff8261206f0e899e056ef09c24ff0b8f86a30aa7
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/ie/color.js
+    algorithm: sha256
+    value: 2e382dce473743621480b7281fa2127f9c3f71173e6f97b4aa1e990d7d9918b1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/ie/ie.js
+    algorithm: sha256
+    value: e6e69edd765e41c21af52327cf5cebf48978cedd53a807620d2400146d09686b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/ie/radio.js
+    algorithm: sha256
+    value: 799aef6f9238d7f5373f5fb2fce34d4569400af941d32caf0e15e092b7239c3a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/ie/switcher.js
+    algorithm: sha256
+    value: 6b738c295e5c35aa829658ae296d94cfcafc8e1929a736f487f29b1da8c0ec46
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/import-outer.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/lib/popup-23.js
+    algorithm: sha256
+    value: c6eb252429acb70254140bf5befa7c5fa12f7d4c1075df3d3a667f99b77c921b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/lib/ranger.js
+    algorithm: sha256
+    value: 1679c5569392abba58bf72f6b966f67fe0d95c83d8ec50bbadef4276b3ac5c75
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/panel.js
+    algorithm: sha256
+    value: 040652383d89e2927bad0a22ccbacb91e747852aa477dcbb985af1b773f9b69d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/presets.js
+    algorithm: sha256
+    value: 1bd9e217d60e40f76ff428665620b050224b6e083acf345ab36f251dd6eff265
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/sd.js
+    algorithm: sha256
+    value: de636c3f18c41b68857ad8d0b7e3f592bb000afffbd45ef57655ed39c16b4d9d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/checkbox.js
+    algorithm: sha256
+    value: 82e2ae56a1bec4caddb0d946cb3e119092ae305497f5a49fdf355f66fb8955c2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/color.js
+    algorithm: sha256
+    value: ff9b4ff63812e686e43273ab6794dc1721405b24af9008d10280cc9c1330ae49
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/element.js
+    algorithm: sha256
+    value: 96a140a5ef0dcf56a60bae6fdb255148550e2680b955687ecc1e0cd265265a2a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/image.js
+    algorithm: sha256
+    value: 5a170c7c5dc552da313487387345c9236c259d268f78f85eff36da37839da66c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/input.js
+    algorithm: sha256
+    value: 3101d6b0d99bc047f0aa79ac0dcbf4691af8eecdb7db313a4a8cba76d2698ad1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/link.js
+    algorithm: sha256
+    value: bb183dfc3494beabf915e0bf78f2da1d13abc4751169b911b72447aff88431de
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/ranger.js
+    algorithm: sha256
+    value: 913439935046798fc9814c291cba77e8349daf732ba6046361a9eda279d80741
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/select.js
+    algorithm: sha256
+    value: 9a72db126031e6269cffec1396aeb20ff18a77dffb8db143e7473daf4a7bfa54
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/ae/switcher.js
+    algorithm: sha256
+    value: 1947aa249654e69e58570836160865ff37d08bcc137c42ca402ae810d41627f5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/cell.js
+    algorithm: sha256
+    value: 8482b41c7af8e7523a832e63458b01b512709dce40f5f2cd108bedea9b4d146b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/row.js
+    algorithm: sha256
+    value: adc5d6bdfbd1f8881365e70be9d65a262ce67fe666aadcc2c0de634d7076b52c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/table/table.js
+    algorithm: sha256
+    value: 3506b37893de2c829d54fabe5708173be0d4a319e92fd1ee48862b7151bdd5a3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/js/visor.js
+    algorithm: sha256
+    value: c7b743b2b631b324045f59d3fb676f2078fac5081229a7d8892c36f1c9f29af9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/checkbox-1.php
+    algorithm: sha256
+    value: 95144448193418dc207af772d2acc4c0666da5a951413af251d387d4fc2d9a24
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/checkbox.php
+    algorithm: sha256
+    value: 08a09f8fb978792062a70e988d081e3b2f3a435877c9f158f7340710714d69dc
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/color-1.php
+    algorithm: sha256
+    value: b85f42ad551eddf86c0235d937215143e4b20fec664ea2dbffd88a282b55ee87
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/color.php
+    algorithm: sha256
+    value: 70742b3c9ab4810ade411015c4a0c85173f38400d318e43bf8fdb7d1a29878b5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/radio-1.php
+    algorithm: sha256
+    value: 70bbf9806f4abc98d4de8b0e4ee4605e53a8fdbec3986550445b5cd915ec4ff8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/radio.php
+    algorithm: sha256
+    value: 741cec5ddc4715dbf0f2d6a43a043826fb6eb50c3a009a512849612d633e000b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/templates/switcher.php
+    algorithm: sha256
+    value: 13ca7bab471d45c1fb0f6f8dbcf0416595f43ff026718176b4b7fb6a664bc42c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/views/tabs_content.php
+    algorithm: sha256
+    value: 21ddfba8dd8acd5ec790a98e6ad99694d4eb66d9038d682b909371cdce5e26d5
+  - path: src/challenge-custom/woocommerce-products-filter/ext/smart_designer/views/woof.php
+    algorithm: sha256
+    value: ef0203010d59329c24929b99df287e99bd8b2fb453f4f6a52242af7e084ef68c
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/css/stat.css
+    algorithm: sha256
+    value: a94febc2ed4576c26413793d4d690851354b456269cfb53a7fa5d5e0226a86c0
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/index.php
+    algorithm: sha256
+    value: 18a978548946939d9b70c72d2072ead65f281366f453ca7d00d878344a7dc524
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/info.dat
+    algorithm: sha256
+    value: c5f5ad904d1b1d3e657b765ca66d5b4e8fdb1a3e78cc102b1b68d85f6902cc8f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/js/admin.js
+    algorithm: sha256
+    value: 21788f4acf659dd72e42c8da937e767f725d1c6343bea96035d29b200aeef85d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/js/stat.js
+    algorithm: sha256
+    value: 645150f9af0b55a031675a2795c774b89ae46445baf1506214796eb16fdfd81e
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stat/views/tabs_content.php
+    algorithm: sha256
+    value: ba2dff90673e80d14edd98e246716f4502203c2a885b767f8d487ab845575cdb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/css/step_filter.css
+    algorithm: sha256
+    value: 0302cfb36fece5a389056bffe50a2b694884e37be6e657ac2f7844b95177c715
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/index.php
+    algorithm: sha256
+    value: 2e21d027cfc8d8c8b75d53bcbe944dbfe2f36625f2262a90a38f3e8e95def2c4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/info.dat
+    algorithm: sha256
+    value: f7eb937e0fca1fba74cdc1960276d3457f2368ae93371f1c5820de036c18aaf2
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/js/admin.js
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/js/step_filter.js
+    algorithm: sha256
+    value: cc115dde78a27a752f91353c2fb0f372cde3a974299abf1edd26664645aa2763
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/views/shortcode/step_filter.php
+    algorithm: sha256
+    value: 17b91069d0ad5b14e4848270fa1b303088c0890d91099084a4f45f85628c20b4
+  - path: src/challenge-custom/woocommerce-products-filter/ext/step_filer/views/tabs_content.php
+    algorithm: sha256
+    value: 74bec8aa4209d0e3c78412859ec879495dec86d679783d7acc6685e5c5ada41f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/css/by_instock.css
+    algorithm: sha256
+    value: c277fe3b68ad507ba99939f981baac6ade7850fabdaaff0ace5334c5a8268700
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/index.php
+    algorithm: sha256
+    value: ef0cf484898e44fd16b1443b9e1bcc27487adfc8f4552faf9d8979fde638daae
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/info.dat
+    algorithm: sha256
+    value: a3898edee228f4e5e52e5a44c7db6dc2a179eac88f090e6853ce7ff42729d199
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/js/stock_quantity.js
+    algorithm: sha256
+    value: 8314c929b770b32415278a1a8434a2db9448591bd499d5ce891a223d9e7eb81d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/views/options.php
+    algorithm: sha256
+    value: 024f8add61d18315e0694e4c74aa850afde66f5ee41ec030f3839e15a846c36b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/stock_quantity/views/woof.php
+    algorithm: sha256
+    value: 5b6095f94862bf11fc0faca14e84d00b374064e102ea41bce099d89e9700eca3
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/css/admin.css
+    algorithm: sha256
+    value: 1be26a00caa078870f0ab44ee5db4435ffea6ce3cc380c1863ef85e777690f8d
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/css/turbo_mode.css
+    algorithm: sha256
+    value: 5f1fb4d26727cc71b538c83c39ae466794f79dbbe939397291d6922711f5773f
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/helpers/cron_helper.php
+    algorithm: sha256
+    value: b80fa1674705dd022e9ad7ac3073f685a2e86df78cf82aa206c5871d032f9ceb
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/helpers/file_helper.php
+    algorithm: sha256
+    value: 427b28ce09d46d6a38e5c7e5497c629469472a83f9bf7eed036311019355f954
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/img/load.gif
+    algorithm: sha256
+    value: ecb3d2edb9ee47132f80121c759a160d47be43975a4fff28390786f64ca532ff
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/img/succes.png
+    algorithm: sha256
+    value: 3f7e0740c9501052d7e71169386ae02bc14149ad21c7be8ce5c4390ca8760570
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/index.php
+    algorithm: sha256
+    value: 5a660e0d9499e01219c739d0b52c531faf04eb1abf30a57212eda6198533168a
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/info.dat
+    algorithm: sha256
+    value: 33de3e4610ad5b65d5f2129e75f3d7b5c82809122eb58a33fca0e29de2a75414
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/js/admin.js
+    algorithm: sha256
+    value: 836b54f3765bd9b73178ec359441e2c2bfc3c17bc7477765492ad2d78f2078b9
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/js/turbo_mode.js
+    algorithm: sha256
+    value: 0c3ded2b139ca73de125eda4f7d201c9d208a5ad6668b8c39cdc58cc73b869af
+  - path: src/challenge-custom/woocommerce-products-filter/ext/turbo_mode/views/tabs_content.php
+    algorithm: sha256
+    value: 65016a96d80346a7a1ed0230cb21d362529d1048f38616280d48c2d992c74fd6
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/classes/seo.php
+    algorithm: sha256
+    value: 6c6f972db080c8799d4680aa6dd1dad3081deebb740c97e09ee6f2250e67716b
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/classes/url_parser.php
+    algorithm: sha256
+    value: 4308062ec4f0fe1aca2e6dff3d3e026f9b84641944af51af0d9212df3efce1f8
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/css/admin.css
+    algorithm: sha256
+    value: 49b4fa987e5ac240d2b83c4550073a409175c90964bd0467b2735a0d90410277
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/index.php
+    algorithm: sha256
+    value: 00bf0c338f07969c3b3c2a3beb83d95c60df7ccd91153ca09815f7dd08131ad1
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/info.dat
+    algorithm: sha256
+    value: b512fc0653ee93291c63a491c35133b6c87ff813f89086a0d192065cfdb04b31
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/js/admin.js
+    algorithm: sha256
+    value: 0181420f5d5eafbaa0498e8e5fdc97156cff633224b824bd71b75957c1503534
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/js/url_parser.js
+    algorithm: sha256
+    value: ddd51372056d2a95911e1be70655ae2d0fbd5639076dd777005bf49ec854f480
+  - path: src/challenge-custom/woocommerce-products-filter/ext/url_request/views/tabs_content.php
+    algorithm: sha256
+    value: 02e9ec921cdb97bb68e85f3c2a74e8c4b5e4d219cc26afe840365a04c77f16a8
+  - path: src/challenge-custom/woocommerce-products-filter/fonts/fontello.eot
+    algorithm: sha256
+    value: 8900ffdc15b6052bc2b1bfd7979fcce3ae4617f674683dbcb0dd217a4cee3141
+  - path: src/challenge-custom/woocommerce-products-filter/fonts/fontello.svg
+    algorithm: sha256
+    value: 531aad034f284cd3547d352c7f5e722f3850aa60ab41a242f0b065eb3a992702
+  - path: src/challenge-custom/woocommerce-products-filter/fonts/fontello.ttf
+    algorithm: sha256
+    value: b2e662b422050f8ad39575c259d3cf68108a273ded61d1eb85cf0646d826d6a1
+  - path: src/challenge-custom/woocommerce-products-filter/fonts/fontello.woff
+    algorithm: sha256
+    value: dd54b2e92316c283476b2c5c3074d1b8bd06530f886346727d967cbd0ae9ba3d
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button.png
+    algorithm: sha256
+    value: e6ebfab2938e742441b0cc32719e2cdeab833f45203374313f9faa6b53da654c
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button1.png
+    algorithm: sha256
+    value: f9bdf599e4a19e126a2883db2a5996a0463fbb698eb055256b72be9feb13d6ff
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button2.png
+    algorithm: sha256
+    value: f4fa5cda1f53bd1c9b0f17388df1e661650d87f5b85333be3a740ab337da58b6
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button3.png
+    algorithm: sha256
+    value: 22f0445effa0febd30e100063c318251175fcaf4bb531d4b8a331fc419501d3b
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button4.png
+    algorithm: sha256
+    value: e3ee294552c29f52b66caaacc9d678990784d08dd095742ef3e347748d3944d9
+  - path: src/challenge-custom/woocommerce-products-filter/img/autoshow_button5.png
+    algorithm: sha256
+    value: d16fd779b5c91e2239932f79f1f48611e535a6a3367bafc60ce432d434cc5107
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked2.png
+    algorithm: sha256
+    value: 0277c22cd1b28452b1d0dfca91fd89f239fa2b039ddcfa8732d8d271c246faa2
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked3.png
+    algorithm: sha256
+    value: a4c9feb0822fd0fe2acf54397f69ee2c935ef7040a5f6b8cceb5272922cbd5c0
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked4.png
+    algorithm: sha256
+    value: e156f726d2af379f0ac979f475e6fe6e15b59015a252266492d7a1e3426423c2
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked5.png
+    algorithm: sha256
+    value: d162a2d773f1a51b6edb64d158eb5b4da9e2753c8b2ee0b613fd8a49d6d7c52d
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked6.png
+    algorithm: sha256
+    value: 7a17d604901c70032f2c676e2421aa1470828a17193062848f69d223dfd0925c
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked7.png
+    algorithm: sha256
+    value: ebf9af0d0c38b3097165028ea8b12a312b1fc225554fa4b7f320e97520199f42
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked8.png
+    algorithm: sha256
+    value: 6d2da5e3f7f861323d98042fe54e72395693def9e1185a18e5c15e1877636339
+  - path: src/challenge-custom/woocommerce-products-filter/img/checked_for_white.png
+    algorithm: sha256
+    value: 1d0350f061cfb487314e746d9d96b801efc0826adecf0bebfbdcd5c4cac4adff
+  - path: src/challenge-custom/woocommerce-products-filter/img/close_filter.png
+    algorithm: sha256
+    value: d6ae704404dd98d2029973eda61f913d8113d50d43d488e7a48697c098ff586c
+  - path: src/challenge-custom/woocommerce-products-filter/img/delete.png
+    algorithm: sha256
+    value: c42f45f80fe632e3b75a0724b3c0733915022e89037af91a52205b1baab9bf34
+  - path: src/challenge-custom/woocommerce-products-filter/img/delete2.png
+    algorithm: sha256
+    value: ccc84aaac6cdfe48a2677adf483c4a0760a20cf0b60fea4bd52738855ce6dfc3
+  - path: src/challenge-custom/woocommerce-products-filter/img/delete_.png
+    algorithm: sha256
+    value: 7f37e2b347e51c9b58192f6dacfa0a6101e9e9ab8da49a22708e05f65d851011
+  - path: src/challenge-custom/woocommerce-products-filter/img/eye-icon1.png
+    algorithm: sha256
+    value: db7ae46da1056d72e43d8813442928cc4b30926e62ecbb67df31676cd641cec8
+  - path: src/challenge-custom/woocommerce-products-filter/img/eye-icon2.png
+    algorithm: sha256
+    value: 7a3581ba18dd33fe57a2590dee48f0e87d48d6ac7acdcced037aa31e2e9537b1
+  - path: src/challenge-custom/woocommerce-products-filter/img/help.png
+    algorithm: sha256
+    value: 1740d3b1024f4f11d804a95d0c9e018310a66c9eafe81fec7008388d7889a6d2
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/README.md
+    algorithm: sha256
+    value: 468833615b5ca224a0a7e2c9810e7a5376f0ee646a012a48482490697ab19805
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/index.html
+    algorithm: sha256
+    value: 59edef005319a7978d691b063b66ed6540dc6b9dea93daa58e92bfcfc61e2357
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-balls.svg
+    algorithm: sha256
+    value: bde761ed5ccf731f08a318b072a57a125f07950b8c1ebee5fe25cfcb2360372e
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-bars.svg
+    algorithm: sha256
+    value: 767a1f0c84fc99ae9222362366f332929f3e3982a7301726dc0f66cd17383ab2
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-bubbles.svg
+    algorithm: sha256
+    value: 0e076e853eb3533e1b8b19d965a2a8b8258dfe802e2b3dc632fbd370a7ae540a
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-cubes.svg
+    algorithm: sha256
+    value: 32ee3ebc5a0879dd252f7ffcb4efb4bd4773e78ebcf39634c3044b5e549e0512
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-cylon.svg
+    algorithm: sha256
+    value: d2328caff74a48daaa373cf5af1f0ad29a3bde8fe3394a63d93ab619d02e80be
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-spin.svg
+    algorithm: sha256
+    value: 4ca89c01a9723302aa1b9c7cb4e5990cbf4f9276aacf52b7fb190f540cb10711
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-spinning-bubbles.svg
+    algorithm: sha256
+    value: b8faed53e3d6dd11464ddd5f8dbdcf87bfe523842b01b9ba8109596833402474
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/loading-spokes.svg
+    algorithm: sha256
+    value: aa326213c922bb4f75826abaf998961aeba8c596228a3afc9ee218981bdc3e22
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_buttons.scss
+    algorithm: sha256
+    value: fd2694a955bf9d2e932acbd885c2587af394499aa13ae243fe2c850a44379b14
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_lists.scss
+    algorithm: sha256
+    value: b28ffa59c3f920e4a64faf940af64cf0b7e35ecd31f15d7e9fb01eefc83cc9c8
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_margins.scss
+    algorithm: sha256
+    value: e549b8f405a0279990a87b2dea73c895ced3ac0d084ae586e1ea764839287659
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_padding.scss
+    algorithm: sha256
+    value: b3b962538113e1c580a1659271d54e0a10216c811045a01c70d5435784a7e246
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_positions.scss
+    algorithm: sha256
+    value: d2b349fd4941b5ccb8d1a691f3e2a4cc2124f30ef0a6240d2fd2602df8d01927
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_reset.scss
+    algorithm: sha256
+    value: 15bf7dc4955b6a053e056c2d8fed439f821b87e420982220a46296f9d3ee87f5
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_table-object.scss
+    algorithm: sha256
+    value: cae62ed782f45f621cf362abb935b536511bc30d7f3ce11cadd63f90c26570d8
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_theme.scss
+    algorithm: sha256
+    value: d0e628debfb1fac2955ceb1a0417a348fb5c5425d6ab27b70788caefdcad3d1c
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_type.scss
+    algorithm: sha256
+    value: 01ad123d0ca64f45ea00fc6b331df7ad3bbadba4812ff038058c642a0a01b57a
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/_utilities.scss
+    algorithm: sha256
+    value: 6e9f36508ebfef3a2ca562dab48c6e0a639bac18109946e00b3e422a1fd53598
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/grid.svg
+    algorithm: sha256
+    value: 6b56ad4c19eaab1033caf5ddc77a22aeab0831dd666cde30d1f69a1d30f54abf
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/style.css
+    algorithm: sha256
+    value: 8c70afb3289fe22b6dff20c6da537e0ce690549db7081bf17d53c2da88f151bb
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading-master/site/style.scss
+    algorithm: sha256
+    value: 6fab61f803460ce695918d1226ef375c3a92397bdbad8283c9bf629456814f41
+  - path: src/challenge-custom/woocommerce-products-filter/img/loading.gif
+    algorithm: sha256
+    value: c22595a19be146b977640c7aa0fe8229a846fb09eced6d7d7a34b74fa55a6e7a
+  - path: src/challenge-custom/woocommerce-products-filter/img/magnifying-glass-1.svg
+    algorithm: sha256
+    value: 9f3254d9769fd8f2a6bf0cb522daf6da44320662dc03d1e117ff10af243dfbcd
+  - path: src/challenge-custom/woocommerce-products-filter/img/magnifying-glass.svg
+    algorithm: sha256
+    value: 04ab7c8c370968df193feb563e4cc0616410ad8a538529319a9a14fe84caeeb3
+  - path: src/challenge-custom/woocommerce-products-filter/img/magnifying-glass2.svg
+    algorithm: sha256
+    value: 7d1203a20cca8df784874914faebba641c69c522a4457f536f8964b56e50c198
+  - path: src/challenge-custom/woocommerce-products-filter/img/minus.png
+    algorithm: sha256
+    value: a48b2516c3e91e1b3fd1f88c61604a87e8e67fad985ab3eaee084c95fe07f90d
+  - path: src/challenge-custom/woocommerce-products-filter/img/minus.svg
+    algorithm: sha256
+    value: 3274a6ddadf22cdd2d45b0f17f39a2d55848699d2d25790304699bdc48fa15b5
+  - path: src/challenge-custom/woocommerce-products-filter/img/minus2.png
+    algorithm: sha256
+    value: 822d2de64fd1cf15b9f6dfec290953370a01e949da8a6a413387f7831d3f76df
+  - path: src/challenge-custom/woocommerce-products-filter/img/minus2.svg
+    algorithm: sha256
+    value: 9f5274540e9754186fa4e80311b671ca24d2c01d935653999736a9d3cd666b23
+  - path: src/challenge-custom/woocommerce-products-filter/img/minus3.png
+    algorithm: sha256
+    value: b0a42d35dc398fb04fdcf1fb820eb3ae5c5f9d3eae806efe93ac78769d1f8799
+  - path: src/challenge-custom/woocommerce-products-filter/img/move.png
+    algorithm: sha256
+    value: e3753a146fcb00dfc59cadbb7b88441fa420462edac3d58cec7ec18f80bbe7a4
+  - path: src/challenge-custom/woocommerce-products-filter/img/not-found.jpg
+    algorithm: sha256
+    value: 683242cb371a911e9c1566feb41cceba225320741325c13058dbe62be18e92f1
+  - path: src/challenge-custom/woocommerce-products-filter/img/open_filter.png
+    algorithm: sha256
+    value: b461e0d9eef84f2f01286ed277ebc96c8cd23aa43acfafd0c035697d0d767c07
+  - path: src/challenge-custom/woocommerce-products-filter/img/overlay_bg.png
+    algorithm: sha256
+    value: aa04ac86e1708a74acd2d307d0aba953e2c22800e2c375351de6882120c921dd
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/admin_preloader.gif
+    algorithm: sha256
+    value: 8d5a7d189e11a76787df0a116636d069e821462ffb3aeca533943ca953b8a4ee
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/bear.png
+    algorithm: sha256
+    value: 73703476eb624e7f2c6629883bf1dbf471cdf054af0466eb706f89dd45bcad81
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/tableon.png
+    algorithm: sha256
+    value: 5b9986a0fe3679044e6eb91068a3e2b6dae2e54f997b3b44cdef3be0d8e1339e
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/woocs.png
+    algorithm: sha256
+    value: 1284750680f445dc9212d27dd06c8dcf1be8e86af6d10e7acc5d517e9f415019
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/woof.png
+    algorithm: sha256
+    value: 598219882e75cca64907959e953a7f14cf940ee804c4ba9c7824330f4f7d0c55
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/woot.png
+    algorithm: sha256
+    value: d60f06d97552fca6b6b5b7277e694ccc2bbc1d59555168c2f23a7fdaef4ade53
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/banners/wpbe.png
+    algorithm: sha256
+    value: d41ce6c1381f8f9ced7baf0401a7f3d8fdfa7d3f1e48f0e69f3dc11b9556f3b6
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/clean-code.svg
+    algorithm: sha256
+    value: 4b03f2b04013470f8f053d13e2e3d48336dd5927c20b0bb8324efd5fcaec5010
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/codex.svg
+    algorithm: sha256
+    value: 606e714ea5b31e2215ac418b558fbd8d0ee8b25b23377d49048346545ea1bb53
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/faq.svg
+    algorithm: sha256
+    value: b11c9df35579ba84576d59cc5037f367313510692677639d6f99bc9931fde8b4
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/listen_catalog_visibility.png
+    algorithm: sha256
+    value: dcf1bfdbc3486e76524e992a14ddd7aeeade4382dadd3b7fef4475a549bcbdbf
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/support.svg
+    algorithm: sha256
+    value: c9e61c5ff31da0fb1b8171ea15fdf49ebe8fc64b6611baaad6157330d7631985
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/video.svg
+    algorithm: sha256
+    value: 67417f8f7c9a70e5dcf4a99c74c530ce4755ea0910a2256af24f8bd5bd781f11
+  - path: src/challenge-custom/woocommerce-products-filter/img/plugin_options/woot-banner.png
+    algorithm: sha256
+    value: c7d0cc493190ceb4b81739b66fcc77efbab1179a99f55767a6fab36be26abfbd
+  - path: src/challenge-custom/woocommerce-products-filter/img/plus.png
+    algorithm: sha256
+    value: 5ee64b48d55bebc5db14f4cb6c3fb568ed0dc245fb0e9f33137d547bf2a453b9
+  - path: src/challenge-custom/woocommerce-products-filter/img/plus.svg
+    algorithm: sha256
+    value: 36f25bf1f68c251280422d82051a4074f6ae2d49a9ee1a5375acddd61947d943
+  - path: src/challenge-custom/woocommerce-products-filter/img/plus2.png
+    algorithm: sha256
+    value: da0991bd92862a54fbd8dbc79d4df69513959a16ce62e533dfe61b34beda93b4
+  - path: src/challenge-custom/woocommerce-products-filter/img/plus2.svg
+    algorithm: sha256
+    value: b8c4ca24d5395f0f01c45e37df9951a2d49173a718ac986e8a337aa4d326a3b6
+  - path: src/challenge-custom/woocommerce-products-filter/img/plus3.png
+    algorithm: sha256
+    value: 21d5aba70ac581b8c96bf624b48c073afea86b50cca4815a2c8dd0235455566c
+  - path: src/challenge-custom/woocommerce-products-filter/img/select.png
+    algorithm: sha256
+    value: 7aacd7db126404d8237666dae0d17a4c9d4e843e7359a9a4830cb0fefea70643
+  - path: src/challenge-custom/woocommerce-products-filter/img/woof_ext_cover.png
+    algorithm: sha256
+    value: af8e8c2338c2e4f584c96ff8604d92d2a6ae3ba38d161fa9bce2c3a1b65bb780
+  - path: src/challenge-custom/woocommerce-products-filter/img/woof_info_icon-old.png
+    algorithm: sha256
+    value: 8c5488273c5f681b3898e0bb1c1ccd0b7c26b8fb5333787b5ffaf3dd58b09557
+  - path: src/challenge-custom/woocommerce-products-filter/img/woof_info_icon.png
+    algorithm: sha256
+    value: d90f4b8221b20a459f2b1f65d33005b538268c5a2bcbb053d1c3ae1cbe0789cc
+  - path: src/challenge-custom/woocommerce-products-filter/img/woof_info_icon.svg
+    algorithm: sha256
+    value: e4047972838129873189b899c7fe775b06dfc1153db815bdd235c802bf09c1ec
+  - path: src/challenge-custom/woocommerce-products-filter/img/woof_info_icon_old.png
+    algorithm: sha256
+    value: 8c5488273c5f681b3898e0bb1c1ccd0b7c26b8fb5333787b5ffaf3dd58b09557
+  - path: src/challenge-custom/woocommerce-products-filter/index.php
+    algorithm: sha256
+    value: 0df2dcb11a192e8cbde5f6bb12de446aca06d0751b00b4711df1aa9a1ff92285
+  - path: src/challenge-custom/woocommerce-products-filter/installer/first_settings.php
+    algorithm: sha256
+    value: 1c40706f7c1b70f6e0957632175e20c0a5a8e30357b54c7309136c539f8400cc
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen-sprite.png
+    algorithm: sha256
+    value: 8aa69ee6b2376505578d758bfbbc52aec88fa5e591f1a7cabd8adfa80a7b613a
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen-sprite@2x.png
+    algorithm: sha256
+    value: 1e349b80fba8c23b63656925fda8dfe3c5927b5d0d8a1672143416caacf460fb
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.css
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.jquery.js
+    algorithm: sha256
+    value: fa8a837c69930d75a3c3a05c803a8271bd57ae5dd61fbe81d4341f38d1f58165
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.jquery.min.js
+    algorithm: sha256
+    value: efce219a849b68fd9d91d60cf41fa6c7fcc220e5e8f7f2fd8d4671094186eda9
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.min.css
+    algorithm: sha256
+    value: ea2b40344a11f515e346ed0622bff12600f3cf80c35d02c538c9ce72e1e5f9eb
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.proto.js
+    algorithm: sha256
+    value: 8f7a51da006ae0da7d460cab0093a962c98e20617edc8881ebbd473f0f8eb6a0
+  - path: src/challenge-custom/woocommerce-products-filter/js/chosen/chosen.proto.min.js
+    algorithm: sha256
+    value: b3564160b690d638b7ab33b72b5b29b8fe9859fe33883361cafff788a01dff4e
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/easy-autocomplete.css
+    algorithm: sha256
+    value: 0d9228254b8813118ad5503b971828522c179eb8490e108e18bdfd73337b3879
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/easy-autocomplete.min.css
+    algorithm: sha256
+    value: a51de42051087044a671e4b18c6016965d812e9c6fb53fe6f709c0c29c1b45f9
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/easy-autocomplete.themes.css
+    algorithm: sha256
+    value: 883a166dfefd8d1c492f35ac0ea20f40868b62140972957e1b74dc6bb05d67f6
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/easy-autocomplete.themes.min.css
+    algorithm: sha256
+    value: 30680847587463b04edc2f86914273f43a214c3624b43834314496b708d4f69b
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/jquery.easy-autocomplete.js
+    algorithm: sha256
+    value: 9b67da848585acd5028632d1416ca30ad2f8d5af040b99f46c5d0c308d42633b
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/jquery.easy-autocomplete.min.js
+    algorithm: sha256
+    value: 94a9fd2fdd5938bda886adfae7eb19e211b1fa21a77dcf53a035e3ca4baac749
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/maps/easy-autocomplete.css.map
+    algorithm: sha256
+    value: 85b3809d5cdf1c6b4fae4111a9f4234a1905e5db1229dc44653ccd9c552df2ba
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/maps/easy-autocomplete.min.css.map
+    algorithm: sha256
+    value: 9ab4524f39bc0ff837739c60b2b57dc33c392e03e3b0f4b6ec14ad8065961b71
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/maps/easy-autocomplete.themes.css.map
+    algorithm: sha256
+    value: bfe28892960a71e2d4ec6f897747472a5377676ce9f85adc15c9f7b802ac9423
+  - path: src/challenge-custom/woocommerce-products-filter/js/easy-autocomplete/maps/easy-autocomplete.themes.min.css.map
+    algorithm: sha256
+    value: 89bd015226e8c0728d12994b36e1260590b2d1412c29ba883c1652e696ccd38c
+  - path: src/challenge-custom/woocommerce-products-filter/js/front.js
+    algorithm: sha256
+    value: 0b5f71315e94239c8e9e3fd6e668dcc5a629bbacd81336e0107f2ff4a3e5da85
+  - path: src/challenge-custom/woocommerce-products-filter/js/front_comprssd.js
+    algorithm: sha256
+    value: 8d754a152d4ba51bb29fe7aa7f1a2437192ef053c6b25d1c2106ff013f052721
+  - path: src/challenge-custom/woocommerce-products-filter/js/html_types/checkbox.js
+    algorithm: sha256
+    value: ffa37455f24fe9b5ddc1504b5c82bd09aada08f59921f115467e4386660edbef
+  - path: src/challenge-custom/woocommerce-products-filter/js/html_types/mselect.js
+    algorithm: sha256
+    value: 43841fe177e4eefb459a3cce0901d9b77e7c224f6facc264bef5c2dfd5fb3461
+  - path: src/challenge-custom/woocommerce-products-filter/js/html_types/radio.js
+    algorithm: sha256
+    value: 315ec6df34ba0b28fe0cbe25549c3ee074fe11dafb46c1bd9fa2bd348ee24aff
+  - path: src/challenge-custom/woocommerce-products-filter/js/html_types/select.js
+    algorithm: sha256
+    value: 04c32a0bbf5f05f007948d07c96a980a9bdb029beaefe6caab17c982f97f70a4
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/icheck.jquery.json
+    algorithm: sha256
+    value: 5534d7c8b1e2a8da169e24f1b8c26a77cc722b5fb98b98d449a847a1bbcdcc12
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/icheck.js
+    algorithm: sha256
+    value: 40720c7ac239f681c232305b68c9a674c05121b0915212fefe2af8fb531fa782
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/icheck.min.js
+    algorithm: sha256
+    value: 64e85e693b4fea5859142b10bd3b908ae455991ae7175b9319378d4289e00232
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/all.css
+    algorithm: sha256
+    value: 292fca03a97afd382299c051a1b157d3bccee0b0236004ab5df17bf531419354
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/_all.css
+    algorithm: sha256
+    value: 4e5095e2922c6059511cd34ac2d6cb0537fb5e302bc2263928f9ae791222cb25
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/aero.css
+    algorithm: sha256
+    value: 88a238b74e84ce50563173ec5a845e23625802c01b587f71c13bbc9956d933b0
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/aero.png
+    algorithm: sha256
+    value: 870db4ecdf5732a8fe5fb55e50d552f59fb8170fce3c321f3e1ef7f0605d1028
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/aero@2x.png
+    algorithm: sha256
+    value: 3ba32ee9bd791144850020cf9ce51409a2b95faf35bf7f40e9777dba2ba59de1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/blue.css
+    algorithm: sha256
+    value: aea630849e29ea42cacd21c45d2698125b64cdfee8d6269d91450a7996e299e0
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/blue.png
+    algorithm: sha256
+    value: f8cd711862ded984c4d8dfb70d8f0f890a1cc8037e883288a0a459d7524b3d42
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/blue@2x.png
+    algorithm: sha256
+    value: f576f01791c658bb2e8cf4402b76c571fce5041753a8a7a2291548402c2fb94c
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/flat.css
+    algorithm: sha256
+    value: a8a4f033d557b360631d83d845675b7726222b4af1c19334b16e33e4f140291a
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/flat.png
+    algorithm: sha256
+    value: 649617bbce32ff4e0a8343c6f011a17116e86b13c50c1d9bfa92c0ee20605bec
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/flat@2x.png
+    algorithm: sha256
+    value: 761a11a1d4b30c951218c185ce70e208db481dd4d2516a73dfa53f7c3d0a62da
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/green.css
+    algorithm: sha256
+    value: 92095272be733145095049a518cf9ba94475abf66b6f558b23d7d6d4ab79f1fb
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/green.png
+    algorithm: sha256
+    value: 34858518bad21f9134e78e32fcfbc38ff468553c43944721cbdb5d80ca5472d4
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/green@2x.png
+    algorithm: sha256
+    value: af0c9f69994fbb887a9f2d21aac89de946a6994a7f5a89e6f767b4f6473982ac
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/grey.css
+    algorithm: sha256
+    value: 6a818917e0fd5199ee268e3278e99aa88197590c0fb364531c8dbf4822a66a1b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/grey.png
+    algorithm: sha256
+    value: 7e7ca23be1d7b29a14f919d31f9b45ab425da93be4c2171552fda986d003fa6d
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/grey@2x.png
+    algorithm: sha256
+    value: cfbadf65db8b639977c46c6935593f72d13e6bb1a08dee64691804248a40c4ac
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/orange.css
+    algorithm: sha256
+    value: 0c3ea16b44ec196bbe43531567c273eb1c06597a4ce0304a1138c09dd43f4c5a
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/orange.png
+    algorithm: sha256
+    value: e7c0220f2a222f0b1b4ed4ecfada3f67347cbd3a2c83fd75a1515378336421b0
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/orange@2x.png
+    algorithm: sha256
+    value: a6d0bce44faca0c35a1e385aca6f924c4442245fdbb83ecb596f509cf2dc4b38
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/pink.css
+    algorithm: sha256
+    value: 79f4ada61ef03ab2c61f113455387f2b35f1990f3a53ef142da4bca17b119139
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/pink.png
+    algorithm: sha256
+    value: a6dc520b10c2ccdde3aefcc9f27f7c6a632b4b57a72b335473941ea4b9890c5b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/pink@2x.png
+    algorithm: sha256
+    value: c396b51e6f1cebe562fccf2fa266851f6e020f1efae533fabcb89e60efae8412
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/purple.css
+    algorithm: sha256
+    value: ccea763767e1f45eb9c1db9170e081bb501a3df27eb722cd2f61a243efa9fe33
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/purple.png
+    algorithm: sha256
+    value: 3266d60416a9231400d85042fa3e6678451c541113ec6a7b0cb6b1876909cfbe
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/purple@2x.png
+    algorithm: sha256
+    value: 811fd98232d50f6ae7802ef2525f8b0cebf4c2df4749e4789a70e17bbccc5f84
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/red.css
+    algorithm: sha256
+    value: 4599bd666ae272c801329ce5341d2d6d594d45525e1b3cc2430fadfa82bc7b2f
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/red.png
+    algorithm: sha256
+    value: a959cd63012facd6b23b212e6ee8438248478759da0e00d88accaba3e2bf24ab
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/red@2x.png
+    algorithm: sha256
+    value: da0cfba6ac94c007a870c150693c51c0365b584bb7e879eebaedc28f5d773111
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/yellow.css
+    algorithm: sha256
+    value: edfee546888b4009ff3df58f54c3f1cdcf7f12433588a38ceabad7d942861bba
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/yellow.png
+    algorithm: sha256
+    value: d50fb48ffdd5d676cf1cbc220719daa1f00937292d7a3673b63d316a9e58393a
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/flat/yellow@2x.png
+    algorithm: sha256
+    value: 831e2f52cf2e796154cc228383632e659cc72dc60e3c57e0c5390d1bf88ef3b9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/futurico/futurico.css
+    algorithm: sha256
+    value: 69cce67f8151431d8861a1f230bb92dfe409b6b4e00648083ac7537a22b28cd5
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/futurico/futurico.png
+    algorithm: sha256
+    value: eddc1d52ee8d16a2261ca4b8d2df4f8a1d43a945a4766f8707cb71c2541021b9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/futurico/futurico@2x.png
+    algorithm: sha256
+    value: b6ff49882ef46edb2d129f92cbc2f191292f87a587ce65ba695782fb4100c6c1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/_all.css
+    algorithm: sha256
+    value: 01cbc0f597a5c7bb72790f4fd0c5be5dfb8589fd102b75af24ed603c5df993a9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/aero.css
+    algorithm: sha256
+    value: 42416ebad646b19954b431cdf9f6ca9c984d30338ab5737c2c6670968838509b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/blue.css
+    algorithm: sha256
+    value: 5965543c77201dfb5697cbb1f57a8b1c2e53404b38d568efa286fc126974772b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/green.css
+    algorithm: sha256
+    value: 0090c0782271df6bb20864e546565555284dae7d6ccfc6a61d771ff5ea4db8ca
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/grey.css
+    algorithm: sha256
+    value: 08f92b47b1072c33f8729439fc4f42868d1e13626acdb86422f4ed1201fff39f
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/line.css
+    algorithm: sha256
+    value: 71318df5f9c2fda1d8be32b5504f6459b1f017b24c35e5c4b6bbd33fad1e1b1f
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/line.png
+    algorithm: sha256
+    value: 53f72f0f63f7b9d795feff387f3f76e9634f147604a43dcc9d67091b62f1cf43
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/line@2x.png
+    algorithm: sha256
+    value: c6de05f1759797a43cde5ba31a74f3b23eb175b70ac13812b12ab443475ece85
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/orange.css
+    algorithm: sha256
+    value: 0d4c791630e032200763807ec530dcbcd9b10a27ab3ff5d52a672a5dcf1557d5
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/pink.css
+    algorithm: sha256
+    value: 307f69eb5145d1e34504c3426d28724ba679cc6b5164426d11fdc41b1e21aab0
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/purple.css
+    algorithm: sha256
+    value: a3da7da7cf95c4943e2885c2d53a56f076f62bae5c7629de56081d95f209ea42
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/red.css
+    algorithm: sha256
+    value: 62b37b3bd87f86e710a804d233d7c7a967cee046cbd68826f5110c308c306068
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/line/yellow.css
+    algorithm: sha256
+    value: e73dbdce3155003a97a87df1fcb50c3f9fb62c6d087f3706de526790e25aaa9d
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/_all.css
+    algorithm: sha256
+    value: 4f7c75c39b8937f850dfcee698276f5baa8ff9fe26b050eeedcc93c72075797c
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/aero.css
+    algorithm: sha256
+    value: a84aee07fc95cc3d11262bd1d39bd5e5946c04805dd8cfdd1b5bbdeaa3f6d857
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/aero.png
+    algorithm: sha256
+    value: dd315622eec3d7116566abc8400b484f08c2a4d18f06f1ba308886ba50e856e2
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/aero@2x.png
+    algorithm: sha256
+    value: 57b9c071468da201173814c27496bb0e8f318c2945fb08e1f3c75531ae184e99
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/blue.css
+    algorithm: sha256
+    value: 47b3e129a09f09ffa925f396a2a0ce966ccfdd7272e1600c9918443d2daa1bd2
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/blue.png
+    algorithm: sha256
+    value: 554d1c81ca2ad1da94f15b8d6446069244cbcb4d3d11028cd30940eb2d437b13
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/blue@2x.png
+    algorithm: sha256
+    value: 703ab1d8cf4148e179021fdfdbb045297f0d383c872b8a433794b5ffe8480424
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/green.css
+    algorithm: sha256
+    value: 7554754195d84e6c275dd7e2cec4e9df94a0c673f210d43e60aad503feeda24c
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/green.png
+    algorithm: sha256
+    value: 696e11dbe54fd4909439870ddb7c827c0799b2d565cffaf2804087ff58600e23
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/green@2x.png
+    algorithm: sha256
+    value: aad28af306b2aa916f459f466de51c7ce86fa5a60dc924a0572a64db102427f4
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/grey.css
+    algorithm: sha256
+    value: c6f8d8cd03ce65e80b1c794561af7dfdafd818687f92fefb5915dc9b5961e674
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/grey.png
+    algorithm: sha256
+    value: 654da0ad45d54a5ec79ee661aba96b7113bccb52caedbcfd6629b044a0d80000
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/grey@2x.png
+    algorithm: sha256
+    value: 94d3d7416dd0ecfb88bd0456d8ac4a0c87e3cc9bf0728f86e4bae0b38b6e4f70
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/minimal.css
+    algorithm: sha256
+    value: d4cd62e3d1cc674705307bd65c2fb8b0a66a57a9d33305dd52cd9a6a0da080b1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/minimal.png
+    algorithm: sha256
+    value: 2ec52d6497f27f697e161200fcc0dae3c20ba11c3322d2e2e9d0ad19355ea298
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/minimal@2x.png
+    algorithm: sha256
+    value: c4e6567d9f75e60bcc26c0cc71ddd3268d02eff92e2907920ef2904028955b78
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/orange.css
+    algorithm: sha256
+    value: a62bb91c727c466b3ecc5707668cd545a9c50c248b296fbaad9496dcff3dce45
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/orange.png
+    algorithm: sha256
+    value: 488e581ddb601d3a12e355d96582a51df60d7701e447dc9b49fd59b335b710bf
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/orange@2x.png
+    algorithm: sha256
+    value: dd10fd94fa6aa469afe8d066985e1dbc79c64df38d83ce58201d97681cd52e25
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/pink.css
+    algorithm: sha256
+    value: 15b71809d67a15153e57dd26b6ff048acdccc49685dc125a9077cab00b965fa9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/pink.png
+    algorithm: sha256
+    value: 7d0125de70c23a23bd517fdf88029ec95cc3db850790cc561d1e6489685629da
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/pink@2x.png
+    algorithm: sha256
+    value: 40e1f51b7fe16e7db4841b3229256bb24e33ea0d28138b1ea73cda2a9c65b0fd
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/purple.css
+    algorithm: sha256
+    value: 4038e4f6bf1a9c482fa88186b2ddc0e91637629888430b9ea3b072b99ea01682
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/purple.png
+    algorithm: sha256
+    value: 0d2562d66fc7b4323c406179bdca227125a15fd053392e3aa5eaf496795a8ee4
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/purple@2x.png
+    algorithm: sha256
+    value: df0f7e1b34738daa5c2d879823ee17986bed8a0457c4c90d489be645d01fdae2
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/red.css
+    algorithm: sha256
+    value: 71f880f122436d3424a6ddfcb32fa385a6748e426283dd3ec7f08fbf3e7f26b6
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/red.png
+    algorithm: sha256
+    value: 9c2ab7cc55dfafd7343804da7fa39111e1b225fdba40a532a7425ceb2171e4a9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/red@2x.png
+    algorithm: sha256
+    value: bd22b4d271868f16cc2161ac0fae8ec07e3dd5aa1057b0e2712e3fa1c1e9d842
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/yellow.css
+    algorithm: sha256
+    value: 6925096e62f4bca07171fef159c9c647e22576e1f6923333e48ff96d29ef458b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/yellow.png
+    algorithm: sha256
+    value: 25996589dadb7140266f41d84843850db880fb6accc5a7f783fe57347ef8b7e4
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/minimal/yellow@2x.png
+    algorithm: sha256
+    value: 090154cf3bb9a087b881de2697f02f3b25d960d4a3472c550de4dace1b6d2f55
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/polaris/polaris.css
+    algorithm: sha256
+    value: cec13026b3061fbd74f220e3dc070e5ac0ef00a185c9be7adc244b1c5f48384c
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/polaris/polaris.png
+    algorithm: sha256
+    value: 5ba0e5aa645d88a194c248aaae7019af06d9628e8f9b12e4a6f5846bffb46ef1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/polaris/polaris@2x.png
+    algorithm: sha256
+    value: 91a870867e05e8a423f07e087036f6df33c8c0fc1a85ea03091268f901e8a6eb
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/_all.css
+    algorithm: sha256
+    value: d9dae15507ff9a7c5dd585cab1ca0c8a6cf3f9347d6630d9437452103c6bbac7
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/aero.css
+    algorithm: sha256
+    value: 48c83be44440b9a07ddcec2f8454c5a09a61b29e615be011b0b315f4501e6eb1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/aero.png
+    algorithm: sha256
+    value: 0256fcd9601e1bad8dc98bad53f2de7c8e78d9416e92c1b5c4db3cccf0931768
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/aero@2x.png
+    algorithm: sha256
+    value: 978e637c09ea1fa3cfbdb340142ad86a351c1fb863851a8fb86dba05f20e139f
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/blue.css
+    algorithm: sha256
+    value: 23b86f2e796ece063e6ec23c1018b019826b088beac4e126c9a82b01652804f5
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/blue.png
+    algorithm: sha256
+    value: abff66ea99f7e2b2a51d02feb00d0385f2ac35100fdc65b5d4e4395228fd020b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/blue@2x.png
+    algorithm: sha256
+    value: ce2a0a56e2fda477c5f27c5a3e46ebf83114a9ed95891f28e9dd6d73d92fe73e
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/green.css
+    algorithm: sha256
+    value: 811fbe54be5efc60e2718a2e2d0a06852abaebc9b6b966da796c76e7c40902c7
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/green.png
+    algorithm: sha256
+    value: 4828efe2a264a35e799fbd342fcf005ba57d8335750879bcf66279e573dcfa23
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/green@2x.png
+    algorithm: sha256
+    value: 7b89106773bb4fc754f47e0f1cc0633d64b2ef8a4fb6ba3cbf2b4ede2de903ba
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/grey.css
+    algorithm: sha256
+    value: 6be36884cd13b2c83cb59059389117069b5a296207056a68488eb7948da12bbe
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/grey.png
+    algorithm: sha256
+    value: 80ed11e21b6c2f1217c83fd9150f90d73587ae049681750d5b75bba2a6aac87b
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/grey@2x.png
+    algorithm: sha256
+    value: 40bb731297212c86a4c0141ca76dc6d4ed4a753a681336a8b92d75ab30cb7495
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/orange.css
+    algorithm: sha256
+    value: a5093df9dcd4a59900901a8aaae658b71a7567c2e882dbdbdd69023ff4a85a3a
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/orange.png
+    algorithm: sha256
+    value: 2bdda400b27bc002d0573094587f9a198e7b8e1e5fcf82f2e2932796f6a32c34
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/orange@2x.png
+    algorithm: sha256
+    value: 52de7be969ad86e226bb1f93773a1933b44617069dae00a1f02f32fd2ad07c20
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/pink.css
+    algorithm: sha256
+    value: 3ef518863e710632e5c6c0771031fbd48cbe38830700aae0e5d9782385ac2a12
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/pink.png
+    algorithm: sha256
+    value: bb85090ae0fedbd3fd0cadc1a74b0c9ceac38f09eb947c7d229a1b0b342a8d82
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/pink@2x.png
+    algorithm: sha256
+    value: 775bb94369b6742d9cde67d8e65ce7b24c495866420ade49ae2291afc8d9a777
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/purple.css
+    algorithm: sha256
+    value: 55aa37abb55cf77fb7a278405fd4c9a2b8334593b6960636ca81cb31f13932d1
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/purple.png
+    algorithm: sha256
+    value: 1fe326c961b2a8320dca1b0041ca34df702c23bbe5d2a3fd2064539ebbbf06ce
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/purple@2x.png
+    algorithm: sha256
+    value: 1fa92204f94dabdba60b69a0f4fed54ca83f4367a97f384ae8f4bb01e0b6eea7
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/red.css
+    algorithm: sha256
+    value: 93b9a958e767fd17676c0e544e04814b1bd1250ceb9960219cd1a53a9f69327c
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/red.png
+    algorithm: sha256
+    value: 07396c4458cd328a3ad8c3de309f5cbc948babb2d022f212e8bdbb7cb571ddb5
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/red@2x.png
+    algorithm: sha256
+    value: 44008e3df669f173ad9e67364f419caed9bbf243d7bdc57e46c38bdd2e9d8657
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/square.css
+    algorithm: sha256
+    value: c4786f4d2526e34c988e9cd4fc76d9259f77c9dc5e0f2c86faf5281691401d9d
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/square.png
+    algorithm: sha256
+    value: 8a7989b98489642a7862a32e1f66748a3671d6677941af3129d5504e31cfbccd
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/square@2x.png
+    algorithm: sha256
+    value: 8ed64c959db4f6f50081d5de7430983af90c88ef10abd334b2b53f9a61424b9d
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/yellow.css
+    algorithm: sha256
+    value: b60df686651a08b348e4e2eaf9f3fad4920c5b4d6db372c93279c337c5461da9
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/yellow.png
+    algorithm: sha256
+    value: 5c2016d71a7eb13a848f0c1441486d2d01f8de05a0e4f10e1c8a6c7e1ccf30bf
+  - path: src/challenge-custom/woocommerce-products-filter/js/icheck/skins/square/yellow@2x.png
+    algorithm: sha256
+    value: 7cba0273efb682c044ff6b908a81a013fd7a58d8e8ca23ec282b62f58e6595f6
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.css
+    algorithm: sha256
+    value: 683c3601c8c673010044e3fbad99c8da5741fbf5f2b93c1b647e43af5222b8ca
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.min.css
+    algorithm: sha256
+    value: 83b1e0a0cc92672a27b8fc074ce45ffae18711e3a6ed5448da47d75979499dca
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.skinFlat.css
+    algorithm: sha256
+    value: adad10f52069534e43f01582eb81c4f9373c313fc80c09f7c2229ef5a692a786
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.skinHTML5.css
+    algorithm: sha256
+    value: fa10864a6215a7d945068b81d150ef94a5145c4400aa2e6b5bfff9ca3165a2a2
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.skinModern.css
+    algorithm: sha256
+    value: a280503b13e61fde96dfb14828d1891f4205dc8b24ea1293942b911b3260cd73
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.skinNice.css
+    algorithm: sha256
+    value: 4df7647b5fa280ded0b58104ca2bfcb9b612fea28a949ce758cfd5b90fb02130
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/ion.rangeSlider.skinSimple.css
+    algorithm: sha256
+    value: 53b851a78e4a787544b5b47c2f07c60ad686e847d168d8c5441ccdbeddf8c440
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/css/normalize.css
+    algorithm: sha256
+    value: 015bce55515888350247ce42e68e85dd5b8ff6830d931dfee818973333a7de8f
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/img/sprite-skin-flat.png
+    algorithm: sha256
+    value: f2f42c58a4ff4bdc0429d4e59fa2d3a9cb65f6651c5f18260d30d6e71ef56553
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/img/sprite-skin-modern.png
+    algorithm: sha256
+    value: af47a1ee4eafe8c3886ae89238bc0fa650ad635e2f9fad07a001dd7fca6a5f12
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/img/sprite-skin-nice.png
+    algorithm: sha256
+    value: 980aa5de95cbfe8024b746925eea294d19a58eea6c632e3453bfb8548844b249
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/img/sprite-skin-simple.png
+    algorithm: sha256
+    value: 7682a23a95746d2cc25de61e123a933f3c4f77b20a8567b985875f3f2d39e085
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/js/ion-rangeSlider/ion.rangeSlider.js
+    algorithm: sha256
+    value: 6e5c81809b1b92a07a6a41735d7c8216f251d2428ab5edb20f3cc9bfd2810ba2
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/js/ion-rangeSlider/ion.rangeSlider.min.js
+    algorithm: sha256
+    value: e04b1da8995ee261bdd09ef237051af55debe685b95f9253d5e6636fba233836
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/js/ion.rangeSlider.js
+    algorithm: sha256
+    value: 70456188803d2eec80adb22b8f8306c9a7c427016b3c34bce3a8137def9e9adb
+  - path: src/challenge-custom/woocommerce-products-filter/js/ion.range-slider/js/ion.rangeSlider.min.js
+    algorithm: sha256
+    value: 67adfdac93b9ec1899cd00e55ac1b217e109dc5b379c3e2940f91f8a64f2dd2f
+  - path: src/challenge-custom/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js
+    algorithm: sha256
+    value: d25fda2e9f6b87bd1be51b90706e6d33c4be82d810bb053f957637cf1c08d06b
+  - path: src/challenge-custom/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.css
+    algorithm: sha256
+    value: 8c6232a41a4f95f20410da5c1dbe000e9f39b6e8b76ea9e25ea0eb9e0a016897
+  - path: src/challenge-custom/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.js
+    algorithm: sha256
+    value: f537cdd2beb179044f60d79ea8edf106cc0719f80555409eaad617777dc6244e
+  - path: src/challenge-custom/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mousewheel.min.js
+    algorithm: sha256
+    value: e9a022804abc1a1f59c15181c083016892735cf323fd6f80385abb6bf335c3cf
+  - path: src/challenge-custom/woocommerce-products-filter/js/malihu-custom-scrollbar/mCSB_buttons.png
+    algorithm: sha256
+    value: 686ab4b8b61e1565b7fcadd4fd13a3971c81f211e70fda1d9dd7d4f59e8f245d
+  - path: src/challenge-custom/woocommerce-products-filter/js/modernizr.js
+    algorithm: sha256
+    value: 4b090e8a3fda447ca1c70e833dd5427c47aa8464cdc030a31316bed3f089022f
+  - path: src/challenge-custom/woocommerce-products-filter/js/plainoverlay/jquery.plainoverlay.js
+    algorithm: sha256
+    value: 14dacd04d08f144357ca8464152de4bcee9c756a6d134230c0acf4a6898f5d49
+  - path: src/challenge-custom/woocommerce-products-filter/js/plainoverlay/jquery.plainoverlay.min.js
+    algorithm: sha256
+    value: e29709fc183bb3f2940f768a8b7edb4b9389f731e83b0e2ea1047386fd4f801d
+  - path: src/challenge-custom/woocommerce-products-filter/js/plainoverlay/plainoverlay.jquery.json
+    algorithm: sha256
+    value: 6ebe07eabbdbdb1cd082ca276baae224cdeaa9da0c6a40aba5455e4d4a88cc45
+  - path: src/challenge-custom/woocommerce-products-filter/js/plainoverlay/sass/_animation.scss
+    algorithm: sha256
+    value: dd3cbae56549be9d793c5929ab8b8e91e402b872e95d7f6eda2f6ad2d8c04030
+  - path: src/challenge-custom/woocommerce-products-filter/js/plainoverlay/sass/progress.scss
+    algorithm: sha256
+    value: 54be07d1e5852a384ebccdda9e1107421411de5d6a09ba2214e2e906d22627e9
+  - path: src/challenge-custom/woocommerce-products-filter/js/plugin_options.js
+    algorithm: sha256
+    value: 5d88834df77e6dd7baff0121dc1183838311451768cd083a06655c109a7f25f7
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css
+    algorithm: sha256
+    value: 6620536e4cc4c5657f0d4e3ed3664ca9768dbbba345df366c536b4fa045b74ed
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-light.min.css
+    algorithm: sha256
+    value: 59ad48e238525de59ddcde9185f3e592aaf55a54fecd2dd58766060a0d35dbd1
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css
+    algorithm: sha256
+    value: a1782a1a429aa942bddcfa3f5511e8b8de26cc27b2f65fbce7958e3b9f236432
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-punk.min.css
+    algorithm: sha256
+    value: b8a0d348aeda8971fd4efa4ff349aa76a0d5ba97ac9bf3b27cb5ed64bf658429
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-shadow.min.css
+    algorithm: sha256
+    value: 970fb3515835fc779193ba0f88531ff29972b3c9cd76aba2fb1222fb97beeab6
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/tooltipster.bundle.css
+    algorithm: sha256
+    value: c6c1af7638661b83fddee42962aa7568fd28762b227fda4f7aa390ec7ca6e2fb
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/tooltipster.bundle.min.css
+    algorithm: sha256
+    value: 41ce2509fa9959868717986010e16b6334885fd46bc64d0d3c745a73ed3c41e4
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/tooltipster.main.css
+    algorithm: sha256
+    value: abf64cc34a8c99c3962c3a8530a4de1764edf994ac05dcc4aa16cba5c8c8001f
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/css/tooltipster.main.min.css
+    algorithm: sha256
+    value: c6598243c223208c7b82aac801be71e64114df48c9266d3f0c49ab8e02e8c3f1
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/plugins/tooltipster/SVG/tooltipster-SVG.js
+    algorithm: sha256
+    value: 18d7650e63b630eca620a4d8bdd0ece3b87f698590d4fd051eb6c4999900d169
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/plugins/tooltipster/SVG/tooltipster-SVG.min.js
+    algorithm: sha256
+    value: 6fd24d7c6ab4f1b8c8e4555d3776618d605246c3b217ab9c00243096f815114e
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/tooltipster.bundle.js
+    algorithm: sha256
+    value: a1e543e29a96aa9f96bad2b55808575c70c2542d244980fa75770519a2be6244
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/tooltipster.bundle.min.js
+    algorithm: sha256
+    value: c1afb0da1d792306039017751fd405ac18e034061a19a1b1170074f66a4714aa
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/tooltipster.main.js
+    algorithm: sha256
+    value: 553be05d7030013ed0902e85db9d3f4dc610d6a218aa177858eda2031054e616
+  - path: src/challenge-custom/woocommerce-products-filter/js/tooltip/js/tooltipster.main.min.js
+    algorithm: sha256
+    value: 5080b046f33fc104822b9ee96826553d0511e71d9d85badf4dab04c0673d2ebf
+  - path: src/challenge-custom/woocommerce-products-filter/js/woof_sid.js
+    algorithm: sha256
+    value: 3dd0644490328dad85b04062d1692562abf6cb85c6773ec859e0fd490477266a
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-da.mo
+    algorithm: sha256
+    value: c845636fea34800e931a010bb0698735a35d256a334b2407f2f942cca983e94f
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-da.po
+    algorithm: sha256
+    value: f270fba6e9a93ded00d82d30c04f8007d83cd435863893da24d23b912224bc1f
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-da_DA.mo
+    algorithm: sha256
+    value: c845636fea34800e931a010bb0698735a35d256a334b2407f2f942cca983e94f
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-da_DA.po
+    algorithm: sha256
+    value: 202de7d0098e5bbbd0a65805b0b5ca5ea9070f01b4fa1abc8cdb03590976589d
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-de_DE.mo
+    algorithm: sha256
+    value: 9bf9b593c83f9e0a3326decedde49445f6029c94671148880e30ba2de7488bf4
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-de_DE.po
+    algorithm: sha256
+    value: d9660b61c09e6841116f6961677708b435cc1d39097af151061ca83ce8ae5bf5
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-es_ES.mo
+    algorithm: sha256
+    value: 4e6f1deb6872acf19554ce6eca1b39b69bc878801a125ca21c488c016265b147
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-es_ES.po
+    algorithm: sha256
+    value: 4ac8541a766f8145d981d17444779f2ea0a3b0601dcb2c60d22953a5b6812303
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-hu.mo
+    algorithm: sha256
+    value: 1aa8407938aa6da84fe4f8f21ae5b3010c4f8ea335a55613307a53bede2e937d
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-hu.po
+    algorithm: sha256
+    value: 8437abb08bcf13cfa9c7887c11cd4d1366bfb08b7e177722e996f79ec6ccd2b9
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-hu_HU.mo
+    algorithm: sha256
+    value: 1aa8407938aa6da84fe4f8f21ae5b3010c4f8ea335a55613307a53bede2e937d
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-hu_HU.po
+    algorithm: sha256
+    value: de3d8a36f93392120a2b2178dceede2f938e3408d683ef6c1931d3733f623087
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-lt.mo
+    algorithm: sha256
+    value: 18e1ff6629534fed8e955282835b81b9e29c76191a69d5b110f741c51ba0f671
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-lt.po
+    algorithm: sha256
+    value: de5339ef850836cbc73e312adf77d82ceca81ae66f5fe61234be3a30f373196a
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-lt_LT.mo
+    algorithm: sha256
+    value: 18e1ff6629534fed8e955282835b81b9e29c76191a69d5b110f741c51ba0f671
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-lt_LT.po
+    algorithm: sha256
+    value: de5339ef850836cbc73e312adf77d82ceca81ae66f5fe61234be3a30f373196a
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-pl_PL.mo
+    algorithm: sha256
+    value: c1b150a8693d5bd38b8fea94eafe09f21451934f193296989197db9235b17f9b
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-pl_PL.po
+    algorithm: sha256
+    value: 0e42d83bab2c19b0efb8fbded3442ef2652fcee9b1ef9e617c3b17eabf3f6b0f
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter-sk_SK.mo
+    algorithm: sha256
+    value: 783685207987c7e8952f367eb2b4b01a08249a4b8bd7d5beebcbda4fa1355bbd
+  - path: src/challenge-custom/woocommerce-products-filter/languages/woocommerce-products-filter.po
+    algorithm: sha256
+    value: 711a74b75eccd94aead1afd5cc5aa6b75d779440bbd46e28867aff20bc508792
+  - path: src/challenge-custom/woocommerce-products-filter/lib/alert/index.php
+    algorithm: sha256
+    value: 452edbdcc24a4d2937929d0ff25c2b43d4de6aa65fe5f159f4c0751c18a74ed4
+  - path: src/challenge-custom/woocommerce-products-filter/lib/alert/js/alert.js
+    algorithm: sha256
+    value: e72c5d3df89582cc1f24113a93768a92d6db3d55394f482aaa5fce28bffd06e4
+  - path: src/challenge-custom/woocommerce-products-filter/lib/aq_resizer.php
+    algorithm: sha256
+    value: 88b1a8c180ce314a56db94febe9fc1db3523fe0c8cf6aa96e70864b27904948f
+  - path: src/challenge-custom/woocommerce-products-filter/readme.txt
+    algorithm: sha256
+    value: 14ca09f6ed78362ae10936fd16ecf3b4e66f2ff3f499f2f945446225ef46d76a
+  - path: src/challenge-custom/woocommerce-products-filter/uninstall.php
+    algorithm: sha256
+    value: ba0584e0eb95d568452d41e9143707307c0658638ce120b1b24d451ca29c41ed
+  - path: src/challenge-custom/woocommerce-products-filter/views/ext_options.php
+    algorithm: sha256
+    value: 70f4151c4cea9afa54fcad255cc72f069616774fd2e39761e1b3ab9252c6b4b3
+  - path: src/challenge-custom/woocommerce-products-filter/views/html_types/checkbox.php
+    algorithm: sha256
+    value: 4187692ebb6d7b4ecb428eb1065c23adb1001bc64cc491950c0eec04ab12a251
+  - path: src/challenge-custom/woocommerce-products-filter/views/html_types/mselect.php
+    algorithm: sha256
+    value: 2a5b9828c317081879a248a3f0b0adc6b6c25e99cfcf2bbeef881b355a649154
+  - path: src/challenge-custom/woocommerce-products-filter/views/html_types/radio.php
+    algorithm: sha256
+    value: 1d42eecfae9026738979c0fc70544117bb4a10aa0b2892ac235ad4e9f9661fc2
+  - path: src/challenge-custom/woocommerce-products-filter/views/html_types/select.php
+    algorithm: sha256
+    value: 1317c512f2da078124f983acdf685f16b495ef9619d822e8158772682c20532a
+  - path: src/challenge-custom/woocommerce-products-filter/views/no-products-found.php
+    algorithm: sha256
+    value: 2e6624e145e80c10cd51c5f2248355a242b0715b86d051b445d7282535eb97bd
+  - path: src/challenge-custom/woocommerce-products-filter/views/notices/woof_notice_update_213.php
+    algorithm: sha256
+    value: 9bdb3c9a2d93a8b8bcb57e5c784709befc6944bcb3d0ea7ab876384ae6f04667
+  - path: src/challenge-custom/woocommerce-products-filter/views/plugin_options.php
+    algorithm: sha256
+    value: dd21ae37a68cc3a6e07a5cbc79572b33191c6efb62384a48f9eb9d4ec3b4c891
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcode_generator.php
+    algorithm: sha256
+    value: 5a10e449aa16ab53c231323357e625cdd10ec6fe3486b1f0bc48955524bb3f9a
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_found_count.php
+    algorithm: sha256
+    value: 77f80128d3c12fabcd1b9bf712c03953ddc0163cd595454b4a9b862e46cfc167
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_mobile_btn.php
+    algorithm: sha256
+    value: 06219232f2357a70200317edaf59dec47d069367cb740ea9d71b10f1c2fafd60
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_price_filter_radio.php
+    algorithm: sha256
+    value: 3594d9199dc8f41c28a5e956069b753cfe9a88841ea7fb839c149d579c9405ac
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_price_filter_select.php
+    algorithm: sha256
+    value: d367639cfba2cb21fd519eca11495c120d34f823edb7a3bc19177597b287e1e3
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_price_filter_slider.php
+    algorithm: sha256
+    value: 87f04079dc099312f74ea09e18236b049d2892809caec58e1c7821711af752d0
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_price_filter_text.php
+    algorithm: sha256
+    value: 5d37c6f22c3168dbd1bd492262568e84303ea3619bc8656f4cc6484c60dc14bc
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_search_options.php
+    algorithm: sha256
+    value: 85638c55cc931e48b092dadfad1c60c6e91a674de69e7067f37ffe97bd4ff066
+  - path: src/challenge-custom/woocommerce-products-filter/views/shortcodes/woof_show_btn.php
+    algorithm: sha256
+    value: 19235697cc27fba3ae0971ab0330015db5756ec8abfc600a3fd2655d91515c8f
+  - path: src/challenge-custom/woocommerce-products-filter/views/woof.php
+    algorithm: sha256
+    value: 4c95c98c465b472b26babf77a17867205fe8741b0bbc82179a523874a01f70ba
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: cdab2bb9a237da883d276dcd1fa112070be8a1b6e3f74c2b50cca1563a035e07
+  - path: src/entrypoint.sh
+    algorithm: sha256
+    value: a1a4a4d5fc4815ecf7a4cabe42f10ce685c4c0aabc61a377e97afae3acd506e7
+  - path: src/start.sh
+    algorithm: sha256
+    value: 99916bc74fd31bc1c682faf7a63ada31bd079427221ee95ee47190c1d24fb3be
+environment:
+  type: wordpress
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Web Exploitation/once-0-day
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Web challenge. The distribution is challenges.zip. The src/ deployment tree (Dockerfile,
+
+  docker-compose.yaml, entrypoint.sh, start.sh, and the challenge-custom WordPress plugin
+
+  source) is preserved in original/. The Subversion working-copy metadata (.svn directories)
+
+  committed inside the woocommerce-products-filter plugin tree was excluded as SCM tooling.
+
+  No solver script ships in the source.
+
+  '

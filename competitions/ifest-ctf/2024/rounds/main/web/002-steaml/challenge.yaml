@@ -1,0 +1,221 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-web-002
+name: SteaML
+slug: 002-steaml
+original_name: SteaML
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: 'The organizer description, kept verbatim, calls SteaML the world most biggest game
+
+  community. The README explains the solution: a login request with a password object
+
+  {not: ''a''} makes the database query an admin user with a password not equal to ''a'', an
+
+  injection that leaks the flag. The distribution is steaml.zip, served at 157.230.38.61:3221.
+
+  '
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- web
+- nosql-injection
+- easy
+authors:
+- name: liqued
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Web Exploitation/steaml
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: SteaML from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 27dde4886363480ac048b34b6465cb7d41e85d8270855d1316791b71c13b31e1
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3cf7404f7804cbc8322bc5ef743f73b073acaf78970c7b8d95856c85176ec078
+  - path: src/.dockerignore
+    algorithm: sha256
+    value: babdb4c16cd20eb58c462d6b288b94dbf7e6ae44cca32611bae05a7b28a82b59
+  - path: src/.env.example
+    algorithm: sha256
+    value: 62cbf61a55aad3c28d1d4e23405894f38689d81f61449aef69c27c2047704c83
+  - path: src/.eslintrc.json
+    algorithm: sha256
+    value: 8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a
+  - path: src/.gitignore
+    algorithm: sha256
+    value: 3e98a3264a8512a76f3674fb03a5fce194143866e39cd39b5a3ae1bedebeb4df
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 9247c820cae1dc0a4b2f4c6c131bccb577152eadb613edf7361f364e377b1831
+  - path: src/README.md
+    algorithm: sha256
+    value: 60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f
+  - path: src/components.json
+    algorithm: sha256
+    value: 1cb70d5cca62c80af748c0bcccbcb921674c608977d37d82494eafba825c3417
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: d74d829cdb450b26560a68c84390627127955649140e4fc874ad52ca227ff2dd
+  - path: src/next.config.mjs
+    algorithm: sha256
+    value: 4a1882f41cba9fd4cfd7994df1db4f71a8ad593f43b24a5eb5e5aad9372b44ea
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: 1bb5b8526855d6d39b086f678676e60bf7a27665ccc7d69b52547c436bce8d17
+  - path: src/package.json
+    algorithm: sha256
+    value: e9a2d6066436047e4fa6b2ded2742318c5bcc885d3eda53154dc414ade4b8ec6
+  - path: src/postcss.config.mjs
+    algorithm: sha256
+    value: ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646
+  - path: src/prisma/schema.prisma
+    algorithm: sha256
+    value: 62c9549310909acdd053b58ec86903c93dc3d78929e019d69ee5c5ff3cbb9b79
+  - path: src/prisma/seed.js
+    algorithm: sha256
+    value: 9fe0f30593dcd35007577ad6983483bee0a7bbc1eeec2b9a08af62036d4d2208
+  - path: src/src/app/api/login/route.ts
+    algorithm: sha256
+    value: fcd03bf7c814116cdef2d8a2c81cd5777931f33f7e4b07ac79f3c5627a0c0b37
+  - path: src/src/app/api/me/route.ts
+    algorithm: sha256
+    value: 55860858371d3988ca0f6cd667360b7a2bf81725e5a3a8a032e8fee37c89f83c
+  - path: src/src/app/auth/login/page.tsx
+    algorithm: sha256
+    value: b37d8384dce8845fd1fd7f450e19ee7a7275adecb5c9f4ae10e9f00966a60931
+  - path: src/src/app/favicon.ico
+    algorithm: sha256
+    value: 2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932
+  - path: src/src/app/fonts/GeistMonoVF.woff
+    algorithm: sha256
+    value: e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608
+  - path: src/src/app/fonts/GeistVF.woff
+    algorithm: sha256
+    value: 296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6
+  - path: src/src/app/globals.css
+    algorithm: sha256
+    value: db41e2e6c0bb2d3f8d87c54f71f1f705b3887481b427ed0e534c1a4a0141d09d
+  - path: src/src/app/layout.tsx
+    algorithm: sha256
+    value: 245ca9ba2b6fb06b446fcfcc05fcd071f90362cb10db17f849acec6d8d6a4528
+  - path: src/src/app/page.tsx
+    algorithm: sha256
+    value: 5fa44e8508d9d8e71f97c69b0c88bca90432060337e4beb7bd2cd92796ffb6ab
+  - path: src/src/app/providers.tsx
+    algorithm: sha256
+    value: 47f9cc6988e843a6283402b7a6512047b81a0cd4b429d9728fdc2172978523e3
+  - path: src/src/components/ui/button.tsx
+    algorithm: sha256
+    value: 680d7ab648b5a1d24c25e2ee3c72ece76344d627510c462f4317215ce4aea72e
+  - path: src/src/components/ui/card.tsx
+    algorithm: sha256
+    value: 8bad317eca5b74899d868688a339a16f54995e36810c0fdfe214c057755535e0
+  - path: src/src/components/ui/checkbox.tsx
+    algorithm: sha256
+    value: 870e9819040c04fe40dd869b1076f908c63661fae5c627d657d759e4532c2334
+  - path: src/src/components/ui/input.tsx
+    algorithm: sha256
+    value: f4dcacaf3a55a424210aa94b3cfa28f4412e5a7861b419d02a3a7487b66616d4
+  - path: src/src/components/ui/label.tsx
+    algorithm: sha256
+    value: 2eac8fbb04002c42b0fbc4062d20d131e421796eaf65c37d2049e29e42ecbc5a
+  - path: src/src/components/ui/select.tsx
+    algorithm: sha256
+    value: 1aba9cfb792bfa02b0fc8764dfd524d23e2191367863545963940034f61526ee
+  - path: src/src/components/ui/toast.tsx
+    algorithm: sha256
+    value: 45f9af4bf527ecf86501fedcf1559b8338f9ad923e7ec817ba590a006a4a610d
+  - path: src/src/components/ui/toaster.tsx
+    algorithm: sha256
+    value: 05e5b3eb44dce90b44e42ca3b4bdc582c5f4bf1652e38237ff7276aa6bd66d8f
+  - path: src/src/composable/Auth/mutation/useLogin.ts
+    algorithm: sha256
+    value: 521d6ed014efee5da93caf9f24b092fb0611131b3efac6e737639e70fddcf2b3
+  - path: src/src/composable/Auth/query/useMe.ts
+    algorithm: sha256
+    value: 88aa97a81b6359df591bcd73a01911357af2efceea455c248cc906f5c6d4faae
+  - path: src/src/hooks/use-toast.ts
+    algorithm: sha256
+    value: 03e892344ad170438ccfc156b4ee7ff0be4e535a2939e038f64556ce03b934ed
+  - path: src/src/interfaces/BaseResponseDTO.ts
+    algorithm: sha256
+    value: 8c887f09a8e8ccfe8c74b61588720bdeadadb8b570d51864a920f9e92bdce79a
+  - path: src/src/interfaces/ErrorResponseDTO.ts
+    algorithm: sha256
+    value: b4103b74dabc4a9cd62bbf38a775c34c456a5bbc699a9d5d2bdd6cccf0957a85
+  - path: src/src/interfaces/LoginResponseDTO.ts
+    algorithm: sha256
+    value: 730822a9966e5e16646ebc16531aa18d29dc36cf5783fd121d4f0be73e637efb
+  - path: src/src/lib/jwt.ts
+    algorithm: sha256
+    value: f058ee35286b5f558d8785533145dda2f5f7186dd34da8a8d5ceee908b8cfcb5
+  - path: src/src/lib/utils.ts
+    algorithm: sha256
+    value: 7c8c3dfc0cdd370d44932828eb067ef771c8fe7996693221d5d4b90af6d54f2d
+  - path: src/src/service/client/Auth/login.post.ts
+    algorithm: sha256
+    value: 25d45338ae3b0156b3d7c414ecc98b8819b7ec8192293abf0743a430a235ce41
+  - path: src/src/service/client/Auth/me.get.ts
+    algorithm: sha256
+    value: fa8b7828cc1bae335943af3ea0560dd55ed18a0e834d4b2b311bf6bbc00919e3
+  - path: src/src/service/client/axios.tsx
+    algorithm: sha256
+    value: a32261c5f8e091312389686b9db924e07f38168532c8262c56718229f4c80f76
+  - path: src/src/service/server/user.service.ts
+    algorithm: sha256
+    value: 1afa4c26c531f42ded892c182500a67a52d4a50f91a98daaa48abcda96458fbb
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+  - path: src/startup.sh
+    algorithm: sha256
+    value: 199b8de584ddaffb7b9870ce7ae2e63cc3c82277f0f67433bf45e0074c66b15e
+  - path: src/tailwind.config.ts
+    algorithm: sha256
+    value: b90cdd1f7590406669fd5de6fb5e3b9068e63f806bcfa16683a3a7ad35384c1f
+  - path: src/tsconfig.json
+    algorithm: sha256
+    value: 9cb73795d69ebceb20218706cb718c4127a6cfe8fbd3a444577c637501ed5a6b
+  - path: steaml.zip
+    algorithm: sha256
+    value: 95dd7188ccec26752bc2156c7cfb4f9e454945744077afa5d971a2a1a19c4e8c
+environment:
+  type: node
+  services: []
+  requirements:
+  - prisma
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Web Exploitation/steaml
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Web challenge. The distribution is steaml.zip. The src/ application tree (Next.js + Prisma
+
+  app and Dockerfile) is preserved in original/. No solver script ships in the source.
+
+  '

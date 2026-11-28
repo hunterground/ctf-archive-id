@@ -1,0 +1,93 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-crypto-003
+name: Only Alice Deciphers
+slug: 003-only-alice-deciphers
+original_name: Only Alice Deciphers
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: 'The organizer description, kept verbatim, asks what items are in the "bazaar". It is a
+
+  modified ElGamal encryption: a relation between the nonces of two ciphertexts makes the
+
+  secret number for the encrypted flag retrievable because the first ciphertext is known.
+
+  The distribution is chall.py and output.txt. The README points to src/solve.py for the
+
+  solve script and to the ElGamal article.
+
+  '
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- crypto
+- elgamal
+- easy
+authors:
+- name: chronopad
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Cryptography/only-alice-deciphers
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Only Alice Deciphers from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a4ea1afd71d5a8fdc1aeb2134463efb0d3934505eadb9ca0ebe8792bd50273e9
+  - path: chall.py
+    algorithm: sha256
+    value: 7457b57e824d2d9515baa8d68c632bdf189c99b28774a17541712fda1e1d14e3
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4e8d9293cbef951dd40909461bcdfd3ca20d7ef8ac22b2bce2eafd265d04a31b
+  - path: output.txt
+    algorithm: sha256
+    value: ef751afdd830dad40f7304e797ada62983fc60a98c6716528493890a8ba40bfe
+  - path: src/chall.py
+    algorithm: sha256
+    value: 7457b57e824d2d9515baa8d68c632bdf189c99b28774a17541712fda1e1d14e3
+  - path: src/output.txt
+    algorithm: sha256
+    value: ef751afdd830dad40f7304e797ada62983fc60a98c6716528493890a8ba40bfe
+  - path: src/secret.py
+    algorithm: sha256
+    value: ca15a27424fab52790fbbee7b542ac1afb7018af5d2475ce3636e2e8936d1061
+environment:
+  type: python
+  services: []
+  requirements:
+  - pycryptodome
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Cryptography/only-alice-deciphers
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Crypto challenge. The distribution is chall.py and output.txt. The src/ deployment tree
+
+  (chall.py, output.txt, secret.py) is preserved in original/. The solver script
+
+  src/solve.py was moved to the mirrored solvers/ path.
+
+  '

@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-forensics-002
+name: Hari hari lupa password
+slug: 002-hari-hari-lupa-password
+original_name: Hari hari lupa password
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: 'The organizer description, kept verbatim, jokes that the author forgot the zip password
+
+  while brainstorming problems. The README explains the solution: recover the password with
+
+  bkcrack using known plaintext from the PNG header. The distribution is chall.zip.
+
+  '
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- forensics
+- zip
+- bkcrack
+- easy
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Forensic/Hari hari lupa password
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Hari hari lupa password from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1001f35c3d93f6835b147896220a3efac25d15e6886e3598c6dc646062dffbc6
+  - path: chall.zip
+    algorithm: sha256
+    value: b55cbca7c58884ab396877ad32296376de0b9f7c771c1d862c62dd9ec107ce69
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4126aa3db461e58a378b9c71cdd327681e3e5eddfe81385afa98df155237ab9b
+  - path: src/Untitled.png
+    algorithm: sha256
+    value: 71bf2aea62de7688bd40d4a00a7c946a376e3a606d7545e0c74becf8783780fe
+  - path: src/chall.zip
+    algorithm: sha256
+    value: b55cbca7c58884ab396877ad32296376de0b9f7c771c1d862c62dd9ec107ce69
+environment:
+  type: forensics
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Forensic/Hari hari lupa password
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Forensics challenge. The distribution is chall.zip. The src/ server files (chall.zip,
+
+  Untitled.png) are preserved in original/. No solver script ships in the source.
+
+  '

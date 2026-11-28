@@ -1,0 +1,77 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-rev-001
+name: awawa
+slug: 001-awawa
+original_name: awawa
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: 'The organizer description, kept verbatim, is nonsense syllables ("awa awa wa awawawawaaa")
+
+  followed by a note that it is literally just reverse engineering. The README explains it
+
+  is a matter of unhexing and reversing. The distribution is chall.py and output.txt.
+
+  '
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- rev
+- python
+- baby
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Reverse Engineering/awawa
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: awawa from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: a55a34051aba8738132450628c54892c0fcf703fd456d2a633fc10d273344123
+  - path: chall.py
+    algorithm: sha256
+    value: 625d6c191236064a2fff10af02064333d089a382ea27e25f51a88b4aaa38b3fb
+  - path: challenge.yml
+    algorithm: sha256
+    value: cec63568bd8f0eab68fb864d17e951820f11a20d47c0fcd35fe731dad2d9d8bc
+  - path: output.txt
+    algorithm: sha256
+    value: 7a693ba8b048e5d26138df049de9c13f9eb41d4ec867360810ad198b2726a80d
+environment:
+  type: python
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Reverse Engineering/awawa
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Reverse challenge. The distribution is chall.py and output.txt. The solver script
+
+  src/solver.py was moved to the mirrored solvers/ path.
+
+  '

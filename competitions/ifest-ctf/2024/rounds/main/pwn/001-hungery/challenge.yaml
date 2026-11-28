@@ -1,0 +1,105 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-pwn-001
+name: Hungery
+slug: 001-hungery
+original_name: Hungery
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: 'The organizer description, kept verbatim, asks "Are you hungry? or are you thirsty?". The
+
+  distribution is the chall binary, served over netcat at 157.230.38.61:14269.
+
+  '
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- pwn
+- baby
+authors:
+- name: Xovert
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Binary Exploitation/hungery
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Hungery from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: ba867ae79a2d04988fc8ff8ff376240a70a0dd2f49b00f48d8938154d3289479
+  - path: chall
+    algorithm: sha256
+    value: fc0e15a925b188867bad28d6963d05d7193748a3f2b3706a5a10daad1babd1d3
+  - path: challenge.yml
+    algorithm: sha256
+    value: dec855974b42b774659c4765c505888741c6dcf7fc3e2be1f9ecdff4b753aa70
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: eac8698230dadb9e3d01900e237ba58ffdd273313c14a810b45fcbe246d94cc4
+  - path: src/Makefile
+    algorithm: sha256
+    value: 10498f24ae2ccdf8291d993b715ccedb110e54205874fe560cd4f1467d383ce8
+  - path: src/chall.c
+    algorithm: sha256
+    value: 895d65df354fbb37017281bf52e81bfe177c8ee7870eccd87f892636dc4bf3f3
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: e59143dff7537e89d1bcc42489264efa2c94fc73e9443bdc102d5c3c79a773a1
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 86153cce70c52c93139d7b3677d58e790a6a1b5e36bda9fcfd07e994304f56c2
+  - path: src/run.sh
+    algorithm: sha256
+    value: 200e42e0828a1c110013d07cd173970747bfc7160ebd4e5a494bc4a3fbe64fcb
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+  - path: src/startchall.sh
+    algorithm: sha256
+    value: 13d5dc129bbb5990456f94040ad3c8e012eb5bf05e70512c54f623a8e457a58c
+  - path: src/xinetd
+    algorithm: sha256
+    value: d025c490f432672973745c9c84c3f63fed3808ecc6c15c40e3f58bd4f199c749
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 0a24604ab89494b103e254e76a8f03778290a81f9556f90b95fc4c36bb68b70d
+environment:
+  type: pwn
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Binary Exploitation/hungery
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Pwn challenge. The distribution is the chall binary. The src/ deployment tree (Dockerfile,
+
+  Makefile, chall.c, docker-compose.yaml, flag.txt, run.sh, start.sh, startchall.sh, xinetd)
+
+  is preserved in original/. The solver script src/solve.py was moved to the mirrored
+
+  solvers/ path.
+
+  '

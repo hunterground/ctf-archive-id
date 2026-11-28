@@ -1,0 +1,81 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-forensics-001
+name: Tsundere Hex-chan
+slug: 001-tsundere-hex-chan
+original_name: Tsundere Hex-chan
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: 'The organizer description, kept verbatim, is tsundere wordplay about doing something for
+
+  the participant. The README explains the fix: use a hex editor to change the header bytes
+
+  ''ALYA'' to ''IHDR'' in the file to repair the PNG. The distribution is alya.png.
+
+  '
+difficulty:
+  value: baby
+  source: organizer
+tags:
+- forensics
+- png
+- hex
+- baby
+authors:
+- name: ringoshiro
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Forensic/tsundere-hex-chan
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Tsundere Hex-chan from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6139ca4e924fa7c6eed53c063d56271505046db0ba12eda2b15050d066226da4
+  - path: alya.png
+    algorithm: sha256
+    value: 9962e03ad1de365514f11b37d59ad9fd1a2085c6f61cea30a3859c90f0fe811d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 61b1754bc2347023a18e9175e438f4e425cd16868b6fd80b8d2fb8c7c217012d
+  - path: src/alya.png
+    algorithm: sha256
+    value: e150d1964cefe4edb0b9ba69eaa488263e37c32eb6a0bdf605b7d572388b2938
+  - path: src/flag.txt
+    algorithm: sha256
+    value: dd5a784f1a76ce608bf831179cefe27739297a9588bd9e156ae916d4decc16b8
+environment:
+  type: forensics
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Forensic/tsundere-hex-chan
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Forensics challenge. The distribution is alya.png. The src/ server files (alya.png,
+
+  flag.txt) are preserved in original/. No solver script ships in the source.
+
+  '

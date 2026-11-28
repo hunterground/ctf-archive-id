@@ -1,0 +1,111 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-pwn-002
+name: Bazaar n Exchange
+slug: 002-bazaar-n-exchange
+original_name: Bazaar n Exchange
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: pwn
+original_category: Binary Exploitation
+description: 'The organizer description, kept verbatim, asks what items are in the "bazaar". The flag
+
+  hints at a stack-exchange technique that avoids needing a pop rdi gadget. The distribution
+
+  is the chall binary, served over netcat at 157.230.38.61:30312.
+
+  '
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- pwn
+- stack-exchange
+- easy
+authors:
+- name: chronopad
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Binary Exploitation/bazaar-n-exchange
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Bazaar n Exchange from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1bc528720408532acc4c290b182f3f3ea08faf82cf32dd00853f414a983a74d3
+  - path: chall
+    algorithm: sha256
+    value: dfb5530602722da699d63f0c06983720ae34029423c6a23c3be29ef0f60c8beb
+  - path: challenge.yml
+    algorithm: sha256
+    value: 98a3093602d4e99c46b5266d9d9a5600af6966e8278019bd8a19225b98d1ac30
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 38fef9ef408979e661b237398e0776800f05fef9322065dbdc5e1a17fc37954b
+  - path: src/bazaar-n-exchange.zip
+    algorithm: sha256
+    value: 2fc6d78047a405169c0365dc8fb9494c5f3d79490d33408efb5fa963083cffbb
+  - path: src/chall
+    algorithm: sha256
+    value: dfb5530602722da699d63f0c06983720ae34029423c6a23c3be29ef0f60c8beb
+  - path: src/chall.c
+    algorithm: sha256
+    value: 31a41b322730b939c4a69220a9208a3004bf57675d2f9846ea4563118fef26f5
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 7bd1d2e6f68aa43640e87abee6894e7b96d96cc05ea30db82721c5bd034ed7f8
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 4349f9c0e5645b840a30534318690a6de92670d7c8bbc87109515a9cf4e584ad
+  - path: src/run.sh
+    algorithm: sha256
+    value: 6479c6888594b4d3971bfa53383d731746d864b428e121d8b27505d4dcc231dc
+  - path: src/start.sh
+    algorithm: sha256
+    value: 1ada50b87b77682c3adfd2b44f467053d1ab159e36e4151b26207a812a3aa735
+  - path: src/startchall.sh
+    algorithm: sha256
+    value: 9e8aed213431150445387106dca797b666f2e5dfd42dcaf4e723212ca5b69121
+  - path: src/xinetd
+    algorithm: sha256
+    value: a131b1261940d86cad282e003911420e44efb0bc4c2f5daaeffd1a04620abccc
+  - path: src/xinetd.conf
+    algorithm: sha256
+    value: 09232745fbdb58f84e3388efe4fbf934f141251ab1edc4cc86bdeca72e01a3bc
+environment:
+  type: pwn
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Binary Exploitation/bazaar-n-exchange
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Pwn challenge. The distribution is the chall binary. The src/ deployment tree (Dockerfile,
+
+  bazaar-n-exchange.zip, chall, chall.c, docker-compose.yaml, flag.txt, run.sh, start.sh,
+
+  startchall.sh, xinetd) is preserved in original/. The exploit script src/exploit.py was
+
+  moved to the mirrored solvers/ path.
+
+  '

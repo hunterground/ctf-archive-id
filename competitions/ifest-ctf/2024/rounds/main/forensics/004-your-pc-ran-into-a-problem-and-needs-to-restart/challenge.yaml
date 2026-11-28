@@ -1,0 +1,100 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-forensics-004
+name: Your PC ran into a problem and needs to restart
+slug: 004-your-pc-ran-into-a-problem-and-needs-to-restart
+original_name: Your PC ran into a problem and needs to restart
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: forensics
+original_category: Forensic
+description: 'The organizer description, kept verbatim, is about hitting a blue screen while doing work
+
+  and needing to find out what happened. The README documents a Windows memory-dump analysis:
+
+  the participant answers questions from the bsod.dmp using WinDbg (capture date, bug check
+
+  code, terminated process, kernel version, exception handler address). The distribution is
+
+  bsod.dmp and chall.txt, served over netcat at 157.230.38.61:11511.
+
+  '
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- forensics
+- memory-dump
+- windbg
+- hard
+authors:
+- name: cipichop
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Forensic/Your PC ran into a problem and needs to restart
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Your PC ran into a problem and needs to restart from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: aa0dfc3b793a7cd3dccb5630fa0b2e0d3b44dfdf4596dccd2984ebbcb8c714b1
+  - path: bsod.dmp
+    algorithm: sha256
+    value: 75afac8e89d9cfee0022eeffeb473d7aaab707c9dc2c1d221241bf9b7d03b00c
+  - path: chall.txt
+    algorithm: sha256
+    value: 698b10ac679442de9ebc86164996f4938c155590c9ec9f6c3a11e1d435c1a45b
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0950241057e7957e4f983ace31dbf154ca6e5235ef2182d8a685b05929a0b207
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 3094d450543898cca659d5a42c02091c22071bda0c11199b1f0fae5e16be4538
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 3a9ab4b27e59bcc542854ae5b3a3bb1b35522e36c9372ed15d8ad4090ab38d61
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 6177a0f440e35b4fe63e282e0bffaed3c6d6d6a241bbcd516c0d886219b5e1e6
+  - path: src/main.py
+    algorithm: sha256
+    value: 76e39fa91d185a4c882bb22a64049610d8fa52ffb41ef72b387b081d15f4e4bb
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+environment:
+  type: forensics
+  services: []
+  requirements:
+  - windbg
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Forensic/Your PC ran into a problem and needs to restart
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Forensics challenge. The distribution is bsod.dmp and chall.txt. The src/ deployment tree
+
+  (Dockerfile, docker-compose.yaml, flag.txt, main.py, start.sh) is preserved in original/.
+
+  No solver script ships in the source.
+
+  '

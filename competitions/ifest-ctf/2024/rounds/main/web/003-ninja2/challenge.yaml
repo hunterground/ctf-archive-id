@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-web-003
+name: Ninja2
+slug: 003-ninja2
+original_name: Ninja2
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: web
+original_category: Web Exploitation
+description: 'The organizer description, kept verbatim, calls Ninja2 a "simple website for ur username".
+
+  The README notes it is a modified version of the Coffee shop challenge in which the
+
+  participant must bypass a {, } filter with unicode escapes and then gain RCE to read the
+
+  flag. The distribution is ninja2.zip.
+
+  '
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- web
+- ssti
+- medium
+authors:
+- name: Yobel
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Web Exploitation/ninja2
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Ninja2 from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 29dede777049064a563540d56836f83c3be997bf99615ff76db5f501cb23f4b7
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7ab7bc01abe6b7a9eae74513f934d5ec1ce107be779d4b21c6da976987d0b9c0
+  - path: ninja2.zip
+    algorithm: sha256
+    value: ddcba2e7f63688283f7648e569ac4bd0bffb75728ddb4990834fc5fb78255fad
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 75dd67412c983cf0aec4a66943e7d2fee19f4f7bc64362b6b974b57344b927f6
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c9104d0edc31f9a01eeef4dbe5170b9d19ccdc05e45789cf06410b70727dd9e0
+  - path: src/src/app.py
+    algorithm: sha256
+    value: 83a3fb4485794a742984639b914cc830209c2fdc72f4f2e08b04b64b736993b4
+  - path: src/src/flag.txt
+    algorithm: sha256
+    value: 802402d674702b7ee9cc0d375a8bf0950be3c51ce0f31b67c84b0e711f87efef
+  - path: src/src/index.hateemel
+    algorithm: sha256
+    value: aaa08c7df4961baa74c9139763be062cc305044e7b2818bd5cb79120a4711347
+  - path: src/src/requirements.txt
+    algorithm: sha256
+    value: ab5b3c1d545189503dd1f2ac72f0271255a78156a163d633e21117683985b2eb
+  - path: src/src/wsgi.py
+    algorithm: sha256
+    value: 1b898e1fe65d669c38c908817f57a8d48c36d9953ea960b39de453da5cd37cfb
+  - path: src/start.sh
+    algorithm: sha256
+    value: f29ed9d0ddf0161d50c8b4c996bdb75c426a1bcc88169a798516b9a8f4ed20d1
+environment:
+  type: node
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Web Exploitation/ninja2
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Web challenge. The distribution is ninja2.zip. The src/ deployment tree (Dockerfile,
+
+  docker-compose.yml, start.sh) is preserved in original/. The solver script src/solve.py was
+
+  moved to the mirrored solvers/ path.
+
+  '

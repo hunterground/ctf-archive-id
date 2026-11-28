@@ -1,0 +1,91 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-crypto-004
+name: Real or Cake
+slug: 004-real-or-cake
+original_name: Real or Cake
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: crypto
+original_category: Cryptography
+description: 'The organizer description, kept verbatim, jokes about forgetting to make the problem after
+
+  returning from Gemastik. The README explains the intended solution as a partial discrete
+
+  log where small orders combine to recover x mod k, y mod k, and z mod k, letting the
+
+  participant verify that x*y == z. The distribution is chall.sage and output.txt.
+
+  '
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- crypto
+- discrete-log
+- hard
+authors:
+- name: Wrth
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Cryptography/real or cake
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: Real or Cake from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: bc33f0657cfc8d64e09302de8b71b3af9d7bfdc245857505deca8d8f122b99bc
+  - path: chall.sage
+    algorithm: sha256
+    value: 49febecad7efb36e6fc77db3d7028b18fcfae066336762d060aa3c17c5478c84
+  - path: challenge.yml
+    algorithm: sha256
+    value: 07ddf91d8c5c4e6419e50ae5d4541c047147f1cd9036d7d691d10f14ea943b08
+  - path: output.txt
+    algorithm: sha256
+    value: 4b20360451a00266cfdd73234d824d469520830255589d22ba64e63a86b09c73
+  - path: src/chall.sage
+    algorithm: sha256
+    value: 49febecad7efb36e6fc77db3d7028b18fcfae066336762d060aa3c17c5478c84
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 00ddd0037524ae4921331ff38c7f608bf4715f04a64665416998230e0ebe8115
+  - path: src/output.txt
+    algorithm: sha256
+    value: 4b20360451a00266cfdd73234d824d469520830255589d22ba64e63a86b09c73
+environment:
+  type: sage
+  services: []
+  requirements:
+  - sagemath
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Cryptography/real or cake
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Crypto challenge. The distribution is chall.sage and output.txt. The src/ deployment tree
+
+  (chall.sage, flag.txt, output.txt) is preserved in original/. The solver script
+
+  src/solve.py was moved to the mirrored solvers/ path.
+
+  '

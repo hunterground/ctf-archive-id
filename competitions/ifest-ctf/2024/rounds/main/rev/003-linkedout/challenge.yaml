@@ -1,0 +1,79 @@
+schema_version: '1.0'
+id: ifest-ctf-2024-main-rev-003
+name: LinkedOut
+slug: 003-linkedout
+original_name: LinkedOut
+competition_id: ifest-ctf
+edition_year: 2024
+division_id: null
+round_id: main
+category: rev
+original_category: Reverse Engineering
+description: 'The organizer description, kept verbatim, tells the participant to download Julia and to
+
+  extract the attached files from an external Google Drive link, then debug the flag checker
+
+  in bin\jit.exe. The distribution is hosted outside the archive; no binary is present in the
+
+  source tree, only the challenge statement and README.
+
+  '
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- rev
+- julia
+- hard
+authors:
+- name: aseng
+  team: null
+organization: null
+provenance:
+  archive_id: petir-ctf-archive
+  source_type: git
+  repository: https://github.com/PETIRsec/ctf-archive
+  commit: 056ebe3bda4644fcd3d148dc16c34baa92457ffd
+  original_path: ifest-2024/Reverse Engineering/LinkedOut
+licensing:
+  declared_license: MIT
+  copyright_holder: IFEST CTF 2024 challenge author
+  redistribution: permitted
+  attribution_required: true
+  attribution: LinkedOut from IFEST CTF 2024, imported via the PETIR CTF Archive
+  permission_reference: The source repository declares no license; per archive curation policy for unlicensed material, licensing is treated as MIT.
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: original/ (distribution)
+    reason: The distributed Julia/jit binary is hosted externally on Google Drive (file id 1iHjQd4ZITFPGbL70ykaLUfimSP1PVbCS) and was not fetched; recorded in missing.txt rather than copied.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 5ee9b6bdc899d3beed5e92aed038f3fab4f10f8c8dd7d2e0295003039bc3f947
+  - path: challenge.yml
+    algorithm: sha256
+    value: 348d558dff5ed1b97d7e54817a6d297503ffb90e2f1dcbcfd7a9b28a96d8cb34
+environment:
+  type: julia
+  services: []
+  requirements: []
+references:
+- title: PETIR CTF Archive
+  url: https://github.com/PETIRsec/ctf-archive/tree/056ebe3bda4644fcd3d148dc16c34baa92457ffd/ifest-2024/Reverse Engineering/LinkedOut
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 'Reverse challenge. The distributed binary is not present in the source: the statement points
+
+  to an external Google Drive link (file id 1iHjQd4ZITFPGbL70ykaLUfimSP1PVbCS) that was not
+
+  fetched and is recorded in missing.txt rather than copied. Only README.md and challenge.yml
+
+  are archived in original/. No solver script ships in the source.
+
+  '
