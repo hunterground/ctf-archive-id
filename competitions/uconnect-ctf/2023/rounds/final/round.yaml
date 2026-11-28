@@ -1,0 +1,27 @@
+schema_version: '1.0'
+id: final
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+name: Final
+original_name: Final
+sequence: 2
+type: final
+delivery: onsite
+description: null
+dates:
+  start: '2023-05-23'
+  end: '2023-05-23'
+statistics:
+  challenge_count: 5
+  participant_count: null
+references:
+- title: Webinar Karier Cybersecurity U-Connect 2023 (organizer invitation)
+  url: https://id.scribd.com/document/689557476/Surat-Undangan-Webinar-Karier-dan-Kegiatan-U-Connect-2023-docx-2
+  type: organizer_announcement
+  accessed: '2026-11-28'
+verification: unverified
+notes: >-
+  Final stage. Held onsite on 23 May 2023 at Kemendikbudristek Gedung D, Jakarta,
+  with judge and write-up sessions on 24 May. Five pwn challenges are archived:
+  uDecide, uMemo, uNote v2, uSystem v2, and Who R U.

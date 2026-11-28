@@ -1,0 +1,101 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-final-pwn-004
+name: uSystem v2
+slug: 004-usystem-v2
+original_name: uSystem v2
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A heap overflow pwn challenge (uSystem v2). The author README describes the
+  program as "Sebuah program login sistem terbaru" (a newer system login
+  program). The intended solve overwrites the next allocated UID using a heap
+  overflow to gain a shell.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Heap Overflow
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Final/uSystem v2
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: a7eff4ba4c11d2bca259a26a05aa11aa7699159e644193c19397b9ee8f98cb5f
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: f1e002aa8565db60db97b8742eca1f16c773e21b0db2ef339a63bd3e15a8a982
+  - path: src/Makefile
+    algorithm: sha256
+    value: bb4eb198ea1f52641b3173aacfbc2faee2475ec0146b48cdaa108a4d7d513c18
+  - path: src/chall
+    algorithm: sha256
+    value: f1e002aa8565db60db97b8742eca1f16c773e21b0db2ef339a63bd3e15a8a982
+  - path: src/chall.c
+    algorithm: sha256
+    value: bede76d81e105f6f0f646ab4396da6845e0bd17b9f0a47138289c3264bd7bddc
+  - path: src/flag.txt
+    algorithm: sha256
+    value: b05fee50985c2c24686cb8863d6730cae3a821402c5862ce639d2704e9d38a39
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 66052b76d50185b678f02b43291082fb2ccc6bdc290b1dc6e8d7dad1ed1511be
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Final/uSystem v2)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Final pwn challenge. Primary author distribution from Lychnobyte (afmaghribi).
+  The distribution is the uSystem v2 challenge directory (Dockerfile,
+  compose.yml, src/ source and build files, dist/ attachment, README.md). The
+  solver exploit (writeup/exploit.py) was moved to solvers/ at the mirrored
+  challenge path; writeup/README.md remains in the distribution. No flag appears
+  in this metadata. Difficulty per the author README table ("Easy").

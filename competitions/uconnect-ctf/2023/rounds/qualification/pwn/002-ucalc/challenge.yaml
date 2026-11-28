@@ -1,0 +1,103 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-qualification-pwn-002
+name: uCalc
+slug: 002-ucalc
+original_name: uCalc
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A stack overflow pwn challenge (uCalc). The author README describes the
+  program as "Sebuah program kalkulator sederhana" (a simple calculator). The
+  intended solve uses a memcpy() overflow of a stored-result variable to build
+  a ROP chain on the static binary to obtain a shell.
+difficulty:
+  value: easy-medium
+  source: organizer
+tags:
+- ROP
+- Static Binary
+- Stack Overflow
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Qual/uCalc
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: c9eafc4838a8822e4a352c027e4d23e6e7a99ce65f768358263f217ea56a735f
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 321518debcf58782bbf14bfbfaa76aa2e09c925396873befb2edccda95b257f3
+  - path: src/Makefile
+    algorithm: sha256
+    value: daaa60690e4896c692ab944e67e11458bb47e3cf64b28deeb749560e07cd83d8
+  - path: src/chall
+    algorithm: sha256
+    value: 321518debcf58782bbf14bfbfaa76aa2e09c925396873befb2edccda95b257f3
+  - path: src/chall.c
+    algorithm: sha256
+    value: 7e222411b5abe4a9047b015f4c134884d33a866186eebb9825887467587cb101
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 8dd78239809d55e7f5a7efe03ed12358bdd622005ac3954edbd15303902c50a5
+  - path: writeup/README.md
+    algorithm: sha256
+    value: da9d886860add02a0dc94d3aeb0242149a40c46a7aa0add743042a404c78a9ee
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Qual/uCalc)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Qualification pwn challenge. Primary author distribution from Lychnobyte
+  (afmaghribi). The distribution is the uCalc challenge directory (Dockerfile,
+  compose.yml, src/ source and build files, dist/ attachment, README.md). The
+  solver exploit (writeup/exploit.py) was moved to solvers/ at the mirrored
+  challenge path; writeup/README.md remains in the distribution. No flag appears
+  in this metadata. Difficulty per the author README table ("Easy-Medium").

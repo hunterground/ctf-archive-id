@@ -1,0 +1,103 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-qualification-pwn-001
+name: uBof
+slug: 001-ubof
+original_name: uBof
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A stack buffer overflow pwn challenge (uBof). The author README describes the
+  program as "Sebuah program menerima input dari pengguna" (a program that
+  receives input from the user). The intended solve is a limited-input buffer
+  overflow that reaches the return address using the vsyscall trampoline,
+  since PIE is enabled and there is no address leak.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- vsyscall
+- Stack Overflow
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Qual/uBof
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 3911026c294e3089feb2651b55a1b45c26b75fd1ed0e86729403a86772b4c4b6
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: be142905c68271138fdf02b619a227391de147b3cc80eea155474e64d1694e99
+  - path: src/Makefile
+    algorithm: sha256
+    value: e0d59fdd0889fe96216afba8a0e400d76f5a088416b35a56c97a2b93d6d75022
+  - path: src/chall
+    algorithm: sha256
+    value: be142905c68271138fdf02b619a227391de147b3cc80eea155474e64d1694e99
+  - path: src/chall.c
+    algorithm: sha256
+    value: b5f20943bd57d9301d828ad6bf12ab197b57ce90216028f659c1864d3c9dbb09
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 82bf0b3c479b1ef5dc16e618d052546e8b149c34ad0d6aaed6e1c9d5f95a6ef6
+  - path: writeup/README.md
+    algorithm: sha256
+    value: cb7ab687a08bd9887f1b64a4ee2f33270556fa9a9e9a1eae1762d0d8f3bd0326
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Qual/uBof)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Qualification pwn challenge. Primary author distribution from Lychnobyte
+  (afmaghribi). The distribution is the uBof challenge directory (Dockerfile,
+  compose.yml, src/ source and build files, dist/ attachment, README.md). The
+  solver exploit (writeup/exploit.py) was moved to solvers/ at the mirrored
+  challenge path; writeup/README.md remains in the distribution. No flag appears
+  in this metadata. Difficulty per the author README table ("Easy").

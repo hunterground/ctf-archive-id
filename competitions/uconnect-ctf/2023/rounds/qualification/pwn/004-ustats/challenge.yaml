@@ -1,0 +1,110 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-qualification-pwn-004
+name: uStats
+slug: 004-ustats
+original_name: uStats
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A stack overflow pwn challenge (uStats). The author README describes the
+  program as "Sebuah program untuk menghitung statistik dari input yang
+  dimasukkan pengguna" (a program that computes statistics from user input). The
+  intended solve overflows the stored data (the total is bounded), converts the
+  input to double, bypasses the canary with a '.', then leaks libc to ret2libc.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Ret2libc
+- Stack Overflow
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Qual/uStats
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: b9037d30b24250e80c00f6e0d33e80bb00c027fb6f680bc2d030d5ec1327ce7f
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 54ca4c026e50e7dea97d41d9d678eaa5136a837012ae6633705f36e2e1a754c2
+  - path: src/Makefile
+    algorithm: sha256
+    value: 72bd60f6d4b311a85452abaf1d93118da759b791732abb5a1c1cc562351e63da
+  - path: src/chall
+    algorithm: sha256
+    value: 54ca4c026e50e7dea97d41d9d678eaa5136a837012ae6633705f36e2e1a754c2
+  - path: src/chall.c
+    algorithm: sha256
+    value: 959c4894b18d9ace06c712740fdfa8a92cbb045cd5e19ca31301c95040537eea
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d064551fecc3ffcbf19e49946f51935ccd2cd867e74259f4fad481155a2ae4f0
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 30d1010ad9d0efd98d80dfbcb460f0437ae6dc4634da87fc0a8745301c7e9bf0
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 46dcc397c118276bc5b4fa3fa918a0590da5e63fb3915f146784be2c903a3654
+  - path: writeup/README.md
+    algorithm: sha256
+    value: e0269c94f53b00831a5756eb3d4afa1f667c5006abdf006c4b42df97780f3520
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Qual/uStats)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Qualification pwn challenge. Primary author distribution from Lychnobyte
+  (afmaghribi). The distribution is the uStats challenge directory (Dockerfile,
+  compose.yml, src/ source and build files, dist/ attachment, README.md),
+  shipping its own glibc and ld-linux runtimes under src/. The solver exploit
+  (writeup/exploit.py) was moved to solvers/ at the mirrored challenge path;
+  writeup/README.md remains in the distribution. No flag appears in this
+  metadata. Difficulty per the author README table ("Medium").

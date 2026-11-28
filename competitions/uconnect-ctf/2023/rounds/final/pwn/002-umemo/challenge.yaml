@@ -1,0 +1,104 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-final-pwn-002
+name: uMemo
+slug: 002-umemo
+original_name: uMemo
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A use-after-free pwn challenge (uMemo). The author README describes the
+  program as "Sebuah program mencatat memo" (a program that records memos). The
+  intended solve relies on a use-after-free: the flag is stored at a random
+  index 10-49, so the player frees and reallocates chunks to overwrite the first
+  16 bytes without a null terminator, then prints the content to recover the
+  flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- Use-after-free
+- Heap Leak
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Final/uMemo
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 960285d7345be83ab20c5cab4c9996186cde1a3645362f9286e6ff4f411a99a3
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: a856bb0e67e3ae54286808ddc780333e76d8316c006e8fb8e7d05cb9e0050e1d
+  - path: src/Makefile
+    algorithm: sha256
+    value: bb4eb198ea1f52641b3173aacfbc2faee2475ec0146b48cdaa108a4d7d513c18
+  - path: src/chall
+    algorithm: sha256
+    value: a856bb0e67e3ae54286808ddc780333e76d8316c006e8fb8e7d05cb9e0050e1d
+  - path: src/chall.c
+    algorithm: sha256
+    value: effd05b3d7b2543a2fb448ab451c6852bc08b294b54c997e3413aa040788bb44
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 33ac09315455c51a7f21921608a852263b0913075a03e7d6a227ccaf049af5e0
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 44033878b8b266082277268d729d53fc3acbc7548f604fb7671726355b12e777
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Final/uMemo)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Final pwn challenge. Primary author distribution from Lychnobyte (afmaghribi).
+  The distribution is the uMemo challenge directory (Dockerfile, compose.yml,
+  src/ source and build files, dist/ attachment, README.md). The solver exploit
+  (writeup/exploit.py) was moved to solvers/ at the mirrored challenge path;
+  writeup/README.md remains in the distribution. No flag appears in this
+  metadata. Difficulty per the author README table ("Easy").

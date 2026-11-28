@@ -1,0 +1,52 @@
+schema_version: '1.0'
+id: uconnect-ctf
+name: U-Connect (Cybersecurity Hackathon)
+country: ID
+organizer:
+  name: InfraDigital Foundation
+  website: null
+website: null
+description: >-
+  U-Connect (Cybersecurity Hackathon) is the Capture the Flag competition of the
+  annual U-Connect event run by InfraDigital Foundation (PT. Infra Digital
+  Foundation), a Jakarta-based education foundation. The 2023 event was held at
+  the Ministry of Education (Kemendikbudristek) with support from Grab,
+  Telkomsigma, Lintasarta, ISACA, and OVO; the top 15 teams competed on CTF
+  challenges. The competition has a qualification (qual) stage and an onsite
+  final stage.
+metadata:
+  established_year: 2022
+  recurring: null
+  formats:
+  - jeopardy
+status: unknown
+verification: unverified
+references:
+- title: Ajang Cybersecurity Hackathon Kembali Digelar di Indonesia (VIVA Tekno)
+  url: https://www.viva.co.id/digital/startup/1603429-ajang-cybersecurity-hackathon-kembali-digelar-di-indonesia
+  type: other
+  accessed: '2026-11-28'
+- title: Kemendikbudristek gandeng swasta gelar "Cybersecurity Hackathon 2023" (ANTARA News)
+  url: https://www.antaranews.com/berita/3557139/kemendikburistek-gandeng-swasta-gelar-cybersecurity-hackathon-2023
+  type: other
+  accessed: '2026-11-28'
+- title: U-Connect 2023 event video (organizer playlist)
+  url: https://www.youtube.com/watch?v=yvwg-oOTJnw
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: UConnect quals 2023 - CTF Pal
+  url: https://ctfpal.com/writeups/ctf/uconnect-quals-2023-2023-community
+  type: writeup
+  accessed: '2026-11-28'
+- title: UConnect final 2023 - CTF Pal
+  url: https://ctfpal.com/writeups/ctf/uconnect-final-2023-2023-community
+  type: writeup
+  accessed: '2026-11-28'
+notes: >-
+  The 2023 edition was organized and hosted by InfraDigital Foundation, held at
+  Kemendikbudristek Gedung D in Jakarta. The Cybersecurity Hackathon final took
+  place on 23 May 2023 with judge/write-up sessions on 24 May 2023. The 2022
+  predecessor ran under the name "Cyberwarriors". Only the 2023 edition is
+  archived here; the organizer website is not known and is left null. Only the
+  pwn challenge set is represented, authored by Lychnobyte (afmaghribi, Ahmad
+  Fauzzan Maghribi), so the edition import is partial.

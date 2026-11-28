@@ -1,0 +1,46 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023
+competition_id: uconnect-ctf
+
+year: 2023
+name: U-Connect 2023 (Cybersecurity Hackathon)
+
+# Lifecycle. Allowed values: planned, ongoing, completed, cancelled, unknown.
+status: completed
+
+# Record quality. Allowed values: unverified, needs_scope_review,
+# corroborated, verified.
+verification: unverified
+
+dates:
+  # Final date known from organizer invitation; qual date not established.
+  start: null
+  end: '2023-05-23'
+
+statistics:
+  participant_count: null
+  challenge_count: 10
+
+references:
+- title: Webinar Karier Cybersecurity U-Connect 2023 (organizer invitation)
+  url: https://id.scribd.com/document/689557476/Surat-Undangan-Webinar-Karier-dan-Kegiatan-U-Connect-2023-docx-2
+  type: organizer_announcement
+  accessed: '2026-11-28'
+- title: U-Connect 2023 event video (organizer playlist)
+  url: https://www.youtube.com/watch?v=yvwg-oOTJnw
+  type: organizer_announcement
+  accessed: '2026-11-28'
+
+challenge_materials_imported: true
+
+notes: >-
+  The Cybersecurity Hackathon final was held on 23 May 2023 at Kemendikbudristek
+  Gedung D, Jakarta, with judge and write-up sessions on 24 May 2023. Ten pwn
+  challenges are archived: five from the qualification (uBof, uCalc, uNote,
+  uStats, uSystem) and five from the final (uDecide, uMemo, uNote v2, uSystem
+  v2, Who R U). All challenges were created by Lychnobyte (afmaghribi, Ahmad
+  Fauzzan Maghribi) and are imported from the author repository
+  afmaghribi/my-pwnyable. The qualification date is not established and is left
+  null. Only the pwn category set is represented, so the edition import is
+  partial.

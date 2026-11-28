@@ -1,0 +1,116 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-qualification-pwn-003
+name: uNote
+slug: 003-unote
+original_name: uNote
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: qualification
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A heap pwn challenge (uNote). The author README describes the program as
+  "Program catatan sederhana" (a simple notes program). The intended solve is a
+  double-free into tcache poisoning: it frees four times to adjust the double
+  free and leak the heap base, builds fake chunks to free into the unsorted bin
+  to leak libc, then overwrites __free_hook with system to spawn a shell.
+difficulty:
+  value: medium-hard
+  source: organizer
+tags:
+- Double Free
+- Tcache Poisoning
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Qual/uNote
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 5a12892a0ae9b988e6d418d79845703f831812e432ddb1063fa96276e6541a7f
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: 3f6a70ee22faf4541affced0d82b0b3f45ceaa2e21cf8a0e7f7589f408e358f7
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 2d196bc8632e500316fa0e0c3e8f40d0e7da853ae940805080b3492ce03b7b51
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: d2083fba0435088297c823dd0622c73fd1fff51659e626f092642eccaeaac09a
+  - path: src/Makefile
+    algorithm: sha256
+    value: c8baf8855d61c53334a857b07c30978f11313d837c704d5d4a1e665bae2ddfac
+  - path: src/chall
+    algorithm: sha256
+    value: 3f6a70ee22faf4541affced0d82b0b3f45ceaa2e21cf8a0e7f7589f408e358f7
+  - path: src/chall.c
+    algorithm: sha256
+    value: 81fcaaa6d5c15efcb143204930d2aa14b001914b2f9b887832492168cd7bc8de
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 71400f2ae5ce8165c3d1ac2ba630ac4dc384290d67641be74e4ce5d12776fc7f
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 2d196bc8632e500316fa0e0c3e8f40d0e7da853ae940805080b3492ce03b7b51
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: d2083fba0435088297c823dd0622c73fd1fff51659e626f092642eccaeaac09a
+  - path: writeup/README.md
+    algorithm: sha256
+    value: bd248160759e97d77989236af3ce6fbb08134e6fcd5a5520355c61e50051dd4c
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Qual/uNote)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Qualification pwn challenge. Primary author distribution from Lychnobyte
+  (afmaghribi). The distribution is the uNote challenge directory (Dockerfile,
+  compose.yml, src/ source and build files, dist/ attachment, README.md),
+  shipping its own glibc and ld-linux runtimes under src/ and dist/. The solver
+  exploit (writeup/exploit.py) was moved to solvers/ at the mirrored challenge
+  path; writeup/README.md remains in the distribution. No flag appears in this
+  metadata. Difficulty per the author README table ("Medium-Hard").

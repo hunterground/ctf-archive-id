@@ -1,0 +1,117 @@
+schema_version: '1.0'
+
+id: uconnect-ctf-2023-final-pwn-003
+name: uNote v2
+slug: 003-unote-v2
+original_name: uNote v2
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+round_id: final
+
+category: pwn
+original_category: PWN
+
+description: >-
+  A heap overflow pwn challenge (uNote v2). The author README describes the
+  program as "Sebuah program menambah, mengubah dan melihat catatan" (a program
+  to add, modify, and view notes). The intended solve overflows the heap on
+  note modification to overwrite a function pointer, leaks libc via
+  puts(got_puts), then ret2libc or one_gadget to spawn a shell.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- Heap Overflow
+- Ret2libc
+- One Gadget
+authors:
+- name: Lychnobyte
+  team: null
+organization: null
+provenance:
+  archive_id: afmaghribi-my-pwnyable
+  source_type: git
+  repository: https://github.com/afmaghribi/my-pwnyable
+  commit: 7999bb10bfaed861be2ae1bb55399d5e90daf241
+  original_path: Uconnect-2023/Final/uNote v2
+
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: 19a908c6f8062ab897e2726e006abcb0dc75fef552a0821d80de9e1bdb42c6bc
+  - path: README.md
+    algorithm: sha256
+    value: 58c128a26e394051dca4fc61572bd567b8ed2b01063f3449213eb10073f4ed5f
+  - path: compose.yml
+    algorithm: sha256
+    value: c20cde959453a1e8c28f0ca6dad5bf9e94af28e7070600450bafc1554c57163d
+  - path: dist/chall
+    algorithm: sha256
+    value: e507eef0405c41949d21e92cc93398a2f960c425fb9a84dcc142297093d205aa
+  - path: dist/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 30d1010ad9d0efd98d80dfbcb460f0437ae6dc4634da87fc0a8745301c7e9bf0
+  - path: dist/libc.so.6
+    algorithm: sha256
+    value: 46dcc397c118276bc5b4fa3fa918a0590da5e63fb3915f146784be2c903a3654
+  - path: src/Makefile
+    algorithm: sha256
+    value: b138508370e70e56da2fba43616249ba545add7589d424e01235bf4a7ca83f1e
+  - path: src/chall
+    algorithm: sha256
+    value: e507eef0405c41949d21e92cc93398a2f960c425fb9a84dcc142297093d205aa
+  - path: src/chall.c
+    algorithm: sha256
+    value: f60d904d1d82d1deb8a7eb94df8676cf72c6ddd69ca55bfdca33548d3790a43a
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 30c000f5cd6d7737841fae584ed1aa712052b6ea083c12d31f6f7badb2459f4f
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: 30d1010ad9d0efd98d80dfbcb460f0437ae6dc4634da87fc0a8745301c7e9bf0
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 46dcc397c118276bc5b4fa3fa918a0590da5e63fb3915f146784be2c903a3654
+  - path: writeup/README.md
+    algorithm: sha256
+    value: 820a2fc1df0ec52543a3349405ece4671072b0fbcd3801150b6b9ee648e6dec0
+
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Challenge by Lychnobyte (Ahmad Fauzzan Maghribi), published in the author repository https://github.com/afmaghribi/my-pwnyable.
+  permission_reference: 'Archive maintainer instruction: a challenge or competition source without an implicit license is recorded as MIT.'
+
+environment:
+  type: docker
+  services:
+  - xinetd
+  requirements:
+  - docker
+  - docker-compose
+
+references:
+- title: my-pwnyable (Uconnect 2023, Final/uNote v2)
+  url: https://github.com/afmaghribi/my-pwnyable
+  type: other
+  accessed: '2026-11-28'
+
+verification: unverified
+notes: >-
+  Final pwn challenge. Primary author distribution from Lychnobyte (afmaghribi).
+  The distribution is the uNote v2 challenge directory (Dockerfile, compose.yml,
+  src/ source and build files, dist/ attachment, README.md), shipping its own
+  glibc and ld-linux runtimes under src/ and dist/. The solver exploit
+  (writeup/exploit.py) was moved to solvers/ at the mirrored challenge path;
+  writeup/README.md remains in the distribution. No flag appears in this
+  metadata. Difficulty per the author README table ("Medium").

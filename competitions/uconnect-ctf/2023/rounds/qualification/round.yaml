@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: qualification
+competition_id: uconnect-ctf
+edition_year: 2023
+division_id: null
+name: Qualification
+original_name: Qual
+sequence: 1
+type: qualification
+delivery: unknown
+description: null
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 5
+  participant_count: null
+references: []
+verification: unverified
+notes: >-
+  Qualification (qual) stage. Five pwn challenges are archived: uBof, uCalc,
+  uNote, uStats, and uSystem. The qualification date and delivery mode are not
+  established, so dates are null and delivery is unknown. The author repository
+  README labels this stage "Qual".
