@@ -1,0 +1,85 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-web-001
+name: Bot Rusak
+slug: 001-bot-rusak
+original_name: Bot Rusak
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. A hastily-built web app with a headless bot that visits user pages; the player must exploit the bot to obtain the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- web
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Web Exploitation/bot-rusak
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: b6a82f5b3a816fe8037b0fc17392a840d1ca343a5ebee27b1f068c0dafc76b70
+  - path: dist/bot-rusak.zip
+    algorithm: sha256
+    value: 4f03738ea56fb6c13613340b7572468bd5a0301f47b4c4f26d35f6d67222cf98
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: f08247e6b0c816df25c99f47c000b0ac08e2ef8b75ac1d826ea68339bcc86fbd
+  - path: src/bot/bot.html
+    algorithm: sha256
+    value: 0a1bade3aea688168fa3b4b44ef2212a4bbfc0c2ec4109de2a2388c4fc45a113
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 8c457f28401b7246ed56b202317127330f1a4272178fc5a154b33d397dad981e
+  - path: src/chall/Dockerfile
+    algorithm: sha256
+    value: 7ef276e8acb0ae25f47ff86940cd764edfa1c3761438ea1ff53f50a8135dd4b1
+  - path: src/chall/apache.conf
+    algorithm: sha256
+    value: e33836e05639664685b466defaca8225d7f71f7b1d1a2bccf52dbf55361bf9f1
+  - path: src/chall/flag.txt
+    algorithm: sha256
+    value: e7b08586fbec83cda7c7c51574640ea5c259ea5448fb2eed2616372af848b181
+  - path: src/chall/html/index.php
+    algorithm: sha256
+    value: 19e8d8a573a1d1674728f8a6f4fb43ae9b706e3c3b0cecb721138dc6e02e8624
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b4050a022962249fcab37e3b12784001289ac6decb15c2f11b2514aebac77167
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Web Exploitation/bot-rusak
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

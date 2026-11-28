@@ -1,0 +1,96 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-pwn-002
+name: toxic
+slug: 002-toxic
+original_name: toxic
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Hard kernel pwn challenge. A custom in-memory image and vmlinux are provided; the player must exploit the kernel to read the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- kernel
+- pwn
+authors:
+- name: relster
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Binary Exploitation/toxic
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 19bed5aadd41fc27948192ee4ae28188d339cffd1fa7b0ee20025483a397875a
+  - path: dist/dist.tar.gz
+    algorithm: sha256
+    value: 735496fa61f5b7511f922b6130eb5fa6dedae81fa21cfe42988bfc7e6eb95cb1
+  - path: src/.config
+    algorithm: sha256
+    value: b0e83e6bc4eeec64d26c3b5e1c2c6e67cd8572a9b38628cfd8b94850f2711ffa
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: d7bf8216056189e7aa78ddbc275260bde5194d1b1d0937ba774d8dadb2d52ee5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: a429867d0e05fa06e01971867df4a3c11738600cacc992e66d42c03a3202dbf0
+  - path: src/flag.txt
+    algorithm: sha256
+    value: d32cfca653daa46a8db063dc98395a876865c2b7f652004bfa409c2ea15cb03a
+  - path: src/image.zip
+    algorithm: sha256
+    value: 184c900381bcb85ad88c0618a6002f75c4fe3ef5492fc92029858b08202c276a
+  - path: src/pow.py
+    algorithm: sha256
+    value: e072c70bb3f440bdbb08bc19f7b7a9bfc5efc0406cdb3be69418f702e3be3469
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 3919e434c4c4c838ff9796c548d37a991aa27b9cdba6cdd12dd20b225de35202
+  - path: src/run.sh
+    algorithm: sha256
+    value: 595267e3084201e8612ff1d8d2baba534428b800ed997b4fd0fdbe66a0ac376c
+  - path: src/start-server.sh
+    algorithm: sha256
+    value: fbd6b107d3bf81d31b8cf42f5a6564272972aa72e6d62d6b63e1a1c300c706f4
+  - path: src/start.sh
+    algorithm: sha256
+    value: 59e37dcd5b635707bb0b95b59c21a57bd529dd646e00dab545b61867fa5a3361
+  - path: src/toxic.c
+    algorithm: sha256
+    value: 83d3467d9341743848eb4c13fe3cdb90d2cff2f2be3a4ba690bce3c8f09b4c47
+  - path: src/vmlinux
+    algorithm: sha256
+    value: 3a7d4ecad9cbc472459efdc23bbccae720ad5b5ddc41249e5dcc105ed616fa76
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Binary Exploitation/toxic
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

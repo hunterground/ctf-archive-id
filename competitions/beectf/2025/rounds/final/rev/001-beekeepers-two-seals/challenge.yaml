@@ -1,0 +1,78 @@
+schema_version: '1.0'
+id: beectf-2025-final-rev-001
+name: BeeKeeper's Two Seals
+slug: 001-beekeepers-two-seals
+original_name: BeeKeeper's Two Seals
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Final reverse engineering challenge. A binary with two validation stages; the player must
+  reverse the binary to recover the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- rev
+authors:
+- name: ringoshiro
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Reverse Engineering/beekeepers-two-seals
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solver.c
+    reason: Author solve script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 53104a047a4bd2a3da3e7f03a952d1e66113a4fdb853ffbc6b7b7de100ee5197
+  - path: challenge.yml
+    algorithm: sha256
+    value: d13045f05fa4dc83c252a0c2523b3342844702c611752cbeba5075612614c6ec
+  - path: dist/chall
+    algorithm: sha256
+    value: 8433058ac10075adf262b0b1d048099a096730d2a3221d71765c9fa09c208437
+  - path: dist/output-from-the-binary-is-inside-here.zip
+    algorithm: sha256
+    value: f402b04d6130b2dcb2d3d13c02ef05673a065607da2f628a36bfe0ac0140e4e7
+  - path: src/flag.txt
+    algorithm: sha256
+    value: c718290f31de489cc66523cb8fe2b9350b18a96f448d947c001015e1dd2fb7ad
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Reverse%20Engineering/beekeepers-two-seals
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "medium" label. The author's solver.c was moved
+  to solvers/.

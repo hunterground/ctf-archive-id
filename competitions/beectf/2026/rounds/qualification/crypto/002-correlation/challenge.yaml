@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-crypto-002
+name: Correlation
+slug: 002-correlation
+original_name: Correlation
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge. "Sparse enough to hide in, surely." A correlation-based attack on a sparse generator is implied by the description.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- crypto
+authors:
+- name: red_mito
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Cryptography/correlation
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4d112c4725a1067a4453473f612e6abcf7538cc8a90069ba980561bee7a44b0d
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6d0b01e1610c882781c2229cab43ce00b8fc3585f3dd9b70ef133f3f9b2a7e43
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 600de5a949a16e85a14d619e9d463b0a4b12dfad40c67efedcd18e9d0ca52e6f
+  - path: src/chall.py
+    algorithm: sha256
+    value: 23e426685c1a3fef77a678dc0bcae4526d7d1ffd7320d7ee0ce9c632059d227c
+  - path: src/output.txt
+    algorithm: sha256
+    value: af35c2b815e1a977d274de33dbef9bd895eb6605565020036bb4c8cfc3a8b132
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Cryptography/correlation
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

@@ -1,0 +1,130 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-web-002
+name: Logged-In
+slug: 002-logged-in
+original_name: Logged-In
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: >-
+  Qualification web exploitation challenge. A tax-portal document viewer in PHP; the player must
+  leverage the site's logging mechanism (log poisoning) to escalate from LFI to RCE and access
+  sensitive information on the server.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- web
+authors:
+- name: ivy
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Web Exploitation/logged-in
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: cf4e39ae462a0f95b17df439ce97a49187cbbdda9c658129ff5f5cd27a2884bc
+  - path: challenge.yml
+    algorithm: sha256
+    value: 7d7cd82600e77b4a4a80884a139d9df6deda0906c82fe48dce08dc4e023a2828
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 51e2efc8e7afcea8be41c7c0fde929186d1eff022f9002e2cece134b5054b017
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 433411e6b3a2d4e2feebdf95d8df91c381d21677d2784e31f5959c8eecb9e73c
+  - path: src/start.sh
+    algorithm: sha256
+    value: 68a50b4601b65a892c069e64e69ece9fbd4e76db8ee6c0f3c48e323b80eb175a
+  - path: src/webapp/clear_log.sh
+    algorithm: sha256
+    value: cc7cc60a1e0d9f8c6d350e0482e18625fceadb2f0f08c229e1f7666d9b060d6b
+  - path: src/webapp/config/php.ini
+    algorithm: sha256
+    value: 38680f117219df60c022772ee623d23782679b8b284afe8d954333e2948b9c3e
+  - path: src/webapp/config/vhost.conf
+    algorithm: sha256
+    value: 8cd05519f8b1a65e12245e293c543473fc5c0f6cdabccfa30ba6c9b91d4066d8
+  - path: src/webapp/documents/2023/invoice_2023_445.php
+    algorithm: sha256
+    value: de9729fa764686626edc83ee26e84e3a2fc8fc4ca5215afc02ec6660c426ac81
+  - path: src/webapp/documents/2023/receipt_2023_001.php
+    algorithm: sha256
+    value: bca10718c8ef049f32aea1531fd520423d44d36f82fd1dadf9dba10ec9e792dd
+  - path: src/webapp/documents/2024/annual_tax_2024_summary.php
+    algorithm: sha256
+    value: e1d5196a9022cd68a107b2191f645ebf5ed0cb41a3843351f38e96b1377b717e
+  - path: src/webapp/documents/2024/npwp_2024_abc123.php
+    algorithm: sha256
+    value: d34d433a92bc112fc430487c07e48efc238ef0717aa0d4323bbf349e0433c60d
+  - path: src/webapp/entrypoint.sh
+    algorithm: sha256
+    value: 47fb2dfba7b9bb23bf348bb44bd6b19e1019202b624c0c85e22cdb418dbbe38f
+  - path: src/webapp/flag.txt
+    algorithm: sha256
+    value: 5be707450a4af20df95ab26f234d1582d2fee07c559006ed7a46a4ce3bfbae52
+  - path: src/webapp/public/.htaccess
+    algorithm: sha256
+    value: 74d7c0a057cc6a4e4b762757f8f69194a1249028bff3ede8ed80a66f06494d21
+  - path: src/webapp/public/auth/login.php
+    algorithm: sha256
+    value: e8814be00791aeddb3db98705ec24ebf1d91794a61adc322bd6cac1216505f70
+  - path: src/webapp/public/index.php
+    algorithm: sha256
+    value: 6c97e2eca0d35c796e78b70002e68b8da62507522ec7e0575228e0aff4c5b897
+  - path: src/webapp/public/tax/view.php
+    algorithm: sha256
+    value: ebe6a9adff768952a4258e13af4078adf9505c6756558809c45cfad4c9ba52dd
+  - path: src/webapp/src/Bootstrap.php
+    algorithm: sha256
+    value: 15252f164c5f10f03b99adc14e919c8455aeafb7ef998c8b9f77d6a729a82d41
+  - path: src/webapp/src/Logger.php
+    algorithm: sha256
+    value: a5598cf7c8ddff81b453f4233ff15c482fac7ea79385fb49f587b04c1741b631
+  - path: src/webapp/storage/logs/access.log
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/webapp/storage/logs/app.log
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - http://31.97.187.222:44442/
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Web%20Exploitation/logged-in
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. The empty access.log and app.log
+  are zero-byte files carried in the source tree. No author solve script was present in the
+  source.

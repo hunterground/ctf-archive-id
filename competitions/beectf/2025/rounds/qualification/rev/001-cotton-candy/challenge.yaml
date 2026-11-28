@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-rev-001
+name: cotton-candy
+slug: 001-cotton-candy
+original_name: cotton-candy
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Qualification reverse engineering challenge. The player's files are encrypted after
+  downloading a file from a friend; the player must reverse the encryption (an XOR-based
+  ransomware-like scheme) to recover the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- rev
+authors:
+- name: Lyo
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Reverse Engineering/cotton-candy
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3dbd424639171170cb9e0cadee07813b40d909d3e33f2a9fe98477923a32b468
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1975d01beb65cf1ae1e6130436ee7967ba07550c789d3ba853c9f18e52364ef2
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 7ba019ea367dec0935cf1cecbe5b9656f81ac0088066834c26e9e709121dfa4f
+  - path: src/authentication.txt
+    algorithm: sha256
+    value: 8c37f3c4a7ea1c5cf473f43e76d1dfbae426692324d6ce4bec9d3b9c09eff718
+  - path: src/chall.cpp
+    algorithm: sha256
+    value: ee4587e69d429097ee29eeca9ccfc4aab4a5a014550e737a20e57736fd644023
+  - path: src/file-server/Dockerfile
+    algorithm: sha256
+    value: 2adf757ffdf1e251658b3807022186a33f47a31b76f2c717461c01edb9cfce21
+  - path: src/file-server/run.sh
+    algorithm: sha256
+    value: 8d6c4e80ea5637da24b8c2335ccb0073643bd60776092a689ad6f0fe70471005
+  - path: src/file-server/server.py
+    algorithm: sha256
+    value: be8fbcb7bf818111a8f9df901ade9e5b12767309d9cbcdbd71276cabee860493
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Reverse%20Engineering/cotton-candy
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. No author solve script was
+  present in the source.

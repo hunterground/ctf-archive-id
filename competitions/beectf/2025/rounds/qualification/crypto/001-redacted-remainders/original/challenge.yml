@@ -1,0 +1,29 @@
+name: "Redacted Remainders"
+category: Cryptography
+description: |-
+  It's 4 AM right now and I'm so tired, surely nothing bad will happen if I publish this challenge right?
+
+  Author: ringoshiro
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{b1t5_0f_ch1n3s3_c03ff5}
+
+tags:
+  - medium
+
+files:
+  - dist/chall.py
+  - dist/output.txt
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: beectf-2026-final-forensics-002
+name: Sync
+slug: 002-sync
+original_name: Sync
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: Cloud forensics challenge. A OneDrive sync activity left remnants of a deleted file; the player must find the original filename from the image.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- forensics
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Forensic/sync
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6b726601999a32d13b6137133c069f11a3619ac8a7dc6c898842e42f88bfb1b9
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: f710f5774ca4ae14871aa17e8afce18e86632334a23810fe41e8a613b5b88f48
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Forensic/sync
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

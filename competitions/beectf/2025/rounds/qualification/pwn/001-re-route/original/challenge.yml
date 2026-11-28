@@ -1,0 +1,38 @@
+# Required sections
+name: "Re-route"
+category: Binary Exploitation
+description: |-
+  📞✨ Welcome to the Re-route Customer Service where we will hear every of your problem…  😉
+  Note : if you have problem with debugging make sure to use <b>set follow-fork-mode parent</b> and <b>set detach-on-fork on</b>
+
+  Author: Hazy
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+##### TIDAK USAH DIGANTI
+
+connection_info: nc 31.97.187.222 43013
+
+flags:
+    # A static case sensitive flag
+    - BEECTF{w1th_p1v0t_c0m3s_gr34t_P#w4h}
+
+tags:
+    - medium
+
+files:
+    - dist/chall
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+
+version: "0.1"
+

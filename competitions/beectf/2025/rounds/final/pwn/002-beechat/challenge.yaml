@@ -1,0 +1,102 @@
+schema_version: '1.0'
+id: beectf-2025-final-pwn-002
+name: BeeChat
+slug: 002-beechat
+original_name: BeeChat
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: >-
+  Final binary exploitation challenge. A CLI-based chatting system, BeeChat, which runs on an
+  older glibc build. The player must exploit the binary to gain code execution.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- pwn
+authors:
+- name: Lyo
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Binary Exploitation/BeeChat
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solve.py
+    reason: >-
+      Author solve script moved to solvers/ to keep the public challenge distribution free of
+      the author's solve code.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: fe48a74cbe3fcfb733d1cd6d6b732473fcb9fdccdb0e9791d97522d8f6105173
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: ac45624f36cb274029b08db6bc62f3e4a60dddf1937fc72bb12ad872c4ce13db
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 651fdfd87b01d2105b9c8ef11cd14c0956749148b6cc63ae94e99d61c41eea1e
+  - path: src/chall
+    algorithm: sha256
+    value: b0538ad2a87ff9f8c4d508e9c80cfd2f21e441e7c12c35587fc0490a245b27de
+  - path: src/chall.c
+    algorithm: sha256
+    value: 98bcc34489e0f62f12eaf3df234641a207d1a6f5766efa21cb1dd853c5fd1bef
+  - path: src/compile.sh
+    algorithm: sha256
+    value: c1e7a2615a78b3b3d25db1433e13d79fd2f44999f898c189fe5e8c94390216fc
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 137c90273e177a899f4f3d018590a3197cc858aaea944f1592a49ae9d3fae9eb
+  - path: src/extract.sh
+    algorithm: sha256
+    value: 309e626b9d9ca9fe51c28e90613dd4fc508fc2d5065243e007c8a4248693d022
+  - path: src/flag.txt
+    algorithm: sha256
+    value: b695580a91f1ec0317b931d85012d52beea99c2e997d0e5b0cc6015165434e70
+  - path: src/ld-linux-x86-64.so.2
+    algorithm: sha256
+    value: da5e0c515d6536d59ce5c100ac5359e7f5a5a354f60eeff369a378ba2c80fdcb
+  - path: src/libc.so.6
+    algorithm: sha256
+    value: 38ef7517c9272086865391f855bd52a96712cdf1db942c0d899c9600e4b2173d
+  - path: src/start.sh
+    algorithm: sha256
+    value: 561e2dc2e7df9ecba5b380d94e885fd659f7dc695f47531846b78aff8f9513a0
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 31346
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Binary%20Exploitation/BeeChat
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "hard" label. The author's solve.py was moved to
+  solvers/.

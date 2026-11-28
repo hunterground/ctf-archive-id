@@ -1,0 +1,33 @@
+schema_version: '1.0'
+id: beectf-2022
+competition_id: beectf
+year: 2022
+name: BeeFest 2022
+status: completed
+verification: corroborated
+dates:
+  start: '2022-11-06'
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: null
+references:
+- title: BeeFest 2022 BeeCTF (Muhammad Zaky Adzkiya, LinkedIn)
+  url: https://www.linkedin.com/posts/muhammad-zaky-adzkiya-aa22a5198_ctf-university-cybersecurity-activity-6995668048925925376--lYF
+  type: writeup
+  accessed: '2026-11-28'
+- title: BeeFest 2022 quals - CTF Pal / Security Fest 2022
+  url: https://ctfpal.com/writeups/ctf/security-fest-2022-1669
+  type: third_party_archive
+  accessed: '2026-11-28'
+challenge_materials_imported: false
+notes: >-
+  BeeFest 2022 BeeCTF was the Capture-the-Flag branch of BINUS University's BeeFest, organized by
+  the university's Cyber Security department. It was held offline on 6 November 2022 at the BINUS@Anggrek
+  campus in Jakarta, with qualification and final stages (CTF Pal lists "BeeFest 2022 quals").
+  Participants reported gold and bronze medal results. No official 2022 challenge repository was
+  located; PETIR Cyber Security, the BeeCTF problemsetter organization for 2025+, was created in 2024
+  and its ctf-archive holds only 2024 events, so no 2022 material is present there. Writeups appear in
+  community collections (e.g. 53buahapel/kumpulan-CTF-writeup) as secondary sources only. Challenge
+  materials are therefore not yet imported, and redistribution for any 2022 challenges is
+  unestablished.

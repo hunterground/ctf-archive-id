@@ -1,0 +1,86 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-crypto-002
+name: Rich Man's RSA
+slug: 002-rich-mans-rsa
+original_name: Rich Man's RSA
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: >-
+  Qualification cryptography challenge. A netcat RSA oracle that gives all parameters including
+  d, but the player must work out what is missing from the setup to recover the flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- crypto
+authors:
+- name: red_mito
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Cryptography/rich-mans-rsa
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5b1a1090216140343f2e63b000d73e508a4d7729f01c0738a1a7e224e02a61c2
+  - path: dist/chall.py
+    algorithm: sha256
+    value: fd82a66bbc6acc1d93e147765dc050f24334054d5147163fa543309feb80b4cf
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e545d44aacf144481bf7cc5b805c8a3bc47cfb95774d332c344a99ef410a9a7c
+  - path: src/chall.py
+    algorithm: sha256
+    value: fd82a66bbc6acc1d93e147765dc050f24334054d5147163fa543309feb80b4cf
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: b0065eafe25bbe03c3498aa31ab8bcd306cf63837992bd2ba71fc377c8c5524b
+  - path: src/flag.txt
+    algorithm: sha256
+    value: bc7013d7b8198fdbb6a16e2af2db93d47d8961ce4494dbc8f287c202f4d09cd1
+  - path: src/secret.txt
+    algorithm: sha256
+    value: 6ba5d8ddc56c336325be0e236e70bbce55e7698d42e679ab49229ca98a4ec1ee
+  - path: src/start.sh
+    algorithm: sha256
+    value: 77c98e35c6d3c06b7bf9320e5e4dc81a84f40c358f786fb509a708eff4d3ff73
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 5959
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Cryptography/rich-mans-rsa
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "easy" label. No author solve script was present
+  in the source.

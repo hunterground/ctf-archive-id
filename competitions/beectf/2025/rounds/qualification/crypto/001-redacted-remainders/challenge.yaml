@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-crypto-001
+name: Redacted Remainders
+slug: 001-redacted-remainders
+original_name: Redacted Remainders
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: >-
+  Qualification cryptography challenge. The player must recover a message from redacted
+  remainders (a hidden-number / partial-information attack) to retrieve the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- crypto
+authors:
+- name: ringoshiro
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Cryptography/redacted-remainders
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: aa7d4732cc1f37c7e1e46d069f38db3c5642495ceba4cfa07aa0a355755be783
+  - path: challenge.yml
+    algorithm: sha256
+    value: 07e583238f13b05d6898cc3f5fb441708d6fa9f42aa5bd28dce3f3dd5f265989
+  - path: dist/chall.py
+    algorithm: sha256
+    value: da091f24a282fd0f25785428c0a933933400a5fb7534ab9ebc181c4a6109ceb7
+  - path: dist/output.txt
+    algorithm: sha256
+    value: a14df11f3cfc077c9b58c546668cb0c389eab7f65865ab3911d7cbf50634f152
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Cryptography/redacted-remainders
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. No author solve script was present
+  in the source.

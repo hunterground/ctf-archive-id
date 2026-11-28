@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: beectf-2026-final-crypto-001
+name: Close Enough
+slug: 001-close-enough
+original_name: Close Enough
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge. "Small changes make a big difference" implies a bit-flipping or fault-based attack on the provided ciphertext.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- crypto
+authors:
+- name: red_mito
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Cryptography/close_enough
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9e788d68a380709343acbad3d93148e334b1bf00dd8ac02b1802b1aaaf816812
+  - path: challenge.yml
+    algorithm: sha256
+    value: 6aac03cfca456b66c51e6054db8c47678feca4ac9a92f2b16880d073e3aaaded
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 9ce8f8bed30c2ddf789ff9d6629650be0ef2f03683b4bd4cf8bdc704300a1f68
+  - path: src/chall.py
+    algorithm: sha256
+    value: 66faadfcee2c089266554c0630b5f48daca570f8d91054cb5cc73a49cf826f9a
+  - path: src/output.txt
+    algorithm: sha256
+    value: 345aef4314af00c9fb0da1c93ab22fc7df8ee106d610627770d005afc745a1b6
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Cryptography/close_enough
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

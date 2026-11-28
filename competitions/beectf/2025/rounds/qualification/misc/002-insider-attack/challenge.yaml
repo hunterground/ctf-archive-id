@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-misc-002
+name: Insider Attack
+slug: 002-insider-attack
+original_name: Insider Attack
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: >-
+  Qualification OSINT/misc challenge. An insider ("mole") from an enemy company fled with stolen
+  information leaving only a CV behind. The player must track down the real name and hiding
+  place (plus code, city, country) of the attacker by investigating fake info and online
+  footprints.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- misc
+- osint
+authors:
+- name: LONEL
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Misc/insider-attack
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 316c1e8f5bd9a81a1cec3d0ae290cbd10798747ff148b89e16930b8be8c05823
+  - path: challenge.yml
+    algorithm: sha256
+    value: f30fa075c772ec686ef2a29377e9a76ae42e960c75f5b0e4b962273e3eb25382
+  - path: dist/insider-attack-cv.pdf
+    algorithm: sha256
+    value: 273cfee061aa81ec771d5492c726d5ffc53650d071eb6bd008dc0621c4627dab
+  - path: src/insider-attack-cv.pdf
+    algorithm: sha256
+    value: 273cfee061aa81ec771d5492c726d5ffc53650d071eb6bd008dc0621c4627dab
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Misc/insider-attack
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. The README contains a full
+  step-by-step writeup. No author solve script was present in the source.

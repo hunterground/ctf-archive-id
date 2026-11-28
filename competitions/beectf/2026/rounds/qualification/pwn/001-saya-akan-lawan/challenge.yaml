@@ -1,0 +1,101 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-pwn-001
+name: Saya akan Lawan
+slug: 001-saya-akan-lawan
+original_name: Saya akan Lawan
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Owi terus dihujat netizen, tetapi ia tetap diam. The player must break the program's patience mechanic to obtain the flag. A pwn challenge exposing an 8-byte overflow on a function pointer that leads to a format-string primitive.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- pwn
+authors:
+- name: pecinta jamu
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Binary Exploitation/saya_akan_lawan
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d1e4416475ca66232384d07f1b34f24f22bba60a51445014a56f701ddd2c51e5
+  - path: challenge.yml
+    algorithm: sha256
+    value: d3da5bf7d62821fd01ad430b077c5e12576cb7b099ea43096f99886dd8594688
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: c2e15eb111e18bf4181c450d7c8d9fa82244767c2072b74a13a3df730e13f97e
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 35f3ef4e51addc81d8a120b2c03f2127914e293b2f3965d0498ab66cc1fb48fd
+  - path: src/bot.c
+    algorithm: sha256
+    value: 4c82f43196544ce6642bf8c9feb7dbdd4750339895ceaa4fa2d6df6afe5123a1
+  - path: src/bot.h
+    algorithm: sha256
+    value: f12899c88636398f060e8071260525e3cea2eb000bfa454404cc684c27820b91
+  - path: src/chall
+    algorithm: sha256
+    value: e7b2f83d2a5c0e8b3aea02b5dc87b50357648ba1a5b7a0d78dbc038b966b88ed
+  - path: src/chall.c
+    algorithm: sha256
+    value: 5c221fdaf7c6984f3a6a8d25c7998b2d8787d83c12179387032cf0f91f8dbb23
+  - path: src/compile.sh
+    algorithm: sha256
+    value: b6b719b7403dff49b8dd5401f5ee00dd34cfe5b17a2147c0ebc4b989ac9ab5c7
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: ac6791d8f84a184022bdc44f76ac2f120b95d710ec7225fedfdced655fa7c504
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 0b1e07f64739ddd8b6fb9c994ef7765e41ad86c9f9bb503cfb9d33afde4d7f80
+  - path: src/run.sh
+    algorithm: sha256
+    value: b2c208fd00d8e140fd69628990aecad844580a25cf37060e4d2983679c027faa
+  - path: src/setup.c
+    algorithm: sha256
+    value: 22e5b2bc2fb087d8da94bca7d8cab8ed94e62b860760990c622daa9e1080e55c
+  - path: src/setup.h
+    algorithm: sha256
+    value: 948c15e5f1dfe5bb55024756f065bcb2cfbb34d66cd8aa4cf8b49e8845dffe9f
+  - path: src/start.sh
+    algorithm: sha256
+    value: b405f66d9c6939cb6397c3f7056a632478ab4cb432d96ae4bc484e541be4c395
+  - path: src/xinetd
+    algorithm: sha256
+    value: fa6180e5679cc0bae7d1f064d6d391692cd9627b6bb947c003e50cbc0f0aed04
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Binary Exploitation/saya_akan_lawan
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

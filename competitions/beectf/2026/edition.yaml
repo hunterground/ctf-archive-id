@@ -1,0 +1,36 @@
+schema_version: '1.0'
+id: beectf-2026
+competition_id: beectf
+year: 2026
+name: BeeFest 2026
+status: unknown
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 25
+references:
+- title: BeeFest - School of Computer Science BINUS
+  url: https://socs.binus.ac.id/category/beefest/
+  type: official_website
+  accessed: '2026-11-28'
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual
+  type: official_repository
+  accessed: '2026-11-28'
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: >-
+  BeeFest 2026 was held by BINUS University in collaboration with the PETIR Cyber
+  Security team. The cybersecurity branch, BeeCTF, is aimed at high-school students.
+  Twenty-five challenges were imported from the official problemsetter repositories:
+  fifteen qualification challenges from PETIRsec/beefest-2026-qual and ten final
+  challenges from PETIRsec/beefest-2026-final (neither carries a LICENSE file; treated
+  as MIT per archive policy). Registration for the 2026 competitions, including Bee
+  Capture the Flag, was 17 June through 24 August 2026. The competition date was not
+  stated.

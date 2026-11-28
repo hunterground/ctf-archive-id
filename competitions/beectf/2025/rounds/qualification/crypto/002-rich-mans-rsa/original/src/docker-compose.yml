@@ -1,0 +1,8 @@
+services:
+  richman-rsa:
+    build: .
+    restart: unless-stopped
+    environment:
+      - TERM=xterm
+    ports:
+      - "5959:5959"

@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: beectf-2025-final-crypto-001
+name: BCC
+slug: 001-bcc
+original_name: BCC
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: >-
+  Final cryptography challenge. "Beelliptic Curve Cryptography" (BCC) is a fictional ECC-based
+  scheme. The player must exploit weaknesses in the BCC implementation to recover the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- crypto
+authors:
+- name: ringoshiro
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Cryptography/bcc
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 856acfccf9cf60073cd9fbe97a0895ee24ed24d7fdd6bd1fe3c1726891b21bba
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5195d4c212ad6de062d891f16d65aeeea81dbfe9f8fc732507763c1b9cc05e19
+  - path: dist/chall.py
+    algorithm: sha256
+    value: 349f7c400c2032a77d0088432d73de3ce977f37ba3214a62254cf7b4336bc9ea
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 669ff67ab5cca8f94d890e1be7ea82d363ef6289e96bdb5598bcc20082b3a6bd
+  - path: src/flag.txt
+    algorithm: sha256
+    value: b3358c6b2a00a449e7db16ba088324b041b6fc30b2564b902bc141a91e8b772b
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Cryptography/bcc
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "medium" label. No author solve script was present
+  in the source.

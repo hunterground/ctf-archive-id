@@ -1,0 +1,14 @@
+services:
+  graph-of-trust:
+    build: .
+    image: graph-of-trust
+    ports:
+      - "2322:3000"
+    environment:
+      FLAG: "BeeCTF{kat4_auric_harus_c0b4_sancha_tap1_aku_ootea_t3rus}"
+      JWT_SECRET: "czXHz1CStbXEWdDH"
+      TERM: xterm
+    ulimits:
+      nproc: 65535
+      core: 0
+    restart: unless-stopped

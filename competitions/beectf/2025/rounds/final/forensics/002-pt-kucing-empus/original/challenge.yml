@@ -1,0 +1,29 @@
+name: "PT. Kucing Empus"
+category: Forensics
+description: |-
+  Anda sebagai ahli digital forensic ditugaskan untuk menyelidiki insiden pencurian data di PT Kucing Empus. Insiden ini dimulai ketika Shola, seorang dari Departemen Keuangan, melaporkan bahwa komputernya berjalan sangat lambat. Secara bersamaan, sistem deteksi intrusi (IDS) perusahaan menandai adanya aktivitas jaringan yang aneh dan tidak sah yang berasal dari komputer Shola.
+  Investigasi awal oleh tim tingkat pertama menemukan sebuah email phishing di inbox Shola yang menyamar sebagai tagihan mendesak. Tanpa curiga, Shola mengklik tautan di dalam email tersebut. Tautan itu mengarahkannya untuk mengunduh sebuah file yang kemudian ia jalankan.
+  Setelah file tersebut dieksekusi, tim tingkat pertama mendeteksi adanya unggahan file yang dari komputernya Shola ke sebuah platform publik. Ternyata penyerang telah mencuri file yang sangat penting dan rahasia. Tetapi bodohnya si hacker ini tidak sengaja memberikan link ke tempat ia menyimpan file hasil curiannya, dan Shola sempat membukanya tetapi komputernya tiba tiba hang, untungnya tim digital forensic tingkat pertama berhasil ngedump memory nya.
+  Tugas anda adalah temukan tempat penyerang menyimpan file hasil curiannya untuk memulihkan aset rahasia perusahaan.
+
+  Download link: https://drive.google.com/file/d/1vYcKCtpHj0sRbwqFTN8o30duejfxQcch/view?usp=drive_link
+  <br>
+  Password: dWRpbmdhbnRlbmdzZWR1bmlh
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{what_does_pebe_in_ud1npebe_stands_for?}
+
+tags:
+  - medium
+
+state: visible
+
+version: "0.1"

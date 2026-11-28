@@ -1,0 +1,36 @@
+name: "Baratie"
+category: Binary Exploitation
+description: |-
+  I'll go to the sea and become the world's best chef, and then I'll find the All Blue!
+
+  Author: Lyo
+
+##### TIDAK USAH DIGANTI
+value: 500
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 20
+    minimum: 100
+##### TIDAK USAH DIGANTI
+
+connection_info: nc 31.97.187.222 13375
+
+flags:
+    - BEECTF{It_do3snt_ma7ter_if_y0u_spend_10_thous4nd_berries_or_one_million_b3rries_y0u_should_never_wast3_f0od}
+
+tags:
+    - easy
+
+files:
+    - dist/baratie
+    - dist/Dockerfile
+
+state: visible
+
+# Specifies what version of the challenge specification was used.
+# Subject to change until ctfcli v1.0.0
+
+version: "0.1"
+

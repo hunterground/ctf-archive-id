@@ -1,0 +1,10 @@
+version: '3'
+services:
+  pivot2plt:
+    image: pivot2plt
+    build: .
+    restart: always
+    environment:
+      - TERM=xterm
+    ports:
+      - "43013:43013"

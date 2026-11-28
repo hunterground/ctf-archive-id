@@ -1,0 +1,125 @@
+schema_version: '1.0'
+id: beectf-2026-final-web-001
+name: Graph of Trust
+slug: 001-graph-of-trust
+original_name: Graph of Trust
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. A GraphQL web application exposing a trust graph that the player must traverse to obtain the flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- web
+authors:
+- name: eve
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Web Exploitation/graph-of-trust
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: b0da1a1b76afbb669d043858d755b9439e0f5cc0fc8763f33503e20a5c880fea
+  - path: challenge.yml
+    algorithm: sha256
+    value: dbe93ae054ecb79e1e85ca91c70d309cd21d0f638f65bb59342383160a6ff8b0
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: ce74789ea3995df588cba4a2a1abd865109b84d3caa4d92de4f6b850a9ee23b7
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 3f18bb78aa1ef783fd3e18d55f2c911b8055b229539e7d95d0cfb869c1d2315d
+  - path: src/db/schema.sql
+    algorithm: sha256
+    value: a0a119a4839aab2f029e2ee4f9bfedf585f560ecbe6c81bc15efbeee631cfc1e
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 93a36827db6ceb842d22ba196265fd1f5d64a8c6e6da3677801a8c3e6a2abe50
+  - path: src/package-lock.json
+    algorithm: sha256
+    value: 6678a100570ccb30e732fef2a50385f27f3c296c46fcdb58acd31e35a556d4f3
+  - path: src/package.json
+    algorithm: sha256
+    value: fe03a1c6b8ed09a447ce824de6da2a84e1febb051016f5035ce66c3c5d08b9a4
+  - path: src/public/app.js
+    algorithm: sha256
+    value: de8653b7a2367dd8c32ef855c272cf3d875c04e6a699306c6b63484c59bf6ef6
+  - path: src/public/index.html
+    algorithm: sha256
+    value: ae58f02a6e6cd69ae3f6bbf182325b319e741e634b5da9c40a06d8774e249852
+  - path: src/public/styles.css
+    algorithm: sha256
+    value: 0495c5c0e22e08400b194fa6a8191eb1576f3c2c4f489401606624d544947be1
+  - path: src/src/auth.js
+    algorithm: sha256
+    value: 5e071b56f3734ece225314fff1aef604d6a9ddf87fe1cc73e44caefeb5c3be87
+  - path: src/src/db.js
+    algorithm: sha256
+    value: 7377e7b822bdfd1073827966d6531a59b80f0653de8413d28735682354d16330
+  - path: src/src/index.js
+    algorithm: sha256
+    value: c6960cd711a36158533a6f956dd11225eb8d1f24845787270528406984ef97aa
+  - path: src/src/registration.js
+    algorithm: sha256
+    value: f810d7a146889413a4e8f7910a24f78cebef6c98bd668d51abadd580a6b3d932
+  - path: src/src/resolvers/department.js
+    algorithm: sha256
+    value: 96d4719a153bedbf70b2e30517d874a25a659b361d69d1d9e9ec82a77a18055c
+  - path: src/src/resolvers/index.js
+    algorithm: sha256
+    value: 184ebe8cdd5fd8b445e4770f5f7d2f6a01b129c57a6cfbc69f54212ad6346596
+  - path: src/src/resolvers/mutation.js
+    algorithm: sha256
+    value: 3cf08d9bb9b21f0253749d795e046a889c6c946c392521d6e4d3ff4cde88e0ca
+  - path: src/src/resolvers/profile.js
+    algorithm: sha256
+    value: 27647fac4208b0e04b5608f0bd061cfeb7f0a14e4fbab9a14eed1c066285c23b
+  - path: src/src/resolvers/query.js
+    algorithm: sha256
+    value: 2e4eff6a89224df141e0824ca25c18cb06749da23b728cd2151e9ad12e7c0f2a
+  - path: src/src/resolvers/user.js
+    algorithm: sha256
+    value: a9d63efeaae4cb50a097193ffdbb293508a0dbfd541b287e469ce974a74ae70b
+  - path: src/src/schema.js
+    algorithm: sha256
+    value: 56f6e4b77eaeab8d43bed5402eaae5071034167b1fcb9d1695a6b4cb0b9c41f3
+  - path: src/src/seed.js
+    algorithm: sha256
+    value: 427662174af7078768c266aaf372a2712fa94b577b5bf3af903d4f44b32e3dac
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Web Exploitation/graph-of-trust
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

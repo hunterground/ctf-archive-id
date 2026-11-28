@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-pwn-001
+name: Re-route
+slug: 001-re-route
+original_name: Re-route
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: >-
+  Qualification binary exploitation challenge themed as a customer-service "Re-route" phone
+  line. The player must exploit a forking binary using a stack pivot and return-to-PLT technique
+  to gain code execution. The author suggests setting follow-fork-mode parent and detach-on-fork
+  on while debugging.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- pwn
+- pivot
+- ret2plt
+authors:
+- name: Hazy
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Binary Exploitation/Re-route
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/exploit.py
+    reason: >-
+      Author exploit script moved to solvers/ to keep the public challenge distribution free of
+      the author's solve code.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 9d380c7b28759a3e875b22b80179a65fa64c8b0696bfda945d4c0aadc9c69825
+  - path: challenge.yml
+    algorithm: sha256
+    value: a3053ab60fd2856400b1988a76c3e03c04d3b6f645eccdb108f417e15431756a
+  - path: dist/chall
+    algorithm: sha256
+    value: d158c0cc25135cdacad99d85725836cc08ef36c48bc5cfed0bcb77980ea55dec
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5a873e95e744f6d83aa92f22aa7b52df3eb77693a17afda6329538dacc506b50
+  - path: src/Makefile
+    algorithm: sha256
+    value: 7e8c2698fc029c1cf8f44fb498d58690e33ae8045b8d45fce6ddbfe90216cee3
+  - path: src/chall
+    algorithm: sha256
+    value: d158c0cc25135cdacad99d85725836cc08ef36c48bc5cfed0bcb77980ea55dec
+  - path: src/chall.c
+    algorithm: sha256
+    value: 160caf115f58b9ba3640cb8d11b8d219537181e685dfd6ab5879d32c1d48db83
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: 3afb2b3f804edaa5dd5ccec6e845e665c2b5d59c5ed6074fb577fdad08e5412a
+  - path: src/flag.txt
+    algorithm: sha256
+    value: c2dca985cc848ad80b22e6b1ddd1a00b3f8857c46e086e1cbff3d01361dd2fd2
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+  - path: src/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 43013
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Binary%20Exploitation/Re-route
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. The author's exploit.py was moved
+  to solvers/.

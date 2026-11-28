@@ -1,0 +1,87 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-web-001
+name: Message To The World
+slug: 001-message-to-the-world
+original_name: Message To The World
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: >-
+  Qualification web exploitation challenge. A Flask SSTI (server-side template injection)
+  challenge; the player must inject a template payload to read the flag file.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- web
+- ssti
+authors:
+- name: Who_Am_I
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Web Exploitation/Message To The World
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 3c93e9ec056b9afbdbbd9778db8e1ec844153b27071c4f047b3e118619c62b51
+  - path: challenge.yml
+    algorithm: sha256
+    value: f970ff0ad2a40b162dfcdd6f3f32b1ed3aca912432a24273ce8fd75667274c5c
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 8b7ca13acedbd7104a2327e7a9b33e69ea69a5299b11fd28c59a483ee493a6b3
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 7f953addcdcb315afebae52fb6e557434460ce2820b24b1f237c2aaf9e7fc633
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: ddec30fb0f9750f1a403ffef705517d77fbcae3581363480ced2539d247c8e5e
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 95af17689ea02e053b07818a3e0b117420a6b795d2be916af511e38db1a363da
+  - path: src/src/app.py
+    algorithm: sha256
+    value: c093c258cd6e0f35c09e04491e8fed75d86b4373f3ce447dc090f00d75a9cc36
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - http://31.97.187.222:5000
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Web%20Exploitation/Message%20To%20The%20World
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "easy" label. The README documents the SSTI
+  payload. No author solve script was present in the source.

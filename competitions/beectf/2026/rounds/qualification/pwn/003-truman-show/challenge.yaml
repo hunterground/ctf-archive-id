@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-pwn-003
+name: truman show
+slug: 003-truman-show
+original_name: truman show
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: Pwn challenge themed on The Truman Show. A binary plus source and flag attachment are provided over the network connection.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- pwn
+authors:
+- name: midn8
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Binary Exploitation/truman-show
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: f9a568417ee636b8f3ad53619b9dea046a4fdbd5a88a05c074b57a1f5544d4ce
+  - path: challenge.yml
+    algorithm: sha256
+    value: a5497bd7434ac0d17dc119ca0f609c53b46257700f08885bf94db6f63c7a5681
+  - path: dist/flag.txt
+    algorithm: sha256
+    value: 3cbd8c93c74369c79d3b4aed9a84da1c1f4a02e0352f480f78161e1e804ed740
+  - path: dist/libc-2.31.so
+    algorithm: sha256
+    value: 45da41d458c90f934a4d79bc9147871c50f36f2ffac28b0d15ee6aec869faba0
+  - path: dist/truman
+    algorithm: sha256
+    value: 8ce6b1401884b440c9085ec797131d497c22266bd3da05b2b9a16b8a7bc684fb
+  - path: dist/truman.c
+    algorithm: sha256
+    value: 24f005a11a9bac6eee12a2f9d62a03a77e3334cef70858513520e1725895ac27
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: e7d6deefa5928a540a8471fff99acedfd73348a41e7e1a7a0f75329a877b4687
+  - path: src/compile.sh
+    algorithm: sha256
+    value: 67ac68cce13fef85671ebcb9deeb301669a8cdd0d631f546dfdcd8cd696922e2
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 58dcb649995c0bb5dacb79d79372194d1f6603c732df72209d7f5dc59f2be891
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 52178f64f96aa7124e078b4dcb015199509678f738255e6205be2f76ef3805c0
+  - path: src/start.sh
+    algorithm: sha256
+    value: 8747ca0e6183839de5aab0f194d6d6432675496f82990ea891eb60f52deab78b
+  - path: src/truman.c
+    algorithm: sha256
+    value: 24f005a11a9bac6eee12a2f9d62a03a77e3334cef70858513520e1725895ac27
+  - path: src/truman.xinetd
+    algorithm: sha256
+    value: 4cda7fbe83c8f2e35cd411a098623bd06d06995a4666682638a24e406b466f6f
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Binary Exploitation/truman-show
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

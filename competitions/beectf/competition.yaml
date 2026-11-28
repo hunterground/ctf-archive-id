@@ -1,0 +1,26 @@
+schema_version: '1.0'
+id: beectf
+name: BeeCTF
+country: ID
+organizer:
+  name: BINUS University
+  website: null
+website: https://socs.binus.ac.id/beefest/
+description: BINUS University competition series. Its cybersecurity branch, Bee Capture the Flag, is held
+  for high-school students.
+metadata:
+  established_year: 2022
+  recurring: true
+status: active
+verification: corroborated
+references:
+- title: BeeFest
+  url: https://socs.binus.ac.id/beefest/
+  type: official_website
+  accessed: '2026-11-21'
+notes: >-
+  BeeCTF is the Capture-the-Flag branch of BINUS University's BeeFest series, aimed at high-school
+  students. A 2022 edition (BeeFest 2022) is corroborated by participant reports and a community
+  writeup collection; it was held offline on 6 November 2022. The 2026 announcement page reviewed here
+  does not say whether every intervening year used the same name. The CTF format label (jeopardy-style)
+  was not explicitly stated.

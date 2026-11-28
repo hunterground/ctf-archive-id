@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: beectf-2025-final-pwn-001
+name: And Revive The Arithmetic
+slug: 001-and-revive-the-arithmetic
+original_name: And Revive The Arithmetic
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: >-
+  Final binary exploitation challenge. The player must exploit a calculator-style binary,
+  chaining a GOT overwrite to leak libc and pivot control flow to system. The challenge
+  description is in Japanese: "私が直々に相手をしてやろうお前たち BEECTF FINALIST の実力".
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- pwn
+authors:
+- name: MikiMiku
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Binary Exploitation/And Revive The Arithmetic
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/pwnpwn.py
+    reason: >-
+      Author exploit script moved to solvers/ to keep the public challenge distribution
+      free of the author's solve code.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 31cdfd6cb7ced6511fff148ecf53cea1797d5a79b38b0a5d30e119771932c5a2
+  - path: challenge.yml
+    algorithm: sha256
+    value: fe138d8d2276bfcc16af8f86b8577e71fa6711ed5402fc18dd8718f5f9fe05bf
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 0982b4070631a01857b61b4fdc2f9c33d5d7501098dd347236007b8ed11ee9ab
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 30225114acc6119a3d298fb4ef02ba5e3557297335268c00e71913214572715f
+  - path: src/banner.txt
+    algorithm: sha256
+    value: 770d174ed07a793bd522fc02d903ad62b51acecb5321da0976e126dd7cd4b4da
+  - path: src/chall
+    algorithm: sha256
+    value: a217f5699af426bae40e385395130ebfa9257b68a8c47a355b488f5e2ee5bcdc
+  - path: src/chall.c
+    algorithm: sha256
+    value: 47e52c5553cc913e8daa5378ee6f39629e117261fef0c6eb716806885e48f314
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 8de267b8007ab000f93e0955280018a7f32582e30ffdda19cad38c7194eb120f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: 2a62bacfdc60b6a2187ceec4a76bcaae6ac0052596631daaa2fc1e8de05805c2
+  - path: src/setup.sh
+    algorithm: sha256
+    value: 688ae3df822cb68a8fbfeacf767309b460e23394bb6393a17a7f3f777b8e524c
+  - path: src/start.sh
+    algorithm: sha256
+    value: d8a0563b60865034dd2bdbd5ecff10743219a8949f8e124e7cdeac33ca9b3428
+  - path: src/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 31345
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Binary%20Exploitation/And%20Revive%20The%20Arithmetic
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "medium" label. The author's exploit script
+  pwnpwn.py was moved to solvers/.

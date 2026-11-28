@@ -1,0 +1,59 @@
+schema_version: '1.0'
+id: beectf-2026-final-rev-001
+name: In Chaos
+slug: 001-inchaos
+original_name: In Chaos
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: Reverse-engineering challenge tied to a linked music video. The player determines the answer and wraps it in the flag format.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- rev
+authors:
+- name: Auric
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Reverse Engineering/inchaos
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 9e8577414117533cbadc0346c38cee6ae3f7c8441c35bd1c89727dc240890857
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 6986274837718acfaa6417b430b9e22b5722af78a49d46b1d1f243091d3f97e4
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Reverse Engineering/inchaos
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

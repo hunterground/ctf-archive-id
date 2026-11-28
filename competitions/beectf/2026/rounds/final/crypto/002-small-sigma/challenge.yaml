@@ -1,0 +1,66 @@
+schema_version: '1.0'
+id: beectf-2026-final-crypto-002
+name: small sigma
+slug: 002-small-sigma
+original_name: small sigma
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge themed around a sigma song. The key is too small, so the player brute-forces or reduces the parameter space to recover the flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- sigma
+- crypto
+authors:
+- name: kavakoss
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Cryptography/small-sigma
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 2749eb2a3f38703ffc35794e63821406a7d7d03641df8bfe42efab872719a114
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4519d4201f361d02f51a04e3a2b0f640b7b81bba27386d9d4591f71da5b881c8
+  - path: dist/chall.py
+    algorithm: sha256
+    value: fe26f67467262dc857e88f99a9ba88e882c1abcf71a13c4f759d3361add6c35c
+  - path: dist/output.txt
+    algorithm: sha256
+    value: 12e92995535975a978938343d73cb23e0b7496a71503409442ea7dee9236723d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Cryptography/small-sigma
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

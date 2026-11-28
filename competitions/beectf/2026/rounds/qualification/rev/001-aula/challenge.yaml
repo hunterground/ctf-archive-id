@@ -1,0 +1,56 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-rev-001
+name: Aula
+slug: 001-aula
+original_name: Aula
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Android reverse-engineering challenge. Two APKs are hosted on a remote instance; the player must reverse them and build a zero-permission APK that walks across the device.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- rev
+authors:
+- name: lawbyte
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Reverse Engineering/aula
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: c306337dfc2b47a2f3e060efca210056351f29a289701a817ed37ec60ba34fc3
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Reverse Engineering/aula
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

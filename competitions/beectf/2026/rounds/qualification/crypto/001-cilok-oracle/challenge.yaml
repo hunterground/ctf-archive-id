@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-crypto-001
+name: Cilok-Oracle
+slug: 001-cilok-oracle
+original_name: Cilok-Oracle
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: AES padding/block oracle challenge themed around a cilok vendor. The player exploits the incorrectly chained CBC-style blocks to recover the encrypted secret recipe.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- crypto
+authors:
+- name: kyr0
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Cryptography/Cilok-Oracle
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 8d9f1b5649dfa28fdc432aba09b65e59e93c90ee4f238295aa51b5bb6374f0df
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 661d41da08fbc99a53d6b61ba319df47f925ec1fe4ca69d23fb38bc11ee18f66
+  - path: src/chall.py
+    algorithm: sha256
+    value: 168ba2ce194aff35c93f3f8b87c87b344023ff396f0c10f31d04e8c88076a666
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 493d00ea55a2eb296db23e246b6a2e9b8472fe1845cea8bd868a2614d0a4b10f
+  - path: src/flag.txt
+    algorithm: sha256
+    value: aa5330185f41ecd995204c09a9e38a96abacb582b507273cbdf54ddce87c1668
+  - path: src/start.sh
+    algorithm: sha256
+    value: 04407ef7f85bd929c2724fb503d3b77c8d56cb945fee785ada06c6f8b0ce77af
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Cryptography/Cilok-Oracle
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

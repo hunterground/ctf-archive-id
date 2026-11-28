@@ -1,0 +1,30 @@
+name: "Rich Man's RSA"
+category: Cryptography
+description: |-
+  I gave you all the parameters, even **d**. But… I think I’m forgetting something.🤔
+
+  author: red_mito
+
+connection_info: nc 31.97.187.222 5959
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{list=OLAK5uy_mXh8F8U9AdZJLT4pDrcsWSL-EGqbklxgU}
+
+tags:
+  - easy
+
+files:
+  - dist/chall.py
+
+state: visible
+
+version: "0.1"

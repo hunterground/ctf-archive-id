@@ -1,0 +1,118 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-misc-001
+name: An Audience with the Fontaine Archon
+slug: 001-an-audience-with-the-fontaine-archon
+original_name: An Audience with the Fontaine Archon
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: misc
+original_category: Misc
+description: >-
+  Qualification misc challenge themed on Furina de Fontaine from Genshin Impact. A live2d chat
+  web app; the player must steer a conversation with Furina's AI to reveal her "divine password"
+  (the flag), possibly by clicking the live2d model and using a prompt-injection payload.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- misc
+authors:
+- name: Who_Am_I
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Misc/An Audience with the Fontaine Archon
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: .gitignore
+    algorithm: sha256
+    value: f1a9a09b226cf8e98a4286200c5d9ebd5c28924707ac3317947f8ecf06ab167b
+  - path: README.md
+    algorithm: sha256
+    value: 817705b01271be11ddd71580df8a2655a9a55bc40af7218de2903ecbe2b86d9d
+  - path: challenge.yml
+    algorithm: sha256
+    value: b34409f8c847f9b0484cd2eaa26f704eca3e81367769f4a8cbffda569f45d242
+  - path: src/backend/.env
+    algorithm: sha256
+    value: 3f68640edc83019d840aaac5541f98a1ccba72c218c1bc00833393b4e257e923
+  - path: src/backend/Dockerfile
+    algorithm: sha256
+    value: 275361a10c36be2ec183be4cde6b70f6f780a362d39e3129b78f9757b79f8f24
+  - path: src/backend/package-lock.json
+    algorithm: sha256
+    value: 18555f1c58ee57c53bfa7a6fc50afb5cc848989d94b3e52e645c5f9fba62efe4
+  - path: src/backend/package.json
+    algorithm: sha256
+    value: d616fc18faf08b18569f8e075fbaf1519fea3314b9335ee0d4ee0b963be394ed
+  - path: src/backend/server.js
+    algorithm: sha256
+    value: 44a8a392472bdc8e54ba57834a50ee9511aee8c0c8b15adfde0c60a7f007c86d
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 8cedb907f6848250938987b5c05f1bcc8211bce463857f97608a152383e554cd
+  - path: src/frontend/Dockerfile
+    algorithm: sha256
+    value: 00d159f72fbb9a2448ad521c71a66e526c4d5a2fe20d91b4094974c7e2c3ecf5
+  - path: src/frontend/nginx.conf
+    algorithm: sha256
+    value: ddfc98479fca451d9c5fa4af179168a191c05d5218a75d4d17eae6c983a8e88e
+  - path: src/frontend/public/final_icon.png
+    algorithm: sha256
+    value: 3661c08302df4ac847c82d83971e7c7d2a27ef3b4f12be1638f04c27c9a4334b
+  - path: src/frontend/public/furina_about_me.jpg
+    algorithm: sha256
+    value: 86019bba5cb0634ae3db7ee318df0ed26c75fcbc1b9daf1503e6336f690fc79b
+  - path: src/frontend/public/index.html
+    algorithm: sha256
+    value: aba4d46f067c247097108a4a5b1234ca0d46056a1eb6ef026c73a9693712e17b
+  - path: src/frontend/public/live2d_furina.js
+    algorithm: sha256
+    value: d39b259a7f7f8a3046cd223b1b2855ccc6cd4d0929fac45e37ec4c4548e0d10f
+  - path: src/frontend/public/script.js
+    algorithm: sha256
+    value: 63ab2b1111ded4ed2ff2e676b7e4c75a618bc16c6083c344e0a5b5980ec69aed
+  - path: src/frontend/public/style.css
+    algorithm: sha256
+    value: 3e046dc0cdf413dcf2ed9a4eb84aee43ee0a2e1f042866f17f7ba83e276270a8
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - http://31.97.187.222:9000
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Misc/An%20Audience%20with%20the%20Fontaine%20Archon
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "easy" label. The Live2D model texture/assets
+  are large; the sub-directory Furina/Furina.8192 was preserved as-is in original. No author
+  solve script was present in the source.

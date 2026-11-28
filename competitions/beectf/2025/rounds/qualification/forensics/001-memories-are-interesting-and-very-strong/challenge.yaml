@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-forensics-001
+name: Memories are interesting and very strong
+slug: 001-memories-are-interesting-and-very-strong
+original_name: Memories are interesting and very strong
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: >-
+  Qualification forensics/DFIR challenge. Mr. Udin keeps passwords in a KeePass database and
+  encrypted his master password with a custom algorithm referencing the band Radiohead. The
+  player must recover the key from a memory capture to retrieve the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- forensics
+authors:
+- name: wavess
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Forensic/memories-are-interesting-and-very-strong
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: evidence (memory capture)
+    reason: >-
+      The source repository for this challenge carries only README.md and challenge.yml; the
+      actual evidence is hosted externally on SharePoint and is recorded in missing.txt. It has
+      not yet been downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 1135a1b0e336a4f8354ac267eeaf99717d3696cd20651b6d9cde7718e3c6cbb8
+  - path: challenge.yml
+    algorithm: sha256
+    value: 54d427c17fd83436dde749a60e73c1f6796dc36af213dea8fd6842f866a85a29
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Forensic/memories-are-interesting-and-very-strong
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "medium" label. The challenge evidence is hosted
+  externally on SharePoint; the external link and archive password are recorded in missing.txt
+  and have not yet been downloaded.

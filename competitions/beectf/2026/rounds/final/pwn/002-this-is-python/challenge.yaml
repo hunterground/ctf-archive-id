@@ -1,0 +1,76 @@
+schema_version: '1.0'
+id: beectf-2026-final-pwn-002
+name: Node.js ? no this is python
+slug: 002-this-is-python
+original_name: Node.js ? no this is python
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: pwn
+original_category: Binary Exploitation
+description: Pwn challenge. A Python application, hardened by an embedded native helper, is exploited via a ROP chain against the libuv helper to read the flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- pwn
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Binary Exploitation/this-is-python
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: e08ccb7e792c9015665f60aa9fd638f9191cd412c5217a1b5d35f366fb6db710
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: 22aa0250bca27239cd8eb6f370644ee62bb1cb233b5e261ff81f782c95dc520c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: f5e74ff2d75a60e7a734a71927c7c89c9ef740ef14dffa62c8ab6c64404ef7ce
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c37b981508bf75bc75052b8505374fa17ef49e7e44018e523fc8eac3e316d488
+  - path: src/main.py
+    algorithm: sha256
+    value: d0275ed7abc20252f747828aeae0258d19a04fd63952f4b8e4c1d1eaa073e49b
+  - path: src/readflag.c
+    algorithm: sha256
+    value: 90e61129334e36df16d9147e38bb46bf16e531b438a86ac20afa4c8c80f4ea54
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 816f3062c7243d59680cf7e4bf417c84aa235f1e7aa4b3e1ea95edc609a525ca
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Binary Exploitation/this-is-python
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

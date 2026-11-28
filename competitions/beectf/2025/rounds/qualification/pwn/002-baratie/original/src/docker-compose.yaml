@@ -1,0 +1,10 @@
+version: '3'
+services:
+  baratie:
+    image: baratie
+    build: .
+    restart: always
+    environment:
+      - TERM=xterm
+    ports:
+      - "13375:13375"

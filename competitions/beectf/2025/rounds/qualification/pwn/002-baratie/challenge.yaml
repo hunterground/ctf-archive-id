@@ -1,0 +1,103 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-pwn-002
+name: Baratie
+slug: 002-baratie
+original_name: Baratie
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: pwn
+original_category: Binary Exploitation
+description: >-
+  Qualification binary exploitation challenge themed on the Baratie restaurant from One Piece.
+  The player must exploit a binary to become the world's best chef and reach the All Blue (gain
+  the flag).
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- pwn
+authors:
+- name: Lyo
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Binary Exploitation/baratie
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solve.py
+    reason: >-
+      Author solve script moved to solvers/ to keep the public challenge distribution free of
+      the author's solve code.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 411d8fc9c97f48b991ba262050a2a1e82235f71465f55931a10664cb55432396
+  - path: dist/Dockerfile
+    algorithm: sha256
+    value: 098cb94d82b3df818087d4070be8a5f4ffe6fa10ad26d87fecf8cc8dd87a714a
+  - path: dist/baratie
+    algorithm: sha256
+    value: 3508a597a49b189be63bbd3f85573d58ca3e40f915fcb15e185036dc96081112
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: da1ac1efc767293c5a55f293318e369c6fc48cb58546963c2020e975526e6d40
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 098cb94d82b3df818087d4070be8a5f4ffe6fa10ad26d87fecf8cc8dd87a714a
+  - path: src/baratie
+    algorithm: sha256
+    value: 3508a597a49b189be63bbd3f85573d58ca3e40f915fcb15e185036dc96081112
+  - path: src/baratie.c
+    algorithm: sha256
+    value: 00406e35f3fbb7a8031aedcaa43d1400e994dedb912b0d0de77ab867de6291dc
+  - path: src/compile.sh
+    algorithm: sha256
+    value: 16ab8653fabc46149e69f6c45d3d4934b457a10519891c0483e441db15369b1b
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: a0beb9a76ba876a248fb98f6b1fb9353d6ce7a733ca02ccd6e3933078b5d9f28
+  - path: src/flag.txt
+    algorithm: sha256
+    value: a28f744a62f13b1666e292aeb92ea4d317a9f5907f15b997c6f498261b494bd6
+  - path: src/start.sh
+    algorithm: sha256
+    value: 13d234b046a4e93763840ce7b322ae88dd7ce60f879acbdfd77318aa8d6e5fc1
+  - path: src/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 13375
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Binary%20Exploitation/baratie
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "easy" label. The author's solve.py was moved to
+  solvers/.

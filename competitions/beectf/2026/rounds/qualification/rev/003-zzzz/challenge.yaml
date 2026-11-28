@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-rev-003
+name: zzzz
+slug: 003-zzzz
+original_name: zzzz
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Reverse-engineering challenge described by the sleepy author as full of squares and wheels. A Python-oriented pyc bytecode / wheel analysis is implied.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- rev
+authors:
+- name: 🦦
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Reverse Engineering/zzzz
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 8472d371909b4682cfc9f520f332f6294b85d627391b9d05019b3588858adc32
+  - path: challenge.yml
+    algorithm: sha256
+    value: 0cd842e4caa4c4b1dc8a5b251036318d4428e55219d7285c00691042e7140407
+  - path: dist/zzzz.scr
+    algorithm: sha256
+    value: 6e15fdaadbcbb732b5d6b55c854a8e3a9e555f3a4d49a4c38a75a585ff1806c4
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Reverse Engineering/zzzz
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

@@ -1,0 +1,12 @@
+services:
+  beechat:
+    build: .
+    image: beechat
+    restart: unless-stopped
+    environment:
+      - TERM=xterm
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "31346:3135"

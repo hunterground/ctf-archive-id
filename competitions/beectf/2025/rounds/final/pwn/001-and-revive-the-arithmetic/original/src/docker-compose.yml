@@ -1,0 +1,13 @@
+services:
+  and-revive-the-arithmetic:
+    build: .
+    image: and-revive-the-arithmetic
+    restart: unless-stopped
+    environment:
+      - TERM=xterm
+    ulimits:
+      nproc: 65535
+      core: 0
+    ports:
+      - "31345:3134"
+

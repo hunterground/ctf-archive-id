@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-web-003
+name: y
+slug: 003-y
+original_name: y
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. Break into a company system that promises an iPad from NASA; the source includes a phar-based PHP exploit vector.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- web
+authors:
+- name: eludeeee
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Web Exploitation/y
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dockerfile
+    algorithm: sha256
+    value: e153d4631af267793bfb588ecca19e1f1c4eae9abde1e0666b55af2a8b880d07
+  - path: challenge.yml
+    algorithm: sha256
+    value: a1401e8bea142c5bd6e88a87603a4316c0399a48b389480e46104f70e20a0038
+  - path: docker-compose.yml
+    algorithm: sha256
+    value: 78fb22d7311838856756badebcc47b624998b02c268d1b0a9025ebf871d35159
+  - path: docker/phar.conf
+    algorithm: sha256
+    value: fa635df66bc49c0a7b55a4a38d6af4e557876948aa809460c92c8d36e8d10ffb
+  - path: flag_0203cc75753ab94a5b7d4cc1ddf8b65d.txt
+    algorithm: sha256
+    value: a618cb9ca7bb68ea39504fbe8fcdd69da51f5fbebc192c02044d2a9127e3c1f4
+  - path: generate_pdfs.py
+    algorithm: sha256
+    value: 484372be941a6479cf5fa93f603b6c95a1816e529aeb2445f6ea4c7e0b1e075a
+  - path: src/assets/dashboard.css
+    algorithm: sha256
+    value: f5ac7729a5e5f56509df2a160d4e641d7c626f43a2c4a3a6ef9829490ace858b
+  - path: src/assets/style.css
+    algorithm: sha256
+    value: 3745bbc0c3eb798b49eb2fd86ff652ab543763b221b1af8c0080497e49e902d8
+  - path: src/files/guide.pdf
+    algorithm: sha256
+    value: 2c16899f02cb557a6dbfe458e786c9b6ba1112220ee4c00139aeb2d01ab5a8e0
+  - path: src/files/manual.pdf
+    algorithm: sha256
+    value: 13ce85770f00905ce9285de2a067b37d57a37f8ca1c81e930aca9df4fe885c22
+  - path: src/index.php
+    algorithm: sha256
+    value: 42259782641adc3a4ebf15baf5043a034355bdaba3a2bd6deec3f6ad5c92b6d5
+  - path: src/robots.txt
+    algorithm: sha256
+    value: 276f3a6ee64e574d903e943567c578a7c8bb4a8f8b166afd5a201c5daf046175
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Web Exploitation/y
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

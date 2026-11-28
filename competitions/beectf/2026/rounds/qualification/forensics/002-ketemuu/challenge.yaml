@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-forensics-002
+name: KETEMUU
+slug: 002-ketemuu
+original_name: KETEMUU
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: Mobile forensics challenge. Given a copy of a phone data partition, recover a wallet used to buy game items and return the last transaction request hash.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- forensics
+authors:
+- name: HSFN
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Forensic/KETEMUU
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: Dist/Apa_yah_Chall.img
+    algorithm: sha256
+    value: 02cf91e9518157a5ca84a83781742a1cf5169360e0a4444c0a47cbebdf10c026
+  - path: README.md
+    algorithm: sha256
+    value: 6b29c531a56adbeff5d349a35d77a45f96f017a167bca3dba5c018287afc46a5
+  - path: challenge.yml
+    algorithm: sha256
+    value: 4e0fab061fd5e69c73c3521f510b70deeb996cb9386f37f31218bc6848b611b2
+  - path: src/flag.txt
+    algorithm: sha256
+    value: e95fdda46012b2153f40b54d93321c8631a502da9b4f4524936f56ed37967839
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Forensic/KETEMUU
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

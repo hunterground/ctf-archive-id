@@ -1,0 +1,71 @@
+schema_version: '1.0'
+id: beectf-2025-qualification-forensics-002
+name: zipzalabim
+slug: 002-zipzalabim
+original_name: zipzalabim
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Forensic
+description: >-
+  Qualification forensics challenge. A packet-capture investigation: "genggi" left traces all
+  over the place, and the player must piece together the captured traffic to find what was
+  hidden.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- forensics
+authors:
+- name: p0t4rr
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-qual
+  commit: 3e0fa8e624e8281e6336044047716df3ace8e9d1
+  original_path: Forensic/zipzalabim
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 6744c9c3ac694daac8f1da1c4376ec3fdcdfc809ef07f26706d3874c04475d49
+  - path: challenge.yml
+    algorithm: sha256
+    value: 17e2da5ba72194402ddd4be7730b01e25cbedbcca60a0e1b425a375b495041a2
+  - path: dist/confundo.pcap
+    algorithm: sha256
+    value: a272a9e53d33ec82202814b3018ea7671d162017047080701d57f37a326f82ca
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-qual
+  permission_reference: https://github.com/PETIRsec/beectf-2025-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual/tree/3e0fa8e624e8281e6336044047716df3ace8e9d1/Forensic/zipzalabim
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 qualification problemsetter repository. The repository
+  has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated
+  as MIT. Difficulty tag is the organizer's own "easy" label. No author solve script was present
+  in the source.

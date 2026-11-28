@@ -1,0 +1,33 @@
+name: "kecap256"
+category: Cryptography
+description: |-
+    Help me recover my private key from this kecap256 encrypted wallet. I remember some part of my private key which contains 777
+
+    flag: BEECTF{recovered_private_key}
+    example: BEECTF{0xc0ffeec0ffeec0ffeec0ffeec0ffeec0ffeec0ffeec0ffeec0ffeebeefbeef00}
+
+    first blood get bounty (chainid: 42161)
+
+    Author: bwe x chronopad
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+    - BEECTF{0x5469aed116df1ee0496645b51700cef1cbc3fec7772f3d078060cc26256c7b18}
+
+tags:
+    - hard
+
+files:
+    - dist/chall.zip
+
+state: visible
+
+version: "0.1"

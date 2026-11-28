@@ -1,0 +1,72 @@
+schema_version: '1.0'
+id: beectf-2025-final-forensics-002
+name: PT. Kucing Empus
+slug: 002-pt-kucing-empus
+original_name: PT. Kucing Empus
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: >-
+  Final forensics challenge (Indonesian). A corporate data-theft incident at PT Kucing Empus:
+  a phishing email leads to a malicious download from Shola's computeranding an exfiltration to
+  a public platform. The player must analyze a memory dump to find where the attacker stored the
+  stolen files.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- forensics
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Forensic/pt-kucing-empus
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: chall.zip / memory dump
+    reason: >-
+      The source repository for this challenge carries only challenge.yml; the actual evidence
+      (a memory dump) is hosted externally on Google Drive and is recorded in missing.txt. It has
+      not yet been downloaded.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 3a4a6226d9c71d881dd4e36e7eefb9c139bc99c62fcc849fd9258f62585ac392
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Forensic/pt-kucing-empus
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "medium" label. The challenge.yml lists no author,
+  so authors is empty. The challenge evidence (memory dump) is hosted on Google Drive; the
+  external link and archive password are recorded in missing.txt and have not yet been
+  downloaded.

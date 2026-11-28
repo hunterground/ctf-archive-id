@@ -1,0 +1,82 @@
+schema_version: '1.0'
+id: beectf-2025-final-rev-002
+name: Flact Check
+slug: 002-flact-check
+original_name: Flact Check
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: >-
+  Final reverse engineering challenge. A flag-checker binary implementing a virtual machine
+  whose VM opcodes keep encoded bytes flowing until a virtual comparison unlocks a hidden
+  signal guard. The player must reverse the VM to recover the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- rev
+authors:
+- name: Lyo
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Reverse Engineering/flact-check
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solve.py
+    reason: Author solve script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: cbb87051a12665cd8a52d3218e90cb70a8e1d739e5cc6ff289464f2a2dad3438
+  - path: dist/dependencies.txt
+    algorithm: sha256
+    value: f4cdfc229d21c9b52befbe4ff13ab432df7e79bf33bcce30d85fcb9434cd0334
+  - path: dist/flact-check
+    algorithm: sha256
+    value: 0305326bb776ca66984b98c228e50546ea6b53dde5d15eb19b146539cd1786da
+  - path: src/CMakeLists.txt
+    algorithm: sha256
+    value: 11e64a3b42a953a664c3e230158e512ee296cc6ac22645a7f1066e1f0ad5cf26
+  - path: src/build/flact-check
+    algorithm: sha256
+    value: 0305326bb776ca66984b98c228e50546ea6b53dde5d15eb19b146539cd1786da
+  - path: src/src/main.cpp
+    algorithm: sha256
+    value: 34ff67abb55cb8eeda3c765a0e677dcdec0c5ca3da0271fa60df0d7f8ac84929
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Reverse%20Engineering/flact-check
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "hard" label. The author's solve.py was moved to
+  solvers/.

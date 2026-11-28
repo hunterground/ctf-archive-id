@@ -1,0 +1,37 @@
+schema_version: '1.0'
+id: beectf-2025
+competition_id: beectf
+year: 2025
+name: BeeFest 2025
+status: completed
+verification: corroborated
+dates:
+  start: null
+  end: null
+statistics:
+  participant_count: null
+  challenge_count: 22
+references:
+- title: BeeFest - School of Computer Science BINUS
+  url: https://socs.binus.ac.id/category/beefest/
+  type: official_website
+  accessed: '2026-11-28'
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final
+  type: official_repository
+  accessed: '2026-11-28'
+- title: BeeCTF 2025 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-qual
+  type: official_repository
+  accessed: '2026-11-28'
+challenge_materials_imported: true
+notes: >-
+  BeeFest 2025 was held by BINUS University in collaboration with the PETIR Cyber
+  Security team. The cybersecurity branch, BeeCTF, is aimed at high-school students.
+  Twenty-two challenges were imported from the official problemsetter repositories:
+  twelve qualification challenges from PETIRsec/beectf-2025-qual and ten final
+  challenges from PETIRsec/beectf-2025-final (neither carries a LICENSE file; treated
+  as MIT per archive policy). The repositories carry no event date, so dates are left
+  null. Several forensics and reverse challenges host their evidence externally
+  (Google Drive, SharePoint, and one GitHub link), listed in missing.txt and not yet
+  downloaded.

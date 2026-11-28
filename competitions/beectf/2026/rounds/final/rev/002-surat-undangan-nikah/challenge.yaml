@@ -1,0 +1,73 @@
+schema_version: '1.0'
+id: beectf-2026-final-rev-002
+name: surat_undangan_nikah.apk
+slug: 002-surat-undangan-nikah
+original_name: surat_undangan_nikah.apk
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: rev
+original_category: Reverse Engineering
+description: Android reverse-engineering challenge. A malicious-looking wedding-invitation APK that must be defused without crashing the device.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- rev
+authors: []
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Reverse Engineering/surat-undangan-nikah
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 877aa093a9ac16bebb438ebeda3a4e9a78dbfe01ccf20f06302f0fbcab86a9c8
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 5db52abc875df7785bc732e9aaa5a0f29c5aae2cc3eee43a4d26138f8c56ff0c
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 37fdaae826f476408e745b5beba2b2366b6549c70f66ad07e91d90eaadc0b483
+  - path: src/app.py
+    algorithm: sha256
+    value: 0aa785dd5c99dd07a91c45c44e68bb3498207fc69ee33e6a33a35aae1aec2cdd
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 05b5eabf30cf1e4942a8e7ffe39de5b8f4fef3dfd48a251d5c473143828b52f6
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 251541b85922aa415c606fe194004d4d85d27bdf4da17d041acf7e4aeabdf3c3
+  - path: src/start.sh
+    algorithm: sha256
+    value: 0cd8ebb010ccdad98eb64c7021d9d5b255caee0781914eb1f9fa17e409076d0d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Reverse Engineering/surat-undangan-nikah
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

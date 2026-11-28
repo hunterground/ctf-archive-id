@@ -1,0 +1,65 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-rev-002
+name: Flux Capacitor
+slug: 002-flux-capacitor
+original_name: Flux Capacitor
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: rev
+original_category: Reverse Engineering
+description: Reverse-engineering challenge themed on Back to the Future. The data inside the Flux Capacitor must be decoded to get the DeLorean running.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- rev
+authors:
+- name: c0smic
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Reverse Engineering/flux-capacitor
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 4179acba2f21a759f025634cf549b33494266b27a2aaf50cf333c1273b339e68
+  - path: challenge.yml
+    algorithm: sha256
+    value: 26576c3e55a3c71816ec0b77e5afbba37312ddc110612ec8ed808577abced6a7
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: cfbfc82fb7c9697115bfcaf491e1fd95ec8afcfac3d78fccf26d771a98c35a05
+  - path: src/chall.c
+    algorithm: sha256
+    value: 6c1efa12e26f73c0d54c38e6d71815339dc49a93ca0a236017567d378583ee04
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Reverse Engineering/flux-capacitor
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

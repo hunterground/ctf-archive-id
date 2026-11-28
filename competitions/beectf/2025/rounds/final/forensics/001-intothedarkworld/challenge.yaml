@@ -1,0 +1,94 @@
+schema_version: '1.0'
+id: beectf-2025-final-forensics-001
+name: Into The Dark World
+slug: 001-intothedarkworld
+original_name: Into The Dark World
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: >-
+  Final forensics challenge. A social-engineering/malware DFIR scenario in which the player
+  must answer seven questions about a Discord link-click attack, including the attacker's
+  username, the malicious link, a malware md5sum, infected folders, an encryption key, and a
+  password, to recover the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- forensics
+authors:
+- name: Eyes
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Forensic/intothedarkworld
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: chall.zip
+    reason: >-
+      The chall.zip in the source is an empty placeholder (zero bytes). The actual evidence
+      is hosted externally on Google Drive and is recorded in missing.txt; it has not yet been
+      downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 77b90ccb3f40f9172ccf2a6fd6dc346bc7efe57896e1ab81bb7bd4fb69ac90cc
+  - path: chall.zip
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: challenge.yml
+    algorithm: sha256
+    value: dabce704eb436cd14d5a2c08d4dafe3b4d9526bb72c8bee7baeb0fb32c6e7efd
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 5cd75ad7184543cbf2f26febab9e5b63f4bcaf97d6bf62d6833ccbdfc8c9e4f5
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 337c5afe11104d564b0b4a2f5bf57a145596dcc620c3fff87f9e171ab76a2a5e
+  - path: src/question.py
+    algorithm: sha256
+    value: 1d1d414a5f9d3d302a7e667d6e2aa83e06d47752ba495b8b3e7c61a236f05380
+  - path: src/start.sh
+    algorithm: sha256
+    value: 1d4a9cde494db290d7bdd92d5c2fb52520e2e0dcf50cd60bb94bece16ee97243
+  - path: src/ynetd
+    algorithm: sha256
+    value: 481a6381e16a7e177c54533537cb63a3b48e500f6f39dea7cc9dd3e42cdb22cb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: service
+  services:
+  - nc 31.97.187.222 34504
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Forensic/intothedarkworld
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "hard" label. The challenge evidence (memory dump)
+  is hosted on Google Drive; the external link and archive password are recorded in missing.txt
+  and have not yet been downloaded.

@@ -1,0 +1,24 @@
+schema_version: '1.0'
+id: final
+competition_id: beectf
+edition_year: 2026
+division_id: null
+name: Final
+original_name: null
+sequence: 2
+type: final
+delivery: onsite
+description: Onsite final stage of BeeFest 2026 BeeCTF, held by BINUS University in collaboration with the PETIR Cyber Security team. Jeopardy-style individual competition for high-school students across cryptography, binary exploitation, reverse engineering, web exploitation, and forensics.
+dates:
+  start: null
+  end: null
+statistics:
+  challenge_count: 10
+  participant_count: null
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: 10 challenges imported from the official problemsetter repository https://github.com/PETIRsec/beefest-2026-final at commit b670374425a03a525170f63e9ccdb65888d558db. The repository carries no explicit event date; dates are left null.

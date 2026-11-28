@@ -1,0 +1,58 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-forensics-001
+name: BTW I Use Arch
+slug: 001-btw-i-use-arch
+original_name: BTW I Use Arch
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: DFIR challenge. An Arch Linux workstation was compromised after installing a tool from the AUR. The memory/disk image is hosted externally on Google Drive. Reconstruct the attacker's actions and find the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- forensics
+authors:
+- name: darflashxd
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Forensic/BTW I Use Arch
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: evidence
+    reason: The challenge evidence is hosted externally (Google Drive). It is recorded in missing.txt and has not yet been downloaded.
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 59d4f642efed9b85272be04961cc93ad1a1d87aa51da2199164f3d9468751cac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Forensic/BTW I Use Arch
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label. The challenge evidence is hosted externally on Google Drive; the external link is recorded in missing.txt and has not yet been downloaded.

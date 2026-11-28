@@ -1,0 +1,29 @@
+name: "BCC"
+category: Cryptography
+description: |-
+  Beelliptic Curve Cryptography, or BCC, is a cryptographic scheme based on the mathematical properties of bees and elliptic curves. Buzzing with security, BCC offers a unique approach to encryption and digital signatures, making it a sweet choice for protecting sensitive information in the digital age. Your task is to exploit the weaknesses in the BCC implementation to retrieve the flag.
+
+  Author: ringoshiro
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{4uth0r_n33d5_r3st_n0w...}
+
+tags:
+  - medium
+
+files:
+  - dist/chall.py
+  - dist/output.txt
+
+state: visible
+
+version: "0.1"

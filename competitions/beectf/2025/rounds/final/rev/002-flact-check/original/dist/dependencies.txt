@@ -1,0 +1,15 @@
+Flact-Check Challenge Dependencies
+=================================
+
+Runtime libraries (shared):
+  - FLTK 1.3 stack: libfltk, libfltk_forms, libfltk_images, libfltk_gl
+  - X11 stack: libX11, libXext, libXt, libxcb (plus common X extensions)
+  - Fonts: libfontconfig, libfreetype, libexpat
+  - Image/Compression: libpng, libjpeg, libz
+  - Runtime: libstdc++, libgcc_s
+
+Tested on:
+  - Ubuntu 22.04 (x86_64) with default desktop packages
+
+Notes:
+  - Requires an X11-capable environment (desktop session or X server)

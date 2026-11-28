@@ -1,0 +1,108 @@
+schema_version: '1.0'
+id: beectf-2025-final-web-001
+name: Crossfire
+slug: 001-crossfire
+original_name: Crossfire
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: >-
+  Final web exploitation challenge. A client-side challenge requiring an XSS-and-CSP bypass
+  chain (via jsdelivr) against a bot that reports URLs to obtain the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- web
+authors:
+- name: Mud
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Web Exploitation/crossfire
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 5fd5e9cab982b641b4a14b3073ebab25a4dee44cdac5ff6bf909336d4a9370d1
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 702700a501bb17d0fb382aa12b98b21c8e21b0f8f737b82f407cbffd652c10ba
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: 033bd28607b35e05db2ff29eafca95d7011e6ceb34eddfe9f2fedbd8acb16a63
+  - path: src/bot/.dockerignore
+    algorithm: sha256
+    value: 16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97
+  - path: src/bot/Dockerfile
+    algorithm: sha256
+    value: 5b4cfb8e1544a2d687e4410979a4c6273e4db6488d2ec7e73451bb043cc698d2
+  - path: src/bot/bot.js
+    algorithm: sha256
+    value: 84ab5d6dc4f7a09b7dea17155041e2283a6fbdd5d3e182a2fd331bf7a53ddb48
+  - path: src/bot/extensions/.gitkeep
+    algorithm: sha256
+    value: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  - path: src/bot/index.js
+    algorithm: sha256
+    value: 02ea0011c9ebaf8423fd0bcbe43712e08e6e2abecb393bff884cd86f3e63a42a
+  - path: src/bot/package.json
+    algorithm: sha256
+    value: e66cf7ece1715058e7838829d9beba0cf357609631987e95d2260c83f2ad8d38
+  - path: src/bot/views/index.ejs
+    algorithm: sha256
+    value: e88b024cb5de33c8736b989d896fb31130249e9c8d1e9852fe60781219dda9ed
+  - path: src/docker-compose.yaml
+    algorithm: sha256
+    value: f7526ceb14159453bd0d6f1933811d68462303e5617e2a2145620afdb2502d55
+  - path: src/package.json
+    algorithm: sha256
+    value: 46acf50360f378d06d81a22b97053bd9e6018243111c951d2e55b25f5d5881a1
+  - path: src/proxy.conf
+    algorithm: sha256
+    value: 49333d798015228f289c7d57436fae3c7bd8b2ee09dd1aceb4bc59a95fd047e9
+  - path: src/src/server.js
+    algorithm: sha256
+    value: 72b0cbda269357ec0bed52f3a414de594b08ea56a034b050e0d5bd2f9a8fb0ed
+  - path: src/start.sh
+    algorithm: sha256
+    value: d8a0563b60865034dd2bdbd5ecff10743219a8949f8e124e7cdeac33ca9b3428
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: service
+  services:
+  - http://31.97.187.222:8085/
+  - http://31.97.187.222:8085/report/
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Web%20Exploitation/crossfire
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "medium" label. No author solve script was present
+  in the source.

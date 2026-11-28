@@ -1,0 +1,89 @@
+schema_version: '1.0'
+id: beectf-2025-final-crypto-002
+name: kecap256
+slug: 002-kecap256
+original_name: kecap256
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: crypto
+original_category: Cryptography
+description: >-
+  Final cryptography challenge. A cryptocurrency wallet encrypted with "kecap256". The player
+  must recover a private key from a set of ECDSA-signed transactions using a lattice attack.
+  First blood carried a bounty on chain 42161.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- crypto
+authors:
+- name: bwe x chronopad
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Cryptography/kecap256
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/attack.sh
+    reason: Author solve script moved to solvers/.
+  - path: src/lattice_attack.py
+    reason: Author solve script moved to solvers/.
+  - path: src/prepare.py
+    reason: Author solve/data-preparation script moved to solvers/.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: d9aa83acb90f649644e273f340231ab2c157520075eca6f4dd773ca277cd7cab
+  - path: challenge.yml
+    algorithm: sha256
+    value: 071cc39eccbb968d08eb89ad4053506e4bfdac44879d3682496d7300459daa43
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: 196821cf12928a75208bd9f6d23999d2e1a4ea3a406daf91c2c9ed53789ed7fc
+  - path: src/ecdsa_lib.py
+    algorithm: sha256
+    value: f16507b94b646269539747157d29f7a47776141a183b921328703477f8e5ff37
+  - path: src/gen_transactions.py
+    algorithm: sha256
+    value: d6c5dd6b967e373cd33c9d3de17e932c2ff550539f3505e56a1b4ca0f96fe5e5
+  - path: src/transactions.json
+    algorithm: sha256
+    value: 71ab602695cdc66ae197b432dcd33879030a2528fb326305199cb58b9f3e5e3b
+  - path: src/wallet.py
+    algorithm: sha256
+    value: a62f2f78d23f9ae88050ae8b49e480fc9d12d7c90bc73af651ea4bcee356597d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Cryptography/kecap256
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "hard" label. The README documents the solve
+  method (run src/prepare.py then src/attack.sh); those solve scripts were moved to solvers/.

@@ -1,0 +1,164 @@
+schema_version: '1.0'
+id: beectf-2026-final-web-002
+name: Our Wrenally
+slug: 002-ourwrenally
+original_name: Our Wrenally
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge themed on a Wrenally intro. The player exploits the web application to obtain the flag.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- web
+authors:
+- name: Auric
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Web Exploitation/ourwrenally
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 456403aa10cf01131290aa34a733c0979a154b7905d961f78b664754806e068c
+  - path: challenge.yml
+    algorithm: sha256
+    value: 44ca16f2dcf7253c746fe2f8acca73c41823a7e762b45b1f2349b9a3c9f72303
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: f7a2ee839629e92c16ed2558a33ec835e09a5036f14f5840f0c0b9ba23ab7401
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: d32542fdc5514616de4eb3ce16340f0b1640a1149c2546bae543c0df33848875
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: c958dea816a1af66d47ac6966739279dc4f07a883c19deba13f2031978c5cb8d
+  - path: src/package.json
+    algorithm: sha256
+    value: 0dec0d3e6f673ae294fdad5863ed2611407f67afde746bb323194c64547d71a6
+  - path: src/public/app.js
+    algorithm: sha256
+    value: 46286cb9a9880041c10205d695dbebeb2cd3c5cf9096e4dcd6d8e9cbb0171a79
+  - path: src/public/collection.html
+    algorithm: sha256
+    value: 2522d304c2986602c03c3f258428f3d25430b7a555b3c97f3811df7dc19945f6
+  - path: src/public/collection.js
+    algorithm: sha256
+    value: 3f2c226e75befdc3d0d91bfb6d5d074a0afb47f1101e6243b2f74236114a6fa3
+  - path: src/public/index.html
+    algorithm: sha256
+    value: f7fd79bdb342ff16f9cbd549b856210e860ca58ba5b0472469ba45da971cfcf9
+  - path: src/public/styles.css
+    algorithm: sha256
+    value: 19c16b079b1becff46bba35117fb8f077f1f9ff335688c98fa662ccb294b205b
+  - path: src/src/index.js
+    algorithm: sha256
+    value: 0a7619588f4224b623706b6f72afc1fbaf353c12e73d5b61b69d911ed351d375
+  - path: src/src/middleware/account.js
+    algorithm: sha256
+    value: b8784364fb4fcaef5fc3c7cca0fa806c530e574ca0707bdb4505aed400bf63a1
+  - path: src/src/middleware/context.js
+    algorithm: sha256
+    value: a492e40c9fade93f701b904dda6802518a036d87c39fcf963dd7e5611d4f384b
+  - path: src/src/routes/admin.js
+    algorithm: sha256
+    value: 75e28dacd407d398707a538fa73373c8d2aba5ac051e416f8397c402575f6562
+  - path: src/src/routes/auth.js
+    algorithm: sha256
+    value: bafc92f8f45ea698e3722449ad51a7bbc16706408aa6b28d82fd0372ebf05a3b
+  - path: src/src/routes/collections.js
+    algorithm: sha256
+    value: e5e3d6f5221f4c11c9438a46ef48853d5320ba668816fcad7f06657bdf3f3ac7
+  - path: src/src/routes/exports.js
+    algorithm: sha256
+    value: d9ff2c721a94bf42945b6ee52a439fb25e6270ed5a4ae74bc18b03730c9cffad
+  - path: src/src/routes/index.js
+    algorithm: sha256
+    value: ad9e83be7fd9e9c10536e2eb9eea044a85cb95b49eeb4ed200b2d1b4cbf46d64
+  - path: src/src/routes/preferences.js
+    algorithm: sha256
+    value: 5209260ec6e0993facd317c17e10b6c9d596f4cf87941c2c31f746707f6d53de
+  - path: src/src/routes/status.js
+    algorithm: sha256
+    value: c031674bfb9cabb461631873e8ca1dafce6e04cb7761d2c2ba5071d54a35785e
+  - path: src/src/routes/themes.js
+    algorithm: sha256
+    value: 1c073d08ce6e4ade72995b9c86061696835d6e94166b81907d9e61a2cc834b49
+  - path: src/src/services/accounts.js
+    algorithm: sha256
+    value: 17dd24ba3588ff27dbcfcc394f1f3791d7be2269952f0785705befbfae1d5c04
+  - path: src/src/services/analyzers.js
+    algorithm: sha256
+    value: 5153502f6027308540942e2e245105a2648e48de4087ac372ddff4756cc711db
+  - path: src/src/services/bootstrap.js
+    algorithm: sha256
+    value: d89d2d1aa6908e7abfceba46522fd441a078ec27f306bee603e7fe5bd8a28303
+  - path: src/src/services/catalog.js
+    algorithm: sha256
+    value: 9fc9de3a71b568e33e2d9359fd90fef35077097a7385dbba3b675426a0f39f7e
+  - path: src/src/services/exports.js
+    algorithm: sha256
+    value: 166abcea479904c0d0556084d0a2595de6ef2556a03a9ebe276ff29288e1c2ee
+  - path: src/src/services/merge.js
+    algorithm: sha256
+    value: e5ee598fa396245334e31d9cef500f6387caf55ca3ccf6c01485c0afb485f40a
+  - path: src/src/services/mime.js
+    algorithm: sha256
+    value: e4be049e794afb51b35d39573978c273b2738bd1427fd3146294fcf2eb0d50ea
+  - path: src/src/services/preferences.js
+    algorithm: sha256
+    value: fa4dc6a3bea8c69c579150015a514740fe443682c53c1e8d08264a59155fd0e9
+  - path: src/src/services/selection.js
+    algorithm: sha256
+    value: a6079e01a2c3e90ac254eb6f52ce0e3744c818bee63620e6fca069eaa5f430bc
+  - path: src/src/services/source-policy.js
+    algorithm: sha256
+    value: 9372e9d32613c44357961dba52e342e17a87cd99a99953d15a056ef59af3358f
+  - path: src/src/services/theme-pack.js
+    algorithm: sha256
+    value: 72035d2b6d7490eddcceebe8f23a0f2b4c96772d864ca5e5d93bd520752f9bce
+  - path: src/src/services/validation.js
+    algorithm: sha256
+    value: 2a5851daf45bb6e0aac4d2228abbeb2598b026293e03786573a1d74a8d095fee
+  - path: src/src/state/accounts.js
+    algorithm: sha256
+    value: 157494f41eee11463dc19dddfb2a740f8e6795ad9138f0f91385d925b4a5aa9a
+  - path: src/src/state/runtime.js
+    algorithm: sha256
+    value: 05290c73e0dfbc41b0c4587eef0b6610f265c738fe89f5e16392b2b02c125408
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Web Exploitation/ourwrenally
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

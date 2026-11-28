@@ -1,0 +1,67 @@
+schema_version: '1.0'
+id: beectf-2026-final-forensics-001
+name: Ghost of Beefest
+slug: 001-ghost-of-beefest
+original_name: Ghost of Beefest
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: final
+category: forensics
+original_category: Forensics
+description: DFIR challenge. A cleanup tool wiped and encrypted a server disk. Two keys must be recovered, one for the disk and one for the encryption. The disk image is hosted externally on Google Drive.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- forensics
+authors:
+- name: arenaru
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-final
+  commit: b670374425a03a525170f63e9ccdb65888d558db
+  original_path: Forensic/ghost-of-beefest
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: evidence
+    reason: The challenge evidence is hosted externally (Google Drive). It is recorded in missing.txt and has not yet been downloaded.
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 0e2f6bbeb30f960cc9e610d8e9e9b4c616e64a76d961758183e87124e312601f
+  - path: challenge.yml
+    algorithm: sha256
+    value: 156959ede35b224439892eb766a5dfd802f4ff0933f6c4116c4f69add3f21acb
+  - path: src/auto_clean.c
+    algorithm: sha256
+    value: f63088c4becb9cfdc5eae5b1bfce4111990eaf649d37d48d756db00809f23d64
+  - path: src/generate_key.py
+    algorithm: sha256
+    value: 1e723473a7d7f2f9c0fdc0eab2dee38656b6270b22a9b61356daff7c8e4386ab
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-final
+  permission_reference: https://github.com/PETIRsec/beefest-2026-final
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Final - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-final/tree/b670374425a03a525170f63e9ccdb65888d558db/Forensic/ghost-of-beefest
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label. The challenge evidence is hosted externally on Google Drive; the external link is recorded in missing.txt and has not yet been downloaded.

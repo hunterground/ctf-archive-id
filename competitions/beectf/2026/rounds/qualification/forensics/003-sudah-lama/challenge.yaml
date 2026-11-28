@@ -1,0 +1,62 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-forensics-003
+name: sudah lama
+slug: 003-sudah-lama
+original_name: sudah lama
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: forensics
+original_category: Digital Forensic
+description: Network forensics challenge. A packet capture is provided; the player analyses it to recover the flag. The description hints at a long-lost classic-style challenge.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- forensics
+authors:
+- name: wavess
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Forensic/sudah-lama
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 785ccf1a91e79e2ba08340e9723e66ddb682483e5023af82adb9855ba4ae1503
+  - path: challenge.yml
+    algorithm: sha256
+    value: f338638d1911cacc797e5b5d31a34d017233cc7d94411f2744bb815461acf25c
+  - path: dist/capture.pcap
+    algorithm: sha256
+    value: fd64ea5bd3cb78ac60a5f132f2a39d400b68e95cb7799d14ac2f7f775b3fdfd8
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Forensic/sudah-lama
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

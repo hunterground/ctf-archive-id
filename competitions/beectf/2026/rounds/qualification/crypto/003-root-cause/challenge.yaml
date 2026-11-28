@@ -1,0 +1,68 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-crypto-003
+name: Root Cause
+slug: 003-root-cause
+original_name: Root Cause
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: crypto
+original_category: Cryptography
+description: Cryptography challenge built on polynomial roots and their symmetry. The player combines the roots to recover the flag.
+difficulty:
+  value: medium
+  source: organizer
+tags:
+- medium
+- crypto
+authors:
+- name: AgileOrc
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Cryptography/root-cause
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 01b384015771248b9dcdd915a00e752ad71eab73c849f6c845f6563450fec88f
+  - path: challenge.yml
+    algorithm: sha256
+    value: 43fe48ad1e3969298a4353857e2867304db38d94800665e42b05227807453f79
+  - path: dist/dist.zip
+    algorithm: sha256
+    value: dbe46dfc88a2f45e0a092c5489e6ebe57eb4742824cd011894c3176db4476961
+  - path: src/chall.py
+    algorithm: sha256
+    value: 11a56a7a979587dffa7f10d30e47029c03c491a845b06884781d885e1203df49
+  - path: src/output.txt
+    algorithm: sha256
+    value: c52db3fd78e88935e578e75f542d73538746e9e873c13b2cb217af58eec15d01
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Cryptography/root-cause
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

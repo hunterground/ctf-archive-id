@@ -1,0 +1,29 @@
+name: "Flact Check"
+category: Reverse Engineering
+description: |-
+  Yep this is a simple flag checker, no doubt
+
+  Author: Lyo
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{vM_0p5_kEEp_enc0d3d_byt35_f10w1ng_un71l_V1r7u4l_cmp_un10ck5_h1dd3n_5ignal_gu4rd14n5_57andby4}
+
+tags:
+  - hard
+
+files:
+  - dist/flact-check
+  - dist/dependencies.txt
+
+state: visible
+
+version: "0.1"

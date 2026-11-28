@@ -1,0 +1,30 @@
+name: "cotton-candy"
+category: Reverse Engineering
+description: |-
+  Oh no! I just download a file from my friend. But suddenly all my files are encrypted. Including my story that must be submit tomorrow. Can you help me? 
+
+  -Oda Sensei-
+
+  author: Lyo
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 30
+    minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{Ez_k4n_ya_cuman_diX0R_d0ang}
+
+tags:
+  - medium
+
+files:
+  - dist/chall.zip
+
+state: visible
+
+version: "0.1"

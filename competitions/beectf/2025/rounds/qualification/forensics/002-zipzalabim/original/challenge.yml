@@ -1,0 +1,30 @@
+name: "zipzalabim"
+category: Forensic
+description: |-
+  genggi left his traces all over the place, put the pieces together and you might find what he tried to hide.
+
+  author: p0t4rr
+
+connection_info:
+
+##### DON'T CHANGE
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 30
+  minimum: 100
+##### DON'T CHANGE
+
+flags:
+  - BEECTF{z1mz4l4b1iim_c0rupt3edd_d4mnnn}
+
+tags:
+  - easy
+
+files:
+  - dist/confundo.pcap
+
+state: visible
+
+version: "0.1"

@@ -1,0 +1,74 @@
+schema_version: '1.0'
+id: beectf-2026-qualification-web-002
+name: MATH6025 - Discrete Mathematics
+slug: 002-dismath
+original_name: MATH6025 - Discrete Mathematics
+competition_id: beectf
+edition_year: 2026
+division_id: null
+round_id: qualification
+category: web
+original_category: Web Exploitation
+description: Web exploitation challenge. A website renders user math assignments using a markup language; the player must find a way to inject the site to read the flag.
+difficulty:
+  value: easy
+  source: organizer
+tags:
+- easy
+- web
+authors:
+- name: sierra
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beefest-2026-qual
+  commit: 783baf99ed866381fc5716790c4f7cc8478fd938
+  original_path: Web Exploitation/dismath
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions: []
+  checksum_verified: true
+  checksums:
+  - path: challenge.yml
+    algorithm: sha256
+    value: 1b02897b9ea56bee2617b1ca1513c9d6af1421b5bcbcfe77bb3a0e17a8ccc5d7
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: b08ded822e0ff2f0d7bfd936b19f643adb4505c7ae601938ddb25552295724b2
+  - path: src/app.py
+    algorithm: sha256
+    value: 6349201a9ee3c916ec5c6da396769b0a4fe8397d806aed9e156e894b4d5abdf1
+  - path: src/docker-compose.yml
+    algorithm: sha256
+    value: 7cb6d4756d65e372af984b9e9083ccea0b2f02a1026b9e5e7f8b67c5dc778bbb
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: b87aa5270772708aeaed24ad65681618c398f238e7b3bed393af852738243377
+  - path: src/start.sh
+    algorithm: sha256
+    value: b1a3e77ff7e057d8e91d5a7f0a4cdc530adb73e56645fc7ca7c82dbb88f87aac
+  - path: src/templates/index.html
+    algorithm: sha256
+    value: 5a58b6b73443c0384df3c0ce972ab988a6178be88d26cddc71740c952bf01deb
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: Re-published from the BeeCTF 2026 problemsetter repository https://github.com/PETIRsec/beefest-2026-qual
+  permission_reference: https://github.com/PETIRsec/beefest-2026-qual
+environment:
+  type: null
+  services: []
+  requirements: []
+references:
+- title: BeeCTF 2026 Qual - PETIRsec
+  url: https://github.com/PETIRsec/beefest-2026-qual/tree/783baf99ed866381fc5716790c4f7cc8478fd938/Web Exploitation/dismath
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: Recorded from the official BeeCTF 2026 problemsetter repository. The repository has no LICENSE file; per archive curation policy for unlicensed material, licensing is treated as MIT. Difficulty tag is the organizer's own label.

@@ -1,0 +1,92 @@
+schema_version: '1.0'
+id: beectf-2025-final-web-002
+name: leakss
+slug: 002-leakss
+original_name: leakss
+competition_id: beectf
+edition_year: 2025
+division_id: null
+round_id: final
+category: web
+original_category: Web Exploitation
+description: >-
+  Final web exploitation challenge. An XS-leaks (cross-site leaks) challenge based on frame
+  counting; the player must log in as admin and leak data through browser side-channel timing
+  of frame loads.
+difficulty:
+  value: hard
+  source: organizer
+tags:
+- hard
+- web
+authors:
+- name: tanknight
+organization: null
+provenance:
+  archive_id: null
+  source_type: git
+  repository: https://github.com/PETIRsec/beectf-2025-final
+  commit: c8b3c959a25f515498286f5499559c001496c2a8
+  original_path: Web Exploitation/leakss
+preservation:
+  path: original/
+  original_structure: true
+  modified: false
+  modifications: []
+  omissions:
+  - path: src/solver/solver.py
+    reason: Author solve script moved to solvers/ (the whole solver/ directory).
+  checksum_verified: true
+  checksums:
+  - path: README.md
+    algorithm: sha256
+    value: 095a5c951180bf4b7e1e9d13ff81e7202e62f46cc1984a2342944571d027e488
+  - path: challenge.yml
+    algorithm: sha256
+    value: 829b830b528a0a9df92ec96c48674143edbc23329c704d4c9044799e3423b920
+  - path: dist/chall.zip
+    algorithm: sha256
+    value: e2ccda65dbde8f5ad0d587b13aafbcea37106f102ddc491351910fa87da0c6ab
+  - path: src/Dockerfile
+    algorithm: sha256
+    value: a6b65cb730a002ebdd69c53c68a9bfa07612a040c3ec920bad352e8bfc1b2c58
+  - path: src/app.py
+    algorithm: sha256
+    value: 2b35159d889918cb29e1d62bedbce1422c654e60509b8914b097e8b31e94d905
+  - path: src/requirements.txt
+    algorithm: sha256
+    value: 20c5859eae45e38729d1dc39550c638735b17daceb4abebdfa5d10ac4c23a42d
+  - path: src/start.sh
+    algorithm: sha256
+    value: d62554e215c9fc53e95307e8e59183af92ad66cd6cc44186d25921c4a7873488
+  - path: src/templates/home.html
+    algorithm: sha256
+    value: f13e8369149ac86822c06d95c7b1ebf9b8186b8cf99e0507e1c139505917f669
+  - path: src/templates/login.html
+    algorithm: sha256
+    value: efef5c4cd8521aa3cdbc3332912795cab5e319e4b79f2bb6c1d7df80f9072b2d
+licensing:
+  declared_license: MIT
+  copyright_holder: null
+  redistribution: permitted
+  attribution_required: true
+  attribution: >-
+    Re-published from the BeeCTF 2025 problemsetter repository
+    https://github.com/PETIRsec/beectf-2025-final
+  permission_reference: https://github.com/PETIRsec/beectf-2025-final
+environment:
+  type: service
+  services:
+  - https://31.97.187.222:9999/
+  requirements: []
+references:
+- title: BeeCTF 2025 Final - PETIRsec
+  url: https://github.com/PETIRsec/beectf-2025-final/tree/c8b3c959a25f515498286f5499559c001496c2a8/Web%20Exploitation/leakss
+  type: official_repository
+  accessed: '2026-11-28'
+verification: corroborated
+notes: >-
+  Recorded from the official BeeCTF 2025 problemsetter repository. The repository has no
+  LICENSE file; per archive curation policy for unlicensed material, licensing is treated as
+  MIT. Difficulty tag is the organizer's own "hard" label. The author's solver.py was moved to
+  solvers/ (the whole solver/ directory).
